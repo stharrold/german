@@ -1,0 +1,104 @@
+{
+  "words": [
+    {
+      "german": "groß",
+      "english": "big / large / tall",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "klein",
+      "english": "small / little",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "gut",
+      "english": "good",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "schlecht",
+      "english": "bad",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "neu",
+      "english": "new",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "alt",
+      "english": "old",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "jung",
+      "english": "young",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "schön",
+      "english": "beautiful / nice",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "lang",
+      "english": "long",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "kurz",
+      "english": "short",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "hoch",
+      "english": "high / tall",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "tief",
+      "english": "deep / low",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "schnell",
+      "english": "fast / quick",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "langsam",
+      "english": "slow",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "wichtig",
+      "english": "important",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "richtig",
+      "english": "correct / right",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "falsch",
+      "english": "wrong / false",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "leicht",
+      "english": "easy / light",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "schwer",
+      "english": "heavy / difficult",
+      "part_of_speech": "adjective"
+    },
+    {
+      "german": "hell",
+      "english": "bright / light",
+      "part_of_speech": "adjective"
+    }
+  ]
+}
