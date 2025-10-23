@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Calculate semantic version based on component changes."""
 
+import re
 import subprocess
 import sys
-import re
 from pathlib import Path
+
 
 def get_changed_files(base_branch):
     """Get list of changed files compared to base."""

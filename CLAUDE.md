@@ -45,31 +45,33 @@ The orchestrator will:
 - Update TODO file with progress
 - Guide through: planning → specification → implementation → quality → PR
 
-**Monitor context usage:** Run `/context` periodically. When >50%, orchestrator will save state and prompt you to run `/init` to reset.
+**Monitor context usage:** Run `/context` periodically. At 100K tokens, orchestrator saves state to TODO_*.md and prompts you to run `/init` (updates memory files) then `/compact` (compresses memory buffer).
 
-### Workflow Phases
+### Workflow Phases (Bidirectional BMAD ↔ SpecKit Flow)
 
-**Phase 1: Planning** (main repo, `contrib/<gh-user>` branch)
-- Create requirements.md and architecture.md
-- Skills: bmad-planner
+**Phase 1: Planning (BMAD - Interactive)** (main repo, `contrib/<gh-user>` branch)
+- **Interactive Q&A:** 3 personas gather requirements
+- **Output:** planning/<feature>/ with requirements.md, architecture.md, epics.md
+- **Skills:** bmad-planner
 
-**Phase 2: Implementation** (feature worktree)
-- Create spec.md and plan.md
-- Implement features
-- Write tests
-- Skills: speckit-author, git-workflow-manager
+**Phase 2: Implementation (SpecKit - Interactive)** (feature worktree)
+- **Read BMAD context** from ../planning/<feature>/
+- **Interactive Q&A:** Implementation approach, testing strategy, task breakdown
+- **Output:** specs/<feature>/ with spec.md, plan.md (informed by BMAD)
+- **Skills:** speckit-author, git-workflow-manager
 
 **Phase 3: Quality** (feature worktree)
 - Run quality gates (≥80% coverage, all tests passing)
 - Calculate semantic version
 - Skills: quality-enforcer
 
-**Phase 4: Integration**
+**Phase 4: Integration + Feedback**
 - Create PR: feature → contrib/<gh-user>
 - Merge in GitHub UI
+- **Update BMAD with as-built:** Run update_asbuilt.py to document deviations, actual effort, lessons learned
 - Rebase contrib onto develop
 - Create PR: contrib/<gh-user> → develop
-- Skills: git-workflow-manager
+- Skills: git-workflow-manager, speckit-author (for as-built updates)
 
 **Phase 5: Release** (main repo)
 - Create release branch from develop
@@ -79,6 +81,25 @@ The orchestrator will:
 - Back-merge to develop
 - Cleanup release branch
 - Skills: git-workflow-manager, quality-enforcer
+
+### Key Workflow Features
+
+**Interactive Planning (BMAD):**
+- 🧠 Analyst: Q&A for requirements
+- 🏗️ Architect: Q&A for architecture
+- 📋 PM: Automatic epic breakdown
+
+**Interactive Specifications (SpecKit):**
+- Reads BMAD planning from Phase 1
+- Q&A for implementation preferences
+- Q&A for testing strategy
+- Q&A for task organization
+
+**Feedback Loop (SpecKit → BMAD):**
+- After PR merge, update planning/ with as-built details
+- Document deviations and reasons
+- Record actual vs estimated effort
+- Capture lessons learned for future planning
 
 ## Git Branch Structure
 
@@ -327,10 +348,50 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ✓ Load orchestrator first, then skills per phase (token efficient)
 ✓ Always wait for "Y" confirmation before actions
-✓ Monitor context via `/context` - save state and `/init` when >50%
+✓ Monitor context - automatic checkpoint at 100K tokens
 ✓ Update TODO file after each step
 ✓ Use workflow-utilities for shared utilities
 ✓ Enforce quality gates before PR creation
+
+## Context Monitoring (CRITICAL)
+
+**Token Threshold: 100K tokens**
+
+System will show token usage after each tool use:
+```
+Token usage: 98543/200000; 101457 remaining
+```
+
+**At 100K tokens (~73% of 136K effective capacity):**
+
+✅ **Claude automatically:**
+1. Updates TODO_*.md with current state
+2. Commits checkpoint
+3. Displays: "✓ State saved to TODO file"
+
+⚠️ **You must then:**
+1. Run `/init` (updates CLAUDE.md memory files)
+2. Run `/compact` (compresses memory buffer)
+3. Continue working - context preserved in TODO_*.md
+
+**Warning at 80K tokens:**
+- Complete current task before checkpoint
+- Checkpoint at 100K ensures clean resume
+
+**Effective context breakdown:**
+- Total capacity: 200K tokens
+- System overhead: 64K tokens (prompt, tools, memory, buffer)
+- Usable context: 136K tokens
+- Checkpoint at: 100K tokens (73% of usable)
+- Safety margin: 36K tokens for wrap-up
+
+**Why 100K tokens?**
+- Ensures enough remaining context to:
+  - Save complete state to TODO_*.md
+  - Commit changes properly
+  - Provide clear resume instructions
+- Prevents hitting hard limits mid-task
+- Allows current task completion before reset
 
 ## Critical Architectural Notes
 
@@ -358,3 +419,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - Complete workflow: `WORKFLOW.md` (5 phases, 1035 lines)
 - Detailed planning: `TODO_feature_*.md` files
 - Original spec: `ARCHIVED/Workflow-v5x2.md`
+
+## Related Documentation
+
+- **[README.md](README.md)** - Project overview, purpose, and getting started guide
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete workflow guide with all 5 phases detailed
+
+For detailed workflow phase documentation, see [WORKFLOW.md](WORKFLOW.md).

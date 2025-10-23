@@ -120,6 +120,52 @@ worktree-directory/
 
 **Critical:** TODO_*.md files live in **main repo**, not in worktrees. Worktrees reference them via `../TODO_*.md`.
 
+## Directory Standards
+
+**Every directory in this project must follow these standards:**
+
+1. **Contains CLAUDE.md and README.md**
+   - `CLAUDE.md` - Context-specific guidance for Claude Code when working in this directory
+   - `README.md` - Human-readable documentation for developers
+
+2. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
+   - For storing deprecated items from that directory
+   - ARCHIVED/ also has its own CLAUDE.md and README.md
+
+3. **Example structure:**
+   ```
+   specs/feature-auth/
+   ├── CLAUDE.md           ← "Guide for working with auth specs"
+   ├── README.md           ← "Authentication feature specifications"
+   ├── ARCHIVED/
+   │   ├── CLAUDE.md       ← "Guide for archived auth specs"
+   │   ├── README.md       ← "Archive of deprecated auth specs"
+   │   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
+   ├── spec.md
+   └── plan.md
+   ```
+
+**Creating compliant directories:**
+
+Use the workflow-utilities helper script to ensure directories meet standards:
+
+```bash
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create <directory-path> "<purpose-description>"
+```
+
+**Example:**
+```bash
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create "specs/user-auth" "User authentication feature specifications"
+```
+
+This automatically creates:
+- The target directory
+- CLAUDE.md with purpose and workflow references
+- README.md with human-readable documentation
+- ARCHIVED/ subdirectory with its own CLAUDE.md and README.md
+
 ## Workflow Phases
 
 ### Phase 0: Initial Setup
@@ -173,32 +219,102 @@ worktree-directory/
 **Branch:** `contrib/<gh-user>`
 **Skills:** bmad-planner, workflow-utilities
 
-**Steps:**
+**Interactive Planning Session:**
 
-1. **Create requirements.md:**
-   - User needs and acceptance criteria
-   - Functional and non-functional requirements
-   - Success metrics
+BMAD uses a three-persona approach to gather requirements and design architecture.
 
-2. **Create architecture.md:**
-   - System design and component structure
-   - Data models and schemas
-   - Technology choices
-   - Integration points
+#### Persona 1: 🧠 BMAD Analyst (Requirements)
 
-3. **Commit to contrib branch:**
-   ```bash
-   git add requirements.md architecture.md
-   git commit -m "docs(planning): add BMAD planning documents"
-   git push
-   ```
+Claude acts as business analyst to create requirements.md:
+
+**Interactive Q&A:**
+```
+I'll help create the requirements document.
+
+What problem does this feature solve?
+> [User answers]
+
+Who will use this feature? (primary users)
+> [User answers]
+
+How will we measure success?
+> [User answers]
+```
+
+**Generates:** `planning/<feature>/requirements.md` (using comprehensive template)
+- Business context, problem statement, success criteria
+- Functional requirements (FR-001, FR-002...) with acceptance criteria
+- Non-functional requirements (performance, security, scalability)
+- User stories with scenarios
+- Risks and mitigation
+
+#### Persona 2: 🏗️ BMAD Architect (Architecture)
+
+Claude acts as technical architect to create architecture.md:
+
+**Reads:** requirements.md for context
+
+**Interactive Q&A:**
+```
+Based on the requirements, I'll design the technical architecture.
+
+Technology preferences? (Python frameworks: FastAPI/Flask/Django)
+> [User answers]
+
+Database requirements? (SQLite for dev, PostgreSQL for prod?)
+> [User answers]
+
+Performance targets? (Response time, throughput)
+> [User answers]
+```
+
+**Generates:** `planning/<feature>/architecture.md` (using comprehensive template)
+- System overview, component diagrams
+- Technology stack with justifications
+- Data models, API endpoints
+- Container architecture (Containerfile, podman-compose.yml)
+- Security, error handling, testing strategy
+- Deployment and observability
+
+#### Persona 3: 📋 BMAD PM (Epic Breakdown)
+
+Claude acts as project manager to create epics.md:
+
+**Reads:** requirements.md + architecture.md for context
+
+**Generates:** `planning/<feature>/epics.md` (epic breakdown)
+- Epic 1, Epic 2, Epic 3... with scope and complexity
+- Dependencies between epics
+- Implementation priority order
+- Timeline estimates
+
+#### Commit Planning Documents
+
+```bash
+git add planning/<feature>/
+git commit -m "docs(planning): add BMAD planning for <feature>
+
+BMAD planning session complete:
+- requirements.md: Business requirements and user stories
+- architecture.md: Technical design and technology stack
+- epics.md: Epic breakdown and priorities
+
+Refs: planning/<feature>/README.md
+"
+git push origin contrib/<gh-user>
+```
 
 **User prompt:** "next step?" (from contrib branch)
 
 **Output:**
-- ✓ requirements.md created (BMAD planning)
-- ✓ architecture.md created (BMAD planning)
+- ✓ planning/<feature>/requirements.md created (BMAD Analyst)
+- ✓ planning/<feature>/architecture.md created (BMAD Architect)
+- ✓ planning/<feature>/epics.md created (BMAD PM)
 - ✓ Committed to contrib/<gh-user>
+
+**Next:** Create feature worktree (Phase 2 will use these planning docs as context)
+
+**Reference:** [bmad-planner skill](/.claude/skills/bmad-planner/SKILL.md)
 
 ---
 
@@ -250,11 +366,37 @@ cd /Users/user/Documents/GitHub/german_feature_certificate-a1
 - `spec.md` - Detailed specification (API contracts, data models, behaviors)
 - `plan.md` - Implementation task breakdown (impl_001, impl_002, test_001, etc.)
 
+**BMAD Context Integration:**
+
+If planning documents exist in `../planning/<feature>/`:
+```
+I found BMAD planning documents from Phase 1.
+
+Using as context:
+- requirements.md: 15 functional requirements, 5 user stories
+- architecture.md: Python/FastAPI stack, PostgreSQL database
+- epics.md: 3 epics (data layer, API, tests)
+
+Generating SpecKit specifications that align with BMAD planning...
+```
+
+If no planning documents:
+```
+No BMAD planning found. Creating specifications from scratch.
+
+What is the main purpose of this feature?
+```
+
+**SpecKit uses planning context to generate:**
+- spec.md sections align with requirements.md functional requirements
+- plan.md tasks organized by epics.md epic breakdown
+- Technology choices match architecture.md stack
+
 **User prompt:** "next step?" (from worktree)
 
 **Output:**
-- ✓ spec.md created (~400-600 lines)
-- ✓ plan.md created (~300-400 lines)
+- ✓ spec.md created (~400-600 lines, informed by BMAD if available)
+- ✓ plan.md created (~300-400 lines, organized by epics if available)
 - ✓ Committed and pushed to feature branch
 
 #### Step 2.4: Implementation Tasks
@@ -263,9 +405,10 @@ cd /Users/user/Documents/GitHub/german_feature_certificate-a1
 1. Parse `plan.md` for next pending task
 2. Implement code following spec.md
 3. Write tests (target ≥80% coverage)
-4. Commit with semantic message
-5. Update TODO_*.md task status
-6. Repeat for all tasks
+4. **Check for deprecated files** - If implementation replaces existing files, use [file deprecation](#file-deprecation) process
+5. Commit with semantic message
+6. Update TODO_*.md task status
+7. Repeat for all tasks
 
 **User prompt:** "next step?" (iteratively)
 
@@ -882,6 +1025,14 @@ python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
 # Archive workflow
 python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   archive TODO_feature_*.md
+
+# Create directory with standards (CLAUDE.md, README.md, ARCHIVED/)
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create <directory-path> "<purpose-description>"
+
+# Deprecate files (archive with timestamp)
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  <todo-file> "<description>" <file1> <file2> ...
 ```
 
 ### Testing & Quality
@@ -941,21 +1092,209 @@ gh pr create --base "develop" --head "contrib/<gh-user>"
 
 ## Context Management
 
+### Critical Token Threshold: 100K Tokens
+
+**Effective context:** ~136K tokens (200K total - 64K system overhead)
+
+**At 100K tokens used (~73% of effective capacity):**
+
+Claude will **automatically**:
+1. Save all task state to TODO_*.md (update YAML frontmatter)
+2. Document current context in TODO body:
+   - Current phase and step
+   - Completed tasks
+   - In-progress tasks
+   - Next pending tasks
+   - Any blockers or notes
+3. Commit TODO_*.md updates
+
+Then **you must**:
+1. Run `/init` to update CLAUDE.md memory files with current state
+2. Run `/compact` to compress memory and reduce token usage
+3. Continue working - context is preserved in TODO_*.md
+
 **Monitor context usage:**
 ```bash
 /context
 ```
 
-**If context > 50%:**
-1. Claude will prompt you
-2. Run `/init` to reset conversation
-3. Workflow state persists in TODO.md and TODO_*.md files
-4. Continue with "next step?" after reset
+Token usage is shown in system warnings after each tool use:
+```
+Token usage: 100543/200000; 99457 remaining
+```
+
+**When you see usage approaching 100K:**
+- Claude will proactively save state to TODO_*.md
+- Wait for "✓ State saved to TODO file" confirmation
+- Run /init (updates memory files) and /compact (compresses memory)
+- Continue working with reduced token usage
 
 **Best practices:**
-- Check context after each major phase
-- Archive completed workflows to free up TODO.md space
-- Use progressive skill loading (don't load all skills at once)
+- Check /context after each major phase (every 10-15K tokens)
+- Archive completed workflows to reduce TODO.md size
+- Use progressive skill loading (only load needed skills per phase)
+- Expect 1-2 context resets per complex feature workflow
+
+### State Preservation in TODO_*.md
+
+When context reset is triggered, the following is saved to YAML frontmatter:
+
+```yaml
+workflow_progress:
+  phase: 2                    # Current workflow phase (0-5)
+  current_step: "2.4"        # Specific step within phase
+  last_task: "impl_003"      # Last completed/active task ID
+  last_update: "2025-10-23T15:30:00Z"
+  status: "implementation"   # Current status
+
+context_checkpoints:
+  - timestamp: "2025-10-23T15:30:00Z"
+    token_usage: 100234
+    phase: 2
+    step: "2.4"
+    last_task: "impl_003"
+    notes: "Completed script implementation, starting tests"
+```
+
+Plus task-level status updates for all tasks (pending → in_progress → completed)
+
+---
+
+## File Deprecation
+
+When implementation replaces or removes existing files, use proper deprecation to maintain traceability.
+
+### Deprecation Process
+
+**When to deprecate files:**
+- Replacing old implementation with new approach
+- Removing obsolete features
+- Consolidating multiple files into one
+- Refactoring changes file structure
+
+**Naming format:** `YYYYMMDDTHHMMSSZ_<description>.zip`
+- **YYYYMMDDTHHMMSSZ:** Timestamp from the TODO file that deprecated the files
+- **description:** Brief hyphen-separated description (e.g., "old-auth-flow", "legacy-api-v1")
+
+### Using the Deprecation Script
+
+**Command:**
+```bash
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  <todo-file> "<description>" <file1> <file2> ...
+```
+
+**Example:**
+```bash
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251023T104248Z_auth-refactor.md \
+  "old-oauth-implementation" \
+  src/auth/old_oauth.py \
+  src/auth/legacy_tokens.py \
+  tests/test_old_auth.py
+```
+
+**What happens:**
+1. Extracts timestamp from TODO filename: `20251023T104248Z`
+2. Creates archive: `ARCHIVED/20251023T104248Z_old-oauth-implementation.zip`
+3. Adds files to zip archive
+4. Removes original files from repository
+5. Updates TODO file with deprecation entry
+6. Commits changes
+
+### Deprecation Examples
+
+**Example 1: Replace authentication system**
+```bash
+# Deprecate old OAuth implementation
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251023T140000Z_auth-v2.md \
+  "oauth-v1-system" \
+  src/auth/oauth_v1.py \
+  src/auth/token_manager_v1.py \
+  tests/test_oauth_v1.py
+```
+
+Result: `ARCHIVED/20251023T140000Z_oauth-v1-system.zip`
+
+**Example 2: Consolidate vocabulary modules**
+```bash
+# Deprecate separate A1/A2 files (now combined)
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251024T090000Z_vocab-consolidation.md \
+  "separate-level-modules" \
+  src/vocabulary/a1_nouns.py \
+  src/vocabulary/a1_verbs.py \
+  src/vocabulary/a2_nouns.py \
+  src/vocabulary/a2_verbs.py
+```
+
+Result: `ARCHIVED/20251024T090000Z_separate-level-modules.zip`
+
+**Example 3: Remove unused components**
+```bash
+# Deprecate experimental features that didn't work out
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251025T110000Z_cleanup.md \
+  "experimental-quiz-engine" \
+  src/quiz/experimental_engine.py \
+  src/quiz/adaptive_algorithm.py \
+  tests/test_experimental_quiz.py \
+  docs/quiz_algorithm.md
+```
+
+Result: `ARCHIVED/20251025T110000Z_experimental-quiz-engine.zip`
+
+### Locating Deprecated Files
+
+**List all archived files by date:**
+```bash
+ls -lt ARCHIVED/*.zip
+```
+
+**Search for specific deprecation:**
+```bash
+ls ARCHIVED/*oauth*.zip
+ls ARCHIVED/*20251023*.zip
+```
+
+**View archive contents without extracting:**
+```bash
+unzip -l ARCHIVED/20251023T140000Z_oauth-v1-system.zip
+```
+
+**Extract archived files for review:**
+```bash
+# Extract to temporary directory
+mkdir -p /tmp/review
+unzip ARCHIVED/20251023T140000Z_oauth-v1-system.zip -d /tmp/review
+
+# Review files
+ls -la /tmp/review
+
+# Clean up when done
+rm -rf /tmp/review
+```
+
+### Archive Retention
+
+**Policy:**
+- Archives stored indefinitely in ARCHIVED/ directory
+- Tracked in git history
+- Listed in TODO.md manifest (last 10)
+- Review quarterly for cleanup (remove after 1 year if not needed)
+
+**Finding related TODO:**
+Each archive timestamp matches a TODO file:
+```bash
+# Archive: ARCHIVED/20251023T140000Z_oauth-v1-system.zip
+# TODO: TODO_feature_20251023T140000Z_*.md
+
+# Find corresponding TODO
+ls TODO_feature_20251023T140000Z_*.md
+# or if archived:
+ls ARCHIVED_TODO_feature_20251023T140000Z_*.md
+```
 
 ---
 
@@ -1029,6 +1368,24 @@ Track these metrics to validate workflow effectiveness:
 7. **Python ecosystem:** uv, pytest-cov, Podman, FastAPI
 8. **Semantic versioning:** Automatic calculation
 9. **Archive management:** Proper deprecation with timestamps
+
+---
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Claude Code interaction guide and quick command reference
+- **[README.md](README.md)** - Project overview and getting started
+
+### Skill Documentation
+
+Referenced throughout this workflow:
+- **Phase 0:** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 1:** [bmad-planner](/.claude/skills/bmad-planner/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 2:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [speckit-author](/.claude/skills/speckit-author/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 3:** [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 4:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 5:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Always available:** [workflow-orchestrator](/.claude/skills/workflow-orchestrator/SKILL.md)
 
 ---
 
