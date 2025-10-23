@@ -56,15 +56,18 @@ def load_vocabulary(category: str | None = None) -> List[VocabularyWord]:
                 data = json.load(f)
 
             if "words" not in data:
-                raise VocabularyLoadError(f"Invalid format in {vocab_file.name}: missing 'words' key")
+                raise VocabularyLoadError(
+                    f"Invalid format in {vocab_file.name}: missing 'words' key"
+                )
 
             for word_data in data["words"]:
                 try:
                     word = VocabularyWord(**word_data)
                     words.append(word)
                 except Exception as e:
+                    german = word_data.get('german', 'unknown')
                     raise VocabularyLoadError(
-                        f"Invalid word data in {vocab_file.name}: {word_data.get('german', 'unknown')}: {e}"
+                        f"Invalid word data in {vocab_file.name}: {german}: {e}"
                     )
 
         except json.JSONDecodeError as e:
