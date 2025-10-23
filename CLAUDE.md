@@ -71,6 +71,15 @@ The orchestrator will:
 - Create PR: contrib/<gh-user> → develop
 - Skills: git-workflow-manager
 
+**Phase 5: Release** (main repo)
+- Create release branch from develop
+- Final QA and documentation
+- Create PR: release/vX.Y.Z → main
+- Tag release after merge
+- Back-merge to develop
+- Cleanup release branch
+- Skills: git-workflow-manager, quality-enforcer
+
 ## Git Branch Structure
 
 ```
@@ -99,6 +108,10 @@ python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
   feature <slug> contrib/stharrold
 
+# Daily rebase contrib onto develop
+python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
+  contrib/stharrold
+
 # Update TODO task status
 python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   TODO_feature_*.md <task_id> <complete|pending|blocked>
@@ -109,6 +122,26 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 # Calculate semantic version
 python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
+```
+
+### Release Management
+
+```bash
+# Create release branch from develop
+python .claude/skills/git-workflow-manager/scripts/create_release.py \
+  v1.1.0 develop
+
+# Tag release on main after merge
+python .claude/skills/git-workflow-manager/scripts/tag_release.py \
+  v1.1.0 main
+
+# Back-merge release to develop
+python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
+  v1.1.0 develop
+
+# Cleanup release branch after completion
+python .claude/skills/git-workflow-manager/scripts/cleanup_release.py \
+  v1.1.0
 ```
 
 ### Package Management
@@ -298,3 +331,30 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 ✓ Update TODO file after each step
 ✓ Use workflow-utilities for shared utilities
 ✓ Enforce quality gates before PR creation
+
+## Critical Architectural Notes
+
+**TODO File Location:**
+- `TODO_*.md` files live in **main repo**, NOT in worktrees
+- Worktrees reference via `../TODO_*.md`
+- `TODO.md` is master manifest with YAML frontmatter listing all active/archived workflows
+
+**Timestamp Format:**
+- Use `YYYYMMDDTHHMMSSZ` (compact ISO8601)
+- Rationale: Remains intact when parsed by underscores/hyphens
+- Example: `feature/20251023T143000Z_my-feature`
+
+**Version Field in Frontmatter:**
+- All SKILL.md files include `version: 5.0.0` in frontmatter
+- Purpose: Quality control for file format consistency and inter-file compatibility
+
+**Best Practices Compliance:**
+- Error handling: Try/except with helpful messages
+- Input validation: Before all operations
+- Constants documented: Inline with rationale
+- Cleanup on failure: Remove artifacts if operation fails
+
+**Reference Documentation:**
+- Complete workflow: `WORKFLOW.md` (5 phases, 1035 lines)
+- Detailed planning: `TODO_feature_*.md` files
+- Original spec: `ARCHIVED/Workflow-v5x2.md`
