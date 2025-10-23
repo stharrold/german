@@ -358,3 +358,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - Complete workflow: `WORKFLOW.md` (5 phases, 1035 lines)
 - Detailed planning: `TODO_feature_*.md` files
 - Original spec: `ARCHIVED/Workflow-v5x2.md`
+
+## Related Documentation
+
+- **[README.md](README.md)** - Project overview, purpose, and getting started guide
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete workflow guide with all 5 phases detailed
+
+For detailed workflow phase documentation, see [WORKFLOW.md](WORKFLOW.md).

@@ -1032,4 +1032,22 @@ Track these metrics to validate workflow effectiveness:
 
 ---
 
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Claude Code interaction guide and quick command reference
+- **[README.md](README.md)** - Project overview and getting started
+
+### Skill Documentation
+
+Referenced throughout this workflow:
+- **Phase 0:** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 1:** [bmad-planner](/.claude/skills/bmad-planner/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 2:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [speckit-author](/.claude/skills/speckit-author/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 3:** [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 4:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 5:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Always available:** [workflow-orchestrator](/.claude/skills/workflow-orchestrator/SKILL.md)
+
+---
+
 **For more details on specific skills, see `.claude/skills/<skill-name>/SKILL.md`**
