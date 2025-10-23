@@ -941,21 +941,70 @@ gh pr create --base "develop" --head "contrib/<gh-user>"
 
 ## Context Management
 
+### Critical Token Threshold: 100K Tokens
+
+**Effective context:** ~136K tokens (200K total - 64K system overhead)
+
+**At 100K tokens used (~73% of effective capacity):**
+
+Claude will **automatically**:
+1. Save all task state to TODO_*.md (update YAML frontmatter)
+2. Document current context in TODO body:
+   - Current phase and step
+   - Completed tasks
+   - In-progress tasks
+   - Next pending tasks
+   - Any blockers or notes
+3. Commit TODO_*.md updates
+
+Then **you must**:
+1. Run `/init` to reset conversation context
+2. Run `/compact` to compress memory
+3. Say "continue with TODO_feature_[timestamp]_[slug].md" to resume
+
 **Monitor context usage:**
 ```bash
 /context
 ```
 
-**If context > 50%:**
-1. Claude will prompt you
-2. Run `/init` to reset conversation
-3. Workflow state persists in TODO.md and TODO_*.md files
-4. Continue with "next step?" after reset
+Token usage is shown in system warnings after each tool use:
+```
+Token usage: 100543/200000; 99457 remaining
+```
+
+**When you see usage approaching 100K:**
+- Claude will proactively save state
+- Wait for "✓ State saved to TODO file" confirmation
+- Then run /init and /compact before continuing
 
 **Best practices:**
-- Check context after each major phase
-- Archive completed workflows to free up TODO.md space
-- Use progressive skill loading (don't load all skills at once)
+- Check /context after each major phase (every 10-15K tokens)
+- Archive completed workflows to reduce TODO.md size
+- Use progressive skill loading (only load needed skills per phase)
+- Expect 1-2 context resets per complex feature workflow
+
+### State Preservation in TODO_*.md
+
+When context reset is triggered, the following is saved to YAML frontmatter:
+
+```yaml
+workflow_progress:
+  phase: 2                    # Current workflow phase (0-5)
+  current_step: "2.4"        # Specific step within phase
+  last_task: "impl_003"      # Last completed/active task ID
+  last_update: "2025-10-23T15:30:00Z"
+  status: "implementation"   # Current status
+
+context_checkpoints:
+  - timestamp: "2025-10-23T15:30:00Z"
+    token_usage: 100234
+    phase: 2
+    step: "2.4"
+    last_task: "impl_003"
+    notes: "Completed script implementation, starting tests"
+```
+
+Plus task-level status updates for all tasks (pending → in_progress → completed)
 
 ---
 

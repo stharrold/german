@@ -67,6 +67,16 @@ tasks:
       description: "TBD - Add containerization tasks"
       status: pending
       completed_at: null
+
+context_checkpoints: []
+# Populated when context usage exceeds 100K tokens
+# Format:
+#   - timestamp: "2025-10-23T15:30:00Z"
+#     token_usage: 100234
+#     phase: 2
+#     step: "2.4"
+#     last_task: "impl_003"
+#     notes: "Brief status summary"
 ---
 
 # TODO: {{TITLE}}

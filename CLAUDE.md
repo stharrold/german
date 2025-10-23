@@ -327,10 +327,50 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ✓ Load orchestrator first, then skills per phase (token efficient)
 ✓ Always wait for "Y" confirmation before actions
-✓ Monitor context via `/context` - save state and `/init` when >50%
+✓ Monitor context - automatic checkpoint at 100K tokens
 ✓ Update TODO file after each step
 ✓ Use workflow-utilities for shared utilities
 ✓ Enforce quality gates before PR creation
+
+## Context Monitoring (CRITICAL)
+
+**Token Threshold: 100K tokens**
+
+System will show token usage after each tool use:
+```
+Token usage: 98543/200000; 101457 remaining
+```
+
+**At 100K tokens (~73% of 136K effective capacity):**
+
+✅ **Claude automatically:**
+1. Updates TODO_*.md with current state
+2. Commits checkpoint
+3. Displays: "✓ State saved to TODO file"
+
+⚠️ **You must then:**
+1. Run `/init` (resets conversation)
+2. Run `/compact` (compresses memory)
+3. Say: "continue with TODO_feature_[timestamp]_[slug].md"
+
+**Warning at 80K tokens:**
+- Complete current task before checkpoint
+- Checkpoint at 100K ensures clean resume
+
+**Effective context breakdown:**
+- Total capacity: 200K tokens
+- System overhead: 64K tokens (prompt, tools, memory, buffer)
+- Usable context: 136K tokens
+- Checkpoint at: 100K tokens (73% of usable)
+- Safety margin: 36K tokens for wrap-up
+
+**Why 100K tokens?**
+- Ensures enough remaining context to:
+  - Save complete state to TODO_*.md
+  - Commit changes properly
+  - Provide clear resume instructions
+- Prevents hitting hard limits mid-task
+- Allows current task completion before reset
 
 ## Critical Architectural Notes
 

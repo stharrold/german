@@ -201,33 +201,91 @@ When user says "next step?":
 
 ## Context Management
 
-**CRITICAL:** Monitor context usage throughout workflow.
+**CRITICAL:** Monitor context usage and enforce 100K token threshold.
+
+### Token Threshold Protocol
 
 ```python
-def check_context_usage():
+def check_context_usage(current_tokens):
     """
-    User must manually check via /context command.
-    When approaching limits, prompt user to:
-    1. Save TODO file state
-    2. Run /init to reset context
-    3. Continue workflow
+    Monitor context usage and trigger checkpoint at 100K tokens.
+
+    Effective capacity: ~136K tokens (200K - 64K overhead)
+    Checkpoint threshold: 100K tokens (~73% of effective capacity)
     """
-    print("\n⚠️  Context Usage Check")
-    print("Run: /context")
-    print("If usage > 50%, then:")
-    print("  1. I'll update TODO file with current state")
-    print("  2. Run: /init")
-    print("  3. Say 'next step?' to continue")
+    CHECKPOINT_THRESHOLD = 100_000
+
+    if current_tokens >= CHECKPOINT_THRESHOLD:
+        print("\n⚠️  CONTEXT CHECKPOINT: 100K tokens reached")
+        print("\n📝 Saving workflow state...")
+
+        # 1. Update TODO_*.md with current state
+        update_todo_frontmatter(
+            phase=current_phase,
+            step=current_step,
+            last_task=last_completed_task,
+            status=current_status
+        )
+
+        # 2. Add context checkpoint entry
+        add_context_checkpoint(
+            token_usage=current_tokens,
+            phase=current_phase,
+            step=current_step,
+            notes=generate_status_summary()
+        )
+
+        # 3. Update task statuses
+        for task in all_tasks:
+            update_task_status(task.id, task.status)
+
+        # 4. Commit changes
+        git_commit("chore: context checkpoint at 100K tokens")
+
+        print("✓ State saved to TODO_*.md")
+        print("\n🔄 REQUIRED ACTIONS:")
+        print("  1. Run: /init")
+        print("  2. Run: /compact")
+        print("  3. Say: 'continue with TODO_feature_[timestamp]_[slug].md'")
+        print("\nWorkflow will resume from saved state.")
+
+        return True  # Triggers pause for user action
+
+    # Warn at 80K tokens (10K before checkpoint)
+    elif current_tokens >= 80_000:
+        print(f"\n⚠️  Context usage: {current_tokens:,} tokens")
+        print("   Approaching 100K checkpoint threshold")
+        print("   Recommendation: Complete current task before checkpoint")
+
+    return False
 ```
 
-**Prompt user periodically:**
-```
-Current task: <task_id>
-Please run: /context
+### Automatic State Saving
 
-If context usage > 50%:
-  I'll save state to TODO file, then you run /init
+When checkpoint is triggered, save to TODO_*.md:
+
+**YAML Frontmatter:**
+- `workflow_progress.last_update`: Current timestamp
+- `workflow_progress.last_task`: Most recent task ID
+- `context_checkpoints[]`: Add new checkpoint entry
+- All `tasks[].status`: Update to current state (pending/in_progress/completed)
+
+**TODO Body:**
+- Append "## Context Checkpoint" section
+- Document: completed tasks, current task, next tasks, blockers
+
+### Resume After Reset
+
+After `/init` and `/compact`, user says:
 ```
+"continue with TODO_feature_20251023T123254Z_workflow.md"
+```
+
+Claude will:
+1. Read TODO_*.md to restore state
+2. Load relevant skills for current phase
+3. Resume from `workflow_progress.current_step`
+4. Continue with next pending task
 
 ## Interactive Confirmation Pattern
 
