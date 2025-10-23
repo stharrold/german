@@ -45,31 +45,33 @@ The orchestrator will:
 - Update TODO file with progress
 - Guide through: planning → specification → implementation → quality → PR
 
-**Monitor context usage:** Run `/context` periodically. When >50%, orchestrator will save state and prompt you to run `/init` to reset.
+**Monitor context usage:** Run `/context` periodically. At 100K tokens, orchestrator saves state to TODO_*.md and prompts you to run `/init` (updates memory files) then `/compact` (compresses memory buffer).
 
-### Workflow Phases
+### Workflow Phases (Bidirectional BMAD ↔ SpecKit Flow)
 
-**Phase 1: Planning** (main repo, `contrib/<gh-user>` branch)
-- Create requirements.md and architecture.md
-- Skills: bmad-planner
+**Phase 1: Planning (BMAD - Interactive)** (main repo, `contrib/<gh-user>` branch)
+- **Interactive Q&A:** 3 personas gather requirements
+- **Output:** planning/<feature>/ with requirements.md, architecture.md, epics.md
+- **Skills:** bmad-planner
 
-**Phase 2: Implementation** (feature worktree)
-- Create spec.md and plan.md
-- Implement features
-- Write tests
-- Skills: speckit-author, git-workflow-manager
+**Phase 2: Implementation (SpecKit - Interactive)** (feature worktree)
+- **Read BMAD context** from ../planning/<feature>/
+- **Interactive Q&A:** Implementation approach, testing strategy, task breakdown
+- **Output:** specs/<feature>/ with spec.md, plan.md (informed by BMAD)
+- **Skills:** speckit-author, git-workflow-manager
 
 **Phase 3: Quality** (feature worktree)
 - Run quality gates (≥80% coverage, all tests passing)
 - Calculate semantic version
 - Skills: quality-enforcer
 
-**Phase 4: Integration**
+**Phase 4: Integration + Feedback**
 - Create PR: feature → contrib/<gh-user>
 - Merge in GitHub UI
+- **Update BMAD with as-built:** Run update_asbuilt.py to document deviations, actual effort, lessons learned
 - Rebase contrib onto develop
 - Create PR: contrib/<gh-user> → develop
-- Skills: git-workflow-manager
+- Skills: git-workflow-manager, speckit-author (for as-built updates)
 
 **Phase 5: Release** (main repo)
 - Create release branch from develop
@@ -79,6 +81,25 @@ The orchestrator will:
 - Back-merge to develop
 - Cleanup release branch
 - Skills: git-workflow-manager, quality-enforcer
+
+### Key Workflow Features
+
+**Interactive Planning (BMAD):**
+- 🧠 Analyst: Q&A for requirements
+- 🏗️ Architect: Q&A for architecture
+- 📋 PM: Automatic epic breakdown
+
+**Interactive Specifications (SpecKit):**
+- Reads BMAD planning from Phase 1
+- Q&A for implementation preferences
+- Q&A for testing strategy
+- Q&A for task organization
+
+**Feedback Loop (SpecKit → BMAD):**
+- After PR merge, update planning/ with as-built details
+- Document deviations and reasons
+- Record actual vs estimated effort
+- Capture lessons learned for future planning
 
 ## Git Branch Structure
 
