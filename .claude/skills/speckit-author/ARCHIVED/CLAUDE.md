@@ -16,6 +16,12 @@ Archive of deprecated files from speckit-author
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: speckit-author
+
 ## Related Skills
 
 - workflow-orchestrator

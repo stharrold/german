@@ -16,6 +16,12 @@ Archive of deprecated files from workflow-orchestrator
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: workflow-orchestrator
+
 ## Related Skills
 
 - workflow-orchestrator

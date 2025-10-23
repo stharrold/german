@@ -16,6 +16,14 @@ Context-specific guidance for bmad-planner
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
+
 ## Related Skills
 
 - workflow-orchestrator

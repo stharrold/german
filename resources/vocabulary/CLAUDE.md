@@ -1,8 +1,8 @@
-# Claude Code Context: Archived Content
+# Claude Code Context: vocabulary
 
 ## Purpose
 
-Archive of deprecated files from bmad-planner
+Context-specific guidance for vocabulary
 
 ## Directory Structure
 
@@ -20,7 +20,10 @@ Archive of deprecated files from bmad-planner
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
-- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: bmad-planner
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: resources
+
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
 
 ## Related Skills
 

@@ -16,6 +16,12 @@ Archive of deprecated files from workflow-utilities
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: workflow-utilities
+
 ## Related Skills
 
 - workflow-orchestrator

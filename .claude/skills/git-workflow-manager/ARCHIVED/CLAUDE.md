@@ -16,6 +16,12 @@ Archive of deprecated files from git-workflow-manager
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: git-workflow-manager
+
 ## Related Skills
 
 - workflow-orchestrator

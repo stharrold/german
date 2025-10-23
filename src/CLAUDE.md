@@ -16,6 +16,16 @@ Context-specific guidance for src
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: Root
+
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
+- **[german/CLAUDE.md](german/CLAUDE.md)** - German
+
 ## Related Skills
 
 - workflow-orchestrator

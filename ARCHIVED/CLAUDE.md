@@ -30,6 +30,12 @@ Files in this directory are retained for historical reference and can be:
 
 Use `archive_manager.py list` to see all archived files with timestamps and contents.
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: Root
+
 ## Related Skills
 
 - workflow-utilities (archive_manager.py, deprecate_files.py)

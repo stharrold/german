@@ -16,6 +16,12 @@ Archive of deprecated files from initial-foundation
 
 [How to work with code/content in this directory]
 
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: initial-foundation
+
 ## Related Skills
 
 - workflow-orchestrator
