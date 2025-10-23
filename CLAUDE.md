@@ -473,6 +473,7 @@ Token usage: 98543/200000; 101457 remaining
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete 5-phase workflow guide (1035 lines)
 
 **Child Directories:**
 - **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
