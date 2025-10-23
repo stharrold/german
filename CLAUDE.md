@@ -472,7 +472,12 @@ Token usage: 98543/200000; 101457 remaining
 
 ## Related Documentation
 
-- **[README.md](README.md)** - Project overview, purpose, and getting started guide
-- **[WORKFLOW.md](WORKFLOW.md)** - Complete workflow guide with all 5 phases detailed
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete 5-phase workflow guide (1035 lines)
 
-For detailed workflow phase documentation, see [WORKFLOW.md](WORKFLOW.md).
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
+- **[planning/CLAUDE.md](planning/CLAUDE.md)** - Planning
+- **[resources/CLAUDE.md](resources/CLAUDE.md)** - Resources
+- **[src/CLAUDE.md](src/CLAUDE.md)** - Src
+- **[tests/CLAUDE.md](tests/CLAUDE.md)** - Tests
