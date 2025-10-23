@@ -484,6 +484,225 @@ gh pr create \
 
 ---
 
+### Phase 5: Release Workflow
+
+**Location:** Main repository
+**Branch Flow:** `develop` → `release/vX.Y.Z` → `main` (with tag) → back to `develop`
+**Skills:** git-workflow-manager, quality-enforcer, workflow-utilities
+
+#### Overview
+
+The release workflow creates a production release from the develop branch, tags it on main, and back-merges to develop. This follows git-flow release branch pattern.
+
+#### Step 5.1: Create Release Branch
+
+**Prerequisites:**
+- All features merged to develop
+- Quality gates passing on develop
+- Version number determined
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/create_release.py \
+  v1.1.0 develop
+```
+
+**Steps:**
+1. Verify develop branch is clean and up-to-date
+2. Calculate/confirm semantic version from develop
+3. Create `release/v1.1.0` branch from develop
+4. Create release TODO file
+5. Update version files (if applicable)
+
+**Output:**
+```
+✓ Created release branch: release/v1.1.0
+✓ Base: develop (commit abc123)
+✓ TODO file: TODO_release_20251023T143000Z_v1-1-0.md
+✓ Ready for final QA and documentation updates
+```
+
+#### Step 5.2: Release Quality Assurance
+
+**In release branch:**
+
+1. **Final quality gates:**
+   ```bash
+   python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+   ```
+
+2. **Update release documentation:**
+   - Update CHANGELOG.md
+   - Update version in pyproject.toml (if not already done)
+   - Update README.md if needed
+   - Final review of documentation
+
+3. **Commit release prep:**
+   ```bash
+   git add .
+   git commit -m "chore(release): prepare v1.1.0 release
+
+   - Update CHANGELOG.md with v1.1.0 changes
+   - Update version in pyproject.toml
+   - Final documentation review
+
+   Refs: TODO_release_20251023T143000Z_v1-1-0.md
+   "
+   git push origin release/v1.1.0
+   ```
+
+#### Step 5.3: Create Pull Request (release → main)
+
+**Command:**
+```bash
+gh pr create \
+  --base "main" \
+  --head "release/v1.1.0" \
+  --title "release: v1.1.0" \
+  --body "$(cat <<'EOF'
+## Release v1.1.0
+
+### Summary
+Production release with new features and improvements from develop branch.
+
+### Changes Since v1.0.0
+- Feature: A1 certificate vocabulary module
+- Feature: A2 certificate vocabulary module
+- Enhancement: Improved vocabulary search
+- Fix: Grammar validation edge cases
+
+### Quality Gates
+- Coverage: 87% (✓ ≥80%)
+- Tests: 156/156 passing (✓)
+- Linting: Clean (✓)
+- Types: Clean (✓)
+- Build: Success (✓)
+
+### Merge Instructions
+1. Review changes
+2. Merge to main
+3. Tag will be created automatically (v1.1.0)
+4. Release notes will be generated
+5. Back-merge to develop will follow
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+EOF
+)"
+```
+
+**Output:**
+```
+✓ Pull request created: https://github.com/user/german/pull/45
+```
+
+#### Step 5.4: User Merges Release to Main
+
+**Action:** User reviews and merges PR in GitHub UI (main branch)
+
+**Result:** Release code now on main branch
+
+#### Step 5.5: Tag Release
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/tag_release.py \
+  v1.1.0 main
+```
+
+**Steps:**
+1. Checkout main branch
+2. Pull latest (includes merge commit)
+3. Create annotated tag v1.1.0
+4. Push tag to origin
+5. Trigger GitHub release creation (if configured)
+
+**Output:**
+```
+✓ Checked out main branch
+✓ Pulled latest changes (commit def456)
+✓ Created annotated tag: v1.1.0
+   Message: "Release v1.1.0: Production release with vocabulary modules"
+✓ Pushed tag to origin
+✓ View release: https://github.com/user/german/releases/tag/v1.1.0
+```
+
+#### Step 5.6: Back-merge Release to Develop
+
+**Purpose:** Merge any release-specific changes back to develop
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
+  v1.1.0 develop
+```
+
+**Steps:**
+1. Checkout develop branch
+2. Pull latest from origin
+3. Merge release/v1.1.0 into develop
+4. Resolve any conflicts (usually none if release only had version bumps)
+5. Push to origin
+6. Create PR for review (if conflicts occurred)
+
+**Output (no conflicts):**
+```
+✓ Checked out develop
+✓ Pulled latest changes
+✓ Merged release/v1.1.0 into develop (fast-forward)
+✓ Pushed to origin/develop
+✓ Back-merge complete
+```
+
+**Output (with conflicts):**
+```
+⚠ Merge conflicts detected
+✓ Created PR: https://github.com/user/german/pull/46
+  Title: "chore(release): back-merge v1.1.0 to develop"
+
+Please resolve conflicts in GitHub UI and merge.
+```
+
+#### Step 5.7: Cleanup Release Branch
+
+**After back-merge is complete:**
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/cleanup_release.py \
+  v1.1.0
+```
+
+**Steps:**
+1. Verify tag v1.1.0 exists
+2. Verify back-merge to develop is complete
+3. Delete local release/v1.1.0 branch
+4. Delete remote release/v1.1.0 branch
+5. Archive release TODO file
+
+**Output:**
+```
+✓ Verified tag v1.1.0 exists
+✓ Verified back-merge to develop complete
+✓ Deleted local branch: release/v1.1.0
+✓ Deleted remote branch: origin/release/v1.1.0
+✓ Archived: TODO_release_20251023T143000Z_v1-1-0.md
+✓ Release workflow complete for v1.1.0
+```
+
+#### Step 5.8: Update Contrib Branch
+
+**After release is complete, rebase contrib:**
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
+  contrib/stharrold
+```
+
+This ensures contrib branch is up-to-date with latest develop (which now includes the release back-merge).
+
+---
+
 ## TODO.md Manifest System
 
 ### Structure (v5.2.0)
