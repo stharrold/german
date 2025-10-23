@@ -126,7 +126,7 @@ cat TODO_{{WORKFLOW_TYPE}}_{{TIMESTAMP}}_{{SLUG}}.md
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py {{WORKFLOW_TYPE}} {{SLUG}} contrib/{{GH_USER}}
 
 # Update task status
-python .claude/skills/helper-functions/scripts/todo_updater.py TODO_{{WORKFLOW_TYPE}}_{{TIMESTAMP}}_{{SLUG}}.md <task_id> <status>
+python .claude/skills/workflow-utilities/scripts/todo_updater.py TODO_{{WORKFLOW_TYPE}}_{{TIMESTAMP}}_{{SLUG}}.md <task_id> <status>
 
 # Run quality gates
 python .claude/skills/quality-enforcer/scripts/run_quality_gates.py

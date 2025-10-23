@@ -32,7 +32,7 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 4. **bmad-planner** - Creates BMAD planning documents (requirements, architecture)
 5. **speckit-author** - Creates detailed specifications and implementation plans
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
-7. **helper-functions** - Shared utilities for file management and TODO updates
+7. **workflow-utilities** - Shared utilities for file management and TODO updates
 
 ### Using the Workflow
 
@@ -100,7 +100,7 @@ python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
   feature <slug> contrib/stharrold
 
 # Update TODO task status
-python .claude/skills/helper-functions/scripts/todo_updater.py \
+python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   TODO_feature_*.md <task_id> <complete|pending|blocked>
 
 # Run quality gates
@@ -169,7 +169,7 @@ podman-compose down
 - `README.md` - Human-readable documentation
 - `ARCHIVED/` - Subdirectory for deprecated files (except in ARCHIVED itself)
 
-Use `helper-functions/scripts/directory_structure.py` to create compliant directories.
+Use `workflow-utilities/scripts/directory_structure.py` to create compliant directories.
 
 ## Quality Gates (Enforced Before PR)
 
@@ -215,7 +215,7 @@ When working with German language content:
 **Never delete files directly.** Use deprecation:
 
 ```bash
-python .claude/skills/helper-functions/scripts/deprecate_files.py \
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
   TODO_feature_*.md "description" old_file1.py old_file2.py
 ```
 
@@ -223,12 +223,12 @@ This creates `ARCHIVED/<timestamp>_description.zip` and removes originals.
 
 **List archives:**
 ```bash
-python .claude/skills/helper-functions/scripts/archive_manager.py list
+python .claude/skills/workflow-utilities/scripts/archive_manager.py list
 ```
 
 **Extract archive:**
 ```bash
-python .claude/skills/helper-functions/scripts/archive_manager.py \
+python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   extract ARCHIVED/<archive>.zip restored/
 ```
 
@@ -296,5 +296,5 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 ✓ Always wait for "Y" confirmation before actions
 ✓ Monitor context via `/context` - save state and `/init` when >50%
 ✓ Update TODO file after each step
-✓ Use helper-functions for shared utilities
+✓ Use workflow-utilities for shared utilities
 ✓ Enforce quality gates before PR creation

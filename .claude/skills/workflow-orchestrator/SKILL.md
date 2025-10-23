@@ -13,7 +13,7 @@ description: |
   Triggers: next step, continue, what's next, workflow status
 
   Coordinates: tech-stack-adapter, git-workflow-manager, bmad-planner,
-  speckit-author, quality-enforcer, helper-functions
+  speckit-author, quality-enforcer, workflow-utilities
 
   Context management: Prompt user to run /context when context usage
   is high, then /init to reset before continuing workflow.
@@ -102,7 +102,7 @@ When user says "next step?":
 
    # Always available for quality checks
    load_skill('quality-enforcer')  # When running tests, checking coverage
-   load_skill('helper-functions')  # For utilities
+   load_skill('workflow-utilities')  # For utilities
    ```
 
 3. **Parse TODO file to determine current step**
@@ -148,7 +148,7 @@ When user says "next step?":
 
 6. **Execute step using loaded skills**
    - Call appropriate skill methods
-   - Update TODO file via helper-functions
+   - Update TODO file via workflow-utilities
    - Commit changes via git-workflow-manager
 
 ## Workflow Phases
@@ -159,13 +159,13 @@ When user says "next step?":
 3. Generate workflow files (WORKFLOW.md, CLAUDE.md, README.md)
 4. Initialize contrib/<gh-user> branch
 
-**Skills loaded:** tech-stack-adapter, git-workflow-manager, helper-functions
+**Skills loaded:** tech-stack-adapter, git-workflow-manager, workflow-utilities
 
 ### Phase 1: Planning (Main Repo)
 1. Create BMAD planning documents
 2. Define requirements and architecture
 
-**Skills loaded:** bmad-planner, helper-functions
+**Skills loaded:** bmad-planner, workflow-utilities
 
 ### Phase 2: Feature Development (Worktree)
 1. Create feature worktree
@@ -174,14 +174,14 @@ When user says "next step?":
 4. Write tests
 5. Create containers
 
-**Skills loaded:** speckit-author, git-workflow-manager, quality-enforcer, helper-functions
+**Skills loaded:** speckit-author, git-workflow-manager, quality-enforcer, workflow-utilities
 
 ### Phase 3: Quality Assurance
 1. Run tests with coverage
 2. Validate quality gates
 3. Calculate semantic version
 
-**Skills loaded:** quality-enforcer, helper-functions
+**Skills loaded:** quality-enforcer, workflow-utilities
 
 ### Phase 4: Integration
 1. Create PR from feature → contrib/<gh-user>
@@ -252,7 +252,7 @@ def prompt_for_confirmation(step_info):
 - `README.md` - Human-readable documentation
 - `ARCHIVED/` subdirectory (except ARCHIVED itself)
 
-Use helper-functions/scripts/directory_structure.py to create compliant directories.
+Use workflow-utilities/scripts/directory_structure.py to create compliant directories.
 
 ## Key Behaviors
 
@@ -262,4 +262,4 @@ Use helper-functions/scripts/directory_structure.py to create compliant director
 ✓ Save state and /init when context > 50%
 ✓ Update TODO file after each step
 ✓ Commit changes with descriptive messages
-✓ Use helper-functions for shared utilities
+✓ Use workflow-utilities for shared utilities

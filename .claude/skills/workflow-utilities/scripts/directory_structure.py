@@ -53,7 +53,7 @@ def create_directory_structure(directory, is_archived=False):
 ## Related Skills
 
 - workflow-orchestrator
-- helper-functions
+- workflow-utilities
 """)
         print(f"✓ Created {claude_md}")
 

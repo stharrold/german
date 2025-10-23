@@ -1,5 +1,5 @@
 ---
-name: helper-functions
+name: workflow-utilities
 version: 5.0.0
 description: |
   Shared utilities for file deprecation, directory structure creation,
@@ -10,7 +10,7 @@ description: |
   Triggers: deprecate, archive, update TODO, create directory
 ---
 
-# Helper Functions
+# Workflow Utilities
 
 ## Purpose
 
@@ -24,7 +24,7 @@ across multiple skills.
 Archive deprecated files with timestamp into ARCHIVED/ directory.
 
 ```bash
-python .claude/skills/helper-functions/scripts/deprecate_files.py \
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
   <todo_file> <description> <file1> [file2 ...]
 ```
 
@@ -41,7 +41,7 @@ python .claude/skills/helper-functions/scripts/deprecate_files.py \
 Create standard directory structure with required files.
 
 ```bash
-python .claude/skills/helper-functions/scripts/directory_structure.py \
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
   <directory>
 ```
 
@@ -58,7 +58,7 @@ python .claude/skills/helper-functions/scripts/directory_structure.py \
 Update task status and workflow progress in TODO file.
 
 ```bash
-python .claude/skills/helper-functions/scripts/todo_updater.py \
+python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   <todo_file> <task_id> <status> [context_usage]
 ```
 
@@ -80,10 +80,10 @@ List and extract archived files.
 
 ```bash
 # List archives
-python .claude/skills/helper-functions/scripts/archive_manager.py list [directory]
+python .claude/skills/workflow-utilities/scripts/archive_manager.py list [directory]
 
 # Extract archive
-python .claude/skills/helper-functions/scripts/archive_manager.py extract <archive> [output_dir]
+python .claude/skills/workflow-utilities/scripts/archive_manager.py extract <archive> [output_dir]
 ```
 
 ## Usage Examples
@@ -96,7 +96,7 @@ import subprocess
 # Deprecate old implementation files
 subprocess.run([
     'python',
-    '.claude/skills/helper-functions/scripts/deprecate_files.py',
+    '.claude/skills/workflow-utilities/scripts/deprecate_files.py',
     'TODO_feature_20251022T143022Z_json-validator.md',
     'old-validator',
     'src/old_validator.py',
@@ -112,7 +112,7 @@ import subprocess
 # Create planning directory with standard structure
 subprocess.run([
     'python',
-    '.claude/skills/helper-functions/scripts/directory_structure.py',
+    '.claude/skills/workflow-utilities/scripts/directory_structure.py',
     'planning/json-validator'
 ], check=True)
 ```
@@ -125,7 +125,7 @@ import subprocess
 # Mark task as complete
 subprocess.run([
     'python',
-    '.claude/skills/helper-functions/scripts/todo_updater.py',
+    '.claude/skills/workflow-utilities/scripts/todo_updater.py',
     'TODO_feature_20251022T143022Z_json-validator.md',
     'impl_003',
     'complete',
@@ -163,7 +163,7 @@ def create_planning_with_structure(feature_name):
     # Create directory structure
     subprocess.run([
         'python',
-        '.claude/skills/helper-functions/scripts/directory_structure.py',
+        '.claude/skills/workflow-utilities/scripts/directory_structure.py',
         str(planning_dir)
     ], check=True)
 

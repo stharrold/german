@@ -60,7 +60,7 @@ podman --version        # Optional
 │   └── scripts/
 │       ├── check_coverage.py
 │       └── run_quality_gates.py
-└── helper-functions/          # Shared utilities (~200 lines)
+└── workflow-utilities/          # Shared utilities (~200 lines)
     └── scripts/
         ├── deprecate_files.py
         ├── archive_manager.py
@@ -126,7 +126,7 @@ worktree-directory/
 
 **Location:** Main repository
 **Branch:** `main` or create `contrib/<gh-user>`
-**Skills:** tech-stack-adapter, git-workflow-manager, helper-functions
+**Skills:** tech-stack-adapter, git-workflow-manager, workflow-utilities
 
 **Steps:**
 
@@ -148,7 +148,7 @@ worktree-directory/
 
 3. **Create TODO.md manifest** (if not exists):
    ```bash
-   python .claude/skills/helper-functions/scripts/todo_updater.py .
+   python .claude/skills/workflow-utilities/scripts/todo_updater.py .
    ```
 
 4. **Initialize contrib branch** (if not exists):
@@ -171,7 +171,7 @@ worktree-directory/
 
 **Location:** Main repository
 **Branch:** `contrib/<gh-user>`
-**Skills:** bmad-planner, helper-functions
+**Skills:** bmad-planner, workflow-utilities
 
 **Steps:**
 
@@ -206,7 +206,7 @@ worktree-directory/
 
 **Location:** Feature worktree
 **Branch:** `feature/<timestamp>_<slug>`
-**Skills:** git-workflow-manager, speckit-author, quality-enforcer, helper-functions
+**Skills:** git-workflow-manager, speckit-author, quality-enforcer, workflow-utilities
 
 #### Step 2.1: Create Feature Worktree
 
@@ -293,7 +293,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 **Location:** Feature worktree
 **Branch:** `feature/<timestamp>_<slug>`
-**Skills:** quality-enforcer, helper-functions
+**Skills:** quality-enforcer, workflow-utilities
 
 **Quality Gates (all must pass):**
 
@@ -355,7 +355,7 @@ Next: Semantic version calculation
 ### Phase 4: Integration & Pull Request
 
 **Location:** Feature worktree → Main repository
-**Skills:** git-workflow-manager, helper-functions
+**Skills:** git-workflow-manager, workflow-utilities
 
 #### Step 4.1: Calculate Semantic Version
 
@@ -437,7 +437,7 @@ cd /Users/user/Documents/GitHub/german
 
 **Archive TODO file:**
 ```bash
-python .claude/skills/helper-functions/scripts/archive_manager.py \
+python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   archive TODO_feature_20251023T104248Z_certificate-a1.md
 ```
 
@@ -548,7 +548,7 @@ Archive process:
 
 **Command:**
 ```bash
-python .claude/skills/helper-functions/scripts/todo_updater.py .
+python .claude/skills/workflow-utilities/scripts/todo_updater.py .
 ```
 
 **Auto-updates when:**
@@ -643,7 +643,7 @@ python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
 ### Workflow Management
 ```bash
 # Update TODO.md manifest
-python .claude/skills/helper-functions/scripts/todo_updater.py .
+python .claude/skills/workflow-utilities/scripts/todo_updater.py .
 
 # Create feature worktree
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
@@ -661,7 +661,7 @@ python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
 
 # Archive workflow
-python .claude/skills/helper-functions/scripts/archive_manager.py \
+python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   archive TODO_feature_*.md
 ```
 
@@ -768,7 +768,7 @@ uv run mypy src/ --show-error-codes
 ### TODO.md Out of Sync
 ```bash
 # Rebuild manifest
-python .claude/skills/helper-functions/scripts/todo_updater.py .
+python .claude/skills/workflow-utilities/scripts/todo_updater.py .
 
 # Verify
 cat TODO.md
