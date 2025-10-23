@@ -120,6 +120,52 @@ worktree-directory/
 
 **Critical:** TODO_*.md files live in **main repo**, not in worktrees. Worktrees reference them via `../TODO_*.md`.
 
+## Directory Standards
+
+**Every directory in this project must follow these standards:**
+
+1. **Contains CLAUDE.md and README.md**
+   - `CLAUDE.md` - Context-specific guidance for Claude Code when working in this directory
+   - `README.md` - Human-readable documentation for developers
+
+2. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
+   - For storing deprecated items from that directory
+   - ARCHIVED/ also has its own CLAUDE.md and README.md
+
+3. **Example structure:**
+   ```
+   specs/feature-auth/
+   ├── CLAUDE.md           ← "Guide for working with auth specs"
+   ├── README.md           ← "Authentication feature specifications"
+   ├── ARCHIVED/
+   │   ├── CLAUDE.md       ← "Guide for archived auth specs"
+   │   ├── README.md       ← "Archive of deprecated auth specs"
+   │   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
+   ├── spec.md
+   └── plan.md
+   ```
+
+**Creating compliant directories:**
+
+Use the workflow-utilities helper script to ensure directories meet standards:
+
+```bash
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create <directory-path> "<purpose-description>"
+```
+
+**Example:**
+```bash
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create "specs/user-auth" "User authentication feature specifications"
+```
+
+This automatically creates:
+- The target directory
+- CLAUDE.md with purpose and workflow references
+- README.md with human-readable documentation
+- ARCHIVED/ subdirectory with its own CLAUDE.md and README.md
+
 ## Workflow Phases
 
 ### Phase 0: Initial Setup
@@ -263,9 +309,10 @@ cd /Users/user/Documents/GitHub/german_feature_certificate-a1
 1. Parse `plan.md` for next pending task
 2. Implement code following spec.md
 3. Write tests (target ≥80% coverage)
-4. Commit with semantic message
-5. Update TODO_*.md task status
-6. Repeat for all tasks
+4. **Check for deprecated files** - If implementation replaces existing files, use [file deprecation](#file-deprecation) process
+5. Commit with semantic message
+6. Update TODO_*.md task status
+7. Repeat for all tasks
 
 **User prompt:** "next step?" (iteratively)
 
@@ -882,6 +929,14 @@ python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
 # Archive workflow
 python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   archive TODO_feature_*.md
+
+# Create directory with standards (CLAUDE.md, README.md, ARCHIVED/)
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  create <directory-path> "<purpose-description>"
+
+# Deprecate files (archive with timestamp)
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  <todo-file> "<description>" <file1> <file2> ...
 ```
 
 ### Testing & Quality
@@ -1006,6 +1061,144 @@ context_checkpoints:
 ```
 
 Plus task-level status updates for all tasks (pending → in_progress → completed)
+
+---
+
+## File Deprecation
+
+When implementation replaces or removes existing files, use proper deprecation to maintain traceability.
+
+### Deprecation Process
+
+**When to deprecate files:**
+- Replacing old implementation with new approach
+- Removing obsolete features
+- Consolidating multiple files into one
+- Refactoring changes file structure
+
+**Naming format:** `YYYYMMDDTHHMMSSZ_<description>.zip`
+- **YYYYMMDDTHHMMSSZ:** Timestamp from the TODO file that deprecated the files
+- **description:** Brief hyphen-separated description (e.g., "old-auth-flow", "legacy-api-v1")
+
+### Using the Deprecation Script
+
+**Command:**
+```bash
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  <todo-file> "<description>" <file1> <file2> ...
+```
+
+**Example:**
+```bash
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251023T104248Z_auth-refactor.md \
+  "old-oauth-implementation" \
+  src/auth/old_oauth.py \
+  src/auth/legacy_tokens.py \
+  tests/test_old_auth.py
+```
+
+**What happens:**
+1. Extracts timestamp from TODO filename: `20251023T104248Z`
+2. Creates archive: `ARCHIVED/20251023T104248Z_old-oauth-implementation.zip`
+3. Adds files to zip archive
+4. Removes original files from repository
+5. Updates TODO file with deprecation entry
+6. Commits changes
+
+### Deprecation Examples
+
+**Example 1: Replace authentication system**
+```bash
+# Deprecate old OAuth implementation
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251023T140000Z_auth-v2.md \
+  "oauth-v1-system" \
+  src/auth/oauth_v1.py \
+  src/auth/token_manager_v1.py \
+  tests/test_oauth_v1.py
+```
+
+Result: `ARCHIVED/20251023T140000Z_oauth-v1-system.zip`
+
+**Example 2: Consolidate vocabulary modules**
+```bash
+# Deprecate separate A1/A2 files (now combined)
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251024T090000Z_vocab-consolidation.md \
+  "separate-level-modules" \
+  src/vocabulary/a1_nouns.py \
+  src/vocabulary/a1_verbs.py \
+  src/vocabulary/a2_nouns.py \
+  src/vocabulary/a2_verbs.py
+```
+
+Result: `ARCHIVED/20251024T090000Z_separate-level-modules.zip`
+
+**Example 3: Remove unused components**
+```bash
+# Deprecate experimental features that didn't work out
+python .claude/skills/workflow-utilities/scripts/deprecate_files.py \
+  TODO_feature_20251025T110000Z_cleanup.md \
+  "experimental-quiz-engine" \
+  src/quiz/experimental_engine.py \
+  src/quiz/adaptive_algorithm.py \
+  tests/test_experimental_quiz.py \
+  docs/quiz_algorithm.md
+```
+
+Result: `ARCHIVED/20251025T110000Z_experimental-quiz-engine.zip`
+
+### Locating Deprecated Files
+
+**List all archived files by date:**
+```bash
+ls -lt ARCHIVED/*.zip
+```
+
+**Search for specific deprecation:**
+```bash
+ls ARCHIVED/*oauth*.zip
+ls ARCHIVED/*20251023*.zip
+```
+
+**View archive contents without extracting:**
+```bash
+unzip -l ARCHIVED/20251023T140000Z_oauth-v1-system.zip
+```
+
+**Extract archived files for review:**
+```bash
+# Extract to temporary directory
+mkdir -p /tmp/review
+unzip ARCHIVED/20251023T140000Z_oauth-v1-system.zip -d /tmp/review
+
+# Review files
+ls -la /tmp/review
+
+# Clean up when done
+rm -rf /tmp/review
+```
+
+### Archive Retention
+
+**Policy:**
+- Archives stored indefinitely in ARCHIVED/ directory
+- Tracked in git history
+- Listed in TODO.md manifest (last 10)
+- Review quarterly for cleanup (remove after 1 year if not needed)
+
+**Finding related TODO:**
+Each archive timestamp matches a TODO file:
+```bash
+# Archive: ARCHIVED/20251023T140000Z_oauth-v1-system.zip
+# TODO: TODO_feature_20251023T140000Z_*.md
+
+# Find corresponding TODO
+ls TODO_feature_20251023T140000Z_*.md
+# or if archived:
+ls ARCHIVED_TODO_feature_20251023T140000Z_*.md
+```
 
 ---
 
