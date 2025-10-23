@@ -59,7 +59,7 @@ def daily_rebase(contrib_branch):
             print(result.stdout, file=sys.stderr)
             return False
     except subprocess.CalledProcessError as e:
-        print(f"ERROR: Failed to check git status", file=sys.stderr)
+        print("ERROR: Failed to check git status", file=sys.stderr)
         print(f"Git error: {e.stderr}", file=sys.stderr)
         return False
 
@@ -86,7 +86,7 @@ def daily_rebase(contrib_branch):
         )
 
         # Fetch latest from origin
-        print(f"Fetching from origin...", file=sys.stderr)
+        print("Fetching from origin...", file=sys.stderr)
         subprocess.run(
             ['git', 'fetch', 'origin'],
             check=True,
@@ -103,7 +103,7 @@ def daily_rebase(contrib_branch):
         )
 
         # Force push with lease (safe force push - only pushes if remote hasn't changed)
-        print(f"Pushing to origin...", file=sys.stderr)
+        print("Pushing to origin...", file=sys.stderr)
         subprocess.run([
             'git', 'push', 'origin', contrib_branch, '--force-with-lease'
         ], check=True, capture_output=True)
@@ -112,7 +112,7 @@ def daily_rebase(contrib_branch):
         return True
 
     except subprocess.CalledProcessError as e:
-        print(f"✗ Rebase failed", file=sys.stderr)
+        print("✗ Rebase failed", file=sys.stderr)
         if e.stderr:
             print(f"\nGit error: {e.stderr.strip()}", file=sys.stderr)
 

@@ -57,7 +57,7 @@ def create_worktree(workflow_type, slug, base_branch):
             stderr=subprocess.PIPE
         ).strip())
     except subprocess.CalledProcessError as e:
-        print(f"ERROR: Not in a git repository", file=sys.stderr)
+        print("ERROR: Not in a git repository", file=sys.stderr)
         print(f"Git error: {e.stderr.strip()}", file=sys.stderr)
         raise
 
@@ -71,7 +71,7 @@ def create_worktree(workflow_type, slug, base_branch):
         )
     except subprocess.CalledProcessError:
         print(f"ERROR: Base branch '{base_branch}' does not exist", file=sys.stderr)
-        print(f"Available branches:", file=sys.stderr)
+        print("Available branches:", file=sys.stderr)
         subprocess.run(['git', 'branch', '-a'], stderr=subprocess.DEVNULL)
         raise
 
@@ -93,7 +93,7 @@ def create_worktree(workflow_type, slug, base_branch):
             base_branch
         ], check=True, stderr=subprocess.PIPE, text=True)
     except subprocess.CalledProcessError as e:
-        print(f"ERROR: Failed to create worktree", file=sys.stderr)
+        print("ERROR: Failed to create worktree", file=sys.stderr)
         print(f"Command: git worktree add {worktree_path} -b {branch_name} {base_branch}", file=sys.stderr)
         print(f"Git error: {e.stderr.strip()}", file=sys.stderr)
         raise
@@ -109,8 +109,8 @@ def create_worktree(workflow_type, slug, base_branch):
         print("ERROR: 'gh' CLI not found. Install from https://cli.github.com/", file=sys.stderr)
         raise
     except subprocess.CalledProcessError as e:
-        print(f"ERROR: Failed to get GitHub username", file=sys.stderr)
-        print(f"Make sure you're authenticated: gh auth login", file=sys.stderr)
+        print("ERROR: Failed to get GitHub username", file=sys.stderr)
+        print("Make sure you're authenticated: gh auth login", file=sys.stderr)
         print(f"gh error: {e.stderr.strip()}", file=sys.stderr)
         raise
 
@@ -179,9 +179,9 @@ Created: {created_timestamp}
                 print(f"ERROR: Cannot write TODO file: {todo_path}", file=sys.stderr)
                 print(f"Error: {e}", file=sys.stderr)
                 raise
-    except Exception as e:
+    except Exception:
         # Cleanup worktree if TODO creation failed
-        print(f"ERROR: TODO file creation failed, cleaning up worktree...", file=sys.stderr)
+        print("ERROR: TODO file creation failed, cleaning up worktree...", file=sys.stderr)
         try:
             subprocess.run(['git', 'worktree', 'remove', str(worktree_path)],
                          stderr=subprocess.DEVNULL, check=False)
@@ -216,7 +216,7 @@ if __name__ == '__main__':
     except (ValueError, FileExistsError) as e:
         print(f"\n{e}", file=sys.stderr)
         sys.exit(1)
-    except (subprocess.CalledProcessError, FileNotFoundError) as e:
+    except (subprocess.CalledProcessError, FileNotFoundError):
         # Error already printed in function
         sys.exit(1)
     except Exception as e:
