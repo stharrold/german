@@ -1,0 +1,816 @@
+# Workflow Guide - German Language Learning Repository
+
+**Version:** 5.2.0
+**Date:** 2025-10-23
+**Architecture:** Skill-based progressive disclosure with BMAD + SpecKit + Claude Code
+
+## Overview
+
+This repository uses a modular skill-based git workflow for Python feature development. The workflow combines:
+- **Git-flow + GitHub-flow hybrid** with worktrees for isolation
+- **BMAD planning** (requirements + architecture) in main repo
+- **SpecKit specifications** (spec + plan) in feature worktrees
+- **7 specialized skills** loaded progressively per workflow phase
+- **Quality gates** enforced before integration (≥80% coverage, all tests passing)
+
+## Prerequisites
+
+Required tools:
+- **gh CLI** - GitHub API access (for username extraction)
+- **uv** - Python package manager
+- **git** - Version control with worktree support
+- **Python 3.11+** - Language runtime
+- **podman** (optional) - Container operations
+
+Verify prerequisites:
+```bash
+gh auth status          # Must be authenticated
+uv --version            # Must be installed
+python3 --version       # Must be 3.11+
+podman --version        # Optional
+```
+
+## Architecture
+
+### Skill Structure
+
+```
+.claude/skills/
+├── workflow-orchestrator/    # Main coordinator (~300 lines)
+│   └── templates/
+│       ├── TODO_template.md
+│       ├── WORKFLOW.md.template
+│       └── CLAUDE.md.template
+├── tech-stack-adapter/        # Detects Python/uv/Podman (~200 lines)
+│   └── scripts/detect_stack.py
+├── git-workflow-manager/      # Git operations (~500 lines)
+│   └── scripts/
+│       ├── create_worktree.py
+│       ├── daily_rebase.py
+│       └── semantic_version.py
+├── bmad-planner/              # Requirements + architecture (~400 lines)
+│   └── templates/
+│       ├── requirements.md.template
+│       └── architecture.md.template
+├── speckit-author/            # Specs in worktrees (~400 lines)
+│   └── templates/
+│       ├── spec.md.template
+│       └── plan.md.template
+├── quality-enforcer/          # Tests, coverage, versioning (~300 lines)
+│   └── scripts/
+│       ├── check_coverage.py
+│       └── run_quality_gates.py
+└── helper-functions/          # Shared utilities (~200 lines)
+    └── scripts/
+        ├── deprecate_files.py
+        ├── archive_manager.py
+        ├── todo_updater.py
+        └── directory_structure.py
+```
+
+**Token Efficiency:**
+- Initial load: orchestrator only (~300 tokens)
+- Per phase: orchestrator + 1-2 skills (~600-900 tokens)
+- Previous monolith: 2,718 tokens all at once
+
+### Branch Structure
+
+```
+main                           ← Production (tagged vX.Y.Z)
+  ↑
+release/vX.Y.Z                ← Release candidate
+  ↑
+develop                        ← Integration branch
+  ↑
+contrib/<gh-user>             ← Personal contribution (contrib/stharrold)
+  ↑
+feature/<timestamp>_<slug>    ← Isolated feature (worktree)
+hotfix/vX.Y.Z-hotfix.N        ← Production hotfix (worktree)
+```
+
+### File Locations
+
+**Main Repository:**
+```
+main-repo/
+├── TODO.md                    ← Master workflow manifest (YAML frontmatter)
+├── TODO_feature_*.md          ← Individual workflow trackers
+├── TODO_release_*.md          ← Release workflow trackers
+├── TODO_hotfix_*.md           ← Hotfix workflow trackers
+├── requirements.md            ← BMAD: Requirements (Phase 1)
+├── architecture.md            ← BMAD: Architecture (Phase 1)
+├── WORKFLOW.md                ← This file
+├── CLAUDE.md                  ← Claude Code interaction guide
+├── README.md                  ← Project documentation
+├── .claude/skills/            ← 7 skill modules
+├── src/                       ← Source code
+├── tests/                     ← Test suite
+└── ARCHIVED/                  ← Deprecated files and completed workflows
+```
+
+**Feature Worktree:**
+```
+worktree-directory/
+├── spec.md                    ← SpecKit: Detailed specification
+├── plan.md                    ← SpecKit: Implementation task breakdown
+├── src/                       ← Code (same as main repo)
+├── tests/                     ← Tests (same as main repo)
+└── .git                       ← Worktree git metadata (linked to main)
+```
+
+**Critical:** TODO_*.md files live in **main repo**, not in worktrees. Worktrees reference them via `../TODO_*.md`.
+
+## Workflow Phases
+
+### Phase 0: Initial Setup
+
+**Location:** Main repository
+**Branch:** `main` or create `contrib/<gh-user>`
+**Skills:** tech-stack-adapter, git-workflow-manager, helper-functions
+
+**Steps:**
+
+1. **Verify prerequisites:**
+   ```bash
+   # Check authentication
+   gh auth status
+
+   # Extract GitHub username
+   GH_USER=$(gh api user --jq '.login')
+   echo "GitHub User: $GH_USER"
+   ```
+
+2. **Create skill directory structure** (if not exists):
+   ```bash
+   # Directory structure is already in .claude/skills/
+   ls -la .claude/skills/
+   ```
+
+3. **Create TODO.md manifest** (if not exists):
+   ```bash
+   python .claude/skills/helper-functions/scripts/todo_updater.py .
+   ```
+
+4. **Initialize contrib branch** (if not exists):
+   ```bash
+   GH_USER=$(gh api user --jq '.login')
+   git checkout -b "contrib/$GH_USER"
+   git push -u origin "contrib/$GH_USER"
+   ```
+
+**User prompt:** "Initialize workflow for this project" or "next step?"
+
+**Output:**
+- ✓ Skills verified
+- ✓ TODO.md created with YAML frontmatter
+- ✓ contrib/<gh-user> branch initialized
+
+---
+
+### Phase 1: Planning (BMAD)
+
+**Location:** Main repository
+**Branch:** `contrib/<gh-user>`
+**Skills:** bmad-planner, helper-functions
+
+**Steps:**
+
+1. **Create requirements.md:**
+   - User needs and acceptance criteria
+   - Functional and non-functional requirements
+   - Success metrics
+
+2. **Create architecture.md:**
+   - System design and component structure
+   - Data models and schemas
+   - Technology choices
+   - Integration points
+
+3. **Commit to contrib branch:**
+   ```bash
+   git add requirements.md architecture.md
+   git commit -m "docs(planning): add BMAD planning documents"
+   git push
+   ```
+
+**User prompt:** "next step?" (from contrib branch)
+
+**Output:**
+- ✓ requirements.md created (BMAD planning)
+- ✓ architecture.md created (BMAD planning)
+- ✓ Committed to contrib/<gh-user>
+
+---
+
+### Phase 2: Feature Development
+
+**Location:** Feature worktree
+**Branch:** `feature/<timestamp>_<slug>`
+**Skills:** git-workflow-manager, speckit-author, quality-enforcer, helper-functions
+
+#### Step 2.1: Create Feature Worktree
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  feature <slug> contrib/<gh-user>
+```
+
+**Example:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  feature certificate-a1 contrib/stharrold
+```
+
+**Output:**
+```
+✓ Worktree created: /Users/user/Documents/GitHub/german_feature_certificate-a1
+✓ Branch: feature/20251023T104248Z_certificate-a1
+✓ TODO file: TODO_feature_20251023T104248Z_certificate-a1.md
+```
+
+**Side effects:**
+- Creates worktree directory: `<repo>_feature_<slug>/`
+- Creates branch: `feature/<timestamp>_<slug>`
+- Creates TODO_*.md in **main repo** (not worktree)
+- Updates TODO.md manifest with new workflow reference
+- Runs `uv sync` in worktree
+
+**User prompt:** "next step?" (after planning)
+
+#### Step 2.2: Switch to Worktree
+
+```bash
+cd /Users/user/Documents/GitHub/german_feature_certificate-a1
+```
+
+#### Step 2.3: Create SpecKit Specifications
+
+**Files created in worktree:**
+- `spec.md` - Detailed specification (API contracts, data models, behaviors)
+- `plan.md` - Implementation task breakdown (impl_001, impl_002, test_001, etc.)
+
+**User prompt:** "next step?" (from worktree)
+
+**Output:**
+- ✓ spec.md created (~400-600 lines)
+- ✓ plan.md created (~300-400 lines)
+- ✓ Committed and pushed to feature branch
+
+#### Step 2.4: Implementation Tasks
+
+**Process:**
+1. Parse `plan.md` for next pending task
+2. Implement code following spec.md
+3. Write tests (target ≥80% coverage)
+4. Commit with semantic message
+5. Update TODO_*.md task status
+6. Repeat for all tasks
+
+**User prompt:** "next step?" (iteratively)
+
+**Commit format:**
+```
+<type>(<scope>): <subject>
+
+<body>
+
+Implements: impl_003
+Spec: spec.md
+Tests: tests/test_validator.py
+Coverage: 85%
+
+Refs: TODO_feature_20251023T104248Z_certificate-a1.md
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+
+---
+
+### Phase 3: Quality Assurance
+
+**Location:** Feature worktree
+**Branch:** `feature/<timestamp>_<slug>`
+**Skills:** quality-enforcer, helper-functions
+
+**Quality Gates (all must pass):**
+
+1. **Test Coverage ≥ 80%:**
+   ```bash
+   uv run pytest --cov=src --cov-report=term --cov-fail-under=80
+   ```
+
+2. **All Tests Passing:**
+   ```bash
+   uv run pytest
+   ```
+
+3. **Linting Clean:**
+   ```bash
+   uv run ruff check src/ tests/
+   ```
+
+4. **Type Checking Clean:**
+   ```bash
+   uv run mypy src/
+   ```
+
+5. **Build Successful:**
+   ```bash
+   uv build
+   ```
+
+6. **Container Healthy** (if applicable):
+   ```bash
+   podman build -t german:test .
+   podman run --rm german:test pytest
+   ```
+
+**User prompt:** "next step?" (after all implementation)
+
+**Command:**
+```bash
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+```
+
+**Output:**
+```
+Running Quality Gates...
+
+COVERAGE: ✓ 87% (≥80% required)
+TESTS: ✓ 45/45 passing
+LINTING: ✓ 0 issues
+TYPES: ✓ 0 errors
+BUILD: ✓ Success
+
+✓ ALL GATES PASSED
+
+Next: Semantic version calculation
+```
+
+---
+
+### Phase 4: Integration & Pull Request
+
+**Location:** Feature worktree → Main repository
+**Skills:** git-workflow-manager, helper-functions
+
+#### Step 4.1: Calculate Semantic Version
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
+  develop v1.0.0
+```
+
+**Version bump logic:**
+- **MAJOR (v2.0.0):** Breaking changes (API changes, removed features)
+- **MINOR (v1.1.0):** New features (new files, new functions, new endpoints)
+- **PATCH (v1.0.1):** Bug fixes, refactoring, docs, tests
+
+**Output:**
+```
+Base version: v1.0.0
+Changes detected:
+  - New files: src/vocabulary/a1.py
+  - New functions: 3
+
+Recommended version: v1.1.0 (MINOR)
+```
+
+#### Step 4.2: Create Pull Request (feature → contrib)
+
+**Command:**
+```bash
+gh pr create \
+  --base "contrib/stharrold" \
+  --head "feature/20251023T104248Z_certificate-a1" \
+  --title "feat(vocab): add A1 certificate vocabulary" \
+  --body "$(cat <<'EOF'
+## Summary
+- Implements A1 level German vocabulary module
+- 150+ words with gender, plural, and examples
+- Full test coverage (87%)
+
+## Changes
+- New module: src/vocabulary/a1.py
+- Tests: tests/test_a1_vocabulary.py
+- Spec: spec.md in worktree
+
+## Quality Gates
+- Coverage: 87% (✓ ≥80%)
+- Tests: 45/45 passing (✓)
+- Linting: Clean (✓)
+- Types: Clean (✓)
+- Build: Success (✓)
+
+## Semantic Version
+Recommended: v1.1.0 (MINOR - new feature)
+
+## References
+- TODO: TODO_feature_20251023T104248Z_certificate-a1.md
+- Spec: See worktree spec.md
+- Plan: See worktree plan.md
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+EOF
+)"
+```
+
+**Output:**
+```
+✓ Pull request created: https://github.com/user/german/pull/42
+```
+
+#### Step 4.3: User Merges PR
+
+**Action:** User reviews and merges PR in GitHub UI (contrib branch)
+
+#### Step 4.4: Archive Workflow
+
+**Return to main repo:**
+```bash
+cd /Users/user/Documents/GitHub/german
+```
+
+**Archive TODO file:**
+```bash
+python .claude/skills/helper-functions/scripts/archive_manager.py \
+  archive TODO_feature_20251023T104248Z_certificate-a1.md
+```
+
+**Output:**
+```
+✓ Archived TODO_feature_20251023T104248Z_certificate-a1.md
+✓ Created ARCHIVED_TODO_feature_20251023T104248Z_certificate-a1.md
+✓ Updated TODO.md manifest
+```
+
+#### Step 4.5: Delete Worktree
+
+```bash
+git worktree remove ../german_feature_certificate-a1
+git branch -D feature/20251023T104248Z_certificate-a1
+```
+
+#### Step 4.6: Rebase contrib onto develop
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
+  contrib/stharrold
+```
+
+**Steps:**
+1. Checkout contrib branch
+2. Fetch origin
+3. Rebase onto origin/develop
+4. Force push with lease
+
+#### Step 4.7: Create Pull Request (contrib → develop)
+
+**Command:**
+```bash
+gh pr create \
+  --base "develop" \
+  --head "contrib/stharrold" \
+  --title "feat(vocab): A1 certificate vocabulary module" \
+  --body "Completed feature: A1 vocabulary with full test coverage"
+```
+
+**User merges in GitHub UI (develop branch)**
+
+---
+
+## TODO.md Manifest System
+
+### Structure (v5.2.0)
+
+**File:** `TODO.md` (root of main repository)
+
+**Format:**
+```markdown
+---
+manifest_version: 5.2.0
+last_updated: 2025-10-23T14:30:22Z
+repository: german
+active_workflows:
+  count: 2
+  updated: 2025-10-23T14:30:22Z
+archived_workflows:
+  count: 45
+  last_archived: 2025-10-22T09:15:00Z
+---
+
+# Workflow Manifest
+
+## Active Workflows
+
+### TODO_feature_20251023T104248Z_certificate-a1.md
+Implements A1 level German vocabulary with grammatical gender and plural forms.
+
+### TODO_feature_20251023T104355Z_certificate-a2.md
+Extends A1 vocabulary with A2 level words and advanced grammar patterns.
+
+## Recently Archived Workflows (Last 10)
+
+### ARCHIVED_TODO_feature_20251022T103000Z_initial-foundation.md
+Created foundational German vocabulary library structure and CI/CD pipeline.
+
+[... 9 more archived workflows ...]
+
+## Workflow Commands
+
+- **Create feature**: `next step?` (from contrib branch)
+- **Continue workflow**: `next step?` (from any context)
+- **Check quality gates**: Tests, coverage, linting, type checking
+- **Create PR**: Automatic after all gates pass
+- **View status**: Check current phase in active TODO_*.md files
+
+## Archive Management
+
+Workflows are archived when:
+- Feature/hotfix PR merged to contrib branch
+- Release PR merged to develop branch
+- Contributor manually archives with `archive workflow` command
+
+Archive process:
+1. Move TODO_*.md → ARCHIVED_TODO_*.md
+2. Update timestamp in filename
+3. Create zip of all related files (spec.md, plan.md, logs)
+4. Update TODO.md manifest references
+5. Commit archive changes to main repo
+```
+
+### Update Manifest
+
+**Command:**
+```bash
+python .claude/skills/helper-functions/scripts/todo_updater.py .
+```
+
+**Auto-updates when:**
+- New worktree created
+- Workflow archived
+- Manual invocation
+
+---
+
+## Individual TODO_*.md Structure
+
+**File:** `TODO_feature_<timestamp>_<slug>.md` (main repository)
+
+**Format:**
+```markdown
+---
+type: workflow-manifest
+workflow_type: feature
+slug: certificate-a1
+timestamp: 20251023T104248Z
+github_user: stharrold
+
+workflow_progress:
+  phase: 2
+  current_step: "2.4"
+  last_task: impl_003
+
+quality_gates:
+  test_coverage: 87
+  tests_passing: true
+  build_passing: true
+  linting_clean: true
+  types_clean: true
+  semantic_version: "1.1.0"
+
+metadata:
+  worktree_path: /Users/stharrold/Documents/GitHub/german_feature_certificate-a1
+  branch_name: feature/20251023T104248Z_certificate-a1
+  created: 2025-10-23T10:42:48Z
+  last_updated: 2025-10-23T14:30:22Z
+
+tasks:
+  implementation:
+    - id: impl_001
+      description: "Create A1 vocabulary data structure"
+      status: complete
+      completed_at: "2025-10-23T11:00:00Z"
+    - id: impl_002
+      description: "Add grammatical gender metadata"
+      status: complete
+      completed_at: "2025-10-23T12:00:00Z"
+    - id: impl_003
+      description: "Implement vocabulary lookup functions"
+      status: in_progress
+      started_at: "2025-10-23T13:00:00Z"
+  testing:
+    - id: test_001
+      description: "Unit tests for vocabulary module"
+      status: pending
+---
+
+# TODO: Certificate A1 Vocabulary
+
+Implements A1 level German vocabulary with grammatical gender and plural forms.
+
+## Active Tasks
+
+### impl_003: Vocabulary Lookup Functions
+**Status:** in_progress
+**Files:** src/vocabulary/a1.py
+**Dependencies:** impl_001, impl_002
+
+[... rest of TODO body ...]
+```
+
+---
+
+## Common Commands Reference
+
+### Project Setup
+```bash
+# Authenticate with GitHub
+gh auth login
+
+# Install dependencies
+uv sync
+
+# Detect technology stack
+python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
+```
+
+### Workflow Management
+```bash
+# Update TODO.md manifest
+python .claude/skills/helper-functions/scripts/todo_updater.py .
+
+# Create feature worktree
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  feature <slug> contrib/<gh-user>
+
+# Daily rebase contrib branch
+python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
+  contrib/<gh-user>
+
+# Run quality gates
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+
+# Calculate semantic version
+python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
+  develop v1.0.0
+
+# Archive workflow
+python .claude/skills/helper-functions/scripts/archive_manager.py \
+  archive TODO_feature_*.md
+```
+
+### Testing & Quality
+```bash
+# Run tests with coverage
+uv run pytest --cov=src --cov-report=term --cov-fail-under=80
+
+# Run tests only
+uv run pytest
+
+# Lint code
+uv run ruff check src/ tests/
+
+# Format code
+uv run ruff format src/
+
+# Type check
+uv run mypy src/
+
+# Build package
+uv build
+```
+
+### Container Operations
+```bash
+# Build container
+podman build -t german:latest .
+
+# Run tests in container
+podman run --rm german:latest pytest
+
+# Run with compose
+podman-compose up -d
+podman-compose logs
+podman-compose down
+```
+
+### Git Operations
+```bash
+# List worktrees
+git worktree list
+
+# Remove worktree
+git worktree remove <path>
+
+# Delete branch
+git branch -D <branch-name>
+
+# Create PR (feature → contrib)
+gh pr create --base "contrib/<gh-user>" --head "<feature-branch>"
+
+# Create PR (contrib → develop)
+gh pr create --base "develop" --head "contrib/<gh-user>"
+```
+
+---
+
+## Context Management
+
+**Monitor context usage:**
+```bash
+/context
+```
+
+**If context > 50%:**
+1. Claude will prompt you
+2. Run `/init` to reset conversation
+3. Workflow state persists in TODO.md and TODO_*.md files
+4. Continue with "next step?" after reset
+
+**Best practices:**
+- Check context after each major phase
+- Archive completed workflows to free up TODO.md space
+- Use progressive skill loading (don't load all skills at once)
+
+---
+
+## Troubleshooting
+
+### Worktree Creation Failed
+```bash
+# Check for stale worktrees
+git worktree list
+git worktree prune
+
+# Verify branch doesn't exist
+git branch -a | grep <branch-name>
+```
+
+### Quality Gates Failing
+```bash
+# Check coverage
+uv run pytest --cov=src --cov-report=html
+open htmlcov/index.html
+
+# Check linting
+uv run ruff check src/ tests/ --fix
+
+# Check types
+uv run mypy src/ --show-error-codes
+```
+
+### TODO.md Out of Sync
+```bash
+# Rebuild manifest
+python .claude/skills/helper-functions/scripts/todo_updater.py .
+
+# Verify
+cat TODO.md
+```
+
+### Merge Conflicts
+```bash
+# In worktree
+git fetch origin
+git rebase origin/contrib/<gh-user>
+# Resolve conflicts
+git add .
+git rebase --continue
+```
+
+---
+
+## Success Metrics
+
+Track these metrics to validate workflow effectiveness:
+
+- **Token usage per phase:** Target <1,000 tokens (orchestrator + 1-2 skills)
+- **Context resets:** Target <3 per feature
+- **Quality gate pass rate:** Target 100% on first run
+- **PR cycle time:** Track for optimization
+- **Test coverage:** Maintain ≥80%
+- **Manifest accuracy:** TODO.md reflects actual state (100%)
+
+---
+
+## Key Design Principles
+
+1. **Progressive disclosure:** Load only relevant skills per phase
+2. **Independence:** Skills don't cross-reference, orchestrator coordinates
+3. **Token efficiency:** YAML metadata compact, load SKILL.md only when needed
+4. **Context awareness:** Detect repo vs worktree, load appropriately
+5. **User confirmation:** Always wait for "Y" before executing
+6. **Quality enforcement:** Gates must pass before PR
+7. **Python ecosystem:** uv, pytest-cov, Podman, FastAPI
+8. **Semantic versioning:** Automatic calculation
+9. **Archive management:** Proper deprecation with timestamps
+
+---
+
+**For more details on specific skills, see `.claude/skills/<skill-name>/SKILL.md`**
