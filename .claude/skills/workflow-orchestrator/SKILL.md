@@ -162,17 +162,45 @@ When user says "next step?":
 **Skills loaded:** tech-stack-adapter, git-workflow-manager, workflow-utilities
 
 ### Phase 1: Planning (Main Repo)
-1. Create BMAD planning documents
-2. Define requirements and architecture
+**Interactive BMAD planning session:**
+
+1. **Load bmad-planner skill**
+2. **BMAD Analyst (Interactive):**
+   - Asks: What problem does this solve? Who will use it?
+   - Generates: planning/<feature>/requirements.md
+3. **BMAD Architect (Interactive):**
+   - Reads requirements.md for context
+   - Asks: Technology preferences? Performance targets?
+   - Generates: planning/<feature>/architecture.md
+4. **BMAD PM (Interactive):**
+   - Reads requirements + architecture
+   - Breaks down into epics with dependencies
+   - Generates: planning/<feature>/epics.md
+5. **Commit planning documents to contrib branch**
+
+**Output:** planning/<feature>/ directory with requirements.md, architecture.md, epics.md
 
 **Skills loaded:** bmad-planner, workflow-utilities
 
+**Next:** Create feature worktree and move to Phase 2
+
 ### Phase 2: Feature Development (Worktree)
-1. Create feature worktree
-2. Write SpecKit specifications
-3. Implement code
-4. Write tests
-5. Create containers
+1. **Create feature worktree** from contrib branch
+2. **Load speckit-author skill**
+3. **SpecKit reads BMAD context:**
+   - ../planning/<feature>/requirements.md → Business context
+   - ../planning/<feature>/architecture.md → Technical design
+   - ../planning/<feature>/epics.md → Epic priorities
+4. **SpecKit creates specifications (informed by BMAD):**
+   - specs/<feature>/spec.md - Detailed specification
+   - specs/<feature>/plan.md - Implementation tasks
+5. **Implement code** following spec.md
+6. **Write tests** targeting ≥80% coverage
+7. **Create containers** (if applicable)
+
+**Input from Phase 1:** BMAD planning documents (requirements, architecture, epics)
+
+**Output:** Working implementation with tests
 
 **Skills loaded:** speckit-author, git-workflow-manager, quality-enforcer, workflow-utilities
 
@@ -198,6 +226,45 @@ When user says "next step?":
 4. Tag release after merge
 
 **Skills loaded:** git-workflow-manager, quality-enforcer
+
+## Data Flow Between Phases
+
+### Phase 1 → Phase 2: BMAD to SpecKit
+
+**Phase 1 produces:**
+```
+planning/<feature>/
+├── requirements.md    # Business requirements, user stories, acceptance criteria
+├── architecture.md    # Technology stack, data models, API design
+└── epics.md          # Epic breakdown, priorities, dependencies
+```
+
+**Create Worktree:**
+```bash
+# Worktree creation preserves link to main repo
+git worktree add ../repo_feature_<slug> feature/<timestamp>_<slug>
+```
+
+**Phase 2 consumes:**
+```python
+# SpecKit reads from main repo
+planning_context = {
+    'requirements': Path('../planning/<feature>/requirements.md').read_text(),
+    'architecture': Path('../planning/<feature>/architecture.md').read_text(),
+    'epics': Path('../planning/<feature>/epics.md').read_text()
+}
+
+# Uses context to generate
+specs/<feature>/
+├── spec.md     # Detailed specification (informed by requirements + architecture)
+└── plan.md     # Implementation tasks (informed by epics + architecture)
+```
+
+**Why this connection matters:**
+- **Consistency:** Technology choices in spec.md match architecture.md stack
+- **Completeness:** spec.md acceptance criteria cover requirements.md success criteria
+- **Traceability:** plan.md tasks map to epics.md breakdown
+- **Less rework:** Planning clarifies before coding starts
 
 ## Context Management
 

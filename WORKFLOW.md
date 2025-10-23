@@ -219,32 +219,102 @@ This automatically creates:
 **Branch:** `contrib/<gh-user>`
 **Skills:** bmad-planner, workflow-utilities
 
-**Steps:**
+**Interactive Planning Session:**
 
-1. **Create requirements.md:**
-   - User needs and acceptance criteria
-   - Functional and non-functional requirements
-   - Success metrics
+BMAD uses a three-persona approach to gather requirements and design architecture.
 
-2. **Create architecture.md:**
-   - System design and component structure
-   - Data models and schemas
-   - Technology choices
-   - Integration points
+#### Persona 1: 🧠 BMAD Analyst (Requirements)
 
-3. **Commit to contrib branch:**
-   ```bash
-   git add requirements.md architecture.md
-   git commit -m "docs(planning): add BMAD planning documents"
-   git push
-   ```
+Claude acts as business analyst to create requirements.md:
+
+**Interactive Q&A:**
+```
+I'll help create the requirements document.
+
+What problem does this feature solve?
+> [User answers]
+
+Who will use this feature? (primary users)
+> [User answers]
+
+How will we measure success?
+> [User answers]
+```
+
+**Generates:** `planning/<feature>/requirements.md` (using comprehensive template)
+- Business context, problem statement, success criteria
+- Functional requirements (FR-001, FR-002...) with acceptance criteria
+- Non-functional requirements (performance, security, scalability)
+- User stories with scenarios
+- Risks and mitigation
+
+#### Persona 2: 🏗️ BMAD Architect (Architecture)
+
+Claude acts as technical architect to create architecture.md:
+
+**Reads:** requirements.md for context
+
+**Interactive Q&A:**
+```
+Based on the requirements, I'll design the technical architecture.
+
+Technology preferences? (Python frameworks: FastAPI/Flask/Django)
+> [User answers]
+
+Database requirements? (SQLite for dev, PostgreSQL for prod?)
+> [User answers]
+
+Performance targets? (Response time, throughput)
+> [User answers]
+```
+
+**Generates:** `planning/<feature>/architecture.md` (using comprehensive template)
+- System overview, component diagrams
+- Technology stack with justifications
+- Data models, API endpoints
+- Container architecture (Containerfile, podman-compose.yml)
+- Security, error handling, testing strategy
+- Deployment and observability
+
+#### Persona 3: 📋 BMAD PM (Epic Breakdown)
+
+Claude acts as project manager to create epics.md:
+
+**Reads:** requirements.md + architecture.md for context
+
+**Generates:** `planning/<feature>/epics.md` (epic breakdown)
+- Epic 1, Epic 2, Epic 3... with scope and complexity
+- Dependencies between epics
+- Implementation priority order
+- Timeline estimates
+
+#### Commit Planning Documents
+
+```bash
+git add planning/<feature>/
+git commit -m "docs(planning): add BMAD planning for <feature>
+
+BMAD planning session complete:
+- requirements.md: Business requirements and user stories
+- architecture.md: Technical design and technology stack
+- epics.md: Epic breakdown and priorities
+
+Refs: planning/<feature>/README.md
+"
+git push origin contrib/<gh-user>
+```
 
 **User prompt:** "next step?" (from contrib branch)
 
 **Output:**
-- ✓ requirements.md created (BMAD planning)
-- ✓ architecture.md created (BMAD planning)
+- ✓ planning/<feature>/requirements.md created (BMAD Analyst)
+- ✓ planning/<feature>/architecture.md created (BMAD Architect)
+- ✓ planning/<feature>/epics.md created (BMAD PM)
 - ✓ Committed to contrib/<gh-user>
+
+**Next:** Create feature worktree (Phase 2 will use these planning docs as context)
+
+**Reference:** [bmad-planner skill](/.claude/skills/bmad-planner/SKILL.md)
 
 ---
 
@@ -296,11 +366,37 @@ cd /Users/user/Documents/GitHub/german_feature_certificate-a1
 - `spec.md` - Detailed specification (API contracts, data models, behaviors)
 - `plan.md` - Implementation task breakdown (impl_001, impl_002, test_001, etc.)
 
+**BMAD Context Integration:**
+
+If planning documents exist in `../planning/<feature>/`:
+```
+I found BMAD planning documents from Phase 1.
+
+Using as context:
+- requirements.md: 15 functional requirements, 5 user stories
+- architecture.md: Python/FastAPI stack, PostgreSQL database
+- epics.md: 3 epics (data layer, API, tests)
+
+Generating SpecKit specifications that align with BMAD planning...
+```
+
+If no planning documents:
+```
+No BMAD planning found. Creating specifications from scratch.
+
+What is the main purpose of this feature?
+```
+
+**SpecKit uses planning context to generate:**
+- spec.md sections align with requirements.md functional requirements
+- plan.md tasks organized by epics.md epic breakdown
+- Technology choices match architecture.md stack
+
 **User prompt:** "next step?" (from worktree)
 
 **Output:**
-- ✓ spec.md created (~400-600 lines)
-- ✓ plan.md created (~300-400 lines)
+- ✓ spec.md created (~400-600 lines, informed by BMAD if available)
+- ✓ plan.md created (~300-400 lines, organized by epics if available)
 - ✓ Committed and pushed to feature branch
 
 #### Step 2.4: Implementation Tasks
