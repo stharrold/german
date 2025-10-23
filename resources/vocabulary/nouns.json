@@ -1,0 +1,144 @@
+{
+  "words": [
+    {
+      "german": "Haus",
+      "english": "house",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Häuser"
+    },
+    {
+      "german": "Buch",
+      "english": "book",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Bücher"
+    },
+    {
+      "german": "Tisch",
+      "english": "table",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Tische"
+    },
+    {
+      "german": "Stuhl",
+      "english": "chair",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Stühle"
+    },
+    {
+      "german": "Tür",
+      "english": "door",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Türen"
+    },
+    {
+      "german": "Fenster",
+      "english": "window",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Fenster"
+    },
+    {
+      "german": "Stadt",
+      "english": "city",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Städte"
+    },
+    {
+      "german": "Land",
+      "english": "country",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Länder"
+    },
+    {
+      "german": "Mensch",
+      "english": "person/human",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Menschen"
+    },
+    {
+      "german": "Frau",
+      "english": "woman",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Frauen"
+    },
+    {
+      "german": "Mann",
+      "english": "man",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Männer"
+    },
+    {
+      "german": "Kind",
+      "english": "child",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Kinder"
+    },
+    {
+      "german": "Tag",
+      "english": "day",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Tage"
+    },
+    {
+      "german": "Nacht",
+      "english": "night",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nächte"
+    },
+    {
+      "german": "Zeit",
+      "english": "time",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Zeiten"
+    },
+    {
+      "german": "Jahr",
+      "english": "year",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Jahre"
+    },
+    {
+      "german": "Wasser",
+      "english": "water",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Wasser"
+    },
+    {
+      "german": "Brot",
+      "english": "bread",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Brote"
+    },
+    {
+      "german": "Apfel",
+      "english": "apple",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Äpfel"
+    },
+    {
+      "german": "Baum",
+      "english": "tree",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Bäume"
+    }
+  ]
+}

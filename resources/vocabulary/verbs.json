@@ -1,0 +1,154 @@
+{
+  "words": [
+    {
+      "german": "sein",
+      "english": "to be",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "haben",
+      "english": "to have",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "werden",
+      "english": "to become",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "können",
+      "english": "to be able to / can",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "müssen",
+      "english": "to have to / must",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "sagen",
+      "english": "to say",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "machen",
+      "english": "to make / to do",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "geben",
+      "english": "to give",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "kommen",
+      "english": "to come",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "sollen",
+      "english": "should / ought to",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "wollen",
+      "english": "to want",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "gehen",
+      "english": "to go",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "wissen",
+      "english": "to know (facts)",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "sehen",
+      "english": "to see",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "lassen",
+      "english": "to let / to leave",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "stehen",
+      "english": "to stand",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "finden",
+      "english": "to find",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "bleiben",
+      "english": "to stay / to remain",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "liegen",
+      "english": "to lie / to be located",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "heißen",
+      "english": "to be called / to mean",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "denken",
+      "english": "to think",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "nehmen",
+      "english": "to take",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "tun",
+      "english": "to do",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "dürfen",
+      "english": "to be allowed to / may",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "glauben",
+      "english": "to believe",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "halten",
+      "english": "to hold / to stop",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "nennen",
+      "english": "to name / to call",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "mögen",
+      "english": "to like",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "zeigen",
+      "english": "to show",
+      "part_of_speech": "verb"
+    },
+    {
+      "german": "führen",
+      "english": "to lead",
+      "part_of_speech": "verb"
+    }
+  ]
+}
