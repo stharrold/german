@@ -244,10 +244,10 @@ def check_context_usage(current_tokens):
 
         print("✓ State saved to TODO_*.md")
         print("\n🔄 REQUIRED ACTIONS:")
-        print("  1. Run: /init")
-        print("  2. Run: /compact")
-        print("  3. Say: 'continue with TODO_feature_[timestamp]_[slug].md'")
-        print("\nWorkflow will resume from saved state.")
+        print("  1. Run: /init (updates CLAUDE.md memory files)")
+        print("  2. Run: /compact (compresses memory buffer)")
+        print("  3. Continue working - context preserved in TODO_*.md")
+        print("\nToken usage will be reduced after /init + /compact.")
 
         return True  # Triggers pause for user action
 
@@ -274,18 +274,22 @@ When checkpoint is triggered, save to TODO_*.md:
 - Append "## Context Checkpoint" section
 - Document: completed tasks, current task, next tasks, blockers
 
-### Resume After Reset
+### Continue After Checkpoint
 
-After `/init` and `/compact`, user says:
-```
-"continue with TODO_feature_20251023T123254Z_workflow.md"
-```
+After `/init` and `/compact`, token usage is reduced by:
+- Updating CLAUDE.md memory files with current state
+- Compressing memory buffer to remove redundant context
+- TODO_*.md preserves all workflow state
+
+User can then:
+- Continue with current task
+- Say "next step?" for next task
+- Reference TODO_*.md to see progress
 
 Claude will:
-1. Read TODO_*.md to restore state
-2. Load relevant skills for current phase
-3. Resume from `workflow_progress.current_step`
-4. Continue with next pending task
+1. Work with reduced token count (memory optimized)
+2. Reference TODO_*.md for workflow state as needed
+3. Continue from last checkpoint without data loss
 
 ## Interactive Confirmation Pattern
 

@@ -958,9 +958,9 @@ Claude will **automatically**:
 3. Commit TODO_*.md updates
 
 Then **you must**:
-1. Run `/init` to reset conversation context
-2. Run `/compact` to compress memory
-3. Say "continue with TODO_feature_[timestamp]_[slug].md" to resume
+1. Run `/init` to update CLAUDE.md memory files with current state
+2. Run `/compact` to compress memory and reduce token usage
+3. Continue working - context is preserved in TODO_*.md
 
 **Monitor context usage:**
 ```bash
@@ -973,9 +973,10 @@ Token usage: 100543/200000; 99457 remaining
 ```
 
 **When you see usage approaching 100K:**
-- Claude will proactively save state
+- Claude will proactively save state to TODO_*.md
 - Wait for "✓ State saved to TODO file" confirmation
-- Then run /init and /compact before continuing
+- Run /init (updates memory files) and /compact (compresses memory)
+- Continue working with reduced token usage
 
 **Best practices:**
 - Check /context after each major phase (every 10-15K tokens)

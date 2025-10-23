@@ -349,9 +349,9 @@ Token usage: 98543/200000; 101457 remaining
 3. Displays: "✓ State saved to TODO file"
 
 ⚠️ **You must then:**
-1. Run `/init` (resets conversation)
-2. Run `/compact` (compresses memory)
-3. Say: "continue with TODO_feature_[timestamp]_[slug].md"
+1. Run `/init` (updates CLAUDE.md memory files)
+2. Run `/compact` (compresses memory buffer)
+3. Continue working - context preserved in TODO_*.md
 
 **Warning at 80K tokens:**
 - Complete current task before checkpoint
