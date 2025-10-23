@@ -10,6 +10,34 @@ This is a Python-based repository for German language learning resources and con
 - Structured data for German language content
 - **Workflow v5.0 skill-based architecture** for managing development workflow
 
+## Code Architecture
+
+**Package Structure:**
+```
+src/german/
+├── __init__.py           # Package initialization
+├── models.py             # Pydantic models: VocabularyWord, Gender, PartOfSpeech
+└── vocabulary/
+    ├── __init__.py
+    ├── loader.py         # Load JSON vocabulary files → VocabularyWord objects
+    └── query.py          # Query/filter vocabulary (by POS, gender, etc.)
+
+resources/vocabulary/
+├── nouns.json            # German nouns with gender, plural
+├── verbs.json            # German verbs
+└── adjectives.json       # German adjectives
+```
+
+**Data Flow:**
+```
+JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Application
+```
+
+**German Language Constraints:**
+- All nouns MUST have gender (der/die/das) - enforced by Pydantic `@model_validator`
+- JSON files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
+- Vocabulary schema: `{"words": [{"german": "...", "english": "...", "part_of_speech": "...", "gender": "..."}]}`
+
 ## Technology Stack
 
 - **Language:** Python 3.11+
@@ -181,17 +209,32 @@ uv add --dev <package-name>
 ### Testing & Quality
 
 ```bash
-# Run tests
+# Run all tests
 uv run pytest
 
 # Run with coverage
 uv run pytest --cov=src --cov-report=term
 
-# Coverage with threshold check
+# Coverage with threshold check (required ≥80%)
 uv run pytest --cov=src --cov-fail-under=80
+
+# Run single test file
+uv run pytest tests/test_models.py
+
+# Run specific test
+uv run pytest tests/test_models.py::test_vocabulary_word_noun_with_gender
+
+# Run tests matching pattern
+uv run pytest -k "noun"
+
+# Verbose output
+uv run pytest -v
 
 # Lint code
 uv run ruff check src/ tests/
+
+# Auto-fix linting issues
+uv run ruff check --fix src/ tests/
 
 # Type checking
 uv run mypy src/
@@ -233,6 +276,10 @@ Use `workflow-utilities/scripts/directory_structure.py` to create compliant dire
 - ✓ Linting clean (ruff)
 - ✓ Type checking clean (mypy)
 - ✓ Container healthy (if applicable)
+
+## Project Configuration
+
+**.gitignore:** Excludes `__pycache__/`, `.coverage`, `*.pyc`, `.venv/`, and IDE/OS files. Do not commit generated files.
 
 ## German Language Content Guidelines
 
@@ -323,6 +370,9 @@ Automatic version calculation based on changes:
 - **MAJOR**: Breaking changes (API changes, removed features)
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
+
+**Current version:** v1.2.0 (from v1.0.0)
+- v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
 
 ## Commit Message Format
 
