@@ -176,7 +176,11 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 # Detect project stack (run once per session)
 python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
 
-# Create feature worktree
+# Create BMAD planning (Phase 1: in main repo, contrib branch)
+python .claude/skills/bmad-planner/scripts/create_planning.py \
+  <slug> stharrold
+
+# Create feature worktree (Phase 2)
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
   feature <slug> contrib/stharrold
 
@@ -184,11 +188,11 @@ python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
   hotfix <slug> main
 
-# Create SpecKit specifications (in worktree)
+# Create SpecKit specifications (Phase 2: in worktree)
 python .claude/skills/speckit-author/scripts/create_specifications.py \
   feature <slug> stharrold --todo-file ../TODO_feature_*.md
 
-# Update BMAD planning with as-built details (after PR merge)
+# Update BMAD planning with as-built details (Phase 4: after PR merge)
 python .claude/skills/speckit-author/scripts/update_asbuilt.py \
   planning/<slug> specs/<slug>
 
@@ -200,7 +204,7 @@ python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
 python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   TODO_feature_*.md <task_id> <complete|pending|blocked>
 
-# Run quality gates
+# Run quality gates (Phase 3)
 python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 
 # Calculate semantic version
