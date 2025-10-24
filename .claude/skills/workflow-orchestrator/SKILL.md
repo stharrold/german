@@ -185,24 +185,57 @@ When user says "next step?":
 **Next:** Create feature worktree and move to Phase 2
 
 ### Phase 2: Feature Development (Worktree)
-1. **Create feature worktree** from contrib branch
-2. **Load speckit-author skill**
-3. **SpecKit reads BMAD context:**
-   - ../planning/<feature>/requirements.md → Business context
-   - ../planning/<feature>/architecture.md → Technical design
-   - ../planning/<feature>/epics.md → Epic priorities
-4. **SpecKit creates specifications (informed by BMAD):**
-   - specs/<feature>/spec.md - Detailed specification
-   - specs/<feature>/plan.md - Implementation tasks
-5. **Implement code** following spec.md
-6. **Write tests** targeting ≥80% coverage
-7. **Create containers** (if applicable)
 
-**Input from Phase 1:** BMAD planning documents (requirements, architecture, epics)
+**Step 2.1:** Create feature worktree from contrib branch (git-workflow-manager)
 
-**Output:** Working implementation with tests
+**Step 2.2:** Switch to worktree directory
 
-**Skills loaded:** speckit-author, git-workflow-manager, quality-enforcer, workflow-utilities
+**Step 2.3:** Call SpecKit interactive tool
+
+**Invocation:**
+```python
+import subprocess
+import sys
+
+# Call create_specifications.py
+result = subprocess.run([
+    'python',
+    '.claude/skills/speckit-author/scripts/create_specifications.py',
+    workflow_type,  # feature, release, or hotfix
+    slug,          # feature slug (e.g., my-feature)
+    gh_user,       # GitHub username
+    '--todo-file', f'../TODO_{workflow_type}_{timestamp}_{slug}.md'
+], check=True)
+
+# Script handles:
+# - BMAD context detection (../planning/<slug>/)
+# - Interactive Q&A with user (5-15 questions)
+# - Generates specs/<slug>/spec.md and plan.md
+# - Creates compliant directory structure
+# - Updates TODO_*.md with tasks from plan.md
+# - Commits changes to feature branch
+
+print("✓ SpecKit specifications created")
+```
+
+**What SpecKit does:**
+1. **Detect BMAD context:** Checks ../planning/<feature>/ for requirements, architecture, epics
+2. **Interactive Q&A:** Asks implementation-specific questions (adapts based on BMAD availability)
+3. **Generate specs:** Creates specs/<feature>/spec.md and plan.md from templates
+4. **Update TODO:** Parses tasks from plan.md, updates TODO_*.md YAML frontmatter
+5. **Commit:** Stages and commits all changes
+
+**Step 2.4:** Implement code following spec.md
+
+**Step 2.5:** Write tests targeting ≥80% coverage
+
+**Step 2.6:** Create containers (if applicable)
+
+**Input from Phase 1:** BMAD planning documents (requirements, architecture, epics) - optional but recommended
+
+**Output:** Working implementation with tests, specs, and updated TODO
+
+**Skills used:** speckit-author (callable tool), git-workflow-manager, quality-enforcer, workflow-utilities
 
 ### Phase 3: Quality Assurance
 1. Run tests with coverage
@@ -212,12 +245,56 @@ When user says "next step?":
 **Skills loaded:** quality-enforcer, workflow-utilities
 
 ### Phase 4: Integration
-1. Create PR from feature → contrib/<gh-user>
-2. User merges PR in GitHub UI
-3. Rebase contrib/<gh-user> onto develop
-4. Create PR from contrib/<gh-user> → develop
 
-**Skills loaded:** git-workflow-manager
+**Step 4.1:** Create PR from feature → contrib/<gh-user> (git-workflow-manager)
+
+**Step 4.2:** User merges PR in GitHub UI
+
+**Step 4.3:** Archive workflow and delete worktree
+
+**Step 4.4:** Update BMAD planning with as-built details (optional but recommended)
+
+**Invocation:**
+```python
+import subprocess
+
+# Call update_asbuilt.py from main repo on contrib branch
+result = subprocess.run([
+    'python',
+    '.claude/skills/speckit-author/scripts/update_asbuilt.py',
+    f'planning/{slug}',  # BMAD planning directory
+    f'specs/{slug}'      # SpecKit specs directory
+], check=True)
+
+# Script handles:
+# - Reads as-built specs from specs/<slug>/
+# - Compares with original planning from planning/<slug>/
+# - Interactive Q&A about deviations and metrics
+# - Updates planning/ files with "As-Built" sections
+# - Commits updates to contrib branch
+
+print("✓ BMAD planning updated with as-built details")
+print("  Feedback loop completed")
+```
+
+**What update_asbuilt.py does:**
+1. **Read as-built specs:** specs/<slug>/spec.md and plan.md
+2. **Analyze deviations:** Compare with planning/<slug>/ documents
+3. **Gather metrics:** Interactive Q&A about effort, performance, lessons learned
+4. **Update planning:** Appends "As-Built" sections to requirements.md, architecture.md, epics.md
+5. **Commit:** Saves feedback for future planning
+
+**Benefits:**
+- Improves future planning accuracy
+- Documents what actually happened vs what was planned
+- Identifies patterns in estimation and technology choices
+- Creates living documentation
+
+**Step 4.5:** Rebase contrib/<gh-user> onto develop (git-workflow-manager)
+
+**Step 4.6:** Create PR from contrib/<gh-user> → develop
+
+**Skills used:** git-workflow-manager, speckit-author (update_asbuilt.py)
 
 ### Phase 5: Release (Worktree)
 1. Create release worktree from develop
