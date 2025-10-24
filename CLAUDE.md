@@ -77,10 +77,12 @@ The orchestrator will:
 
 ### Workflow Phases (Bidirectional BMAD ↔ SpecKit Flow)
 
-**Phase 1: Planning (BMAD - Interactive)** (main repo, `contrib/<gh-user>` branch)
-- **Interactive Q&A:** 3 personas gather requirements
+**Phase 1: Planning (BMAD - Callable Tool)** (main repo, `contrib/<gh-user>` branch)
+- **Callable script:** `python .claude/skills/bmad-planner/scripts/create_planning.py`
+- **Interactive Q&A:** 3 personas (Analyst, Architect, PM) gather requirements
 - **Output:** planning/<feature>/ with requirements.md, architecture.md, epics.md
-- **Skills:** bmad-planner
+- **Skills:** bmad-planner (callable)
+- **Token savings:** ~2,300 tokens per feature (92% reduction vs manual)
 
 **Phase 2: Implementation (SpecKit - Callable Tool)** (feature worktree)
 - **Call SpecKit script:** `python .claude/skills/speckit-author/scripts/create_specifications.py`
@@ -125,10 +127,14 @@ The orchestrator will:
 
 ### Key Workflow Features
 
-**Interactive Planning (BMAD):**
-- 🧠 Analyst: Q&A for requirements
-- 🏗️ Architect: Q&A for architecture
+**Interactive Planning (BMAD - Callable Tool):**
+- **Run script:** `create_planning.py` in main repo on contrib branch
+- 🧠 Analyst: Q&A for requirements (5-10 questions)
+- 🏗️ Architect: Q&A for architecture (5-8 questions)
 - 📋 PM: Automatic epic breakdown
+- Generates requirements.md, architecture.md, epics.md from templates
+- Commits changes automatically
+- **Token savings:** ~2,300 tokens per feature (92% reduction)
 
 **Interactive Specifications (SpecKit - Callable Tool):**
 - **Run script:** `create_specifications.py` in feature/hotfix worktrees
@@ -424,9 +430,10 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.3.0
+**Current version:** v1.4.0
 - v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
 - v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
+- v1.3.0 → v1.4.0: BMAD and SpecKit callable tools with 89-91% token reduction (MINOR)
 
 ## Commit Message Format
 
