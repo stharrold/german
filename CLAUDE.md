@@ -82,24 +82,27 @@ The orchestrator will:
 - **Output:** planning/<feature>/ with requirements.md, architecture.md, epics.md
 - **Skills:** bmad-planner
 
-**Phase 2: Implementation (SpecKit - Interactive)** (feature worktree)
-- **Read BMAD context** from ../planning/<feature>/
-- **Interactive Q&A:** Implementation approach, testing strategy, task breakdown
-- **Output:** specs/<feature>/ with spec.md, plan.md (informed by BMAD)
-- **Skills:** speckit-author, git-workflow-manager
+**Phase 2: Implementation (SpecKit - Callable Tool)** (feature worktree)
+- **Call SpecKit script:** `python .claude/skills/speckit-author/scripts/create_specifications.py`
+- **Script auto-detects** BMAD context from ../planning/<feature>/
+- **Interactive Q&A:** 5-8 questions (with BMAD) or 10-15 (without)
+- **Output:** specs/<feature>/ with spec.md, plan.md, TODO_*.md updated
+- **Skills:** speckit-author (callable), git-workflow-manager
+- **Token savings:** ~1,700-2,700 tokens per feature (vs manual reproduction)
 
 **Phase 3: Quality** (feature worktree)
 - Run quality gates (≥80% coverage, all tests passing)
 - Calculate semantic version
-- Skills: quality-enforcer
+- **Skills:** quality-enforcer
 
 **Phase 4: Integration + Feedback**
 - Create PR: feature → contrib/<gh-user>
 - Merge in GitHub UI
-- **Update BMAD with as-built:** Run update_asbuilt.py to document deviations, actual effort, lessons learned
+- **Update BMAD with as-built:** `python .claude/skills/speckit-author/scripts/update_asbuilt.py`
+- Script analyzes deviations, gathers metrics, updates planning/
 - Rebase contrib onto develop
 - Create PR: contrib/<gh-user> → develop
-- Skills: git-workflow-manager, speckit-author (for as-built updates)
+- **Skills:** git-workflow-manager, speckit-author (update_asbuilt.py)
 
 **Phase 5: Release** (main repo)
 - Create release branch from develop
@@ -108,7 +111,17 @@ The orchestrator will:
 - Tag release after merge
 - Back-merge to develop
 - Cleanup release branch
-- Skills: git-workflow-manager, quality-enforcer
+- **Skills:** git-workflow-manager, quality-enforcer
+- **SpecKit:** Not used (packages existing features)
+
+**Phase 6: Hotfix** (hotfix worktree from main)
+- Create hotfix worktree from main (not contrib)
+- **SpecKit optional:** Use only for complex fixes requiring planning
+- Implement minimal fix (keep scope tight)
+- Run quality gates (≥80% coverage required)
+- Merge to main → tag → back-merge to develop
+- **Skills:** git-workflow-manager, speckit-author (optional), quality-enforcer
+- **Versioning:** vX.Y.Z-hotfix.N
 
 ### Key Workflow Features
 
@@ -117,24 +130,29 @@ The orchestrator will:
 - 🏗️ Architect: Q&A for architecture
 - 📋 PM: Automatic epic breakdown
 
-**Interactive Specifications (SpecKit):**
-- Reads BMAD planning from Phase 1
-- Q&A for implementation preferences
-- Q&A for testing strategy
-- Q&A for task organization
+**Interactive Specifications (SpecKit - Callable Tool):**
+- **Run script:** `create_specifications.py` in feature/hotfix worktrees
+- Auto-detects BMAD planning from Phase 1
+- Adaptive Q&A: 5-8 questions (with BMAD) or 10-15 (without BMAD)
+- Generates spec.md and plan.md from templates
+- Parses tasks from plan.md → updates TODO_*.md YAML frontmatter
+- Commits changes automatically
+- **When to use:** Standard for features, optional for complex hotfixes
 
-**Feedback Loop (SpecKit → BMAD):**
-- After PR merge, update planning/ with as-built details
-- Document deviations and reasons
-- Record actual vs estimated effort
-- Capture lessons learned for future planning
+**Feedback Loop (SpecKit → BMAD - Callable Tool):**
+- **Run script:** `update_asbuilt.py` after PR merge (Phase 4)
+- Compares as-built specs with original BMAD planning
+- Auto-detects technology deviations
+- Interactive Q&A for metrics and lessons learned
+- Updates planning/ files with "As-Built" sections
+- Improves future planning accuracy
 
 ## Git Branch Structure
 
 ```
 main                           ← Production (tagged vX.Y.Z)
-  ↑
-release/vX.Y.Z                ← Release candidate
+  ↑                             ↑
+release/vX.Y.Z                hotfix/vX.Y.Z-hotfix.N (worktree)
   ↑
 develop                        ← Integration branch
   ↑
@@ -144,6 +162,11 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 ```
 
 **Current contrib branch:** `contrib/stharrold`
+
+**Branch workflows:**
+- **Features:** contrib → feature worktree → contrib → develop → release → main
+- **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
+- **Releases:** develop → release branch → main (tagged) → back-merge to develop
 
 ## Common Development Commands
 
@@ -156,6 +179,18 @@ python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
 # Create feature worktree
 python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
   feature <slug> contrib/stharrold
+
+# Create hotfix worktree (from main for production fixes)
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  hotfix <slug> main
+
+# Create SpecKit specifications (in worktree)
+python .claude/skills/speckit-author/scripts/create_specifications.py \
+  feature <slug> stharrold --todo-file ../TODO_feature_*.md
+
+# Update BMAD planning with as-built details (after PR merge)
+python .claude/skills/speckit-author/scripts/update_asbuilt.py \
+  planning/<slug> specs/<slug>
 
 # Daily rebase contrib onto develop
 python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
@@ -481,8 +516,9 @@ Token usage: 98543/200000; 101457 remaining
 - Cleanup on failure: Remove artifacts if operation fails
 
 **Reference Documentation:**
-- Complete workflow: `WORKFLOW.md` (5 phases, 1035 lines)
+- Complete workflow: `WORKFLOW.md` (6 phases including hotfix, 1790 lines)
 - Detailed planning: `TODO_feature_*.md` files
+- SpecKit implementation: `.claude/skills/speckit-author/` (callable tools)
 - Original spec: `ARCHIVED/Workflow-v5x2.md`
 
 ## Related Documentation
