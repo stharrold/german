@@ -28,155 +28,261 @@ Templates are located in `templates/`:
 - `spec.md.template` - Detailed technical specification (297 lines)
 - `plan.md.template` - Task breakdown and implementation plan (367 lines)
 
-## Interactive Specification Approach
+## Interactive Callable Tool
 
-SpecKit uses interactive Q&A to create detailed specifications informed by BMAD planning (if it exists).
+SpecKit is now an **interactive callable tool** that runs as a Python script in feature worktrees.
 
-### When BMAD Planning Exists (from Phase 1)
+### Invocation
 
-**Process:**
-1. Read BMAD planning context from `../planning/<feature>/`
-2. Analyze requirements, architecture, epics
-3. Ask user about implementation preferences
-4. Generate spec.md and plan.md informed by planning + user answers
-
-**Interactive Q&A Flow:**
-
-#### 1. Implementation Approach:
-```
-Based on the BMAD architecture (FastAPI + PostgreSQL), I'll create detailed specs.
-
-For the data layer (Epic E-001):
-  - Use SQLAlchemy ORM (from architecture.md)
-  - How should we handle migrations? (Alembic / manual SQL)
-  > [User chooses: Alembic]
-
-  - Database connection pooling strategy? (default / custom pool size)
-  > [User answers: Default]
+**Command:**
+```bash
+python .claude/skills/speckit-author/scripts/create_specifications.py \
+  <workflow_type> <slug> <gh_user> [--todo-file <path>]
 ```
 
-#### 2. Testing Strategy:
-```
-BMAD requires ≥80% coverage. Let me plan the testing approach.
+**Arguments:**
+- `workflow_type`: feature, release, or hotfix
+- `slug`: Feature slug (e.g., my-feature)
+- `gh_user`: GitHub username
+- `--todo-file`: Optional path to TODO file (default: auto-detect)
+- `--no-commit`: Skip git commit (for testing)
 
-Testing breakdown:
-  - Unit tests: ✓ (individual functions, classes)
-  - Integration tests: ✓ (API endpoints with test database)
-  - E2E tests: Optional (full workflows)
+**Example:**
+```bash
+# In feature worktree
+cd /Users/user/german_feature_my-feature
 
-Do you want to add E2E tests? (Y/n)
-> [User answers]
-
-Do you want to add performance tests? (load testing with locust/k6)
-> [User answers]
-
-Do you want to add security tests? (OWASP checks, vulnerability scanning)
-> [User answers]
+python .claude/skills/speckit-author/scripts/create_specifications.py \
+  feature my-feature stharrold \
+  --todo-file ../TODO_feature_20251024T143000Z_my-feature.md
 ```
 
-#### 3. Task Breakdown Preferences:
+### Interactive Session Flow
+
+#### With BMAD Planning (Recommended)
+
+**Session output:**
 ```
-From epics.md, I see 3 epics. How should I organize tasks?
+Working in worktree: /Users/user/german_feature_my-feature
+Branch: feature/20251024T143000Z_my-feature
+✓ Auto-detected TODO file: ../TODO_feature_20251024T143000Z_my-feature.md
 
-Task granularity preference:
-  - Small tasks (1-2 hours each) or larger tasks (half-day)?
-  > [User chooses: Small tasks]
+======================================================================
+SpecKit Interactive Specification Tool
+======================================================================
 
-Implementation order:
-  - Follow epic priority (E-001 → E-002 → E-003)?
-  > [User confirms or suggests alternative]
+✓ Detected BMAD planning context: ../planning/my-feature/
 
-Parallel work opportunities:
-  - Can E-002 and E-003 be done in parallel? (depends on team size)
-  > [User answers: Just me, sequential is fine]
+BMAD Summary:
+  - Requirements: 15 functional requirements, 5 user stories
+  - Architecture: Technology stack defined
+  - Epics: 3 epics defined
+
+Implementation Questions:
+----------------------------------------------------------------------
+
+Database migrations strategy?
+  1) Alembic (recommended)
+  2) Manual SQL migrations
+  3) None needed
+  [default: Alembic (recommended)]
+> 1
+
+Include end-to-end (E2E) tests? (Y/n) > n
+
+Include performance/load tests? (Y/n) > n
+
+Include security tests (OWASP checks)? (Y/n) > n
+
+Task granularity preference?
+  1) Small tasks (1-2 hours each)
+  2) Medium tasks (half-day each)
+  3) Large tasks (full-day each)
+  [default: Small tasks (1-2 hours each)]
+> 1
+
+Follow epic priority order from epics.md? (Y/n) > Y
+
+Any additional implementation notes or constraints? (optional)
+> Use type hints throughout
+
+======================================================================
+Generating specifications...
+======================================================================
+✓ Created specs/my-feature/spec.md (1247 chars)
+✓ Created specs/my-feature/plan.md (1583 chars)
+✓ Created specs/my-feature/CLAUDE.md
+✓ Created specs/my-feature/README.md
+✓ Updated TODO file: ../TODO_feature_20251024T143000Z_my-feature.md
+  Added 0 tasks across 0 categories
+
+✓ Committed changes to branch
+
+======================================================================
+SpecKit Specifications Created Successfully!
+======================================================================
+
+Files created:
+  - specs/my-feature/spec.md
+  - specs/my-feature/plan.md
+  - specs/my-feature/CLAUDE.md
+  - specs/my-feature/README.md
+
+Next steps:
+  1. Review spec.md and plan.md
+  2. Implement tasks from plan.md
+  3. Update TODO task status as you complete each task
+  4. Refer to ../planning/my-feature/ for BMAD context
 ```
 
-**Output:**
-- spec.md with detailed implementation approach
-- plan.md with tasks organized per user preferences
-- Both aligned with BMAD planning + user's implementation choices
+**What happens:**
+1. Script detects ../planning/my-feature/ directory
+2. Reads requirements.md, architecture.md, epics.md
+3. Displays BMAD summary
+4. Asks 5-8 implementation-specific questions
+5. Generates spec.md + plan.md aligned with BMAD
+6. Creates compliant specs/<slug>/ directory structure
+7. Updates TODO_*.md with tasks parsed from plan.md
+8. Commits changes
 
-### When BMAD Planning Doesn't Exist
+**Generated spec.md includes:**
+- Reference to BMAD planning documents
+- Implementation context from Q&A responses
+- Technology stack from architecture.md
+- Functional requirements from requirements.md
+- Detailed component specifications
 
-**Process:**
-1. Gather requirements from scratch through Q&A
-2. Ask about technology stack preferences
-3. Create lightweight planning inline
-4. Generate spec.md and plan.md
+**Generated plan.md includes:**
+- Tasks organized by epics from epics.md
+- Task IDs (impl_001, impl_002, test_001, etc.)
+- Dependencies based on epic order
+- Acceptance criteria
+- Verification commands
 
-**Interactive Q&A Flow:**
+#### Without BMAD Planning
 
+**Session output:**
 ```
-No BMAD planning found. I'll gather requirements to create specifications.
+======================================================================
+SpecKit Interactive Specification Tool
+======================================================================
+
+⚠ No BMAD planning found for 'my-feature'
+I'll gather requirements through comprehensive Q&A.
+
+Recommendation: Use BMAD planning for future features
+======================================================================
 
 What is the main purpose of this feature?
-> [User describes purpose]
+> Add vocabulary search functionality
 
-Who will use this feature?
-> [User describes users]
+Who are the primary users of this feature?
+> German language learners
 
-Technology stack preferences:
-  - Web framework: FastAPI / Flask / Django?
-  > [User chooses]
+How will success be measured? (metrics, goals)
+> Users can search vocabulary by German word, English translation, or POS
 
-  - Database: SQLite / PostgreSQL / MySQL?
-  > [User chooses]
+Technology Stack:
 
-  - Testing framework: pytest (recommended for this project)?
-  > [User confirms]
+Web framework (if applicable)?
+  1) FastAPI
+  2) Flask
+  3) Django
+  4) None
+  [default: None]
+> 4
 
-[Continue with implementation approach, testing, task breakdown Q&A...]
+Database?
+  1) SQLite (dev)
+  2) PostgreSQL
+  3) MySQL
+  4) None
+  [default: None]
+> 1
+
+Database migration strategy?
+  1) Alembic
+  2) Manual SQL
+  3) None
+  [default: Alembic]
+> 1
+
+Testing framework?
+  1) pytest (recommended)
+  2) unittest
+  3) other
+  [default: pytest (recommended)]
+> 1
+
+Performance target? (e.g., '<200ms response time', 'not critical')
+> < 100ms query time
+
+Security requirements? (e.g., 'authentication', 'encryption', 'none')
+> none
+
+Test coverage target? [80%]
+> 85
+
+Include E2E tests? (y/N) > n
+
+Include performance tests? (y/N) > n
+
+Task size preference?
+  1) Small (1-2 hours)
+  2) Medium (half-day)
+  3) Large (full-day)
+  [default: Small (1-2 hours)]
+> 1
+
+[... generates spec.md and plan.md ...]
 ```
 
-**Output:**
-- spec.md with gathered requirements and design
-- plan.md with task breakdown
-- Recommendation: Create BMAD planning for future features
+**What happens:**
+1. Script finds no planning context
+2. Conducts comprehensive Q&A (10-15 questions)
+3. Gathers requirements, tech stack, testing preferences
+4. Generates spec.md + plan.md from scratch
+5. Creates compliant specs/<slug>/ directory structure
+6. Updates TODO_*.md with tasks
+7. Commits changes
+8. Recommends creating BMAD planning for next feature
 
-## Creating Specifications
+## Script Architecture
 
-```python
-from pathlib import Path
-from datetime import datetime
+### create_specifications.py
 
-def create_specifications(slug, workflow_type, gh_user):
-    """Create SpecKit documents in worktree."""
+**Location:** `.claude/skills/speckit-author/scripts/create_specifications.py`
 
-    date = datetime.utcnow().strftime('%Y-%m-%d')
+**Implements:**
+1. **Context Detection**
+   - Verifies running in worktree (not main repo)
+   - Auto-detects or accepts TODO file path
+   - Checks for BMAD planning in ../planning/<slug>/
 
-    # Create specs directory
-    specs_dir = Path('specs') / slug
-    specs_dir.mkdir(parents=True, exist_ok=True)
+2. **Interactive Q&A**
+   - Adapts questions based on BMAD availability
+   - With BMAD: 5-8 implementation-specific questions
+   - Without BMAD: 10-15 comprehensive requirements questions
 
-    # Load and customize spec template
-    templates_dir = Path('.claude/skills/speckit-author/templates')
+3. **Template Processing**
+   - Loads spec.md.template and plan.md.template
+   - Replaces placeholders ({{TITLE}}, {{SLUG}}, {{DATE}}, etc.)
+   - Injects Q&A context as implementation notes
 
-    with open(templates_dir / 'spec.md.template') as f:
-        spec = f.read()
+4. **Directory Creation**
+   - Creates specs/<slug>/ with compliant structure
+   - Generates CLAUDE.md and README.md
+   - Creates ARCHIVED/ subdirectory
 
-    spec = spec.replace('{{TITLE}}', slug.replace('-', ' ').title())
-    spec = spec.replace('{{WORKFLOW_TYPE}}', workflow_type)
-    spec = spec.replace('{{SLUG}}', slug)
-    spec = spec.replace('{{DATE}}', date)
-    spec = spec.replace('{{GH_USER}}', gh_user)
+5. **TODO Update**
+   - Parses task IDs from plan.md
+   - Updates TODO_*.md YAML frontmatter
+   - Groups tasks by category (impl, test, doc, etc.)
 
-    with open(specs_dir / 'spec.md', 'w') as f:
-        f.write(spec)
-
-    # Load and customize plan template
-    with open(templates_dir / 'plan.md.template') as f:
-        plan = f.read()
-
-    plan = plan.replace('{{TITLE}}', slug.replace('-', ' ').title())
-    plan = plan.replace('{{WORKFLOW_TYPE}}', workflow_type)
-    plan = plan.replace('{{SLUG}}', slug)
-    plan = plan.replace('{{DATE}}', date)
-
-    with open(specs_dir / 'plan.md', 'w') as f:
-        f.write(plan)
-
-    print(f"✓ Specifications created in {specs_dir}")
-```
+6. **Git Commit**
+   - Stages specs/<slug>/ and TODO file
+   - Creates descriptive commit message
+   - References TODO file in commit
 
 ## Directory Structure
 
@@ -192,37 +298,99 @@ specs/
     └── ARCHIVED/        # Deprecated specs
 ```
 
+### update_asbuilt.py
+
+**Location:** `.claude/skills/speckit-author/scripts/update_asbuilt.py`
+
+**Used in:** Phase 4 (Integration + Feedback) after PR merge
+
+**Implements:**
+1. **Read As-Built Specs**
+   - Reads specs/<slug>/spec.md and plan.md
+   - Reads TODO_*.md for effort/timeline data
+
+2. **Compare with Planning**
+   - Auto-detects deviations (technology changes)
+   - Interactive Q&A for manual deviation identification
+
+3. **Gather Metrics**
+   - Epic completion (estimated vs actual effort)
+   - Quality metrics (coverage, performance)
+   - Lessons learned
+
+4. **Update Planning Docs**
+   - Appends "## As-Built Notes" to requirements.md
+   - Appends "## As-Built Architecture" to architecture.md
+   - Appends "## Epic Completion Status" to epics.md
+
+5. **Git Commit**
+   - Commits updated planning documents
+   - Creates feedback loop for future planning
+
+**Invocation:**
+```bash
+# From main repo on contrib branch after PR merge
+python .claude/skills/speckit-author/scripts/update_asbuilt.py \
+  planning/my-feature specs/my-feature
+```
+
 ## Integration with Workflow
 
-The workflow-orchestrator calls this skill during Phase 2:
+The workflow-orchestrator calls SpecKit scripts during workflow phases.
 
+### Phase 2: Create Specifications (Step 2.3)
+
+**Workflow orchestrator code:**
 ```python
-# In workflow orchestrator
-if current_phase == 2 and current_step == '2.2':
-    load_skill('speckit-author')
+# In workflow orchestrator - Phase 2.3
+if current_phase == 2 and current_step == '2.3':
+    import subprocess
 
-    # Check for BMAD planning docs in main repo
-    planning_dir = Path('../planning') / slug
-    has_planning = planning_dir.exists()
+    # Call SpecKit interactive tool
+    result = subprocess.run([
+        'python',
+        '.claude/skills/speckit-author/scripts/create_specifications.py',
+        workflow_type,  # feature, release, hotfix
+        slug,           # my-feature
+        gh_user,        # stharrold
+        '--todo-file', f'../TODO_{workflow_type}_{timestamp}_{slug}.md'
+    ], check=True)
 
-    if has_planning:
-        # Read BMAD context
-        requirements = (planning_dir / 'requirements.md').read_text()
-        architecture = (planning_dir / 'architecture.md').read_text()
-        epics = (planning_dir / 'epics.md').read_text() if (planning_dir / 'epics.md').exists() else None
+    # SpecKit handles:
+    # - Interactive Q&A with user
+    # - BMAD context detection
+    # - spec.md and plan.md generation
+    # - TODO_*.md update
+    # - Git commit
 
-        # Create specifications WITH planning context
-        create_specifications_with_context(
-            slug, workflow_type, gh_user,
-            requirements_context=requirements,
-            architecture_context=architecture,
-            epics_context=epics
-        )
-    else:
-        # Create specifications WITHOUT planning context
-        create_specifications(slug, workflow_type, gh_user)
+    print("✓ SpecKit specifications created")
+    print(f"  Next: Implement tasks from specs/{slug}/plan.md")
+```
 
-    commit_changes('docs: add SpecKit specifications for ' + slug)
+### Phase 4: Update As-Built (Step 4.4)
+
+**After PR merge to contrib branch:**
+```python
+# In workflow orchestrator - Phase 4.4
+if current_phase == 4 and current_step == '4.4':
+    import subprocess
+
+    # Call as-built update tool
+    result = subprocess.run([
+        'python',
+        '.claude/skills/speckit-author/scripts/update_asbuilt.py',
+        f'planning/{slug}',
+        f'specs/{slug}'
+    ], check=True)
+
+    # update_asbuilt.py handles:
+    # - Deviation analysis
+    # - Interactive metrics gathering
+    # - Planning document updates
+    # - Git commit
+
+    print("✓ BMAD planning updated with as-built details")
+    print(f"  Feedback loop completed for {slug}")
 ```
 
 ## Template Placeholders
