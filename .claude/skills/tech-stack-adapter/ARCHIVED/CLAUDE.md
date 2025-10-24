@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Archive of deprecated files from initial-foundation
+Archive of deprecated files from tech-stack-adapter
 
 ## Directory Structure
 
@@ -20,9 +20,9 @@ Archive of deprecated files from initial-foundation
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
-- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: initial-foundation
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: tech-stack-adapter
 
 ## Related Skills
 
 - workflow-orchestrator
-- helper-functions
+- workflow-utilities

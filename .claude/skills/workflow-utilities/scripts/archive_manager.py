@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Manage archived files: list, extract, verify."""
+"""Manage archived files: list, extract, verify, archive workflows."""
 
 import sys
 import zipfile
+import subprocess
+import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 def list_archives(archived_dir='ARCHIVED'):
     """List all archives with timestamps."""

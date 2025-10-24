@@ -1,8 +1,8 @@
-# Claude Code Context: Archived Content
+# Claude Code Context: skills
 
 ## Purpose
 
-Archive of deprecated files from initial-foundation
+Context-specific guidance for skills
 
 ## Directory Structure
 
@@ -20,9 +20,12 @@ Archive of deprecated files from initial-foundation
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
-- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: initial-foundation
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory: tests
+
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
 
 ## Related Skills
 
 - workflow-orchestrator
-- helper-functions
+- workflow-utilities
