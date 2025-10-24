@@ -301,15 +301,29 @@ When working with German language content:
    - Document in `resources/grammar/` as Markdown
    - Include examples with explanations
 
-3. **Exercises:**
-   - Store as JSON with correct answers
-   - Tag by difficulty and topic
+3. **Listening Practice:**
+   - B1-level content in `output/topic-*.md`
+   - Format: `<German> . <English> . <German> . <English> .`
+   - 150 words per minute speech rate
+   - 15 minutes per topic (~2,250 words)
+   - 20 topics covering all B1 exam areas
+
+4. **Exam Resources:**
+   - Certificate guides in `input/german-certificate-*.md`
+   - Covers all CEFR levels (A1, A2, B1, B2, C1, C2)
+   - Free practice materials, exam structure, official resources
+   - Aligned with Goethe-Institut, telc, and ÖSD standards
 
 ### Data Quality
 
 - Validate umlauts (ä, ö, ü) and eszett (ß) encoding (UTF-8)
 - Cross-check translations for accuracy
 - Cite sources when possible
+- **B1 Listening Content Standards:**
+  - Grammar: Authentic B1 structures (Perfekt, Präteritum, Konjunktiv II, subordinate clauses)
+  - Vocabulary: 2,400-3,000 active words (B1 CEFR level)
+  - Sentence complexity: 12-20 words average, mix of simple and complex
+  - Topics: Match official Goethe, telc, ÖSD B1 exam requirements
 
 ## File Deprecation
 
@@ -371,8 +385,9 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.2.0 (from v1.0.0)
+**Current version:** v1.3.0
 - v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
+- v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
 
 ## Commit Message Format
 
