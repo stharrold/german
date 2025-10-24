@@ -846,6 +846,403 @@ This ensures contrib branch is up-to-date with latest develop (which now include
 
 ---
 
+### Phase 6: Hotfix Workflow (Production Fixes)
+
+**Location:** Hotfix worktree
+**Branch Flow:** `main` → `hotfix/vX.Y.Z-hotfix.N` → `main` (with tag) → back to `develop`
+**Skills:** git-workflow-manager, speckit-author (optional), quality-enforcer, workflow-utilities
+
+#### Overview
+
+The hotfix workflow creates urgent fixes for production issues. Hotfixes branch from `main`, are fixed in isolation, and merge back to both `main` and `develop`.
+
+**When to use hotfixes:**
+- Critical production bugs
+- Security vulnerabilities
+- Data corruption issues
+- Performance emergencies
+
+**Key difference from features:**
+- Branch from `main` (not contrib)
+- Merge directly to `main` (not via contrib/develop)
+- Back-merge to `develop` to keep it in sync
+- SpecKit is **optional** (use for complex fixes only)
+
+#### Step 6.1: Create Hotfix Worktree
+
+**Prerequisites:**
+- Production issue identified
+- Issue severity warrants hotfix (not regular feature fix)
+- Version number determined (vX.Y.Z-hotfix.N)
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  hotfix v1.3.0-hotfix.1 main
+```
+
+**Example:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
+  hotfix critical-auth-bypass main
+```
+
+**Output:**
+```
+✓ Worktree created: /Users/user/Documents/GitHub/german_hotfix_critical-auth-bypass
+✓ Branch: hotfix/20251024T093000Z_critical-auth-bypass
+✓ TODO file: TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+```
+
+**Side effects:**
+- Creates hotfix worktree directory
+- Branches from `main` (not contrib)
+- Creates TODO_hotfix_*.md in main repo
+- Updates TODO.md manifest
+
+#### Step 6.2: Switch to Hotfix Worktree
+
+```bash
+cd /Users/user/Documents/GitHub/german_hotfix_critical-auth-bypass
+```
+
+#### Step 6.3: Create SpecKit Specifications (Optional)
+
+**When to use SpecKit for hotfixes:**
+
+✓ **Use SpecKit if:**
+- Complex fix requiring multiple files
+- Fix benefits from planning/task breakdown
+- Need to document approach for team review
+- Fix involves architectural changes
+
+✗ **Skip SpecKit if:**
+- Simple one-line fix
+- Obvious solution (typo, config error)
+- Time-critical emergency (fix immediately)
+- Fix already well-understood
+
+**Command (if using SpecKit):**
+```bash
+python .claude/skills/speckit-author/scripts/create_specifications.py \
+  hotfix critical-auth-bypass stharrold \
+  --todo-file ../TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+```
+
+**Interactive session:**
+```
+======================================================================
+SpecKit Interactive Specification Tool
+======================================================================
+
+⚠ No BMAD planning found for 'critical-auth-bypass'
+I'll gather requirements through comprehensive Q&A.
+
+What is the main purpose of this hotfix?
+> Fix authentication bypass vulnerability in OAuth flow
+
+Who are the primary users affected?
+> All users with OAuth authentication
+
+How will success be measured?
+> Vulnerability patched, no auth bypass possible, all tests passing
+
+[... continues with tech stack and testing questions ...]
+```
+
+**Output:**
+- specs/critical-auth-bypass/spec.md (detailed fix approach)
+- specs/critical-auth-bypass/plan.md (task breakdown)
+- TODO_hotfix_*.md updated with tasks
+
+**Note:** Most hotfixes skip SpecKit and proceed directly to implementation.
+
+#### Step 6.4: Implement Fix
+
+**Process:**
+1. Identify root cause
+2. Implement minimal fix (avoid scope creep)
+3. Add/update tests to prevent regression
+4. Document fix in commit message
+
+**Best practices:**
+- **Keep it minimal** - Fix only the immediate issue
+- **Add regression tests** - Prevent issue from recurring
+- **Document thoroughly** - Explain what broke and how fixed
+- **Avoid refactoring** - Save non-critical improvements for features
+
+**Commit format:**
+```
+fix(hotfix): <brief description of fix>
+
+<detailed explanation of issue and fix>
+
+Root cause: <what caused the bug>
+Fix: <what was changed>
+Impact: <who is affected>
+Regression test: <test file added/updated>
+
+Refs: TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+```
+
+#### Step 6.5: Quality Assurance
+
+**Run all quality gates:**
+```bash
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+```
+
+**Quality gates (all must pass):**
+1. **Test Coverage ≥ 80%**
+   ```bash
+   uv run pytest --cov=src --cov-report=term --cov-fail-under=80
+   ```
+
+2. **All Tests Passing** (including new regression tests)
+   ```bash
+   uv run pytest
+   ```
+
+3. **Linting Clean**
+   ```bash
+   uv run ruff check src/ tests/
+   ```
+
+4. **Type Checking Clean**
+   ```bash
+   uv run mypy src/
+   ```
+
+5. **Build Successful**
+   ```bash
+   uv build
+   ```
+
+**Output:**
+```
+Running Quality Gates...
+
+COVERAGE: ✓ 82% (≥80% required)
+TESTS: ✓ 47/47 passing (includes new regression test)
+LINTING: ✓ 0 issues
+TYPES: ✓ 0 errors
+BUILD: ✓ Success
+
+✓ ALL GATES PASSED
+
+Next: Calculate hotfix version
+```
+
+#### Step 6.6: Calculate Hotfix Version
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
+  main v1.3.0
+```
+
+**Version format:** `vX.Y.Z-hotfix.N`
+- Use current main version as base
+- Increment hotfix number (N)
+- Example: v1.3.0 → v1.3.0-hotfix.1
+
+**Output:**
+```
+Base version: v1.3.0 (from main)
+Hotfix number: 1
+
+Recommended version: v1.3.0-hotfix.1 (HOTFIX)
+```
+
+#### Step 6.7: Create Pull Request (hotfix → main)
+
+**Command:**
+```bash
+gh pr create \
+  --base "main" \
+  --head "hotfix/20251024T093000Z_critical-auth-bypass" \
+  --title "hotfix(auth): fix critical authentication bypass vulnerability" \
+  --body "$(cat <<'EOF'
+## Hotfix: Critical Authentication Bypass
+
+### Summary
+- Fixes critical vulnerability in OAuth authentication flow
+- Vulnerability allowed bypassing authentication via token manipulation
+- Impact: All users with OAuth authentication
+
+### Root Cause
+Token validation was not checking signature properly, allowing
+forged tokens to pass authentication.
+
+### Fix
+- Added proper JWT signature verification
+- Enhanced token validation with expiry checks
+- Added rate limiting to token endpoint
+
+### Testing
+- New regression test: tests/test_auth_bypass.py
+- All existing tests passing
+- Manual security testing completed
+
+### Quality Gates
+- Coverage: 82% (✓ ≥80%)
+- Tests: 47/47 passing (✓ includes regression test)
+- Linting: Clean (✓)
+- Types: Clean (✓)
+- Build: Success (✓)
+
+### Hotfix Version
+Recommended: v1.3.0-hotfix.1
+
+### Security Advisory
+This hotfix addresses CVE-XXXX-XXXXX (if applicable)
+
+### Merge Instructions
+1. Review security fix
+2. Verify regression test coverage
+3. Merge to main
+4. Tag as v1.3.0-hotfix.1
+5. Back-merge to develop
+
+## References
+- TODO: TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+- Spec: specs/critical-auth-bypass/spec.md (if applicable)
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+EOF
+)"
+```
+
+**Output:**
+```
+✓ Pull request created: https://github.com/user/german/pull/48
+```
+
+#### Step 6.8: User Merges Hotfix to Main
+
+**Action:** User reviews and merges PR in GitHub UI (main branch)
+
+**Result:** Hotfix code now on main branch
+
+#### Step 6.9: Tag Hotfix Release
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/tag_release.py \
+  v1.3.0-hotfix.1 main
+```
+
+**Steps:**
+1. Checkout main branch
+2. Pull latest (includes hotfix merge commit)
+3. Create annotated tag v1.3.0-hotfix.1
+4. Push tag to origin
+5. Trigger GitHub release creation
+
+**Output:**
+```
+✓ Checked out main branch
+✓ Pulled latest changes (includes hotfix commit def789)
+✓ Created annotated tag: v1.3.0-hotfix.1
+   Message: "Hotfix v1.3.0-hotfix.1: Fix critical auth bypass vulnerability"
+✓ Pushed tag to origin
+✓ View release: https://github.com/user/german/releases/tag/v1.3.0-hotfix.1
+```
+
+#### Step 6.10: Back-merge Hotfix to Develop
+
+**Purpose:** Keep develop branch in sync with production hotfix
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
+  v1.3.0-hotfix.1 develop
+```
+
+**Steps:**
+1. Checkout develop branch
+2. Pull latest from origin
+3. Merge hotfix/vX.Y.Z-hotfix.N into develop
+4. Resolve conflicts (if any)
+5. Push to origin
+
+**Output (no conflicts):**
+```
+✓ Checked out develop
+✓ Pulled latest changes
+✓ Merged hotfix/20251024T093000Z_critical-auth-bypass into develop
+✓ Pushed to origin/develop
+✓ Back-merge complete
+```
+
+**Output (with conflicts):**
+```
+⚠ Merge conflicts detected
+✓ Created PR: https://github.com/user/german/pull/49
+  Title: "chore(hotfix): back-merge v1.3.0-hotfix.1 to develop"
+
+Please resolve conflicts in GitHub UI and merge.
+```
+
+#### Step 6.11: Cleanup Hotfix Worktree
+
+**Return to main repo:**
+```bash
+cd /Users/user/Documents/GitHub/german
+```
+
+**Delete hotfix worktree:**
+```bash
+git worktree remove ../german_hotfix_critical-auth-bypass
+git branch -D hotfix/20251024T093000Z_critical-auth-bypass
+```
+
+**Archive TODO file:**
+```bash
+python .claude/skills/workflow-utilities/scripts/archive_manager.py \
+  archive TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+```
+
+**Output:**
+```
+✓ Removed worktree: ../german_hotfix_critical-auth-bypass
+✓ Deleted branch: hotfix/20251024T093000Z_critical-auth-bypass
+✓ Archived TODO_hotfix_20251024T093000Z_critical-auth-bypass.md
+✓ Updated TODO.md manifest
+```
+
+#### Step 6.12: Update Contrib Branch
+
+**Rebase contrib to include hotfix:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
+  contrib/stharrold
+```
+
+This ensures contrib branch is up-to-date with hotfix (via develop back-merge).
+
+---
+
+## Hotfix vs Feature Comparison
+
+| Aspect | Feature Workflow | Hotfix Workflow |
+|--------|-----------------|-----------------|
+| **Branches from** | contrib/<user> | main |
+| **Merges to** | contrib → develop | main (then back to develop) |
+| **SpecKit** | Standard (Phase 2.3) | Optional (use for complex fixes) |
+| **BMAD Planning** | Recommended (Phase 1) | Not applicable |
+| **Scope** | New functionality | Minimal fix only |
+| **Quality gates** | Required (≥80% coverage) | Required (≥80% coverage) |
+| **Versioning** | MAJOR/MINOR/PATCH | vX.Y.Z-hotfix.N |
+| **Timeline** | Days to weeks | Hours to days (urgent) |
+| **Worktree** | Yes (isolation) | Yes (isolation) |
+
+---
+
 ## TODO.md Manifest System
 
 ### Structure (v5.2.0)
@@ -1385,6 +1782,7 @@ Referenced throughout this workflow:
 - **Phase 3:** [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 4:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 5:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 6:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [speckit-author](/.claude/skills/speckit-author/SKILL.md) (optional), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Always available:** [workflow-orchestrator](/.claude/skills/workflow-orchestrator/SKILL.md)
 
 ---
