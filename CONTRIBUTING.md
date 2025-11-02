@@ -4,6 +4,7 @@ Thank you for considering contributing to this project! This document provides g
 
 ## Table of Contents
 
+- [Official Claude Code Documentation](#official-claude-code-documentation)
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
 - [Development Workflow](#development-workflow)
@@ -11,6 +12,55 @@ Thank you for considering contributing to this project! This document provides g
 - [Skill Development Guidelines](#skill-development-guidelines)
 - [Pull Request Process](#pull-request-process)
 - [Quality Standards](#quality-standards)
+
+## Official Claude Code Documentation
+
+**IMPORTANT:** This workflow system extends official Claude Code patterns. Always review official documentation when creating new skills or repositories.
+
+### Official Documentation Sources
+
+**Claude Code Skills:**
+- **Specification:** https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+- **Building Agents:** https://docs.claude.com/en/docs/agents-and-tools/building-agents
+- **Getting Started:** https://docs.claude.com/en/docs/claude-code/getting-started
+- **Docs Map:** https://docs.claude.com/en/docs/claude-code/claude_code_docs_map.md
+
+### Relationship to Official Patterns
+
+This workflow system implements an extended skill architecture optimized for multi-phase development workflows. Key differences:
+
+| Aspect | Official Pattern | This Workflow | Rationale |
+|--------|------------------|---------------|-----------|
+| **File structure** | `skill.md`, `README.md` | `SKILL.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, `ARCHIVED/` | More context for Claude Code, version tracking, archival |
+| **Frontmatter** | Simple YAML (name, description) | Extended YAML (version, triggers, description) | Version control, orchestrator integration |
+| **Organization** | Flat structure | `scripts/`, `templates/` subdirs | Separates code from documentation |
+| **Integration** | Standalone skills | Phase-based coordination | Workflow orchestrator manages skill loading |
+| **Loading** | All at once | Progressive per phase | Token efficiency (~600-900 vs 2,718 tokens) |
+
+**Both patterns are valid.** This system uses extended patterns for workflow-specific benefits while maintaining compatibility with core Claude Code concepts.
+
+### When Creating New Skills
+
+**Always start with official documentation:**
+
+1. **Use the skill creation script:**
+   ```bash
+   python .claude/skills/workflow-utilities/scripts/create_skill.py <skill-name>
+   ```
+
+2. **The script automatically:**
+   - Fetches official Claude Code documentation
+   - Compares local patterns with official best practices
+   - Alerts you to discrepancies with citations
+   - Generates skill files following local patterns (after confirmation)
+
+3. **Review discrepancies:**
+   - Local patterns are optimized for this multi-phase workflow
+   - Official patterns are general-purpose Claude Code patterns
+   - Choose local practices if they provide value for the workflow
+   - Document rationale for divergence in skill's `SKILL.md`
+
+See [Skill Development Guidelines](#skill-development-guidelines) for complete details.
 
 ## Code of Conduct
 
@@ -161,9 +211,67 @@ Skills use semantic versioning: `MAJOR.MINOR.PATCH`
 
 ### Creating a New Skill
 
-If you're adding a new skill to the workflow:
+**RECOMMENDED:** Use the automated skill creation script that fetches official documentation and validates patterns.
 
-1. **Create skill directory structure:**
+#### Automated Approach (Recommended)
+
+```bash
+# Create new skill with official docs validation
+python .claude/skills/workflow-utilities/scripts/create_skill.py <skill-name>
+```
+
+**The script will:**
+1. Ask configuration questions (purpose, phase integration, components)
+2. **Fetch official Claude Code documentation** automatically
+3. **Compare local patterns with official best practices**
+4. **Alert you to discrepancies with citations** (URLs provided)
+5. Generate all required files (SKILL.md, CLAUDE.md, README.md, etc.)
+6. Commit changes with proper semantic message
+
+**Example:**
+```bash
+python .claude/skills/workflow-utilities/scripts/create_skill.py my-new-skill
+
+=== Phase 1: Skill Configuration ===
+Skill name: my-new-skill
+Purpose: [Select from options]
+...
+
+=== Phase 2: Official Documentation Review ===
+ℹ Fetching official Claude Code documentation...
+✓ Official documentation fetched
+
+⚠️  DISCREPANCY ALERT
+
+[INFO] file_structure
+  Local:    ['SKILL.md', 'CLAUDE.md', 'README.md', 'CHANGELOG.md', 'ARCHIVED/']
+  Official: ['skill.md', 'README.md']
+  Citation: https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+
+  Rationale: Local pattern provides additional context for Claude Code...
+
+Continue with local practices? (Y/n) > y
+
+=== Phase 3: File Generation ===
+[Files created automatically]
+```
+
+**Benefits:**
+- ✓ Ensures alignment with official docs
+- ✓ Validates local patterns with citations
+- ✓ Documents rationale for divergences
+- ✓ Saves ~800 tokens + time
+- ✓ Consistent file structure
+
+#### Manual Approach (If Needed)
+
+If you need to create a skill manually:
+
+1. **Review official documentation first:**
+   - https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+   - Note any differences from local patterns
+
+2. **Create skill directory structure:**
    ```bash
    .claude/skills/my-skill/
    ├── scripts/
@@ -180,7 +288,7 @@ If you're adding a new skill to the workflow:
        └── README.md
    ```
 
-2. **Create SKILL.md with YAML frontmatter:**
+3. **Create SKILL.md with YAML frontmatter:**
    ```yaml
    ---
    name: my-skill
@@ -193,6 +301,11 @@ If you're adding a new skill to the workflow:
      Triggers: [keywords that trigger this skill]
    ---
    ```
+
+4. **Document alignment with official docs:**
+   - Add "Official Documentation Alignment" section to SKILL.md
+   - List any discrepancies with official patterns
+   - Provide rationale and citations
 
 3. **Follow coding standards:**
    - Use type hints

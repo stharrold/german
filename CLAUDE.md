@@ -65,6 +65,20 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 7. **workflow-utilities** - Shared utilities for file management and TODO updates
 8. **initialize-repository** - Meta-skill (Phase 0) for bootstrapping new repositories
 
+### Official Claude Code Documentation
+
+This workflow system extends official Claude Code patterns. For official documentation:
+
+**Claude Code Skills:**
+- **Specification:** https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+- **Building Agents:** https://docs.claude.com/en/docs/agents-and-tools/building-agents
+- **Getting Started:** https://docs.claude.com/en/docs/claude-code/getting-started
+- **Docs Map:** https://docs.claude.com/en/docs/claude-code/claude_code_docs_map.md
+
+**Relationship to official patterns:** This workflow uses extended patterns (SKILL.md vs skill.md, additional files for context/versioning, phase-based coordination) optimized for multi-phase development. Both patterns are valid. See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed comparison.
+
+**When creating new skills:** Use `python .claude/skills/workflow-utilities/scripts/create_skill.py <skill-name>` - the script automatically fetches official docs, compares patterns, and alerts you to discrepancies with citations.
+
 ### Using the Workflow
 
 **Start workflow:** Say **"next step?"**

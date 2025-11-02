@@ -210,6 +210,52 @@ Manual validation (until script exists):
 - [ ] Token metrics are consistent across all files
 - [ ] Integration descriptions match in all affected skills
 
+### Step 9.5: Verify Alignment with Official Documentation
+
+**NEW:** Check if changes align with official Claude Code best practices:
+
+```bash
+# Review official docs for your skill type
+# https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+# https://docs.claude.com/en/docs/agents-and-tools/building-agents
+```
+
+**Verification checklist:**
+
+- [ ] **Review official patterns:** Check if official docs have new recommendations
+- [ ] **Compare changes:** Does your update diverge from official patterns?
+- [ ] **Document discrepancies:** If diverging, document rationale in SKILL.md:
+  ```markdown
+  ## Official Documentation Alignment
+
+  **Discrepancy:** [Describe what differs]
+  **Official pattern:** [What official docs recommend]
+  **Local pattern:** [What this skill uses]
+  **Citation:** https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+  **Rationale:** [Why local pattern is used for this workflow]
+  ```
+- [ ] **Update SKILL.md:** Add or update "Official Documentation Alignment" section
+- [ ] **Alert users:** If significant divergence, mention in CHANGELOG.md
+
+**When to document divergence:**
+- File structure differs from official spec
+- YAML frontmatter has additional fields
+- Integration patterns unique to this workflow
+- Any workflow-specific customizations
+
+**Example discrepancy documentation:**
+```markdown
+## Official Documentation Alignment
+
+**File Structure:**
+- Official: `skill.md`, `README.md`
+- Local: `SKILL.md`, `CLAUDE.md`, `README.md`, `CHANGELOG.md`, `ARCHIVED/`
+- Citation: https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+- Rationale: Extended structure supports multi-phase workflow with version
+  tracking (CHANGELOG.md), Claude Code context (CLAUDE.md), and archival
+  system (ARCHIVED/).
+```
+
 ### Step 10: Commit Changes
 
 Use semantic commit message format:
