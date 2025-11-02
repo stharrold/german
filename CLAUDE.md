@@ -46,9 +46,11 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 - **Workflow System:** Skill-based architecture (7 specialized skills)
 - **Containerization:** Podman + podman-compose
 
-## Workflow v5.0 Architecture
+## Workflow v5.2 Architecture
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
+
+**Current workflow version:** 5.2.0 (see WORKFLOW.md for complete documentation)
 
 ### Available Skills
 
@@ -392,6 +394,66 @@ python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   extract ARCHIVED/<archive>.zip restored/
 ```
 
+## Documentation Maintenance
+
+**CRITICAL: When updating skills, all related documentation must be updated.**
+
+### Quick Update Process
+
+**Use the update checklist:**
+```bash
+cat .claude/skills/UPDATE_CHECKLIST.md
+```
+
+**Validate version consistency:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+**Semi-automated sync (after modifying a skill):**
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  <skill-name> <new-version>
+```
+
+### Files to Update When Modifying a Skill
+
+1. **`.claude/skills/<skill-name>/SKILL.md`** - Version in frontmatter, documentation
+2. **`.claude/skills/<skill-name>/CLAUDE.md`** - Usage examples
+3. **`.claude/skills/<skill-name>/CHANGELOG.md`** - Version history
+4. **`WORKFLOW.md`** - Phase sections, commands, token metrics
+5. **`CLAUDE.md`** (this file) - Command reference if changed
+6. **Integration files** - Other skills that depend on the updated skill
+
+### Version Numbering (Semantic Versioning)
+
+Skills and WORKFLOW.md use `MAJOR.MINOR.PATCH`:
+
+- **MAJOR:** Breaking changes, removed features
+- **MINOR:** New features (backward compatible)
+- **PATCH:** Bug fixes, documentation improvements
+
+**Example:** bmad-planner v5.0.0 → v5.1.0 (added migration Q&A feature)
+
+### Validation Tools
+
+**Check version consistency:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py
+```
+
+**View skill versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+### Related Documentation
+
+- **[UPDATE_CHECKLIST.md](.claude/skills/UPDATE_CHECKLIST.md)** - Complete update checklist
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Repository changelog
+- **Skill CHANGELOGs:** `.claude/skills/<skill-name>/CHANGELOG.md`
+
 ## TODO File Format
 
 Workflow uses TODO files with YAML frontmatter:
@@ -434,6 +496,11 @@ Automatic version calculation based on changes:
 - v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
 - v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
 - v1.3.0 → v1.4.0: BMAD and SpecKit callable tools with 89-91% token reduction (MINOR)
+
+**Latest additions (not yet released):**
+- Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
+- CHANGELOG system for all skills
+- CONTRIBUTING.md with contributor guidelines
 
 ## Commit Message Format
 
@@ -527,15 +594,18 @@ Token usage: 98543/200000; 101457 remaining
 - Cleanup on failure: Remove artifacts if operation fails
 
 **Reference Documentation:**
-- Complete workflow: `WORKFLOW.md` (6 phases including hotfix, 1790 lines)
+- Complete workflow: `WORKFLOW.md` (6 phases including hotfix, 2000+ lines)
 - Detailed planning: `TODO_feature_*.md` files
 - SpecKit implementation: `.claude/skills/speckit-author/` (callable tools)
 - Original spec: `ARCHIVED/Workflow-v5x2.md`
+- Update process: `.claude/skills/UPDATE_CHECKLIST.md` (12-step skill update guide)
 
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
-- **[WORKFLOW.md](WORKFLOW.md)** - Complete 5-phase workflow guide (1035 lines)
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete 6-phase workflow guide (2000+ lines)
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history
 
 **Child Directories:**
 - **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived

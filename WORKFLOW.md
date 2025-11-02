@@ -1764,6 +1764,170 @@ ls ARCHIVED_TODO_feature_20251023T140000Z_*.md
 
 ---
 
+## Documentation Update Process
+
+When modifying skill implementations (scripts, templates, Q&A flow), **all related documentation must be updated** to prevent documentation drift.
+
+### Quick Reference
+
+**Full update checklist:**
+```bash
+cat .claude/skills/UPDATE_CHECKLIST.md
+```
+
+**Validate versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+**Semi-automated sync:**
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  <skill-name> <new-version>
+```
+
+### Update Process (12 Steps)
+
+When updating a skill (e.g., bmad-planner, speckit-author):
+
+#### Step 1: Determine Version Bump
+
+Use semantic versioning: `MAJOR.MINOR.PATCH`
+
+- **MAJOR (X.0.0):** Breaking changes, removed features
+- **MINOR (x.Y.0):** New features (backward compatible)
+- **PATCH (x.y.Z):** Bug fixes, documentation improvements
+
+#### Step 2-12: Follow UPDATE_CHECKLIST.md
+
+The complete 12-step checklist ensures all files are updated:
+
+```
+.claude/skills/<skill-name>/SKILL.md       ← Version, commands, integration
+.claude/skills/<skill-name>/CLAUDE.md      ← Usage examples
+.claude/skills/<skill-name>/CHANGELOG.md   ← Version history
+WORKFLOW.md                                 ← Phase sections, commands
+CLAUDE.md                                   ← Command reference
+[Integration files]                         ← Other skills affected
+```
+
+### Validation Tools
+
+**Automatic validation:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py
+```
+
+Validates:
+- ✓ All SKILL.md files have valid semantic versions
+- ✓ WORKFLOW.md has valid version
+- ✓ TODO.md manifest version is valid
+- ✓ Version references are consistent
+
+**View current versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+Output:
+```
+Skill Versions:
+  bmad-planner              v5.1.0
+  speckit-author            v5.0.0
+  workflow-orchestrator     v5.0.0
+  git-workflow-manager      v5.0.0
+  quality-enforcer          v5.0.0
+  tech-stack-adapter        v5.0.0
+  workflow-utilities        v5.0.0
+```
+
+### Semi-Automated Sync Tool
+
+**Update skill documentation in one command:**
+
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0
+```
+
+**What it does:**
+1. Updates version in SKILL.md frontmatter
+2. Prompts for CHANGELOG entry
+3. Updates CHANGELOG.md
+4. Identifies affected WORKFLOW.md sections
+5. Creates git commit with proper format
+
+**Options:**
+```bash
+--archive     # Archive previous SKILL.md version
+--dry-run     # Preview changes without making them
+--auto-commit # Skip commit confirmation
+```
+
+**Example:**
+```bash
+# Dry run to preview changes
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0 --dry-run
+
+# Update with archive
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0 --archive
+```
+
+### Common Mistakes to Avoid
+
+❌ **Updating script without updating SKILL.md version**
+- All script changes require version bump
+
+❌ **Inconsistent command examples**
+- Commands must match exactly in SKILL.md, CLAUDE.md, WORKFLOW.md
+
+❌ **Forgetting to update WORKFLOW.md**
+- Phase sections must reflect current skill behavior
+
+❌ **Not updating token efficiency metrics**
+- If script changes affect token usage, update all files
+
+❌ **Missing CHANGELOG entry**
+- Every version bump requires a CHANGELOG entry
+
+### Example: Updating bmad-planner
+
+**Change made:** Added database migration Q&A
+
+**Version bump:** 5.0.0 → 5.1.0 (MINOR - new feature)
+
+**Files updated:**
+1. `.claude/skills/bmad-planner/SKILL.md` (version, Q&A flow)
+2. `.claude/skills/bmad-planner/CLAUDE.md` (examples)
+3. `.claude/skills/bmad-planner/CHANGELOG.md` (new entry)
+4. `WORKFLOW.md` (Phase 1 interactive session)
+5. `CLAUDE.md` (Phase 1 description)
+6. `.claude/skills/speckit-author/SKILL.md` (integration note)
+
+**Commit message:**
+```
+feat(bmad): add database migration strategy Q&A
+
+Updated bmad-planner from v5.0.0 to v5.1.0:
+- Added interactive Q&A for database migration strategy
+
+Updated documentation:
+- SKILL.md, CLAUDE.md, WORKFLOW.md, CHANGELOG.md
+
+Refs: .claude/skills/bmad-planner/CHANGELOG.md
+```
+
+### Related Documentation
+
+- **[UPDATE_CHECKLIST.md](.claude/skills/UPDATE_CHECKLIST.md)** - Complete 12-step checklist
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Repository changelog
+- **[CLAUDE.md](CLAUDE.md)** - Quick command reference
+
+---
+
 ## Troubleshooting
 
 ### Worktree Creation Failed
