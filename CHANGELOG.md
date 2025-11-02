@@ -7,11 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Planned
+- None currently planned
+
+## [1.5.0] - 2025-11-02
+
 ### Added
+- **initialize-repository meta-skill** (Phase 0) for bootstrapping new repositories
+  - Interactive Q&A system (4 phases, 13-14 questions)
+  - Copies all 8 workflow skills from source to target repository
+  - Adapts documentation for new repository context
+  - Generates README.md, CLAUDE.md, pyproject.toml
+  - Optional git initialization with 3-branch structure
+  - Token savings: ~3,350 tokens per repository (96% reduction)
 - Version consistency validator (`validate_versions.py`)
-- Comprehensive update checklist for skill modifications
+- Comprehensive update checklist for skill modifications (`UPDATE_CHECKLIST.md`)
 - CONTRIBUTING.md with contributor guidelines
-- CHANGELOG system for tracking version history
+- CHANGELOG system for all skills (8 skill CHANGELOGs)
+- Documentation sync tool (`sync_skill_docs.py`)
+
+### Changed
+- Workflow system now has 8 skills (added initialize-repository meta-skill)
+- WORKFLOW.md updated with Phase 0 (Repository Initialization)
+- CLAUDE.md updated with 8th skill reference
+
+### Token Efficiency
+- Repository initialization: ~3,350 tokens saved (96% reduction)
+- Previous workflow + docs system: ~3,500 tokens
+- New system: ~150 tokens (single script call)
 
 ## [5.2.0] - 2025-10-23
 
@@ -53,6 +76,7 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.5.0   | 2025-11-02 | MINOR | Initialize-repository meta-skill + documentation system |
 | 5.2.0   | 2025-10-23 | MINOR | Enhanced TODO.md manifest structure |
 | 5.0.0   | 2025-10-23 | MAJOR | Skill-based architecture with callable tools |
 

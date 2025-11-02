@@ -63,6 +63,7 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 5. **speckit-author** - Creates detailed specifications and implementation plans
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
 7. **workflow-utilities** - Shared utilities for file management and TODO updates
+8. **initialize-repository** - Meta-skill (Phase 0) for bootstrapping new repositories
 
 ### Using the Workflow
 

@@ -10,7 +10,7 @@ This repository uses a modular skill-based git workflow for Python feature devel
 - **Git-flow + GitHub-flow hybrid** with worktrees for isolation
 - **BMAD planning** (requirements + architecture) in main repo
 - **SpecKit specifications** (spec + plan) in feature worktrees
-- **7 specialized skills** loaded progressively per workflow phase
+- **8 specialized skills** loaded progressively per workflow phase
 - **Quality gates** enforced before integration (≥80% coverage, all tests passing)
 
 ## Prerequisites
@@ -60,12 +60,15 @@ podman --version        # Optional
 │   └── scripts/
 │       ├── check_coverage.py
 │       └── run_quality_gates.py
-└── workflow-utilities/          # Shared utilities (~200 lines)
+├── workflow-utilities/        # Shared utilities (~200 lines)
+│   └── scripts/
+│       ├── deprecate_files.py
+│       ├── archive_manager.py
+│       ├── todo_updater.py
+│       └── directory_structure.py
+└── initialize-repository/     # Bootstrap new repos (Phase 0 meta-skill) (~1000 lines)
     └── scripts/
-        ├── deprecate_files.py
-        ├── archive_manager.py
-        ├── todo_updater.py
-        └── directory_structure.py
+        └── initialize_repository.py
 ```
 
 **Token Efficiency:**
@@ -102,7 +105,7 @@ main-repo/
 ├── WORKFLOW.md                ← This file
 ├── CLAUDE.md                  ← Claude Code interaction guide
 ├── README.md                  ← Project documentation
-├── .claude/skills/            ← 7 skill modules
+├── .claude/skills/            ← 8 skill modules (including Phase 0 meta-skill)
 ├── src/                       ← Source code
 ├── tests/                     ← Test suite
 └── ARCHIVED/                  ← Deprecated files and completed workflows
@@ -210,6 +213,111 @@ This automatically creates:
 - ✓ Skills verified
 - ✓ TODO.md created with YAML frontmatter
 - ✓ contrib/<gh-user> branch initialized
+
+---
+
+### Phase 0: Repository Initialization (Optional)
+
+**Location:** External (source repository → target repository)
+**Branch:** N/A (creates new repository)
+**Skills:** initialize-repository (meta-skill)
+
+**Purpose:** Bootstrap a new repository with the complete workflow system from an existing source repository.
+
+**When to use:**
+- Starting a new project that needs the workflow system
+- Migrating existing project to workflow system
+- Creating template repository with workflow standards
+
+**Note:** This is a **one-time setup phase**, not part of the normal Phases 1-6 workflow cycle.
+
+**Command:**
+```bash
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  <source-repo> <target-repo>
+```
+
+**Example:**
+```bash
+# From current repository
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  . ../my-new-project
+```
+
+**Interactive Session Flow:**
+
+**Phase 1: Configuration Selection (9 questions)**
+```
+What is the primary purpose of this repository?
+  1) Web application
+  2) CLI tool
+  3) Library/package
+  4) Data analysis
+  5) Machine learning
+  6) Other
+> [User selects]
+
+Brief description of the repository (one line):
+> [User provides]
+
+GitHub username [auto-detected from gh CLI]
+> [User confirms or updates]
+
+Python version (3.11 / 3.12 / 3.13) [default: 3.11]
+> [User selects]
+
+Copy workflow system? (required, always yes)
+Copy domain-specific content (src/, resources/)? (yes/no)
+Copy sample tests (tests/)? (yes/no)
+Copy container configs? (yes/no)
+```
+
+**Phase 2: Git Setup (4-5 questions)**
+```
+Initialize git repository? (yes/no)
+If yes: Create branch structure (main, develop, contrib)? (yes/no)
+If yes: Set up remote? (yes/no)
+If yes: Remote URL?
+If yes and remote: Push to remote? (yes/no)
+```
+
+**What gets copied:**
+
+**Always:**
+- All 8 skills (.claude/skills/)
+- Documentation (WORKFLOW.md, CONTRIBUTING.md, UPDATE_CHECKLIST.md)
+- Quality configs (pyproject.toml, .gitignore)
+- Directory structure (ARCHIVED/, planning/, specs/)
+
+**Generated/adapted:**
+- README.md (customized for new repo)
+- CLAUDE.md (customized for new repo)
+- CHANGELOG.md (initial v0.1.0)
+- TODO.md (master workflow manifest)
+
+**Optionally (based on Q&A):**
+- Domain content (src/, resources/)
+- Tests (tests/)
+- Container configs (Containerfile, podman-compose.yml)
+
+**Output:**
+- ✓ New repository created with complete workflow system
+- ✓ Documentation adapted for new context
+- ✓ Git initialized with 3-branch structure (optional)
+- ✓ Remote configured (optional)
+- ✓ Ready to start Phase 1 (BMAD planning)
+
+**Token Efficiency:**
+- Manual setup: ~3,500 tokens
+- Callable tool: ~150 tokens
+- **Savings: ~3,350 tokens (96% reduction)**
+
+**Next step after initialization:**
+```bash
+cd /path/to/new-repo
+uv sync
+python .claude/skills/bmad-planner/scripts/create_planning.py first-feature <gh-user>
+```
 
 ---
 
@@ -2009,7 +2117,8 @@ Track these metrics to validate workflow effectiveness:
 ### Skill Documentation
 
 Referenced throughout this workflow:
-- **Phase 0:** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 0 (Initialization):** [initialize-repository](/.claude/skills/initialize-repository/SKILL.md) (meta-skill for bootstrapping new repos)
+- **Phase 0 (Setup):** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 1:** [bmad-planner](/.claude/skills/bmad-planner/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 2:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [speckit-author](/.claude/skills/speckit-author/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 3:** [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
