@@ -8,7 +8,7 @@ This is a Python-based repository for German language learning resources and con
 - German language reference materials (vocabulary, grammar, etc.)
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
-- **Workflow v5.0 skill-based architecture** for managing development workflow
+- **Workflow v5.2 skill-based architecture** for managing development workflow
 
 ## Code Architecture
 
@@ -544,6 +544,9 @@ Automatic version calculation based on changes:
 - Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
 - CHANGELOG system for all skills
 - CONTRIBUTING.md with contributor guidelines
+- initialize-repository meta-skill (Phase 0 bootstrapping for new repositories)
+- agentdb-state-manager skill (persistent state tracking and analytics with 89-92% token reduction)
+- Official Claude Code docs integration with skill creation workflow
 
 ## Commit Message Format
 
