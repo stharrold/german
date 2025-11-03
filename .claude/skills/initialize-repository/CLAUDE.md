@@ -48,7 +48,7 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
 ```
 
 **What it does:**
-1. Validates source repository has workflow system (≥3/7 skills)
+1. Validates source repository has workflow system (≥3/9 skills)
 2. Validates target repository path
 3. Conducts 4-phase interactive Q&A:
    - **Phase 1:** Configuration (repo details, tech stack, components to copy)
@@ -59,7 +59,7 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
 5. Reports what was created and next steps
 
 **Key features:**
-- Copies all 8 skills (including this meta-skill)
+- Copies all 9 skills (including this meta-skill)
 - Adapts README.md, CLAUDE.md, pyproject.toml for new repo
 - Copies WORKFLOW.md, CONTRIBUTING.md verbatim
 - Creates compliant directory structure (ARCHIVED/, planning/, specs/)
@@ -114,7 +114,7 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
 Phase 0: Initialize Repository (this meta-skill)
   ↓
   Creates environment containing:
-    - 8 skills (including this one)
+    - 9 skills (including this one)
     - Complete documentation
     - Quality configurations
     - Directory structure
@@ -223,7 +223,7 @@ After successful initialization, target repository has:
 ```
 target-repo/
 ├── .claude/
-│   └── skills/              # 8 skills copied
+│   └── skills/              # 9 skills copied
 ├── ARCHIVED/                # With CLAUDE.md, README.md
 ├── planning/                # With CLAUDE.md, README.md, ARCHIVED/
 ├── specs/                   # With CLAUDE.md, README.md, ARCHIVED/
@@ -295,7 +295,7 @@ python .claude/skills/bmad-planner/scripts/create_planning.py first-feature stha
 ## Best Practices
 
 **When calling this meta-skill:**
-1. Ensure source repository has complete workflow system (≥3/7 skills)
+1. Ensure source repository has complete workflow system (≥3/9 skills)
 2. Validate `gh` CLI is authenticated before running
 3. Decide what to copy (workflow-only recommended for clean start)
 4. Have remote repository URL ready if setting up remote

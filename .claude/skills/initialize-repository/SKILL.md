@@ -100,7 +100,7 @@ The script conducts a 4-phase interactive Q&A session:
 #### Phase 3: File Operations (Automatic)
 
 **Copied verbatim:**
-- `.claude/skills/` (all 8 skills including this one)
+- `.claude/skills/` (all 9 skills including this one)
 - `WORKFLOW.md` (complete workflow guide)
 - `CONTRIBUTING.md` (contributor guidelines)
 - `.claude/skills/UPDATE_CHECKLIST.md` (skill update checklist)
@@ -216,7 +216,7 @@ Proceed with initialization? (Y/n)
 ✓ Copied skill: quality-enforcer
 ✓ Copied skill: workflow-utilities
 ✓ Copied skill: initialize-repository
-✓ Copied 8/8 skills
+✓ Copied 9/9 skills
 
 ℹ Copying workflow documentation...
 ✓ Copied: WORKFLOW.md
@@ -290,7 +290,7 @@ Purpose: Library/package
 GitHub User: stharrold
 
 Created:
-  ✓ Workflow system (8 skills)
+  ✓ Workflow system (9 skills)
   ✓ Documentation (WORKFLOW.md, CLAUDE.md, CONTRIBUTING.md)
   ✓ Quality configs (pyproject.toml, .gitignore)
   ✓ Directory structure (ARCHIVED/, planning/, specs/)
@@ -378,7 +378,7 @@ Documentation:
 ```
 target-repo/
 ├── .claude/
-│   └── skills/           # 8 skills copied
+│   └── skills/           # 9 skills copied
 ├── ARCHIVED/             # With CLAUDE.md, README.md
 ├── planning/             # With CLAUDE.md, README.md, ARCHIVED/
 ├── specs/                # With CLAUDE.md, README.md, ARCHIVED/
@@ -518,7 +518,7 @@ Phase 6: Hotfix (production fixes)
 
 1. Read WORKFLOW.md (~2,000 lines → ~1,500 tokens)
 2. Read CLAUDE.md (~800 lines → ~600 tokens)
-3. Read all 7 skill SKILL.md files (~2,800 lines → ~2,100 tokens)
+3. Read all 9 skill SKILL.md files (~3,200 lines → ~2,400 tokens)
 4. Manually copy .claude/skills/ directory structure
 5. Manually adapt README.md, CLAUDE.md, pyproject.toml
 6. Manually create directory structure
@@ -577,7 +577,7 @@ The script validates and handles errors at each phase:
 **Pre-flight checks:**
 - Required tools (git, gh) must be installed
 - Source repository must have .claude/skills/ directory
-- Source repository must have at least 3/7 skills
+- Source repository must have at least 3/9 skills
 - Target directory warns if not empty
 
 **During execution:**

@@ -41,6 +41,8 @@ SKILL_DIRS = [
     'speckit-author',
     'quality-enforcer',
     'workflow-utilities',
+    'initialize-repository',
+    'agentdb-state-manager',
 ]  # Expected skills to validate
 
 VERSION_PATTERN = re.compile(r'^(\d+)\.(\d+)\.(\d+)$')  # Semantic versioning: MAJOR.MINOR.PATCH

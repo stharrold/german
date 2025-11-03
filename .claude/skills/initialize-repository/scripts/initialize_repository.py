@@ -25,7 +25,7 @@ The script will:
 
 Constants:
 - SKILL_NAMES: List of workflow skills to copy
-  Rationale: Define the 8 skills that comprise the workflow system
+  Rationale: Define the 9 skills that comprise the workflow system
 - REQUIRED_TOOLS: Tools that must be installed
   Rationale: Validate environment before proceeding
 - TIMESTAMP_FORMAT: ISO8601 compact format
@@ -51,8 +51,9 @@ SKILL_NAMES = [
     'speckit-author',
     'quality-enforcer',
     'workflow-utilities',
+    'agentdb-state-manager',
     'initialize-repository',  # Include this meta-skill
-]  # 8 skills that comprise the workflow system
+]  # 9 skills that comprise the workflow system
 
 REQUIRED_TOOLS = ['git', 'gh']  # Required for workflow functionality
 TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'  # Compact ISO8601 for file names
@@ -222,9 +223,9 @@ def validate_source_repo(source_path: Path) -> None:
     required_count = len([s for s in SKILL_NAMES[:-1] if s in found_skills])  # Exclude initialize-repository
 
     if required_count < 3:
-        error_exit(f"Source repository has incomplete workflow system (found {required_count}/7 skills)")
+        error_exit(f"Source repository has incomplete workflow system (found {required_count}/9 skills)")
 
-    success(f"Source repository validated ({required_count}/7 skills found)")
+    success(f"Source repository validated ({required_count}/9 skills found)")
 
 
 def validate_target_repo(target_path: Path) -> None:
@@ -1118,7 +1119,7 @@ def print_summary(target_path: Path, config: RepositoryConfig) -> None:
     print(f"{Colors.BLUE}GitHub User:{Colors.END} {config.gh_user}")
 
     print(f"\n{Colors.BOLD}Created:{Colors.END}")
-    print(f"  ✓ Workflow system (8 skills)")
+    print(f"  ✓ Workflow system (9 skills)")
     print(f"  ✓ Documentation (WORKFLOW.md, CLAUDE.md, CONTRIBUTING.md)")
     print(f"  ✓ Quality configs (pyproject.toml, .gitignore)")
     print(f"  ✓ Directory structure (ARCHIVED/, planning/, specs/)")
