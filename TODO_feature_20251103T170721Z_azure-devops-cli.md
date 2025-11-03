@@ -440,6 +440,105 @@ Add Azure DevOps CLI (`az`) support alongside GitHub CLI (`gh`) through a VCS pr
 
 **Solution:** Create VCS provider abstraction with adapters for both GitHub and Azure DevOps.
 
+## Required Reading for Implementation
+
+This section lists files Claude Code should read before starting each phase to understand existing patterns and code to be modified.
+
+### Before Phase 1: Foundation (impl_001 - impl_007)
+
+**Understand existing script patterns:**
+- `.claude/skills/workflow-utilities/scripts/directory_structure.py` - Script structure, argument parsing, error handling patterns
+- `.claude/skills/workflow-utilities/scripts/deprecate_files.py` - Module imports, subprocess usage, validation patterns
+- `.claude/skills/workflow-utilities/scripts/workflow_registrar.py` - YAML loading/parsing patterns (PyYAML usage)
+
+**Understand subprocess patterns:**
+- `.claude/skills/git-workflow-manager/scripts/create_worktree.py` lines 95-120 - How subprocess calls are structured, error handling
+- `.claude/skills/git-workflow-manager/scripts/create_release.py` lines 285-310 - Subprocess with capture_output, text=True patterns
+
+**Rationale:** Match coding style, error handling patterns, and subprocess usage conventions.
+
+### Before Phase 2: Script Integration (impl_008 - impl_010)
+
+**Files to modify - read completely:**
+- `.claude/skills/initialize-repository/scripts/initialize_repository.py` lines 295-315 - Current `gh api user` usage, error handling
+- `.claude/skills/git-workflow-manager/scripts/create_worktree.py` lines 95-125 - Current `gh api user` usage, authentication error messages
+- `.claude/skills/git-workflow-manager/scripts/create_release.py` lines 285-310 - Current `gh api user` usage in TODO file context
+
+**Understand what's being replaced:**
+```python
+# Current pattern in all three scripts:
+result = subprocess.run(['gh', 'api', 'user', '--jq', '.login'],
+                       capture_output=True, text=True, check=True)
+github_user = result.stdout.strip()
+```
+
+**Rationale:** Ensure replacement with VCS adapter maintains exact same behavior and error handling.
+
+### Before Phase 3: Testing (test_001 - test_004)
+
+**Understand test patterns:**
+- `tests/skills/test_create_release.py` - Complete file for test structure, pytest fixtures, mocking patterns
+- `tests/test_models.py` - Pydantic validation testing patterns
+- `tests/test_vocabulary_loader.py` - Error handling test patterns, pytest.raises usage
+
+**Test execution patterns:**
+```bash
+# From existing tests, understand:
+- How to use pytest.mark.skip for tests requiring external dependencies
+- How to mock subprocess.run calls
+- How to structure test classes and test functions
+- How to use pytest fixtures
+```
+
+**Rationale:** Match existing test structure and achieve ≥80% coverage goal.
+
+### Before Phase 4: Documentation (doc_001 - doc_008)
+
+**Understand documentation style:**
+- `CLAUDE.md` lines 195-295 - Command documentation format, examples structure
+- `WORKFLOW.md` lines 180-220 - Step-by-step workflow documentation style
+- `README.md` lines 1-50 - Prerequisites and quick start format
+- `.claude/skills/git-workflow-manager/SKILL.md` lines 1-100 - Skill documentation structure
+
+**Configuration file examples:**
+- `.gitignore` - Example of configuration file in repo root
+- `pyproject.toml` - TOML structure, comments style
+
+**Rationale:** Match documentation voice, structure, and example format across all files.
+
+### Before Phase 5: Quality Assurance (qa_001 - qa_003)
+
+**Understand quality standards:**
+- `CONTRIBUTING.md` complete file - Quality gates, testing requirements, PR standards
+- `.claude/skills/quality-enforcer/SKILL.md` - Quality gate definitions, coverage requirements
+
+**Rationale:** Understand ≥80% coverage requirement, lint rules, type checking expectations.
+
+### Quick Reference: Files Modified by Line Number
+
+**initialize_repository.py:**
+- Line 58: `REQUIRED_TOOLS = ['git', 'gh']` → Add VCS adapter check
+- Line 303-307: `gh api user` call → Replace with `vcs.get_current_user()`
+
+**create_worktree.py:**
+- Line 103-107: `gh api user` call → Replace with `vcs.get_current_user()`
+- Line 113: Error message mentioning `gh auth login` → Make provider-agnostic
+
+**create_release.py:**
+- Line 295-302: `gh api user` call → Replace with `vcs.get_current_user()`
+
+### Token Efficiency Note
+
+**Reading strategy for Claude Code:**
+1. **Phase 1:** Read 3-4 utility scripts to understand patterns (~1,500 tokens)
+2. **Phase 2:** Read 3 scripts being modified, focus on specific line ranges (~800 tokens)
+3. **Phase 3:** Read 3-4 test files to understand patterns (~1,200 tokens)
+4. **Phase 4:** Read 4-5 documentation files to match style (~1,000 tokens)
+
+**Total reading: ~4,500 tokens across 5 weeks** (instead of ~15,000 if reading entire files)
+
+**Strategy:** Read targeted sections, not entire files. Use line number ranges provided above.
+
 ## Architecture
 
 ### VCS Abstraction Layer
