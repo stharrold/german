@@ -1,6 +1,6 @@
 ---
 name: initialize-repository
-version: 1.0.0
+version: 1.0.1
 description: |
   Meta-skill (Phase 0) for bootstrapping new repositories with
   workflow system. Interactive callable tool that copies skills,
@@ -569,6 +569,411 @@ Phase 6: Hotfix (production fixes)
 1. Repository already has workflow system (use update scripts instead)
 2. Need partial workflow system (manually copy specific skills)
 3. Completely different technology stack (adapt manually)
+
+## Applying to Existing Repositories
+
+The initialize-repository script can be used with existing repositories, but requires careful planning because it **overwrites** certain files. This section provides guidance for safely applying the workflow system to existing projects.
+
+### Files That Get Overwritten
+
+**⚠️ WARNING: The following files will be REPLACED:**
+
+**Documentation files:**
+- `README.md` - Replaced with generated README (your content will be lost)
+- `CLAUDE.md` - Replaced with generated CLAUDE.md (your content will be lost)
+- `CHANGELOG.md` - Replaced with initial v0.1.0 entry (your history will be lost)
+- `TODO.md` - Replaced with master workflow manifest (if exists)
+
+**Configuration files:**
+- `pyproject.toml` - Replaced with generated config (your dependencies/settings will be lost)
+- `.gitignore` - Replaced with workflow system .gitignore (your exclusions will be lost)
+
+**Workflow system:**
+- `.claude/skills/` - Created/merged (existing skills directory will be overwritten)
+
+### Files That Are Preserved
+
+**✓ Your code and content remain untouched** (unless you choose to copy domain content):
+
+**Source code:**
+- `src/` - Preserved (only overwritten if you select "copy domain content")
+- `resources/` - Preserved (only overwritten if you select "copy domain content")
+- Any other code directories - Preserved
+
+**Tests:**
+- `tests/` - Preserved (only overwritten if you select "copy tests")
+
+**All other files:**
+- Custom scripts, data files, notebooks, docs/ - All preserved
+- Hidden files/directories (except .gitignore) - Preserved
+- Build artifacts, virtual environments - Preserved
+
+### Pre-Flight Checklist
+
+Before applying the workflow to an existing repository:
+
+**1. Clean git state:**
+```bash
+cd /path/to/existing-repo
+git status  # Should show clean working tree
+git commit -am "checkpoint: before applying workflow system"
+```
+
+**2. Create backup branch:**
+```bash
+git branch backup-before-workflow
+git push origin backup-before-workflow  # Optional: push to remote
+```
+
+**3. Review files that will be overwritten:**
+```bash
+# Check if you have content to preserve
+ls -la README.md CLAUDE.md CHANGELOG.md pyproject.toml .gitignore
+
+# Save important content from these files
+mkdir -p /tmp/backup-docs
+cp README.md CHANGELOG.md pyproject.toml .gitignore /tmp/backup-docs/
+# CLAUDE.md might not exist yet
+```
+
+**4. Decide on approach:**
+- **Option A (Recommended):** Test in separate directory first
+- **Option B:** Apply directly with careful commit/merge workflow
+
+### Option A: Test Application (Recommended)
+
+This approach applies the workflow to a test copy first, then selectively merges:
+
+```bash
+# Step 1: Create test copy of existing repository
+cp -r /path/to/existing-repo /path/to/existing-repo-test
+
+# Step 2: Apply workflow to test copy
+python /path/to/source-with-workflow/.claude/skills/initialize-repository/scripts/initialize_repository.py \
+  /path/to/source-with-workflow \
+  /path/to/existing-repo-test
+
+# Answer Q&A:
+# - Repository purpose: [match your existing repo]
+# - Description: [your existing repo description]
+# - Copy workflow: yes (required)
+# - Copy domain content: NO (preserve your existing src/)
+# - Copy tests: NO (preserve your existing tests/)
+# - Copy containers: [yes if you want workflow's container configs]
+# - Initialize git: NO (already has git)
+
+# Step 3: Review generated files in test copy
+cd /path/to/existing-repo-test
+cat README.md        # Review generated README
+cat CLAUDE.md        # Review generated CLAUDE.md
+cat pyproject.toml   # Review generated config
+
+# Step 4: Manually merge desired changes back to original
+cd /path/to/existing-repo
+
+# Copy workflow system (safe to overwrite)
+cp -r /path/to/existing-repo-test/.claude .
+
+# Merge documentation (manual)
+# - Copy workflow sections from test/README.md to your README.md
+# - Copy workflow sections from test/CLAUDE.md to your CLAUDE.md
+# - Merge pyproject.toml dependencies (add pytest, ruff, mypy, coverage configs)
+# - Merge .gitignore exclusions
+
+# Copy workflow documentation (safe to add)
+cp /path/to/existing-repo-test/WORKFLOW.md .
+cp /path/to/existing-repo-test/CONTRIBUTING.md .
+
+# Step 5: Create directory structure
+python .claude/skills/workflow-utilities/scripts/directory_structure.py \
+  planning specs ARCHIVED
+
+# Step 6: Create TODO.md master manifest
+cat > TODO.md << 'EOF'
+---
+type: workflow-master-manifest
+version: 5.0.0
+last_update: "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+workflows:
+  active: []
+  archived: []
+
+context_stats:
+  total_workflows_completed: 0
+  current_token_usage: 0
+  last_checkpoint: "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+---
+
+# Master TODO Manifest
+
+This is the master manifest tracking all workflow TODO files in this repository.
+
+## Active Workflows
+
+None currently active.
+
+## Archived Workflows
+
+None archived yet.
+EOF
+
+# Step 7: Commit workflow system
+git add .claude/ WORKFLOW.md CONTRIBUTING.md TODO.md
+git add planning/ specs/ ARCHIVED/  # If created
+git commit -m "feat(workflow): integrate workflow v5.2 system
+
+- Add 9 workflow skills for progressive development
+- Add WORKFLOW.md, CONTRIBUTING.md documentation
+- Add TODO.md master manifest
+- Add compliant directory structure
+
+Implements: Phase 0 workflow integration
+Refs: initialize-repository v1.0.0"
+
+# Step 8: Test workflow system
+python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
+python .claude/skills/bmad-planner/scripts/create_planning.py test-feature $(git config user.name)
+```
+
+**Benefits of Option A:**
+- ✓ No risk to existing repository
+- ✓ Review all changes before applying
+- ✓ Selective merge of desired features
+- ✓ Can iterate and refine
+
+### Option B: Direct Application
+
+This approach applies the workflow directly, relying on git to track changes:
+
+```bash
+# Step 1: Ensure clean git state (CRITICAL)
+cd /path/to/existing-repo
+git status  # MUST be clean
+git commit -am "checkpoint: before workflow integration"
+git branch backup-before-workflow
+
+# Step 2: Save important content
+mkdir -p .workflow-backup
+cp README.md CHANGELOG.md .workflow-backup/
+cp pyproject.toml .gitignore .workflow-backup/
+
+# Step 3: Run initialize_repository.py
+python /path/to/source-with-workflow/.claude/skills/initialize-repository/scripts/initialize_repository.py \
+  /path/to/source-with-workflow \
+  /path/to/existing-repo
+
+# Answer Q&A:
+# - Repository purpose: [match your existing repo]
+# - Description: [your existing repo description]
+# - Copy workflow: yes (required)
+# - Copy domain content: NO (preserve your src/)
+# - Copy tests: NO (preserve your tests/)
+# - Copy containers: [decide based on needs]
+# - Initialize git: NO (already initialized)
+
+# Step 4: Review changes with git
+git status
+git diff README.md        # See what changed
+git diff pyproject.toml   # See what changed
+git diff .gitignore       # See what changed
+
+# Step 5: Restore and merge important content
+# README.md - merge your original content with workflow sections
+cp .workflow-backup/README.md README.md.original
+# Manually edit README.md to include both your content and workflow sections
+
+# pyproject.toml - merge dependencies
+# Edit pyproject.toml to add back your custom dependencies
+# Keep workflow's test/lint/coverage configurations
+
+# .gitignore - merge exclusions
+cat .workflow-backup/.gitignore >> .gitignore
+# Then manually deduplicate
+
+# CHANGELOG.md - merge history
+cat .workflow-backup/CHANGELOG.md >> CHANGELOG.md
+# Edit to merge chronologically
+
+# Step 6: Commit workflow integration
+git add -A
+git commit -m "feat(workflow): integrate workflow v5.2 system
+
+- Add 9 workflow skills
+- Merge workflow documentation with existing content
+- Add compliant directory structure
+- Preserve existing code, tests, and domain content
+
+Implements: Phase 0 workflow integration
+Refs: initialize-repository v1.0.0"
+
+# Step 7: Test workflow system
+python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
+uv sync  # Install new dependencies
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+```
+
+**Benefits of Option B:**
+- ✓ Faster (single application)
+- ✓ Git tracks all changes
+- ✗ Requires careful merge work
+- ✗ Higher risk of mistakes
+
+### Post-Application Steps
+
+After applying the workflow (either option), complete these steps:
+
+**1. Validate workflow system:**
+```bash
+# Check skills were copied
+ls .claude/skills/  # Should show 9 skills
+
+# Validate versions
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+**2. Install dependencies:**
+```bash
+uv sync
+# Or if using pip
+pip install -e ".[dev]"
+```
+
+**3. Test quality gates:**
+```bash
+# Run full quality suite
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+
+# Run tests with coverage
+uv run pytest --cov=src --cov-fail-under=80
+
+# Run linting
+uv run ruff check src/ tests/
+
+# Run type checking
+uv run mypy src/
+```
+
+**4. Review and update documentation:**
+```bash
+# Review generated CLAUDE.md
+cat CLAUDE.md
+# Add code architecture section specific to your project
+
+# Review generated README.md
+cat README.md
+# Ensure it accurately describes your project
+
+# Review WORKFLOW.md
+cat WORKFLOW.md
+# Familiarize yourself with the 6-phase workflow
+```
+
+**5. Start first workflow:**
+```bash
+# Create BMAD planning for existing feature
+python .claude/skills/bmad-planner/scripts/create_planning.py \
+  existing-feature $(git config user.name)
+
+# Or plan new feature
+python .claude/skills/bmad-planner/scripts/create_planning.py \
+  new-feature $(git config user.name)
+```
+
+### Common Issues and Solutions
+
+**Issue 1: pyproject.toml conflicts with existing dependencies**
+
+**Solution:** Manually merge dependencies
+```toml
+# Keep your existing dependencies
+[project]
+dependencies = [
+    "your-existing-dep>=1.0",
+    "another-dep>=2.0",
+]
+
+# Add workflow dependencies
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+]
+
+# Keep workflow tool configurations
+[tool.ruff]
+# ... (from generated file)
+
+[tool.mypy]
+# ... (from generated file)
+
+[tool.pytest.ini_options]
+# ... (from generated file)
+```
+
+**Issue 2: .gitignore conflicts with existing exclusions**
+
+**Solution:** Merge both .gitignore files
+```bash
+# Append workflow exclusions to your existing .gitignore
+cat .workflow-backup/.gitignore > .gitignore.merged
+cat .claude/skills/initialize-repository/templates/.gitignore >> .gitignore.merged
+# Remove duplicates manually
+sort .gitignore.merged | uniq > .gitignore
+```
+
+**Issue 3: Existing tests fail with new quality gates**
+
+**Solution:** Adjust quality gate thresholds temporarily
+```bash
+# Check current coverage
+uv run pytest --cov=src --cov-report=term
+
+# If below 80%, set realistic initial target
+# Edit pyproject.toml:
+[tool.pytest.ini_options]
+addopts = "--cov=src --cov-fail-under=60"  # Temporary lower threshold
+
+# Plan to improve coverage over time
+# Use quality-enforcer to track progress
+python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+```
+
+**Issue 4: Git branch structure conflicts**
+
+**Solution:** Adapt workflow branch structure
+```bash
+# If you use different branch names (e.g., 'master' instead of 'main')
+# Update git-workflow-manager scripts to use your branch names
+
+# Or rename your branches to match workflow
+git branch -m master main
+git branch develop
+git branch contrib/$(git config user.name)
+```
+
+### Recommendation Summary
+
+**For most existing repositories:**
+- ✓ Use **Option A (Test Application)** for safety
+- ✓ Copy only workflow system (not domain content)
+- ✓ Manually merge documentation
+- ✓ Test thoroughly before committing
+- ✓ Keep backup branch until confident
+
+**For simple existing repositories:**
+- If repository is small and simple
+- If you're comfortable with git merge conflicts
+- Consider **Option B (Direct Application)**
+- Still keep backup branch
+
+**For complex existing repositories:**
+- Use **Option A** exclusively
+- Consider gradual adoption (start with 1-2 skills)
+- Customize workflow documentation for your project
+- Plan migration over multiple iterations
 
 ## Error Handling
 

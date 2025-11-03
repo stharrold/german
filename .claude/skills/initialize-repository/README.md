@@ -50,10 +50,16 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
 
 ## When to Use
 
+**For new repositories:**
 - Starting a new project that needs the workflow system
-- Migrating existing project to workflow system
 - Creating template repository with workflow standards
 - Bootstrapping multiple repositories with consistent workflow
+
+**For existing repositories:**
+- Migrating existing project to workflow system
+- **⚠️ Important:** See [SKILL.md § Applying to Existing Repositories](SKILL.md#applying-to-existing-repositories) for detailed guidance
+- Key files (README.md, CLAUDE.md, pyproject.toml) will be overwritten
+- Use test-copy approach or careful backup/merge workflow
 
 **NOT part of normal workflow phases (1-6).** This is Phase 0, run once per repository.
 

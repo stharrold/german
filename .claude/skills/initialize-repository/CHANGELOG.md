@@ -10,6 +10,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.0.1] - 2025-11-03
+
+### Added
+- Comprehensive documentation for applying workflow to existing repositories
+- New SKILL.md section: "Applying to Existing Repositories" (400+ lines)
+- Pre-flight checklist with overwrite warnings
+- Option A (Test Application) - recommended safe approach
+- Option B (Direct Application) - faster approach with git tracking
+- Post-application validation steps
+- Common issues and solutions guide
+- Files-overwritten vs files-preserved documentation
+
+### Changed
+- Updated README.md to warn about existing repository usage
+- Updated root README.md with "Using This Workflow in Other Projects" section
+- Clarified when to use each application approach
+
+### Documentation
+- **SKILL.md**: Added 400+ lines of existing repository guidance (lines 573-977)
+- **README.md**: Added warning and link to detailed guidance
+- **Root README.md**: Added new section with quick reference and caution warnings
+
 ## [1.0.0] - 2025-11-02
 
 ### Added
@@ -51,6 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.0.1   | 2025-11-03 | PATCH | Documentation for existing repository application |
 | 1.0.0   | 2025-11-02 | MAJOR | Initial release of meta-skill |
 
 ---
