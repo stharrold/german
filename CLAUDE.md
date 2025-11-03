@@ -64,6 +64,7 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
 7. **workflow-utilities** - Shared utilities for file management and TODO updates
 8. **initialize-repository** - Meta-skill (Phase 0) for bootstrapping new repositories
+9. **agentdb-state-manager** - AgentDB persistent state tracking and analytics
 
 ### Official Claude Code Documentation
 
@@ -233,6 +234,33 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 # Calculate semantic version
 python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
+```
+
+### AgentDB State Management
+
+```bash
+# Initialize AgentDB (run once per session)
+python .claude/skills/agentdb-state-manager/scripts/init_database.py
+
+# Sync TODO files to AgentDB (after TODO updates)
+python .claude/skills/agentdb-state-manager/scripts/sync_todo_to_db.py --all
+
+# Query current workflow state
+python .claude/skills/agentdb-state-manager/scripts/query_state.py
+
+# Query task dependencies
+python .claude/skills/agentdb-state-manager/scripts/query_state.py \
+  --dependencies --task <task_id>
+
+# Analyze workflow metrics
+python .claude/skills/agentdb-state-manager/scripts/analyze_metrics.py --trends
+
+# Store context checkpoint (at 100K tokens)
+python .claude/skills/agentdb-state-manager/scripts/checkpoint_manager.py \
+  store --todo TODO_feature_*.md
+
+# List checkpoints
+python .claude/skills/agentdb-state-manager/scripts/checkpoint_manager.py list
 ```
 
 ### Release Management
