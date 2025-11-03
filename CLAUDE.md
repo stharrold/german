@@ -8,7 +8,7 @@ This is a Python-based repository for German language learning resources and con
 - German language reference materials (vocabulary, grammar, etc.)
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
-- **Workflow v5.0 skill-based architecture** for managing development workflow
+- **Workflow v5.2 skill-based architecture** for managing development workflow
 
 ## Code Architecture
 
@@ -43,14 +43,16 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 - **Language:** Python 3.11+
 - **Package Manager:** uv (preferred) or pip
 - **Git Workflow:** Git-flow + GitHub-flow hybrid with worktrees
-- **Workflow System:** Skill-based architecture (7 specialized skills)
+- **Workflow System:** Skill-based architecture (9 specialized skills)
 - **Containerization:** Podman + podman-compose
 
-## Workflow v5.0 Architecture
+## Workflow v5.2 Architecture
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
 
-### Available Skills
+**Current workflow version:** 5.2.0 (see WORKFLOW.md for complete documentation)
+
+### Available Skills (9 Total)
 
 **Location:** `.claude/skills/<skill-name>/SKILL.md`
 
@@ -61,6 +63,22 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 5. **speckit-author** - Creates detailed specifications and implementation plans
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
 7. **workflow-utilities** - Shared utilities for file management and TODO updates
+8. **initialize-repository** - Meta-skill (Phase 0) for bootstrapping new repositories
+9. **agentdb-state-manager** - AgentDB persistent state tracking and analytics
+
+### Official Claude Code Documentation
+
+This workflow system extends official Claude Code patterns. For official documentation:
+
+**Claude Code Skills:**
+- **Specification:** https://docs.claude.com/en/docs/agents-and-tools/agent-skills
+- **Building Agents:** https://docs.claude.com/en/docs/agents-and-tools/building-agents
+- **Getting Started:** https://docs.claude.com/en/docs/claude-code/getting-started
+- **Docs Map:** https://docs.claude.com/en/docs/claude-code/claude_code_docs_map.md
+
+**Relationship to official patterns:** This workflow uses extended patterns (SKILL.md vs skill.md, additional files for context/versioning, phase-based coordination) optimized for multi-phase development. Both patterns are valid. See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed comparison.
+
+**When creating new skills:** Use `python .claude/skills/workflow-utilities/scripts/create_skill.py <skill-name>` - the script automatically fetches official docs, compares patterns, and alerts you to discrepancies with citations.
 
 ### Using the Workflow
 
@@ -77,10 +95,12 @@ The orchestrator will:
 
 ### Workflow Phases (Bidirectional BMAD ↔ SpecKit Flow)
 
-**Phase 1: Planning (BMAD - Interactive)** (main repo, `contrib/<gh-user>` branch)
-- **Interactive Q&A:** 3 personas gather requirements
+**Phase 1: Planning (BMAD - Callable Tool)** (main repo, `contrib/<gh-user>` branch)
+- **Callable script:** `python .claude/skills/bmad-planner/scripts/create_planning.py`
+- **Interactive Q&A:** 3 personas (Analyst, Architect, PM) gather requirements
 - **Output:** planning/<feature>/ with requirements.md, architecture.md, epics.md
-- **Skills:** bmad-planner
+- **Skills:** bmad-planner (callable)
+- **Token savings:** ~2,300 tokens per feature (92% reduction vs manual)
 
 **Phase 2: Implementation (SpecKit - Callable Tool)** (feature worktree)
 - **Call SpecKit script:** `python .claude/skills/speckit-author/scripts/create_specifications.py`
@@ -125,10 +145,14 @@ The orchestrator will:
 
 ### Key Workflow Features
 
-**Interactive Planning (BMAD):**
-- 🧠 Analyst: Q&A for requirements
-- 🏗️ Architect: Q&A for architecture
+**Interactive Planning (BMAD - Callable Tool):**
+- **Run script:** `create_planning.py` in main repo on contrib branch
+- 🧠 Analyst: Q&A for requirements (5-10 questions)
+- 🏗️ Architect: Q&A for architecture (5-8 questions)
 - 📋 PM: Automatic epic breakdown
+- Generates requirements.md, architecture.md, epics.md from templates
+- Commits changes automatically
+- **Token savings:** ~2,300 tokens per feature (92% reduction)
 
 **Interactive Specifications (SpecKit - Callable Tool):**
 - **Run script:** `create_specifications.py` in feature/hotfix worktrees
@@ -146,6 +170,68 @@ The orchestrator will:
 - Interactive Q&A for metrics and lessons learned
 - Updates planning/ files with "As-Built" sections
 - Improves future planning accuracy
+
+## Critical Skill Integration Patterns
+
+Understanding how skills interact is essential for maximizing token efficiency and workflow effectiveness.
+
+### BMAD → SpecKit Context Reuse (Token Efficiency)
+
+**Token savings through context flow:**
+- **BMAD** (Phase 1) creates `planning/<slug>/` with requirements.md and architecture.md
+- **SpecKit** (Phase 2) auto-detects `../planning/<slug>/` from feature worktrees
+- Context reuse reduces SpecKit Q&A from 10-15 questions (without BMAD) to 5-8 questions (with BMAD)
+- **Token savings: 1,700-2,700 tokens per feature** by reusing planning context
+
+**Implementation:** SpecKit's `create_specifications.py` checks for `../planning/<slug>/` and loads requirements/architecture to pre-populate spec.md and plan.md templates, skipping redundant questions.
+
+**When to use BMAD:**
+- Complex features requiring stakeholder alignment → Use BMAD
+- Simple bug fixes or small refactors → Skip BMAD, use SpecKit standalone
+
+### Shared TODO File Manipulation (Consistency)
+
+**All callable tools follow consistent TODO patterns:**
+- BMAD, SpecKit, and workflow utilities all write YAML frontmatter to TODO_*.md
+- workflow-utilities provides shared YAML parsing/writing functions (used by all skills)
+- **Registration pattern:** Create TODO_*.md → call `workflow_registrar.py` → update TODO.md manifest
+- **Archival pattern:** Move to ARCHIVED/ → call `workflow_archiver.py` → update TODO.md manifest
+
+**Benefits:**
+- Consistent YAML structure enables AgentDB synchronization
+- Cross-phase queries work reliably (e.g., "what tasks are blocked?")
+- Single source of truth for workflow state
+
+### AgentDB Dual-Write Architecture (Analytics Cache)
+
+**Source of truth vs. analytics cache:**
+- **TODO_*.md files** remain the source of truth (human-editable, git-tracked)
+- **AgentDB** is a read-only analytics cache (DuckDB, 24-hour session lifetime)
+- **Sync pattern:** Modify TODO_*.md → run `sync_todo_to_db.py` → query AgentDB
+
+**When to use AgentDB:**
+- Complex queries (dependencies, blocked tasks, progress analytics) → 89% token reduction
+- Simple file reads (single TODO file) → Just read the file directly
+- Cross-workflow queries → AgentDB shines (e.g., "all blocked tasks across all features")
+
+### Quality + Versioning Integration (Automation)
+
+**Automated semantic versioning from test results:**
+1. **quality-enforcer** runs pytest with coverage (Phase 3)
+2. **semantic_version.py** analyzes git diff for breaking changes, features, fixes
+3. Both outputs merged into TODO_*.md `quality_gates` section:
+   ```yaml
+   quality_gates:
+     test_coverage: 85
+     tests_passing: true
+     semantic_version: "1.5.0"
+   ```
+4. Version propagates to PR title, git tags, CHANGELOG.md
+
+**Benefits:**
+- No manual version calculation - automated from code changes + test quality
+- Quality gates enforced before PR creation (≥80% coverage required)
+- Version history correlates with actual changes (not arbitrary bumps)
 
 ## Git Branch Structure
 
@@ -204,12 +290,50 @@ python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
 python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   TODO_feature_*.md <task_id> <complete|pending|blocked>
 
+# Register workflow in TODO.md (Phase 1/2)
+python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
+  TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
+
+# Archive workflow (Phase 4.3: after PR merge)
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+
+# Sync TODO.md with filesystem (recovery)
+python .claude/skills/workflow-utilities/scripts/sync_manifest.py
+
 # Run quality gates (Phase 3)
 python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 
 # Calculate semantic version
 python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
+```
+
+### AgentDB State Management
+
+```bash
+# Initialize AgentDB (run once per session)
+python .claude/skills/agentdb-state-manager/scripts/init_database.py
+
+# Sync TODO files to AgentDB (after TODO updates)
+python .claude/skills/agentdb-state-manager/scripts/sync_todo_to_db.py --all
+
+# Query current workflow state
+python .claude/skills/agentdb-state-manager/scripts/query_state.py
+
+# Query task dependencies
+python .claude/skills/agentdb-state-manager/scripts/query_state.py \
+  --dependencies --task <task_id>
+
+# Analyze workflow metrics
+python .claude/skills/agentdb-state-manager/scripts/analyze_metrics.py --trends
+
+# Store context checkpoint (at 100K tokens)
+python .claude/skills/agentdb-state-manager/scripts/checkpoint_manager.py \
+  store --todo TODO_feature_*.md
+
+# List checkpoints
+python .claude/skills/agentdb-state-manager/scripts/checkpoint_manager.py list
 ```
 
 ### Release Management
@@ -231,6 +355,31 @@ python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
 python .claude/skills/git-workflow-manager/scripts/cleanup_release.py \
   v1.1.0
 ```
+
+### Repository Initialization (Phase 0)
+
+```bash
+# Bootstrap new repository with complete workflow system (run once per repo)
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  <source-repo> <target-repo>
+
+# Example: Replicate workflow from current repo to new project
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  . ../my-new-project
+
+# For existing repositories: See detailed guidance
+cat .claude/skills/initialize-repository/SKILL.md
+# Read "Applying to Existing Repositories" section for safety guidelines
+```
+
+**What gets copied:**
+- ✓ 9 workflow skills (BMAD, SpecKit, quality gates, git automation, etc.)
+- ✓ Workflow documentation (WORKFLOW.md, CONTRIBUTING.md, quality configs)
+- ✗ Your code remains untouched (unless you choose to copy domain content)
+
+**⚠️ Caution for existing repos:** Overwrites README.md, CLAUDE.md, pyproject.toml, .gitignore. Use test-copy approach or backup before applying.
+
+**When to use:** Phase 0 (bootstrapping). Run once per repository, NOT part of Phases 1-6 workflow.
 
 ### Package Management
 
@@ -386,6 +535,66 @@ python .claude/skills/workflow-utilities/scripts/archive_manager.py \
   extract ARCHIVED/<archive>.zip restored/
 ```
 
+## Documentation Maintenance
+
+**CRITICAL: When updating skills, all related documentation must be updated.**
+
+### Quick Update Process
+
+**Use the update checklist:**
+```bash
+cat .claude/skills/UPDATE_CHECKLIST.md
+```
+
+**Validate version consistency:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+**Semi-automated sync (after modifying a skill):**
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  <skill-name> <new-version>
+```
+
+### Files to Update When Modifying a Skill
+
+1. **`.claude/skills/<skill-name>/SKILL.md`** - Version in frontmatter, documentation
+2. **`.claude/skills/<skill-name>/CLAUDE.md`** - Usage examples
+3. **`.claude/skills/<skill-name>/CHANGELOG.md`** - Version history
+4. **`WORKFLOW.md`** - Phase sections, commands, token metrics
+5. **`CLAUDE.md`** (this file) - Command reference if changed
+6. **Integration files** - Other skills that depend on the updated skill
+
+### Version Numbering (Semantic Versioning)
+
+Skills and WORKFLOW.md use `MAJOR.MINOR.PATCH`:
+
+- **MAJOR:** Breaking changes, removed features
+- **MINOR:** New features (backward compatible)
+- **PATCH:** Bug fixes, documentation improvements
+
+**Example:** bmad-planner v5.0.0 → v5.1.0 (added migration Q&A feature)
+
+### Validation Tools
+
+**Check version consistency:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py
+```
+
+**View skill versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+### Related Documentation
+
+- **[UPDATE_CHECKLIST.md](.claude/skills/UPDATE_CHECKLIST.md)** - Complete update checklist
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Repository changelog
+- **Skill CHANGELOGs:** `.claude/skills/<skill-name>/CHANGELOG.md`
+
 ## TODO File Format
 
 Workflow uses TODO files with YAML frontmatter:
@@ -417,6 +626,74 @@ tasks:
 # TODO body content
 ```
 
+## TODO.md Master Manifest Format
+
+The root `TODO.md` file is a master registry tracking all workflow files. It uses YAML frontmatter with two arrays: `workflows.active[]` (in-progress) and `workflows.archived[]` (completed).
+
+**Master manifest structure:**
+
+```yaml
+---
+type: workflow-master-manifest
+version: 5.0.0
+last_update: "2025-11-03T17:07:21Z"
+
+workflows:
+  active:                    # In-progress workflows
+    - slug: auth-system
+      timestamp: 20251103T143000Z
+      title: "User Authentication System"
+      status: in_progress
+      file: "TODO_feature_20251103T143000Z_auth-system.md"
+
+  archived:                  # Completed workflows
+    - slug: workflow
+      timestamp: 20251023T123254Z
+      title: "Release Workflow Automation"
+      status: completed
+      completed_at: "2025-10-23T19:30:00Z"
+      semantic_version: "1.2.0"
+      file: "ARCHIVED/TODO_feature_20251023T123254Z_workflow.md"
+      summary: "Brief description of what was accomplished"
+
+context_stats:
+  total_workflows_completed: 1
+  current_token_usage: 55000
+  last_checkpoint: "2025-11-03T17:07:21Z"
+  recent_improvements: "Summary of recent direct improvements"
+---
+
+# Master TODO Manifest
+
+Body content with human-readable summaries...
+```
+
+**Lifecycle management:**
+
+1. **Phase 1/2 (Registration):** After creating TODO_feature_*.md, register in active list:
+   ```bash
+   python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
+     TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
+   ```
+
+2. **During workflow:** TODO_feature_*.md tracks individual task progress
+
+3. **Phase 4.3 (Archival):** After PR merge, move to archived list:
+   ```bash
+   python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+     TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+   ```
+   This moves file to ARCHIVED/ and updates TODO.md manifest
+
+4. **Recovery (if needed):** Rebuild manifest from filesystem:
+   ```bash
+   python .claude/skills/workflow-utilities/scripts/sync_manifest.py
+   ```
+
+**Key distinction:**
+- **TODO.md** = Master registry of ALL workflows (one file, tracks everything)
+- **TODO_feature_*.md** = Individual workflow tracking (one per feature/hotfix)
+
 ## Semantic Versioning
 
 Automatic version calculation based on changes:
@@ -424,9 +701,19 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.3.0
+**Current version:** v1.4.0
 - v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
 - v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
+- v1.3.0 → v1.4.0: BMAD and SpecKit callable tools with 89-91% token reduction (MINOR)
+
+**Latest additions (not yet released):**
+- Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
+- CHANGELOG system for all skills
+- CONTRIBUTING.md with contributor guidelines
+- initialize-repository meta-skill (Phase 0 bootstrapping for new repositories)
+- agentdb-state-manager skill (persistent state tracking and analytics with 89-92% token reduction)
+- Official Claude Code docs integration with skill creation workflow
+- TODO.md lifecycle management (workflow_registrar.py, workflow_archiver.py, sync_manifest.py in workflow-utilities v5.1.0)
 
 ## Commit Message Format
 
@@ -520,15 +807,18 @@ Token usage: 98543/200000; 101457 remaining
 - Cleanup on failure: Remove artifacts if operation fails
 
 **Reference Documentation:**
-- Complete workflow: `WORKFLOW.md` (6 phases including hotfix, 1790 lines)
+- Complete workflow: `WORKFLOW.md` (6 phases including hotfix, 2000+ lines)
 - Detailed planning: `TODO_feature_*.md` files
 - SpecKit implementation: `.claude/skills/speckit-author/` (callable tools)
 - Original spec: `ARCHIVED/Workflow-v5x2.md`
+- Update process: `.claude/skills/UPDATE_CHECKLIST.md` (12-step skill update guide)
 
 ## Related Documentation
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
-- **[WORKFLOW.md](WORKFLOW.md)** - Complete 5-phase workflow guide (1035 lines)
+- **[WORKFLOW.md](WORKFLOW.md)** - Complete 6-phase workflow guide (2000+ lines)
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history
 
 **Child Directories:**
 - **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
