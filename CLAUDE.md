@@ -558,6 +558,7 @@ Automatic version calculation based on changes:
 - initialize-repository meta-skill (Phase 0 bootstrapping for new repositories)
 - agentdb-state-manager skill (persistent state tracking and analytics with 89-92% token reduction)
 - Official Claude Code docs integration with skill creation workflow
+- TODO.md lifecycle management (workflow_registrar.py, workflow_archiver.py, sync_manifest.py in workflow-utilities v5.1.0)
 
 ## Commit Message Format
 
