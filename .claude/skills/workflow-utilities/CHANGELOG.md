@@ -7,11 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-- `validate_versions.py` - Version consistency validator (v1.0.0, 2025-10-24)
-
 ### Planned
 - `sync_skill_docs.py` - Documentation sync automation
+
+## [5.1.0] - 2025-11-03
+
+### Added
+- **Workflow lifecycle management scripts:**
+  - `workflow_registrar.py` - Register workflows in TODO.md active list
+  - `workflow_archiver.py` - Archive workflows and update TODO.md manifest
+  - `sync_manifest.py` - Rebuild TODO.md from filesystem state
+- TODO.md master manifest management capabilities
+- Phase 4.3 workflow archival automation
+
+### Changed
+- Extended scope from "file utilities" to "workflow lifecycle utilities"
+- Updated SKILL.md with workflow management documentation
+- Added workflow lifecycle usage examples
+
+### Fixed
+- Gap: Phase 4.3 archival had no implementation (now workflow_archiver.py)
+- Gap: TODO.md workflows.active[] never updated (now workflow_registrar.py)
+- Gap: No recovery mechanism for TODO.md (now sync_manifest.py)
 
 ## [5.0.0] - 2025-10-23
 

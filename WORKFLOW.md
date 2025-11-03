@@ -757,15 +757,20 @@ cd /Users/user/Documents/GitHub/german
 
 **Archive TODO file:**
 ```bash
-python .claude/skills/workflow-utilities/scripts/archive_manager.py \
-  archive TODO_feature_20251023T104248Z_certificate-a1.md
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_20251023T104248Z_certificate-a1.md \
+  --summary "Implemented A1 German certificate guide with complete exam structure" \
+  --version "1.3.0"
 ```
 
 **Output:**
 ```
-✓ Archived TODO_feature_20251023T104248Z_certificate-a1.md
-✓ Created ARCHIVED_TODO_feature_20251023T104248Z_certificate-a1.md
-✓ Updated TODO.md manifest
+ℹ Archiving workflow: certificate-a1
+✓ Moved TODO_feature_20251023T104248Z_certificate-a1.md → ARCHIVED/TODO_feature_20251023T104248Z_certificate-a1.md
+✓ Updated TODO.md: moved 'certificate-a1' to archived list
+ℹ   Active workflows: 0
+ℹ   Archived workflows: 2
+ℹ   Total completed: 2
 ```
 
 #### Step 4.5: Delete Worktree
@@ -1596,9 +1601,9 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
 
-# Archive workflow
-python .claude/skills/workflow-utilities/scripts/archive_manager.py \
-  archive TODO_feature_*.md
+# Archive workflow (Phase 4.4)
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_*.md --summary "What was completed" --version "X.Y.Z"
 
 # Create directory with standards (CLAUDE.md, README.md, ARCHIVED/)
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \

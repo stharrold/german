@@ -228,6 +228,17 @@ python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
 python .claude/skills/workflow-utilities/scripts/todo_updater.py \
   TODO_feature_*.md <task_id> <complete|pending|blocked>
 
+# Register workflow in TODO.md (Phase 1/2)
+python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
+  TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
+
+# Archive workflow (Phase 4.3: after PR merge)
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+
+# Sync TODO.md with filesystem (recovery)
+python .claude/skills/workflow-utilities/scripts/sync_manifest.py
+
 # Run quality gates (Phase 3)
 python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 

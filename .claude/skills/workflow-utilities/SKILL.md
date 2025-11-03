@@ -1,13 +1,16 @@
 ---
 name: workflow-utilities
-version: 5.0.0
+version: 5.1.0
 description: |
   Shared utilities for file deprecation, directory structure creation,
-  TODO file updates, and archive management. Used by all other skills.
+  TODO file updates, workflow lifecycle management, and archive management.
+  Used by all other skills.
 
-  Use when: Need shared utilities, deprecating files, updating TODO
+  Use when: Need shared utilities, deprecating files, updating TODO,
+  registering/archiving workflows, managing TODO.md manifest
 
-  Triggers: deprecate, archive, update TODO, create directory
+  Triggers: deprecate, archive, update TODO, create directory, register workflow,
+  archive workflow, sync manifest
 ---
 
 # Workflow Utilities
@@ -86,6 +89,79 @@ python .claude/skills/workflow-utilities/scripts/archive_manager.py list [direct
 python .claude/skills/workflow-utilities/scripts/archive_manager.py extract <archive> [output_dir]
 ```
 
+### workflow_registrar.py
+
+Register new workflow in TODO.md master manifest.
+
+```bash
+python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
+  <todo_file> <workflow_type> <slug> [--title TITLE]
+```
+
+**Arguments:**
+- `todo_file`: Path to TODO_*.md file
+- `workflow_type`: Workflow type ('feature' | 'release' | 'hotfix')
+- `slug`: Workflow slug
+- `--title` (optional): Workflow title (auto-generated if not provided)
+
+**Updates:**
+- Adds workflow to `TODO.md workflows.active[]` array
+- Updates `TODO.md last_update` timestamp
+
+**When to use:**
+- After creating BMAD planning (Phase 1)
+- After creating feature worktree (Phase 2)
+- Ensures TODO.md tracks all active workflows
+
+### workflow_archiver.py
+
+Archive completed workflow and update TODO.md manifest.
+
+```bash
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  <todo_file> [--summary SUMMARY] [--version VERSION]
+```
+
+**Arguments:**
+- `todo_file`: Path to TODO_*.md file to archive
+- `--summary` (optional): Summary of what was completed
+- `--version` (optional): Semantic version (e.g., '1.5.0')
+
+**Actions:**
+1. Moves TODO_*.md → ARCHIVED/TODO_*.md
+2. Updates TODO.md: moves workflow from active[] to archived[] array
+3. Updates TODO.md statistics (total_workflows_completed)
+4. Extracts metadata from workflow file (version, summary)
+
+**When to use:**
+- Phase 4.3: After PR merged to contrib branch
+- Before creating PR contrib → develop
+
+### sync_manifest.py
+
+Synchronize TODO.md manifest with filesystem state.
+
+```bash
+# Preview changes
+python .claude/skills/workflow-utilities/scripts/sync_manifest.py --dry-run
+
+# Sync TODO.md
+python .claude/skills/workflow-utilities/scripts/sync_manifest.py
+```
+
+**Actions:**
+1. Scans current directory for TODO_*.md files (active)
+2. Scans ARCHIVED/ for TODO_*.md files (archived)
+3. Rebuilds TODO.md workflows.active[] and workflows.archived[] arrays
+4. Updates statistics
+
+**When to use:**
+- Recovery: TODO.md out of sync with filesystem
+- Verification: Check TODO.md reflects actual files
+- Migration: Rebuilding TODO.md from scratch
+
+**Warning:** Replaces TODO.md arrays with filesystem state. Manual metadata edits may be lost.
+
 ## Usage Examples
 
 ### Deprecating Old Files
@@ -130,6 +206,37 @@ subprocess.run([
     'impl_003',
     'complete',
     '35'  # context usage percentage
+], check=True)
+```
+
+### Managing Workflow Lifecycle
+
+```python
+import subprocess
+
+# Register new workflow in TODO.md (Phase 1/2)
+subprocess.run([
+    'python',
+    '.claude/skills/workflow-utilities/scripts/workflow_registrar.py',
+    'TODO_feature_20251103T143000Z_auth.md',
+    'feature',
+    'auth',
+    '--title', 'User Authentication System'
+], check=True)
+
+# Archive completed workflow (Phase 4.3)
+subprocess.run([
+    'python',
+    '.claude/skills/workflow-utilities/scripts/workflow_archiver.py',
+    'TODO_feature_20251103T143000Z_auth.md',
+    '--summary', 'Implemented OAuth2 authentication with Google and GitHub',
+    '--version', '1.5.0'
+], check=True)
+
+# Sync TODO.md with filesystem (recovery)
+subprocess.run([
+    'python',
+    '.claude/skills/workflow-utilities/scripts/sync_manifest.py'
 ], check=True)
 ```
 
