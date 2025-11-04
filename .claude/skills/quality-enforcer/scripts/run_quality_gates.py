@@ -5,6 +5,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+
 def run_tests():
     """Run all tests and verify they pass."""
     print("Running tests...")

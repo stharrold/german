@@ -4,6 +4,7 @@
 import sys
 from pathlib import Path
 
+
 def create_directory_structure(directory, is_archived=False):
     """
     Create standard directory structure.

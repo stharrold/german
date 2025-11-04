@@ -42,7 +42,7 @@ Ich möchte lernen, ein Musikinstrument zu spielen . I want to learn to play a m
 
 Sie wird sich auf eine Stelle als Projektmanagerin bewerben . She will apply for a position as a project manager . Sie wird sich auf eine Stelle als Projektmanagerin bewerben . She will apply for a position as a project manager .
 
-Wir haben vor, nächstes Jahr ein Auto zu kaufen . We plan to buy a car next year . Wir haben vor, nächstes Jahr ein Auto zu kaufen . We will buy a car next year .
+Wir haben vor, nächstes Jahr ein Auto zu kaufen . We plan to buy a car next year . Wir haben vor, nächstes Jahr ein Auto zu kaufen . We plan to buy a car next year .
 
 Ich werde mehr Zeit mit meiner Familie verbringen . I will spend more time with my family . Ich werde mehr Zeit mit meiner Familie verbringen . I will spend more time with my family .
 

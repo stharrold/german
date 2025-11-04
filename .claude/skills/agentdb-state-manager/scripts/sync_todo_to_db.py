@@ -17,9 +17,10 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Any, Optional
+from typing import Any, Dict, List, Optional
 
 import yaml
+
 
 # ANSI colors (simplified)
 class Colors:

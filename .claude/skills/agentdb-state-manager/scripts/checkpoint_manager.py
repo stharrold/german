@@ -11,6 +11,7 @@ import argparse
 import json
 from datetime import datetime, timezone
 
+
 def store_checkpoint(todo_file: str) -> None:
     """Store checkpoint to AgentDB."""
     print(f"Storing checkpoint from {todo_file}...")

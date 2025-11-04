@@ -6,7 +6,7 @@ Usage:
 """
 
 import argparse
-import sys
+
 
 def main() -> None:
     parser = argparse.ArgumentParser(description='Query workflow state from AgentDB')

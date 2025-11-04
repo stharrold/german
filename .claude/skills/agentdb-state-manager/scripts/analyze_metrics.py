@@ -7,6 +7,7 @@ Usage:
 
 import argparse
 
+
 def main() -> None:
     parser = argparse.ArgumentParser(description='Analyze workflow metrics')
     parser.add_argument('--trends', action='store_true', help='Show historical trends')

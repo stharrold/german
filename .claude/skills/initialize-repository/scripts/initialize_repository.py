@@ -40,7 +40,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import List, Optional
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
@@ -135,7 +135,7 @@ def ask_question(prompt: str, options: Optional[List[str]] = None,
         if default:
             print(f"  [default: {default}]")
         if allow_multiple:
-            print(f"  (Enter comma-separated numbers for multiple selections)")
+            print("  (Enter comma-separated numbers for multiple selections)")
 
     while True:
         response = input("> ").strip()
@@ -220,7 +220,7 @@ def validate_source_repo(source_path: Path) -> None:
     # Check for .claude/skills/ directory
     skills_dir = source_path / '.claude' / 'skills'
     if not skills_dir.exists():
-        error_exit(f"Source repository missing .claude/skills/ directory")
+        error_exit("Source repository missing .claude/skills/ directory")
 
     # Check for required skills (at least some of them)
     found_skills = [d.name for d in skills_dir.iterdir() if d.is_dir()]
@@ -247,7 +247,7 @@ def validate_target_repo(target_path: Path) -> None:
         if any(target_path.iterdir()):
             if not ask_yes_no(f"Target directory {target_path} is not empty. Continue?", default=False):
                 error_exit("Aborted by user")
-            warning(f"Target directory is not empty, will overwrite files")
+            warning("Target directory is not empty, will overwrite files")
 
     success("Target repository path validated")
 
@@ -307,7 +307,7 @@ def phase1_configuration(source_path: Path, target_path: Path) -> RepositoryConf
         vcs = get_vcs_adapter()
         detected_user = vcs.get_current_user()
         config.gh_user = ask_question(f"VCS username ({vcs.get_provider_name()})", default=detected_user)
-    except Exception as e:
+    except Exception:
         config.gh_user = ask_question("VCS username:")
 
     # Technology stack
@@ -1122,21 +1122,21 @@ def print_summary(target_path: Path, config: RepositoryConfig) -> None:
     print(f"{Colors.BLUE}GitHub User:{Colors.END} {config.gh_user}")
 
     print(f"\n{Colors.BOLD}Created:{Colors.END}")
-    print(f"  ✓ Workflow system (9 skills)")
-    print(f"  ✓ Documentation (WORKFLOW.md, CLAUDE.md, CONTRIBUTING.md)")
-    print(f"  ✓ Quality configs (pyproject.toml, .gitignore)")
-    print(f"  ✓ Directory structure (ARCHIVED/, planning/, specs/)")
+    print("  ✓ Workflow system (9 skills)")
+    print("  ✓ Documentation (WORKFLOW.md, CLAUDE.md, CONTRIBUTING.md)")
+    print("  ✓ Quality configs (pyproject.toml, .gitignore)")
+    print("  ✓ Directory structure (ARCHIVED/, planning/, specs/)")
 
     if config.copy_domain:
-        print(f"  ✓ Domain content (src/, resources/)")
+        print("  ✓ Domain content (src/, resources/)")
     if config.copy_tests:
-        print(f"  ✓ Tests (tests/)")
+        print("  ✓ Tests (tests/)")
     if config.copy_containers:
-        print(f"  ✓ Container configs")
+        print("  ✓ Container configs")
 
     if config.init_git:
         print(f"\n{Colors.BOLD}Git:{Colors.END}")
-        print(f"  ✓ Initialized repository")
+        print("  ✓ Initialized repository")
         if config.create_branches:
             print(f"  ✓ Created branches: main, develop, contrib/{config.gh_user}")
         if config.remote_url:
@@ -1144,16 +1144,16 @@ def print_summary(target_path: Path, config: RepositoryConfig) -> None:
 
     print(f"\n{Colors.BOLD}Next Steps:{Colors.END}")
     print(f"  1. cd {target_path}")
-    print(f"  2. uv sync")
-    print(f"  3. Start first feature:")
-    print(f"     python .claude/skills/bmad-planner/scripts/create_planning.py \\")
+    print("  2. uv sync")
+    print("  3. Start first feature:")
+    print("     python .claude/skills/bmad-planner/scripts/create_planning.py \\")
     print(f"       my-feature {config.gh_user}")
 
     print(f"\n{Colors.BOLD}Documentation:{Colors.END}")
-    print(f"  - README.md - Project overview")
-    print(f"  - WORKFLOW.md - Complete workflow guide")
-    print(f"  - CLAUDE.md - Claude Code interaction guide")
-    print(f"  - CONTRIBUTING.md - Contributor guidelines")
+    print("  - README.md - Project overview")
+    print("  - WORKFLOW.md - Complete workflow guide")
+    print("  - CLAUDE.md - Claude Code interaction guide")
+    print("  - CONTRIBUTING.md - Contributor guidelines")
 
     print(f"\n{Colors.GREEN}🎉 Happy coding!{Colors.END}\n")
 

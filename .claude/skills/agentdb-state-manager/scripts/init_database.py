@@ -23,7 +23,7 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Any, Dict
 
 # Constants with documented rationale
 SCHEMA_VERSION = "1.0.0"  # Current schema version for migrations
@@ -264,26 +264,26 @@ def print_summary(session_id: str, workflow_states: Dict[str, Any]) -> None:
         print(f"  • {obj_type}: {state_count} states - {description}")
 
     print(f"\n{Colors.BOLD}Created Tables:{Colors.END}")
-    print(f"  ✓ session_metadata (session configuration)")
-    print(f"  ✓ workflow_records (immutable append-only)")
+    print("  ✓ session_metadata (session configuration)")
+    print("  ✓ workflow_records (immutable append-only)")
 
     print(f"\n{Colors.BOLD}Created Indexes:{Colors.END}")
-    print(f"  ✓ idx_records_object (object_id, record_datetimestamp DESC)")
-    print(f"  ✓ idx_records_type_state (object_type, object_state)")
-    print(f"  ✓ idx_records_timestamp (record_datetimestamp)")
+    print("  ✓ idx_records_object (object_id, record_datetimestamp DESC)")
+    print("  ✓ idx_records_type_state (object_type, object_state)")
+    print("  ✓ idx_records_timestamp (record_datetimestamp)")
 
     print(f"\n{Colors.BOLD}Created Views:{Colors.END}")
-    print(f"  ✓ state_transitions (temporal state change analysis)")
+    print("  ✓ state_transitions (temporal state change analysis)")
 
     print(f"\n{Colors.BOLD}Next Steps:{Colors.END}")
-    print(f"  1. Sync TODO files: python sync_todo_to_db.py")
-    print(f"  2. Query state: python query_state.py")
-    print(f"  3. Analyze metrics: python analyze_metrics.py")
+    print("  1. Sync TODO files: python sync_todo_to_db.py")
+    print("  2. Query state: python query_state.py")
+    print("  3. Analyze metrics: python analyze_metrics.py")
 
     print(f"\n{Colors.BOLD}Session Lifetime:{Colors.END}")
-    print(f"  • AgentDB persists for 24 hours, then auto-deleted")
-    print(f"  • Re-run this script at the start of new sessions")
-    print(f"  • TODO_*.md files remain source of truth")
+    print("  • AgentDB persists for 24 hours, then auto-deleted")
+    print("  • Re-run this script at the start of new sessions")
+    print("  • TODO_*.md files remain source of truth")
 
     print(f"\n{Colors.GREEN}🎉 AgentDB ready for workflow state tracking!{Colors.END}\n")
 

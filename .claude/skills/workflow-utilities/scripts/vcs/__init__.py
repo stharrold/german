@@ -10,10 +10,6 @@ Usage:
     vcs = get_vcs_adapter()
     username = vcs.get_current_user()
     vcs.create_pull_request(source, target, title, body)
-
-Constants:
-- DEFAULT_PROVIDER: VCSProvider.GITHUB
-  Rationale: Maintain backward compatibility with existing workflows
 """
 
 from .azure_adapter import AzureDevOpsAdapter
@@ -29,9 +25,6 @@ __all__ = [
     'VCSProvider',
     'get_vcs_adapter',
 ]
-
-# Constants
-DEFAULT_PROVIDER = VCSProvider.GITHUB
 
 
 def get_vcs_adapter() -> BaseVCSAdapter:

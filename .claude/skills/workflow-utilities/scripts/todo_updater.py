@@ -5,6 +5,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+
 def update_todo_task_status(todo_file, task_id, status, context_usage=None):
     """
     Update task status in TODO file.

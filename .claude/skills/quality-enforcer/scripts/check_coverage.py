@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Check test coverage meets threshold."""
 
+import json
 import subprocess
 import sys
-import json
 from pathlib import Path
+
 
 def check_coverage(threshold=80):
     """
