@@ -249,6 +249,23 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 
 **Current contrib branch:** `contrib/stharrold`
 
+### Protected Branches
+
+**CRITICAL:** `main` and `develop` are **protected and permanent** branches.
+
+**Rules:**
+1. ❌ **Never delete** `main` or `develop`
+2. ❌ **Never commit directly** to `main` or `develop`
+3. ✅ **Only merge via pull requests** (reviewed and approved)
+
+**Exception:** `backmerge_release.py` commits to `develop` during Phase 5.5 (documented in WORKFLOW.md)
+
+**Technical enforcement:**
+- Configure GitHub branch protection (see `.github/BRANCH_PROTECTION.md`)
+- Install pre-push hook: `cp .git-hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
+
+**If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
+
 **Branch workflows:**
 - **Features:** contrib → feature worktree → contrib → develop → release → main
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop

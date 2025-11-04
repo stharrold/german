@@ -91,6 +91,101 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 hotfix/vX.Y.Z-hotfix.N        ← Production hotfix (worktree)
 ```
 
+### Branch Protection Policy
+
+**CRITICAL:** The `main` and `develop` branches are **protected and permanent**.
+
+#### Protected Branch Rules
+
+**Never delete protected branches:**
+- `main` - Production branch (tagged releases)
+- `develop` - Integration branch (merged features)
+
+**Never commit directly to protected branches:**
+- All changes to `main` and `develop` must go through pull requests
+- Direct commits violate the review and quality gate process
+- Worktrees isolate feature work, preventing accidental commits
+
+**Only merge via pull requests:**
+- Feature → contrib (PR reviewed, merged in GitHub UI)
+- Contrib → develop (PR reviewed, merged in GitHub UI)
+- Release → main (PR reviewed, merged in GitHub UI)
+- Hotfix → main (PR reviewed, merged in GitHub UI)
+
+#### Documented Exception
+
+**backmerge_release.py** is the ONLY script that commits directly to `develop`:
+- **Purpose:** Back-merge release branches to develop (Phase 5.5)
+- **Why it's safe:**
+  - Only merges from release branch (no code changes)
+  - Creates merge commit only (preserves history)
+  - Maintains develop's stability (inherits tested release code)
+- **Location:** `.claude/skills/git-workflow-manager/scripts/backmerge_release.py`
+
+#### Technical Enforcement (Recommended)
+
+**GitHub branch protection settings:**
+1. Navigate to: Repository Settings → Branches → Branch protection rules
+2. Add rule for `main`:
+   - ✅ Require pull request before merging
+   - ✅ Require status checks to pass (if CI/CD configured)
+   - ✅ Require conversation resolution before merging
+   - ✅ Do not allow bypassing the above settings
+3. Add rule for `develop`:
+   - ✅ Require pull request before merging
+   - ✅ Require status checks to pass (if CI/CD configured)
+
+See `.github/BRANCH_PROTECTION.md` for detailed setup instructions.
+
+**Pre-push hook (optional safety net):**
+```bash
+# Install pre-push hook to prevent accidental pushes
+cp .git-hooks/pre-push .git/hooks/pre-push
+chmod +x .git/hooks/pre-push
+```
+
+The hook prevents direct pushes to `main` or `develop` with a helpful error message.
+
+#### What Happens If You Violate Protection?
+
+**If you accidentally commit to main/develop:**
+
+1. **Don't panic** - The commit is local only until pushed
+2. **Undo the commit:**
+   ```bash
+   git reset --soft HEAD~1    # Undo commit, keep changes staged
+   ```
+3. **Switch to correct branch:**
+   ```bash
+   git checkout contrib/<gh-user>   # Or appropriate feature branch
+   git commit -m "Your message"     # Commit on correct branch
+   ```
+
+**If you accidentally pushed to main/develop:**
+
+1. **Don't force push** - This rewrites history
+2. **Revert the commit:**
+   ```bash
+   git revert <commit-sha>    # Creates new commit undoing changes
+   git push origin main       # Push revert commit
+   ```
+3. **Ask for help** if unsure - Better safe than sorry
+
+**If you accidentally deleted a protected branch:**
+
+1. **Recreate from remote:**
+   ```bash
+   git fetch origin
+   git checkout -b main origin/main       # Recreate main
+   # or
+   git checkout -b develop origin/develop # Recreate develop
+   ```
+2. **Verify integrity:**
+   ```bash
+   git log --oneline -10     # Check recent commits
+   git status                 # Verify clean state
+   ```
+
 ### File Locations
 
 **Main Repository:**

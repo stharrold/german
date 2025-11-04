@@ -10,6 +10,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.6.0] - 2025-11-04
+
+### Added
+- **Comprehensive branch protection documentation** - Explicit rules for `main` and `develop` protected branches
+  - Added "Branch Protection Policy" section to WORKFLOW.md (~95 lines)
+  - Added "Protected Branches" section to CLAUDE.md with rules and exceptions
+  - Added "Protected Branches" section to CONTRIBUTING.md with enforcement details
+  - Added protected branches warning to README.md
+  - Added protected branch policy to git-workflow-manager/SKILL.md
+  - Added "Post-Application Steps" section to initialize-repository/SKILL.md
+- **GitHub branch protection setup guide** - Step-by-step configuration instructions
+  - Created .github/BRANCH_PROTECTION.md with detailed setup instructions (~350 lines)
+  - Created .github/README.md explaining directory purpose
+  - Includes GitHub Actions CI/CD integration examples
+  - Includes Azure DevOps branch policies alternative
+  - Includes troubleshooting section
+- **Pre-push hook template** - Local safety net to prevent accidental protected branch pushes
+  - Created .git-hooks/pre-push hook template (prevents pushes to main/develop)
+  - Created .git-hooks/README.md with installation and usage instructions
+  - Hook provides helpful error messages and correct workflow guidance
+- **Branch protection compliance tests** - Automated validation of protection policy
+  - Added tests/test_branch_protection.py with 6 test cases
+  - Verifies no scripts commit to main (except tagging)
+  - Verifies only backmerge_release.py commits to develop
+  - Verifies backmerge_release.py has exception warning comment
+  - Verifies pre-push hook exists and is executable
+  - Verifies branch protection documentation exists in all files
+  - All tests passing (112 passed, 15 skipped, 88% coverage)
+
+### Changed
+- **Documented exception** - Clarified backmerge_release.py as allowed develop commit
+  - Added prominent warning comment to backmerge_release.py (~18 lines)
+  - Explains why exception is safe (merge-only, no code changes, preserves history)
+  - References WORKFLOW.md Branch Protection Policy section
+
+### Documentation
+- Branch protection now explicitly documented in 6 core files
+- Recovery procedures documented for accidental violations
+- GitHub setup guide with screenshots and troubleshooting
+- Pre-push hook installation instructions
+- Exception policy clearly documented
+
+### Quality
+- 6 new tests for branch protection compliance
+- All 118 tests passing (112 passed, 15 skipped)
+- Test coverage: 88.1% (above required 80%)
+- Version validation: All checks passed
+- Linting: Clean (1 import sorting issue auto-fixed)
+
 ## [1.5.1] - 2025-11-04
 
 ### Fixed

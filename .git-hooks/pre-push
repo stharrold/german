@@ -1,0 +1,64 @@
+#!/bin/bash
+#
+# Pre-push hook to prevent direct pushes to protected branches (main, develop)
+#
+# Installation:
+#   cp .git-hooks/pre-push .git/hooks/pre-push
+#   chmod +x .git/hooks/pre-push
+#
+# This hook is called by "git push" and can be bypassed with --no-verify
+# (but you shouldn't bypass it - use PRs instead!)
+#
+
+# Protected branches that should never receive direct pushes
+PROTECTED_BRANCHES="main develop"
+
+# Get the current branch name
+current_branch=$(git symbolic-ref --short HEAD 2>/dev/null)
+
+# If we can't determine the branch, allow the push (edge case)
+if [ -z "$current_branch" ]; then
+    exit 0
+fi
+
+# Check if current branch is protected
+for protected_branch in $PROTECTED_BRANCHES; do
+    if [ "$current_branch" = "$protected_branch" ]; then
+        echo ""
+        echo "❌ ERROR: Direct push to '$protected_branch' is not allowed."
+        echo ""
+        echo "Protected branches: main, develop"
+        echo ""
+        echo "Why this is blocked:"
+        echo "  - Protected branches require pull request review"
+        echo "  - Direct commits bypass quality gates (tests, coverage, linting)"
+        echo "  - All changes must be reviewed and approved"
+        echo ""
+        echo "What to do instead:"
+        echo "  1. Switch to your contrib or feature branch:"
+        echo "     git checkout contrib/<your-username>"
+        echo "     git checkout feature/<timestamp>_<slug>"
+        echo ""
+        echo "  2. Commit your changes there:"
+        echo "     git add ."
+        echo "     git commit -m \"your message\""
+        echo "     git push origin <branch-name>"
+        echo ""
+        echo "  3. Create a pull request:"
+        echo "     GitHub:      gh pr create --base $protected_branch --title \"Your PR title\""
+        echo "     Azure DevOps: az repos pr create --source-branch <branch> --target-branch $protected_branch"
+        echo ""
+        echo "If you absolutely must bypass this hook (emergency only):"
+        echo "  git push --no-verify"
+        echo ""
+        echo "  ⚠️  WARNING: Bypassing may violate GitHub branch protection rules"
+        echo "  ⚠️  WARNING: Your push will likely be rejected by the remote anyway"
+        echo ""
+        echo "See WORKFLOW.md 'Branch Protection Policy' for more information."
+        echo ""
+        exit 1
+    fi
+done
+
+# If we reach here, the branch is not protected - allow the push
+exit 0

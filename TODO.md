@@ -1,9 +1,14 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-04T02:17:05Z'
+last_update: '2025-11-04T10:12:44.771489+00:00'
 workflows:
-  active: []
+  active:
+  - slug: protect-main-develop
+    timestamp: '2025-11-04T17:00:00Z'
+    title: Branch Protection Documentation
+    status: in_progress
+    file: TODO_feature_20251104T170000Z_protect-main-develop.md
   archived:
   - slug: workflow
     timestamp: 20251023T123254Z
