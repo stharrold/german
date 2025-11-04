@@ -24,6 +24,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Add VCS module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
+from vcs import get_vcs_adapter
+
 # Constants with documented rationale
 RELEASE_BRANCH_PREFIX = 'release/'
 # Rationale: git-flow release branch naming convention for clarity and tooling compatibility
@@ -290,16 +294,11 @@ def create_todo_file(version, base_branch, base_commit):
 
     todo_path = repo_root / todo_filename
 
-    # Get GitHub user
+    # Get VCS user (GitHub/Azure DevOps)
     try:
-        result = subprocess.run(
-            ['gh', 'api', 'user', '--jq', '.login'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-        github_user = result.stdout.strip()
-    except (subprocess.CalledProcessError, FileNotFoundError):
+        vcs = get_vcs_adapter()
+        github_user = vcs.get_current_user()
+    except Exception:
         github_user = "unknown"
 
     # Create TODO content

@@ -42,6 +42,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+# Add VCS module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
+from vcs import get_vcs_adapter
+
 # Constants with documented rationale
 SKILL_NAMES = [
     'workflow-orchestrator',
@@ -55,7 +59,7 @@ SKILL_NAMES = [
     'initialize-repository',  # Include this meta-skill
 ]  # 9 skills that comprise the workflow system
 
-REQUIRED_TOOLS = ['git', 'gh']  # Required for workflow functionality
+REQUIRED_TOOLS = ['git']  # Required for workflow functionality (VCS CLI detected automatically)
 TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'  # Compact ISO8601 for file names
 
 # ANSI color codes for output
@@ -298,14 +302,13 @@ def phase1_configuration(source_path: Path, target_path: Path) -> RepositoryConf
 
     config.description = ask_question("Brief description of the repository (one line):")
 
-    # GitHub username
+    # VCS username (GitHub/Azure DevOps)
     try:
-        result = subprocess.run(['gh', 'api', 'user', '--jq', '.login'],
-                               capture_output=True, text=True, check=True)
-        detected_user = result.stdout.strip()
-        config.gh_user = ask_question(f"GitHub username", default=detected_user)
-    except:
-        config.gh_user = ask_question("GitHub username:")
+        vcs = get_vcs_adapter()
+        detected_user = vcs.get_current_user()
+        config.gh_user = ask_question(f"VCS username ({vcs.get_provider_name()})", default=detected_user)
+    except Exception as e:
+        config.gh_user = ask_question("VCS username:")
 
     # Technology stack
     config.python_version = ask_question(
