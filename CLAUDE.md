@@ -249,10 +249,67 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 
 **Current contrib branch:** `contrib/stharrold`
 
+### Protected Branches
+
+**CRITICAL:** `main` and `develop` are **protected and permanent** branches.
+
+**Rules:**
+1. ❌ **Never delete** `main` or `develop`
+2. ❌ **Never commit directly** to `main` or `develop`
+3. ✅ **Only merge via pull requests** (reviewed and approved)
+
+**Exception:** `backmerge_release.py` commits to `develop` during Phase 5.5 (documented in WORKFLOW.md)
+
+**Technical enforcement:**
+- Configure GitHub branch protection (see `.github/BRANCH_PROTECTION.md`)
+- Install pre-push hook: `cp .git-hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
+
+**If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
+
 **Branch workflows:**
 - **Features:** contrib → feature worktree → contrib → develop → release → main
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
 - **Releases:** develop → release branch → main (tagged) → back-merge to develop
+
+## Production Safety & Rollback
+
+**Critical principle:** Deploy from **tags** (v1.5.1), never branch heads. Tags are immutable and enable instant rollback.
+
+### Emergency Rollback (if production breaks)
+
+**Fastest rollback (2 minutes):**
+```bash
+git checkout v1.5.0  # Last known good tag
+# Deploy this tag to production
+```
+
+**Remove bad release from main:**
+```bash
+git revert <merge-commit-sha> -m 1
+git tag -a v1.5.2 -m "Revert broken v1.5.1"
+git push origin v1.5.2
+```
+
+**If hotfix takes too long:**
+- Keep production on v1.5.0 (stable)
+- Don't rush the hotfix - do it properly with quality gates
+- Production stability > speed
+
+**Why tag-based deployment:**
+- v1.5.1 never changes (immutable)
+- Can reproduce exact deployment anytime
+- Instant rollback (no code changes)
+- Clear version in production
+
+**Main branch protection:**
+- Hotfix work isolated in separate worktree (main untouched)
+- Main only updated via merged PRs
+- Tagged releases are immutable (can always rollback)
+
+**See WORKFLOW.md "Production Safety & Rollback" section for:**
+- Complete rollback procedures (3 scenarios)
+- Rollback decision tree
+- Timeline estimates (10 min rollback, 20 min cleanup)
 
 ## Common Development Commands
 

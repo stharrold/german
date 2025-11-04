@@ -117,6 +117,44 @@ podman --version      # Container operations
 
 This repository uses a **skill-based workflow** with 6 phases. See [WORKFLOW.md](WORKFLOW.md) for complete details.
 
+### Protected Branches
+
+**CRITICAL:** Before contributing, understand that `main` and `develop` are **protected branches**.
+
+**Rules (MUST follow):**
+
+1. ❌ **Never delete** `main` or `develop`
+   - These branches are permanent
+   - Deleting them breaks the entire workflow
+
+2. ❌ **Never commit directly** to `main` or `develop`
+   - All changes must go through pull requests
+   - Direct commits bypass review and quality gates
+   - Use worktrees to isolate your work
+
+3. ✅ **Only merge via pull requests**
+   - Feature → contrib (PR required)
+   - Contrib → develop (PR required)
+   - Release → main (PR required)
+
+**What happens if you violate these rules?**
+
+See [WORKFLOW.md "Branch Protection Policy"](WORKFLOW.md#branch-protection-policy) for:
+- Recovery procedures if you accidentally commit to protected branches
+- How to undo accidental commits
+- How to recreate deleted branches
+- When to ask for help
+
+**Technical enforcement (recommended):**
+
+Install the pre-push hook to prevent accidents:
+```bash
+cp .git-hooks/pre-push .git/hooks/pre-push
+chmod +x .git/hooks/pre-push
+```
+
+Repository maintainers should configure GitHub branch protection rules (see `.github/BRANCH_PROTECTION.md`).
+
 ### Quick Start
 
 1. **Plan your feature** (Phase 1):

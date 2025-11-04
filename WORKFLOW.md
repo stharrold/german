@@ -91,6 +91,101 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 hotfix/vX.Y.Z-hotfix.N        ← Production hotfix (worktree)
 ```
 
+### Branch Protection Policy
+
+**CRITICAL:** The `main` and `develop` branches are **protected and permanent**.
+
+#### Protected Branch Rules
+
+**Never delete protected branches:**
+- `main` - Production branch (tagged releases)
+- `develop` - Integration branch (merged features)
+
+**Never commit directly to protected branches:**
+- All changes to `main` and `develop` must go through pull requests
+- Direct commits violate the review and quality gate process
+- Worktrees isolate feature work, preventing accidental commits
+
+**Only merge via pull requests:**
+- Feature → contrib (PR reviewed, merged in GitHub UI)
+- Contrib → develop (PR reviewed, merged in GitHub UI)
+- Release → main (PR reviewed, merged in GitHub UI)
+- Hotfix → main (PR reviewed, merged in GitHub UI)
+
+#### Documented Exception
+
+**backmerge_release.py** is the ONLY script that commits directly to `develop`:
+- **Purpose:** Back-merge release branches to develop (Phase 5.5)
+- **Why it's safe:**
+  - Only merges from release branch (no code changes)
+  - Creates merge commit only (preserves history)
+  - Maintains develop's stability (inherits tested release code)
+- **Location:** `.claude/skills/git-workflow-manager/scripts/backmerge_release.py`
+
+#### Technical Enforcement (Recommended)
+
+**GitHub branch protection settings:**
+1. Navigate to: Repository Settings → Branches → Branch protection rules
+2. Add rule for `main`:
+   - ✅ Require pull request before merging
+   - ✅ Require status checks to pass (if CI/CD configured)
+   - ✅ Require conversation resolution before merging
+   - ✅ Do not allow bypassing the above settings
+3. Add rule for `develop`:
+   - ✅ Require pull request before merging
+   - ✅ Require status checks to pass (if CI/CD configured)
+
+See `.github/BRANCH_PROTECTION.md` for detailed setup instructions.
+
+**Pre-push hook (optional safety net):**
+```bash
+# Install pre-push hook to prevent accidental pushes
+cp .git-hooks/pre-push .git/hooks/pre-push
+chmod +x .git/hooks/pre-push
+```
+
+The hook prevents direct pushes to `main` or `develop` with a helpful error message.
+
+#### What Happens If You Violate Protection?
+
+**If you accidentally commit to main/develop:**
+
+1. **Don't panic** - The commit is local only until pushed
+2. **Undo the commit:**
+   ```bash
+   git reset --soft HEAD~1    # Undo commit, keep changes staged
+   ```
+3. **Switch to correct branch:**
+   ```bash
+   git checkout contrib/<gh-user>   # Or appropriate feature branch
+   git commit -m "Your message"     # Commit on correct branch
+   ```
+
+**If you accidentally pushed to main/develop:**
+
+1. **Don't force push** - This rewrites history
+2. **Revert the commit:**
+   ```bash
+   git revert <commit-sha>    # Creates new commit undoing changes
+   git push origin main       # Push revert commit
+   ```
+3. **Ask for help** if unsure - Better safe than sorry
+
+**If you accidentally deleted a protected branch:**
+
+1. **Recreate from remote:**
+   ```bash
+   git fetch origin
+   git checkout -b main origin/main       # Recreate main
+   # or
+   git checkout -b develop origin/develop # Recreate develop
+   ```
+2. **Verify integrity:**
+   ```bash
+   git log --oneline -10     # Check recent commits
+   git status                 # Verify clean state
+   ```
+
 ### File Locations
 
 **Main Repository:**
@@ -1440,6 +1535,258 @@ This ensures contrib branch is up-to-date with hotfix (via develop back-merge).
 | **Versioning** | MAJOR/MINOR/PATCH | vX.Y.Z-hotfix.N |
 | **Timeline** | Days to weeks | Hours to days (urgent) |
 | **Worktree** | Yes (isolation) | Yes (isolation) |
+
+---
+
+## Production Safety & Rollback
+
+### Overview
+
+Production deployments should always use **tagged releases** (e.g., `v1.5.1`), never branch heads. Tags provide immutable snapshots that enable instant rollback without code changes.
+
+### Deployment Best Practices
+
+**✓ DO:**
+- Deploy from tags: `git checkout v1.5.1`
+- Test releases thoroughly before tagging on main
+- Keep multiple recent tags available for rollback
+- Monitor production after deployment
+- Have rollback procedure documented and rehearsed
+
+**✗ DON'T:**
+- Deploy from `main` branch head (moving target)
+- Deploy from feature/hotfix branches directly
+- Delete tags after deployment (keep for rollback)
+- Skip quality gates before releasing
+
+### Emergency Rollback Procedures
+
+#### Scenario 1: Production Broken After Release
+
+**Symptoms:**
+- v1.5.1 deployed to production
+- Critical issue discovered (crashes, data loss, security vulnerability)
+- Need immediate rollback
+
+**Solution: Deploy Previous Tag (Fastest - 2 minutes)**
+
+```bash
+# 1. Checkout last known good tag
+git checkout v1.5.0
+
+# 2. Deploy this tag to production
+# (deployment mechanism varies: docker, kubernetes, etc.)
+
+# Result: Production now running v1.5.0
+# - No code changes needed
+# - Instant rollback
+# - v1.5.1 remains tagged on main (untouched)
+```
+
+**Timeline:**
+- 0:00 - Issue detected in production (v1.5.1)
+- 0:02 - Checkout v1.5.0 tag
+- 0:05 - Deploy v1.5.0 to production
+- 0:10 - Verify production stable on v1.5.0
+- **Total: ~10 minutes to restore service**
+
+---
+
+#### Scenario 2: Need to Remove Bad Release from Main
+
+**Symptoms:**
+- v1.5.1 deployed and rolled back to v1.5.0
+- v1.5.1 merge commit still on main branch
+- Need to remove bad code from main branch
+
+**Solution: Revert Merge Commit**
+
+```bash
+# 1. Find the merge commit that introduced v1.5.1
+git log --oneline main | head -10
+# Example output:
+#   abc123f Merge pull request #42 from user/release/v1.5.1
+#   def456g docs(release): update CHANGELOG.md for v1.5.1
+#   ...
+
+# 2. Revert the merge commit
+git checkout main
+git pull origin main
+git revert abc123f -m 1
+
+# Explanation:
+# -m 1 = keep parent 1 (main branch history)
+# This creates a NEW commit that undoes the merge
+
+# 3. Push revert commit
+git push origin main
+
+# 4. Tag the revert as new patch version
+git tag -a v1.5.2 -m "Revert broken v1.5.1 release"
+git push origin v1.5.2
+
+# 5. Deploy v1.5.2 to production
+git checkout v1.5.2
+# Deploy...
+
+# Result:
+# - main branch now has revert commit
+# - v1.5.2 tag points to reverted state
+# - v1.5.1 tag still exists (for reference)
+# - Production running v1.5.2 (functionally = v1.5.0)
+```
+
+**Timeline:**
+- Already rolled back to v1.5.0 (production stable)
+- Create revert commit: ~10 minutes
+- Tag and deploy v1.5.2: ~10 minutes
+- **Total: ~20 minutes (non-urgent, production already stable)**
+
+---
+
+#### Scenario 3: Hotfix Taking Too Long
+
+**Symptoms:**
+- Production broken, rolled back to v1.5.0
+- Working on hotfix in worktree (v1.5.0-hotfix.1)
+- Hotfix more complex than expected (hours, not minutes)
+- Production still running v1.5.0 (stable but missing features from v1.5.1)
+
+**Solution: Keep Production on v1.5.0, Finish Hotfix Properly**
+
+```bash
+# Production remains on v1.5.0 (stable)
+# Continue hotfix work:
+
+# 1. In hotfix worktree
+cd ../german_hotfix_issue-name
+
+# 2. Complete the fix
+# - Add tests
+# - Run quality gates
+# - Ensure ≥80% coverage
+
+# 3. Create PR: hotfix → main
+gh pr create --base main --title "hotfix(issue): description"
+
+# 4. After merge, tag hotfix
+git checkout main
+git pull origin main
+git tag -a v1.5.0-hotfix.1 -m "Hotfix: description"
+git push origin v1.5.0-hotfix.1
+
+# 5. Deploy hotfix
+git checkout v1.5.0-hotfix.1
+# Deploy...
+
+# 6. Back-merge to develop
+python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
+  v1.5.0-hotfix.1 develop
+
+# Result:
+# - Production moved from v1.5.0 → v1.5.0-hotfix.1
+# - Hotfix tested and properly merged
+# - develop updated with fix
+```
+
+**Key principle:** Don't rush hotfixes. Production is stable on v1.5.0. Take time to do hotfix correctly.
+
+---
+
+### Why Tag-Based Deployment?
+
+**Problem with branch-based deployment:**
+```bash
+# Deploy from main branch (BAD)
+git checkout main
+git pull origin main    # Gets latest commits
+# Deploy...
+
+# Issue: "latest" changes constantly
+# - Can't reproduce exact deployment
+# - Can't rollback without code changes
+# - Unclear what version is running
+```
+
+**Solution with tag-based deployment:**
+```bash
+# Deploy from tag (GOOD)
+git checkout v1.5.1    # Exact snapshot
+# Deploy...
+
+# Benefits:
+# - v1.5.1 never changes (immutable)
+# - Can reproduce deployment anytime
+# - Rollback = checkout v1.5.0
+# - Clear version in production
+```
+
+---
+
+### Main Branch Protection
+
+**How main stays safe during hotfix work:**
+
+1. **Hotfix work isolated in worktree**
+   ```bash
+   # Main repo
+   /Users/user/Documents/GitHub/german (main branch untouched)
+
+   # Hotfix worktree
+   /Users/user/Documents/GitHub/german_hotfix_issue (isolated work)
+   ```
+
+2. **Main only updated via merged PRs**
+   - No direct commits to main
+   - All changes reviewed
+   - Quality gates enforced
+
+3. **Tagged releases are immutable**
+   - v1.5.0 tag never changes
+   - Can always rollback to v1.5.0
+   - Even if main branch has bad commits
+
+---
+
+### Rollback Decision Tree
+
+```
+Production broken after v1.5.1 deployment?
+│
+├─ YES → Checkout v1.5.0 and deploy (instant rollback)
+│        │
+│        ├─ Production now stable?
+│        │  │
+│        │  ├─ YES → Decide next action:
+│        │  │        ├─ Remove v1.5.1 from main? → Revert merge commit, tag v1.5.2
+│        │  │        ├─ Fix issue? → Create hotfix (v1.5.0-hotfix.1 or v1.5.1-hotfix.1)
+│        │  │        └─ Wait for next release? → Keep v1.5.0, work on v1.6.0
+│        │  │
+│        │  └─ NO → Escalate (v1.5.0 also broken, checkout v1.4.0)
+│        │
+│        └─ Hotfix taking too long?
+│           └─ Keep v1.5.0 in production (stable), complete hotfix properly
+│
+└─ NO → Continue with normal operations
+```
+
+---
+
+### Summary
+
+**Production Safety:**
+- ✓ Deploy from tags (v1.5.1), never branches
+- ✓ Keep multiple tags for instant rollback
+- ✓ Hotfix work isolated (main untouched)
+- ✓ Quality gates before tagging
+- ✓ Can always rollback without code changes
+
+**Emergency Rollback:**
+- **Fastest:** `git checkout v1.5.0` → deploy (2 minutes)
+- **Clean main:** Revert merge commit → tag v1.5.2 (20 minutes)
+- **Proper fix:** Create hotfix from last good tag (hours)
+
+**Key Principle:** Production stability > speed. Rollback first, fix properly second.
 
 ---
 

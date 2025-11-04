@@ -1,4 +1,22 @@
 #!/usr/bin/env python3
+# ============================================================================
+# ⚠️  BRANCH PROTECTION EXCEPTION
+# ============================================================================
+# WARNING: This script commits directly to the 'develop' branch, which is
+#          normally a protected branch that requires pull requests.
+#
+# This is the ONLY documented exception to the branch protection policy.
+#
+# Why this exception is safe:
+#   - Only merges from release branch (no code changes, just merge commit)
+#   - Release branch was already reviewed and tagged on main
+#   - Maintains develop's stability (inherits tested release code)
+#   - Creates merge commit only (preserves history)
+#   - Part of documented Phase 5.6 workflow (WORKFLOW.md)
+#
+# See WORKFLOW.md "Branch Protection Policy" section for complete rules.
+# ============================================================================
+
 """Merge release branch back to develop after main merge.
 
 This script implements Step 5.6 of Phase 5 (Release Workflow) as documented
