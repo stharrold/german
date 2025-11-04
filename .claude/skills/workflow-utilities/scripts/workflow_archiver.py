@@ -23,7 +23,7 @@ import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Any, Dict, Optional
 
 try:
     import yaml
@@ -165,7 +165,7 @@ def archive_workflow(todo_file: Path, summary: Optional[str] = None,
     archived_path = ARCHIVED_DIR / todo_file.name
     if archived_path.exists():
         warning(f"File already exists in ARCHIVED/: {archived_path.name}")
-        response = input(f"Overwrite? (y/N): ")
+        response = input("Overwrite? (y/N): ")
         if response.lower() != 'y':
             error_exit("Archival cancelled")
 

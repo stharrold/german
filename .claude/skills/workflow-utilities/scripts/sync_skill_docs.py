@@ -35,7 +35,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import List, Optional, Tuple
 
 # Constants
 SKILL_DIRS = [
@@ -144,7 +144,7 @@ def prompt_changelog_entry(skill_name: str, old_version: str, new_version: str) 
     Returns:
         CHANGELOG entry content
     """
-    print(f"\n" + "=" * 70)
+    print("\n" + "=" * 70)
     print(f"CHANGELOG Entry for {skill_name}")
     print("=" * 70)
     print(f"Version: {old_version} → {new_version}")
@@ -474,7 +474,7 @@ def main():
     print("  2. Review WORKFLOW.md sections identified above")
     print("  3. Update root CLAUDE.md if command examples changed")
     print("  4. Run: python .claude/skills/workflow-utilities/scripts/validate_versions.py")
-    print(f"  5. Review complete UPDATE_CHECKLIST: cat .claude/skills/UPDATE_CHECKLIST.md")
+    print("  5. Review complete UPDATE_CHECKLIST: cat .claude/skills/UPDATE_CHECKLIST.md")
 
     print()
 

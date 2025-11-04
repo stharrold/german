@@ -773,12 +773,30 @@ python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
 ℹ   Total completed: 2
 ```
 
-#### Step 4.5: Delete Worktree
+#### Step 4.5: Delete Worktree and Branch
 
+**Delete local worktree and branch:**
 ```bash
 git worktree remove ../german_feature_certificate-a1
 git branch -D feature/20251023T104248Z_certificate-a1
 ```
+
+**Delete remote feature branch:**
+```bash
+git push origin --delete feature/20251023T104248Z_certificate-a1
+```
+
+**Output:**
+```
+✓ Worktree removed: ../german_feature_certificate-a1
+✓ Deleted local branch: feature/20251023T104248Z_certificate-a1
+✓ Deleted remote branch: origin/feature/20251023T104248Z_certificate-a1
+```
+
+**Why cleanup?**
+- Feature is merged to contrib → no longer needed
+- Keeps repository clean
+- Prevents confusion about active features
 
 #### Step 4.6: Rebase contrib onto develop
 

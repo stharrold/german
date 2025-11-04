@@ -29,7 +29,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 # Constants
 TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
@@ -208,9 +208,9 @@ def gather_as_built_info(planning_dir: Path, specs_dir: Path, todo_file: Optiona
         for epic_id in set(epic_ids):  # unique epic IDs
             print(f"\n{epic_id}:")
 
-            estimated_days = ask_question(f"  Estimated effort (days)?", default="Unknown")
-            actual_days = ask_question(f"  Actual effort (days)?")
-            notes = ask_question(f"  Notes/lessons learned?", default="")
+            estimated_days = ask_question("  Estimated effort (days)?", default="Unknown")
+            actual_days = ask_question("  Actual effort (days)?")
+            notes = ask_question("  Notes/lessons learned?", default="")
 
             info['epics'].append({
                 'id': epic_id,
@@ -474,7 +474,7 @@ def main():
     print("As-Built Documentation Complete!")
     print("=" * 70)
 
-    print(f"\nUpdated files:")
+    print("\nUpdated files:")
     print(f"  - {args.planning_dir}/requirements.md")
     print(f"  - {args.planning_dir}/architecture.md")
     print(f"  - {args.planning_dir}/epics.md")
@@ -483,7 +483,7 @@ def main():
     if info.get('epics'):
         print(f"Epics completed: {len(info['epics'])}")
 
-    print(f"\nThese updates will improve future planning accuracy!")
+    print("\nThese updates will improve future planning accuracy!")
     print("")
 
 

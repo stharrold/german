@@ -30,7 +30,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
@@ -999,7 +999,7 @@ def main():
     print(f"  1. Review planning documents in {planning_dir}")
     print("  2. Create feature worktree: python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature {args.slug} {context['current_branch']}")
     print("  3. SpecKit will auto-detect and use these planning documents")
-    print(f"  4. Token savings: ~1,700-2,700 tokens by reusing planning context")
+    print("  4. Token savings: ~1,700-2,700 tokens by reusing planning context")
 
 
 if __name__ == '__main__':

@@ -107,7 +107,7 @@ def create_worktree(workflow_type, slug, base_branch):
         vcs = get_vcs_adapter()
         gh_user = vcs.get_current_user()
     except RuntimeError as e:
-        print(f"ERROR: Failed to get VCS username", file=sys.stderr)
+        print("ERROR: Failed to get VCS username", file=sys.stderr)
         print(f"Error: {e}", file=sys.stderr)
         raise
 

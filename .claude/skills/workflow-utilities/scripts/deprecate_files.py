@@ -5,7 +5,7 @@ import sys
 import zipfile
 from datetime import datetime
 from pathlib import Path
-import subprocess
+
 
 def deprecate_files(todo_file, description, *files):
     """

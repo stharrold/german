@@ -31,7 +31,6 @@ Constants:
 """
 
 import argparse
-import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -359,9 +358,9 @@ def alert_user_discrepancies(discrepancies: List[Discrepancy]) -> bool:
         print(f"\n  Rationale:{disc.rationale}\n")
 
     print(f"{Colors.BOLD}Summary:{Colors.END}")
-    print(f"  - Official patterns: General-purpose Claude Code skills")
-    print(f"  - Local patterns: Optimized for multi-phase workflow system")
-    print(f"  - Discrepancies: Documented and intentional\n")
+    print("  - Official patterns: General-purpose Claude Code skills")
+    print("  - Local patterns: Optimized for multi-phase workflow system")
+    print("  - Discrepancies: Documented and intentional\n")
 
     return ask_yes_no("Continue with local workflow patterns?", default=True)
 
@@ -477,7 +476,7 @@ def create_skill_directory(skill_path: Path, config: SkillConfig) -> None:
         templates_path = skill_path / 'templates'
         templates_path.mkdir(exist_ok=True)
 
-    success(f"Created directory structure")
+    success("Created directory structure")
 
 
 def generate_skill_md(skill_path: Path, config: SkillConfig,
@@ -947,28 +946,28 @@ def print_summary(skill_path: Path, config: SkillConfig) -> None:
     print(f"{Colors.BLUE}Location:{Colors.END} {skill_path}")
 
     print(f"\n{Colors.BOLD}Created Files:{Colors.END}")
-    print(f"  ✓ SKILL.md (complete documentation)")
-    print(f"  ✓ CLAUDE.md (Claude Code context)")
-    print(f"  ✓ README.md (human-readable overview)")
-    print(f"  ✓ CHANGELOG.md (version history)")
-    print(f"  ✓ ARCHIVED/ (directory structure)")
+    print("  ✓ SKILL.md (complete documentation)")
+    print("  ✓ CLAUDE.md (Claude Code context)")
+    print("  ✓ README.md (human-readable overview)")
+    print("  ✓ CHANGELOG.md (version history)")
+    print("  ✓ ARCHIVED/ (directory structure)")
 
     if config.has_scripts:
-        print(f"  ✓ scripts/__init__.py (package initialization)")
+        print("  ✓ scripts/__init__.py (package initialization)")
     if config.has_templates:
-        print(f"  ✓ templates/ (document templates)")
+        print("  ✓ templates/ (document templates)")
 
     print(f"\n{Colors.BOLD}Next Steps:{Colors.END}")
-    print(f"  1. Implement skill functionality in scripts/")
-    print(f"  2. Update workflow-orchestrator to call this skill")
-    print(f"  3. Add integration tests")
-    print(f"  4. Update WORKFLOW.md with skill reference")
-    print(f"  5. Update root CLAUDE.md skill list")
+    print("  1. Implement skill functionality in scripts/")
+    print("  2. Update workflow-orchestrator to call this skill")
+    print("  3. Add integration tests")
+    print("  4. Update WORKFLOW.md with skill reference")
+    print("  5. Update root CLAUDE.md skill list")
 
     print(f"\n{Colors.BOLD}Official Documentation:{Colors.END}")
-    print(f"  - Fetched and compared with official patterns")
-    print(f"  - Discrepancies documented with rationale")
-    print(f"  - See SKILL.md for alignment details")
+    print("  - Fetched and compared with official patterns")
+    print("  - Discrepancies documented with rationale")
+    print("  - See SKILL.md for alignment details")
 
     print(f"\n{Colors.GREEN}🎉 Happy coding!{Colors.END}\n")
 
