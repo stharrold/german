@@ -254,6 +254,46 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
 - **Releases:** develop → release branch → main (tagged) → back-merge to develop
 
+## Production Safety & Rollback
+
+**Critical principle:** Deploy from **tags** (v1.5.1), never branch heads. Tags are immutable and enable instant rollback.
+
+### Emergency Rollback (if production breaks)
+
+**Fastest rollback (2 minutes):**
+```bash
+git checkout v1.5.0  # Last known good tag
+# Deploy this tag to production
+```
+
+**Remove bad release from main:**
+```bash
+git revert <merge-commit-sha> -m 1
+git tag -a v1.5.2 -m "Revert broken v1.5.1"
+git push origin v1.5.2
+```
+
+**If hotfix takes too long:**
+- Keep production on v1.5.0 (stable)
+- Don't rush the hotfix - do it properly with quality gates
+- Production stability > speed
+
+**Why tag-based deployment:**
+- v1.5.1 never changes (immutable)
+- Can reproduce exact deployment anytime
+- Instant rollback (no code changes)
+- Clear version in production
+
+**Main branch protection:**
+- Hotfix work isolated in separate worktree (main untouched)
+- Main only updated via merged PRs
+- Tagged releases are immutable (can always rollback)
+
+**See WORKFLOW.md "Production Safety & Rollback" section for:**
+- Complete rollback procedures (3 scenarios)
+- Rollback decision tree
+- Timeline estimates (10 min rollback, 20 min cleanup)
+
 ## Common Development Commands
 
 ### Workflow Commands
