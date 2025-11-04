@@ -16,11 +16,11 @@ Constants:
   Rationale: Maintain backward compatibility with existing workflows
 """
 
-from .base_adapter import BaseVCSAdapter
-from .github_adapter import GitHubAdapter
 from .azure_adapter import AzureDevOpsAdapter
-from .provider import VCSProvider, detect_provider
+from .base_adapter import BaseVCSAdapter
 from .config import load_vcs_config
+from .github_adapter import GitHubAdapter
+from .provider import VCSProvider, detect_provider
 
 __all__ = [
     'BaseVCSAdapter',

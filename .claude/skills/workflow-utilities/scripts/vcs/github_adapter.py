@@ -13,11 +13,8 @@ Constants:
 """
 
 import subprocess
-import sys
-from typing import Optional
 
 from .base_adapter import BaseVCSAdapter
-
 
 # Constants
 GITHUB_CLI = 'gh'
@@ -77,7 +74,7 @@ class GitHubAdapter(BaseVCSAdapter):
                 f"Error: {error_msg}"
             )
         except subprocess.TimeoutExpired:
-            raise RuntimeError(f"Timeout while getting GitHub username")
+            raise RuntimeError("Timeout while getting GitHub username")
 
     def create_pull_request(
         self,
