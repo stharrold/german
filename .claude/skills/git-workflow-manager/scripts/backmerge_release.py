@@ -415,7 +415,7 @@ def main():
 
         # Step 2: Checkout and Pull Target Branch
         print(f"Checking out {target_branch} and pulling latest...", file=sys.stderr)
-        commit_sha = checkout_and_pull_branch(target_branch)
+        checkout_and_pull_branch(target_branch)
 
         # Step 3: Attempt Merge
         print(f"Attempting to merge {release_branch} into {target_branch}...", file=sys.stderr)

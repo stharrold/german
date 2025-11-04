@@ -441,7 +441,7 @@ def main():
 
     # Run validation
     validator = VersionValidator(repo_root, verbose=args.verbose)
-    all_valid = validator.run_validation()
+    validator.run_validation()
 
     # Print summary
     success = validator.print_summary()

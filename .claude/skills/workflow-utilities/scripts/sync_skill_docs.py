@@ -369,7 +369,7 @@ def main():
     # Get repository root
     try:
         repo_root = Path(run_command(['git', 'rev-parse', '--show-toplevel']))
-    except:
+    except (subprocess.CalledProcessError, FileNotFoundError, TypeError):
         error_exit("Not in a git repository")
 
     # Paths

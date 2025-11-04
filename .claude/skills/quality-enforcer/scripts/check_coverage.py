@@ -19,7 +19,7 @@ def check_coverage(threshold=80):
     """
     try:
         # Run pytest with coverage
-        result = subprocess.run(
+        subprocess.run(
             ['uv', 'run', 'pytest', '--cov=src', '--cov-report=term', '--cov-report=json'],
             capture_output=True,
             text=True,

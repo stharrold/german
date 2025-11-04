@@ -869,7 +869,7 @@ def commit_planning_docs(planning_dir: Path, slug: str) -> None:
 
     # Create commit message
     title = slug.replace('-', ' ').replace('_', ' ').title()
-    commit_msg = f"""docs(planning): add BMAD planning for {slug}
+    commit_msg = f"""docs(planning): add BMAD planning for {title}
 
 BMAD planning session completed via interactive tool:
 - requirements.md: Business requirements and user stories (🧠 Analyst)

@@ -527,6 +527,60 @@ Use `workflow-utilities/scripts/directory_structure.py` to create compliant dire
 - ✓ Type checking clean (mypy)
 - ✓ Container healthy (if applicable)
 
+## GitHub Issue Management
+
+**Issue Sources:**
+- GitHub Copilot code reviews (automated static analysis)
+- Manual issue creation by contributors
+- Dependency security alerts
+
+**Issue Workflow:**
+1. **On contrib branch:** Fix issues locally while working on features
+2. **Create commits:** Reference issue numbers in commit messages
+   ```bash
+   git commit -m "fix(quality): resolve unused variable (Issue #44)"
+   ```
+3. **Batch fixes:** Multiple related issues can be fixed in one commit
+   ```bash
+   git commit -m "fix(quality): resolve all GitHub Copilot code review issues
+
+   Fixed 11 code quality issues identified by Copilot code reviews:
+   - Issues #44-47: Remove unused variables
+   - Issue #49: Fix bare except blocks
+   - Issue #48: Fix Python 3 syntax error
+   ..."
+   ```
+4. **PR to develop:** Include issue references in PR description
+5. **Close issues:** Issues auto-close when PR merges if commit message uses "fix", "fixes", "close", "closes", "resolve", "resolves"
+
+**Common Issue Types:**
+- **Unused variables/imports:** Remove or use the variable
+- **Bare except blocks:** Replace `except:` with specific exceptions (e.g., `except (ValueError, TypeError):`)
+- **Line too long (>100 chars):** Break into multiple lines (acceptable in some cases)
+- **Syntax errors:** Fix immediately (blocking)
+- **Security issues:** Address with highest priority
+
+**Quality Commands:**
+```bash
+# Check for linting issues (pyflakes only)
+uv run ruff check . --select F
+
+# Check all linting rules
+uv run ruff check .
+
+# Auto-fix safe issues
+uv run ruff check --fix .
+
+# Run tests to verify fixes
+uv run pytest -v
+```
+
+**Best Practices:**
+- Fix issues on feature/contrib branches, not directly on develop/main
+- Group related fixes in single commits (e.g., all unused variables together)
+- Always run tests after fixes to ensure no regressions
+- Reference issue numbers in commit messages for traceability
+
 ## Project Configuration
 
 **.gitignore:** Excludes `__pycache__/`, `.coverage`, `*.pyc`, `.venv/`, and IDE/OS files. Do not commit generated files.

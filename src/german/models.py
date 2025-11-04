@@ -3,7 +3,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class PartOfSpeech(str, Enum):
@@ -34,10 +34,7 @@ class VocabularyWord(BaseModel):
     gender: Optional[Gender] = Field(None, description="Grammatical gender (nouns only)")
     plural: Optional[str] = Field(None, description="Plural form (nouns only)")
 
-    class Config:
-        """Pydantic configuration."""
-
-        use_enum_values = True
+    model_config = ConfigDict(use_enum_values=True)
 
     @model_validator(mode="after")
     def validate_noun_requirements(self) -> "VocabularyWord":
