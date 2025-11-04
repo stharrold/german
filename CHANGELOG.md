@@ -10,6 +10,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.5.1] - 2025-11-04
+
+### Fixed
+- **Critical bugs** - Resolved 27 GitHub issues identified in Copilot code reviews
+  - Fixed pyproject.toml configuration errors
+  - Fixed SpecKit template rendering issues
+  - Fixed German translation inaccuracies
+  - Auto-fixed 23 code quality issues with ruff (unused imports, variables, formatting)
+  - Quality: 106 tests passing, 88% coverage
+
+### Added
+- **Comprehensive skill documentation** - Completed documentation for all workflow skills
+  - Added 5 missing `scripts/__init__.py` files (proper Python package structure)
+  - Completed 6 CLAUDE.md files (352-1,019 lines each) for Claude Code integration
+  - Completed 5 README.md files (232-435 lines each) for human developers
+  - All skills now have comprehensive documentation for both Claude Code and humans
+
+### Changed
+- **Workflow documentation** - Enhanced Phase 4.5 instructions
+  - Added worktree/branch cleanup instructions
+  - Clarified git worktree removal process
+  - Added git branch deletion commands (local and remote)
+
+### Documentation
+- Skills with complete documentation: 9/9 (100%)
+- CLAUDE.md coverage: All skills (bmad-planner, speckit-author, quality-enforcer, git-workflow-manager, tech-stack-adapter, workflow-orchestrator, workflow-utilities, initialize-repository, agentdb-state-manager)
+- README.md coverage: All skills
+- Version validation: All checks passed
+
 ## [1.5.0] - 2025-11-02
 
 ### Added
@@ -76,6 +105,7 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.5.1   | 2025-11-04 | PATCH | Bug fixes + comprehensive skill documentation |
 | 1.5.0   | 2025-11-02 | MINOR | Initialize-repository meta-skill + documentation system |
 | 5.2.0   | 2025-10-23 | MINOR | Enhanced TODO.md manifest structure |
 | 5.0.0   | 2025-10-23 | MAJOR | Skill-based architecture with callable tools |
