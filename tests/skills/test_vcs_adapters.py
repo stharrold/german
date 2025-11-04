@@ -10,17 +10,17 @@ Tests cover:
 - Error handling
 """
 
+import subprocess
 import sys
 from pathlib import Path
-from unittest.mock import patch, MagicMock
-import subprocess
+from unittest.mock import MagicMock, patch
 
 import pytest
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs.github_adapter import GitHubAdapter
 from vcs.azure_adapter import AzureDevOpsAdapter
+from vcs.github_adapter import GitHubAdapter
 
 
 class TestGitHubAdapter:

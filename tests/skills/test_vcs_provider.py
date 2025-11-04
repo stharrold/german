@@ -8,12 +8,10 @@ Tests cover:
 - Fallback to default provider
 """
 
+import subprocess
 import sys
 from pathlib import Path
-from unittest.mock import patch, MagicMock
-import subprocess
-
-import pytest
+from unittest.mock import MagicMock, patch
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))

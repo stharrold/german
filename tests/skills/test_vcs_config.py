@@ -12,14 +12,17 @@ Tests cover:
 
 import sys
 from pathlib import Path
-from unittest.mock import patch, mock_open
-import tempfile
 
 import pytest
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs.config import load_vcs_config, validate_config, validate_azure_devops_config, CONFIG_FILE_NAME
+from vcs.config import (
+    CONFIG_FILE_NAME,
+    load_vcs_config,
+    validate_azure_devops_config,
+    validate_config,
+)
 
 
 class TestLoadVCSConfig:

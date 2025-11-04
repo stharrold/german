@@ -12,7 +12,7 @@ Constants:
 
 import sys
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Any, Dict, Optional
 
 try:
     import yaml

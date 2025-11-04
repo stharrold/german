@@ -15,11 +15,8 @@ Constants:
 """
 
 import subprocess
-import sys
-from typing import Optional
 
 from .base_adapter import BaseVCSAdapter
-
 
 # Constants
 AZURE_CLI = 'az'
