@@ -16,8 +16,11 @@ This repository contains:
 # Install dependencies
 uv sync
 
-# Authenticate with GitHub
-gh auth login
+# Authenticate with your VCS provider
+gh auth login              # For GitHub
+# OR
+# az login                 # For Azure DevOps
+# az extension add --name azure-devops
 
 # Start development workflow
 # Say "next step?" to Claude Code
