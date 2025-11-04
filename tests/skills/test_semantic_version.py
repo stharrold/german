@@ -47,7 +47,7 @@ def test_semantic_version_uses_three_dot_diff():
         content = f.read()
 
     # Check for three-dot diff pattern: base_branch...HEAD
-    assert "...HEAD" in content or "...head" in content.lower(), (
+    assert "...head" in content.lower(), (
         "semantic_version.py should use three-dot diff (base_branch...HEAD) "
         "to compare current branch against merge-base, not working directory changes."
     )
