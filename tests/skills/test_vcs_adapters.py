@@ -18,9 +18,13 @@ from unittest.mock import MagicMock, patch
 import pytest
 
 # Add VCS module to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs.azure_adapter import AzureDevOpsAdapter
-from vcs.github_adapter import GitHubAdapter
+vcs_path = (
+    Path(__file__).parent.parent.parent
+    / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'
+)
+sys.path.insert(0, str(vcs_path))
+from vcs.azure_adapter import AzureDevOpsAdapter  # noqa: E402
+from vcs.github_adapter import GitHubAdapter  # noqa: E402
 
 
 class TestGitHubAdapter:

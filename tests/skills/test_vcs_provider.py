@@ -14,8 +14,12 @@ from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 # Add VCS module to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs.provider import VCSProvider, detect_from_remote, detect_provider
+vcs_path = (
+    Path(__file__).parent.parent.parent
+    / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'
+)
+sys.path.insert(0, str(vcs_path))
+from vcs.provider import VCSProvider, detect_from_remote, detect_provider  # noqa: E402
 
 
 class TestProviderDetection:

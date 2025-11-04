@@ -113,21 +113,21 @@ class TestConstants:
 
     def test_release_branch_prefix(self):
         """Test release branch prefix constant."""
-        RELEASE_BRANCH_PREFIX = 'release/'
+        release_branch_prefix = 'release/'
 
         # Verify prefix is used correctly
         version = 'v1.1.0'
-        branch_name = f"{RELEASE_BRANCH_PREFIX}{version}"
+        branch_name = f"{release_branch_prefix}{version}"
         assert branch_name == 'release/v1.1.0'
 
     def test_timestamp_format(self):
         """Test timestamp format constant."""
-        TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'
+        timestamp_format = '%Y%m%dT%H%M%SZ'
 
         # Verify format produces expected output
         from datetime import datetime, timezone
         test_time = datetime(2025, 10, 23, 14, 30, 0, tzinfo=timezone.utc)
-        formatted = test_time.strftime(TIMESTAMP_FORMAT)
+        formatted = test_time.strftime(timestamp_format)
         assert formatted == '20251023T143000Z'
 
 

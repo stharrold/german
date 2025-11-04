@@ -16,8 +16,12 @@ from pathlib import Path
 import pytest
 
 # Add VCS module to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs.config import (
+vcs_path = (
+    Path(__file__).parent.parent.parent
+    / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'
+)
+sys.path.insert(0, str(vcs_path))
+from vcs.config import (  # noqa: E402
     CONFIG_FILE_NAME,
     load_vcs_config,
     validate_azure_devops_config,

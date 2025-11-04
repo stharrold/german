@@ -18,11 +18,15 @@ from unittest.mock import MagicMock, patch
 import pytest
 
 # Add VCS module to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'))
-from vcs import get_vcs_adapter
-from vcs.azure_adapter import AzureDevOpsAdapter
-from vcs.github_adapter import GitHubAdapter
-from vcs.provider import VCSProvider
+vcs_path = (
+    Path(__file__).parent.parent.parent
+    / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'
+)
+sys.path.insert(0, str(vcs_path))
+from vcs import get_vcs_adapter  # noqa: E402
+from vcs.azure_adapter import AzureDevOpsAdapter  # noqa: E402
+from vcs.github_adapter import GitHubAdapter  # noqa: E402
+from vcs.provider import VCSProvider  # noqa: E402
 
 
 class TestGetVCSAdapter:
@@ -101,7 +105,9 @@ class TestGetVCSAdapter:
 
     @patch('vcs.detect_provider')
     @patch('vcs.load_vcs_config')
-    def test_get_adapter_azuredevops_from_remote_requires_config(self, mock_load_config, mock_detect):
+    def test_get_adapter_azuredevops_from_remote_requires_config(
+        self, mock_load_config, mock_detect
+    ):
         """Test that Azure DevOps detected from remote still requires config."""
         mock_load_config.return_value = None
         mock_detect.return_value = VCSProvider.AZURE_DEVOPS
@@ -172,7 +178,8 @@ class TestEndToEndAzureDevOpsWorkflow:
         mock_run.return_value = MagicMock(returncode=0)
         mock_check_output.side_effect = [
             'test@example.com\n',  # get_current_user()
-            'https://dev.azure.com/myorg/MyProject/_git/repo/pullrequest/123\n'  # create_pull_request()
+            # create_pull_request()
+            'https://dev.azure.com/myorg/MyProject/_git/repo/pullrequest/123\n'
         ]
 
         # Execute workflow
