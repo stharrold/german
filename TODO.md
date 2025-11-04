@@ -30,7 +30,8 @@ context_stats:
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive
-    skill documentation (18 issues: 5 __init__.py, 6 CLAUDE.md, 6 README.md, 1 validation).'
+    skill documentation (18 issues: 5 __init__.py, 6 CLAUDE.md, 6 README.md, 1 validation),
+    released v1.5.1 (PATCH: bug fixes + documentation).'
 ---
 
 # Master TODO Manifest
@@ -50,6 +51,17 @@ None currently active.
 - **Quality:** 85% coverage, all tests passing, linting clean
 
 ## Recent Sessions
+
+### Release v1.5.1 (2025-11-04)
+
+Released PATCH version with bug fixes and comprehensive documentation:
+- **Fixed:** 27 critical bugs from Copilot reviews
+- **Added:** Comprehensive skill documentation (5 __init__.py, 6 CLAUDE.md, 5 README.md)
+- **Changed:** Enhanced Phase 4.5 workflow documentation
+- **Quality:** 88.1% coverage, 106 tests passing, all gates passed
+- **Release process:** PR #42 → tagged v1.5.1 on main → back-merged to develop
+
+Commits: 3d0004b (CHANGELOG), 28a1996 (test fixes)
 
 ### Session 2025-11-04 (Continuation)
 
