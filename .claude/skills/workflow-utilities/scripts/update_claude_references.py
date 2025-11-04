@@ -3,7 +3,8 @@
 
 import sys
 from pathlib import Path
-from typing import List, Optional
+from typing import List
+
 
 def get_all_claude_files(root_dir: Path) -> List[Path]:
     """Find all CLAUDE.md files in the repository."""
@@ -44,7 +45,7 @@ def generate_cross_references(claude_file: Path, root_dir: Path) -> str:
     # Reference to README.md in same directory
     readme = dir_path / 'README.md'
     if readme.exists():
-        refs.append(f"- **[README.md](README.md)** - Human-readable documentation for this directory")
+        refs.append("- **[README.md](README.md)** - Human-readable documentation for this directory")
 
     # Reference to parent CLAUDE.md (if not root)
     if dir_path != root_dir:

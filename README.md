@@ -16,8 +16,11 @@ This repository contains:
 # Install dependencies
 uv sync
 
-# Authenticate with GitHub
-gh auth login
+# Authenticate with your VCS provider
+gh auth login              # For GitHub
+# OR
+# az login                 # For Azure DevOps
+# az extension add --name azure-devops
 
 # Start development workflow
 # Say "next step?" to Claude Code
@@ -66,6 +69,37 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 # Run tests with coverage
 uv run pytest --cov=src --cov-fail-under=80
 ```
+
+## Using This Workflow in Other Projects
+
+This repository's workflow system (v5.2) can be replicated to other projects using the `initialize-repository` meta-skill.
+
+**For new repositories:**
+```bash
+# Bootstrap a new project with the workflow system
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  /path/to/german /path/to/new-project
+```
+
+**For existing repositories:**
+```bash
+# ⚠️ CAUTION: Overwrites README.md, CLAUDE.md, pyproject.toml, .gitignore
+# See detailed guidance before proceeding:
+cat .claude/skills/initialize-repository/SKILL.md  # Read "Applying to Existing Repositories" section
+
+# Recommended: Test in a copy first
+cp -r /path/to/existing-repo /path/to/existing-repo-test
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  /path/to/german /path/to/existing-repo-test
+```
+
+**What gets copied:**
+- ✓ 9 workflow skills (BMAD, SpecKit, quality gates, git automation, etc.)
+- ✓ Workflow documentation (WORKFLOW.md, CONTRIBUTING.md)
+- ✓ Quality configurations (pytest ≥80% coverage, ruff, mypy)
+- ✗ Your code remains untouched (unless you choose to copy domain content)
+
+**Complete documentation:** [.claude/skills/initialize-repository/SKILL.md](.claude/skills/initialize-repository/SKILL.md)
 
 ## Contributing
 

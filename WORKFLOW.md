@@ -10,7 +10,7 @@ This repository uses a modular skill-based git workflow for Python feature devel
 - **Git-flow + GitHub-flow hybrid** with worktrees for isolation
 - **BMAD planning** (requirements + architecture) in main repo
 - **SpecKit specifications** (spec + plan) in feature worktrees
-- **7 specialized skills** loaded progressively per workflow phase
+- **8 specialized skills** loaded progressively per workflow phase
 - **Quality gates** enforced before integration (≥80% coverage, all tests passing)
 
 ## Prerequisites
@@ -60,12 +60,15 @@ podman --version        # Optional
 │   └── scripts/
 │       ├── check_coverage.py
 │       └── run_quality_gates.py
-└── workflow-utilities/          # Shared utilities (~200 lines)
+├── workflow-utilities/        # Shared utilities (~200 lines)
+│   └── scripts/
+│       ├── deprecate_files.py
+│       ├── archive_manager.py
+│       ├── todo_updater.py
+│       └── directory_structure.py
+└── initialize-repository/     # Bootstrap new repos (Phase 0 meta-skill) (~1000 lines)
     └── scripts/
-        ├── deprecate_files.py
-        ├── archive_manager.py
-        ├── todo_updater.py
-        └── directory_structure.py
+        └── initialize_repository.py
 ```
 
 **Token Efficiency:**
@@ -102,7 +105,7 @@ main-repo/
 ├── WORKFLOW.md                ← This file
 ├── CLAUDE.md                  ← Claude Code interaction guide
 ├── README.md                  ← Project documentation
-├── .claude/skills/            ← 7 skill modules
+├── .claude/skills/            ← 8 skill modules (including Phase 0 meta-skill)
 ├── src/                       ← Source code
 ├── tests/                     ← Test suite
 └── ARCHIVED/                  ← Deprecated files and completed workflows
@@ -210,6 +213,111 @@ This automatically creates:
 - ✓ Skills verified
 - ✓ TODO.md created with YAML frontmatter
 - ✓ contrib/<gh-user> branch initialized
+
+---
+
+### Phase 0: Repository Initialization (Optional)
+
+**Location:** External (source repository → target repository)
+**Branch:** N/A (creates new repository)
+**Skills:** initialize-repository (meta-skill)
+
+**Purpose:** Bootstrap a new repository with the complete workflow system from an existing source repository.
+
+**When to use:**
+- Starting a new project that needs the workflow system
+- Migrating existing project to workflow system
+- Creating template repository with workflow standards
+
+**Note:** This is a **one-time setup phase**, not part of the normal Phases 1-6 workflow cycle.
+
+**Command:**
+```bash
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  <source-repo> <target-repo>
+```
+
+**Example:**
+```bash
+# From current repository
+python .claude/skills/initialize-repository/scripts/initialize_repository.py \
+  . ../my-new-project
+```
+
+**Interactive Session Flow:**
+
+**Phase 1: Configuration Selection (9 questions)**
+```
+What is the primary purpose of this repository?
+  1) Web application
+  2) CLI tool
+  3) Library/package
+  4) Data analysis
+  5) Machine learning
+  6) Other
+> [User selects]
+
+Brief description of the repository (one line):
+> [User provides]
+
+GitHub username [auto-detected from gh CLI]
+> [User confirms or updates]
+
+Python version (3.11 / 3.12 / 3.13) [default: 3.11]
+> [User selects]
+
+Copy workflow system? (required, always yes)
+Copy domain-specific content (src/, resources/)? (yes/no)
+Copy sample tests (tests/)? (yes/no)
+Copy container configs? (yes/no)
+```
+
+**Phase 2: Git Setup (4-5 questions)**
+```
+Initialize git repository? (yes/no)
+If yes: Create branch structure (main, develop, contrib)? (yes/no)
+If yes: Set up remote? (yes/no)
+If yes: Remote URL?
+If yes and remote: Push to remote? (yes/no)
+```
+
+**What gets copied:**
+
+**Always:**
+- All 8 skills (.claude/skills/)
+- Documentation (WORKFLOW.md, CONTRIBUTING.md, UPDATE_CHECKLIST.md)
+- Quality configs (pyproject.toml, .gitignore)
+- Directory structure (ARCHIVED/, planning/, specs/)
+
+**Generated/adapted:**
+- README.md (customized for new repo)
+- CLAUDE.md (customized for new repo)
+- CHANGELOG.md (initial v0.1.0)
+- TODO.md (master workflow manifest)
+
+**Optionally (based on Q&A):**
+- Domain content (src/, resources/)
+- Tests (tests/)
+- Container configs (Containerfile, podman-compose.yml)
+
+**Output:**
+- ✓ New repository created with complete workflow system
+- ✓ Documentation adapted for new context
+- ✓ Git initialized with 3-branch structure (optional)
+- ✓ Remote configured (optional)
+- ✓ Ready to start Phase 1 (BMAD planning)
+
+**Token Efficiency:**
+- Manual setup: ~3,500 tokens
+- Callable tool: ~150 tokens
+- **Savings: ~3,350 tokens (96% reduction)**
+
+**Next step after initialization:**
+```bash
+cd /path/to/new-repo
+uv sync
+python .claude/skills/bmad-planner/scripts/create_planning.py first-feature <gh-user>
+```
 
 ---
 
@@ -649,23 +757,46 @@ cd /Users/user/Documents/GitHub/german
 
 **Archive TODO file:**
 ```bash
-python .claude/skills/workflow-utilities/scripts/archive_manager.py \
-  archive TODO_feature_20251023T104248Z_certificate-a1.md
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_20251023T104248Z_certificate-a1.md \
+  --summary "Implemented A1 German certificate guide with complete exam structure" \
+  --version "1.3.0"
 ```
 
 **Output:**
 ```
-✓ Archived TODO_feature_20251023T104248Z_certificate-a1.md
-✓ Created ARCHIVED_TODO_feature_20251023T104248Z_certificate-a1.md
-✓ Updated TODO.md manifest
+ℹ Archiving workflow: certificate-a1
+✓ Moved TODO_feature_20251023T104248Z_certificate-a1.md → ARCHIVED/TODO_feature_20251023T104248Z_certificate-a1.md
+✓ Updated TODO.md: moved 'certificate-a1' to archived list
+ℹ   Active workflows: 0
+ℹ   Archived workflows: 2
+ℹ   Total completed: 2
 ```
 
-#### Step 4.5: Delete Worktree
+#### Step 4.5: Delete Worktree and Branch
 
+**Delete local worktree and branch:**
 ```bash
 git worktree remove ../german_feature_certificate-a1
 git branch -D feature/20251023T104248Z_certificate-a1
 ```
+
+**Delete remote feature branch:**
+```bash
+git push origin --delete feature/20251023T104248Z_certificate-a1
+```
+
+**Output:**
+```
+✓ Worktree removed: ../german_feature_certificate-a1
+✓ Deleted local branch: feature/20251023T104248Z_certificate-a1
+✓ Deleted remote branch: origin/feature/20251023T104248Z_certificate-a1
+```
+
+**Why cleanup?**
+- Feature is merged to contrib → no longer needed
+- Keeps repository clean
+- Prevents confusion about active features
 
 #### Step 4.6: Rebase contrib onto develop
 
@@ -1488,9 +1619,9 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 python .claude/skills/git-workflow-manager/scripts/semantic_version.py \
   develop v1.0.0
 
-# Archive workflow
-python .claude/skills/workflow-utilities/scripts/archive_manager.py \
-  archive TODO_feature_*.md
+# Archive workflow (Phase 4.4)
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_*.md --summary "What was completed" --version "X.Y.Z"
 
 # Create directory with standards (CLAUDE.md, README.md, ARCHIVED/)
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \
@@ -1764,6 +1895,170 @@ ls ARCHIVED_TODO_feature_20251023T140000Z_*.md
 
 ---
 
+## Documentation Update Process
+
+When modifying skill implementations (scripts, templates, Q&A flow), **all related documentation must be updated** to prevent documentation drift.
+
+### Quick Reference
+
+**Full update checklist:**
+```bash
+cat .claude/skills/UPDATE_CHECKLIST.md
+```
+
+**Validate versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+**Semi-automated sync:**
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  <skill-name> <new-version>
+```
+
+### Update Process (12 Steps)
+
+When updating a skill (e.g., bmad-planner, speckit-author):
+
+#### Step 1: Determine Version Bump
+
+Use semantic versioning: `MAJOR.MINOR.PATCH`
+
+- **MAJOR (X.0.0):** Breaking changes, removed features
+- **MINOR (x.Y.0):** New features (backward compatible)
+- **PATCH (x.y.Z):** Bug fixes, documentation improvements
+
+#### Step 2-12: Follow UPDATE_CHECKLIST.md
+
+The complete 12-step checklist ensures all files are updated:
+
+```
+.claude/skills/<skill-name>/SKILL.md       ← Version, commands, integration
+.claude/skills/<skill-name>/CLAUDE.md      ← Usage examples
+.claude/skills/<skill-name>/CHANGELOG.md   ← Version history
+WORKFLOW.md                                 ← Phase sections, commands
+CLAUDE.md                                   ← Command reference
+[Integration files]                         ← Other skills affected
+```
+
+### Validation Tools
+
+**Automatic validation:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py
+```
+
+Validates:
+- ✓ All SKILL.md files have valid semantic versions
+- ✓ WORKFLOW.md has valid version
+- ✓ TODO.md manifest version is valid
+- ✓ Version references are consistent
+
+**View current versions:**
+```bash
+python .claude/skills/workflow-utilities/scripts/validate_versions.py --verbose
+```
+
+Output:
+```
+Skill Versions:
+  bmad-planner              v5.1.0
+  speckit-author            v5.0.0
+  workflow-orchestrator     v5.0.0
+  git-workflow-manager      v5.0.0
+  quality-enforcer          v5.0.0
+  tech-stack-adapter        v5.0.0
+  workflow-utilities        v5.0.0
+```
+
+### Semi-Automated Sync Tool
+
+**Update skill documentation in one command:**
+
+```bash
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0
+```
+
+**What it does:**
+1. Updates version in SKILL.md frontmatter
+2. Prompts for CHANGELOG entry
+3. Updates CHANGELOG.md
+4. Identifies affected WORKFLOW.md sections
+5. Creates git commit with proper format
+
+**Options:**
+```bash
+--archive     # Archive previous SKILL.md version
+--dry-run     # Preview changes without making them
+--auto-commit # Skip commit confirmation
+```
+
+**Example:**
+```bash
+# Dry run to preview changes
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0 --dry-run
+
+# Update with archive
+python .claude/skills/workflow-utilities/scripts/sync_skill_docs.py \
+  bmad-planner 5.2.0 --archive
+```
+
+### Common Mistakes to Avoid
+
+❌ **Updating script without updating SKILL.md version**
+- All script changes require version bump
+
+❌ **Inconsistent command examples**
+- Commands must match exactly in SKILL.md, CLAUDE.md, WORKFLOW.md
+
+❌ **Forgetting to update WORKFLOW.md**
+- Phase sections must reflect current skill behavior
+
+❌ **Not updating token efficiency metrics**
+- If script changes affect token usage, update all files
+
+❌ **Missing CHANGELOG entry**
+- Every version bump requires a CHANGELOG entry
+
+### Example: Updating bmad-planner
+
+**Change made:** Added database migration Q&A
+
+**Version bump:** 5.0.0 → 5.1.0 (MINOR - new feature)
+
+**Files updated:**
+1. `.claude/skills/bmad-planner/SKILL.md` (version, Q&A flow)
+2. `.claude/skills/bmad-planner/CLAUDE.md` (examples)
+3. `.claude/skills/bmad-planner/CHANGELOG.md` (new entry)
+4. `WORKFLOW.md` (Phase 1 interactive session)
+5. `CLAUDE.md` (Phase 1 description)
+6. `.claude/skills/speckit-author/SKILL.md` (integration note)
+
+**Commit message:**
+```
+feat(bmad): add database migration strategy Q&A
+
+Updated bmad-planner from v5.0.0 to v5.1.0:
+- Added interactive Q&A for database migration strategy
+
+Updated documentation:
+- SKILL.md, CLAUDE.md, WORKFLOW.md, CHANGELOG.md
+
+Refs: .claude/skills/bmad-planner/CHANGELOG.md
+```
+
+### Related Documentation
+
+- **[UPDATE_CHECKLIST.md](.claude/skills/UPDATE_CHECKLIST.md)** - Complete 12-step checklist
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
+- **[CHANGELOG.md](CHANGELOG.md)** - Repository changelog
+- **[CLAUDE.md](CLAUDE.md)** - Quick command reference
+
+---
+
 ## Troubleshooting
 
 ### Worktree Creation Failed
@@ -1845,7 +2140,8 @@ Track these metrics to validate workflow effectiveness:
 ### Skill Documentation
 
 Referenced throughout this workflow:
-- **Phase 0:** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
+- **Phase 0 (Initialization):** [initialize-repository](/.claude/skills/initialize-repository/SKILL.md) (meta-skill for bootstrapping new repos)
+- **Phase 0 (Setup):** [tech-stack-adapter](/.claude/skills/tech-stack-adapter/SKILL.md), [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 1:** [bmad-planner](/.claude/skills/bmad-planner/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 2:** [git-workflow-manager](/.claude/skills/git-workflow-manager/SKILL.md), [speckit-author](/.claude/skills/speckit-author/SKILL.md), [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)
 - **Phase 3:** [quality-enforcer](/.claude/skills/quality-enforcer/SKILL.md), [workflow-utilities](/.claude/skills/workflow-utilities/SKILL.md)

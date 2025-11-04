@@ -28,7 +28,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
@@ -188,7 +188,7 @@ def interactive_qa_with_bmad(bmad_docs: Dict[str, Path], slug: str) -> Dict[str,
             tech in line.lower() for tech in ['python', 'fastapi', 'flask', 'django', 'postgresql', 'sqlite']
         )]
         if stack_lines:
-            print(f"  - Architecture: Technology stack defined")
+            print("  - Architecture: Technology stack defined")
 
     if 'epics' in bmad_docs:
         epic_text = bmad_docs['epics'].read_text()
@@ -401,9 +401,9 @@ def generate_plan_md(
     # Replace placeholders
     title = slug.replace('-', ' ').replace('_', ' ').title()
     plan = plan_template.replace('{{TITLE}}', title)
-    plan = plan_template.replace('{{WORKFLOW_TYPE}}', workflow_type)
-    plan = plan_template.replace('{{SLUG}}', slug)
-    plan = plan_template.replace('{{DATE}}', date)
+    plan = plan.replace('{{WORKFLOW_TYPE}}', workflow_type)
+    plan = plan.replace('{{SLUG}}', slug)
+    plan = plan.replace('{{DATE}}', date)
 
     # Add implementation note
     note = "\n<!-- Note: Customize task breakdown based on specific feature requirements -->\n"
@@ -615,7 +615,7 @@ Refs: {todo_file.name if todo_file else 'TODO_*.md'}
 
     run_command(['git', 'commit', '-m', commit_msg])
 
-    print(f"\n✓ Committed changes to branch")
+    print("\n✓ Committed changes to branch")
 
 
 def main():
@@ -712,21 +712,21 @@ def main():
     print("\n" + "=" * 70)
     print("SpecKit Specifications Created Successfully!")
     print("=" * 70)
-    print(f"\nFiles created:")
+    print("\nFiles created:")
     print(f"  - {spec_path}")
     print(f"  - {plan_path}")
     print(f"  - {specs_dir}/CLAUDE.md")
     print(f"  - {specs_dir}/README.md")
 
     if tasks and todo_file:
-        print(f"\nTODO updated:")
+        print("\nTODO updated:")
         print(f"  - {todo_file}")
         print(f"  - {len(tasks)} tasks added")
 
-    print(f"\nNext steps:")
-    print(f"  1. Review spec.md and plan.md")
-    print(f"  2. Implement tasks from plan.md")
-    print(f"  3. Update TODO task status as you complete each task")
+    print("\nNext steps:")
+    print("  1. Review spec.md and plan.md")
+    print("  2. Implement tasks from plan.md")
+    print("  3. Update TODO task status as you complete each task")
 
     if bmad_docs:
         print(f"  4. Refer to ../planning/{args.slug}/ for BMAD context")

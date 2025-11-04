@@ -6,6 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+
 def detect_stack():
     """Detect project configuration and return commands."""
 

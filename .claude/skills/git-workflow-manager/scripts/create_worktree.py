@@ -12,6 +12,10 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Add VCS module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
+from vcs import get_vcs_adapter
+
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'  # Compact ISO8601 for filename/branch safety
 VALID_WORKFLOW_TYPES = ['feature', 'release', 'hotfix']  # Supported workflow types
@@ -98,20 +102,13 @@ def create_worktree(workflow_type, slug, base_branch):
         print(f"Git error: {e.stderr.strip()}", file=sys.stderr)
         raise
 
-    # Get GitHub username
+    # Get VCS username (GitHub/Azure DevOps)
     try:
-        gh_user = subprocess.check_output(
-            ['gh', 'api', 'user', '--jq', '.login'],
-            text=True,
-            stderr=subprocess.PIPE
-        ).strip()
-    except FileNotFoundError:
-        print("ERROR: 'gh' CLI not found. Install from https://cli.github.com/", file=sys.stderr)
-        raise
-    except subprocess.CalledProcessError as e:
-        print("ERROR: Failed to get GitHub username", file=sys.stderr)
-        print("Make sure you're authenticated: gh auth login", file=sys.stderr)
-        print(f"gh error: {e.stderr.strip()}", file=sys.stderr)
+        vcs = get_vcs_adapter()
+        gh_user = vcs.get_current_user()
+    except RuntimeError as e:
+        print("ERROR: Failed to get VCS username", file=sys.stderr)
+        print(f"Error: {e}", file=sys.stderr)
         raise
 
     todo_filename = f"TODO_{workflow_type}_{timestamp}_{slug}.md"

@@ -3,10 +3,9 @@
 
 import sys
 import zipfile
-import subprocess
-import re
+from datetime import datetime
 from pathlib import Path
-from datetime import datetime, timezone
+
 
 def list_archives(archived_dir='ARCHIVED'):
     """List all archives with timestamps."""
@@ -71,7 +70,7 @@ def extract_archive(archive_path, output_dir='.'):
         for name in zipf.namelist():
             print(f"  - {name}")
 
-    print(f"\n✓ Extraction complete")
+    print("\n✓ Extraction complete")
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
