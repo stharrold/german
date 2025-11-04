@@ -1610,6 +1610,14 @@ git log --oneline main | head -10
 #   ...
 
 # 2. Revert the merge commit
+
+# ⚠️ WARNING: Before proceeding, review the current state of main!
+# If main has moved forward significantly since the problematic release,
+# ensure you are reverting the correct commit and not affecting newer changes.
+# Use the following to inspect recent history:
+git log --oneline main | head -20
+# Confirm the merge commit hash and its position in history.
+
 git checkout main
 git pull origin main
 git revert abc123f -m 1

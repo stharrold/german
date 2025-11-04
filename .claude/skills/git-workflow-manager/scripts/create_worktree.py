@@ -184,7 +184,7 @@ Created: {created_timestamp}
                          stderr=subprocess.DEVNULL, check=False)
             subprocess.run(['git', 'branch', '-D', branch_name],
                          stderr=subprocess.DEVNULL, check=False)
-        except:
+        except (subprocess.CalledProcessError, FileNotFoundError):
             pass
         raise
 

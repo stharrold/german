@@ -63,11 +63,12 @@ def script_commits_to_branch(script_path, branch_name):
     violations = []
 
     # Patterns that indicate direct commits to the branch
+    # Use word boundaries to avoid false positives (e.g., 'feature/main-update')
     commit_patterns = [
-        rf'git\s+commit.*{branch_name}',  # git commit ... main/develop
-        rf'git\s+push.*{branch_name}',  # git push ... main/develop
-        rf'git\s+merge.*{branch_name}',  # git merge ... main/develop
-        rf'checkout\s+{branch_name}.*commit',  # checkout main ... commit
+        rf'git\s+commit.*\b{branch_name}\b',  # git commit ... main/develop (word boundary)
+        rf'git\s+push\s+(?:\S+\s+)?\b{branch_name}\b',  # git push [remote] main/develop (word boundary)
+        rf'git\s+merge\s+\b{branch_name}\b',  # git merge main/develop (word boundary)
+        rf'checkout\s+\b{branch_name}\b.*commit',  # checkout main ... commit (word boundary)
     ]
 
     # Check each line
@@ -78,6 +79,8 @@ def script_commits_to_branch(script_path, branch_name):
             continue
 
         # Check for commit patterns
+        # Track if violation found to avoid duplicates for same line
+        violation_found = False
         for pattern in commit_patterns:
             if re.search(pattern, line, re.IGNORECASE):
                 # Check if this is an allowed operation
@@ -85,7 +88,10 @@ def script_commits_to_branch(script_path, branch_name):
                     allowed in line for allowed in ALLOWED_MAIN_OPERATIONS
                 ):
                     continue  # Allowed operation on main
-                violations.append((i, line.strip()))
+                if not violation_found:
+                    violations.append((i, line.strip()))
+                    violation_found = True
+                    break  # Stop checking other patterns for this line
 
     return violations
 

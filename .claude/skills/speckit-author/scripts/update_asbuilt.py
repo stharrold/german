@@ -89,7 +89,6 @@ def analyze_deviations(planning_dir: Path, specs_dir: Path) -> List[Dict[str, st
     deviations = []
 
     # Read planning documents
-    req_path = planning_dir / 'requirements.md'
     arch_path = planning_dir / 'architecture.md'
 
     # Read specs
