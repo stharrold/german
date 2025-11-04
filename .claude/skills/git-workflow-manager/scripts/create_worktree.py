@@ -184,7 +184,9 @@ Created: {created_timestamp}
                          stderr=subprocess.DEVNULL, check=False)
             subprocess.run(['git', 'branch', '-D', branch_name],
                          stderr=subprocess.DEVNULL, check=False)
-        except:
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            # Ignore errors during cleanup: worktree/branch may not exist or removal may fail,
+            # but the original error is more important and will be re-raised.
             pass
         raise
 

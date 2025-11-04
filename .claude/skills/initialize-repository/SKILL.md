@@ -975,6 +975,118 @@ git branch contrib/$(git config user.name)
 - Customize workflow documentation for your project
 - Plan migration over multiple iterations
 
+## Post-Application Steps
+
+After initializing a repository with the workflow system, **configure branch protection** to enforce the workflow rules.
+
+### GitHub Branch Protection Setup
+
+**CRITICAL:** Configure GitHub branch protection rules for `main` and `develop` branches.
+
+**Why this is important:**
+- Prevents accidental deletion of protected branches
+- Prevents direct commits (bypassing review and quality gates)
+- Enforces PR-based workflow
+- Ensures quality gates run before merge
+
+**Setup instructions:**
+
+1. **Navigate to GitHub repository settings:**
+   ```
+   Your Repository → Settings → Branches → Branch protection rules
+   ```
+
+2. **Add rule for `main` branch:**
+   - Click "Add rule"
+   - Branch name pattern: `main`
+   - ✅ Require pull request before merging
+   - ✅ Require approvals: 1 (or more for team repositories)
+   - ✅ Require status checks to pass before merging (if CI/CD configured)
+   - ✅ Require conversation resolution before merging
+   - ✅ Do not allow bypassing the above settings
+   - Click "Create"
+
+3. **Add rule for `develop` branch:**
+   - Click "Add rule"
+   - Branch name pattern: `develop`
+   - ✅ Require pull request before merging
+   - ✅ Require approvals: 1 (or more for team repositories)
+   - ✅ Require status checks to pass before merging (if CI/CD configured)
+   - Click "Create"
+
+**Detailed guide:** See `.github/BRANCH_PROTECTION.md` in your new repository for step-by-step screenshots and troubleshooting.
+
+### Pre-push Hook Installation (Optional Safety Net)
+
+Install the pre-push hook to prevent accidental direct pushes to `main` or `develop`:
+
+```bash
+cd /path/to/new-repo
+cp .git-hooks/pre-push .git/hooks/pre-push
+chmod +x .git/hooks/pre-push
+```
+
+**What it does:**
+- Blocks direct pushes to `main` or `develop`
+- Displays helpful error message
+- Reminds you to create a pull request instead
+
+**Testing the hook:**
+```bash
+# Try to push to main (should fail)
+git checkout main
+git commit --allow-empty -m "test"
+git push origin main  # Hook blocks this
+
+# Expected output:
+# ERROR: Direct push to main is not allowed.
+# Please create a pull request instead.
+```
+
+### Azure DevOps Branch Policies (Alternative to GitHub)
+
+If using Azure DevOps instead of GitHub:
+
+1. **Navigate to repository branch policies:**
+   ```
+   Your Project → Repos → Branches → main → Branch policies
+   ```
+
+2. **Configure main branch policies:**
+   - ✅ Require a minimum number of reviewers: 1
+   - ✅ Check for linked work items: Enabled (optional)
+   - ✅ Check for comment resolution: All
+   - ✅ Limit merge types: Squash merge or Merge commit
+
+3. **Repeat for develop branch**
+
+### Verification
+
+After setup, verify protection is active:
+
+```bash
+# Attempt direct commit to main (should fail on remote)
+git checkout main
+git commit --allow-empty -m "test protection"
+git push origin main
+
+# Expected: GitHub/Azure DevOps rejects the push
+# Success message: "remote: error: GH006: Protected branch update failed"
+```
+
+### Post-Initialization Checklist
+
+After running `initialize_repository.py` and configuring branch protection:
+
+- [ ] Repository initialized and pushed to remote
+- [ ] Branch protection configured for `main`
+- [ ] Branch protection configured for `develop`
+- [ ] Pre-push hook installed (optional)
+- [ ] Hook tested (attempt direct push, verify it blocks)
+- [ ] Dependencies installed (`uv sync`)
+- [ ] Tests passing (`uv run pytest`)
+- [ ] Ready to start Phase 1 (BMAD planning)
+
 ## Error Handling
 
 The script validates and handles errors at each phase:

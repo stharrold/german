@@ -41,6 +41,8 @@ gh auth login              # For GitHub
 - **Containerization:** Podman (optional)
 - **Git Workflow:** Git-flow + GitHub-flow hybrid with worktrees
 
+**⚠️ Protected Branches:** `main` and `develop` are permanent branches. Never delete or commit directly to them. All changes via pull requests only. See [WORKFLOW.md](WORKFLOW.md#branch-protection-policy) for details.
+
 ## Workflow Overview
 
 This project uses a skill-based progressive workflow:

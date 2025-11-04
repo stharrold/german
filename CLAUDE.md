@@ -249,10 +249,67 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 
 **Current contrib branch:** `contrib/stharrold`
 
+### Protected Branches
+
+**CRITICAL:** `main` and `develop` are **protected and permanent** branches.
+
+**Rules:**
+1. ❌ **Never delete** `main` or `develop`
+2. ❌ **Never commit directly** to `main` or `develop`
+3. ✅ **Only merge via pull requests** (reviewed and approved)
+
+**Exception:** `backmerge_release.py` commits to `develop` during Phase 5.5 (documented in WORKFLOW.md)
+
+**Technical enforcement:**
+- Configure GitHub branch protection (see `.github/BRANCH_PROTECTION.md`)
+- Install pre-push hook: `cp .git-hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
+
+**If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
+
 **Branch workflows:**
 - **Features:** contrib → feature worktree → contrib → develop → release → main
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
 - **Releases:** develop → release branch → main (tagged) → back-merge to develop
+
+## Production Safety & Rollback
+
+**Critical principle:** Deploy from **tags** (v1.5.1), never branch heads. Tags are immutable and enable instant rollback.
+
+### Emergency Rollback (if production breaks)
+
+**Fastest rollback (2 minutes):**
+```bash
+git checkout v1.5.0  # Last known good tag
+# Deploy this tag to production
+```
+
+**Remove bad release from main:**
+```bash
+git revert <merge-commit-sha> -m 1
+git tag -a v1.5.2 -m "Revert broken v1.5.1"
+git push origin v1.5.2
+```
+
+**If hotfix takes too long:**
+- Keep production on v1.5.0 (stable)
+- Don't rush the hotfix - do it properly with quality gates
+- Production stability > speed
+
+**Why tag-based deployment:**
+- v1.5.1 never changes (immutable)
+- Can reproduce exact deployment anytime
+- Instant rollback (no code changes)
+- Clear version in production
+
+**Main branch protection:**
+- Hotfix work isolated in separate worktree (main untouched)
+- Main only updated via merged PRs
+- Tagged releases are immutable (can always rollback)
+
+**See WORKFLOW.md "Production Safety & Rollback" section for:**
+- Complete rollback procedures (3 scenarios)
+- Rollback decision tree
+- Timeline estimates (10 min rollback, 20 min cleanup)
 
 ## Common Development Commands
 
@@ -469,6 +526,60 @@ Use `workflow-utilities/scripts/directory_structure.py` to create compliant dire
 - ✓ Linting clean (ruff)
 - ✓ Type checking clean (mypy)
 - ✓ Container healthy (if applicable)
+
+## GitHub Issue Management
+
+**Issue Sources:**
+- GitHub Copilot code reviews (automated static analysis)
+- Manual issue creation by contributors
+- Dependency security alerts
+
+**Issue Workflow:**
+1. **On contrib branch:** Fix issues locally while working on features
+2. **Create commits:** Reference issue numbers in commit messages
+   ```bash
+   git commit -m "fix(quality): resolve unused variable (Issue #44)"
+   ```
+3. **Batch fixes:** Multiple related issues can be fixed in one commit
+   ```bash
+   git commit -m "fix(quality): resolve all GitHub Copilot code review issues
+
+   Fixed 11 code quality issues identified by Copilot code reviews:
+   - Issues #44-47: Remove unused variables
+   - Issue #49: Fix bare except blocks
+   - Issue #48: Fix Python 3 syntax error
+   ..."
+   ```
+4. **PR to develop:** Include issue references in PR description
+5. **Close issues:** Issues auto-close when PR merges if commit message uses "fix", "fixes", "close", "closes", "resolve", "resolves"
+
+**Common Issue Types:**
+- **Unused variables/imports:** Remove or use the variable
+- **Bare except blocks:** Replace `except:` with specific exceptions (e.g., `except (ValueError, TypeError):`)
+- **Line too long (>100 chars):** Break into multiple lines (acceptable in some cases)
+- **Syntax errors:** Fix immediately (blocking)
+- **Security issues:** Address with highest priority
+
+**Quality Commands:**
+```bash
+# Check for linting issues (pyflakes only)
+uv run ruff check . --select F
+
+# Check all linting rules
+uv run ruff check .
+
+# Auto-fix safe issues
+uv run ruff check --fix .
+
+# Run tests to verify fixes
+uv run pytest -v
+```
+
+**Best Practices:**
+- Fix issues on feature/contrib branches, not directly on develop/main
+- Group related fixes in single commits (e.g., all unused variables together)
+- Always run tests after fixes to ensure no regressions
+- Reference issue numbers in commit messages for traceability
 
 ## Project Configuration
 

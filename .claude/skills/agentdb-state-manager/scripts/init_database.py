@@ -196,9 +196,9 @@ def create_schema(session_id: str, workflow_states: Dict[str, Any]) -> bool:
         """,
     ]
 
-    # In actual execution, would call AgentDB tool here:
-    # for sql in sql_statements:
-    #     agentdb_execute(session_id, sql)
+    # NOTE: Placeholder for actual AgentDB execution (not dead code)
+    # In production, would call: agentdb_execute(session_id, sql) for each statement
+    # Current implementation outputs SQL for manual execution/verification
 
     print(f"\n{Colors.BOLD}Schema SQL (to be executed via AgentDB):{Colors.END}")
     for i, sql in enumerate(sql_statements, 1):

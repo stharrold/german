@@ -15,7 +15,6 @@ import argparse
 import json
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -76,7 +75,6 @@ def convert_to_records(frontmatter: Dict[str, Any], file_name: str) -> List[Dict
         List of records to insert into workflow_records table
     """
     records = []
-    timestamp = datetime.now(timezone.utc).isoformat()
 
     # Workflow-level record
     workflow_id = frontmatter.get('slug', 'unknown')

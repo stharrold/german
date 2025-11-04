@@ -31,6 +31,28 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 hotfix/vX.Y.Z-hotfix.N       ← Production hotfix (worktree)
 ```
 
+### Protected Branch Policy
+
+**CRITICAL:** This skill manages git operations and MUST enforce branch protection rules.
+
+**Protected branches (NEVER delete, NEVER commit directly):**
+- `main` - Production branch (tagged releases only)
+- `develop` - Integration branch (PR merges only)
+
+**All scripts in this skill comply with:**
+1. No direct commits to `main` (except tag operations)
+2. No direct commits to `develop` (except backmerge_release.py - documented exception)
+3. All merges via pull requests (user merges in GitHub/Azure DevOps UI)
+
+**Exception documented:**
+- `backmerge_release.py` commits to `develop` during Phase 5.5 back-merge
+- This is safe: merges from release branch only, no code changes, maintains history
+
+**Script validation:**
+- All scripts in `scripts/` directory are validated for compliance
+- Test: `tests/test_branch_protection.py` verifies no unintended main/develop commits
+- See WORKFLOW.md "Branch Protection Policy" for complete rules
+
 ## Scripts
 
 ### create_worktree.py
