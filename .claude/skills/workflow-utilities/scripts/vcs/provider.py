@@ -26,7 +26,7 @@ GITHUB_PATTERNS = [
 ]
 
 AZURE_DEVOPS_PATTERNS = [
-    r'dev\.azure\.com/',  # https://dev.azure.com/org/project
+    r'dev\.azure\.com[/:]',  # https://dev.azure.com/org/project or git@ssh.dev.azure.com:v3
     r'@vs-ssh\.visualstudio\.com',  # git@vs-ssh.visualstudio.com:v3/org/project/repo
     r'\.visualstudio\.com/',  # https://org.visualstudio.com/project
 ]
