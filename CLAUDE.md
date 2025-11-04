@@ -294,9 +294,14 @@ python .claude/skills/workflow-utilities/scripts/todo_updater.py \
 python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
   TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
 
-# Archive workflow (Phase 4.3: after PR merge)
+# Archive workflow (Phase 4.4: after PR merge)
 python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
   TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+
+# Delete worktree and branch (Phase 4.5: after archival)
+git worktree remove ../german_feature_<slug>
+git branch -D feature/<timestamp>_<slug>
+git push origin --delete feature/<timestamp>_<slug>
 
 # Sync TODO.md with filesystem (recovery)
 python .claude/skills/workflow-utilities/scripts/sync_manifest.py
@@ -678,14 +683,22 @@ Body content with human-readable summaries...
 
 2. **During workflow:** TODO_feature_*.md tracks individual task progress
 
-3. **Phase 4.3 (Archival):** After PR merge, move to archived list:
+3. **Phase 4.4 (Archival):** After PR merge, move to archived list:
    ```bash
    python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
      TODO_feature_*.md --summary "What was completed" --version "1.5.0"
    ```
    This moves file to ARCHIVED/ and updates TODO.md manifest
 
-4. **Recovery (if needed):** Rebuild manifest from filesystem:
+4. **Phase 4.5 (Cleanup):** Delete worktree and feature branch:
+   ```bash
+   git worktree remove ../german_feature_<slug>
+   git branch -D feature/<timestamp>_<slug>
+   git push origin --delete feature/<timestamp>_<slug>
+   ```
+   Removes local worktree, local branch, and remote branch
+
+5. **Recovery (if needed):** Rebuild manifest from filesystem:
    ```bash
    python .claude/skills/workflow-utilities/scripts/sync_manifest.py
    ```
@@ -701,12 +714,19 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.4.0
+**Current version:** v1.5.0
 - v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
 - v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
 - v1.3.0 → v1.4.0: BMAD and SpecKit callable tools with 89-91% token reduction (MINOR)
+- v1.4.0 → v1.5.0: Azure DevOps CLI support with VCS abstraction layer (MINOR)
 
-**Latest additions (not yet released):**
+**Previously released:**
+- v1.5.0: Azure DevOps CLI support with VCS abstraction layer
+- v1.4.0: BMAD and SpecKit callable tools with token reduction
+- v1.3.0: Complete B1 German listening practice library
+- v1.2.0: Release automation scripts + workflow v5.0 architecture
+
+**Included in v1.5.0 or earlier:**
 - Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
 - CHANGELOG system for all skills
 - CONTRIBUTING.md with contributor guidelines
