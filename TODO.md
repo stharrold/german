@@ -1,14 +1,9 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-03T18:26:14.736743+00:00'
+last_update: '2025-11-04T01:24:37.687598+00:00'
 workflows:
-  active:
-  - slug: azure-devops-cli
-    timestamp: '2025-11-03T17:07:21Z'
-    title: Azure DevOps CLI Support
-    status: in_progress
-    file: TODO_feature_20251103T170721Z_azure-devops-cli.md
+  active: []
   archived:
   - slug: workflow
     timestamp: 20251023T123254Z
@@ -19,10 +14,19 @@ workflows:
     file: ARCHIVED/TODO_feature_20251023T123254Z_workflow.md
     summary: Implemented 4 release automation scripts (create_release.py, tag_release.py,
       backmerge_release.py, cleanup_release.py) with tests and documentation
+  - slug: azure-devops-cli
+    timestamp: '2025-11-03T17:07:21Z'
+    title: Azure DevOps CLI Support
+    status: completed
+    file: ARCHIVED/TODO_feature_20251103T220043Z_azure-devops-cli.md
+    completed_at: '2025-11-04T01:24:37.687200+00:00'
+    summary: Azure DevOps CLI support with VCS abstraction - 6 commits, 62 tests,
+      90% coverage, v1.5.0
+    semantic_version: 1.5.0
 context_stats:
-  total_workflows_completed: 1
+  total_workflows_completed: 2
   current_token_usage: 55000
-  last_checkpoint: '2025-11-03T17:07:21Z'
+  last_checkpoint: '2025-11-04T01:24:37.687596+00:00'
   recent_improvements: Added agentdb-state-manager skill (v1.0.0), TODO lifecycle
     management in workflow-utilities (v5.1.0), existing repository documentation for
     initialize-repository (v1.0.1)
