@@ -1,0 +1,70 @@
+# VCS Provider Configuration Example
+#
+# This file demonstrates how to configure the workflow system to use
+# different VCS providers (GitHub or Azure DevOps).
+#
+# Copy this file to .vcs_config.yaml and uncomment the section you need.
+
+# ==============================================================================
+# Option 1: GitHub (Default)
+# ==============================================================================
+# If you're using GitHub, no configuration file is needed!
+# The system auto-detects GitHub from your git remote URL.
+#
+# However, you can explicitly configure it:
+#
+# vcs_provider: github
+
+# ==============================================================================
+# Option 2: Azure DevOps
+# ==============================================================================
+# Azure DevOps requires explicit configuration with organization and project.
+#
+# Uncomment and configure the following:
+
+# vcs_provider: azure_devops
+#
+# azure_devops:
+#   # Organization URL (with https://)
+#   organization: "https://dev.azure.com/myorg"
+#
+#   # Project name
+#   project: "MyProject"
+
+# ==============================================================================
+# Setup Instructions
+# ==============================================================================
+#
+# GitHub Setup:
+# 1. Install GitHub CLI: https://cli.github.com/
+# 2. Authenticate: gh auth login
+# 3. No configuration file needed (auto-detected)
+#
+# Azure DevOps Setup:
+# 1. Install Azure CLI: https://learn.microsoft.com/cli/azure/
+# 2. Install Azure DevOps extension: az extension add --name azure-devops
+# 3. Authenticate: az login
+# 4. Copy this file to .vcs_config.yaml
+# 5. Uncomment and configure the azure_devops section above
+# 6. Set defaults: az devops configure --defaults organization=https://dev.azure.com/myorg project=MyProject
+#
+# ==============================================================================
+# How Detection Works
+# ==============================================================================
+#
+# The VCS adapter uses this detection order:
+# 1. Load .vcs_config.yaml (if exists) → use specified provider
+# 2. Detect from git remote URL
+#    - github.com → GitHub
+#    - dev.azure.com → Azure DevOps
+#    - visualstudio.com → Azure DevOps
+# 3. Default to GitHub (backward compatibility)
+#
+# ==============================================================================
+# Validation
+# ==============================================================================
+#
+# Test your configuration:
+#   python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature test-vcs contrib/yourname
+#
+# The script will attempt to get your VCS username and report any errors.
