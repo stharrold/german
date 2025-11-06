@@ -10,7 +10,6 @@ Constants:
   Rationale: Validate configuration against supported providers
 """
 
-import sys
 from pathlib import Path
 from typing import Any, Dict, Optional
 
