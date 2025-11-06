@@ -550,8 +550,31 @@ Use `workflow-utilities/scripts/directory_structure.py` to create compliant dire
    - Issue #48: Fix Python 3 syntax error
    ..."
    ```
-4. **PR to develop:** Include issue references in PR description
-5. **Close issues:** Issues auto-close when PR merges if commit message uses "fix", "fixes", "close", "closes", "resolve", "resolves"
+4. **PR to develop:** Include issue references in PR description with exact keywords
+5. **Close issues:** Issues auto-close when PR merges if commit message uses **exact keywords** followed by `#N`:
+   - **Closes #N** (recommended - most explicit)
+   - **Fixes #N** (for bug fixes)
+   - **Resolves #N** (for general issues)
+
+   **Multiple issues:** Use one keyword per line:
+   ```bash
+   git commit -m "fix(quality): add explicit UTF-8 encoding to file operations
+
+   Add encoding='utf-8' parameter to all open() calls for cross-platform compatibility.
+
+   Closes #60
+   Closes #61
+   Closes #62"
+   ```
+
+   **IMPORTANT:** The format must be **exactly** `Closes #N` (not "Issues #N" or "Issue #N")
+
+**Troubleshooting - Issues Not Auto-Closing:**
+
+If issues remain open after PR merge:
+1. Check commit messages for exact keyword format (`Closes #N`)
+2. **Manual close:** `gh issue close <number> --comment "Fixed in vX.Y.Z"`
+3. **Proper commit (future PRs):** Use exact keywords listed above
 
 **Common Issue Types:**
 - **Unused variables/imports:** Remove or use the variable

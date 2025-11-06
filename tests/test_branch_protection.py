@@ -57,7 +57,7 @@ def script_commits_to_branch(script_path, branch_name):
     Returns:
         List of line numbers where violations found (empty if compliant)
     """
-    with open(script_path, 'r') as f:
+    with open(script_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
     violations = []
@@ -159,7 +159,7 @@ def test_backmerge_release_has_exception_warning():
     if not backmerge_script.exists():
         pytest.skip(f"backmerge_release.py not found: {backmerge_script}")
 
-    with open(backmerge_script, 'r') as f:
+    with open(backmerge_script, 'r', encoding='utf-8') as f:
         content = f.read()
 
     # Check for exception warning in first 50 lines
@@ -232,7 +232,7 @@ def test_branch_protection_documentation_exists():
     for doc_path in required_docs:
         if not doc_path.exists():
             continue
-        with open(doc_path, 'r') as f:
+        with open(doc_path, 'r', encoding='utf-8') as f:
             content = f.read().lower()
         if "branch protection" not in content and "protected branch" not in content:
             docs_without_policy.append(str(doc_path))

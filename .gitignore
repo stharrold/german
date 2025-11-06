@@ -13,6 +13,8 @@ env/
 
 # Testing
 .coverage
+coverage.xml
+test-results.xml
 .pytest_cache/
 htmlcov/
 coverage.json

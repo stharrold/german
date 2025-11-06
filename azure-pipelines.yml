@@ -1,0 +1,71 @@
+# Azure Pipelines CI/CD configuration for German language learning project
+# Runs automated tests, linting, and type checking on all pushes and PRs
+
+trigger:
+  branches:
+    include:
+      - main
+      - develop
+
+pr:
+  branches:
+    include:
+      - main
+      - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: Test
+  displayName: 'Run Tests and Quality Checks'
+
+  steps:
+  - checkout: self
+    displayName: 'Checkout code'
+
+  - task: UsePythonVersion@0
+    displayName: 'Set up Python 3.11'
+    inputs:
+      versionSpec: '3.11'
+      addToPath: true
+
+  - script: |
+      curl -LsSf https://astral.sh/uv/install.sh | sh
+      echo "##vso[task.prependpath]$HOME/.cargo/bin"
+    displayName: 'Install uv'
+
+  - script: |
+      uv sync --frozen
+    displayName: 'Install dependencies'
+
+  - script: |
+      uv run pytest --cov=src --cov-report=term --cov-report=xml --cov-fail-under=80 --junit-xml=test-results.xml
+    displayName: 'Run tests with coverage'
+
+  - script: |
+      uv run ruff check .
+    displayName: 'Run linting (ruff)'
+
+  - script: |
+      uv run mypy src/
+    displayName: 'Run type checking (mypy)'
+
+  # Publish coverage results to Azure DevOps
+  - task: PublishCodeCoverageResults@2
+    displayName: 'Publish coverage results'
+    condition: succeededOrFailed()
+    inputs:
+      codeCoverageTool: 'Cobertura'
+      summaryFileLocation: '$(System.DefaultWorkingDirectory)/coverage.xml'
+      failIfCoverageEmpty: false
+
+  # Publish test results to Azure DevOps
+  - task: PublishTestResults@2
+    displayName: 'Publish test results'
+    condition: succeededOrFailed()
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: 'test-results.xml'
+      failTaskOnFailedTests: true
+      testRunTitle: 'Python Tests'

@@ -8,10 +8,15 @@ from pathlib import Path
 
 
 def get_changed_files(base_branch):
-    """Get list of changed files compared to base."""
+    """Get list of changed files compared to base.
+
+    Uses three-dot diff (base_branch...HEAD) to compare the current branch
+    against the merge-base with base_branch. This ensures we detect all changes
+    that will be included in a PR/merge, not just uncommitted working directory changes.
+    """
     try:
         result = subprocess.check_output(
-            ['git', 'diff', '--name-only', base_branch],
+            ['git', 'diff', '--name-only', f'{base_branch}...HEAD'],
             text=True
         )
         return [f for f in result.strip().split('\n') if f]

@@ -6,10 +6,11 @@ in WORKFLOW.md. It creates a release branch following git-flow conventions,
 validates the version, and generates a TODO file for tracking release tasks.
 
 Usage:
-    python create_release.py <version> <base_branch>
+    python create_release.py <version> <base_branch> [--yes]
 
 Example:
     python create_release.py v1.1.0 develop
+    python create_release.py v1.1.0 develop --yes  # Skip confirmation prompts
 
 Requirements:
     - Clean working directory (no uncommitted changes)
@@ -18,6 +19,7 @@ Requirements:
     - Version tag must not already exist
 """
 
+import argparse
 import re
 import subprocess
 import sys
@@ -178,18 +180,24 @@ def get_semantic_version_recommendation(base_branch):
         return None
 
 
-def confirm_version_mismatch(provided_version, recommended_version):
+def confirm_version_mismatch(provided_version, recommended_version, auto_confirm=False):
     """
     Prompt user to confirm if provided version differs from recommendation.
 
     Args:
         provided_version: Version provided by user
         recommended_version: Version recommended by semantic_version.py
+        auto_confirm: If True, skip confirmation prompt (for --yes flag)
 
     Returns:
-        True if user confirms, False otherwise
+        True if user confirms or auto_confirm is True, False otherwise
     """
     if provided_version == recommended_version:
+        return True
+
+    if auto_confirm:
+        print(f"⚠️  Version mismatch: provided {provided_version}, recommended {recommended_version}", file=sys.stderr)
+        print(f"Continuing with {provided_version} (--yes flag enabled)", file=sys.stderr)
         return True
 
     print("\n⚠️  Version Mismatch Warning", file=sys.stderr)
@@ -496,13 +504,29 @@ python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}
 
 def main():
     """Main entry point for create_release.py script."""
-    if len(sys.argv) != 3:
-        print("Usage: create_release.py <version> <base_branch>", file=sys.stderr)
-        print("Example: create_release.py v1.1.0 develop", file=sys.stderr)
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description="Create release branch from base branch with TODO file generation",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s v1.1.0 develop
+  %(prog)s v1.1.0 develop --yes
 
-    version = sys.argv[1]
-    base_branch = sys.argv[2]
+For more information, see WORKFLOW.md Phase 5 (Release Workflow).
+        """
+    )
+    parser.add_argument("version", help="Release version (e.g., v1.1.0)")
+    parser.add_argument("base_branch", help="Base branch to create release from (e.g., develop)")
+    parser.add_argument(
+        "--yes", "-y",
+        action="store_true",
+        help="Skip confirmation prompts (non-interactive mode)"
+    )
+
+    args = parser.parse_args()
+    version = args.version
+    base_branch = args.base_branch
+    auto_confirm = args.yes
 
     try:
         # Step 1: Input Validation
@@ -517,7 +541,7 @@ def main():
         recommended_version = get_semantic_version_recommendation(base_branch)
 
         if recommended_version and recommended_version != version:
-            if not confirm_version_mismatch(version, recommended_version):
+            if not confirm_version_mismatch(version, recommended_version, auto_confirm):
                 print("Release creation cancelled by user.", file=sys.stderr)
                 sys.exit(1)
 
