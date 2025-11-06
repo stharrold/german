@@ -17,8 +17,7 @@ from typing import Any, Dict, Optional
 try:
     import yaml
 except ImportError:
-    print("Error: PyYAML required. Install: pip install pyyaml", file=sys.stderr)
-    sys.exit(1)
+    yaml = None  # Will be checked in functions that use it
 
 
 # Constants
@@ -35,6 +34,9 @@ def load_vcs_config(config_path: Optional[Path] = None) -> Optional[Dict[str, An
     Returns:
         Configuration dict or None if file doesn't exist
 
+    Raises:
+        ImportError: If PyYAML is not installed
+
     Example config:
         vcs_provider: azure_devops
 
@@ -42,6 +44,12 @@ def load_vcs_config(config_path: Optional[Path] = None) -> Optional[Dict[str, An
           organization: "https://dev.azure.com/myorg"
           project: "MyProject"
     """
+    if yaml is None:
+        raise ImportError(
+            "PyYAML is required to load VCS configuration. "
+            "Install it with: pip install pyyaml"
+        )
+
     if config_path is None:
         config_path = Path.cwd() / CONFIG_FILE_NAME
 
