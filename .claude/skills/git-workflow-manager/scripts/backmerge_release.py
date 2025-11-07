@@ -146,127 +146,17 @@ def check_working_directory_clean():
         ) from e
 
 
-def checkout_and_pull_branch(branch_name):
-    """
-    Checkout target branch and pull latest changes.
-
-    Args:
-        branch_name: Branch to checkout and update
-
-    Returns:
-        Latest commit SHA
-
-    Raises:
-        RuntimeError: If checkout or pull fails
-    """
-    try:
-        # Checkout branch
-        subprocess.run(
-            ['git', 'checkout', branch_name],
-            capture_output=True,
-            check=True
-        )
-
-        # Pull latest
-        subprocess.run(
-            ['git', 'pull', 'origin', branch_name],
-            capture_output=True,
-            check=True
-        )
-
-        # Get commit SHA
-        result = subprocess.run(
-            ['git', 'rev-parse', '--short', 'HEAD'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
-
-        return result.stdout.strip()
-
-    except subprocess.CalledProcessError as e:
-        error_msg = e.stderr.decode() if e.stderr else 'Unknown error'
-        raise RuntimeError(
-            f"Failed to checkout/pull branch '{branch_name}': {error_msg}"
-        ) from e
-
-
-def attempt_merge(version, target_branch):
-    """
-    Attempt to merge release branch into target branch.
-
-    Args:
-        version: Release version (e.g., 'v1.1.0')
-        target_branch: Target branch name (e.g., 'develop')
-
-    Returns:
-        Tuple of (success: bool, conflicts: list[str])
-
-    Raises:
-        RuntimeError: If merge command fails unexpectedly
-    """
-    release_branch = f"{RELEASE_BRANCH_PREFIX}{version}"
-
-    try:
-        # Attempt merge with --no-ff to preserve history and --no-commit to detect conflicts
-        result = subprocess.run(
-            ['git', 'merge', release_branch, MERGE_STRATEGY, '--no-commit'],
-            capture_output=True,
-            text=True,
-            check=False
-        )
-
-        if result.returncode == 0:
-            # Merge succeeded
-            return True, []
-        else:
-            # Check if it's a merge conflict
-            if 'CONFLICT' in result.stdout or 'conflict' in result.stderr.lower():
-                # Get list of conflicting files
-                conflicts_result = subprocess.run(
-                    ['git', 'diff', '--name-only', '--diff-filter=U'],
-                    capture_output=True,
-                    text=True,
-                    check=True
-                )
-
-                conflicts = [f for f in conflicts_result.stdout.strip().split('\n') if f]
-
-                # Abort merge
-                subprocess.run(
-                    ['git', 'merge', '--abort'],
-                    capture_output=True,
-                    check=True
-                )
-
-                return False, conflicts
-            else:
-                # Unexpected error
-                raise RuntimeError(
-                    f"Merge failed unexpectedly: {result.stderr}"
-                )
-
-    except subprocess.CalledProcessError as e:
-        raise RuntimeError(
-            f"Failed to execute merge command: {e.stderr.decode() if e.stderr else 'Unknown error'}"
-        ) from e
-
-
-def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
+def create_pr(version, target_branch):
     """
     Create PR to merge release branch back to target branch.
 
-    This function creates a PR for back-merge regardless of whether there are
-    conflicts. This ensures all merges to develop go through proper review
-    workflow and branch protection policies.
+    This function creates a PR for back-merge. GitHub/CI will detect any
+    merge conflicts automatically. This ensures all merges to develop go
+    through proper review workflow and branch protection policies.
 
     Args:
         version: Release version (e.g., 'v1.1.0')
         target_branch: Target branch (e.g., 'develop')
-        has_conflicts: Whether merge conflicts were detected
-        conflicts: Optional list of conflicting file paths. Required when
-            has_conflicts=True, can be None or omitted when has_conflicts=False.
-            Defaults to empty list if None.
 
     Returns:
         PR URL if successful
@@ -274,8 +164,6 @@ def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
     Raises:
         RuntimeError: If gh/az CLI not available or PR creation fails
     """
-    if conflicts is None:
-        conflicts = []
     # Check if gh CLI is available
     try:
         subprocess.run(
@@ -285,8 +173,8 @@ def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
         )
     except (subprocess.CalledProcessError, FileNotFoundError):
         raise RuntimeError(
-            "gh CLI not available. Cannot create PR for conflict resolution. "
-            "Install gh CLI: https://cli.github.com/ or resolve conflicts manually."
+            "gh CLI not available. Cannot create PR. "
+            "Install gh CLI: https://cli.github.com/"
         )
 
     release_branch = f"{RELEASE_BRANCH_PREFIX}{version}"
@@ -307,52 +195,9 @@ def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
     except subprocess.CalledProcessError:
         tag_url = f"Release {version}"
 
-    if has_conflicts:
-        pr_body = f"""## Back-merge with Conflicts
+    pr_body = f"""## Back-merge Release to Develop
 
 This PR merges `{release_branch}` back to `{target_branch}` to complete the release cycle.
-
-⚠️ **Merge conflicts were detected.** Please resolve them before merging.
-
-### Release Information
-- **Version:** {version}
-- **Release Tag:** {tag_url}
-- **Source Branch:** `{release_branch}`
-- **Target Branch:** `{target_branch}`
-
-### Conflicting Files
-
-"""
-        for conflict in conflicts:
-            pr_body += f"- `{conflict}`\n"
-
-        pr_body += """
-### Resolution Instructions
-
-1. Review this PR in GitHub/Azure DevOps portal
-2. If conflicts exist, resolve them:
-   ```bash
-   gh pr checkout <PR_NUMBER>
-   # Resolve conflicts in listed files
-   git add .
-   git commit -m "chore: resolve back-merge conflicts"
-   git push
-   ```
-3. Run quality gates:
-   ```bash
-   python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
-   ```
-4. Merge through portal when all checks pass (no approval required)
-
----
-*Generated by backmerge_release.py*
-"""
-    else:
-        pr_body = f"""## Back-merge Release to Develop
-
-This PR merges `{release_branch}` back to `{target_branch}` to complete the release cycle.
-
-✅ **No merge conflicts detected.** This is a clean merge.
 
 ### Release Information
 - **Version:** {version}
@@ -367,7 +212,10 @@ Merges release-specific changes (documentation, version bumps) from the release 
 ### Review Instructions
 
 1. **Review changes** - Verify documentation updates and version changes
-2. **Merge** - Use GitHub/Azure DevOps portal merge button when ready (no approval required)
+2. **Wait for CI** - Ensure all tests pass
+3. **Merge** - Use GitHub/Azure DevOps portal merge button when ready (no approval required)
+
+GitHub will automatically detect any merge conflicts. If conflicts exist, resolve them in the PR.
 
 This follows the git-flow release workflow where all merges to develop go through PRs, even for release back-merges.
 
@@ -423,60 +271,28 @@ def main():
         verify_branch_exists(release_branch)
         verify_branch_exists(target_branch)
         verify_tag_exists(version)
-        check_working_directory_clean()
 
-        # Step 2: Checkout and Pull Target Branch
-        print(f"Checking out {target_branch} and pulling latest...", file=sys.stderr)
-        checkout_and_pull_branch(target_branch)
-
-        # Step 3: Attempt Merge (locally to check for conflicts)
-        print("Checking for merge conflicts...", file=sys.stderr)
-        success, conflicts = attempt_merge(version, target_branch)
-
-        # Step 4: Abort local merge (we'll merge via PR)
-        if success:
-            # Abort successful merge - we need to do it via PR
-            print("Aborting local merge (will merge via PR)...", file=sys.stderr)
-            subprocess.run(['git', 'merge', '--abort'], capture_output=True, check=True)
-
-        # Step 5: Always create PR (whether conflicts or not)
+        # Step 2: Create PR directly (no local merge attempts)
         print("Creating pull request for back-merge...", file=sys.stderr)
-        pr_url = create_pr(version, target_branch, has_conflicts=not success, conflicts=conflicts if not success else None)
+        pr_url = create_pr(version, target_branch)
 
         # Output
-        if not success:
-            print(f"\n⚠️  Merge conflicts detected in {len(conflicts)} file(s)")
-            print(f"✓ Created PR: {pr_url}")
-            print(f"  Title: \"chore(release): back-merge {version} to {target_branch}\"")
-            print("\nConflicting files:")
-            for conflict in conflicts:
-                print(f"  - {conflict}")
-            print("\n📋 Next steps:")
-            print("  1. Review PR in GitHub/Azure DevOps portal")
-            print("  2. Resolve conflicts (see PR description for commands)")
-            print("  3. Merge through portal when checks pass")
-            print(f"  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
-        else:
-            print("\n✓ No merge conflicts detected")
-            print(f"✓ Created PR: {pr_url}")
-            print(f"  Title: \"chore(release): back-merge {version} to {target_branch}\"")
-            print("\n📋 Next steps:")
-            print("  1. Review PR in GitHub/Azure DevOps portal")
-            print("  2. Merge through portal when ready")
-            print(f"  3. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
+        print(f"\n✓ Created PR: {pr_url}")
+        print(f"  Title: \"chore(release): back-merge {version} to {target_branch}\"")
+        print("\n📋 Next steps:")
+        print("  1. Review PR in GitHub/Azure DevOps portal")
+        print("  2. Wait for CI checks to pass")
+        print("  3. Merge through portal when ready")
+        print(f"  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
 
     except (ValueError, RuntimeError) as e:
         print(f"ERROR: {e}", file=sys.stderr)
         sys.exit(1)
     except KeyboardInterrupt:
         print("\nBack-merge cancelled by user.", file=sys.stderr)
-        # Abort any in-progress merge
-        subprocess.run(['git', 'merge', '--abort'], capture_output=True, check=False)
         sys.exit(1)
     except Exception as e:
         print(f"UNEXPECTED ERROR: {e}", file=sys.stderr)
-        # Abort any in-progress merge
-        subprocess.run(['git', 'merge', '--abort'], capture_output=True, check=False)
         sys.exit(1)
 
 
