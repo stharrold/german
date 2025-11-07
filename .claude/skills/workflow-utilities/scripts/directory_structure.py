@@ -38,7 +38,7 @@ def format_yaml_list(items, indent=2):
         Formatted YAML list string
     """
     if not items:
-        return "[]"
+        return " []"
 
     spaces = " " * indent
     return "\n" + "\n".join(f"{spaces}- {item}" for item in items)

@@ -210,7 +210,7 @@ related_skills:{skills_yaml}
 
 - **[README.md](README.md)** - Human-readable documentation for this directory
 """ + (f"- **[{parent_claude}]({parent_claude})** - Parent directory\n\n" if parent_claude else "\n") +
-                ("**Child Directories:**\n" + "\n".join(f"- **[{child}]({child})]**" for child in child_dirs) + "\n\n" if child_dirs else "") +
+                ("**Child Directories:**\n" + "\n".join(f"- **[{child}]({child})**" for child in child_dirs) + "\n\n" if child_dirs else "") +
                 "## Related Skills"
             )
         else:
@@ -219,7 +219,7 @@ related_skills:{skills_yaml}
             if parent_claude:
                 related_doc += f"- **[{parent_claude}]({parent_claude})** - Parent directory\n"
             if child_dirs:
-                related_doc += "\n**Child Directories:**\n" + "\n".join(f"- **[{child}]({child})]**" for child in child_dirs) + "\n"
+                related_doc += "\n**Child Directories:**\n" + "\n".join(f"- **[{child}]({child})**" for child in child_dirs) + "\n"
             content += related_doc
 
     new_content = frontmatter + content

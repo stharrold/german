@@ -10,7 +10,7 @@ pull request (never pushes directly) to ensure proper workflow and compliance.
 
 Previous versions of this script merged directly to develop, which violated
 branch protection. This was fixed in v1.8.0 to enforce PR workflow. As of
-v1.8.1, PR approval is no longer required (self-merge enabled).
+v1.8.0, PR approval is no longer required (self-merge enabled).
 
 This script implements Step 5.6 of Phase 5 (Release Workflow) as documented
 in WORKFLOW.md. It creates a pull request to merge the release branch back
@@ -208,9 +208,9 @@ def attempt_merge(version, target_branch):
     release_branch = f"{RELEASE_BRANCH_PREFIX}{version}"
 
     try:
-        # Attempt merge with --no-ff to preserve history
+        # Attempt merge with --no-ff to preserve history and --no-commit to detect conflicts
         result = subprocess.run(
-            ['git', 'merge', release_branch, MERGE_STRATEGY],
+            ['git', 'merge', release_branch, MERGE_STRATEGY, '--no-commit'],
             capture_output=True,
             text=True,
             check=False
@@ -264,7 +264,9 @@ def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
         version: Release version (e.g., 'v1.1.0')
         target_branch: Target branch (e.g., 'develop')
         has_conflicts: Whether merge conflicts were detected
-        conflicts: List of conflicting file paths (if has_conflicts=True)
+        conflicts: Optional list of conflicting file paths. Required when
+            has_conflicts=True, can be None or omitted when has_conflicts=False.
+            Defaults to empty list if None.
 
     Returns:
         PR URL if successful
@@ -435,7 +437,7 @@ def main():
         if success:
             # Abort successful merge - we need to do it via PR
             print("Aborting local merge (will merge via PR)...", file=sys.stderr)
-            subprocess.run(['git', 'reset', '--hard', 'HEAD'], capture_output=True, check=True)
+            subprocess.run(['git', 'merge', '--abort'], capture_output=True, check=True)
 
         # Step 5: Always create PR (whether conflicts or not)
         print("Creating pull request for back-merge...", file=sys.stderr)
