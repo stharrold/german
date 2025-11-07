@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/tech-stack-adapter
+title: Tech Stack Adapter
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Tech Stack Adapter
 
 > **Automatic project detection for Python/uv projects - enabling workflow adaptation to any tech stack**

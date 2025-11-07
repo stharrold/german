@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/workflow-orchestrator
+title: Workflow Orchestrator
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Workflow Orchestrator
 
 > **Main coordinator skill for the 6-phase workflow system - provides algorithmic guidance for Claude Code**

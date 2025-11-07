@@ -1,3 +1,14 @@
+---
+type: directory-documentation
+directory: src
+title: Src
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+  - german/README.md
+---
+
 # Src
 
 ## Overview
@@ -15,3 +26,8 @@ Documentation for src
 ## Usage
 
 [How to use the resources in this directory]
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code
+- **[../README.md](../README.md)** - Parent directory documentation

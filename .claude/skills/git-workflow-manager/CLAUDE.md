@@ -1,3 +1,19 @@
+---
+type: claude-context
+directory: .claude/skills/git-workflow-manager
+purpose: Git Workflow Manager provides **automated git operations** for the git-flow + GitHub-flow hybrid workflow with worktrees. It handles branch creation, worktree management, commits, PRs, semantic versioning, and daily rebase operations. All operations are designed to work with the isolated worktree development pattern and VCS provider abstraction (GitHub/Azure DevOps).
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - **workflow-orchestrator** - Calls git-workflow-manager scripts
+  - **speckit-author** - Runs in worktrees created by this skill
+  - **quality-enforcer** - Uses semantic_version.py
+  - **workflow-utilities** - Provides VCS abstraction and TODO utilities
+  - **bmad-planner** - Planning happens before worktree creation
+---
+
 # Claude Code Context: git-workflow-manager
 
 ## Purpose

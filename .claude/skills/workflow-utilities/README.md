@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/workflow-utilities
+title: Workflow Utilities
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Workflow Utilities
 
 > **Shared utilities for all workflow skills - file operations, TODO management, VCS abstraction, and documentation tools**

@@ -1,3 +1,21 @@
+---
+type: claude-context
+directory: .
+purpose: Context-specific guidance for german
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+  - planning/CLAUDE.md
+  - resources/CLAUDE.md
+  - specs/CLAUDE.md
+  - src/CLAUDE.md
+  - tests/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -516,11 +534,56 @@ podman-compose down
 ## Directory Standards
 
 **Every directory** created by workflow must have:
-- `CLAUDE.md` - Context-specific guidance
-- `README.md` - Human-readable documentation
+- `CLAUDE.md` - Context-specific guidance with YAML frontmatter
+  - References: sibling README.md, parent CLAUDE.md, children CLAUDE.md
+- `README.md` - Human-readable documentation with YAML frontmatter
+  - References: sibling CLAUDE.md, parent README.md, children README.md
 - `ARCHIVED/` - Subdirectory for deprecated files (except in ARCHIVED itself)
 
-Use `workflow-utilities/scripts/directory_structure.py` to create compliant directories.
+**YAML Frontmatter (CLAUDE.md):**
+```yaml
+---
+type: claude-context
+directory: path/to/dir
+purpose: Brief purpose description
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+  - subdir/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+```
+
+**YAML Frontmatter (README.md):**
+```yaml
+---
+type: directory-documentation
+directory: path/to/dir
+title: Directory Title
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+  - subdir/README.md
+---
+```
+
+**Create compliant directories:**
+```bash
+python .claude/skills/workflow-utilities/scripts/directory_structure.py <directory>
+```
+
+**Migrate existing directories:**
+```bash
+# Preview changes
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py --dry-run
+
+# Apply migration
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py
+```
 
 ## Quality Gates (Enforced Before PR)
 

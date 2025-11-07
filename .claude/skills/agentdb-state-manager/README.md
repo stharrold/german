@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/agentdb-state-manager
+title: AgentDB State Manager Skill
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # AgentDB State Manager Skill
 
 Persistent state management using AgentDB (DuckDB) for workflow analytics and checkpoints.
@@ -71,3 +81,7 @@ python .claude/skills/agentdb-state-manager/scripts/checkpoint_manager.py list
 ## Version
 
 v1.0.0 - Initial release (2025-11-02)
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code

@@ -1,3 +1,14 @@
+---
+type: claude-context
+directory: .claude/skills/workflow-orchestrator/ARCHIVED
+purpose: Archive of deprecated files from workflow-orchestrator
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children: []
+related_skills:
+  - workflow-utilities
+---
+
 # Claude Code Context: Archived Content
 
 ## Purpose
