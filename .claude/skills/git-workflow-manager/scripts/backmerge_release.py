@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 """Create PR to merge release branch back to develop after main merge.
 
+⚠️ BRANCH PROTECTION EXCEPTION POLICY ⚠️
+
+This script follows strict branch protection policies. The develop branch is
+a protected branch that requires PR approval for ALL merges. This script
+creates a pull request (never pushes directly) to ensure proper review workflow
+and compliance with branch protection rules.
+
+Previous versions of this script merged directly to develop, which violated
+branch protection. This was fixed in v1.8.0 to enforce PR approval.
+
 This script implements Step 5.6 of Phase 5 (Release Workflow) as documented
 in WORKFLOW.md. It creates a pull request to merge the release branch back
 into develop to ensure all release changes are integrated into the development
