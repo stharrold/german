@@ -265,6 +265,7 @@ class RepositoryConfig:
         self.copy_domain: bool = False
         self.copy_tests: bool = False
         self.copy_containers: bool = False
+        self.copy_cicd: bool = False
         self.init_git: bool = True
         self.create_branches: bool = True
         self.remote_url: Optional[str] = None
@@ -341,6 +342,11 @@ def phase1_configuration(source_path: Path, target_path: Path) -> RepositoryConf
     config.copy_containers = ask_yes_no(
         "Copy container configs (Containerfile, podman-compose.yml)?",
         default=False
+    )
+
+    config.copy_cicd = ask_yes_no(
+        "Copy CI/CD pipelines (.github/workflows/tests.yml, azure-pipelines.yml)?",
+        default=True
     )
 
     success("Configuration complete")
@@ -943,6 +949,22 @@ def copy_optional_content(source_path: Path, target_path: Path, config: Reposito
                 shutil.copy2(source_file, target_file)
                 success(f"Copied: {file_name}")
 
+    if config.copy_cicd:
+        info("Copying CI/CD pipelines...")
+        # Copy GitHub Actions workflow
+        source_workflow = source_path / '.github' / 'workflows' / 'tests.yml'
+        if source_workflow.exists():
+            target_workflow = target_path / '.github' / 'workflows' / 'tests.yml'
+            target_workflow.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_workflow, target_workflow)
+            success("Copied: .github/workflows/tests.yml")
+        # Copy Azure Pipelines config
+        source_azure = source_path / 'azure-pipelines.yml'
+        if source_azure.exists():
+            target_azure = target_path / 'azure-pipelines.yml'
+            shutil.copy2(source_azure, target_azure)
+            success("Copied: azure-pipelines.yml")
+
 
 def phase3_file_operations(source_path: Path, target_path: Path, config: RepositoryConfig) -> None:
     """Phase 3: File operations (copy/adapt).
@@ -1133,6 +1155,8 @@ def print_summary(target_path: Path, config: RepositoryConfig) -> None:
         print("  ✓ Tests (tests/)")
     if config.copy_containers:
         print("  ✓ Container configs")
+    if config.copy_cicd:
+        print("  ✓ CI/CD pipelines (GitHub Actions + Azure Pipelines)")
 
     if config.init_git:
         print(f"\n{Colors.BOLD}Git:{Colors.END}")
@@ -1203,6 +1227,7 @@ Examples:
     print(f"  GitHub User: {config.gh_user}")
     print(f"  Copy workflow: {config.copy_workflow}")
     print(f"  Copy domain: {config.copy_domain}")
+    print(f"  Copy CI/CD: {config.copy_cicd}")
     print(f"  Initialize git: {config.init_git}")
 
     if not ask_yes_no("\nProceed with initialization?", default=True):

@@ -88,14 +88,15 @@ The script conducts a 4-phase interactive Q&A session:
 7. Copy domain-specific content (src/, resources/)? (yes/no)
 8. Copy sample tests (tests/)? (yes/no)
 9. Copy container configs (Containerfile, podman-compose.yml)? (yes/no)
+10. Copy CI/CD pipelines (.github/workflows/tests.yml, azure-pipelines.yml)? (yes/no)
 
 #### Phase 2: Git Setup
 
-10. Initialize git repository? (yes/no)
-11. If yes: Create branch structure (main, develop, contrib)? (yes/no)
-12. If yes: Set up remote repository? (yes/no)
-13. If yes: Remote URL (e.g., https://github.com/user/repo.git)
-14. If yes and remote: Push to remote? (yes/no)
+11. Initialize git repository? (yes/no)
+12. If yes: Create branch structure (main, develop, contrib)? (yes/no)
+13. If yes: Set up remote repository? (yes/no)
+14. If yes: Remote URL (e.g., https://github.com/user/repo.git)
+15. If yes and remote: Push to remote? (yes/no)
 
 #### Phase 3: File Operations (Automatic)
 
@@ -122,6 +123,7 @@ The script conducts a 4-phase interactive Q&A session:
 - `src/` and `resources/` (if copy_domain = yes)
 - `tests/` (if copy_tests = yes)
 - `Containerfile`, `podman-compose.yml` (if copy_containers = yes)
+- `.github/workflows/tests.yml`, `azure-pipelines.yml` (if copy_cicd = yes)
 
 #### Phase 4: Git Initialization (Conditional)
 
@@ -173,6 +175,9 @@ Copy sample tests (tests/)? (y/N)
 
 Copy container configs (Containerfile, podman-compose.yml)? (y/N)
 > n
+
+Copy CI/CD pipelines (.github/workflows/tests.yml, azure-pipelines.yml)? (Y/n)
+> y
 
 ✓ Configuration complete
 
@@ -251,6 +256,10 @@ Proceed with initialization? (Y/n)
 ℹ Copying tests...
 ✓ Copied: tests/
 
+ℹ Copying CI/CD pipelines...
+✓ Copied: .github/workflows/tests.yml
+✓ Copied: azure-pipelines.yml
+
 ✓ File operations complete
 
 === Phase 4: Git Initialization ===
@@ -295,6 +304,7 @@ Created:
   ✓ Quality configs (pyproject.toml, .gitignore)
   ✓ Directory structure (ARCHIVED/, planning/, specs/)
   ✓ Tests (tests/)
+  ✓ CI/CD pipelines (GitHub Actions + Azure Pipelines)
 
 Git:
   ✓ Initialized repository
