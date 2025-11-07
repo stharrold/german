@@ -154,7 +154,7 @@ related_skills:{skills_yaml}
                 child_name = child_path.split('/')[0].replace('-', ' ').replace('_', ' ').title()
                 body += f"- **[{child_path}]({child_path})** - {child_name}\n"
 
-        body += f"""
+        body += """
 ## Related Skills
 
 """
