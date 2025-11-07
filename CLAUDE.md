@@ -929,7 +929,7 @@ Automatic version calculation based on changes:
 - v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
 
 **In progress (on contrib/stharrold):**
-- PR approval enforcement for release back-merge (workflow compliance fix)
+- Branch protection documentation updates (remove approval requirement, self-merge enabled)
 - Azure DevOps branch policy documentation
 
 **Included in v1.8.0 or earlier:**

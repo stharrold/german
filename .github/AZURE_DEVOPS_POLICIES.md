@@ -39,15 +39,15 @@ This guide provides step-by-step instructions for configuring Azure DevOps branc
 #### Require a minimum number of reviewers
 
 ☑️ **Enable:** Require a minimum number of reviewers
-- **Minimum number of reviewers:** `1` (or more for team repositories)
-- ☑️ **Requestors can approve their own changes:** **UNCHECK THIS**
-  - Prevents self-approval (critical for solo dev → team transition)
-- ☑️ **Prohibit the most recent pusher from approving their own changes:** **CHECK THIS**
-  - Ensures at least one other person reviews
+- **Minimum number of reviewers:** `0` (approval optional but not required)
+- ☑️ **Requestors can approve their own changes:** **CHECK THIS**
+  - Self-merge allowed (no approval required)
+- ☐ **Prohibit the most recent pusher from approving their own changes:** **UNCHECK THIS**
+  - Not applicable when minimum reviewers is 0
 - ☑️ **Allow completion even if some reviewers vote to wait or reject:** **UNCHECK THIS**
-  - All reviewers must approve or abstain
+  - Maintain control over rejections
 - ☑️ **When new changes are pushed:** Reset all approval votes
-  - Re-review required if PR changes after approval
+  - Re-review required if PR changes after approval (if approvals given)
 
 #### Check for linked work items
 
@@ -117,9 +117,9 @@ Repeat Step 2 for the `develop` branch:
 #### Require a minimum number of reviewers
 
 ☑️ **Enable:** Require a minimum number of reviewers
-- **Minimum number of reviewers:** `1`
-- ☑️ **Requestors can approve their own changes:** **UNCHECK THIS**
-- ☑️ **Prohibit the most recent pusher from approving their own changes:** **CHECK THIS**
+- **Minimum number of reviewers:** `0` (same as main - approval optional)
+- ☑️ **Requestors can approve their own changes:** **CHECK THIS**
+- ☐ **Prohibit the most recent pusher from approving their own changes:** **UNCHECK THIS**
 - ☑️ **When new changes are pushed:** Reset all approval votes
 
 #### Check for linked work items
@@ -208,20 +208,20 @@ az repos pr create --repository repo \
 
 | Branch | Policy | Purpose |
 |--------|--------|---------|
-| `main` | Require minimum reviewers: 1 | At least 1 reviewer must approve |
-| `main` | No self-approval | Prevents requestor from approving own PR |
+| `main` | Require minimum reviewers: 0 | Approval optional (self-merge allowed) |
+| `main` | Allow self-approval | Self-merge enabled |
 | `main` | Check for linked work items | Traceability to requirements |
 | `main` | Check for comment resolution | All comments addressed |
 | `main` | Limit merge types | Only basic merge (no rebase) |
 | `main` | Build validation | Tests/coverage/lint pass |
-| `main` | Reset votes on new changes | Re-review after updates |
-| `develop` | Require minimum reviewers: 1 | At least 1 reviewer must approve |
-| `develop` | No self-approval | Prevents requestor from approving own PR |
+| `main` | Reset votes on new changes | Re-review after updates (if approvals given) |
+| `develop` | Require minimum reviewers: 0 | Approval optional (self-merge allowed) |
+| `develop` | Allow self-approval | Self-merge enabled |
 | `develop` | Check for linked work items | Traceability to requirements |
 | `develop` | Check for comment resolution | All comments addressed |
 | `develop` | Limit merge types | Only basic merge (no rebase) |
 | `develop` | Build validation | Tests/coverage/lint pass |
-| `develop` | Reset votes on new changes | Re-review after updates |
+| `develop` | Reset votes on new changes | Re-review after updates (if approvals given) |
 
 ## Azure Pipelines Integration (Recommended)
 
@@ -441,7 +441,7 @@ az devops configure --defaults organization=https://dev.azure.com/YourOrg projec
 az repos policy approver-count create \
   --repository-id <repo-id> \
   --branch main \
-  --minimum-approver-count 1 \
+  --minimum-approver-count 0 \
   --creator-vote-counts false \
   --allow-downvotes false \
   --reset-on-source-push true \
@@ -451,7 +451,7 @@ az repos policy approver-count create \
 az repos policy approver-count create \
   --repository-id <repo-id> \
   --branch develop \
-  --minimum-approver-count 1 \
+  --minimum-approver-count 0 \
   --creator-vote-counts false \
   --allow-downvotes false \
   --reset-on-source-push true \
