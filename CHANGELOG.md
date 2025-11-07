@@ -10,6 +10,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.9.0] - 2025-11-07
+
+### Added
+- **YAML Frontmatter System for Directory Files** - Comprehensive metadata and cross-reference system
+  - Every CLAUDE.md now includes YAML frontmatter with metadata (type, directory, purpose, related_skills)
+  - Every README.md now includes YAML frontmatter with metadata (type, directory, title)
+  - Automatic cross-references: parent → children, sibling CLAUDE.md ↔ README.md
+  - Machine-readable directory navigation structure
+  - Enables future automation based on metadata
+- **Migration Tool** - New script to add frontmatter to existing directories
+  - Created `.claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py`
+  - Dry-run mode for previewing changes
+  - Auto-detects parent/children relationships
+  - Infers purpose and related skills from existing content
+  - Successfully migrated 82 files (40 CLAUDE.md + 42 README.md)
+- **Enhanced directory_structure.py** - Auto-generates YAML frontmatter
+  - Automatically generates frontmatter when creating new directories
+  - Scans for existing children and includes in frontmatter
+  - Proper parent/sibling/children cross-references
+  - Format validation for YAML lists and metadata
+
+### Changed
+- **Updated WORKFLOW.md** - Directory Standards section expanded with frontmatter schemas
+  - Added YAML frontmatter structure examples for CLAUDE.md
+  - Added YAML frontmatter structure examples for README.md
+  - Added example directory structure with frontmatter
+  - Added migration instructions with dry-run and apply steps
+- **Updated CLAUDE.md** - Added frontmatter requirements and tooling
+  - Added YAML frontmatter schemas for both file types
+  - Added creation and migration command examples
+  - Updated Directory Standards section with metadata requirements
+
+### Technical Details
+- Frontmatter format: YAML with `---` delimiters
+- CLAUDE.md fields: `type`, `directory`, `purpose`, `parent`, `sibling_readme`, `children`, `related_skills`
+- README.md fields: `type`, `directory`, `title`, `sibling_claude`, `parent`, `children`
+- All paths relative to repository root
+- Children automatically detected from filesystem
+
 ## [1.6.0] - 2025-11-04
 
 ### Added
