@@ -278,7 +278,7 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 **Rules:**
 1. ❌ **Never delete** `main` or `develop`
 2. ❌ **Never commit directly** to `main` or `develop`
-3. ✅ **Only merge via pull requests** (reviewed and approved in GitHub/Azure DevOps portal)
+3. ✅ **Only merge via pull requests** (approval optional, self-merge enabled as of v1.8.1)
 
 **No exceptions:** All scripts create PRs (including `backmerge_release.py` which creates PR for release → develop)
 
@@ -916,9 +916,10 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.8.0
+**Current version:** v1.8.1
 
 **Recent releases:**
+- v1.8.1: Branch protection updates + self-merge enabled (PATCH)
 - v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
 - v1.7.0: Cross-platform CI/CD infrastructure (MINOR)
 - v1.6.0: Branch protection + GitHub issue management (MINOR)
@@ -928,11 +929,9 @@ Automatic version calculation based on changes:
 - v1.3.0: Complete B1 German listening practice library (MINOR)
 - v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
 
-**In progress (on contrib/stharrold):**
-- Branch protection documentation updates (remove approval requirement, self-merge enabled)
-- Azure DevOps branch policy documentation
-
-**Included in v1.8.0 or earlier:**
+**Included in v1.8.1 or earlier:**
+- Branch protection compliance (PR workflow enforced, approval optional since v1.8.1)
+- Azure DevOps branch policies documentation (644 lines comprehensive guide)
 - Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
 - CHANGELOG system for all skills
 - CONTRIBUTING.md with contributor guidelines

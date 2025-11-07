@@ -65,7 +65,7 @@ specs/
 - **[../CLAUDE.md](../CLAUDE.md)** - Parent directory
 
 **Child Directories:**
-- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)]**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)**
 
 ## Related Skills
 
