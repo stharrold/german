@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/quality-enforcer
+title: Quality Enforcer
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Quality Enforcer
 
 > **Automated quality gate enforcement before PRs - ensuring code quality and test coverage standards**

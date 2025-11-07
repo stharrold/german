@@ -1,3 +1,12 @@
+---
+type: directory-documentation
+directory: .claude/skills/initialize-repository/ARCHIVED
+title: initialize-repository/ARCHIVED
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children: []
+---
+
 # initialize-repository/ARCHIVED
 
 Archived files from initialize-repository skill

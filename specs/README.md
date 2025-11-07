@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: specs
+title: Specifications
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+---
+
 # Specifications
 
 ## Overview
@@ -54,3 +64,8 @@ python .claude/skills/speckit-author/scripts/update_asbuilt.py \
 ## Documentation
 
 See [CLAUDE.md](CLAUDE.md) for detailed Claude Code context and workflow integration.
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code
+- **[../README.md](../README.md)** - Parent directory documentation

@@ -1,3 +1,23 @@
+---
+type: claude-context
+directory: .claude/skills/agentdb-state-manager
+purpose: Persistent state management using AgentDB (DuckDB) for workflow analytics and checkpoints.
+
+Provides read-only analytics cache synchronized from TODO_*.md files.
+
+**Primary purpose:** Data gathering and analysis for workflow state tracking
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+  - speckit-author
+  - quality-enforcer
+  - bmad-planner
+---
+
 # Claude Code Context: agentdb-state-manager
 
 ## Purpose
