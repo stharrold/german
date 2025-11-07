@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/initialize-repository
+title: Initialize-Repository Meta-Skill
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Initialize-Repository Meta-Skill
 
 **Phase 0 tool for bootstrapping new repositories with the workflow system.**
@@ -86,3 +96,7 @@ Next steps:
 ## Version
 
 v1.0.0 - Initial release
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code

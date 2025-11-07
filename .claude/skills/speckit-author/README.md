@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/speckit-author
+title: SpecKit Author
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # SpecKit Author
 
 ## Overview

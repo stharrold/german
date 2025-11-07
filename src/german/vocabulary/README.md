@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: src/german/vocabulary
+title: Vocabulary
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+---
+
 # Vocabulary
 
 ## Overview
@@ -15,3 +25,8 @@ Documentation for vocabulary
 ## Usage
 
 [How to use the resources in this directory]
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code
+- **[../README.md](../README.md)** - Parent directory documentation

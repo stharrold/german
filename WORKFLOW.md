@@ -222,26 +222,65 @@ worktree-directory/
 
 **Every directory in this project must follow these standards:**
 
-1. **Contains CLAUDE.md and README.md**
-   - `CLAUDE.md` - Context-specific guidance for Claude Code when working in this directory
-   - `README.md` - Human-readable documentation for developers
+1. **Contains CLAUDE.md with YAML frontmatter**
+   - Context-specific guidance for Claude Code when working in this directory
+   - YAML frontmatter with metadata and cross-references
+   - References to sibling README.md, parent CLAUDE.md, and all children CLAUDE.md
 
-2. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
+2. **Contains README.md with YAML frontmatter**
+   - Human-readable documentation for developers
+   - YAML frontmatter with metadata and cross-references
+   - References to sibling CLAUDE.md, parent README.md, and all children README.md
+
+3. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
    - For storing deprecated items from that directory
-   - ARCHIVED/ also has its own CLAUDE.md and README.md
+   - ARCHIVED/ also has its own CLAUDE.md and README.md with YAML frontmatter
 
-3. **Example structure:**
-   ```
-   specs/feature-auth/
-   ├── CLAUDE.md           ← "Guide for working with auth specs"
-   ├── README.md           ← "Authentication feature specifications"
-   ├── ARCHIVED/
-   │   ├── CLAUDE.md       ← "Guide for archived auth specs"
-   │   ├── README.md       ← "Archive of deprecated auth specs"
-   │   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
-   ├── spec.md
-   └── plan.md
-   ```
+**YAML Frontmatter Structure:**
+
+**CLAUDE.md frontmatter:**
+```yaml
+---
+type: claude-context
+directory: specs/user-auth
+purpose: Context-specific guidance for user-auth
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+  - feature-subdir/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+```
+
+**README.md frontmatter:**
+```yaml
+---
+type: directory-documentation
+directory: specs/user-auth
+title: User Auth
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+  - feature-subdir/README.md
+---
+```
+
+**Example directory structure:**
+```
+specs/feature-auth/
+├── CLAUDE.md           ← YAML frontmatter + context guidance
+├── README.md           ← YAML frontmatter + documentation
+├── ARCHIVED/
+│   ├── CLAUDE.md       ← YAML frontmatter + archived context
+│   ├── README.md       ← YAML frontmatter + archived docs
+│   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
+├── spec.md
+└── plan.md
+```
 
 **Creating compliant directories:**
 
@@ -249,20 +288,32 @@ Use the workflow-utilities helper script to ensure directories meet standards:
 
 ```bash
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \
-  create <directory-path> "<purpose-description>"
+  <directory-path>
 ```
 
 **Example:**
 ```bash
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \
-  create "specs/user-auth" "User authentication feature specifications"
+  specs/user-auth
 ```
 
 This automatically creates:
 - The target directory
-- CLAUDE.md with purpose and workflow references
-- README.md with human-readable documentation
+- CLAUDE.md with YAML frontmatter, purpose, and cross-references
+- README.md with YAML frontmatter and documentation
 - ARCHIVED/ subdirectory with its own CLAUDE.md and README.md
+
+**Migrating existing directories:**
+
+To add YAML frontmatter to existing CLAUDE.md and README.md files:
+
+```bash
+# Preview changes
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py --dry-run
+
+# Apply migration
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py
+```
 
 ## Workflow Phases
 
@@ -1066,7 +1117,7 @@ python .claude/skills/git-workflow-manager/scripts/tag_release.py \
 
 #### Step 5.6: Back-merge Release to Develop
 
-**Purpose:** Merge any release-specific changes back to develop
+**Purpose:** Merge any release-specific changes back to develop through PR
 
 **Command:**
 ```bash
@@ -1074,31 +1125,50 @@ python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
   v1.1.0 develop
 ```
 
+**Important:** This script ALWAYS creates a PR (never pushes directly to develop), ensuring proper review workflow and branch protection compliance.
+
 **Steps:**
 1. Checkout develop branch
 2. Pull latest from origin
-3. Merge release/v1.1.0 into develop
-4. Resolve any conflicts (usually none if release only had version bumps)
-5. Push to origin
-6. Create PR for review (if conflicts occurred)
+3. Attempt merge locally to check for conflicts
+4. Abort local merge (will merge via PR)
+5. Create PR: release/v1.1.0 → develop
 
 **Output (no conflicts):**
 ```
-✓ Checked out develop
-✓ Pulled latest changes
-✓ Merged release/v1.1.0 into develop (fast-forward)
-✓ Pushed to origin/develop
-✓ Back-merge complete
+✓ No merge conflicts detected
+✓ Created PR: https://github.com/user/german/pull/46
+  Title: "chore(release): back-merge v1.1.0 to develop"
+
+📋 Next steps:
+  1. Review PR in GitHub/Azure DevOps portal
+  2. Approve through portal
+  3. Merge through portal
+  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py v1.1.0
 ```
 
 **Output (with conflicts):**
 ```
-⚠ Merge conflicts detected
+⚠️  Merge conflicts detected in 2 file(s)
 ✓ Created PR: https://github.com/user/german/pull/46
   Title: "chore(release): back-merge v1.1.0 to develop"
 
-Please resolve conflicts in GitHub UI and merge.
+Conflicting files:
+  - pyproject.toml
+  - uv.lock
+
+📋 Next steps:
+  1. Review PR in GitHub/Azure DevOps portal
+  2. Resolve conflicts (see PR description for commands)
+  3. Approve and merge through portal
+  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py v1.1.0
 ```
+
+**User Action Required:**
+1. **Review PR in GitHub/Azure DevOps UI**
+2. **Approve** (required by branch protection)
+3. **Merge** through portal merge button
+4. **Continue to Step 5.7** after merge completes
 
 #### Step 5.7: Cleanup Release Branch
 

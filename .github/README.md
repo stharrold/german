@@ -1,3 +1,12 @@
+---
+type: directory-documentation
+directory: .github
+title: .github Directory
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children: []
+---
+
 # .github Directory
 
 This directory contains GitHub-specific configuration and documentation files.

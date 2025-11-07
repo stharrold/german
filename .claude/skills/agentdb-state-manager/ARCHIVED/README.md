@@ -1,3 +1,12 @@
+---
+type: directory-documentation
+directory: .claude/skills/agentdb-state-manager/ARCHIVED
+title: agentdb-state-manager/ARCHIVED
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children: []
+---
+
 # agentdb-state-manager/ARCHIVED
 
 Archived files from agentdb-state-manager skill

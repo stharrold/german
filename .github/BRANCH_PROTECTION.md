@@ -43,10 +43,10 @@ This guide provides step-by-step instructions for configuring GitHub branch prot
 - All changes must go through PR review
 
 **Settings under this:**
-- **Required approvals:** `1` (or more for team repositories)
-  - At least 1 reviewer must approve before merge
+- **Required approvals:** `0` (approval optional but not required)
+  - PRs can be merged without approval (self-merge allowed)
 - ☑️ **Dismiss stale pull request approvals when new commits are pushed**
-  - Re-review required if PR changes after approval
+  - Re-review required if PR changes after approval (if approvals given)
 - ☐ **Require review from Code Owners** (optional)
   - Only if you have CODEOWNERS file configured
 - ☑️ **Require conversation resolution before merging**
@@ -95,7 +95,7 @@ Repeat Step 2 with these modifications:
 ☑️ **Require a pull request before merging**
 
 **Settings under this:**
-- **Required approvals:** `1` (can be same as main)
+- **Required approvals:** `0` (same as main - approval optional)
 - ☑️ **Dismiss stale pull request approvals when new commits are pushed**
 - ☑️ **Require conversation resolution before merging**
 
@@ -156,24 +156,24 @@ gh pr create --base main --title "Test PR" --body "Testing branch protection"
 
 **Expected result:**
 - PR created successfully
-- GitHub shows "Merging is blocked" until approvals/checks pass
-- After approval, merge button becomes active
+- GitHub shows "Merging is blocked" until status checks pass (if configured)
+- After checks pass, merge button becomes active (no approval required)
 
-✅ If PR requires approval before merge, protection is working!
+✅ If PR can be merged after status checks pass, protection is working!
 
 ## Summary of Protection Rules
 
 | Branch | Rule | Purpose |
 |--------|------|---------|
-| `main` | Require PR before merge | All changes reviewed |
-| `main` | Require 1+ approvals | At least 1 reviewer |
+| `main` | Require PR before merge | All changes go through PR workflow |
+| `main` | Require 0 approvals | Self-merge allowed (approval optional) |
 | `main` | Require status checks | Tests/coverage/lint pass |
 | `main` | Require conversation resolution | All comments addressed |
 | `main` | No bypass | Even admins follow rules |
 | `main` | No force push | Protect history |
 | `main` | No deletion | Permanent branch |
-| `develop` | Require PR before merge | All changes reviewed |
-| `develop` | Require 1+ approvals | At least 1 reviewer |
+| `develop` | Require PR before merge | All changes go through PR workflow |
+| `develop` | Require 0 approvals | Self-merge allowed (approval optional) |
 | `develop` | Require status checks | Tests/coverage/lint pass |
 | `develop` | No force push | Protect history |
 | `develop` | No deletion | Permanent branch |
@@ -256,12 +256,13 @@ After adding this workflow:
 
 ### Problem: "Can't merge even though checks pass"
 
-**Cause:** Missing required approvals or unresolved conversations
+**Cause:** Unresolved conversations or other blocking issues
 
 **Fix:**
-- Check "Reviews" tab on PR - need 1+ approval?
 - Check "Conversation" tab - all comments resolved?
 - Check "Files changed" tab - any unresolved review comments?
+- Check status checks in "Checks" tab - all passing?
+- Note: Approvals are optional (not required for merge)
 
 ### Problem: "Status checks never complete"
 
@@ -300,7 +301,7 @@ If using Azure DevOps instead of GitHub, see equivalent configuration:
 
 1. Navigate to: **Project → Repos → Branches → main → Branch policies**
 2. Configure:
-   - ☑️ Require a minimum number of reviewers: 1
+   - ☑️ Require a minimum number of reviewers: 0 (approval optional)
    - ☑️ Check for linked work items: Enabled (optional)
    - ☑️ Check for comment resolution: All comments
    - ☑️ Limit merge types: Squash merge or Merge commit
