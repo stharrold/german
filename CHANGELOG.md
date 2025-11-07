@@ -10,6 +10,83 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.8.2] - 2025-11-07
+
+### Fixed
+- **GitHub Copilot code quality issues** - Resolved 7 code quality issues (Issues #77-#84)
+  - Issue #84: Fixed version reference (v1.8.1 → v1.8.0) in backmerge_release.py
+  - Issue #83: Removed extra bracket in markdown link (migrate_directory_frontmatter.py:222)
+  - Issue #82: Removed extra bracket in markdown link (migrate_directory_frontmatter.py:213)
+  - Issue #81: Removed extra bracket in markdown link (specs/CLAUDE.md:68)
+  - Issue #79: Fixed git merge abort logic (use --no-commit + git merge --abort)
+  - Issue #78: Clarified conflicts parameter docstring in create_pr function
+  - Issue #77: Fixed YAML formatting inconsistency (directory_structure.py)
+
+### Changed
+- **Simplified backmerge workflow** - Updated backmerge_release.py to pure PR-based workflow
+  - Removed all local merge operations (checkout, merge, abort)
+  - Script now only validates inputs and creates PR directly
+  - GitHub/CI automatically detects merge conflicts
+  - Eliminated uncommitted changes issues (uv.lock modifications)
+  - Reduced code by 204 lines (cleaner and simpler)
+  - Follows pure PR-based workflow principle
+
+### Quality
+- All tests passing (114 passed, 15 skipped)
+- Test coverage: 88% (above required 80%)
+- Linting: Clean - all checks pass
+
+## [1.8.1] - 2025-11-07
+
+### Fixed
+- **Branch protection compliance** - Enforced PR workflow for all merges to protected branches
+  - Updated backmerge_release.py to create PRs instead of direct pushes
+  - Removed branch protection exception from WORKFLOW.md
+  - Self-merge enabled (no approval required for compliant workflow)
+
+### Added
+- **Azure DevOps branch policies documentation** - Comprehensive guide for Azure DevOps users
+  - Created .github/AZURE_DEVOPS_POLICIES.md (644 lines)
+  - Complete policy configuration for main and develop branches
+  - Build validation, required reviewers, merge strategies
+  - Work item linking and comment requirements
+  - Migration guide from GitHub branch protection
+
+### Documentation
+- Updated CLAUDE.md with v1.8.1 release information
+- Updated WORKFLOW.md to remove branch protection exception
+- Added Azure DevOps policy references throughout workflow docs
+
+## [1.8.0] - 2025-11-07
+
+### Added
+- **CI/CD replication guide** - Comprehensive guide for replicating GitHub Actions to other platforms
+  - Created WORKFLOW-INIT-PROMPT.md - DRY navigation guide (~500 tokens)
+  - Reference-based navigation to avoid duplication
+  - Progressive skill loading pattern
+  - Token-efficient workflow initialization
+
+### Changed
+- **Workflow documentation** - Improved navigation and reduced duplication
+  - Restructured CLAUDE.md to use reference pattern
+  - Added quick-start workflow initialization
+  - Improved token efficiency for skill loading
+
+## [1.7.0] - 2025-11-06
+
+### Added
+- **Cross-platform CI/CD infrastructure** - GitHub Actions workflow for automated testing
+  - Created .github/workflows/tests.yml - Run tests on push/PR
+  - Python 3.12 test environment
+  - UV package manager integration
+  - Automated pytest execution with coverage reporting
+  - Cross-platform testing (Ubuntu, macOS, Windows)
+
+### Quality
+- Automated test execution on all PRs
+- Coverage reporting in CI/CD pipeline
+- Multi-platform validation
+
 ## [1.6.0] - 2025-11-04
 
 ### Added
@@ -182,6 +259,11 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.8.2   | 2025-11-07 | PATCH | Bug fixes for code quality issues + simplified backmerge workflow |
+| 1.8.1   | 2025-11-07 | PATCH | Branch protection compliance + Azure DevOps documentation |
+| 1.8.0   | 2025-11-07 | MINOR | CI/CD replication guide + DRY navigation improvements |
+| 1.7.0   | 2025-11-06 | MINOR | Cross-platform CI/CD infrastructure (GitHub Actions) |
+| 1.6.0   | 2025-11-04 | MINOR | Branch protection + GitHub issue management + rollback procedures |
 | 1.5.1   | 2025-11-04 | PATCH | Bug fixes + comprehensive skill documentation |
 | 1.5.0   | 2025-11-02 | MINOR | Initialize-repository meta-skill + documentation system |
 | 5.2.0   | 2025-10-23 | MINOR | Enhanced TODO.md manifest structure |
