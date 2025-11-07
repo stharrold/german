@@ -1,3 +1,14 @@
+---
+type: claude-context
+directory: .claude/skills/tech-stack-adapter/ARCHIVED
+purpose: Archive of deprecated files from tech-stack-adapter
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children: []
+related_skills:
+  - workflow-utilities
+---
+
 # Claude Code Context: Archived Content
 
 ## Purpose

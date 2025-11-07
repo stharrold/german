@@ -1,3 +1,16 @@
+---
+type: claude-context
+directory: planning/initial-foundation
+purpose: Context-specific guidance for initial-foundation
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - helper-functions
+---
+
 # Claude Code Context: initial-foundation
 
 ## Purpose

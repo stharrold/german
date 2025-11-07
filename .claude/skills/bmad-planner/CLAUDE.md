@@ -1,3 +1,18 @@
+---
+type: claude-context
+directory: .claude/skills/bmad-planner
+purpose: BMAD Planner provides an **interactive callable tool** for creating planning documents in the main repository on contrib branches. It implements Phase 1 (Planning) of the workflow, generating comprehensive requirements, architecture, and epic breakdown through a three-persona interactive Q&A system.
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - **workflow-orchestrator** - Calls create_planning.py script
+  - **speckit-author** - Reads planning context
+  - **workflow-utilities** - Shared utilities
+  - **git-workflow-manager** - Branch and worktree management
+---
+
 # Claude Code Context: bmad-planner
 
 ## Purpose

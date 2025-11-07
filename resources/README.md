@@ -1,3 +1,14 @@
+---
+type: directory-documentation
+directory: resources
+title: Resources
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+  - vocabulary/README.md
+---
+
 # Resources
 
 ## Overview
@@ -15,3 +26,8 @@ Documentation for resources
 ## Usage
 
 [How to use the resources in this directory]
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code
+- **[../README.md](../README.md)** - Parent directory documentation

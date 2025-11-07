@@ -1,3 +1,18 @@
+---
+type: claude-context
+directory: specs
+purpose: Storage for SpecKit specifications (Phase 2) created during feature development. Each feature has a subdirectory with technical specifications and implementation plans.
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - speckit-author (Phase 2: creates specifications)
+  - bmad-planner (Phase 1: provides planning context)
+  - workflow-utilities (archival, directory management)
+  - git-workflow-manager (worktree management)
+---
+
 # Claude Code Context: specs
 
 ## Purpose
@@ -43,6 +58,14 @@ specs/
 **Phase 4 (Integration):** `update_asbuilt.py` compares specs/ with planning/ to document deviations
 
 **Phase 4.3 (Archival):** Completed specs moved to `specs/ARCHIVED/<slug>/` or `ARCHIVED/specs_<slug>.zip`
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory
+
+**Child Directories:**
+- **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)]**
 
 ## Related Skills
 

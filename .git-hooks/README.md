@@ -1,3 +1,12 @@
+---
+type: directory-documentation
+directory: .git-hooks
+title: Git Hooks Templates
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children: []
+---
+
 # Git Hooks Templates
 
 This directory contains git hook templates for branch protection and workflow enforcement.

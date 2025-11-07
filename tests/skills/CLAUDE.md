@@ -1,3 +1,16 @@
+---
+type: claude-context
+directory: tests/skills
+purpose: Context-specific guidance for skills
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+
 # Claude Code Context: skills
 
 ## Purpose
