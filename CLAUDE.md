@@ -278,12 +278,13 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 **Rules:**
 1. ❌ **Never delete** `main` or `develop`
 2. ❌ **Never commit directly** to `main` or `develop`
-3. ✅ **Only merge via pull requests** (reviewed and approved)
+3. ✅ **Only merge via pull requests** (reviewed and approved in GitHub/Azure DevOps portal)
 
-**Exception:** `backmerge_release.py` commits to `develop` during Phase 5.5 (documented in WORKFLOW.md)
+**No exceptions:** All scripts create PRs (including `backmerge_release.py` which creates PR for release → develop)
 
 **Technical enforcement:**
 - Configure GitHub branch protection (see `.github/BRANCH_PROTECTION.md`)
+- Configure Azure DevOps branch policies (see `.github/AZURE_DEVOPS_POLICIES.md`)
 - Install pre-push hook: `cp .git-hooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push`
 
 **If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
@@ -915,19 +916,23 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.5.0
-- v1.0.0 → v1.2.0: Added release automation scripts + workflow v5.0 architecture (MINOR)
-- v1.2.0 → v1.3.0: Complete B1 German listening practice library (20 topics, 5 hours) (MINOR)
-- v1.3.0 → v1.4.0: BMAD and SpecKit callable tools with 89-91% token reduction (MINOR)
-- v1.4.0 → v1.5.0: Azure DevOps CLI support with VCS abstraction layer (MINOR)
+**Current version:** v1.8.0
 
-**Previously released:**
-- v1.5.0: Azure DevOps CLI support with VCS abstraction layer
-- v1.4.0: BMAD and SpecKit callable tools with token reduction
-- v1.3.0: Complete B1 German listening practice library
-- v1.2.0: Release automation scripts + workflow v5.0 architecture
+**Recent releases:**
+- v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
+- v1.7.0: Cross-platform CI/CD infrastructure (MINOR)
+- v1.6.0: Branch protection + GitHub issue management (MINOR)
+- v1.5.1: Bug fixes + comprehensive skill documentation (PATCH)
+- v1.5.0: Azure DevOps CLI support with VCS abstraction layer (MINOR)
+- v1.4.0: BMAD and SpecKit callable tools with token reduction (MINOR)
+- v1.3.0: Complete B1 German listening practice library (MINOR)
+- v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
 
-**Included in v1.5.0 or earlier:**
+**In progress (on contrib/stharrold):**
+- PR approval enforcement for release back-merge (workflow compliance fix)
+- Azure DevOps branch policy documentation
+
+**Included in v1.8.0 or earlier:**
 - Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
 - CHANGELOG system for all skills
 - CONTRIBUTING.md with contributor guidelines
