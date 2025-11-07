@@ -1,3 +1,14 @@
+---
+type: claude-context
+directory: src/german/vocabulary/ARCHIVED
+purpose: Archive of deprecated files from vocabulary
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children: []
+related_skills:
+  - workflow-utilities
+---
+
 # Claude Code Context: Archived Content
 
 ## Purpose

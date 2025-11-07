@@ -1,3 +1,21 @@
+---
+type: claude-context
+directory: .claude/skills/workflow-utilities
+purpose: Workflow Utilities provides **shared utilities** for all workflow skills. It includes file deprecation, directory structure creation, TODO file updates, workflow lifecycle management (register/archive), VCS abstraction (GitHub/Azure DevOps), documentation maintenance tools, and version validation. All other skills depend on workflow-utilities for consistent file operations and workflow state management.
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - **workflow-orchestrator** - Uses workflow utilities for TODO management
+  - **bmad-planner** - Uses directory_structure.py, workflow_registrar.py
+  - **speckit-author** - Uses directory_structure.py, todo_updater.py
+  - **quality-enforcer** - Uses todo_updater.py for quality gates
+  - **git-workflow-manager** - Uses VCS abstraction, workflow lifecycle tools
+  - **initialize-repository** - Uses directory_structure.py, create_skill.py patterns
+  - **agentdb-state-manager** - Reads TODO files updated by workflow-utilities
+---
+
 # Claude Code Context: workflow-utilities
 
 ## Purpose

@@ -1,3 +1,21 @@
+---
+type: claude-context
+directory: .claude/skills/workflow-orchestrator
+purpose: Workflow Orchestrator is **the main coordinator skill** for the 6-phase workflow system. Unlike other skills, it contains no executable scripts - instead, it provides algorithmic guidance for Claude Code to detect workflow context, determine current phase, load appropriate skills dynamically, and manage context usage. This is a **conceptual skill** that directs Claude's behavior rather than providing callable tools.
+parent: null
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+related_skills:
+  - **tech-stack-adapter** - Always loaded first
+  - **bmad-planner** - Loaded in Phase 1
+  - **git-workflow-manager** - Loaded in Phases 2, 3, 4, 5, 6
+  - **speckit-author** - Loaded in Phase 2.3, Phase 4 (optional)
+  - **quality-enforcer** - Loaded in Phase 3, Phase 5, Phase 6
+  - **workflow-utilities** - Loaded as needed
+  - **agentdb-state-manager** - Loaded for complex queries (optional)
+---
+
 # Claude Code Context: workflow-orchestrator
 
 ## Purpose

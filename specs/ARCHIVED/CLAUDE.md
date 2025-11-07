@@ -1,3 +1,14 @@
+---
+type: claude-context
+directory: specs/ARCHIVED
+purpose: Archive of deprecated files from specs
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children: []
+related_skills:
+  - workflow-utilities
+---
+
 # Claude Code Context: Archived Content
 
 ## Purpose
@@ -15,6 +26,11 @@ Archive of deprecated files from specs
 ## Usage
 
 [How to work with code/content in this directory]
+
+## Related Documentation
+
+- **[README.md](README.md)** - Human-readable documentation for this directory
+- **[../CLAUDE.md](../CLAUDE.md)** - Parent directory
 
 ## Related Skills
 

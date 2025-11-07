@@ -222,26 +222,65 @@ worktree-directory/
 
 **Every directory in this project must follow these standards:**
 
-1. **Contains CLAUDE.md and README.md**
-   - `CLAUDE.md` - Context-specific guidance for Claude Code when working in this directory
-   - `README.md` - Human-readable documentation for developers
+1. **Contains CLAUDE.md with YAML frontmatter**
+   - Context-specific guidance for Claude Code when working in this directory
+   - YAML frontmatter with metadata and cross-references
+   - References to sibling README.md, parent CLAUDE.md, and all children CLAUDE.md
 
-2. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
+2. **Contains README.md with YAML frontmatter**
+   - Human-readable documentation for developers
+   - YAML frontmatter with metadata and cross-references
+   - References to sibling CLAUDE.md, parent README.md, and all children README.md
+
+3. **Contains ARCHIVED/ subdirectory** (except ARCHIVED directories themselves)
    - For storing deprecated items from that directory
-   - ARCHIVED/ also has its own CLAUDE.md and README.md
+   - ARCHIVED/ also has its own CLAUDE.md and README.md with YAML frontmatter
 
-3. **Example structure:**
-   ```
-   specs/feature-auth/
-   ├── CLAUDE.md           ← "Guide for working with auth specs"
-   ├── README.md           ← "Authentication feature specifications"
-   ├── ARCHIVED/
-   │   ├── CLAUDE.md       ← "Guide for archived auth specs"
-   │   ├── README.md       ← "Archive of deprecated auth specs"
-   │   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
-   ├── spec.md
-   └── plan.md
-   ```
+**YAML Frontmatter Structure:**
+
+**CLAUDE.md frontmatter:**
+```yaml
+---
+type: claude-context
+directory: specs/user-auth
+purpose: Context-specific guidance for user-auth
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+  - feature-subdir/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+```
+
+**README.md frontmatter:**
+```yaml
+---
+type: directory-documentation
+directory: specs/user-auth
+title: User Auth
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children:
+  - ARCHIVED/README.md
+  - feature-subdir/README.md
+---
+```
+
+**Example directory structure:**
+```
+specs/feature-auth/
+├── CLAUDE.md           ← YAML frontmatter + context guidance
+├── README.md           ← YAML frontmatter + documentation
+├── ARCHIVED/
+│   ├── CLAUDE.md       ← YAML frontmatter + archived context
+│   ├── README.md       ← YAML frontmatter + archived docs
+│   └── 20251018T120000Z_old-oauth-flow.zip  ← Deprecated files
+├── spec.md
+└── plan.md
+```
 
 **Creating compliant directories:**
 
@@ -249,20 +288,32 @@ Use the workflow-utilities helper script to ensure directories meet standards:
 
 ```bash
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \
-  create <directory-path> "<purpose-description>"
+  <directory-path>
 ```
 
 **Example:**
 ```bash
 python .claude/skills/workflow-utilities/scripts/directory_structure.py \
-  create "specs/user-auth" "User authentication feature specifications"
+  specs/user-auth
 ```
 
 This automatically creates:
 - The target directory
-- CLAUDE.md with purpose and workflow references
-- README.md with human-readable documentation
+- CLAUDE.md with YAML frontmatter, purpose, and cross-references
+- README.md with YAML frontmatter and documentation
 - ARCHIVED/ subdirectory with its own CLAUDE.md and README.md
+
+**Migrating existing directories:**
+
+To add YAML frontmatter to existing CLAUDE.md and README.md files:
+
+```bash
+# Preview changes
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py --dry-run
+
+# Apply migration
+python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.py
+```
 
 ## Workflow Phases
 

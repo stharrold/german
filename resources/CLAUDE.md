@@ -1,3 +1,17 @@
+---
+type: claude-context
+directory: resources
+purpose: Context-specific guidance for resources
+parent: ../CLAUDE.md
+sibling_readme: README.md
+children:
+  - ARCHIVED/CLAUDE.md
+  - vocabulary/CLAUDE.md
+related_skills:
+  - workflow-orchestrator
+  - workflow-utilities
+---
+
 # Claude Code Context: resources
 
 ## Purpose

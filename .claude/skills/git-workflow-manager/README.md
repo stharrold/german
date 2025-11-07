@@ -1,3 +1,13 @@
+---
+type: directory-documentation
+directory: .claude/skills/git-workflow-manager
+title: Git Workflow Manager
+sibling_claude: CLAUDE.md
+parent: null
+children:
+  - ARCHIVED/README.md
+---
+
 # Git Workflow Manager
 
 > **Automated git operations for the git-flow + GitHub-flow hybrid workflow with worktrees**

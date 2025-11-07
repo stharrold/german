@@ -1,3 +1,12 @@
+---
+type: directory-documentation
+directory: ARCHIVED
+title: Archived Files
+sibling_claude: CLAUDE.md
+parent: ../README.md
+children: []
+---
+
 # Archived Files
 
 ## Overview
@@ -46,3 +55,8 @@ python .claude/skills/workflow-utilities/scripts/archive_manager.py archive TODO
 - Archived files are retained indefinitely for historical reference
 - Files may be permanently deleted only after explicit approval
 - Always use archive_manager.py to verify contents before deletion
+
+## Related Documentation
+
+- **[CLAUDE.md](CLAUDE.md)** - Context for Claude Code
+- **[../README.md](../README.md)** - Parent directory documentation
