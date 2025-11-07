@@ -1117,7 +1117,7 @@ python .claude/skills/git-workflow-manager/scripts/tag_release.py \
 
 #### Step 5.6: Back-merge Release to Develop
 
-**Purpose:** Merge any release-specific changes back to develop
+**Purpose:** Merge any release-specific changes back to develop through PR
 
 **Command:**
 ```bash
@@ -1125,31 +1125,50 @@ python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
   v1.1.0 develop
 ```
 
+**Important:** This script ALWAYS creates a PR (never pushes directly to develop), ensuring proper review workflow and branch protection compliance.
+
 **Steps:**
 1. Checkout develop branch
 2. Pull latest from origin
-3. Merge release/v1.1.0 into develop
-4. Resolve any conflicts (usually none if release only had version bumps)
-5. Push to origin
-6. Create PR for review (if conflicts occurred)
+3. Attempt merge locally to check for conflicts
+4. Abort local merge (will merge via PR)
+5. Create PR: release/v1.1.0 → develop
 
 **Output (no conflicts):**
 ```
-✓ Checked out develop
-✓ Pulled latest changes
-✓ Merged release/v1.1.0 into develop (fast-forward)
-✓ Pushed to origin/develop
-✓ Back-merge complete
+✓ No merge conflicts detected
+✓ Created PR: https://github.com/user/german/pull/46
+  Title: "chore(release): back-merge v1.1.0 to develop"
+
+📋 Next steps:
+  1. Review PR in GitHub/Azure DevOps portal
+  2. Approve through portal
+  3. Merge through portal
+  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py v1.1.0
 ```
 
 **Output (with conflicts):**
 ```
-⚠ Merge conflicts detected
+⚠️  Merge conflicts detected in 2 file(s)
 ✓ Created PR: https://github.com/user/german/pull/46
   Title: "chore(release): back-merge v1.1.0 to develop"
 
-Please resolve conflicts in GitHub UI and merge.
+Conflicting files:
+  - pyproject.toml
+  - uv.lock
+
+📋 Next steps:
+  1. Review PR in GitHub/Azure DevOps portal
+  2. Resolve conflicts (see PR description for commands)
+  3. Approve and merge through portal
+  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py v1.1.0
 ```
+
+**User Action Required:**
+1. **Review PR in GitHub/Azure DevOps UI**
+2. **Approve** (required by branch protection)
+3. **Merge** through portal merge button
+4. **Continue to Step 5.7** after merge completes
 
 #### Step 5.7: Cleanup Release Branch
 

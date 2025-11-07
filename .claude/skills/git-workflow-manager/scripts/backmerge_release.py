@@ -1,27 +1,13 @@
 #!/usr/bin/env python3
-# ============================================================================
-# ⚠️  BRANCH PROTECTION EXCEPTION
-# ============================================================================
-# WARNING: This script commits directly to the 'develop' branch, which is
-#          normally a protected branch that requires pull requests.
-#
-# This is the ONLY documented exception to the branch protection policy.
-#
-# Why this exception is safe:
-#   - Only merges from release branch (no code changes, just merge commit)
-#   - Release branch was already reviewed and tagged on main
-#   - Maintains develop's stability (inherits tested release code)
-#   - Creates merge commit only (preserves history)
-#   - Part of documented Phase 5.6 workflow (WORKFLOW.md)
-#
-# See WORKFLOW.md "Branch Protection Policy" section for complete rules.
-# ============================================================================
-
-"""Merge release branch back to develop after main merge.
+"""Create PR to merge release branch back to develop after main merge.
 
 This script implements Step 5.6 of Phase 5 (Release Workflow) as documented
-in WORKFLOW.md. It merges the release branch back into develop to ensure all
-release changes are integrated into the development branch.
+in WORKFLOW.md. It creates a pull request to merge the release branch back
+into develop to ensure all release changes are integrated into the development
+branch.
+
+This script ALWAYS creates a PR and never pushes directly to develop, ensuring
+proper review workflow and branch protection compliance.
 
 Usage:
     python backmerge_release.py <version> <target_branch>
@@ -33,8 +19,7 @@ Requirements:
     - Release branch release/<version> must exist
     - Target branch must exist
     - Tag <version> must exist (ensures release was tagged)
-    - Working directory must be clean
-    - gh CLI required for PR creation on conflicts
+    - gh CLI or az CLI required for PR creation
 """
 
 import re
@@ -256,44 +241,28 @@ def attempt_merge(version, target_branch):
         ) from e
 
 
-def push_merge_to_remote(target_branch):
+def create_pr(version, target_branch, has_conflicts=False, conflicts=None):
     """
-    Push merged changes to remote.
+    Create PR to merge release branch back to target branch.
 
-    Args:
-        target_branch: Branch to push
-
-    Raises:
-        RuntimeError: If push fails
-    """
-    try:
-        subprocess.run(
-            ['git', 'push', 'origin', target_branch],
-            capture_output=True,
-            check=True
-        )
-
-    except subprocess.CalledProcessError as e:
-        raise RuntimeError(
-            f"Failed to push to remote: {e.stderr.decode() if e.stderr else 'Unknown error'}"
-        ) from e
-
-
-def create_pr_for_conflicts(version, target_branch, conflicts):
-    """
-    Create PR for manual conflict resolution using gh CLI.
+    This function creates a PR for back-merge regardless of whether there are
+    conflicts. This ensures all merges to develop go through proper review
+    workflow and branch protection policies.
 
     Args:
         version: Release version (e.g., 'v1.1.0')
         target_branch: Target branch (e.g., 'develop')
-        conflicts: List of conflicting file paths
+        has_conflicts: Whether merge conflicts were detected
+        conflicts: List of conflicting file paths (if has_conflicts=True)
 
     Returns:
         PR URL if successful
 
     Raises:
-        RuntimeError: If gh CLI not available or PR creation fails
+        RuntimeError: If gh/az CLI not available or PR creation fails
     """
+    if conflicts is None:
+        conflicts = []
     # Check if gh CLI is available
     try:
         subprocess.run(
@@ -325,9 +294,12 @@ def create_pr_for_conflicts(version, target_branch, conflicts):
     except subprocess.CalledProcessError:
         tag_url = f"Release {version}"
 
-    pr_body = f"""## Back-merge Conflicts Detected
+    if has_conflicts:
+        pr_body = f"""## Back-merge with Conflicts
 
-This PR was automatically created because the back-merge of `{release_branch}` to `{target_branch}` resulted in conflicts.
+This PR merges `{release_branch}` back to `{target_branch}` to complete the release cycle.
+
+⚠️ **Merge conflicts were detected.** Please resolve them before merging.
 
 ### Release Information
 - **Version:** {version}
@@ -338,32 +310,60 @@ This PR was automatically created because the back-merge of `{release_branch}` t
 ### Conflicting Files
 
 """
-    for conflict in conflicts:
-        pr_body += f"- `{conflict}`\n"
+        for conflict in conflicts:
+            pr_body += f"- `{conflict}`\n"
 
-    pr_body += """
+        pr_body += """
 ### Resolution Instructions
 
-1. Checkout this PR branch locally
-2. Resolve conflicts in the listed files above
-3. Test thoroughly (run quality gates)
-4. Commit resolved changes
-5. Push to this PR branch
-6. Merge when all checks pass
+1. Review and approve this PR in GitHub/Azure DevOps portal
+2. If conflicts exist, resolve them:
+   ```bash
+   gh pr checkout <PR_NUMBER>
+   # Resolve conflicts in listed files
+   git add .
+   git commit -m "chore: resolve back-merge conflicts"
+   git push
+   ```
+3. Run quality gates:
+   ```bash
+   python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+   ```
+4. Merge through portal when all checks pass
 
-### Commands
+---
+*Generated by backmerge_release.py*
+"""
+    else:
+        pr_body = f"""## Back-merge Release to Develop
 
+This PR merges `{release_branch}` back to `{target_branch}` to complete the release cycle.
+
+✅ **No merge conflicts detected.** This is a clean merge.
+
+### Release Information
+- **Version:** {version}
+- **Release Tag:** {tag_url}
+- **Source Branch:** `{release_branch}`
+- **Target Branch:** `{target_branch}`
+
+### What This PR Does
+
+Merges release-specific changes (documentation, version bumps) from the release branch back to develop, ensuring develop stays in sync with production releases.
+
+### Review Instructions
+
+1. **Review changes** - Verify documentation updates and version changes
+2. **Approve in portal** - Use GitHub/Azure DevOps UI to approve
+3. **Merge** - Use portal merge button when approved
+
+This follows the git-flow release workflow where all merges to develop require PR approval, even for release back-merges.
+
+### Next Steps After Merge
+
+Run cleanup script:
 ```bash
-# Checkout PR branch
-gh pr checkout <PR_NUMBER>
-
-# After resolving conflicts
-git add .
-git commit -m "chore: resolve back-merge conflicts"
-git push
-
-# Run quality gates
-python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
+python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}
 ```
 
 ---
@@ -417,42 +417,42 @@ def main():
         print(f"Checking out {target_branch} and pulling latest...", file=sys.stderr)
         checkout_and_pull_branch(target_branch)
 
-        # Step 3: Attempt Merge
-        print(f"Attempting to merge {release_branch} into {target_branch}...", file=sys.stderr)
+        # Step 3: Attempt Merge (locally to check for conflicts)
+        print("Checking for merge conflicts...", file=sys.stderr)
         success, conflicts = attempt_merge(version, target_branch)
 
+        # Step 4: Abort local merge (we'll merge via PR)
         if success:
-            # No conflicts - push merge
-            print("Merge successful, pushing to remote...", file=sys.stderr)
-            push_merge_to_remote(target_branch)
+            # Abort successful merge - we need to do it via PR
+            print("Aborting local merge (will merge via PR)...", file=sys.stderr)
+            subprocess.run(['git', 'reset', '--hard', 'HEAD'], capture_output=True, check=True)
 
-            # Success output
-            print(f"\n✓ Checked out {target_branch}")
-            print("✓ Pulled latest changes")
-            print(f"✓ Merged {release_branch} into {target_branch} (no conflicts)")
-            print(f"✓ Pushed to origin/{target_branch}")
-            print("✓ Back-merge complete")
+        # Step 5: Always create PR (whether conflicts or not)
+        print("Creating pull request for back-merge...", file=sys.stderr)
+        pr_url = create_pr(version, target_branch, has_conflicts=not success, conflicts=conflicts if not success else None)
 
-            print("\nNext steps:")
-            print(f"  1. Cleanup release branch: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
-
-        else:
-            # Conflicts detected - create PR
-            print(f"⚠️  Merge conflicts detected in {len(conflicts)} file(s)", file=sys.stderr)
-            print("Creating PR for manual resolution...", file=sys.stderr)
-
-            pr_url = create_pr_for_conflicts(version, target_branch, conflicts)
-
-            # Conflicts output
-            print("\n⚠  Merge conflicts detected")
+        # Output
+        if not success:
+            print(f"\n⚠️  Merge conflicts detected in {len(conflicts)} file(s)")
             print(f"✓ Created PR: {pr_url}")
             print(f"  Title: \"chore(release): back-merge {version} to {target_branch}\"")
             print("\nConflicting files:")
             for conflict in conflicts:
                 print(f"  - {conflict}")
-            print("\nPlease resolve conflicts in GitHub UI and merge the PR.")
-            print("After PR is merged, run cleanup:")
-            print(f"  python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
+            print("\n📋 Next steps:")
+            print("  1. Review PR in GitHub/Azure DevOps portal")
+            print("  2. Resolve conflicts (see PR description for commands)")
+            print("  3. Approve and merge through portal")
+            print(f"  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
+        else:
+            print("\n✓ No merge conflicts detected")
+            print(f"✓ Created PR: {pr_url}")
+            print(f"  Title: \"chore(release): back-merge {version} to {target_branch}\"")
+            print("\n📋 Next steps:")
+            print("  1. Review PR in GitHub/Azure DevOps portal")
+            print("  2. Approve through portal")
+            print("  3. Merge through portal")
+            print(f"  4. Run cleanup: python .claude/skills/git-workflow-manager/scripts/cleanup_release.py {version}")
 
     except (ValueError, RuntimeError) as e:
         print(f"ERROR: {e}", file=sys.stderr)
