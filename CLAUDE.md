@@ -50,7 +50,11 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
 
-**Current workflow version:** 5.2.0 (see WORKFLOW.md for complete documentation)
+**Current workflow version:** 5.2.0
+
+**Quick start:** See [WORKFLOW-INIT-PROMPT.md](WORKFLOW-INIT-PROMPT.md) for navigation guide to workflow system (DRY reference-based, ~500 tokens)
+
+**Complete documentation:** See [WORKFLOW.md](WORKFLOW.md) for full 6-phase workflow guide (~4,000 tokens, 2000+ lines)
 
 ### Available Skills (9 Total)
 
