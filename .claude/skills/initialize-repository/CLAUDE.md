@@ -70,7 +70,7 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
    - Q6: Copy domain-specific content (src/, resources/)? (yes/no)
    - Q7: Copy sample tests (tests/)? (yes/no)
    - Q8: Copy container configs (Containerfile, podman-compose.yml)? (yes/no)
-   - Q9: Copy agentdb-state-manager skill? (yes/no - optional advanced skill)
+   - Q9: Copy CI/CD pipelines (.github/workflows/tests.yml, azure-pipelines.yml)? (yes/no)
 
 3. **Phase 2: Git Setup (Interactive Q&A - 4-5 questions):**
    - Q10: Initialize git repository? (yes/no)
@@ -102,6 +102,8 @@ python .claude/skills/initialize-repository/scripts/initialize_repository.py \
    - `tests/` directory (if copy_tests = yes)
    - `Containerfile` (if copy_containers = yes)
    - `podman-compose.yml` (if copy_containers = yes)
+   - `.github/workflows/tests.yml` (if copy_cicd = yes)
+   - `azure-pipelines.yml` (if copy_cicd = yes)
 
    **Generated/adapted for new repo:**
    - `README.md` - Uses repo name, purpose, description from Q&A
@@ -563,7 +565,7 @@ No active workflows. Use Phase 1 (BMAD planning) to start your first feature.
 6. **Copy domain content?** (boolean: src/, resources/)
 7. **Copy sample tests?** (boolean: tests/)
 8. **Copy container configs?** (boolean: Containerfile, podman-compose.yml)
-9. **Copy agentdb skill?** (boolean: optional advanced skill)
+9. **Copy CI/CD pipelines?** (boolean: .github/workflows/tests.yml, azure-pipelines.yml)
 
 ### Phase 2: Git Setup (4-5 questions)
 
@@ -610,7 +612,9 @@ Optionally (based on user choices):
 ├── resources/                   # If copy_domain = yes
 ├── tests/                       # If copy_tests = yes
 ├── Containerfile                # If copy_containers = yes
-└── podman-compose.yml           # If copy_containers = yes
+├── podman-compose.yml           # If copy_containers = yes
+├── .github/workflows/tests.yml  # If copy_cicd = yes
+└── azure-pipelines.yml          # If copy_cicd = yes
 
 Git structure (if init_git = yes):
 ├── .git/                        # Git repository
@@ -728,8 +732,8 @@ Copy sample tests (tests/)?
 Copy container configs (Containerfile, podman-compose.yml)?
 > yes
 
-Copy agentdb-state-manager skill (optional advanced)?
-> no
+Copy CI/CD pipelines (.github/workflows/tests.yml, azure-pipelines.yml)?
+> yes
 
 === Phase 2: Git Setup ===
 
@@ -794,6 +798,7 @@ Created:
   - Directory structure (ARCHIVED/, planning/, specs/)
   - Test directory (tests/)
   - Container configs (Containerfile, podman-compose.yml)
+  - CI/CD pipelines (GitHub Actions + Azure Pipelines)
   - Git repository with 3 branches
   - Remote origin configured and pushed
 
