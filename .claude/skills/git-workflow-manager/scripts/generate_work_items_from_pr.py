@@ -589,8 +589,6 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
     created_work_items = []
 
     for i, conversation in enumerate(conversations, 1):
-        slug = WORK_ITEM_SLUG_PATTERN.format(pr_number=pr_number, sequence=i)
-
         try:
             work_item_url, work_item_slug = generator.create_work_item_from_conversation(
                 pr_number,
