@@ -22,13 +22,13 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import List, Dict, Tuple
+from typing import Dict, List, Tuple
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
 from vcs import get_vcs_adapter
-from vcs.github_adapter import GitHubAdapter
 from vcs.azure_adapter import AzureDevOpsAdapter
+from vcs.github_adapter import GitHubAdapter
 
 # Constants with documented rationale
 GITHUB_GRAPHQL_TEMPLATE = '''
@@ -377,7 +377,7 @@ class PRFeedbackWorkItemGenerator:
 
             # If labels don't exist, retry without labels
             if "not found" in error_msg.lower() and "label" in error_msg.lower():
-                print(f"    ⚠️  Labels not found, creating issue without labels...")
+                print("    ⚠️  Labels not found, creating issue without labels...")
                 try:
                     issue_url = subprocess.check_output(
                         [
@@ -577,7 +577,7 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
         return 0  # Success - no work-items to create
 
     if dry_run:
-        print(f"ℹ️  Dry run mode - no work-items created")
+        print("ℹ️  Dry run mode - no work-items created")
         print(f"Would create {len(conversations)} work-items with slugs:")
         for i in range(len(conversations)):
             slug = WORK_ITEM_SLUG_PATTERN.format(pr_number=pr_number, sequence=i + 1)
@@ -605,7 +605,7 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
 
     # Summary
     print("\n" + "=" * 80)
-    print(f"✅ WORK-ITEM GENERATION COMPLETE")
+    print("✅ WORK-ITEM GENERATION COMPLETE")
     print("=" * 80)
     print(f"\nCreated {len(created_work_items)} work-items from {len(conversations)} conversations:")
     for url, slug in created_work_items:
@@ -614,11 +614,11 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
 
     print("\n📋 Next steps:")
     print(f"  1. Review and approve PR #{pr_number} in web portal")
-    print(f"  2. For each work-item, create feature worktree:")
+    print("  2. For each work-item, create feature worktree:")
     for _, slug in created_work_items:
         print(f"     python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature {slug} contrib/<user>")
-    print(f"  3. Implement fixes and create PRs for each work-item")
-    print(f"  4. Repeat until no unresolved conversations\n")
+    print("  3. Implement fixes and create PRs for each work-item")
+    print("  4. Repeat until no unresolved conversations\n")
 
     return 0
 
