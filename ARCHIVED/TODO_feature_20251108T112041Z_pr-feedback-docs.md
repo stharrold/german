@@ -216,7 +216,7 @@ Update all workflow documentation to reflect Option A (work-item generation) ins
 - WORKFLOW.md: v5.2.0 → v5.3.0 (MINOR: clarification)
 
 **Repository:**
-- Current: v1.8.3
+- Current: v1.8.1
 - Target: v1.9.0 (MINOR: new work-item workflow)
 
 ## Quality Gates
