@@ -198,7 +198,7 @@ class AzureDevOpsAdapter(BaseVCSAdapter):
                 for comment in thread.get('comments', []):
                     if comment.get('content'):
                         comments.append({
-                            'author': comment['author']['displayName'],
+                            'author': comment['author']['displayName'] if comment.get('author') else 'Unknown',
                             'body': comment['content'],
                             'file': thread.get('threadContext', {}).get('filePath'),
                             'line': thread.get('threadContext', {}).get('rightFileStart', {}).get('line'),

@@ -159,7 +159,7 @@ class GitHubAdapter(BaseVCSAdapter):
             for review in data.get('reviews', []):
                 if review.get('body'):
                     comments.append({
-                        'author': review['author']['login'],
+                        'author': review['author']['login'] if review.get('author') else 'Ghost',
                         'body': review['body'],
                         'file': None,
                         'line': None,
@@ -169,7 +169,7 @@ class GitHubAdapter(BaseVCSAdapter):
             # Process general comments
             for comment in data.get('comments', []):
                 comments.append({
-                    'author': comment['author']['login'],
+                    'author': comment['author']['login'] if comment.get('author') else 'Ghost',
                     'body': comment['body'],
                     'file': None,
                     'line': None,
