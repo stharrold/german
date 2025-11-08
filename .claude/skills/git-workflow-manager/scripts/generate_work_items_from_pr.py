@@ -266,7 +266,7 @@ class PRFeedbackWorkItemGenerator:
 
             conversations.append({
                 'id': thread['id'],
-                'url': f"{self.adapter.organization}/_git/{self.adapter.project}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
+                'url': f"https://dev.azure.com/{self.adapter.organization}/{self.adapter.project}/_git/{self.adapter.project}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
                 'file': file_path,
                 'line': line_number,
                 'author': first_comment['author']['displayName'] if first_comment.get('author') else 'Unknown',
@@ -351,7 +351,8 @@ class PRFeedbackWorkItemGenerator:
 
         body = '\n'.join(body_parts)
 
-        # Create issue
+        # Create issue (try with labels first, fall back to no labels if they don't exist)
+        pr_label = f"pr-{pr_number}"
         try:
             issue_url = subprocess.check_output(
                 [
@@ -359,6 +360,7 @@ class PRFeedbackWorkItemGenerator:
                     '--title', title,
                     '--body', body,
                     '--label', 'pr-feedback',
+                    '--label', pr_label,
                     '--assignee', '@me'
                 ],
                 text=True,
@@ -372,7 +374,29 @@ class PRFeedbackWorkItemGenerator:
             raise RuntimeError("'gh' CLI not found. Install from https://cli.github.com/")
         except subprocess.CalledProcessError as e:
             error_msg = e.stderr.strip() if e.stderr else str(e)
-            raise RuntimeError(f"Failed to create GitHub issue.\nError: {error_msg}")
+
+            # If labels don't exist, retry without labels
+            if "not found" in error_msg.lower() and "label" in error_msg.lower():
+                print(f"    ⚠️  Labels not found, creating issue without labels...")
+                try:
+                    issue_url = subprocess.check_output(
+                        [
+                            'gh', 'issue', 'create',
+                            '--title', title,
+                            '--body', body,
+                            '--assignee', '@me'
+                        ],
+                        text=True,
+                        stderr=subprocess.PIPE,
+                        timeout=30
+                    ).strip()
+
+                    return (issue_url, slug)
+                except subprocess.CalledProcessError as retry_error:
+                    retry_msg = retry_error.stderr.strip() if retry_error.stderr else str(retry_error)
+                    raise RuntimeError(f"Failed to create GitHub issue.\nError: {retry_msg}")
+            else:
+                raise RuntimeError(f"Failed to create GitHub issue.\nError: {error_msg}")
         except subprocess.TimeoutExpired:
             raise RuntimeError("Timeout while creating GitHub issue")
 
