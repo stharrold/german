@@ -266,7 +266,7 @@ class PRFeedbackWorkItemGenerator:
 
             conversations.append({
                 'id': thread['id'],
-                'url': f"https://dev.azure.com/{self.adapter.organization}/{self.adapter.project}/_git/{self.adapter.project}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
+                'url': f"https://dev.azure.com/{self.adapter.organization}/{self.adapter.project}/_git/{self.adapter.repository}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
                 'file': file_path,
                 'line': line_number,
                 'author': first_comment['author']['displayName'] if first_comment.get('author') else 'Unknown',
