@@ -12,6 +12,8 @@ Usage:
     vcs.create_pull_request(source, target, title, body)
 """
 
+import sys
+
 from .azure_adapter import AzureDevOpsAdapter
 from .base_adapter import BaseVCSAdapter
 from .config import load_vcs_config
@@ -58,6 +60,17 @@ def get_vcs_adapter() -> BaseVCSAdapter:
             repository = azure_config.get('repository')
             if not repository:
                 repository = extract_azure_repo_from_remote()
+                if not repository:
+                    # Warn when extraction fails - adapter will default to project name
+                    print(
+                        f"⚠️  Warning: Could not extract repository name from git remote.\n"
+                        f"   Repository will default to project name ('{project}').\n"
+                        f"   If your Azure DevOps repository name differs from project name,\n"
+                        f"   add 'repository' to .vcs_config.yaml:\n"
+                        f"     azure_devops:\n"
+                        f"       repository: \"YourRepoName\"",
+                        file=sys.stderr
+                    )
 
             return AzureDevOpsAdapter(organization=org, project=project, repository=repository)
         else:
