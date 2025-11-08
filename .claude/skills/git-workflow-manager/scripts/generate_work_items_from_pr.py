@@ -22,13 +22,13 @@ import json
 import subprocess
 import sys
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import List, Dict, Tuple
 
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
 from vcs import get_vcs_adapter
-from vcs.azure_adapter import AzureDevOpsAdapter
 from vcs.github_adapter import GitHubAdapter
+from vcs.azure_adapter import AzureDevOpsAdapter
 
 # Constants with documented rationale
 GITHUB_GRAPHQL_TEMPLATE = '''
@@ -266,7 +266,7 @@ class PRFeedbackWorkItemGenerator:
 
             conversations.append({
                 'id': thread['id'],
-                'url': f"https://dev.azure.com/{self.adapter.organization}/{self.adapter.project}/_git/{self.adapter.project}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
+                'url': f"{self.adapter.organization}/_git/{self.adapter.project}/pullrequest/{pr_number}?_a=files&discussionId={thread['id']}",
                 'file': file_path,
                 'line': line_number,
                 'author': first_comment['author']['displayName'] if first_comment.get('author') else 'Unknown',
@@ -351,8 +351,7 @@ class PRFeedbackWorkItemGenerator:
 
         body = '\n'.join(body_parts)
 
-        # Create issue (try with labels first, fall back to no labels if they don't exist)
-        pr_label = f"pr-{pr_number}"
+        # Create issue
         try:
             issue_url = subprocess.check_output(
                 [
@@ -360,7 +359,6 @@ class PRFeedbackWorkItemGenerator:
                     '--title', title,
                     '--body', body,
                     '--label', 'pr-feedback',
-                    '--label', pr_label,
                     '--assignee', '@me'
                 ],
                 text=True,
@@ -374,29 +372,7 @@ class PRFeedbackWorkItemGenerator:
             raise RuntimeError("'gh' CLI not found. Install from https://cli.github.com/")
         except subprocess.CalledProcessError as e:
             error_msg = e.stderr.strip() if e.stderr else str(e)
-
-            # If labels don't exist, retry without labels
-            if "not found" in error_msg.lower() and "label" in error_msg.lower():
-                print("    ⚠️  Labels not found, creating issue without labels...")
-                try:
-                    issue_url = subprocess.check_output(
-                        [
-                            'gh', 'issue', 'create',
-                            '--title', title,
-                            '--body', body,
-                            '--assignee', '@me'
-                        ],
-                        text=True,
-                        stderr=subprocess.PIPE,
-                        timeout=30
-                    ).strip()
-
-                    return (issue_url, slug)
-                except subprocess.CalledProcessError as retry_error:
-                    retry_msg = retry_error.stderr.strip() if retry_error.stderr else str(retry_error)
-                    raise RuntimeError(f"Failed to create GitHub issue.\nError: {retry_msg}")
-            else:
-                raise RuntimeError(f"Failed to create GitHub issue.\nError: {error_msg}")
+            raise RuntimeError(f"Failed to create GitHub issue.\nError: {error_msg}")
         except subprocess.TimeoutExpired:
             raise RuntimeError("Timeout while creating GitHub issue")
 
@@ -577,7 +553,7 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
         return 0  # Success - no work-items to create
 
     if dry_run:
-        print("ℹ️  Dry run mode - no work-items created")
+        print(f"ℹ️  Dry run mode - no work-items created")
         print(f"Would create {len(conversations)} work-items with slugs:")
         for i in range(len(conversations)):
             slug = WORK_ITEM_SLUG_PATTERN.format(pr_number=pr_number, sequence=i + 1)
@@ -589,6 +565,8 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
     created_work_items = []
 
     for i, conversation in enumerate(conversations, 1):
+        slug = WORK_ITEM_SLUG_PATTERN.format(pr_number=pr_number, sequence=i)
+
         try:
             work_item_url, work_item_slug = generator.create_work_item_from_conversation(
                 pr_number,
@@ -605,7 +583,7 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
 
     # Summary
     print("\n" + "=" * 80)
-    print("✅ WORK-ITEM GENERATION COMPLETE")
+    print(f"✅ WORK-ITEM GENERATION COMPLETE")
     print("=" * 80)
     print(f"\nCreated {len(created_work_items)} work-items from {len(conversations)} conversations:")
     for url, slug in created_work_items:
@@ -614,11 +592,11 @@ def generate_work_items_from_pr(pr_number: int, dry_run: bool = False) -> int:
 
     print("\n📋 Next steps:")
     print(f"  1. Review and approve PR #{pr_number} in web portal")
-    print("  2. For each work-item, create feature worktree:")
+    print(f"  2. For each work-item, create feature worktree:")
     for _, slug in created_work_items:
         print(f"     python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature {slug} contrib/<user>")
-    print("  3. Implement fixes and create PRs for each work-item")
-    print("  4. Repeat until no unresolved conversations\n")
+    print(f"  3. Implement fixes and create PRs for each work-item")
+    print(f"  4. Repeat until no unresolved conversations\n")
 
     return 0
 
