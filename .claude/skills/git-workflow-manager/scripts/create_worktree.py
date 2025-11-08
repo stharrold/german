@@ -79,7 +79,7 @@ def create_worktree(workflow_type, slug, base_branch):
         subprocess.run(['git', 'branch', '-a'], stderr=subprocess.DEVNULL)
         raise
 
-    worktree_path = repo_root.parent / f"{repo_root.name}_{workflow_type}_{slug}"
+    worktree_path = repo_root.parent / f"{repo_root.name}_{workflow_type}_{timestamp}_{slug}"
 
     # Check if worktree path already exists
     if worktree_path.exists():

@@ -26,7 +26,7 @@ This is a Python-based repository for German language learning resources and con
 - German language reference materials (vocabulary, grammar, etc.)
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
-- **Workflow v5.2 skill-based architecture** for managing development workflow
+- **Workflow v5.3 skill-based architecture** for managing development workflow
 
 ## Code Architecture
 
@@ -68,7 +68,7 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
 
-**Current workflow version:** 5.2.0
+**Current workflow version:** 5.3.0 (WORKFLOW.md updated for PR feedback)
 
 **Quick start:** See [WORKFLOW-INIT-PROMPT.md](WORKFLOW-INIT-PROMPT.md) for navigation guide to workflow system (DRY reference-based, ~500 tokens)
 
@@ -137,9 +137,16 @@ The orchestrator will:
 - Calculate semantic version
 - **Skills:** quality-enforcer
 
-**Phase 4: Integration + Feedback**
+**Phase 4: Integration + Feedback** (9 steps)
 - Create PR: feature → contrib/<gh-user>
-- Merge in GitHub UI
+- Reviewers add comments
+- **Phase 4.3: PR Feedback Handling (Optional)**
+  - Generate work-items from unresolved PR conversations
+  - Decision tree: simple fixes (same branch) vs. substantive changes (work-items)
+  - Each work-item follows Phase 2-4 workflow
+  - Enables PR approval without blocking on follow-up work
+- Approve and merge PR in GitHub/Azure DevOps UI
+- Archive workflow and delete worktree
 - **Update BMAD with as-built:** `python .claude/skills/speckit-author/scripts/update_asbuilt.py`
 - Script analyzes deviations, gathers metrics, updates planning/
 - Rebase contrib onto develop
@@ -192,6 +199,15 @@ The orchestrator will:
 - Interactive Q&A for metrics and lessons learned
 - Updates planning/ files with "As-Built" sections
 - Improves future planning accuracy
+
+**PR Feedback via Work-Items (git-workflow-manager - Callable Tool):**
+- **Run script:** `generate_work_items_from_pr.py` after PR review (Phase 4.3)
+- Auto-detects VCS provider (GitHub/Azure DevOps)
+- Extracts unresolved PR conversations (GitHub: isResolved==false, Azure: status==active)
+- Creates work-items with slug pattern: pr-{pr_number}-issue-{sequence}
+- Compatible with all issue trackers
+- **When to use:** Standard for substantive PR feedback, skip for simple fixes
+- **Token savings:** No additional cost (pure CLI operations)
 
 ## Critical Skill Integration Patterns
 
@@ -361,6 +377,10 @@ python .claude/skills/speckit-author/scripts/create_specifications.py \
 # Update BMAD planning with as-built details (Phase 4: after PR merge)
 python .claude/skills/speckit-author/scripts/update_asbuilt.py \
   planning/<slug> specs/<slug>
+
+# Generate work-items from PR feedback (Phase 4: optional, for substantive changes)
+python .claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py \
+  <pr-number>
 
 # Daily rebase contrib onto develop
 python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
@@ -916,9 +936,10 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.8.1
+**Current version:** v1.9.0 (pending release)
 
 **Recent releases:**
+- v1.9.0: PR feedback work-item generation workflow (MINOR) - pending
 - v1.8.1: Branch protection updates + self-merge enabled (PATCH)
 - v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
 - v1.7.0: Cross-platform CI/CD infrastructure (MINOR)
