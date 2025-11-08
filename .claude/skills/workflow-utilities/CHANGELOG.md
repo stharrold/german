@@ -10,6 +10,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - `sync_skill_docs.py` - Documentation sync automation
 
+## [5.2.0] - 2025-11-08
+
+### Added
+- **VCS Adapter PR Feedback Methods:**
+  - `fetch_pr_comments(pr_number)` - Fetch review comments from pull request
+    - GitHub: Uses `gh pr view --json reviews,comments`
+    - Azure DevOps: Uses `az repos pr show --query threads`
+    - Returns unified comment format (author, body, file, line, timestamp)
+  - `update_pr(pr_number, title, body)` - Update pull request title or description
+    - GitHub: Uses `gh pr edit`
+    - Azure DevOps: Uses `az repos pr update`
+  - `get_pr_status(pr_number)` - Get pull request approval and merge status
+    - GitHub: Uses `gh pr view --json state,mergeable,reviews`
+    - Azure DevOps: Uses `az repos pr show --query status,mergeStatus`
+    - Returns state, mergeable, approved, reviews_required
+
+### Changed
+- Updated `base_adapter.py` with three new abstract methods for PR feedback
+- Updated `github_adapter.py` with GitHub-specific PR feedback implementations
+- Updated `azure_adapter.py` with Azure DevOps-specific PR feedback implementations
+- Updated SKILL.md with comprehensive VCS abstraction documentation
+- Extended VCS abstraction beyond PR creation to full PR lifecycle management
+
+### Integration
+- Used by `git-workflow-manager/scripts/generate_work_items_from_pr.py`
+- Enables work-item generation from unresolved PR conversations
+- Supports both GitHub Issues and Azure DevOps Work Items
+
+### Token Efficiency
+- No additional token cost (pure CLI operations)
+- Unified interface reduces context needed for VCS-specific operations
+
 ## [5.1.0] - 2025-11-03
 
 ### Added

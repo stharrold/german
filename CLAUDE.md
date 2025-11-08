@@ -362,6 +362,10 @@ python .claude/skills/speckit-author/scripts/create_specifications.py \
 python .claude/skills/speckit-author/scripts/update_asbuilt.py \
   planning/<slug> specs/<slug>
 
+# Generate work-items from PR feedback (Phase 4: optional, for substantive changes)
+python .claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py \
+  <pr-number>
+
 # Daily rebase contrib onto develop
 python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
   contrib/stharrold
