@@ -12,6 +12,7 @@ Constants:
   Rationale: Centralize CLI command name for easier testing/mocking
 """
 
+import json
 import subprocess
 
 from .base_adapter import BaseVCSAdapter
@@ -126,6 +127,165 @@ class GitHubAdapter(BaseVCSAdapter):
             )
         except subprocess.TimeoutExpired:
             raise RuntimeError("Timeout while creating GitHub pull request")
+
+    def fetch_pr_comments(self, pr_number: int) -> list:
+        """Fetch review comments from a GitHub pull request.
+
+        Args:
+            pr_number: Pull request number
+
+        Returns:
+            List of comment dictionaries
+
+        Raises:
+            RuntimeError: If fetching comments fails
+        """
+        try:
+            result = subprocess.check_output(
+                [
+                    GITHUB_CLI, 'pr', 'view', str(pr_number),
+                    '--json', 'reviews,comments',
+                    '--jq', '.'
+                ],
+                text=True,
+                stderr=subprocess.PIPE,
+                timeout=30
+            )
+            data = json.loads(result)
+
+            comments = []
+
+            # Process review comments (file-level comments)
+            for review in data.get('reviews', []):
+                if review.get('body'):
+                    comments.append({
+                        'author': review['author']['login'],
+                        'body': review['body'],
+                        'file': None,
+                        'line': None,
+                        'created_at': review['submittedAt']
+                    })
+
+            # Process general comments
+            for comment in data.get('comments', []):
+                comments.append({
+                    'author': comment['author']['login'],
+                    'body': comment['body'],
+                    'file': None,
+                    'line': None,
+                    'created_at': comment['createdAt']
+                })
+
+            return comments
+
+        except FileNotFoundError:
+            raise RuntimeError(
+                f"'{GITHUB_CLI}' CLI not found. Install from https://cli.github.com/"
+            )
+        except subprocess.CalledProcessError as e:
+            error_msg = e.stderr.strip() if e.stderr else str(e)
+            raise RuntimeError(
+                f"Failed to fetch PR comments.\n"
+                f"Error: {error_msg}"
+            )
+        except subprocess.TimeoutExpired:
+            raise RuntimeError("Timeout while fetching PR comments")
+        except (json.JSONDecodeError, KeyError) as e:
+            raise RuntimeError(f"Failed to parse PR comment data: {e}")
+
+    def update_pr(
+        self,
+        pr_number: int,
+        title: str = None,
+        body: str = None
+    ) -> None:
+        """Update GitHub pull request title or description.
+
+        Args:
+            pr_number: Pull request number
+            title: New PR title (optional)
+            body: New PR description (optional)
+
+        Raises:
+            RuntimeError: If update fails
+        """
+        if not title and not body:
+            return  # Nothing to update
+
+        try:
+            cmd = [GITHUB_CLI, 'pr', 'edit', str(pr_number)]
+
+            if title:
+                cmd.extend(['--title', title])
+            if body:
+                cmd.extend(['--body', body])
+
+            subprocess.check_output(
+                cmd,
+                text=True,
+                stderr=subprocess.PIPE,
+                timeout=30
+            )
+
+        except FileNotFoundError:
+            raise RuntimeError(
+                f"'{GITHUB_CLI}' CLI not found. Install from https://cli.github.com/"
+            )
+        except subprocess.CalledProcessError as e:
+            error_msg = e.stderr.strip() if e.stderr else str(e)
+            raise RuntimeError(
+                f"Failed to update PR.\n"
+                f"Error: {error_msg}"
+            )
+        except subprocess.TimeoutExpired:
+            raise RuntimeError("Timeout while updating PR")
+
+    def get_pr_status(self, pr_number: int) -> dict:
+        """Get GitHub pull request status.
+
+        Args:
+            pr_number: Pull request number
+
+        Returns:
+            Dictionary with status information
+
+        Raises:
+            RuntimeError: If fetching status fails
+        """
+        try:
+            result = subprocess.check_output(
+                [
+                    GITHUB_CLI, 'pr', 'view', str(pr_number),
+                    '--json', 'state,mergeable,reviewDecision',
+                    '--jq', '.'
+                ],
+                text=True,
+                stderr=subprocess.PIPE,
+                timeout=30
+            )
+            data = json.loads(result)
+
+            return {
+                'state': data.get('state', 'UNKNOWN').lower(),
+                'mergeable': data.get('mergeable') == 'MERGEABLE',
+                'approved': data.get('reviewDecision') == 'APPROVED',
+                'reviews_required': 1 if data.get('reviewDecision') != 'APPROVED' else 0
+            }
+
+        except FileNotFoundError:
+            raise RuntimeError(
+                f"'{GITHUB_CLI}' CLI not found. Install from https://cli.github.com/"
+            )
+        except subprocess.CalledProcessError as e:
+            error_msg = e.stderr.strip() if e.stderr else str(e)
+            raise RuntimeError(
+                f"Failed to fetch PR status.\n"
+                f"Error: {error_msg}"
+            )
+        except subprocess.TimeoutExpired:
+            raise RuntimeError("Timeout while fetching PR status")
+        except (json.JSONDecodeError, KeyError) as e:
+            raise RuntimeError(f"Failed to parse PR status data: {e}")
 
     def get_provider_name(self) -> str:
         """Get provider name.
