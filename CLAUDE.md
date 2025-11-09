@@ -121,6 +121,12 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 
 **Complete documentation:** See [WORKFLOW.md](WORKFLOW.md) for full 6-phase workflow guide (~4,000 tokens, 2000+ lines)
 
+**Architecture deep-dive:** See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed architectural analysis including:
+- Token efficiency patterns (progressive loading saves 50%, callable tools save 75-92%)
+- Skill integration patterns and when to use each skill
+- Critical design decisions and rationale
+- Complete constants reference with explanations
+
 ## Critical Pitfalls (Not Obvious from Individual Files)
 
 **Branch Protection:**
