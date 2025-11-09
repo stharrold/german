@@ -112,15 +112,20 @@ hotfix/vX.Y.Z-hotfix.N        ← Production hotfix (worktree)
 - Release → main (PR reviewed, merged in GitHub UI)
 - Hotfix → main (PR reviewed, merged in GitHub UI)
 
-#### Documented Exception
+#### No Exceptions - All Merges via PR
 
-**backmerge_release.py** is the ONLY script that commits directly to `develop`:
+**ALL merges** to `main` and `develop` go through pull requests. There are no exceptions.
+
+**backmerge_release.py** follows PR workflow (as of v1.8.0):
 - **Purpose:** Back-merge release branches to develop (Phase 5.5)
-- **Why it's safe:**
-  - Only merges from release branch (no code changes)
-  - Creates merge commit only (preserves history)
-  - Maintains develop's stability (inherits tested release code)
+- **Process:** Rebases release branch onto develop, then creates PR
+- **Why rebase first:**
+  - Clean, linear git history (no merge commits)
+  - PR is up-to-date with target branch (no "branch out-of-date" warnings)
+  - Easier code review (only shows actual changes from release)
+  - Follows git best practices
 - **Location:** `.claude/skills/git-workflow-manager/scripts/backmerge_release.py`
+- **No direct commits:** Script creates PR only (merge happens in GitHub/Azure DevOps UI)
 
 #### Technical Enforcement (Recommended)
 
