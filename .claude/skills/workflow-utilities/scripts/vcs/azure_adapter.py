@@ -53,6 +53,8 @@ class AzureDevOpsAdapter(BaseVCSAdapter):
         self.organization = organization.strip()
         self.project = project.strip()
         # Default to project name if repository not provided (backward compatibility)
+        # Note: Treats None, empty string, and whitespace-only values as "not provided"
+        # to maintain consistency with organization and project validation (issue #110)
         stripped_repo = repository.strip() if repository else ''
         self.repository = stripped_repo if stripped_repo else self.project
 
