@@ -53,7 +53,7 @@ class AzureDevOpsAdapter(BaseVCSAdapter):
         self.organization = organization.strip()
         self.project = project.strip()
         # Default to project name if repository not provided (backward compatibility)
-        self.repository = repository.strip() if repository is not None else self.project
+        self.repository = repository.strip() if repository and repository.strip() else self.project
 
     def check_authentication(self) -> bool:
         """Check if user is authenticated with Azure.
