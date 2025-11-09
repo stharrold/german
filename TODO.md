@@ -1,7 +1,7 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-09T12:36:55.949796+00:00'
+last_update: '2025-11-09T14:29:07.424425+00:00'
 workflows:
   active: []
   archived:
@@ -100,10 +100,21 @@ workflows:
     completed_at: '2025-11-09T12:36:55.949315+00:00'
     summary: Incomplete release workflow - superseded by v1.5.1 and subsequent versions
     semantic_version: 1.5.0
+  - slug: pre-pr-rebase
+    timestamp: 20251109T133524Z
+    title: pre-pr-rebase
+    file: ARCHIVED/TODO_feature_20251109T133524Z_pre-pr-rebase.md
+    status: completed
+    completed_at: '2025-11-09T14:29:07.424170+00:00'
+    summary: Added pre-PR rebase functionality to backmerge_release.py script. Rebases
+      release branch onto target branch before creating PR to ensure clean linear
+      history and prevent 'branch out-of-date' warnings. Includes enhanced error handling
+      with conflict detection and specific error messages.
+    semantic_version: 5.2.0
 context_stats:
-  total_workflows_completed: 11
+  total_workflows_completed: 12
   current_token_usage: 82000
-  last_checkpoint: '2025-11-09T12:36:55.949792+00:00'
+  last_checkpoint: '2025-11-09T14:29:07.424422+00:00'
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive
