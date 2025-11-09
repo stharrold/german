@@ -28,6 +28,53 @@ This is a Python-based repository for German language learning resources and con
 - Structured data for German language content
 - **Workflow v5.3 skill-based architecture** for managing development workflow
 
+## Quick Start for New Claude Instances
+
+**First commands to run:**
+```bash
+# 1. Detect project stack (run once per session)
+python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
+
+# 2. Check current context
+git status
+cat TODO.md  # See active workflows
+
+# 3. Start workflow
+# Say: "next step?"
+```
+
+**Critical architecture concepts:**
+- **Progressive skill loading**: Load 1-3 skills per phase (not all 9)
+- **TODO files live in main repo**: Worktrees reference `../TODO_*.md`
+- **Callable tools reduce tokens by 75-92%**: BMAD/SpecKit are interactive scripts
+- **Context checkpoint at 100K tokens**: System auto-saves, you run `/init` then `/compact`
+
+## Workflow Execution Flow
+
+```
+User: "next step?"
+    ↓
+workflow-orchestrator: Detect context
+    ├─ Main repo + contrib branch → Phase 1 (BMAD planning)
+    ├─ Feature worktree → Phase 2-3 (SpecKit + implementation)
+    └─ PR merged → Phase 4 (PR feedback, archival)
+    ↓
+Load relevant skills (1-3, not all 9)
+    ├─ Phase 1: tech-stack-adapter + bmad-planner
+    ├─ Phase 2: speckit-author + git-workflow-manager
+    ├─ Phase 3: quality-enforcer
+    └─ Phase 4: git-workflow-manager + workflow-utilities
+    ↓
+Execute callable tool or perform operation
+    ├─ BMAD: Interactive Q&A → planning/ files
+    ├─ SpecKit: Auto-detect BMAD → specs/ files
+    └─ Git ops: Create worktree, PR, merge
+    ↓
+Update TODO_*.md with progress
+    ↓
+Check context usage (checkpoint at 100K)
+```
+
 ## Code Architecture
 
 **Package Structure:**
@@ -64,15 +111,44 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 - **Workflow System:** Skill-based architecture (9 specialized skills)
 - **Containerization:** Podman + podman-compose
 
-## Workflow v5.2 Architecture
+## Workflow v5.3 Architecture
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
 
-**Current workflow version:** 5.3.0 (WORKFLOW.md updated for PR feedback)
+**Current workflow version:** 5.3.0
 
 **Quick start:** See [WORKFLOW-INIT-PROMPT.md](WORKFLOW-INIT-PROMPT.md) for navigation guide to workflow system (DRY reference-based, ~500 tokens)
 
 **Complete documentation:** See [WORKFLOW.md](WORKFLOW.md) for full 6-phase workflow guide (~4,000 tokens, 2000+ lines)
+
+## Critical Pitfalls (Not Obvious from Individual Files)
+
+**Branch Protection:**
+- ❌ Never commit directly to `main` or `develop`
+- ✅ All changes via PRs (self-merge enabled as of v1.8.1)
+- Scripts validate branch before operations
+
+**TODO Lifecycle:**
+- ❌ Never delete TODO files directly
+- ✅ Use `workflow_registrar.py` to add to TODO.md manifest
+- ✅ Use `workflow_archiver.py` to move to ARCHIVED/ after completion
+- ✅ TODO files must be committed to feature branches (part of PR)
+
+**Context Management:**
+- At 100K tokens: System auto-saves to TODO_*.md
+- You must then: `/init` → `/compact` → continue
+- Effective capacity: 136K tokens (200K total - 64K overhead)
+
+**Worktree Pattern:**
+- Main repo: Where TODO files live
+- Worktrees: Reference `../TODO_*.md`
+- After PR merge: Delete worktree + branch, archive TODO
+
+**When to Use Which Skill:**
+- Complex feature needing alignment → Use BMAD (Phase 1)
+- Simple bug fix → Skip BMAD, use SpecKit standalone (Phase 2)
+- Need dependency queries → Use AgentDB (89% token savings)
+- Simple file read → Just read the file directly
 
 ### Available Skills (9 Total)
 
@@ -396,7 +472,7 @@ python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
 
 # Archive workflow (Phase 4.4: after PR merge)
 python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
-  TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+  TODO_feature_*.md --summary "What was completed" --version "1.9.0"
 
 # Delete worktree and branch (Phase 4.5: after archival)
 git worktree remove ../german_feature_<slug>
