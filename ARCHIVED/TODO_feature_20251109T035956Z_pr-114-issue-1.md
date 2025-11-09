@@ -1,14 +1,14 @@
 ---
 type: workflow-manifest
 workflow_type: feature
-slug: pr-111-issue-1
-timestamp: 20251109T034949Z
+slug: pr-114-issue-1
+timestamp: 20251109T035956Z
 github_user: stharrold
 
 metadata:
-  title: "Pr 111 Issue 1"
-  description: "Feature for pr-111-issue-1"
-  created: "2025-11-09T03:49:50.089145Z"
+  title: "Pr 114 Issue 1"
+  description: "Feature for pr-114-issue-1"
+  created: "2025-11-09T03:59:56.835958Z"
   stack: python
   package_manager: uv
   test_framework: pytest
@@ -18,7 +18,7 @@ workflow_progress:
   phase: 1
   current_step: "1.1"
   last_task: null
-  last_update: "2025-11-09T03:49:50.089145Z"
+  last_update: "2025-11-09T03:59:56.835958Z"
   status: "planning"
 
 quality_gates:
@@ -79,22 +79,22 @@ context_checkpoints: []
 #     notes: "Brief status summary"
 ---
 
-# TODO: Pr 111 Issue 1
+# TODO: Pr 114 Issue 1
 
 **Type:** feature
-**Slug:** pr-111-issue-1
-**Created:** 2025-11-09T03:49:50.089145Z
+**Slug:** pr-114-issue-1
+**Created:** 2025-11-09T03:59:56.835958Z
 **GitHub User:** stharrold
 
 ## Overview
 
-Feature for pr-111-issue-1
+Feature for pr-114-issue-1
 
 ## Current Status
 
 **Phase:** Planning (1)
 **Current Step:** 1.1
-**Last Updated:** 2025-11-09T03:49:50.089145Z
+**Last Updated:** 2025-11-09T03:59:56.835958Z
 
 ## Active Tasks
 
@@ -102,11 +102,11 @@ Feature for pr-111-issue-1
 
 - [ ] **plan_001**: Create requirements.md
   - Define business requirements and success criteria
-  - Location: `planning/pr-111-issue-1/requirements.md`
+  - Location: `planning/pr-114-issue-1/requirements.md`
 
 - [ ] **plan_002**: Create architecture.md
   - Design system architecture and components
-  - Location: `planning/pr-111-issue-1/architecture.md`
+  - Location: `planning/pr-114-issue-1/architecture.md`
 
 ## Next Steps
 
@@ -130,13 +130,13 @@ Feature for pr-111-issue-1
 
 ```bash
 # Check workflow status
-cat TODO_feature_20251109T034949Z_pr-111-issue-1.md
+cat TODO_feature_20251109T035956Z_pr-114-issue-1.md
 
 # Create feature worktree
-python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature pr-111-issue-1 contrib/stharrold
+python .claude/skills/git-workflow-manager/scripts/create_worktree.py feature pr-114-issue-1 contrib/stharrold
 
 # Update task status
-python .claude/skills/workflow-utilities/scripts/todo_updater.py TODO_feature_20251109T034949Z_pr-111-issue-1.md <task_id> <status>
+python .claude/skills/workflow-utilities/scripts/todo_updater.py TODO_feature_20251109T035956Z_pr-114-issue-1.md <task_id> <status>
 
 # Run quality gates
 python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
@@ -144,4 +144,4 @@ python .claude/skills/quality-enforcer/scripts/run_quality_gates.py
 
 ## Status History
 
-- 2025-11-09T03:49:50.089145Z: Workflow initialized
+- 2025-11-09T03:59:56.835958Z: Workflow initialized
