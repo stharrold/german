@@ -13,12 +13,18 @@ branch protection. This was fixed in v1.8.0 to enforce PR workflow. As of
 v1.8.0, PR approval is no longer required (self-merge enabled).
 
 This script implements Step 5.6 of Phase 5 (Release Workflow) as documented
-in WORKFLOW.md. It creates a pull request to merge the release branch back
-into develop to ensure all release changes are integrated into the development
-branch.
+in WORKFLOW.md. It rebases the release branch onto the target branch first
+to ensure clean, linear history, then creates a pull request to merge the
+release branch back into develop.
 
-This script ALWAYS creates a PR and never pushes directly to develop, ensuring
-proper review workflow and branch protection compliance.
+⚠️ PRE-PR REBASE REQUIREMENT ⚠️
+
+This script ALWAYS rebases the release branch onto the target branch before
+creating the PR. This ensures:
+- Clean, linear git history (no merge commits)
+- PR is up-to-date with target branch (no "branch out-of-date" warnings)
+- Easier code review (only shows actual changes from release)
+- Follows git best practices
 
 Usage:
     python backmerge_release.py <version> <target_branch>
@@ -30,6 +36,7 @@ Requirements:
     - Release branch release/<version> must exist
     - Target branch must exist
     - Tag <version> must exist (ensures release was tagged)
+    - Working directory must be clean (no uncommitted changes)
     - gh CLI or az CLI required for PR creation
 """
 
@@ -146,13 +153,86 @@ def check_working_directory_clean():
         ) from e
 
 
+def rebase_release_branch(release_branch, target_branch):
+    """
+    Rebase release branch onto target branch before creating PR.
+
+    This ensures the PR has a clean, linear history and is up-to-date
+    with the target branch, avoiding "branch out-of-date" warnings and
+    merge commits.
+
+    Args:
+        release_branch: Release branch name (e.g., 'release/v1.9.0')
+        target_branch: Target branch name (e.g., 'develop')
+
+    Raises:
+        RuntimeError: If rebase fails or encounters conflicts
+    """
+    try:
+        # Fetch latest target branch
+        subprocess.run(
+            ['git', 'fetch', 'origin', target_branch],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        # Checkout release branch
+        subprocess.run(
+            ['git', 'checkout', release_branch],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+        # Rebase onto target branch
+        result = subprocess.run(
+            ['git', 'rebase', f'origin/{target_branch}'],
+            capture_output=True,
+            text=True,
+            check=False  # Don't raise on conflict
+        )
+
+        if result.returncode != 0:
+            # Rebase conflict - abort and provide helpful error
+            subprocess.run(
+                ['git', 'rebase', '--abort'],
+                capture_output=True,
+                check=False
+            )
+            raise RuntimeError(
+                f"Rebase conflict detected when rebasing {release_branch} onto origin/{target_branch}.\n"
+                f"Manual resolution required:\n"
+                f"  1. git checkout {release_branch}\n"
+                f"  2. git rebase origin/{target_branch}\n"
+                f"  3. Resolve conflicts\n"
+                f"  4. git rebase --continue\n"
+                f"  5. git push --force-with-lease origin {release_branch}\n"
+                f"  6. Re-run this script"
+            )
+
+        # Force push rebased branch
+        subprocess.run(
+            ['git', 'push', '--force-with-lease', 'origin', release_branch],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+
+    except subprocess.CalledProcessError as e:
+        error_msg = e.stderr.strip() if e.stderr else str(e)
+        raise RuntimeError(
+            f"Failed to rebase {release_branch} onto {target_branch}: {error_msg}"
+        ) from e
+
+
 def create_pr(version, target_branch):
     """
     Create PR to merge release branch back to target branch.
 
-    This function creates a PR for back-merge. GitHub/CI will detect any
-    merge conflicts automatically. This ensures all merges to develop go
-    through proper review workflow and branch protection policies.
+    This function creates a PR for back-merge. The release branch is rebased
+    onto the target branch first to ensure clean, linear history and avoid
+    "branch out-of-date" warnings.
 
     Args:
         version: Release version (e.g., 'v1.1.0')
@@ -272,7 +352,12 @@ def main():
         verify_branch_exists(target_branch)
         verify_tag_exists(version)
 
-        # Step 2: Create PR directly (no local merge attempts)
+        # Step 2: Rebase release branch onto target branch
+        print(f"Rebasing {release_branch} onto {target_branch}...", file=sys.stderr)
+        rebase_release_branch(release_branch, target_branch)
+        print("✓ Rebase successful", file=sys.stderr)
+
+        # Step 3: Create PR
         print("Creating pull request for back-merge...", file=sys.stderr)
         pr_url = create_pr(version, target_branch)
 
