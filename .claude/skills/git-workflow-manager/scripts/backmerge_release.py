@@ -169,9 +169,9 @@ def rebase_release_branch(release_branch, target_branch):
         RuntimeError: If rebase fails or encounters conflicts
     """
     try:
-        # Fetch latest target branch
+        # Fetch latest target and release branches (Issue #137)
         subprocess.run(
-            ['git', 'fetch', 'origin', target_branch],
+            ['git', 'fetch', 'origin', target_branch, release_branch],
             capture_output=True,
             text=True,
             check=True
@@ -194,18 +194,26 @@ def rebase_release_branch(release_branch, target_branch):
         )
 
         if result.returncode != 0:
-            # Rebase conflict - abort and provide helpful error
+            # Rebase failed - abort and provide helpful error (Issue #136)
             subprocess.run(
                 ['git', 'rebase', '--abort'],
                 capture_output=True,
                 check=False
             )
+            # Check stderr to distinguish conflict from other failures
+            error_output = result.stderr if result.stderr else result.stdout
+            if 'CONFLICT' in error_output or 'conflict' in error_output.lower():
+                error_type = "Rebase conflict"
+            else:
+                error_type = "Rebase failed"
+
             raise RuntimeError(
-                f"Rebase conflict detected when rebasing {release_branch} onto origin/{target_branch}.\n"
+                f"{error_type} when rebasing {release_branch} onto origin/{target_branch}.\n"
+                f"Error output: {error_output.strip()}\n\n"
                 f"Manual resolution required:\n"
                 f"  1. git checkout {release_branch}\n"
                 f"  2. git rebase origin/{target_branch}\n"
-                f"  3. Resolve conflicts\n"
+                f"  3. Resolve conflicts (if any)\n"
                 f"  4. git rebase --continue\n"
                 f"  5. git push --force-with-lease origin {release_branch}\n"
                 f"  6. Re-run this script"
@@ -220,9 +228,11 @@ def rebase_release_branch(release_branch, target_branch):
         )
 
     except subprocess.CalledProcessError as e:
+        # More specific error message (Issue #135)
         error_msg = e.stderr.strip() if e.stderr else str(e)
+        operation = "fetch" if "fetch" in str(e.cmd) else "checkout" if "checkout" in str(e.cmd) else "push"
         raise RuntimeError(
-            f"Failed to rebase {release_branch} onto {target_branch}: {error_msg}"
+            f"Failed to {operation} during rebase operation: {error_msg}"
         ) from e
 
 
@@ -352,12 +362,15 @@ def main():
         verify_branch_exists(target_branch)
         verify_tag_exists(version)
 
-        # Step 2: Rebase release branch onto target branch
+        # Step 2: Check working directory is clean (Issue #134)
+        check_working_directory_clean()
+
+        # Step 3: Rebase release branch onto target branch
         print(f"Rebasing {release_branch} onto {target_branch}...", file=sys.stderr)
         rebase_release_branch(release_branch, target_branch)
         print("✓ Rebase successful", file=sys.stderr)
 
-        # Step 3: Create PR
+        # Step 4: Create PR
         print("Creating pull request for back-merge...", file=sys.stderr)
         pr_url = create_pr(version, target_branch)
 

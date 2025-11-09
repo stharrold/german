@@ -116,7 +116,7 @@ hotfix/vX.Y.Z-hotfix.N        ← Production hotfix (worktree)
 
 **ALL merges** to `main` and `develop` go through pull requests. There are no exceptions.
 
-**backmerge_release.py** follows PR workflow (as of v1.8.1):
+**backmerge_release.py** follows PR workflow (as of v1.8.0):
 - **Purpose:** Back-merge release branches to develop (Phase 5.5)
 - **Process:** Rebases release branch onto develop, then creates PR
 - **Why rebase first:**
