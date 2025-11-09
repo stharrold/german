@@ -86,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - No breaking changes - backward compatible with existing workflows
 - Work-item generation is optional; simple fixes can still be done directly on PR branch
 
+
 ## [1.8.2] - 2025-11-07
 
 ### Fixed
