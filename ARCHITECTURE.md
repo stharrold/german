@@ -236,15 +236,15 @@ description: |
 
 ### A. Branch Protection Violations
 
-**Protected branches:** `main` and `develop` (NEVER delete, NEVER commit directly)
+**Protected branches:** `main` and `develop` (NEVER delete, NEVER commit or push directly from local; only allow merges via PRs in the GitHub web UI)
 
 **Common mistakes:**
 ```
 ❌ git commit -m "..." && git push origin develop
-   → Violates protection policy
+   → Violates protection policy (direct local commit/push to protected branch)
 
-✅ Create PR: feature → contrib → develop (via web UI merge)
-   → Follows protection policy
+✅ Create PR: feature → contrib → develop (merge via PR in GitHub web UI)
+   → Follows protection policy (merge via PR in GitHub web UI is allowed)
 
 ❌ git branch -D main
    → Irreversible disaster
@@ -361,7 +361,9 @@ feature/20251108T143000Z_auth-system
 
 ### B. Skill Loading Decision Tree (From Orchestrator)
 
-```python
+**Note:** This is algorithmic pseudo-code showing the orchestrator's decision logic, not executable Python. The orchestrator SKILL.md contains algorithms for skill selection, not executable code.
+
+```
 if not SESSION_CONFIG:
     load('tech-stack-adapter')      # Detect uv/Podman/Python version
 
@@ -579,7 +581,7 @@ related_skills:
 |----------|-------|-----------|
 | CHECKPOINT_THRESHOLD | 100K tokens | 73% of 136K effective capacity |
 | WARNING_THRESHOLD | 80K tokens | Gives time to finish current task |
-| TIMESTAMP_FORMAT | YYYYMMDDTHHMMSSZ | No colons/hyphens, shell-safe, sortable |
+| TIMESTAMP_FORMAT | YYYYMMDDTHHMMSSZ | Compact ISO8601 without separators (shell-safe, sortable) |
 | MIN_TEST_COVERAGE | 80% | Prevents technical debt |
 | WORK_ITEM_SLUG | pr-N-issue-M | Sequential, PR-scoped, sortable |
 | FORCE_PUSH_SAFETY | --force-with-lease | Only if remote unchanged since fetch |
