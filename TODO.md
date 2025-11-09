@@ -1,7 +1,7 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-09T00:03:06.991420+00:00'
+last_update: '2025-11-09T03:53:07.405413+00:00'
 workflows:
   active: []
   archived:
@@ -58,10 +58,27 @@ workflows:
     completed_at: '2025-11-09T00:03:06.991165+00:00'
     summary: Fixed AttributeError when repository parameter is None in Azure adapter
     semantic_version: 1.9.0
+  - slug: pr-109-issue-1
+    timestamp: 20251109T025927Z
+    title: pr-109-issue-1
+    file: ARCHIVED/TODO_feature_20251109T025927Z_pr-109-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T03:49:22.829917+00:00'
+    summary: Fixed repository parameter validation in Azure adapter
+    semantic_version: 1.9.0
+  - slug: pr-111-issue-1
+    timestamp: 20251109T034949Z
+    title: pr-111-issue-1
+    file: ARCHIVED/TODO_feature_20251109T034949Z_pr-111-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T03:53:07.405101+00:00'
+    summary: Optimized repository parameter validation to avoid redundant strip()
+      call
+    semantic_version: 1.9.0
 context_stats:
-  total_workflows_completed: 6
+  total_workflows_completed: 8
   current_token_usage: 82000
-  last_checkpoint: '2025-11-09T00:03:06.991416+00:00'
+  last_checkpoint: '2025-11-09T03:53:07.405410+00:00'
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive
