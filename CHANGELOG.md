@@ -10,6 +10,82 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.9.0] - 2025-11-09
+
+### Added
+- **Work-item generation workflow (Option A)** - Complete PR feedback handling system
+  - VCS-agnostic PR comment extraction (GitHub + Azure DevOps support)
+  - Automatic work-item generation from unresolved PR conversations
+  - `generate_work_items_from_pr.py` script with auto-detection of VCS provider
+  - Work-item slug pattern: `pr-{pr_number}-issue-{sequence}`
+  - Compatible with all issue tracking systems
+  - Token-efficient implementation (pure CLI operations, no prompt overhead)
+  - Successfully demonstrated 5-level nested workflow capability (14 PRs, 10 work-items)
+
+- **VCS adapter enhancements** - Extended PR feedback capabilities
+  - `fetch_pr_comments()` method in AzureDevOpsAdapter and GitHubAdapter
+  - Conversation thread support with resolution status tracking
+  - Unified comment format across GitHub and Azure DevOps providers
+  - Filtering for unresolved conversations only
+
+- **ARCHITECTURE.md** - Comprehensive workflow architecture documentation (604 lines)
+  - High-level execution flow and phase map (Phases 0-6)
+  - Key architectural patterns (progressive skill loading, BMAD→SpecKit context reuse)
+  - Token efficiency analysis (50-92% reductions through various patterns)
+  - Skill integration patterns and decision trees
+  - Complete constants reference with rationale
+  - Critical design decisions and system constraints
+
+### Changed
+- **WORKFLOW.md updates** - Enhanced Phase 4.3 documentation
+  - Added PR Feedback Handling workflow (Option A: work-items)
+  - Decision tree for simple fixes vs. substantive changes
+  - Work-item generation and nested workflow patterns
+  - Updated Phase 4 steps to include optional feedback handling
+
+- **CLAUDE.md improvements** - Added architectural cross-references
+  - Cross-reference to ARCHITECTURE.md for deep-dive analysis
+  - Separation of concerns: operational guidance (CLAUDE.md) vs. architecture (ARCHITECTURE.md)
+  - Improved navigation for future Claude Code instances
+
+### Fixed
+- **Azure DevOps repository parameter handling** - Fixed 4 related issues (#105-106, #110, #112, #115)
+  - Issue #105 (PR #107): Added warning when repository extraction returns None
+  - Issue #106 (PR #108): Fixed AttributeError when repository parameter is None
+  - Issue #110 (PR #111): Enhanced repository parameter validation with better error messages
+  - Issue #112 (PR #113): Optimized validation to avoid redundant strip() calls
+  - Issue #115 (PR #116): Documented empty string behavior for repository parameter
+
+- **ARCHITECTURE.md documentation clarifications** - Fixed 4 GitHub Copilot review issues (#120-123)
+  - Issue #120 (PR #124): Clarified pseudo-code notation (algorithmic, not executable Python)
+  - Issue #121 (PR #124): Standardized terminology for PR merge operations
+  - Issue #122 (PR #124): Enhanced timestamp format description with rationale
+  - Issue #123 (PR #124): Clarified branch protection policy (no direct local commits/pushes)
+
+- **Code quality improvements**
+  - Fixed linting errors in generate_work_items_from_pr.py
+  - Resolved all GitHub Copilot code review issues from PR feedback iterations
+
+### Workflow Metrics
+- **Total PRs:** 14 (all merged successfully)
+  - PR #95: Initial work-item generation implementation
+  - PR #104, #107-109, #111, #113-114, #116-119, #124-125: Nested fixes and improvements
+- **Work-items generated:** 10 issues across 5 nested levels
+- **Nested workflow depth:** 5 levels (unprecedented recursive dogfooding)
+- **PR merge pattern:** feature → contrib → develop (branch protection compliant)
+
+### Quality
+- All tests passing (114 passed, 15 skipped)
+- Test coverage: 88% (above required 80%)
+- Linting: Clean - all ruff checks pass
+- Type checking: Clean - all mypy checks pass
+- Build: Successful
+
+### Migration Notes
+- Replaces iterative PR feedback workflow (Option B) with work-item generation (Option A)
+- No breaking changes - backward compatible with existing workflows
+- Work-item generation is optional; simple fixes can still be done directly on PR branch
+
 ## [1.8.2] - 2025-11-07
 
 ### Fixed
