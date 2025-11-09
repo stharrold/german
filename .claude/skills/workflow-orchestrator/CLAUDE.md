@@ -409,12 +409,18 @@ Phase 3: Quality (worktree)
 Phase 4: Integration (main repo, contrib branch)
 ├── 4.1: Load: git-workflow-manager
 │   └── Action: Create PR (feature → contrib)
-├── 4.2: User: Merge in GitHub UI
-├── 4.3: Load: speckit-author (optional)
+├── 4.2: User: Reviewers add comments in web portal
+├── 4.3: Load: git-workflow-manager (optional)
+│   └── Action: Generate work-items from unresolved PR conversations
+│   └── Pattern: For each work-item, repeat Phase 2-4 with new feature worktree
+├── 4.4: User: Approve and merge PR in GitHub/Azure DevOps UI
+├── 4.5: Load: workflow-utilities
+│   └── Action: Archive workflow and delete worktree
+├── 4.6: Load: speckit-author (optional)
 │   └── Action: Update BMAD with as-built
-├── 4.4: Load: git-workflow-manager
+├── 4.7: Load: git-workflow-manager
 │   └── Action: Daily rebase contrib onto develop
-└── 4.5: Action: Create PR (contrib → develop)
+└── 4.8: Action: Create PR (contrib → develop)
 
 Phase 5: Release (main repo)
 ├── Load: git-workflow-manager, quality-enforcer

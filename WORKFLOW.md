@@ -1,8 +1,8 @@
 # Workflow Guide - German Language Learning Repository
 
-**Version:** 5.2.0
-**Date:** 2025-10-23
-**Architecture:** Skill-based progressive disclosure with BMAD + SpecKit + Claude Code
+**Version:** 5.3.0
+**Date:** 2025-11-08
+**Architecture:** Skill-based progressive disclosure with BMAD + SpecKit + Claude Code + PR Feedback Work-Items
 
 ## Overview
 
@@ -890,11 +890,90 @@ EOF
 ✓ Pull request created: https://github.com/user/german/pull/42
 ```
 
-#### Step 4.3: User Merges PR
+#### Step 4.3: Reviewers Add Comments
 
-**Action:** User reviews and merges PR in GitHub UI (contrib branch)
+**Action:** Reviewers add comments and conversations in GitHub/Azure DevOps web portal
 
-#### Step 4.4: Archive Workflow
+**What happens:**
+- Reviewers add inline comments on specific files/lines
+- Reviewers create conversation threads
+- Some conversations require substantive changes (new features, refactoring)
+- Some conversations are simple fixes (typos, formatting)
+
+#### Step 4.4: Handle PR Feedback via Work-Items (Optional)
+
+**When to use:**
+- PR has unresolved conversations requiring substantive changes
+- Changes are too large to fix on same feature branch
+- Want to approve PR while tracking feedback separately
+
+**Decision tree:**
+```
+PR reviewed with comments
+├─ Simple fixes (typos, formatting, minor adjustments)
+│  └─ Fix directly on feature branch, push update, skip to Step 4.5
+└─ Substantive changes (new features, refactoring, architecture changes)
+   └─ Generate work-items, continue below
+```
+
+**Command:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py 42
+```
+
+**Output:**
+```
+ℹ Analyzing PR #42 for unresolved conversations...
+✓ Found 3 unresolved conversations
+✓ Created work-item: pr-42-issue-1 (https://github.com/user/german/issues/123)
+  Title: "PR #42 feedback: Add error handling for missing vocabulary files"
+  Labels: pr-feedback, pr-42
+✓ Created work-item: pr-42-issue-2 (https://github.com/user/german/issues/124)
+  Title: "PR #42 feedback: Refactor gender validation to use enum"
+  Labels: pr-feedback, pr-42
+✓ Created work-item: pr-42-issue-3 (https://github.com/user/german/issues/125)
+  Title: "PR #42 feedback: Add examples to vocabulary word model"
+  Labels: pr-feedback, pr-42
+
+ℹ Work-items created. For each work-item:
+  1. Create feature worktree: create_worktree.py feature pr-42-issue-1 contrib/stharrold
+  2. Implement fix (SpecKit optional for simple fixes)
+  3. Run quality gates
+  4. Create PR: feature/YYYYMMDDTHHMMSSZ_pr-42-issue-1 → contrib/stharrold
+  5. Merge in web portal
+  6. Repeat for remaining work-items
+```
+
+**What it does:**
+- Detects VCS provider (GitHub or Azure DevOps)
+- Fetches unresolved PR conversations:
+  - GitHub: `reviewThreads.isResolved == false`
+  - Azure DevOps: `threads.status == active|pending`
+- Creates work-items (GitHub issues or Azure DevOps tasks)
+- Work-item slug pattern: `pr-{pr_number}-issue-{sequence}`
+- Preserves conversation context (file, line, author, timestamps)
+
+**Benefits:**
+- Enables PR approval without blocking on follow-up work
+- Creates traceable lineage: PR → work-items → feature branches → new PRs
+- Compatible with all issue trackers (GitHub, Azure DevOps, others)
+- Each work-item follows standard Phase 2-4 workflow
+
+**For each work-item, repeat workflow:**
+1. Create feature worktree: `create_worktree.py feature pr-42-issue-1 contrib/stharrold`
+2. Implement fix (SpecKit optional for simple fixes)
+3. Run quality gates (Phase 3)
+4. Create PR: `feature/YYYYMMDDTHHMMSSZ_pr-42-issue-1 → contrib/stharrold`
+5. Merge in web portal
+6. Repeat until all work-items resolved
+
+#### Step 4.5: User Approves and Merges PR
+
+**Action:** User approves and merges PR in GitHub/Azure DevOps web portal
+
+**Note:** Conversations may remain unresolved if work-items were generated (Step 4.4). This is expected - work-items track the follow-up work.
+
+#### Step 4.6: Archive Workflow
 
 **Return to main repo:**
 ```bash
@@ -919,7 +998,7 @@ python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
 ℹ   Total completed: 2
 ```
 
-#### Step 4.5: Delete Worktree and Branch
+#### Step 4.7: Delete Worktree and Branch
 
 **Delete local worktree and branch:**
 ```bash
@@ -944,7 +1023,7 @@ git push origin --delete feature/20251023T104248Z_certificate-a1
 - Keeps repository clean
 - Prevents confusion about active features
 
-#### Step 4.6: Rebase contrib onto develop
+#### Step 4.8: Rebase contrib onto develop
 
 **Command:**
 ```bash
@@ -958,7 +1037,7 @@ python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
 3. Rebase onto origin/develop
 4. Force push with lease
 
-#### Step 4.7: Create Pull Request (contrib → develop)
+#### Step 4.9: Create Pull Request (contrib → develop)
 
 **Command:**
 ```bash

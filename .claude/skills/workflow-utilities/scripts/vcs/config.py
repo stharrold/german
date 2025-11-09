@@ -42,6 +42,7 @@ def load_vcs_config(config_path: Optional[Path] = None) -> Optional[Dict[str, An
         azure_devops:
           organization: "https://dev.azure.com/myorg"
           project: "MyProject"
+          repository: "MyRepo"  # Optional: defaults to project name if not specified
     """
     if yaml is None:
         raise ImportError(

@@ -381,6 +381,142 @@ new_version = result.stdout.strip()  # e.g., "1.6.0"
 
 ---
 
+### Phase 4: Handle PR Feedback via Work-Items
+
+**Context:** PR reviewed, has unresolved conversations requiring follow-up work
+
+**User says:**
+- "Generate work-items from PR feedback"
+- "Create issues for PR #94 conversations"
+- "Extract unresolved PR comments"
+
+**Claude Code should:**
+```python
+import subprocess
+
+# Call generate_work_items_from_pr.py
+result = subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py',
+    '94'  # PR number
+], capture_output=True, text=True, check=True)
+
+# Script outputs work-item URLs and slugs
+# Example output:
+# ✓ Found 3 unresolved conversations
+# ✓ Created work-item: pr-94-issue-1 (https://github.com/user/repo/issues/123)
+# ✓ Created work-item: pr-94-issue-2 (https://github.com/user/repo/issues/124)
+# ✓ Created work-item: pr-94-issue-3 (https://github.com/user/repo/issues/125)
+
+# For each work-item, create feature worktree
+work_items = ['pr-94-issue-1', 'pr-94-issue-2', 'pr-94-issue-3']
+for slug in work_items:
+    # User approves PR in web portal first
+    # Then create worktree for each work-item
+    subprocess.run([
+        'python',
+        '.claude/skills/git-workflow-manager/scripts/create_worktree.py',
+        'feature',
+        slug,
+        'contrib/stharrold'
+    ], check=True)
+```
+
+**Complete PR Feedback Workflow:**
+```python
+import subprocess
+
+# Step 1: Feature branch merged to contrib via PR
+# (User merges PR #94 in GitHub/Azure DevOps UI)
+
+# Step 2: Generate work-items from unresolved conversations
+result = subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py',
+    '94'
+], capture_output=True, text=True, check=True)
+
+# Step 3: For first work-item, create feature worktree
+subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/create_worktree.py',
+    'feature',
+    'pr-94-issue-1',
+    'contrib/stharrold'
+], check=True)
+
+# Step 4: Implement fix in worktree
+# (SpecKit, implementation, quality gates)
+
+# Step 5: Create PR: feature/YYYYMMDDTHHMMSSZ_pr-94-issue-1 → contrib/stharrold
+# Step 6: User merges PR in web portal
+# Step 7: Repeat steps 3-6 for remaining work-items
+
+# Step 8: After all work-items resolved, approve original PR in web portal
+```
+
+**Integration with GitHub:**
+```python
+import subprocess
+import json
+
+# For GitHub repositories
+result = subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py',
+    '94'
+], capture_output=True, text=True, check=True)
+
+# Creates GitHub issues with:
+# - Label: "pr-feedback"
+# - Label: "pr-94"
+# - Title: "PR #94 feedback: {conversation summary}"
+# - Body: Full conversation with file/line context
+# - Links to original PR
+
+# Check created issues
+issues = subprocess.run([
+    'gh', 'issue', 'list',
+    '--label', 'pr-94',
+    '--json', 'number,title,url'
+], capture_output=True, text=True, check=True)
+
+issue_list = json.loads(issues.stdout)
+# [{'number': 123, 'title': 'PR #94 feedback: ...', 'url': '...'}, ...]
+```
+
+**Integration with Azure DevOps:**
+```python
+import subprocess
+import json
+
+# For Azure DevOps repositories
+result = subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py',
+    '94'
+], capture_output=True, text=True, check=True)
+
+# Creates Azure DevOps tasks with:
+# - Type: Task
+# - Tags: "pr-feedback", "pr-94"
+# - Title: "PR #94 feedback: {thread subject}"
+# - Description: Full thread content with file context
+# - Relations: Links to PR URL
+
+# Check created work-items
+work_items = subprocess.run([
+    'az', 'boards', 'work-item', 'list',
+    '--query', "[?fields.'System.Tags' contains 'pr-94']",
+    '--output', 'json'
+], capture_output=True, text=True, check=True)
+
+item_list = json.loads(work_items.stdout)
+# [{'id': 456, 'fields': {'System.Title': 'PR #94 feedback: ...'}, ...}, ...]
+```
+
+---
+
 ### Phase 5: Release Workflow
 
 **Context:** Develop ready for production release
