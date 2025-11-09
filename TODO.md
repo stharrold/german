@@ -1,7 +1,7 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-08T13:46:39.500617+00:00'
+last_update: '2025-11-09T00:03:06.991420+00:00'
 workflows:
   active: []
   archived:
@@ -42,10 +42,26 @@ workflows:
       PR feedback (Option B). Updated 10 documentation files across 3 skills. Fixed
       8 GitHub Copilot code review issues and resolved CI/CD linting errors.
     semantic_version: 1.9.0
+  - slug: pr-104-issue-1
+    timestamp: 20251108T234501Z
+    title: pr-104-issue-1
+    file: ARCHIVED/TODO_feature_20251108T234501Z_pr-104-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T00:03:01.793303+00:00'
+    summary: Fixed Azure DevOps repository extraction warning when None is returned
+    semantic_version: 1.9.0
+  - slug: pr-104-issue-2
+    timestamp: 20251108T234617Z
+    title: pr-104-issue-2
+    file: ARCHIVED/TODO_feature_20251108T234617Z_pr-104-issue-2.md
+    status: completed
+    completed_at: '2025-11-09T00:03:06.991165+00:00'
+    summary: Fixed AttributeError when repository parameter is None in Azure adapter
+    semantic_version: 1.9.0
 context_stats:
-  total_workflows_completed: 4
+  total_workflows_completed: 6
   current_token_usage: 82000
-  last_checkpoint: '2025-11-08T13:46:39.500614+00:00'
+  last_checkpoint: '2025-11-09T00:03:06.991416+00:00'
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive
