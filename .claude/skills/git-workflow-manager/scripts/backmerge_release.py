@@ -200,8 +200,8 @@ def rebase_release_branch(release_branch, target_branch):
                 capture_output=True,
                 check=False
             )
-            # Check both stderr and stdout to distinguish conflict from other failures (Issue #140)
-            error_output = result.stderr + '\n' + result.stdout if result.stderr and result.stdout else (result.stderr or result.stdout)
+            # Check both stderr and stdout to distinguish conflict from other failures (Issue #140, #146)
+            error_output = (result.stderr or '') + ('\n' if result.stderr and result.stdout else '') + (result.stdout or '')
             if 'CONFLICT' in error_output or 'conflict' in error_output.lower():
                 error_type = "Rebase conflict"
             else:
@@ -237,6 +237,7 @@ def rebase_release_branch(release_branch, target_branch):
         elif "push" in str(e.cmd):
             operation = "push"
         else:
+            # e.cmd check is safe: empty lists are falsy in Python (Issue #147)
             operation = f"git command ({e.cmd[0] if e.cmd else 'unknown'})"
         raise RuntimeError(
             f"Failed to {operation} during rebase operation: {error_msg}"
