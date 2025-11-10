@@ -162,7 +162,7 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 
 1. **workflow-orchestrator** - Main coordinator for workflow phases
 2. **tech-stack-adapter** - Detects Python/uv project configuration
-3. **git-workflow-manager** - Git operations, worktrees, semantic versioning
+3. **git-workflow-manager** (v5.2.2) - Git operations, worktrees, semantic versioning, pre-PR rebase
 4. **bmad-planner** - Creates BMAD planning documents (requirements, architecture)
 5. **speckit-author** - Creates detailed specifications and implementation plans
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
@@ -387,6 +387,33 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 
 **If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
 
+### Merge Method Configuration
+
+⚠️ **CRITICAL**: Configure GitHub account to use "Create a merge commit" instead of squash merge.
+
+**Why squash merge breaks workflow:**
+- Loses individual commit messages (combines all into one)
+- Breaks auto-close functionality ("Closes #N" references lost)
+- Reduces git history traceability
+- Complicates debugging and bisecting
+
+**Configure merge method:**
+1. **Account default:** https://github.com/settings/merge-preferences
+   - Set default to "Create a merge commit"
+2. **Per-PR override:** Select "Create a merge commit" in PR UI before merging
+
+**If issues didn't auto-close after PR merge:**
+```bash
+# Manually close issues with reference to merged PR
+gh issue close <issue-number> --comment "Fixed in PR #<pr-number>"
+```
+
+**Check current account default:**
+```bash
+gh api graphql -f query='query { viewer { login defaultMergeMethod } }'
+# Should show: "MERGE" (not "SQUASH")
+```
+
 **Branch workflows:**
 - **Features:** contrib → feature worktree → contrib → develop → release → main
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
@@ -534,7 +561,7 @@ python .claude/skills/git-workflow-manager/scripts/create_release.py \
 python .claude/skills/git-workflow-manager/scripts/tag_release.py \
   v1.1.0 main
 
-# Back-merge release to develop
+# Back-merge release to develop (v5.2.0+: includes pre-PR rebase)
 python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
   v1.1.0 develop
 
@@ -542,6 +569,12 @@ python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
 python .claude/skills/git-workflow-manager/scripts/cleanup_release.py \
   v1.1.0
 ```
+
+**Pre-PR Rebase Feature (git-workflow-manager v5.2.0+):**
+- `backmerge_release.py` now rebases release branch onto target before creating PR
+- Ensures clean linear history and prevents "branch out-of-date" warnings
+- Automatically detects conflicts and provides clear error messages
+- Uses `--force-with-lease` for safe force push after rebase
 
 ### Repository Initialization (Phase 0)
 
@@ -1018,10 +1051,11 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.9.0 (pending release)
+**Current version:** v1.9.1
 
 **Recent releases:**
-- v1.9.0: PR feedback work-item generation workflow (MINOR) - pending
+- v1.9.1: ARCHITECTURE.md documentation clarity improvements (PATCH)
+- v1.9.0: PR feedback work-item generation workflow (MINOR)
 - v1.8.1: Branch protection updates + self-merge enabled (PATCH)
 - v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
 - v1.7.0: Cross-platform CI/CD infrastructure (MINOR)
