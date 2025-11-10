@@ -21,8 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Uses `--force-with-lease` for safe force push after rebase
 
 ### Changed
-- **backmerge_release.py** - Now rebases before creating PR (Step 2 added to workflow)
-  - Updated main() workflow: validate → rebase → create PR
+- **backmerge_release.py** - Now rebases before creating PR (Step 3 added to workflow)
+  - Updated main() workflow: validate → check clean → rebase → create PR
   - Updated docstring with rebase requirements and rationale
   - Updated WORKFLOW.md to document pre-PR rebase pattern
 
