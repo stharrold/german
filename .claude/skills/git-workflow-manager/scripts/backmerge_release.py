@@ -201,7 +201,11 @@ def rebase_release_branch(release_branch, target_branch):
                 check=False
             )
             # Check both stderr and stdout to distinguish conflict from other failures (Issue #140, #146)
-            error_output = (result.stderr or '') + ('\n' if result.stderr and result.stdout else '') + (result.stdout or '')
+            # Extract error parts with intermediate variables for clarity (Issue #152)
+            stderr_part = result.stderr or ''
+            stdout_part = result.stdout or ''
+            separator = '\n' if stderr_part and stdout_part else ''
+            error_output = stderr_part + separator + stdout_part
             if 'CONFLICT' in error_output or 'conflict' in error_output.lower():
                 error_type = "Rebase conflict"
             else:

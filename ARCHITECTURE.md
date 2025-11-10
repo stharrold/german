@@ -366,7 +366,7 @@ feature/20251108T143000Z_auth-system
 **Note:** This is algorithmic pseudo-code showing the orchestrator's decision logic, not executable Python. The orchestrator SKILL.md contains algorithms for skill selection, not executable code.
 
 ```
-# Algorithmic pseudo-code (not executable Python - see line 77)
+# Algorithmic pseudo-code (not executable Python)
 
 if not SESSION_CONFIG:
     load('tech-stack-adapter')      # Detect uv/Podman/Python version
