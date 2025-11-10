@@ -236,15 +236,17 @@ description: |
 
 ### A. Branch Protection Violations
 
-**Protected branches:** `main` and `develop` (NEVER delete, NEVER commit or push directly from local; only allow merges via PRs in the GitHub web UI)
+**Protected branches:** `main` and `develop` (NEVER delete, NEVER commit or push directly from local; only merge via PR in GitHub/Azure DevOps web UI)
+
+**Key distinction:** Protection prevents direct *local* commits/pushes. PR merges via web UI are the approved method and do not violate protection.
 
 **Common mistakes:**
 ```
 ❌ git commit -m "..." && git push origin develop
    → Violates protection policy (direct local commit/push to protected branch)
 
-✅ Create PR: feature → contrib → develop (merge via PR in GitHub web UI)
-   → Follows protection policy (merge via PR in GitHub web UI is allowed)
+✅ Create PR: feature → contrib → develop (merge via PR in web UI)
+   → Follows protection policy (merge via PR in web UI is the approved method)
 
 ❌ git branch -D main
    → Irreversible disaster
@@ -364,6 +366,8 @@ feature/20251108T143000Z_auth-system
 **Note:** This is algorithmic pseudo-code showing the orchestrator's decision logic, not executable Python. The orchestrator SKILL.md contains algorithms for skill selection, not executable code.
 
 ```
+# Algorithmic pseudo-code (not executable Python - see line 77)
+
 if not SESSION_CONFIG:
     load('tech-stack-adapter')      # Detect uv/Podman/Python version
 
@@ -515,7 +519,7 @@ git checkout v1.5.0  # Last known good
 
 **Main branch protection:**
 - Hotfix work isolated in separate worktree (main untouched)
-- All changes via PR merges (traceable)
+- All changes merge via PR (traceable)
 - Tags are immutable (instant rollback possible)
 
 ---
@@ -581,7 +585,7 @@ related_skills:
 |----------|-------|-----------|
 | CHECKPOINT_THRESHOLD | 100K tokens | 73% of 136K effective capacity |
 | WARNING_THRESHOLD | 80K tokens | Gives time to finish current task |
-| TIMESTAMP_FORMAT | YYYYMMDDTHHMMSSZ | Compact ISO8601 without separators (shell-safe, sortable) |
+| TIMESTAMP_FORMAT | YYYYMMDDTHHMMSSZ | Removes colons/hyphens from standard ISO8601 for shell safety and sortability |
 | MIN_TEST_COVERAGE | 80% | Prevents technical debt |
 | WORK_ITEM_SLUG | pr-N-issue-M | Sequential, PR-scoped, sortable |
 | FORCE_PUSH_SAFETY | --force-with-lease | Only if remote unchanged since fetch |
