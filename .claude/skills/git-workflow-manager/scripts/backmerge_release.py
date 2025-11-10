@@ -200,8 +200,8 @@ def rebase_release_branch(release_branch, target_branch):
                 capture_output=True,
                 check=False
             )
-            # Check stderr to distinguish conflict from other failures
-            error_output = result.stderr if result.stderr else result.stdout
+            # Check both stderr and stdout to distinguish conflict from other failures (Issue #140)
+            error_output = result.stderr + '\n' + result.stdout if result.stderr and result.stdout else (result.stderr or result.stdout)
             if 'CONFLICT' in error_output or 'conflict' in error_output.lower():
                 error_type = "Rebase conflict"
             else:
@@ -228,9 +228,16 @@ def rebase_release_branch(release_branch, target_branch):
         )
 
     except subprocess.CalledProcessError as e:
-        # More specific error message (Issue #135)
+        # More specific error message (Issue #135, #141)
         error_msg = e.stderr.strip() if e.stderr else str(e)
-        operation = "fetch" if "fetch" in str(e.cmd) else "checkout" if "checkout" in str(e.cmd) else "push"
+        if "fetch" in str(e.cmd):
+            operation = "fetch"
+        elif "checkout" in str(e.cmd):
+            operation = "checkout"
+        elif "push" in str(e.cmd):
+            operation = "push"
+        else:
+            operation = f"git command ({e.cmd[0] if e.cmd else 'unknown'})"
         raise RuntimeError(
             f"Failed to {operation} during rebase operation: {error_msg}"
         ) from e
