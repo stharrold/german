@@ -8,8 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
-- Automatic conflict detection in rebase operations
 - Enhanced worktree cleanup with validation
+
+## [5.2.0] - 2025-11-09
+
+### Added
+- **Pre-PR rebase in backmerge_release.py** - Ensures clean, linear git history
+  - Added `rebase_release_branch()` function to rebase release branch onto target before PR
+  - Eliminates "branch out-of-date" warnings in GitHub/Azure DevOps UI
+  - Prevents merge commits in back-merge PRs (maintains linear history)
+  - Automatic conflict detection with helpful resolution instructions
+  - Uses `--force-with-lease` for safe force push after rebase
+
+### Changed
+- **backmerge_release.py** - Now rebases before creating PR (Step 2 added to workflow)
+  - Updated main() workflow: validate → rebase → create PR
+  - Updated docstring with rebase requirements and rationale
+  - Updated WORKFLOW.md to document pre-PR rebase pattern
+
+### Fixed
+- **Back-merge PRs no longer require merge commits** - Identified during v1.9.0 release (PR #127)
+  - Previous behavior: Created PR without rebasing, causing "branch out-of-date" warnings
+  - New behavior: Rebases first, then creates PR with clean linear history
 
 ## [5.1.0] - 2025-11-08
 
