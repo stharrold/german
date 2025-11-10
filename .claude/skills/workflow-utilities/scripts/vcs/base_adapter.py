@@ -75,6 +75,76 @@ class BaseVCSAdapter(ABC):
         """
         pass
 
+    @abstractmethod
+    def fetch_pr_comments(self, pr_number: int) -> list:
+        """Fetch review comments from a pull request.
+
+        Args:
+            pr_number: Pull request number
+
+        Returns:
+            List of comment dictionaries with keys:
+                - author: Comment author
+                - body: Comment text
+                - file: File path (if file comment)
+                - line: Line number (if file comment)
+                - created_at: Comment timestamp
+
+        Raises:
+            RuntimeError: If fetching comments fails
+
+        Example:
+            GitHub: gh pr view <pr> --json reviews,comments
+            Azure DevOps: az repos pr show --id <pr> --query threads
+        """
+        pass
+
+    @abstractmethod
+    def update_pr(
+        self,
+        pr_number: int,
+        title: str = None,
+        body: str = None
+    ) -> None:
+        """Update pull request title or description.
+
+        Args:
+            pr_number: Pull request number
+            title: New PR title (optional)
+            body: New PR description (optional)
+
+        Raises:
+            RuntimeError: If update fails
+
+        Example:
+            GitHub: gh pr edit <pr> --title "..." --body "..."
+            Azure DevOps: az repos pr update --id <pr> --title "..." --description "..."
+        """
+        pass
+
+    @abstractmethod
+    def get_pr_status(self, pr_number: int) -> dict:
+        """Get pull request status (approval, merge state).
+
+        Args:
+            pr_number: Pull request number
+
+        Returns:
+            Dictionary with keys:
+                - state: PR state (open/closed/merged)
+                - mergeable: Boolean indicating if PR can be merged
+                - approved: Boolean indicating if PR is approved
+                - reviews_required: Number of approvals required
+
+        Raises:
+            RuntimeError: If fetching status fails
+
+        Example:
+            GitHub: gh pr view <pr> --json state,mergeable,reviewDecision
+            Azure DevOps: az repos pr show --id <pr> --query status,mergeStatus
+        """
+        pass
+
     def get_provider_name(self) -> str:
         """Get human-readable provider name.
 

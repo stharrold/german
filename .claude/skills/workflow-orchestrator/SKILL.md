@@ -1,16 +1,18 @@
 ---
 name: workflow-orchestrator
-version: 5.0.0
+version: 5.1.0
 description: |
   Orchestrates git workflow for Python feature/release/hotfix development.
   Loads and coordinates other skills based on current context.
+  Includes PR feedback handling via work-item generation.
 
   Use when:
   - User says "next step?" or "continue workflow"
   - Working in git repo with TODO_[feature|release|hotfix]_*.md files
   - Need to determine workflow phase and load appropriate skills
+  - Handling PR feedback via work-items
 
-  Triggers: next step, continue, what's next, workflow status
+  Triggers: next step, continue, what's next, workflow status, PR feedback
 
   Coordinates: tech-stack-adapter, git-workflow-manager, bmad-planner,
   speckit-author, quality-enforcer, workflow-utilities
@@ -248,11 +250,67 @@ print("✓ SpecKit specifications created")
 
 **Step 4.1:** Create PR from feature → contrib/<gh-user> (git-workflow-manager)
 
-**Step 4.2:** User merges PR in GitHub UI
+**Step 4.2:** Reviewers add comments and conversations in GitHub/Azure DevOps web portal
 
-**Step 4.3:** Archive workflow and delete worktree
+**Step 4.3:** Handle PR Feedback via Work-Items (Optional)
 
-**Step 4.4:** Update BMAD planning with as-built details (optional but recommended)
+**When to use:**
+- PR has unresolved conversations requiring substantive changes
+- Changes are too large to fix on same feature branch
+- Want to approve PR while tracking feedback separately
+
+**Decision tree:**
+```
+PR reviewed with comments
+├─ Simple fixes (typos, formatting, minor adjustments)
+│  └─ Fix directly on feature branch, push update, skip to Step 4.4
+└─ Substantive changes (new features, refactoring, architecture changes)
+   └─ Generate work-items, continue to Step 4.3
+```
+
+**Invocation:**
+```python
+import subprocess
+
+# Generate work-items from unresolved PR conversations
+result = subprocess.run([
+    'python',
+    '.claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py',
+    pr_number  # e.g., '94'
+], check=True)
+
+# Script outputs:
+# ✓ Found 3 unresolved conversations
+# ✓ Created work-item: pr-94-issue-1 (URL)
+# ✓ Created work-item: pr-94-issue-2 (URL)
+# ✓ Created work-item: pr-94-issue-3 (URL)
+
+# For each work-item, repeat Phase 2-4:
+# 1. Create feature worktree: create_worktree.py feature pr-94-issue-1 contrib/<user>
+# 2. Implement fix (SpecKit optional for simple fixes)
+# 3. Run quality gates
+# 4. Create PR: feature/YYYYMMDDTHHMMSSZ_pr-94-issue-1 → contrib/<user>
+# 5. Merge in web portal
+# 6. Repeat for remaining work-items
+```
+
+**What it does:**
+- Detects VCS provider (GitHub or Azure DevOps)
+- Fetches unresolved PR conversations (GitHub: `isResolved==false`, Azure: `status==active|pending`)
+- Creates work-items (GitHub issues or Azure DevOps tasks) with slug pattern `pr-{pr_number}-issue-{sequence}`
+- Links work-items to original PR
+- Preserves conversation context (file, line, author, timestamps)
+
+**Benefits:**
+- Enables PR approval without blocking on follow-up work
+- Creates traceable lineage: PR → work-items → feature branches → new PRs
+- Compatible with all issue trackers (GitHub, Azure DevOps, others)
+
+**Step 4.4:** User approves and merges PR in GitHub/Azure DevOps web portal
+
+**Step 4.5:** Archive workflow and delete worktree
+
+**Step 4.6:** Update BMAD planning with as-built details (optional but recommended)
 
 **Invocation:**
 ```python
@@ -290,11 +348,11 @@ print("  Feedback loop completed")
 - Identifies patterns in estimation and technology choices
 - Creates living documentation
 
-**Step 4.5:** Rebase contrib/<gh-user> onto develop (git-workflow-manager)
+**Step 4.7:** Rebase contrib/<gh-user> onto develop (git-workflow-manager)
 
-**Step 4.6:** Create PR from contrib/<gh-user> → develop
+**Step 4.8:** Create PR from contrib/<gh-user> → develop
 
-**Skills used:** git-workflow-manager, speckit-author (update_asbuilt.py)
+**Skills used:** git-workflow-manager, speckit-author (update_asbuilt.py, optional)
 
 ### Phase 5: Release (Worktree)
 1. Create release worktree from develop

@@ -73,6 +73,43 @@ def detect_from_remote() -> Optional[VCSProvider]:
         return None
 
 
+def extract_azure_repo_from_remote() -> Optional[str]:
+    """Extract repository name from Azure DevOps git remote URL.
+
+    Returns:
+        Repository name if detected, None otherwise
+
+    Example URLs and extracted repo names:
+        - https://dev.azure.com/org/project/_git/repo → repo
+        - git@ssh.dev.azure.com:v3/org/project/repo → repo
+        - https://org.visualstudio.com/project/_git/repo → repo
+    """
+    try:
+        result = subprocess.run(
+            ['git', 'remote', 'get-url', 'origin'],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=5
+        )
+        remote_url = result.stdout.strip()
+
+        # Pattern 1: https://dev.azure.com/org/project/_git/repo
+        match = re.search(r'/_git/([^/\s]+?)(?:\.git)?$', remote_url)
+        if match:
+            return match.group(1)
+
+        # Pattern 2: git@ssh.dev.azure.com:v3/org/project/repo
+        match = re.search(r':v3/[^/]+/[^/]+/([^/\s]+?)(?:\.git)?$', remote_url)
+        if match:
+            return match.group(1)
+
+        return None
+
+    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, FileNotFoundError):
+        return None
+
+
 def detect_provider() -> VCSProvider:
     """Detect VCS provider with fallback to GitHub.
 

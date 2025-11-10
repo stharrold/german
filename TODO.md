@@ -1,7 +1,7 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-04T10:40:21.615453+00:00'
+last_update: '2025-11-10T07:52:42.682582+00:00'
 workflows:
   active: []
   archived:
@@ -32,10 +32,136 @@ workflows:
     summary: Comprehensive branch protection documentation with GitHub/Azure DevOps
       support, pre-push hook, and 6 compliance tests
     semantic_version: 1.6.0
+  - slug: pr-feedback-docs
+    timestamp: 20251108T112041Z
+    title: pr-feedback-docs
+    file: ARCHIVED/TODO_feature_20251108T112041Z_pr-feedback-docs.md
+    status: completed
+    completed_at: '2025-11-08T13:46:39.500211+00:00'
+    summary: Implemented work-item generation workflow (Option A) replacing iterative
+      PR feedback (Option B). Updated 10 documentation files across 3 skills. Fixed
+      8 GitHub Copilot code review issues and resolved CI/CD linting errors.
+    semantic_version: 1.9.0
+  - slug: pr-104-issue-1
+    timestamp: 20251108T234501Z
+    title: pr-104-issue-1
+    file: ARCHIVED/TODO_feature_20251108T234501Z_pr-104-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T00:03:01.793303+00:00'
+    summary: Fixed Azure DevOps repository extraction warning when None is returned
+    semantic_version: 1.9.0
+  - slug: pr-104-issue-2
+    timestamp: 20251108T234617Z
+    title: pr-104-issue-2
+    file: ARCHIVED/TODO_feature_20251108T234617Z_pr-104-issue-2.md
+    status: completed
+    completed_at: '2025-11-09T00:03:06.991165+00:00'
+    summary: Fixed AttributeError when repository parameter is None in Azure adapter
+    semantic_version: 1.9.0
+  - slug: pr-109-issue-1
+    timestamp: 20251109T025927Z
+    title: pr-109-issue-1
+    file: ARCHIVED/TODO_feature_20251109T025927Z_pr-109-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T03:49:22.829917+00:00'
+    summary: Fixed repository parameter validation in Azure adapter
+    semantic_version: 1.9.0
+  - slug: pr-111-issue-1
+    timestamp: 20251109T034949Z
+    title: pr-111-issue-1
+    file: ARCHIVED/TODO_feature_20251109T034949Z_pr-111-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T03:53:07.405101+00:00'
+    summary: Optimized repository parameter validation to avoid redundant strip()
+      call
+    semantic_version: 1.9.0
+  - slug: pr-114-issue-1
+    timestamp: 20251109T035956Z
+    title: pr-114-issue-1
+    file: ARCHIVED/TODO_feature_20251109T035956Z_pr-114-issue-1.md
+    status: completed
+    completed_at: '2025-11-09T04:06:09.679031+00:00'
+    summary: Documented repository parameter behavior for empty strings
+    semantic_version: 1.9.0
+  - slug: pr-119-docs-clarifications
+    timestamp: 20251109T045314Z
+    title: pr-119-docs-clarifications
+    file: ARCHIVED/TODO_feature_20251109T045314Z_pr-119-docs-clarifications.md
+    status: completed
+    completed_at: '2025-11-09T11:58:55.293640+00:00'
+    summary: Fixed 4 ARCHITECTURE.md documentation clarifications from GitHub Copilot
+      review
+    semantic_version: 1.9.0
+  - slug: v1-5-0
+    timestamp: 20251104T015104Z
+    title: v1-5-0
+    file: ARCHIVED/TODO_release_20251104T015104Z_v1-5-0.md
+    status: completed
+    completed_at: '2025-11-09T12:36:55.949315+00:00'
+    summary: Incomplete release workflow - superseded by v1.5.1 and subsequent versions
+    semantic_version: 1.5.0
+  - slug: pre-pr-rebase
+    timestamp: 20251109T133524Z
+    title: pre-pr-rebase
+    file: ARCHIVED/TODO_feature_20251109T133524Z_pre-pr-rebase.md
+    status: completed
+    completed_at: '2025-11-09T14:29:07.424170+00:00'
+    summary: Added pre-PR rebase functionality to backmerge_release.py script. Rebases
+      release branch onto target branch before creating PR to ensure clean linear
+      history and prevent 'branch out-of-date' warnings. Includes enhanced error handling
+      with conflict detection and specific error messages.
+    semantic_version: 5.2.0
+  - slug: pr-139-issues
+    timestamp: 20251109T160102Z
+    title: pr-139-issues
+    file: ARCHIVED/TODO_feature_20251109T160102Z_pr-139-issues.md
+    status: completed
+    completed_at: '2025-11-10T02:16:27.160958+00:00'
+    summary: 'Fixed 3 GitHub Copilot code review issues from PR #139: enhanced error
+      output detection (check both stderr/stdout), improved operation detection fallback
+      logic, corrected CHANGELOG step number.'
+    semantic_version: 5.2.1
+  - slug: pr-145-issues
+    timestamp: 20251110T065802Z
+    title: pr-145-issues
+    file: ARCHIVED/TODO_feature_20251110T065802Z_pr-145-issues.md
+    status: completed
+    completed_at: '2025-11-10T07:02:51.306053+00:00'
+    summary: 'Fixed 2 GitHub Copilot edge cases from PR #145: error output concatenation
+      with empty string fallbacks, and documented empty list safety for IndexError
+      prevention.'
+    semantic_version: 5.2.2
+  - slug: pr-119-issues
+    timestamp: 20251110T070931Z
+    title: pr-119-issues
+    file: ARCHIVED/TODO_feature_20251110T070931Z_pr-119-issues.md
+    status: completed
+    completed_at: '2025-11-10T07:18:19.559921+00:00'
+    summary: 'Fixed 4 ARCHITECTURE.md documentation clarity issues from PR #119: marked
+      pseudo-code explicitly, standardized terminology, clarified timestamp format
+      rationale, and clarified branch protection scope.'
+    semantic_version: 1.9.1
+  - slug: pr-150-issue-1
+    timestamp: 20251110T074722Z
+    title: pr-150-issue-1
+    file: ARCHIVED/TODO_feature_20251110T074722Z_pr-150-issue-1.md
+    status: completed
+    completed_at: '2025-11-10T07:52:36.824482+00:00'
+    summary: Removed outdated line 77 reference from ARCHITECTURE.md pseudo-code comment
+    semantic_version: 1.9.2
+  - slug: pr-150-issue-2
+    timestamp: 20251110T074806Z
+    title: pr-150-issue-2
+    file: ARCHIVED/TODO_feature_20251110T074806Z_pr-150-issue-2.md
+    status: completed
+    completed_at: '2025-11-10T07:52:42.682336+00:00'
+    summary: Refactored conditional newline logic in backmerge_release.py for better
+      readability
+    semantic_version: 5.2.3
 context_stats:
-  total_workflows_completed: 3
+  total_workflows_completed: 17
   current_token_usage: 82000
-  last_checkpoint: '2025-11-04T10:40:21.615451+00:00'
+  last_checkpoint: '2025-11-10T07:52:42.682579+00:00'
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive

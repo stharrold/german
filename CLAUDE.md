@@ -26,7 +26,54 @@ This is a Python-based repository for German language learning resources and con
 - German language reference materials (vocabulary, grammar, etc.)
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
-- **Workflow v5.2 skill-based architecture** for managing development workflow
+- **Workflow v5.3 skill-based architecture** for managing development workflow
+
+## Quick Start for New Claude Instances
+
+**First commands to run:**
+```bash
+# 1. Detect project stack (run once per session)
+python .claude/skills/tech-stack-adapter/scripts/detect_stack.py
+
+# 2. Check current context
+git status
+cat TODO.md  # See active workflows
+
+# 3. Start workflow
+# Say: "next step?"
+```
+
+**Critical architecture concepts:**
+- **Progressive skill loading**: Load 1-3 skills per phase (not all 9)
+- **TODO files live in main repo**: Worktrees reference `../TODO_*.md`
+- **Callable tools reduce tokens by 75-92%**: BMAD/SpecKit are interactive scripts
+- **Context checkpoint at 100K tokens**: System auto-saves, you run `/init` then `/compact`
+
+## Workflow Execution Flow
+
+```
+User: "next step?"
+    ↓
+workflow-orchestrator: Detect context
+    ├─ Main repo + contrib branch → Phase 1 (BMAD planning)
+    ├─ Feature worktree → Phase 2-3 (SpecKit + implementation)
+    └─ PR merged → Phase 4 (PR feedback, archival)
+    ↓
+Load relevant skills (1-3, not all 9)
+    ├─ Phase 1: tech-stack-adapter + bmad-planner
+    ├─ Phase 2: speckit-author + git-workflow-manager
+    ├─ Phase 3: quality-enforcer
+    └─ Phase 4: git-workflow-manager + workflow-utilities
+    ↓
+Execute callable tool or perform operation
+    ├─ BMAD: Interactive Q&A → planning/ files
+    ├─ SpecKit: Auto-detect BMAD → specs/ files
+    └─ Git ops: Create worktree, PR, merge
+    ↓
+Update TODO_*.md with progress
+    ↓
+Check context usage (checkpoint at 100K)
+```
 
 ## Code Architecture
 
@@ -64,15 +111,50 @@ JSON files → loader.py → VocabularyWord (Pydantic) → query.py → Applicat
 - **Workflow System:** Skill-based architecture (9 specialized skills)
 - **Containerization:** Podman + podman-compose
 
-## Workflow v5.2 Architecture
+## Workflow v5.3 Architecture
 
 This repository uses a **skill-based workflow system** located in `.claude/skills/`. The system provides progressive skill loading - only load what's needed for the current phase.
 
-**Current workflow version:** 5.2.0
+**Current workflow version:** 5.3.0
 
 **Quick start:** See [WORKFLOW-INIT-PROMPT.md](WORKFLOW-INIT-PROMPT.md) for navigation guide to workflow system (DRY reference-based, ~500 tokens)
 
 **Complete documentation:** See [WORKFLOW.md](WORKFLOW.md) for full 6-phase workflow guide (~4,000 tokens, 2000+ lines)
+
+**Architecture deep-dive:** See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed architectural analysis including:
+- Token efficiency patterns (progressive loading saves 50%, callable tools save 75-92%)
+- Skill integration patterns and when to use each skill
+- Critical design decisions and rationale
+- Complete constants reference with explanations
+
+## Critical Pitfalls (Not Obvious from Individual Files)
+
+**Branch Protection:**
+- ❌ Never commit directly to `main` or `develop`
+- ✅ All changes via PRs (self-merge enabled as of v1.8.1)
+- Scripts validate branch before operations
+
+**TODO Lifecycle:**
+- ❌ Never delete TODO files directly
+- ✅ Use `workflow_registrar.py` to add to TODO.md manifest
+- ✅ Use `workflow_archiver.py` to move to ARCHIVED/ after completion
+- ✅ TODO files must be committed to feature branches (part of PR)
+
+**Context Management:**
+- At 100K tokens: System auto-saves to TODO_*.md
+- You must then: `/init` → `/compact` → continue
+- Effective capacity: 136K tokens (200K total - 64K overhead)
+
+**Worktree Pattern:**
+- Main repo: Where TODO files live
+- Worktrees: Reference `../TODO_*.md`
+- After PR merge: Delete worktree + branch, archive TODO
+
+**When to Use Which Skill:**
+- Complex feature needing alignment → Use BMAD (Phase 1)
+- Simple bug fix → Skip BMAD, use SpecKit standalone (Phase 2)
+- Need dependency queries → Use AgentDB (89% token savings)
+- Simple file read → Just read the file directly
 
 ### Available Skills (9 Total)
 
@@ -80,7 +162,7 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 
 1. **workflow-orchestrator** - Main coordinator for workflow phases
 2. **tech-stack-adapter** - Detects Python/uv project configuration
-3. **git-workflow-manager** - Git operations, worktrees, semantic versioning
+3. **git-workflow-manager** (v5.2.2) - Git operations, worktrees, semantic versioning, pre-PR rebase
 4. **bmad-planner** - Creates BMAD planning documents (requirements, architecture)
 5. **speckit-author** - Creates detailed specifications and implementation plans
 6. **quality-enforcer** - Enforces quality gates (≥80% coverage, tests, linting)
@@ -137,9 +219,16 @@ The orchestrator will:
 - Calculate semantic version
 - **Skills:** quality-enforcer
 
-**Phase 4: Integration + Feedback**
+**Phase 4: Integration + Feedback** (9 steps)
 - Create PR: feature → contrib/<gh-user>
-- Merge in GitHub UI
+- Reviewers add comments
+- **Phase 4.3: PR Feedback Handling (Optional)**
+  - Generate work-items from unresolved PR conversations
+  - Decision tree: simple fixes (same branch) vs. substantive changes (work-items)
+  - Each work-item follows Phase 2-4 workflow
+  - Enables PR approval without blocking on follow-up work
+- Approve and merge PR in GitHub/Azure DevOps UI
+- Archive workflow and delete worktree
 - **Update BMAD with as-built:** `python .claude/skills/speckit-author/scripts/update_asbuilt.py`
 - Script analyzes deviations, gathers metrics, updates planning/
 - Rebase contrib onto develop
@@ -192,6 +281,15 @@ The orchestrator will:
 - Interactive Q&A for metrics and lessons learned
 - Updates planning/ files with "As-Built" sections
 - Improves future planning accuracy
+
+**PR Feedback via Work-Items (git-workflow-manager - Callable Tool):**
+- **Run script:** `generate_work_items_from_pr.py` after PR review (Phase 4.3)
+- Auto-detects VCS provider (GitHub/Azure DevOps)
+- Extracts unresolved PR conversations (GitHub: isResolved==false, Azure: status==active)
+- Creates work-items with slug pattern: pr-{pr_number}-issue-{sequence}
+- Compatible with all issue trackers
+- **When to use:** Standard for substantive PR feedback, skip for simple fixes
+- **Token savings:** No additional cost (pure CLI operations)
 
 ## Critical Skill Integration Patterns
 
@@ -289,6 +387,33 @@ feature/<timestamp>_<slug>    ← Isolated feature (worktree)
 
 **If you violate protection:** See WORKFLOW.md "Branch Protection Policy" section for recovery procedures.
 
+### Merge Method Configuration
+
+⚠️ **CRITICAL**: Configure GitHub account to use "Create a merge commit" instead of squash merge.
+
+**Why squash merge breaks workflow:**
+- Loses individual commit messages (combines all into one)
+- Breaks auto-close functionality ("Closes #N" references lost)
+- Reduces git history traceability
+- Complicates debugging and bisecting
+
+**Configure merge method:**
+1. **Account default:** https://github.com/settings/merge-preferences
+   - Set default to "Create a merge commit"
+2. **Per-PR override:** Select "Create a merge commit" in PR UI before merging
+
+**If issues didn't auto-close after PR merge:**
+```bash
+# Manually close issues with reference to merged PR
+gh issue close <issue-number> --comment "Fixed in PR #<pr-number>"
+```
+
+**Check current account default:**
+```bash
+gh api graphql -f query='query { viewer { login defaultMergeMethod } }'
+# Should show: "MERGE" (not "SQUASH")
+```
+
 **Branch workflows:**
 - **Features:** contrib → feature worktree → contrib → develop → release → main
 - **Hotfixes:** main → hotfix worktree → main (tagged) → back-merge to develop
@@ -362,6 +487,10 @@ python .claude/skills/speckit-author/scripts/create_specifications.py \
 python .claude/skills/speckit-author/scripts/update_asbuilt.py \
   planning/<slug> specs/<slug>
 
+# Generate work-items from PR feedback (Phase 4: optional, for substantive changes)
+python .claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.py \
+  <pr-number>
+
 # Daily rebase contrib onto develop
 python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
   contrib/stharrold
@@ -376,7 +505,7 @@ python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
 
 # Archive workflow (Phase 4.4: after PR merge)
 python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
-  TODO_feature_*.md --summary "What was completed" --version "1.5.0"
+  TODO_feature_*.md --summary "What was completed" --version "1.9.0"
 
 # Delete worktree and branch (Phase 4.5: after archival)
 git worktree remove ../german_feature_<slug>
@@ -432,7 +561,7 @@ python .claude/skills/git-workflow-manager/scripts/create_release.py \
 python .claude/skills/git-workflow-manager/scripts/tag_release.py \
   v1.1.0 main
 
-# Back-merge release to develop
+# Back-merge release to develop (v5.2.0+: includes pre-PR rebase)
 python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
   v1.1.0 develop
 
@@ -440,6 +569,12 @@ python .claude/skills/git-workflow-manager/scripts/backmerge_release.py \
 python .claude/skills/git-workflow-manager/scripts/cleanup_release.py \
   v1.1.0
 ```
+
+**Pre-PR Rebase Feature (git-workflow-manager v5.2.0+):**
+- `backmerge_release.py` now rebases release branch onto target before creating PR
+- Ensures clean linear history and prevents "branch out-of-date" warnings
+- Automatically detects conflicts and provides clear error messages
+- Uses `--force-with-lease` for safe force push after rebase
 
 ### Repository Initialization (Phase 0)
 
@@ -916,9 +1051,11 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.8.1
+**Current version:** v1.9.1
 
 **Recent releases:**
+- v1.9.1: ARCHITECTURE.md documentation clarity improvements (PATCH)
+- v1.9.0: PR feedback work-item generation workflow (MINOR)
 - v1.8.1: Branch protection updates + self-merge enabled (PATCH)
 - v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
 - v1.7.0: Cross-platform CI/CD infrastructure (MINOR)

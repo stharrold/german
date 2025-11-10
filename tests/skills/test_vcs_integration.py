@@ -164,8 +164,9 @@ class TestEndToEndAzureDevOpsWorkflow:
 
     @patch('subprocess.check_output')
     @patch('subprocess.run')
+    @patch('vcs.extract_azure_repo_from_remote')
     @patch('vcs.load_vcs_config')
-    def test_end_to_end_azuredevops_workflow(self, mock_load_config, mock_run, mock_check_output):
+    def test_end_to_end_azuredevops_workflow(self, mock_load_config, mock_extract_repo, mock_run, mock_check_output):
         """Test complete Azure DevOps workflow: authenticate, get user, create PR."""
         # Setup
         mock_load_config.return_value = {
@@ -175,6 +176,7 @@ class TestEndToEndAzureDevOpsWorkflow:
                 'project': 'MyProject'
             }
         }
+        mock_extract_repo.return_value = None  # No repository in config, will default to project name
         mock_run.return_value = MagicMock(returncode=0)
         mock_check_output.side_effect = [
             'test@example.com\n',  # get_current_user()
