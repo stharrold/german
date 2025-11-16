@@ -29,6 +29,10 @@ This is a Python-based repository for German language learning resources and con
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
 - **Workflow v5.3 skill-based architecture** for managing development workflow
+- **Active Development:** MIT Agent Synchronization Pattern (Issues #158-#172)
+  - Phase 1: Database Schema (PR #165 - under review)
+  - Phases 2-6: Pending Phase 1 merge
+  - See Issue #158 for 6-phase implementation plan
 
 ## Quick Start for New Claude Instances
 
@@ -50,6 +54,20 @@ cat TODO.md  # See active workflows
 - **TODO files live in main repo**: Worktrees reference `../TODO_*.md`
 - **Callable tools reduce tokens by 75-92%**: BMAD/SpecKit are interactive scripts
 - **Context checkpoint at 100K tokens**: System auto-saves, you run `/init` then `/compact`
+
+## Current Active Work
+
+**MIT Agent Synchronization Pattern (Issue #158):**
+- 7 open issues (#158-#164) forming a 6-phase implementation
+- Phase 1 (Issue #159): Database schema - PR #165 created, awaiting merge
+- Phase 1 fixes (Issue #172): Meta-issue resolving 6 Copilot review items (#166-#171)
+- Phases 2-6: Ready for parallel execution after Phase 1 merges
+
+**Check active issues:** `gh issue list --state open --milestone "MIT Agent Synchronization Pattern"`
+
+**Current parallelization opportunities:**
+- After PR #165 merges: Issues #160 + #161 can run in parallel (Stage 2)
+- After Stage 2: Issues #163 + #164 can run in parallel (Stage 4)
 
 ## Workflow Execution Flow
 
@@ -76,6 +94,40 @@ Update TODO_*.md with progress
     ↓
 Check context usage (checkpoint at 100K)
 ```
+
+## Parallel Agent Execution Patterns
+
+**When multiple independent issues exist, use parallel agents for efficiency.**
+
+**Example: MIT Agent Synchronization Pattern (Issue #158)**
+
+**Stage 1 (Sequential):** Issue #159 - Database Schema (8-12h)
+- MUST complete first (foundational)
+- Blocks all other phases
+
+**Stage 2 (Parallel - 2 agents):** Issues #160 + #161 (12-16h parallel vs 22-30h sequential)
+- Agent 1: #160 (Sync Engine) - creates `sync_engine.py`
+- Agent 2: #161 (Integration Layer) - creates `worktree_agent_integration.py`
+- Safe to parallelize: No file conflicts, different scopes
+- Time savings: 40-47% reduction
+
+**Stage 3 (Sequential):** Issue #162 - Default Rules (6-10h)
+- Requires both #160 AND #161 complete
+- Cannot parallelize
+
+**Stage 4 (Parallel - 2 agents):** Issues #163 + #164 (14-18h parallel vs 26-34h sequential)
+- Agent 1: #163 (Testing & Compliance)
+- Agent 2: #164 (Performance & Docs)
+- Safe to parallelize: Completely separate directories
+- Time savings: 46-47% reduction
+
+**Parallelization Decision Tree:**
+1. Check dependencies: Do tasks depend on each other?
+2. Check file conflicts: Do tasks modify same files?
+3. Check scope: Are tasks truly independent?
+4. If all clear: Execute in parallel for time savings
+
+**Total time:** 40-56 hours parallel vs 62-86 hours sequential (35-47% faster)
 
 ## Code Architecture
 
@@ -157,6 +209,9 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 - Simple bug fix → Skip BMAD, use SpecKit standalone (Phase 2)
 - Need dependency queries → Use AgentDB (89% token savings)
 - Simple file read → Just read the file directly
+- Need to resolve PR review feedback → Use `generate_work_items_from_pr.py` (Phase 4.3)
+- Healthcare/medical project → Check HIPAA compliance requirements first
+- Working with DuckDB → Verify syntax compatibility (no PostgreSQL-specific code)
 
 ### Available Skills (9 Total)
 
@@ -731,6 +786,9 @@ python .claude/skills/workflow-utilities/scripts/migrate_directory_frontmatter.p
 - ✓ Linting clean (ruff)
 - ✓ Type checking clean (mypy)
 - ✓ Container healthy (if applicable)
+- ✓ DuckDB compatibility (no PostgreSQL-specific syntax)
+- ✓ Healthcare compliance (HIPAA/FDA/IRB if applicable)
+- ✓ APPEND-ONLY enforcement for audit trails (where applicable)
 
 ## GitHub Issue Management
 
@@ -809,9 +867,89 @@ uv run pytest -v
 - Always run tests after fixes to ensure no regressions
 - Reference issue numbers in commit messages for traceability
 
+## Healthcare Compliance (For Medical/Research Projects)
+
+**If working with Protected Health Information (PHI) or medical research:**
+
+**HIPAA Requirements:**
+- All PHI access MUST be logged with justification
+- Audit trails MUST be immutable (APPEND-ONLY)
+- Actor/role tracking required for all operations
+- Compliance gaps must be documented and mitigated
+
+**Implementation Patterns:**
+```python
+# Use compliance enforcement decorators
+from compliance_enforcer import enforce_append_only, validate_phi_access
+
+@enforce_append_only('sync_audit_trail')
+def insert_audit_log(conn, data):
+    return conn.execute("INSERT INTO sync_audit_trail ...")
+
+# Validate PHI access
+validate_phi_access(
+    phi_accessed=True,
+    phi_justification="Clinical research analysis per IRB protocol #12345"
+)
+```
+
+**Compliance Documentation:**
+- See `.claude/skills/agentdb-state-manager/docs/phase1_hipaa_compliance.md` for detailed compliance validation
+- GAP analysis required for all healthcare-related features
+- FDA 21 CFR Part 11 requirements for electronic records
+
+**Testing:**
+```bash
+# Test APPEND-ONLY enforcement
+python -c "from compliance_enforcer import enforce_append_only; ..."
+
+# Run compliance validation
+python .claude/skills/agentdb-state-manager/scripts/test_schema_migration.py
+```
+
 ## Project Configuration
 
 **.gitignore:** Excludes `__pycache__/`, `.coverage`, `*.pyc`, `.venv/`, and IDE/OS files. Do not commit generated files.
+
+## DuckDB Development Guidelines
+
+**This project uses DuckDB (≥1.4.2) for AgentDB state management.**
+
+**Critical Syntax Differences from PostgreSQL:**
+
+**❌ Don't use PostgreSQL syntax:**
+```sql
+-- WRONG: PostgreSQL interval syntax
+NOW() - INTERVAL '30 days'
+EXTRACT(EPOCH FROM (timestamp1 - timestamp2))
+```
+
+**✅ Use DuckDB syntax:**
+```sql
+-- CORRECT: DuckDB interval syntax
+CURRENT_TIMESTAMP - INTERVAL 30 DAY
+
+-- CORRECT: DuckDB date/time functions
+datediff('millisecond', timestamp1, timestamp2)
+```
+
+**Foreign Key Support:**
+- DuckDB DOES support ON DELETE actions (CASCADE, RESTRICT, SET NULL, SET DEFAULT, NO ACTION)
+- Always use explicit `ON DELETE RESTRICT` for audit trail immutability
+- Example: `REFERENCES parent(id) ON DELETE RESTRICT`
+
+**Testing DuckDB Queries:**
+```bash
+# Test query directly in DuckDB
+duckdb -c "SELECT your_query_here;"
+
+# Load schema and test
+duckdb < .claude/skills/agentdb-state-manager/schemas/agentdb_sync_schema.sql
+```
+
+**DuckDB Resources:**
+- Official Docs: https://duckdb.org/docs/
+- SQL Reference: https://duckdb.org/docs/sql/introduction
 
 ## German Language Content Guidelines
 
@@ -1053,7 +1191,8 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.9.1
+**Current version:** v1.9.1 (latest stable)
+**Development version:** v1.10.0-dev (MIT Agent Sync Pattern in progress)
 
 **Recent releases:**
 - v1.9.1: ARCHITECTURE.md documentation clarity improvements (PATCH)
@@ -1190,5 +1329,6 @@ Token usage: 98543/200000; 101457 remaining
 - **[docs/CLAUDE.md](docs/CLAUDE.md)** - Docs
 - **[planning/CLAUDE.md](planning/CLAUDE.md)** - Planning
 - **[resources/CLAUDE.md](resources/CLAUDE.md)** - Resources
+- **[specs/CLAUDE.md](specs/CLAUDE.md)** - Specifications
 - **[src/CLAUDE.md](src/CLAUDE.md)** - Src
 - **[tests/CLAUDE.md](tests/CLAUDE.md)** - Tests
