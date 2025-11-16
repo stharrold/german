@@ -152,8 +152,8 @@ CREATE TABLE IF NOT EXISTS sync_executions (
 
     -- Foreign key: Links to parent synchronization
     -- Rationale: One sync can have many executions (multi-step operations)
-    -- Note: DuckDB does not support ON DELETE CASCADE - enforce in application layer
-    sync_id VARCHAR NOT NULL REFERENCES agent_synchronizations(sync_id),
+    -- Note: Using ON DELETE RESTRICT to prevent accidental parent deletion (audit trail immutability)
+    sync_id VARCHAR NOT NULL REFERENCES agent_synchronizations(sync_id) ON DELETE RESTRICT,
 
     -- Execution ordering: Sequence number within synchronization
     -- Rationale: Enables deterministic replay and debugging
@@ -249,9 +249,9 @@ CREATE TABLE IF NOT EXISTS sync_audit_trail (
 
     -- Foreign keys: Link to synchronization and execution
     -- Rationale: Enables correlation of audit events with operations
-    -- Note: DuckDB does not support ON DELETE RESTRICT - audit trail immutability enforced in application layer
-    sync_id VARCHAR NOT NULL REFERENCES agent_synchronizations(sync_id),
-    execution_id VARCHAR REFERENCES sync_executions(execution_id),
+    -- Note: ON DELETE RESTRICT enforces audit trail immutability at database level
+    sync_id VARCHAR NOT NULL REFERENCES agent_synchronizations(sync_id) ON DELETE RESTRICT,
+    execution_id VARCHAR REFERENCES sync_executions(execution_id) ON DELETE RESTRICT,
 
     -- Event type: Category of audit event
     -- Examples: 'sync_initiated', 'phi_accessed', 'sync_completed', 'sync_failed', 'rollback_executed'
@@ -407,8 +407,8 @@ SELECT
     COUNT(*) AS total_syncs,
     SUM(CASE WHEN s.status = 'completed' THEN 1 ELSE 0 END) AS successful_syncs,
     SUM(CASE WHEN s.status = 'failed' THEN 1 ELSE 0 END) AS failed_syncs,
-    AVG(CAST(EXTRACT(EPOCH FROM (s.completed_at - s.created_at)) * 1000 AS INTEGER)) AS avg_duration_ms,
-    MAX(CAST(EXTRACT(EPOCH FROM (s.completed_at - s.created_at)) * 1000 AS INTEGER)) AS max_duration_ms
+    AVG(datediff('millisecond', s.created_at, s.completed_at)) AS avg_duration_ms,
+    MAX(datediff('millisecond', s.created_at, s.completed_at)) AS max_duration_ms
 FROM agent_synchronizations s
 WHERE s.completed_at IS NOT NULL
 GROUP BY s.pattern, s.sync_type

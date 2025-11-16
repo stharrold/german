@@ -537,7 +537,7 @@ ORDER BY e.execution_order ASC;
 ```sql
 -- Use pre-built view
 SELECT * FROM v_phi_access_audit
-WHERE timestamp >= NOW() - INTERVAL '30 days'
+WHERE timestamp >= CURRENT_TIMESTAMP - INTERVAL 30 DAY
 ORDER BY timestamp DESC;
 
 -- Or custom query
@@ -553,7 +553,7 @@ SELECT
 FROM sync_audit_trail a
 LEFT JOIN sync_executions e ON a.execution_id = e.execution_id
 WHERE a.phi_involved = TRUE
-  AND a.timestamp >= NOW() - INTERVAL '30 days'
+  AND a.timestamp >= CURRENT_TIMESTAMP - INTERVAL 30 DAY
 ORDER BY a.timestamp DESC;
 ```
 

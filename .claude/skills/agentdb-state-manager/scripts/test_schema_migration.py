@@ -554,8 +554,8 @@ def test_views_queryable(conn: duckdb.DuckDBPyConnection, results: TestResult, v
 def test_cascade_delete(conn: duckdb.DuckDBPyConnection, results: TestResult, verbose: bool):
     """Test 12: Foreign key constraint prevents deleting sync with child records.
 
-    Note: DuckDB does not support ON DELETE CASCADE. Instead, foreign keys
-    prevent deletion of parent records when child records exist (RESTRICT behavior).
+    Note: DuckDB supports ON DELETE CASCADE, but this schema uses ON DELETE RESTRICT
+    for audit trail immutability. This test verifies RESTRICT behavior is enforced.
     """
 
     test_name = "Foreign key prevents delete when child records exist (DuckDB behavior)"

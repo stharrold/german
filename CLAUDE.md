@@ -919,9 +919,9 @@ python .claude/skills/agentdb-state-manager/scripts/test_schema_migration.py
 
 **❌ Don't use PostgreSQL syntax:**
 ```sql
--- WRONG: PostgreSQL interval syntax
-NOW() - INTERVAL '30 days'
-EXTRACT(EPOCH FROM (timestamp1 - timestamp2))
+-- WRONG: PostgreSQL (not valid in DuckDB)
+NOW() - INTERVAL '30 days'  -- ❌ Uses quoted interval and plural 'days'
+EXTRACT(EPOCH FROM (timestamp1 - timestamp2))  -- ❌ EXTRACT(EPOCH) not supported
 ```
 
 **✅ Use DuckDB syntax:**
