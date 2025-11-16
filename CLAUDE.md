@@ -6,6 +6,8 @@ parent: null
 sibling_readme: README.md
 children:
   - ARCHIVED/CLAUDE.md
+  - benchmarks/CLAUDE.md
+  - docs/CLAUDE.md
   - planning/CLAUDE.md
   - resources/CLAUDE.md
   - specs/CLAUDE.md
@@ -1184,6 +1186,8 @@ Token usage: 98543/200000; 101457 remaining
 
 **Child Directories:**
 - **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
+- **[benchmarks/CLAUDE.md](benchmarks/CLAUDE.md)** - Benchmarks
+- **[docs/CLAUDE.md](docs/CLAUDE.md)** - Docs
 - **[planning/CLAUDE.md](planning/CLAUDE.md)** - Planning
 - **[resources/CLAUDE.md](resources/CLAUDE.md)** - Resources
 - **[src/CLAUDE.md](src/CLAUDE.md)** - Src
