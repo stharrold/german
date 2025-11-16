@@ -25,14 +25,12 @@ Constants:
 """
 
 import argparse
-import hashlib
 import json
 import sys
 import tempfile
 import uuid
-from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import List
 
 try:
     import duckdb
@@ -544,7 +542,7 @@ def test_views_queryable(conn: duckdb.DuckDBPyConnection, results: TestResult, v
     for view_name in REQUIRED_VIEWS:
         test_name = f"View queryable: {view_name}"
         try:
-            result = conn.execute(f"SELECT * FROM {view_name} LIMIT 1").fetchall()
+            conn.execute(f"SELECT * FROM {view_name} LIMIT 1").fetchall()
             # View should be queryable (even if it returns 0 rows)
             results.add_pass(test_name, verbose)
         except Exception as e:
