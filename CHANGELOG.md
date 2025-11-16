@@ -10,6 +10,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - None currently planned
 
+## [1.10.0] - 2025-11-16
+
+### Added
+- **MIT Agent Synchronization Pattern (Phase 1: Database Schema)** - Healthcare-compliant multi-agent coordination
+  - Comprehensive DuckDB schema for agent synchronization tracking
+  - HIPAA/FDA/IRB-compliant audit trail design (APPEND-ONLY tables)
+  - Phase 1 database tables: agent_synchronizations, sync_executions, sync_events, sync_metrics
+  - Schema migration test suite (706 lines, 557 test cases)
+  - Healthcare compliance documentation (phase1_hipaa_compliance.md, 511 lines)
+  - Schema integration guide (schema_integration_guide.md, 1068 lines)
+
+- **Directory structure improvements** - Enhanced documentation organization
+  - Created docs/ and benchmarks/ directories with CLAUDE.md and README.md
+  - Added ARCHIVED/ subdirectories for deprecated content
+  - YAML frontmatter with parent/child/sibling navigation
+
+### Changed
+- **CLAUDE.md documentation enhancements** - Domain-specific guidance
+  - Added "Current Active Work" section documenting MIT Agent Sync Pattern status
+  - Added "Parallel Agent Execution Patterns" with time calculations and decision tree
+  - Added "Healthcare Compliance" section with HIPAA/FDA/IRB requirements
+  - Added "DuckDB Development Guidelines" with PostgreSQL syntax comparisons
+  - Updated quality gates to include DuckDB compatibility validation
+
+### Fixed
+- **DuckDB compatibility issues** - Critical PostgreSQL syntax corrections
+  - Issue #174: Replaced EXTRACT(EPOCH) with datediff() for duration calculations
+  - Issue #174: Replaced NOW() with CURRENT_TIMESTAMP for timestamp queries
+  - Issue #174: Fixed INTERVAL syntax from PostgreSQL to DuckDB format
+  - Issue #175: Corrected ON DELETE CASCADE comments to reflect ON DELETE RESTRICT implementation
+  - Issue #177: Cleaned up unused imports and variables in test_schema_migration.py
+
+### Dependencies
+- Added duckdb (>=1.1.3) for MIT sync pattern database testing
+
 ## [1.9.0] - 2025-11-09
 
 ### Added
