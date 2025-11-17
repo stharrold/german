@@ -14,15 +14,15 @@ Issue: #160 - Phase 2 Synchronization Engine Implementation
 """
 
 import json
-import time
-from pathlib import Path
-from uuid import uuid4
-
-import pytest
-import duckdb
 
 # Import the module to test
 import sys
+import time
+from pathlib import Path
+
+import duckdb
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / '.claude' / 'skills' / 'agentdb-state-manager' / 'scripts'))
 
 from sync_engine import SynchronizationEngine

@@ -22,10 +22,9 @@ import hashlib
 import json
 import logging
 import re
-from pathlib import Path
+from datetime import datetime
 from typing import Any, Dict, List, Optional
 from uuid import uuid4
-from datetime import datetime
 
 try:
     import duckdb
@@ -156,7 +155,6 @@ class SynchronizationEngine:
         Template Syntax:
         - Simple path: ${trigger_state.field} → extract top-level field
         - Nested path: ${trigger_state.coverage.percentage} → nested access
-        - Array access: ${trigger_state.failed_tests[0]} → first element
         - Missing path: ${trigger_state.nonexistent} → null + warning log
 
         Args:
