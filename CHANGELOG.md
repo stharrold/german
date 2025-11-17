@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Issue #177: Cleaned up unused imports and variables in test_schema_migration.py
 
 ### Dependencies
-- Added duckdb (>=1.1.3) for MIT sync pattern database testing
+- Added duckdb (>=1.4.2) for MIT sync pattern database testing
 
 ## [1.9.0] - 2025-11-09
 
