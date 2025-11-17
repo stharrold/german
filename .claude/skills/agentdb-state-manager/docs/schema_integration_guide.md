@@ -926,7 +926,7 @@ ApplicationError: UPDATE/DELETE not allowed on sync_audit_trail
 **Solution:**
 - Review application code
 - Remove UPDATE/DELETE statements for `sync_audit_trail`
-- Use INSERT-only pattern
+- Use APPEND-ONLY pattern
 
 #### Issue 4: JSON Field Parsing Error
 

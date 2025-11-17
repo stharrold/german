@@ -481,9 +481,27 @@ def test_json_fields(conn: duckdb.DuckDBPyConnection, results: TestResult, verbo
 def test_append_only_audit_trail(conn: duckdb.DuckDBPyConnection, results: TestResult, verbose: bool):
     """Test 10: APPEND-ONLY behavior on sync_audit_trail (application-level enforcement).
 
-    Note: DuckDB does not support triggers to enforce APPEND-ONLY at database level.
-    This test documents that the application layer MUST enforce the constraint.
-    Production code MUST never execute UPDATE or DELETE on sync_audit_trail.
+    CRITICAL COMPLIANCE REQUIREMENT:
+
+    This test validates that DuckDB does NOT prevent UPDATE/DELETE operations at the
+    database level, which means the application layer MUST enforce the APPEND-ONLY
+    constraint for FDA 21 CFR Part 11 compliance.
+
+    What this test does:
+    1. Attempts UPDATE on sync_audit_trail (succeeds in DuckDB, should fail in production app)
+    2. Rolls back the transaction to preserve audit integrity
+    3. Documents that production code MUST reject UPDATE/DELETE operations
+
+    Why this matters:
+    - FDA 21 CFR Part 11 requires immutable audit trails
+    - HIPAA Security Rule requires tamper-proof audit logs
+    - DuckDB lacks triggers to enforce this at database level
+    - Therefore, application code MUST implement enforcement
+
+    Production requirements:
+    - Only INSERT allowed on sync_audit_trail
+    - Any UPDATE/DELETE attempt must be logged as security violation
+    - Use read-only connections for audit queries
     """
 
     test_name = "APPEND-ONLY: sync_audit_trail (application-level requirement)"
