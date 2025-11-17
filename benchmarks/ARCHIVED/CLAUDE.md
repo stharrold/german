@@ -28,8 +28,8 @@ Expected file pattern: `YYYYMMDD_HHMMSS_description.zip`
 ## Usage
 
 When working with archived benchmarks:
-1. Use `archive_manager.py list` to view available archives
-2. Use `archive_manager.py extract` to restore archived files for reference
+1. Use `archive_manager.py list benchmarks/ARCHIVED` to view available archives
+2. Use `archive_manager.py extract benchmarks/ARCHIVED/<archive>.zip <output_dir>` to restore archived files for reference
 3. Never modify archived files directly - they are read-only historical records
 4. To deprecate new files, use `deprecate_files.py` from workflow-utilities
 

@@ -29,12 +29,12 @@ Each archive includes a manifest describing the archived content and reason for 
 To extract archived files:
 ```bash
 python .claude/skills/workflow-utilities/scripts/archive_manager.py \
-  extract ARCHIVED/<archive>.zip restored/
+  extract benchmarks/ARCHIVED/<archive>.zip restored/
 ```
 
 To list all archives:
 ```bash
-python .claude/skills/workflow-utilities/scripts/archive_manager.py list
+python .claude/skills/workflow-utilities/scripts/archive_manager.py list benchmarks/ARCHIVED
 ```
 
 ## Related Documentation
