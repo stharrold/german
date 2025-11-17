@@ -4,26 +4,38 @@ directory: docs/ARCHIVED
 title: Archived Files
 sibling_claude: CLAUDE.md
 parent: ../README.md
-children:[]
+children: []
 ---
 
 # Archived Files
 
 ## Overview
 
-Archive of deprecated files that are no longer in active use.
+Archive of deprecated files from the docs directory that are no longer in active use. This directory follows the repository's file deprecation policy where files are archived rather than deleted to maintain historical context.
 
 ## Contents
 
-[Describe the contents of this directory]
+Currently empty. When documentation files are deprecated, they will be archived here using the `deprecate_files.py` script which creates timestamped zip archives.
 
 ## Structure
 
-[Explain the organization and key files]
+Archived files are stored as timestamped zip files with the pattern:
+- `YYYYMMDD_HHMMSS_description.zip` - Contains deprecated files with metadata
+
+Each archive includes a manifest describing the archived content and reason for deprecation.
 
 ## Usage
 
-[How to use the resources in this directory]
+To extract archived files:
+```bash
+python .claude/skills/workflow-utilities/scripts/archive_manager.py \
+  extract ARCHIVED/<archive>.zip restored/
+```
+
+To list all archives:
+```bash
+python .claude/skills/workflow-utilities/scripts/archive_manager.py list
+```
 
 ## Related Documentation
 
