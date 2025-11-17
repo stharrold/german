@@ -7,6 +7,7 @@ Constants:
   by underscores and hyphens. No colons/hyphens avoid shell escaping issues.
 """
 
+import asyncio
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -15,6 +16,10 @@ from pathlib import Path
 # Add VCS module to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
 from vcs import get_vcs_adapter
+
+# Add sync engine integration module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'agentdb-state-manager' / 'scripts'))
+from worktree_agent_integration import trigger_sync_completion
 
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'  # Compact ISO8601 for filename/branch safety
@@ -193,6 +198,19 @@ Created: {created_timestamp}
     print(f"✓ Worktree created: {worktree_path}")
     print(f"✓ Branch: {branch_name}")
     print(f"✓ TODO file: {todo_filename}")
+
+    # Trigger sync engine (Phase 3 integration)
+    asyncio.run(trigger_sync_completion(
+        agent_id="develop",
+        action="worktree_created",
+        state_snapshot={
+            "worktree_path": str(worktree_path),
+            "branch_name": branch_name,
+            "workflow_type": workflow_type,
+            "slug": slug
+        },
+        context={"user": gh_user, "base_branch": base_branch}
+    ))
 
     return {
         'worktree_path': str(worktree_path),

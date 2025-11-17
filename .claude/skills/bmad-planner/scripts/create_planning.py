@@ -25,12 +25,17 @@ Constants:
 """
 
 import argparse
+import asyncio
 import re
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
+
+# Add sync engine integration module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'agentdb-state-manager' / 'scripts'))
+from worktree_agent_integration import trigger_sync_completion
 
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
@@ -981,6 +986,20 @@ def main():
     # Commit changes
     if not args.no_commit:
         commit_planning_docs(planning_dir, args.slug)
+
+        # Trigger sync engine (Phase 3 integration)
+        asyncio.run(trigger_sync_completion(
+            agent_id="orchestrate",
+            action="planning_complete",
+            state_snapshot={
+                "planning_dir": str(planning_dir),
+                "slug": args.slug,
+                "requirements_generated": True,
+                "architecture_generated": True,
+                "epics_generated": True
+            },
+            context={"user": args.gh_user}
+        ))
     else:
         print("\n⚠ Skipping git commit (--no-commit flag)")
 

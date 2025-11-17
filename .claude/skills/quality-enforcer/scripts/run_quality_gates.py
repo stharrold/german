@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Run all quality gates and report results."""
 
+import asyncio
 import subprocess
 import sys
 from pathlib import Path
+
+# Add sync engine integration module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'agentdb-state-manager' / 'scripts'))
+from worktree_agent_integration import trigger_sync_completion
 
 
 def run_tests():
@@ -206,5 +211,21 @@ def run_all_quality_gates(coverage_threshold=80):
     return all_passed, results
 
 if __name__ == '__main__':
-    passed, _ = run_all_quality_gates()
+    passed, results = run_all_quality_gates()
+
+    # Trigger sync engine (Phase 3 integration)
+    asyncio.run(trigger_sync_completion(
+        agent_id="assess",
+        action="test_complete",
+        state_snapshot={
+            "all_passed": passed,
+            "coverage_passed": results.get('coverage', {}).get('passed', False),
+            "tests_passed": results.get('tests', {}).get('passed', False),
+            "build_passed": results.get('build', {}).get('passed', False),
+            "linting_passed": results.get('linting', {}).get('passed', False),
+            "types_passed": results.get('types', {}).get('passed', False)
+        },
+        context={"user": "quality-enforcer"}
+    ))
+
     sys.exit(0 if passed else 1)
