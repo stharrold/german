@@ -65,8 +65,20 @@ cat TODO.md  # See active workflows
   - PRs #165, #173, #179 merged to main
   - All phase-1-schema issues resolved (including #167-172 closed in v1.10.1)
   - Post-release cleanup completed in v1.10.1
-
-**No active development initiatives at this time.**
+- **Phase 2 (Issue #160): ✅ COMPLETED in v1.11.0**
+  - Sync engine implemented (sync_engine.py, 559 lines)
+  - Pattern matching, idempotency, compliance logging
+  - Test suite with 22 tests, 88% coverage
+- **Phase 3 (Issue #161): ✅ COMPLETED** (pending v1.12.0 release)
+  - Integration layer implemented (worktree_agent_integration.py, 620 lines)
+  - Agent hooks added to 3 existing scripts (bmad-planner, quality-enforcer, speckit-author)
+  - FlowTokenManager, PHIDetector, ComplianceWrapper, SyncEngineFactory, trigger_sync_completion()
+  - Test suite with 34 tests, 96% coverage
+  - Feature flag control (SYNC_ENGINE_ENABLED, disabled by default)
+  - Graceful degradation on errors
+- **Phase 4 (Issue #162): 🎯 READY FOR IMPLEMENTATION**
+  - Default Synchronization Rules
+  - Estimated: 6-10 hours
 
 Check for new work: `gh issue list --state open`
 

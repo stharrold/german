@@ -984,6 +984,30 @@ def main():
     else:
         print("\n⚠ Skipping git commit (--no-commit flag)")
 
+    # Trigger sync engine (Phase 3 integration)
+    try:
+        import asyncio
+        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
+        if str(integration_path) not in sys.path:
+            sys.path.insert(0, str(integration_path))
+        from worktree_agent_integration import trigger_sync_completion
+
+        asyncio.run(trigger_sync_completion(
+            agent_id="orchestrate",
+            action="planning_complete",
+            state_snapshot={
+                "slug": args.slug,
+                "planning_dir": str(planning_dir),
+                "requirements_generated": True,
+                "architecture_generated": True,
+                "epics_generated": True
+            },
+            context={"user": args.gh_user}
+        ))
+    except Exception as e:
+        # Graceful degradation: don't fail if sync unavailable
+        pass
+
     # Success summary
     print("\n" + "=" * 70)
     print("✓ BMAD Planning Documents Created Successfully!")
