@@ -40,6 +40,7 @@ except ImportError:
 
 # Constants with documented rationale
 SCHEMA_FILE = Path(__file__).parent.parent / "schemas" / "agentdb_sync_schema.sql"
+MIGRATION_FILE = Path(__file__).parent.parent / "schemas" / "phase2_migration.sql"
 REQUIRED_TABLES = [
     "schema_metadata",
     "agent_synchronizations",
@@ -652,6 +653,138 @@ def test_restrict_delete(conn: duckdb.DuckDBPyConnection, results: TestResult, v
         results.add_fail(test_name, str(e))
 
 
+def test_phase2_migration(conn: duckdb.DuckDBPyConnection, results: TestResult, verbose: bool):
+    """Test 14: Phase 2 migration adds all required fields."""
+
+    # Load Phase 2 migration if it exists
+    if not MIGRATION_FILE.exists():
+        test_name = "Phase 2 migration file exists"
+        results.add_fail(test_name, f"Migration file not found: {MIGRATION_FILE}")
+        return
+
+    test_name = "Phase 2 migration loads without errors"
+    try:
+        migration_sql = MIGRATION_FILE.read_text()
+        conn.execute(migration_sql)
+        results.add_pass(test_name, verbose)
+    except Exception as e:
+        results.add_fail(test_name, str(e))
+        return
+
+    # Test agent_synchronizations Phase 2 fields
+    phase2_sync_fields = [
+        'trigger_agent_id',
+        'trigger_action',
+        'trigger_pattern',
+        'target_agent_id',
+        'target_action',
+        'priority',
+        'enabled'
+    ]
+
+    for field_name in phase2_sync_fields:
+        test_name = f"Phase 2 field exists: agent_synchronizations.{field_name}"
+        try:
+            result = conn.execute(
+                """SELECT COUNT(*) FROM information_schema.columns
+                   WHERE table_name = 'agent_synchronizations' AND column_name = ?""",
+                [field_name]
+            ).fetchone()
+
+            if result[0] == 1:
+                results.add_pass(test_name, verbose)
+            else:
+                results.add_fail(test_name, f"Field {field_name} not found")
+        except Exception as e:
+            results.add_fail(test_name, str(e))
+
+    # Test sync_executions Phase 2 fields
+    phase2_exec_fields = [
+        'provenance_hash',
+        'trigger_state_snapshot',
+        'exec_status'
+    ]
+
+    for field_name in phase2_exec_fields:
+        test_name = f"Phase 2 field exists: sync_executions.{field_name}"
+        try:
+            result = conn.execute(
+                """SELECT COUNT(*) FROM information_schema.columns
+                   WHERE table_name = 'sync_executions' AND column_name = ?""",
+                [field_name]
+            ).fetchone()
+
+            if result[0] == 1:
+                results.add_pass(test_name, verbose)
+            else:
+                results.add_fail(test_name, f"Field {field_name} not found")
+        except Exception as e:
+            results.add_fail(test_name, str(e))
+
+    # Test provenance_hash unique constraint
+    test_name = "Phase 2: provenance_hash unique constraint"
+    try:
+        # Create test sync
+        sync_id = generate_uuid()
+        conn.execute("""
+            INSERT INTO agent_synchronizations (
+                sync_id, agent_id, sync_type, source_location,
+                target_location, pattern, status, created_by,
+                trigger_agent_id, trigger_action, target_agent_id, target_action
+            ) VALUES (?, 'develop', 'agent_sync', '/src', '/tgt',
+                     'test_pattern', 'pending', 'test',
+                     'develop', 'commit_complete', 'assess', 'run_tests')
+        """, [sync_id])
+
+        # Insert execution with provenance hash
+        exec_id_1 = generate_uuid()
+        prov_hash = 'test_hash_' + ('0' * 54)  # 64 chars total
+        conn.execute("""
+            INSERT INTO sync_executions (
+                execution_id, sync_id, execution_order, operation_type,
+                operation_result, provenance_hash, exec_status
+            ) VALUES (?, ?, 1, 'read', 'success', ?, 'pending')
+        """, [exec_id_1, sync_id, prov_hash])
+
+        # Try duplicate provenance_hash (should fail)
+        exec_id_2 = generate_uuid()
+        try:
+            conn.execute("""
+                INSERT INTO sync_executions (
+                    execution_id, sync_id, execution_order, operation_type,
+                    operation_result, provenance_hash, exec_status
+                ) VALUES (?, ?, 2, 'read', 'success', ?, 'pending')
+            """, [exec_id_2, sync_id, prov_hash])
+
+            results.add_fail(test_name, "Duplicate provenance_hash should have failed")
+        except duckdb.ConstraintException:
+            results.add_pass(test_name, verbose)
+
+    except Exception as e:
+        results.add_fail(test_name, str(e))
+
+    # Test Phase 2 insert with all fields
+    test_name = "Phase 2: Insert sync with trigger/target fields"
+    try:
+        sync_id = generate_uuid()
+        conn.execute("""
+            INSERT INTO agent_synchronizations (
+                sync_id, agent_id, sync_type, source_location,
+                target_location, pattern, status, created_by,
+                trigger_agent_id, trigger_action, trigger_pattern,
+                target_agent_id, target_action, priority, enabled
+            ) VALUES (
+                ?, 'develop', 'agent_sync', '/src', '/tgt',
+                'test_pattern', 'pending', 'test',
+                'develop', 'commit_complete', '{"lint_status": "pass"}',
+                'assess', 'run_tests', 100, TRUE
+            )
+        """, [sync_id])
+        results.add_pass(test_name, verbose)
+    except Exception as e:
+        results.add_fail(test_name, str(e))
+
+
 def main():
     """Main test execution."""
     parser = argparse.ArgumentParser(description="Test agentdb_sync_schema migration")
@@ -697,6 +830,7 @@ def main():
         test_views_queryable(conn, results, args.verbose)
         test_cascade_delete(conn, results, args.verbose)
         test_restrict_delete(conn, results, args.verbose)
+        test_phase2_migration(conn, results, args.verbose)
 
         conn.close()
 
