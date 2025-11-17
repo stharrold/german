@@ -84,10 +84,11 @@ cat TODO.md  # See active workflows
   - Feature flag control (SYNC_ENGINE_ENABLED, disabled by default)
   - Graceful degradation on errors
   - Non-invasive integration (<10 lines per agent script)
-  - PR #217 merged to contrib
+  - PR #217 merged to contrib, PR #226 pending merge to develop
+  - Linting fixes applied (Issues #218-#221 closed)
 
 **Next phases ready for implementation:**
-- Phase 4 (Issue #162): Default Synchronization Rules (blocked by Phase 3)
+- Phase 4 (Issue #162): Default Synchronization Rules (ready after Phase 3 merges)
 - Phase 5 (Issue #163): Testing & Compliance (parallel-ok, blocked by Phase 4)
 - Phase 6 (Issue #164): Performance & Docs (parallel-ok, blocked by Phase 5)
 
