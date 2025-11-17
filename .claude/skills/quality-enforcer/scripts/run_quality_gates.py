@@ -178,6 +178,31 @@ def run_all_quality_gates(coverage_threshold=80):
 
     print("\n" + ("✓ ALL GATES PASSED" if all_passed else "✗ SOME GATES FAILED"))
 
+    # Trigger sync engine (Phase 3 integration)
+    try:
+        import asyncio
+        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
+        if str(integration_path) not in sys.path:
+            sys.path.insert(0, str(integration_path))
+        from worktree_agent_integration import trigger_sync_completion
+
+        asyncio.run(trigger_sync_completion(
+            agent_id="assess",
+            action="test_complete",
+            state_snapshot={
+                "all_passed": all_passed,
+                "coverage_passed": results.get('coverage', {}).get('passed', False),
+                "tests_passed": results.get('tests', {}).get('passed', False),
+                "build_passed": results.get('build', {}).get('passed', False),
+                "linting_passed": results.get('linting', {}).get('passed', False),
+                "types_passed": results.get('types', {}).get('passed', False)
+            },
+            context={}
+        ))
+    except Exception:
+        # Graceful degradation: don't fail if sync unavailable
+        pass
+
     return all_passed, results
 
 if __name__ == '__main__':
