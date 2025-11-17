@@ -4,7 +4,7 @@ directory: benchmarks/ARCHIVED
 purpose: Archive of deprecated files from benchmarks
 parent: ../CLAUDE.md
 sibling_readme: README.md
-children:[]
+children: []
 related_skills:
   - workflow-utilities
 ---

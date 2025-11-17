@@ -4,7 +4,7 @@ directory: docs/ARCHIVED
 purpose: Archive of deprecated files from docs
 parent: ../CLAUDE.md
 sibling_readme: README.md
-children:[]
+children: []
 related_skills:
   - workflow-utilities
 ---

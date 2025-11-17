@@ -4,7 +4,7 @@ directory: benchmarks/ARCHIVED
 title: Archived Files
 sibling_claude: CLAUDE.md
 parent: ../README.md
-children:[]
+children: []
 ---
 
 # Archived Files
