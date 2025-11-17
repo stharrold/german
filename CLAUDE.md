@@ -63,19 +63,12 @@ cat TODO.md  # See active workflows
   - HIPAA/FDA/IRB-compliant audit trail design
   - Test suite with 557 test cases (test_schema_migration.py, 706 lines)
   - PRs #165, #173, #179 merged to main
-  - Issues #174, #175, #177, #180, #181, #187 resolved
-- **Phases 2-6: Ready for implementation (Issues #160-#164)**
-  - Phase 2 (Issue #160): Synchronization Engine
-  - Phase 3 (Issue #161): Integration Layer
-  - Phase 4 (Issue #162): Default Synchronization Rules
-  - Phase 5 (Issue #163): Testing and Healthcare Compliance Validation
-  - Phase 6 (Issue #164): Performance Validation and Documentation
+  - All phase-1-schema issues resolved (including #167-172 closed in v1.10.1)
+  - Post-release cleanup completed in v1.10.1
 
-**Check active issues:** `gh issue list --state open --label MIT-sync-pattern`
+**No active development initiatives at this time.**
 
-**Current parallelization opportunities:**
-- Stage 2: Issues #160 + #161 can run in parallel (35-47% time savings)
-- Stage 4: Issues #163 + #164 can run in parallel (after Stage 2-3 complete)
+Check for new work: `gh issue list --state open`
 
 ## Workflow Execution Flow
 
@@ -1199,9 +1192,10 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.10.0 (latest stable)
+**Current version:** v1.10.1 (latest stable)
 
 **Recent releases:**
+- v1.10.1: Post-v1.10.0 documentation cleanup and issue resolution (PATCH)
 - v1.10.0: MIT Agent Synchronization Pattern (Phase 1) + DuckDB compatibility fixes (MINOR)
 - v1.9.1: ARCHITECTURE.md documentation clarity improvements (PATCH)
 - v1.9.0: PR feedback work-item generation workflow (MINOR)
@@ -1214,6 +1208,13 @@ Automatic version calculation based on changes:
 - v1.4.0: BMAD and SpecKit callable tools with token reduction (MINOR)
 - v1.3.0: Complete B1 German listening practice library (MINOR)
 - v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
+
+**Included in v1.10.1:**
+- Post-release documentation cleanup (ARCHIVED directories, compliance docs)
+- Closed duplicate issues from Phase 1 (#167-172)
+- APPEND-ONLY terminology standardization
+- YAML frontmatter spacing fixes
+- Updated CLAUDE.md for v1.10.0 completion status
 
 **Included in v1.10.0:**
 - MIT Agent Synchronization Pattern Phase 1 (database schema, HIPAA/FDA/IRB compliance)
