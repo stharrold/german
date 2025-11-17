@@ -371,6 +371,8 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.10.0  | 2025-11-16 | MINOR | MIT Agent Synchronization Pattern (Phase 1) + DuckDB compatibility fixes |
+| 1.9.0   | 2025-11-09 | MINOR | Work-item generation workflow + VCS adapter enhancements |
 | 1.8.2   | 2025-11-07 | PATCH | Bug fixes for code quality issues + simplified backmerge workflow |
 | 1.8.1   | 2025-11-07 | PATCH | Branch protection compliance + Azure DevOps documentation |
 | 1.8.0   | 2025-11-07 | MINOR | CI/CD replication guide + DRY navigation improvements |

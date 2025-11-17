@@ -17,7 +17,7 @@
 -- - IRB Standards (consent tracking, data minimization)
 --
 -- Design Principles:
--- - Immutable audit trail (INSERT-only for sync_audit_trail)
+-- - Immutable audit trail (APPEND-ONLY for sync_audit_trail)
 -- - Comprehensive PHI tracking (phi_accessed, phi_justification fields)
 -- - Idempotent synchronization (checksum_before/after)
 -- - Full forensic capability (actor, timestamp, event_details)
@@ -346,7 +346,7 @@ CREATE INDEX IF NOT EXISTS idx_audit_phi_actor_time ON sync_audit_trail(phi_invo
 -- The test_schema_migration.py script validates this constraint by:
 -- 1. Attempting UPDATE (must fail in application logic)
 -- 2. Attempting DELETE (must fail in application logic)
--- 3. Verifying INSERT-only behavior
+-- 3. Verifying APPEND-ONLY behavior
 --
 -- FUTURE ENHANCEMENT:
 -- When DuckDB adds trigger support, implement:
