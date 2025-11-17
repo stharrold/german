@@ -13,19 +13,25 @@ related_skills:
 
 ## Purpose
 
-Archive of deprecated files from docs
+Archive of deprecated files from docs directory. Maintains historical context for documentation that has been superseded or removed.
 
 ## Directory Structure
 
-[Describe the organization of files in this directory]
+Archived files are stored as timestamped zip files created by the workflow-utilities deprecation script. Each archive is self-contained with metadata about the deprecation.
 
 ## Files in This Directory
 
-[List key files and their purposes]
+Currently empty. Files will appear here when documentation is deprecated following the repository's archive-not-delete policy.
+
+Expected file pattern: `YYYYMMDD_HHMMSS_description.zip`
 
 ## Usage
 
-[How to work with code/content in this directory]
+When working with archived documentation:
+1. Use `archive_manager.py list` to view available archives
+2. Use `archive_manager.py extract` to restore archived files for reference
+3. Never modify archived files directly - they are read-only historical records
+4. To deprecate new files, use `deprecate_files.py` from workflow-utilities
 
 ## Related Documentation
 
