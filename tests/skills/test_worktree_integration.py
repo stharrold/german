@@ -12,9 +12,6 @@ Created: 2025-11-17
 Issue: #161 - Phase 3 Integration Layer Implementation
 """
 
-import asyncio
-import json
-import os
 import subprocess
 import sys
 from pathlib import Path
@@ -26,7 +23,7 @@ import pytest
 AGENTDB_SCRIPTS = Path(__file__).parent.parent.parent / ".claude" / "skills" / "agentdb-state-manager" / "scripts"
 sys.path.insert(0, str(AGENTDB_SCRIPTS))
 
-from worktree_agent_integration import (
+from worktree_agent_integration import (  # noqa: E402
     ComplianceWrapper,
     FlowTokenManager,
     PHIDetector,
@@ -265,7 +262,7 @@ class TestSyncEngineFactory:
         # Will fail to import sync_engine, but checks flag parsing
         # In actual test with sync_engine available, this would succeed
         try:
-            engine = SyncEngineFactory.create_sync_engine()
+            SyncEngineFactory.create_sync_engine()
         except Exception:
             pass  # Expected if sync_engine not available
 
@@ -408,7 +405,6 @@ class TestTriggerSyncCompletion:
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
         # Mock sync engine
-        mock_engine = mock.MagicMock()
         mock_wrapper = mock.MagicMock()
         mock_wrapper.on_agent_action_complete = mock.AsyncMock(return_value=["exec-1", "exec-2"])
 
@@ -454,12 +450,7 @@ class TestTriggerSyncCompletion:
         """Test sync trigger extracts issue number from flow token."""
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
-        # Mock worktree with issue number in name
-        tmp_dir = Path("/tmp/german_feature_20251117_issue-161-integration")
-
         # Mock flow token manager to return issue-based token
-        original_get_flow_token = FlowTokenManager.get_flow_token
-
         def mock_flow_token():
             return "feature/20251117_issue-161-integration"
 

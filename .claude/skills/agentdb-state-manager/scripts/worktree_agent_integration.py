@@ -26,9 +26,6 @@ Created: 2025-11-17
 Issue: #161 - Phase 3 Integration Layer Implementation
 """
 
-import asyncio
-import hashlib
-import json
 import logging
 import os
 import re

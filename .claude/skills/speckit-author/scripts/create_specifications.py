@@ -711,7 +711,6 @@ def main():
     # Trigger sync engine (Phase 3 integration)
     try:
         import asyncio
-        from pathlib import Path
         integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
         if str(integration_path) not in sys.path:
             sys.path.insert(0, str(integration_path))

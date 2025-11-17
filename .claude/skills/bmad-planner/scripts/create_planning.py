@@ -1004,7 +1004,7 @@ def main():
             },
             context={"user": args.gh_user}
         ))
-    except Exception as e:
+    except Exception:
         # Graceful degradation: don't fail if sync unavailable
         pass
 
