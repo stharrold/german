@@ -23,12 +23,17 @@ Constants:
 """
 
 import argparse
+import asyncio
 import re
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
+
+# Add sync engine integration module to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'agentdb-state-manager' / 'scripts'))
+from worktree_agent_integration import trigger_sync_completion
 
 # Constants with documented rationale
 TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
@@ -705,6 +710,19 @@ def main():
     # 8. Commit changes
     if not args.no_commit:
         commit_changes(args.slug, specs_dir, todo_file)
+
+        # Trigger sync engine (Phase 3 integration)
+        asyncio.run(trigger_sync_completion(
+            agent_id="research",
+            action="documentation_complete",
+            state_snapshot={
+                "spec_file": str(spec_path),
+                "plan_path": str(plan_path),
+                "slug": args.slug,
+                "tasks_generated": len(tasks) if tasks else 0
+            },
+            context={"user": args.gh_user, "workflow_type": args.workflow_type}
+        ))
     else:
         print("\n⚠ Skipping commit (--no-commit flag)")
 
