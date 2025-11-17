@@ -1,9 +1,14 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-10T07:52:42.682582+00:00'
+last_update: '2025-11-17T02:49:59.771232+00:00'
 workflows:
-  active: []
+  active:
+  - slug: phase-2-engine
+    timestamp: '2025-11-17T02:43:49Z'
+    title: Phase 2 - Synchronization Engine Implementation
+    status: in_progress
+    file: TODO_feature_20251117T024349Z_phase-2-engine.md
   archived:
   - slug: workflow
     timestamp: 20251023T123254Z
