@@ -8,10 +8,69 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
-- Phase 3: Integration Layer Implementation (Issue #161)
 - Phase 4: Default Synchronization Rules (Issue #162)
 - Phase 5: Comprehensive Testing and Healthcare Compliance Validation (Issue #163)
 - Phase 6: Performance Validation and Documentation (Issue #164)
+
+## [1.12.0] - 2025-11-18
+
+### Added
+- **MIT Agent Synchronization Pattern (Phase 3: Integration Layer)** - Workflow agent integration
+  - Integration layer implementation (worktree_agent_integration.py, 594 lines)
+  - FlowTokenManager for context-aware workflow token generation
+  - PHIDetector for HIPAA-compliant Protected Health Information detection
+  - ComplianceWrapper for audit trail enforcement
+  - SyncEngineFactory for sync engine lifecycle management
+  - trigger_sync_completion() for agent hook integration
+  - Agent hooks added to 4 workflow scripts (bmad-planner, git-workflow-manager, quality-enforcer, speckit-author)
+  - Test suite with 34 tests, 96% coverage (test_worktree_integration.py, 563 lines)
+  - Feature flag control (SYNC_ENGINE_ENABLED environment variable)
+  - Graceful degradation on sync engine errors
+  - Non-invasive integration (<10 lines per agent script)
+
+### Changed
+- **Workflow improvements** - Enhanced robustness and maintainability
+  - Refactored path manipulation pattern with setup_agentdb_import() helper function
+  - Improved FlowTokenManager with regex-based parsing (replaces fragile string splits)
+  - Added support for release/hotfix workflow types in addition to feature workflows
+  - Enhanced agent hooks with return value capture and exception logging
+  - Fixed hardcoded user in quality-enforcer (now uses os.getenv("USER"))
+
+### Fixed
+- **Code quality improvements** - Resolved 20 GitHub issues from PR reviews (#211-232)
+  - Issue #211: Robust worktree directory parsing with regex validation
+  - Issue #212: Added release/hotfix workflow type support
+  - Issue #213: Fixed SSN pattern to require consistent formatting
+  - Issue #214: Improved asyncio.run() pattern in agent hooks
+  - Issue #215: Corrected version number (v1.1.0 → v1.12.0) in agentdb README
+  - Issue #216: Replaced real-looking ULID with obviously fake test data
+  - Issue #218-222: Removed unused imports, variables, and FlowTokenType enum
+  - Issue #223: Optimized PHIDetector to single loop iteration (50% performance improvement)
+  - Issue #224: Added release worktree pattern support
+  - Issue #225: Fixed Phase 3 version inconsistency in CLAUDE.md
+  - Issue #227: Removed async/sync mismatch in on_agent_action_complete
+  - Issue #228: Improved SSN regex to reduce false positives (require hyphens)
+  - Issue #229: Refactored dynamic path manipulation pattern across agent hooks
+  - Issue #230-232: Added exception logging to sync engine graceful degradation
+
+### Performance
+- **PHIDetector optimization** - Reduced iteration overhead by 50%
+  - Single-pass detection for SSN and path patterns
+  - Early continue for non-string values
+  - Maintains same detection logic with better performance
+
+### Testing
+- **Comprehensive test coverage** - 176 tests passing, 88% coverage
+  - 7 new FlowTokenManager tests (worktree patterns, edge cases)
+  - 7 new PHIDetector tests (SSN patterns, path detection)
+  - 20 ComplianceWrapper tests (audit trail enforcement)
+  - Quality gates: all passing (coverage, tests, build, linting, types)
+
+### Documentation
+- **Updated for Phase 3 completion**
+  - CLAUDE.md reflects Phase 3 completion status
+  - agentdb-state-manager/CHANGELOG.md includes v1.12.0 details
+  - Clear distinction between v1.11.0 (Phase 2) and v1.12.0 (Phase 3)
 
 ## [1.11.0] - 2025-11-17
 
