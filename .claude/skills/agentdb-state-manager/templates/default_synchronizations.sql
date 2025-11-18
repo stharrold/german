@@ -99,7 +99,7 @@ INSERT INTO agent_synchronizations (
     NULL,
     'workflow_transition',
     'planning/',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'orchestrate_to_develop',
     'pending',
     'claude-code',
@@ -137,7 +137,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'develop',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'src/',
     'tests/',
@@ -178,7 +178,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'tests/',
     'docs/',
@@ -219,7 +219,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'research',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'docs/',
     './',
