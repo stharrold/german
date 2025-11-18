@@ -31,21 +31,11 @@ import os
 import re
 import subprocess
 import sys
-from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from uuid import uuid4
 
 logger = logging.getLogger(__name__)
-
-
-class FlowTokenType(Enum):
-    """Types of flow tokens for different workflow contexts."""
-
-    MAIN_REPO = "main_repo"
-    WORKTREE = "worktree"
-    ISSUE = "issue"
-    AD_HOC = "ad_hoc"
 
 
 class FlowTokenManager:
@@ -227,20 +217,21 @@ class PHIDetector:
                     logger.info(f"PHI detected: field name '{field_name}' matches pattern '{pattern}'")
                     return True
 
-        # Check for SSN in string values
+        # Check for SSN and PHI paths in a single iteration (Fix #223)
         for key, value in state_snapshot.items():
-            if isinstance(value, str):
-                if re.search(cls.SSN_PATTERN, value):
-                    logger.info(f"PHI detected: SSN pattern in field '{key}'")
-                    return True
+            if not isinstance(value, str):
+                continue
 
-        # Check for PHI paths in file paths
-        for key, value in state_snapshot.items():
-            if isinstance(value, str):
-                for pattern in cls.PHI_PATH_PATTERNS:
-                    if re.search(pattern, value, re.IGNORECASE):
-                        logger.info(f"PHI detected: path in field '{key}' matches pattern '{pattern}'")
-                        return True
+            # Check SSN pattern
+            if re.search(cls.SSN_PATTERN, value):
+                logger.info(f"PHI detected: SSN pattern in field '{key}'")
+                return True
+
+            # Check path patterns
+            for pattern in cls.PHI_PATH_PATTERNS:
+                if re.search(pattern, value, re.IGNORECASE):
+                    logger.info(f"PHI detected: path in field '{key}' matches pattern '{pattern}'")
+                    return True
 
         return False
 

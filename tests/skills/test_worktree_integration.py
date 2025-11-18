@@ -85,7 +85,7 @@ class TestFlowTokenManager:
         # Mock git command
         def mock_run(*args, **kwargs):
             class Result:
-                stdout = "claude/phase-3-integration-layer-013DZD5UsKELiMg77gWcJrtS\n"
+                stdout = "claude/phase-3-integration-layer-01TEST0000000000000000\n"
                 returncode = 0
 
             return Result()
@@ -93,7 +93,7 @@ class TestFlowTokenManager:
         monkeypatch.setattr(subprocess, "run", mock_run)
 
         token = FlowTokenManager.get_flow_token()
-        assert token == "claude/phase-3-integration-layer-013DZD5UsKELiMg77gWcJrtS"
+        assert token == "claude/phase-3-integration-layer-01TEST0000000000000000"
 
     def test_ad_hoc_flow_token_on_git_failure(self, tmp_path, monkeypatch):
         """Test fallback to ad-hoc flow token when git fails."""
