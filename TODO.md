@@ -1,9 +1,14 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-17T13:06:27.035563+00:00'
+last_update: '2025-11-18T02:19:18.213435+00:00'
 workflows:
-  active: []
+  active:
+  - slug: phase-4-defaults
+    timestamp: '2025-11-18T02:18:39Z'
+    title: 'Phase 4: Default Synchronization Rules Implementation'
+    status: in_progress
+    file: TODO_feature_20251118T021839Z_phase-4-defaults.md
   archived:
   - slug: workflow
     timestamp: 20251023T123254Z
