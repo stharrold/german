@@ -7,6 +7,27 @@ import sys
 from pathlib import Path
 
 
+def setup_agentdb_import() -> None:
+    """Setup import path for agentdb sync engine components.
+
+    NOTE: Required for script execution outside package context.
+    The sync engine components live in agentdb-state-manager/scripts
+    and are imported dynamically by agent hooks.
+
+    Raises:
+        RuntimeError: If agentdb scripts directory not found.
+    """
+    agentdb_scripts = (
+        Path(__file__).resolve().parent.parent.parent
+        / "agentdb-state-manager" / "scripts"
+    )
+    if not agentdb_scripts.exists():
+        raise RuntimeError(f"AgentDB scripts directory not found: {agentdb_scripts}")
+
+    if str(agentdb_scripts) not in sys.path:
+        sys.path.insert(0, str(agentdb_scripts))
+
+
 def run_tests():
     """Run all tests and verify they pass."""
     print("Running tests...")
@@ -182,9 +203,7 @@ def run_all_quality_gates(coverage_threshold=80):
     # Trigger sync engine (Phase 3 integration)
     try:
         import asyncio
-        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
-        if str(integration_path) not in sys.path:
-            sys.path.insert(0, str(integration_path))
+        setup_agentdb_import()
         from worktree_agent_integration import trigger_sync_completion
 
         sync_success = asyncio.run(trigger_sync_completion(

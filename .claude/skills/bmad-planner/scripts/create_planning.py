@@ -37,6 +37,27 @@ TIMESTAMP_FORMAT = '%Y-%m-%d'  # Human-readable date for documentation
 CONTRIB_BRANCH_PREFIX = 'contrib/'  # Must be on contrib branch
 
 
+def setup_agentdb_import() -> None:
+    """Setup import path for agentdb sync engine components.
+
+    NOTE: Required for script execution outside package context.
+    The sync engine components live in agentdb-state-manager/scripts
+    and are imported dynamically by agent hooks.
+
+    Raises:
+        RuntimeError: If agentdb scripts directory not found.
+    """
+    agentdb_scripts = (
+        Path(__file__).resolve().parent.parent.parent
+        / "agentdb-state-manager" / "scripts"
+    )
+    if not agentdb_scripts.exists():
+        raise RuntimeError(f"AgentDB scripts directory not found: {agentdb_scripts}")
+
+    if str(agentdb_scripts) not in sys.path:
+        sys.path.insert(0, str(agentdb_scripts))
+
+
 def error_exit(message: str, code: int = 1) -> None:
     """Print error message and exit with code."""
     print(f"ERROR: {message}", file=sys.stderr)
@@ -987,9 +1008,7 @@ def main():
     # Trigger sync engine (Phase 3 integration)
     try:
         import asyncio
-        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
-        if str(integration_path) not in sys.path:
-            sys.path.insert(0, str(integration_path))
+        setup_agentdb_import()
         from worktree_agent_integration import trigger_sync_completion
 
         sync_success = asyncio.run(trigger_sync_completion(
