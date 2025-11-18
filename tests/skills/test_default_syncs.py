@@ -172,15 +172,24 @@ def test_priority_ranges(temp_db):
         assert priority >= 1, f"Pattern {pattern_name} priority too low: {priority}"
         assert priority <= 299, f"Pattern {pattern_name} priority too high: {priority}"
 
-        # Priority should match rule type
-        if 'recovery' in pattern_name or 'failure' in pattern_name or 'gap' in pattern_name or 'incomplete' in pattern_name:
-            # Error recovery rules: 200-299
-            assert 200 <= priority <= 299, \
-                f"Error recovery pattern {pattern_name} should have priority 200-299, got {priority}"
-        else:
-            # Normal flow rules: 100-199
-            assert 100 <= priority <= 199, \
-                f"Normal flow pattern {pattern_name} should have priority 100-199, got {priority}"
+        # Priority range must match sync_type
+        # Query sync_type from database for this pattern
+        sync_type_result = temp_db.execute(
+            "SELECT sync_type FROM agent_synchronizations WHERE pattern = ?",
+            [pattern_name]
+        ).fetchone()
+
+        if sync_type_result:
+            sync_type = sync_type_result[0]
+
+            if 200 <= priority <= 299:
+                # Error recovery priority range
+                assert sync_type == 'error_recovery', \
+                    f"Pattern {pattern_name} has error priority {priority} but sync_type is '{sync_type}' (expected 'error_recovery')"
+            elif 100 <= priority <= 199:
+                # Normal flow priority range
+                assert sync_type == 'workflow_transition', \
+                    f"Pattern {pattern_name} has normal priority {priority} but sync_type is '{sync_type}' (expected 'workflow_transition')"
 
 
 def test_required_fields_not_null(temp_db):
