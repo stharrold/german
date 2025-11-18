@@ -234,7 +234,7 @@ This report documents the healthcare compliance validation for the MIT Agent Syn
 
 ## 6. Test Failure Analysis
 
-### Healthcare Compliance Failures (6 failures)
+### Healthcare Compliance Failures (5 failures, 1 skipped)
 
 1. **test_phi_access_logged** - Expected failure (schema gap)
    - **Fix:** Add `phi_accessed` column in Phase 5 migration

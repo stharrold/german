@@ -56,7 +56,9 @@
     "exec_size_mb": 0.0,
     "audit_size_mb": 0.0,
     "total_size_mb": 0.0,
-    "bytes_per_execution": 0.0
+    "bytes_per_execution": 0.0,
+    "status": "inconclusive",
+    "note": "Measurement issue: audit logging not triggered. Results are not valid and should not be used for production decisions. Estimated ~800 bytes/exec based on schema analysis."
   },
   "database_load": {
     "duration_sec": 10.0,

@@ -14,14 +14,14 @@ The MIT Agent Synchronization Pattern implementation delivers **exceptional perf
 | Metric | Target | Actual | Status |
 |--------|--------|--------|--------|
 | **Latency (p95)** | <100ms | 0.59ms | ✅ **169x better** |
-| **Scalability (13 agents)** | ≥70% efficiency | 26% efficiency | ⚠️ Below target (see analysis) |
+| **Scalability (13 agents)** | ≥70% efficiency | 25.68% efficiency | ⚠️ Below target (see analysis) |
 | **Hash Performance (p99)** | <1ms | 0.0051ms | ✅ **196x better** |
-| **Memory Overhead** | <1KB/exec | 0 bytes | ✅ **Perfect** |
+| **Memory Overhead** | <1KB/exec | ~800 bytes (estimated) | ⚠️ **Estimate (see note)** |
 | **Sustained Throughput** | >100 ops/sec | 2,140 ops/sec | ✅ **21x better** |
 
 **Recommendation:** ✅ **GO** - System exceeds performance requirements for production use.
 
-**Scalability Note:** The 26% parallel efficiency is due to DuckDB's write serialization (single-writer mode). This is acceptable because:
+**Scalability Note:** The 25.68% parallel efficiency is due to DuckDB's write serialization (single-writer mode). This is acceptable because:
 1. Absolute throughput (2,195 ops/sec with 13 agents) far exceeds requirements
 2. Latency remains sub-millisecond even under heavy load
 3. Alternative would require distributed database (PostgreSQL), adding complexity
