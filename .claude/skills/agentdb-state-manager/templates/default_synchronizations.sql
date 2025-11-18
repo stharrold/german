@@ -69,6 +69,22 @@
 -- ============================================================================
 
 -- ============================================================================
+-- Idempotency: Delete existing default rules before inserting
+-- ============================================================================
+-- This allows the file to be executed multiple times safely without creating
+-- duplicate rules. Pattern names are unique identifiers for default rules.
+DELETE FROM agent_synchronizations WHERE pattern IN (
+    'orchestrate_to_develop',
+    'develop_to_assess',
+    'assess_to_research',
+    'research_to_orchestrate',
+    'test_failure_recovery',
+    'lint_failure_recovery',
+    'coverage_gap_recovery',
+    'documentation_incomplete_recovery'
+);
+
+-- ============================================================================
 -- Normal Flow Rules (Priority: 100-199)
 -- ============================================================================
 
