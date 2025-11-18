@@ -115,6 +115,35 @@ All 6 phases of the MIT Agent Synchronization Pattern implementation are complet
 
 **Check for new work:** `gh issue list --state open`
 
+## Quick Reference Card
+
+**When user says "next step?"** → Run workflow-orchestrator to detect context
+**When starting new feature** → Phase 1: BMAD planning (contrib branch)
+**When implementing feature** → Phase 2: SpecKit + worktree (feature branch)
+**When code is done** → Phase 3: Quality gates (≥80% coverage required)
+**When PR is merged** → Phase 4: Archive workflow, cleanup worktree
+**When releasing** → Phase 5: Create release branch → tag → back-merge
+**When production breaks** → Phase 6: Hotfix worktree from main
+
+**Core commands:**
+- `python .claude/skills/tech-stack-adapter/scripts/detect_stack.py` (run once per session)
+- `cat TODO.md` (see active workflows)
+- `gh issue list --state open` (check for new work)
+
+## Current Repository State
+
+**Branch:** `contrib/stharrold`
+**Latest Release:** v1.15.0 (2025-11-18)
+**Active Workflows:** Check `cat TODO.md`
+**Worktrees:** Run `git worktree list` (should only show main repo)
+**Modified Files:** Run `git status`
+
+**Before starting work:**
+1. `python .claude/skills/tech-stack-adapter/scripts/detect_stack.py`
+2. `git status` (ensure clean working tree)
+3. `cat TODO.md` (check active workflows)
+4. `gh issue list --state open` (check for new issues)
+
 ## Workflow Execution Flow
 
 ```
@@ -248,7 +277,13 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 **Worktree Pattern:**
 - Main repo: Where TODO files live
 - Worktrees: Reference `../TODO_*.md`
-- After PR merge: Delete worktree + branch, archive TODO
+- After PR merge: Use atomic cleanup script (Phase 4.6)
+  ```bash
+  python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+    <slug> --summary "..." --version "X.Y.Z" --project-name german
+  ```
+- **CRITICAL:** Always verify cleanup: `git worktree list` should only show main repo
+- See `.github/WORKTREE_CLEANUP_GUIDE.md` for detailed prevention strategies
 
 **When to Use Which Skill:**
 - Complex feature needing alignment → Use BMAD (Phase 1)
@@ -258,6 +293,26 @@ This repository uses a **skill-based workflow system** located in `.claude/skill
 - Need to resolve PR review feedback → Use `generate_work_items_from_pr.py` (Phase 4.3)
 - Healthcare/medical project → Check HIPAA compliance requirements first
 - Working with DuckDB → Verify syntax compatibility (no PostgreSQL-specific code)
+
+## What NOT to Do
+
+**Never:**
+- ❌ Commit directly to `main` or `develop` (use PRs only)
+- ❌ Delete TODO files (use workflow_archiver.py)
+- ❌ Delete `main` or `develop` branches
+- ❌ Use PostgreSQL syntax in DuckDB queries (use DuckDB syntax)
+- ❌ Skip quality gates (≥80% coverage required before PR)
+- ❌ Forget to cleanup worktrees after PR merge (use atomic cleanup script)
+- ❌ Create files outside .gitignore that should be ignored
+- ❌ Squash merge PRs (breaks auto-close, loses commit history)
+- ❌ Push force to main/develop (only use --force-with-lease on feature branches)
+
+**When in doubt:**
+- ✅ Ask user for confirmation before destructive operations
+- ✅ Check `git status` and `git worktree list` frequently
+- ✅ Read relevant SKILL.md file before using a skill
+- ✅ Review changes with `git diff` before committing
+- ✅ Run quality gates before creating PR
 
 ### Available Skills (9 Total)
 
@@ -606,11 +661,15 @@ python .claude/skills/workflow-utilities/scripts/todo_updater.py \
 python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
   TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
 
-# Atomic cleanup: archive + delete worktree + delete branches (Phase 4.6: RECOMMENDED)
+# Atomic cleanup: archive + delete worktree + delete branches (Phase 4.6: REQUIRED)
 python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
   <slug> \
   --summary "What was completed" \
-  --version "1.9.0"
+  --version "1.9.0" \
+  --project-name german
+
+# Verify cleanup complete
+git worktree list  # Should only show main repo
 
 # Manual cleanup (NOT RECOMMENDED - use atomic cleanup above)
 # Archive workflow first
@@ -709,6 +768,15 @@ cat .claude/skills/initialize-repository/SKILL.md
 **⚠️ Caution for existing repos:** Overwrites README.md, CLAUDE.md, pyproject.toml, .gitignore. Use test-copy approach or backup before applying.
 
 **When to use:** Phase 0 (bootstrapping). Run once per repository, NOT part of Phases 1-6 workflow.
+
+**Quick start for existing repositories:**
+
+User downloads german release to untracked directory, then:
+
+**Prompt for Claude Code:**
+> "Read `/path/to/german`. Apply the workflow from `/path/to/german` to the current repository."
+
+Claude Code will use the test-copy approach from `.claude/skills/initialize-repository/SKILL.md` section "Applying to Existing Repositories".
 
 ### Package Management
 
@@ -1245,106 +1313,20 @@ Automatic version calculation based on changes:
 
 **Current version:** v1.15.0 (latest stable, released 2025-11-18)
 
-**Included in v1.15.0:**
-- Phase 5: Testing & Healthcare Compliance (PR #269, #271)
-  - 58 comprehensive tests (test_healthcare_compliance.py, test_integration_e2e.py, test_chaos.py)
-  - 92% code coverage on sync_engine.py
-  - Healthcare compliance validation report (HIPAA/FDA/SOC2)
-  - 15 xfail tests documenting Phase 1-4 gaps
-- Phase 6: Performance Validation (PR #270, #271)
-  - Performance benchmark suite (sync_performance.py, 513 lines)
-  - 5 comprehensive benchmarks with statistical analysis
-  - 4/5 targets passed: latency 0.59ms, throughput 2,140 ops/sec
-  - Approved for production (weighted score: 4.40/5.00, 88%)
-- Documentation improvements: Issue reference format fixes, duplicate CHANGELOG removal
-- Linting fixes: 10 errors resolved (unused imports, f-strings, variables)
+**What's in v1.15.0:**
+- MIT Agent Synchronization Pattern (all 6 phases complete)
+  - Phase 5: 58 comprehensive tests, 92% coverage, healthcare compliance validation
+  - Phase 6: Performance benchmarks (4/5 targets passed, approved for production)
+- Documentation improvements and linting fixes
 
-**Recent releases:**
-- v1.15.0: MIT Agent Synchronization Pattern complete (Phases 5 & 6) (MINOR)
-- v1.14.0: PR #256 review fixes - TODO status updates and test logic improvements (PATCH)
-- v1.13.0: MIT Agent Synchronization Pattern (Phase 4: Default Synchronization Rules) (MINOR)
-- v1.12.0: MIT Agent Synchronization Pattern (Phase 3: Integration Layer) (MINOR)
-- v1.11.0: MIT Agent Synchronization Pattern (Phase 2: Synchronization Engine) (MINOR)
-- v1.10.1: Post-v1.10.0 documentation cleanup and issue resolution (PATCH)
-- v1.10.0: MIT Agent Synchronization Pattern (Phase 1) + DuckDB compatibility fixes (MINOR)
-- v1.9.1: ARCHITECTURE.md documentation clarity improvements (PATCH)
-- v1.9.0: PR feedback work-item generation workflow (MINOR)
-- v1.8.1: Branch protection updates + self-merge enabled (PATCH)
-- v1.8.0: CI/CD replication + DRY navigation guide (MINOR)
-- v1.7.0: Cross-platform CI/CD infrastructure (MINOR)
-- v1.6.0: Branch protection + GitHub issue management (MINOR)
-- v1.5.1: Bug fixes + comprehensive skill documentation (PATCH)
-- v1.5.0: Azure DevOps CLI support with VCS abstraction layer (MINOR)
-- v1.4.0: BMAD and SpecKit callable tools with token reduction (MINOR)
-- v1.3.0: Complete B1 German listening practice library (MINOR)
-- v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
+**Version history:** See [CHANGELOG.md](CHANGELOG.md) for complete release history
 
-**Included in v1.14.0:**
-- PR #256 review fixes (9 Copilot review comments resolved)
-- Updated 7 archived TODO files to show completed status with proper timestamps
-- Fixed test logic in test_default_syncs.py to validate all priority ranges
-- Verified unused import 'os' already removed from cleanup_feature.py
-- Issues #259-262 resolved via PRs #263, #264, #266
-- All quality gates passing
-
-**Included in v1.13.0:**
-- MIT Agent Synchronization Pattern Phase 4 (default synchronization rules)
-- 456-line default_synchronizations.sql with 8 sync rules (4 normal + 4 error recovery)
-- 389-line test suite with 12 tests (test_default_syncs.py)
-- 700+ line design rationale documentation
-- 4-tier workflow coverage (Orchestrate → Develop → Assess → Research)
-- Priority-based rule execution (200 for errors > 100 for normal flow)
-- Atomic cleanup script (cleanup_feature.py, 377 lines)
-- 7 PR review issues resolved (Issues #242-248)
-
-**Included in v1.12.0:**
-- MIT Agent Synchronization Pattern Phase 3 (integration layer)
-- 594-line worktree_agent_integration.py with FlowTokenManager, PHIDetector, ComplianceWrapper
-- Agent hooks for bmad-planner, quality-enforcer, speckit-author (<10 lines each)
-- 563-line test suite with 34 tests (96% coverage)
-- Feature flag control (SYNC_ENGINE_ENABLED, disabled by default)
-- Graceful degradation on errors
-- Non-invasive integration pattern
-- PR #226 merged to develop
-- Linting fixes (Issues #218-221 closed)
-
-**Included in v1.11.0:**
-- MIT Agent Synchronization Pattern Phase 2 (synchronization engine)
-- 559-line sync_engine.py with declarative coordination and pattern matching
-- SHA-256 content-addressed hashing for idempotency enforcement
-- 689-line test suite with 22 comprehensive tests (88% coverage)
-- 215-line Phase 2 database migration (extends Phase 1 schema)
-- 394-line integration guide for engine usage
-- 1,720-line workflow tracking documentation
-- N999 linting exception for .claude directory
-- Code quality improvements (issues #199-201, #203 fixed)
-
-**Included in v1.10.1:**
-- Post-release documentation cleanup (ARCHIVED directories, compliance docs)
-- Closed duplicate issues from Phase 1 (#167-172)
-- APPEND-ONLY terminology standardization
-- YAML frontmatter spacing fixes
-- Updated CLAUDE.md for v1.10.0 completion status
-
-**Included in v1.10.0:**
-- MIT Agent Synchronization Pattern Phase 1 (database schema, HIPAA/FDA/IRB compliance)
-- DuckDB schema with 458 lines, 3 core tables, 20+ indexes
-- Healthcare compliance documentation (511 lines) and integration guide (1068 lines)
-- Test suite with 557 test cases (706 lines)
-- Directory structure improvements (docs/, benchmarks/ with ARCHIVED/ subdirectories)
-- DuckDB development guidelines in CLAUDE.md
-
-**Included in v1.9.0 and earlier:**
-- Work-item generation workflow from PR feedback (v1.9.0)
-- Branch protection compliance (PR workflow enforced, approval optional since v1.8.1)
-- Azure DevOps branch policies documentation (644 lines comprehensive guide)
-- Documentation maintenance system (UPDATE_CHECKLIST.md, validate_versions.py, sync_skill_docs.py)
-- CHANGELOG system for all skills
-- CONTRIBUTING.md with contributor guidelines
-- initialize-repository meta-skill (Phase 0 bootstrapping for new repositories)
-- agentdb-state-manager skill (persistent state tracking and analytics with 89-92% token reduction)
-- Official Claude Code docs integration with skill creation workflow
-- TODO.md lifecycle management (workflow_registrar.py, workflow_archiver.py, sync_manifest.py in workflow-utilities v5.1.0)
+**Key milestones:**
+- v1.15.0 (2025-11-18): MIT Agent Synchronization Pattern complete (MINOR)
+- v1.10.0-v1.14.0: MIT Pattern phases 1-4 implementation (MINOR/PATCH)
+- v1.9.0: PR feedback work-item generation (MINOR)
+- v1.4.0: BMAD and SpecKit callable tools (MINOR)
+- v1.2.0: Release automation + workflow v5.0 (MINOR)
 
 ## Commit Message Format
 
@@ -1450,6 +1432,7 @@ Token usage: 98543/200000; 101457 remaining
 - **[WORKFLOW.md](WORKFLOW.md)** - Complete 6-phase workflow guide (2000+ lines)
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributor guidelines
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history
+- **[.github/WORKTREE_CLEANUP_GUIDE.md](.github/WORKTREE_CLEANUP_GUIDE.md)** - Worktree cleanup prevention and recovery
 
 **Child Directories:**
 - **[ARCHIVED/CLAUDE.md](ARCHIVED/CLAUDE.md)** - Archived
