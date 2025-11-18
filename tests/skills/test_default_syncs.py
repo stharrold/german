@@ -182,6 +182,8 @@ def test_priority_ranges(temp_db):
         if sync_type_result:
             sync_type = sync_type_result[0]
 
+            # Validate sync_type matches priority range
+            # All priority ranges must be explicitly validated
             if 200 <= priority <= 299:
                 # Error recovery priority range
                 assert sync_type == 'error_recovery', \
@@ -190,6 +192,17 @@ def test_priority_ranges(temp_db):
                 # Normal flow priority range
                 assert sync_type == 'workflow_transition', \
                     f"Pattern {pattern_name} has normal priority {priority} but sync_type is '{sync_type}' (expected 'workflow_transition')"
+            elif 1 <= priority <= 99:
+                # Background tasks priority range
+                # Note: Default rules don't use this range, but custom rules may
+                # No specific sync_type constraint for background tasks
+                pass
+            else:
+                # This should never be reached due to earlier assertions (lines 172-173)
+                # But explicitly fail to catch any edge cases
+                pytest.fail(
+                    f"Pattern {pattern_name} has priority {priority} outside all valid ranges (1-99, 100-199, 200-299)"
+                )
 
 
 def test_required_fields_not_null(temp_db):
