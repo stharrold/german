@@ -20,7 +20,6 @@ Issue: Workflow enforcement - ensure TODO archival before worktree deletion
 
 import argparse
 import glob
-import os
 import subprocess
 import sys
 from pathlib import Path
@@ -246,7 +245,7 @@ def cleanup_feature(slug: str, summary: str, version: str, project_name: str = N
     if worktree_path:
         print(f"✓ Found worktree: {worktree_path}")
     else:
-        print(f"ℹ️  No worktree found (may have been deleted or work done on contrib directly)")
+        print("ℹ️  No worktree found (may have been deleted or work done on contrib directly)")
 
     # Step 3: Find branch (fail if missing)
     try:
@@ -264,7 +263,7 @@ def cleanup_feature(slug: str, summary: str, version: str, project_name: str = N
     try:
         archive_todo(todo_file, summary, version)
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ ERROR: Failed to archive TODO file", file=sys.stderr)
+        print("\n❌ ERROR: Failed to archive TODO file", file=sys.stderr)
         print(f"   Command failed: {e.cmd}", file=sys.stderr)
         print(f"   Return code: {e.returncode}", file=sys.stderr)
         print("\n⚠️  Cleanup aborted - TODO not archived", file=sys.stderr)
@@ -276,7 +275,7 @@ def cleanup_feature(slug: str, summary: str, version: str, project_name: str = N
         try:
             delete_worktree(worktree_path)
         except subprocess.CalledProcessError as e:
-            print(f"\n❌ ERROR: Failed to delete worktree", file=sys.stderr)
+            print("\n❌ ERROR: Failed to delete worktree", file=sys.stderr)
             print(f"   Path: {worktree_path}", file=sys.stderr)
             print(f"   Command failed: {e.cmd}", file=sys.stderr)
             print("\n⚠️  TODO archived but worktree NOT deleted", file=sys.stderr)
@@ -287,7 +286,7 @@ def cleanup_feature(slug: str, summary: str, version: str, project_name: str = N
     try:
         delete_branch(branch_name)
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ ERROR: Failed to delete branch", file=sys.stderr)
+        print("\n❌ ERROR: Failed to delete branch", file=sys.stderr)
         print(f"   Branch: {branch_name}", file=sys.stderr)
         print(f"   Command failed: {e.cmd}", file=sys.stderr)
         print("\n⚠️  TODO archived, worktree deleted, but branch NOT deleted", file=sys.stderr)
@@ -297,7 +296,7 @@ def cleanup_feature(slug: str, summary: str, version: str, project_name: str = N
     print("\n" + "=" * 70)
     print(f"✅ Feature cleanup complete: {slug}")
     print("=" * 70)
-    print(f"\nCleaned up:")
+    print("\nCleaned up:")
     print(f"  ✓ TODO archived: ARCHIVED/{todo_file.name}")
     if worktree_path:
         print(f"  ✓ Worktree deleted: {worktree_path}")
