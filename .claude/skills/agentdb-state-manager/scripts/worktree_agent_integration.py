@@ -73,7 +73,7 @@ class FlowTokenManager:
         """Detect current workflow context and generate appropriate flow token.
 
         Detection Order:
-        1. Check if in worktree (directory name pattern: german_feature_*)
+        1. Check if in worktree (directory name pattern: german_<type>_*)
         2. Check git branch (contrib/* pattern)
         3. Fallback to ad-hoc UUID
 
@@ -82,20 +82,19 @@ class FlowTokenManager:
         """
         cwd = Path.cwd()
 
-        # Check if in worktree (directory name pattern: german_feature_*)
-        if cwd.name.startswith("german_feature_"):
-            # Extract branch name from worktree directory
-            # Example: german_feature_20251117T024349Z_phase-3-integration
-            #   → feature/20251117T024349Z_phase-3-integration
-            parts = cwd.name.split("_", 2)  # ["german", "feature", "20251117T024349Z_phase-3-integration"]
-            if len(parts) >= 3:
-                return f"feature/{parts[2]}"
-
-        # Check if in hotfix worktree (directory name pattern: german_hotfix_*)
-        if cwd.name.startswith("german_hotfix_"):
-            parts = cwd.name.split("_", 2)
-            if len(parts) >= 3:
-                return f"hotfix/{parts[2]}"
+        # Check all worktree types (feature, release, hotfix)
+        worktree_prefixes = ["german_feature_", "german_release_", "german_hotfix_"]
+        for prefix in worktree_prefixes:
+            if cwd.name.startswith(prefix):
+                # Use regex for robust parsing (Fix #211, #212)
+                # Example: german_feature_20251117T024349Z_phase-3-integration
+                #   → feature/20251117T024349Z_phase-3-integration
+                match = re.match(r"^german_(\w+)_([0-9A-Za-z]+)_(.+)$", cwd.name)
+                if match:
+                    workflow_type = match.group(1)
+                    timestamp = match.group(2)
+                    slug = match.group(3)
+                    return f"{workflow_type}/{timestamp}_{slug}"
 
         # Check if in main repo on contrib branch
         try:
@@ -191,8 +190,10 @@ class PHIDetector:
         r'/health_?records?/'
     ]
 
-    # SSN regex: 123-45-6789 or 123456789
-    SSN_PATTERN = r'\b\d{3}-?\d{2}-?\d{4}\b'
+    # SSN regex: Require hyphens to reduce false positives (Fix #228)
+    # Matches: 123-45-6789
+    # Rejects: 123456789, 12-3456-789 (mixed formatting)
+    SSN_PATTERN = r'\b\d{3}-\d{2}-\d{4}\b'
 
     @classmethod
     def detect_phi(cls, state_snapshot: Dict[str, Any]) -> bool:
@@ -309,7 +310,7 @@ class ComplianceWrapper:
         """
         self.sync_engine = sync_engine
 
-    async def on_agent_action_complete(
+    def on_agent_action_complete(
         self,
         agent_id: str,
         action: str,
@@ -562,7 +563,8 @@ async def trigger_sync_completion(
             context["issue_number"] = issue_num
 
         # Trigger sync (call wrapper, which calls underlying engine)
-        execution_ids = await sync_engine.on_agent_action_complete(
+        # Fix #227: Remove await - on_agent_action_complete is not async
+        execution_ids = sync_engine.on_agent_action_complete(
             agent_id=agent_id,
             action=action,
             flow_token=flow_token,
