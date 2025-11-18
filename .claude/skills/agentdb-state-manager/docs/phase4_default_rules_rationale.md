@@ -741,6 +741,57 @@ condition_jsonpath: '$.coverage_pct >= 80 AND $.tests_passed == true'
 
 ---
 
+## Security Considerations
+
+### Input Validation Requirements
+
+The parameter substitution pattern `${trigger_state.slug}` and similar patterns in `target_action` JSON are used in file paths and command parameters. **Phase 5 MUST implement validation** before these values are substituted to prevent:
+
+1. **Path Traversal Attacks**: `slug: "../../../etc/passwd"`
+2. **Command Injection**: `slug: "foo; rm -rf /"`
+3. **JSON Injection**: Unescaped quotes in parameter values
+
+### Required Validation Rules (Phase 5)
+
+**Slug Validation:**
+```python
+# sync_engine.py (Phase 5)
+def validate_slug(slug: str) -> str:
+    """Validate and sanitize slug for safe path/command use."""
+    if not re.match(r'^[a-z0-9-]{1,64}$', slug):
+        raise ValueError(f"Invalid slug: {slug}")
+    if '..' in slug or '/' in slug or '\\' in slug:
+        raise ValueError(f"Path traversal detected: {slug}")
+    return slug
+```
+
+**General Parameter Validation:**
+- Allow-list pattern: `^[a-zA-Z0-9_-]{1,64}$`
+- Max length: 64 characters
+- No path separators: `/`, `\`, `..`
+- No shell metacharacters: `;`, `|`, `&`, `$`, `` ` ``
+
+### Testing Requirements (Phase 5)
+
+Add tests for malicious inputs:
+```python
+def test_path_traversal_prevention():
+    with pytest.raises(ValueError):
+        validate_slug("../../../etc/passwd")
+
+def test_command_injection_prevention():
+    with pytest.raises(ValueError):
+        validate_slug("foo; rm -rf /")
+```
+
+### Current Status
+
+**Phase 4**: Documentation only (this section)
+**Phase 5**: Implementation required in sync_engine.py
+**Priority**: HIGH - Security issue, blocks production use
+
+---
+
 ## Future Enhancements
 
 ### 1. condition_jsonpath Column (Phase 5+)
