@@ -57,6 +57,11 @@ class TestFlowTokenManager:
 
     def test_contrib_branch_flow_token(self, tmp_path, monkeypatch):
         """Test flow token generation for contrib branch."""
+        # Change to a non-worktree directory
+        non_worktree = tmp_path / "not-a-worktree"
+        non_worktree.mkdir()
+        monkeypatch.chdir(non_worktree)
+
         # Mock git command
         def mock_run(*args, **kwargs):
             class Result:
@@ -72,6 +77,11 @@ class TestFlowTokenManager:
 
     def test_claude_branch_flow_token(self, tmp_path, monkeypatch):
         """Test flow token generation for claude/ branch (Claude Code sessions)."""
+        # Change to a non-worktree directory
+        non_worktree = tmp_path / "not-a-worktree"
+        non_worktree.mkdir()
+        monkeypatch.chdir(non_worktree)
+
         # Mock git command
         def mock_run(*args, **kwargs):
             class Result:
@@ -87,6 +97,11 @@ class TestFlowTokenManager:
 
     def test_ad_hoc_flow_token_on_git_failure(self, tmp_path, monkeypatch):
         """Test fallback to ad-hoc flow token when git fails."""
+        # Change to a non-worktree directory
+        non_worktree = tmp_path / "not-a-worktree"
+        non_worktree.mkdir()
+        monkeypatch.chdir(non_worktree)
+
         # Mock git command to fail
         def mock_run(*args, **kwargs):
             raise subprocess.CalledProcessError(1, "git")
@@ -104,6 +119,43 @@ class TestFlowTokenManager:
         assert FlowTokenManager.extract_issue_number("feature/20251117_phase-3-issue-161") == 161
         assert FlowTokenManager.extract_issue_number("contrib/stharrold") is None
         assert FlowTokenManager.extract_issue_number("feature/20251117_no-issue") is None
+
+    def test_worktree_flow_token_edge_case_no_slug(self, tmp_path, monkeypatch):
+        """Test flow token parsing with edge case: no slug (Fix #211)."""
+        # Worktree with only timestamp, no slug
+        worktree = tmp_path / "german_feature_20251117T024349Z"
+        worktree.mkdir()
+        monkeypatch.chdir(worktree)
+
+        # Mock git to prevent fallback
+        def mock_run(*args, **kwargs):
+            raise subprocess.CalledProcessError(1, "git")
+
+        monkeypatch.setattr(subprocess, "run", mock_run)
+
+        token = FlowTokenManager.get_flow_token()
+        # Should fallback to ad-hoc since regex won't match (no slug)
+        assert token.startswith("ad-hoc-")
+
+    def test_release_worktree_flow_token(self, tmp_path, monkeypatch):
+        """Test flow token generation for release worktree (Fix #212)."""
+        # Simulate release worktree directory
+        worktree = tmp_path / "german_release_20251117T150000Z_v1-12-0"
+        worktree.mkdir()
+        monkeypatch.chdir(worktree)
+
+        token = FlowTokenManager.get_flow_token()
+        assert token == "release/20251117T150000Z_v1-12-0"
+
+    def test_hotfix_worktree_flow_token_regex(self, tmp_path, monkeypatch):
+        """Test hotfix worktree uses regex parsing (Fix #212)."""
+        # Hotfix worktree with complex slug
+        worktree = tmp_path / "german_hotfix_20251117T120000Z_critical-bug-fix"
+        worktree.mkdir()
+        monkeypatch.chdir(worktree)
+
+        token = FlowTokenManager.get_flow_token()
+        assert token == "hotfix/20251117T120000Z_critical-bug-fix"
 
 
 class TestPHIDetector:
@@ -146,14 +198,35 @@ class TestPHIDetector:
             assert PHIDetector.detect_phi(state) is True, f"Failed to detect PHI in {state}"
 
     def test_ssn_pattern_detection_with_hyphens(self):
-        """Test SSN pattern detection with hyphens in values."""
+        """Test SSN pattern detection with hyphens in values (Fix #228)."""
         state = {"notes": "Patient SSN: 123-45-6789"}
         assert PHIDetector.detect_phi(state) is True
 
     def test_ssn_pattern_detection_without_hyphens(self):
-        """Test SSN pattern detection without hyphens."""
+        """Test SSN without hyphens is rejected to reduce false positives (Fix #228)."""
         state = {"notes": "Patient SSN: 123456789"}
-        assert PHIDetector.detect_phi(state) is True
+        # After Fix #228: SSN must have hyphens
+        assert PHIDetector.detect_phi(state) is False
+
+    def test_ssn_with_hyphens_detected(self):
+        """Test SSN with proper hyphen formatting is detected (Fix #213, #228)."""
+        test_cases = [
+            {"notes": "SSN: 123-45-6789"},
+            {"data": "Contact info: 987-65-4321"},
+            {"field": "123-45-6789 is the number"},
+        ]
+        for state in test_cases:
+            assert PHIDetector.detect_phi(state) is True, f"Failed to detect SSN in {state}"
+
+    def test_ssn_mixed_hyphens_rejected(self):
+        """Test SSN with mixed hyphen formatting is rejected (Fix #213)."""
+        # These should NOT match (inconsistent formatting)
+        test_cases = [
+            {"notes": "SSN: 12-3456-789"},  # Wrong hyphen positions
+            {"data": "Number: 1234-56-789"},  # Wrong hyphen positions
+        ]
+        for state in test_cases:
+            assert PHIDetector.detect_phi(state) is False, f"False positive SSN detection in {state}"
 
     def test_phi_path_detection(self):
         """Test PHI detection via file paths."""
@@ -317,9 +390,8 @@ class TestSyncEngineFactory:
 class TestComplianceWrapper:
     """Test compliance wrapper."""
 
-    @pytest.mark.asyncio
-    async def test_phi_detection_and_logging(self, caplog):
-        """Test compliance wrapper detects PHI and logs warnings."""
+    def test_phi_detection_and_logging(self, caplog):
+        """Test compliance wrapper detects PHI and logs warnings (Fix #227)."""
         # Mock sync engine
         mock_engine = mock.MagicMock()
         mock_engine.on_agent_action_complete.return_value = ["exec-1"]
@@ -328,7 +400,7 @@ class TestComplianceWrapper:
 
         # Trigger with PHI in state
         with caplog.at_level("WARNING"):
-            execution_ids = await wrapper.on_agent_action_complete(
+            execution_ids = wrapper.on_agent_action_complete(
                 agent_id="develop",
                 action="commit_complete",
                 flow_token="test-flow",
@@ -340,9 +412,8 @@ class TestComplianceWrapper:
         assert any("PHI detected" in record.message for record in caplog.records)
         assert execution_ids == ["exec-1"]
 
-    @pytest.mark.asyncio
-    async def test_compliance_violation_logging(self, caplog):
-        """Test compliance wrapper logs violation when PHI without justification."""
+    def test_compliance_violation_logging(self, caplog):
+        """Test compliance wrapper logs violation when PHI without justification (Fix #227)."""
         mock_engine = mock.MagicMock()
         mock_engine.on_agent_action_complete.return_value = []
 
@@ -350,7 +421,7 @@ class TestComplianceWrapper:
 
         # Trigger with PHI but no justification
         with caplog.at_level("ERROR"):
-            await wrapper.on_agent_action_complete(
+            wrapper.on_agent_action_complete(
                 agent_id="develop",
                 action="commit_complete",
                 flow_token="test-flow",
@@ -361,9 +432,8 @@ class TestComplianceWrapper:
         # Check compliance violation logged
         assert any("COMPLIANCE VIOLATION" in record.message for record in caplog.records)
 
-    @pytest.mark.asyncio
-    async def test_no_phi_no_warnings(self, caplog):
-        """Test compliance wrapper doesn't log warnings for non-PHI state."""
+    def test_no_phi_no_warnings(self, caplog):
+        """Test compliance wrapper doesn't log warnings for non-PHI state (Fix #227)."""
         mock_engine = mock.MagicMock()
         mock_engine.on_agent_action_complete.return_value = []
 
@@ -371,7 +441,7 @@ class TestComplianceWrapper:
 
         # Trigger without PHI
         with caplog.at_level("WARNING"):
-            await wrapper.on_agent_action_complete(
+            wrapper.on_agent_action_complete(
                 agent_id="develop",
                 action="commit_complete",
                 flow_token="test-flow",
@@ -381,6 +451,13 @@ class TestComplianceWrapper:
 
         # Check no PHI warnings
         assert not any("PHI detected" in record.message for record in caplog.records)
+
+    def test_on_agent_action_complete_not_async(self):
+        """Test on_agent_action_complete is not async (Fix #227)."""
+        import inspect
+
+        # Verify the method is not a coroutine
+        assert not inspect.iscoroutinefunction(ComplianceWrapper.on_agent_action_complete)
 
 
 @pytest.mark.asyncio
@@ -401,12 +478,12 @@ class TestTriggerSyncCompletion:
         assert any("disabled" in record.message for record in caplog.records)
 
     async def test_trigger_enabled_with_mock_engine(self, monkeypatch):
-        """Test sync trigger when enabled with mock engine."""
+        """Test sync trigger when enabled with mock engine (Fix #227)."""
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
-        # Mock sync engine
+        # Mock sync engine - Fix #227: on_agent_action_complete is now sync, not async
         mock_wrapper = mock.MagicMock()
-        mock_wrapper.on_agent_action_complete = mock.AsyncMock(return_value=["exec-1", "exec-2"])
+        mock_wrapper.on_agent_action_complete = mock.MagicMock(return_value=["exec-1", "exec-2"])
 
         result = await trigger_sync_completion(
             agent_id="develop",
@@ -421,14 +498,15 @@ class TestTriggerSyncCompletion:
         mock_wrapper.on_agent_action_complete.assert_called_once()
 
     async def test_trigger_adds_flow_token_to_context(self, monkeypatch):
-        """Test sync trigger adds flow token to context."""
+        """Test sync trigger adds flow token to context (Fix #227)."""
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
         # Mock wrapper to capture context
         mock_wrapper = mock.MagicMock()
         captured_context = {}
 
-        async def capture_context(**kwargs):
+        # Fix #227: on_agent_action_complete is sync, not async
+        def capture_context(**kwargs):
             nonlocal captured_context
             captured_context = kwargs.get("context", {})
             return []
@@ -447,7 +525,7 @@ class TestTriggerSyncCompletion:
         assert "flow_token" in captured_context
 
     async def test_trigger_extracts_issue_number(self, monkeypatch):
-        """Test sync trigger extracts issue number from flow token."""
+        """Test sync trigger extracts issue number from flow token (Fix #227)."""
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
         # Mock flow token manager to return issue-based token
@@ -459,7 +537,8 @@ class TestTriggerSyncCompletion:
         # Mock wrapper to capture context
         captured_context = {}
 
-        async def capture_context(**kwargs):
+        # Fix #227: on_agent_action_complete is sync, not async
+        def capture_context(**kwargs):
             nonlocal captured_context
             captured_context = kwargs.get("context", {})
             return []
@@ -479,12 +558,13 @@ class TestTriggerSyncCompletion:
         assert captured_context.get("issue_number") == 161
 
     async def test_graceful_degradation_on_error(self, monkeypatch, caplog):
-        """Test graceful degradation when sync engine raises error."""
+        """Test graceful degradation when sync engine raises error (Fix #227)."""
         monkeypatch.setenv("SYNC_ENGINE_ENABLED", "true")
 
         # Mock sync engine that raises error
+        # Fix #227: on_agent_action_complete is sync, not async
         mock_wrapper = mock.MagicMock()
-        mock_wrapper.on_agent_action_complete = mock.AsyncMock(side_effect=Exception("Database connection failed"))
+        mock_wrapper.on_agent_action_complete = mock.MagicMock(side_effect=Exception("Database connection failed"))
 
         with caplog.at_level("ERROR"):
             result = await trigger_sync_completion(
