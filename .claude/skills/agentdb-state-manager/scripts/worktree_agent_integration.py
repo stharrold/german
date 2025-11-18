@@ -31,21 +31,11 @@ import os
 import re
 import subprocess
 import sys
-from enum import Enum
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from uuid import uuid4
 
 logger = logging.getLogger(__name__)
-
-
-class FlowTokenType(Enum):
-    """Types of flow tokens for different workflow contexts."""
-
-    MAIN_REPO = "main_repo"
-    WORKTREE = "worktree"
-    ISSUE = "issue"
-    AD_HOC = "ad_hoc"
 
 
 class FlowTokenManager:
