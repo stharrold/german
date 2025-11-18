@@ -11,7 +11,7 @@ Success Criteria:
 - All audit trails complete and consistent
 
 Created: 2025-11-18
-Issue: #163 - Phase 5 Testing & Compliance Validation
+#163 - Phase 5 Testing & Compliance Validation
 """
 
 import sys

@@ -84,29 +84,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 7 archived TODO files updated with completed status and timestamps
   - Test validation logic strengthened to cover all priority ranges
 
-## [1.14.0] - 2025-11-18
-
-### Fixed
-- **PR #256 Review Comments** - Resolved all 9 code review items from Copilot
-  - Issue #259: Updated TODO status in issue-243-todo-status archived file (PR #263)
-  - Issue #260: Updated TODO status across 6 archived issue files (PR #266)
-  - Issue #261: Fixed always-true test condition in test_default_syncs.py (PR #264)
-  - Issue #262: Verified unused import 'os' already removed in commit da1dff9
-
-### Changed
-- **Archived TODO file consistency** - All 7 archived issue TODO files now correctly show:
-  - workflow_progress.status: "completed" (was "planning")
-  - workflow_progress.phase: 4, step 4.6
-  - All tasks marked completed with proper timestamps
-  - quality_gates showing tests_passing: true, build_successful: true
-
-### Testing
-- **Test logic improvements** - test_default_syncs.py now validates all priority ranges:
-  - 200-299: Error recovery (sync_type validation)
-  - 100-199: Normal flow (sync_type validation)
-  - 1-99: Background tasks (documented with pass)
-  - Else: Explicit pytest.fail() for invalid ranges
-
 ## [1.13.0] - 2025-11-18
 
 ### Added

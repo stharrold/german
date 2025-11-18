@@ -9,7 +9,7 @@ Quantifies performance metrics that the MIT paper (arXiv:2508.14511v2) didn't pr
 - Database load impact
 
 Created: 2025-11-18
-Issue: #164 - Phase 6 Performance Validation and Documentation
+#164 - Phase 6 Performance Validation and Documentation
 """
 
 import json

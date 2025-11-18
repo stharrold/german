@@ -49,17 +49,6 @@
     "mean_ms": 0.0043,
     "hashes_per_sec": 233678.0
   },
-  "memory": {
-    "num_executions": 1000,
-    "exec_rows": 0,
-    "audit_rows": 0,
-    "exec_size_mb": 0.0,
-    "audit_size_mb": 0.0,
-    "total_size_mb": 0.0,
-    "bytes_per_execution": 0.0,
-    "status": "inconclusive",
-    "note": "Measurement issue: audit logging not triggered. Results are not valid and should not be used for production decisions. Estimated ~800 bytes/exec based on schema analysis."
-  },
   "database_load": {
     "duration_sec": 10.0,
     "total_operations": 21398,
