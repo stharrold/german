@@ -992,7 +992,7 @@ def main():
             sys.path.insert(0, str(integration_path))
         from worktree_agent_integration import trigger_sync_completion
 
-        asyncio.run(trigger_sync_completion(
+        sync_success = asyncio.run(trigger_sync_completion(
             agent_id="orchestrate",
             action="planning_complete",
             state_snapshot={
@@ -1004,9 +1004,12 @@ def main():
             },
             context={"user": args.gh_user}
         ))
-    except Exception:
-        # Graceful degradation: don't fail if sync unavailable
-        pass
+        if sync_success:
+            print("✓ Sync engine: planning synchronization completed")
+        else:
+            print("⚠ WARNING: Sync engine synchronization failed", file=sys.stderr)
+    except Exception as e:
+        print(f"⚠ ERROR: Sync engine exception: {e}", file=sys.stderr)
 
     # Success summary
     print("\n" + "=" * 70)
