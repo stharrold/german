@@ -16,9 +16,17 @@ This repository implements a comprehensive skill-based development workflow syst
 
 **To replicate this workflow system to another repository:**
 
+### From This Repo (if you're working in german)
 ```bash
 python .claude/skills/initialize-repository/scripts/initialize_repository.py . ../new-repo
 ```
+
+### From Downloaded Release (for existing repositories)
+
+User downloads german release to untracked directory in their repo, then tells Claude Code:
+
+**Prompt for Claude Code:**
+> "Read `/path/to/german`. Apply the workflow from `/path/to/german` to the current repository."
 
 This copies all 9 skills, documentation, CI/CD configs, and directory structure to the target repository.
 
