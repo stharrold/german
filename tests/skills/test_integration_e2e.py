@@ -14,7 +14,6 @@ Created: 2025-11-18
 Issue: #163 - Phase 5 Testing & Compliance Validation
 """
 
-import json
 import sys
 from pathlib import Path
 

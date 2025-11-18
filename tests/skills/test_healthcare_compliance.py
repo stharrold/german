@@ -114,7 +114,7 @@ class TestPHIAccessLogging:
         assert len(audit_logs) >= 1  # At least one audit entry
 
         # Verify PHI access flag present
-        phi_logged = any(log[2] is True for log in audit_logs if log[2] is not None)
+        _ = any(log[2] is True for log in audit_logs if log[2] is not None)
         # Note: sync_audit_trail.phi_accessed column might not exist in Phase 1/2
         # This is a Phase 5 enhancement - test documents expected behavior
 
@@ -183,7 +183,7 @@ class TestAuditTrailCompleteness:
         flow_token = "compliance-workflow-001"
 
         # Step 1: Research agent analyzes data
-        exec_ids_1 = compliance_engine.on_agent_action_complete(
+        _ = compliance_engine.on_agent_action_complete(
             agent_id="research",
             action="analyze_data",
             flow_token=flow_token,

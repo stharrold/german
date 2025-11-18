@@ -17,7 +17,6 @@ Issue: #163 - Phase 5 Testing & Compliance Validation
 import json
 import sys
 from pathlib import Path
-from unittest.mock import Mock, patch
 
 import duckdb
 import pytest

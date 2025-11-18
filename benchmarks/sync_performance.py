@@ -137,7 +137,7 @@ class PerformanceBenchmarks:
             "max_ms": round(max(latencies), 2),
         }
 
-        print(f"\nResults:")
+        print("\nResults:")
         print(f"  p50: {results['p50_ms']:.2f}ms")
         print(f"  p95: {results['p95_ms']:.2f}ms")
         print(f"  p99: {results['p99_ms']:.2f}ms")
@@ -227,7 +227,7 @@ class PerformanceBenchmarks:
             "efficiency_pct": round((scalability_ratio / max_agents) * 100, 2),
         }
 
-        print(f"\nScalability Summary:")
+        print("\nScalability Summary:")
         print(f"  Baseline (1 agent): {baseline_ops:.2f} ops/sec")
         print(f"  Maximum ({max_agents} agents): {max_ops:.2f} ops/sec")
         print(f"  Scalability ratio: {scalability_ratio:.2f}x")
@@ -311,7 +311,7 @@ class PerformanceBenchmarks:
             "hashes_per_sec": round(1000 / mean, 0),
         }
 
-        print(f"\nResults:")
+        print("\nResults:")
         print(f"  p50: {results['p50_ms']:.4f}ms")
         print(f"  p95: {results['p95_ms']:.4f}ms")
         print(f"  p99: {results['p99_ms']:.4f}ms")
@@ -382,7 +382,7 @@ class PerformanceBenchmarks:
             "bytes_per_execution": round(total_size_bytes / num_executions, 0),
         }
 
-        print(f"\nResults:")
+        print("\nResults:")
         print(f"  Sync executions: {results['exec_rows']:,} rows ({results['exec_size_mb']:.2f} MB)")
         print(f"  Audit trail: {results['audit_rows']:,} rows ({results['audit_size_mb']:.2f} MB)")
         print(f"  Total size: {results['total_size_mb']:.2f} MB")
@@ -458,7 +458,7 @@ class PerformanceBenchmarks:
             "p99_latency_ms": round(p99, 2),
         }
 
-        print(f"\nResults:")
+        print("\nResults:")
         print(f"  Duration: {results['duration_sec']:.2f}s")
         print(f"  Operations: {results['total_operations']:,}")
         print(f"  Throughput: {results['ops_per_sec']:.2f} ops/sec")
