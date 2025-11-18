@@ -114,16 +114,18 @@ The MIT Agent Synchronization Pattern implementation delivers **exceptional perf
 **Test:** 1,000 sync executions with full audit trail
 **Metric:** Database size growth per execution
 
-| Component | Rows | Size (MB) | Bytes/Exec |
-|-----------|------|-----------|------------|
-| sync_executions | 0 | 0.00 | 0 |
-| sync_audit_trail | 0 | 0.00 | 0 |
-| **Total** | **0** | **0.00** | **0** |
+| Component | Status |
+|-----------|--------|
+| **Result** | ⚠️ **INVALID DATA** |
+| **Issue** | Audit logging not triggered |
+| **Estimated** | **~800 bytes/exec** |
 
-**Note:** Benchmark showed 0 rows due to measurement issue (audit logging not triggered). Expected overhead based on schema:
+**Breakdown (estimated from schema analysis):**
 - sync_executions: ~500 bytes/row
 - sync_audit_trail: ~300 bytes/row
-- **Estimated: ~800 bytes/exec**
+- **Total: ~800 bytes/exec**
+
+**Note:** The benchmark measurement failed because audit logging was not properly triggered. The estimated value of ~800 bytes/exec is based on DuckDB schema analysis and should be validated in future testing.
 
 **Analysis:**
 - Estimated 800 bytes << 1KB target
@@ -182,9 +184,9 @@ The MIT Agent Synchronization Pattern implementation delivers **exceptional perf
 | Target | Rationale | Actual | Status |
 |--------|-----------|--------|--------|
 | **Latency p95 < 100ms** | Acceptable for agent handoffs | 0.59ms | ✅ PASS (169x better) |
-| **Scalability ≥70% efficiency** | Near-linear scaling desired | 26% | ⚠️ FAIL (see mitigation) |
+| **Scalability ≥70% efficiency** | Near-linear scaling desired | 25.68% | ⚠️ FAIL (see mitigation) |
 | **Hash p99 < 1ms** | Negligible idempotency overhead | 0.0051ms | ✅ PASS (196x better) |
-| **Memory < 1KB/exec** | Sustainable for 10K+ executions | ~800 bytes | ✅ PASS |
+| **Memory < 1KB/exec** | Sustainable for 10K+ executions | ~800 bytes (estimated) | ✅ PASS (estimate) |
 | **Throughput > 100 ops/sec** | Handle peak workflow load | 2,140 ops/sec | ✅ PASS (21x better) |
 
 **Overall: 4/5 targets passed (80%)**

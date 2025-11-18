@@ -9,7 +9,7 @@ Success Criteria (Gate 4):
 - SOC2 audit requirements met
 
 Created: 2025-11-18
-Issue: #163 - Phase 5 Testing & Compliance Validation
+#163 - Phase 5 Testing & Compliance Validation
 """
 
 import json
