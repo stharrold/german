@@ -76,7 +76,7 @@ cat TODO.md  # See active workflows
   - PR #198 merged to contrib, PR #202 merged to develop
   - v1.11.0 released and tagged
 
-- **Phase 3 (Issue #161): ✅ COMPLETED** (pending v1.12.0 release)
+- **Phase 3 (Issue #161): ✅ COMPLETED** (for v1.12.0 release)
   - Integration layer implemented (worktree_agent_integration.py, 594 lines)
   - Agent hooks added to 3 existing scripts (bmad-planner, quality-enforcer, speckit-author)
   - FlowTokenManager, PHIDetector, ComplianceWrapper, SyncEngineFactory, trigger_sync_completion()

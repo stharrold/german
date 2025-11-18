@@ -11,6 +11,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - AgentDB tool integration (when available in Claude Code)
 - Performance benchmarks for token savings
 
+## [1.12.0] - 2025-11-17
+
+### Added
+- **Phase 3 Integration Layer** (Issue #161)
+  - worktree_agent_integration.py: Integration layer for agent hooks
+  - FlowTokenManager: Workflow context detection and flow token generation
+  - PHIDetector: PHI detection heuristics and justification extraction
+  - ComplianceWrapper: Compliance logging wrapper
+  - SyncEngineFactory: Factory with feature flag control
+  - trigger_sync_completion: Main entry point for agent hooks
+  - Test suite with 34 tests, 96% coverage (test_worktree_integration.py, 563 lines)
+- **Agent hook integration** in 3 existing scripts:
+  - bmad-planner: Planning context synchronization
+  - quality-enforcer: Quality gate result synchronization
+  - speckit-author: Specification synchronization
+  - Non-invasive integration (<10 lines per agent script)
+- **Feature flag control**:
+  - SYNC_ENGINE_ENABLED environment variable (disabled by default)
+  - Graceful degradation on errors
+  - Optional sync engine parameter for testing
+
+### Changed
+- Updated documentation with Phase 3 deliverables
+
 ## [1.1.0] - 2025-11-16
 
 ### Added
@@ -76,6 +100,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 1.12.0  | 2025-11-17 | MINOR | Phase 3 integration layer + agent hooks |
 | 1.1.0   | 2025-11-16 | MINOR | MIT Agent Sync Pattern schema + HIPAA/FDA/IRB compliance |
 | 1.0.0   | 2025-11-02 | MAJOR | Initial release |
 
