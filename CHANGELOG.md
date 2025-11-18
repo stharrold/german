@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.15.1] - 2025-11-18
+
+### Changed
+- **CLAUDE.md improvements** - Enhanced onboarding and reduced duplication
+  - Added Quick Reference Card with 7 common workflows + 3 core commands
+  - Added Current Repository State section with pre-work checklist
+  - Added "What NOT to Do" section (9 prohibitions + 5 best practices)
+  - Consolidated version history: 109 lines → 23 lines (links to CHANGELOG.md for details)
+  - File size: 1,482 → 1,445 lines (-37 lines, -2.5%)
+
+- **WORKFLOW-INIT-PROMPT.md** - Clarified workflow application for existing repositories
+  - Separated "From This Repo" vs "From Downloaded Release" approaches
+  - Simplified prompt for Claude Code: "Read `/path/to/german`. Apply the workflow..."
+
+### Added
+- **.github/WORKTREE_CLEANUP_GUIDE.md** - Prevention strategies for worktree cleanup issues
+  - Comprehensive guide to atomic cleanup script usage
+  - Verification procedures and recovery steps
+
 ## [1.15.0] - 2025-11-18
 
 ### Added
