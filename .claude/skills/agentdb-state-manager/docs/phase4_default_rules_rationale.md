@@ -16,9 +16,10 @@ This document explains the design rationale for the 8 default synchronization ru
 3. [Rule Design Principles](#rule-design-principles)
 4. [Normal Flow Rules (4 total)](#normal-flow-rules)
 5. [Error Recovery Rules (4 total)](#error-recovery-rules)
-6. [Priority System Design](#priority-system-design)
-7. [Pattern Matching Strategy](#pattern-matching-strategy)
-8. [Future Enhancements](#future-enhancements)
+6. [Known Limitations](#known-limitations)
+7. [Priority System Design](#priority-system-design)
+8. [Pattern Matching Strategy](#pattern-matching-strategy)
+9. [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -550,6 +551,45 @@ INSERT INTO agent_synchronizations (priority, ...) VALUES (100, ...);
 - Test report corrupted → Refetch from assess agent
 - File system full → Logged error, manual intervention
 - Infinite retry → Escalate after 3 attempts
+
+---
+
+## Known Limitations
+
+### Rule 7: Coverage Gap Recovery - Exact Match Only
+
+**Current Implementation:**
+```sql
+trigger_pattern: '{"coverage_pct": 79}'
+```
+
+**Limitation:** This pattern uses exact matching and will only trigger when coverage is exactly 79%. Coverage values of 78%, 77%, or any other value below 80% (except 79) will not trigger the recovery rule.
+
+**Why This Limitation Exists:**
+
+Phase 4 uses the Phase 2 schema which only supports exact JSON matching via pattern equality checks. Range comparisons require either:
+
+1. **JSONPath conditions** (Phase 5+): `condition_jsonpath: '$.coverage_pct < 80'`
+2. **Application-level matching** (Phase 5): Implement MongoDB-style query operators in sync_engine.py:
+   ```json
+   {"coverage_pct": {"$lt": 80, "$gte": 0}}
+   ```
+
+**Workaround (Current):**
+
+The exact value 79 was chosen as a representative example. In practice, application code can:
+- Round coverage to 79 before triggering
+- Create multiple rules for different values (not scalable)
+- Implement custom matching logic in sync_engine.py
+
+**Phase 5 Resolution:**
+
+Issue #163 (Phase 5: Testing & Compliance) will implement one of:
+- Add `condition_jsonpath` column to schema (extends Phase 2)
+- Implement query operator parsing in sync_engine.py
+- Both (recommended for maximum flexibility)
+
+**Related Issues:** #163, #242
 
 ---
 
