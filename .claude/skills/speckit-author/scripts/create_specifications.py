@@ -708,6 +708,31 @@ def main():
     else:
         print("\n⚠ Skipping commit (--no-commit flag)")
 
+    # Trigger sync engine (Phase 3 integration)
+    try:
+        import asyncio
+        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
+        if str(integration_path) not in sys.path:
+            sys.path.insert(0, str(integration_path))
+        from worktree_agent_integration import trigger_sync_completion
+
+        asyncio.run(trigger_sync_completion(
+            agent_id="research",
+            action="documentation_complete",
+            state_snapshot={
+                "slug": args.slug,
+                "workflow_type": args.workflow_type,
+                "spec_file": str(specs_dir / "spec.md"),
+                "plan_file": str(specs_dir / "plan.md"),
+                "tasks_generated": len(tasks) if tasks else 0,
+                "bmad_context_available": bmad_docs is not None
+            },
+            context={"user": args.gh_user}
+        ))
+    except Exception:
+        # Graceful degradation: don't fail if sync unavailable
+        pass
+
     # 9. Summary
     print("\n" + "=" * 70)
     print("SpecKit Specifications Created Successfully!")
