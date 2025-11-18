@@ -264,7 +264,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'tests/',
     'src/',
@@ -305,7 +305,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'develop',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'src/',
     'src/',
@@ -346,7 +346,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'tests/',
     'src/',
@@ -387,7 +387,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'research',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'docs/',
     'docs/',
