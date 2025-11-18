@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Run all quality gates and report results."""
 
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -186,22 +187,25 @@ def run_all_quality_gates(coverage_threshold=80):
             sys.path.insert(0, str(integration_path))
         from worktree_agent_integration import trigger_sync_completion
 
-        asyncio.run(trigger_sync_completion(
+        sync_success = asyncio.run(trigger_sync_completion(
             agent_id="assess",
-            action="test_complete",
+            action="quality_gates_complete",
             state_snapshot={
-                "all_passed": all_passed,
-                "coverage_passed": results.get('coverage', {}).get('passed', False),
+                "coverage": results.get('coverage', {}).get('percentage', 0),
                 "tests_passed": results.get('tests', {}).get('passed', False),
-                "build_passed": results.get('build', {}).get('passed', False),
-                "linting_passed": results.get('linting', {}).get('passed', False),
-                "types_passed": results.get('types', {}).get('passed', False)
+                "tests_failed": results.get('tests', {}).get('failed', 0),
+                "all_passed": all_passed,
+                "lint_status": results.get('linting', {}).get('passed', False),
+                "type_check_status": results.get('types', {}).get('passed', False)
             },
-            context={}
+            context={"user": os.getenv("USER", "unknown")}
         ))
-    except Exception:
-        # Graceful degradation: don't fail if sync unavailable
-        pass
+        if sync_success:
+            print("✓ Sync engine: quality gates synchronization completed")
+        else:
+            print("⚠ WARNING: Sync engine synchronization failed", file=sys.stderr)
+    except Exception as e:
+        print(f"⚠ ERROR: Sync engine exception: {e}", file=sys.stderr)
 
     return all_passed, results
 

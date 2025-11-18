@@ -194,6 +194,32 @@ Created: {created_timestamp}
     print(f"✓ Branch: {branch_name}")
     print(f"✓ TODO file: {todo_filename}")
 
+    # Trigger sync engine (Phase 3 integration)
+    try:
+        import asyncio
+        integration_path = Path(__file__).parent.parent.parent / "agentdb-state-manager" / "scripts"
+        if str(integration_path) not in sys.path:
+            sys.path.insert(0, str(integration_path))
+        from worktree_agent_integration import trigger_sync_completion
+
+        sync_success = asyncio.run(trigger_sync_completion(
+            agent_id="develop",
+            action="worktree_created",
+            state_snapshot={
+                "worktree_path": str(worktree_path),
+                "branch_name": branch_name,
+                "workflow_type": workflow_type,
+                "slug": slug
+            },
+            context={"user": gh_user, "base_branch": base_branch}
+        ))
+        if sync_success:
+            print("✓ Sync engine: worktree synchronization completed")
+        else:
+            print("⚠ WARNING: Sync engine synchronization failed", file=sys.stderr)
+    except Exception as e:
+        print(f"⚠ ERROR: Sync engine exception: {e}", file=sys.stderr)
+
     return {
         'worktree_path': str(worktree_path),
         'branch_name': branch_name,

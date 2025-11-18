@@ -716,22 +716,23 @@ def main():
             sys.path.insert(0, str(integration_path))
         from worktree_agent_integration import trigger_sync_completion
 
-        asyncio.run(trigger_sync_completion(
+        sync_success = asyncio.run(trigger_sync_completion(
             agent_id="research",
             action="documentation_complete",
             state_snapshot={
-                "slug": args.slug,
-                "workflow_type": args.workflow_type,
                 "spec_file": str(specs_dir / "spec.md"),
-                "plan_file": str(specs_dir / "plan.md"),
-                "tasks_generated": len(tasks) if tasks else 0,
-                "bmad_context_available": bmad_docs is not None
+                "plan_path": str(specs_dir / "plan.md"),
+                "slug": args.slug,
+                "tasks_generated": len(tasks) if tasks else 0
             },
-            context={"user": args.gh_user}
+            context={"user": args.gh_user, "workflow_type": args.workflow_type}
         ))
-    except Exception:
-        # Graceful degradation: don't fail if sync unavailable
-        pass
+        if sync_success:
+            print("✓ Sync engine: documentation synchronization completed")
+        else:
+            print("⚠ WARNING: Sync engine synchronization failed", file=sys.stderr)
+    except Exception as e:
+        print(f"⚠ ERROR: Sync engine exception: {e}", file=sys.stderr)
 
     # 9. Summary
     print("\n" + "=" * 70)
