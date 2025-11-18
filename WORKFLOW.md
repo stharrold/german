@@ -978,57 +978,85 @@ python .claude/skills/git-workflow-manager/scripts/generate_work_items_from_pr.p
 
 **Note:** Conversations may remain unresolved if work-items were generated (Step 4.4). This is expected - work-items track the follow-up work.
 
-#### Step 4.6: Archive Workflow
+#### Step 4.6: Atomic Cleanup (Archive TODO + Delete Worktree + Delete Branches)
+
+**⚠️ IMPORTANT:** Use the atomic cleanup script to ensure proper ordering. This script prevents orphaned TODO files by enforcing: Archive TODO → Delete worktree → Delete branches.
 
 **Return to main repo:**
 ```bash
 cd /Users/user/Documents/GitHub/german
 ```
 
-**Archive TODO file:**
+**Atomic cleanup (recommended):**
 ```bash
-python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
-  TODO_feature_20251023T104248Z_certificate-a1.md \
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  certificate-a1 \
   --summary "Implemented A1 German certificate guide with complete exam structure" \
   --version "1.3.0"
 ```
 
 **Output:**
 ```
-ℹ Archiving workflow: certificate-a1
-✓ Moved TODO_feature_20251023T104248Z_certificate-a1.md → ARCHIVED/TODO_feature_20251023T104248Z_certificate-a1.md
-✓ Updated TODO.md: moved 'certificate-a1' to archived list
-ℹ   Active workflows: 0
-ℹ   Archived workflows: 2
-ℹ   Total completed: 2
+🚀 Cleaning up feature: certificate-a1
+======================================================================
+✓ Found TODO: TODO_feature_20251023T104248Z_certificate-a1.md
+✓ Found worktree: /Users/user/Documents/GitHub/german_feature_certificate-a1
+✓ Found branch: feature/20251023T104248Z_certificate-a1
+
+======================================================================
+Starting atomic cleanup operations...
+======================================================================
+
+📦 Archiving TODO: TODO_feature_20251023T104248Z_certificate-a1.md
+✓ TODO archived to ARCHIVED/TODO_feature_20251023T104248Z_certificate-a1.md
+
+🗑️  Removing worktree: /Users/user/Documents/GitHub/german_feature_certificate-a1
+✓ Worktree removed: /Users/user/Documents/GitHub/german_feature_certificate-a1
+
+🗑️  Deleting local branch: feature/20251023T104248Z_certificate-a1
+✓ Local branch deleted: feature/20251023T104248Z_certificate-a1
+
+🗑️  Deleting remote branch: origin/feature/20251023T104248Z_certificate-a1
+✓ Remote branch deleted: origin/feature/20251023T104248Z_certificate-a1
+
+======================================================================
+✅ Feature cleanup complete: certificate-a1
+======================================================================
 ```
 
-#### Step 4.7: Delete Worktree and Branch
+**Why atomic cleanup?**
+- **Prevents orphaned TODO files**: Cannot delete worktree without archiving TODO first
+- **Single command**: One command instead of remembering 4 separate commands
+- **Atomic operation**: Either everything succeeds or nothing changes (safe to retry)
+- **Clear ordering**: Archives TODO → Deletes worktree → Deletes branches (guaranteed)
+- **Error handling**: If TODO archive fails, worktree/branches NOT deleted (safe state)
 
-**Delete local worktree and branch:**
+**Manual cleanup (not recommended):**
+
+If you need manual control, use these commands IN THIS ORDER:
+
+1. Archive TODO (MUST be first):
+```bash
+python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
+  TODO_feature_20251023T104248Z_certificate-a1.md \
+  --summary "..." \
+  --version "1.3.0"
+```
+
+2. Delete worktree (only after archive succeeds):
 ```bash
 git worktree remove ../german_feature_certificate-a1
-git branch -D feature/20251023T104248Z_certificate-a1
 ```
 
-**Delete remote feature branch:**
+3. Delete branches (only after worktree deletion):
 ```bash
+git branch -D feature/20251023T104248Z_certificate-a1
 git push origin --delete feature/20251023T104248Z_certificate-a1
 ```
 
-**Output:**
-```
-✓ Worktree removed: ../german_feature_certificate-a1
-✓ Deleted local branch: feature/20251023T104248Z_certificate-a1
-✓ Deleted remote branch: origin/feature/20251023T104248Z_certificate-a1
-```
+**⚠️ WARNING:** Manual cleanup is error-prone. If you delete the worktree before archiving the TODO, you'll have an orphaned TODO file in the main repo. Use the atomic cleanup script to avoid this.
 
-**Why cleanup?**
-- Feature is merged to contrib → no longer needed
-- Keeps repository clean
-- Prevents confusion about active features
-
-#### Step 4.8: Rebase contrib onto develop
+#### Step 4.7: Rebase contrib onto develop
 
 **Command:**
 ```bash
@@ -1042,7 +1070,7 @@ python .claude/skills/git-workflow-manager/scripts/daily_rebase.py \
 3. Rebase onto origin/develop
 4. Force push with lease
 
-#### Step 4.9: Create Pull Request (contrib → develop)
+#### Step 4.8: Create Pull Request (contrib → develop)
 
 **Command:**
 ```bash
