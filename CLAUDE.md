@@ -88,17 +88,18 @@ cat TODO.md  # See active workflows
   - v1.12.0 released and tagged
   - Linting fixes applied (Issues #218-#221 closed)
 
-- **Phase 4 (Issue #162): ✅ COMPLETED** (pending v1.13.0 release)
+- **Phase 4 (Issue #162): IN PROGRESS** (on contrib/stharrold, pending PR to develop)
   - Default synchronization rules implemented (default_synchronizations.sql, 456 lines)
   - 8 synchronization rules (4 normal flow + 4 error recovery)
-  - Comprehensive test suite (test_default_syncs.py, 389 lines, 12 tests)
-  - Design rationale documentation (phase4_default_rules_rationale.md, 700+ lines)
+  - Implementation complete on contrib/stharrold branch
+  - Design rationale documentation (phase4_default_rules_rationale.md)
   - 4-tier workflow coverage (Orchestrate → Develop → Assess → Research)
   - Priority-based rule execution (200 for errors > 100 for normal flow)
-  - PR #241 merged to contrib
-  - 7 follow-up issues created (Issues #242-248) for Phase 5+ enhancements
+  - 7 follow-up issues created (Issues #242-248) for refinements
+  - NOT YET MERGED to develop or released (will be v1.13.0 when released)
 
 **Next phases ready for implementation:**
+- Phase 4 (Issue #162): Default Synchronization Rules (PR review pending)
 - Phase 5 (Issue #163): Testing & Compliance (ready after Phase 4 merges)
 - Phase 6 (Issue #164): Performance & Docs (parallel-ok, blocked by Phase 5)
 
