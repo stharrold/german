@@ -29,12 +29,12 @@ This is a Python-based repository for German language learning resources and con
 - Python scripts and tools for language processing and learning
 - Structured data for German language content
 - **Workflow v5.3 skill-based architecture** for managing development workflow
-- **MIT Agent Synchronization Pattern** (Issue #158) - ✅ COMPLETED
-  - All 6 phases implemented (v1.10.0 through v1.14.0 + PRs #269, #270)
+- **MIT Agent Synchronization Pattern** (Issue #158) - ✅ COMPLETED & RELEASED
+  - All 6 phases implemented (v1.10.0 through v1.15.0)
   - Database schema, sync engine, integration layer, default rules
   - Comprehensive testing (58 tests, 92% coverage)
   - Performance validated (4/5 targets passed, approved for production)
-  - Ready for v1.15.0 release
+  - **Released as v1.15.0** on 2025-11-18
 
 ## Quick Start for New Claude Instances
 
@@ -111,7 +111,7 @@ All 6 phases of the MIT Agent Synchronization Pattern implementation are complet
     - Scalability: 3.34x with 13 agents (26% efficiency) ⚠️
   - Go/no-go decision: ✅ APPROVED FOR PRODUCTION
 
-**Status:** Issue #158 closed. All 6 phases complete. Ready for v1.15.0 release.
+**Status:** Issue #158 closed. All 6 phases complete. **Released as v1.15.0** on 2025-11-18.
 
 **Check for new work:** `gh issue list --state open`
 
@@ -1243,16 +1243,24 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.14.0 (latest stable, ready for v1.15.0)
+**Current version:** v1.15.0 (latest stable, released 2025-11-18)
 
-**Pending v1.15.0 release:**
-- Phase 5: Testing & Healthcare Compliance (PR #269)
-- Phase 6: Performance Validation (PR #270)
-- 58 comprehensive tests, 92% coverage
-- Performance benchmarks: 4/5 targets passed
-- Approved for production deployment
+**Included in v1.15.0:**
+- Phase 5: Testing & Healthcare Compliance (PR #269, #271)
+  - 58 comprehensive tests (test_healthcare_compliance.py, test_integration_e2e.py, test_chaos.py)
+  - 92% code coverage on sync_engine.py
+  - Healthcare compliance validation report (HIPAA/FDA/SOC2)
+  - 15 xfail tests documenting Phase 1-4 gaps
+- Phase 6: Performance Validation (PR #270, #271)
+  - Performance benchmark suite (sync_performance.py, 513 lines)
+  - 5 comprehensive benchmarks with statistical analysis
+  - 4/5 targets passed: latency 0.59ms, throughput 2,140 ops/sec
+  - Approved for production (weighted score: 4.40/5.00, 88%)
+- Documentation improvements: Issue reference format fixes, duplicate CHANGELOG removal
+- Linting fixes: 10 errors resolved (unused imports, f-strings, variables)
 
 **Recent releases:**
+- v1.15.0: MIT Agent Synchronization Pattern complete (Phases 5 & 6) (MINOR)
 - v1.14.0: PR #256 review fixes - TODO status updates and test logic improvements (PATCH)
 - v1.13.0: MIT Agent Synchronization Pattern (Phase 4: Default Synchronization Rules) (MINOR)
 - v1.12.0: MIT Agent Synchronization Pattern (Phase 3: Integration Layer) (MINOR)
