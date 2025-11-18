@@ -26,6 +26,7 @@ Git Workflow Manager provides **automated git operations** for the git-flow + Gi
 .claude/skills/git-workflow-manager/
 ├── scripts/                      # Git operation automation
 │   ├── create_worktree.py        # Create feature/release/hotfix worktrees (Phase 2)
+│   ├── cleanup_feature.py        # Atomic cleanup: archive TODO + delete worktree + delete branches (Phase 4)
 │   ├── daily_rebase.py          # Rebase contrib onto develop (daily maintenance)
 │   ├── semantic_version.py       # Calculate semantic version from changes (Phase 3)
 │   ├── create_release.py         # Create release branch from develop (Phase 5)
@@ -96,6 +97,73 @@ python .claude/skills/git-workflow-manager/scripts/create_worktree.py \
 - Validates base branch exists
 - Creates compliant directory structure
 - Error handling with cleanup on failure
+
+---
+
+### cleanup_feature.py
+
+**Purpose:** Atomically archive TODO and cleanup feature worktree in correct order: Archive TODO → Delete worktree → Delete branches
+
+**When to use:** Phase 4 (Integration) - after PR merged to contrib
+
+**⚠️ CRITICAL:** This script prevents orphaned TODO files by enforcing proper cleanup ordering. Manual cleanup is error-prone and NOT recommended.
+
+**Invocation:**
+```bash
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  <slug> \
+  --summary "Completion summary" \
+  --version "X.Y.Z"
+```
+
+**Examples:**
+```bash
+# Cleanup feature
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  auth-system \
+  --summary "Implemented user authentication with JWT tokens" \
+  --version "1.5.0"
+
+# Cleanup issue fix
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  issue-243-todo-status \
+  --summary "Updated TODO file to reflect completion" \
+  --version "1.13.0"
+
+# Cleanup with project-specific worktree pattern
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  auth-system \
+  --summary "Implemented user authentication" \
+  --version "1.5.0" \
+  --project-name german
+```
+
+**What it does:**
+1. **Finds TODO file:** Searches for `TODO_feature_*_{slug}.md` in main repo
+2. **Finds worktree:** Searches for `../feature_{slug}/` or `../{project}_feature_{slug}/`
+3. **Finds branch:** Searches for `feature/*_{slug}` branch
+4. **Archives TODO:** Calls `workflow_archiver.py` (MUST succeed before proceeding)
+5. **Deletes worktree:** Removes worktree directory (only if archive succeeded)
+6. **Deletes branches:** Removes local and remote branches (only if worktree deletion succeeded)
+
+**Key features:**
+- **Atomic operation:** Either everything succeeds or nothing changes (safe to retry)
+- **Correct ordering:** Cannot delete worktree without archiving TODO first
+- **Error handling:** If TODO archive fails, worktree/branches NOT deleted (safe state)
+- **Single command:** Replaces 4 separate manual commands
+- **Clear feedback:** Emojis and progress indicators for each step
+
+**Why atomic cleanup:**
+- Prevents orphaned TODO files (main repo cleanup issue)
+- Prevents confusion about workflow state
+- Safe rollback on errors (idempotent)
+- Single source of truth for cleanup logic
+
+**Failure modes:**
+- **TODO not found:** Script fails immediately, nothing deleted
+- **Archive fails:** Script exits, worktree/branches preserved (safe to retry)
+- **Worktree deletion fails:** TODO archived, but worktree remains (manual cleanup instructions provided)
+- **Branch deletion fails:** TODO archived, worktree deleted, but branches remain (manual cleanup instructions provided)
 
 ---
 
