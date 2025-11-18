@@ -76,7 +76,7 @@ cat TODO.md  # See active workflows
   - PR #198 merged to contrib, PR #202 merged to develop
   - v1.11.0 released and tagged
 
-- **Phase 3 (Issue #161): ✅ COMPLETED** (pending v1.12.0 release)
+- **Phase 3 (Issue #161): ✅ COMPLETED in v1.12.0**
   - Integration layer implemented (worktree_agent_integration.py, 594 lines)
   - Agent hooks added to 3 existing scripts (bmad-planner, quality-enforcer, speckit-author)
   - FlowTokenManager, PHIDetector, ComplianceWrapper, SyncEngineFactory, trigger_sync_completion()
@@ -84,13 +84,32 @@ cat TODO.md  # See active workflows
   - Feature flag control (SYNC_ENGINE_ENABLED, disabled by default)
   - Graceful degradation on errors
   - Non-invasive integration (<10 lines per agent script)
-  - PR #217 merged to contrib, PR #226 pending merge to develop
+  - PR #217 merged to contrib, PR #226 merged to develop
+  - v1.12.0 released and tagged
   - Linting fixes applied (Issues #218-#221 closed)
 
+- **Phase 4 (Issue #162): ✅ COMPLETED** (pending v1.13.0 release)
+  - Default synchronization rules implemented (default_synchronizations.sql, 456 lines)
+  - 8 synchronization rules (4 normal flow + 4 error recovery)
+  - Comprehensive test suite (test_default_syncs.py, 389 lines, 12 tests)
+  - Design rationale documentation (phase4_default_rules_rationale.md, 700+ lines)
+  - 4-tier workflow coverage (Orchestrate → Develop → Assess → Research)
+  - Priority-based rule execution (200 for errors > 100 for normal flow)
+  - PR #241 merged to contrib
+  - 7 PR review issues resolved (Issues #242-248):
+    - #242: Coverage range matching documentation (PR #250)
+    - #243: TODO status updates (PR #254)
+    - #244: Generic worktree paths (PR #253)
+    - #245: Idempotent SQL loading (PR #251)
+    - #246: Security validation docs (PR #249)
+    - #247: Version clarity (PR #255)
+    - #248: Test logic strengthening (PR #252)
+  - All 7 PRs merged to contrib
+  - Atomic cleanup script implemented (cleanup_feature.py)
+
 **Next phases ready for implementation:**
-- Phase 4 (Issue #162): Default Synchronization Rules (ready after Phase 3 merges)
-- Phase 5 (Issue #163): Testing & Compliance (parallel-ok, blocked by Phase 4)
-- Phase 6 (Issue #164): Performance & Docs (parallel-ok, blocked by Phase 5)
+- Phase 5 (Issue #163): Testing & Compliance (ready to start)
+- Phase 6 (Issue #164): Performance & Docs (blocked by Phase 5)
 
 Check for new work: `gh issue list --state open`
 
@@ -585,11 +604,17 @@ python .claude/skills/workflow-utilities/scripts/todo_updater.py \
 python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
   TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
 
-# Archive workflow (Phase 4.4: after PR merge)
+# Atomic cleanup: archive + delete worktree + delete branches (Phase 4.6: RECOMMENDED)
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  <slug> \
+  --summary "What was completed" \
+  --version "1.9.0"
+
+# Manual cleanup (NOT RECOMMENDED - use atomic cleanup above)
+# Archive workflow first
 python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
   TODO_feature_*.md --summary "What was completed" --version "1.9.0"
-
-# Delete worktree and branch (Phase 4.5: after archival)
+# Then delete worktree and branches
 git worktree remove ../german_feature_<slug>
 git branch -D feature/<timestamp>_<slug>
 git push origin --delete feature/<timestamp>_<slug>
@@ -1216,9 +1241,10 @@ Automatic version calculation based on changes:
 - **MINOR**: New features (new files, new endpoints)
 - **PATCH**: Bug fixes, refactoring, docs, tests
 
-**Current version:** v1.11.0 (latest stable)
+**Current version:** v1.12.0 (latest stable)
 
 **Recent releases:**
+- v1.12.0: MIT Agent Synchronization Pattern (Phase 3: Integration Layer) (MINOR)
 - v1.11.0: MIT Agent Synchronization Pattern (Phase 2: Synchronization Engine) (MINOR)
 - v1.10.1: Post-v1.10.0 documentation cleanup and issue resolution (PATCH)
 - v1.10.0: MIT Agent Synchronization Pattern (Phase 1) + DuckDB compatibility fixes (MINOR)
@@ -1233,6 +1259,17 @@ Automatic version calculation based on changes:
 - v1.4.0: BMAD and SpecKit callable tools with token reduction (MINOR)
 - v1.3.0: Complete B1 German listening practice library (MINOR)
 - v1.2.0: Release automation scripts + workflow v5.0 architecture (MINOR)
+
+**Included in v1.12.0:**
+- MIT Agent Synchronization Pattern Phase 3 (integration layer)
+- 594-line worktree_agent_integration.py with FlowTokenManager, PHIDetector, ComplianceWrapper
+- Agent hooks for bmad-planner, quality-enforcer, speckit-author (<10 lines each)
+- 563-line test suite with 34 tests (96% coverage)
+- Feature flag control (SYNC_ENGINE_ENABLED, disabled by default)
+- Graceful degradation on errors
+- Non-invasive integration pattern
+- PR #226 merged to develop
+- Linting fixes (Issues #218-221 closed)
 
 **Included in v1.11.0:**
 - MIT Agent Synchronization Pattern Phase 2 (synchronization engine)

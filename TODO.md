@@ -1,15 +1,21 @@
 ---
 type: workflow-master-manifest
 version: 5.0.0
-last_update: '2025-11-18T02:19:18.213435+00:00'
+last_update: '2025-11-18T12:00:44.889213+00:00'
 workflows:
-  active:
+  active: []
+  archived:
   - slug: phase-4-defaults
     timestamp: '2025-11-18T02:18:39Z'
     title: 'Phase 4: Default Synchronization Rules Implementation'
-    status: in_progress
-    file: TODO_feature_20251118T021839Z_phase-4-defaults.md
-  archived:
+    status: completed
+    completed_at: '2025-11-18T11:44:04Z'
+    semantic_version: '1.13.0'
+    file: ARCHIVED/TODO_feature_20251118T021839Z_phase-4-defaults.md
+    summary: 'Phase 4 Default Synchronization Rules implementation complete. Created
+      8 synchronization rules (4 normal flow + 4 error recovery), comprehensive test
+      suite with 12 tests, and 700+ line design rationale documentation. All 7 PR
+      review comments tracked as GitHub issues #242-248 and resolved.'
   - slug: workflow
     timestamp: 20251023T123254Z
     title: Release Workflow Automation
@@ -180,10 +186,73 @@ workflows:
     completed_at: '2025-11-17T13:06:27.035294+00:00'
     summary: 'Abandoned workflow - PR #133 issues resolved outside formal process'
     semantic_version: 1.9.1
+  - slug: issue-247-version-clarity
+    timestamp: 20251118T115042Z
+    title: issue-247-version-clarity
+    file: ARCHIVED/TODO_feature_20251118T115042Z_issue-247-version-clarity.md
+    status: completed
+    completed_at: '2025-11-18T12:00:38.625995+00:00'
+    summary: 'Clarified Phase 3 = v1.12.0 (released), Phase 4 = v1.13.0 (pending).
+      Fixed in PR #255.'
+    semantic_version: 1.13.0
+  - slug: issue-246-input-validation
+    timestamp: 20251118T115041Z
+    title: issue-246-input-validation
+    file: ARCHIVED/TODO_feature_20251118T115041Z_issue-246-input-validation.md
+    status: completed
+    completed_at: '2025-11-18T12:00:39.619215+00:00'
+    summary: 'Added comprehensive security validation requirements documentation for
+      Phase 5. Fixed in PR #249.'
+    semantic_version: 1.13.0
+  - slug: issue-245-duplicate-rules
+    timestamp: 20251118T115039Z
+    title: issue-245-duplicate-rules
+    file: ARCHIVED/TODO_feature_20251118T115039Z_issue-245-duplicate-rules.md
+    status: completed
+    completed_at: '2025-11-18T12:00:40.480299+00:00'
+    summary: 'Added DELETE before INSERT for idempotent rule loading. Fixed in PR
+      #251.'
+    semantic_version: 1.13.0
+  - slug: issue-244-worktree-path
+    timestamp: 20251118T115037Z
+    title: issue-244-worktree-path
+    file: ARCHIVED/TODO_feature_20251118T115037Z_issue-244-worktree-path.md
+    status: completed
+    completed_at: '2025-11-18T12:00:41.730486+00:00'
+    summary: 'Removed hardcoded ''german'' project name from worktree paths for generic
+      reusability. Fixed in PR #253.'
+    semantic_version: 1.13.0
+  - slug: issue-243-todo-status
+    timestamp: 20251118T115035Z
+    title: issue-243-todo-status
+    file: ARCHIVED/TODO_feature_20251118T115035Z_issue-243-todo-status.md
+    status: completed
+    completed_at: '2025-11-18T12:00:42.840767+00:00'
+    summary: 'Updated archived Phase 4 TODO file to reflect actual completion state
+      with timestamps and quality gates. Fixed in PR #254.'
+    semantic_version: 1.13.0
+  - slug: issue-248-test-logic
+    timestamp: 20251118T115044Z
+    title: issue-248-test-logic
+    file: ARCHIVED/TODO_feature_20251118T115044Z_issue-248-test-logic.md
+    status: completed
+    completed_at: '2025-11-18T12:00:43.875279+00:00'
+    summary: 'Strengthened test_priority_ranges logic by validating sync_type instead
+      of pattern name matching. Fixed in PR #252.'
+    semantic_version: 1.13.0
+  - slug: issue-242-range-matching
+    timestamp: 20251118T115045Z
+    title: issue-242-range-matching
+    file: ARCHIVED/TODO_feature_20251118T115045Z_issue-242-range-matching.md
+    status: completed
+    completed_at: '2025-11-18T12:00:44.888939+00:00'
+    summary: 'Documented coverage range matching limitation and Phase 5 resolution
+      path. Fixed in PR #250.'
+    semantic_version: 1.13.0
 context_stats:
-  total_workflows_completed: 19
+  total_workflows_completed: 26
   current_token_usage: 82000
-  last_checkpoint: '2025-11-17T13:06:27.035560+00:00'
+  last_checkpoint: '2025-11-18T12:00:44.889209+00:00'
   recent_improvements: 'Session 2025-11-03: Added agentdb-state-manager (v1.0.0),
     TODO lifecycle management (v5.1.0), initialize-repository docs (v1.0.1). Session
     2025-11-04: Fixed 27 GitHub issues (code quality, critical bugs), completed comprehensive

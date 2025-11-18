@@ -69,6 +69,22 @@
 -- ============================================================================
 
 -- ============================================================================
+-- Idempotency: Delete existing default rules before inserting
+-- ============================================================================
+-- This allows the file to be executed multiple times safely without creating
+-- duplicate rules. Pattern names are unique identifiers for default rules.
+DELETE FROM agent_synchronizations WHERE pattern IN (
+    'orchestrate_to_develop',
+    'develop_to_assess',
+    'assess_to_research',
+    'research_to_orchestrate',
+    'test_failure_recovery',
+    'lint_failure_recovery',
+    'coverage_gap_recovery',
+    'documentation_incomplete_recovery'
+);
+
+-- ============================================================================
 -- Normal Flow Rules (Priority: 100-199)
 -- ============================================================================
 
@@ -99,7 +115,7 @@ INSERT INTO agent_synchronizations (
     NULL,
     'workflow_transition',
     'planning/',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'orchestrate_to_develop',
     'pending',
     'claude-code',
@@ -137,7 +153,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'develop',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'src/',
     'tests/',
@@ -178,7 +194,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'tests/',
     'docs/',
@@ -219,7 +235,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'research',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'workflow_transition',
     'docs/',
     './',
@@ -264,7 +280,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'tests/',
     'src/',
@@ -305,7 +321,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'develop',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'src/',
     'src/',
@@ -346,7 +362,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'assess',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'tests/',
     'src/',
@@ -387,7 +403,7 @@ INSERT INTO agent_synchronizations (
 ) VALUES (
     gen_random_uuid(),
     'research',
-    '../german_feature_${trigger_state.slug}/',
+    '../feature_${trigger_state.slug}/',
     'error_recovery',
     'docs/',
     'docs/',

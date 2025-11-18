@@ -16,9 +16,10 @@ This document explains the design rationale for the 8 default synchronization ru
 3. [Rule Design Principles](#rule-design-principles)
 4. [Normal Flow Rules (4 total)](#normal-flow-rules)
 5. [Error Recovery Rules (4 total)](#error-recovery-rules)
-6. [Priority System Design](#priority-system-design)
-7. [Pattern Matching Strategy](#pattern-matching-strategy)
-8. [Future Enhancements](#future-enhancements)
+6. [Known Limitations](#known-limitations)
+7. [Priority System Design](#priority-system-design)
+8. [Pattern Matching Strategy](#pattern-matching-strategy)
+9. [Future Enhancements](#future-enhancements)
 
 ---
 
@@ -553,6 +554,45 @@ INSERT INTO agent_synchronizations (priority, ...) VALUES (100, ...);
 
 ---
 
+## Known Limitations
+
+### Rule 7: Coverage Gap Recovery - Exact Match Only
+
+**Current Implementation:**
+```sql
+trigger_pattern: '{"coverage_pct": 79}'
+```
+
+**Limitation:** This pattern uses exact matching and will only trigger when coverage is exactly 79%. Coverage values of 78%, 77%, or any other value below 80% (except 79) will not trigger the recovery rule.
+
+**Why This Limitation Exists:**
+
+Phase 4 uses the Phase 2 schema which only supports exact JSON matching via pattern equality checks. Range comparisons require either:
+
+1. **JSONPath conditions** (Phase 5+): `condition_jsonpath: '$.coverage_pct < 80'`
+2. **Application-level matching** (Phase 5): Implement MongoDB-style query operators in sync_engine.py:
+   ```json
+   {"coverage_pct": {"$lt": 80, "$gte": 0}}
+   ```
+
+**Workaround (Current):**
+
+The exact value 79 was chosen as a representative example. In practice, application code can:
+- Round coverage to 79 before triggering
+- Create multiple rules for different values (not scalable)
+- Implement custom matching logic in sync_engine.py
+
+**Phase 5 Resolution:**
+
+Issue #163 (Phase 5: Testing & Compliance) will implement one of:
+- Add `condition_jsonpath` column to schema (extends Phase 2)
+- Implement query operator parsing in sync_engine.py
+- Both (recommended for maximum flexibility)
+
+**Related Issues:** #163, #242
+
+---
+
 ## Priority System Design
 
 ### Priority Ranges
@@ -698,6 +738,57 @@ condition_jsonpath: '$.coverage_pct >= 80 AND $.tests_passed == true'
 - Application code already handles partial matching
 - JSONPath adds complexity (parser, validation)
 - Can add later without breaking existing rules
+
+---
+
+## Security Considerations
+
+### Input Validation Requirements
+
+The parameter substitution pattern `${trigger_state.slug}` and similar patterns in `target_action` JSON are used in file paths and command parameters. **Phase 5 MUST implement validation** before these values are substituted to prevent:
+
+1. **Path Traversal Attacks**: `slug: "../../../etc/passwd"`
+2. **Command Injection**: `slug: "foo; rm -rf /"`
+3. **JSON Injection**: Unescaped quotes in parameter values
+
+### Required Validation Rules (Phase 5)
+
+**Slug Validation:**
+```python
+# sync_engine.py (Phase 5)
+def validate_slug(slug: str) -> str:
+    """Validate and sanitize slug for safe path/command use."""
+    if not re.match(r'^[a-z0-9-]{1,64}$', slug):
+        raise ValueError(f"Invalid slug: {slug}")
+    if '..' in slug or '/' in slug or '\\' in slug:
+        raise ValueError(f"Path traversal detected: {slug}")
+    return slug
+```
+
+**General Parameter Validation:**
+- Allow-list pattern: `^[a-zA-Z0-9_-]{1,64}$`
+- Max length: 64 characters
+- No path separators: `/`, `\`, `..`
+- No shell metacharacters: `;`, `|`, `&`, `$`, `` ` ``
+
+### Testing Requirements (Phase 5)
+
+Add tests for malicious inputs:
+```python
+def test_path_traversal_prevention():
+    with pytest.raises(ValueError):
+        validate_slug("../../../etc/passwd")
+
+def test_command_injection_prevention():
+    with pytest.raises(ValueError):
+        validate_slug("foo; rm -rf /")
+```
+
+### Current Status
+
+**Phase 4**: Documentation only (this section)
+**Phase 5**: Implementation required in sync_engine.py
+**Priority**: HIGH - Security issue, blocks production use
 
 ---
 
