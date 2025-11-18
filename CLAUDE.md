@@ -88,20 +88,28 @@ cat TODO.md  # See active workflows
   - v1.12.0 released and tagged
   - Linting fixes applied (Issues #218-#221 closed)
 
-- **Phase 4 (Issue #162): IN PROGRESS** (on contrib/stharrold, pending PR to develop)
+- **Phase 4 (Issue #162): ✅ COMPLETED** (pending v1.13.0 release)
   - Default synchronization rules implemented (default_synchronizations.sql, 456 lines)
   - 8 synchronization rules (4 normal flow + 4 error recovery)
-  - Implementation complete on contrib/stharrold branch
-  - Design rationale documentation (phase4_default_rules_rationale.md)
+  - Comprehensive test suite (test_default_syncs.py, 389 lines, 12 tests)
+  - Design rationale documentation (phase4_default_rules_rationale.md, 700+ lines)
   - 4-tier workflow coverage (Orchestrate → Develop → Assess → Research)
   - Priority-based rule execution (200 for errors > 100 for normal flow)
-  - 7 follow-up issues created (Issues #242-248) for refinements
-  - NOT YET MERGED to develop or released (will be v1.13.0 when released)
+  - PR #241 merged to contrib
+  - 7 PR review issues resolved (Issues #242-248):
+    - #242: Coverage range matching documentation (PR #250)
+    - #243: TODO status updates (PR #254)
+    - #244: Generic worktree paths (PR #253)
+    - #245: Idempotent SQL loading (PR #251)
+    - #246: Security validation docs (PR #249)
+    - #247: Version clarity (PR #255)
+    - #248: Test logic strengthening (PR #252)
+  - All 7 PRs merged to contrib
+  - Atomic cleanup script implemented (cleanup_feature.py)
 
 **Next phases ready for implementation:**
-- Phase 4 (Issue #162): Default Synchronization Rules (PR review pending)
-- Phase 5 (Issue #163): Testing & Compliance (ready after Phase 4 merges)
-- Phase 6 (Issue #164): Performance & Docs (parallel-ok, blocked by Phase 5)
+- Phase 5 (Issue #163): Testing & Compliance (ready to start)
+- Phase 6 (Issue #164): Performance & Docs (blocked by Phase 5)
 
 Check for new work: `gh issue list --state open`
 
@@ -596,11 +604,17 @@ python .claude/skills/workflow-utilities/scripts/todo_updater.py \
 python .claude/skills/workflow-utilities/scripts/workflow_registrar.py \
   TODO_feature_*.md <workflow_type> <slug> --title "Feature Title"
 
-# Archive workflow (Phase 4.4: after PR merge)
+# Atomic cleanup: archive + delete worktree + delete branches (Phase 4.6: RECOMMENDED)
+python .claude/skills/git-workflow-manager/scripts/cleanup_feature.py \
+  <slug> \
+  --summary "What was completed" \
+  --version "1.9.0"
+
+# Manual cleanup (NOT RECOMMENDED - use atomic cleanup above)
+# Archive workflow first
 python .claude/skills/workflow-utilities/scripts/workflow_archiver.py \
   TODO_feature_*.md --summary "What was completed" --version "1.9.0"
-
-# Delete worktree and branch (Phase 4.5: after archival)
+# Then delete worktree and branches
 git worktree remove ../german_feature_<slug>
 git branch -D feature/<timestamp>_<slug>
 git push origin --delete feature/<timestamp>_<slug>
