@@ -1,7 +1,7 @@
 ---
 type: workflow-master-manifest
-version: 5.0.0
-last_update: '2025-11-18T16:21:40.181695+00:00'
+version: 7.0.0
+last_update: '2026-03-03T00:00:00Z'
 workflows:
   active: []
   archived:

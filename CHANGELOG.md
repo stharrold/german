@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-03-03
+
+### Changed
+- **BREAKING: Workflow upgraded from v5.3 to v7x1** - 6-phase document-driven workflow replaced with 4-step autonomous workflow
+  - Removed bmad-planner skill (Claude's planning replaces BMAD Q&A)
+  - Removed speckit-author skill (Claude's planning replaces SpecKit specifications)
+  - Removed quality-enforcer skill (GitHub Actions CI replaces manual quality gates)
+  - Replaced git-workflow-manager, workflow-orchestrator, workflow-utilities with stharrold-templates v8.7.0 versions
+  - Added v7x1 slash commands: `/workflow:v7x1_1-worktree`, `/workflow:v7x1_2-integrate`, `/workflow:v7x1_3-release`, `/workflow:v7x1_4-backmerge`
+  - CLAUDE.md rewritten for v7x1 (700 lines → 130 lines)
+
+### Added
+- `.claude/commands/workflow/` - v7x1 slash commands (5 files)
+- `.github/workflows/claude-code-review.yml` - Automated Claude Code review on PRs
+- `.github/workflows/secrets-example.yml` - Secrets workflow example
+- `Containerfile` - Container definition
+- `podman-compose.yml` - Container orchestration
+- `.pre-commit-config.yaml` - Pre-commit hooks
+
+### Removed
+- `.claude/skills/bmad-planner/` (archived to ARCHIVED/)
+- `.claude/skills/speckit-author/` (archived to ARCHIVED/)
+- `.claude/skills/quality-enforcer/` (archived to ARCHIVED/)
+- `.claude/skills/UPDATE_CHECKLIST.md` (archived to ARCHIVED/)
+- `planning/` directory (archived to ARCHIVED/)
+- `specs/` directory (archived to ARCHIVED/)
+
 ## [1.15.1] - 2025-11-18
 
 ### Changed

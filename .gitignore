@@ -39,3 +39,13 @@ dist/
 build/
 *.egg-info/
 .tmp/
+
+# Added by apply_bundle
+.claude-state/
+*.duckdb
+*.duckdb.wal
+outputs/
+*.log.jsonl
+.github/instructions/codacy.instructions.md
+.claude/settings.local.json
+gha-creds-*.json

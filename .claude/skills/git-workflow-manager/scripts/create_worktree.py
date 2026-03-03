@@ -1,24 +1,98 @@
 #!/usr/bin/env python3
-"""Create feature/release/hotfix worktree with TODO file.
+# SPDX-FileCopyrightText: 2025 stharrold
+# SPDX-License-Identifier: Apache-2.0
+"""Create feature/release/hotfix worktree for isolated development.
 
 Constants:
 - TIMESTAMP_FORMAT: YYYYMMDDTHHMMSSZ (compact ISO8601)
   Rationale: Compact format that remains intact when branch names are parsed
   by underscores and hyphens. No colons/hyphens avoid shell escaping issues.
+
+Note: TODO file generation is removed. Use GitHub Issues for task tracking.
 """
 
+import argparse
+import os
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
-# Add VCS module to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts'))
-from vcs import get_vcs_adapter
+# Add workflow-utilities to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "workflow-utilities" / "scripts"))
+from worktree_context import compute_worktree_id
 
 # Constants with documented rationale
-TIMESTAMP_FORMAT = '%Y%m%dT%H%M%SZ'  # Compact ISO8601 for filename/branch safety
-VALID_WORKFLOW_TYPES = ['feature', 'release', 'hotfix']  # Supported workflow types
+TIMESTAMP_FORMAT = "%Y%m%dT%H%M%SZ"  # Compact ISO8601 for filename/branch safety
+VALID_WORKFLOW_TYPES = ["feature", "release", "hotfix"]  # Supported workflow types
+
+
+def setup_agentdb_symlink(worktree_path: Path, main_repo_path: Path) -> bool:
+    """Create link from worktree's agentdb.duckdb to main repo's database.
+
+    Uses symlinks on Unix/macOS. On Windows, attempts symlink first (requires
+    Developer Mode or admin), then falls back to hard link (works on same volume).
+
+    This enables all worktrees to share a unified AgentDB, allowing cross-session
+    visibility of workflow state.
+
+    Args:
+        worktree_path: Path to the newly created worktree
+        main_repo_path: Path to the main repository (source of AgentDB)
+
+    Returns:
+        True if link created successfully, False otherwise
+    """
+    worktree_state_dir = worktree_path / ".claude-state"
+    main_state_dir = main_repo_path / ".claude-state"
+    main_db_path = main_state_dir / "agentdb.duckdb"
+    worktree_db_path = worktree_state_dir / "agentdb.duckdb"
+
+    try:
+        # Ensure main repo state directory exists
+        main_state_dir.mkdir(parents=True, exist_ok=True)
+
+        # Initialize main repo database if it doesn't exist
+        if not main_db_path.exists():
+            # Touch the file so link target exists
+            main_db_path.touch()
+
+        # Skip if link already exists (idempotent)
+        if worktree_db_path.exists() or worktree_db_path.is_symlink():
+            return True
+
+        # Try symlink first (works on all platforms if permissions allow)
+        try:
+            relative_target = os.path.relpath(main_db_path, worktree_state_dir)
+            worktree_db_path.symlink_to(relative_target)
+            return True
+        except (OSError, PermissionError) as symlink_error:
+            # On Windows, symlink may fail without Developer Mode or admin
+            if sys.platform == "win32":
+                # Fall back to hard link (works on same volume without special perms)
+                try:
+                    os.link(main_db_path, worktree_db_path)
+                    print(
+                        "[INFO]  Using hard link for AgentDB (symlink requires Developer Mode)",
+                        file=sys.stderr,
+                    )
+                    return True
+                except OSError as hardlink_error:
+                    # Hard link also failed (likely cross-volume)
+                    print(
+                        f"[WARN]  Could not create AgentDB link: symlink failed ({symlink_error}), hard link failed ({hardlink_error})",
+                        file=sys.stderr,
+                    )
+                    return False
+            else:
+                # On Unix, symlink should work - if it fails, report and return False
+                print(f"[WARN]  Could not create AgentDB symlink: {symlink_error}", file=sys.stderr)
+                return False
+
+    except (OSError, PermissionError) as e:
+        print(f"[WARN]  Could not create AgentDB link: {e}", file=sys.stderr)
+        return False
+
 
 def create_worktree(workflow_type, slug, base_branch):
     """
@@ -30,7 +104,7 @@ def create_worktree(workflow_type, slug, base_branch):
         base_branch: Branch to create from (e.g., 'contrib/username')
 
     Returns:
-        dict with worktree_path, branch_name, todo_file
+        dict with worktree_path, branch_name, state_dir
 
     Raises:
         ValueError: If inputs are invalid
@@ -39,27 +113,18 @@ def create_worktree(workflow_type, slug, base_branch):
     """
     # Input validation
     if workflow_type not in VALID_WORKFLOW_TYPES:
-        raise ValueError(
-            f"Invalid workflow_type '{workflow_type}'. "
-            f"Must be one of: {', '.join(VALID_WORKFLOW_TYPES)}"
-        )
+        raise ValueError(f"Invalid workflow_type '{workflow_type}'. Must be one of: {', '.join(VALID_WORKFLOW_TYPES)}")
 
-    if not slug or not slug.replace('-', '').replace('_', '').isalnum():
-        raise ValueError(
-            f"Invalid slug '{slug}'. Must contain only letters, numbers, hyphens, and underscores."
-        )
+    if not slug or not slug.replace("-", "").replace("_", "").isalnum():
+        raise ValueError(f"Invalid slug '{slug}'. Must contain only letters, numbers, hyphens, and underscores.")
 
     # Use timezone-aware datetime (datetime.utcnow() is deprecated in Python 3.12+)
-    timestamp = datetime.now(timezone.utc).strftime(TIMESTAMP_FORMAT)
+    timestamp = datetime.now(UTC).strftime(TIMESTAMP_FORMAT)
     branch_name = f"{workflow_type}/{timestamp}_{slug}"
 
     # Get repository root
     try:
-        repo_root = Path(subprocess.check_output(
-            ['git', 'rev-parse', '--show-toplevel'],
-            text=True,
-            stderr=subprocess.PIPE
-        ).strip())
+        repo_root = Path(subprocess.check_output(["git", "rev-parse", "--show-toplevel"], text=True, stderr=subprocess.PIPE).strip())
     except subprocess.CalledProcessError as e:
         print("ERROR: Not in a git repository", file=sys.stderr)
         print(f"Git error: {e.stderr.strip()}", file=sys.stderr)
@@ -67,150 +132,79 @@ def create_worktree(workflow_type, slug, base_branch):
 
     # Verify base branch exists
     try:
-        subprocess.run(
-            ['git', 'rev-parse', '--verify', base_branch],
-            check=True,
-            capture_output=True,
-            text=True
-        )
+        subprocess.run(["git", "rev-parse", "--verify", base_branch], check=True, capture_output=True, text=True)
     except subprocess.CalledProcessError:
         print(f"ERROR: Base branch '{base_branch}' does not exist", file=sys.stderr)
         print("Available branches:", file=sys.stderr)
-        subprocess.run(['git', 'branch', '-a'], stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "branch", "-a"], stderr=subprocess.DEVNULL)
         raise
 
     worktree_path = repo_root.parent / f"{repo_root.name}_{workflow_type}_{timestamp}_{slug}"
 
     # Check if worktree path already exists
     if worktree_path.exists():
-        raise FileExistsError(
-            f"Worktree path already exists: {worktree_path}\n"
-            f"Remove it first with: git worktree remove {worktree_path}"
-        )
+        raise FileExistsError(f"Worktree path already exists: {worktree_path}\nRemove it first with: git worktree remove {worktree_path}")
 
     # Create worktree
     try:
-        subprocess.run([
-            'git', 'worktree', 'add',
-            str(worktree_path),
-            '-b', branch_name,
-            base_branch
-        ], check=True, stderr=subprocess.PIPE, text=True)
+        subprocess.run(["git", "worktree", "add", str(worktree_path), "-b", branch_name, base_branch], check=True, stderr=subprocess.PIPE, text=True)
     except subprocess.CalledProcessError as e:
         print("ERROR: Failed to create worktree", file=sys.stderr)
         print(f"Command: git worktree add {worktree_path} -b {branch_name} {base_branch}", file=sys.stderr)
         print(f"Git error: {e.stderr.strip()}", file=sys.stderr)
         raise
 
-    # Get VCS username (GitHub/Azure DevOps)
+    # Initialize .claude-state/ directory in new worktree
+    state_dir = worktree_path / ".claude-state"
     try:
-        vcs = get_vcs_adapter()
-        gh_user = vcs.get_current_user()
-    except RuntimeError as e:
-        print("ERROR: Failed to get VCS username", file=sys.stderr)
-        print(f"Error: {e}", file=sys.stderr)
-        raise
+        state_dir.mkdir(exist_ok=True)
+        # Create .gitignore in state dir
+        (state_dir / ".gitignore").write_text("# Ignore all files in state directory\n*\n")
+        # Create .worktree-id with hash of worktree path (using shared implementation)
+        worktree_id = compute_worktree_id(worktree_path)
+        (state_dir / ".worktree-id").write_text(worktree_id)
+        print(f"[OK] State directory: {state_dir}")
 
-    todo_filename = f"TODO_{workflow_type}_{timestamp}_{slug}.md"
-    todo_path = repo_root / todo_filename
-
-    # Check if TODO file already exists
-    if todo_path.exists():
-        print(
-            f"WARNING: TODO file already exists: {todo_filename}\n"
-            f"This worktree may have been created before.",
-            file=sys.stderr
-        )
-
-    # Copy template and customize
-    template_path = repo_root / '.claude' / 'skills' / 'workflow-orchestrator' / 'templates' / 'TODO_template.md'
-
-    # Use timezone-aware datetime for creation timestamp
-    created_timestamp = datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
-
-    try:
-        if template_path.exists():
-            try:
-                with open(template_path) as f:
-                    content = f.read()
-            except (IOError, PermissionError) as e:
-                print(f"ERROR: Cannot read template file: {template_path}", file=sys.stderr)
-                print(f"Error: {e}", file=sys.stderr)
-                raise
-
-            # Replace placeholders
-            content = content.replace('{{WORKFLOW_TYPE}}', workflow_type)
-            content = content.replace('{{SLUG}}', slug)
-            content = content.replace('{{TIMESTAMP}}', timestamp)
-            content = content.replace('{{GH_USER}}', gh_user)
-            content = content.replace('{{TITLE}}', slug.replace('-', ' ').title())
-            content = content.replace('{{DESCRIPTION}}', f"{workflow_type.title()} for {slug}")
-            content = content.replace('{{CREATED}}', created_timestamp)
-
-            try:
-                with open(todo_path, 'w') as f:
-                    f.write(content)
-            except (IOError, PermissionError) as e:
-                print(f"ERROR: Cannot write TODO file: {todo_path}", file=sys.stderr)
-                print(f"Error: {e}", file=sys.stderr)
-                raise
+        # Create symlink for shared AgentDB (repo_root is main repo)
+        if setup_agentdb_symlink(worktree_path, repo_root):
+            print(f"[OK] AgentDB symlink: {state_dir / 'agentdb.duckdb'} -> main repo")
         else:
-            # Create minimal TODO if template doesn't exist
-            print(f"WARNING: Template not found at {template_path}, using minimal TODO", file=sys.stderr)
-            try:
-                with open(todo_path, 'w') as f:
-                    f.write(f"""---
-type: workflow-manifest
-workflow_type: {workflow_type}
-slug: {slug}
-timestamp: {timestamp}
-github_user: {gh_user}
----
+            print("[INFO]  AgentDB: isolated (symlink creation failed)")
+    except (OSError, PermissionError) as e:
+        print(f"[WARN]  Could not create state directory: {e}", file=sys.stderr)
 
-# TODO: {slug}
+    print(f"[OK] Worktree created: {worktree_path}")
+    print(f"[OK] Branch: {branch_name}")
 
-Workflow: {workflow_type}
-Created: {created_timestamp}
-""")
-            except (IOError, PermissionError) as e:
-                print(f"ERROR: Cannot write TODO file: {todo_path}", file=sys.stderr)
-                print(f"Error: {e}", file=sys.stderr)
-                raise
-    except Exception:
-        # Cleanup worktree if TODO creation failed
-        print("ERROR: TODO file creation failed, cleaning up worktree...", file=sys.stderr)
-        try:
-            subprocess.run(['git', 'worktree', 'remove', str(worktree_path)],
-                         stderr=subprocess.DEVNULL, check=False)
-            subprocess.run(['git', 'branch', '-D', branch_name],
-                         stderr=subprocess.DEVNULL, check=False)
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            # Ignore errors during cleanup: worktree/branch may not exist or removal may fail,
-            # but the original error is more important and will be re-raised.
-            pass
-        raise
+    return {"worktree_path": str(worktree_path), "branch_name": branch_name, "state_dir": str(state_dir) if state_dir.exists() else None}
 
-    print(f"✓ Worktree created: {worktree_path}")
-    print(f"✓ Branch: {branch_name}")
-    print(f"✓ TODO file: {todo_filename}")
 
-    return {
-        'worktree_path': str(worktree_path),
-        'branch_name': branch_name,
-        'todo_file': todo_filename
-    }
+def main():
+    """Main entry point with argparse."""
+    parser = argparse.ArgumentParser(
+        description="Create feature/release/hotfix worktree",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Create feature worktree
+  python create_worktree.py feature my-feature contrib/stharrold
 
-if __name__ == '__main__':
-    if len(sys.argv) != 4:
-        print("Usage: create_worktree.py <feature|release|hotfix> <slug> <base_branch>", file=sys.stderr)
-        print(f"\nValid workflow types: {', '.join(VALID_WORKFLOW_TYPES)}", file=sys.stderr)
-        print("\nExample: create_worktree.py feature my-feature contrib/username", file=sys.stderr)
-        sys.exit(1)
+  # Create release worktree
+  python create_worktree.py release v1.6.0 develop
+""",
+    )
+
+    parser.add_argument("workflow_type", choices=VALID_WORKFLOW_TYPES, help="Workflow type")
+    parser.add_argument("slug", help="Short descriptive name (e.g., my-feature, v1.6.0)")
+    parser.add_argument("base_branch", help="Branch to create from (e.g., contrib/username, develop)")
+
+    args = parser.parse_args()
 
     try:
-        result = create_worktree(sys.argv[1], sys.argv[2], sys.argv[3])
+        result = create_worktree(args.workflow_type, args.slug, args.base_branch)
 
         import json
+
         print(json.dumps(result))
     except (ValueError, FileExistsError) as e:
         print(f"\n{e}", file=sys.stderr)
@@ -221,3 +215,7 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\nUnexpected error: {e}", file=sys.stderr)
         sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
