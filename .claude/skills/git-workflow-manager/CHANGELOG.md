@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Planning document verification in create_worktree.py** - Ensures BMAD planning docs are committed before worktree creation
+  - New `verify_planning_committed()` function with three checks:
+    1. Planning directory exists (`planning/{slug}/`)
+    2. No uncommitted changes in planning directory
+    3. Local branch is pushed to remote
+  - Only applies to feature worktrees (release/hotfix skip verification)
+  - Clear error messages with actionable resolution commands
+  - Prevents worktrees without planning context
+
 ### Planned
 - Enhanced worktree cleanup with validation
 
@@ -27,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Updated WORKFLOW.md to document pre-PR rebase pattern
 
 ### Fixed
-- **Back-merge PRs no longer require merge commits** - Identified during v1.9.0 release (PR #127)
+- **Back-merge PRs no longer require merge commits** - Identified during v1.9.0 release
   - Previous behavior: Created PR without rebasing, causing "branch out-of-date" warnings
   - New behavior: Rebases first, then creates PR with clean linear history
 
@@ -49,7 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Updated SKILL.md with comprehensive work-item generation documentation
-- Updated CLAUDE.md with Phase 4 PR feedback workflow examples
+- Updated GEMINI.md with Phase 4 PR feedback workflow examples
 - Added decision tree for simple fixes vs. work-item generation
 
 ### Token Efficiency
