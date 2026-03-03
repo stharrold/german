@@ -21,7 +21,7 @@ vcs_path = (
     / '.claude' / 'skills' / 'workflow-utilities' / 'scripts'
 )
 sys.path.insert(0, str(vcs_path))
-from vcs.provider import VCSProvider, _cached_provider, detect_provider  # noqa: E402
+from vcs.provider import VCSProvider, detect_provider  # noqa: E402
 
 
 @pytest.fixture(autouse=True)
