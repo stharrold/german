@@ -88,17 +88,29 @@ def return_to_editable_branch() -> bool:
 
 
 def run_quality_gates() -> bool:
-    """Run quality gates before PR."""
+    """Run quality gates before PR.
+
+    Quality gates are now enforced by CI (tests.yml) rather than a local script.
+    This function runs linting and tests directly via uv.
+    """
     print("\n[Quality Gates] Running quality gates...")
-    script_path = Path(".claude/skills/quality-enforcer/scripts/run_quality_gates.py")
 
-    if not script_path.exists():
-        safe_print(format_warning("  Quality gates script not found, skipping"))
-        return True
+    # Run ruff check
+    safe_print("  Running ruff check...")
+    result = subprocess.run(["uv", "run", "ruff", "check", "."], check=False)
+    if result.returncode != 0:
+        safe_print(format_cross("  Ruff linting failed"))
+        return False
 
-    result = subprocess.run(["podman-compose", "run", "--rm", "dev", "python", str(script_path)], check=False)
+    # Run tests
+    safe_print("  Running pytest...")
+    result = subprocess.run(["uv", "run", "pytest"], check=False)
+    if result.returncode != 0:
+        safe_print(format_cross("  Tests failed"))
+        return False
 
-    return result.returncode == 0
+    safe_print(format_check("  Quality gates passed"))
+    return True
 
 
 def step_finish_feature() -> bool:
@@ -140,9 +152,9 @@ def step_finish_feature() -> bool:
         create_pr(
             base=contrib,
             head=current,
-            title="",
+            title=f"feat: merge {current} into {contrib}",
             body="Feature PR created via workflow automation.\n\n[BOT] Generated with [Claude Code](https://claude.ai/code)",
-            fill=True,
+            fill=False,
         )
     except RuntimeError as e:
         error_msg = str(e)
@@ -188,7 +200,7 @@ def step_start_develop() -> bool:
         create_pr(
             base="develop",
             head=contrib,
-            title="",
+            title=f"chore: merge {contrib} into develop",
             body=(
                 f"Integration PR: {contrib} -> develop\n\n"
                 "Workflow steps completed:\n"
@@ -196,7 +208,7 @@ def step_start_develop() -> bool:
                 "- [x] AI config synced\n\n"
                 "[BOT] Generated with [Claude Code](https://claude.ai/code)"
             ),
-            fill=True,
+            fill=False,
         )
     except RuntimeError as e:
         error_msg = str(e)

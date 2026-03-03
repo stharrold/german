@@ -44,6 +44,12 @@ def archive_spec(spec_id: str, dry_run: bool = False) -> bool:
         True if archival succeeded, False otherwise
     """
     repo_root = get_repo_root()
+
+    # Validate spec_id to prevent path traversal
+    if ".." in spec_id or spec_id.startswith("/") or "/" in spec_id:
+        print(f"\u2717 Invalid spec_id (must not contain '..', '/', or be absolute): {spec_id}", file=sys.stderr)
+        return False
+
     spec_dir = repo_root / "specs" / spec_id
 
     if not spec_dir.exists():

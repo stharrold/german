@@ -1,7 +1,7 @@
 ---
 type: claude-context
 directory: .claude/skills/workflow-orchestrator
-purpose: Workflow Orchestrator is **the main coordinator skill** for the 4-phase v7x1 workflow system. Unlike other skills, it contains no executable scripts - instead, it provides algorithmic guidance for Claude Code to detect workflow context, determine current phase, load appropriate skills dynamically, and manage context usage. This is a **conceptual skill** that directs Gemini's behavior rather than providing callable tools.
+purpose: Workflow Orchestrator is **the main coordinator skill** for the 4-step v7x1 workflow system. Unlike other skills, it contains no executable scripts - instead, it provides algorithmic guidance for Claude Code to detect workflow context, determine current phase, load appropriate skills dynamically, and manage context usage. This is a **conceptual skill** that directs Claude's behavior rather than providing callable tools.
 parent: ../CLAUDE.md
 sibling_readme: README.md
 children:
@@ -19,7 +19,7 @@ related_skills:
 
 ## Purpose
 
-Workflow Orchestrator is **the main coordinator skill** for the 7-phase workflow system. Unlike other skills, it contains no executable scripts - instead, it provides algorithmic guidance for Claude Code to detect workflow context, determine current phase, load appropriate skills dynamically, and manage context usage. This is a **conceptual skill** that directs Gemini's behavior rather than providing callable tools.
+Workflow Orchestrator is **the main coordinator skill** for the 4-step v7x1 workflow system. Unlike other skills, it contains no executable scripts - instead, it provides algorithmic guidance for Claude Code to detect workflow context, determine current phase, load appropriate skills dynamically, and manage context usage. This is a **conceptual skill** that directs Claude's behavior rather than providing callable tools.
 
 > **Note**: As of v7x1.0, workflow state tracking has migrated from TODO_*.md files to AgentDB (DuckDB). Use `query_workflow_state.py` from `agentdb-state-manager` to determine current phase instead of parsing TODO files.
 
@@ -46,7 +46,7 @@ Workflow Orchestrator is **the main coordinator skill** for the 7-phase workflow
 **Why no scripts?**
 - Orchestration logic is too dynamic for static scripts
 - Needs to adapt to conversation context and user intent
-- Requires Gemini's natural language understanding
+- Requires Claude's natural language understanding
 - Context detection is built into Claude Code's capabilities
 
 **What SKILL.md provides:**

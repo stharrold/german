@@ -46,7 +46,7 @@ DIR_PURPOSES = {
     ".claude": "Claude Code configuration root containing commands, skills, and settings.",
     ".claude/commands": "Slash command definitions organized by category.",
     ".claude/commands/workflow": "7-phase workflow commands (/1_specify through /7_backmerge plus orchestrator).",
-    ".claude/skills": "Modular skill implementations (9 skills) for workflow automation.",
+    ".claude/skills": "Modular skill implementations for workflow automation.",
     ".agents": "Auto-synced mirror of .claude/skills/ for cross-tool AI compatibility. Do not edit directly.",
     "docs": "Documentation root for guides, references, and archives.",
     "docs/archived": "Compressed and deprecated documentation.",

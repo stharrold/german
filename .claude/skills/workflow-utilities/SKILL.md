@@ -19,7 +19,7 @@ description: |
 
 ```bash
 # Archive deprecated files
-uv run python .claude/skills/workflow-utilities/scripts/deprecate_files.py <desc> <files...>
+uv run python .claude/skills/workflow-utilities/scripts/deprecate_files.py <todo_file> <desc> <files...>
 
 # List/extract archives
 uv run python .claude/skills/workflow-utilities/scripts/archive_manager.py list
