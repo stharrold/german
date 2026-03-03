@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-3-004",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Anzeigen: Freizeitangebote",
+  "instructions": "Lesen Sie die Anzeigen a bis e und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Situation?",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Anzeige A: Wanderverein Alpenfreunde — Jeden Sonntag Wanderungen in der Umgebung. Strecken zwischen 10 und 20 km. Treffpunkt: 8 Uhr am Hauptbahnhof. Jahresbeitrag: 40 Euro. Kinder bis 14 Jahre kostenlos. Info: www.alpenfreunde.de.\n\nAnzeige B: Kino am Marktplatz — Jeden Dienstag Kinotag! Alle Filme für nur 5 Euro. Originale Sprachfassung (OV) jeden Donnerstag um 20:15 Uhr. Studentenrabatt: 20% mit gültigem Ausweis.\n\nAnzeige C: Schwimmhalle Aqua-Fun — Neu: Aqua-Fitness-Kurse jeden Mittwoch und Freitag von 19–20 Uhr. Eintritt + Kurs: 8 Euro. Familienkarte (2 Erwachsene + Kinder): 15 Euro/Besuch. Sauna und Dampfbad inklusive.\n\nAnzeige D: Kletterhalle Bergwelt — Indoor-Klettern für alle Level. Schnupperkurs für Anfänger jeden Samstag 10–12 Uhr, 25 Euro inkl. Ausrüstung. Monatskarte: 49 Euro. Kindergeburtstage auf Anfrage.\n\nAnzeige E: Kunstverein Kreativ — Malkurse für Erwachsene: Aquarell, Öl, Acryl. Jeden Donnerstag 18–20:30 Uhr im Atelier in der Karlstraße 12. Material wird gestellt. Monatsgebühr: 60 Euro. Probestunde gratis!",
+    "text_en": "Ad A: Hiking Club Alpenfreunde — Hikes in the surrounding area every Sunday. Routes between 10 and 20 km. Meeting point: 8 AM at the main train station. Annual fee: 40 euros. Children up to 14 free. Info: www.alpenfreunde.de.\n\nAd B: Cinema at the Market Square — Every Tuesday is cinema day! All films for only 5 euros. Original language version (OV) every Thursday at 8:15 PM. Student discount: 20% with valid ID.\n\nAd C: Aqua-Fun Swimming Hall — New: Aqua fitness courses every Wednesday and Friday from 7–8 PM. Entry + course: 8 euros. Family card (2 adults + children): 15 euros/visit. Sauna and steam bath included.\n\nAd D: Bergwelt Climbing Hall — Indoor climbing for all levels. Taster course for beginners every Saturday 10 AM–12 PM, 25 euros incl. equipment. Monthly pass: 49 euros. Children's birthday parties on request.\n\nAd E: Kreativ Art Association — Painting courses for adults: watercolor, oil, acrylic. Every Thursday 6–8:30 PM at the studio at Karlstraße 12. Materials provided. Monthly fee: 60 euros. Trial lesson free!",
+    "source": "Freizeitangebote",
+    "word_count": 192
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr Meier möchte mit seiner Frau und seinen drei Kindern schwimmen gehen. Er sucht ein günstiges Angebot.",
+      "text_en": "Mr. Meier wants to go swimming with his wife and three children. He is looking for an affordable offer.",
+      "correct_answer": "Anzeige C",
+      "explanation_de": "Die Familienkarte für 2 Erwachsene + Kinder kostet nur 15 Euro.",
+      "explanation_en": "The family card for 2 adults + children costs only 15 euros."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Studentin Lisa möchte gerne günstig ins Kino gehen.",
+      "text_en": "Student Lisa would like to go to the cinema cheaply.",
+      "correct_answer": "Anzeige B",
+      "explanation_de": "Dienstags kosten alle Filme nur 5 Euro und es gibt einen Studentenrabatt.",
+      "explanation_en": "On Tuesdays, all films cost only 5 euros and there is a student discount."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Frau Weber möchte malen lernen, aber sie hat keine eigenen Materialien. Sie will erst eine Stunde ausprobieren.",
+      "text_en": "Mrs. Weber wants to learn painting, but she has no materials of her own. She wants to try a lesson first.",
+      "correct_answer": "Anzeige E",
+      "explanation_de": "Im Kunstverein wird Material gestellt und die Probestunde ist gratis.",
+      "explanation_en": "At the art association, materials are provided and the trial lesson is free."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Park möchte am Wochenende gerne eine neue Sportart ausprobieren. Er hat noch nie geklettert.",
+      "text_en": "Mr. Park would like to try a new sport on the weekend. He has never climbed before.",
+      "correct_answer": "Anzeige D",
+      "explanation_de": "Der Schnupperkurs für Anfänger ist jeden Samstag, Ausrüstung inklusive.",
+      "explanation_en": "The taster course for beginners is every Saturday, equipment included."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Familie Schmidt wandert gerne mit ihren Kindern (8 und 12 Jahre). Sie sucht eine regelmäßige Gruppe.",
+      "text_en": "The Schmidt family likes hiking with their children (ages 8 and 12). They are looking for a regular group.",
+      "correct_answer": "Anzeige A",
+      "explanation_de": "Der Wanderverein bietet Sonntagswanderungen und Kinder bis 14 sind kostenlos.",
+      "explanation_en": "The hiking club offers Sunday hikes and children up to 14 are free."
+    }
+  ]
+}

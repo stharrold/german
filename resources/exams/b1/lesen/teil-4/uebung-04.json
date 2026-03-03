@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-4-004",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Führerschein ab 16?",
+  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Jonas, 17): Ich finde es super! Ich wohne auf dem Land und der nächste Bus fährt nur zweimal am Tag. Wenn ich Auto fahren dürfte, wäre ich viel unabhängiger und müsste meine Eltern nicht immer bitten, mich irgendwohin zu fahren.\n\nKommentar B (Dr. Krause, 58, Verkehrspsychologe): Aus psychologischer Sicht sind 16-Jährige noch nicht reif genug. Studien zeigen, dass das Gehirn erst mit Anfang 20 vollständig entwickelt ist. Besonders die Risikoeinschätzung ist bei Jugendlichen noch nicht ausgereift.\n\nKommentar C (Andrea, 40): Mein Sohn fährt seit einem Jahr 'begleitetes Fahren mit 17' und ich bin beeindruckt, wie verantwortungsvoll er fährt. Das Programm mit Begleitung funktioniert gut und ich könnte mir vorstellen, es auf 16 auszuweiten.\n\nKommentar D (Fatima, 33): Ich bin dagegen. Es gibt genug Unfälle mit jungen Fahrern. Statt das Führerscheinalter zu senken, sollte man lieber den öffentlichen Nahverkehr auf dem Land verbessern.\n\nKommentar E (Markus, 50, Fahrlehrer): Die Fahrausbildung sollte intensiver werden, egal ab welchem Alter. Mehr Praxisstunden, besonders bei Nacht und auf der Autobahn, würden die Sicherheit für alle verbessern.",
+    "text_en": "Comment A (Jonas, 17): I think it's great! I live in the countryside and the nearest bus only runs twice a day. If I were allowed to drive, I would be much more independent and wouldn't have to always ask my parents to drive me somewhere.\n\nComment B (Dr. Krause, 58, traffic psychologist): From a psychological perspective, 16-year-olds are not yet mature enough. Studies show that the brain is only fully developed in the early 20s. Risk assessment in particular is not yet fully developed in adolescents.\n\nComment C (Andrea, 40): My son has been doing 'accompanied driving at 17' for a year and I am impressed by how responsibly he drives. The accompanied program works well and I could imagine extending it to 16.\n\nComment D (Fatima, 33): I am against it. There are enough accidents with young drivers. Instead of lowering the driving age, public transport in rural areas should be improved.\n\nComment E (Markus, 50, driving instructor): Driver training should become more intensive, regardless of the age. More practical lessons, especially at night and on the motorway, would improve safety for everyone.",
+    "source": "Online-Forum",
+    "word_count": 218
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer argumentiert mit wissenschaftlichen Erkenntnissen über die Gehirnentwicklung?",
+      "text_en": "Who argues with scientific findings about brain development?",
+      "correct_answer": "Dr. Krause",
+      "explanation_de": "Dr. Krause verweist auf Studien zur Gehirnentwicklung bei Jugendlichen.",
+      "explanation_en": "Dr. Krause refers to studies on brain development in adolescents."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer hat positive Erfahrungen mit dem begleiteten Fahren gemacht?",
+      "text_en": "Who has had positive experiences with accompanied driving?",
+      "correct_answer": "Andrea",
+      "explanation_de": "Andrea ist beeindruckt, wie verantwortungsvoll ihr Sohn beim begleiteten Fahren ist.",
+      "explanation_en": "Andrea is impressed by how responsibly her son drives with accompanied driving."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer möchte lieber den öffentlichen Nahverkehr verbessern?",
+      "text_en": "Who would rather improve public transport?",
+      "correct_answer": "Fatima",
+      "explanation_de": "Fatima meint, man sollte den öffentlichen Nahverkehr auf dem Land verbessern.",
+      "explanation_en": "Fatima thinks public transport in rural areas should be improved."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer braucht ein Auto, weil es wenig öffentliche Verkehrsmittel gibt?",
+      "text_en": "Who needs a car because there is little public transport?",
+      "correct_answer": "Jonas",
+      "explanation_de": "Jonas wohnt auf dem Land und der Bus fährt nur zweimal am Tag.",
+      "explanation_en": "Jonas lives in the countryside and the bus only runs twice a day."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer fordert eine bessere Fahrausbildung?",
+      "text_en": "Who demands better driver training?",
+      "correct_answer": "Markus",
+      "explanation_de": "Markus möchte mehr Praxisstunden in der Fahrausbildung.",
+      "explanation_en": "Markus wants more practical lessons in driver training."
+    }
+  ]
+}

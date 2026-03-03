@@ -1,0 +1,103 @@
+{
+  "id": "b1-hoeren-teil-3-004",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltagsgespräch — Elternabend",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Mutter",
+      "text_de": "Hallo Thomas, wie war der Elternabend gestern? Ich konnte leider nicht kommen.",
+      "text_en": "Hello Thomas, how was the parent-teacher evening yesterday? Unfortunately, I couldn't come."
+    },
+    {
+      "speaker": "Vater",
+      "text_de": "Es war ganz interessant. Die Klassenlehrerin, Frau Hoffmann, hat über die Klassenfahrt im Juni gesprochen. Die Klasse fährt nach Weimar für drei Tage.",
+      "text_en": "It was quite interesting. The class teacher, Ms. Hoffmann, talked about the class trip in June. The class is going to Weimar for three days."
+    },
+    {
+      "speaker": "Mutter",
+      "text_de": "Weimar? Das ist schön. Und was kostet die Fahrt?",
+      "text_en": "Weimar? That's nice. And how much does the trip cost?"
+    },
+    {
+      "speaker": "Vater",
+      "text_de": "180 Euro pro Kind. Das beinhaltet die Busfahrt, die Unterkunft in einer Jugendherberge und das Frühstück. Das Mittagessen und Abendessen müssen die Kinder selbst bezahlen.",
+      "text_en": "180 euros per child. That includes the bus ride, accommodation in a youth hostel, and breakfast. The children have to pay for lunch and dinner themselves."
+    },
+    {
+      "speaker": "Mutter",
+      "text_de": "Das ist fair. Was machen sie in Weimar?",
+      "text_en": "That's fair. What are they doing in Weimar?"
+    },
+    {
+      "speaker": "Vater",
+      "text_de": "Sie besuchen das Goethe-Haus, das Bauhaus-Museum und machen eine Stadtführung. Am letzten Tag gibt es einen Ausflug in den Nationalpark.",
+      "text_en": "They are visiting the Goethe House, the Bauhaus Museum, and doing a city tour. On the last day, there is an excursion to the national park."
+    },
+    {
+      "speaker": "Mutter",
+      "text_de": "Das klingt toll. Und wie war es sonst beim Elternabend? Gab es noch andere Themen?",
+      "text_en": "That sounds great. And how was the rest of the parent-teacher evening? Were there other topics?"
+    },
+    {
+      "speaker": "Vater",
+      "text_de": "Ja, Frau Hoffmann hat gesagt, dass die Kinder im nächsten Halbjahr ein Theaterstück aufführen werden. Die Proben beginnen nach den Osterferien.",
+      "text_en": "Yes, Ms. Hoffmann said that the children will perform a play in the next semester. Rehearsals begin after the Easter holidays."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wohin fährt die Klasse auf Klassenfahrt?",
+      "text_en": "Where is the class going on the class trip?",
+      "correct_answer": "c",
+      "options": ["a) Nach Berlin", "b) Nach Dresden", "c) Nach Weimar"],
+      "explanation_de": "Die Klasse fährt nach Weimar.",
+      "explanation_en": "The class is going to Weimar."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Klassenfahrt pro Kind?",
+      "text_en": "How much does the class trip cost per child?",
+      "correct_answer": "b",
+      "options": ["a) 150 Euro", "b) 180 Euro", "c) 200 Euro"],
+      "explanation_de": "Die Fahrt kostet 180 Euro pro Kind.",
+      "explanation_en": "The trip costs 180 euros per child."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was ist nicht im Preis enthalten?",
+      "text_en": "What is not included in the price?",
+      "correct_answer": "c",
+      "options": ["a) Die Busfahrt", "b) Das Frühstück", "c) Das Mittagessen"],
+      "explanation_de": "Mittagessen und Abendessen müssen die Kinder selbst bezahlen.",
+      "explanation_en": "The children have to pay for lunch and dinner themselves."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was besuchen die Kinder in Weimar?",
+      "text_en": "What do the children visit in Weimar?",
+      "correct_answer": "a",
+      "options": ["a) Das Goethe-Haus und das Bauhaus-Museum", "b) Das Schiller-Haus und den Zoo", "c) Das Rathaus und den Marktplatz"],
+      "explanation_de": "Sie besuchen das Goethe-Haus und das Bauhaus-Museum.",
+      "explanation_en": "They visit the Goethe House and the Bauhaus Museum."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was planen die Kinder im nächsten Halbjahr?",
+      "text_en": "What are the children planning in the next semester?",
+      "correct_answer": "b",
+      "options": ["a) Einen Sportwettbewerb", "b) Ein Theaterstück", "c) Ein Musikkonzert"],
+      "explanation_de": "Die Kinder werden ein Theaterstück aufführen.",
+      "explanation_en": "The children will perform a play."
+    }
+  ]
+}

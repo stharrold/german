@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-2-004",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Pressebericht: Neue Regelungen für Mieter",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Ab dem 1. Januar gelten in Deutschland neue Regelungen zum Mietrecht. Die wichtigste Änderung betrifft die Mietpreisbremse: In Städten mit angespanntem Wohnungsmarkt darf die Miete bei Neuvermietung höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen. Diese Regelung gilt jetzt für alle Städte mit mehr als 100.000 Einwohnern.\n\nAußerdem müssen Vermieter künftig alle Modernisierungsmaßnahmen mindestens drei Monate im Voraus ankündigen. Bisher waren es nur zwei Monate. Die Kosten für Modernisierungen dürfen nur noch zu maximal acht Prozent auf die Jahresmiete umgelegt werden, vorher waren es elf Prozent.\n\nDer Deutsche Mieterbund begrüßt die neuen Regelungen. 'Das ist ein wichtiger Schritt zum Schutz der Mieter', sagt Präsident Klaus Berger. 'Viele Menschen können sich die steigenden Mieten nicht mehr leisten.' In den letzten zehn Jahren sind die Mieten in Großstädten wie München, Hamburg und Berlin um durchschnittlich 40 Prozent gestiegen.\n\nDer Verband der Immobilienwirtschaft sieht die Änderungen hingegen kritisch. 'Zu strenge Regulierung führt dazu, dass weniger neue Wohnungen gebaut werden', warnt Geschäftsführerin Monika Lehmann. Sie verweist darauf, dass in Deutschland jährlich 400.000 neue Wohnungen gebraucht werden, aber nur 250.000 gebaut werden.",
+    "text_en": "As of January 1st, new rental law regulations take effect in Germany. The most important change concerns the rent brake: In cities with a tight housing market, rent for new leases may be at most ten percent above the local comparative rent. This regulation now applies to all cities with more than 100,000 residents.\n\nIn addition, landlords must in future announce all modernization measures at least three months in advance. Previously, it was only two months. The costs for modernizations may now only be passed on to the annual rent at a maximum of eight percent, previously it was eleven percent.\n\nThe German Tenants' Association welcomes the new regulations. 'This is an important step to protect tenants,' says President Klaus Berger. 'Many people can no longer afford the rising rents.' Over the last ten years, rents in major cities like Munich, Hamburg, and Berlin have risen by an average of 40 percent.\n\nThe Association of the Real Estate Industry, on the other hand, views the changes critically. 'Too strict regulation leads to fewer new apartments being built,' warns CEO Monika Lehmann. She points out that 400,000 new apartments are needed annually in Germany, but only 250,000 are being built.",
+    "source": "Frankfurter Allgemeine Zeitung",
+    "word_count": 218
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent über der Vergleichsmiete darf die Miete maximal liegen?",
+      "text_en": "How many percent above the comparative rent may the rent be at most?",
+      "correct_answer": "a",
+      "options": ["a) Zehn Prozent", "b) Fünfzehn Prozent", "c) Zwanzig Prozent"],
+      "explanation_de": "Die Miete darf höchstens zehn Prozent über der Vergleichsmiete liegen.",
+      "explanation_en": "The rent may be at most ten percent above the comparative rent."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange im Voraus müssen Modernisierungen jetzt angekündigt werden?",
+      "text_en": "How far in advance must modernizations now be announced?",
+      "correct_answer": "c",
+      "options": ["a) Einen Monat", "b) Zwei Monate", "c) Drei Monate"],
+      "explanation_de": "Modernisierungen müssen mindestens drei Monate im Voraus angekündigt werden.",
+      "explanation_en": "Modernizations must be announced at least three months in advance."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent sind die Mieten in Großstädten in zehn Jahren gestiegen?",
+      "text_en": "By how many percent have rents in major cities risen in ten years?",
+      "correct_answer": "b",
+      "options": ["a) 20 Prozent", "b) 40 Prozent", "c) 60 Prozent"],
+      "explanation_de": "Die Mieten sind durchschnittlich um 40 Prozent gestiegen.",
+      "explanation_en": "Rents have risen by an average of 40 percent."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum kritisiert die Immobilienwirtschaft die neuen Regeln?",
+      "text_en": "Why does the real estate industry criticize the new rules?",
+      "correct_answer": "a",
+      "options": ["a) Weil weniger neue Wohnungen gebaut werden könnten", "b) Weil die Mieten zu niedrig werden", "c) Weil die Baukosten steigen"],
+      "explanation_de": "Sie warnt, dass zu strenge Regulierung dazu führt, dass weniger Wohnungen gebaut werden.",
+      "explanation_en": "They warn that too strict regulation leads to fewer apartments being built."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Wohnungen werden jährlich in Deutschland gebaut?",
+      "text_en": "How many apartments are built annually in Germany?",
+      "correct_answer": "b",
+      "options": ["a) 150.000", "b) 250.000", "c) 400.000"],
+      "explanation_de": "Es werden nur 250.000 gebaut, obwohl 400.000 gebraucht werden.",
+      "explanation_en": "Only 250,000 are built, although 400,000 are needed."
+    }
+  ]
+}

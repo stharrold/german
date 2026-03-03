@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-5-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Ordnung: Bibliotheksordnung",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Benutzungsordnung der Stadtbibliothek Dresden\n\n1. Anmeldung: Für die Ausleihe benötigen Sie einen gültigen Bibliotheksausweis. Die Anmeldung ist kostenlos. Bringen Sie bitte einen Personalausweis oder Reisepass zur Erstanmeldung mit. Jugendliche unter 16 Jahren benötigen die Unterschrift eines Erziehungsberechtigten.\n\n2. Ausleihe: Sie können maximal 20 Medien gleichzeitig ausleihen. Bücher und Zeitschriften: 4 Wochen. DVDs und CDs: 2 Wochen. Eine Verlängerung ist zweimal möglich, sofern keine Vormerkung vorliegt. Die Verlängerung kann telefonisch, online oder vor Ort erfolgen.\n\n3. Gebühren: Die Grundnutzung ist kostenlos. Bei verspäteter Rückgabe werden folgende Mahngebühren erhoben: 1. Mahnung: 2 Euro, 2. Mahnung: 5 Euro, 3. Mahnung: 10 Euro. Bei Verlust oder Beschädigung ist der Wiederbeschaffungswert zu erstatten.\n\n4. Verhalten: In der Bibliothek gilt Ruhe. Essen ist nicht erlaubt. Getränke sind nur in verschlossenen Behältern gestattet. Mobiltelefone sind auf lautlos zu stellen.\n\n5. Internet: Die Bibliothek bietet kostenloses WLAN an. Die Nutzung der Computer-Arbeitsplätze ist auf 2 Stunden pro Tag begrenzt. Eine Reservierung ist an der Information möglich.",
+    "text_en": "Usage Rules of the Dresden City Library\n\n1. Registration: You need a valid library card for borrowing. Registration is free. Please bring an ID card or passport for initial registration. Young people under 16 need the signature of a legal guardian.\n\n2. Borrowing: You can borrow a maximum of 20 items at the same time. Books and magazines: 4 weeks. DVDs and CDs: 2 weeks. An extension is possible twice, provided there is no reservation. The extension can be done by phone, online, or in person.\n\n3. Fees: Basic use is free. For late returns, the following reminder fees apply: 1st reminder: 2 euros, 2nd reminder: 5 euros, 3rd reminder: 10 euros. In case of loss or damage, the replacement value must be reimbursed.\n\n4. Behavior: Quiet is required in the library. Eating is not allowed. Drinks are only permitted in sealed containers. Mobile phones must be set to silent.\n\n5. Internet: The library offers free WiFi. Use of computer workstations is limited to 2 hours per day. A reservation is possible at the information desk.",
+    "source": "Bibliotheksordnung",
+    "word_count": 194
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was brauchen Jugendliche unter 16 für die Anmeldung?",
+      "text_en": "What do young people under 16 need for registration?",
+      "correct_answer": "b",
+      "options": ["a) Einen Schülerausweis", "b) Die Unterschrift eines Erziehungsberechtigten", "c) Eine Gebühr von 5 Euro"],
+      "explanation_de": "Jugendliche unter 16 benötigen die Unterschrift eines Erziehungsberechtigten.",
+      "explanation_en": "Young people under 16 need the signature of a legal guardian."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange kann man DVDs ausleihen?",
+      "text_en": "How long can you borrow DVDs?",
+      "correct_answer": "a",
+      "options": ["a) 2 Wochen", "b) 3 Wochen", "c) 4 Wochen"],
+      "explanation_de": "DVDs und CDs können für 2 Wochen ausgeliehen werden.",
+      "explanation_en": "DVDs and CDs can be borrowed for 2 weeks."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Gebühr bei der zweiten Mahnung?",
+      "text_en": "How much is the fee for the second reminder?",
+      "correct_answer": "b",
+      "options": ["a) 2 Euro", "b) 5 Euro", "c) 10 Euro"],
+      "explanation_de": "Die zweite Mahnung kostet 5 Euro.",
+      "explanation_en": "The second reminder costs 5 euros."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist in der Bibliothek erlaubt?",
+      "text_en": "What is allowed in the library?",
+      "correct_answer": "c",
+      "options": ["a) Essen", "b) Laut telefonieren", "c) Getränke in verschlossenen Behältern"],
+      "explanation_de": "Getränke sind nur in verschlossenen Behältern gestattet.",
+      "explanation_en": "Drinks are only permitted in sealed containers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie lange darf man die Computer-Arbeitsplätze nutzen?",
+      "text_en": "How long may you use the computer workstations?",
+      "correct_answer": "a",
+      "options": ["a) Maximal 2 Stunden pro Tag", "b) Maximal 4 Stunden pro Tag", "c) Unbegrenzt"],
+      "explanation_de": "Die Nutzung ist auf 2 Stunden pro Tag begrenzt.",
+      "explanation_en": "Use is limited to 2 hours per day."
+    }
+  ]
+}

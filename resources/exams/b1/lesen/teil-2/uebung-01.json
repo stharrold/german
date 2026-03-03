@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-2-001",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Pressebericht: Neue Fahrradwege für die Stadt",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Die Stadtverwaltung Düsseldorf hat am Montag einen neuen Plan für den Ausbau des Fahrradnetzes vorgestellt. Bis zum Jahr 2028 sollen insgesamt 45 Kilometer neue Radwege entstehen. Das Projekt kostet etwa 12 Millionen Euro und wird teilweise vom Land Nordrhein-Westfalen finanziert.\n\nBürgermeisterin Dr. Petra Koenig erklärte bei der Pressekonferenz: 'Unser Ziel ist es, den Anteil der Radfahrer am Verkehr von derzeit 15 Prozent auf 25 Prozent zu erhöhen. Dafür brauchen wir sichere und gut ausgebaute Radwege.' Besonders wichtig sei die neue Verbindung zwischen dem Hauptbahnhof und der Universität, die über eine eigene Fahrradstraße führen soll.\n\nNicht alle Bürger sind mit dem Plan zufrieden. Einige Geschäftsinhaber in der Innenstadt befürchten, dass durch den Bau der Radwege Parkplätze wegfallen. Der Einzelhändler Thomas Richter sagte: 'Wenn meine Kunden keinen Parkplatz finden, kaufen sie woanders ein.' Die Stadtverwaltung hat jedoch versprochen, neue Parkhäuser als Ersatz zu schaffen.\n\nDer ADFC Düsseldorf begrüßt den Plan, fordert aber auch bessere Abstellmöglichkeiten für Fahrräder. 'Es reicht nicht, nur Radwege zu bauen. Man braucht auch sichere Plätze, wo man sein Rad abstellen kann', sagte die Vorsitzende Maria Lang. Die Stadtverwaltung plant deshalb zusätzlich 2.000 neue Fahrradständer an Bahnhöfen, Schulen und öffentlichen Gebäuden.",
+    "text_en": "The Düsseldorf city administration presented a new plan on Monday for expanding the bicycle network. By 2028, a total of 45 kilometers of new bike paths are to be created. The project costs approximately 12 million euros and is partly financed by the state of North Rhine-Westphalia.\n\nMayor Dr. Petra Koenig explained at the press conference: 'Our goal is to increase the share of cyclists in traffic from currently 15 percent to 25 percent. For this, we need safe and well-developed bike paths.' Particularly important is the new connection between the main train station and the university, which is to run along its own bicycle street.\n\nNot all citizens are satisfied with the plan. Some business owners in the city center fear that parking spaces will be lost due to the construction of bike paths. Retailer Thomas Richter said: 'If my customers can't find a parking space, they'll shop elsewhere.' However, the city administration has promised to create new parking garages as a replacement.\n\nThe ADFC Düsseldorf welcomes the plan but also demands better parking facilities for bicycles. 'It's not enough to just build bike paths. You also need safe places where you can park your bike,' said chairwoman Maria Lang. The city administration is therefore additionally planning 2,000 new bicycle racks at train stations, schools, and public buildings.",
+    "source": "Düsseldorfer Tagblatt",
+    "word_count": 235
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Kilometer neue Radwege sollen gebaut werden?",
+      "text_en": "How many kilometers of new bike paths are to be built?",
+      "correct_answer": "b",
+      "options": ["a) 25 Kilometer", "b) 45 Kilometer", "c) 60 Kilometer"],
+      "explanation_de": "Es sollen insgesamt 45 Kilometer neue Radwege entstehen.",
+      "explanation_en": "A total of 45 kilometers of new bike paths are to be created."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist der aktuelle Anteil der Radfahrer am Verkehr?",
+      "text_en": "What is the current share of cyclists in traffic?",
+      "correct_answer": "a",
+      "options": ["a) 15 Prozent", "b) 20 Prozent", "c) 25 Prozent"],
+      "explanation_de": "Der Anteil liegt derzeit bei 15 Prozent und soll auf 25 Prozent steigen.",
+      "explanation_en": "The share is currently at 15 percent and is to rise to 25 percent."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum sind einige Geschäftsinhaber gegen den Plan?",
+      "text_en": "Why are some business owners against the plan?",
+      "correct_answer": "c",
+      "options": ["a) Weil die Radwege zu laut sind", "b) Weil die Bauarbeiten zu lange dauern", "c) Weil Parkplätze wegfallen könnten"],
+      "explanation_de": "Sie befürchten, dass Parkplätze durch den Bau der Radwege wegfallen.",
+      "explanation_en": "They fear that parking spaces will be lost due to the construction of bike paths."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der ADFC zusätzlich zu Radwegen?",
+      "text_en": "What does the ADFC demand in addition to bike paths?",
+      "correct_answer": "b",
+      "options": ["a) Mehr Ampeln für Radfahrer", "b) Bessere Abstellmöglichkeiten für Fahrräder", "c) Niedrigere Geschwindigkeitsbegrenzungen"],
+      "explanation_de": "Der ADFC fordert bessere Abstellmöglichkeiten für Fahrräder.",
+      "explanation_en": "The ADFC demands better parking facilities for bicycles."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie viele neue Fahrradständer sind geplant?",
+      "text_en": "How many new bicycle racks are planned?",
+      "correct_answer": "c",
+      "options": ["a) 500", "b) 1.000", "c) 2.000"],
+      "explanation_de": "Die Stadt plant 2.000 neue Fahrradständer.",
+      "explanation_en": "The city is planning 2,000 new bicycle racks."
+    }
+  ]
+}

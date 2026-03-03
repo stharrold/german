@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-1-004",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Blog: Mein Semester als Austauschstudent",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Ich heiße Marco und komme aus Italien. Im letzten Wintersemester war ich als Austauschstudent an der Universität Wien. Es war eine unglaubliche Erfahrung, die ich jedem empfehlen kann.\n\nAm Anfang hatte ich Probleme mit der deutschen Sprache. Obwohl ich in der Schule vier Jahre Deutsch gelernt hatte, war es schwer, den österreichischen Dialekt zu verstehen. Meine Mitbewohner im Studentenwohnheim haben zum Glück immer Hochdeutsch mit mir gesprochen und mir neue Wörter erklärt.\n\nDas Studium an der Universität Wien war anders als in Italien. Die Vorlesungen waren sehr interaktiv und die Professoren haben viel Wert auf Diskussionen gelegt. Ich musste auch mehr Hausarbeiten schreiben als zu Hause. Das war anstrengend, aber ich habe viel dabei gelernt.\n\nIn meiner Freizeit habe ich Wien erkundet. Die Stadt ist fantastisch! Ich habe die berühmten Kaffeehäuser besucht, bin durch den Prater spaziert und war mehrmals in der Oper. Der Naschmarkt war mein Lieblingsort — dort gibt es Spezialitäten aus der ganzen Welt.\n\nDas Beste am Auslandssemester waren die internationalen Freundschaften. In meinem Wohnheim lebten Studierende aus zwölf verschiedenen Ländern. Wir haben zusammen gekocht, Ausflüge gemacht und viel voneinander gelernt. Mit einigen bin ich noch heute in Kontakt.\n\nJetzt bin ich wieder in Italien, aber ein Teil von mir ist in Wien geblieben. Ich möchte unbedingt zurückkommen — vielleicht für meinen Master.",
+    "text_en": "My name is Marco and I come from Italy. Last winter semester, I was an exchange student at the University of Vienna. It was an incredible experience that I can recommend to everyone.\n\nIn the beginning, I had problems with the German language. Although I had learned German for four years in school, it was hard to understand the Austrian dialect. My roommates in the student dormitory fortunately always spoke standard German with me and explained new words.\n\nStudying at the University of Vienna was different from Italy. The lectures were very interactive and the professors placed great value on discussions. I also had to write more papers than at home. That was exhausting, but I learned a lot.\n\nIn my free time, I explored Vienna. The city is fantastic! I visited the famous coffee houses, walked through the Prater, and went to the opera several times. The Naschmarkt was my favorite place — there are specialties from all over the world.\n\nThe best thing about the semester abroad were the international friendships. In my dormitory, students from twelve different countries lived together. We cooked together, went on excursions, and learned a lot from each other. I'm still in contact with some of them.\n\nNow I'm back in Italy, but a part of me stayed in Vienna. I definitely want to come back — maybe for my master's degree.",
+    "source": "Blog",
+    "word_count": 248
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Marco war im Sommersemester in Wien.",
+      "text_en": "Marco was in Vienna during the summer semester.",
+      "correct_answer": false,
+      "explanation_de": "Er war im Wintersemester in Wien, nicht im Sommersemester.",
+      "explanation_en": "He was in Vienna in the winter semester, not the summer semester."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Marco hatte am Anfang Schwierigkeiten mit dem österreichischen Dialekt.",
+      "text_en": "Marco had difficulties with the Austrian dialect at first.",
+      "correct_answer": true,
+      "explanation_de": "Es war schwer für ihn, den österreichischen Dialekt zu verstehen.",
+      "explanation_en": "It was hard for him to understand the Austrian dialect."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "An der Universität Wien gab es weniger Hausarbeiten als in Italien.",
+      "text_en": "At the University of Vienna, there were fewer papers than in Italy.",
+      "correct_answer": false,
+      "explanation_de": "Er musste mehr Hausarbeiten schreiben als zu Hause in Italien.",
+      "explanation_en": "He had to write more papers than at home in Italy."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Der Naschmarkt war Marcos Lieblingsort in Wien.",
+      "text_en": "The Naschmarkt was Marco's favorite place in Vienna.",
+      "correct_answer": true,
+      "explanation_de": "Marco sagt, der Naschmarkt war sein Lieblingsort.",
+      "explanation_en": "Marco says the Naschmarkt was his favorite place."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "In Marcos Wohnheim lebten Studierende aus zwanzig Ländern.",
+      "text_en": "In Marco's dormitory, students from twenty countries lived together.",
+      "correct_answer": false,
+      "explanation_de": "Es waren Studierende aus zwölf Ländern, nicht aus zwanzig.",
+      "explanation_en": "There were students from twelve countries, not twenty."
+    }
+  ]
+}

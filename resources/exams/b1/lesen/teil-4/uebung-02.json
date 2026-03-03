@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-4-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Schuluniformen — ja oder nein?",
+  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Thomas, 42): Als Vater von drei Kindern würde ich Schuluniformen sofort begrüßen. Jeden Morgen gibt es bei uns Streit darüber, was die Kinder anziehen wollen. Mit Uniformen wäre das Problem gelöst.\n\nKommentar B (Lena, 16): Auf keinen Fall! Mode ist ein wichtiger Teil meiner Persönlichkeit. Ich drücke mich durch meine Kleidung aus. Eine Uniform würde mich einschränken und das finde ich unfair.\n\nKommentar C (Frau Becker, 55, Lehrerin): In meiner Klasse vergleichen die Schüler ständig ihre Markenklamotten. Kinder aus ärmeren Familien werden manchmal ausgelacht. Uniformen könnten dieses Problem lösen und für mehr Gleichheit sorgen.\n\nKommentar D (Nils, 19): Ich habe in England eine Schule mit Uniform besucht. Am Anfang fand ich es schrecklich, aber nach ein paar Wochen war es ganz normal. Es hat sogar Zeit gespart, weil ich morgens nicht überlegen musste, was ich anziehe.\n\nKommentar E (Aylin, 38): Ich glaube nicht, dass Uniformen Mobbing verhindern. Die Kinder finden immer andere Gründe. Stattdessen sollten Schulen mehr Anti-Mobbing-Programme anbieten.",
+    "text_en": "Comment A (Thomas, 42): As a father of three children, I would immediately welcome school uniforms. Every morning there is an argument about what the children want to wear. With uniforms, the problem would be solved.\n\nComment B (Lena, 16): No way! Fashion is an important part of my personality. I express myself through my clothing. A uniform would restrict me and I find that unfair.\n\nComment C (Mrs. Becker, 55, teacher): In my class, students constantly compare their brand-name clothes. Children from poorer families are sometimes laughed at. Uniforms could solve this problem and create more equality.\n\nComment D (Nils, 19): I attended a school with uniforms in England. At first, I found it terrible, but after a few weeks it was completely normal. It even saved time because I didn't have to think about what to wear in the morning.\n\nComment E (Aylin, 38): I don't believe that uniforms prevent bullying. Children always find other reasons. Instead, schools should offer more anti-bullying programs.",
+    "source": "Online-Forum",
+    "word_count": 208
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer hat persönliche Erfahrung mit Schuluniformen im Ausland?",
+      "text_en": "Who has personal experience with school uniforms abroad?",
+      "correct_answer": "Nils",
+      "explanation_de": "Nils hat in England eine Schule mit Uniform besucht.",
+      "explanation_en": "Nils attended a school with uniforms in England."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer meint, dass Uniformen das Problem der sozialen Unterschiede lösen könnten?",
+      "text_en": "Who thinks that uniforms could solve the problem of social differences?",
+      "correct_answer": "Frau Becker",
+      "explanation_de": "Frau Becker sagt, Uniformen könnten für mehr Gleichheit sorgen.",
+      "explanation_en": "Mrs. Becker says uniforms could create more equality."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer sieht Kleidung als Ausdruck der Persönlichkeit?",
+      "text_en": "Who sees clothing as an expression of personality?",
+      "correct_answer": "Lena",
+      "explanation_de": "Lena sagt, Mode ist ein wichtiger Teil ihrer Persönlichkeit.",
+      "explanation_en": "Lena says fashion is an important part of her personality."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer möchte Uniformen, um den morgendlichen Streit zu beenden?",
+      "text_en": "Who wants uniforms to end the morning arguments?",
+      "correct_answer": "Thomas",
+      "explanation_de": "Thomas sagt, es gibt jeden Morgen Streit über die Kleidung der Kinder.",
+      "explanation_en": "Thomas says there is an argument every morning about the children's clothing."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer glaubt, dass andere Maßnahmen besser gegen Mobbing helfen?",
+      "text_en": "Who believes that other measures help better against bullying?",
+      "correct_answer": "Aylin",
+      "explanation_de": "Aylin meint, Schulen sollten mehr Anti-Mobbing-Programme anbieten.",
+      "explanation_en": "Aylin thinks schools should offer more anti-bullying programs."
+    }
+  ]
+}

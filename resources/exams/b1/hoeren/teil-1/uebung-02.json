@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-1-002",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Volkshochschule — Kursanmeldung",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage",
+      "text_de": "Willkommen bei der Volkshochschule Hamburg.",
+      "text_en": "Welcome to the Hamburg Adult Education Center."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Der Spanischkurs für Anfänger beginnt am 5. April und findet jeden Mittwoch von 18 bis 20 Uhr statt.",
+      "text_en": "The Spanish course for beginners starts on April 5th and takes place every Wednesday from 6 to 8 PM."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Die Kursgebühr beträgt 120 Euro für 12 Sitzungen.",
+      "text_en": "The course fee is 120 euros for 12 sessions."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Zur Anmeldung kommen Sie bitte persönlich in unser Büro in der Schanzenstraße 75 oder melden Sie sich online auf unserer Webseite an.",
+      "text_en": "To register, please come in person to our office at Schanzenstraße 75 or register online on our website."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Bitte bringen Sie zur Anmeldung einen Ausweis mit. Wir freuen uns auf Sie!",
+      "text_en": "Please bring an ID for registration. We look forward to seeing you!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Der Spanischkurs ist für Fortgeschrittene.",
+      "text_en": "The Spanish course is for advanced learners.",
+      "correct_answer": false,
+      "explanation_de": "Der Kurs ist für Anfänger, nicht für Fortgeschrittene.",
+      "explanation_en": "The course is for beginners, not for advanced learners."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Der Kurs findet einmal pro Woche statt.",
+      "text_en": "The course takes place once a week.",
+      "correct_answer": true,
+      "explanation_de": "Der Kurs findet jeden Mittwoch statt, also einmal pro Woche.",
+      "explanation_en": "The course takes place every Wednesday, so once a week."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Kursgebühr beträgt 150 Euro.",
+      "text_en": "The course fee is 150 euros.",
+      "correct_answer": false,
+      "explanation_de": "Die Kursgebühr beträgt 120 Euro, nicht 150 Euro.",
+      "explanation_en": "The course fee is 120 euros, not 150 euros."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Man kann sich auch online anmelden.",
+      "text_en": "You can also register online.",
+      "correct_answer": true,
+      "explanation_de": "Man kann sich persönlich oder online anmelden.",
+      "explanation_en": "You can register in person or online."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Man braucht keinen Ausweis zur Anmeldung.",
+      "text_en": "You don't need an ID for registration.",
+      "correct_answer": false,
+      "explanation_de": "Man soll einen Ausweis zur Anmeldung mitbringen.",
+      "explanation_en": "You should bring an ID for registration."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "b1-hoeren-teil-3-002",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltagsgespräch — Beim Arzt",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ärztin",
+      "text_de": "Guten Tag, Herr Fischer. Was kann ich für Sie tun?",
+      "text_en": "Good afternoon, Mr. Fischer. What can I do for you?"
+    },
+    {
+      "speaker": "Patient",
+      "text_de": "Guten Tag, Frau Doktor. Ich habe seit drei Tagen starke Kopfschmerzen und fühle mich sehr müde.",
+      "text_en": "Good afternoon, Doctor. I have had severe headaches for three days and feel very tired."
+    },
+    {
+      "speaker": "Ärztin",
+      "text_de": "Haben Sie auch Fieber oder Halsschmerzen?",
+      "text_en": "Do you also have a fever or sore throat?"
+    },
+    {
+      "speaker": "Patient",
+      "text_de": "Nein, Halsschmerzen habe ich nicht. Aber ich glaube, ich hatte gestern Abend leichtes Fieber.",
+      "text_en": "No, I don't have a sore throat. But I think I had a slight fever last night."
+    },
+    {
+      "speaker": "Ärztin",
+      "text_de": "Haben Sie in letzter Zeit viel Stress gehabt? Arbeiten Sie viel?",
+      "text_en": "Have you had a lot of stress recently? Do you work a lot?"
+    },
+    {
+      "speaker": "Patient",
+      "text_de": "Ja, ich habe gerade ein großes Projekt auf der Arbeit. Ich arbeite oft bis spät in die Nacht und schlafe nur etwa fünf Stunden.",
+      "text_en": "Yes, I currently have a big project at work. I often work late into the night and sleep only about five hours."
+    },
+    {
+      "speaker": "Ärztin",
+      "text_de": "Das ist wahrscheinlich der Grund. Sie brauchen mehr Schlaf und Pausen. Ich verschreibe Ihnen ein leichtes Schmerzmittel. Nehmen Sie es dreimal am Tag nach dem Essen. Und versuchen Sie, mindestens sieben Stunden zu schlafen.",
+      "text_en": "That is probably the reason. You need more sleep and breaks. I will prescribe you a mild painkiller. Take it three times a day after meals. And try to sleep at least seven hours."
+    },
+    {
+      "speaker": "Patient",
+      "text_de": "Vielen Dank, Frau Doktor. Soll ich nächste Woche wiederkommen?",
+      "text_en": "Thank you very much, Doctor. Should I come back next week?"
+    },
+    {
+      "speaker": "Ärztin",
+      "text_de": "Ja, kommen Sie bitte in einer Woche wieder. Wenn die Kopfschmerzen nicht besser werden, machen wir weitere Untersuchungen.",
+      "text_en": "Yes, please come back in a week. If the headaches don't get better, we will do further examinations."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange hat Herr Fischer schon Kopfschmerzen?",
+      "text_en": "How long has Mr. Fischer had headaches?",
+      "correct_answer": "b",
+      "options": ["a) Seit einer Woche", "b) Seit drei Tagen", "c) Seit gestern"],
+      "explanation_de": "Herr Fischer hat seit drei Tagen starke Kopfschmerzen.",
+      "explanation_en": "Mr. Fischer has had severe headaches for three days."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat Herr Fischer neben Kopfschmerzen?",
+      "text_en": "What does Mr. Fischer have besides headaches?",
+      "correct_answer": "a",
+      "options": ["a) Müdigkeit", "b) Halsschmerzen", "c) Husten"],
+      "explanation_de": "Er fühlt sich sehr müde und hatte leichtes Fieber.",
+      "explanation_en": "He feels very tired and had a slight fever."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Stunden schläft Herr Fischer?",
+      "text_en": "How many hours does Mr. Fischer sleep?",
+      "correct_answer": "a",
+      "options": ["a) Etwa fünf Stunden", "b) Etwa sieben Stunden", "c) Etwa acht Stunden"],
+      "explanation_de": "Er schläft nur etwa fünf Stunden.",
+      "explanation_en": "He sleeps only about five hours."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was verschreibt die Ärztin?",
+      "text_en": "What does the doctor prescribe?",
+      "correct_answer": "c",
+      "options": ["a) Antibiotika", "b) Schlaftabletten", "c) Ein leichtes Schmerzmittel"],
+      "explanation_de": "Die Ärztin verschreibt ein leichtes Schmerzmittel.",
+      "explanation_en": "The doctor prescribes a mild painkiller."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann soll Herr Fischer wiederkommen?",
+      "text_en": "When should Mr. Fischer come back?",
+      "correct_answer": "b",
+      "options": ["a) In drei Tagen", "b) In einer Woche", "c) In zwei Wochen"],
+      "explanation_de": "Die Ärztin sagt, er soll in einer Woche wiederkommen.",
+      "explanation_en": "The doctor says he should come back in a week."
+    }
+  ]
+}

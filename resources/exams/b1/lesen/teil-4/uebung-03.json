@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-4-003",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Plastikverbot im Alltag",
+  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Julia, 30): Ich bin absolut dafür! Seit einem Jahr kaufe ich im Unverpackt-Laden ein und bringe meine eigenen Behälter mit. Am Anfang war es umständlich, aber jetzt ist es ganz normal. Und ich produziere viel weniger Müll.\n\nKommentar B (Werner, 65): Das Plastikverbot geht zu weit. Nicht jeder kann sich teure Alternativen leisten. Papiertüten sind oft nicht stabiler als Plastiktüten und kosten mehr. Man sollte lieber das Recycling verbessern.\n\nKommentar C (Mia, 22): Ich finde es gut, aber wir müssen auch an die Industrie denken. Die meisten Plastikverpackungen kommen von den Herstellern, nicht von den Verbrauchern. Die Politik sollte die Unternehmen stärker in die Pflicht nehmen.\n\nKommentar D (Dieter, 48): In meinem Restaurant haben wir alle Plastikstrohhalme durch Papierstrohhalme ersetzt. Die Kunden finden das gut und es kostet uns nur wenig mehr. Jeder kleine Schritt zählt.\n\nKommentar E (Hanna, 35): Ich versuche, weniger Plastik zu kaufen, aber mit drei kleinen Kindern ist das schwierig. Viele Kinderprodukte gibt es nur in Plastikverpackungen. Die Hersteller müssen bessere Alternativen anbieten.",
+    "text_en": "Comment A (Julia, 30): I am absolutely in favor! For a year now, I have been shopping at an unpackaged store and bringing my own containers. At first, it was cumbersome, but now it's completely normal. And I produce much less waste.\n\nComment B (Werner, 65): The plastic ban goes too far. Not everyone can afford expensive alternatives. Paper bags are often no sturdier than plastic bags and cost more. It would be better to improve recycling.\n\nComment C (Mia, 22): I think it's good, but we also need to think about industry. Most plastic packaging comes from manufacturers, not consumers. Politicians should hold companies more accountable.\n\nComment D (Dieter, 48): In my restaurant, we have replaced all plastic straws with paper straws. Customers like it and it costs us only a little more. Every small step counts.\n\nComment E (Hanna, 35): I try to buy less plastic, but with three small children, that's difficult. Many children's products are only available in plastic packaging. Manufacturers need to offer better alternatives.",
+    "source": "Online-Forum",
+    "word_count": 213
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer kauft in einem Geschäft ohne Verpackungen ein?",
+      "text_en": "Who shops at a store without packaging?",
+      "correct_answer": "Julia",
+      "explanation_de": "Julia kauft seit einem Jahr im Unverpackt-Laden ein.",
+      "explanation_en": "Julia has been shopping at an unpackaged store for a year."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer meint, dass die Hersteller das größte Problem sind?",
+      "text_en": "Who thinks that manufacturers are the biggest problem?",
+      "correct_answer": "Mia",
+      "explanation_de": "Mia sagt, die meisten Plastikverpackungen kommen von den Herstellern.",
+      "explanation_en": "Mia says most plastic packaging comes from manufacturers."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer findet, dass das Plastikverbot sozial ungerecht ist?",
+      "text_en": "Who finds the plastic ban socially unfair?",
+      "correct_answer": "Werner",
+      "explanation_de": "Werner sagt, nicht jeder kann sich teure Alternativen leisten.",
+      "explanation_en": "Werner says not everyone can afford expensive alternatives."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer hat bereits in seinem Beruf Plastik durch Alternativen ersetzt?",
+      "text_en": "Who has already replaced plastic with alternatives in their job?",
+      "correct_answer": "Dieter",
+      "explanation_de": "Dieter hat in seinem Restaurant Plastikstrohhalme durch Papierstrohhalme ersetzt.",
+      "explanation_en": "Dieter replaced plastic straws with paper straws in his restaurant."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer hat Probleme, weniger Plastik zu kaufen, wegen der Kinder?",
+      "text_en": "Who has problems buying less plastic because of children?",
+      "correct_answer": "Hanna",
+      "explanation_de": "Hanna findet es mit drei kleinen Kindern schwierig, weniger Plastik zu kaufen.",
+      "explanation_en": "Hanna finds it difficult to buy less plastic with three small children."
+    }
+  ]
+}

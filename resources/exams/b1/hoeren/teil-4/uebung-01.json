@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-4-001",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Öffentliche Durchsagen — Am Bahnhof",
+  "instructions": "Sie hören fünf kurze Texte. Welche Aussage passt zu welchem Text? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Durchsage 1",
+      "text_de": "Achtung an Gleis 5: Der ICE 792 nach Hamburg Hauptbahnhof hat eine Verspätung von 20 Minuten. Die neue Abfahrtszeit ist 11:45 Uhr. Wir bitten um Ihr Verständnis.",
+      "text_en": "Attention at platform 5: ICE 792 to Hamburg Central Station is delayed by 20 minutes. The new departure time is 11:45 AM. We ask for your understanding."
+    },
+    {
+      "speaker": "Durchsage 2",
+      "text_de": "Der Regionalexpress RE 3 nach Dresden fällt heute leider aus. Bitte benutzen Sie den RE 5 um 12:30 Uhr als Alternative. Dieser Zug hält an allen Stationen.",
+      "text_en": "The regional express RE 3 to Dresden is unfortunately cancelled today. Please use RE 5 at 12:30 PM as an alternative. This train stops at all stations."
+    },
+    {
+      "speaker": "Durchsage 3",
+      "text_de": "Reisende Richtung München bitte beachten: Der Zug fährt heute ausnahmsweise von Gleis 8 ab, nicht von Gleis 3. Bitte achten Sie auf die Anzeige.",
+      "text_en": "Travelers heading to Munich please note: The train today departs exceptionally from platform 8, not from platform 3. Please pay attention to the display."
+    },
+    {
+      "speaker": "Durchsage 4",
+      "text_de": "Im Servicecenter im Erdgeschoss erhalten Sie ab sofort die neue BahnCard 25 zum Sonderpreis von 39,90 Euro statt 59,90 Euro. Das Angebot gilt nur bis Ende des Monats.",
+      "text_en": "At the service center on the ground floor, you can now get the new BahnCard 25 at a special price of 39.90 euros instead of 59.90 euros. The offer is only valid until the end of the month."
+    },
+    {
+      "speaker": "Durchsage 5",
+      "text_de": "Liebe Fahrgäste, bitte beachten Sie: Wegen Bauarbeiten ist der Ausgang Süd bis zum 30. April gesperrt. Bitte benutzen Sie den Ausgang Nord oder den Ausgang Ost.",
+      "text_en": "Dear passengers, please note: Due to construction work, the south exit is closed until April 30th. Please use the north exit or the east exit."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Ein Zug fährt heute nicht.",
+      "text_en": "A train is not running today.",
+      "correct_answer": "Durchsage 2",
+      "explanation_de": "Der RE 3 nach Dresden fällt heute aus.",
+      "explanation_en": "The RE 3 to Dresden is cancelled today."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Ein Zug fährt von einem anderen Gleis ab.",
+      "text_en": "A train is departing from a different platform.",
+      "correct_answer": "Durchsage 3",
+      "explanation_de": "Der Zug nach München fährt ausnahmsweise von Gleis 8 statt Gleis 3 ab.",
+      "explanation_en": "The train to Munich is departing exceptionally from platform 8 instead of platform 3."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Es gibt ein Sonderangebot für Reisende.",
+      "text_en": "There is a special offer for travelers.",
+      "correct_answer": "Durchsage 4",
+      "explanation_de": "Die BahnCard 25 gibt es zum Sonderpreis von 39,90 Euro.",
+      "explanation_en": "The BahnCard 25 is available at a special price of 39.90 euros."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Ein Zug kommt später als geplant.",
+      "text_en": "A train is arriving later than planned.",
+      "correct_answer": "Durchsage 1",
+      "explanation_de": "Der ICE 792 nach Hamburg hat eine Verspätung von 20 Minuten.",
+      "explanation_en": "ICE 792 to Hamburg is delayed by 20 minutes."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Ein Ausgang kann nicht benutzt werden.",
+      "text_en": "An exit cannot be used.",
+      "correct_answer": "Durchsage 5",
+      "explanation_de": "Der Ausgang Süd ist wegen Bauarbeiten gesperrt.",
+      "explanation_en": "The south exit is closed due to construction work."
+    }
+  ]
+}

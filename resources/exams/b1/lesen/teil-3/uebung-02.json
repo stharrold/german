@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-3-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Anzeigen: Wohnungsangebote",
+  "instructions": "Lesen Sie die Anzeigen a bis e und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Situation?",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Anzeige A: 2-Zimmer-Wohnung in Schwabing, 55 qm, 3. OG mit Aufzug. Einbauküche, Balkon, Kellerabteil. 890 Euro warm. Tierhaltung nicht erlaubt. Bezugsfrei ab 1. Mai. Kontakt: 089 223 445.\n\nAnzeige B: Großes WG-Zimmer, 22 qm, in 4er-WG in Haidhausen. Möbliert, gemeinsame Küche und Bad. 450 Euro warm. Ideal für Studierende. Zwischenmiete von April bis September. Bewerbung mit Foto an wg-haidhausen@mail.de.\n\nAnzeige C: Familienfreundliches Reihenhaus, 4 Zimmer, 110 qm, mit Garten. Ruhige Lage am Stadtrand. Garage und 2 Stellplätze. 1.500 Euro kalt + 200 Euro Nebenkosten. Haustiere willkommen.\n\nAnzeige D: 1-Zimmer-Apartment, 30 qm, in Zentrumsnähe. Voll möbliert, frisch renoviert. 650 Euro warm inkl. Internet und Strom. Mindestmietdauer 1 Jahr. Ideal für Berufstätige.\n\nAnzeige E: 3-Zimmer-Altbauwohnung, 80 qm, in Sendling. Hohe Decken, Parkett, Wannenbad. Unmöbliert, ohne Küche. 1.100 Euro kalt. Gute Anbindung an U-Bahn (5 Min. zu Fuß). Ab sofort verfügbar.",
+    "text_en": "Ad A: 2-room apartment in Schwabing, 55 sqm, 3rd floor with elevator. Built-in kitchen, balcony, cellar compartment. 890 euros including utilities. Pets not allowed. Available from May 1st. Contact: 089 223 445.\n\nAd B: Large shared room, 22 sqm, in 4-person shared apartment in Haidhausen. Furnished, shared kitchen and bathroom. 450 euros including utilities. Ideal for students. Sublet from April to September. Apply with photo to wg-haidhausen@mail.de.\n\nAd C: Family-friendly terraced house, 4 rooms, 110 sqm, with garden. Quiet location on the outskirts. Garage and 2 parking spaces. 1,500 euros excluding utilities + 200 euros utilities. Pets welcome.\n\nAd D: 1-room apartment, 30 sqm, near city center. Fully furnished, freshly renovated. 650 euros including internet and electricity. Minimum rental period 1 year. Ideal for professionals.\n\nAd E: 3-room old building apartment, 80 sqm, in Sendling. High ceilings, parquet, bathtub. Unfurnished, without kitchen. 1,100 euros excluding utilities. Good connection to subway (5 min. walk). Available immediately.",
+    "source": "Immobilienanzeigen",
+    "word_count": 196
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Familie Braun (2 Erwachsene, 2 Kinder) sucht ein Haus mit Garten. Sie haben einen Hund.",
+      "text_en": "The Braun family (2 adults, 2 children) is looking for a house with a garden. They have a dog.",
+      "correct_answer": "Anzeige C",
+      "explanation_de": "Das Reihenhaus hat 4 Zimmer, einen Garten und Haustiere sind willkommen.",
+      "explanation_en": "The terraced house has 4 rooms, a garden, and pets are welcome."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Studentin Maria sucht eine günstige Unterkunft nur für das Sommersemester.",
+      "text_en": "Student Maria is looking for affordable accommodation only for the summer semester.",
+      "correct_answer": "Anzeige B",
+      "explanation_de": "Das WG-Zimmer ist ideal für Studierende und zur Zwischenmiete von April bis September.",
+      "explanation_en": "The shared room is ideal for students and available as a sublet from April to September."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Nowak ist Ingenieur und sucht eine kleine, möblierte Wohnung für mindestens ein Jahr.",
+      "text_en": "Mr. Nowak is an engineer looking for a small, furnished apartment for at least one year.",
+      "correct_answer": "Anzeige D",
+      "explanation_de": "Das Apartment ist voll möbliert, ideal für Berufstätige, Mindestmietdauer 1 Jahr.",
+      "explanation_en": "The apartment is fully furnished, ideal for professionals, minimum rental period 1 year."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Ehepaar Fischer sucht eine Wohnung mit Balkon und Aufzug, weil Frau Fischer nicht gut Treppen steigen kann.",
+      "text_en": "The Fischer couple is looking for an apartment with a balcony and elevator because Mrs. Fischer cannot climb stairs well.",
+      "correct_answer": "Anzeige A",
+      "explanation_de": "Die Wohnung hat einen Balkon und einen Aufzug im 3. OG.",
+      "explanation_en": "The apartment has a balcony and an elevator on the 3rd floor."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Frau Petrov braucht sofort eine große Wohnung in der Nähe der U-Bahn. Sie hat eigene Möbel.",
+      "text_en": "Mrs. Petrov needs a large apartment near the subway immediately. She has her own furniture.",
+      "correct_answer": "Anzeige E",
+      "explanation_de": "Die Altbauwohnung ist unmöbliert, ab sofort verfügbar und nur 5 Minuten von der U-Bahn.",
+      "explanation_en": "The old building apartment is unfurnished, available immediately, and only 5 minutes from the subway."
+    }
+  ]
+}

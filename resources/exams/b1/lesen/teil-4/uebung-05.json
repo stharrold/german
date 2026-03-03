@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-4-005",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Fernsehen oder Streaming?",
+  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Tanja, 29): Ich schaue seit drei Jahren kein normales Fernsehen mehr. Streaming ist viel besser, weil ich selbst entscheide, was und wann ich schaue. Keine Werbung, keine festen Sendezeiten — perfekt!\n\nKommentar B (Heinrich, 72): Ich brauche kein Streaming. Das normale Fernsehen hat alles, was ich möchte: Nachrichten, Krimis und Sportsendungen. Die Technik mit Apps und Passwörtern ist mir zu kompliziert.\n\nKommentar C (Lisa, 25): Ich habe drei verschiedene Streaming-Abos und gebe dafür zusammen fast 40 Euro im Monat aus. Eigentlich ist das zu viel. Früher war es günstiger, als alles auf einer Plattform war.\n\nKommentar D (Robert, 41): Für unsere Familie ist Streaming ideal. Die Kinder schauen ihre Zeichentrickfilme, meine Frau schaut Dokumentationen und ich schaue Serien — alles gleichzeitig auf verschiedenen Geräten.\n\nKommentar E (Elif, 33): Ich vermisse das gemeinsame Fernsehen. Früher hat die ganze Familie zusammen eine Sendung geschaut und darüber gesprochen. Heute sitzt jeder allein mit seinem Tablet oder Handy. Das finde ich schade.",
+    "text_en": "Comment A (Tanja, 29): I haven't watched regular television for three years. Streaming is much better because I decide myself what and when I watch. No commercials, no fixed broadcast times — perfect!\n\nComment B (Heinrich, 72): I don't need streaming. Regular television has everything I want: news, crime shows, and sports programs. The technology with apps and passwords is too complicated for me.\n\nComment C (Lisa, 25): I have three different streaming subscriptions and spend almost 40 euros a month on them altogether. Actually, that's too much. It used to be cheaper when everything was on one platform.\n\nComment D (Robert, 41): For our family, streaming is ideal. The children watch their cartoons, my wife watches documentaries, and I watch series — all at the same time on different devices.\n\nComment E (Elif, 33): I miss watching television together. In the past, the whole family watched a show together and talked about it. Today, everyone sits alone with their tablet or phone. I think that's a shame.",
+    "source": "Online-Forum",
+    "word_count": 204
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer findet Streaming zu teuer, wenn man mehrere Abos hat?",
+      "text_en": "Who finds streaming too expensive when you have multiple subscriptions?",
+      "correct_answer": "Lisa",
+      "explanation_de": "Lisa gibt fast 40 Euro im Monat für drei Streaming-Abos aus.",
+      "explanation_en": "Lisa spends almost 40 euros a month on three streaming subscriptions."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer nutzt Streaming, damit jedes Familienmitglied etwas anderes schauen kann?",
+      "text_en": "Who uses streaming so that each family member can watch something different?",
+      "correct_answer": "Robert",
+      "explanation_de": "Robert sagt, alle schauen gleichzeitig auf verschiedenen Geräten.",
+      "explanation_en": "Robert says everyone watches simultaneously on different devices."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer vermisst das gemeinsame Fernsehen als Familie?",
+      "text_en": "Who misses watching television together as a family?",
+      "correct_answer": "Elif",
+      "explanation_de": "Elif findet es schade, dass heute jeder allein mit seinem Gerät sitzt.",
+      "explanation_en": "Elif finds it a shame that today everyone sits alone with their device."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer findet die Technik von Streaming zu schwierig?",
+      "text_en": "Who finds the technology of streaming too difficult?",
+      "correct_answer": "Heinrich",
+      "explanation_de": "Heinrich findet die Technik mit Apps und Passwörtern zu kompliziert.",
+      "explanation_en": "Heinrich finds the technology with apps and passwords too complicated."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer schätzt die Freiheit, ohne feste Sendezeiten zu schauen?",
+      "text_en": "Who appreciates the freedom to watch without fixed broadcast times?",
+      "correct_answer": "Tanja",
+      "explanation_de": "Tanja entscheidet selbst, was und wann sie schaut — keine festen Sendezeiten.",
+      "explanation_en": "Tanja decides herself what and when she watches — no fixed broadcast times."
+    }
+  ]
+}

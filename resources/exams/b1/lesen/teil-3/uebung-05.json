@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-3-005",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Anzeigen: Gebrauchte Gegenstände",
+  "instructions": "Lesen Sie die Anzeigen a bis e und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Situation?",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Anzeige A: Kinderfahrrad, 20 Zoll, blau, für Kinder von 6–9 Jahren. Guter Zustand, wenig gefahren. Neupreis 250 Euro, jetzt nur 80 Euro. Selbstabholung in Köln-Ehrenfeld. Tel: 0221 334 567.\n\nAnzeige B: Waschmaschine Bosch, 3 Jahre alt, funktioniert einwandfrei. Wir ziehen um und die neue Wohnung hat schon eine. 150 Euro VB. Lieferung gegen Aufpreis möglich. Kontakt: waschmaschine-koeln@web.de.\n\nAnzeige C: Bücherregal IKEA Billy, weiß, 80x200 cm. Wie neu, nur 1 Jahr alt. 30 Euro. Muss selbst abgebaut und abgeholt werden. Standort: Köln-Nippes. Nur abends erreichbar: 0176 888 999 00.\n\nAnzeige D: Sofa, 3-Sitzer, grau, Stoff. Keine Flecken, keine Beschädigungen. Sehr bequem. Originalpreis 800 Euro, Verkaufspreis 200 Euro. Kann besichtigt werden: Sa und So 10–16 Uhr. Adresse auf Anfrage.\n\nAnzeige E: Klavier, Yamaha, schwarz, gestimmt. Ideal für Anfänger und Fortgeschrittene. Nur wegen Umzug zu verkaufen. 900 Euro. Festpreis, keine Verhandlung. Transport muss vom Käufer organisiert werden.",
+    "text_en": "Ad A: Children's bicycle, 20 inches, blue, for children aged 6–9. Good condition, barely ridden. Original price 250 euros, now only 80 euros. Self-pickup in Cologne-Ehrenfeld. Tel: 0221 334 567.\n\nAd B: Bosch washing machine, 3 years old, works perfectly. We are moving and the new apartment already has one. 150 euros negotiable. Delivery possible for an extra charge. Contact: waschmaschine-koeln@web.de.\n\nAd C: IKEA Billy bookshelf, white, 80x200 cm. Like new, only 1 year old. 30 euros. Must be disassembled and picked up yourself. Location: Cologne-Nippes. Only reachable in the evenings: 0176 888 999 00.\n\nAd D: Sofa, 3-seater, gray, fabric. No stains, no damage. Very comfortable. Original price 800 euros, selling price 200 euros. Can be viewed: Sat and Sun 10 AM–4 PM. Address on request.\n\nAd E: Piano, Yamaha, black, tuned. Ideal for beginners and advanced players. Only selling due to relocation. 900 euros. Fixed price, no negotiation. Transport must be organized by the buyer.",
+    "source": "Kleinanzeigen",
+    "word_count": 195
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Frau Lang sucht ein Sofa für ihr Wohnzimmer. Sie kann nur am Wochenende vorbeikommen.",
+      "text_en": "Mrs. Lang is looking for a sofa for her living room. She can only come by on the weekend.",
+      "correct_answer": "Anzeige D",
+      "explanation_de": "Das Sofa kann Sa und So von 10–16 Uhr besichtigt werden.",
+      "explanation_en": "The sofa can be viewed Sat and Sun from 10 AM to 4 PM."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Herr und Frau Schulz brauchen eine Waschmaschine für ihre neue Wohnung. Sie können den Transport nicht selbst organisieren.",
+      "text_en": "Mr. and Mrs. Schulz need a washing machine for their new apartment. They cannot organize the transport themselves.",
+      "correct_answer": "Anzeige B",
+      "explanation_de": "Die Waschmaschine funktioniert gut und Lieferung ist gegen Aufpreis möglich.",
+      "explanation_en": "The washing machine works well and delivery is possible for an extra charge."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Familie Petersen sucht ein Fahrrad für ihren 7-jährigen Sohn.",
+      "text_en": "The Petersen family is looking for a bicycle for their 7-year-old son.",
+      "correct_answer": "Anzeige A",
+      "explanation_de": "Das Kinderfahrrad ist für Kinder von 6–9 Jahren und in gutem Zustand.",
+      "explanation_en": "The children's bicycle is for children aged 6–9 and in good condition."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Ivanov möchte Klavier spielen lernen und braucht ein Instrument.",
+      "text_en": "Mr. Ivanov wants to learn to play the piano and needs an instrument.",
+      "correct_answer": "Anzeige E",
+      "explanation_de": "Das Klavier ist ideal für Anfänger, gestimmt und spielbereit.",
+      "explanation_en": "The piano is ideal for beginners, tuned and ready to play."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Studentin Emma braucht ein Regal für ihre Bücher. Sie hat wenig Geld.",
+      "text_en": "Student Emma needs a shelf for her books. She doesn't have much money.",
+      "correct_answer": "Anzeige C",
+      "explanation_de": "Das Bücherregal kostet nur 30 Euro und ist wie neu.",
+      "explanation_en": "The bookshelf costs only 30 euros and is like new."
+    }
+  ]
+}

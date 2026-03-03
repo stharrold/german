@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-5-004",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Ordnung: Arbeitsvertrag — wichtige Regelungen",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Auszug aus dem Arbeitsvertrag — Firma TechStart GmbH\n\n1. Arbeitszeit: Die wöchentliche Arbeitszeit beträgt 40 Stunden, verteilt auf fünf Tage (Montag bis Freitag). Die Kernarbeitszeit ist von 10:00 bis 15:00 Uhr. Außerhalb der Kernarbeitszeit können Sie Ihren Arbeitsbeginn und Ihr Arbeitsende flexibel gestalten (Gleitzeit).\n\n2. Urlaub: Sie haben Anspruch auf 28 Arbeitstage Urlaub pro Jahr. Urlaubswünsche sind mindestens zwei Wochen im Voraus beim Vorgesetzten einzureichen. In der Zeit vom 23. Dezember bis 1. Januar ist die Firma geschlossen (Betriebsferien).\n\n3. Probezeit: Die Probezeit beträgt sechs Monate. Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten mit einer Frist von zwei Wochen gekündigt werden. Nach der Probezeit beträgt die Kündigungsfrist drei Monate.\n\n4. Krankheit: Im Krankheitsfall müssen Sie Ihren Vorgesetzten am ersten Krankheitstag vor Arbeitsbeginn informieren. Ab dem dritten Krankheitstag ist eine ärztliche Arbeitsunfähigkeitsbescheinigung vorzulegen.\n\n5. Fortbildung: Die Firma übernimmt die Kosten für berufliche Fortbildungen bis zu 1.500 Euro pro Jahr. Fortbildungen müssen vom Vorgesetzten genehmigt werden und in der Regel außerhalb der Arbeitszeit stattfinden.",
+    "text_en": "Extract from Employment Contract — TechStart GmbH\n\n1. Working hours: The weekly working time is 40 hours, spread over five days (Monday to Friday). Core working hours are from 10 AM to 3 PM. Outside of core hours, you can flexibly arrange your start and end times (flextime).\n\n2. Vacation: You are entitled to 28 working days of vacation per year. Vacation requests must be submitted to your supervisor at least two weeks in advance. The company is closed from December 23rd to January 1st (company holidays).\n\n3. Probation period: The probation period is six months. During the probation period, the employment relationship can be terminated by either side with two weeks' notice. After the probation period, the notice period is three months.\n\n4. Illness: In case of illness, you must inform your supervisor on the first day of illness before the start of work. From the third day of illness, a doctor's certificate of incapacity must be submitted.\n\n5. Training: The company covers the costs of professional training up to 1,500 euros per year. Training must be approved by your supervisor and generally takes place outside of working hours.",
+    "source": "Arbeitsvertrag",
+    "word_count": 208
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was bedeutet Gleitzeit in diesem Vertrag?",
+      "text_en": "What does flextime mean in this contract?",
+      "correct_answer": "b",
+      "options": ["a) Man kann an jedem Tag arbeiten", "b) Man kann Arbeitsbeginn und -ende flexibel wählen", "c) Man kann von zu Hause arbeiten"],
+      "explanation_de": "Außerhalb der Kernarbeitszeit kann man Arbeitsbeginn und -ende flexibel gestalten.",
+      "explanation_en": "Outside core hours, you can flexibly arrange your start and end times."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Urlaubstage gibt es pro Jahr?",
+      "text_en": "How many vacation days are there per year?",
+      "correct_answer": "c",
+      "options": ["a) 24 Tage", "b) 26 Tage", "c) 28 Tage"],
+      "explanation_de": "Es gibt 28 Arbeitstage Urlaub pro Jahr.",
+      "explanation_en": "There are 28 working days of vacation per year."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie lang ist die Kündigungsfrist in der Probezeit?",
+      "text_en": "How long is the notice period during probation?",
+      "correct_answer": "a",
+      "options": ["a) Zwei Wochen", "b) Einen Monat", "c) Drei Monate"],
+      "explanation_de": "In der Probezeit beträgt die Kündigungsfrist zwei Wochen.",
+      "explanation_en": "During the probation period, the notice period is two weeks."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Ab wann braucht man eine ärztliche Bescheinigung bei Krankheit?",
+      "text_en": "From when do you need a doctor's certificate for illness?",
+      "correct_answer": "b",
+      "options": ["a) Ab dem ersten Tag", "b) Ab dem dritten Tag", "c) Ab dem fünften Tag"],
+      "explanation_de": "Ab dem dritten Krankheitstag ist eine Bescheinigung nötig.",
+      "explanation_en": "From the third day of illness, a certificate is needed."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie viel zahlt die Firma maximal für Fortbildungen?",
+      "text_en": "How much does the company pay at most for training?",
+      "correct_answer": "b",
+      "options": ["a) 1.000 Euro", "b) 1.500 Euro", "c) 2.000 Euro"],
+      "explanation_de": "Die Firma übernimmt Kosten bis zu 1.500 Euro pro Jahr.",
+      "explanation_en": "The company covers costs up to 1,500 euros per year."
+    }
+  ]
+}

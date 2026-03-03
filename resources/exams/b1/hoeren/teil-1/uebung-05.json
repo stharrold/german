@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-1-005",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Flughafen — Flugänderung",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage",
+      "text_de": "Achtung, eine wichtige Durchsage für Passagiere des Fluges LH 2345 nach Barcelona.",
+      "text_en": "Attention, an important announcement for passengers of flight LH 2345 to Barcelona."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Der Abflug verzögert sich um etwa zwei Stunden wegen schlechten Wetters.",
+      "text_en": "The departure is delayed by approximately two hours due to bad weather."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Die neue Abflugzeit ist 16:30 Uhr. Das Gate hat sich geändert: Bitte gehen Sie zu Gate B12.",
+      "text_en": "The new departure time is 4:30 PM. The gate has changed: Please go to Gate B12."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Während der Wartezeit können Sie Getränkegutscheine an der Information in Halle B abholen.",
+      "text_en": "During the waiting time, you can pick up drink vouchers at the information desk in Hall B."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Wir entschuldigen uns für die Unannehmlichkeiten und danken für Ihr Verständnis.",
+      "text_en": "We apologize for the inconvenience and thank you for your understanding."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Der Flug geht nach Madrid.",
+      "text_en": "The flight goes to Madrid.",
+      "correct_answer": false,
+      "explanation_de": "Der Flug geht nach Barcelona, nicht nach Madrid.",
+      "explanation_en": "The flight goes to Barcelona, not Madrid."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Die Verspätung beträgt ungefähr zwei Stunden.",
+      "text_en": "The delay is approximately two hours.",
+      "correct_answer": true,
+      "explanation_de": "Der Abflug verzögert sich um etwa zwei Stunden.",
+      "explanation_en": "The departure is delayed by approximately two hours."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Verspätung ist wegen eines technischen Problems.",
+      "text_en": "The delay is because of a technical problem.",
+      "correct_answer": false,
+      "explanation_de": "Die Verspätung ist wegen schlechten Wetters, nicht wegen eines technischen Problems.",
+      "explanation_en": "The delay is due to bad weather, not a technical problem."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Das Gate hat sich geändert.",
+      "text_en": "The gate has changed.",
+      "correct_answer": true,
+      "explanation_de": "Die Passagiere sollen zu Gate B12 gehen.",
+      "explanation_en": "Passengers should go to Gate B12."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Man kann Essensgutscheine an der Information abholen.",
+      "text_en": "You can pick up food vouchers at the information desk.",
+      "correct_answer": false,
+      "explanation_de": "Man kann Getränkegutscheine abholen, keine Essensgutscheine.",
+      "explanation_en": "You can pick up drink vouchers, not food vouchers."
+    }
+  ]
+}

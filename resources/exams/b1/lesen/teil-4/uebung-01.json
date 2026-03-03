@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-4-001",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Haustiere in der Mietwohnung",
+  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Sabine, 34): Ich finde, jeder sollte das Recht haben, ein Haustier zu halten. Meine Katze ist wie ein Familienmitglied. Vermieter, die Haustiere verbieten, verstehen nicht, wie wichtig Tiere für die seelische Gesundheit sind.\n\nKommentar B (Klaus, 52): Ich bin strikt dagegen. In unserem Haus gibt es drei Hunde und der Lärm ist unerträglich. Außerdem ist das Treppenhaus immer schmutzig. Die Vermieter sollten strenger sein.\n\nKommentar C (Yuki, 28): Ich denke, es kommt auf das Tier an. Kleine Tiere wie Fische oder Hamster stören niemanden. Aber große Hunde in einer kleinen Stadtwohnung — das ist weder gut für die Nachbarn noch für den Hund.\n\nKommentar D (Martin, 45): Meine Kinder haben durch unser Kaninchen gelernt, Verantwortung zu übernehmen. Sie füttern es, machen den Käfig sauber und kümmern sich jeden Tag darum. Das ist besser als jeder Erziehungsratgeber.\n\nKommentar E (Petra, 61): Für ältere Menschen, die allein leben, ist ein Haustier oft der einzige Begleiter. Mein kleiner Hund gibt mir einen Grund, jeden Tag spazieren zu gehen. Ohne ihn wäre ich sehr einsam.",
+    "text_en": "Comment A (Sabine, 34): I think everyone should have the right to have a pet. My cat is like a family member. Landlords who forbid pets don't understand how important animals are for mental health.\n\nComment B (Klaus, 52): I am strictly against it. In our building, there are three dogs and the noise is unbearable. Besides, the stairwell is always dirty. Landlords should be stricter.\n\nComment C (Yuki, 28): I think it depends on the animal. Small animals like fish or hamsters don't bother anyone. But big dogs in a small city apartment — that's not good for the neighbors or the dog.\n\nComment D (Martin, 45): My children learned to take responsibility through our rabbit. They feed it, clean the cage, and take care of it every day. That's better than any parenting guide.\n\nComment E (Petra, 61): For older people who live alone, a pet is often the only companion. My small dog gives me a reason to go for a walk every day. Without him, I would be very lonely.",
+    "source": "Online-Forum",
+    "word_count": 220
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer findet, dass Haustiere den Kindern helfen, Verantwortung zu lernen?",
+      "text_en": "Who thinks that pets help children learn responsibility?",
+      "correct_answer": "Martin",
+      "explanation_de": "Martins Kinder haben durch das Kaninchen gelernt, Verantwortung zu übernehmen.",
+      "explanation_en": "Martin's children learned to take responsibility through the rabbit."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer meint, dass man zwischen kleinen und großen Tieren unterscheiden sollte?",
+      "text_en": "Who thinks that one should distinguish between small and large animals?",
+      "correct_answer": "Yuki",
+      "explanation_de": "Yuki sagt, es kommt auf das Tier an — kleine Tiere stören nicht, große Hunde schon.",
+      "explanation_en": "Yuki says it depends on the animal — small animals don't bother anyone, big dogs do."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer beschwert sich über Lärm und Schmutz durch Haustiere?",
+      "text_en": "Who complains about noise and dirt from pets?",
+      "correct_answer": "Klaus",
+      "explanation_de": "Klaus klagt über den Lärm der Hunde und das schmutzige Treppenhaus.",
+      "explanation_en": "Klaus complains about the noise from dogs and the dirty stairwell."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer sagt, dass ein Haustier gegen Einsamkeit hilft?",
+      "text_en": "Who says that a pet helps against loneliness?",
+      "correct_answer": "Petra",
+      "explanation_de": "Petra sagt, ohne ihren Hund wäre sie sehr einsam.",
+      "explanation_en": "Petra says without her dog she would be very lonely."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer findet, dass Haustiere wichtig für die seelische Gesundheit sind?",
+      "text_en": "Who thinks that pets are important for mental health?",
+      "correct_answer": "Sabine",
+      "explanation_de": "Sabine sagt, Tiere sind wichtig für die seelische Gesundheit.",
+      "explanation_en": "Sabine says animals are important for mental health."
+    }
+  ]
+}

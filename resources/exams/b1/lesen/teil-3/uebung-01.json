@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-3-001",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Anzeigen: Stellenangebote",
+  "instructions": "Lesen Sie die Anzeigen a bis e und die Aufgaben 1 bis 5. Welche Anzeige passt zu welcher Situation?",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Anzeige A: Hotel Seeblick sucht ab sofort eine Rezeptionistin / einen Rezeptionisten. Arbeitszeiten: Mo–Fr, 7–15 Uhr. Gute Englischkenntnisse erforderlich. Erfahrung im Hotelbereich ist wünschenswert, aber nicht notwendig. Bewerbung an: personal@hotel-seeblick.de\n\nAnzeige B: Bäckerei Müller sucht einen Bäcker / eine Bäckerin für unsere Filiale in der Altstadt. Arbeitszeit: Di–Sa, 4–12 Uhr. Abgeschlossene Ausbildung als Bäcker/in erforderlich. Wir bieten übertarifliche Bezahlung und kostenlose Brötchen!\n\nAnzeige C: IT-Firma TechStar sucht eine Softwareentwicklerin / einen Softwareentwickler. Homeoffice möglich. Mindestens 3 Jahre Berufserfahrung mit Java oder Python. 30 Tage Urlaub, flexible Arbeitszeiten. Gehalt: 55.000–70.000 Euro/Jahr.\n\nAnzeige D: Grundschule am Park sucht eine Lehrerin / einen Lehrer für Mathematik und Sachunterricht. Teilzeit (20 Stunden/Woche). Staatsexamen erforderlich. Beginn: August. Bewerbungsfrist: 30. April.\n\nAnzeige E: Pflegeheim Sonnenschein sucht Pflegekräfte (m/w/d) in Voll- und Teilzeit. Ausbildung als Altenpfleger/in oder Krankenpfleger/in erforderlich. Schichtdienst. Wir bieten: gute Bezahlung, Fortbildungen und ein nettes Team.",
+    "text_en": "Ad A: Hotel Seeblick is looking for a receptionist immediately. Working hours: Mon–Fri, 7 AM–3 PM. Good English skills required. Experience in the hotel industry is desirable but not necessary. Apply to: personal@hotel-seeblick.de\n\nAd B: Bakery Müller is looking for a baker for our branch in the old town. Working hours: Tue–Sat, 4 AM–12 PM. Completed training as a baker required. We offer above-average pay and free rolls!\n\nAd C: IT company TechStar is looking for a software developer. Remote work possible. At least 3 years of professional experience with Java or Python. 30 days vacation, flexible working hours. Salary: 55,000–70,000 euros/year.\n\nAd D: Park Elementary School is looking for a teacher for mathematics and general studies. Part-time (20 hours/week). State examination required. Start: August. Application deadline: April 30th.\n\nAd E: Sonnenschein Nursing Home is looking for care workers (m/f/d) full-time and part-time. Training as a geriatric nurse or nurse required. Shift work. We offer: good pay, continuing education, and a nice team.",
+    "source": "Stellenanzeigen",
+    "word_count": 209
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Frau Yilmaz ist Krankenpflegerin und sucht eine Stelle, bei der sie auch halbtags arbeiten kann.",
+      "text_en": "Mrs. Yilmaz is a nurse and is looking for a position where she can also work part-time.",
+      "correct_answer": "Anzeige E",
+      "explanation_de": "Das Pflegeheim sucht Pflegekräfte in Voll- und Teilzeit mit Ausbildung als Krankenpfleger/in.",
+      "explanation_en": "The nursing home is looking for care workers full-time and part-time with nursing training."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Herr Kim ist Informatiker mit fünf Jahren Erfahrung und möchte gerne von zu Hause arbeiten.",
+      "text_en": "Mr. Kim is a computer scientist with five years of experience and would like to work from home.",
+      "correct_answer": "Anzeige C",
+      "explanation_de": "TechStar sucht Entwickler mit mindestens 3 Jahren Erfahrung und bietet Homeoffice an.",
+      "explanation_en": "TechStar is looking for developers with at least 3 years of experience and offers remote work."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Frau Santos spricht gut Englisch und möchte in einem Hotel arbeiten. Sie hat noch keine Berufserfahrung.",
+      "text_en": "Mrs. Santos speaks good English and wants to work in a hotel. She has no professional experience yet.",
+      "correct_answer": "Anzeige A",
+      "explanation_de": "Hotel Seeblick sucht Rezeptionisten mit Englischkenntnissen. Erfahrung ist nicht notwendig.",
+      "explanation_en": "Hotel Seeblick is looking for receptionists with English skills. Experience is not necessary."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Wagner hat sein Staatsexamen bestanden und möchte an einer Schule nur vormittags unterrichten.",
+      "text_en": "Mr. Wagner has passed his state examination and wants to teach at a school only in the mornings.",
+      "correct_answer": "Anzeige D",
+      "explanation_de": "Die Grundschule sucht einen Lehrer mit Staatsexamen in Teilzeit (20 Stunden/Woche).",
+      "explanation_en": "The elementary school is looking for a teacher with a state examination, part-time (20 hours/week)."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Herr Richter ist gelernter Bäcker und sucht eine Arbeit mit guter Bezahlung.",
+      "text_en": "Mr. Richter is a trained baker and is looking for a job with good pay.",
+      "correct_answer": "Anzeige B",
+      "explanation_de": "Bäckerei Müller sucht einen ausgebildeten Bäcker und bietet übertarifliche Bezahlung.",
+      "explanation_en": "Bakery Müller is looking for a trained baker and offers above-average pay."
+    }
+  ]
+}

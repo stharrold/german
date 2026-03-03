@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-1-004",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Fitnessstudio — Sommerangebot",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage",
+      "text_de": "Hallo und herzlich willkommen beim FitPlus-Studio in München!",
+      "text_en": "Hello and a warm welcome to FitPlus Studio in Munich!"
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Wir haben ein tolles Sommerangebot für Sie: Drei Monate Mitgliedschaft zum Preis von zwei Monaten!",
+      "text_en": "We have a great summer offer for you: Three months' membership for the price of two months!"
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Das Angebot gilt vom 1. Juni bis zum 31. August und beinhaltet alle Kurse und die Nutzung der Sauna.",
+      "text_en": "The offer is valid from June 1st to August 31st and includes all courses and sauna use."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Unser Studio ist täglich von 6 bis 22 Uhr geöffnet, auch an Feiertagen.",
+      "text_en": "Our studio is open daily from 6 AM to 10 PM, including public holidays."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Kommen Sie vorbei oder rufen Sie uns an unter 089 334 556. Wir beraten Sie gerne!",
+      "text_en": "Come by or call us at 089 334 556. We are happy to advise you!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Das Sommerangebot dauert vier Monate.",
+      "text_en": "The summer offer lasts four months.",
+      "correct_answer": false,
+      "explanation_de": "Das Angebot ist für drei Monate (Juni bis August), nicht vier.",
+      "explanation_en": "The offer is for three months (June to August), not four."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Man bezahlt nur zwei Monate für drei Monate Mitgliedschaft.",
+      "text_en": "You pay only two months for three months' membership.",
+      "correct_answer": true,
+      "explanation_de": "Das Angebot ist drei Monate zum Preis von zwei Monaten.",
+      "explanation_en": "The offer is three months for the price of two months."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Sauna ist nicht im Angebot enthalten.",
+      "text_en": "The sauna is not included in the offer.",
+      "correct_answer": false,
+      "explanation_de": "Die Sauna ist im Angebot enthalten.",
+      "explanation_en": "The sauna is included in the offer."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Das Studio ist an Feiertagen geschlossen.",
+      "text_en": "The studio is closed on public holidays.",
+      "correct_answer": false,
+      "explanation_de": "Das Studio ist auch an Feiertagen geöffnet.",
+      "explanation_en": "The studio is open on public holidays as well."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Das Studio öffnet um 6 Uhr morgens.",
+      "text_en": "The studio opens at 6 AM.",
+      "correct_answer": true,
+      "explanation_de": "Das Studio ist von 6 bis 22 Uhr geöffnet.",
+      "explanation_en": "The studio is open from 6 AM to 10 PM."
+    }
+  ]
+}

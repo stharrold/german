@@ -1,0 +1,62 @@
+{
+  "id": "b1-lesen-teil-1-005",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Blog: Leben ohne Auto",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Vor einem Jahr habe ich mein Auto verkauft. Viele Freunde haben mich gefragt, ob ich verrückt bin. Aber heute kann ich sagen: Es war eine der besten Entscheidungen meines Lebens.\n\nDer Hauptgrund war das Geld. Mein Auto hat mich jeden Monat ungefähr 400 Euro gekostet — für Versicherung, Benzin, Reparaturen und den Parkplatz. Seit ich kein Auto mehr habe, spare ich dieses Geld und kann es für andere Dinge ausgeben, zum Beispiel für Reisen.\n\nStatt mit dem Auto fahre ich jetzt mit dem Fahrrad zur Arbeit. Die Strecke ist nur fünf Kilometer lang und dauert etwa 20 Minuten. Das ist sogar schneller als mit dem Auto, weil ich nicht im Stau stehen muss. Außerdem ist es gut für die Gesundheit. Seit ich jeden Tag Rad fahre, fühle ich mich fitter und habe sogar drei Kilo abgenommen.\n\nFür längere Strecken benutze ich öffentliche Verkehrsmittel. Ich habe ein Deutschlandticket für 49 Euro im Monat und kann damit überall in Deutschland mit Bus und Bahn fahren. Am Wochenende mache ich oft Ausflüge mit dem Zug in die Umgebung.\n\nNatürlich gibt es auch Situationen, in denen ein Auto praktisch wäre — zum Beispiel beim Großeinkauf oder wenn ich schwere Möbel transportieren muss. Dafür nutze ich dann ein Carsharing-Auto. Das funktioniert über eine App und kostet nur ein paar Euro pro Stunde.\n\nIch kann nur jedem empfehlen, es mal auszuprobieren. Man vermisst das Auto viel weniger, als man denkt!",
+    "text_en": "A year ago, I sold my car. Many friends asked me if I was crazy. But today I can say: It was one of the best decisions of my life.\n\nThe main reason was money. My car cost me about 400 euros every month — for insurance, gas, repairs, and the parking space. Since I no longer have a car, I save this money and can spend it on other things, for example on travel.\n\nInstead of driving, I now ride my bike to work. The distance is only five kilometers and takes about 20 minutes. That's actually faster than by car because I don't have to sit in traffic. It's also good for your health. Since I've been cycling every day, I feel fitter and have even lost three kilos.\n\nFor longer distances, I use public transport. I have a Deutschlandticket for 49 euros a month and can travel anywhere in Germany by bus and train. On weekends, I often take train trips to the surrounding area.\n\nOf course, there are situations where a car would be practical — for example when doing a big grocery shop or when I need to transport heavy furniture. For that, I use a car-sharing vehicle. It works through an app and only costs a few euros per hour.\n\nI can only recommend that everyone try it out. You miss the car much less than you think!",
+    "source": "Blog",
+    "word_count": 257
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Das Auto hat den Autor monatlich etwa 400 Euro gekostet.",
+      "text_en": "The car cost the author about 400 euros per month.",
+      "correct_answer": true,
+      "explanation_de": "Das Auto hat ihn jeden Monat ungefähr 400 Euro gekostet.",
+      "explanation_en": "The car cost him about 400 euros every month."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Der Weg zur Arbeit mit dem Fahrrad dauert 30 Minuten.",
+      "text_en": "The commute to work by bicycle takes 30 minutes.",
+      "correct_answer": false,
+      "explanation_de": "Die Fahrt dauert etwa 20 Minuten, nicht 30 Minuten.",
+      "explanation_en": "The ride takes about 20 minutes, not 30 minutes."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Mit dem Fahrrad ist der Autor langsamer als mit dem Auto.",
+      "text_en": "By bicycle, the author is slower than by car.",
+      "correct_answer": false,
+      "explanation_de": "Er ist sogar schneller als mit dem Auto, weil er nicht im Stau stehen muss.",
+      "explanation_en": "He is actually faster than by car because he doesn't have to sit in traffic."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Das Deutschlandticket kostet 49 Euro pro Monat.",
+      "text_en": "The Deutschlandticket costs 49 euros per month.",
+      "correct_answer": true,
+      "explanation_de": "Er hat ein Deutschlandticket für 49 Euro im Monat.",
+      "explanation_en": "He has a Deutschlandticket for 49 euros a month."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Für den Großeinkauf leiht der Autor ein Auto von Freunden.",
+      "text_en": "For big grocery shopping, the author borrows a car from friends.",
+      "correct_answer": false,
+      "explanation_de": "Er nutzt ein Carsharing-Auto über eine App, nicht von Freunden.",
+      "explanation_en": "He uses a car-sharing vehicle through an app, not from friends."
+    }
+  ]
+}

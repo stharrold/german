@@ -1,0 +1,103 @@
+{
+  "id": "b1-hoeren-teil-3-005",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltagsgespräch — Reklamation im Geschäft",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Kundin",
+      "text_de": "Entschuldigung, ich möchte diese Jacke reklamieren. Ich habe sie vor zwei Wochen hier gekauft und der Reißverschluss ist schon kaputt.",
+      "text_en": "Excuse me, I would like to return this jacket. I bought it here two weeks ago and the zipper is already broken."
+    },
+    {
+      "speaker": "Verkäufer",
+      "text_de": "Das tut mir leid. Haben Sie den Kassenbon noch?",
+      "text_en": "I'm sorry to hear that. Do you still have the receipt?"
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Ja, hier bitte. Ich habe die Jacke am 15. Februar gekauft und 89 Euro dafür bezahlt.",
+      "text_en": "Yes, here you go. I bought the jacket on February 15th and paid 89 euros for it."
+    },
+    {
+      "speaker": "Verkäufer",
+      "text_de": "Vielen Dank. Da der Reißverschluss defekt ist, können wir Ihnen drei Möglichkeiten anbieten: Wir können die Jacke reparieren lassen, Sie können eine neue Jacke im gleichen Wert aussuchen, oder wir erstatten Ihnen das Geld zurück.",
+      "text_en": "Thank you. Since the zipper is defective, we can offer you three options: We can have the jacket repaired, you can choose a new jacket of equal value, or we can refund your money."
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Wie lange würde die Reparatur dauern?",
+      "text_en": "How long would the repair take?"
+    },
+    {
+      "speaker": "Verkäufer",
+      "text_de": "Ungefähr eine Woche. Wir schicken die Jacke an unsere Werkstatt.",
+      "text_en": "About a week. We send the jacket to our workshop."
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Dann nehme ich lieber das Geld zurück. Ich brauche eine Jacke für nächste Woche und kann nicht so lange warten.",
+      "text_en": "Then I'd rather have the money back. I need a jacket for next week and can't wait that long."
+    },
+    {
+      "speaker": "Verkäufer",
+      "text_de": "Kein Problem. Ich erstatte Ihnen die 89 Euro sofort auf Ihr Konto. Es kann zwei bis drei Werktage dauern, bis das Geld ankommt.",
+      "text_en": "No problem. I will refund the 89 euros to your account immediately. It may take two to three business days for the money to arrive."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist an der Jacke kaputt?",
+      "text_en": "What is broken on the jacket?",
+      "correct_answer": "a",
+      "options": ["a) Der Reißverschluss", "b) Ein Knopf", "c) Die Naht"],
+      "explanation_de": "Der Reißverschluss der Jacke ist kaputt.",
+      "explanation_en": "The zipper of the jacket is broken."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel hat die Jacke gekostet?",
+      "text_en": "How much did the jacket cost?",
+      "correct_answer": "c",
+      "options": ["a) 79 Euro", "b) 85 Euro", "c) 89 Euro"],
+      "explanation_de": "Die Kundin hat 89 Euro für die Jacke bezahlt.",
+      "explanation_en": "The customer paid 89 euros for the jacket."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Möglichkeiten bietet der Verkäufer an?",
+      "text_en": "How many options does the salesperson offer?",
+      "correct_answer": "c",
+      "options": ["a) Eine", "b) Zwei", "c) Drei"],
+      "explanation_de": "Der Verkäufer bietet drei Möglichkeiten an: Reparatur, Umtausch oder Erstattung.",
+      "explanation_en": "The salesperson offers three options: repair, exchange, or refund."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie lange würde die Reparatur dauern?",
+      "text_en": "How long would the repair take?",
+      "correct_answer": "b",
+      "options": ["a) Zwei Tage", "b) Ungefähr eine Woche", "c) Zwei Wochen"],
+      "explanation_de": "Die Reparatur würde ungefähr eine Woche dauern.",
+      "explanation_en": "The repair would take about a week."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wofür entscheidet sich die Kundin?",
+      "text_en": "What does the customer decide?",
+      "correct_answer": "a",
+      "options": ["a) Geld zurück", "b) Eine neue Jacke", "c) Reparatur"],
+      "explanation_de": "Die Kundin möchte das Geld zurückbekommen.",
+      "explanation_en": "The customer wants her money back."
+    }
+  ]
+}

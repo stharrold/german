@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-5-003",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Ordnung: Schwimmbadregeln",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Badeordnung — Stadtbad Neustadt\n\n1. Einlass: Kinder unter 8 Jahren dürfen das Schwimmbad nur in Begleitung einer erwachsenen Person betreten. Der letzte Einlass ist 45 Minuten vor Schließung. Bitte verlassen Sie das Wasser spätestens 15 Minuten vor Schließung.\n\n2. Hygiene: Vor dem Betreten des Schwimmbeckens ist das Duschen Pflicht. Straßenkleidung darf nicht im Schwimmbereich getragen werden. Badekappen sind im Hallenbad empfohlen, aber nicht verpflichtend.\n\n3. Sicherheit: Das Springen vom Beckenrand ist nur im Sprungbereich erlaubt. Laufen auf nassen Flächen ist verboten — Rutschgefahr! Die Anweisungen des Badepersonals sind jederzeit zu befolgen. Schwimmhilfen (Schwimmflügel, Schwimmringe) ersetzen nicht die Aufsichtspflicht der Eltern.\n\n4. Wertsachen: Für verlorene oder gestohlene Wertsachen übernimmt das Schwimmbad keine Haftung. Schließfächer stehen kostenlos zur Verfügung. Bitte nutzen Sie die Schließfächer für Ihre Wertsachen und Schlüssel.\n\n5. Öffnungszeiten: Mo–Fr 6:30–21:00 Uhr, Sa–So 8:00–20:00 Uhr. Frühschwimmen: Mo–Fr 6:30–8:00 Uhr (ermäßigter Eintrittspreis). Familienschwimmen: Sa 14:00–17:00 Uhr. An Feiertagen gelten die Sonntagsöffnungszeiten.",
+    "text_en": "Pool Rules — Neustadt City Pool\n\n1. Admission: Children under 8 years may only enter the swimming pool accompanied by an adult. Last admission is 45 minutes before closing. Please leave the water at least 15 minutes before closing.\n\n2. Hygiene: Showering is mandatory before entering the swimming pool. Street clothes may not be worn in the swimming area. Swimming caps are recommended in the indoor pool but not mandatory.\n\n3. Safety: Jumping from the pool edge is only allowed in the diving area. Running on wet surfaces is prohibited — slip hazard! The instructions of pool staff must be followed at all times. Swimming aids (water wings, swim rings) do not replace parents' duty of supervision.\n\n4. Valuables: The swimming pool assumes no liability for lost or stolen valuables. Lockers are available free of charge. Please use the lockers for your valuables and keys.\n\n5. Opening hours: Mon–Fri 6:30 AM–9 PM, Sat–Sun 8 AM–8 PM. Early swimming: Mon–Fri 6:30–8 AM (reduced admission price). Family swimming: Sat 2–5 PM. On public holidays, Sunday opening hours apply.",
+    "source": "Badeordnung",
+    "word_count": 201
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Ab welchem Alter dürfen Kinder alleine ins Schwimmbad?",
+      "text_en": "From what age may children go to the pool alone?",
+      "correct_answer": "b",
+      "options": ["a) Ab 6 Jahren", "b) Ab 8 Jahren", "c) Ab 10 Jahren"],
+      "explanation_de": "Kinder unter 8 Jahren brauchen die Begleitung eines Erwachsenen.",
+      "explanation_en": "Children under 8 need to be accompanied by an adult."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was muss man vor dem Schwimmen tun?",
+      "text_en": "What must you do before swimming?",
+      "correct_answer": "c",
+      "options": ["a) Eine Badekappe aufsetzen", "b) Sich beim Bademeister anmelden", "c) Duschen"],
+      "explanation_de": "Duschen ist Pflicht vor dem Betreten des Schwimmbeckens.",
+      "explanation_en": "Showering is mandatory before entering the pool."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wo darf man ins Wasser springen?",
+      "text_en": "Where may you jump into the water?",
+      "correct_answer": "a",
+      "options": ["a) Nur im Sprungbereich", "b) Überall im Schwimmbad", "c) Springen ist verboten"],
+      "explanation_de": "Das Springen ist nur im Sprungbereich erlaubt.",
+      "explanation_en": "Jumping is only allowed in the diving area."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kosten die Schließfächer?",
+      "text_en": "How much do the lockers cost?",
+      "correct_answer": "b",
+      "options": ["a) 1 Euro", "b) Sie sind kostenlos", "c) 2 Euro"],
+      "explanation_de": "Schließfächer stehen kostenlos zur Verfügung.",
+      "explanation_en": "Lockers are available free of charge."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Frühschwimmen?",
+      "text_en": "When is early swimming?",
+      "correct_answer": "c",
+      "options": ["a) Mo–Fr 5:30–7:00 Uhr", "b) Sa–So 6:30–8:00 Uhr", "c) Mo–Fr 6:30–8:00 Uhr"],
+      "explanation_de": "Frühschwimmen ist Mo–Fr von 6:30 bis 8:00 Uhr.",
+      "explanation_en": "Early swimming is Mon–Fri from 6:30 to 8:00 AM."
+    }
+  ]
+}

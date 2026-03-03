@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-1-003",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Bibliothek — Neue Öffnungszeiten",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage",
+      "text_de": "Liebe Besucherinnen und Besucher der Stadtbibliothek Köln.",
+      "text_en": "Dear visitors of the Cologne City Library."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Ab dem 1. Mai gelten neue Öffnungszeiten: Montag bis Freitag von 9 bis 19 Uhr und Samstag von 10 bis 16 Uhr.",
+      "text_en": "Starting May 1st, new opening hours apply: Monday to Friday from 9 AM to 7 PM and Saturday from 10 AM to 4 PM."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Sonntags bleibt die Bibliothek geschlossen.",
+      "text_en": "The library remains closed on Sundays."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Außerdem möchten wir Sie auf unser neues Angebot hinweisen: Ab sofort können Sie E-Books kostenlos über unsere App ausleihen.",
+      "text_en": "We would also like to draw your attention to our new offer: From now on, you can borrow e-books free of charge through our app."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Für Fragen stehen wir Ihnen gerne an der Information im Erdgeschoss zur Verfügung.",
+      "text_en": "For questions, we are happy to help you at the information desk on the ground floor."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Die neuen Öffnungszeiten beginnen am 1. Juni.",
+      "text_en": "The new opening hours start on June 1st.",
+      "correct_answer": false,
+      "explanation_de": "Die neuen Öffnungszeiten beginnen am 1. Mai, nicht am 1. Juni.",
+      "explanation_en": "The new opening hours start on May 1st, not June 1st."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Am Samstag hat die Bibliothek bis 16 Uhr geöffnet.",
+      "text_en": "The library is open until 4 PM on Saturday.",
+      "correct_answer": true,
+      "explanation_de": "Die Öffnungszeiten am Samstag sind von 10 bis 16 Uhr.",
+      "explanation_en": "Saturday opening hours are from 10 AM to 4 PM."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Bibliothek ist sonntags geöffnet.",
+      "text_en": "The library is open on Sundays.",
+      "correct_answer": false,
+      "explanation_de": "Sonntags bleibt die Bibliothek geschlossen.",
+      "explanation_en": "The library remains closed on Sundays."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "E-Books kann man jetzt kostenlos ausleihen.",
+      "text_en": "E-books can now be borrowed free of charge.",
+      "correct_answer": true,
+      "explanation_de": "Man kann E-Books kostenlos über die App ausleihen.",
+      "explanation_en": "You can borrow e-books free of charge through the app."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Die Information befindet sich im ersten Stock.",
+      "text_en": "The information desk is on the first floor.",
+      "correct_answer": false,
+      "explanation_de": "Die Information befindet sich im Erdgeschoss, nicht im ersten Stock.",
+      "explanation_en": "The information desk is on the ground floor, not the first floor."
+    }
+  ]
+}

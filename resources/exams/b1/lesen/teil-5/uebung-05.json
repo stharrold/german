@@ -1,0 +1,67 @@
+{
+  "id": "b1-lesen-teil-5-005",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Ordnung: Mietvertrag — Auszug",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Auszug aus dem Mietvertrag — Wohnung Bergstraße 42, 3. OG links\n\n1. Mietdauer: Das Mietverhältnis beginnt am 1. April und ist unbefristet. Die Kündigungsfrist beträgt drei Monate zum Monatsende. Die Kündigung muss schriftlich erfolgen.\n\n2. Miete: Die monatliche Kaltmiete beträgt 680 Euro. Die Nebenkosten (Heizung, Wasser, Müllabfuhr) werden als Pauschale von 180 Euro berechnet. Die Gesamtmiete von 860 Euro ist bis zum 3. Werktag eines jeden Monats auf das Konto des Vermieters zu überweisen.\n\n3. Kaution: Der Mieter zahlt eine Kaution in Höhe von drei Monatskaltmieten (2.040 Euro). Die Kaution kann in drei gleichen monatlichen Raten gezahlt werden. Die erste Rate ist bei Vertragsunterzeichnung fällig.\n\n4. Renovierung: Kleinere Reparaturen bis zu einem Betrag von 100 Euro pro Einzelfall und maximal 300 Euro pro Jahr sind vom Mieter zu tragen (Kleinreparaturklausel). Bei Auszug ist die Wohnung in frisch gestrichenem Zustand zurückzugeben.\n\n5. Untervermietung: Die Untervermietung der gesamten Wohnung ist nicht gestattet. Die Untervermietung einzelner Zimmer bedarf der schriftlichen Zustimmung des Vermieters.",
+    "text_en": "Extract from Rental Agreement — Apartment Bergstraße 42, 3rd floor left\n\n1. Rental period: The rental agreement begins on April 1st and is open-ended. The notice period is three months to the end of the month. Notice must be given in writing.\n\n2. Rent: The monthly base rent is 680 euros. Utilities (heating, water, waste collection) are charged as a flat rate of 180 euros. The total rent of 860 euros must be transferred to the landlord's account by the 3rd business day of each month.\n\n3. Deposit: The tenant pays a deposit of three months' base rent (2,040 euros). The deposit can be paid in three equal monthly installments. The first installment is due upon signing the contract.\n\n4. Renovation: Minor repairs up to 100 euros per individual case and a maximum of 300 euros per year are to be borne by the tenant (minor repair clause). Upon moving out, the apartment must be returned in a freshly painted condition.\n\n5. Subletting: Subletting the entire apartment is not permitted. Subletting individual rooms requires the landlord's written consent.",
+    "source": "Mietvertrag",
+    "word_count": 199
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Gesamtmiete pro Monat?",
+      "text_en": "How much is the total rent per month?",
+      "correct_answer": "c",
+      "options": ["a) 680 Euro", "b) 780 Euro", "c) 860 Euro"],
+      "explanation_de": "Die Gesamtmiete beträgt 860 Euro (680 Kaltmiete + 180 Nebenkosten).",
+      "explanation_en": "The total rent is 860 euros (680 base rent + 180 utilities)."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Bis wann muss die Miete bezahlt werden?",
+      "text_en": "By when must the rent be paid?",
+      "correct_answer": "a",
+      "options": ["a) Bis zum 3. Werktag des Monats", "b) Bis zum 15. des Monats", "c) Bis zum letzten Tag des Monats"],
+      "explanation_de": "Die Miete ist bis zum 3. Werktag eines jeden Monats zu überweisen.",
+      "explanation_en": "The rent must be transferred by the 3rd business day of each month."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie kann die Kaution bezahlt werden?",
+      "text_en": "How can the deposit be paid?",
+      "correct_answer": "b",
+      "options": ["a) Nur auf einmal bei Einzug", "b) In drei monatlichen Raten", "c) In sechs monatlichen Raten"],
+      "explanation_de": "Die Kaution kann in drei gleichen monatlichen Raten gezahlt werden.",
+      "explanation_en": "The deposit can be paid in three equal monthly installments."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was muss der Mieter bei Auszug tun?",
+      "text_en": "What must the tenant do when moving out?",
+      "correct_answer": "c",
+      "options": ["a) Die Küche renovieren", "b) Neue Böden verlegen", "c) Die Wohnung frisch streichen"],
+      "explanation_de": "Die Wohnung ist in frisch gestrichenem Zustand zurückzugeben.",
+      "explanation_en": "The apartment must be returned in a freshly painted condition."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Darf man ein einzelnes Zimmer untervermieten?",
+      "text_en": "May you sublet a single room?",
+      "correct_answer": "b",
+      "options": ["a) Nein, das ist verboten", "b) Ja, mit schriftlicher Zustimmung des Vermieters", "c) Ja, ohne Genehmigung"],
+      "explanation_de": "Die Untervermietung einzelner Zimmer braucht die schriftliche Zustimmung des Vermieters.",
+      "explanation_en": "Subletting individual rooms requires the landlord's written consent."
+    }
+  ]
+}

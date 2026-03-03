@@ -1,0 +1,88 @@
+{
+  "id": "b1-hoeren-teil-2-002",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Radiodiskussion — Homeoffice",
+  "instructions": "Sie hören ein Gespräch im Radio. Sie hören den Text einmal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 10,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "In unserer heutigen Sendung geht es um das Thema Homeoffice. Herr Braun, Sie arbeiten seit drei Jahren von zu Hause. Wie sind Ihre Erfahrungen?",
+      "text_en": "In today's show, we are discussing the topic of working from home. Mr. Braun, you have been working from home for three years. What are your experiences?"
+    },
+    {
+      "speaker": "Herr Braun",
+      "text_de": "Ich bin sehr zufrieden. Ich spare jeden Tag fast zwei Stunden Fahrtzeit. Das gibt mir mehr Zeit für meine Familie und für Sport.",
+      "text_en": "I am very satisfied. I save almost two hours of commuting time every day. That gives me more time for my family and for sports."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Gibt es auch Nachteile?",
+      "text_en": "Are there also disadvantages?"
+    },
+    {
+      "speaker": "Herr Braun",
+      "text_de": "Ja, natürlich. Manchmal fehlt mir der direkte Kontakt zu den Kollegen. Die kurzen Gespräche in der Kaffeeküche zum Beispiel. Und man braucht viel Selbstdisziplin, um zu Hause produktiv zu bleiben.",
+      "text_en": "Yes, of course. Sometimes I miss the direct contact with colleagues. The short conversations in the coffee kitchen, for example. And you need a lot of self-discipline to stay productive at home."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Was würden Sie Arbeitgebern empfehlen?",
+      "text_en": "What would you recommend to employers?"
+    },
+    {
+      "speaker": "Herr Braun",
+      "text_de": "Ich denke, ein Mischmodell ist ideal. Zwei oder drei Tage im Büro und den Rest von zu Hause. So hat man beides: den Kontakt zu den Kollegen und die Flexibilität des Homeoffice.",
+      "text_en": "I think a hybrid model is ideal. Two or three days in the office and the rest from home. That way you have both: the contact with colleagues and the flexibility of working from home."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Herr Braun arbeitet seit fünf Jahren von zu Hause.",
+      "text_en": "Mr. Braun has been working from home for five years.",
+      "correct_answer": false,
+      "explanation_de": "Herr Braun arbeitet seit drei Jahren von zu Hause, nicht seit fünf.",
+      "explanation_en": "Mr. Braun has been working from home for three years, not five."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Herr Braun spart jeden Tag fast zwei Stunden Fahrtzeit.",
+      "text_en": "Mr. Braun saves almost two hours of commuting time every day.",
+      "correct_answer": true,
+      "explanation_de": "Er sagt, dass er fast zwei Stunden Fahrtzeit spart.",
+      "explanation_en": "He says that he saves almost two hours of commuting time."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Herr Braun vermisst die Meetings im Büro.",
+      "text_en": "Mr. Braun misses the meetings in the office.",
+      "correct_answer": false,
+      "explanation_de": "Er vermisst die kurzen Gespräche in der Kaffeeküche, nicht die Meetings.",
+      "explanation_en": "He misses the short conversations in the coffee kitchen, not the meetings."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Man braucht Selbstdisziplin, um zu Hause produktiv zu sein.",
+      "text_en": "You need self-discipline to be productive at home.",
+      "correct_answer": true,
+      "explanation_de": "Herr Braun sagt, man braucht viel Selbstdisziplin im Homeoffice.",
+      "explanation_en": "Mr. Braun says you need a lot of self-discipline working from home."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Herr Braun empfiehlt, nur von zu Hause zu arbeiten.",
+      "text_en": "Mr. Braun recommends working only from home.",
+      "correct_answer": false,
+      "explanation_de": "Er empfiehlt ein Mischmodell: zwei bis drei Tage im Büro und den Rest von zu Hause.",
+      "explanation_en": "He recommends a hybrid model: two to three days in the office and the rest from home."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "b1-hoeren-teil-2-003",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Radiodiskussion — Umweltschutz im Alltag",
+  "instructions": "Sie hören ein Gespräch im Radio. Sie hören den Text einmal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 10,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Herzlich willkommen zu unserer Umweltsendung. Heute haben wir Frau Klein bei uns, die als Umweltberaterin für die Stadt Frankfurt arbeitet. Frau Klein, was kann man im Alltag für die Umwelt tun?",
+      "text_en": "Welcome to our environmental show. Today we have Ms. Klein with us, who works as an environmental advisor for the city of Frankfurt. Ms. Klein, what can you do for the environment in everyday life?"
+    },
+    {
+      "speaker": "Frau Klein",
+      "text_de": "Vielen Dank für die Einladung. Es gibt viele kleine Dinge, die einen großen Unterschied machen. Zum Beispiel sollte man öfter mit dem Fahrrad fahren oder den Bus nehmen, statt das Auto zu benutzen.",
+      "text_en": "Thank you for the invitation. There are many small things that make a big difference. For example, you should ride your bike more often or take the bus instead of using the car."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was ist mit dem Einkaufen? Gibt es da auch Tipps?",
+      "text_en": "What about shopping? Are there tips for that too?"
+    },
+    {
+      "speaker": "Frau Klein",
+      "text_de": "Ja, auf jeden Fall. Man sollte eigene Taschen mitbringen und auf Plastikverpackungen verzichten. Außerdem ist es besser, regionale und saisonale Produkte zu kaufen. Das spart lange Transportwege.",
+      "text_en": "Yes, absolutely. You should bring your own bags and avoid plastic packaging. It is also better to buy regional and seasonal products. That saves long transport routes."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und was können Familien zu Hause tun?",
+      "text_en": "And what can families do at home?"
+    },
+    {
+      "speaker": "Frau Klein",
+      "text_de": "Zu Hause kann man Energie sparen, indem man das Licht ausschaltet, wenn man einen Raum verlässt. Auch kurzes Duschen statt Baden spart viel Wasser. Und natürlich ist Mülltrennung sehr wichtig.",
+      "text_en": "At home, you can save energy by turning off the light when you leave a room. Also, taking short showers instead of baths saves a lot of water. And of course, waste separation is very important."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Frau Klein arbeitet als Umweltberaterin für die Stadt Hamburg.",
+      "text_en": "Ms. Klein works as an environmental advisor for the city of Hamburg.",
+      "correct_answer": false,
+      "explanation_de": "Frau Klein arbeitet für die Stadt Frankfurt, nicht Hamburg.",
+      "explanation_en": "Ms. Klein works for the city of Frankfurt, not Hamburg."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Frau Klein empfiehlt, öfter mit dem Fahrrad zu fahren.",
+      "text_en": "Ms. Klein recommends riding your bike more often.",
+      "correct_answer": true,
+      "explanation_de": "Sie empfiehlt, öfter Fahrrad zu fahren oder den Bus zu nehmen.",
+      "explanation_en": "She recommends riding your bike more often or taking the bus."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Man sollte lieber importierte Produkte kaufen.",
+      "text_en": "You should prefer to buy imported products.",
+      "correct_answer": false,
+      "explanation_de": "Man sollte regionale und saisonale Produkte kaufen, um Transportwege zu sparen.",
+      "explanation_en": "You should buy regional and seasonal products to save transport routes."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Kurzes Duschen spart mehr Wasser als Baden.",
+      "text_en": "Taking short showers saves more water than bathing.",
+      "correct_answer": true,
+      "explanation_de": "Frau Klein sagt, kurzes Duschen statt Baden spart viel Wasser.",
+      "explanation_en": "Ms. Klein says taking short showers instead of baths saves a lot of water."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Mülltrennung ist laut Frau Klein nicht so wichtig.",
+      "text_en": "Waste separation is not so important according to Ms. Klein.",
+      "correct_answer": false,
+      "explanation_de": "Frau Klein sagt, Mülltrennung ist sehr wichtig.",
+      "explanation_en": "Ms. Klein says waste separation is very important."
+    }
+  ]
+}
