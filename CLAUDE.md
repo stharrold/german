@@ -26,6 +26,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - v5.3 skills (bmad-planner, speckit-author, quality-enforcer) archived
 - v7x1 slash commands installed
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
+- B1 exam practice content: 21 issues created, milestone [#299](https://github.com/stharrold/german/issues/299)
 
 ## Repository Purpose
 
@@ -34,6 +35,7 @@ Python-based German language learning resources and content:
 - B1-level listening comprehension topics (20 topics, bilingual format)
 - Certificate guides for CEFR levels (A1-C2)
 - Python tools for loading and querying vocabulary data
+- B1 exam practice exercises (in progress — see [#299](https://github.com/stharrold/german/issues/299))
 
 ## Gotchas
 
@@ -49,6 +51,7 @@ Python-based German language learning resources and content:
 - JSON vocabulary files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
 - VCS supports GitHub (`gh`) and Azure DevOps (`az`) — auto-detected from `git remote.origin.url`
 - After deleting/renaming Python modules, grep all `*.md` files under `.claude/skills/` for stale references
+- `gh issue create --label X` fails if label doesn't exist — run `gh label create` first
 
 ## Branch Structure
 
@@ -99,6 +102,23 @@ resources/vocabulary/
 ```json
 {"words": [{"german": "...", "english": "...", "part_of_speech": "...", "gender": "..."}]}
 ```
+
+## Content Architecture
+
+```
+input/                          # Certificate guides (A1-C2, resource links)
+output/                         # B1 listening topics (20 topics, bilingual prose)
+resources/vocabulary/            # JSON word lists (nouns, verbs, adjectives)
+resources/exams/b1/              # Exam practice exercises (Goethe-Institut format)
+├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
+├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-3}/    # Writing (3 tasks, 5 exercises each)
+└── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
+```
+
+**Exam exercise schema:** Structured JSON with bilingual fields (`text_de`/`text_en`), questions, model answers, and scoring criteria. Validated by Pydantic models in `src/german/exams/`.
+
+**Design:** `docs/plans/2026-03-03-b1-exam-practice-content-design.md`
 
 ## German Language Content Guidelines
 
