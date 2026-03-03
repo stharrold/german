@@ -43,6 +43,8 @@ def load_exam_meta(level: str) -> ExamMeta:
         return ExamMeta(**data)
     except json.JSONDecodeError as e:
         raise ExamLoadError(f"Invalid JSON in {meta_path.name}: {e}")
+    except UnicodeDecodeError as e:
+        raise ExamLoadError(f"Encoding error in {meta_path.name}: {e}. Must be UTF-8.")
     except ValidationError as e:
         raise ExamLoadError(f"Validation error in {meta_path.name}: {e}")
 

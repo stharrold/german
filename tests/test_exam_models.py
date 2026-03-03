@@ -1,6 +1,7 @@
 """Tests for German B1 exam exercise models."""
 
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -26,12 +27,12 @@ def test_exam_meta_valid():
     meta = ExamMeta(
         level="B1",
         provider="Goethe-Institut",
-        total_time_minutes=165,
+        total_time_minutes=190,
         passing_score_percent=60,
     )
     assert meta.level == "B1"
     assert meta.provider == "Goethe-Institut"
-    assert meta.total_time_minutes == 165
+    assert meta.total_time_minutes == 190
     assert meta.passing_score_percent == 60
 
 
@@ -138,7 +139,7 @@ def test_transcript_line_umlaut():
 def test_listening_exercise_valid():
     """Test creating a full listening exercise."""
     exercise = ListeningExercise(
-        id="b1-hoeren-teil1-001",
+        id="b1-hoeren-teil-1-001",
         level="B1",
         skill=ExamSkill.HOEREN,
         part=1,
@@ -167,7 +168,7 @@ def test_listening_exercise_valid():
             ),
         ],
     )
-    assert exercise.id == "b1-hoeren-teil1-001"
+    assert exercise.id == "b1-hoeren-teil-1-001"
     assert exercise.level == "B1"
     assert exercise.skill == ExamSkill.HOEREN
     assert exercise.part == 1
@@ -180,7 +181,7 @@ def test_listening_exercise_missing_transcript():
     """Test that empty transcript raises ValidationError (min_length=1)."""
     with pytest.raises(ValidationError, match="transcript"):
         ListeningExercise(
-            id="b1-hoeren-teil1-001",
+            id="b1-hoeren-teil-1-001",
             level="B1",
             skill=ExamSkill.HOEREN,
             part=1,
@@ -211,7 +212,7 @@ def test_passage():
 def test_reading_exercise_valid():
     """Test creating a full reading exercise."""
     exercise = ReadingExercise(
-        id="b1-lesen-teil1-001",
+        id="b1-lesen-teil-1-001",
         level="B1",
         skill=ExamSkill.LESEN,
         part=1,
@@ -234,7 +235,7 @@ def test_reading_exercise_valid():
             ),
         ],
     )
-    assert exercise.id == "b1-lesen-teil1-001"
+    assert exercise.id == "b1-lesen-teil-1-001"
     assert exercise.skill == ExamSkill.LESEN
     assert exercise.passage.source == "Süddeutsche Zeitung"
     assert len(exercise.questions) == 1
@@ -244,7 +245,7 @@ def test_reading_exercise_missing_passage():
     """Test that missing passage raises ValidationError."""
     with pytest.raises(ValidationError, match="passage"):
         ReadingExercise(
-            id="b1-lesen-teil1-001",
+            id="b1-lesen-teil-1-001",
             level="B1",
             skill=ExamSkill.LESEN,
             part=1,
@@ -270,7 +271,7 @@ def test_model_answer():
 def test_writing_exercise_valid():
     """Test creating a full writing exercise."""
     exercise = WritingExercise(
-        id="b1-schreiben-aufgabe1-001",
+        id="b1-schreiben-aufgabe-1-001",
         level="B1",
         skill=ExamSkill.SCHREIBEN,
         task=1,
@@ -294,7 +295,7 @@ def test_writing_exercise_valid():
             "Formale Richtigkeit",
         ],
     )
-    assert exercise.id == "b1-schreiben-aufgabe1-001"
+    assert exercise.id == "b1-schreiben-aufgabe-1-001"
     assert exercise.skill == ExamSkill.SCHREIBEN
     assert exercise.task == 1
     assert exercise.target_word_count == 120
@@ -306,7 +307,7 @@ def test_writing_exercise_valid():
 def test_speaking_exercise_valid():
     """Test creating a full speaking exercise."""
     exercise = SpeakingExercise(
-        id="b1-sprechen-teil1-001",
+        id="b1-sprechen-teil-1-001",
         level="B1",
         skill=ExamSkill.SPRECHEN,
         part=1,
@@ -338,7 +339,7 @@ def test_speaking_exercise_valid():
             "Aussprache und Intonation",
         ],
     )
-    assert exercise.id == "b1-sprechen-teil1-001"
+    assert exercise.id == "b1-sprechen-teil-1-001"
     assert exercise.skill == ExamSkill.SPRECHEN
     assert exercise.part == 1
     assert len(exercise.discussion_points) == 3
@@ -350,7 +351,7 @@ def test_speaking_exercise_missing_discussion_points():
     """Test that empty discussion_points raises ValidationError (min_length=1)."""
     with pytest.raises(ValidationError, match="discussion_points"):
         SpeakingExercise(
-            id="b1-sprechen-teil1-001",
+            id="b1-sprechen-teil-1-001",
             level="B1",
             skill=ExamSkill.SPRECHEN,
             part=1,
@@ -396,7 +397,7 @@ def test_b1_directory_structure():
 def test_listening_exercise_roundtrip_json():
     """Test that a listening exercise survives JSON round-trip."""
     exercise = ListeningExercise(
-        id="b1-hoeren-teil1-001",
+        id="b1-hoeren-teil-1-001",
         level="B1",
         skill=ExamSkill.HOEREN,
         part=1,
@@ -432,7 +433,7 @@ def test_listening_exercise_roundtrip_json():
 def test_writing_exercise_roundtrip_json():
     """Test that a writing exercise survives JSON round-trip."""
     exercise = WritingExercise(
-        id="b1-schreiben-aufgabe1-001",
+        id="b1-schreiben-aufgabe-1-001",
         level="B1",
         skill=ExamSkill.SCHREIBEN,
         task=1,
@@ -456,11 +457,9 @@ def test_writing_exercise_roundtrip_json():
 
 def test_exercise_id_format():
     """Test that exercise IDs follow the naming convention."""
-    import re
-
     exercises = [
         ListeningExercise(
-            id="b1-hoeren-teil1-001",
+            id="b1-hoeren-teil-1-001",
             level="B1",
             skill=ExamSkill.HOEREN,
             part=1,
@@ -471,7 +470,7 @@ def test_exercise_id_format():
             questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
         ),
         ReadingExercise(
-            id="b1-lesen-teil2-003",
+            id="b1-lesen-teil-2-003",
             level="B1",
             skill=ExamSkill.LESEN,
             part=2,
@@ -482,7 +481,7 @@ def test_exercise_id_format():
             questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
         ),
     ]
-    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)\d+-\d{3}$"
+    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)-\d+-\d{3}$"
     for ex in exercises:
         assert re.match(pattern, ex.id), f"ID '{ex.id}' doesn't match expected format"
 

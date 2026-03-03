@@ -66,7 +66,7 @@ def filter_by_question_type(question_type: str | QuestionType, exercises: list[E
         question_type = QuestionType(question_type)
     result: list[ExamExercise] = []
     for ex in exercises:
-        if hasattr(ex, "questions"):
+        if isinstance(ex, (ListeningExercise, ReadingExercise)):
             if any(q.type == question_type for q in ex.questions):
                 result.append(ex)
     return result
