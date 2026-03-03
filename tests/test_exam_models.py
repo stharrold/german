@@ -391,3 +391,110 @@ def test_b1_directory_structure():
     ]
     for subdir in expected_dirs:
         assert (b1_dir / subdir).is_dir(), f"Missing directory: {b1_dir / subdir}"
+
+
+def test_listening_exercise_roundtrip_json():
+    """Test that a listening exercise survives JSON round-trip."""
+    exercise = ListeningExercise(
+        id="b1-hoeren-teil1-001",
+        level="B1",
+        skill=ExamSkill.HOEREN,
+        part=1,
+        title="Ansagen am Bahnhof",
+        instructions="Sie hören fünf kurze Texte. Sie hören jeden Text zweimal.",
+        time_minutes=10,
+        transcript=[
+            TranscriptLine(
+                speaker="Sprecher",
+                text_de="Achtung auf Gleis drei: Der Zug nach München fährt in fünf Minuten ab.",
+                text_en="Attention on platform three: The train to Munich departs in five minutes.",
+            )
+        ],
+        questions=[
+            Question(
+                number=1,
+                type=QuestionType.TRUE_FALSE,
+                text_de="Der Zug fährt nach München.",
+                text_en="The train goes to Munich.",
+                correct_answer=True,
+                explanation_de="Die Durchsage sagt 'Zug nach München'.",
+                explanation_en="The announcement says 'train to Munich'.",
+            )
+        ],
+    )
+    json_str = exercise.model_dump_json()
+    reloaded = ListeningExercise.model_validate_json(json_str)
+    assert reloaded.id == exercise.id
+    assert reloaded.transcript[0].text_de == exercise.transcript[0].text_de
+    assert reloaded.questions[0].correct_answer == exercise.questions[0].correct_answer
+
+
+def test_writing_exercise_roundtrip_json():
+    """Test that a writing exercise survives JSON round-trip."""
+    exercise = WritingExercise(
+        id="b1-schreiben-aufgabe1-001",
+        level="B1",
+        skill=ExamSkill.SCHREIBEN,
+        task=1,
+        title="E-Mail an einen Freund",
+        instructions="Schreiben Sie eine E-Mail.",
+        situation_de="Ihr Freund hat eine neue Wohnung gefunden.",
+        situation_en="Your friend found a new apartment.",
+        target_word_count=80,
+        required_points=["react to news", "ask about the apartment", "suggest a visit"],
+        model_answer=ModelAnswer(
+            text_de="Lieber Max, ich freue mich sehr über deine neue Wohnung!",
+            text_en="Dear Max, I am very happy about your new apartment!",
+        ),
+        scoring_criteria=["task fulfillment", "coherence", "vocabulary range", "grammar accuracy"],
+    )
+    json_str = exercise.model_dump_json()
+    reloaded = WritingExercise.model_validate_json(json_str)
+    assert reloaded.task == exercise.task
+    assert reloaded.model_answer.text_de == exercise.model_answer.text_de
+
+
+def test_exercise_id_format():
+    """Test that exercise IDs follow the naming convention."""
+    import re
+
+    exercises = [
+        ListeningExercise(
+            id="b1-hoeren-teil1-001",
+            level="B1",
+            skill=ExamSkill.HOEREN,
+            part=1,
+            title="T",
+            instructions="I",
+            time_minutes=10,
+            transcript=[TranscriptLine(speaker="n", text_de="D.", text_en="E.")],
+            questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
+        ),
+        ReadingExercise(
+            id="b1-lesen-teil2-003",
+            level="B1",
+            skill=ExamSkill.LESEN,
+            part=2,
+            title="T",
+            instructions="I",
+            time_minutes=13,
+            passage=Passage(text_de="T.", text_en="T.", source="Blog", word_count=100),
+            questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
+        ),
+    ]
+    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)\d+-\d{3}$"
+    for ex in exercises:
+        assert re.match(pattern, ex.id), f"ID '{ex.id}' doesn't match expected format"
+
+
+def test_umlaut_preservation_in_models():
+    """Test that German umlauts and ß survive model creation."""
+    line = TranscriptLine(
+        speaker="Prüfer",
+        text_de="Möchten Sie über Ihre Erfahrungen in der Großstadt erzählen?",
+        text_en="Would you like to talk about your experiences in the big city?",
+    )
+    assert "ü" in line.speaker
+    assert "ö" in line.text_de
+    assert "ß" in line.text_de
+    assert "ä" in line.text_de
