@@ -64,9 +64,9 @@ This repository uses a streamlined **v7x1** workflow.
 ### Branch Structure
 
 ```
-main (production)
+main (production)          ← protected branch (PR-only, no direct commits)
   ↑
-develop (integration)
+develop (integration)      ← protected branch (PR-only, no direct commits)
   ↑
 contrib/stharrold (your editable branch)
   ↑
