@@ -1,5 +1,8 @@
 """Tests for German B1 exam exercise models."""
 
+import json
+from pathlib import Path
+
 import pytest
 from pydantic import ValidationError
 
@@ -359,3 +362,32 @@ def test_speaking_exercise_missing_discussion_points():
             model_dialogue=[],
             evaluation_criteria=["Criterion 1"],
         )
+
+
+def test_meta_json_exists():
+    """Test that meta.json exists for B1 exam."""
+    meta_path = Path(__file__).parent.parent / "resources" / "exams" / "b1" / "meta.json"
+    assert meta_path.exists(), f"meta.json not found at {meta_path}"
+
+
+def test_meta_json_valid():
+    """Test that meta.json validates against ExamMeta model."""
+    meta_path = Path(__file__).parent.parent / "resources" / "exams" / "b1" / "meta.json"
+    with open(meta_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    meta = ExamMeta(**data)
+    assert meta.level == "B1"
+    assert meta.provider == "Goethe-Institut"
+
+
+def test_b1_directory_structure():
+    """Test that all expected B1 exam directories exist."""
+    b1_dir = Path(__file__).parent.parent / "resources" / "exams" / "b1"
+    expected_dirs = [
+        "hoeren/teil-1", "hoeren/teil-2", "hoeren/teil-3", "hoeren/teil-4",
+        "lesen/teil-1", "lesen/teil-2", "lesen/teil-3", "lesen/teil-4", "lesen/teil-5",
+        "schreiben/aufgabe-1", "schreiben/aufgabe-2", "schreiben/aufgabe-3",
+        "sprechen/teil-1", "sprechen/teil-2", "sprechen/teil-3",
+    ]
+    for subdir in expected_dirs:
+        assert (b1_dir / subdir).is_dir(), f"Missing directory: {b1_dir / subdir}"
