@@ -27,6 +27,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - v7x1 slash commands installed
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
 - B1 exam practice content: 21 issues created, milestone [#299](https://github.com/stharrold/german/issues/299)
+- B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
 
 ## Repository Purpose
 
@@ -49,6 +50,7 @@ Python-based German language learning resources and content:
 - Git worktrees use a `.git` file (not directory) — use `.exists()` not `.is_dir()` when checking for git repos
 - All nouns MUST have gender (der/die/das) — enforced by Pydantic `@model_validator`
 - JSON vocabulary files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
+- WritingExercise uses `task` field (not `part`) — `filter_by_part()` handles this, but new query code must too
 - VCS supports GitHub (`gh`) and Azure DevOps (`az`) — auto-detected from `git remote.origin.url`
 - After deleting/renaming Python modules, grep all `*.md` files under `.claude/skills/` for stale references
 - `gh issue create --label X` fails if label doesn't exist — run `gh label create` first
@@ -86,9 +88,13 @@ uv run mypy src/                           # Type checking
 src/german/
 ├── __init__.py
 ├── models.py             # Pydantic: VocabularyWord, Gender, PartOfSpeech
-└── vocabulary/
-    ├── loader.py          # JSON → VocabularyWord objects (UTF-8)
-    └── query.py           # Filter by POS, gender, lookup
+├── vocabulary/
+│   ├── loader.py          # JSON → VocabularyWord objects (UTF-8)
+│   └── query.py           # Filter by POS, gender, lookup
+└── exams/
+    ├── models.py          # Pydantic: ExamMeta, *Exercise, Question, ExamSkill
+    ├── loader.py          # JSON → Exercise objects (generic TypeVar loader)
+    └── query.py           # Filter by skill, part, question type
 
 resources/vocabulary/
 ├── nouns.json             # German nouns with gender, plural
