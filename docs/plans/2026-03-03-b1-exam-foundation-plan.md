@@ -166,7 +166,7 @@ def test_transcript_line_umlaut():
 def test_listening_exercise_valid():
     """Test creating a valid listening exercise."""
     exercise = ListeningExercise(
-        id="b1-hoeren-teil1-001",
+        id="b1-hoeren-teil-1-001",
         level="B1",
         skill=ExamSkill.HOEREN,
         part=1,
@@ -192,7 +192,7 @@ def test_listening_exercise_valid():
             )
         ],
     )
-    assert exercise.id == "b1-hoeren-teil1-001"
+    assert exercise.id == "b1-hoeren-teil-1-001"
     assert exercise.skill == ExamSkill.HOEREN
     assert exercise.part == 1
     assert len(exercise.transcript) == 1
@@ -203,7 +203,7 @@ def test_listening_exercise_missing_transcript():
     """Test that transcript is required for listening."""
     with pytest.raises(ValidationError):
         ListeningExercise(
-            id="b1-hoeren-teil1-001",
+            id="b1-hoeren-teil-1-001",
             level="B1",
             skill=ExamSkill.HOEREN,
             part=1,
@@ -232,7 +232,7 @@ def test_passage():
 def test_reading_exercise_valid():
     """Test creating a valid reading exercise."""
     exercise = ReadingExercise(
-        id="b1-lesen-teil1-001",
+        id="b1-lesen-teil-1-001",
         level="B1",
         skill=ExamSkill.LESEN,
         part=1,
@@ -255,7 +255,7 @@ def test_reading_exercise_valid():
             )
         ],
     )
-    assert exercise.id == "b1-lesen-teil1-001"
+    assert exercise.id == "b1-lesen-teil-1-001"
     assert exercise.passage.word_count == 350
 
 
@@ -263,7 +263,7 @@ def test_reading_exercise_missing_passage():
     """Test that passage is required for reading."""
     with pytest.raises(ValidationError):
         ReadingExercise(
-            id="b1-lesen-teil1-001",
+            id="b1-lesen-teil-1-001",
             level="B1",
             skill=ExamSkill.LESEN,
             part=1,
@@ -289,7 +289,7 @@ def test_model_answer():
 def test_writing_exercise_valid():
     """Test creating a valid writing exercise."""
     exercise = WritingExercise(
-        id="b1-schreiben-aufgabe1-001",
+        id="b1-schreiben-aufgabe-1-001",
         level="B1",
         skill=ExamSkill.SCHREIBEN,
         task=1,
@@ -317,7 +317,7 @@ def test_writing_exercise_valid():
 def test_speaking_exercise_valid():
     """Test creating a valid speaking exercise."""
     exercise = SpeakingExercise(
-        id="b1-sprechen-teil1-001",
+        id="b1-sprechen-teil-1-001",
         level="B1",
         skill=ExamSkill.SPRECHEN,
         part=1,
@@ -342,7 +342,7 @@ def test_speaking_exercise_missing_discussion_points():
     """Test that discussion points are required for speaking."""
     with pytest.raises(ValidationError):
         SpeakingExercise(
-            id="b1-sprechen-teil1-001",
+            id="b1-sprechen-teil-1-001",
             level="B1",
             skill=ExamSkill.SPRECHEN,
             part=1,
@@ -455,7 +455,7 @@ class ModelAnswer(BaseModel):
 class ListeningExercise(BaseModel):
     """A Hören (listening) exercise with transcript and questions."""
 
-    id: str = Field(..., description="Exercise ID (e.g. b1-hoeren-teil1-001)")
+    id: str = Field(..., description="Exercise ID (e.g. b1-hoeren-teil-1-001)")
     level: str = Field(..., description="CEFR level")
     skill: ExamSkill = Field(..., description="Exam skill section")
     part: int = Field(..., description="Part number within the skill")
@@ -471,7 +471,7 @@ class ListeningExercise(BaseModel):
 class ReadingExercise(BaseModel):
     """A Lesen (reading) exercise with passage and questions."""
 
-    id: str = Field(..., description="Exercise ID (e.g. b1-lesen-teil1-001)")
+    id: str = Field(..., description="Exercise ID (e.g. b1-lesen-teil-1-001)")
     level: str = Field(..., description="CEFR level")
     skill: ExamSkill = Field(..., description="Exam skill section")
     part: int = Field(..., description="Part number within the skill")
@@ -487,7 +487,7 @@ class ReadingExercise(BaseModel):
 class WritingExercise(BaseModel):
     """A Schreiben (writing) exercise with prompt and model answer."""
 
-    id: str = Field(..., description="Exercise ID (e.g. b1-schreiben-aufgabe1-001)")
+    id: str = Field(..., description="Exercise ID (e.g. b1-schreiben-aufgabe-1-001)")
     level: str = Field(..., description="CEFR level")
     skill: ExamSkill = Field(..., description="Exam skill section")
     task: int = Field(..., description="Task number (Aufgabe)")
@@ -506,7 +506,7 @@ class WritingExercise(BaseModel):
 class SpeakingExercise(BaseModel):
     """A Sprechen (speaking) exercise with dialogue and evaluation criteria."""
 
-    id: str = Field(..., description="Exercise ID (e.g. b1-sprechen-teil1-001)")
+    id: str = Field(..., description="Exercise ID (e.g. b1-sprechen-teil-1-001)")
     level: str = Field(..., description="CEFR level")
     skill: ExamSkill = Field(..., description="Exam skill section")
     part: int = Field(..., description="Part number within the skill")
@@ -710,7 +710,7 @@ def test_load_exam_meta_nonexistent():
 def test_load_exercise_from_file(tmp_path):
     """Test loading a single exercise from a JSON file."""
     exercise_data = {
-        "id": "b1-hoeren-teil1-001",
+        "id": "b1-hoeren-teil-1-001",
         "level": "B1",
         "skill": "hoeren",
         "part": 1,
@@ -736,7 +736,7 @@ def test_load_exercise_from_file(tmp_path):
     exercise_file.write_text(json.dumps(exercise_data), encoding="utf-8")
 
     exercise = load_exercise(exercise_file, ListeningExercise)
-    assert exercise.id == "b1-hoeren-teil1-001"
+    assert exercise.id == "b1-hoeren-teil-1-001"
     assert len(exercise.transcript) == 1
     assert len(exercise.questions) == 1
 
@@ -1214,7 +1214,7 @@ Append to `tests/test_exam_models.py` (these go beyond unit tests to validate fu
 def test_listening_exercise_roundtrip_json():
     """Test that a listening exercise survives JSON round-trip."""
     exercise = ListeningExercise(
-        id="b1-hoeren-teil1-001",
+        id="b1-hoeren-teil-1-001",
         level="B1",
         skill=ExamSkill.HOEREN,
         part=1,
@@ -1250,7 +1250,7 @@ def test_listening_exercise_roundtrip_json():
 def test_writing_exercise_roundtrip_json():
     """Test that a writing exercise survives JSON round-trip."""
     exercise = WritingExercise(
-        id="b1-schreiben-aufgabe1-001",
+        id="b1-schreiben-aufgabe-1-001",
         level="B1",
         skill=ExamSkill.SCHREIBEN,
         task=1,
@@ -1276,20 +1276,20 @@ def test_exercise_id_format():
     """Test that exercise IDs follow the naming convention."""
     exercises = [
         ListeningExercise(
-            id="b1-hoeren-teil1-001", level="B1", skill=ExamSkill.HOEREN, part=1,
+            id="b1-hoeren-teil-1-001", level="B1", skill=ExamSkill.HOEREN, part=1,
             title="T", instructions="I", time_minutes=10,
             transcript=[TranscriptLine(speaker="n", text_de="D.", text_en="E.")],
             questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
         ),
         ReadingExercise(
-            id="b1-lesen-teil2-003", level="B1", skill=ExamSkill.LESEN, part=2,
+            id="b1-lesen-teil-2-003", level="B1", skill=ExamSkill.LESEN, part=2,
             title="T", instructions="I", time_minutes=13,
             passage=Passage(text_de="T.", text_en="T.", source="Blog", word_count=100),
             questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
         ),
     ]
     import re
-    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)\d+-\d{3}$"
+    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)-\d+-\d{3}$"
     for ex in exercises:
         assert re.match(pattern, ex.id), f"ID '{ex.id}' doesn't match expected format"
 

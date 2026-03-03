@@ -22,10 +22,16 @@ def test_load_exam_meta_nonexistent():
         load_exam_meta("c3")
 
 
+def test_load_exam_meta_path_traversal():
+    """Test that path traversal in level is rejected."""
+    with pytest.raises(ExamLoadError, match="Invalid level"):
+        load_exam_meta("../../etc")
+
+
 def test_load_exercise_from_file(tmp_path):
     """Test loading a single exercise from a JSON file."""
     exercise_data = {
-        "id": "b1-hoeren-teil1-001",
+        "id": "b1-hoeren-teil-1-001",
         "level": "B1",
         "skill": "hoeren",
         "part": 1,
@@ -51,7 +57,7 @@ def test_load_exercise_from_file(tmp_path):
     exercise_file.write_text(json.dumps(exercise_data), encoding="utf-8")
 
     exercise = load_exercise(exercise_file, ListeningExercise)
-    assert exercise.id == "b1-hoeren-teil1-001"
+    assert exercise.id == "b1-hoeren-teil-1-001"
     assert len(exercise.transcript) == 1
     assert len(exercise.questions) == 1
 

@@ -34,17 +34,20 @@ def load_exam_meta(level: str) -> ExamMeta:
     Raises:
         ExamLoadError: If metadata file not found, invalid JSON, or validation fails
     """
-    meta_path = _resources_dir() / level / "meta.json"
+    meta_path = (_resources_dir() / level / "meta.json").resolve()
+    if not meta_path.is_relative_to(_resources_dir()):
+        raise ExamLoadError(f"Invalid level: {level}")
     if not meta_path.exists():
         raise ExamLoadError(f"Exam metadata not found: {meta_path}")
     try:
         with open(meta_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return ExamMeta(**data)
     except json.JSONDecodeError as e:
         raise ExamLoadError(f"Invalid JSON in {meta_path.name}: {e}")
     except UnicodeDecodeError as e:
         raise ExamLoadError(f"Encoding error in {meta_path.name}: {e}. Must be UTF-8.")
+    try:
+        return ExamMeta(**data)
     except ValidationError as e:
         raise ExamLoadError(f"Validation error in {meta_path.name}: {e}")
 

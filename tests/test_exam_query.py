@@ -17,7 +17,7 @@ from german.exams.query import filter_by_part, filter_by_question_type, filter_b
 
 def _make_listening(part: int = 1) -> ListeningExercise:
     return ListeningExercise(
-        id=f"b1-hoeren-teil{part}-001",
+        id=f"b1-hoeren-teil-{part}-001",
         level="B1",
         skill=ExamSkill.HOEREN,
         part=part,
@@ -31,7 +31,7 @@ def _make_listening(part: int = 1) -> ListeningExercise:
 
 def _make_reading(part: int = 1) -> ReadingExercise:
     return ReadingExercise(
-        id=f"b1-lesen-teil{part}-001",
+        id=f"b1-lesen-teil-{part}-001",
         level="B1",
         skill=ExamSkill.LESEN,
         part=part,
@@ -45,7 +45,7 @@ def _make_reading(part: int = 1) -> ReadingExercise:
 
 def _make_writing(task: int = 1) -> WritingExercise:
     return WritingExercise(
-        id=f"b1-schreiben-aufgabe{task}-001",
+        id=f"b1-schreiben-aufgabe-{task}-001",
         level="B1",
         skill=ExamSkill.SCHREIBEN,
         task=task,
@@ -62,7 +62,7 @@ def _make_writing(task: int = 1) -> WritingExercise:
 
 def _make_speaking(part: int = 1) -> SpeakingExercise:
     return SpeakingExercise(
-        id=f"b1-sprechen-teil{part}-001",
+        id=f"b1-sprechen-teil-{part}-001",
         level="B1",
         skill=ExamSkill.SPRECHEN,
         part=part,

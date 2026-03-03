@@ -455,6 +455,9 @@ def test_writing_exercise_roundtrip_json():
     assert reloaded.model_answer.text_de == exercise.model_answer.text_de
 
 
+EXERCISE_ID_PATTERN = re.compile(r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)-\d+-\d{3}$")
+
+
 def test_exercise_id_format():
     """Test that exercise IDs follow the naming convention."""
     exercises = [
@@ -480,10 +483,36 @@ def test_exercise_id_format():
             passage=Passage(text_de="T.", text_en="T.", source="Blog", word_count=100),
             questions=[Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Q?", correct_answer=True)],
         ),
+        WritingExercise(
+            id="b1-schreiben-aufgabe-1-001",
+            level="B1",
+            skill=ExamSkill.SCHREIBEN,
+            task=1,
+            title="T",
+            instructions="I",
+            situation_de="S.",
+            situation_en="S.",
+            target_word_count=80,
+            required_points=["p1"],
+            model_answer=ModelAnswer(text_de="A.", text_en="A."),
+            scoring_criteria=["c1"],
+        ),
+        SpeakingExercise(
+            id="b1-sprechen-teil-3-001",
+            level="B1",
+            skill=ExamSkill.SPRECHEN,
+            part=3,
+            title="T",
+            instructions="I",
+            situation_de="S.",
+            situation_en="S.",
+            discussion_points=["p1"],
+            model_dialogue=[TranscriptLine(speaker="A", text_de="D.", text_en="E.")],
+            evaluation_criteria=["c1"],
+        ),
     ]
-    pattern = r"^b1-(hoeren|lesen|schreiben|sprechen)-(teil|aufgabe)-\d+-\d{3}$"
     for ex in exercises:
-        assert re.match(pattern, ex.id), f"ID '{ex.id}' doesn't match expected format"
+        assert EXERCISE_ID_PATTERN.match(ex.id), f"ID '{ex.id}' doesn't match expected format"
 
 
 def test_umlaut_preservation_in_models():
