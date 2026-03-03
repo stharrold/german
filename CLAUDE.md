@@ -44,16 +44,20 @@ Python-based German language learning resources and content:
 - `release_workflow.py create-release` auto-calculates version from last git tag — override manually for major bumps
 - Ruff auto-fixes import ordering on commit — re-stage if pre-commit hook modifies files
 - `backmerge_workflow.py cleanup-release` only prints instructions — run `git branch -d release/vX.Y.Z && git push origin --delete release/vX.Y.Z` manually
+- `cleanup_feature.py` may miss worktree cleanup — verify with `git worktree list`, then `git worktree remove <path>`, `git branch -d <branch>`, `git push origin --delete <branch>`
 - Backmerge: always try `backmerge_workflow.py pr-develop` (release → develop) first — only fall back to PR `main` → `develop` if `gh pr create` returns "No commits between develop and release"
 - `claude-code-review.yml` requires `claude_args: "--allowedTools Bash,WebFetch,WebSearch,Skill,Task"` (not `allowed_tools`), `id-token: write` (for OIDC auth), and `fetch-depth: 0` — without these, tool calls are denied and git diff can't reach the base branch
 - `uv run` modifies `uv.lock` when `pyproject.toml` version changes — commit `uv.lock` after version bumps or rebase-contrib will fail with "Uncommitted changes detected"
 - Git worktrees use a `.git` file (not directory) — use `.exists()` not `.is_dir()` when checking for git repos
+- Can't `git checkout` a branch that's checked out in a worktree — work from the worktree path or `git worktree remove` first
 - All nouns MUST have gender (der/die/das) — enforced by Pydantic `@model_validator`
 - JSON vocabulary files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
 - WritingExercise uses `task` field (not `part`) — `filter_by_part()` handles this, but new query code must too
 - VCS supports GitHub (`gh`) and Azure DevOps (`az`) — auto-detected from `git remote.origin.url`
 - After deleting/renaming Python modules, grep all `*.md` files under `.claude/skills/` for stale references
+- After deleting/renaming Python modules, also grep `tests/` for stale imports — stale test files cause pytest collection errors (exit code 2) that block ALL tests
 - `gh issue create --label X` fails if label doesn't exist — run `gh label create` first
+- `record_sync.py` (AgentDB state tracking) doesn't exist in this repo — worktree/integrate skills reference it but failure is non-blocking
 
 ## Branch Structure
 
@@ -123,6 +127,8 @@ resources/exams/b1/              # Exam practice exercises (Goethe-Institut form
 ```
 
 **Exam exercise schema:** Structured JSON with bilingual fields (`text_de`/`text_en`), questions, model answers, and scoring criteria. Validated by Pydantic models in `src/german/exams/`.
+
+**Exercise ID format:** `b1-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
 
 **Design:** `docs/plans/2026-03-03-b1-exam-practice-content-design.md`
 
