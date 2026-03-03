@@ -90,7 +90,7 @@ class ListeningExercise(BaseModel):
     instructions: str = Field(..., description="Exercise instructions")
     time_minutes: int = Field(..., description="Time allowed in minutes")
     transcript: list[TranscriptLine] = Field(..., min_length=1, description="Listening transcript lines")
-    questions: list[Question] = Field(..., description="Exercise questions")
+    questions: list[Question] = Field(..., min_length=1, description="Exercise questions")
 
     model_config = ConfigDict(use_enum_values=True)
 
@@ -106,7 +106,7 @@ class ReadingExercise(BaseModel):
     instructions: str = Field(..., description="Exercise instructions")
     time_minutes: int = Field(..., description="Time allowed in minutes")
     passage: Passage = Field(..., description="Reading passage")
-    questions: list[Question] = Field(..., description="Exercise questions")
+    questions: list[Question] = Field(..., min_length=1, description="Exercise questions")
 
     model_config = ConfigDict(use_enum_values=True)
 

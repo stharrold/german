@@ -129,7 +129,7 @@ def test_transcript_line_umlaut():
     )
     assert "ö" in line.text_de
     assert "ü" in line.text_de
-    assert "ö" in line.text_de
+    assert line.text_de == "Ich möchte gern fünf Brötchen."
 
 
 def test_listening_exercise_valid():
@@ -185,7 +185,9 @@ def test_listening_exercise_missing_transcript():
             instructions="Test instructions",
             time_minutes=8,
             transcript=[],
-            questions=[],
+            questions=[
+                Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Test?", correct_answer=True),
+            ],
         )
 
 
@@ -246,7 +248,9 @@ def test_reading_exercise_missing_passage():
             title="Test",
             instructions="Test instructions",
             time_minutes=10,
-            questions=[],
+            questions=[
+                Question(number=1, type=QuestionType.TRUE_FALSE, text_de="Test?", correct_answer=True),
+            ],
         )
 
 
