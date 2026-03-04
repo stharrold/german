@@ -26,7 +26,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - v5.3 skills (bmad-planner, speckit-author, quality-enforcer) archived
 - v7x1 slash commands installed
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
-- B1 exam practice content: 19/21 issues closed, milestone [#299](https://github.com/stharrold/german/issues/299)
+- B1 exam practice content: 20/21 issues closed, milestone [#299](https://github.com/stharrold/german/issues/299)
 - B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
 - B1 Hören complete: 20 exercises across teil-1 to teil-4 (#282-285)
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
@@ -40,7 +40,7 @@ Python-based German language learning resources and content:
 - B1-level listening comprehension topics (20 topics, bilingual format)
 - Certificate guides for CEFR levels (A1-C2)
 - Python tools for loading and querying vocabulary data
-- B1 exam practice exercises (in progress — see [#299](https://github.com/stharrold/german/issues/299))
+- B1 exam practice exercises (75 exercises, Goethe-Institut format — see [#299](https://github.com/stharrold/german/issues/299))
 
 ## Gotchas
 

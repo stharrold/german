@@ -20,15 +20,26 @@ Context-specific guidance for resources
 
 ## Directory Structure
 
-[Describe the organization of files in this directory]
+```
+resources/
+├── vocabulary/                   # JSON word lists (nouns, verbs, adjectives)
+├── exams/b1/                     # B1 exam practice exercises (Goethe-Institut format)
+│   ├── hoeren/teil-{1-4}/        # Listening (20 exercises)
+│   ├── lesen/teil-{1-5}/         # Reading (25 exercises)
+│   ├── schreiben/aufgabe-{1-3}/  # Writing (15 exercises)
+│   └── sprechen/teil-{1-3}/      # Speaking (15 exercises)
+└── supplementary/                # Supplementary teaching resources
+    └── b1-listening-topics/      # B1 listening topics (20 bilingual prose files)
+```
 
-## Files in This Directory
+## Conventions
 
-[List key files and their purposes]
-
-## Usage
-
-[How to work with code/content in this directory]
+- All JSON files must be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
+- Use `json.dump(data, fh, ensure_ascii=False, indent=2)` — no unicode escapes
+- Exercise ID format: `b1-{skill}-{teil|aufgabe}-{N}-{NNN}`
+- Exercise files: `uebung-{01-05}.json` (zero-padded)
+- Model answers must match `target_word_count` (±2 words)
+- All exam exercises validated by Pydantic models in `src/german/exams/models.py`
 
 
 ## Related Documentation
