@@ -147,47 +147,6 @@ def verify_commits_in_branch(release_branch, target_branch):
         raise RuntimeError(f"Failed to verify commits in branch: {e.stderr.strip()}") from e
 
 
-def delete_local_branch(branch_name):
-    """
-    Delete local git branch (uses -d for safety).
-
-    Args:
-        branch_name: Branch to delete
-
-    Raises:
-        RuntimeError: If deletion fails
-    """
-    try:
-        # Use -d (not -D) to ensure branch is fully merged
-        subprocess.run(["git", "branch", "-d", branch_name], capture_output=True, check=True)
-
-    except subprocess.CalledProcessError as e:
-        error_msg = e.stderr.decode() if e.stderr else "Unknown error"
-
-        if "not fully merged" in error_msg:
-            raise RuntimeError(f"Branch '{branch_name}' is not fully merged. This indicates release workflow is incomplete. Safety check failed - branch not deleted.")
-        else:
-            raise RuntimeError(f"Failed to delete local branch: {error_msg}") from e
-
-
-def delete_remote_branch(branch_name):
-    """
-    Delete remote git branch.
-
-    Args:
-        branch_name: Branch to delete (without 'origin/' prefix)
-
-    Raises:
-        RuntimeError: If deletion fails
-    """
-    try:
-        subprocess.run(["git", "push", "origin", "--delete", branch_name], capture_output=True, check=True)
-
-    except subprocess.CalledProcessError as e:
-        error_msg = e.stderr.decode() if e.stderr else "Unknown error"
-        raise RuntimeError(f"Failed to delete remote branch: {error_msg}") from e
-
-
 def find_todo_file(version):
     """
     Find TODO file for release version.
