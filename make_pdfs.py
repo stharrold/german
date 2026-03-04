@@ -46,7 +46,7 @@ def sanitize_text(text: str) -> str:
     """Replace Unicode characters unsupported by latin-1 PDF fonts."""
     for char, replacement in UNICODE_REPLACEMENTS.items():
         text = text.replace(char, replacement)
-    # Drop any remaining non-latin-1 characters
+    # Replace any remaining non-latin-1 characters with '?'
     return text.encode("latin-1", errors="replace").decode("latin-1")
 
 
@@ -56,14 +56,6 @@ SKILLS = {
     "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
     "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 3},
     "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
-}
-
-# Directory naming: hoeren/lesen/sprechen use "teil-N", schreiben uses "aufgabe-N"
-PART_DIR = {
-    "hoeren": "teil",
-    "lesen": "teil",
-    "schreiben": "aufgabe",
-    "sprechen": "teil",
 }
 
 
@@ -117,7 +109,7 @@ class ExamPDF(FPDF):
         self.cell(0, 12, text)
         self.ln(14)
 
-    def add_exercise_header(self, exercise_id: str, title: str, instructions: str, time_minutes: int):
+    def add_exercise_header(self, exercise_id: str, title: str, instructions: str, time_minutes: int = 0):
         self.ln(4)
         self.set_draw_color(180, 180, 180)
         self.line(10, self.get_y(), 200, self.get_y())
@@ -128,7 +120,10 @@ class ExamPDF(FPDF):
         self.ln(8)
         self.set_font("Helvetica", "I", 9)
         self.set_text_color(100, 100, 100)
-        self.cell(0, 6, f"{exercise_id}  |  {time_minutes} Minuten")
+        if time_minutes:
+            self.cell(0, 6, f"{exercise_id}  |  {time_minutes} Minuten")
+        else:
+            self.cell(0, 6, exercise_id)
         self.ln(8)
         self.set_font("Helvetica", "", 10)
         self.set_text_color(0, 0, 0)
@@ -182,12 +177,19 @@ class ExamPDF(FPDF):
                     if show_answers and q.get("correct_answer") == letter:
                         self.set_font("Helvetica", "B", 9)
                         self.set_text_color(0, 100, 0)
-                        self.cell(0, 6, f"[x] {letter}) {opt}")
+                        self.cell(0, 6, f"[x] {opt}")
                         self.set_text_color(0, 0, 0)
                     else:
-                        prefix = "[x]" if show_answers and q.get("correct_answer") == letter else "[ ]"
-                        self.cell(0, 6, f"{prefix} {letter}) {opt}")
+                        self.cell(0, 6, f"[ ] {opt}")
                     self.ln(6)
+                if show_answers:
+                    explanation = q.get("explanation_de", "")
+                    if explanation:
+                        self.set_font("Helvetica", "B", 9)
+                        self.set_text_color(0, 100, 0)
+                        self.cell(8, 6, "")
+                        self.multi_cell(0, 6, explanation)
+                        self.set_text_color(0, 0, 0)
 
             elif q_type == "matching":
                 self.multi_cell(0, 7, text)
@@ -196,8 +198,12 @@ class ExamPDF(FPDF):
                     self.set_text_color(0, 100, 0)
                     self.cell(8, 6, "")
                     self.cell(0, 6, f"Antwort: {q['correct_answer']}")
-                    self.set_text_color(0, 0, 0)
                     self.ln(6)
+                    explanation = q.get("explanation_de", "")
+                    if explanation:
+                        self.cell(8, 6, "")
+                        self.multi_cell(0, 6, explanation)
+                    self.set_text_color(0, 0, 0)
                 else:
                     self.cell(8, 6, "")
                     self.cell(0, 6, "Antwort: _______________")
@@ -220,7 +226,7 @@ class ExamPDF(FPDF):
 
 def load_exercises(skill: str, part_num: int) -> list[dict]:
     """Load all exercises for a skill/part from JSON files."""
-    part_prefix = PART_DIR[skill]
+    part_prefix = SKILLS[skill]["part_label"].lower()
     part_dir = RESOURCES_DIR / skill / f"{part_prefix}-{part_num}"
     if not part_dir.exists():
         return []
@@ -231,7 +237,7 @@ def load_exercises(skill: str, part_num: int) -> list[dict]:
     return exercises
 
 
-def render_hoeren(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answers: bool):
+def render_hoeren(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
     """Render listening exercises."""
     for ex in exercises:
         time_min = ex.get("time_minutes", 8)
@@ -244,14 +250,15 @@ def render_hoeren(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answe
             for line in ex.get("transcript", []):
                 speaker = line.get("speaker", "")
                 text = line.get("text_de", "")
-                pdf.cell(0, 6, f"  {speaker}: {text}")
-                pdf.ln(6)
+                pdf.set_x(pdf.l_margin)
+                available_w = pdf.w - pdf.l_margin - pdf.r_margin
+                pdf.multi_cell(available_w, 6, f"  {speaker}: {text}")
             pdf.ln(4)
 
         pdf.add_questions(ex.get("questions", []), show_answers=show_answers)
 
 
-def render_lesen(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answers: bool):
+def render_lesen(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
     """Render reading exercises."""
     for ex in exercises:
         time_min = ex.get("time_minutes", 10)
@@ -266,10 +273,10 @@ def render_lesen(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answer
         pdf.add_questions(ex.get("questions", []), show_answers=show_answers)
 
 
-def render_schreiben(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answers: bool):
+def render_schreiben(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
     """Render writing exercises."""
     for ex in exercises:
-        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"], ex.get("target_word_count", 80))
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"])
 
         pdf.add_text_block("Situation:", ex.get("situation_de", ""))
         pdf.add_bullet_list("Inhaltspunkte:", ex.get("required_points", []))
@@ -292,10 +299,10 @@ def render_schreiben(pdf: ExamPDF, exercises: list[dict], part_num: int, show_an
                 pdf.ln(8)
 
 
-def render_sprechen(pdf: ExamPDF, exercises: list[dict], part_num: int, show_answers: bool):
+def render_sprechen(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
     """Render speaking exercises."""
     for ex in exercises:
-        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"], 0)
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"])
 
         pdf.add_text_block("Situation:", ex.get("situation_de", ""))
         pdf.add_bullet_list("Gesprächspunkte:", ex.get("discussion_points", []))
@@ -306,8 +313,9 @@ def render_sprechen(pdf: ExamPDF, exercises: list[dict], part_num: int, show_ans
             for line in ex.get("model_dialogue", []):
                 speaker = line.get("speaker", "")
                 text = line.get("text_de", "")
-                pdf.cell(0, 6, f"  {speaker}: {text}")
-                pdf.ln(6)
+                pdf.set_x(pdf.l_margin)
+                available_w = pdf.w - pdf.l_margin - pdf.r_margin
+                pdf.multi_cell(available_w, 6, f"  {speaker}: {text}")
             pdf.ln(3)
             pdf.add_bullet_list("Bewertungskriterien:", ex.get("evaluation_criteria", []))
 
@@ -328,27 +336,28 @@ def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
     # Title page
     pdf.add_title_page()
 
-    # Exercise pages
+    # Load all exercises once
     renderer = RENDERERS[skill]
+    all_exercises = {}
     for part_num in range(1, info["parts"] + 1):
         exercises = load_exercises(skill, part_num)
-        if not exercises:
-            continue
+        if exercises:
+            all_exercises[part_num] = exercises
+
+    # Exercise pages
+    for part_num, exercises in all_exercises.items():
         section_label = f"{info['part_label']} {part_num}"
         pdf.add_section_header(section_label)
-        renderer(pdf, exercises, part_num, show_answers=False)
+        renderer(pdf, exercises, show_answers=False)
 
     # Answer key section
     pdf.add_section_header("Lösungen / Answer Key")
-    for part_num in range(1, info["parts"] + 1):
-        exercises = load_exercises(skill, part_num)
-        if not exercises:
-            continue
+    for part_num, exercises in all_exercises.items():
         section_label = f"{info['part_label']} {part_num}"
         pdf.set_font("Helvetica", "B", 13)
         pdf.cell(0, 10, section_label)
         pdf.ln(10)
-        renderer(pdf, exercises, part_num, show_answers=True)
+        renderer(pdf, exercises, show_answers=True)
 
     output_path = output_dir / f"b1_{skill}.pdf"
     pdf.output(str(output_path))
