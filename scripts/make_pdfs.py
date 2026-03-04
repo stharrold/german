@@ -7,8 +7,10 @@ Output:
     build/pdfs/b1-{skill}-{teil|aufgabe}-{N}.pdf  (one PDF per part, one exercise per page)
 """
 
+import platform
 import sys
 from pathlib import Path
+from typing import Callable
 
 from fpdf import FPDF
 
@@ -29,24 +31,57 @@ CONTENT_W = PAGE_W - 2 * MARGIN
 # Font name used throughout (registered as Unicode TTF)
 FONT = "Arial"
 
-# macOS system font paths (Arial supports full Unicode including German characters)
-_FONT_PATHS = {
-    "": "/System/Library/Fonts/Supplemental/Arial.ttf",
-    "B": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-    "I": "/System/Library/Fonts/Supplemental/Arial Italic.ttf",
-    "BI": "/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf",
+# Cross-platform font search paths (Arial or fallback sans-serif)
+_FONT_CANDIDATES: dict[str, list[str]] = {
+    "": [
+        "/System/Library/Fonts/Supplemental/Arial.ttf",  # macOS
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",  # Linux (Debian/Ubuntu)
+        "/usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf",  # Linux (Fedora)
+        "C:/Windows/Fonts/arial.ttf",  # Windows
+    ],
+    "B": [
+        "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+        "/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf",
+        "C:/Windows/Fonts/arialbd.ttf",
+    ],
+    "I": [
+        "/System/Library/Fonts/Supplemental/Arial Italic.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf",
+        "/usr/share/fonts/liberation-sans/LiberationSans-Italic.ttf",
+        "C:/Windows/Fonts/ariali.ttf",
+    ],
+    "BI": [
+        "/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf",
+        "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf",
+        "/usr/share/fonts/liberation-sans/LiberationSans-BoldItalic.ttf",
+        "C:/Windows/Fonts/arialbi.ttf",
+    ],
 }
 
 
 def _find_fonts() -> dict[str, str]:
-    """Return available font style → path mapping, raising if none found."""
-    available = {style: path for style, path in _FONT_PATHS.items() if Path(path).exists()}
-    if not available:
+    """Return font style -> path mapping, searching cross-platform locations.
+
+    Falls back to the regular font for missing bold/italic variants.
+    Raises FileNotFoundError if no regular font is found.
+    """
+    found: dict[str, str] = {}
+    for style, candidates in _FONT_CANDIDATES.items():
+        for path in candidates:
+            if Path(path).exists():
+                found[style] = path
+                break
+    if "" not in found:
         raise FileNotFoundError(
-            "No Arial TTF fonts found. Expected fonts at:\n"
-            + "\n".join(f"  {p}" for p in _FONT_PATHS.values())
+            f"No Arial/Liberation Sans TTF font found ({platform.system()}).\n"
+            "Install liberation-sans (Linux) or ensure Arial is available."
         )
-    return available
+    # Fall back to regular for missing variants
+    for style in ("B", "I", "BI"):
+        if style not in found:
+            found[style] = found[""]
+    return found
 
 
 class ExamPDF(FPDF):
@@ -56,6 +91,7 @@ class ExamPDF(FPDF):
         super().__init__()
         self.skill_name = skill
         self.part_label = part_label
+        self.set_margins(MARGIN, MARGIN, MARGIN)
         self.set_auto_page_break(auto=True, margin=20)
         # Register Unicode TTF fonts
         for style, path in _find_fonts().items():
@@ -132,6 +168,26 @@ class ExamPDF(FPDF):
             self.ln(8)
 
 
+def _render_questions(pdf: ExamPDF, questions: list) -> None:
+    """Render questions with options or true/false checkboxes."""
+    for q in questions:
+        pdf.set_font(FONT, "B", 10)
+        pdf.set_text_color(0, 0, 0)
+        pdf.multi_cell(CONTENT_W, 5.5, f"{q.number}. {q.text_de}")
+        if q.options:
+            pdf.set_font(FONT, "", 10)
+            for opt in q.options:
+                pdf.cell(10)
+                pdf.multi_cell(CONTENT_W - 10, 5.5, opt)
+        elif q.type == "true_false":
+            pdf.set_font(FONT, "", 10)
+            pdf.cell(10)
+            pdf.cell(30, 5.5, "\u25a1  richtig")
+            pdf.cell(30, 5.5, "\u25a1  falsch")
+            pdf.ln(6)
+        pdf.ln(2)
+
+
 def render_listening(pdf: ExamPDF, ex: ListeningExercise) -> None:
     pdf.add_page()
     pdf.section_title(ex.title)
@@ -144,30 +200,15 @@ def render_listening(pdf: ExamPDF, ex: ListeningExercise) -> None:
         pdf.set_font(FONT, "B", 10)
         pdf.set_text_color(0, 0, 0)
         speaker_text = f"{line.speaker}: "
-        pdf.cell(pdf.get_string_width(speaker_text))
+        speaker_w = pdf.get_string_width(speaker_text)
+        pdf.cell(speaker_w, 5.5, text=speaker_text)
         pdf.set_font(FONT, "", 10)
-        pdf.multi_cell(CONTENT_W - pdf.get_string_width(speaker_text), 5.5, f"{speaker_text}{line.text_de}")
+        pdf.multi_cell(CONTENT_W - speaker_w, 5.5, line.text_de)
         pdf.ln(1)
     pdf.ln(2)
 
     pdf.section_subtitle("Fragen")
-    for q in ex.questions:
-        pdf.set_font(FONT, "B", 10)
-        pdf.set_text_color(0, 0, 0)
-        pdf.multi_cell(CONTENT_W, 5.5, f"{q.number}. {q.text_de}")
-        if q.options:
-            pdf.set_font(FONT, "", 10)
-            for j, opt in enumerate(q.options):
-                label = chr(ord("a") + j)
-                pdf.cell(10)
-                pdf.multi_cell(CONTENT_W - 10, 5.5, f"{label})  {opt}")
-        elif q.type == "true_false":
-            pdf.set_font(FONT, "", 10)
-            pdf.cell(10)
-            pdf.cell(30, 5.5, "\u25a1  richtig")
-            pdf.cell(30, 5.5, "\u25a1  falsch")
-            pdf.ln(6)
-        pdf.ln(2)
+    _render_questions(pdf, ex.questions)
 
 
 def render_reading(pdf: ExamPDF, ex: ReadingExercise) -> None:
@@ -182,23 +223,7 @@ def render_reading(pdf: ExamPDF, ex: ReadingExercise) -> None:
     pdf.separator()
 
     pdf.section_subtitle("Fragen")
-    for q in ex.questions:
-        pdf.set_font(FONT, "B", 10)
-        pdf.set_text_color(0, 0, 0)
-        pdf.multi_cell(CONTENT_W, 5.5, f"{q.number}. {q.text_de}")
-        if q.options:
-            pdf.set_font(FONT, "", 10)
-            for j, opt in enumerate(q.options):
-                label = chr(ord("a") + j)
-                pdf.cell(10)
-                pdf.multi_cell(CONTENT_W - 10, 5.5, f"{label})  {opt}")
-        elif q.type == "true_false":
-            pdf.set_font(FONT, "", 10)
-            pdf.cell(10)
-            pdf.cell(30, 5.5, "\u25a1  richtig")
-            pdf.cell(30, 5.5, "\u25a1  falsch")
-            pdf.ln(6)
-        pdf.ln(2)
+    _render_questions(pdf, ex.questions)
 
 
 def render_writing(pdf: ExamPDF, ex: WritingExercise) -> None:
@@ -231,65 +256,36 @@ def render_speaking(pdf: ExamPDF, ex: SpeakingExercise) -> None:
     pdf.bullet_list(ex.discussion_points)
 
 
+# Skill configuration: each entry drives PDF generation for one exam section
+_SKILL_CONFIG: list[dict] = [
+    {"name_de": "Hören", "dir_name": "hoeren", "part_prefix": "teil", "part_label": "Teil", "model": ListeningExercise, "renderer": render_listening},
+    {"name_de": "Lesen", "dir_name": "lesen", "part_prefix": "teil", "part_label": "Teil", "model": ReadingExercise, "renderer": render_reading},
+    {"name_de": "Schreiben", "dir_name": "schreiben", "part_prefix": "aufgabe", "part_label": "Aufgabe", "model": WritingExercise, "renderer": render_writing},
+    {"name_de": "Sprechen", "dir_name": "sprechen", "part_prefix": "teil", "part_label": "Teil", "model": SpeakingExercise, "renderer": render_speaking},
+]
+
+
 def build_pdfs() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
     count = 0
 
-    # Hören
-    for teil in range(1, 5):
-        teil_dir = RESOURCES / "hoeren" / f"teil-{teil}"
-        exercises = load_exercises(teil_dir, ListeningExercise)
-        if not exercises:
+    for config in _SKILL_CONFIG:
+        skill_dir = RESOURCES / config["dir_name"]
+        if not skill_dir.exists():
             continue
-        pdf = ExamPDF("Hören", f"Teil {teil}")
-        for ex in exercises:
-            render_listening(pdf, ex)
-        out = OUTPUT / f"b1-hoeren-teil-{teil}.pdf"
-        pdf.output(str(out))
-        count += len(exercises)
-        print(f"  {out.name}: {len(exercises)} exercises")
-
-    # Lesen
-    for teil in range(1, 6):
-        teil_dir = RESOURCES / "lesen" / f"teil-{teil}"
-        exercises = load_exercises(teil_dir, ReadingExercise)
-        if not exercises:
-            continue
-        pdf = ExamPDF("Lesen", f"Teil {teil}")
-        for ex in exercises:
-            render_reading(pdf, ex)
-        out = OUTPUT / f"b1-lesen-teil-{teil}.pdf"
-        pdf.output(str(out))
-        count += len(exercises)
-        print(f"  {out.name}: {len(exercises)} exercises")
-
-    # Schreiben
-    for aufgabe in range(1, 4):
-        aufgabe_dir = RESOURCES / "schreiben" / f"aufgabe-{aufgabe}"
-        exercises = load_exercises(aufgabe_dir, WritingExercise)
-        if not exercises:
-            continue
-        pdf = ExamPDF("Schreiben", f"Aufgabe {aufgabe}")
-        for ex in exercises:
-            render_writing(pdf, ex)
-        out = OUTPUT / f"b1-schreiben-aufgabe-{aufgabe}.pdf"
-        pdf.output(str(out))
-        count += len(exercises)
-        print(f"  {out.name}: {len(exercises)} exercises")
-
-    # Sprechen
-    for teil in range(1, 4):
-        teil_dir = RESOURCES / "sprechen" / f"teil-{teil}"
-        exercises = load_exercises(teil_dir, SpeakingExercise)
-        if not exercises:
-            continue
-        pdf = ExamPDF("Sprechen", f"Teil {teil}")
-        for ex in exercises:
-            render_speaking(pdf, ex)
-        out = OUTPUT / f"b1-sprechen-teil-{teil}.pdf"
-        pdf.output(str(out))
-        count += len(exercises)
-        print(f"  {out.name}: {len(exercises)} exercises")
+        renderer: Callable = config["renderer"]
+        for part_dir in sorted(skill_dir.glob(f"{config['part_prefix']}-*")):
+            part_num = part_dir.name.split("-")[-1]
+            exercises = load_exercises(part_dir, config["model"])
+            if not exercises:
+                continue
+            pdf = ExamPDF(config["name_de"], f"{config['part_label']} {part_num}")
+            for ex in exercises:
+                renderer(pdf, ex)
+            out = OUTPUT / f"b1-{config['dir_name']}-{config['part_prefix']}-{part_num}.pdf"
+            pdf.output(str(out))
+            count += len(exercises)
+            print(f"  {out.name}: {len(exercises)} exercises")
 
     print(f"\nGenerated {count} exercises across {len(list(OUTPUT.glob('*.pdf')))} PDFs in {OUTPUT}/")
 
