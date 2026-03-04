@@ -22,13 +22,14 @@ Context-specific guidance for resources
 
 ```
 resources/
-├── vocabulary/              # JSON word lists (nouns, verbs, adjectives)
-├── exams/b1/                # B1 exam practice exercises (Goethe-Institut format)
-│   ├── hoeren/teil-{1-4}/   # Listening (20 exercises)
-│   ├── lesen/teil-{1-5}/    # Reading (25 exercises)
+├── vocabulary/                   # JSON word lists (nouns, verbs, adjectives)
+├── exams/b1/                     # B1 exam practice exercises (Goethe-Institut format)
+│   ├── hoeren/teil-{1-4}/        # Listening (20 exercises)
+│   ├── lesen/teil-{1-5}/         # Reading (25 exercises)
 │   ├── schreiben/aufgabe-{1-3}/  # Writing (15 exercises)
 │   └── sprechen/teil-{1-3}/      # Speaking (15 exercises)
-└── supplementary/           # B1 listening topics (20 bilingual prose files)
+└── supplementary/                # Supplementary teaching resources
+    └── b1-listening-topics/      # B1 listening topics (20 bilingual prose files)
 ```
 
 ## Conventions

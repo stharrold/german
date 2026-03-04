@@ -5,7 +5,7 @@ A Python-based repository for German language learning resources, featuring B1 e
 ## Purpose
 
 This repository contains:
-- **B1 exam practice exercises** — 80 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
+- **B1 exam practice exercises** — 75 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
 - **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
 - **Certificate guides** — Reference materials for CEFR levels A1–C2
@@ -13,7 +13,7 @@ This repository contains:
 
 ## B1 Exam Practice Content
 
-80 exercises following the Goethe-Institut B1 exam format, with bilingual instructions (DE/EN):
+75 exercises following the Goethe-Institut B1 exam format, with bilingual instructions (DE/EN):
 
 | Skill | Parts | Exercises | Format |
 |-------|-------|-----------|--------|

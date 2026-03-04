@@ -40,7 +40,7 @@ Python-based German language learning resources and content:
 - B1-level listening comprehension topics (20 topics, bilingual format)
 - Certificate guides for CEFR levels (A1-C2)
 - Python tools for loading and querying vocabulary data
-- B1 exam practice exercises (80 exercises, Goethe-Institut format — see [#299](https://github.com/stharrold/german/issues/299))
+- B1 exam practice exercises (75 exercises, Goethe-Institut format — see [#299](https://github.com/stharrold/german/issues/299))
 
 ## Gotchas
 
