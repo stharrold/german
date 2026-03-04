@@ -1,0 +1,67 @@
+{
+  "id": "b1-sprechen-teil-1-005",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Einweihungsparty für die neue Wohnung",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen etwas zusammen planen.",
+  "situation_de": "Ihr Freund ist gerade in eine neue Wohnung umgezogen. Sie möchten zusammen eine Einweihungsparty für ihn organisieren. Planen Sie die Party gemeinsam.",
+  "situation_en": "Your friend has just moved into a new apartment. You would like to organize a housewarming party for him together. Plan the party together.",
+  "discussion_points": [
+    "Wann soll die Party stattfinden? (When should the party take place?)",
+    "Wen sollen wir einladen und wie laden wir ein? (Whom should we invite and how do we invite them?)",
+    "Was sollen wir essen und trinken? (What should we eat and drink?)",
+    "Sollen wir ein Einweihungsgeschenk mitbringen? (Should we bring a housewarming gift?)",
+    "Welche Dekoration oder Überraschungen können wir vorbereiten? (What decorations or surprises can we prepare?)",
+    "Wie helfen wir beim Aufräumen nach der Party? (How do we help clean up after the party?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Stefan ist letzte Woche umgezogen. Wollen wir eine Einweihungsparty für ihn organisieren?",
+      "text_en": "Stefan moved last week. Shall we organize a housewarming party for him?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das ist eine tolle Idee! Wann passt es denn? Am besten an einem Samstag, dann müssen wir am nächsten Tag nicht arbeiten.",
+      "text_en": "Yes, that's a great idea! When would work? Best on a Saturday, then we don't have to work the next day."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich schlage den übernächsten Samstag vor. Dann hat Stefan auch Zeit, die Wohnung einzurichten. Wen sollen wir einladen?",
+      "text_en": "I suggest the Saturday after next. Then Stefan also has time to set up the apartment. Whom should we invite?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir könnten seine engsten Freunde einladen, vielleicht 10 bis 15 Leute. Ich kann eine WhatsApp-Gruppe erstellen.",
+      "text_en": "We could invite his closest friends, maybe 10 to 15 people. I can create a WhatsApp group."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Perfekt. Jeder Gast könnte etwas zu essen mitbringen. Ich mache einen Nudelsalat und kaufe Brot und Käse.",
+      "text_en": "Perfect. Each guest could bring something to eat. I'll make a pasta salad and buy bread and cheese."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Gute Idee. Ich kümmere mich um die Getränke. Und als Einweihungsgeschenk könnten wir zusammen eine schöne Pflanze kaufen.",
+      "text_en": "Good idea. I'll take care of the drinks. And as a housewarming gift, we could buy a nice plant together."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Eine Pflanze ist praktisch und passt immer. Und wir könnten Luftballons und ein Willkommensbanner aufhängen.",
+      "text_en": "A plant is practical and always works. And we could hang up balloons and a welcome banner."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Sehr schön. Und nach der Party helfen wir Stefan beim Aufräumen. Das gehört dazu, wenn man eine Party organisiert.",
+      "text_en": "Very nice. And after the party, we'll help Stefan clean up. That's part of organizing a party."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten gehen aufeinander ein, machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Wohnung, Feiern und Geschenke wird verwendet.",
+    "Strukturen: Korrekte Verwendung von Modalverben (sollen, können, müssen) und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

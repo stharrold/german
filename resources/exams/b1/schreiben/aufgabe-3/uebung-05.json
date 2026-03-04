@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-3-005",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 3,
+  "title": "Anmeldung zu einem Kurs",
+  "instructions": "Schreiben Sie eine E-Mail an die Sprachschule „Lingua Plus“.",
+  "situation_de": "Sie haben eine Anzeige für einen Intensiv-Deutschkurs bei der Sprachschule „Lingua Plus“ gesehen. Sie möchten sich für den Kurs im April anmelden.",
+  "situation_en": "You have seen an advertisement for an intensive German course at the language school \"Lingua Plus.\" You would like to register for the course in April.",
+  "target_word_count": 40,
+  "required_points": [
+    "Sich für den Kurs anmelden und den Zeitraum nennen (Register for the course and name the period)",
+    "Nach dem genauen Kursbeginn und der Dauer fragen (Ask about the exact course start and duration)",
+    "Nach Ermäßigungen oder Ratenzahlung fragen (Ask about discounts or installment payments)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich möchte mich für den Intensiv-Deutschkurs im April anmelden. Könnten Sie mir bitte das genaue Startdatum und die Kursdauer mitteilen? Außerdem würde ich gern wissen, ob es Ermäßigungen für Studierende oder eine Ratenzahlung gibt.\n\nMit freundlichen Grüßen\nSara Rossi",
+    "text_en": "Dear Sir or Madam,\n\nI would like to register for the intensive German course in April. Could you please tell me the exact start date and course duration? I would also like to know whether there are discounts for students or installment payments.\n\nKind regards,\nSara Rossi"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
+    "Kohärenz: Der Text ist klar strukturiert (Coherence: The text is clearly structured)",
+    "Wortschatz: Formeller Wortschatz angemessen verwendet (Vocabulary: Formal vocabulary used appropriately)",
+    "Strukturen: Korrekte formelle Anrede und Grußformel (Structures: Correct formal salutation and closing)"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "b1-sprechen-teil-3-004",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Fragen und Feedback: Öffentliche Verkehrsmittel",
+  "instructions": "Ihr Partner / Ihre Partnerin hat über das Thema gesprochen. Reagieren Sie: Stellen Sie Fragen und geben Sie Feedback.",
+  "situation_de": "Ihr Partner hat eine Präsentation über „Öffentliche Verkehrsmittel“ gehalten. Reagieren Sie auf die Präsentation, stellen Sie Fragen und geben Sie Ihre eigene Meinung zu dem Thema.",
+  "situation_en": "Your partner has given a presentation about \"Public transport.\" React to the presentation, ask questions, and give your own opinion on the topic.",
+  "discussion_points": [
+    "Wie sind die öffentlichen Verkehrsmittel in Ihrer Heimatstadt? (How is public transport in your hometown?)",
+    "Was könnte die Stadt tun, um den öffentlichen Nahverkehr zu verbessern? (What could the city do to improve public transport?)",
+    "Haben Sie schon einmal das Deutschlandticket oder ein ähnliches Angebot genutzt? (Have you ever used the Deutschlandticket or a similar offer?)",
+    "Würden Sie auf Ihr Auto verzichten, wenn die öffentlichen Verkehrsmittel besser wären? (Would you give up your car if public transport were better?)",
+    "Was denken Sie über E-Scooter und Fahrräder als Ergänzung zum öffentlichen Nahverkehr? (What do you think about e-scooters and bicycles as a complement to public transport?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Danke für Ihren Vortrag. Ich fand es interessant, was Sie über die Nachteile gesagt haben. In meiner Heimatstadt sind die Busse auch oft unpünktlich. Wie ist es bei Ihnen?",
+      "text_en": "Thanks for your talk. I found what you said about the disadvantages interesting. In my hometown, the buses are also often late. How is it where you are?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, besonders im Winter gibt es oft Verspätungen. Aber im Sommer funktioniert es meistens besser. Was denken Sie, was die Stadt machen sollte?",
+      "text_en": "Yes, especially in winter there are often delays. But in summer it usually works better. What do you think the city should do?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich finde, die Stadt sollte mehr Geld in neue Busse und Bahnen investieren. Und die Tickets sollten günstiger werden, damit mehr Menschen die öffentlichen Verkehrsmittel benutzen.",
+      "text_en": "I think the city should invest more money in new buses and trains. And the tickets should be cheaper so that more people use public transport."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Das sehe ich auch so. Haben Sie schon das Deutschlandticket benutzt? Für 49 Euro im Monat kann man überall fahren.",
+      "text_en": "I see it that way too. Have you used the Deutschlandticket? For 49 euros per month, you can travel everywhere."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ja, ich habe es letztes Jahr gekauft und finde es super. Es ist viel billiger als eine normale Monatskarte. Was halten Sie von E-Scootern als Alternative?",
+      "text_en": "Yes, I bought it last year and think it's great. It's much cheaper than a normal monthly pass. What do you think about e-scooters as an alternative?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "E-Scooter sind praktisch für kurze Strecken, aber sie stehen oft im Weg und können gefährlich sein. Fahrräder finde ich besser, die sind auch gesünder.",
+      "text_en": "E-scooters are practical for short distances, but they often stand in the way and can be dangerous. I think bicycles are better, they are also healthier."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt relevante Fragen und gibt eigenes Feedback.",
+    "Interaktion: Natürliches Gespräch mit Rückfragen, Zustimmung und eigener Meinung.",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung und Diskussion über Verkehr.",
+    "Strukturen: Korrekte Fragen (W-Fragen und Ja/Nein-Fragen) und Reaktionen.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Fragenintonation."
+  ]
+}

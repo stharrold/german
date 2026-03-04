@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-3-003",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 3,
+  "title": "Beschwerde über eine Lieferung",
+  "instructions": "Schreiben Sie eine E-Mail an den Online-Shop „TechMarkt“.",
+  "situation_de": "Sie haben vor zwei Wochen einen Laptop bei „TechMarkt“ bestellt. Das Gerät ist beschädigt angekommen. Sie möchten einen Umtausch oder eine Rückerstattung.",
+  "situation_en": "You ordered a laptop from \"TechMarkt\" two weeks ago. The device arrived damaged. You want an exchange or a refund.",
+  "target_word_count": 40,
+  "required_points": [
+    "Das Problem beschreiben (Describe the problem)",
+    "Die Bestellnummer und das Datum nennen (Name the order number and date)",
+    "Um eine Lösung bitten — Umtausch oder Rückerstattung (Request a solution — exchange or refund)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nam 18. Februar habe ich einen Laptop bestellt (Bestellnummer TM-78234). Leider ist das Gerät mit einem kaputten Bildschirm angekommen. Ich bitte Sie um einen Umtausch oder eine Rückerstattung des Kaufpreises.\n\nBitte teilen Sie mir mit, wie ich weiter vorgehen soll.\n\nMit freundlichen Grüßen\nLisa Weber",
+    "text_en": "Dear Sir or Madam,\n\nOn February 18, I ordered a laptop (order number TM-78234). Unfortunately, the device arrived with a broken screen. I ask you for an exchange or a refund of the purchase price.\n\nPlease let me know how I should proceed.\n\nKind regards,\nLisa Weber"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
+    "Kohärenz: Der Text ist klar strukturiert (Coherence: The text is clearly structured)",
+    "Wortschatz: Formeller Wortschatz angemessen verwendet (Vocabulary: Formal vocabulary used appropriately)",
+    "Strukturen: Korrekte formelle Anrede und Grußformel (Structures: Correct formal salutation and closing)"
+  ]
+}

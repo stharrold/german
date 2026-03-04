@@ -1,0 +1,27 @@
+{
+  "id": "b1-schreiben-aufgabe-2-004",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Soziale Medien im Alltag",
+  "instructions": "Sie haben im Internet einen Artikel gelesen. Schreiben Sie Ihre Meinung dazu.",
+  "situation_de": "Sie haben einen Artikel mit dem Titel „Soziale Medien: Fluch oder Segen?“ gelesen. Der Artikel diskutiert, wie soziale Medien unser tägliches Leben beeinflussen.",
+  "situation_en": "You have read an article titled \"Social media: curse or blessing?\" The article discusses how social media influences our daily lives.",
+  "target_word_count": 80,
+  "required_points": [
+    "Ihre Meinung zu sozialen Medien äußern (Express your opinion about social media)",
+    "Vorteile oder Nachteile von sozialen Medien nennen (Name advantages or disadvantages of social media)",
+    "Von eigenen Erfahrungen mit sozialen Medien berichten (Report on your own experiences with social media)",
+    "Einen Ratschlag für den Umgang mit sozialen Medien geben (Give advice for dealing with social media)"
+  ],
+  "model_answer": {
+    "text_de": "Soziale Medien sind für mich Fluch und Segen gleichzeitig. Einerseits kann man leicht mit Freunden in Kontakt bleiben, auch wenn sie weit weg wohnen. Man bekommt schnell Neuigkeiten und kann interessante Sachen teilen. Andererseits verbringt man oft zu viel Zeit damit.\n\nIch nutze selbst Instagram und WhatsApp täglich, aber manchmal schaue ich stundenlang auf mein Handy. Deshalb habe ich mir eine Zeitbegrenzung gesetzt. Ich empfehle jedem, bewusst mit sozialen Medien umzugehen und regelmäßig Pausen zu machen.",
+    "text_en": "Social media is both a curse and a blessing for me. On one hand, you can easily stay in touch with friends, even when they live far away. You get news quickly and can share interesting things. On the other hand, you often spend too much time on it.\n\nI myself use Instagram and WhatsApp daily, but sometimes I stare at my phone for hours. That's why I set a time limit for myself. I recommend everyone to use social media consciously and take regular breaks."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Eigene Meinung klar geäußert und alle Inhaltspunkte behandelt (Task fulfillment: Own opinion clearly expressed and all content points addressed)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Schluss (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung auf B1-Niveau (Vocabulary: Appropriate vocabulary for expressing opinions at B1 level)",
+    "Strukturen: Korrekte Konnektoren und Satzstrukturen (Structures: Correct connectors and sentence structures)"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "b1-sprechen-teil-3-002",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Fragen und Feedback: Lernen mit dem Internet",
+  "instructions": "Ihr Partner / Ihre Partnerin hat über das Thema gesprochen. Reagieren Sie: Stellen Sie Fragen und geben Sie Feedback.",
+  "situation_de": "Ihr Partner hat eine Präsentation über „Lernen mit dem Internet“ gehalten. Reagieren Sie auf die Präsentation, stellen Sie Fragen und geben Sie Ihre eigene Meinung zu dem Thema.",
+  "situation_en": "Your partner has given a presentation about \"Learning with the internet.\" React to the presentation, ask questions, and give your own opinion on the topic.",
+  "discussion_points": [
+    "Welche Apps oder Webseiten benutzen Sie persönlich zum Lernen? (Which apps or websites do you personally use for learning?)",
+    "Denken Sie, dass Online-Kurse genauso gut sind wie Kurse im Klassenzimmer? (Do you think online courses are as good as classroom courses?)",
+    "Wie schützen Sie sich vor falschen Informationen im Internet? (How do you protect yourself from false information on the internet?)",
+    "Sollten Schulen Tablets und Laptops statt Bücher verwenden? (Should schools use tablets and laptops instead of books?)",
+    "Wie viel Zeit verbringen Sie täglich am Bildschirm zum Lernen? (How much time do you spend on screen for learning each day?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Danke für Ihre Präsentation. Sie haben erwähnt, dass Sie Deutsch mit einer App lernen. Welche App benutzen Sie denn?",
+      "text_en": "Thanks for your presentation. You mentioned that you learn German with an app. Which app do you use?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich benutze Duolingo und schaue dazu Grammatikvideos auf YouTube. Das hilft mir besonders bei den Verbformen. Und Sie?",
+      "text_en": "I use Duolingo and watch grammar videos on YouTube in addition. That helps me especially with verb forms. And you?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich lerne lieber mit einem Lehrbuch, aber ich nutze das Internet für Übungen und Hörtexte. Meine Frage ist: Denken Sie, dass Online-Kurse einen echten Sprachkurs ersetzen können?",
+      "text_en": "I prefer learning with a textbook, but I use the internet for exercises and listening texts. My question is: Do you think online courses can replace a real language course?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ehrlich gesagt, nein. Für Sprachen braucht man den Kontakt mit anderen Menschen. Aber als Ergänzung ist das Internet fantastisch.",
+      "text_en": "Honestly, no. For languages, you need contact with other people. But as a supplement, the internet is fantastic."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Da bin ich Ihrer Meinung. Ich finde es auch wichtig, dass man bei den Informationen im Internet vorsichtig ist. Nicht alles, was man liest, stimmt auch.",
+      "text_en": "I share your opinion on that. I also think it's important to be careful with information on the internet. Not everything you read is true."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das ist ein guter Punkt. Deshalb sollte man immer mehrere Quellen prüfen und offizielle Webseiten benutzen, zum Beispiel von Universitäten.",
+      "text_en": "Yes, that's a good point. That's why you should always check multiple sources and use official websites, for example from universities."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt relevante Fragen und gibt eigenes Feedback.",
+    "Interaktion: Natürliches Gespräch mit Rückfragen, Zustimmung und eigener Meinung.",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung und Diskussion über Technologie.",
+    "Strukturen: Korrekte Fragen (W-Fragen und Ja/Nein-Fragen) und Reaktionen.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Fragenintonation."
+  ]
+}

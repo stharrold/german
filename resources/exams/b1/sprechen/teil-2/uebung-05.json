@@ -1,0 +1,50 @@
+{
+  "id": "b1-sprechen-teil-2-005",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Zu Hause kochen oder auswärts essen",
+  "instructions": "Präsentieren Sie Ihrem Partner / Ihrer Partnerin das Thema. Sprechen Sie über die folgenden Punkte.",
+  "situation_de": "Sie sollen eine kurze Präsentation über das Thema „Zu Hause kochen oder auswärts essen“ halten. Sprechen Sie über Ihre persönliche Erfahrung, die Vor- und Nachteile und Ihre eigene Meinung.",
+  "situation_en": "You are to give a short presentation on the topic \"Cooking at home or eating out.\" Talk about your personal experience, the advantages and disadvantages, and your own opinion.",
+  "discussion_points": [
+    "Sprechen Sie über Ihre persönliche Erfahrung. Kochen Sie gerne oder gehen Sie lieber ins Restaurant? (Talk about your personal experience. Do you like cooking or do you prefer going to a restaurant?)",
+    "Welche Vorteile hat es, zu Hause zu kochen? (What are the advantages of cooking at home?)",
+    "Welche Vorteile hat es, auswärts zu essen? (What are the advantages of eating out?)",
+    "Was ist Ihre persönliche Meinung: Was ist besser — zu Hause kochen oder auswärts essen? (What is your personal opinion: What is better — cooking at home or eating out?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich spreche heute über das Thema „Zu Hause kochen oder auswärts essen“. Das ist eine Frage, die sich viele Menschen stellen.",
+      "text_en": "I am speaking today about the topic \"Cooking at home or eating out.\" This is a question that many people ask themselves."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich koche normalerweise unter der Woche zu Hause, weil es schneller und günstiger ist. Am Wochenende gehe ich aber gerne mit Freunden oder meiner Familie ins Restaurant. Ich probiere gerne verschiedene Küchen aus, zum Beispiel italienisch, indisch oder japanisch.",
+      "text_en": "I usually cook at home during the week because it's faster and cheaper. On weekends, though, I like to go to a restaurant with friends or my family. I like to try different cuisines, for example Italian, Indian, or Japanese."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zu Hause kochen hat viele Vorteile. Man weiß genau, was im Essen ist, und kann gesünder kochen. Es ist viel günstiger als im Restaurant zu essen. Außerdem kann man neue Rezepte ausprobieren und das Kochen kann ein schönes Hobby sein. Man kann auch die Portionsgröße selbst bestimmen.",
+      "text_en": "Cooking at home has many advantages. You know exactly what is in the food and can cook healthier. It is much cheaper than eating in a restaurant. Also, you can try new recipes and cooking can be a nice hobby. You can also determine the portion size yourself."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Aber auswärts essen hat auch seine Vorteile. Man muss nicht kochen und nicht abwaschen. Man kann Gerichte essen, die man selbst nicht so gut zubereiten kann. Es ist auch eine schöne Gelegenheit, mit Freunden auszugehen und die Atmosphäre eines Restaurants zu genießen.",
+      "text_en": "But eating out also has its advantages. You don't have to cook and you don't have to do the dishes. You can eat dishes that you can't prepare so well yourself. It is also a nice opportunity to go out with friends and enjoy the atmosphere of a restaurant."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Meinung nach ist eine gute Mischung am besten. Unter der Woche koche ich gerne zu Hause, weil es gesünder und günstiger ist. Aber ab und zu ins Restaurant zu gehen, ist etwas Besonderes und macht Spaß. Beides hat seinen Platz im Leben. Vielen Dank.",
+      "text_en": "In my opinion, a good mix is best. During the week, I like to cook at home because it is healthier and cheaper. But going to a restaurant once in a while is something special and fun. Both have their place in life. Thank you very much."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle vier Punkte (Erfahrung, Vorteile Kochen, Vorteile Essen gehen, Meinung) werden behandelt.",
+    "Interaktion: Der Kandidat spricht frei und wendet sich an den Partner / die Partnerin.",
+    "Wortschatz: Angemessener und abwechslungsreicher Wortschatz zum Thema Kochen und Essen.",
+    "Strukturen: Korrekte Satzstruktur, Verwendung von Konnektoren (außerdem, aber, meiner Meinung nach).",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}
