@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-1-001",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Einladung zur Geburtstagsparty",
+  "instructions": "Ihre Freundin / Ihr Freund hat Ihnen geschrieben. Antworten Sie.",
+  "situation_de": "Ihre Freundin Anna hat Sie zu ihrer Geburtstagsparty am Samstag eingeladen. Sie möchte wissen, ob Sie kommen können, was Sie mitbringen möchten und ob Sie jemanden mitbringen.",
+  "situation_en": "Your friend Anna has invited you to her birthday party on Saturday. She wants to know if you can come, what you would like to bring, and whether you are bringing someone.",
+  "target_word_count": 80,
+  "required_points": [
+    "Bestätigen oder absagen und Grund angeben (Confirm or decline and give a reason)",
+    "Sagen, was Sie mitbringen (Say what you will bring)",
+    "Fragen, ob Sie einen Freund / eine Freundin mitbringen dürfen (Ask if you may bring a friend)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Anna,\n\nvielen Dank für deine Einladung! Ich freue mich sehr und komme natürlich gern zu deiner Party am Samstag. Ich bringe einen Schokoladenkuchen mit, den magst du doch so gern!\n\nÜbrigens, darf ich meinen Freund Marco mitbringen? Er ist gerade aus Italien zu Besuch und kennt noch nicht so viele Leute hier. Ich bin sicher, ihr würdet euch gut verstehen.\n\nBis Samstag!\nDeine Maria",
+    "text_en": "Dear Anna,\n\nThank you very much for your invitation! I am very happy and of course I would love to come to your party on Saturday. I will bring a chocolate cake — you like that so much!\n\nBy the way, may I bring my friend Marco? He is visiting from Italy and doesn't know many people here yet. I'm sure you would get along well.\n\nSee you Saturday!\nYours, Maria"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind angemessen behandelt (Task fulfillment: All three content points are adequately addressed)",
+    "Kohärenz: Der Text ist logisch aufgebaut und zusammenhängend (Coherence: The text is logically structured and cohesive)",
+    "Wortschatz: Angemessener Wortschatz für informelle Kommunikation auf B1-Niveau (Vocabulary: Appropriate vocabulary for informal communication at B1 level)",
+    "Strukturen: Korrekte Grammatik und Satzstrukturen auf B1-Niveau (Structures: Correct grammar and sentence structures at B1 level)"
+  ]
+}

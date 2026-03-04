@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-1-002",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Hilfe beim Umzug",
+  "instructions": "Ihre Freundin / Ihr Freund hat Ihnen geschrieben. Antworten Sie.",
+  "situation_de": "Ihr Freund Thomas zieht nächste Woche in eine neue Wohnung um. Er fragt, ob Sie ihm beim Umzug helfen können. Er möchte wissen, wann Sie Zeit haben und ob Sie ein Auto haben.",
+  "situation_en": "Your friend Thomas is moving to a new apartment next week. He asks if you can help him with the move. He wants to know when you have time and whether you have a car.",
+  "target_word_count": 80,
+  "required_points": [
+    "Zusagen und sagen, wann Sie helfen können (Agree and say when you can help)",
+    "Erklären, ob Sie ein Auto oder Transporter haben (Explain whether you have a car or van)",
+    "Vorschlagen, was Thomas noch organisieren sollte (Suggest what Thomas should still organize)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Thomas,\n\nklar helfe ich dir beim Umzug! Am Samstag habe ich den ganzen Tag Zeit, das passt am besten. Leider habe ich kein Auto, aber mein Nachbar hat einen Transporter. Ich kann ihn fragen, ob er uns den leihen kann.\n\nHast du schon genug Umzugskartons? Ich habe noch welche im Keller, die kannst du gern haben. Denk auch an Klebeband und Zeitungspapier zum Einpacken!\n\nBis dann!\nDein Stefan",
+    "text_en": "Hello Thomas,\n\nOf course I'll help you with the move! On Saturday I have the whole day free, that works best. Unfortunately I don't have a car, but my neighbor has a van. I can ask him if he can lend it to us.\n\nDo you already have enough moving boxes? I still have some in the basement, you're welcome to have them. Also think about tape and newspaper for packing!\n\nSee you then!\nYours, Stefan"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind angemessen behandelt (Task fulfillment: All three content points are adequately addressed)",
+    "Kohärenz: Der Text ist logisch aufgebaut und zusammenhängend (Coherence: The text is logically structured and cohesive)",
+    "Wortschatz: Angemessener Wortschatz für informelle Kommunikation auf B1-Niveau (Vocabulary: Appropriate vocabulary for informal communication at B1 level)",
+    "Strukturen: Korrekte Grammatik und Satzstrukturen auf B1-Niveau (Structures: Correct grammar and sentence structures at B1 level)"
+  ]
+}

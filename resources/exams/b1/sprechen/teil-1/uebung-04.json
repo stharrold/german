@@ -1,0 +1,67 @@
+{
+  "id": "b1-sprechen-teil-1-004",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Lerngruppe organisieren",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen etwas zusammen planen.",
+  "situation_de": "Sie besuchen zusammen einen Deutschkurs und möchten eine Lerngruppe für die Prüfungsvorbereitung gründen. Planen Sie, wie Sie die Lerngruppe organisieren wollen.",
+  "situation_en": "You are attending a German course together and would like to start a study group for exam preparation. Plan how you want to organize the study group.",
+  "discussion_points": [
+    "Wie oft und wann sollen wir uns treffen? (How often and when should we meet?)",
+    "Wo können wir uns treffen? (Where can we meet?)",
+    "Wen sollen wir noch einladen? (Whom else should we invite?)",
+    "Was wollen wir in der Lerngruppe machen? Welche Themen? (What do we want to do in the study group? Which topics?)",
+    "Welche Materialien brauchen wir? (What materials do we need?)",
+    "Wie teilen wir die Aufgaben auf? (How do we divide the tasks?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Die B1-Prüfung ist in drei Monaten. Ich glaube, wir sollten eine Lerngruppe gründen. Was hältst du davon?",
+      "text_en": "The B1 exam is in three months. I think we should start a study group. What do you think about that?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Das finde ich eine gute Idee. Wir könnten uns zweimal pro Woche treffen, zum Beispiel am Dienstag und Donnerstag.",
+      "text_en": "I think that's a good idea. We could meet twice a week, for example on Tuesday and Thursday."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Dienstag passt mir gut. Am Donnerstag habe ich aber meinen Tanzkurs. Wie wäre es stattdessen mit Mittwoch?",
+      "text_en": "Tuesday works well for me. But on Thursday I have my dance class. How about Wednesday instead?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Mittwoch ist auch gut. Und wo sollen wir uns treffen? Wir könnten in die Bibliothek gehen, dort ist es ruhig.",
+      "text_en": "Wednesday is also good. And where should we meet? We could go to the library, it's quiet there."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee. Ich würde auch gerne Maria und Ahmed einladen. Sie sind auch in unserem Kurs und möchten die Prüfung bestehen.",
+      "text_en": "Good idea. I would also like to invite Maria and Ahmed. They are also in our course and want to pass the exam."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, zu viert lernt es sich gut. Wir sollten jede Woche einen anderen Teil der Prüfung üben: Hören, Lesen, Schreiben und Sprechen.",
+      "text_en": "Yes, four people is a good number for studying. We should practice a different part of the exam each week: listening, reading, writing, and speaking."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Stimmt. Ich kann die Übungstests aus dem Internet herunterladen. Kannst du die Lernmaterialien aus dem Kurs kopieren?",
+      "text_en": "True. I can download the practice tests from the internet. Can you copy the learning materials from the course?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das mache ich. Dann kann jeder die Materialien vorher lesen und wir nutzen die Zeit effektiv.",
+      "text_en": "Yes, I'll do that. Then everyone can read the materials beforehand and we use the time effectively."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten gehen aufeinander ein, machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Lernen und Organisation wird verwendet.",
+    "Strukturen: Korrekte Verwendung von Modalverben (sollen, können, müssen) und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

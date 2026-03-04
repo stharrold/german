@@ -1,0 +1,50 @@
+{
+  "id": "b1-sprechen-teil-2-004",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Öffentliche Verkehrsmittel",
+  "instructions": "Präsentieren Sie Ihrem Partner / Ihrer Partnerin das Thema. Sprechen Sie über die folgenden Punkte.",
+  "situation_de": "Sie sollen eine kurze Präsentation über das Thema „Öffentliche Verkehrsmittel“ halten. Sprechen Sie über Ihre persönliche Erfahrung, die Vor- und Nachteile und Ihre eigene Meinung.",
+  "situation_en": "You are to give a short presentation on the topic \"Public transport.\" Talk about your personal experience, the advantages and disadvantages, and your own opinion.",
+  "discussion_points": [
+    "Sprechen Sie über Ihre persönliche Erfahrung mit öffentlichen Verkehrsmitteln. Wie fahren Sie zur Arbeit oder zur Schule? (Talk about your personal experience with public transport. How do you get to work or school?)",
+    "Welche Vorteile haben öffentliche Verkehrsmittel? (What are the advantages of public transport?)",
+    "Welche Nachteile gibt es? (What disadvantages are there?)",
+    "Was ist Ihre persönliche Meinung: Sollten mehr Menschen öffentliche Verkehrsmittel benutzen? (What is your personal opinion: Should more people use public transport?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Heute spreche ich über das Thema „Öffentliche Verkehrsmittel“. In den meisten Städten gibt es Busse, Straßenbahnen, U-Bahnen und Züge.",
+      "text_en": "Today I am talking about the topic \"Public transport.\" In most cities, there are buses, trams, subways, and trains."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich selbst fahre jeden Tag mit der U-Bahn zur Arbeit. Die Fahrt dauert etwa 30 Minuten. Am Wochenende benutze ich meistens den Bus, um Freunde zu besuchen oder einzukaufen. Manchmal nehme ich auch den Zug, wenn ich meine Familie in einer anderen Stadt besuche.",
+      "text_en": "I myself take the subway to work every day. The journey takes about 30 minutes. On weekends, I mostly use the bus to visit friends or go shopping. Sometimes I also take the train when I visit my family in another city."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Öffentliche Verkehrsmittel haben viele Vorteile. Sie sind meistens günstiger als ein eigenes Auto. Man braucht keinen Parkplatz zu suchen und kann während der Fahrt lesen oder Musik hören. Außerdem sind sie besser für die Umwelt, weil weniger CO2 produziert wird. Und wenn viele Menschen die U-Bahn oder den Bus nehmen, gibt es weniger Staus.",
+      "text_en": "Public transport has many advantages. It is usually cheaper than having your own car. You don't need to look for parking and can read or listen to music during the ride. Also, it is better for the environment because less CO2 is produced. And when many people take the subway or bus, there are fewer traffic jams."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Aber es gibt auch Nachteile. Die Busse und Bahnen kommen nicht immer pünktlich. In der Hauptverkehrszeit sind sie oft sehr voll und man bekommt keinen Sitzplatz. Auf dem Land gibt es oft wenige Verbindungen. Und die Tickets werden immer teurer.",
+      "text_en": "But there are also disadvantages. The buses and trains don't always arrive on time. During rush hour, they are often very crowded and you can't get a seat. In rural areas, there are often few connections. And the tickets are getting more and more expensive."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Meinung nach sollten mehr Menschen öffentliche Verkehrsmittel benutzen. Aber dafür muss die Stadt das Angebot verbessern: mehr Verbindungen, pünktlichere Fahrpläne und günstigere Preise. Wenn die öffentlichen Verkehrsmittel attraktiver werden, lassen auch mehr Leute ihr Auto stehen. Vielen Dank für Ihre Aufmerksamkeit.",
+      "text_en": "In my opinion, more people should use public transport. But for that, the city must improve the service: more connections, more punctual schedules, and cheaper prices. If public transport becomes more attractive, more people will also leave their car at home. Thank you for your attention."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle vier Punkte (Erfahrung, Vorteile, Nachteile, Meinung) werden behandelt.",
+    "Interaktion: Der Kandidat spricht frei und wendet sich an den Partner / die Partnerin.",
+    "Wortschatz: Angemessener und abwechslungsreicher Wortschatz zum Thema Verkehr und Umwelt.",
+    "Strukturen: Korrekte Satzstruktur, Verwendung von Konnektoren (außerdem, aber, meiner Meinung nach).",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

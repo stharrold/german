@@ -1,0 +1,62 @@
+{
+  "id": "b1-sprechen-teil-1-003",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Geburtstagsgeschenk für einen Freund",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen etwas zusammen planen.",
+  "situation_de": "Ein guter Freund hat bald Geburtstag. Sie möchten zusammen ein besonderes Geschenk für ihn organisieren. Besprechen Sie, was Sie planen wollen.",
+  "situation_en": "A good friend has a birthday soon. You would like to organize a special gift for him together. Discuss what you want to plan.",
+  "discussion_points": [
+    "Was für ein Geschenk sollen wir kaufen? (What kind of gift should we buy?)",
+    "Wie viel Geld wollen wir ausgeben? (How much money do we want to spend?)",
+    "Wo können wir das Geschenk kaufen — im Geschäft oder online? (Where can we buy the gift — in a shop or online?)",
+    "Sollen wir noch etwas dazu machen, z.B. eine Karte schreiben? (Should we do something else, e.g. write a card?)",
+    "Wann und wie wollen wir das Geschenk übergeben? (When and how do we want to give the gift?)",
+    "Sollen wir auch andere Freunde fragen, ob sie mitmachen wollen? (Should we also ask other friends if they want to participate?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Markus wird nächste Woche 30. Wir sollten ihm etwas Besonderes schenken. Was meinst du?",
+      "text_en": "Markus is turning 30 next week. We should give him something special. What do you think?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Stimmt, der 30. Geburtstag ist etwas Besonderes. Er interessiert sich doch sehr für Fotografie, oder? Vielleicht können wir ihm einen Fotokurs schenken.",
+      "text_en": "True, the 30th birthday is something special. He's very interested in photography, right? Maybe we could give him a photography course."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das ist eine super Idee! Ich habe online einen Kurs für Anfänger gesehen. Der kostet 80 Euro. Wenn wir das teilen, wären es 40 Euro pro Person.",
+      "text_en": "That's a great idea! I saw a course for beginners online. It costs 80 euros. If we split it, it would be 40 euros per person."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "40 Euro finde ich in Ordnung. Wir könnten auch noch Thomas und Lisa fragen. Dann wird es noch günstiger für jeden.",
+      "text_en": "I think 40 euros is fine. We could also ask Thomas and Lisa. Then it would be even cheaper for each person."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee. Ich schreibe ihnen eine Nachricht. Und wir sollten natürlich auch eine Geburtstagskarte schreiben.",
+      "text_en": "Good idea. I'll send them a message. And we should of course also write a birthday card."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, jeder kann etwas Persönliches hineinschreiben. Und wie sollen wir ihm das Geschenk geben? Auf seiner Party?",
+      "text_en": "Yes, everyone can write something personal in it. And how should we give him the gift? At his party?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Genau. Wir können den Gutschein in einen Umschlag stecken und ihm zusammen überreichen. Das wird ihn bestimmt freuen!",
+      "text_en": "Exactly. We can put the voucher in an envelope and present it to him together. That will surely make him happy!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten gehen aufeinander ein, machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Geschenke und Feiern wird verwendet.",
+    "Strukturen: Korrekte Verwendung von Modalverben (sollen, können, müssen) und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}
