@@ -1,0 +1,80 @@
+{
+  "id": "b1-lesen-teil-4-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Schuluniformen — ja oder nein?",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wer findet was? Kreuzen Sie an: Ja oder Nein.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Thomas, 42): Als Vater von drei Kindern würde ich Schuluniformen sofort begrüßen. Jeden Morgen gibt es bei uns Streit darüber, was die Kinder anziehen wollen. Mit Uniformen wäre das Problem gelöst.\n\nKommentar B (Lena, 16): Auf keinen Fall! Mode ist ein wichtiger Teil meiner Persönlichkeit. Ich drücke mich durch meine Kleidung aus. Eine Uniform würde mich einschränken und das finde ich unfair.\n\nKommentar C (Frau Becker, 55, Lehrerin): In meiner Klasse vergleichen die Schüler ständig ihre Markenklamotten. Kinder aus ärmeren Familien werden manchmal ausgelacht. Uniformen könnten dieses Problem lösen und für mehr Gleichheit sorgen.\n\nKommentar D (Nils, 19): Ich habe in England eine Schule mit Uniform besucht. Am Anfang fand ich es schrecklich, aber nach ein paar Wochen war es ganz normal. Es hat sogar Zeit gespart, weil ich morgens nicht überlegen musste, was ich anziehe.\n\nKommentar E (Aylin, 38): Ich glaube nicht, dass Uniformen Mobbing verhindern. Die Kinder finden immer andere Gründe. Stattdessen sollten Schulen mehr Anti-Mobbing-Programme anbieten.\n\nKommentar F (Herr Vogel, 48, Schulleiter): Ich bin überzeugt, dass Schuluniformen das Gemeinschaftsgefühl stärken. An unserer Partnerschule in Schweden tragen alle Schüler einheitliche Kleidung und das Schulklima ist deutlich besser.\n\nKommentar G (Sophie, 14): Ich finde Uniformen langweilig. Alle sehen gleich aus und man kann nicht zeigen, wer man ist. Meine Freundinnen und ich möchten uns individuell kleiden.",
+    "text_en": "Comment A (Thomas, 42): As a father of three children, I would immediately welcome school uniforms. Every morning there is an argument about what the children want to wear. With uniforms, the problem would be solved.\n\nComment B (Lena, 16): No way! Fashion is an important part of my personality. I express myself through my clothing. A uniform would restrict me and I find that unfair.\n\nComment C (Mrs. Becker, 55, teacher): In my class, students constantly compare their brand-name clothes. Children from poorer families are sometimes laughed at. Uniforms could solve this problem and create more equality.\n\nComment D (Nils, 19): I attended a school with uniforms in England. At first, I found it terrible, but after a few weeks it was completely normal. It even saved time because I didn't have to think about what to wear in the morning.\n\nComment E (Aylin, 38): I don't believe that uniforms prevent bullying. Children always find other reasons. Instead, schools should offer more anti-bullying programs.\n\nComment F (Mr. Vogel, 48, principal): I am convinced that school uniforms strengthen the sense of community. At our partner school in Sweden, all students wear uniform clothing and the school climate is significantly better.\n\nComment G (Sophie, 14): I find uniforms boring. Everyone looks the same and you can't show who you are. My friends and I want to dress individually.",
+    "source": "Online-Forum",
+    "word_count": 282
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Thomas findet Schuluniformen gut.",
+      "text_en": "Thomas thinks school uniforms are good.",
+      "correct_answer": true,
+      "explanation_de": "Thomas würde Schuluniformen sofort begrüßen, weil es den morgendlichen Streit lösen würde.",
+      "explanation_en": "Thomas would immediately welcome school uniforms because it would solve the morning arguments."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Lena findet Schuluniformen gut.",
+      "text_en": "Lena thinks school uniforms are good.",
+      "correct_answer": false,
+      "explanation_de": "Lena ist dagegen, weil Mode ein wichtiger Teil ihrer Persönlichkeit ist.",
+      "explanation_en": "Lena is against it because fashion is an important part of her personality."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Frau Becker findet Schuluniformen gut.",
+      "text_en": "Mrs. Becker thinks school uniforms are good.",
+      "correct_answer": true,
+      "explanation_de": "Frau Becker ist dafür, weil Uniformen für mehr Gleichheit sorgen könnten.",
+      "explanation_en": "Mrs. Becker is in favor because uniforms could create more equality."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Nils findet Schuluniformen gut.",
+      "text_en": "Nils thinks school uniforms are good.",
+      "correct_answer": true,
+      "explanation_de": "Nils hat positive Erfahrungen gemacht — es hat sogar Zeit gespart.",
+      "explanation_en": "Nils had positive experiences — it even saved time."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Aylin findet Schuluniformen gut.",
+      "text_en": "Aylin thinks school uniforms are good.",
+      "correct_answer": false,
+      "explanation_de": "Aylin glaubt nicht, dass Uniformen Mobbing verhindern, und fordert stattdessen Anti-Mobbing-Programme.",
+      "explanation_en": "Aylin doesn't believe uniforms prevent bullying and calls for anti-bullying programs instead."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Herr Vogel findet Schuluniformen gut.",
+      "text_en": "Mr. Vogel thinks school uniforms are good.",
+      "correct_answer": true,
+      "explanation_de": "Herr Vogel ist überzeugt, dass Uniformen das Gemeinschaftsgefühl stärken.",
+      "explanation_en": "Mr. Vogel is convinced that uniforms strengthen the sense of community."
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text_de": "Sophie findet Schuluniformen gut.",
+      "text_en": "Sophie thinks school uniforms are good.",
+      "correct_answer": false,
+      "explanation_de": "Sophie findet Uniformen langweilig und möchte sich individuell kleiden.",
+      "explanation_en": "Sophie finds uniforms boring and wants to dress individually."
+    }
+  ]
+}

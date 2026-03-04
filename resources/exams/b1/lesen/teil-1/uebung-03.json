@@ -1,0 +1,71 @@
+{
+  "id": "b1-lesen-teil-1-003",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Blog: Mein Garten im Frühling",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Endlich ist der Frühling da! Ich habe den ganzen Winter darauf gewartet, wieder in meinem Garten arbeiten zu können. Letztes Jahr im Oktober habe ich viele Blumenzwiebeln gepflanzt und jetzt blühen überall Tulpen und Narzissen. Es sieht wunderschön aus.\n\nDieses Jahr habe ich mir vorgenommen, zum ersten Mal eigenes Gemüse anzubauen. Ich habe bereits Tomatensamen und Gurkensamen gekauft. Meine Nachbarin Frau Schmidt, die schon seit 20 Jahren einen Gemüsegarten hat, gibt mir regelmäßig Tipps. Sie hat mir erklärt, dass man Tomaten erst nach den Eisheiligen Mitte Mai ins Freie pflanzen sollte, weil sie keinen Frost vertragen.\n\nLetztes Wochenende habe ich zwei neue Hochbeete gebaut. Das war ziemlich anstrengend, hat aber auch viel Spaß gemacht. Mein Mann hat mir dabei geholfen. In das eine Hochbeet kommen Salat, Radieschen und Karotten. In das andere möchte ich Kräuter wie Basilikum, Petersilie und Schnittlauch pflanzen.\n\nWas mich besonders freut: Unsere Tochter Lina, die elf Jahre alt ist, interessiert sich auch für den Garten. Sie hat ihren eigenen kleinen Bereich bekommen, wo sie Sonnenblumen und Erdbeeren pflanzen will. Es ist schön, dieses Hobby mit ihr zu teilen.\n\nIch bin gespannt, ob wir im Sommer unser eigenes Gemüse ernten können. Frau Schmidt sagt, dass man am Anfang Geduld braucht. Nicht alles klappt beim ersten Mal, aber man lernt jedes Jahr dazu.",
+    "text_en": "Spring is finally here! I've been waiting all winter to be able to work in my garden again. Last October, I planted many flower bulbs and now tulips and daffodils are blooming everywhere. It looks wonderful.\n\nThis year, I've decided to grow my own vegetables for the first time. I've already bought tomato seeds and cucumber seeds. My neighbor Mrs. Schmidt, who has had a vegetable garden for 20 years, regularly gives me tips. She explained to me that tomatoes should only be planted outdoors after the Ice Saints in mid-May because they can't tolerate frost.\n\nLast weekend, I built two new raised beds. It was quite exhausting but also a lot of fun. My husband helped me with it. One raised bed will have lettuce, radishes, and carrots. In the other one, I want to plant herbs like basil, parsley, and chives.\n\nWhat makes me particularly happy: Our daughter Lina, who is eleven years old, is also interested in the garden. She has gotten her own little area where she wants to plant sunflowers and strawberries. It's nice to share this hobby with her.\n\nI'm curious whether we'll be able to harvest our own vegetables in summer. Mrs. Schmidt says you need patience at the beginning. Not everything works the first time, but you learn more every year.",
+    "source": "Blog",
+    "word_count": 246
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Die Autorin hat schon oft Gemüse angebaut.",
+      "text_en": "The author has often grown vegetables before.",
+      "correct_answer": false,
+      "explanation_de": "Sie will zum ersten Mal eigenes Gemüse anbauen.",
+      "explanation_en": "She wants to grow her own vegetables for the first time."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Tomaten sollte man erst nach Mitte Mai draußen pflanzen.",
+      "text_en": "Tomatoes should only be planted outside after mid-May.",
+      "correct_answer": true,
+      "explanation_de": "Frau Schmidt hat erklärt, dass Tomaten erst nach den Eisheiligen Mitte Mai ins Freie sollen.",
+      "explanation_en": "Mrs. Schmidt explained that tomatoes should only go outdoors after the Ice Saints in mid-May."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Autorin hat die Hochbeete alleine gebaut.",
+      "text_en": "The author built the raised beds alone.",
+      "correct_answer": false,
+      "explanation_de": "Ihr Mann hat ihr dabei geholfen.",
+      "explanation_en": "Her husband helped her with it."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Die Tochter Lina möchte Sonnenblumen pflanzen.",
+      "text_en": "Daughter Lina wants to plant sunflowers.",
+      "correct_answer": true,
+      "explanation_de": "Lina will Sonnenblumen und Erdbeeren in ihrem eigenen Bereich pflanzen.",
+      "explanation_en": "Lina wants to plant sunflowers and strawberries in her own area."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Frau Schmidt hat seit zehn Jahren einen Gemüsegarten.",
+      "text_en": "Mrs. Schmidt has had a vegetable garden for ten years.",
+      "correct_answer": false,
+      "explanation_de": "Frau Schmidt hat schon seit 20 Jahren einen Gemüsegarten.",
+      "explanation_en": "Mrs. Schmidt has had a vegetable garden for 20 years."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "In ein Hochbeet kommen Kräuter wie Basilikum, Petersilie und Schnittlauch.",
+      "text_en": "One raised bed will have herbs like basil, parsley, and chives.",
+      "correct_answer": true,
+      "explanation_de": "In das andere Hochbeet möchte die Autorin Kräuter wie Basilikum, Petersilie und Schnittlauch pflanzen.",
+      "explanation_en": "In the other raised bed, the author wants to plant herbs like basil, parsley, and chives."
+    }
+  ]
+}

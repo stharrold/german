@@ -1,0 +1,88 @@
+{
+  "id": "b1-hoeren-teil-2-001",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Radiodiskussion — Gesunde Ernährung",
+  "instructions": "Sie hören ein Gespräch im Radio. Sie hören den Text einmal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 10,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Willkommen bei unserem Gesundheitsmagazin. Heute sprechen wir über gesunde Ernährung. Bei uns im Studio ist Frau Dr. Weber, Ernährungsberaterin aus Berlin. Frau Dr. Weber, was bedeutet gesunde Ernährung eigentlich?",
+      "text_en": "Welcome to our health magazine. Today we are talking about healthy eating. With us in the studio is Dr. Weber, a nutritionist from Berlin. Dr. Weber, what does healthy eating actually mean?"
+    },
+    {
+      "speaker": "Dr. Weber",
+      "text_de": "Guten Tag. Gesunde Ernährung bedeutet vor allem, abwechslungsreich zu essen. Man sollte viel Obst und Gemüse essen, mindestens fünf Portionen am Tag. Außerdem sind Vollkornprodukte sehr wichtig.",
+      "text_en": "Good afternoon. Healthy eating means above all eating a varied diet. You should eat lots of fruit and vegetables, at least five portions a day. Whole grain products are also very important."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und was ist mit Fleisch? Sollte man ganz darauf verzichten?",
+      "text_en": "And what about meat? Should you give it up entirely?"
+    },
+    {
+      "speaker": "Dr. Weber",
+      "text_de": "Nein, man muss nicht komplett auf Fleisch verzichten. Aber man sollte nicht mehr als zwei- bis dreimal pro Woche Fleisch essen. Fisch ist eine gute Alternative, besonders fetter Fisch wie Lachs, der viele Omega-3-Fettsäuren enthält.",
+      "text_en": "No, you don't have to give up meat completely. But you shouldn't eat meat more than two to three times a week. Fish is a good alternative, especially fatty fish like salmon, which contains many omega-3 fatty acids."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Vielen Dank, Frau Dr. Weber. Was raten Sie unseren Zuhörern zum Thema Trinken?",
+      "text_en": "Thank you, Dr. Weber. What do you advise our listeners about drinking?"
+    },
+    {
+      "speaker": "Dr. Weber",
+      "text_de": "Man sollte mindestens eineinhalb bis zwei Liter Wasser am Tag trinken. Süße Getränke wie Limonade sollte man möglichst vermeiden, weil sie viel Zucker enthalten.",
+      "text_en": "You should drink at least one and a half to two liters of water a day. Sweet drinks like lemonade should be avoided as much as possible because they contain a lot of sugar."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Frau Dr. Weber ist Ernährungsberaterin aus München.",
+      "text_en": "Dr. Weber is a nutritionist from Munich.",
+      "correct_answer": false,
+      "explanation_de": "Frau Dr. Weber ist aus Berlin, nicht aus München.",
+      "explanation_en": "Dr. Weber is from Berlin, not Munich."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Man sollte mindestens fünf Portionen Obst und Gemüse am Tag essen.",
+      "text_en": "You should eat at least five portions of fruit and vegetables a day.",
+      "correct_answer": true,
+      "explanation_de": "Frau Dr. Weber empfiehlt mindestens fünf Portionen am Tag.",
+      "explanation_en": "Dr. Weber recommends at least five portions a day."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Frau Dr. Weber sagt, man sollte kein Fleisch mehr essen.",
+      "text_en": "Dr. Weber says you should no longer eat meat.",
+      "correct_answer": false,
+      "explanation_de": "Sie sagt, man muss nicht komplett auf Fleisch verzichten, nur nicht mehr als zwei- bis dreimal pro Woche.",
+      "explanation_en": "She says you don't have to give up meat completely, just not more than two to three times a week."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Lachs enthält viele Omega-3-Fettsäuren.",
+      "text_en": "Salmon contains many omega-3 fatty acids.",
+      "correct_answer": true,
+      "explanation_de": "Frau Dr. Weber sagt, fetter Fisch wie Lachs enthält viele Omega-3-Fettsäuren.",
+      "explanation_en": "Dr. Weber says fatty fish like salmon contains many omega-3 fatty acids."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Man sollte mindestens drei Liter Wasser am Tag trinken.",
+      "text_en": "You should drink at least three liters of water a day.",
+      "correct_answer": false,
+      "explanation_de": "Man sollte eineinhalb bis zwei Liter trinken, nicht drei.",
+      "explanation_en": "You should drink one and a half to two liters, not three."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-1-001",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Arztpraxis — Terminverschiebung",
+  "instructions": "Sie hören eine kurze Nachricht. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage",
+      "text_de": "Guten Tag, hier ist die Praxis von Dr. Schmitt.",
+      "text_en": "Good afternoon, this is Dr. Schmitt's practice."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Leider müssen wir Ihren Termin am Dienstag, den 14. März, um 10 Uhr verschieben.",
+      "text_en": "Unfortunately, we need to reschedule your appointment on Tuesday, March 14th, at 10 o'clock."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Wir können Ihnen einen neuen Termin am Donnerstag, den 16. März, um 14 Uhr anbieten.",
+      "text_en": "We can offer you a new appointment on Thursday, March 16th, at 2 PM."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Bitte rufen Sie uns zurück unter der Nummer 030 445 678, um den Termin zu bestätigen.",
+      "text_en": "Please call us back at the number 030 445 678 to confirm the appointment."
+    },
+    {
+      "speaker": "Ansage",
+      "text_de": "Unsere Sprechzeiten sind Montag bis Freitag von 8 bis 18 Uhr. Vielen Dank.",
+      "text_en": "Our office hours are Monday to Friday from 8 AM to 6 PM. Thank you."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Der ursprüngliche Termin war am Mittwoch.",
+      "text_en": "The original appointment was on Wednesday.",
+      "correct_answer": false,
+      "explanation_de": "Der ursprüngliche Termin war am Dienstag, nicht am Mittwoch.",
+      "explanation_en": "The original appointment was on Tuesday, not Wednesday."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Der neue Termin ist am Donnerstag um 14 Uhr.",
+      "text_en": "The new appointment is on Thursday at 2 PM.",
+      "correct_answer": true,
+      "explanation_de": "Die Ansage bietet einen neuen Termin am Donnerstag um 14 Uhr an.",
+      "explanation_en": "The message offers a new appointment on Thursday at 2 PM."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Man soll eine E-Mail schreiben, um den Termin zu bestätigen.",
+      "text_en": "You should write an email to confirm the appointment.",
+      "correct_answer": false,
+      "explanation_de": "Man soll zurückrufen, nicht eine E-Mail schreiben.",
+      "explanation_en": "You should call back, not write an email."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Die Praxis ist auch am Samstag geöffnet.",
+      "text_en": "The practice is also open on Saturday.",
+      "correct_answer": false,
+      "explanation_de": "Die Sprechzeiten sind Montag bis Freitag, nicht am Samstag.",
+      "explanation_en": "The office hours are Monday to Friday, not on Saturday."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Die Praxis schließt um 18 Uhr.",
+      "text_en": "The practice closes at 6 PM.",
+      "correct_answer": true,
+      "explanation_de": "Die Sprechzeiten sind bis 18 Uhr.",
+      "explanation_en": "The office hours are until 6 PM."
+    }
+  ]
+}

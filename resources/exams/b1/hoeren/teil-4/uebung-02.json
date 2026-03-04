@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-4-002",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Öffentliche Durchsagen — Im Kaufhaus",
+  "instructions": "Sie hören fünf kurze Texte. Welche Aussage passt zu welchem Text? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Durchsage 1",
+      "text_de": "Liebe Kundinnen und Kunden, in unserer Lebensmittelabteilung im Untergeschoss finden Sie heute frische Erdbeeren aus der Region zum Sonderpreis von 2,50 Euro pro Schale.",
+      "text_en": "Dear customers, in our food department in the basement, you will find fresh regional strawberries today at a special price of 2.50 euros per box."
+    },
+    {
+      "speaker": "Durchsage 2",
+      "text_de": "Achtung, eine Durchsage: Der kleine Tim, 5 Jahre alt, sucht seine Mutter. Tim wartet an der Information im Erdgeschoss. Er trägt eine blaue Jacke und eine rote Mütze.",
+      "text_en": "Attention, an announcement: Little Tim, 5 years old, is looking for his mother. Tim is waiting at the information desk on the ground floor. He is wearing a blue jacket and a red hat."
+    },
+    {
+      "speaker": "Durchsage 3",
+      "text_de": "Unser Kaufhaus schließt in 30 Minuten. Bitte begeben Sie sich mit Ihren Einkäufen zu den Kassen. Die Kassen im ersten und zweiten Stock sind noch geöffnet.",
+      "text_en": "Our department store closes in 30 minutes. Please proceed with your purchases to the registers. The registers on the first and second floors are still open."
+    },
+    {
+      "speaker": "Durchsage 4",
+      "text_de": "Heute und morgen findet in der dritten Etage eine Modenschau statt. Beginn ist um 15 Uhr. Der Eintritt ist frei. Wir zeigen die neue Frühlingskollektion.",
+      "text_en": "Today and tomorrow there is a fashion show on the third floor. It starts at 3 PM. Admission is free. We are showing the new spring collection."
+    },
+    {
+      "speaker": "Durchsage 5",
+      "text_de": "Der Aufzug im Südflügel ist leider außer Betrieb. Bitte benutzen Sie den Aufzug im Nordflügel oder die Rolltreppe. Wir bitten um Entschuldigung.",
+      "text_en": "The elevator in the south wing is unfortunately out of order. Please use the elevator in the north wing or the escalator. We apologize."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Ein Kind hat seine Eltern verloren.",
+      "text_en": "A child has lost their parents.",
+      "correct_answer": "Durchsage 2",
+      "explanation_de": "Der kleine Tim sucht seine Mutter und wartet an der Information.",
+      "explanation_en": "Little Tim is looking for his mother and is waiting at the information desk."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Es gibt eine Veranstaltung mit freiem Eintritt.",
+      "text_en": "There is an event with free admission.",
+      "correct_answer": "Durchsage 4",
+      "explanation_de": "Die Modenschau hat freien Eintritt.",
+      "explanation_en": "The fashion show has free admission."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Das Geschäft macht bald zu.",
+      "text_en": "The store is closing soon.",
+      "correct_answer": "Durchsage 3",
+      "explanation_de": "Das Kaufhaus schließt in 30 Minuten.",
+      "explanation_en": "The department store closes in 30 minutes."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Ein technisches Gerät funktioniert nicht.",
+      "text_en": "A technical device is not working.",
+      "correct_answer": "Durchsage 5",
+      "explanation_de": "Der Aufzug im Südflügel ist außer Betrieb.",
+      "explanation_en": "The elevator in the south wing is out of order."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Es gibt ein günstiges Lebensmittel.",
+      "text_en": "There is a cheap food item.",
+      "correct_answer": "Durchsage 1",
+      "explanation_de": "Frische Erdbeeren gibt es zum Sonderpreis von 2,50 Euro.",
+      "explanation_en": "Fresh strawberries are available at a special price of 2.50 euros."
+    }
+  ]
+}

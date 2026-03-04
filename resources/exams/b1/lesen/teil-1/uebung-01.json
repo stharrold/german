@@ -1,0 +1,71 @@
+{
+  "id": "b1-lesen-teil-1-001",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Blog: Mein erster Tag im neuen Job",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Heute war mein erster Tag in meinem neuen Job als Grafikdesignerin bei einer kleinen Werbeagentur in Frankfurt. Ich war so nervös, dass ich schon um 6 Uhr aufgestanden bin, obwohl ich erst um 9 Uhr anfangen musste. Ich habe lange überlegt, was ich anziehen soll, und mich am Ende für eine dunkle Hose und eine weiße Bluse entschieden.\n\nAls ich um 8:30 Uhr im Büro ankam, hat mich meine Chefin, Frau Berger, freundlich begrüßt und mir das Team vorgestellt. Wir sind insgesamt acht Personen in der Agentur. Alle waren sehr nett und haben mir geholfen, mich zurechtzufinden. Mein Arbeitsplatz ist am Fenster mit Blick auf den Main — das finde ich wirklich schön.\n\nAm Vormittag hatte ich ein Einführungsgespräch mit Frau Berger. Sie hat mir erklärt, welche Projekte gerade laufen und woran ich in den nächsten Wochen arbeiten werde. Mein erstes Projekt ist ein Logo für ein neues Restaurant. Am Nachmittag habe ich schon die ersten Entwürfe gemacht und sie meinem Kollegen Markus gezeigt. Er hat mir einige Tipps gegeben und gesagt, dass meine Ideen gut sind.\n\nNach der Arbeit bin ich mit zwei Kolleginnen in ein Café gegangen. Wir haben uns über unsere Hobbys und Familien unterhalten. Es war ein richtig schöner erster Tag und ich freue mich auf morgen!",
+    "text_en": "Today was my first day at my new job as a graphic designer at a small advertising agency in Frankfurt. I was so nervous that I got up at 6 AM even though I didn't have to start until 9 AM. I spent a long time thinking about what to wear and finally decided on dark trousers and a white blouse.\n\nWhen I arrived at the office at 8:30 AM, my boss, Ms. Berger, greeted me warmly and introduced me to the team. There are eight of us in total at the agency. Everyone was very nice and helped me find my way around. My workspace is by the window with a view of the Main river — I think that's really lovely.\n\nIn the morning, I had an introductory meeting with Ms. Berger. She explained which projects are currently running and what I will be working on in the coming weeks. My first project is a logo for a new restaurant. In the afternoon, I already made the first drafts and showed them to my colleague Markus. He gave me some tips and said my ideas are good.\n\nAfter work, I went to a café with two female colleagues. We chatted about our hobbies and families. It was a really nice first day and I'm looking forward to tomorrow!",
+    "source": "Blog",
+    "word_count": 253
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Die Autorin arbeitet bei einer großen Firma.",
+      "text_en": "The author works at a large company.",
+      "correct_answer": false,
+      "explanation_de": "Sie arbeitet bei einer kleinen Werbeagentur mit acht Personen.",
+      "explanation_en": "She works at a small advertising agency with eight people."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Die Autorin ist vor der Arbeitszeit ins Büro gekommen.",
+      "text_en": "The author arrived at the office before working hours.",
+      "correct_answer": true,
+      "explanation_de": "Sie kam um 8:30 Uhr an, obwohl sie erst um 9 Uhr anfangen musste.",
+      "explanation_en": "She arrived at 8:30 AM even though she didn't have to start until 9 AM."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Ihr erstes Projekt ist eine Webseite für ein Restaurant.",
+      "text_en": "Her first project is a website for a restaurant.",
+      "correct_answer": false,
+      "explanation_de": "Ihr erstes Projekt ist ein Logo für ein Restaurant, keine Webseite.",
+      "explanation_en": "Her first project is a logo for a restaurant, not a website."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Ihr Kollege Markus fand ihre Ideen gut.",
+      "text_en": "Her colleague Markus thought her ideas were good.",
+      "correct_answer": true,
+      "explanation_de": "Markus hat gesagt, dass ihre Ideen gut sind.",
+      "explanation_en": "Markus said that her ideas are good."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Nach der Arbeit ist die Autorin direkt nach Hause gegangen.",
+      "text_en": "After work, the author went straight home.",
+      "correct_answer": false,
+      "explanation_de": "Sie ist mit zwei Kolleginnen in ein Café gegangen.",
+      "explanation_en": "She went to a café with two female colleagues."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Die Autorin hat am Vormittag schon an einem Projekt gearbeitet.",
+      "text_en": "The author already worked on a project in the morning.",
+      "correct_answer": false,
+      "explanation_de": "Am Vormittag hatte sie ein Einführungsgespräch mit Frau Berger. Die ersten Entwürfe machte sie erst am Nachmittag.",
+      "explanation_en": "In the morning, she had an introductory meeting with Ms. Berger. She only made the first drafts in the afternoon."
+    }
+  ]
+}
