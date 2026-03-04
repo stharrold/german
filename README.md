@@ -22,7 +22,29 @@ This repository contains:
 | **Schreiben** (Writing) | Aufgabe 1–3 | 15 | Informal/formal emails, opinion pieces |
 | **Sprechen** (Speaking) | Teil 1–3 | 15 | Planning, presentations, discussions |
 
-All exercises are JSON files validated by Pydantic models in `src/german/exams/`.
+### How to Practice
+
+Each exercise is a JSON file with bilingual content. To practice:
+
+1. **Open any exercise file** (e.g., `resources/exams/b1/lesen/teil-1/uebung-01.json`)
+2. **Read the situation** (`situation_de`) and instructions (`instructions`)
+3. **Do the exercise:**
+   - *Lesen/Hören:* Read the passage (`passage.text_de`), answer the questions (`questions`), then check against `correct_answer`
+   - *Schreiben:* Write a response following the `required_points`, then compare with `model_answer.text_de`
+   - *Sprechen:* Prepare a response using the prompts, then review the `model_answer` and `scoring_criteria`
+4. **Use the English translations** (`text_en`, `situation_en`) if you need help understanding
+
+Or use the Python API to load exercises programmatically:
+
+```python
+from german.exams.loader import load_exercises
+from german.exams.query import filter_by_skill
+
+exercises = load_exercises()
+lesen = filter_by_skill(exercises, "lesen")
+```
+
+### Exercise Files
 
 ```
 resources/exams/b1/
