@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2025 stharrold
 # SPDX-License-Identifier: Apache-2.0
-"""Cleanup feature worktree and branches.
+"""Provide instructions to cleanup a feature worktree and its associated branch.
 
-This script cleans up after a feature is merged: Delete worktree -> Delete branches.
+This script finds the worktree and branch for a given feature slug and
+prints the manual commands required to delete them.
 
 Constants:
 - WORKTREE_PREFIX: '../{project}_feature_' or '../feature_'

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2025 stharrold
 # SPDX-License-Identifier: Apache-2.0
-"""Delete release branch after successful release and back-merge.
+"""Provide instructions to delete a release branch after a successful release.
 
 This script implements Step 5.7 of Phase 5 (Release Workflow) as documented
-in WORKFLOW.md. It safely deletes the release branch after verifying the
-release is complete and properly merged.
+in WORKFLOW.md. It performs safety checks to verify the release is complete
+and then provides manual commands to safely delete the release branch.
 
 Usage:
     python cleanup_release.py <version>
