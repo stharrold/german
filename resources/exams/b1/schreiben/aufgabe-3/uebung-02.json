@@ -14,8 +14,8 @@
     "Fragen, wie man sich anmelden kann (Ask how to register)"
   ],
   "model_answer": {
-    "text_de": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs (Niveau B1). Könnten Sie mir bitte mitteilen, wann die Kurse stattfinden und wie viel sie kosten? Außerdem möchte ich wissen, wie ich mich anmelden kann.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nAhmed Hassan",
-    "text_en": "Dear Sir or Madam,\n\nI am interested in a German course (level B1). Could you please tell me when the courses take place and how much they cost? I would also like to know how I can register.\n\nThank you in advance.\n\nKind regards,\nAhmed Hassan"
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs auf dem Niveau B1. Könnten Sie mir bitte die Kurszeiten und die Kosten mitteilen? Außerdem möchte ich wissen, wie ich mich anmelden kann.\n\nMit freundlichen Grüßen\nAhmed Hassan",
+    "text_en": "Dear Sir or Madam,\n\nI am interested in a German course at level B1. Could you please let me know the course times and the costs? I would also like to know how I can register.\n\nKind regards,\nAhmed Hassan"
   },
   "scoring_criteria": [
     "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",

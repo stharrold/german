@@ -14,8 +14,8 @@
     "Nach Ermäßigungen oder Ratenzahlung fragen (Ask about discounts or installment payments)"
   ],
   "model_answer": {
-    "text_de": "Sehr geehrte Damen und Herren,\n\nich möchte mich für den Intensiv-Deutschkurs im April anmelden. Könnten Sie mir bitte das genaue Startdatum und die Kursdauer mitteilen? Außerdem würde ich gern wissen, ob es Ermäßigungen für Studierende oder eine Ratenzahlung gibt.\n\nMit freundlichen Grüßen\nSara Rossi",
-    "text_en": "Dear Sir or Madam,\n\nI would like to register for the intensive German course in April. Could you please tell me the exact start date and course duration? I would also like to know whether there are discounts for students or installment payments.\n\nKind regards,\nSara Rossi"
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich möchte mich gerne für den Intensiv-Deutschkurs im April anmelden. Könnten Sie mir bitte den genauen Kursbeginn und die Dauer mitteilen? Gibt es Ermäßigungen oder die Möglichkeit einer Ratenzahlung?\n\nMit freundlichen Grüßen\nSara Rossi",
+    "text_en": "Dear Sir or Madam,\n\nI would like to register for the intensive German course in April. Could you please let me know the exact course start and duration? Are there discounts or the option of installment payments?\n\nKind regards,\nSara Rossi"
   },
   "scoring_criteria": [
     "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",

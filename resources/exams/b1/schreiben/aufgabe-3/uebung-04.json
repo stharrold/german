@@ -14,8 +14,8 @@
     "Sich für die schnelle Terminvergabe bedanken (Thank them for the quick appointment scheduling)"
   ],
   "model_answer": {
-    "text_de": "Sehr geehrte Damen und Herren,\n\nhiermit bestätige ich meinen Termin am Donnerstag, dem 6. März, um 10:00 Uhr bei Dr. Müller. Könnten Sie mir bitte mitteilen, ob ich Unterlagen oder meine Versichertenkarte mitbringen muss?\n\nVielen Dank für die schnelle Terminvergabe.\n\nMit freundlichen Grüßen\nPeter König",
-    "text_en": "Dear Sir or Madam,\n\nI hereby confirm my appointment on Thursday, March 6, at 10:00 a.m. with Dr. Müller. Could you please let me know whether I need to bring documents or my insurance card?\n\nThank you for the quick appointment scheduling.\n\nKind regards,\nPeter König"
+    "text_de": "Sehr geehrte Damen und Herren,\n\nvielen Dank für die schnelle Terminvergabe. Ich bestätige hiermit meinen Termin am Donnerstag, den 10. April, um 10:00 Uhr. Bitte teilen Sie mir mit, ob ich Unterlagen mitbringen muss.\n\nMit freundlichen Grüßen\nPeter König",
+    "text_en": "Dear Sir or Madam,\n\nThank you for the quick appointment scheduling. I hereby confirm my appointment on Thursday, April 10, at 10:00 a.m. Please let me know whether I need to bring any documents.\n\nKind regards,\nPeter König"
   },
   "scoring_criteria": [
     "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",

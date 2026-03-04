@@ -14,8 +14,8 @@
     "Um eine Lösung bitten — Umtausch oder Rückerstattung (Request a solution — exchange or refund)"
   ],
   "model_answer": {
-    "text_de": "Sehr geehrte Damen und Herren,\n\nam 18. Februar habe ich einen Laptop bestellt (Bestellnummer TM-78234). Leider ist das Gerät mit einem kaputten Bildschirm angekommen. Ich bitte Sie um einen Umtausch oder eine Rückerstattung des Kaufpreises.\n\nBitte teilen Sie mir mit, wie ich weiter vorgehen soll.\n\nMit freundlichen Grüßen\nLisa Weber",
-    "text_en": "Dear Sir or Madam,\n\nOn February 18, I ordered a laptop (order number TM-78234). Unfortunately, the device arrived with a broken screen. I ask you for an exchange or a refund of the purchase price.\n\nPlease let me know how I should proceed.\n\nKind regards,\nLisa Weber"
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich habe am 15. Februar einen Laptop bei Ihnen bestellt (Bestellnummer TM-78234). Leider ist das Gerät mit einem kaputten Bildschirm angekommen. Ich bitte Sie um einen Umtausch oder eine Rückerstattung.\n\nMit freundlichen Grüßen\nLisa Weber",
+    "text_en": "Dear Sir or Madam,\n\nI ordered a laptop from you on February 15 (order number TM-78234). Unfortunately, the device arrived with a broken screen. I request an exchange or a refund.\n\nKind regards,\nLisa Weber"
   },
   "scoring_criteria": [
     "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
