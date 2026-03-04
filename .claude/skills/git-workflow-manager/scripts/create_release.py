@@ -257,7 +257,7 @@ For more information, see WORKFLOW.md Phase 5 (Release Workflow).
         print(f"[OK] Base: {base_branch} (commit {base_commit})")
         print("[OK] Ready for final QA and documentation updates")
         print("\nNext steps:")
-        print("  1. Run quality gates: uv run pytest && uv run ruff check .")
+        print("  1. Run quality gates: uv run pytest --cov=src --cov-report=term --cov-fail-under=80 && uv run ruff check . && uv run mypy src/")
         print("  2. Update documentation and version in pyproject.toml")
         print(f"  3. Create PR to main: gh pr create --base main --title 'Release {version}'")
 
