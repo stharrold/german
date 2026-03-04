@@ -5,140 +5,160 @@
       "english": "house",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Häuser"
+      "plural": "Häuser",
+      "level": "A1"
     },
     {
       "german": "Buch",
       "english": "book",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Bücher"
+      "plural": "Bücher",
+      "level": "A1"
     },
     {
       "german": "Tisch",
       "english": "table",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Tische"
+      "plural": "Tische",
+      "level": "A1"
     },
     {
       "german": "Stuhl",
       "english": "chair",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Stühle"
+      "plural": "Stühle",
+      "level": "A1"
     },
     {
       "german": "Tür",
       "english": "door",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Türen"
+      "plural": "Türen",
+      "level": "A1"
     },
     {
       "german": "Fenster",
       "english": "window",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Fenster"
+      "plural": "Fenster",
+      "level": "A1"
     },
     {
       "german": "Stadt",
       "english": "city",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Städte"
+      "plural": "Städte",
+      "level": "A1"
     },
     {
       "german": "Land",
       "english": "country",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Länder"
+      "plural": "Länder",
+      "level": "A1"
     },
     {
       "german": "Mensch",
       "english": "person/human",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Menschen"
+      "plural": "Menschen",
+      "level": "A1"
     },
     {
       "german": "Frau",
       "english": "woman",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Frauen"
+      "plural": "Frauen",
+      "level": "A1"
     },
     {
       "german": "Mann",
       "english": "man",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Männer"
+      "plural": "Männer",
+      "level": "A1"
     },
     {
       "german": "Kind",
       "english": "child",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Kinder"
+      "plural": "Kinder",
+      "level": "A1"
     },
     {
       "german": "Tag",
       "english": "day",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Tage"
+      "plural": "Tage",
+      "level": "A1"
     },
     {
       "german": "Nacht",
       "english": "night",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Nächte"
+      "plural": "Nächte",
+      "level": "A1"
     },
     {
       "german": "Zeit",
       "english": "time",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Zeiten"
+      "plural": "Zeiten",
+      "level": "A1"
     },
     {
       "german": "Jahr",
       "english": "year",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Jahre"
+      "plural": "Jahre",
+      "level": "A1"
     },
     {
       "german": "Wasser",
       "english": "water",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Wasser"
+      "plural": "Wasser",
+      "level": "A1"
     },
     {
       "german": "Brot",
       "english": "bread",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Brote"
+      "plural": "Brote",
+      "level": "A1"
     },
     {
       "german": "Apfel",
       "english": "apple",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Äpfel"
+      "plural": "Äpfel",
+      "level": "A1"
     },
     {
       "german": "Baum",
       "english": "tree",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Bäume"
+      "plural": "Bäume",
+      "level": "A1"
     }
   ]
 }

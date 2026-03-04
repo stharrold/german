@@ -3,7 +3,7 @@
 import pytest
 from pydantic import ValidationError
 
-from german.models import Gender, PartOfSpeech, VocabularyWord
+from german.models import CEFRLevel, Gender, PartOfSpeech, VocabularyWord
 
 
 def test_vocabulary_word_noun_with_gender():
@@ -105,3 +105,50 @@ def test_all_part_of_speech_types():
     assert verb.part_of_speech == PartOfSpeech.VERB
     assert adjective.part_of_speech == PartOfSpeech.ADJECTIVE
     assert adverb.part_of_speech == PartOfSpeech.ADVERB
+
+
+def test_vocabulary_word_with_level():
+    """Test creating a word with CEFR level."""
+    word = VocabularyWord(
+        german="Haus",
+        english="house",
+        part_of_speech=PartOfSpeech.NOUN,
+        gender=Gender.NEUTER,
+        level=CEFRLevel.A1,
+    )
+    assert word.level == CEFRLevel.A1
+
+
+def test_vocabulary_word_without_level():
+    """Test that level is optional (backward compatible)."""
+    word = VocabularyWord(
+        german="lernen",
+        english="to learn",
+        part_of_speech=PartOfSpeech.VERB,
+    )
+    assert word.level is None
+
+
+def test_all_cefr_levels():
+    """Test all CEFR levels are valid."""
+    for level in CEFRLevel:
+        word = VocabularyWord(
+            german="test",
+            english="test",
+            part_of_speech=PartOfSpeech.VERB,
+            level=level,
+        )
+        assert word.level == level
+
+    assert len(CEFRLevel) == 6
+
+
+def test_cefr_level_from_string():
+    """Test creating a word with level as string."""
+    word = VocabularyWord(
+        german="gehen",
+        english="to go",
+        part_of_speech=PartOfSpeech.VERB,
+        level="B1",
+    )
+    assert word.level == CEFRLevel.B1

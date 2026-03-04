@@ -1,7 +1,7 @@
 """Vocabulary module for German language learning."""
 
 from .loader import VocabularyLoadError, load_vocabulary
-from .query import filter_by_gender, filter_by_pos, get_word
+from .query import filter_by_gender, filter_by_level, filter_by_pos, get_word
 
 __all__ = [
     "load_vocabulary",
@@ -9,4 +9,5 @@ __all__ = [
     "get_word",
     "filter_by_pos",
     "filter_by_gender",
+    "filter_by_level",
 ]

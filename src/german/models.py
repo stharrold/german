@@ -6,6 +6,17 @@ from typing import Optional
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
+class CEFRLevel(str, Enum):
+    """CEFR proficiency levels for vocabulary."""
+
+    A1 = "A1"
+    A2 = "A2"
+    B1 = "B1"
+    B2 = "B2"
+    C1 = "C1"
+    C2 = "C2"
+
+
 class PartOfSpeech(str, Enum):
     """Part of speech categories."""
 
@@ -29,6 +40,9 @@ class VocabularyWord(BaseModel):
     german: str = Field(..., description="German word")
     english: str = Field(..., description="English translation")
     part_of_speech: PartOfSpeech
+
+    # CEFR level
+    level: Optional[CEFRLevel] = Field(None, description="CEFR proficiency level (A1-C2)")
 
     # Noun-specific fields
     gender: Optional[Gender] = Field(None, description="Grammatical gender (nouns only)")

@@ -1,7 +1,7 @@
 """Tests for vocabulary query functions."""
 
-from german.models import Gender, PartOfSpeech
-from german.vocabulary import filter_by_gender, filter_by_pos, get_word, load_vocabulary
+from german.models import CEFRLevel, Gender, PartOfSpeech
+from german.vocabulary import filter_by_gender, filter_by_level, filter_by_pos, get_word, load_vocabulary
 
 
 def test_get_word_found():
@@ -106,3 +106,35 @@ def test_filter_operations_combined():
     assert len(masculine_nouns) > 0
     assert all(word.part_of_speech == PartOfSpeech.NOUN for word in masculine_nouns)
     assert all(word.gender == Gender.MASCULINE for word in masculine_nouns)
+
+
+def test_filter_by_level_a1():
+    """Test filtering by A1 CEFR level."""
+    vocab = load_vocabulary()
+    a1_words = filter_by_level(CEFRLevel.A1, vocab)
+    assert len(a1_words) == 70
+    assert all(word.level == CEFRLevel.A1 for word in a1_words)
+
+
+def test_filter_by_level_string():
+    """Test filtering by level using string."""
+    vocab = load_vocabulary()
+    a1_words = filter_by_level("A1", vocab)
+    assert len(a1_words) == 70
+
+
+def test_filter_by_level_no_match():
+    """Test filtering by level with no matches returns empty list."""
+    vocab = load_vocabulary()
+    b2_words = filter_by_level(CEFRLevel.B2, vocab)
+    assert len(b2_words) == 0
+
+
+def test_filter_by_level_combined_with_pos():
+    """Test combining level and part of speech filters."""
+    vocab = load_vocabulary()
+    a1_words = filter_by_level(CEFRLevel.A1, vocab)
+    a1_nouns = filter_by_pos(PartOfSpeech.NOUN, a1_words)
+    assert len(a1_nouns) == 20
+    assert all(word.level == CEFRLevel.A1 for word in a1_nouns)
+    assert all(word.part_of_speech == PartOfSpeech.NOUN for word in a1_nouns)
