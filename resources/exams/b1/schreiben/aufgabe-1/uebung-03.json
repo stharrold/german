@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-1-003",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Urlaubsempfehlung",
+  "instructions": "Ihre Freundin / Ihr Freund hat Ihnen geschrieben. Antworten Sie.",
+  "situation_de": "Ihre Freundin Lisa plant ihren Sommerurlaub und fragt Sie nach einer Empfehlung. Sie möchte wissen, wohin Sie letztes Jahr gefahren sind und warum es Ihnen gefallen hat.",
+  "situation_en": "Your friend Lisa is planning her summer vacation and asks you for a recommendation. She wants to know where you went last year and why you liked it.",
+  "target_word_count": 80,
+  "required_points": [
+    "Ein Reiseziel empfehlen und beschreiben (Recommend and describe a travel destination)",
+    "Erklären, warum Ihnen der Ort gefallen hat (Explain why you liked the place)",
+    "Einen praktischen Tipp für die Reise geben (Give a practical tip for the trip)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Lisa,\n\nich empfehle dir die Insel Rügen an der Ostsee! Ich war letzten Sommer dort und es war wunderschön. Die weißen Kreidefelsen sind beeindruckend und die Strände sind sauber und ruhig. Man kann toll wandern und Rad fahren.\n\nMir hat besonders gefallen, dass es nicht so überfüllt war wie an der Nordsee. Das Essen in den kleinen Restaurants war auch sehr lecker und günstig. Buche dein Hotel aber früh, im Juli wird es schnell voll!\n\nViele Grüße\nDeine Petra",
+    "text_en": "Dear Lisa,\n\nI recommend the island of Rügen on the Baltic Sea! I was there last summer and it was beautiful. The white chalk cliffs are impressive and the beaches are clean and quiet. You can go hiking and cycling.\n\nWhat I especially liked was that it wasn't as crowded as the North Sea. The food in the small restaurants was also very tasty and affordable. But book your hotel early, in July it gets full quickly!\n\nBest regards,\nYours, Petra"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind angemessen behandelt (Task fulfillment: All three content points are adequately addressed)",
+    "Kohärenz: Der Text ist logisch aufgebaut und zusammenhängend (Coherence: The text is logically structured and cohesive)",
+    "Wortschatz: Angemessener Wortschatz für informelle Kommunikation auf B1-Niveau (Vocabulary: Appropriate vocabulary for informal communication at B1 level)",
+    "Strukturen: Korrekte Grammatik und Satzstrukturen auf B1-Niveau (Structures: Correct grammar and sentence structures at B1 level)"
+  ]
+}

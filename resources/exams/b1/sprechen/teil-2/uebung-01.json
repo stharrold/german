@@ -1,0 +1,50 @@
+{
+  "id": "b1-sprechen-teil-2-001",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Sport im Alltag",
+  "instructions": "Präsentieren Sie Ihrem Partner / Ihrer Partnerin das Thema. Sprechen Sie über die folgenden Punkte.",
+  "situation_de": "Sie sollen eine kurze Präsentation über das Thema „Sport im Alltag“ halten. Sprechen Sie über Ihre persönliche Erfahrung, die Vor- und Nachteile und Ihre eigene Meinung.",
+  "situation_en": "You are to give a short presentation on the topic \"Sport in everyday life.\" Talk about your personal experience, the advantages and disadvantages, and your own opinion.",
+  "discussion_points": [
+    "Sprechen Sie über Ihre persönliche Erfahrung mit Sport. Welchen Sport machen Sie? Wie oft? (Talk about your personal experience with sport. What sport do you do? How often?)",
+    "Welche Vorteile hat Sport im Alltag? (What are the advantages of sport in everyday life?)",
+    "Welche Nachteile oder Probleme kann es geben? (What disadvantages or problems can there be?)",
+    "Was ist Ihre persönliche Meinung: Wie wichtig ist Sport für ein gutes Leben? (What is your personal opinion: How important is sport for a good life?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über das Thema „Sport im Alltag“ sprechen. Sport spielt in meinem Leben eine wichtige Rolle.",
+      "text_en": "I would like to talk today about the topic \"Sport in everyday life.\" Sport plays an important role in my life."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich persönlich gehe dreimal pro Woche joggen, meistens morgens vor der Arbeit. Am Wochenende spiele ich manchmal Fußball mit Freunden im Park. Ich mache seit etwa fünf Jahren regelmäßig Sport.",
+      "text_en": "Personally, I go jogging three times a week, usually in the morning before work. On weekends, I sometimes play football with friends in the park. I have been doing regular sport for about five years."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Sport hat viele Vorteile. Man bleibt gesund und fit, man fühlt sich besser und hat mehr Energie für den Tag. Außerdem kann man beim Sport neue Leute kennenlernen und Stress abbauen. Nach einem langen Arbeitstag hilft mir Sport, den Kopf frei zu bekommen.",
+      "text_en": "Sport has many advantages. You stay healthy and fit, you feel better, and you have more energy for the day. In addition, you can meet new people through sport and reduce stress. After a long working day, sport helps me clear my head."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Natürlich gibt es auch Nachteile. Manchmal hat man nicht genug Zeit für Sport, besonders wenn man viel arbeitet oder eine Familie hat. Man kann sich auch verletzen, besonders bei Mannschaftssportarten. Und manche Sportarten sind teuer, zum Beispiel wenn man eine Mitgliedschaft im Fitnessstudio braucht.",
+      "text_en": "Of course, there are also disadvantages. Sometimes you don't have enough time for sport, especially if you work a lot or have a family. You can also get injured, especially in team sports. And some sports are expensive, for example if you need a gym membership."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Meinung nach ist Sport sehr wichtig für ein gutes Leben. Man muss nicht unbedingt jeden Tag ins Fitnessstudio gehen. Auch ein kurzer Spaziergang oder Fahrradfahren kann schon helfen. Das Wichtigste ist, dass man sich regelmäßig bewegt und Spaß dabei hat. Vielen Dank für Ihre Aufmerksamkeit.",
+      "text_en": "In my opinion, sport is very important for a good life. You don't necessarily have to go to the gym every day. Even a short walk or cycling can already help. The most important thing is that you exercise regularly and have fun doing it. Thank you for your attention."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle vier Punkte (Erfahrung, Vorteile, Nachteile, Meinung) werden behandelt.",
+    "Interaktion: Der Kandidat spricht frei und wendet sich an den Partner / die Partnerin.",
+    "Wortschatz: Angemessener und abwechslungsreicher Wortschatz zum Thema Sport und Gesundheit.",
+    "Strukturen: Korrekte Satzstruktur, Verwendung von Konnektoren (außerdem, natürlich, meiner Meinung nach).",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

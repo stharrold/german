@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-1-004",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Geschenkideen zum Geburtstag",
+  "instructions": "Ihre Freundin / Ihr Freund hat Ihnen geschrieben. Antworten Sie.",
+  "situation_de": "Ihr Freund Markus hat bald Geburtstag und seine Freundin fragt Sie per E-Mail nach Geschenkideen. Sie kennen Markus gut und wissen, was er mag.",
+  "situation_en": "Your friend Markus has a birthday soon and his girlfriend is asking you by email for gift ideas. You know Markus well and know what he likes.",
+  "target_word_count": 80,
+  "required_points": [
+    "Mindestens zwei Geschenkideen vorschlagen (Suggest at least two gift ideas)",
+    "Erklären, warum Markus sich darüber freuen würde (Explain why Markus would be happy about them)",
+    "Anbieten, beim Einkaufen zu helfen (Offer to help with the shopping)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Julia,\n\nich habe zwei gute Ideen für Markus! Erstens liebt er Kochen — ein neues Kochbuch mit italienischen Rezepten wäre perfekt. Er hat letztens erzählt, dass er gerne mehr italienisch kochen möchte. Zweitens braucht er neue Kopfhörer, seine alten sind kaputt.\n\nIch kenne einen tollen Laden in der Stadtmitte, dort gibt es gute Kopfhörer. Wenn du möchtest, können wir am Mittwoch zusammen einkaufen gehen. Dann kann ich dir den Laden zeigen.\n\nLiebe Grüße\nDein Jan",
+    "text_en": "Hello Julia,\n\nI have two good ideas for Markus! First, he loves cooking — a new cookbook with Italian recipes would be perfect. He recently mentioned that he would like to cook more Italian food. Second, he needs new headphones, his old ones are broken.\n\nI know a great shop in the city center, they have good headphones there. If you want, we can go shopping together on Wednesday. Then I can show you the shop.\n\nBest regards,\nYours, Jan"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind angemessen behandelt (Task fulfillment: All three content points are adequately addressed)",
+    "Kohärenz: Der Text ist logisch aufgebaut und zusammenhängend (Coherence: The text is logically structured and cohesive)",
+    "Wortschatz: Angemessener Wortschatz für informelle Kommunikation auf B1-Niveau (Vocabulary: Appropriate vocabulary for informal communication at B1 level)",
+    "Strukturen: Korrekte Grammatik und Satzstrukturen auf B1-Niveau (Structures: Correct grammar and sentence structures at B1 level)"
+  ]
+}

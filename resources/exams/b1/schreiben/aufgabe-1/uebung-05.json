@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-1-005",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Besuch planen",
+  "instructions": "Ihre Freundin / Ihr Freund hat Ihnen geschrieben. Antworten Sie.",
+  "situation_de": "Ihre Freundin Sophie möchte Sie nächstes Wochenende in Ihrer Stadt besuchen. Sie fragt, was man dort machen kann, wo sie übernachten kann und wie sie am besten anreist.",
+  "situation_en": "Your friend Sophie wants to visit you in your city next weekend. She asks what there is to do there, where she can stay overnight, and what the best way to travel is.",
+  "target_word_count": 80,
+  "required_points": [
+    "Aktivitäten in der Stadt vorschlagen (Suggest activities in the city)",
+    "Eine Übernachtungsmöglichkeit anbieten oder empfehlen (Offer or recommend accommodation)",
+    "Tipps zur Anreise geben (Give tips about how to get there)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Sophie,\n\nwie schön, dass du mich besuchen kommst! In meiner Stadt gibt es viel zu sehen. Am Samstag können wir in die Altstadt gehen und das Schloss besichtigen. Abends gibt es einen tollen Weihnachtsmarkt mit Glühwein.\n\nDu kannst natürlich bei mir übernachten, ich habe ein Gästezimmer. Am besten nimmst du den Zug, der fährt direkt und dauert nur zwei Stunden. Vom Bahnhof hole ich dich ab.\n\nIch freue mich auf dich!\nDeine Katharina",
+    "text_en": "Dear Sophie,\n\nHow nice that you're coming to visit me! There is a lot to see in my city. On Saturday we can go to the old town and visit the castle. In the evening there is a great Christmas market with mulled wine.\n\nYou can of course stay at my place, I have a guest room. It's best to take the train, it goes directly and takes only two hours. I'll pick you up from the station.\n\nI'm looking forward to seeing you!\nYours, Katharina"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind angemessen behandelt (Task fulfillment: All three content points are adequately addressed)",
+    "Kohärenz: Der Text ist logisch aufgebaut und zusammenhängend (Coherence: The text is logically structured and cohesive)",
+    "Wortschatz: Angemessener Wortschatz für informelle Kommunikation auf B1-Niveau (Vocabulary: Appropriate vocabulary for informal communication at B1 level)",
+    "Strukturen: Korrekte Grammatik und Satzstrukturen auf B1-Niveau (Structures: Correct grammar and sentence structures at B1 level)"
+  ]
+}

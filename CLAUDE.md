@@ -30,6 +30,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
 - B1 Hören complete: 20 exercises across teil-1 to teil-4 (#282-285)
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
+- B1 Schreiben complete: 15 exercises across aufgabe-1 to aufgabe-3 (#291-293)
+- B1 Sprechen complete: 15 exercises across teil-1 to teil-3 (#294-296)
 
 ## Repository Purpose
 

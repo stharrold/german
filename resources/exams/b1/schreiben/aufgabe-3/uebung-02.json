@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-3-002",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 3,
+  "title": "Informationen anfordern",
+  "instructions": "Schreiben Sie eine E-Mail an die Volkshochschule.",
+  "situation_de": "Sie möchten einen Deutschkurs an der Volkshochschule besuchen. Sie brauchen Informationen über die Kurszeiten, die Kosten und die Anmeldung.",
+  "situation_en": "You want to take a German course at the adult education center. You need information about the course times, costs, and registration.",
+  "target_word_count": 40,
+  "required_points": [
+    "Nach den Kurszeiten fragen (Ask about the course times)",
+    "Nach den Kosten fragen (Ask about the costs)",
+    "Fragen, wie man sich anmelden kann (Ask how to register)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für einen Deutschkurs (Niveau B1). Könnten Sie mir bitte mitteilen, wann die Kurse stattfinden und wie viel sie kosten? Außerdem möchte ich wissen, wie ich mich anmelden kann.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen\nAhmed Hassan",
+    "text_en": "Dear Sir or Madam,\n\nI am interested in a German course (level B1). Could you please tell me when the courses take place and how much they cost? I would also like to know how I can register.\n\nThank you in advance.\n\nKind regards,\nAhmed Hassan"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
+    "Kohärenz: Der Text ist klar strukturiert (Coherence: The text is clearly structured)",
+    "Wortschatz: Formeller Wortschatz angemessen verwendet (Vocabulary: Formal vocabulary used appropriately)",
+    "Strukturen: Korrekte formelle Anrede und Grußformel (Structures: Correct formal salutation and closing)"
+  ]
+}

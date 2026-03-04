@@ -1,0 +1,67 @@
+{
+  "id": "b1-sprechen-teil-1-001",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Abschiedsfeier für eine Kollegin",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen etwas zusammen planen.",
+  "situation_de": "Eine Kollegin verlässt die Firma und zieht in eine andere Stadt. Sie möchten zusammen eine Abschiedsfeier für sie organisieren. Überlegen Sie, was Sie alles planen müssen.",
+  "situation_en": "A colleague is leaving the company and moving to another city. You would like to organize a farewell party for her together. Think about what you need to plan.",
+  "discussion_points": [
+    "Wann soll die Feier stattfinden? (When should the party take place?)",
+    "Wo soll die Feier sein — im Büro, im Restaurant oder bei jemandem zu Hause? (Where should the party be — in the office, at a restaurant, or at someone's home?)",
+    "Wen sollen wir einladen? (Whom should we invite?)",
+    "Was sollen wir essen und trinken? Wer bringt was mit? (What should we eat and drink? Who brings what?)",
+    "Sollen wir ein Geschenk kaufen? Wenn ja, was? (Should we buy a gift? If so, what?)",
+    "Sollen wir Musik oder Spiele vorbereiten? (Should we prepare music or games?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Unsere Kollegin Anna geht nächsten Monat. Wir sollten eine Abschiedsfeier für sie organisieren. Hast du eine Idee, wann wir das machen können?",
+      "text_en": "Our colleague Anna is leaving next month. We should organize a farewell party for her. Do you have an idea when we could do that?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, ich finde, wir sollten die Feier an ihrem letzten Arbeitstag machen, also am Freitag. Dann können alle Kollegen kommen.",
+      "text_en": "Yes, I think we should have the party on her last working day, so on Friday. Then all colleagues can come."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee. Und wo sollen wir feiern? Im Büro oder lieber in einem Restaurant?",
+      "text_en": "Good idea. And where should we celebrate? In the office or rather at a restaurant?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich denke, das Büro ist praktischer. Wir können den Konferenzraum benutzen und Essen mitbringen. Ein Restaurant wäre vielleicht zu teuer.",
+      "text_en": "I think the office is more practical. We can use the conference room and bring food. A restaurant might be too expensive."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Stimmt. Dann können wir alle Kollegen aus unserer Abteilung einladen. Ich kann einen Kuchen backen. Kannst du Getränke besorgen?",
+      "text_en": "True. Then we can invite all colleagues from our department. I can bake a cake. Can you get drinks?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das mache ich gerne. Und wir sollten auch ein Abschiedsgeschenk kaufen. Vielleicht ein Fotobuch mit Erinnerungen von der Arbeit?",
+      "text_en": "Yes, I'd be happy to do that. And we should also buy a farewell gift. Maybe a photo book with memories from work?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das ist eine tolle Idee! Wir können alle Kollegen bitten, ein paar Fotos und persönliche Nachrichten zu schicken. Ich kann das Fotobuch zusammenstellen.",
+      "text_en": "That's a great idea! We can ask all colleagues to send some photos and personal messages. I can put the photo book together."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Super. Und vielleicht können wir eine kleine Playlist mit Annas Lieblingsliedern machen. Dann wird die Stimmung noch besser.",
+      "text_en": "Great. And maybe we can make a small playlist with Anna's favorite songs. That will make the atmosphere even better."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten gehen aufeinander ein, machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Feiern und Planen wird verwendet.",
+    "Strukturen: Korrekte Verwendung von Modalverben (sollen, können, müssen) und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}
