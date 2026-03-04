@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 1,
   "title": "Blog: Mein Semester als Austauschstudent",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Ich heiße Marco und komme aus Italien. Im letzten Wintersemester war ich als Austauschstudent an der Universität Wien. Es war eine unglaubliche Erfahrung, die ich jedem empfehlen kann.\n\nAm Anfang hatte ich Probleme mit der deutschen Sprache. Obwohl ich in der Schule vier Jahre Deutsch gelernt hatte, war es schwer, den österreichischen Dialekt zu verstehen. Meine Mitbewohner im Studentenwohnheim haben zum Glück immer Hochdeutsch mit mir gesprochen und mir neue Wörter erklärt.\n\nDas Studium an der Universität Wien war anders als in Italien. Die Vorlesungen waren sehr interaktiv und die Professoren haben viel Wert auf Diskussionen gelegt. Ich musste auch mehr Hausarbeiten schreiben als zu Hause. Das war anstrengend, aber ich habe viel dabei gelernt.\n\nIn meiner Freizeit habe ich Wien erkundet. Die Stadt ist fantastisch! Ich habe die berühmten Kaffeehäuser besucht, bin durch den Prater spaziert und war mehrmals in der Oper. Der Naschmarkt war mein Lieblingsort — dort gibt es Spezialitäten aus der ganzen Welt.\n\nDas Beste am Auslandssemester waren die internationalen Freundschaften. In meinem Wohnheim lebten Studierende aus zwölf verschiedenen Ländern. Wir haben zusammen gekocht, Ausflüge gemacht und viel voneinander gelernt. Mit einigen bin ich noch heute in Kontakt.\n\nJetzt bin ich wieder in Italien, aber ein Teil von mir ist in Wien geblieben. Ich möchte unbedingt zurückkommen — vielleicht für meinen Master.",
@@ -57,6 +57,15 @@
       "correct_answer": false,
       "explanation_de": "Es waren Studierende aus zwölf Ländern, nicht aus zwanzig.",
       "explanation_en": "There were students from twelve countries, not twenty."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Marco hat in der Schule vier Jahre Deutsch gelernt.",
+      "text_en": "Marco learned German for four years in school.",
+      "correct_answer": true,
+      "explanation_de": "Er hatte in der Schule vier Jahre Deutsch gelernt, bevor er nach Wien kam.",
+      "explanation_en": "He had learned German for four years in school before coming to Vienna."
     }
   ]
 }

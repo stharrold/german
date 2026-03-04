@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 2,
   "title": "Pressebericht: Neue Regelungen für Mieter",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Ab dem 1. Januar gelten in Deutschland neue Regelungen zum Mietrecht. Die wichtigste Änderung betrifft die Mietpreisbremse: In Städten mit angespanntem Wohnungsmarkt darf die Miete bei Neuvermietung höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen. Diese Regelung gilt jetzt für alle Städte mit mehr als 100.000 Einwohnern.\n\nAußerdem müssen Vermieter künftig alle Modernisierungsmaßnahmen mindestens drei Monate im Voraus ankündigen. Bisher waren es nur zwei Monate. Die Kosten für Modernisierungen dürfen nur noch zu maximal acht Prozent auf die Jahresmiete umgelegt werden, vorher waren es elf Prozent.\n\nDer Deutsche Mieterbund begrüßt die neuen Regelungen. 'Das ist ein wichtiger Schritt zum Schutz der Mieter', sagt Präsident Klaus Berger. 'Viele Menschen können sich die steigenden Mieten nicht mehr leisten.' In den letzten zehn Jahren sind die Mieten in Großstädten wie München, Hamburg und Berlin um durchschnittlich 40 Prozent gestiegen.\n\nDer Verband der Immobilienwirtschaft sieht die Änderungen hingegen kritisch. 'Zu strenge Regulierung führt dazu, dass weniger neue Wohnungen gebaut werden', warnt Geschäftsführerin Monika Lehmann. Sie verweist darauf, dass in Deutschland jährlich 400.000 neue Wohnungen gebraucht werden, aber nur 250.000 gebaut werden.",
@@ -62,6 +62,16 @@
       "options": ["a) 150.000", "b) 250.000", "c) 400.000"],
       "explanation_de": "Es werden nur 250.000 gebaut, obwohl 400.000 gebraucht werden.",
       "explanation_en": "Only 250,000 are built, although 400,000 are needed."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent der Modernisierungskosten dürfen jetzt auf die Miete umgelegt werden?",
+      "text_en": "What percentage of modernization costs may now be passed on to the rent?",
+      "correct_answer": "a",
+      "options": ["a) Acht Prozent", "b) Zehn Prozent", "c) Elf Prozent"],
+      "explanation_de": "Die Kosten dürfen nur noch zu maximal acht Prozent auf die Jahresmiete umgelegt werden.",
+      "explanation_en": "The costs may now only be passed on to the annual rent at a maximum of eight percent."
     }
   ]
 }

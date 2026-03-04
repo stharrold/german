@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 5,
   "title": "Ordnung: Bibliotheksordnung",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Benutzungsordnung der Stadtbibliothek Dresden\n\n1. Anmeldung: Für die Ausleihe benötigen Sie einen gültigen Bibliotheksausweis. Die Anmeldung ist kostenlos. Bringen Sie bitte einen Personalausweis oder Reisepass zur Erstanmeldung mit. Jugendliche unter 16 Jahren benötigen die Unterschrift eines Erziehungsberechtigten.\n\n2. Ausleihe: Sie können maximal 20 Medien gleichzeitig ausleihen. Bücher und Zeitschriften: 4 Wochen. DVDs und CDs: 2 Wochen. Eine Verlängerung ist zweimal möglich, sofern keine Vormerkung vorliegt. Die Verlängerung kann telefonisch, online oder vor Ort erfolgen.\n\n3. Gebühren: Die Grundnutzung ist kostenlos. Bei verspäteter Rückgabe werden folgende Mahngebühren erhoben: 1. Mahnung: 2 Euro, 2. Mahnung: 5 Euro, 3. Mahnung: 10 Euro. Bei Verlust oder Beschädigung ist der Wiederbeschaffungswert zu erstatten.\n\n4. Verhalten: In der Bibliothek gilt Ruhe. Essen ist nicht erlaubt. Getränke sind nur in verschlossenen Behältern gestattet. Mobiltelefone sind auf lautlos zu stellen.\n\n5. Internet: Die Bibliothek bietet kostenloses WLAN an. Die Nutzung der Computer-Arbeitsplätze ist auf 2 Stunden pro Tag begrenzt. Eine Reservierung ist an der Information möglich.",
@@ -52,16 +52,6 @@
       "options": ["a) Essen", "b) Laut telefonieren", "c) Getränke in verschlossenen Behältern"],
       "explanation_de": "Getränke sind nur in verschlossenen Behältern gestattet.",
       "explanation_en": "Drinks are only permitted in sealed containers."
-    },
-    {
-      "number": 5,
-      "type": "multiple_choice",
-      "text_de": "Wie lange darf man die Computer-Arbeitsplätze nutzen?",
-      "text_en": "How long may you use the computer workstations?",
-      "correct_answer": "a",
-      "options": ["a) Maximal 2 Stunden pro Tag", "b) Maximal 4 Stunden pro Tag", "c) Unbegrenzt"],
-      "explanation_de": "Die Nutzung ist auf 2 Stunden pro Tag begrenzt.",
-      "explanation_en": "Use is limited to 2 hours per day."
     }
   ]
 }

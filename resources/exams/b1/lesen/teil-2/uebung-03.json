@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 2,
   "title": "Pressebericht: Rekord bei ehrenamtlicher Arbeit",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "In Deutschland engagieren sich so viele Menschen ehrenamtlich wie nie zuvor. Nach einer aktuellen Umfrage des Bundesministeriums arbeiten rund 30 Millionen Deutsche in ihrer Freizeit freiwillig — das ist mehr als ein Drittel der Bevölkerung. Besonders beliebt sind die Bereiche Sport, Kultur und soziale Hilfe.\n\nDie meisten Ehrenamtlichen sind zwischen 30 und 50 Jahre alt. Überraschend ist, dass immer mehr junge Menschen zwischen 16 und 25 Jahren sich engagieren. Ihre Zahl ist in den letzten fünf Jahren um 20 Prozent gestiegen. Viele helfen bei der Hausaufgabenbetreuung, in Tierheimen oder bei Umweltprojekten.\n\nEin gutes Beispiel ist Sarah Kraft aus Nürnberg. Die 23-jährige Studentin arbeitet seit zwei Jahren einmal pro Woche in einem Seniorenheim. 'Ich lese den Bewohnern vor oder wir spielen zusammen Karten. Es sind oft einsame Menschen, die sich über Besuche sehr freuen', erzählt sie. Für ihr Engagement wurde sie letzten Monat von der Stadt Nürnberg mit dem Ehrenamtspreis ausgezeichnet.\n\nExperten sehen das Ehrenamt als wichtigen Beitrag zum gesellschaftlichen Zusammenhalt. 'Ohne die vielen Freiwilligen würde unser Sozialsystem nicht funktionieren', sagt Professor Hartmann von der Universität Mannheim. Er fordert, dass Arbeitgeber ihren Mitarbeitern mehr Freiräume für ehrenamtliche Tätigkeit geben.",
@@ -62,6 +62,16 @@
       "options": ["a) Mehr Geld für Ehrenamtliche", "b) Pflichtdienst für alle Bürger", "c) Mehr Freiräume von Arbeitgebern"],
       "explanation_de": "Er fordert, dass Arbeitgeber ihren Mitarbeitern mehr Freiräume geben.",
       "explanation_en": "He demands that employers give their employees more leeway."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie oft arbeitet Sarah Kraft im Seniorenheim?",
+      "text_en": "How often does Sarah Kraft work at the senior citizens' home?",
+      "correct_answer": "a",
+      "options": ["a) Einmal pro Woche", "b) Zweimal pro Woche", "c) Jeden Tag"],
+      "explanation_de": "Sarah arbeitet seit zwei Jahren einmal pro Woche im Seniorenheim.",
+      "explanation_en": "Sarah has been working once a week at the senior citizens' home for two years."
     }
   ]
 }

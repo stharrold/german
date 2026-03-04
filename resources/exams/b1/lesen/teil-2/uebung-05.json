@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 2,
   "title": "Pressebericht: Studie über Schlafgewohnheiten",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Deutsche schlafen immer weniger — das ist das Ergebnis einer großen Studie der Berliner Charité. Die Forscher haben die Schlafgewohnheiten von 15.000 Erwachsenen untersucht und festgestellt, dass die durchschnittliche Schlafdauer in den letzten 20 Jahren von 7,5 auf 6,8 Stunden pro Nacht gesunken ist.\n\nBesonders betroffen sind Berufstätige zwischen 25 und 45 Jahren. Viele von ihnen schlafen unter sechs Stunden pro Nacht. Die häufigsten Gründe sind Stress im Job, die Nutzung von Smartphones vor dem Schlafengehen und unregelmäßige Arbeitszeiten.\n\nSchlafmediziner Dr. Anna Berger warnt vor den Folgen: 'Zu wenig Schlaf erhöht das Risiko für Herzkrankheiten, Übergewicht und Depressionen. Erwachsene brauchen mindestens sieben Stunden Schlaf pro Nacht.' Sie empfiehlt, mindestens eine Stunde vor dem Schlafengehen kein Handy mehr zu benutzen, weil das blaue Licht des Bildschirms die Produktion des Schlafhormons Melatonin stört.\n\nInteressant ist auch der Unterschied zwischen Stadt und Land: Menschen in ländlichen Gebieten schlafen im Durchschnitt 30 Minuten länger als Stadtbewohner. Die Forscher erklären das mit weniger Lärmbelastung und einem ruhigeren Lebensstil auf dem Land.\n\nEinige Firmen haben das Problem erkannt und bieten ihren Mitarbeitern sogenannte Schlafcoachings an. Bei der Firma Bosch in Stuttgart gibt es sogar einen Ruheraum, in dem Mitarbeiter in der Mittagspause ein kurzes Nickerchen machen können.",
@@ -62,6 +62,16 @@
       "options": ["a) Kürzere Arbeitszeiten", "b) Kostenlose Schlaftabletten", "c) Einen Ruheraum für Nickerchen"],
       "explanation_de": "Bei Bosch gibt es einen Ruheraum für kurze Nickerchen in der Mittagspause.",
       "explanation_en": "Bosch has a rest room for short naps during lunch break."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Erwachsene wurden in der Studie untersucht?",
+      "text_en": "How many adults were examined in the study?",
+      "correct_answer": "c",
+      "options": ["a) 5.000", "b) 10.000", "c) 15.000"],
+      "explanation_de": "Die Forscher haben die Schlafgewohnheiten von 15.000 Erwachsenen untersucht.",
+      "explanation_en": "The researchers examined the sleeping habits of 15,000 adults."
     }
   ]
 }

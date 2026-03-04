@@ -54,7 +54,7 @@ Python-based German language learning resources and content:
 - Can't `git checkout` a branch that's checked out in a worktree — work from the worktree path or `git worktree remove` first
 - All nouns MUST have gender (der/die/das) — enforced by Pydantic `@model_validator`
 - JSON vocabulary files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
-- German direct speech in JSON: never use typographic quotes `„..."` — the closing `"` is ASCII U+0022 which breaks JSON strings. Use single quotes `'...'` instead
+- German direct speech in JSON: avoid unescaped ASCII double quotes inside strings — either escape inner quotes (`\"...\"`) or use single quotes for the speech (`'...'`). Typographic quotes like `„..."` are fine as long as any ASCII `"` is escaped
 - WritingExercise uses `task` field (not `part`) — `filter_by_part()` handles this, but new query code must too
 - VCS supports GitHub (`gh`) and Azure DevOps (`az`) — auto-detected from `git remote.origin.url`
 - After deleting/renaming Python modules, grep all `*.md` files under `.claude/skills/` for stale references

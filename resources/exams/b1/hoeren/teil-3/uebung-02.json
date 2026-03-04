@@ -4,7 +4,7 @@
   "skill": "hoeren",
   "part": 3,
   "title": "Alltagsgespräch — Beim Arzt",
-  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 8,
   "transcript": [
     {
@@ -103,6 +103,26 @@
       "options": ["a) In drei Tagen", "b) In einer Woche", "c) In zwei Wochen"],
       "explanation_de": "Die Ärztin sagt, er soll in einer Woche wiederkommen.",
       "explanation_en": "The doctor says he should come back in a week."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie oft soll Herr Fischer das Schmerzmittel nehmen?",
+      "text_en": "How often should Mr. Fischer take the painkiller?",
+      "correct_answer": "c",
+      "options": ["a) Einmal am Tag", "b) Zweimal am Tag", "c) Dreimal am Tag"],
+      "explanation_de": "Die Ärztin sagt, er soll das Schmerzmittel dreimal am Tag nach dem Essen nehmen.",
+      "explanation_en": "The doctor says he should take the painkiller three times a day after meals."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Was ist wahrscheinlich der Grund für die Kopfschmerzen?",
+      "text_en": "What is probably the reason for the headaches?",
+      "correct_answer": "a",
+      "options": ["a) Stress auf der Arbeit", "b) Eine Erkältung", "c) Zu viel Sport"],
+      "explanation_de": "Herr Fischer hat ein großes Projekt und arbeitet bis spät in die Nacht. Die Ärztin sagt, Stress ist wahrscheinlich der Grund.",
+      "explanation_en": "Mr. Fischer has a big project and works late into the night. The doctor says stress is probably the reason."
     }
   ]
 }

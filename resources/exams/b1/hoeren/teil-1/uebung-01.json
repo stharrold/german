@@ -4,7 +4,7 @@
   "skill": "hoeren",
   "part": 1,
   "title": "Arztpraxis — Terminverschiebung",
-  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "instructions": "Sie hören eine kurze Nachricht. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
   "time_minutes": 8,
   "transcript": [
     {

@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 5,
   "title": "Ordnung: Schwimmbadregeln",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Badeordnung — Stadtbad Neustadt\n\n1. Einlass: Kinder unter 8 Jahren dürfen das Schwimmbad nur in Begleitung einer erwachsenen Person betreten. Der letzte Einlass ist 45 Minuten vor Schließung. Bitte verlassen Sie das Wasser spätestens 15 Minuten vor Schließung.\n\n2. Hygiene: Vor dem Betreten des Schwimmbeckens ist das Duschen Pflicht. Straßenkleidung darf nicht im Schwimmbereich getragen werden. Badekappen sind im Hallenbad empfohlen, aber nicht verpflichtend.\n\n3. Sicherheit: Das Springen vom Beckenrand ist nur im Sprungbereich erlaubt. Laufen auf nassen Flächen ist verboten — Rutschgefahr! Die Anweisungen des Badepersonals sind jederzeit zu befolgen. Schwimmhilfen (Schwimmflügel, Schwimmringe) ersetzen nicht die Aufsichtspflicht der Eltern.\n\n4. Wertsachen: Für verlorene oder gestohlene Wertsachen übernimmt das Schwimmbad keine Haftung. Schließfächer stehen kostenlos zur Verfügung. Bitte nutzen Sie die Schließfächer für Ihre Wertsachen und Schlüssel.\n\n5. Öffnungszeiten: Mo–Fr 6:30–21:00 Uhr, Sa–So 8:00–20:00 Uhr. Frühschwimmen: Mo–Fr 6:30–8:00 Uhr (ermäßigter Eintrittspreis). Familienschwimmen: Sa 14:00–17:00 Uhr. An Feiertagen gelten die Sonntagsöffnungszeiten.",
@@ -52,16 +52,6 @@
       "options": ["a) 1 Euro", "b) Sie sind kostenlos", "c) 2 Euro"],
       "explanation_de": "Schließfächer stehen kostenlos zur Verfügung.",
       "explanation_en": "Lockers are available free of charge."
-    },
-    {
-      "number": 5,
-      "type": "multiple_choice",
-      "text_de": "Wann ist das Frühschwimmen?",
-      "text_en": "When is early swimming?",
-      "correct_answer": "c",
-      "options": ["a) Mo–Fr 5:30–7:00 Uhr", "b) Sa–So 6:30–8:00 Uhr", "c) Mo–Fr 6:30–8:00 Uhr"],
-      "explanation_de": "Frühschwimmen ist Mo–Fr von 6:30 bis 8:00 Uhr.",
-      "explanation_en": "Early swimming is Mon–Fri from 6:30 to 8:00 AM."
     }
   ]
 }

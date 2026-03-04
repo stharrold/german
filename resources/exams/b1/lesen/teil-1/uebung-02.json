@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 1,
   "title": "Blog: Umzug in eine neue Stadt",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Vor drei Monaten bin ich von meiner Heimatstadt Freiburg nach Leipzig gezogen. Der Grund war ein neuer Job als Softwareentwickler bei einer Technologiefirma. Am Anfang war alles fremd und ich habe meine Freunde und meine Familie sehr vermisst.\n\nDie Wohnungssuche war besonders schwierig. Ich habe fast vier Wochen gebraucht, bis ich eine passende Wohnung gefunden habe. Am Ende habe ich eine schöne Zweizimmerwohnung im Stadtteil Plagwitz bekommen. Die Miete ist viel günstiger als in Freiburg — ich zahle nur 550 Euro warm für 65 Quadratmeter.\n\nMittlerweile habe ich mich gut eingelebt. Ich habe mich in einem Sportverein angemeldet und spiele dort jeden Dienstag Volleyball. So habe ich schnell neue Leute kennengelernt. Meine Nachbarin Claudia ist auch sehr freundlich. Sie hat mich letzte Woche zum Abendessen eingeladen und mir viele Tipps für die Stadt gegeben.\n\nWas mir an Leipzig besonders gefällt, sind die vielen Parks und die lebendige Kulturszene. Es gibt ständig Konzerte, Ausstellungen und Festivals. Das Nachtleben ist auch viel aufregender als in Freiburg. Was ich aber vermisse, ist die Nähe zum Schwarzwald. In Freiburg konnte ich am Wochenende einfach wandern gehen. Hier muss ich dafür mit dem Zug fahren.\n\nInsgesamt bin ich froh, dass ich den Schritt gewagt habe. Leipzig ist eine tolle Stadt und ich fühle mich hier jetzt zu Hause.",
@@ -57,6 +57,15 @@
       "correct_answer": false,
       "explanation_de": "Er vermisst die Nähe zum Schwarzwald, nicht die Kulturszene. Die Kulturszene in Leipzig gefällt ihm sogar besser.",
       "explanation_en": "He misses the proximity to the Black Forest, not the cultural scene. He actually likes the cultural scene in Leipzig better."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Der Autor hat seine Nachbarin Claudia in einem Sportverein kennengelernt.",
+      "text_en": "The author met his neighbor Claudia at a sports club.",
+      "correct_answer": false,
+      "explanation_de": "Claudia ist seine Nachbarin, die ihn zum Abendessen eingeladen hat. Er hat sie nicht im Sportverein kennengelernt.",
+      "explanation_en": "Claudia is his neighbor who invited him to dinner. He did not meet her at the sports club."
     }
   ]
 }

@@ -4,7 +4,7 @@
   "skill": "hoeren",
   "part": 3,
   "title": "Alltagsgespräch — Reklamation im Geschäft",
-  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 8,
   "transcript": [
     {
@@ -98,6 +98,26 @@
       "options": ["a) Geld zurück", "b) Eine neue Jacke", "c) Reparatur"],
       "explanation_de": "Die Kundin möchte das Geld zurückbekommen.",
       "explanation_en": "The customer wants her money back."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wann hat die Kundin die Jacke gekauft?",
+      "text_en": "When did the customer buy the jacket?",
+      "correct_answer": "b",
+      "options": ["a) Vor einer Woche", "b) Vor zwei Wochen", "c) Vor einem Monat"],
+      "explanation_de": "Die Kundin hat die Jacke vor zwei Wochen gekauft.",
+      "explanation_en": "The customer bought the jacket two weeks ago."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert es, bis das Geld ankommt?",
+      "text_en": "How long does it take for the money to arrive?",
+      "correct_answer": "a",
+      "options": ["a) Zwei bis drei Werktage", "b) Eine Woche", "c) Sofort"],
+      "explanation_de": "Es kann zwei bis drei Werktage dauern, bis das Geld auf dem Konto ankommt.",
+      "explanation_en": "It may take two to three business days for the money to arrive in the account."
     }
   ]
 }

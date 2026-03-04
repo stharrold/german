@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 2,
   "title": "Pressebericht: Digitale Schule der Zukunft",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Eine neue Studie der Universität Heidelberg zeigt, dass die Nutzung von Tablets im Unterricht die Lernergebnisse von Schülern verbessern kann. Die Forscher haben über zwei Jahre lang 3.000 Schülerinnen und Schüler an 40 Schulen in Baden-Württemberg untersucht.\n\nDie Ergebnisse sind eindeutig: Schüler, die regelmäßig mit Tablets gearbeitet haben, hatten im Durchschnitt bessere Noten in Mathematik und Naturwissenschaften. Besonders auffällig war der Effekt bei Schülern, die vorher Schwierigkeiten hatten. Durch interaktive Lernprogramme konnten sie in ihrem eigenen Tempo lernen und haben große Fortschritte gemacht.\n\nAllerdings betonen die Forscher, dass Technik allein nicht ausreicht. 'Die Qualität des Unterrichts hängt immer noch von den Lehrern ab', sagt Studienleiter Professor Fischer. 'Tablets sind ein Werkzeug, kein Ersatz für guten Unterricht.' Er empfiehlt, dass alle Lehrer eine spezielle Fortbildung bekommen, bevor sie digitale Medien im Unterricht einsetzen.\n\nElternvertreter sind geteilter Meinung. Einige begrüßen die Digitalisierung, andere machen sich Sorgen um die Bildschirmzeit ihrer Kinder. 'Meine Tochter sitzt schon zu Hause viel vor dem Computer. In der Schule sollte sie lieber ein Buch lesen', sagt eine Mutter aus Stuttgart. Die Studie zeigt jedoch, dass Schüler, die Tablets in der Schule nutzen, zu Hause nicht mehr Bildschirmzeit haben als andere Kinder.",
@@ -62,6 +62,16 @@
       "options": ["a) Tablet-Schüler haben nicht mehr Bildschirmzeit als andere", "b) Tablet-Schüler nutzen zu Hause weniger Computer", "c) Tablet-Schüler schauen mehr Fernsehen als andere"],
       "explanation_de": "Schüler mit Tablets haben zu Hause nicht mehr Bildschirmzeit als andere.",
       "explanation_en": "Students with tablets do not have more screen time at home than others."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Schulen wurden in der Studie untersucht?",
+      "text_en": "How many schools were examined in the study?",
+      "correct_answer": "b",
+      "options": ["a) 20 Schulen", "b) 40 Schulen", "c) 60 Schulen"],
+      "explanation_de": "Die Forscher haben Schüler an 40 Schulen in Baden-Württemberg untersucht.",
+      "explanation_en": "The researchers examined students at 40 schools in Baden-Württemberg."
     }
   ]
 }

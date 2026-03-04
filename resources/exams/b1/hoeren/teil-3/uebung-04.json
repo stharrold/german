@@ -4,7 +4,7 @@
   "skill": "hoeren",
   "part": 3,
   "title": "Alltagsgespräch — Elternabend",
-  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 8,
   "transcript": [
     {
@@ -98,6 +98,26 @@
       "options": ["a) Einen Sportwettbewerb", "b) Ein Theaterstück", "c) Ein Musikkonzert"],
       "explanation_de": "Die Kinder werden ein Theaterstück aufführen.",
       "explanation_en": "The children will perform a play."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wo übernachten die Kinder in Weimar?",
+      "text_en": "Where do the children stay overnight in Weimar?",
+      "correct_answer": "a",
+      "options": ["a) In einer Jugendherberge", "b) In einem Hotel", "c) Bei Gastfamilien"],
+      "explanation_de": "Die Unterkunft ist in einer Jugendherberge.",
+      "explanation_en": "The accommodation is in a youth hostel."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Was machen die Kinder am letzten Tag?",
+      "text_en": "What do the children do on the last day?",
+      "correct_answer": "b",
+      "options": ["a) Eine Stadtführung", "b) Einen Ausflug in den Nationalpark", "c) Einen Museumsbesuch"],
+      "explanation_de": "Am letzten Tag gibt es einen Ausflug in den Nationalpark.",
+      "explanation_en": "On the last day, there is an excursion to the national park."
     }
   ]
 }

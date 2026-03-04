@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 1,
   "title": "Blog: Mein erster Tag im neuen Job",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Heute war mein erster Tag in meinem neuen Job als Grafikdesignerin bei einer kleinen Werbeagentur in Frankfurt. Ich war so nervös, dass ich schon um 6 Uhr aufgestanden bin, obwohl ich erst um 9 Uhr anfangen musste. Ich habe lange überlegt, was ich anziehen soll, und mich am Ende für eine dunkle Hose und eine weiße Bluse entschieden.\n\nAls ich um 8:30 Uhr im Büro ankam, hat mich meine Chefin, Frau Berger, freundlich begrüßt und mir das Team vorgestellt. Wir sind insgesamt acht Personen in der Agentur. Alle waren sehr nett und haben mir geholfen, mich zurechtzufinden. Mein Arbeitsplatz ist am Fenster mit Blick auf den Main — das finde ich wirklich schön.\n\nAm Vormittag hatte ich ein Einführungsgespräch mit Frau Berger. Sie hat mir erklärt, welche Projekte gerade laufen und woran ich in den nächsten Wochen arbeiten werde. Mein erstes Projekt ist ein Logo für ein neues Restaurant. Am Nachmittag habe ich schon die ersten Entwürfe gemacht und sie meinem Kollegen Markus gezeigt. Er hat mir einige Tipps gegeben und gesagt, dass meine Ideen gut sind.\n\nNach der Arbeit bin ich mit zwei Kolleginnen in ein Café gegangen. Wir haben uns über unsere Hobbys und Familien unterhalten. Es war ein richtig schöner erster Tag und ich freue mich auf morgen!",
@@ -57,6 +57,15 @@
       "correct_answer": false,
       "explanation_de": "Sie ist mit zwei Kolleginnen in ein Café gegangen.",
       "explanation_en": "She went to a café with two female colleagues."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Die Autorin hat am Vormittag schon an einem Projekt gearbeitet.",
+      "text_en": "The author already worked on a project in the morning.",
+      "correct_answer": false,
+      "explanation_de": "Am Vormittag hatte sie ein Einführungsgespräch mit Frau Berger. Die ersten Entwürfe machte sie erst am Nachmittag.",
+      "explanation_en": "In the morning, she had an introductory meeting with Ms. Berger. She only made the first drafts in the afternoon."
     }
   ]
 }

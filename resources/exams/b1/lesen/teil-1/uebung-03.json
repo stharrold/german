@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 1,
   "title": "Blog: Mein Garten im Frühling",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Kreuzen Sie an: richtig oder falsch.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Endlich ist der Frühling da! Ich habe den ganzen Winter darauf gewartet, wieder in meinem Garten arbeiten zu können. Letztes Jahr im Oktober habe ich viele Blumenzwiebeln gepflanzt und jetzt blühen überall Tulpen und Narzissen. Es sieht wunderschön aus.\n\nDieses Jahr habe ich mir vorgenommen, zum ersten Mal eigenes Gemüse anzubauen. Ich habe bereits Tomatensamen und Gurkensamen gekauft. Meine Nachbarin Frau Schmidt, die schon seit 20 Jahren einen Gemüsegarten hat, gibt mir regelmäßig Tipps. Sie hat mir erklärt, dass man Tomaten erst nach den Eisheiligen Mitte Mai ins Freie pflanzen sollte, weil sie keinen Frost vertragen.\n\nLetztes Wochenende habe ich zwei neue Hochbeete gebaut. Das war ziemlich anstrengend, hat aber auch viel Spaß gemacht. Mein Mann hat mir dabei geholfen. In das eine Hochbeet kommen Salat, Radieschen und Karotten. In das andere möchte ich Kräuter wie Basilikum, Petersilie und Schnittlauch pflanzen.\n\nWas mich besonders freut: Unsere Tochter Lina, die elf Jahre alt ist, interessiert sich auch für den Garten. Sie hat ihren eigenen kleinen Bereich bekommen, wo sie Sonnenblumen und Erdbeeren pflanzen will. Es ist schön, dieses Hobby mit ihr zu teilen.\n\nIch bin gespannt, ob wir im Sommer unser eigenes Gemüse ernten können. Frau Schmidt sagt, dass man am Anfang Geduld braucht. Nicht alles klappt beim ersten Mal, aber man lernt jedes Jahr dazu.",
@@ -57,6 +57,15 @@
       "correct_answer": false,
       "explanation_de": "Frau Schmidt hat schon seit 20 Jahren einen Gemüsegarten.",
       "explanation_en": "Mrs. Schmidt has had a vegetable garden for 20 years."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "In ein Hochbeet kommen Kräuter wie Basilikum, Petersilie und Schnittlauch.",
+      "text_en": "One raised bed will have herbs like basil, parsley, and chives.",
+      "correct_answer": true,
+      "explanation_de": "In das andere Hochbeet möchte die Autorin Kräuter wie Basilikum, Petersilie und Schnittlauch pflanzen.",
+      "explanation_en": "In the other raised bed, the author wants to plant herbs like basil, parsley, and chives."
     }
   ]
 }

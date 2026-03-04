@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 5,
   "title": "Ordnung: Hausordnung für Mieter",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Hausordnung der Wohnanlage Parkstraße 15–19\n\n1. Ruhezeiten: Die Nachtruhe gilt von 22:00 bis 7:00 Uhr. An Sonn- und Feiertagen gilt ganztägig eine Ruhezeit. In diesen Zeiten sind laute Musik, Bohrarbeiten und andere störende Geräusche zu unterlassen.\n\n2. Treppenhaus: Das Treppenhaus ist ein Gemeinschaftsbereich und muss frei von persönlichen Gegenständen gehalten werden. Schuhe, Kinderwagen und Fahrräder dürfen nicht im Treppenhaus abgestellt werden. Fahrräder gehören in den Fahrradkeller.\n\n3. Müllentsorgung: Bitte trennen Sie Ihren Müll nach den Vorgaben der Stadt. Die Mülltrennung ist verpflichtend: Restmüll (graue Tonne), Papier (blaue Tonne), Verpackungen (gelbe Tonne), Biomüll (braune Tonne). Sperrmüll darf nicht neben die Container gestellt werden.\n\n4. Haustiere: Haustiere sind grundsätzlich erlaubt. Hundehalter sind verpflichtet, ihre Hunde im Gemeinschaftsbereich an der Leine zu führen. Verunreinigungen durch Haustiere sind sofort zu beseitigen.\n\n5. Grillen: Das Grillen auf dem Balkon ist aus Brandschutzgründen verboten. Im Garten darf nur mit Elektrogrill gegrillt werden. Bitte informieren Sie Ihre Nachbarn vorher.",
@@ -52,16 +52,6 @@
       "options": ["a) Den Hund zu Hause lassen", "b) Den Hund an der Leine führen", "c) Einen Maulkorb benutzen"],
       "explanation_de": "Hunde müssen im Gemeinschaftsbereich an der Leine geführt werden.",
       "explanation_en": "Dogs must be kept on a leash in common areas."
-    },
-    {
-      "number": 5,
-      "type": "multiple_choice",
-      "text_de": "Was ist beim Grillen im Garten erlaubt?",
-      "text_en": "What is allowed when barbecuing in the garden?",
-      "correct_answer": "a",
-      "options": ["a) Nur Elektrogrill", "b) Nur Holzkohlegrill", "c) Alle Grillarten"],
-      "explanation_de": "Im Garten darf nur mit Elektrogrill gegrillt werden.",
-      "explanation_en": "In the garden, only electric grills may be used."
     }
   ]
 }

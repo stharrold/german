@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 5,
   "title": "Ordnung: Mietvertrag — Auszug",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Auszug aus dem Mietvertrag — Wohnung Bergstraße 42, 3. OG links\n\n1. Mietdauer: Das Mietverhältnis beginnt am 1. April und ist unbefristet. Die Kündigungsfrist beträgt drei Monate zum Monatsende. Die Kündigung muss schriftlich erfolgen.\n\n2. Miete: Die monatliche Kaltmiete beträgt 680 Euro. Die Nebenkosten (Heizung, Wasser, Müllabfuhr) werden als Pauschale von 180 Euro berechnet. Die Gesamtmiete von 860 Euro ist bis zum 3. Werktag eines jeden Monats auf das Konto des Vermieters zu überweisen.\n\n3. Kaution: Der Mieter zahlt eine Kaution in Höhe von drei Monatskaltmieten (2.040 Euro). Die Kaution kann in drei gleichen monatlichen Raten gezahlt werden. Die erste Rate ist bei Vertragsunterzeichnung fällig.\n\n4. Renovierung: Kleinere Reparaturen bis zu einem Betrag von 100 Euro pro Einzelfall und maximal 300 Euro pro Jahr sind vom Mieter zu tragen (Kleinreparaturklausel). Bei Auszug ist die Wohnung in frisch gestrichenem Zustand zurückzugeben.\n\n5. Untervermietung: Die Untervermietung der gesamten Wohnung ist nicht gestattet. Die Untervermietung einzelner Zimmer bedarf der schriftlichen Zustimmung des Vermieters.",
@@ -52,16 +52,6 @@
       "options": ["a) Die Küche renovieren", "b) Neue Böden verlegen", "c) Die Wohnung frisch streichen"],
       "explanation_de": "Die Wohnung ist in frisch gestrichenem Zustand zurückzugeben.",
       "explanation_en": "The apartment must be returned in a freshly painted condition."
-    },
-    {
-      "number": 5,
-      "type": "multiple_choice",
-      "text_de": "Darf man ein einzelnes Zimmer untervermieten?",
-      "text_en": "May you sublet a single room?",
-      "correct_answer": "b",
-      "options": ["a) Nein, das ist verboten", "b) Ja, mit schriftlicher Zustimmung des Vermieters", "c) Ja, ohne Genehmigung"],
-      "explanation_de": "Die Untervermietung einzelner Zimmer braucht die schriftliche Zustimmung des Vermieters.",
-      "explanation_en": "Subletting individual rooms requires the landlord's written consent."
     }
   ]
 }

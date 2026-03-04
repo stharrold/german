@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 5,
   "title": "Ordnung: Arbeitsvertrag — wichtige Regelungen",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Auszug aus dem Arbeitsvertrag — Firma TechStart GmbH\n\n1. Arbeitszeit: Die wöchentliche Arbeitszeit beträgt 40 Stunden, verteilt auf fünf Tage (Montag bis Freitag). Die Kernarbeitszeit ist von 10:00 bis 15:00 Uhr. Außerhalb der Kernarbeitszeit können Sie Ihren Arbeitsbeginn und Ihr Arbeitsende flexibel gestalten (Gleitzeit).\n\n2. Urlaub: Sie haben Anspruch auf 28 Arbeitstage Urlaub pro Jahr. Urlaubswünsche sind mindestens zwei Wochen im Voraus beim Vorgesetzten einzureichen. In der Zeit vom 23. Dezember bis 1. Januar ist die Firma geschlossen (Betriebsferien).\n\n3. Probezeit: Die Probezeit beträgt sechs Monate. Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten mit einer Frist von zwei Wochen gekündigt werden. Nach der Probezeit beträgt die Kündigungsfrist drei Monate.\n\n4. Krankheit: Im Krankheitsfall müssen Sie Ihren Vorgesetzten am ersten Krankheitstag vor Arbeitsbeginn informieren. Ab dem dritten Krankheitstag ist eine ärztliche Arbeitsunfähigkeitsbescheinigung vorzulegen.\n\n5. Fortbildung: Die Firma übernimmt die Kosten für berufliche Fortbildungen bis zu 1.500 Euro pro Jahr. Fortbildungen müssen vom Vorgesetzten genehmigt werden und in der Regel außerhalb der Arbeitszeit stattfinden.",
@@ -52,16 +52,6 @@
       "options": ["a) Ab dem ersten Tag", "b) Ab dem dritten Tag", "c) Ab dem fünften Tag"],
       "explanation_de": "Ab dem dritten Krankheitstag ist eine Bescheinigung nötig.",
       "explanation_en": "From the third day of illness, a certificate is needed."
-    },
-    {
-      "number": 5,
-      "type": "multiple_choice",
-      "text_de": "Wie viel zahlt die Firma maximal für Fortbildungen?",
-      "text_en": "How much does the company pay at most for training?",
-      "correct_answer": "b",
-      "options": ["a) 1.000 Euro", "b) 1.500 Euro", "c) 2.000 Euro"],
-      "explanation_de": "Die Firma übernimmt Kosten bis zu 1.500 Euro pro Jahr.",
-      "explanation_en": "The company covers costs up to 1,500 euros per year."
     }
   ]
 }

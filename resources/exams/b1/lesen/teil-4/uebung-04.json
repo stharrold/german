@@ -3,60 +3,78 @@
   "level": "B1",
   "skill": "lesen",
   "part": 4,
-  "title": "Leserbriefe: Führerschein ab 16?",
-  "instructions": "Lesen Sie die Kommentare a bis e und die Aufgaben 1 bis 5. Wer sagt was? Ordnen Sie zu.",
+  "title": "Leserbriefe: F\u00fchrerschein ab 16?",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wer findet was? Kreuzen Sie an: Ja oder Nein.",
   "time_minutes": 13,
   "passage": {
-    "text_de": "Kommentar A (Jonas, 17): Ich finde es super! Ich wohne auf dem Land und der nächste Bus fährt nur zweimal am Tag. Wenn ich Auto fahren dürfte, wäre ich viel unabhängiger und müsste meine Eltern nicht immer bitten, mich irgendwohin zu fahren.\n\nKommentar B (Dr. Krause, 58, Verkehrspsychologe): Aus psychologischer Sicht sind 16-Jährige noch nicht reif genug. Studien zeigen, dass das Gehirn erst mit Anfang 20 vollständig entwickelt ist. Besonders die Risikoeinschätzung ist bei Jugendlichen noch nicht ausgereift.\n\nKommentar C (Andrea, 40): Mein Sohn fährt seit einem Jahr 'begleitetes Fahren mit 17' und ich bin beeindruckt, wie verantwortungsvoll er fährt. Das Programm mit Begleitung funktioniert gut und ich könnte mir vorstellen, es auf 16 auszuweiten.\n\nKommentar D (Fatima, 33): Ich bin dagegen. Es gibt genug Unfälle mit jungen Fahrern. Statt das Führerscheinalter zu senken, sollte man lieber den öffentlichen Nahverkehr auf dem Land verbessern.\n\nKommentar E (Markus, 50, Fahrlehrer): Die Fahrausbildung sollte intensiver werden, egal ab welchem Alter. Mehr Praxisstunden, besonders bei Nacht und auf der Autobahn, würden die Sicherheit für alle verbessern.",
-    "text_en": "Comment A (Jonas, 17): I think it's great! I live in the countryside and the nearest bus only runs twice a day. If I were allowed to drive, I would be much more independent and wouldn't have to always ask my parents to drive me somewhere.\n\nComment B (Dr. Krause, 58, traffic psychologist): From a psychological perspective, 16-year-olds are not yet mature enough. Studies show that the brain is only fully developed in the early 20s. Risk assessment in particular is not yet fully developed in adolescents.\n\nComment C (Andrea, 40): My son has been doing 'accompanied driving at 17' for a year and I am impressed by how responsibly he drives. The accompanied program works well and I could imagine extending it to 16.\n\nComment D (Fatima, 33): I am against it. There are enough accidents with young drivers. Instead of lowering the driving age, public transport in rural areas should be improved.\n\nComment E (Markus, 50, driving instructor): Driver training should become more intensive, regardless of the age. More practical lessons, especially at night and on the motorway, would improve safety for everyone.",
+    "text_de": "Kommentar A (Jonas, 17): Ich finde es super! Ich wohne auf dem Land und der n\u00e4chste Bus f\u00e4hrt nur zweimal am Tag. Wenn ich Auto fahren d\u00fcrfte, w\u00e4re ich viel unabh\u00e4ngiger und m\u00fcsste meine Eltern nicht immer bitten, mich irgendwohin zu fahren.\n\nKommentar B (Dr. Krause, 58, Verkehrspsychologe): Aus psychologischer Sicht sind 16-J\u00e4hrige noch nicht reif genug. Studien zeigen, dass das Gehirn erst mit Anfang 20 vollst\u00e4ndig entwickelt ist. Besonders die Risikoeinsch\u00e4tzung ist bei Jugendlichen noch nicht ausgereift.\n\nKommentar C (Andrea, 40): Mein Sohn f\u00e4hrt seit einem Jahr 'begleitetes Fahren mit 17' und ich bin beeindruckt, wie verantwortungsvoll er f\u00e4hrt. Das Programm mit Begleitung funktioniert gut und ich k\u00f6nnte mir vorstellen, es auf 16 auszuweiten.\n\nKommentar D (Fatima, 33): Ich bin dagegen. Es gibt genug Unf\u00e4lle mit jungen Fahrern. Statt das F\u00fchrerscheinalter zu senken, sollte man lieber den \u00f6ffentlichen Nahverkehr auf dem Land verbessern.\n\nKommentar E (Markus, 50, Fahrlehrer): Die Fahrausbildung sollte intensiver werden, egal ab welchem Alter. Mehr Praxisstunden, besonders bei Nacht und auf der Autobahn, w\u00fcrden die Sicherheit f\u00fcr alle verbessern.\n\nKommentar F (Lena, 16): Ich w\u00fcrde sofort den F\u00fchrerschein machen! Meine \u00e4ltere Schwester durfte mit 17 fahren und das hat ihr sehr geholfen. Ich finde, wenn man verantwortungsvoll genug ist, sollte man auch fr\u00fcher fahren d\u00fcrfen.\n\nKommentar G (Herr M\u00fcller, 62, Polizist): In meiner Berufserfahrung verursachen junge Fahrer \u00fcberproportional viele Unf\u00e4lle. Das Alter weiter zu senken w\u00e4re unverantwortlich. Wir sollten die Sicherheit nicht aufs Spiel setzen.",
+    "text_en": "Comment A (Jonas, 17): I think it's great! I live in the countryside and the nearest bus only runs twice a day. If I were allowed to drive, I would be much more independent and wouldn't have to always ask my parents to drive me somewhere.\n\nComment B (Dr. Krause, 58, traffic psychologist): From a psychological perspective, 16-year-olds are not yet mature enough. Studies show that the brain is only fully developed in the early 20s. Risk assessment in particular is not yet fully developed in adolescents.\n\nComment C (Andrea, 40): My son has been doing 'accompanied driving at 17' for a year and I am impressed by how responsibly he drives. The accompanied program works well and I could imagine extending it to 16.\n\nComment D (Fatima, 33): I am against it. There are enough accidents with young drivers. Instead of lowering the driving age, public transport in rural areas should be improved.\n\nComment E (Markus, 50, driving instructor): Driver training should become more intensive, regardless of the age. More practical lessons, especially at night and on the motorway, would improve safety for everyone.\n\nComment F (Lena, 16): I would get my driver's license immediately! My older sister was allowed to drive at 17 and it helped her a lot. I think if you are responsible enough, you should be allowed to drive earlier.\n\nComment G (Mr. M\u00fcller, 62, police officer): In my professional experience, young drivers cause a disproportionate number of accidents. Lowering the age further would be irresponsible. We should not put safety at risk.",
     "source": "Online-Forum",
-    "word_count": 218
+    "word_count": 296
   },
   "questions": [
     {
       "number": 1,
-      "type": "matching",
-      "text_de": "Wer argumentiert mit wissenschaftlichen Erkenntnissen über die Gehirnentwicklung?",
-      "text_en": "Who argues with scientific findings about brain development?",
-      "correct_answer": "Dr. Krause",
-      "explanation_de": "Dr. Krause verweist auf Studien zur Gehirnentwicklung bei Jugendlichen.",
-      "explanation_en": "Dr. Krause refers to studies on brain development in adolescents."
+      "type": "true_false",
+      "text_de": "Jonas findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Jonas thinks driving licenses from age 16 are good.",
+      "correct_answer": true,
+      "explanation_de": "Jonas findet es super, weil er auf dem Land wohnt und unabh\u00e4ngiger w\u00e4re.",
+      "explanation_en": "Jonas thinks it's great because he lives in the countryside and would be more independent."
     },
     {
       "number": 2,
-      "type": "matching",
-      "text_de": "Wer hat positive Erfahrungen mit dem begleiteten Fahren gemacht?",
-      "text_en": "Who has had positive experiences with accompanied driving?",
-      "correct_answer": "Andrea",
-      "explanation_de": "Andrea ist beeindruckt, wie verantwortungsvoll ihr Sohn beim begleiteten Fahren ist.",
-      "explanation_en": "Andrea is impressed by how responsibly her son drives with accompanied driving."
+      "type": "true_false",
+      "text_de": "Dr. Krause findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Dr. Krause thinks driving licenses from age 16 are good.",
+      "correct_answer": false,
+      "explanation_de": "Dr. Krause ist dagegen, weil 16-J\u00e4hrige psychologisch noch nicht reif genug sind.",
+      "explanation_en": "Dr. Krause is against it because 16-year-olds are not yet psychologically mature enough."
     },
     {
       "number": 3,
-      "type": "matching",
-      "text_de": "Wer möchte lieber den öffentlichen Nahverkehr verbessern?",
-      "text_en": "Who would rather improve public transport?",
-      "correct_answer": "Fatima",
-      "explanation_de": "Fatima meint, man sollte den öffentlichen Nahverkehr auf dem Land verbessern.",
-      "explanation_en": "Fatima thinks public transport in rural areas should be improved."
+      "type": "true_false",
+      "text_de": "Andrea findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Andrea thinks driving licenses from age 16 are good.",
+      "correct_answer": true,
+      "explanation_de": "Andrea hat positive Erfahrungen mit begleitetem Fahren und k\u00f6nnte sich vorstellen, es auf 16 auszuweiten.",
+      "explanation_en": "Andrea has positive experiences with accompanied driving and could imagine extending it to 16."
     },
     {
       "number": 4,
-      "type": "matching",
-      "text_de": "Wer braucht ein Auto, weil es wenig öffentliche Verkehrsmittel gibt?",
-      "text_en": "Who needs a car because there is little public transport?",
-      "correct_answer": "Jonas",
-      "explanation_de": "Jonas wohnt auf dem Land und der Bus fährt nur zweimal am Tag.",
-      "explanation_en": "Jonas lives in the countryside and the bus only runs twice a day."
+      "type": "true_false",
+      "text_de": "Fatima findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Fatima thinks driving licenses from age 16 are good.",
+      "correct_answer": false,
+      "explanation_de": "Fatima ist dagegen und m\u00f6chte lieber den \u00f6ffentlichen Nahverkehr verbessern.",
+      "explanation_en": "Fatima is against it and would rather improve public transport."
     },
     {
       "number": 5,
-      "type": "matching",
-      "text_de": "Wer fordert eine bessere Fahrausbildung?",
-      "text_en": "Who demands better driver training?",
-      "correct_answer": "Markus",
-      "explanation_de": "Markus möchte mehr Praxisstunden in der Fahrausbildung.",
-      "explanation_en": "Markus wants more practical lessons in driver training."
+      "type": "true_false",
+      "text_de": "Markus findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Markus thinks driving licenses from age 16 are good.",
+      "correct_answer": false,
+      "explanation_de": "Markus \u00e4u\u00dfert sich nicht positiv zum Alter, sondern fordert intensivere Fahrausbildung unabh\u00e4ngig vom Alter.",
+      "explanation_en": "Markus does not express a positive view on the age, but demands more intensive driver training regardless of age."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Lena findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Lena thinks driving licenses from age 16 are good.",
+      "correct_answer": true,
+      "explanation_de": "Lena w\u00fcrde sofort den F\u00fchrerschein machen und findet, man sollte fr\u00fcher fahren d\u00fcrfen.",
+      "explanation_en": "Lena would get her license immediately and thinks you should be allowed to drive earlier."
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text_de": "Herr M\u00fcller findet den F\u00fchrerschein ab 16 gut.",
+      "text_en": "Mr. M\u00fcller thinks driving licenses from age 16 are good.",
+      "correct_answer": false,
+      "explanation_de": "Herr M\u00fcller h\u00e4lt es f\u00fcr unverantwortlich, weil junge Fahrer \u00fcberproportional viele Unf\u00e4lle verursachen.",
+      "explanation_en": "Mr. M\u00fcller considers it irresponsible because young drivers cause a disproportionate number of accidents."
     }
   ]
 }

@@ -4,7 +4,7 @@
   "skill": "hoeren",
   "part": 3,
   "title": "Alltagsgespräch — Im Reisebüro",
-  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text zweimal. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 8,
   "transcript": [
     {
@@ -98,6 +98,26 @@
       "options": ["a) 2.800 Euro inklusive Flug", "b) 3.000 Euro ohne Flug", "c) 2.500 Euro inklusive Flug"],
       "explanation_de": "Der Preis liegt bei 2.800 Euro inklusive Flug.",
       "explanation_en": "The price is 2,800 euros including flights."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Welche Verpflegung ist im Hotel enthalten?",
+      "text_en": "What meal plan is included in the hotel?",
+      "correct_answer": "b",
+      "options": ["a) Vollpension", "b) Halbpension", "c) Nur Frühstück"],
+      "explanation_de": "Das Hotel bietet Halbpension an.",
+      "explanation_en": "The hotel offers half board."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Wie soll die Kundin die Details bekommen?",
+      "text_en": "How should the customer receive the details?",
+      "correct_answer": "c",
+      "options": ["a) Per Post", "b) Per Telefon", "c) Per E-Mail"],
+      "explanation_de": "Die Reiseberaterin schickt die Details per E-Mail.",
+      "explanation_en": "The travel advisor will send the details by email."
     }
   ]
 }

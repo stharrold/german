@@ -4,7 +4,7 @@
   "skill": "lesen",
   "part": 2,
   "title": "Pressebericht: Neue Fahrradwege für die Stadt",
-  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Antwort a, b oder c.",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
   "time_minutes": 13,
   "passage": {
     "text_de": "Die Stadtverwaltung Düsseldorf hat am Montag einen neuen Plan für den Ausbau des Fahrradnetzes vorgestellt. Bis zum Jahr 2028 sollen insgesamt 45 Kilometer neue Radwege entstehen. Das Projekt kostet etwa 12 Millionen Euro und wird teilweise vom Land Nordrhein-Westfalen finanziert.\n\nBürgermeisterin Dr. Petra Koenig erklärte bei der Pressekonferenz: 'Unser Ziel ist es, den Anteil der Radfahrer am Verkehr von derzeit 15 Prozent auf 25 Prozent zu erhöhen. Dafür brauchen wir sichere und gut ausgebaute Radwege.' Besonders wichtig sei die neue Verbindung zwischen dem Hauptbahnhof und der Universität, die über eine eigene Fahrradstraße führen soll.\n\nNicht alle Bürger sind mit dem Plan zufrieden. Einige Geschäftsinhaber in der Innenstadt befürchten, dass durch den Bau der Radwege Parkplätze wegfallen. Der Einzelhändler Thomas Richter sagte: 'Wenn meine Kunden keinen Parkplatz finden, kaufen sie woanders ein.' Die Stadtverwaltung hat jedoch versprochen, neue Parkhäuser als Ersatz zu schaffen.\n\nDer ADFC Düsseldorf begrüßt den Plan, fordert aber auch bessere Abstellmöglichkeiten für Fahrräder. 'Es reicht nicht, nur Radwege zu bauen. Man braucht auch sichere Plätze, wo man sein Rad abstellen kann', sagte die Vorsitzende Maria Lang. Die Stadtverwaltung plant deshalb zusätzlich 2.000 neue Fahrradständer an Bahnhöfen, Schulen und öffentlichen Gebäuden.",
@@ -62,6 +62,16 @@
       "options": ["a) 500", "b) 1.000", "c) 2.000"],
       "explanation_de": "Die Stadt plant 2.000 neue Fahrradständer.",
       "explanation_en": "The city is planning 2,000 new bicycle racks."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wer finanziert das Projekt teilweise mit?",
+      "text_en": "Who partly co-finances the project?",
+      "correct_answer": "b",
+      "options": ["a) Die Europäische Union", "b) Das Land Nordrhein-Westfalen", "c) Private Investoren"],
+      "explanation_de": "Das Projekt wird teilweise vom Land Nordrhein-Westfalen finanziert.",
+      "explanation_en": "The project is partly financed by the state of North Rhine-Westphalia."
     }
   ]
 }
