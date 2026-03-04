@@ -1,14 +1,36 @@
 # German Language Learning Repository
 
-A Python-based repository for German language learning resources with a v7x1 workflow for autonomous development.
+A Python-based repository for German language learning resources, featuring B1 exam practice exercises in Goethe-Institut format.
 
 ## Purpose
 
 This repository contains:
-- German language reference materials (vocabulary, grammar, etc.)
-- Python tools for language processing and learning
-- Structured German language content data
-- v7x1 workflow with Claude Code for development automation
+- **B1 exam practice exercises** — 80 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
+- **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
+- **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
+- **Certificate guides** — Reference materials for CEFR levels A1–C2
+- **Python tools** — Loader and query modules for vocabulary and exam data
+
+## B1 Exam Practice Content
+
+80 exercises following the Goethe-Institut B1 exam format, with bilingual instructions (DE/EN):
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–4 | 20 | Multiple-choice, true/false, matching |
+| **Lesen** (Reading) | Teil 1–5 | 25 | Multiple-choice, true/false, matching |
+| **Schreiben** (Writing) | Aufgabe 1–3 | 15 | Informal/formal emails, opinion pieces |
+| **Sprechen** (Speaking) | Teil 1–3 | 15 | Planning, presentations, discussions |
+
+All exercises are JSON files validated by Pydantic models in `src/german/exams/`.
+
+```
+resources/exams/b1/
+├── hoeren/teil-{1-4}/uebung-{01-05}.json
+├── lesen/teil-{1-5}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-3}/uebung-{01-05}.json
+└── sprechen/teil-{1-3}/uebung-{01-05}.json
+```
 
 ## Quick Start
 
