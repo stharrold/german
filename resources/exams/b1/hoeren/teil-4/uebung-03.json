@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-4-003",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Öffentliche Durchsagen — Im Museum",
+  "instructions": "Sie hören fünf kurze Texte. Welche Aussage passt zu welchem Text? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Durchsage 1",
+      "text_de": "Willkommen im Deutschen Museum München. Bitte beachten Sie: In den Ausstellungsräumen ist das Fotografieren ohne Blitz erlaubt. Bitte benutzen Sie keinen Blitz.",
+      "text_en": "Welcome to the Deutsches Museum Munich. Please note: In the exhibition rooms, photography without flash is permitted. Please do not use flash."
+    },
+    {
+      "speaker": "Durchsage 2",
+      "text_de": "Die nächste Führung durch die Sonderausstellung Impressionismus beginnt in 15 Minuten. Treffpunkt ist im Foyer vor dem Haupteingang. Die Führung dauert etwa 90 Minuten und kostet 5 Euro pro Person.",
+      "text_en": "The next guided tour of the special exhibition Impressionism starts in 15 minutes. The meeting point is in the foyer in front of the main entrance. The tour lasts about 90 minutes and costs 5 euros per person."
+    },
+    {
+      "speaker": "Durchsage 3",
+      "text_de": "Liebe Besucherinnen und Besucher, die Cafeteria im zweiten Stock ist bis zum nächsten Montag wegen Renovierung geschlossen. Getränke und Snacks erhalten Sie am Automaten im Erdgeschoss.",
+      "text_en": "Dear visitors, the cafeteria on the second floor is closed until next Monday for renovation. Drinks and snacks are available from the vending machine on the ground floor."
+    },
+    {
+      "speaker": "Durchsage 4",
+      "text_de": "Für Kinder zwischen 6 und 12 Jahren bieten wir heute um 14 Uhr einen Kreativ-Workshop an. Die Kinder können eigene Kunstwerke gestalten. Die Teilnahme ist im Eintrittspreis enthalten.",
+      "text_en": "For children between 6 and 12 years old, we are offering a creative workshop today at 2 PM. Children can create their own artworks. Participation is included in the admission price."
+    },
+    {
+      "speaker": "Durchsage 5",
+      "text_de": "Das Museum schließt heute ausnahmsweise bereits um 17 Uhr statt um 18 Uhr. Bitte begeben Sie sich in den nächsten 30 Minuten zum Ausgang. Vielen Dank für Ihren Besuch.",
+      "text_en": "The museum is closing today exceptionally at 5 PM instead of 6 PM. Please make your way to the exit within the next 30 minutes. Thank you for your visit."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Ein Bereich des Museums ist vorübergehend nicht zugänglich.",
+      "text_en": "An area of the museum is temporarily not accessible.",
+      "correct_answer": "Durchsage 3",
+      "explanation_de": "Die Cafeteria ist wegen Renovierung geschlossen.",
+      "explanation_en": "The cafeteria is closed for renovation."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Es gibt ein Programm speziell für junge Besucher.",
+      "text_en": "There is a program specifically for young visitors.",
+      "correct_answer": "Durchsage 4",
+      "explanation_de": "Es gibt einen Kreativ-Workshop für Kinder von 6 bis 12 Jahren.",
+      "explanation_en": "There is a creative workshop for children aged 6 to 12."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Die Besucher erfahren eine Regel für das Gebäude.",
+      "text_en": "Visitors learn about a rule for the building.",
+      "correct_answer": "Durchsage 1",
+      "explanation_de": "Fotografieren ist erlaubt, aber ohne Blitz.",
+      "explanation_en": "Photography is permitted, but without flash."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Das Museum hat heute andere Zeiten als gewöhnlich.",
+      "text_en": "The museum has different hours today than usual.",
+      "correct_answer": "Durchsage 5",
+      "explanation_de": "Das Museum schließt heute schon um 17 Uhr statt 18 Uhr.",
+      "explanation_en": "The museum closes today at 5 PM instead of 6 PM."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Man kann an einer geführten Besichtigung teilnehmen.",
+      "text_en": "You can participate in a guided visit.",
+      "correct_answer": "Durchsage 2",
+      "explanation_de": "Die Führung durch die Sonderausstellung beginnt in 15 Minuten.",
+      "explanation_en": "The guided tour of the special exhibition starts in 15 minutes."
+    }
+  ]
+}

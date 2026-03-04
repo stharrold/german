@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-3-004",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 3,
+  "title": "Termin bestätigen",
+  "instructions": "Schreiben Sie eine E-Mail an die Arztpraxis Dr. Müller.",
+  "situation_de": "Sie haben einen Arzttermin am Donnerstag um 10 Uhr bekommen. Sie möchten den Termin bestätigen und fragen, ob Sie etwas mitbringen müssen.",
+  "situation_en": "You have received a doctor's appointment on Thursday at 10 a.m. You want to confirm the appointment and ask whether you need to bring anything.",
+  "target_word_count": 40,
+  "required_points": [
+    "Den Termin bestätigen mit Datum und Uhrzeit (Confirm the appointment with date and time)",
+    "Fragen, ob Sie Unterlagen mitbringen müssen (Ask whether you need to bring documents)",
+    "Sich für die schnelle Terminvergabe bedanken (Thank them for the quick appointment scheduling)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nvielen Dank für die schnelle Terminvergabe. Ich bestätige hiermit meinen Termin am Donnerstag, den 10. April, um 10:00 Uhr. Bitte teilen Sie mir mit, ob ich Unterlagen mitbringen muss.\n\nMit freundlichen Grüßen\nPeter König",
+    "text_en": "Dear Sir or Madam,\n\nThank you for the quick appointment scheduling. I hereby confirm my appointment on Thursday, April 10, at 10:00 a.m. Please let me know whether I need to bring any documents.\n\nKind regards,\nPeter König"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
+    "Kohärenz: Der Text ist klar strukturiert (Coherence: The text is clearly structured)",
+    "Wortschatz: Formeller Wortschatz angemessen verwendet (Vocabulary: Formal vocabulary used appropriately)",
+    "Strukturen: Korrekte formelle Anrede und Grußformel (Structures: Correct formal salutation and closing)"
+  ]
+}

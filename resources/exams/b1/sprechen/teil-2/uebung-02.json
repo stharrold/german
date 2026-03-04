@@ -1,0 +1,50 @@
+{
+  "id": "b1-sprechen-teil-2-002",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Lernen mit dem Internet",
+  "instructions": "Präsentieren Sie Ihrem Partner / Ihrer Partnerin das Thema. Sprechen Sie über die folgenden Punkte.",
+  "situation_de": "Sie sollen eine kurze Präsentation über das Thema „Lernen mit dem Internet“ halten. Sprechen Sie über Ihre persönliche Erfahrung, die Vor- und Nachteile und Ihre eigene Meinung.",
+  "situation_en": "You are to give a short presentation on the topic \"Learning with the internet.\" Talk about your personal experience, the advantages and disadvantages, and your own opinion.",
+  "discussion_points": [
+    "Sprechen Sie über Ihre persönliche Erfahrung. Wie nutzen Sie das Internet zum Lernen? (Talk about your personal experience. How do you use the internet for learning?)",
+    "Welche Vorteile hat das Lernen mit dem Internet? (What are the advantages of learning with the internet?)",
+    "Welche Nachteile oder Gefahren gibt es? (What disadvantages or dangers are there?)",
+    "Was ist Ihre persönliche Meinung: Ist das Internet eine gute Lernhilfe? (What is your personal opinion: Is the internet a good learning aid?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein Thema heute ist „Lernen mit dem Internet“. In der heutigen Zeit nutzen sehr viele Menschen das Internet zum Lernen.",
+      "text_en": "My topic today is \"Learning with the internet.\" Nowadays, very many people use the internet for learning."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich selbst benutze das Internet sehr oft zum Lernen. Zum Beispiel lerne ich gerade Deutsch mit einer App und schaue mir Videos auf YouTube an. Wenn ich etwas nicht verstehe, suche ich die Erklärung im Internet. Ich habe auch schon einen Online-Kurs für Programmieren gemacht.",
+      "text_en": "I myself use the internet very often for learning. For example, I am currently learning German with an app and watching videos on YouTube. When I don't understand something, I search for the explanation on the internet. I have also already taken an online course for programming."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das Internet hat viele Vorteile zum Lernen. Man kann lernen, wann und wo man will. Es gibt kostenlose Materialien zu fast jedem Thema. Man kann in seinem eigenen Tempo lernen und schwierige Sachen so oft wiederholen, wie man möchte. Außerdem gibt es interaktive Übungen, die das Lernen interessanter machen.",
+      "text_en": "The internet has many advantages for learning. You can learn whenever and wherever you want. There are free materials on almost every topic. You can learn at your own pace and repeat difficult things as often as you like. In addition, there are interactive exercises that make learning more interesting."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Aber es gibt auch Nachteile. Im Internet findet man nicht immer richtige Informationen. Man kann sich leicht ablenken lassen, zum Beispiel durch soziale Medien. Und manchmal fehlt der persönliche Kontakt zu einem Lehrer, der Fragen beantworten kann. Manche Menschen lernen auch besser mit einem Buch als am Bildschirm.",
+      "text_en": "But there are also disadvantages. On the internet, you don't always find correct information. You can easily get distracted, for example by social media. And sometimes the personal contact with a teacher who can answer questions is missing. Some people also learn better with a book than on a screen."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Meinung nach ist das Internet eine sehr gute Lernhilfe, aber es kann den Unterricht mit einem Lehrer nicht komplett ersetzen. Am besten ist eine Kombination aus beidem. Man sollte das Internet als Ergänzung nutzen und dabei kritisch sein mit den Informationen. Danke, dass Sie mir zugehört haben.",
+      "text_en": "In my opinion, the internet is a very good learning aid, but it cannot completely replace lessons with a teacher. A combination of both is best. One should use the internet as a supplement and be critical of the information. Thank you for listening to me."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle vier Punkte (Erfahrung, Vorteile, Nachteile, Meinung) werden behandelt.",
+    "Interaktion: Der Kandidat spricht frei und wendet sich an den Partner / die Partnerin.",
+    "Wortschatz: Angemessener und abwechslungsreicher Wortschatz zum Thema Internet und Lernen.",
+    "Strukturen: Korrekte Satzstruktur, Verwendung von Konnektoren (außerdem, aber, meiner Meinung nach).",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

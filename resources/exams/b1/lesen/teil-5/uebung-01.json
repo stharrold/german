@@ -1,0 +1,57 @@
+{
+  "id": "b1-lesen-teil-5-001",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Ordnung: Hausordnung für Mieter",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 4. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Hausordnung der Wohnanlage Parkstraße 15–19\n\n1. Ruhezeiten: Die Nachtruhe gilt von 22:00 bis 7:00 Uhr. An Sonn- und Feiertagen gilt ganztägig eine Ruhezeit. In diesen Zeiten sind laute Musik, Bohrarbeiten und andere störende Geräusche zu unterlassen.\n\n2. Treppenhaus: Das Treppenhaus ist ein Gemeinschaftsbereich und muss frei von persönlichen Gegenständen gehalten werden. Schuhe, Kinderwagen und Fahrräder dürfen nicht im Treppenhaus abgestellt werden. Fahrräder gehören in den Fahrradkeller.\n\n3. Müllentsorgung: Bitte trennen Sie Ihren Müll nach den Vorgaben der Stadt. Die Mülltrennung ist verpflichtend: Restmüll (graue Tonne), Papier (blaue Tonne), Verpackungen (gelbe Tonne), Biomüll (braune Tonne). Sperrmüll darf nicht neben die Container gestellt werden.\n\n4. Haustiere: Haustiere sind grundsätzlich erlaubt. Hundehalter sind verpflichtet, ihre Hunde im Gemeinschaftsbereich an der Leine zu führen. Verunreinigungen durch Haustiere sind sofort zu beseitigen.\n\n5. Grillen: Das Grillen auf dem Balkon ist aus Brandschutzgründen verboten. Im Garten darf nur mit Elektrogrill gegrillt werden. Bitte informieren Sie Ihre Nachbarn vorher.",
+    "text_en": "House Rules for Residential Complex Parkstraße 15–19\n\n1. Quiet hours: Night quiet hours apply from 10 PM to 7 AM. On Sundays and public holidays, quiet hours apply all day. During these times, loud music, drilling, and other disturbing noises must be avoided.\n\n2. Stairwell: The stairwell is a common area and must be kept free of personal items. Shoes, strollers, and bicycles may not be placed in the stairwell. Bicycles belong in the bicycle cellar.\n\n3. Waste disposal: Please separate your waste according to the city's guidelines. Waste separation is mandatory: residual waste (gray bin), paper (blue bin), packaging (yellow bin), organic waste (brown bin). Bulky waste may not be placed next to the containers.\n\n4. Pets: Pets are generally allowed. Dog owners are required to keep their dogs on a leash in common areas. Soiling by pets must be cleaned up immediately.\n\n5. Barbecuing: Barbecuing on the balcony is prohibited for fire safety reasons. In the garden, only electric grills may be used. Please inform your neighbors in advance.",
+    "source": "Hausordnung",
+    "word_count": 198
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt die Nachtruhe?",
+      "text_en": "When do quiet hours begin?",
+      "correct_answer": "c",
+      "options": ["a) Um 20 Uhr", "b) Um 21 Uhr", "c) Um 22 Uhr"],
+      "explanation_de": "Die Nachtruhe gilt von 22:00 bis 7:00 Uhr.",
+      "explanation_en": "Night quiet hours apply from 10 PM to 7 AM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo sollen Fahrräder abgestellt werden?",
+      "text_en": "Where should bicycles be parked?",
+      "correct_answer": "a",
+      "options": ["a) Im Fahrradkeller", "b) Im Treppenhaus", "c) Auf dem Balkon"],
+      "explanation_de": "Fahrräder gehören in den Fahrradkeller, nicht ins Treppenhaus.",
+      "explanation_en": "Bicycles belong in the bicycle cellar, not in the stairwell."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "In welche Tonne gehört Papier?",
+      "text_en": "Which bin does paper go in?",
+      "correct_answer": "b",
+      "options": ["a) In die graue Tonne", "b) In die blaue Tonne", "c) In die gelbe Tonne"],
+      "explanation_de": "Papier gehört in die blaue Tonne.",
+      "explanation_en": "Paper goes in the blue bin."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was müssen Hundebesitzer im Gemeinschaftsbereich tun?",
+      "text_en": "What must dog owners do in common areas?",
+      "correct_answer": "b",
+      "options": ["a) Den Hund zu Hause lassen", "b) Den Hund an der Leine führen", "c) Einen Maulkorb benutzen"],
+      "explanation_de": "Hunde müssen im Gemeinschaftsbereich an der Leine geführt werden.",
+      "explanation_en": "Dogs must be kept on a leash in common areas."
+    }
+  ]
+}

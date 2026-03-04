@@ -1,0 +1,128 @@
+{
+  "id": "b1-hoeren-teil-3-001",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltagsgespräch — Wohnungssuche",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Anna",
+      "text_de": "Hallo, ich rufe wegen der Wohnung an, die Sie in der Zeitung inseriert haben. Ist die noch frei?",
+      "text_en": "Hello, I'm calling about the apartment you advertised in the newspaper. Is it still available?"
+    },
+    {
+      "speaker": "Vermieter",
+      "text_de": "Ja, die Wohnung ist noch frei. Es ist eine Dreizimmerwohnung im dritten Stock mit Balkon. Die Miete beträgt 750 Euro warm.",
+      "text_en": "Yes, the apartment is still available. It's a three-room apartment on the third floor with a balcony. The rent is 750 euros including utilities."
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Das klingt gut. Wie groß ist die Wohnung?",
+      "text_en": "That sounds good. How big is the apartment?"
+    },
+    {
+      "speaker": "Vermieter",
+      "text_de": "Sie hat 85 Quadratmeter. Die Küche ist neu renoviert und es gibt ein großes Wohnzimmer mit Blick auf den Park.",
+      "text_en": "It's 85 square meters. The kitchen has been newly renovated and there is a large living room with a view of the park."
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Gibt es auch einen Keller und einen Parkplatz?",
+      "text_en": "Is there also a cellar and a parking space?"
+    },
+    {
+      "speaker": "Vermieter",
+      "text_de": "Einen Keller gibt es, ja. Aber leider keinen eigenen Parkplatz. Es gibt aber öffentliche Parkplätze in der Nähe. Möchten Sie die Wohnung besichtigen?",
+      "text_en": "There is a cellar, yes. But unfortunately no private parking space. There are public parking spaces nearby though. Would you like to view the apartment?"
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Ja, sehr gerne. Wann wäre es möglich?",
+      "text_en": "Yes, I'd love to. When would it be possible?"
+    },
+    {
+      "speaker": "Vermieter",
+      "text_de": "Wie wäre es am Samstag um 14 Uhr?",
+      "text_en": "How about Saturday at 2 PM?"
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Das passt mir gut. Vielen Dank!",
+      "text_en": "That works well for me. Thank you very much!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Zimmer hat die Wohnung?",
+      "text_en": "How many rooms does the apartment have?",
+      "correct_answer": "b",
+      "options": ["a) Zwei Zimmer", "b) Drei Zimmer", "c) Vier Zimmer"],
+      "explanation_de": "Der Vermieter sagt, es ist eine Dreizimmerwohnung.",
+      "explanation_en": "The landlord says it is a three-room apartment."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Miete?",
+      "text_en": "How much is the rent?",
+      "correct_answer": "c",
+      "options": ["a) 650 Euro", "b) 700 Euro", "c) 750 Euro"],
+      "explanation_de": "Die Miete beträgt 750 Euro warm.",
+      "explanation_en": "The rent is 750 euros including utilities."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was wurde in der Wohnung renoviert?",
+      "text_en": "What was renovated in the apartment?",
+      "correct_answer": "a",
+      "options": ["a) Die Küche", "b) Das Badezimmer", "c) Das Wohnzimmer"],
+      "explanation_de": "Der Vermieter sagt, die Küche ist neu renoviert.",
+      "explanation_en": "The landlord says the kitchen has been newly renovated."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es nicht in der Wohnung?",
+      "text_en": "What is not available with the apartment?",
+      "correct_answer": "b",
+      "options": ["a) Einen Keller", "b) Einen eigenen Parkplatz", "c) Einen Balkon"],
+      "explanation_de": "Es gibt leider keinen eigenen Parkplatz.",
+      "explanation_en": "Unfortunately, there is no private parking space."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Besichtigung?",
+      "text_en": "When is the viewing?",
+      "correct_answer": "c",
+      "options": ["a) Freitag um 10 Uhr", "b) Samstag um 10 Uhr", "c) Samstag um 14 Uhr"],
+      "explanation_de": "Die Besichtigung ist am Samstag um 14 Uhr.",
+      "explanation_en": "The viewing is on Saturday at 2 PM."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie groß ist die Wohnung?",
+      "text_en": "How big is the apartment?",
+      "correct_answer": "b",
+      "options": ["a) 75 Quadratmeter", "b) 85 Quadratmeter", "c) 95 Quadratmeter"],
+      "explanation_de": "Die Wohnung hat 85 Quadratmeter.",
+      "explanation_en": "The apartment is 85 square meters."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "In welchem Stock liegt die Wohnung?",
+      "text_en": "On which floor is the apartment?",
+      "correct_answer": "c",
+      "options": ["a) Im ersten Stock", "b) Im zweiten Stock", "c) Im dritten Stock"],
+      "explanation_de": "Die Wohnung liegt im dritten Stock.",
+      "explanation_en": "The apartment is on the third floor."
+    }
+  ]
+}

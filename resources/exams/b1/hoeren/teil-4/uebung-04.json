@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-4-004",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Öffentliche Durchsagen — Am Flughafen",
+  "instructions": "Sie hören fünf kurze Texte. Welche Aussage passt zu welchem Text? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Durchsage 1",
+      "text_de": "Passagiere des Fluges EW 4521 nach London Heathrow: Bitte begeben Sie sich sofort zu Gate C14. Das Boarding endet in zehn Minuten. Letzte Aufforderung.",
+      "text_en": "Passengers of flight EW 4521 to London Heathrow: Please proceed immediately to Gate C14. Boarding ends in ten minutes. Last call."
+    },
+    {
+      "speaker": "Durchsage 2",
+      "text_de": "Wegen starken Nebels sind mehrere Flüge heute Morgen gestrichen worden. Betroffene Passagiere wenden sich bitte an den Schalter ihrer Fluggesellschaft für eine Umbuchung.",
+      "text_en": "Due to heavy fog, several flights have been cancelled this morning. Affected passengers are asked to contact their airline's counter for rebooking."
+    },
+    {
+      "speaker": "Durchsage 3",
+      "text_de": "Im Terminal 2 hat ein neues Restaurant eröffnet. Das Restaurant Luftküche bietet internationale Küche und ist täglich von 6 bis 23 Uhr geöffnet. Sie finden es neben Gate B8.",
+      "text_en": "A new restaurant has opened in Terminal 2. The restaurant Luftküche offers international cuisine and is open daily from 6 AM to 11 PM. You can find it next to Gate B8."
+    },
+    {
+      "speaker": "Durchsage 4",
+      "text_de": "Der kostenlose Shuttlebus zwischen Terminal 1 und Terminal 2 fährt alle 10 Minuten. Die nächste Abfahrt ist um 13:15 Uhr vor dem Ausgang A.",
+      "text_en": "The free shuttle bus between Terminal 1 and Terminal 2 runs every 10 minutes. The next departure is at 1:15 PM in front of Exit A."
+    },
+    {
+      "speaker": "Durchsage 5",
+      "text_de": "Fluggäste werden gebeten, ihr Gepäck nicht unbeaufsichtigt zu lassen. Herrenlose Gepäckstücke werden aus Sicherheitsgründen von der Polizei entfernt.",
+      "text_en": "Passengers are asked not to leave their luggage unattended. Unattended luggage will be removed by the police for security reasons."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Passagiere müssen schnell zum Abflug kommen.",
+      "text_en": "Passengers must come to departure quickly.",
+      "correct_answer": "Durchsage 1",
+      "explanation_de": "Das Boarding für den Flug nach London endet in zehn Minuten.",
+      "explanation_en": "Boarding for the flight to London ends in ten minutes."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Es gibt einen Sicherheitshinweis.",
+      "text_en": "There is a security notice.",
+      "correct_answer": "Durchsage 5",
+      "explanation_de": "Fluggäste sollen ihr Gepäck nicht unbeaufsichtigt lassen.",
+      "explanation_en": "Passengers should not leave their luggage unattended."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Das Wetter verursacht Probleme für Reisende.",
+      "text_en": "The weather is causing problems for travelers.",
+      "correct_answer": "Durchsage 2",
+      "explanation_de": "Wegen Nebels sind Flüge gestrichen worden.",
+      "explanation_en": "Flights have been cancelled due to fog."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Es gibt ein neues gastronomisches Angebot.",
+      "text_en": "There is a new food service offer.",
+      "correct_answer": "Durchsage 3",
+      "explanation_de": "Ein neues Restaurant mit internationaler Küche hat eröffnet.",
+      "explanation_en": "A new restaurant with international cuisine has opened."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Man kann kostenlos zwischen zwei Bereichen fahren.",
+      "text_en": "You can travel between two areas for free.",
+      "correct_answer": "Durchsage 4",
+      "explanation_de": "Der Shuttlebus zwischen den Terminals ist kostenlos.",
+      "explanation_en": "The shuttle bus between the terminals is free."
+    }
+  ]
+}

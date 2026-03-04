@@ -1,0 +1,50 @@
+{
+  "id": "b1-sprechen-teil-2-003",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Haustiere",
+  "instructions": "Präsentieren Sie Ihrem Partner / Ihrer Partnerin das Thema. Sprechen Sie über die folgenden Punkte.",
+  "situation_de": "Sie sollen eine kurze Präsentation über das Thema „Haustiere“ halten. Sprechen Sie über Ihre persönliche Erfahrung, die Vor- und Nachteile und Ihre eigene Meinung.",
+  "situation_en": "You are to give a short presentation on the topic \"Pets.\" Talk about your personal experience, the advantages and disadvantages, and your own opinion.",
+  "discussion_points": [
+    "Sprechen Sie über Ihre persönliche Erfahrung mit Haustieren. Haben Sie ein Haustier oder hatten Sie früher eins? (Talk about your personal experience with pets. Do you have a pet or did you have one before?)",
+    "Welche Vorteile hat es, ein Haustier zu haben? (What are the advantages of having a pet?)",
+    "Welche Nachteile oder Schwierigkeiten gibt es? (What disadvantages or difficulties are there?)",
+    "Was ist Ihre persönliche Meinung: Sollte jeder ein Haustier haben? (What is your personal opinion: Should everyone have a pet?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte Ihnen heute etwas über das Thema „Haustiere“ erzählen. In vielen Ländern sind Haustiere sehr beliebt und gehören zur Familie.",
+      "text_en": "I would like to tell you something today about the topic \"Pets.\" In many countries, pets are very popular and are part of the family."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin mit Haustieren aufgewachsen. Als Kind hatten wir zu Hause einen Hund namens Bello. Er war ein sehr freundlicher Labrador. Jetzt wohne ich in einer kleinen Wohnung in der Stadt, deshalb habe ich leider kein Haustier mehr. Aber ich vermisse es manchmal.",
+      "text_en": "I grew up with pets. As a child, we had a dog at home named Bello. He was a very friendly Labrador. Now I live in a small apartment in the city, so unfortunately I no longer have a pet. But I miss it sometimes."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Haustiere haben viele Vorteile. Sie sind gute Gesellschaft und man fühlt sich nie allein. Ein Hund bringt einen zum Beispiel dazu, jeden Tag spazieren zu gehen, was gut für die Gesundheit ist. Kinder können von Haustieren lernen, Verantwortung zu übernehmen. Und Studien zeigen, dass Haustiere Stress reduzieren.",
+      "text_en": "Pets have many advantages. They are good company and you never feel alone. A dog, for example, gets you to go for a walk every day, which is good for your health. Children can learn from pets to take responsibility. And studies show that pets reduce stress."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Aber Haustiere kosten auch viel Geld. Man muss sie füttern, zum Tierarzt bringen und sich jeden Tag um sie kümmern. Wenn man in den Urlaub fährt, braucht man jemanden, der auf das Tier aufpasst. In einer kleinen Wohnung ist es auch schwierig, besonders für größere Tiere wie Hunde.",
+      "text_en": "But pets also cost a lot of money. You have to feed them, take them to the vet, and take care of them every day. When you go on vacation, you need someone to look after the animal. In a small apartment, it is also difficult, especially for larger animals like dogs."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Meinung nach sind Haustiere wunderbar, aber nicht jeder sollte eins haben. Man muss genug Zeit, Platz und Geld haben. Bevor man sich ein Haustier anschafft, sollte man gut darüber nachdenken. Wenn die Bedingungen stimmen, können Haustiere das Leben wirklich bereichern. Vielen Dank.",
+      "text_en": "In my opinion, pets are wonderful, but not everyone should have one. You need to have enough time, space, and money. Before getting a pet, you should think about it carefully. If the conditions are right, pets can really enrich life. Thank you very much."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle vier Punkte (Erfahrung, Vorteile, Nachteile, Meinung) werden behandelt.",
+    "Interaktion: Der Kandidat spricht frei und wendet sich an den Partner / die Partnerin.",
+    "Wortschatz: Angemessener und abwechslungsreicher Wortschatz zum Thema Tiere und Zusammenleben.",
+    "Strukturen: Korrekte Satzstruktur, Verwendung von Konnektoren (aber, deshalb, meiner Meinung nach).",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

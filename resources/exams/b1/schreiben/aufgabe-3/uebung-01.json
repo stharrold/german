@@ -1,0 +1,26 @@
+{
+  "id": "b1-schreiben-aufgabe-3-001",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 3,
+  "title": "Mitgliedschaft kündigen",
+  "instructions": "Schreiben Sie eine E-Mail an den Sportverein „Fit & Aktiv“.",
+  "situation_de": "Sie sind Mitglied im Sportverein „Fit & Aktiv“. Sie möchten Ihre Mitgliedschaft zum Ende des Monats kündigen, weil Sie umziehen.",
+  "situation_en": "You are a member of the sports club \"Fit & Aktiv.\" You would like to cancel your membership at the end of the month because you are moving.",
+  "target_word_count": 40,
+  "required_points": [
+    "Grund für die Kündigung angeben (State the reason for the cancellation)",
+    "Den Kündigungstermin nennen (Name the cancellation date)",
+    "Um eine Bestätigung bitten (Ask for a confirmation)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meine Mitgliedschaft (Mitgliedsnummer 4523) zum Ende dieses Monats. Der Grund ist, dass ich in eine andere Stadt umziehe.\n\nBitte senden Sie mir eine schriftliche Bestätigung der Kündigung.\n\nMit freundlichen Grüßen\nMaria Schmidt",
+    "text_en": "Dear Sir or Madam,\n\nI hereby cancel my membership (membership number 4523) effective the end of this month. The reason is that I am moving to another city.\n\nPlease send me a written confirmation of the cancellation.\n\nKind regards,\nMaria Schmidt"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
+    "Kohärenz: Der Text ist klar strukturiert (Coherence: The text is clearly structured)",
+    "Wortschatz: Formeller Wortschatz angemessen verwendet (Vocabulary: Formal vocabulary used appropriately)",
+    "Strukturen: Korrekte formelle Anrede und Grußformel (Structures: Correct formal salutation and closing)"
+  ]
+}

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Delete release branch after successful release and back-merge.
+# SPDX-FileCopyrightText: 2025 stharrold
+# SPDX-License-Identifier: Apache-2.0
+"""Provide instructions to delete a release branch after a successful release.
 
 This script implements Step 5.7 of Phase 5 (Release Workflow) as documented
-in WORKFLOW.md. It safely deletes the release branch after verifying the
-release is complete and properly merged.
+in WORKFLOW.md. It performs safety checks to verify the release is complete
+and then provides manual commands to safely delete the release branch.
 
 Usage:
     python cleanup_release.py <version>
@@ -25,13 +27,13 @@ import sys
 from pathlib import Path
 
 # Constants with documented rationale
-VERSION_PATTERN = r'^v\d+\.\d+\.\d+$'
+VERSION_PATTERN = r"^v\d+\.\d+\.\d+$"
 # Rationale: Enforce semantic versioning (vMAJOR.MINOR.PATCH) for consistency
 
-RELEASE_BRANCH_PREFIX = 'release/'
+RELEASE_BRANCH_PREFIX = "release/"
 # Rationale: git-flow release branch naming convention
 
-REQUIRED_BRANCHES = ['main', 'develop']
+REQUIRED_BRANCHES = ["main", "develop"]
 # Rationale: Ensures release is in both production and integration branches
 
 
@@ -46,10 +48,7 @@ def validate_version_format(version):
         ValueError: If version doesn't match vX.Y.Z pattern
     """
     if not re.match(VERSION_PATTERN, version):
-        raise ValueError(
-            f"Invalid version format '{version}'. "
-            f"Must match pattern vX.Y.Z (e.g., v1.1.0, v2.0.0)"
-        )
+        raise ValueError(f"Invalid version format '{version}'. Must match pattern vX.Y.Z (e.g., v1.1.0, v2.0.0)")
 
 
 def verify_branch_exists(branch_name):
@@ -63,16 +62,9 @@ def verify_branch_exists(branch_name):
         ValueError: If branch doesn't exist
     """
     try:
-        subprocess.run(
-            ['git', 'rev-parse', '--verify', branch_name],
-            capture_output=True,
-            check=True
-        )
+        subprocess.run(["git", "rev-parse", "--verify", branch_name], capture_output=True, check=True)
     except subprocess.CalledProcessError:
-        raise ValueError(
-            f"Branch '{branch_name}' does not exist. "
-            f"Use 'git branch -a' to list available branches."
-        )
+        raise ValueError(f"Branch '{branch_name}' does not exist. Use 'git branch -a' to list available branches.")
 
 
 def verify_tag_exists(version):
@@ -86,12 +78,7 @@ def verify_tag_exists(version):
         ValueError: If tag doesn't exist
     """
     try:
-        result = subprocess.run(
-            ['git', 'tag', '-l', version],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(["git", "tag", "-l", version], capture_output=True, text=True, check=True)
 
         if not result.stdout.strip():
             raise ValueError(
@@ -100,9 +87,7 @@ def verify_tag_exists(version):
             )
 
     except subprocess.CalledProcessError as e:
-        raise RuntimeError(
-            f"Failed to check git tags: {e.stderr.strip()}"
-        ) from e
+        raise RuntimeError(f"Failed to check git tags: {e.stderr.strip()}") from e
 
 
 def verify_tag_on_branch(version, branch_name):
@@ -118,34 +103,19 @@ def verify_tag_on_branch(version, branch_name):
     """
     try:
         # Get commit SHA for tag
-        result = subprocess.run(
-            ['git', 'rev-list', '-n', '1', version],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(["git", "rev-list", "-n", "1", version], capture_output=True, text=True, check=True)
         tag_commit = result.stdout.strip()
 
         # Check if commit is in branch
-        result = subprocess.run(
-            ['git', 'branch', '--contains', tag_commit],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(["git", "branch", "--contains", tag_commit], capture_output=True, text=True, check=True)
 
         branches = result.stdout.strip()
 
         if branch_name not in branches:
-            raise ValueError(
-                f"Tag '{version}' not on {branch_name}. Release merge incomplete. "
-                f"Ensure release PR was merged to {branch_name}."
-            )
+            raise ValueError(f"Tag '{version}' not on {branch_name}. Release merge incomplete. Ensure release PR was merged to {branch_name}.")
 
     except subprocess.CalledProcessError as e:
-        raise RuntimeError(
-            f"Failed to verify tag on branch: {e.stderr.strip()}"
-        ) from e
+        raise RuntimeError(f"Failed to verify tag on branch: {e.stderr.strip()}") from e
 
 
 def verify_commits_in_branch(release_branch, target_branch):
@@ -161,84 +131,20 @@ def verify_commits_in_branch(release_branch, target_branch):
     """
     try:
         # Get commits in release branch but not in target
-        result = subprocess.run(
-            ['git', 'log', f'{target_branch}..{release_branch}', '--oneline'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(["git", "log", f"{target_branch}..{release_branch}", "--oneline"], capture_output=True, text=True, check=True)
 
         missing_commits = result.stdout.strip()
 
         if missing_commits:
-            commit_count = len(missing_commits.split('\n'))
+            commit_count = len(missing_commits.split("\n"))
             raise ValueError(
                 f"Release not back-merged to {target_branch}. "
                 f"{commit_count} commit(s) from {release_branch} not in {target_branch}. "
-                f"Run: python .claude/skills/git-workflow-manager/scripts/backmerge_release.py"
+                f"Run: python .claude/skills/git-workflow-manager/scripts/backmerge_workflow.py pr-develop"
             )
 
     except subprocess.CalledProcessError as e:
-        raise RuntimeError(
-            f"Failed to verify commits in branch: {e.stderr.strip()}"
-        ) from e
-
-
-def delete_local_branch(branch_name):
-    """
-    Delete local git branch (uses -d for safety).
-
-    Args:
-        branch_name: Branch to delete
-
-    Raises:
-        RuntimeError: If deletion fails
-    """
-    try:
-        # Use -d (not -D) to ensure branch is fully merged
-        subprocess.run(
-            ['git', 'branch', '-d', branch_name],
-            capture_output=True,
-            check=True
-        )
-
-    except subprocess.CalledProcessError as e:
-        error_msg = e.stderr.decode() if e.stderr else 'Unknown error'
-
-        if 'not fully merged' in error_msg:
-            raise RuntimeError(
-                f"Branch '{branch_name}' is not fully merged. "
-                f"This indicates release workflow is incomplete. "
-                f"Safety check failed - branch not deleted."
-            )
-        else:
-            raise RuntimeError(
-                f"Failed to delete local branch: {error_msg}"
-            ) from e
-
-
-def delete_remote_branch(branch_name):
-    """
-    Delete remote git branch.
-
-    Args:
-        branch_name: Branch to delete (without 'origin/' prefix)
-
-    Raises:
-        RuntimeError: If deletion fails
-    """
-    try:
-        subprocess.run(
-            ['git', 'push', 'origin', '--delete', branch_name],
-            capture_output=True,
-            check=True
-        )
-
-    except subprocess.CalledProcessError as e:
-        error_msg = e.stderr.decode() if e.stderr else 'Unknown error'
-        raise RuntimeError(
-            f"Failed to delete remote branch: {error_msg}"
-        ) from e
+        raise RuntimeError(f"Failed to verify commits in branch: {e.stderr.strip()}") from e
 
 
 def find_todo_file(version):
@@ -251,16 +157,11 @@ def find_todo_file(version):
     Returns:
         Path to TODO file, or None if not found
     """
-    version_slug = version.replace('.', '-')
+    version_slug = version.replace(".", "-")
 
     # Get repo root
     try:
-        result = subprocess.run(
-            ['git', 'rev-parse', '--show-toplevel'],
-            capture_output=True,
-            text=True,
-            check=True
-        )
+        result = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True, check=True)
         repo_root = Path(result.stdout.strip())
 
     except subprocess.CalledProcessError:
@@ -268,7 +169,7 @@ def find_todo_file(version):
 
     # Search for TODO file matching pattern
     # Pattern: TODO_release_<timestamp>_<version-slug>.md
-    todo_files = list(repo_root.glob(f'TODO_release_*_{version_slug}.md'))
+    todo_files = list(repo_root.glob(f"TODO_release_*_{version_slug}.md"))
 
     if not todo_files:
         return None
@@ -288,7 +189,7 @@ def archive_todo_file(todo_path, version):
     Raises:
         RuntimeError: If archival fails
     """
-    deprecate_script = Path(__file__).parent.parent.parent / 'workflow-utilities' / 'scripts' / 'deprecate_files.py'
+    deprecate_script = Path(__file__).parent.parent.parent / "workflow-utilities" / "scripts" / "deprecate_files.py"
 
     if not deprecate_script.exists():
         print("Warning: deprecate_files.py not found, skipping TODO archival", file=sys.stderr)
@@ -297,11 +198,7 @@ def archive_todo_file(todo_path, version):
     try:
         description = f"release-{version.replace('.', '-')}"
 
-        subprocess.run(
-            ['python3', str(deprecate_script), str(todo_path), description, str(todo_path)],
-            capture_output=True,
-            check=True
-        )
+        subprocess.run(["python3", str(deprecate_script), str(todo_path), description, str(todo_path)], capture_output=True, check=True)
 
     except subprocess.CalledProcessError as e:
         print(f"Warning: Failed to archive TODO file: {e.stderr.decode()}", file=sys.stderr)
@@ -331,19 +228,17 @@ def main():
         verify_tag_exists(version)
 
         print("  Checking tag on main...", file=sys.stderr)
-        verify_tag_on_branch(version, 'main')
+        verify_tag_on_branch(version, "main")
 
         print("  Checking back-merge to develop...", file=sys.stderr)
-        verify_commits_in_branch(release_branch, 'develop')
+        verify_commits_in_branch(release_branch, "develop")
 
-        # Step 3: Delete Branches
-        print("Deleting branches...", file=sys.stderr)
+        # Step 3: Instructions for branch deletion (Manual only)
+        print("Skipping automatic branch deletion (Manual only)...", file=sys.stderr)
 
-        print("  Deleting local branch...", file=sys.stderr)
-        delete_local_branch(release_branch)
-
-        print("  Deleting remote branch...", file=sys.stderr)
-        delete_remote_branch(release_branch)
+        print("\n[NOTE] To complete cleanup, manually delete branches:")
+        print(f"  git branch -d {release_branch}")
+        print(f"  git push origin --delete {release_branch}")
 
         # Step 4: Archive TODO File
         print("Archiving TODO file...", file=sys.stderr)
@@ -355,16 +250,15 @@ def main():
             print(f"  Note: No TODO file found for {version}", file=sys.stderr)
 
         # Success output
-        print(f"\n✓ Verified tag {version} exists")
-        print("✓ Verified tag on main branch")
-        print("✓ Verified back-merge to develop complete")
-        print(f"✓ Deleted local branch: {release_branch}")
-        print(f"✓ Deleted remote branch: origin/{release_branch}")
+        print(f"\n[OK] Verified tag {version} exists")
+        print("[OK] Verified tag on main branch")
+        print("[OK] Verified back-merge to develop complete")
+        print(f"[NOTE] Manual branch deletion required for: {release_branch}")
 
         if todo_path:
-            print(f"✓ Archived: {todo_path.name}")
+            print(f"[OK] Archived: {todo_path.name}")
 
-        print(f"✓ Release workflow complete for {version}")
+        print(f"[OK] Release workflow complete for {version}")
 
         print("\nNext steps:")
         print("  1. Update contrib branch: python .claude/skills/git-workflow-manager/scripts/daily_rebase.py contrib/<gh-user>")
@@ -385,5 +279,5 @@ def main():
         sys.exit(1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

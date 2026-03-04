@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2025 stharrold
+# SPDX-License-Identifier: Apache-2.0
 """Create standard directory structure with CLAUDE.md, README.md, ARCHIVED/."""
 
 import sys
@@ -20,7 +22,7 @@ def get_child_directories(dir_path):
         return children
 
     for child in sorted(dir_path.iterdir()):
-        if child.is_dir() and (child / 'CLAUDE.md').exists():
+        if child.is_dir() and (child / "CLAUDE.md").exists():
             children.append(f"{child.name}/CLAUDE.md")
 
     return children
@@ -67,7 +69,7 @@ def create_directory_structure(directory, is_archived=False):
         # Find repository root (has .git directory)
         repo_root = dir_path
         while repo_root.parent != repo_root:
-            if (repo_root / '.git').exists():
+            if (repo_root / ".git").exists():
                 break
             repo_root = repo_root.parent
 
@@ -87,11 +89,11 @@ def create_directory_structure(directory, is_archived=False):
 
     # Scan for existing child directories
     for child in sorted(dir_path.iterdir()):
-        if child.is_dir() and child.name != "ARCHIVED" and (child / 'CLAUDE.md').exists():
+        if child.is_dir() and child.name != "ARCHIVED" and (child / "CLAUDE.md").exists():
             child_dirs.append(f"{child.name}/CLAUDE.md")
 
     # Create CLAUDE.md
-    claude_md = dir_path / 'CLAUDE.md'
+    claude_md = dir_path / "CLAUDE.md"
     if not claude_md.exists():
         if is_archived:
             context_type = "Archived Content"
@@ -145,13 +147,13 @@ related_skills:{skills_yaml}
 
         if parent_claude:
             # Determine parent directory name
-            parent_dir_name = dir_path.parent.name.replace('-', ' ').replace('_', ' ').title()
+            parent_dir_name = dir_path.parent.name.replace("-", " ").replace("_", " ").title()
             body += f"- **[{parent_claude}]({parent_claude})** - Parent directory: {parent_dir_name}\n"
 
         if child_dirs:
             body += "\n**Child Directories:**\n"
             for child_path in child_dirs:
-                child_name = child_path.split('/')[0].replace('-', ' ').replace('_', ' ').title()
+                child_name = child_path.split("/")[0].replace("-", " ").replace("_", " ").title()
                 body += f"- **[{child_path}]({child_path})** - {child_name}\n"
 
         body += """
@@ -162,16 +164,16 @@ related_skills:{skills_yaml}
             body += f"- {skill}\n"
 
         claude_md.write_text(frontmatter + body)
-        print(f"✓ Created {claude_md}")
+        print(f"[OK] Created {claude_md}")
 
     # Create README.md
-    readme_md = dir_path / 'README.md'
+    readme_md = dir_path / "README.md"
     if not readme_md.exists():
         if is_archived:
             title = "Archived Files"
             overview = "Archive of deprecated files that are no longer in active use."
         else:
-            title = dir_name.replace('-', ' ').replace('_', ' ').title()
+            title = dir_name.replace("-", " ").replace("_", " ").title()
             overview = f"Documentation for {dir_name}"
 
         # Build children section for README
@@ -216,19 +218,20 @@ children:{children_readme_yaml}
             body += f"- **[{parent_readme}]({parent_readme})** - Parent directory documentation\n"
 
         readme_md.write_text(frontmatter + body)
-        print(f"✓ Created {readme_md}")
+        print(f"[OK] Created {readme_md}")
 
     # Create ARCHIVED/ subdirectory (unless this IS archived)
     if not is_archived:
-        archived_dir = dir_path / 'ARCHIVED'
+        archived_dir = dir_path / "ARCHIVED"
         archived_dir.mkdir(exist_ok=True)
 
         # Recursively create structure for ARCHIVED
         create_directory_structure(archived_dir, is_archived=True)
 
-    print(f"✓ Directory structure complete: {dir_path}")
+    print(f"[OK] Directory structure complete: {dir_path}")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: directory_structure.py <directory>")
         print("Example: directory_structure.py planning/my-feature")

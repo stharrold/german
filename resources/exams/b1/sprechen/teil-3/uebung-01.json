@@ -1,0 +1,56 @@
+{
+  "id": "b1-sprechen-teil-3-001",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Fragen und Feedback: Sport im Alltag",
+  "instructions": "Ihr Partner / Ihre Partnerin hat über das Thema gesprochen. Reagieren Sie: Stellen Sie Fragen und geben Sie Feedback.",
+  "situation_de": "Ihr Partner hat eine Präsentation über „Sport im Alltag“ gehalten. Reagieren Sie auf die Präsentation, stellen Sie Fragen und geben Sie Ihre eigene Meinung zu dem Thema.",
+  "situation_en": "Your partner has given a presentation about \"Sport in everyday life.\" React to the presentation, ask questions, and give your own opinion on the topic.",
+  "discussion_points": [
+    "Welchen Sport würden Sie gerne mal ausprobieren und warum? (Which sport would you like to try and why?)",
+    "Gibt es in Ihrem Land eine beliebte Sportart, die in Deutschland weniger bekannt ist? (Is there a popular sport in your country that is less well known in Germany?)",
+    "Wie motivieren Sie sich, regelmäßig Sport zu machen? (How do you motivate yourself to exercise regularly?)",
+    "Denken Sie, dass Kinder in der Schule mehr Sport machen sollten? (Do you think children should do more sport at school?)",
+    "Was halten Sie von extremen Sportarten wie Klettern oder Bungee-Jumping? (What do you think about extreme sports like climbing or bungee jumping?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Vielen Dank für Ihre interessante Präsentation! Ich habe eine Frage: Sie haben gesagt, dass Sie dreimal pro Woche joggen. Wie schaffen Sie das neben der Arbeit?",
+      "text_en": "Thank you very much for your interesting presentation! I have a question: You said that you jog three times a week. How do you manage that alongside work?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich stehe früh auf, meistens um 6 Uhr. Dann laufe ich eine halbe Stunde, bevor ich zur Arbeit gehe. Am Anfang war es schwer, aber jetzt ist es Routine.",
+      "text_en": "I get up early, usually at 6 o'clock. Then I run for half an hour before going to work. At the beginning it was hard, but now it's routine."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das finde ich beeindruckend. Ich persönlich mache lieber Sport am Abend. Nach der Arbeit gehe ich manchmal schwimmen. Ich finde, Schwimmen ist gut für den ganzen Körper.",
+      "text_en": "I find that impressive. Personally, I prefer doing sport in the evening. After work, I sometimes go swimming. I think swimming is good for the whole body."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, Schwimmen ist auch ein toller Sport. Haben Sie schon mal über Mannschaftssport nachgedacht? Fußball macht zum Beispiel viel Spaß.",
+      "text_en": "Yes, swimming is also a great sport. Have you ever thought about team sports? Football, for example, is a lot of fun."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Mannschaftssport interessiert mich weniger, ehrlich gesagt. Ich bin lieber allein, wenn ich Sport mache. Aber ich denke, für Kinder ist Teamsport sehr wichtig, weil sie dort Zusammenarbeit lernen.",
+      "text_en": "Team sports interest me less, to be honest. I prefer being alone when I do sport. But I think team sports are very important for children because they learn teamwork there."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Da stimme ich Ihnen zu. Kinder sollten auf jeden Fall mehr Sport in der Schule machen. Das ist gut für ihre Gesundheit und für die sozialen Fähigkeiten.",
+      "text_en": "I agree with you there. Children should definitely do more sport at school. That is good for their health and for social skills."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt relevante Fragen und gibt eigenes Feedback.",
+    "Interaktion: Natürliches Gespräch mit Rückfragen, Zustimmung und eigener Meinung.",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung und Diskussion.",
+    "Strukturen: Korrekte Fragen (W-Fragen und Ja/Nein-Fragen) und Reaktionen.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Fragenintonation."
+  ]
+}

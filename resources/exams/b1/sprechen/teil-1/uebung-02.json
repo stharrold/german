@@ -1,0 +1,67 @@
+{
+  "id": "b1-sprechen-teil-1-002",
+  "level": "B1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Wochenendausflug planen",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen etwas zusammen planen.",
+  "situation_de": "Sie und Ihr Freund möchten am Wochenende einen Ausflug zusammen machen. Planen Sie den Ausflug gemeinsam.",
+  "situation_en": "You and your friend would like to take a trip together this weekend. Plan the trip together.",
+  "discussion_points": [
+    "Wohin sollen wir fahren? (Where should we go?)",
+    "Wann wollen wir losfahren und wann zurückkommen? (When do we want to leave and when to come back?)",
+    "Wie kommen wir dorthin — mit dem Auto, Zug oder Bus? (How do we get there — by car, train, or bus?)",
+    "Was wollen wir dort machen? (What do we want to do there?)",
+    "Müssen wir etwas mitnehmen? (Do we need to bring anything?)",
+    "Wie viel Geld brauchen wir ungefähr? (How much money do we need approximately?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich würde gerne am Wochenende etwas unternehmen. Hast du schon eine Idee, wohin wir fahren könnten?",
+      "text_en": "I would like to do something this weekend. Do you already have an idea where we could go?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, ich habe gehört, dass der Bodensee sehr schön sein soll. Wir könnten dorthin fahren und wandern gehen.",
+      "text_en": "Yes, I've heard that Lake Constance is supposed to be very beautiful. We could go there and go hiking."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das klingt gut! Sollen wir am Samstag früh losfahren? Dann haben wir den ganzen Tag.",
+      "text_en": "That sounds good! Should we leave early on Saturday? Then we have the whole day."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Einverstanden. Wir könnten mit dem Zug fahren. Das ist bequemer als mit dem Auto, und wir müssen keinen Parkplatz suchen.",
+      "text_en": "Agreed. We could take the train. That's more comfortable than by car, and we don't have to look for parking."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee. Ich schaue mal nach den Zugverbindungen. Wir sollten auf jeden Fall bequeme Schuhe zum Wandern mitnehmen.",
+      "text_en": "Good idea. I'll check the train connections. We should definitely bring comfortable shoes for hiking."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Genau. Und wir brauchen auch etwas zu essen und zu trinken für unterwegs. Ich packe ein paar Brötchen ein.",
+      "text_en": "Exactly. And we also need something to eat and drink for the way. I'll pack some sandwiches."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Perfekt. Ich schätze, wir brauchen ungefähr 50 Euro pro Person für die Zugfahrt und das Mittagessen.",
+      "text_en": "Perfect. I estimate we need about 50 euros per person for the train ride and lunch."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Das passt. Und am Sonntag können wir uns dann ausruhen. Ich freue mich schon!",
+      "text_en": "That works. And on Sunday we can rest. I'm already looking forward to it!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten gehen aufeinander ein, machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Reisen und Freizeit wird verwendet.",
+    "Strukturen: Korrekte Verwendung von Modalverben (sollen, können, müssen) und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Klare, verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

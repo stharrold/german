@@ -1,0 +1,27 @@
+{
+  "id": "b1-schreiben-aufgabe-2-003",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Fremdsprachen lernen",
+  "instructions": "Sie haben im Internet einen Artikel gelesen. Schreiben Sie Ihre Meinung dazu.",
+  "situation_de": "Sie haben einen Artikel mit dem Titel „Sprachen lernen mit Apps — reicht das?“ gelesen. Der Artikel fragt, ob man nur mit Sprach-Apps eine Fremdsprache gut lernen kann.",
+  "situation_en": "You have read an article titled \"Learning languages with apps — is that enough?\" The article asks whether you can learn a foreign language well using only language apps.",
+  "target_word_count": 80,
+  "required_points": [
+    "Ihre Meinung zum Sprachenlernen mit Apps äußern (Express your opinion about learning languages with apps)",
+    "Vorteile oder Nachteile von Apps beim Lernen nennen (Name advantages or disadvantages of apps for learning)",
+    "Von eigenen Erfahrungen beim Sprachenlernen berichten (Report on your own language learning experiences)",
+    "Vorschlagen, wie man am besten eine Sprache lernt (Suggest the best way to learn a language)"
+  ],
+  "model_answer": {
+    "text_de": "Ich glaube, Sprach-Apps sind ein guter Anfang, aber sie reichen allein nicht aus. Mit Apps kann man gut Vokabeln lernen und Grammatik üben. Aber Sprechen und Verstehen lernt man besser mit echten Menschen.\n\nIch lerne selbst Deutsch und benutze jeden Tag eine App für Vokabeln. Aber am meisten habe ich im Sprachkurs gelernt, weil ich dort mit anderen sprechen konnte. Meiner Meinung nach sollte man Apps und einen Kurs kombinieren, das ist am effektivsten.",
+    "text_en": "I believe language apps are a good start, but they alone are not enough. With apps you can learn vocabulary well and practice grammar. But you learn speaking and comprehension better with real people.\n\nI myself am learning German and use an app for vocabulary every day. But I learned the most in a language course because I could speak with others there. In my opinion, one should combine apps and a course, that is the most effective."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Eigene Meinung klar geäußert und alle Inhaltspunkte behandelt (Task fulfillment: Own opinion clearly expressed and all content points addressed)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Schluss (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung auf B1-Niveau (Vocabulary: Appropriate vocabulary for expressing opinions at B1 level)",
+    "Strukturen: Korrekte Konnektoren und Satzstrukturen (Structures: Correct connectors and sentence structures)"
+  ]
+}

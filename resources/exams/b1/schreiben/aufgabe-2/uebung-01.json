@@ -1,0 +1,27 @@
+{
+  "id": "b1-schreiben-aufgabe-2-001",
+  "level": "B1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Online-Shopping: Vor- und Nachteile",
+  "instructions": "Sie haben im Internet einen Artikel gelesen. Schreiben Sie Ihre Meinung dazu.",
+  "situation_de": "Sie haben einen Artikel mit dem Titel „Immer mehr Menschen kaufen im Internet ein“ gelesen. Der Artikel berichtet, dass Online-Shopping immer beliebter wird und viele Geschäfte in der Innenstadt schließen müssen.",
+  "situation_en": "You have read an article titled \"More and more people are shopping online.\" The article reports that online shopping is becoming increasingly popular and many shops in the city center have to close.",
+  "target_word_count": 80,
+  "required_points": [
+    "Ihre Meinung zum Online-Shopping äußern (Express your opinion about online shopping)",
+    "Vorteile oder Nachteile nennen und begründen (Name advantages or disadvantages and give reasons)",
+    "Von eigenen Erfahrungen berichten (Report on your own experiences)",
+    "Einen Vorschlag machen, wie man beide Einkaufsmöglichkeiten nutzen kann (Make a suggestion for how to use both shopping options)"
+  ],
+  "model_answer": {
+    "text_de": "Ich finde, Online-Shopping hat Vorteile und Nachteile. Einerseits ist es sehr praktisch, weil man bequem von zu Hause bestellen kann und die Auswahl größer ist. Andererseits fehlt die persönliche Beratung und man kann die Produkte nicht anfassen.\n\nIch kaufe selbst Bücher und Elektronik oft im Internet, aber Kleidung kaufe ich lieber im Geschäft. Ich finde, man sollte beides nutzen: Für Alltägliches ist Online-Shopping gut, aber für besondere Dinge sollte man die lokalen Geschäfte unterstützen.",
+    "text_en": "I think online shopping has advantages and disadvantages. On one hand, it is very practical because you can order comfortably from home and the selection is larger. On the other hand, personal advice is missing and you cannot touch the products.\n\nI myself often buy books and electronics online, but I prefer to buy clothes in stores. I think one should use both: For everyday items, online shopping is good, but for special things one should support local shops."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Eigene Meinung klar geäußert und alle Inhaltspunkte behandelt (Task fulfillment: Own opinion clearly expressed and all content points addressed)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Schluss (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Angemessener Wortschatz für Meinungsäußerung auf B1-Niveau (Vocabulary: Appropriate vocabulary for expressing opinions at B1 level)",
+    "Strukturen: Korrekte Konnektoren und Satzstrukturen (Structures: Correct connectors and sentence structures)"
+  ]
+}

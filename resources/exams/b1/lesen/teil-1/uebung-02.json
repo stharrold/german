@@ -1,0 +1,71 @@
+{
+  "id": "b1-lesen-teil-1-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Blog: Umzug in eine neue Stadt",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Vor drei Monaten bin ich von meiner Heimatstadt Freiburg nach Leipzig gezogen. Der Grund war ein neuer Job als Softwareentwickler bei einer Technologiefirma. Am Anfang war alles fremd und ich habe meine Freunde und meine Familie sehr vermisst.\n\nDie Wohnungssuche war besonders schwierig. Ich habe fast vier Wochen gebraucht, bis ich eine passende Wohnung gefunden habe. Am Ende habe ich eine schöne Zweizimmerwohnung im Stadtteil Plagwitz bekommen. Die Miete ist viel günstiger als in Freiburg — ich zahle nur 550 Euro warm für 65 Quadratmeter.\n\nMittlerweile habe ich mich gut eingelebt. Ich habe mich in einem Sportverein angemeldet und spiele dort jeden Dienstag Volleyball. So habe ich schnell neue Leute kennengelernt. Meine Nachbarin Claudia ist auch sehr freundlich. Sie hat mich letzte Woche zum Abendessen eingeladen und mir viele Tipps für die Stadt gegeben.\n\nWas mir an Leipzig besonders gefällt, sind die vielen Parks und die lebendige Kulturszene. Es gibt ständig Konzerte, Ausstellungen und Festivals. Das Nachtleben ist auch viel aufregender als in Freiburg. Was ich aber vermisse, ist die Nähe zum Schwarzwald. In Freiburg konnte ich am Wochenende einfach wandern gehen. Hier muss ich dafür mit dem Zug fahren.\n\nInsgesamt bin ich froh, dass ich den Schritt gewagt habe. Leipzig ist eine tolle Stadt und ich fühle mich hier jetzt zu Hause.",
+    "text_en": "Three months ago, I moved from my hometown of Freiburg to Leipzig. The reason was a new job as a software developer at a technology company. In the beginning, everything was unfamiliar and I really missed my friends and family.\n\nThe apartment search was particularly difficult. It took me almost four weeks to find a suitable apartment. In the end, I got a nice two-room apartment in the Plagwitz district. The rent is much cheaper than in Freiburg — I only pay 550 euros including utilities for 65 square meters.\n\nBy now, I have settled in well. I signed up at a sports club and play volleyball there every Tuesday. That's how I quickly met new people. My neighbor Claudia is also very friendly. She invited me to dinner last week and gave me lots of tips for the city.\n\nWhat I particularly like about Leipzig are the many parks and the lively cultural scene. There are constantly concerts, exhibitions, and festivals. The nightlife is also much more exciting than in Freiburg. What I miss, however, is the proximity to the Black Forest. In Freiburg, I could simply go hiking on the weekend. Here I have to take the train for that.\n\nOverall, I'm glad I took the leap. Leipzig is a great city and I now feel at home here.",
+    "source": "Blog",
+    "word_count": 262
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Der Autor ist wegen des Studiums nach Leipzig gezogen.",
+      "text_en": "The author moved to Leipzig because of his studies.",
+      "correct_answer": false,
+      "explanation_de": "Er ist wegen eines neuen Jobs als Softwareentwickler umgezogen.",
+      "explanation_en": "He moved because of a new job as a software developer."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Die Wohnungssuche hat etwa vier Wochen gedauert.",
+      "text_en": "The apartment search took about four weeks.",
+      "correct_answer": true,
+      "explanation_de": "Er hat fast vier Wochen gebraucht, um eine Wohnung zu finden.",
+      "explanation_en": "It took him almost four weeks to find an apartment."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Miete in Leipzig ist teurer als in Freiburg.",
+      "text_en": "The rent in Leipzig is more expensive than in Freiburg.",
+      "correct_answer": false,
+      "explanation_de": "Die Miete ist viel günstiger als in Freiburg.",
+      "explanation_en": "The rent is much cheaper than in Freiburg."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Der Autor spielt in einem Sportverein Volleyball.",
+      "text_en": "The author plays volleyball in a sports club.",
+      "correct_answer": true,
+      "explanation_de": "Er hat sich in einem Sportverein angemeldet und spielt dort Volleyball.",
+      "explanation_en": "He signed up at a sports club and plays volleyball there."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Der Autor vermisst die Kulturszene in Freiburg.",
+      "text_en": "The author misses the cultural scene in Freiburg.",
+      "correct_answer": false,
+      "explanation_de": "Er vermisst die Nähe zum Schwarzwald, nicht die Kulturszene. Die Kulturszene in Leipzig gefällt ihm sogar besser.",
+      "explanation_en": "He misses the proximity to the Black Forest, not the cultural scene. He actually likes the cultural scene in Leipzig better."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Der Autor hat seine Nachbarin Claudia in einem Sportverein kennengelernt.",
+      "text_en": "The author met his neighbor Claudia at a sports club.",
+      "correct_answer": false,
+      "explanation_de": "Claudia ist seine Nachbarin, die ihn zum Abendessen eingeladen hat. Er hat sie nicht im Sportverein kennengelernt.",
+      "explanation_en": "Claudia is his neighbor who invited him to dinner. He did not meet her at the sports club."
+    }
+  ]
+}

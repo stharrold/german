@@ -1,0 +1,88 @@
+{
+  "id": "b1-hoeren-teil-2-004",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Radiodiskussion — Digitales Lernen",
+  "instructions": "Sie hören ein Gespräch im Radio. Sie hören den Text einmal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 10,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Guten Abend und willkommen bei Bildung aktuell. Unser Thema heute: Digitales Lernen. Bei uns ist Herr Professor Müller von der Universität Leipzig. Herr Professor, wie hat sich das Lernen durch digitale Medien verändert?",
+      "text_en": "Good evening and welcome to Education Today. Our topic today: Digital learning. With us is Professor Müller from the University of Leipzig. Professor, how has learning changed through digital media?"
+    },
+    {
+      "speaker": "Prof. Müller",
+      "text_de": "Guten Abend. Die Veränderungen sind enorm. Heute können Studierende von überall aus lernen. Sie brauchen nur einen Computer und eine Internetverbindung. Online-Kurse sind rund um die Uhr verfügbar.",
+      "text_en": "Good evening. The changes are enormous. Today, students can learn from anywhere. They only need a computer and an internet connection. Online courses are available around the clock."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Ersetzt das digitale Lernen den Unterricht in der Schule oder Universität?",
+      "text_en": "Does digital learning replace teaching in school or university?"
+    },
+    {
+      "speaker": "Prof. Müller",
+      "text_de": "Nein, es ersetzt den Präsenzunterricht nicht. Es ist eine Ergänzung. Der persönliche Kontakt zwischen Lehrer und Schüler ist weiterhin sehr wichtig. Aber digitale Werkzeuge können den Unterricht interessanter und individueller machen.",
+      "text_en": "No, it does not replace face-to-face teaching. It is a supplement. The personal contact between teacher and student remains very important. But digital tools can make teaching more interesting and more individual."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Gibt es auch Risiken beim digitalen Lernen?",
+      "text_en": "Are there also risks with digital learning?"
+    },
+    {
+      "speaker": "Prof. Müller",
+      "text_de": "Ja, ein großes Problem ist die Ablenkung. Wenn man am Computer lernt, ist man schnell versucht, soziale Medien zu nutzen oder Videos zu schauen. Außerdem haben nicht alle Familien Zugang zu schnellem Internet, besonders auf dem Land.",
+      "text_en": "Yes, a big problem is distraction. When you learn on the computer, you are quickly tempted to use social media or watch videos. Also, not all families have access to fast internet, especially in rural areas."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Professor Müller kommt von der Universität Berlin.",
+      "text_en": "Professor Müller comes from the University of Berlin.",
+      "correct_answer": false,
+      "explanation_de": "Professor Müller ist von der Universität Leipzig, nicht Berlin.",
+      "explanation_en": "Professor Müller is from the University of Leipzig, not Berlin."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Für Online-Kurse braucht man einen Computer und Internet.",
+      "text_en": "For online courses, you need a computer and internet.",
+      "correct_answer": true,
+      "explanation_de": "Professor Müller sagt, man braucht nur einen Computer und eine Internetverbindung.",
+      "explanation_en": "Professor Müller says you only need a computer and an internet connection."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Digitales Lernen soll den Präsenzunterricht ersetzen.",
+      "text_en": "Digital learning is supposed to replace face-to-face teaching.",
+      "correct_answer": false,
+      "explanation_de": "Professor Müller sagt, es ist eine Ergänzung, kein Ersatz.",
+      "explanation_en": "Professor Müller says it is a supplement, not a replacement."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Ablenkung ist ein Problem beim digitalen Lernen.",
+      "text_en": "Distraction is a problem with digital learning.",
+      "correct_answer": true,
+      "explanation_de": "Professor Müller nennt Ablenkung durch soziale Medien als großes Problem.",
+      "explanation_en": "Professor Müller names distraction through social media as a big problem."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Alle Familien in Deutschland haben schnelles Internet.",
+      "text_en": "All families in Germany have fast internet.",
+      "correct_answer": false,
+      "explanation_de": "Nicht alle Familien haben Zugang zu schnellem Internet, besonders auf dem Land.",
+      "explanation_en": "Not all families have access to fast internet, especially in rural areas."
+    }
+  ]
+}
