@@ -127,7 +127,7 @@ resources/vocabulary/
 
 ```
 input/                          # Certificate guides (A1-C2, resource links)
-output/                         # B1 listening topics (20 topics, bilingual prose)
+resources/supplementary/         # B1 listening topics (20 topics, bilingual prose)
 resources/vocabulary/            # JSON word lists (nouns, verbs, adjectives)
 resources/exams/b1/              # Exam practice exercises (Goethe-Institut format)
 ├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
