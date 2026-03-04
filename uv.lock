@@ -249,9 +249,13 @@ version = "2.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "duckdb" },
-    { name = "fpdf2" },
     { name = "pydantic" },
     { name = "pyyaml" },
+]
+
+[package.optional-dependencies]
+pdf = [
+    { name = "fpdf2" },
 ]
 
 [package.dev-dependencies]
@@ -267,10 +271,11 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "duckdb", specifier = ">=1.4.2" },
-    { name = "fpdf2", specifier = ">=2.8.3" },
+    { name = "fpdf2", marker = "extra == 'pdf'", specifier = ">=2.8.3" },
     { name = "pydantic", specifier = ">=2.12.3" },
     { name = "pyyaml", specifier = ">=6.0.3" },
 ]
+provides-extras = ["pdf"]
 
 [package.metadata.requires-dev]
 dev = [

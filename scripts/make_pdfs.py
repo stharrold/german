@@ -1,12 +1,14 @@
 """Generate printable PDFs from B1 exam exercise JSON files.
 
 Usage:
+    uv pip install -e ".[pdf]"
     uv run python scripts/make_pdfs.py
 
 Output:
     build/pdfs/b1-{skill}-{teil|aufgabe}-{N}.pdf  (one PDF per part, one exercise per page)
 """
 
+import os
 import platform
 import sys
 from pathlib import Path
@@ -32,30 +34,31 @@ CONTENT_W = PAGE_W - 2 * MARGIN
 FONT = "Arial"
 
 # Cross-platform font search paths (Arial or fallback sans-serif)
+_WIN_FONTS = Path(os.environ.get("SystemRoot", "C:/Windows")) / "Fonts"
 _FONT_CANDIDATES: dict[str, list[str]] = {
     "": [
         "/System/Library/Fonts/Supplemental/Arial.ttf",  # macOS
         "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",  # Linux (Debian/Ubuntu)
         "/usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf",  # Linux (Fedora)
-        "C:/Windows/Fonts/arial.ttf",  # Windows
+        str(_WIN_FONTS / "arial.ttf"),  # Windows
     ],
     "B": [
         "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
         "/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf",
-        "C:/Windows/Fonts/arialbd.ttf",
+        str(_WIN_FONTS / "arialbd.ttf"),
     ],
     "I": [
         "/System/Library/Fonts/Supplemental/Arial Italic.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf",
         "/usr/share/fonts/liberation-sans/LiberationSans-Italic.ttf",
-        "C:/Windows/Fonts/ariali.ttf",
+        str(_WIN_FONTS / "ariali.ttf"),
     ],
     "BI": [
         "/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf",
         "/usr/share/fonts/liberation-sans/LiberationSans-BoldItalic.ttf",
-        "C:/Windows/Fonts/arialbi.ttf",
+        str(_WIN_FONTS / "arialbi.ttf"),
     ],
 }
 
@@ -203,7 +206,11 @@ def render_listening(pdf: ExamPDF, ex: ListeningExercise) -> None:
         speaker_w = pdf.get_string_width(speaker_text)
         pdf.cell(speaker_w, 5.5, text=speaker_text)
         pdf.set_font(FONT, "", 10)
+        # Temporarily adjust left margin so wrapped lines align under dialogue text
+        old_l_margin = pdf.l_margin
+        pdf.set_left_margin(MARGIN + speaker_w)
         pdf.multi_cell(CONTENT_W - speaker_w, 5.5, line.text_de)
+        pdf.set_left_margin(old_l_margin)
         pdf.ln(1)
     pdf.ln(2)
 
@@ -267,7 +274,8 @@ _SKILL_CONFIG: list[dict] = [
 
 def build_pdfs() -> None:
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    count = 0
+    exercise_count = 0
+    pdf_count = 0
 
     for config in _SKILL_CONFIG:
         skill_dir = RESOURCES / config["dir_name"]
@@ -284,10 +292,11 @@ def build_pdfs() -> None:
                 renderer(pdf, ex)
             out = OUTPUT / f"b1-{config['dir_name']}-{config['part_prefix']}-{part_num}.pdf"
             pdf.output(str(out))
-            count += len(exercises)
+            exercise_count += len(exercises)
+            pdf_count += 1
             print(f"  {out.name}: {len(exercises)} exercises")
 
-    print(f"\nGenerated {count} exercises across {len(list(OUTPUT.glob('*.pdf')))} PDFs in {OUTPUT}/")
+    print(f"\nGenerated {exercise_count} exercises across {pdf_count} PDFs in {OUTPUT}/")
 
 
 if __name__ == "__main__":
