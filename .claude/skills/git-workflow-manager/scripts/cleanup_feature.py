@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2025 stharrold
 # SPDX-License-Identifier: Apache-2.0
-"""Cleanup feature worktree and branches.
+"""Provide instructions to cleanup a feature worktree and its associated branch.
 
-This script cleans up after a feature is merged: Delete worktree -> Delete branches.
+This script finds the worktree and branch for a given feature slug and
+prints the manual commands required to delete them.
 
 Constants:
 - WORKTREE_PREFIX: '../{project}_feature_' or '../feature_'
@@ -74,47 +75,8 @@ def find_branch(slug: str) -> str:
     return branches[0]
 
 
-def delete_worktree(worktree_path: Path):
-    """Delete worktree directory.
-
-    Args:
-        worktree_path: Path to worktree
-
-    Raises:
-        subprocess.CalledProcessError: If git worktree remove fails
-    """
-    print(f"[DEL]  Removing worktree: {worktree_path}")
-    subprocess.run(["git", "worktree", "remove", str(worktree_path)], check=True)
-    print(f"[OK] Worktree removed: {worktree_path}")
-
-
-def delete_branch(branch_name: str):
-    """Delete local and remote branches.
-
-    Args:
-        branch_name: Branch name (e.g., 'feature/20251118T115035Z_slug')
-
-    Raises:
-        subprocess.CalledProcessError: If git branch deletion fails
-    """
-    # Delete local branch
-    print(f"[DEL]  Deleting local branch: {branch_name}")
-    subprocess.run(["git", "branch", "-D", branch_name], check=True)
-    print(f"[OK] Local branch deleted: {branch_name}")
-
-    # Delete remote branch (if exists)
-    print(f"[DEL]  Deleting remote branch: origin/{branch_name}")
-    result = subprocess.run(["git", "push", "origin", "--delete", branch_name], capture_output=True, text=True)
-
-    if result.returncode == 0:
-        print(f"[OK] Remote branch deleted: origin/{branch_name}")
-    else:
-        # Remote branch might not exist - not an error
-        print(f"[INFO]  Remote branch not found (may have been deleted): origin/{branch_name}")
-
-
 def cleanup_feature(slug: str, project_name: str = None):
-    """Cleanup feature: delete worktree and branches.
+    """Provide cleanup instructions for a feature worktree and branches.
 
     Args:
         slug: Feature slug
@@ -165,7 +127,7 @@ def cleanup_feature(slug: str, project_name: str = None):
 def main():
     """Parse arguments and execute cleanup."""
     parser = argparse.ArgumentParser(
-        description="Cleanup feature: delete worktree and branches",
+        description="Provide cleanup instructions for a feature worktree and branches",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

@@ -1,6 +1,8 @@
 """German language learning resources and tools."""
 
-__version__ = "0.1.0"
+from importlib.metadata import version
+
+__version__ = version("german")
 
 from .models import Gender, PartOfSpeech, VocabularyWord
 from .vocabulary import (

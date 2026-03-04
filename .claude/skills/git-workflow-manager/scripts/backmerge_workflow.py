@@ -301,7 +301,7 @@ def step_rebase_contrib() -> bool:
 
 
 def step_cleanup_release(version: str | None = None) -> bool:
-    """Delete release branch locally and remotely."""
+    """Provide instructions to delete the release branch locally and remotely."""
     safe_print("\n" + "=" * 60)
     safe_print("STEP 3: Cleanup Release Branch")
     safe_print("=" * 60)

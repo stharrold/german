@@ -50,7 +50,7 @@ Workflow Orchestrator is **the main coordinator skill** for the 4-step v7x1 work
 - Context detection is built into Claude Code's capabilities
 
 **What SKILL.md provides:**
-- Algorithms (Python pseudocode) for Gemini to implement mentally
+- Algorithms (Python pseudocode) for Claude Code to implement mentally
 - Decision trees for phase determination
 - Skill loading patterns
 - Context management guidance

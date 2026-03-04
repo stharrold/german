@@ -99,17 +99,24 @@ def calculate_next_version(current: str) -> str:
 
 
 def run_quality_gates() -> bool:
-    """Run quality gates."""
+    """Run quality gates (pytest + ruff) on release branch."""
     safe_print("\n[Quality Gates] Running quality gates...")
-    script_path = Path(".claude/skills/quality-enforcer/scripts/run_quality_gates.py")
 
-    if not script_path.exists():
-        safe_print("[WARN]  Quality gates script not found, skipping")
-        return True
+    # Run pytest
+    safe_print("  Running pytest...")
+    result = subprocess.run(["uv", "run", "pytest"], check=False)
+    if result.returncode != 0:
+        safe_print("[FAIL] pytest failed")
+        return False
 
-    result = subprocess.run(["uv", "run", "python", str(script_path)], check=False)
+    # Run ruff
+    safe_print("  Running ruff check...")
+    result = subprocess.run(["uv", "run", "ruff", "check", "."], check=False)
+    if result.returncode != 0:
+        safe_print("[FAIL] ruff check failed")
+        return False
 
-    return result.returncode == 0
+    return True
 
 
 def step_create_release(version: str = None) -> bool:
