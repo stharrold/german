@@ -26,7 +26,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - v5.3 skills (bmad-planner, speckit-author, quality-enforcer) archived
 - v7x1 slash commands installed
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
-- B1 exam practice content: 21 issues created, milestone [#299](https://github.com/stharrold/german/issues/299)
+- B1 exam practice content: 19/21 issues closed, milestone [#299](https://github.com/stharrold/german/issues/299)
 - B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
 - B1 Hören complete: 20 exercises across teil-1 to teil-4 (#282-285)
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
@@ -63,6 +63,11 @@ Python-based German language learning resources and content:
 - After deleting/renaming Python modules, also grep `tests/` for stale imports — stale test files cause pytest collection errors (exit code 2) that block ALL tests
 - `gh issue create --label X` fails if label doesn't exist — run `gh label create` first
 - `record_sync.py` (AgentDB state tracking) doesn't exist in this repo — worktree/integrate skills reference it but failure is non-blocking
+- `git branch -d` fails on feature branches merged via PR (not merged to local HEAD) — use `git branch -D` after confirming the PR is merged
+- Contrib→develop PR shows "out of date with base branch" — run `git fetch origin && git merge origin/develop --no-edit && git push` on contrib branch
+- Exam exercise `target_word_count` must match the model answer word count (±2 words) — Copilot CI flags mismatches
+- Always use `json.dump(data, fh, ensure_ascii=False, indent=2)` when writing exam JSON to avoid `\u00xx` unicode escapes for German characters
+- Reply to PR inline comments via `gh api repos/{owner}/{repo}/pulls/{pr}/comments/{id}/replies` — not top-level PR comments
 
 ## Branch Structure
 
