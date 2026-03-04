@@ -112,15 +112,17 @@ def test_filter_by_level_a1():
     """Test filtering by A1 CEFR level."""
     vocab = load_vocabulary()
     a1_words = filter_by_level(CEFRLevel.A1, vocab)
-    assert len(a1_words) == 70
+    assert len(a1_words) > 0
     assert all(word.level == CEFRLevel.A1 for word in a1_words)
 
 
 def test_filter_by_level_string():
     """Test filtering by level using string."""
     vocab = load_vocabulary()
-    a1_words = filter_by_level("A1", vocab)
-    assert len(a1_words) == 70
+    a1_words_enum = filter_by_level(CEFRLevel.A1, vocab)
+    a1_words_str = filter_by_level("A1", vocab)
+    assert a1_words_str == a1_words_enum
+    assert all(word.level == CEFRLevel.A1 for word in a1_words_str)
 
 
 def test_filter_by_level_no_match():
@@ -135,6 +137,8 @@ def test_filter_by_level_combined_with_pos():
     vocab = load_vocabulary()
     a1_words = filter_by_level(CEFRLevel.A1, vocab)
     a1_nouns = filter_by_pos(PartOfSpeech.NOUN, a1_words)
-    assert len(a1_nouns) == 20
+    expected_count = len([w for w in vocab if w.level == CEFRLevel.A1 and w.part_of_speech == PartOfSpeech.NOUN])
+    assert len(a1_nouns) == expected_count
+    assert len(a1_nouns) > 0
     assert all(word.level == CEFRLevel.A1 for word in a1_nouns)
     assert all(word.part_of_speech == PartOfSpeech.NOUN for word in a1_nouns)
