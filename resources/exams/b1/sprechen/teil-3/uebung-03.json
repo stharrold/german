@@ -11,7 +11,8 @@
     "Welches Haustier würden Sie sich am liebsten wünschen und warum? (Which pet would you most like to have and why?)",
     "Wie ist die Einstellung zu Haustieren in Ihrem Heimatland? (What is the attitude towards pets in your home country?)",
     "Sollte man Haustiere aus dem Tierheim adoptieren oder beim Züchter kaufen? (Should you adopt pets from a shelter or buy from a breeder?)",
-    "Was denken Sie: Sind Haustiere gut für Kinder? (What do you think: Are pets good for children?)"
+    "Was denken Sie: Sind Haustiere gut für Kinder? (What do you think: Are pets good for children?)",
+    "Kennen Sie jemanden, der allergisch gegen Tiere ist? Wie geht man damit um? (Do you know anyone who is allergic to animals? How do you deal with that?)"
   ],
   "model_dialogue": [
     {

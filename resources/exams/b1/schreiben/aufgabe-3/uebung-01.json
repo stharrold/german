@@ -14,8 +14,8 @@
     "Um eine Bestätigung bitten (Ask for a confirmation)"
   ],
   "model_answer": {
-    "text_de": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meine Mitgliedschaft (Mitgliedsnummer 4523) zum 31. März 2026. Der Grund ist, dass ich in eine andere Stadt umziehe.\n\nBitte senden Sie mir eine schriftliche Bestätigung der Kündigung.\n\nMit freundlichen Grüßen\nMaria Schmidt",
-    "text_en": "Dear Sir or Madam,\n\nI hereby cancel my membership (membership number 4523) effective March 31, 2026. The reason is that I am moving to another city.\n\nPlease send me a written confirmation of the cancellation.\n\nKind regards,\nMaria Schmidt"
+    "text_de": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meine Mitgliedschaft (Mitgliedsnummer 4523) zum Ende dieses Monats. Der Grund ist, dass ich in eine andere Stadt umziehe.\n\nBitte senden Sie mir eine schriftliche Bestätigung der Kündigung.\n\nMit freundlichen Grüßen\nMaria Schmidt",
+    "text_en": "Dear Sir or Madam,\n\nI hereby cancel my membership (membership number 4523) effective the end of this month. The reason is that I am moving to another city.\n\nPlease send me a written confirmation of the cancellation.\n\nKind regards,\nMaria Schmidt"
   },
   "scoring_criteria": [
     "Aufgabenerfüllung: Alle Inhaltspunkte sind behandelt und die Textsorte stimmt (Task fulfillment: All content points addressed and text type is correct)",
