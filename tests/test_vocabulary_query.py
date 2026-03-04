@@ -127,9 +127,14 @@ def test_filter_by_level_string():
 
 def test_filter_by_level_no_match():
     """Test filtering by level with no matches returns empty list."""
-    vocab = load_vocabulary()
-    b2_words = filter_by_level(CEFRLevel.B2, vocab)
-    assert len(b2_words) == 0
+    from german.models import VocabularyWord, PartOfSpeech
+
+    vocab = [
+        VocabularyWord(german="gehen", english="to go", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A1),
+        VocabularyWord(german="laufen", english="to run", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A2),
+    ]
+    c2_words = filter_by_level(CEFRLevel.C2, vocab)
+    assert len(c2_words) == 0
 
 
 def test_filter_by_level_combined_with_pos():
