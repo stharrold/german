@@ -26,7 +26,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - v5.3 skills (bmad-planner, speckit-author, quality-enforcer) archived
 - v7x1 slash commands installed
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
-- B1 exam practice content: 20/21 issues closed, milestone [#299](https://github.com/stharrold/german/issues/299)
+- B1 exam practice content: complete (21/21 closed), milestone [#299](https://github.com/stharrold/german/issues/299)
 - B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
 - B1 Hören complete: 20 exercises across teil-1 to teil-4 (#282-285)
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
@@ -68,6 +68,8 @@ Python-based German language learning resources and content:
 - Exam exercise `target_word_count` must match the model answer word count (±2 words) — Copilot CI flags mismatches
 - Always use `json.dump(data, fh, ensure_ascii=False, indent=2)` when writing exam JSON to avoid `\u00xx` unicode escapes for German characters
 - Reply to PR inline comments via `gh api repos/{owner}/{repo}/pulls/{pr}/comments/{id}/replies` — not top-level PR comments
+- `Closes #N` in PR body doesn't auto-close issues when PRs go through contrib→develop (two-hop merge) — close issues manually with `gh issue close`
+- `claude-code-review.yml` workflow validation fails until the file exists on `main` (the default branch) — do a release to fix
 
 ## Branch Structure
 
@@ -106,7 +108,7 @@ src/german/
 │   ├── loader.py          # JSON → VocabularyWord objects (UTF-8)
 │   └── query.py           # Filter by POS, gender, lookup
 └── exams/
-    ├── models.py          # Pydantic: ExamMeta, *Exercise, Question, ExamSkill
+    ├── models.py          # Pydantic: ListeningExercise, ReadingExercise, WritingExercise, SpeakingExercise
     ├── loader.py          # JSON → Exercise objects (generic TypeVar loader)
     └── query.py           # Filter by skill, part, question type
 
@@ -136,7 +138,11 @@ resources/exams/b1/              # Exam practice exercises (Goethe-Institut form
 └── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
 ```
 
-**Exam exercise schema:** Structured JSON with bilingual fields (`text_de`/`text_en`), questions, model answers, and scoring criteria. Validated by Pydantic models in `src/german/exams/`.
+**Exam exercise schema:** Structured JSON validated by Pydantic models in `src/german/exams/`. Key fields differ by skill:
+- *Hören:* `transcript`, `questions` (with `correct_answer`)
+- *Lesen:* `passage`, `questions` (with `correct_answer`)
+- *Schreiben:* `situation_de`, `required_points`, `model_answer`, `scoring_criteria`
+- *Sprechen:* `situation_de`, `discussion_points`, `model_dialogue`, `evaluation_criteria`
 
 **Exercise ID format:** `b1-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
 
