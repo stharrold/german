@@ -38,7 +38,7 @@ resources/
 - Use `json.dump(data, fh, ensure_ascii=False, indent=2)` — no unicode escapes
 - Exercise ID format: `b1-{skill}-{teil|aufgabe}-{N}-{NNN}`
 - Exercise files: `uebung-{01-05}.json` (zero-padded)
-- Model answers must match `target_word_count` (±2 words)
+- Model answers should aim to match `target_word_count` (±2 words) — manual guideline, not enforced by validators
 - All exam exercises validated by Pydantic models in `src/german/exams/models.py`
 
 
