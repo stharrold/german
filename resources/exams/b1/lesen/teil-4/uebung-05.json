@@ -1,0 +1,80 @@
+{
+  "id": "b1-lesen-teil-4-005",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Fernsehen oder Streaming?",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wer findet was? Kreuzen Sie an: Ja oder Nein.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Tanja, 29): Ich schaue seit drei Jahren kein normales Fernsehen mehr. Streaming ist viel besser, weil ich selbst entscheide, was und wann ich schaue. Keine Werbung, keine festen Sendezeiten \u2014 perfekt!\n\nKommentar B (Heinrich, 72): Ich brauche kein Streaming. Das normale Fernsehen hat alles, was ich m\u00f6chte: Nachrichten, Krimis und Sportsendungen. Die Technik mit Apps und Passw\u00f6rtern ist mir zu kompliziert.\n\nKommentar C (Lisa, 25): Ich habe drei verschiedene Streaming-Abos und gebe daf\u00fcr zusammen fast 40 Euro im Monat aus. Eigentlich ist das zu viel. Fr\u00fcher war es g\u00fcnstiger, als alles auf einer Plattform war.\n\nKommentar D (Robert, 41): F\u00fcr unsere Familie ist Streaming ideal. Die Kinder schauen ihre Zeichentrickfilme, meine Frau schaut Dokumentationen und ich schaue Serien \u2014 alles gleichzeitig auf verschiedenen Ger\u00e4ten.\n\nKommentar E (Elif, 33): Ich vermisse das gemeinsame Fernsehen. Fr\u00fcher hat die ganze Familie zusammen eine Sendung geschaut und dar\u00fcber gesprochen. Heute sitzt jeder allein mit seinem Tablet oder Handy. Das finde ich schade.\n\nKommentar F (Jan, 38): Ich nutze beides. F\u00fcr Nachrichten und Live-Sport schaue ich normales Fernsehen. F\u00fcr Serien und Filme bevorzuge ich Streaming. Man muss sich nicht f\u00fcr eins entscheiden.\n\nKommentar G (Monika, 55): Ich bin begeistert von Streaming! Endlich kann ich fremdsprachige Filme im Original mit Untertiteln schauen. Das war im normalen Fernsehen fast nie m\u00f6glich. Streaming hat mein Filmerlebnis komplett ver\u00e4ndert.",
+    "text_en": "Comment A (Tanja, 29): I haven't watched regular television for three years. Streaming is much better because I decide myself what and when I watch. No commercials, no fixed broadcast times \u2014 perfect!\n\nComment B (Heinrich, 72): I don't need streaming. Regular television has everything I want: news, crime shows, and sports programs. The technology with apps and passwords is too complicated for me.\n\nComment C (Lisa, 25): I have three different streaming subscriptions and spend almost 40 euros a month on them altogether. Actually, that's too much. It used to be cheaper when everything was on one platform.\n\nComment D (Robert, 41): For our family, streaming is ideal. The children watch their cartoons, my wife watches documentaries, and I watch series \u2014 all at the same time on different devices.\n\nComment E (Elif, 33): I miss watching television together. In the past, the whole family watched a show together and talked about it. Today, everyone sits alone with their tablet or phone. I think that's a shame.\n\nComment F (Jan, 38): I use both. For news and live sports, I watch regular television. For series and films, I prefer streaming. You don't have to choose just one.\n\nComment G (Monika, 55): I am thrilled with streaming! I can finally watch foreign-language films in the original with subtitles. That was almost never possible on regular television. Streaming has completely changed my film experience.",
+    "source": "Online-Forum",
+    "word_count": 278
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Tanja findet Streaming besser als normales Fernsehen.",
+      "text_en": "Tanja thinks streaming is better than regular television.",
+      "correct_answer": true,
+      "explanation_de": "Tanja schaut kein normales Fernsehen mehr und findet Streaming viel besser.",
+      "explanation_en": "Tanja no longer watches regular television and finds streaming much better."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Heinrich findet Streaming besser als normales Fernsehen.",
+      "text_en": "Heinrich thinks streaming is better than regular television.",
+      "correct_answer": false,
+      "explanation_de": "Heinrich braucht kein Streaming und findet die Technik zu kompliziert.",
+      "explanation_en": "Heinrich doesn't need streaming and finds the technology too complicated."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Lisa findet Streaming besser als normales Fernsehen.",
+      "text_en": "Lisa thinks streaming is better than regular television.",
+      "correct_answer": false,
+      "explanation_de": "Lisa nutzt zwar Streaming, findet es aber zu teuer und beklagt sich \u00fcber die Kosten.",
+      "explanation_en": "Lisa uses streaming but finds it too expensive and complains about the costs."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Robert findet Streaming besser als normales Fernsehen.",
+      "text_en": "Robert thinks streaming is better than regular television.",
+      "correct_answer": true,
+      "explanation_de": "Robert findet Streaming ideal f\u00fcr seine Familie, weil alle gleichzeitig verschiedene Sachen schauen k\u00f6nnen.",
+      "explanation_en": "Robert finds streaming ideal for his family because everyone can watch different things simultaneously."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Elif findet Streaming besser als normales Fernsehen.",
+      "text_en": "Elif thinks streaming is better than regular television.",
+      "correct_answer": false,
+      "explanation_de": "Elif vermisst das gemeinsame Fernsehen und findet es schade, dass jeder allein schaut.",
+      "explanation_en": "Elif misses watching TV together and thinks it's a shame that everyone watches alone."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Jan findet Streaming besser als normales Fernsehen.",
+      "text_en": "Jan thinks streaming is better than regular television.",
+      "correct_answer": false,
+      "explanation_de": "Jan nutzt beides und findet, man muss sich nicht f\u00fcr eins entscheiden.",
+      "explanation_en": "Jan uses both and thinks you don't have to choose just one."
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text_de": "Monika findet Streaming besser als normales Fernsehen.",
+      "text_en": "Monika thinks streaming is better than regular television.",
+      "correct_answer": true,
+      "explanation_de": "Monika ist begeistert von Streaming, besonders wegen der M\u00f6glichkeit, Originalfilme mit Untertiteln zu schauen.",
+      "explanation_en": "Monika is thrilled with streaming, especially because of the ability to watch original films with subtitles."
+    }
+  ]
+}

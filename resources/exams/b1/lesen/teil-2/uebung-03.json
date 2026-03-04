@@ -1,0 +1,77 @@
+{
+  "id": "b1-lesen-teil-2-003",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Pressebericht: Rekord bei ehrenamtlicher Arbeit",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "In Deutschland engagieren sich so viele Menschen ehrenamtlich wie nie zuvor. Nach einer aktuellen Umfrage des Bundesministeriums arbeiten rund 30 Millionen Deutsche in ihrer Freizeit freiwillig — das ist mehr als ein Drittel der Bevölkerung. Besonders beliebt sind die Bereiche Sport, Kultur und soziale Hilfe.\n\nDie meisten Ehrenamtlichen sind zwischen 30 und 50 Jahre alt. Überraschend ist, dass immer mehr junge Menschen zwischen 16 und 25 Jahren sich engagieren. Ihre Zahl ist in den letzten fünf Jahren um 20 Prozent gestiegen. Viele helfen bei der Hausaufgabenbetreuung, in Tierheimen oder bei Umweltprojekten.\n\nEin gutes Beispiel ist Sarah Kraft aus Nürnberg. Die 23-jährige Studentin arbeitet seit zwei Jahren einmal pro Woche in einem Seniorenheim. 'Ich lese den Bewohnern vor oder wir spielen zusammen Karten. Es sind oft einsame Menschen, die sich über Besuche sehr freuen', erzählt sie. Für ihr Engagement wurde sie letzten Monat von der Stadt Nürnberg mit dem Ehrenamtspreis ausgezeichnet.\n\nExperten sehen das Ehrenamt als wichtigen Beitrag zum gesellschaftlichen Zusammenhalt. 'Ohne die vielen Freiwilligen würde unser Sozialsystem nicht funktionieren', sagt Professor Hartmann von der Universität Mannheim. Er fordert, dass Arbeitgeber ihren Mitarbeitern mehr Freiräume für ehrenamtliche Tätigkeit geben.",
+    "text_en": "More people in Germany are doing volunteer work than ever before. According to a current survey by the Federal Ministry, around 30 million Germans work voluntarily in their free time — that's more than a third of the population. The most popular areas are sports, culture, and social assistance.\n\nMost volunteers are between 30 and 50 years old. Surprisingly, more and more young people between 16 and 25 are getting involved. Their number has risen by 20 percent in the last five years. Many help with homework supervision, at animal shelters, or with environmental projects.\n\nA good example is Sarah Kraft from Nuremberg. The 23-year-old student has been working once a week at a senior citizens' home for two years. 'I read to the residents or we play cards together. They are often lonely people who are very happy about visits,' she says. Last month, she was honored by the city of Nuremberg with the Volunteer Award for her commitment.\n\nExperts see volunteering as an important contribution to social cohesion. 'Without the many volunteers, our social system would not function,' says Professor Hartmann from the University of Mannheim. He demands that employers give their employees more leeway for volunteer activities.",
+    "source": "Süddeutsche Zeitung",
+    "word_count": 221
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Deutsche arbeiten ehrenamtlich?",
+      "text_en": "How many Germans do volunteer work?",
+      "correct_answer": "c",
+      "options": ["a) 10 Millionen", "b) 20 Millionen", "c) 30 Millionen"],
+      "explanation_de": "Rund 30 Millionen Deutsche arbeiten freiwillig.",
+      "explanation_en": "Around 30 million Germans work voluntarily."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie hat sich die Zahl der jungen Ehrenamtlichen verändert?",
+      "text_en": "How has the number of young volunteers changed?",
+      "correct_answer": "b",
+      "options": ["a) Sie ist um 10 Prozent gestiegen", "b) Sie ist um 20 Prozent gestiegen", "c) Sie ist gleich geblieben"],
+      "explanation_de": "Die Zahl der jungen Ehrenamtlichen ist um 20 Prozent gestiegen.",
+      "explanation_en": "The number of young volunteers has risen by 20 percent."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was macht Sarah Kraft im Seniorenheim?",
+      "text_en": "What does Sarah Kraft do at the senior citizens' home?",
+      "correct_answer": "a",
+      "options": ["a) Sie liest vor und spielt Karten", "b) Sie kocht und putzt", "c) Sie hilft bei der Pflege"],
+      "explanation_de": "Sie liest den Bewohnern vor oder spielt mit ihnen Karten.",
+      "explanation_en": "She reads to the residents or plays cards with them."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat Sarah Kraft bekommen?",
+      "text_en": "What did Sarah Kraft receive?",
+      "correct_answer": "b",
+      "options": ["a) Ein Stipendium", "b) Den Ehrenamtspreis der Stadt Nürnberg", "c) Eine Gehaltserhöhung"],
+      "explanation_de": "Sie wurde mit dem Ehrenamtspreis der Stadt Nürnberg ausgezeichnet.",
+      "explanation_en": "She was honored with the Volunteer Award from the city of Nuremberg."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Professor Hartmann?",
+      "text_en": "What does Professor Hartmann demand?",
+      "correct_answer": "c",
+      "options": ["a) Mehr Geld für Ehrenamtliche", "b) Pflichtdienst für alle Bürger", "c) Mehr Freiräume von Arbeitgebern"],
+      "explanation_de": "Er fordert, dass Arbeitgeber ihren Mitarbeitern mehr Freiräume geben.",
+      "explanation_en": "He demands that employers give their employees more leeway."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie oft arbeitet Sarah Kraft im Seniorenheim?",
+      "text_en": "How often does Sarah Kraft work at the senior citizens' home?",
+      "correct_answer": "a",
+      "options": ["a) Einmal pro Woche", "b) Zweimal pro Woche", "c) Jeden Tag"],
+      "explanation_de": "Sarah arbeitet seit zwei Jahren einmal pro Woche im Seniorenheim.",
+      "explanation_en": "Sarah has been working once a week at the senior citizens' home for two years."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "b1-hoeren-teil-2-005",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Radiodiskussion — Ehrenamtliche Arbeit",
+  "instructions": "Sie hören ein Gespräch im Radio. Sie hören den Text einmal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 10,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Guten Morgen, liebe Hörerinnen und Hörer. Heute geht es um ehrenamtliche Arbeit. Unsere Gästin ist Frau Schneider, die seit zehn Jahren bei der Tafel in Stuttgart arbeitet. Frau Schneider, was genau machen Sie bei der Tafel?",
+      "text_en": "Good morning, dear listeners. Today we are talking about volunteer work. Our guest is Ms. Schneider, who has been working at the food bank in Stuttgart for ten years. Ms. Schneider, what exactly do you do at the food bank?"
+    },
+    {
+      "speaker": "Frau Schneider",
+      "text_de": "Guten Morgen. Bei der Tafel sammeln wir Lebensmittel, die Supermärkte und Bäckereien nicht mehr verkaufen können, und verteilen sie an Menschen mit wenig Geld. Wir helfen jede Woche etwa 300 Familien.",
+      "text_en": "Good morning. At the food bank, we collect food that supermarkets and bakeries can no longer sell, and distribute it to people with little money. We help about 300 families every week."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Das ist beeindruckend. Wie viele Freiwillige arbeiten bei Ihnen?",
+      "text_en": "That is impressive. How many volunteers work with you?"
+    },
+    {
+      "speaker": "Frau Schneider",
+      "text_de": "Wir haben ungefähr 50 ehrenamtliche Helfer. Die meisten kommen zweimal pro Woche. Wir suchen aber immer neue Freiwillige, besonders jüngere Menschen. Die meisten unserer Helfer sind über 60 Jahre alt.",
+      "text_en": "We have about 50 volunteer helpers. Most come twice a week. But we are always looking for new volunteers, especially younger people. Most of our helpers are over 60 years old."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was motiviert Sie persönlich?",
+      "text_en": "What motivates you personally?"
+    },
+    {
+      "speaker": "Frau Schneider",
+      "text_de": "Es ist ein gutes Gefühl, anderen zu helfen. Und ich habe hier viele tolle Menschen kennengelernt. Außerdem möchte ich, dass weniger Lebensmittel weggeworfen werden. Das ist auch gut für die Umwelt.",
+      "text_en": "It is a good feeling to help others. And I have met many wonderful people here. Also, I want fewer food items to be thrown away. That is also good for the environment."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Frau Schneider arbeitet seit zehn Jahren bei der Tafel.",
+      "text_en": "Ms. Schneider has been working at the food bank for ten years.",
+      "correct_answer": true,
+      "explanation_de": "Der Moderator sagt, dass Frau Schneider seit zehn Jahren bei der Tafel arbeitet.",
+      "explanation_en": "The moderator says that Ms. Schneider has been working at the food bank for ten years."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Die Tafel kauft Lebensmittel im Supermarkt.",
+      "text_en": "The food bank buys food at the supermarket.",
+      "correct_answer": false,
+      "explanation_de": "Die Tafel sammelt Lebensmittel, die nicht mehr verkauft werden können. Sie kauft sie nicht.",
+      "explanation_en": "The food bank collects food that can no longer be sold. They don't buy it."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Tafel hilft jede Woche etwa 300 Familien.",
+      "text_en": "The food bank helps about 300 families every week.",
+      "correct_answer": true,
+      "explanation_de": "Frau Schneider sagt, sie helfen jede Woche etwa 300 Familien.",
+      "explanation_en": "Ms. Schneider says they help about 300 families every week."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Die meisten Helfer bei der Tafel sind junge Menschen.",
+      "text_en": "Most helpers at the food bank are young people.",
+      "correct_answer": false,
+      "explanation_de": "Die meisten Helfer sind über 60 Jahre alt.",
+      "explanation_en": "Most helpers are over 60 years old."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Frau Schneider möchte, dass weniger Lebensmittel weggeworfen werden.",
+      "text_en": "Ms. Schneider wants fewer food items to be thrown away.",
+      "correct_answer": true,
+      "explanation_de": "Frau Schneider sagt, sie möchte, dass weniger Lebensmittel weggeworfen werden.",
+      "explanation_en": "Ms. Schneider says she wants fewer food items to be thrown away."
+    }
+  ]
+}

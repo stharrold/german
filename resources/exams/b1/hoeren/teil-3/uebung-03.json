@@ -1,0 +1,123 @@
+{
+  "id": "b1-hoeren-teil-3-003",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltagsgespräch — Im Reisebüro",
+  "instructions": "Sie hören ein Gespräch zwischen zwei Personen. Sie hören den Text einmal. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Kundin",
+      "text_de": "Guten Tag. Ich möchte gerne einen Urlaub für meine Familie buchen. Wir sind vier Personen: mein Mann, ich und unsere zwei Kinder.",
+      "text_en": "Good afternoon. I would like to book a vacation for my family. There are four of us: my husband, me, and our two children."
+    },
+    {
+      "speaker": "Reiseberaterin",
+      "text_de": "Guten Tag! Wohin möchten Sie denn reisen?",
+      "text_en": "Good afternoon! Where would you like to travel?"
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Wir denken an Spanien oder Griechenland. Wir möchten gerne ans Meer und es sollte einen Strand geben, der für Kinder geeignet ist.",
+      "text_en": "We are thinking of Spain or Greece. We would like to go to the sea and there should be a beach suitable for children."
+    },
+    {
+      "speaker": "Reiseberaterin",
+      "text_de": "Wann möchten Sie reisen und wie lange?",
+      "text_en": "When would you like to travel and for how long?"
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Im Juli, zwei Wochen. Und unser Budget liegt bei maximal 3.000 Euro für die ganze Familie.",
+      "text_en": "In July, two weeks. And our budget is a maximum of 3,000 euros for the whole family."
+    },
+    {
+      "speaker": "Reiseberaterin",
+      "text_de": "Da habe ich ein schönes Angebot für Sie. Ein Familienhotel auf Kreta mit Halbpension. Direkt am Strand mit einem Kinderpool und einem Spielplatz. Der Preis für zwei Wochen liegt bei 2.800 Euro inklusive Flug.",
+      "text_en": "I have a nice offer for you. A family hotel in Crete with half board. Right on the beach with a children's pool and a playground. The price for two weeks is 2,800 euros including flights."
+    },
+    {
+      "speaker": "Kundin",
+      "text_de": "Das klingt perfekt! Können Sie mir die Details per E-Mail schicken?",
+      "text_en": "That sounds perfect! Can you send me the details by email?"
+    },
+    {
+      "speaker": "Reiseberaterin",
+      "text_de": "Natürlich. Geben Sie mir bitte Ihre E-Mail-Adresse. Ich schicke Ihnen alles noch heute.",
+      "text_en": "Of course. Please give me your email address. I will send you everything today."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Personen reisen zusammen?",
+      "text_en": "How many people are traveling together?",
+      "correct_answer": "b",
+      "options": ["a) Drei Personen", "b) Vier Personen", "c) Fünf Personen"],
+      "explanation_de": "Die Kundin sagt, sie sind vier Personen.",
+      "explanation_en": "The customer says there are four of them."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange möchte die Familie verreisen?",
+      "text_en": "How long does the family want to travel?",
+      "correct_answer": "c",
+      "options": ["a) Eine Woche", "b) Zehn Tage", "c) Zwei Wochen"],
+      "explanation_de": "Die Kundin möchte zwei Wochen im Juli verreisen.",
+      "explanation_en": "The customer wants to travel for two weeks in July."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist das Budget der Familie?",
+      "text_en": "What is the family's budget?",
+      "correct_answer": "b",
+      "options": ["a) 2.500 Euro", "b) 3.000 Euro", "c) 3.500 Euro"],
+      "explanation_de": "Das Budget liegt bei maximal 3.000 Euro.",
+      "explanation_en": "The budget is a maximum of 3,000 euros."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo liegt das vorgeschlagene Hotel?",
+      "text_en": "Where is the suggested hotel located?",
+      "correct_answer": "a",
+      "options": ["a) Auf Kreta", "b) In Barcelona", "c) Auf Mallorca"],
+      "explanation_de": "Das Familienhotel liegt auf Kreta.",
+      "explanation_en": "The family hotel is in Crete."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was kostet das Angebot?",
+      "text_en": "What does the offer cost?",
+      "correct_answer": "a",
+      "options": ["a) 2.800 Euro inklusive Flug", "b) 3.000 Euro ohne Flug", "c) 2.500 Euro inklusive Flug"],
+      "explanation_de": "Der Preis liegt bei 2.800 Euro inklusive Flug.",
+      "explanation_en": "The price is 2,800 euros including flights."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Welche Verpflegung ist im Hotel enthalten?",
+      "text_en": "What meal plan is included in the hotel?",
+      "correct_answer": "b",
+      "options": ["a) Vollpension", "b) Halbpension", "c) Nur Frühstück"],
+      "explanation_de": "Das Hotel bietet Halbpension an.",
+      "explanation_en": "The hotel offers half board."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Wie soll die Kundin die Details bekommen?",
+      "text_en": "How should the customer receive the details?",
+      "correct_answer": "c",
+      "options": ["a) Per Post", "b) Per Telefon", "c) Per E-Mail"],
+      "explanation_de": "Die Reiseberaterin schickt die Details per E-Mail.",
+      "explanation_en": "The travel advisor will send the details by email."
+    }
+  ]
+}

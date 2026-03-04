@@ -1,0 +1,80 @@
+{
+  "id": "b1-lesen-teil-4-003",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Leserbriefe: Plastikverbot im Alltag",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wer findet was? Kreuzen Sie an: Ja oder Nein.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Kommentar A (Julia, 30): Ich bin absolut daf\u00fcr! Seit einem Jahr kaufe ich im Unverpackt-Laden ein und bringe meine eigenen Beh\u00e4lter mit. Am Anfang war es umst\u00e4ndlich, aber jetzt ist es ganz normal. Und ich produziere viel weniger M\u00fcll.\n\nKommentar B (Werner, 65): Das Plastikverbot geht zu weit. Nicht jeder kann sich teure Alternativen leisten. Papiert\u00fcten sind oft nicht stabiler als Plastikt\u00fcten und kosten mehr. Man sollte lieber das Recycling verbessern.\n\nKommentar C (Mia, 22): Ich finde es gut, aber wir m\u00fcssen auch an die Industrie denken. Die meisten Plastikverpackungen kommen von den Herstellern, nicht von den Verbrauchern. Die Politik sollte die Unternehmen st\u00e4rker in die Pflicht nehmen.\n\nKommentar D (Dieter, 48): In meinem Restaurant haben wir alle Plastikstrohhalme durch Papierstrohhalme ersetzt. Die Kunden finden das gut und es kostet uns nur wenig mehr. Jeder kleine Schritt z\u00e4hlt.\n\nKommentar E (Hanna, 35): Ich versuche, weniger Plastik zu kaufen, aber mit drei kleinen Kindern ist das schwierig. Viele Kinderprodukte gibt es nur in Plastikverpackungen. Die Hersteller m\u00fcssen bessere Alternativen anbieten.\n\nKommentar F (Ralf, 54): Als Landwirt brauche ich Plastikfolien f\u00fcr die Ernte. Es gibt einfach keine praktikable Alternative daf\u00fcr. Ein pauschales Verbot w\u00fcrde viele Betriebe in Schwierigkeiten bringen.\n\nKommentar G (Elif, 26): Ich bin total daf\u00fcr. In meinem Heimatland T\u00fcrkei sieht man, wie schlimm die Plastikverschmutzung ist. Wir m\u00fcssen jetzt handeln, bevor es zu sp\u00e4t ist. Ich bringe immer meine eigene Tasche zum Einkaufen mit.",
+    "text_en": "Comment A (Julia, 30): I am absolutely in favor! For a year now, I have been shopping at an unpackaged store and bringing my own containers. At first, it was cumbersome, but now it's completely normal. And I produce much less waste.\n\nComment B (Werner, 65): The plastic ban goes too far. Not everyone can afford expensive alternatives. Paper bags are often no sturdier than plastic bags and cost more. It would be better to improve recycling.\n\nComment C (Mia, 22): I think it's good, but we also need to think about industry. Most plastic packaging comes from manufacturers, not consumers. Politicians should hold companies more accountable.\n\nComment D (Dieter, 48): In my restaurant, we have replaced all plastic straws with paper straws. Customers like it and it costs us only a little more. Every small step counts.\n\nComment E (Hanna, 35): I try to buy less plastic, but with three small children, that's difficult. Many children's products are only available in plastic packaging. Manufacturers need to offer better alternatives.\n\nComment F (Ralf, 54): As a farmer, I need plastic films for the harvest. There is simply no practical alternative. A blanket ban would put many businesses in difficulty.\n\nComment G (Elif, 26): I am totally in favor. In my home country Turkey, you can see how bad plastic pollution is. We must act now before it's too late. I always bring my own bag when shopping.",
+    "source": "Online-Forum",
+    "word_count": 290
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Julia findet das Plastikverbot gut.",
+      "text_en": "Julia thinks the plastic ban is good.",
+      "correct_answer": true,
+      "explanation_de": "Julia ist absolut daf\u00fcr und kauft bereits im Unverpackt-Laden ein.",
+      "explanation_en": "Julia is absolutely in favor and already shops at an unpackaged store."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Werner findet das Plastikverbot gut.",
+      "text_en": "Werner thinks the plastic ban is good.",
+      "correct_answer": false,
+      "explanation_de": "Werner findet, das Plastikverbot geht zu weit, und man sollte lieber das Recycling verbessern.",
+      "explanation_en": "Werner thinks the plastic ban goes too far and it would be better to improve recycling."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Mia findet das Plastikverbot gut.",
+      "text_en": "Mia thinks the plastic ban is good.",
+      "correct_answer": true,
+      "explanation_de": "Mia findet es gut, m\u00f6chte aber, dass auch die Industrie st\u00e4rker in die Pflicht genommen wird.",
+      "explanation_en": "Mia thinks it's good but wants industry to be held more accountable too."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Dieter findet das Plastikverbot gut.",
+      "text_en": "Dieter thinks the plastic ban is good.",
+      "correct_answer": true,
+      "explanation_de": "Dieter hat bereits in seinem Restaurant Plastik durch Alternativen ersetzt und findet, jeder kleine Schritt z\u00e4hlt.",
+      "explanation_en": "Dieter has already replaced plastic with alternatives in his restaurant and thinks every small step counts."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Hanna findet das Plastikverbot gut.",
+      "text_en": "Hanna thinks the plastic ban is good.",
+      "correct_answer": true,
+      "explanation_de": "Hanna versucht weniger Plastik zu kaufen und fordert bessere Alternativen \u2014 sie ist grunds\u00e4tzlich daf\u00fcr.",
+      "explanation_en": "Hanna tries to buy less plastic and calls for better alternatives \u2014 she is generally in favor."
+    },
+    {
+      "number": 6,
+      "type": "true_false",
+      "text_de": "Ralf findet das Plastikverbot gut.",
+      "text_en": "Ralf thinks the plastic ban is good.",
+      "correct_answer": false,
+      "explanation_de": "Ralf ist dagegen, weil er als Landwirt Plastikfolien braucht und ein pauschales Verbot Betriebe in Schwierigkeiten bringen w\u00fcrde.",
+      "explanation_en": "Ralf is against it because as a farmer he needs plastic films and a blanket ban would put businesses in difficulty."
+    },
+    {
+      "number": 7,
+      "type": "true_false",
+      "text_de": "Elif findet das Plastikverbot gut.",
+      "text_en": "Elif thinks the plastic ban is good.",
+      "correct_answer": true,
+      "explanation_de": "Elif ist total daf\u00fcr und bringt immer ihre eigene Tasche zum Einkaufen mit.",
+      "explanation_en": "Elif is totally in favor and always brings her own bag when shopping."
+    }
+  ]
+}

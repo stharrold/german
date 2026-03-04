@@ -1,0 +1,77 @@
+{
+  "id": "b1-lesen-teil-2-002",
+  "level": "B1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Pressebericht: Digitale Schule der Zukunft",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Wählen Sie die richtige Antwort a, b oder c.",
+  "time_minutes": 13,
+  "passage": {
+    "text_de": "Eine neue Studie der Universität Heidelberg zeigt, dass die Nutzung von Tablets im Unterricht die Lernergebnisse von Schülern verbessern kann. Die Forscher haben über zwei Jahre lang 3.000 Schülerinnen und Schüler an 40 Schulen in Baden-Württemberg untersucht.\n\nDie Ergebnisse sind eindeutig: Schüler, die regelmäßig mit Tablets gearbeitet haben, hatten im Durchschnitt bessere Noten in Mathematik und Naturwissenschaften. Besonders auffällig war der Effekt bei Schülern, die vorher Schwierigkeiten hatten. Durch interaktive Lernprogramme konnten sie in ihrem eigenen Tempo lernen und haben große Fortschritte gemacht.\n\nAllerdings betonen die Forscher, dass Technik allein nicht ausreicht. 'Die Qualität des Unterrichts hängt immer noch von den Lehrern ab', sagt Studienleiter Professor Fischer. 'Tablets sind ein Werkzeug, kein Ersatz für guten Unterricht.' Er empfiehlt, dass alle Lehrer eine spezielle Fortbildung bekommen, bevor sie digitale Medien im Unterricht einsetzen.\n\nElternvertreter sind geteilter Meinung. Einige begrüßen die Digitalisierung, andere machen sich Sorgen um die Bildschirmzeit ihrer Kinder. 'Meine Tochter sitzt schon zu Hause viel vor dem Computer. In der Schule sollte sie lieber ein Buch lesen', sagt eine Mutter aus Stuttgart. Die Studie zeigt jedoch, dass Schüler, die Tablets in der Schule nutzen, zu Hause nicht mehr Bildschirmzeit haben als andere Kinder.",
+    "text_en": "A new study from the University of Heidelberg shows that using tablets in class can improve students' learning outcomes. The researchers examined 3,000 students at 40 schools in Baden-Württemberg over a period of two years.\n\nThe results are clear: Students who regularly worked with tablets had on average better grades in mathematics and natural sciences. The effect was particularly notable among students who had previously had difficulties. Through interactive learning programs, they could learn at their own pace and made great progress.\n\nHowever, the researchers emphasize that technology alone is not enough. 'The quality of teaching still depends on the teachers,' says study director Professor Fischer. 'Tablets are a tool, not a substitute for good teaching.' He recommends that all teachers receive special training before using digital media in class.\n\nParent representatives are divided in their opinion. Some welcome digitalization, others are worried about their children's screen time. 'My daughter already spends a lot of time in front of the computer at home. In school, she should rather read a book,' says a mother from Stuttgart. The study shows, however, that students who use tablets at school do not have more screen time at home than other children.",
+    "source": "Heidelberger Nachrichten",
+    "word_count": 226
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauerte die Studie?",
+      "text_en": "How long did the study last?",
+      "correct_answer": "b",
+      "options": ["a) Ein Jahr", "b) Über zwei Jahre", "c) Fünf Jahre"],
+      "explanation_de": "Die Forscher haben über zwei Jahre lang untersucht.",
+      "explanation_en": "The researchers examined over a period of two years."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "In welchen Fächern waren die Noten besser?",
+      "text_en": "In which subjects were the grades better?",
+      "correct_answer": "a",
+      "options": ["a) Mathematik und Naturwissenschaften", "b) Deutsch und Geschichte", "c) Kunst und Musik"],
+      "explanation_de": "Die Noten waren in Mathematik und Naturwissenschaften besser.",
+      "explanation_en": "The grades were better in mathematics and natural sciences."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt Professor Fischer für Lehrer?",
+      "text_en": "What does Professor Fischer recommend for teachers?",
+      "correct_answer": "c",
+      "options": ["a) Weniger Tablets benutzen", "b) Nur Bücher im Unterricht verwenden", "c) Eine spezielle Fortbildung machen"],
+      "explanation_de": "Er empfiehlt, dass alle Lehrer eine spezielle Fortbildung bekommen.",
+      "explanation_en": "He recommends that all teachers receive special training."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was befürchten manche Eltern?",
+      "text_en": "What do some parents fear?",
+      "correct_answer": "b",
+      "options": ["a) Dass die Kinder schlechtere Noten bekommen", "b) Dass die Kinder zu viel Bildschirmzeit haben", "c) Dass die Tablets zu teuer sind"],
+      "explanation_de": "Einige Eltern machen sich Sorgen um die Bildschirmzeit ihrer Kinder.",
+      "explanation_en": "Some parents are worried about their children's screen time."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt die Studie über die Bildschirmzeit zu Hause?",
+      "text_en": "What does the study show about screen time at home?",
+      "correct_answer": "a",
+      "options": ["a) Tablet-Schüler haben nicht mehr Bildschirmzeit als andere", "b) Tablet-Schüler nutzen zu Hause weniger Computer", "c) Tablet-Schüler schauen mehr Fernsehen als andere"],
+      "explanation_de": "Schüler mit Tablets haben zu Hause nicht mehr Bildschirmzeit als andere.",
+      "explanation_en": "Students with tablets do not have more screen time at home than others."
+    },
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Schulen wurden in der Studie untersucht?",
+      "text_en": "How many schools were examined in the study?",
+      "correct_answer": "b",
+      "options": ["a) 20 Schulen", "b) 40 Schulen", "c) 60 Schulen"],
+      "explanation_de": "Die Forscher haben Schüler an 40 Schulen in Baden-Württemberg untersucht.",
+      "explanation_en": "The researchers examined students at 40 schools in Baden-Württemberg."
+    }
+  ]
+}

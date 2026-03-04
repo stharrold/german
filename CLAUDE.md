@@ -28,6 +28,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - CI: GitHub Actions (tests.yml, claude-code-review.yml)
 - B1 exam practice content: 21 issues created, milestone [#299](https://github.com/stharrold/german/issues/299)
 - B1 foundation complete: Pydantic models, loader/query, directory structure, validation tests (#278-281)
+- B1 Hören complete: 20 exercises across teil-1 to teil-4 (#282-285)
+- B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
 
 ## Repository Purpose
 
@@ -52,6 +54,7 @@ Python-based German language learning resources and content:
 - Can't `git checkout` a branch that's checked out in a worktree — work from the worktree path or `git worktree remove` first
 - All nouns MUST have gender (der/die/das) — enforced by Pydantic `@model_validator`
 - JSON vocabulary files MUST be UTF-8 encoded (for umlauts: ä, ö, ü, ß)
+- German direct speech in JSON: avoid unescaped ASCII double quotes inside strings — either escape inner quotes (`\"...\"`) or use single quotes for the speech (`'...'`). Typographic quotes like `„..."` are fine as long as any ASCII `"` is escaped
 - WritingExercise uses `task` field (not `part`) — `filter_by_part()` handles this, but new query code must too
 - VCS supports GitHub (`gh`) and Azure DevOps (`az`) — auto-detected from `git remote.origin.url`
 - After deleting/renaming Python modules, grep all `*.md` files under `.claude/skills/` for stale references

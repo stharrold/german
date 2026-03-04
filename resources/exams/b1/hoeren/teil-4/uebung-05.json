@@ -1,0 +1,83 @@
+{
+  "id": "b1-hoeren-teil-4-005",
+  "level": "B1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Öffentliche Durchsagen — Stadtveranstaltungen",
+  "instructions": "Sie hören fünf kurze Texte. Welche Aussage passt zu welchem Text? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Durchsage 1",
+      "text_de": "Liebe Bürgerinnen und Bürger, am kommenden Samstag findet der traditionelle Weihnachtsmarkt auf dem Rathausplatz statt. Von 10 bis 21 Uhr gibt es über 50 Stände mit Kunsthandwerk, Glühwein und Lebkuchen.",
+      "text_en": "Dear citizens, next Saturday the traditional Christmas market takes place at the town hall square. From 10 AM to 9 PM, there are over 50 stalls with handicrafts, mulled wine, and gingerbread."
+    },
+    {
+      "speaker": "Durchsage 2",
+      "text_de": "Das Stadtfest am Wochenende muss leider wegen der Unwetterwarnung auf den 22. September verschoben werden. Bereits gekaufte Eintrittskarten behalten ihre Gültigkeit.",
+      "text_en": "The city festival this weekend unfortunately has to be postponed to September 22nd due to the severe weather warning. Tickets already purchased remain valid."
+    },
+    {
+      "speaker": "Durchsage 3",
+      "text_de": "Die Stadtbücherei lädt am Mittwoch um 19 Uhr zu einer Lesung mit dem Autor Thomas Berg ein. Herr Berg liest aus seinem neuen Roman. Der Eintritt ist frei, eine Anmeldung ist nicht erforderlich.",
+      "text_en": "The city library invites you to a reading with author Thomas Berg on Wednesday at 7 PM. Mr. Berg reads from his new novel. Admission is free, no registration is required."
+    },
+    {
+      "speaker": "Durchsage 4",
+      "text_de": "Am Sonntag, den 15. Oktober, findet der diesjährige Stadtlauf statt. Start ist um 9 Uhr am Marktplatz. Es gibt Strecken über 5 und 10 Kilometer. Anmeldungen sind noch bis Freitag auf der Webseite der Stadt möglich.",
+      "text_en": "On Sunday, October 15th, this year's city run takes place. The start is at 9 AM at the marketplace. There are routes of 5 and 10 kilometers. Registrations are still possible until Friday on the city's website."
+    },
+    {
+      "speaker": "Durchsage 5",
+      "text_de": "Das Open-Air-Kino im Stadtpark zeigt heute Abend den Film Goodbye Berlin. Einlass ist ab 20 Uhr, der Film beginnt bei Einbruch der Dunkelheit. Bringen Sie bitte eigene Decken und Sitzkissen mit.",
+      "text_en": "The open-air cinema in the city park is showing the film Goodbye Berlin tonight. Admission is from 8 PM, the film starts at dusk. Please bring your own blankets and seat cushions."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Eine Veranstaltung findet wegen des Wetters nicht statt.",
+      "text_en": "An event is not taking place because of the weather.",
+      "correct_answer": "Durchsage 2",
+      "explanation_de": "Das Stadtfest wird wegen der Unwetterwarnung verschoben.",
+      "explanation_en": "The city festival is postponed due to the severe weather warning."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Man kann draußen einen Film sehen.",
+      "text_en": "You can watch a film outdoors.",
+      "correct_answer": "Durchsage 5",
+      "explanation_de": "Im Open-Air-Kino im Stadtpark wird ein Film gezeigt.",
+      "explanation_en": "A film is being shown at the open-air cinema in the city park."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Es gibt eine Sportveranstaltung.",
+      "text_en": "There is a sports event.",
+      "correct_answer": "Durchsage 4",
+      "explanation_de": "Der Stadtlauf findet am 15. Oktober statt.",
+      "explanation_en": "The city run takes place on October 15th."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Man kann auf einem Markt einkaufen.",
+      "text_en": "You can shop at a market.",
+      "correct_answer": "Durchsage 1",
+      "explanation_de": "Der Weihnachtsmarkt hat über 50 Stände mit Kunsthandwerk.",
+      "explanation_en": "The Christmas market has over 50 stalls with handicrafts."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Ein Schriftsteller stellt sein Buch vor.",
+      "text_en": "An author presents their book.",
+      "correct_answer": "Durchsage 3",
+      "explanation_de": "Thomas Berg liest aus seinem neuen Roman in der Stadtbücherei.",
+      "explanation_en": "Thomas Berg reads from his new novel at the city library."
+    }
+  ]
+}
