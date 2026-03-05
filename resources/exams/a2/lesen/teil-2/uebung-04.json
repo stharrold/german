@@ -1,0 +1,62 @@
+{
+  "id": "a2-lesen-teil-2-004",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Reiseangebote: Wochenendtrips",
+  "instructions": "Lesen Sie die Informationen und die Aufgaben. Welche Information passt? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Reisebüro Fernweh – Wochenendtrips:\n\nA) Berlin entdecken – 2 Nächte im Hotel, Frühstück, Stadtführung. 159 Euro pro Person. Jeden Freitag bis Sonntag.\n\nB) Wellness am Bodensee – 2 Nächte, Halbpension, Spa-Bereich. 219 Euro pro Person. Ideal zum Entspannen.\n\nC) Wandern im Schwarzwald – 2 Nächte in einer Pension, Frühstück, geführte Wanderung (10 km). 99 Euro pro Person.\n\nD) Wien: Musik und Kultur – 2 Nächte, Frühstück, Konzertticket. 189 Euro pro Person. Inklusive Bahnfahrt.\n\nE) Familienurlaub an der Ostsee – 3 Nächte in einer Ferienwohnung. 299 Euro für 2 Erwachsene + 2 Kinder. Strand und Spielplatz.\n\nF) Radtour an der Mosel – 2 Nächte, Frühstück, Fahrradverleih. 129 Euro pro Person. Leichte Strecken, auch für Anfänger.",
+    "text_en": "Travel Agency Wanderlust – Weekend Trips:\n\nA) Discover Berlin – 2 nights in hotel, breakfast, city tour. 159 euros per person. Every Friday to Sunday.\n\nB) Wellness at Lake Constance – 2 nights, half board, spa area. 219 euros per person. Ideal for relaxation.\n\nC) Hiking in the Black Forest – 2 nights in a guesthouse, breakfast, guided hike (10 km). 99 euros per person.\n\nD) Vienna: Music and Culture – 2 nights, breakfast, concert ticket. 189 euros per person. Including train ride.\n\nE) Family Vacation at the Baltic Sea – 3 nights in a vacation apartment. 299 euros for 2 adults + 2 children. Beach and playground.\n\nF) Bike Tour along the Moselle – 2 nights, breakfast, bike rental. 129 euros per person. Easy routes, also for beginners.",
+    "source": "Reisekatalog",
+    "word_count": 120
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr und Frau Maier haben zwei Kinder und suchen etwas am Meer.",
+      "text_en": "Mr. and Mrs. Maier have two children and are looking for something by the sea.",
+      "correct_answer": "E",
+      "explanation_de": "Der Familienurlaub an der Ostsee (E) ist für Familien mit Strand und Spielplatz.",
+      "explanation_en": "The family vacation at the Baltic Sea (E) is for families with beach and playground."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Frau Weber ist gestresst und möchte sich erholen. Gutes Essen ist ihr wichtig.",
+      "text_en": "Ms. Weber is stressed and wants to relax. Good food is important to her.",
+      "correct_answer": "B",
+      "explanation_de": "Wellness am Bodensee (B) bietet Entspannung und Halbpension.",
+      "explanation_en": "Wellness at Lake Constance (B) offers relaxation and half board."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Krause fährt gern Fahrrad, ist aber kein Sportler.",
+      "text_en": "Mr. Krause likes cycling but is not an athlete.",
+      "correct_answer": "F",
+      "explanation_de": "Die Radtour an der Mosel (F) hat leichte Strecken, auch für Anfänger.",
+      "explanation_en": "The bike tour along the Moselle (F) has easy routes, also for beginners."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Engel liebt klassische Musik und möchte eine andere Stadt besuchen.",
+      "text_en": "Ms. Engel loves classical music and wants to visit another city.",
+      "correct_answer": "D",
+      "explanation_de": "Wien: Musik und Kultur (D) hat ein Konzertticket inklusive.",
+      "explanation_en": "Vienna: Music and Culture (D) includes a concert ticket."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Herr Becker möchte nicht viel Geld ausgeben und ist gern in der Natur.",
+      "text_en": "Mr. Becker doesn't want to spend much money and likes being in nature.",
+      "correct_answer": "C",
+      "explanation_de": "Wandern im Schwarzwald (C) kostet nur 99 Euro und ist in der Natur.",
+      "explanation_en": "Hiking in the Black Forest (C) costs only 99 euros and is in nature."
+    }
+  ]
+}

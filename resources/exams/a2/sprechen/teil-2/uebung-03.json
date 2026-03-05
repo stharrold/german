@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-2-003",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Meine Familie",
+  "instructions": "Sie bekommen ein Thema. Sprechen Sie über das Thema.",
+  "situation_de": "Der Prüfer / Die Prüferin fragt Sie über Ihre Familie. Beantworten Sie die Fragen mit zwei bis drei Sätzen.",
+  "situation_en": "The examiner asks you about your family. Answer the questions with two to three sentences.",
+  "discussion_points": [
+    "Wie groß ist Ihre Familie? (How big is your family?)",
+    "Wo leben Ihre Eltern? (Where do your parents live?)",
+    "Was machen Sie gern zusammen mit Ihrer Familie? (What do you like to do together with your family?)",
+    "Haben Sie Geschwister? Erzählen Sie von ihnen. (Do you have siblings? Tell us about them.)",
+    "Gibt es ein Familienfest, das Sie gern feiern? (Is there a family celebration that you like to celebrate?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist „Meine Familie“. Wie groß ist Ihre Familie?",
+      "text_en": "Our topic is \"My family.\" How big is your family?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Familie ist nicht so groß. Wir sind fünf Personen: meine Eltern, meine zwei Brüder und ich. Wir verstehen uns gut.",
+      "text_en": "My family is not so big. We are five people: my parents, my two brothers, and me. We get along well."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wo leben Ihre Eltern?",
+      "text_en": "Where do your parents live?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Eltern leben in einer kleinen Stadt in der Nähe von Hamburg. Sie haben ein Haus mit einem großen Garten.",
+      "text_en": "My parents live in a small town near Hamburg. They have a house with a big garden."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was machen Sie gern zusammen mit Ihrer Familie?",
+      "text_en": "What do you like to do together with your family?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Sonntag essen wir zusammen Mittag. Manchmal machen wir Ausflüge in die Natur. Das finden wir alle schön.",
+      "text_en": "On Sundays we eat lunch together. Sometimes we go on trips into nature. We all enjoy that."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Haben Sie Geschwister? Erzählen Sie von ihnen.",
+      "text_en": "Do you have siblings? Tell us about them."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich habe zwei Brüder. Mein älterer Bruder ist Ingenieur und mein jüngerer Bruder studiert noch. Wir telefonieren oft.",
+      "text_en": "Yes, I have two brothers. My older brother is an engineer and my younger brother is still studying. We talk on the phone often."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Gibt es ein Familienfest, das Sie gern feiern?",
+      "text_en": "Is there a family celebration that you like to celebrate?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, wir feiern gern Weihnachten zusammen. Dann sind alle da, und meine Mutter kocht ein großes Essen. Das ist immer sehr gemütlich.",
+      "text_en": "Yes, we like to celebrate Christmas together. Then everyone is there, and my mother cooks a big meal. That is always very cozy."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Fragen werden mit zwei bis drei Sätzen beantwortet.",
+    "Zusammenhang: Die Antworten sind logisch und passen zum Thema.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Familie und Beziehungen wird verwendet.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und einfachen Konnektoren (und, aber, auch).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ]
+}

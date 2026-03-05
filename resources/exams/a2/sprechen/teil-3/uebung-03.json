@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-3-003",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Eine Geburtstagsfeier planen",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten etwas zusammen machen. Planen Sie etwas.",
+  "situation_de": "Ein Freund hat bald Geburtstag. Sie und Ihr Partner / Ihre Partnerin möchten eine Geburtstagsfeier organisieren. Planen Sie die Feier zusammen.",
+  "situation_en": "A friend will soon have a birthday. You and your partner would like to organize a birthday party. Plan the party together.",
+  "discussion_points": [
+    "Wo soll die Feier sein? (Where should the party be?)",
+    "Wen wollen wir einladen? (Whom do we want to invite?)",
+    "Was sollen wir essen und trinken? (What should we eat and drink?)",
+    "Sollen wir ein Geschenk kaufen? Was? (Should we buy a gift? What?)",
+    "Sollen wir Musik oder Spiele vorbereiten? (Should we prepare music or games?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Unser Freund Marco hat nächste Woche Geburtstag. Wir möchten eine Feier machen. Wo soll die Feier sein?",
+      "text_en": "Our friend Marco has his birthday next week. We would like to have a party. Where should the party be?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir können die Feier bei mir zu Hause machen. Ich habe ein großes Wohnzimmer. Was denkst du?",
+      "text_en": "We can have the party at my place. I have a big living room. What do you think?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das ist super! Wen wollen wir einladen? Marcos Freunde aus dem Deutschkurs?",
+      "text_en": "That is great! Whom do we want to invite? Marco's friends from the German class?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, und auch seine Kollegen. Das sind ungefähr zehn Personen. Was sollen wir essen?",
+      "text_en": "Yes, and also his colleagues. That is about ten people. What should we eat?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir können Pizza bestellen. Oder jeder bringt etwas mit. Was meinst du?",
+      "text_en": "We can order pizza. Or everyone brings something. What do you think?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Jeder bringt etwas mit, das finde ich gut. Ich mache einen Kartoffelsalat. Und wir kaufen einen Geburtstagskuchen.",
+      "text_en": "Everyone brings something, I think that is good. I will make a potato salad. And we buy a birthday cake."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gut. Und was schenken wir Marco? Er liest gern. Vielleicht ein Buch?",
+      "text_en": "Good. And what do we give Marco? He likes reading. Maybe a book?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, oder einen Kinogutschein. Er geht auch gern ins Kino. Sollen wir auch Musik machen?",
+      "text_en": "Yes, or a cinema voucher. He also likes going to the cinema. Should we also have music?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ja, ich mache eine Playlist mit seinen Lieblingsliedern. Und vielleicht spielen wir ein Spiel, zum Beispiel ein Quiz.",
+      "text_en": "Yes, I will make a playlist with his favorite songs. And maybe we play a game, for example a quiz."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Das klingt toll! Marco wird sich freuen. Das wird eine schöne Feier!",
+      "text_en": "That sounds great! Marco will be happy. That will be a nice party!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Feier und Geschenke auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, wollen, sollen) und einfachen Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "a2-lesen-teil-4-002",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kleinanzeigen: Gebrauchte Sachen",
+  "instructions": "Lesen Sie die Anzeigen und die Aufgaben. Welche Anzeige passt? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "A) Kinderfahrrad, rot, für Kinder von 5-8 Jahren. Guter Zustand, wenig gefahren. 45 Euro. Abholen in Schöneberg. Tel: 0160-1112233.\n\nB) Waschmaschine, 3 Jahre alt, funktioniert einwandfrei. 120 Euro. Lieferung in Berlin möglich (20 Euro extra). Foto per WhatsApp.\n\nC) Bücherregal aus Holz, 180 cm hoch, 5 Fächer. 30 Euro oder Tausch gegen Schreibtisch. Nur Selbstabholung.\n\nD) Winterjacke, Größe M, dunkelblau, kaum getragen. Marke: North Face. 60 Euro (Neupreis 180 Euro). Versand möglich.\n\nE) Sofa, 3-Sitzer, grau, 2 Jahre alt. Sehr bequem, keine Flecken. 200 Euro. Muss bis Freitag abgeholt werden!\n\nF) Gitarre für Anfänger mit Tasche und Stimmgerät. Alles zusammen 50 Euro. Ideal zum Lernen. Abends erreichbar unter 0151-7778899.",
+    "text_en": "A) Children's bicycle, red, for children ages 5-8. Good condition, rarely used. 45 euros. Pick up in Schöneberg. Tel: 0160-1112233.\n\nB) Washing machine, 3 years old, works perfectly. 120 euros. Delivery in Berlin possible (20 euros extra). Photo via WhatsApp.\n\nC) Wooden bookshelf, 180 cm tall, 5 compartments. 30 euros or trade for a desk. Self pick-up only.\n\nD) Winter jacket, size M, dark blue, barely worn. Brand: North Face. 60 euros (original price 180 euros). Shipping possible.\n\nE) Sofa, 3-seater, gray, 2 years old. Very comfortable, no stains. 200 euros. Must be picked up by Friday!\n\nF) Guitar for beginners with bag and tuner. Everything together 50 euros. Ideal for learning. Reachable in the evenings at 0151-7778899.",
+    "source": "Kleinanzeigen",
+    "word_count": 115
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr Weber möchte Gitarre spielen lernen und braucht ein Instrument.",
+      "text_en": "Mr. Weber wants to learn to play guitar and needs an instrument.",
+      "correct_answer": "F",
+      "explanation_de": "Die Gitarre (F) ist für Anfänger und kommt mit Zubehör.",
+      "explanation_en": "The guitar (F) is for beginners and comes with accessories."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Frau Schneider ist gerade nach Berlin gezogen und braucht eine Waschmaschine.",
+      "text_en": "Ms. Schneider has just moved to Berlin and needs a washing machine.",
+      "correct_answer": "B",
+      "explanation_de": "Die Waschmaschine (B) funktioniert gut und Lieferung in Berlin ist möglich.",
+      "explanation_en": "The washing machine (B) works well and delivery in Berlin is possible."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Yilmaz hat eine 6-jährige Tochter, die gern Fahrrad fahren möchte.",
+      "text_en": "Mr. Yilmaz has a 6-year-old daughter who wants to ride a bicycle.",
+      "correct_answer": "A",
+      "explanation_de": "Das Kinderfahrrad (A) ist für Kinder von 5-8 Jahren.",
+      "explanation_en": "The children's bicycle (A) is for children ages 5-8."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Huber wohnt nicht in Berlin, aber sie braucht eine warme Jacke für den Winter.",
+      "text_en": "Ms. Huber doesn't live in Berlin, but she needs a warm jacket for winter.",
+      "correct_answer": "D",
+      "explanation_de": "Die Winterjacke (D) kann per Versand verschickt werden.",
+      "explanation_en": "The winter jacket (D) can be shipped."
+    }
+  ]
+}

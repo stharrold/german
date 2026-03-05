@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-4-003",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Sport im Verein",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Heute sprechen wir mit Tobias Hoffmann. Er ist Trainer in einem Sportverein. Herr Hoffmann, was für einen Verein haben Sie?",
+      "text_en": "Today we are talking with Tobias Hoffmann. He is a trainer in a sports club. Mr. Hoffmann, what kind of club do you have?"
+    },
+    {
+      "speaker": "Tobias",
+      "text_de": "Ich bin Trainer im Schwimmverein Blau-Weiß. Wir haben ungefähr 200 Mitglieder. Die meisten sind Kinder und Jugendliche.",
+      "text_en": "I'm a trainer at the Blau-Weiß swimming club. We have about 200 members. Most of them are children and young people."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wann trainieren Sie?",
+      "text_en": "When do you train?"
+    },
+    {
+      "speaker": "Tobias",
+      "text_de": "Die Kinder trainieren montags und mittwochs von 16 bis 17 Uhr. Die Erwachsenen können dienstags und donnerstags von 19 bis 20:30 Uhr schwimmen.",
+      "text_en": "The children train on Mondays and Wednesdays from 4 to 5 PM. The adults can swim on Tuesdays and Thursdays from 7 to 8:30 PM."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Machen Sie auch Wettkämpfe?",
+      "text_en": "Do you also have competitions?"
+    },
+    {
+      "speaker": "Tobias",
+      "text_de": "Ja, zweimal im Jahr fahren wir zu Wettkämpfen. Im Frühling und im Herbst. Letztes Jahr hat unsere Jugendmannschaft den zweiten Platz gewonnen.",
+      "text_en": "Yes, twice a year we go to competitions. In spring and in autumn. Last year our youth team won second place."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Kann man noch Mitglied werden?",
+      "text_en": "Can one still become a member?"
+    },
+    {
+      "speaker": "Tobias",
+      "text_de": "Ja, natürlich! Der Monatsbeitrag ist 15 Euro für Kinder und 25 Euro für Erwachsene. Neue Mitglieder können zweimal kostenlos zum Probetraining kommen.",
+      "text_en": "Yes, of course! The monthly fee is 15 euros for children and 25 euros for adults. New members can come twice for a free trial training."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Der Verein hat etwa 300 Mitglieder.",
+      "text_en": "The club has about 300 members.",
+      "correct_answer": false,
+      "explanation_de": "Der Verein hat ungefähr 200 Mitglieder.",
+      "explanation_en": "The club has about 200 members."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Die meisten Mitglieder sind Kinder und Jugendliche.",
+      "text_en": "Most members are children and young people.",
+      "correct_answer": true,
+      "explanation_de": "Tobias sagt, die meisten Mitglieder sind Kinder und Jugendliche.",
+      "explanation_en": "Tobias says most members are children and young people."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Die Erwachsenen trainieren montags und mittwochs.",
+      "text_en": "The adults train on Mondays and Wednesdays.",
+      "correct_answer": false,
+      "explanation_de": "Die Erwachsenen trainieren dienstags und donnerstags.",
+      "explanation_en": "The adults train on Tuesdays and Thursdays."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Die Jugendmannschaft hat den ersten Platz gewonnen.",
+      "text_en": "The youth team won first place.",
+      "correct_answer": false,
+      "explanation_de": "Die Jugendmannschaft hat den zweiten Platz gewonnen, nicht den ersten.",
+      "explanation_en": "The youth team won second place, not first."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Neue Mitglieder können zweimal kostenlos trainieren.",
+      "text_en": "New members can train for free twice.",
+      "correct_answer": true,
+      "explanation_de": "Neue Mitglieder können zweimal zum kostenlosen Probetraining kommen.",
+      "explanation_en": "New members can come for free trial training twice."
+    }
+  ]
+}

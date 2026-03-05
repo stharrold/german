@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-3-002",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Brief: Neue Wohnung",
+  "instructions": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Lieber Peter,\n\nich habe tolle Neuigkeiten! Ich habe endlich eine neue Wohnung gefunden. Sie ist in der Schillerstraße, ganz in der Nähe vom Stadtpark. Die Wohnung hat zwei Zimmer, eine Küche und ein Bad. Sie kostet 550 Euro im Monat, warm.\n\nDas Beste ist der Balkon — er ist groß genug für einen kleinen Tisch und zwei Stühle. Im Sommer kann ich dort frühstücken! Die Wohnung ist im dritten Stock, aber es gibt einen Aufzug.\n\nIch ziehe am 1. April um. Kannst du mir vielleicht am Wochenende davor beim Umzug helfen? Mein Bruder kommt auch. Danach lade ich euch zum Essen ein — Pizza vom Italiener um die Ecke!\n\nSchreib mir bitte bald!\n\nHerzliche Grüße\nStefan",
+    "text_en": "Dear Peter,\n\nI have great news! I've finally found a new apartment. It's on Schillerstraße, very close to the city park. The apartment has two rooms, a kitchen, and a bathroom. It costs 550 euros per month, including utilities.\n\nThe best part is the balcony — it's big enough for a small table and two chairs. In summer, I can have breakfast there! The apartment is on the third floor, but there's an elevator.\n\nI'm moving on April 1st. Can you maybe help me move the weekend before? My brother is also coming. Afterward, I'll treat you all to dinner — pizza from the Italian place around the corner!\n\nPlease write back soon!\n\nWarm regards\nStefan",
+    "source": "Brief",
+    "word_count": 130
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo ist die neue Wohnung?",
+      "text_en": "Where is the new apartment?",
+      "options": [
+        "a) Im Stadtpark",
+        "b) In der Nähe vom Stadtpark",
+        "c) Am Hauptbahnhof"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung ist in der Schillerstraße, ganz in der Nähe vom Stadtpark.",
+      "explanation_en": "The apartment is on Schillerstraße, very close to the city park."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was findet Stefan am besten an der Wohnung?",
+      "text_en": "What does Stefan like best about the apartment?",
+      "options": [
+        "a) Die Küche",
+        "b) Den Balkon",
+        "c) Den Aufzug"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Beste ist der Balkon, sagt Stefan.",
+      "explanation_en": "The best part is the balcony, says Stefan."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "In welchem Stock ist die Wohnung?",
+      "text_en": "On which floor is the apartment?",
+      "options": [
+        "a) Im ersten Stock",
+        "b) Im zweiten Stock",
+        "c) Im dritten Stock"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Wohnung ist im dritten Stock.",
+      "explanation_en": "The apartment is on the third floor."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann zieht Stefan um?",
+      "text_en": "When is Stefan moving?",
+      "options": [
+        "a) Am 1. März",
+        "b) Am 1. April",
+        "c) Am 1. Mai"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Stefan zieht am 1. April um.",
+      "explanation_en": "Stefan is moving on April 1st."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was möchte Stefan nach dem Umzug machen?",
+      "text_en": "What does Stefan want to do after the move?",
+      "options": [
+        "a) In den Park gehen",
+        "b) Kochen",
+        "c) Pizza essen gehen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Stefan möchte alle zum Essen einladen — Pizza vom Italiener.",
+      "explanation_en": "Stefan wants to treat everyone to dinner — pizza from the Italian place."
+    }
+  ]
+}

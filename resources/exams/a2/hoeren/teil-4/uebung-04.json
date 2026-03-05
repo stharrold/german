@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-4-004",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Kochen als Leidenschaft",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Bei uns im Studio ist heute Frau Yilmaz. Sie hat ein kleines Café in der Altstadt. Frau Yilmaz, seit wann haben Sie das Café?",
+      "text_en": "With us in the studio today is Mrs. Yilmaz. She has a small café in the old town. Mrs. Yilmaz, since when have you had the café?"
+    },
+    {
+      "speaker": "Frau Yilmaz",
+      "text_de": "Seit drei Jahren. Vorher habe ich in einem Restaurant als Köchin gearbeitet. Aber ich wollte immer mein eigenes Café haben.",
+      "text_en": "For three years. Before that I worked as a cook in a restaurant. But I always wanted to have my own café."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was gibt es in Ihrem Café?",
+      "text_en": "What do you offer in your café?"
+    },
+    {
+      "speaker": "Frau Yilmaz",
+      "text_de": "Wir haben Frühstück, Kuchen und Mittagessen. Alles ist frisch und selbst gemacht. Ich backe jeden Morgen um 5 Uhr die Kuchen.",
+      "text_en": "We have breakfast, cakes, and lunch. Everything is fresh and homemade. I bake the cakes every morning at 5 AM."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was ist am beliebtesten?",
+      "text_en": "What is most popular?"
+    },
+    {
+      "speaker": "Frau Yilmaz",
+      "text_de": "Der Käsekuchen! Die Leute lieben meinen Käsekuchen. Das Rezept ist von meiner Großmutter.",
+      "text_en": "The cheesecake! People love my cheesecake. The recipe is from my grandmother."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Haben Sie Mitarbeiter?",
+      "text_en": "Do you have employees?"
+    },
+    {
+      "speaker": "Frau Yilmaz",
+      "text_de": "Ja, ich habe zwei Mitarbeiterinnen. Sie helfen mir beim Servieren und Aufräumen. Ohne sie könnte ich das nicht schaffen.",
+      "text_en": "Yes, I have two female employees. They help me with serving and cleaning up. Without them I couldn't manage it."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Frau Yilmaz hat das Café seit fünf Jahren.",
+      "text_en": "Mrs. Yilmaz has had the café for five years.",
+      "correct_answer": false,
+      "explanation_de": "Sie hat das Café seit drei Jahren.",
+      "explanation_en": "She has had the café for three years."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Früher hat Frau Yilmaz in einem Restaurant gearbeitet.",
+      "text_en": "Mrs. Yilmaz used to work in a restaurant.",
+      "correct_answer": true,
+      "explanation_de": "Vorher hat sie in einem Restaurant als Köchin gearbeitet.",
+      "explanation_en": "Before that she worked as a cook in a restaurant."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Frau Yilmaz backt die Kuchen am Abend.",
+      "text_en": "Mrs. Yilmaz bakes the cakes in the evening.",
+      "correct_answer": false,
+      "explanation_de": "Sie backt jeden Morgen um 5 Uhr die Kuchen.",
+      "explanation_en": "She bakes the cakes every morning at 5 AM."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Das Käsekuchen-Rezept ist von ihrer Großmutter.",
+      "text_en": "The cheesecake recipe is from her grandmother.",
+      "correct_answer": true,
+      "explanation_de": "Das Rezept ist von ihrer Großmutter.",
+      "explanation_en": "The recipe is from her grandmother."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Frau Yilmaz arbeitet allein im Café.",
+      "text_en": "Mrs. Yilmaz works alone in the café.",
+      "correct_answer": false,
+      "explanation_de": "Sie hat zwei Mitarbeiterinnen, die ihr helfen.",
+      "explanation_en": "She has two employees who help her."
+    }
+  ]
+}

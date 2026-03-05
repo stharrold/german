@@ -1,0 +1,108 @@
+{
+  "id": "a2-hoeren-teil-1-004",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Alltagstexte — Zuhause und Familie",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Hallo Sabine, hier ist Opa. Ich komme am Samstag zu Besuch. Ich bringe einen Kuchen mit. Soll ich auch Blumen mitbringen? Ruf mich bitte an! Bis Samstag!",
+      "text_en": "Hello Sabine, this is Grandpa. I'm coming to visit on Saturday. I'll bring a cake. Should I also bring flowers? Please call me! See you Saturday!"
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Liebe Mieter, die Hausverwaltung informiert: Der Aufzug wird am Donnerstag und Freitag repariert. Bitte benutzen Sie die Treppe. Wir danken für Ihr Verständnis.",
+      "text_en": "Dear tenants, the building management informs: The elevator will be repaired on Thursday and Friday. Please use the stairs. We thank you for your understanding."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Guten Tag, hier ist der Möbelhandel Schmidt. Ihre Lieferung kommt am Dienstag zwischen 10 und 14 Uhr. Bitte seien Sie zu Hause. Sie bekommen ein neues Sofa und einen Tisch.",
+      "text_en": "Good day, this is Schmidt furniture store. Your delivery will arrive on Tuesday between 10 AM and 2 PM. Please be at home. You are getting a new sofa and a table."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Hi Julia, hier ist Tom. Ich habe deinen Schlüssel gefunden! Er lag unter dem Sofa im Wohnzimmer. Ich lege ihn auf den Küchentisch. Bis heute Abend!",
+      "text_en": "Hi Julia, this is Tom. I found your key! It was under the sofa in the living room. I'll put it on the kitchen table. See you this evening!"
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Liebe Nachbarn, am Sonntag feiern wir den Geburtstag von unserem Sohn Max. Die Party ist von 14 bis 18 Uhr. Es kann etwas lauter werden. Wir hoffen, das ist in Ordnung.",
+      "text_en": "Dear neighbors, on Sunday we are celebrating our son Max's birthday. The party is from 2 to 6 PM. It may get a bit louder. We hope that is okay."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was bringt Opa am Samstag mit?",
+      "text_en": "What is Grandpa bringing on Saturday?",
+      "options": [
+        "a) Blumen",
+        "b) Einen Kuchen",
+        "c) Geschenke"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Opa bringt einen Kuchen mit.",
+      "explanation_en": "Grandpa is bringing a cake."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "An welchen Tagen wird der Aufzug repariert?",
+      "text_en": "On which days will the elevator be repaired?",
+      "options": [
+        "a) Montag und Dienstag",
+        "b) Mittwoch und Donnerstag",
+        "c) Donnerstag und Freitag"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Aufzug wird am Donnerstag und Freitag repariert.",
+      "explanation_en": "The elevator will be repaired on Thursday and Friday."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was wird am Dienstag geliefert?",
+      "text_en": "What will be delivered on Tuesday?",
+      "options": [
+        "a) Ein Bett und ein Schrank",
+        "b) Ein Sofa und ein Tisch",
+        "c) Stühle und ein Regal"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es werden ein Sofa und ein Tisch geliefert.",
+      "explanation_en": "A sofa and a table will be delivered."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo hat Tom den Schlüssel gefunden?",
+      "text_en": "Where did Tom find the key?",
+      "options": [
+        "a) Auf dem Küchentisch",
+        "b) Im Schlafzimmer",
+        "c) Unter dem Sofa"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Schlüssel lag unter dem Sofa im Wohnzimmer.",
+      "explanation_en": "The key was under the sofa in the living room."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Von wann bis wann ist die Geburtstagsparty?",
+      "text_en": "From when to when is the birthday party?",
+      "options": [
+        "a) Von 12 bis 16 Uhr",
+        "b) Von 14 bis 18 Uhr",
+        "c) Von 16 bis 20 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Party ist von 14 bis 18 Uhr.",
+      "explanation_en": "The party is from 2 to 6 PM."
+    }
+  ]
+}

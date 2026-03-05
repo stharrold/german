@@ -1,0 +1,108 @@
+{
+  "id": "a2-hoeren-teil-1-003",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Alltagstexte — Verkehr und Dienstleistungen",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Nächster Halt: Hauptbahnhof. Bitte steigen Sie rechts aus. Umstieg zur U-Bahn Linie 3 und zur S-Bahn. Vergessen Sie Ihre Sachen nicht!",
+      "text_en": "Next stop: Main station. Please exit on the right. Connection to subway line 3 and to the S-Bahn. Don't forget your belongings!"
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Guten Tag, hier ist die Autowerkstatt Müller. Ihr Auto ist fertig. Sie können es ab morgen Nachmittag abholen. Die Reparatur kostet 180 Euro. Bitte bringen Sie Ihren Fahrzeugschein mit.",
+      "text_en": "Good day, this is Müller's car workshop. Your car is ready. You can pick it up starting tomorrow afternoon. The repair costs 180 euros. Please bring your vehicle registration."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Liebe Hausbewohner, am Mittwoch zwischen 9 und 12 Uhr wird das Wasser abgestellt. Der Grund sind Reparaturarbeiten. Bitte füllen Sie vorher Wasser in Flaschen. Vielen Dank für Ihr Verständnis.",
+      "text_en": "Dear residents, on Wednesday between 9 and 12 the water will be shut off. The reason is repair work. Please fill bottles with water beforehand. Thank you for your understanding."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Hallo Markus, hier ist Stefan. Ich bin am Bahnhof angekommen, aber ich finde dich nicht. Wo bist du? Ich warte vor dem Kiosk am Ausgang Ost. Bitte ruf mich zurück!",
+      "text_en": "Hello Markus, this is Stefan. I arrived at the train station, but I can't find you. Where are you? I'm waiting in front of the kiosk at the east exit. Please call me back!"
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Achtung, liebe Kunden! Unser Geschäft schließt in 15 Minuten. Bitte gehen Sie zur Kasse. Morgen sind wir wieder ab 9 Uhr für Sie da. Einen schönen Abend!",
+      "text_en": "Attention, dear customers! Our store closes in 15 minutes. Please go to the checkout. Tomorrow we will be here again from 9 AM. Have a nice evening!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wohin kann man am Hauptbahnhof umsteigen?",
+      "text_en": "What can you transfer to at the main station?",
+      "options": [
+        "a) Zur U-Bahn Linie 5",
+        "b) Zur U-Bahn Linie 3",
+        "c) Zum Bus Linie 3"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man kann zur U-Bahn Linie 3 und zur S-Bahn umsteigen.",
+      "explanation_en": "You can transfer to subway line 3 and the S-Bahn."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Autoreparatur?",
+      "text_en": "How much does the car repair cost?",
+      "options": [
+        "a) 150 Euro",
+        "b) 180 Euro",
+        "c) 200 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Reparatur kostet 180 Euro.",
+      "explanation_en": "The repair costs 180 euros."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann wird das Wasser abgestellt?",
+      "text_en": "When will the water be shut off?",
+      "options": [
+        "a) Am Dienstag",
+        "b) Am Mittwoch",
+        "c) Am Donnerstag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Wasser wird am Mittwoch zwischen 9 und 12 Uhr abgestellt.",
+      "explanation_en": "The water will be shut off on Wednesday between 9 and 12."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo wartet Stefan?",
+      "text_en": "Where is Stefan waiting?",
+      "options": [
+        "a) Vor dem Restaurant",
+        "b) Vor dem Kiosk",
+        "c) Im Zug"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Stefan wartet vor dem Kiosk am Ausgang Ost.",
+      "explanation_en": "Stefan is waiting in front of the kiosk at the east exit."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann öffnet das Geschäft morgen?",
+      "text_en": "When does the store open tomorrow?",
+      "options": [
+        "a) Um 8 Uhr",
+        "b) Um 9 Uhr",
+        "c) Um 10 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Geschäft öffnet morgen um 9 Uhr.",
+      "explanation_en": "The store opens tomorrow at 9 AM."
+    }
+  ]
+}

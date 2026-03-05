@@ -1,0 +1,103 @@
+{
+  "id": "a2-hoeren-teil-2-002",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Hobbys und Freizeit",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was ist richtig? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Anna",
+      "text_de": "Hallo Ben, ich habe gehört, du hast ein neues Hobby?",
+      "text_en": "Hello Ben, I heard you have a new hobby?"
+    },
+    {
+      "speaker": "Ben",
+      "text_de": "Ja, ich lerne seit zwei Monaten Gitarre. Ich nehme jeden Dienstag Unterricht.",
+      "text_en": "Yes, I've been learning guitar for two months. I take lessons every Tuesday."
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Das ist toll! Ich mache auch etwas Neues. Ich gehe jetzt dreimal pro Woche joggen.",
+      "text_en": "That's great! I'm also doing something new. I now go jogging three times a week."
+    },
+    {
+      "speaker": "Ben",
+      "text_de": "Wirklich? Wo joggst du? Ich jogge auch manchmal, aber nur am Wochenende.",
+      "text_en": "Really? Where do you jog? I also jog sometimes, but only on the weekend."
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Ich jogge im Stadtpark. Morgens um 7 Uhr, bevor ich zur Arbeit gehe. Es macht mir sehr viel Spaß.",
+      "text_en": "I jog in the city park. In the morning at 7 AM, before I go to work. It's a lot of fun for me."
+    },
+    {
+      "speaker": "Ben",
+      "text_de": "Das ist aber früh! Ich stehe lieber spät auf. Am Wochenende koche ich auch gern. Letzten Sonntag habe ich eine Lasagne gemacht.",
+      "text_en": "That's early! I prefer to get up late. On weekends I also like to cook. Last Sunday I made a lasagna."
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Lecker! Ich koche nicht so gern. Ich lese lieber. Im Moment lese ich einen Krimi. Er ist sehr spannend.",
+      "text_en": "Delicious! I don't like to cook that much. I prefer to read. At the moment I'm reading a crime novel. It's very exciting."
+    },
+    {
+      "speaker": "Ben",
+      "text_de": "Ich lese auch gern, aber lieber Sachbücher. Vielleicht können wir mal zusammen kochen? Ich zeige dir meine Lasagne!",
+      "text_en": "I also like to read, but I prefer non-fiction. Maybe we can cook together sometime? I'll show you my lasagna!"
+    },
+    {
+      "speaker": "Anna",
+      "text_de": "Ja, das wäre schön! Dann bringe ich den Wein mit.",
+      "text_en": "Yes, that would be nice! Then I'll bring the wine."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer lernt Gitarre?",
+      "text_en": "Who is learning guitar?",
+      "correct_answer": "Ben",
+      "explanation_de": "Ben lernt seit zwei Monaten Gitarre.",
+      "explanation_en": "Ben has been learning guitar for two months."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer geht dreimal pro Woche joggen?",
+      "text_en": "Who goes jogging three times a week?",
+      "correct_answer": "Anna",
+      "explanation_de": "Anna geht dreimal pro Woche joggen.",
+      "explanation_en": "Anna goes jogging three times a week."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer kocht gern am Wochenende?",
+      "text_en": "Who likes to cook on weekends?",
+      "correct_answer": "Ben",
+      "explanation_de": "Ben kocht gern am Wochenende.",
+      "explanation_en": "Ben likes to cook on weekends."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer liest gern Krimis?",
+      "text_en": "Who likes to read crime novels?",
+      "correct_answer": "Anna",
+      "explanation_de": "Anna liest im Moment einen Krimi.",
+      "explanation_en": "Anna is currently reading a crime novel."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer liest lieber Sachbücher?",
+      "text_en": "Who prefers to read non-fiction?",
+      "correct_answer": "Ben",
+      "explanation_de": "Ben liest lieber Sachbücher.",
+      "explanation_en": "Ben prefers to read non-fiction."
+    }
+  ]
+}

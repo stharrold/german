@@ -1,0 +1,108 @@
+{
+  "id": "a2-hoeren-teil-1-005",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Alltagstexte — Gesundheit und Essen",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Guten Tag, hier ist die Arztpraxis Dr. Braun. Wir haben diese Woche noch einen Termin frei: am Mittwoch um 11 Uhr. Bitte bringen Sie Ihre Versicherungskarte mit. Auf Wiederhören.",
+      "text_en": "Good day, this is Dr. Braun's medical practice. We still have one appointment available this week: on Wednesday at 11 AM. Please bring your insurance card. Goodbye."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Liebe Gäste, unser Restaurant hat heute ein besonderes Mittagsmenü: Tomatensuppe, Schnitzel mit Kartoffeln und ein Stück Apfelkuchen. Das kostet zusammen nur 12 Euro.",
+      "text_en": "Dear guests, our restaurant has a special lunch menu today: tomato soup, schnitzel with potatoes, and a piece of apple cake. That costs only 12 euros together."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Hallo Sven, hier ist deine Mutter. Bitte vergiss nicht, die Tabletten zu nehmen! Du musst dreimal am Tag eine Tablette nach dem Essen nehmen. Und trink viel Wasser! Gute Besserung!",
+      "text_en": "Hello Sven, this is your mother. Please don't forget to take the tablets! You have to take one tablet three times a day after eating. And drink lots of water! Get well soon!"
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Achtung, Achtung! Die Kantine im zweiten Stock ist heute geschlossen. Bitte benutzen Sie die Cafeteria im Erdgeschoss. Dort gibt es Sandwiches, Salate und warme Getränke.",
+      "text_en": "Attention, attention! The canteen on the second floor is closed today. Please use the cafeteria on the ground floor. There you can find sandwiches, salads, and hot drinks."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Guten Tag, hier ist die Apotheke am Rathaus. Ihr Medikament ist da. Sie können es heute bis 18 Uhr oder morgen ab 8 Uhr abholen. Bitte bringen Sie Ihr Rezept mit.",
+      "text_en": "Good day, this is the pharmacy at the town hall. Your medication is here. You can pick it up today until 6 PM or tomorrow from 8 AM. Please bring your prescription."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der freie Termin beim Arzt?",
+      "text_en": "When is the available appointment at the doctor?",
+      "options": [
+        "a) Dienstag um 10 Uhr",
+        "b) Mittwoch um 11 Uhr",
+        "c) Donnerstag um 14 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der freie Termin ist am Mittwoch um 11 Uhr.",
+      "explanation_en": "The available appointment is on Wednesday at 11 AM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kostet das Mittagsmenü?",
+      "text_en": "How much does the lunch menu cost?",
+      "options": [
+        "a) 10 Euro",
+        "b) 12 Euro",
+        "c) 15 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Mittagsmenü kostet 12 Euro.",
+      "explanation_en": "The lunch menu costs 12 euros."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie oft muss Sven die Tabletten nehmen?",
+      "text_en": "How often must Sven take the tablets?",
+      "options": [
+        "a) Einmal am Tag",
+        "b) Zweimal am Tag",
+        "c) Dreimal am Tag"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sven muss dreimal am Tag eine Tablette nehmen.",
+      "explanation_en": "Sven must take a tablet three times a day."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "In welchem Stock ist die Cafeteria?",
+      "text_en": "On which floor is the cafeteria?",
+      "options": [
+        "a) Im Erdgeschoss",
+        "b) Im ersten Stock",
+        "c) Im zweiten Stock"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Cafeteria ist im Erdgeschoss.",
+      "explanation_en": "The cafeteria is on the ground floor."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was muss man zur Apotheke mitbringen?",
+      "text_en": "What must you bring to the pharmacy?",
+      "options": [
+        "a) Die Versicherungskarte",
+        "b) Das Rezept",
+        "c) Den Personalausweis"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man muss das Rezept mitbringen.",
+      "explanation_en": "You must bring the prescription."
+    }
+  ]
+}

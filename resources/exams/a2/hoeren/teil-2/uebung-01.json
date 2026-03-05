@@ -1,0 +1,103 @@
+{
+  "id": "a2-hoeren-teil-2-001",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Wochenendpläne",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was ist richtig? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Maria",
+      "text_de": "Hallo Klaus, was machst du am Wochenende?",
+      "text_en": "Hello Klaus, what are you doing this weekend?"
+    },
+    {
+      "speaker": "Klaus",
+      "text_de": "Am Samstag gehe ich zuerst zum Sport. Ich spiele um 10 Uhr Fußball mit meinen Freunden im Park.",
+      "text_en": "On Saturday I'm first going to sports. I'm playing football with my friends in the park at 10 AM."
+    },
+    {
+      "speaker": "Maria",
+      "text_de": "Das klingt toll! Ich gehe am Samstag einkaufen. Ich brauche neue Schuhe für die Arbeit.",
+      "text_en": "That sounds great! I'm going shopping on Saturday. I need new shoes for work."
+    },
+    {
+      "speaker": "Klaus",
+      "text_de": "Am Nachmittag möchte ich dann ins Museum gehen. Es gibt eine neue Ausstellung über moderne Kunst.",
+      "text_en": "In the afternoon I'd like to go to the museum then. There's a new exhibition about modern art."
+    },
+    {
+      "speaker": "Maria",
+      "text_de": "Oh, das ist interessant. Am Nachmittag besuche ich meine Großmutter. Sie hat morgen Geburtstag.",
+      "text_en": "Oh, that's interesting. In the afternoon I'm visiting my grandmother. She has her birthday tomorrow."
+    },
+    {
+      "speaker": "Klaus",
+      "text_de": "Und am Sonntag? Hast du Zeit? Wollen wir zusammen essen gehen?",
+      "text_en": "And on Sunday? Do you have time? Shall we go eat together?"
+    },
+    {
+      "speaker": "Maria",
+      "text_de": "Ja, gerne! Am Sonntagvormittag muss ich noch aufräumen, aber am Mittag bin ich frei. Gehen wir in das italienische Restaurant in der Stadtmitte?",
+      "text_en": "Yes, gladly! On Sunday morning I still have to clean up, but at noon I'm free. Shall we go to the Italian restaurant in the city center?"
+    },
+    {
+      "speaker": "Klaus",
+      "text_de": "Gute Idee! Ich liebe Pizza. Treffen wir uns um 12 Uhr dort?",
+      "text_en": "Good idea! I love pizza. Shall we meet at 12 there?"
+    },
+    {
+      "speaker": "Maria",
+      "text_de": "Perfekt, 12 Uhr passt mir gut. Bis dann!",
+      "text_en": "Perfect, 12 o'clock works well for me. See you then!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer spielt am Samstag Fußball?",
+      "text_en": "Who plays football on Saturday?",
+      "correct_answer": "Klaus",
+      "explanation_de": "Klaus spielt um 10 Uhr Fußball mit seinen Freunden.",
+      "explanation_en": "Klaus plays football with his friends at 10 AM."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer braucht neue Schuhe?",
+      "text_en": "Who needs new shoes?",
+      "correct_answer": "Maria",
+      "explanation_de": "Maria braucht neue Schuhe für die Arbeit.",
+      "explanation_en": "Maria needs new shoes for work."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer geht ins Museum?",
+      "text_en": "Who is going to the museum?",
+      "correct_answer": "Klaus",
+      "explanation_de": "Klaus möchte am Nachmittag ins Museum gehen.",
+      "explanation_en": "Klaus wants to go to the museum in the afternoon."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer besucht die Großmutter?",
+      "text_en": "Who is visiting the grandmother?",
+      "correct_answer": "Maria",
+      "explanation_de": "Maria besucht am Nachmittag ihre Großmutter.",
+      "explanation_en": "Maria is visiting her grandmother in the afternoon."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer muss am Sonntag aufräumen?",
+      "text_en": "Who has to clean up on Sunday?",
+      "correct_answer": "Maria",
+      "explanation_de": "Maria muss am Sonntagvormittag aufräumen.",
+      "explanation_en": "Maria has to clean up on Sunday morning."
+    }
+  ]
+}

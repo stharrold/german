@@ -1,0 +1,26 @@
+{
+  "id": "a2-schreiben-aufgabe-2-002",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Krankmeldung beim Deutschkurs",
+  "instructions": "Schreiben Sie eine E-Mail (ca. 30-40 Wörter).",
+  "situation_de": "Sie sind krank und können morgen nicht zum Deutschkurs kommen. Schreiben Sie eine E-Mail an Ihre Lehrerin Frau Müller.",
+  "situation_en": "You are sick and cannot come to the German class tomorrow. Write an email to your teacher, Mrs. Müller.",
+  "target_word_count": 35,
+  "required_points": [
+    "Sagen, dass Sie nicht kommen können (Say that you cannot come)",
+    "Den Grund nennen (Give the reason)",
+    "Fragen, welche Hausaufgaben Sie machen sollen (Ask what homework you should do)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Frau Müller,\n\nleider kann ich morgen nicht zum Deutschkurs kommen, weil ich krank bin. Ich habe Fieber und Halsschmerzen. Können Sie mir bitte sagen, welche Hausaufgaben ich machen soll?\n\nMit freundlichen Grüßen\nAnna Petrova",
+    "text_en": "Dear Mrs. Müller,\n\nunfortunately I cannot come to the German class tomorrow because I am sick. I have a fever and a sore throat. Could you please tell me what homework I should do?\n\nBest regards\nAnna Petrova"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Kohärenz: Die E-Mail hat eine passende Anrede und einen Gruß (Coherence: The email has an appropriate salutation and closing)",
+    "Wortschatz: Angemessener formeller Wortschatz auf A2-Niveau (Vocabulary: Appropriate formal vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

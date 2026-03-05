@@ -1,0 +1,71 @@
+{
+  "id": "a2-sprechen-teil-3-001",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Einen Ausflug planen",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten etwas zusammen machen. Planen Sie etwas.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin möchten am Wochenende einen Ausflug machen. Planen Sie den Ausflug zusammen.",
+  "situation_en": "You and your partner would like to go on a trip at the weekend. Plan the trip together.",
+  "discussion_points": [
+    "Wohin wollen wir fahren? (Where do we want to go?)",
+    "Wie kommen wir dorthin? (How do we get there?)",
+    "Was wollen wir dort machen? (What do we want to do there?)",
+    "Was sollen wir mitnehmen? (What should we bring?)",
+    "Wann wollen wir losfahren und wann kommen wir zurück? (When do we want to leave and when do we come back?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir möchten am Wochenende einen Ausflug machen. Hast du eine Idee, wohin wir fahren können?",
+      "text_en": "We would like to go on a trip at the weekend. Do you have an idea where we could go?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja! Wir können an einen See fahren. In der Nähe gibt es einen schönen See mit einem Strand.",
+      "text_en": "Yes! We can go to a lake. Nearby there is a beautiful lake with a beach."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das ist eine gute Idee! Wie kommen wir dorthin? Mit dem Auto oder mit dem Zug?",
+      "text_en": "That is a good idea! How do we get there? By car or by train?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich denke, mit dem Auto ist es besser. Dann können wir auch viel mitnehmen. Hast du ein Auto?",
+      "text_en": "I think by car is better. Then we can also bring a lot. Do you have a car?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ja, ich kann fahren. Was wollen wir am See machen? Schwimmen oder spazieren gehen?",
+      "text_en": "Yes, I can drive. What do we want to do at the lake? Swim or go for a walk?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir können beides machen! Und wir können ein Picknick machen. Ich bringe Brötchen und Obst mit.",
+      "text_en": "We can do both! And we can have a picnic. I will bring rolls and fruit."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Super, dann bringe ich Getränke und eine Decke mit. Wann wollen wir losfahren?",
+      "text_en": "Great, then I will bring drinks and a blanket. When do we want to leave?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir können um 10 Uhr losfahren. Dann sind wir um 11 Uhr da. Am Nachmittag gegen 17 Uhr können wir zurückfahren.",
+      "text_en": "We can leave at 10 o'clock. Then we will be there at 11 o'clock. In the afternoon around 5 p.m. we can drive back."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Perfekt! Das wird ein schöner Tag. Ich freue mich!",
+      "text_en": "Perfect! That will be a nice day. I am looking forward to it!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Ausflug und Freizeit auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, wollen, sollen) und einfachen Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

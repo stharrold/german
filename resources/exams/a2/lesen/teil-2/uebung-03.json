@@ -1,0 +1,62 @@
+{
+  "id": "a2-lesen-teil-2-003",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Veranstaltungen im Kulturzentrum",
+  "instructions": "Lesen Sie die Informationen und die Aufgaben. Welche Information passt? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Kulturzentrum am Park – Programm März:\n\nA) Kindertheater: Der kleine Prinz – Samstag, 5. März, 15:00 Uhr. Für Kinder ab 5 Jahren. Eintritt: 6 Euro.\n\nB) Jazzkonzert: Trio Berlin – Freitag, 11. März, 20:00 Uhr. Karten: 18 Euro. Nur für Erwachsene.\n\nC) Filmabend: Komödie aus Österreich – Mittwoch, 16. März, 19:30 Uhr. Eintritt frei. Mit Untertiteln auf Englisch.\n\nD) Tanzkurs: Salsa für Paare – Donnerstag, 17. März bis 7. April, 19:00-20:30 Uhr. 4 Abende, 60 Euro pro Paar.\n\nE) Lesung: Krimi-Autorin Anna Berger – Dienstag, 22. März, 18:30 Uhr. Eintritt: 8 Euro. Bücher zum Kaufen.\n\nF) Flohmarkt für Kinder – Sonntag, 27. März, 10:00-14:00 Uhr. Spielzeug, Bücher, Kleidung. Eintritt frei.",
+    "text_en": "Cultural Center at the Park – March Program:\n\nA) Children's Theater: The Little Prince – Saturday, March 5, 3:00 PM. For children from 5 years. Admission: 6 euros.\n\nB) Jazz Concert: Trio Berlin – Friday, March 11, 8:00 PM. Tickets: 18 euros. Adults only.\n\nC) Film Evening: Comedy from Austria – Wednesday, March 16, 7:30 PM. Free admission. With English subtitles.\n\nD) Dance Course: Salsa for Couples – Thursday, March 17 to April 7, 7:00-8:30 PM. 4 evenings, 60 euros per couple.\n\nE) Reading: Crime Author Anna Berger – Tuesday, March 22, 6:30 PM. Admission: 8 euros. Books for sale.\n\nF) Flea Market for Children – Sunday, March 27, 10:00 AM-2:00 PM. Toys, books, clothes. Free admission.",
+    "source": "Veranstaltungskalender",
+    "word_count": 115
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Familie Hoffmann sucht etwas für den Samstagmachmittag mit ihren Kindern (7 und 9 Jahre).",
+      "text_en": "The Hoffmann family is looking for something on Saturday afternoon with their children (ages 7 and 9).",
+      "correct_answer": "A",
+      "explanation_de": "Das Kindertheater (A) ist am Samstag um 15 Uhr und für Kinder ab 5 Jahren.",
+      "explanation_en": "The children's theater (A) is on Saturday at 3 PM and for children from 5 years."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Herr und Frau Petersen möchten zusammen etwas Neues lernen. Sie tanzen gern.",
+      "text_en": "Mr. and Mrs. Petersen want to learn something new together. They like dancing.",
+      "correct_answer": "D",
+      "explanation_de": "Der Salsa-Tanzkurs (D) ist für Paare.",
+      "explanation_en": "The salsa dance course (D) is for couples."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Tom spricht wenig Deutsch, aber er möchte einen Film sehen.",
+      "text_en": "Tom speaks little German, but he wants to see a film.",
+      "correct_answer": "C",
+      "explanation_de": "Der Filmabend (C) hat englische Untertitel und ist kostenlos.",
+      "explanation_en": "The film evening (C) has English subtitles and is free."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Richter liest gern Krimis und möchte ihre Lieblingsautorin treffen.",
+      "text_en": "Ms. Richter likes reading crime novels and wants to meet her favorite author.",
+      "correct_answer": "E",
+      "explanation_de": "Die Lesung der Krimi-Autorin Anna Berger (E) passt.",
+      "explanation_en": "The reading by crime author Anna Berger (E) fits."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Herr Bauer möchte am Freitagabend Livemusik hören.",
+      "text_en": "Mr. Bauer wants to listen to live music on Friday evening.",
+      "correct_answer": "B",
+      "explanation_de": "Das Jazzkonzert (B) ist am Freitag um 20 Uhr.",
+      "explanation_en": "The jazz concert (B) is on Friday at 8 PM."
+    }
+  ]
+}

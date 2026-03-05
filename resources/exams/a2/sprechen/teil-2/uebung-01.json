@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-2-001",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Meine Stadt",
+  "instructions": "Sie bekommen ein Thema. Sprechen Sie über das Thema.",
+  "situation_de": "Der Prüfer / Die Prüferin fragt Sie über Ihre Stadt oder Ihren Wohnort. Beantworten Sie die Fragen mit zwei bis drei Sätzen.",
+  "situation_en": "The examiner asks you about your city or your place of residence. Answer the questions with two to three sentences.",
+  "discussion_points": [
+    "Wo wohnen Sie? Beschreiben Sie Ihre Stadt. (Where do you live? Describe your city.)",
+    "Was gefällt Ihnen an Ihrer Stadt? (What do you like about your city?)",
+    "Gibt es gute Geschäfte und Restaurants? (Are there good shops and restaurants?)",
+    "Was kann man in Ihrer Stadt machen? (What can you do in your city?)",
+    "Möchten Sie in einer anderen Stadt leben? Warum? (Would you like to live in a different city? Why?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist „Meine Stadt“. Wo wohnen Sie? Beschreiben Sie Ihre Stadt.",
+      "text_en": "Our topic is \"My city.\" Where do you live? Describe your city."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich wohne in München. München ist eine große Stadt in Süddeutschland. Es gibt viele schöne Parks und alte Gebäude.",
+      "text_en": "I live in Munich. Munich is a big city in southern Germany. There are many beautiful parks and old buildings."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was gefällt Ihnen an Ihrer Stadt?",
+      "text_en": "What do you like about your city?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mir gefällt, dass es viele Museen und Kulturangebote gibt. Auch die Natur ist schön. Man kann schnell in die Berge fahren.",
+      "text_en": "I like that there are many museums and cultural offerings. The nature is also beautiful. You can quickly go to the mountains."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Gibt es gute Geschäfte und Restaurants?",
+      "text_en": "Are there good shops and restaurants?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, es gibt viele gute Restaurants. Ich gehe gern in ein bayerisches Restaurant. Auch zum Einkaufen gibt es viele Möglichkeiten.",
+      "text_en": "Yes, there are many good restaurants. I like going to a Bavarian restaurant. There are also many options for shopping."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was kann man in Ihrer Stadt machen?",
+      "text_en": "What can you do in your city?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Man kann im Englischen Garten spazieren gehen oder Fahrrad fahren. Im Sommer kann man sogar im Fluss schwimmen.",
+      "text_en": "You can go for a walk in the English Garden or ride a bicycle. In summer, you can even swim in the river."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Möchten Sie in einer anderen Stadt leben?",
+      "text_en": "Would you like to live in a different city?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Nein, ich möchte in München bleiben. Ich fühle mich hier wohl. Aber ich möchte gern andere Städte besuchen.",
+      "text_en": "No, I would like to stay in Munich. I feel comfortable here. But I would like to visit other cities."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Fragen werden mit zwei bis drei Sätzen beantwortet.",
+    "Zusammenhang: Die Antworten sind logisch und passen zum Thema.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Stadt und Wohnen wird verwendet.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und einfachen Konnektoren (und, aber, auch).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ]
+}

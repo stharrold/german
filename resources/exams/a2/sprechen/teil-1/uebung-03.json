@@ -1,0 +1,75 @@
+{
+  "id": "a2-sprechen-teil-1-003",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Themen: Tagesablauf, Wetter, Kleidung, Schule",
+  "instructions": "Sie bekommen vier Karten mit Themen. Sprechen Sie über die Themen.",
+  "situation_de": "Sie ziehen vier Karten. Auf jeder Karte steht ein Thema. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You draw four cards. Each card has a topic. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Tagesablauf: Wann stehen Sie morgens auf? (Daily routine: When do you get up in the morning?)",
+    "Wetter: Welches Wetter mögen Sie am liebsten? (Weather: What weather do you like best?)",
+    "Kleidung: Was tragen Sie gern? (Clothing: What do you like to wear?)",
+    "Schule: Haben Sie gern Deutsch gelernt? (School: Did you enjoy learning German?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre Karten. Beginnen Sie bitte.",
+      "text_en": "Here are your cards. Please begin."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Danke. Mein erstes Thema ist Tagesablauf. Wann stehen Sie morgens auf?",
+      "text_en": "Thank you. My first topic is daily routine. When do you get up in the morning?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich stehe um 7 Uhr auf. Was machen Sie morgens zuerst?",
+      "text_en": "I get up at 7 o'clock. What do you do first in the morning?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich dusche zuerst und dann frühstücke ich. Mein nächstes Thema ist Wetter. Welches Wetter mögen Sie?",
+      "text_en": "I shower first and then I have breakfast. My next topic is weather. What weather do you like?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich mag Sonne und warmes Wetter. Was ist Ihr Lieblingswetter?",
+      "text_en": "I like sun and warm weather. What is your favorite weather?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich mag den Frühling, wenn es nicht zu heiß ist. Jetzt kommt Kleidung. Was tragen Sie gern?",
+      "text_en": "I like spring, when it is not too hot. Now comes clothing. What do you like to wear?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich trage gern Jeans und T-Shirts. Und Sie?",
+      "text_en": "I like wearing jeans and T-shirts. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich auch! Das ist bequem. Mein letztes Thema ist Schule. Haben Sie gern Deutsch gelernt?",
+      "text_en": "Me too! That is comfortable. My last topic is school. Did you enjoy learning German?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ja, Deutsch macht mir Spaß. War es für Sie schwer?",
+      "text_en": "Yes, German is fun for me. Was it difficult for you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Anfang war es schwer, aber jetzt verstehe ich viel. Ich übe jeden Tag.",
+      "text_en": "At the beginning it was difficult, but now I understand a lot. I practice every day."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten des Prüfers und stellt Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ]
+}
