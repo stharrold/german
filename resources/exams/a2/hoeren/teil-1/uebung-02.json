@@ -70,7 +70,7 @@
       "options": [
         "a) Sie muss arbeiten.",
         "b) Sie ist krank.",
-        "c) Sie hat keinen Geld."
+        "c) Sie hat kein Geld."
       ],
       "correct_answer": "b",
       "explanation_de": "Petra ist krank und muss im Bett bleiben.",

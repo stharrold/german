@@ -43,8 +43,8 @@
     {
       "number": 4,
       "type": "matching",
-      "text_de": "Die Tochter von Herrn Bauer (8 Jahre) hat Probleme in Mathematik in der Schule.",
-      "text_en": "Mr. Bauer's daughter (8 years old) has problems with mathematics at school.",
+      "text_de": "Die Tochter von Herrn Bauer (12 Jahre) hat Probleme in Mathematik in der Schule.",
+      "text_en": "Mr. Bauer's daughter (12 years old) has problems with mathematics at school.",
       "correct_answer": "A",
       "explanation_de": "Die Nachhilfe (A) bietet Mathematik für Schüler ab Klasse 5.",
       "explanation_en": "The tutoring (A) offers mathematics for students from grade 5."
