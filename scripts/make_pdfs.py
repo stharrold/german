@@ -379,7 +379,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate printable PDFs for exam exercises")
     parser.add_argument("--level", choices=list(LEVELS.keys()), default="b1", help="CEFR level")
     parser.add_argument("--output-dir", help="Output directory (default: resources/exams/{level}/pdfs)")
-    parser.add_argument("--skill", choices=["hoeren", "lesen", "schreiben", "sprechen"], help="Generate PDF for a single skill only")
+    parser.add_argument("--skill", help="Generate PDF for a single skill only")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir) if args.output_dir else Path(f"resources/exams/{args.level}/pdfs")

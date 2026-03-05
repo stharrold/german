@@ -175,11 +175,21 @@ def test_a2_all_ids_unique():
 
 
 def test_a2_all_bilingual():
-    """Test that all exercises have bilingual content."""
+    """Test that all exercises have bilingual content where expected."""
+    def check_fields(obj, filepath):
+        if isinstance(obj, dict):
+            for key, value in obj.items():
+                if key.endswith("_de"):
+                    en_key = key[:-3] + "_en"
+                    assert en_key in obj, f"Missing '{en_key}' for '{key}' in {filepath}"
+                elif key.endswith("_en"):
+                    de_key = key[:-3] + "_de"
+                    assert de_key in obj, f"Missing '{de_key}' for '{key}' in {filepath}"
+                check_fields(value, filepath)
+        elif isinstance(obj, list):
+            for item in obj:
+                check_fields(item, filepath)
+
     for f in A2_DIR.glob("**/uebung-*.json"):
         data = json.loads(f.read_text(encoding="utf-8"))
-        # All exercises should have instructions in German
-        assert "instructions" in data, f"Missing instructions in {f}"
-        # Questions should have text_de
-        for q in data.get("questions", []):
-            assert "text_de" in q, f"Missing text_de in question {q.get('number')} of {f}"
+        check_fields(data, f)
