@@ -127,7 +127,7 @@ def test_filter_by_level_string():
 
 def test_filter_by_level_no_match():
     """Test filtering by level with no matches returns empty list."""
-    from german.models import PartOfSpeech, VocabularyWord
+    from german.models import VocabularyWord
 
     vocab = [
         VocabularyWord(german="gehen", english="to go", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A1),
