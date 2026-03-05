@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pytest
 
-from german.exams.loader import load_exam_meta, load_exercise, load_exercises
+from german.exams.loader import load_exam_meta, load_exercises
 from german.exams.models import (
     ExamMeta,
     ExamSkill,
