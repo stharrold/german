@@ -1,6 +1,6 @@
 """Tests for vocabulary query functions."""
 
-from german.models import CEFRLevel, Gender, PartOfSpeech
+from german.models import CEFRLevel, Gender, PartOfSpeech, VocabularyWord
 from german.vocabulary import filter_by_gender, filter_by_level, filter_by_pos, get_word, load_vocabulary
 
 
@@ -127,8 +127,6 @@ def test_filter_by_level_string():
 
 def test_filter_by_level_no_match():
     """Test filtering by level with no matches returns empty list."""
-    from german.models import PartOfSpeech, VocabularyWord
-
     vocab = [
         VocabularyWord(german="gehen", english="to go", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A1),
         VocabularyWord(german="laufen", english="to run", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A2),
