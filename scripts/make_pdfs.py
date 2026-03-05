@@ -8,7 +8,7 @@ exercise pages and a separate answer key section at the end.
 
 Usage:
     uv run --extra pdf python scripts/make_pdfs.py
-    uv run --extra pdf python scripts/make_pdfs.py --output-dir outputs/pdfs
+    uv run --extra pdf python scripts/make_pdfs.py --output-dir resources/exams/b1/pdfs
     uv run --extra pdf python scripts/make_pdfs.py --skill hoeren
 
 Requirements:
@@ -26,7 +26,7 @@ except ImportError:
     print("Error: fpdf2 is required. Install with: uv pip install fpdf2", file=sys.stderr)
     sys.exit(1)
 
-RESOURCES_DIR = Path(__file__).resolve().parent / "resources" / "exams" / "b1"
+RESOURCES_DIR = Path(__file__).resolve().parent.parent / "resources" / "exams" / "b1"
 
 # Unicode replacements for latin-1 compatible PDF output
 UNICODE_REPLACEMENTS = {
@@ -366,7 +366,7 @@ def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate printable PDFs for B1 exam exercises")
-    parser.add_argument("--output-dir", default="outputs/pdfs", help="Output directory (default: outputs/pdfs)")
+    parser.add_argument("--output-dir", default="resources/exams/b1/pdfs", help="Output directory")
     parser.add_argument("--skill", choices=list(SKILLS.keys()), help="Generate PDF for a single skill only")
     args = parser.parse_args()
 
