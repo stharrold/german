@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-3-001",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail: Einladung zum Geburtstag",
+  "instructions": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Maria,\n\nich hoffe, es geht dir gut! Ich schreibe dir, weil ich am Samstag, den 18. März, meinen 30. Geburtstag feiere. Die Party ist bei mir zu Hause und beginnt um 19 Uhr. Ich habe auch unsere alten Freunde aus der Schule eingeladen.\n\nIch mache ein Buffet mit verschiedenen Salaten und Grillwürstchen. Wenn du möchtest, kannst du gerne einen Kuchen mitbringen — du machst ja immer so tollen Schokoladenkuchen! Getränke kaufe ich genug ein.\n\nMein Freund Thomas spielt abends Gitarre und vielleicht singen wir zusammen ein paar Lieder. Falls du bei mir übernachten möchtest, habe ich ein Gästezimmer frei.\n\nSag mir bitte bis Mittwoch Bescheid, ob du kommst.\n\nViele Grüße\nLisa",
+    "text_en": "Dear Maria,\n\nI hope you are doing well! I'm writing to you because I'm celebrating my 30th birthday on Saturday, March 18th. The party is at my home and starts at 7 PM. I've also invited our old friends from school.\n\nI'm making a buffet with various salads and grilled sausages. If you'd like, you can bring a cake — you always make such great chocolate cake! I'll buy enough drinks.\n\nMy friend Thomas will play guitar in the evening and maybe we'll sing a few songs together. If you'd like to stay overnight, I have a guest room available.\n\nPlease let me know by Wednesday whether you're coming.\n\nBest regards\nLisa",
+    "source": "E-Mail",
+    "word_count": 120
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Geburtstagsparty?",
+      "text_en": "When is the birthday party?",
+      "options": [
+        "a) Am Freitag um 19 Uhr",
+        "b) Am Samstag um 19 Uhr",
+        "c) Am Samstag um 20 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Party ist am Samstag, den 18. März, und beginnt um 19 Uhr.",
+      "explanation_en": "The party is on Saturday, March 18th, and starts at 7 PM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Woher kennen sich Lisa und Maria?",
+      "text_en": "How do Lisa and Maria know each other?",
+      "options": [
+        "a) Von der Arbeit",
+        "b) Aus der Schule",
+        "c) Vom Sport"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lisa hat alte Freunde aus der Schule eingeladen, also kennen sie sich von dort.",
+      "explanation_en": "Lisa invited old friends from school, so they know each other from there."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was soll Maria mitbringen?",
+      "text_en": "What should Maria bring?",
+      "options": [
+        "a) Getränke",
+        "b) Salate",
+        "c) Einen Kuchen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Lisa fragt Maria, ob sie einen Schokoladenkuchen mitbringen kann.",
+      "explanation_en": "Lisa asks Maria if she can bring a chocolate cake."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was macht Thomas auf der Party?",
+      "text_en": "What does Thomas do at the party?",
+      "options": [
+        "a) Er kocht",
+        "b) Er spielt Gitarre",
+        "c) Er bringt Getränke mit"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Thomas spielt abends Gitarre.",
+      "explanation_en": "Thomas plays guitar in the evening."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Bis wann soll Maria antworten?",
+      "text_en": "By when should Maria reply?",
+      "options": [
+        "a) Bis Montag",
+        "b) Bis Mittwoch",
+        "c) Bis Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lisa bittet Maria, bis Mittwoch Bescheid zu sagen.",
+      "explanation_en": "Lisa asks Maria to let her know by Wednesday."
+    }
+  ]
+}

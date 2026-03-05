@@ -1,0 +1,62 @@
+{
+  "id": "a2-lesen-teil-2-001",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Volkshochschule: Kursprogramm Frühling",
+  "instructions": "Lesen Sie die Informationen und die Aufgaben. Welche Information passt? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Volkshochschule Kursprogramm Frühling:\n\nA) Spanisch für Anfänger – Montag, 18:00-19:30 Uhr, 10 Wochen, 80 Euro. Keine Vorkenntnisse nötig.\n\nB) Computerkurs für Senioren – Dienstag, 10:00-12:00 Uhr, 8 Wochen, 60 Euro. Lernen Sie E-Mails schreiben und im Internet suchen.\n\nC) Kochkurs: Italienische Küche – Mittwoch, 17:00-20:00 Uhr, 6 Wochen, 120 Euro (mit Lebensmitteln). Einfache Gerichte für jeden Tag.\n\nD) Yoga am Morgen – Donnerstag, 7:00-8:00 Uhr, 12 Wochen, 90 Euro. Für alle, die vor der Arbeit aktiv sein möchten.\n\nE) Fotografie für Einsteiger – Freitag, 15:00-17:00 Uhr, 6 Wochen, 70 Euro. Eigene Kamera mitbringen.\n\nF) Nähkurs: Kleidung reparieren – Samstag, 10:00-13:00 Uhr, 4 Wochen, 50 Euro. Nähmaschinen sind vorhanden.",
+    "text_en": "Adult Education Center Course Program Spring:\n\nA) Spanish for Beginners – Monday, 6:00-7:30 PM, 10 weeks, 80 euros. No prior knowledge needed.\n\nB) Computer Course for Seniors – Tuesday, 10:00 AM-12:00 PM, 8 weeks, 60 euros. Learn to write emails and search the internet.\n\nC) Cooking Class: Italian Kitchen – Wednesday, 5:00-8:00 PM, 6 weeks, 120 euros (including groceries). Simple dishes for every day.\n\nD) Morning Yoga – Thursday, 7:00-8:00 AM, 12 weeks, 90 euros. For those who want to be active before work.\n\nE) Photography for Beginners – Friday, 3:00-5:00 PM, 6 weeks, 70 euros. Bring your own camera.\n\nF) Sewing Course: Repairing Clothes – Saturday, 10:00 AM-1:00 PM, 4 weeks, 50 euros. Sewing machines are provided.",
+    "source": "Kursprogramm",
+    "word_count": 120
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr Fischer ist 68 Jahre alt und möchte lernen, wie man E-Mails schreibt.",
+      "text_en": "Mr. Fischer is 68 years old and wants to learn how to write emails.",
+      "correct_answer": "B",
+      "explanation_de": "Der Computerkurs für Senioren (B) ist perfekt, dort lernt man E-Mails schreiben.",
+      "explanation_en": "The computer course for seniors (B) is perfect, where you learn to write emails."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Frau Klein arbeitet von 9 bis 17 Uhr und möchte morgens Sport machen.",
+      "text_en": "Ms. Klein works from 9 to 5 and wants to exercise in the morning.",
+      "correct_answer": "D",
+      "explanation_de": "Yoga am Morgen (D) ist um 7 Uhr, also vor der Arbeit.",
+      "explanation_en": "Morning Yoga (D) is at 7 AM, so before work."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Frau Braun möchte eine neue Sprache lernen. Sie hat noch nie Spanisch gelernt.",
+      "text_en": "Ms. Braun wants to learn a new language. She has never learned Spanish.",
+      "correct_answer": "A",
+      "explanation_de": "Spanisch für Anfänger (A) braucht keine Vorkenntnisse.",
+      "explanation_en": "Spanish for Beginners (A) requires no prior knowledge."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Yilmaz möchte am Wochenende etwas Praktisches lernen. Seine Hosen sind oft kaputt.",
+      "text_en": "Mr. Yilmaz wants to learn something practical on the weekend. His trousers are often damaged.",
+      "correct_answer": "F",
+      "explanation_de": "Der Nähkurs am Samstag (F) hilft, Kleidung zu reparieren.",
+      "explanation_en": "The sewing course on Saturday (F) helps repair clothes."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Frau Schulz kocht gern und möchte neue Rezepte aus Italien lernen.",
+      "text_en": "Ms. Schulz likes to cook and wants to learn new recipes from Italy.",
+      "correct_answer": "C",
+      "explanation_de": "Im Kochkurs (C) lernt man italienische Gerichte kochen.",
+      "explanation_en": "In the cooking class (C), you learn to cook Italian dishes."
+    }
+  ]
+}

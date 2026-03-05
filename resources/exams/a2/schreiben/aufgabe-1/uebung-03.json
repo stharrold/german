@@ -1,0 +1,25 @@
+{
+  "id": "a2-schreiben-aufgabe-1-003",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Absage: Schwimmen gehen",
+  "instructions": "Sie haben eine Nachricht bekommen. Schreiben Sie eine kurze Antwort (ca. 20-30 Wörter).",
+  "situation_de": "Ihre Freundin Maria möchte heute Nachmittag schwimmen gehen. Sie können leider nicht mitkommen. Schreiben Sie Maria eine Nachricht.",
+  "situation_en": "Your friend Maria wants to go swimming this afternoon. Unfortunately, you cannot come along. Write Maria a message.",
+  "target_word_count": 26,
+  "required_points": [
+    "Absagen und sich entschuldigen (Decline and apologize)",
+    "Einen Grund nennen (Give a reason)",
+    "Einen anderen Tag vorschlagen (Suggest another day)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Maria, leider kann ich heute nicht mitkommen. Ich muss für eine Prüfung lernen. Können wir am Freitag zusammen schwimmen gehen? Das wäre toll! LG",
+    "text_en": "Dear Maria, unfortunately I cannot come along today. I have to study for an exam. Can we go swimming together on Friday? That would be great! Best regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary: Simple, appropriate vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

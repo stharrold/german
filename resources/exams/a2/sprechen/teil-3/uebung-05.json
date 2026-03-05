@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-3-005",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Ein Wochenende in einer anderen Stadt",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten etwas zusammen machen. Planen Sie etwas.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin möchten ein Wochenende in einer anderen Stadt verbringen. Planen Sie die Reise zusammen.",
+  "situation_en": "You and your partner would like to spend a weekend in another city. Plan the trip together.",
+  "discussion_points": [
+    "In welche Stadt wollen wir fahren? (Which city do we want to go to?)",
+    "Wie fahren wir dorthin — mit dem Zug oder mit dem Auto? (How do we get there — by train or by car?)",
+    "Wo wollen wir übernachten? (Where do we want to stay overnight?)",
+    "Was wollen wir in der Stadt machen? (What do we want to do in the city?)",
+    "Was sollen wir in den Koffer packen? (What should we pack in the suitcase?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir wollen am Wochenende in eine andere Stadt fahren. Wohin möchtest du?",
+      "text_en": "We want to go to another city at the weekend. Where would you like to go?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich möchte gern nach Berlin fahren. Dort gibt es viel zu sehen. Warst du schon einmal dort?",
+      "text_en": "I would like to go to Berlin. There is a lot to see there. Have you been there before?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Nein, noch nie. Berlin ist super! Wie fahren wir hin? Mit dem Zug oder mit dem Auto?",
+      "text_en": "No, never. Berlin is great! How do we get there? By train or by car?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Mit dem Zug ist bequemer. Wir können im Zug lesen oder schlafen. Die Fahrt dauert drei Stunden.",
+      "text_en": "By train is more comfortable. We can read or sleep on the train. The journey takes three hours."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ja, gute Idee. Und wo übernachten wir? In einem Hotel oder in einer Jugendherberge?",
+      "text_en": "Yes, good idea. And where do we stay overnight? In a hotel or in a youth hostel?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Eine Jugendherberge ist günstiger. Wir können im Internet eine suchen. Was möchtest du in Berlin machen?",
+      "text_en": "A youth hostel is cheaper. We can look for one on the internet. What would you like to do in Berlin?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich möchte das Brandenburger Tor sehen und auf den Fernsehturm gehen. Und du?",
+      "text_en": "I would like to see the Brandenburg Gate and go to the TV Tower. And you?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich möchte ein Museum besuchen und abends in ein Restaurant gehen. Was packen wir ein?",
+      "text_en": "I would like to visit a museum and go to a restaurant in the evening. What do we pack?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir brauchen bequeme Schuhe, weil wir viel laufen. Und eine warme Jacke, weil es kalt sein kann.",
+      "text_en": "We need comfortable shoes because we will walk a lot. And a warm jacket because it can be cold."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Richtig. Und ich nehme eine Kamera mit. Ich möchte viele Fotos machen. Das wird ein tolles Wochenende!",
+      "text_en": "Right. And I will bring a camera. I want to take many photos. That will be a great weekend!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Reise und Stadtbesichtigung auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, wollen, sollen) und einfachen Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

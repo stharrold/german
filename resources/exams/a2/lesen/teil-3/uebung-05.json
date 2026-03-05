@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-3-005",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Brief: Deutschkurs-Erfahrung",
+  "instructions": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Marta,\n\nwie geht es dir? Ich bin jetzt seit drei Monaten in Hamburg und lerne Deutsch an einer Sprachschule. Der Kurs ist jeden Tag von 9 bis 13 Uhr. In meiner Klasse sind 15 Personen aus zehn verschiedenen Ländern.\n\nUnsere Lehrerin heißt Frau Weber und ist sehr lustig. Wir lernen nicht nur Grammatik, sondern sprechen auch viel über das Leben in Deutschland. Jede Woche machen wir einen Ausflug. Letzte Woche waren wir im Hafen und haben Fischbrötchen gegessen — ein typisches Hamburger Essen!\n\nAm Nachmittag mache ich immer Hausaufgaben und gehe dann in ein Café. Dort lese ich die Zeitung auf Deutsch. Das ist schwer, aber ich verstehe schon viel mehr als am Anfang.\n\nIch vermisse dich! Kommst du mich im Sommer besuchen?\n\nDeine\nSofia",
+    "text_en": "Dear Marta,\n\nHow are you? I've been in Hamburg for three months now and I'm learning German at a language school. The course is every day from 9 AM to 1 PM. In my class there are 15 people from ten different countries.\n\nOur teacher is called Mrs. Weber and she's very funny. We don't just learn grammar but also talk a lot about life in Germany. Every week we go on a trip. Last week we were at the harbor and ate fish sandwiches — a typical Hamburg food!\n\nIn the afternoon, I always do homework and then go to a café. There I read the newspaper in German. It's difficult, but I already understand much more than at the beginning.\n\nI miss you! Will you visit me in the summer?\n\nYours\nSofia",
+    "source": "Brief",
+    "word_count": 135
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange ist Sofia schon in Hamburg?",
+      "text_en": "How long has Sofia been in Hamburg?",
+      "options": [
+        "a) Einen Monat",
+        "b) Drei Monate",
+        "c) Sechs Monate"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sofia ist seit drei Monaten in Hamburg.",
+      "explanation_en": "Sofia has been in Hamburg for three months."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Personen sind in Sofias Klasse?",
+      "text_en": "How many people are in Sofia's class?",
+      "options": [
+        "a) 10 Personen",
+        "b) 15 Personen",
+        "c) 20 Personen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In ihrer Klasse sind 15 Personen aus zehn Ländern.",
+      "explanation_en": "There are 15 people from ten countries in her class."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was machen die Schüler jede Woche?",
+      "text_en": "What do the students do every week?",
+      "options": [
+        "a) Eine Prüfung",
+        "b) Einen Ausflug",
+        "c) Ein Projekt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Jede Woche machen sie einen Ausflug.",
+      "explanation_en": "Every week they go on a trip."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was macht Sofia am Nachmittag im Café?",
+      "text_en": "What does Sofia do in the afternoon at the café?",
+      "options": [
+        "a) Sie trifft Freunde",
+        "b) Sie liest die Zeitung auf Deutsch",
+        "c) Sie lernt Grammatik"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Im Café liest Sofia die Zeitung auf Deutsch.",
+      "explanation_en": "At the café, Sofia reads the newspaper in German."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was haben die Schüler im Hafen gegessen?",
+      "text_en": "What did the students eat at the harbor?",
+      "options": [
+        "a) Pizza",
+        "b) Bratwurst",
+        "c) Fischbrötchen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Im Hafen haben sie Fischbrötchen gegessen.",
+      "explanation_en": "At the harbor they ate fish sandwiches."
+    }
+  ]
+}

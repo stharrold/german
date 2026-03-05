@@ -1,0 +1,75 @@
+{
+  "id": "a2-sprechen-teil-1-001",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Themen: Familie, Essen, Wohnen, Reisen",
+  "instructions": "Sie bekommen vier Karten mit Themen. Sprechen Sie über die Themen.",
+  "situation_de": "Sie ziehen vier Karten. Auf jeder Karte steht ein Thema. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You draw four cards. Each card has a topic. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Familie: Haben Sie Geschwister? Wie heißen sie? (Family: Do you have siblings? What are their names?)",
+    "Essen: Was essen Sie gern zum Frühstück? (Food: What do you like to eat for breakfast?)",
+    "Wohnen: Wohnen Sie in einer Wohnung oder in einem Haus? (Living: Do you live in an apartment or in a house?)",
+    "Reisen: Wohin möchten Sie gern reisen? (Travel: Where would you like to travel?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre vier Karten. Bitte stellen Sie zu jedem Thema eine Frage.",
+      "text_en": "Here are your four cards. Please ask a question about each topic."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Okay. Mein erstes Thema ist Familie. Haben Sie Geschwister?",
+      "text_en": "Okay. My first topic is family. Do you have siblings?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ja, ich habe einen Bruder. Und Sie?",
+      "text_en": "Yes, I have a brother. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich habe zwei Schwestern. Sie wohnen in Berlin. Mein nächstes Thema ist Essen. Was essen Sie gern zum Frühstück?",
+      "text_en": "I have two sisters. They live in Berlin. My next topic is food. What do you like to eat for breakfast?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich esse gern Brot mit Käse und trinke Kaffee. Was frühstücken Sie?",
+      "text_en": "I like to eat bread with cheese and drink coffee. What do you have for breakfast?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich esse Müsli mit Obst. Das ist gesund. Jetzt kommt Wohnen. Wohnen Sie in einer Wohnung oder in einem Haus?",
+      "text_en": "I eat muesli with fruit. That is healthy. Now comes living. Do you live in an apartment or in a house?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich wohne in einer kleinen Wohnung. Und Sie?",
+      "text_en": "I live in a small apartment. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich wohne auch in einer Wohnung, in der Stadtmitte. Mein letztes Thema ist Reisen. Wohin möchten Sie gern reisen?",
+      "text_en": "I also live in an apartment, in the city center. My last topic is travel. Where would you like to travel?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich möchte gern nach Spanien reisen. Und wohin möchten Sie?",
+      "text_en": "I would like to travel to Spain. And where would you like to go?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte nach Italien fahren. Ich liebe italienisches Essen.",
+      "text_en": "I would like to go to Italy. I love Italian food."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten des Prüfers und stellt Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ]
+}

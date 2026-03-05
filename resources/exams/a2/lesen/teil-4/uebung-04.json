@@ -1,0 +1,53 @@
+{
+  "id": "a2-lesen-teil-4-004",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kleinanzeigen: Freizeitangebote",
+  "instructions": "Lesen Sie die Anzeigen und die Aufgaben. Welche Anzeige passt? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "A) Fußballverein sucht Spieler! Training: Mittwoch 18-20 Uhr, Spiele am Sonntag. Für Männer und Frauen ab 18 Jahren. Monatsbeitrag: 15 Euro. Kontakt: fc-freunde@sport.de.\n\nB) Malgruppe für Anfänger — jeden Freitag von 16-18 Uhr im Bürgerhaus. Material wird gestellt. 8 Euro pro Termin. Keine Vorkenntnisse nötig.\n\nC) Lauftreff jeden Samstagmorgen um 8 Uhr am Stadtpark. 5 km, lockeres Tempo. Kostenlos, keine Anmeldung nötig. Für alle Altersgruppen.\n\nD) Buchclub: Wir lesen jeden Monat ein Buch und diskutieren. Treffen: erster Dienstag im Monat, 19 Uhr, Café Zentral. Eintritt frei, Getränke selbst zahlen.\n\nE) Schwimmkurs für Erwachsene — Sie können nicht schwimmen? Kein Problem! Samstag 10-11 Uhr, 8 Wochen, 80 Euro. Kleine Gruppen (max. 6 Personen).\n\nF) Wandergruppe — einmal im Monat, sonntags, leichte bis mittlere Wanderungen (8-15 km). Nächste Tour: Schwarzwald, 12. März. Anmeldung bis 5. März.",
+    "text_en": "A) Football club looking for players! Training: Wednesday 6-8 PM, matches on Sundays. For men and women from 18 years. Monthly fee: 15 euros. Contact: fc-freunde@sport.de.\n\nB) Painting group for beginners — every Friday from 4-6 PM at the community center. Materials provided. 8 euros per session. No prior knowledge needed.\n\nC) Running group every Saturday morning at 8 AM at the city park. 5 km, relaxed pace. Free, no registration needed. For all age groups.\n\nD) Book club: We read a book every month and discuss it. Meeting: first Tuesday of the month, 7 PM, Café Zentral. Free admission, pay for your own drinks.\n\nE) Swimming course for adults — You can't swim? No problem! Saturday 10-11 AM, 8 weeks, 80 euros. Small groups (max. 6 people).\n\nF) Hiking group — once a month, Sundays, easy to moderate hikes (8-15 km). Next tour: Black Forest, March 12. Registration by March 5.",
+    "source": "Kleinanzeigen",
+    "word_count": 125
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Frau Kaya liest gern und möchte mit anderen Leuten über Bücher sprechen.",
+      "text_en": "Ms. Kaya likes reading and wants to talk about books with other people.",
+      "correct_answer": "D",
+      "explanation_de": "Der Buchclub (D) liest und diskutiert jeden Monat ein Buch.",
+      "explanation_en": "The book club (D) reads and discusses a book every month."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Herr Schmidt möchte etwas Kreatives machen, hat aber keine Erfahrung.",
+      "text_en": "Mr. Schmidt wants to do something creative but has no experience.",
+      "correct_answer": "B",
+      "explanation_de": "Die Malgruppe (B) ist für Anfänger und braucht keine Vorkenntnisse.",
+      "explanation_en": "The painting group (B) is for beginners and requires no prior knowledge."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Maria ist 35 und hat nie schwimmen gelernt. Sie möchte es jetzt lernen.",
+      "text_en": "Maria is 35 and never learned to swim. She wants to learn now.",
+      "correct_answer": "E",
+      "explanation_de": "Der Schwimmkurs (E) ist für Erwachsene, die nicht schwimmen können.",
+      "explanation_en": "The swimming course (E) is for adults who can't swim."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Braun möchte am Wochenende morgens Sport machen, ohne Geld auszugeben.",
+      "text_en": "Mr. Braun wants to exercise on weekend mornings without spending money.",
+      "correct_answer": "C",
+      "explanation_de": "Der Lauftreff (C) ist samstagmorgens, kostenlos und ohne Anmeldung.",
+      "explanation_en": "The running group (C) is on Saturday mornings, free and without registration."
+    }
+  ]
+}

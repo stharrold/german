@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-3-004",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Auf den Flohmarkt gehen",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten etwas zusammen machen. Planen Sie etwas.",
+  "situation_de": "Am Samstag gibt es einen großen Flohmarkt in der Stadt. Sie und Ihr Partner / Ihre Partnerin möchten dorthin gehen. Planen Sie den Besuch zusammen.",
+  "situation_en": "On Saturday there is a big flea market in the city. You and your partner would like to go there. Plan the visit together.",
+  "discussion_points": [
+    "Wann wollen wir zum Flohmarkt gehen? (When do we want to go to the flea market?)",
+    "Wie kommen wir dorthin? (How do we get there?)",
+    "Was möchten wir dort kaufen? (What would we like to buy there?)",
+    "Wie viel Geld nehmen wir mit? (How much money do we bring?)",
+    "Wollen wir danach noch etwas machen? (Do we want to do something else afterward?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Am Samstag ist Flohmarkt. Wollen wir zusammen hingehen? Wann sollen wir dort sein?",
+      "text_en": "There is a flea market on Saturday. Do we want to go together? When should we be there?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, gern! Der Flohmarkt beginnt um 8 Uhr. Ich denke, wir sollten früh gehen, dann gibt es noch viele schöne Sachen.",
+      "text_en": "Yes, gladly! The flea market starts at 8 o'clock. I think we should go early, then there are still many nice things."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gut, dann treffen wir uns um 8 Uhr. Wie kommen wir dorthin? Mit dem Bus?",
+      "text_en": "Good, then we meet at 8 o'clock. How do we get there? By bus?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, der Bus Nummer 5 fährt direkt zum Marktplatz. Oder wir können zu Fuß gehen, es sind nur 20 Minuten.",
+      "text_en": "Yes, bus number 5 goes directly to the market square. Or we can walk, it is only 20 minutes."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Zu Fuß ist auch gut. Was möchtest du auf dem Flohmarkt kaufen?",
+      "text_en": "Walking is also good. What would you like to buy at the flea market?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich suche alte Bücher und vielleicht eine Lampe für mein Zimmer. Und du?",
+      "text_en": "I am looking for old books and maybe a lamp for my room. And you?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich möchte Kleidung anschauen. Manchmal findet man tolle Jacken. Wie viel Geld sollen wir mitnehmen?",
+      "text_en": "I would like to look at clothes. Sometimes you find great jackets. How much money should we bring?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich nehme 30 Euro mit. Auf dem Flohmarkt ist alles günstiger. Wollen wir danach noch etwas machen?",
+      "text_en": "I will bring 30 euros. At the flea market everything is cheaper. Do we want to do something else afterward?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ja, wir können danach in ein Café gehen und Kaffee trinken. Es gibt ein nettes Café in der Nähe.",
+      "text_en": "Yes, we can go to a café afterward and drink coffee. There is a nice café nearby."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Das klingt super! Dann treffen wir uns am Samstag um halb acht vor meinem Haus.",
+      "text_en": "That sounds great! Then we meet on Saturday at half past seven in front of my house."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Einkaufen und Freizeit auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, wollen, sollen) und einfachen Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

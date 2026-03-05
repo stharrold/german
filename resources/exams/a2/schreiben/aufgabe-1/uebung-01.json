@@ -1,0 +1,25 @@
+{
+  "id": "a2-schreiben-aufgabe-1-001",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Treffen am Wochenende",
+  "instructions": "Sie haben eine Nachricht bekommen. Schreiben Sie eine kurze Antwort (ca. 20-30 Wörter).",
+  "situation_de": "Ihre Freundin Lisa fragt, ob Sie am Samstag ins Kino gehen möchten. Sie möchte wissen, welchen Film Sie sehen wollen und wann Sie sich treffen können.",
+  "situation_en": "Your friend Lisa asks if you would like to go to the cinema on Saturday. She wants to know which film you want to see and when you can meet.",
+  "target_word_count": 25,
+  "required_points": [
+    "Sagen, dass Sie mitkommen möchten (Say that you would like to come along)",
+    "Einen Film vorschlagen (Suggest a film)",
+    "Eine Uhrzeit vorschlagen (Suggest a time)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Lisa, ja, ich komme gern mit! Wollen wir den neuen Komödie-Film sehen? Der soll sehr lustig sein. Können wir uns um 18 Uhr treffen? LG",
+    "text_en": "Hello Lisa, yes, I would love to come along! Shall we see the new comedy film? It is supposed to be very funny. Can we meet at 6 pm? Best regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary: Simple, appropriate vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

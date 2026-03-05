@@ -1,0 +1,26 @@
+{
+  "id": "a2-schreiben-aufgabe-2-003",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Anmeldung zum Schwimmkurs",
+  "instructions": "Schreiben Sie eine E-Mail (ca. 30-40 Wörter).",
+  "situation_de": "Sie möchten sich für einen Schwimmkurs im Sportverein anmelden. Schreiben Sie eine E-Mail an den Sportverein.",
+  "situation_en": "You would like to register for a swimming course at the sports club. Write an email to the sports club.",
+  "target_word_count": 36,
+  "required_points": [
+    "Sagen, dass Sie sich anmelden möchten (Say that you would like to register)",
+    "Nach den Kurszeiten fragen (Ask about the course times)",
+    "Nach den Kosten fragen (Ask about the costs)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich möchte mich für einen Schwimmkurs anmelden. Können Sie mir bitte sagen, wann der Kurs stattfindet? Ich möchte auch gern wissen, wie viel der Kurs kostet.\n\nVielen Dank und freundliche Grüße\nMarko Jovic",
+    "text_en": "Dear Sir or Madam,\n\nI would like to register for a swimming course. Could you please tell me when the course takes place? I would also like to know how much the course costs.\n\nThank you and kind regards\nMarko Jovic"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Kohärenz: Die E-Mail hat eine passende Anrede und einen Gruß (Coherence: The email has an appropriate salutation and closing)",
+    "Wortschatz: Angemessener formeller Wortschatz auf A2-Niveau (Vocabulary: Appropriate formal vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

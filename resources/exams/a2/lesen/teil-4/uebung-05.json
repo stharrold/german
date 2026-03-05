@@ -1,0 +1,53 @@
+{
+  "id": "a2-lesen-teil-4-005",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kleinanzeigen: Jobs und Arbeit",
+  "instructions": "Lesen Sie die Anzeigen und die Aufgaben. Welche Anzeige passt? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "A) Bäckerei sucht Verkäuferin — Teilzeit, Montag bis Freitag, 6-10 Uhr morgens. 12 Euro pro Stunde. Erfahrung im Verkauf erwünscht. Beginn: sofort.\n\nB) Pizzeria sucht Lieferfahrer — Abends und am Wochenende. Eigenes Auto nötig. Stundenlohn plus Trinkgeld. Kontakt: 0176-2223344.\n\nC) Büro-Praktikum für Studenten — 3 Monate, 20 Stunden pro Woche. Aufgaben: Telefon, E-Mails, Organisation. Gute Deutschkenntnisse (B1) nötig. 450 Euro pro Monat.\n\nD) Reinigungsfirma sucht Mitarbeiter — Vollzeit oder Teilzeit. Büros und Wohnungen reinigen. Keine Erfahrung nötig, Einarbeitung wird gemacht. Ab 11 Euro pro Stunde.\n\nE) Hotel sucht Rezeptionistin — Vollzeit, auch am Wochenende. Deutsch und Englisch fließend. Freundliches Auftreten. Gutes Gehalt plus Mitarbeiterrabatt.\n\nF) Supermarkt sucht Aushilfe für samstags — 8 Stunden, Regale einräumen und Kasse. 11 Euro pro Stunde. Mindestalter: 16 Jahre.",
+    "text_en": "A) Bakery looking for saleswoman — part-time, Monday to Friday, 6-10 AM. 12 euros per hour. Sales experience preferred. Start: immediately.\n\nB) Pizzeria looking for delivery driver — evenings and weekends. Own car needed. Hourly wage plus tips. Contact: 0176-2223344.\n\nC) Office internship for students — 3 months, 20 hours per week. Tasks: phone, emails, organization. Good German skills (B1) needed. 450 euros per month.\n\nD) Cleaning company looking for employees — full-time or part-time. Cleaning offices and apartments. No experience needed, training provided. From 11 euros per hour.\n\nE) Hotel looking for receptionist — full-time, including weekends. Fluent German and English. Friendly demeanor. Good salary plus employee discount.\n\nF) Supermarket looking for Saturday help — 8 hours, stocking shelves and checkout. 11 euros per hour. Minimum age: 16 years.",
+    "source": "Kleinanzeigen",
+    "word_count": 120
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Leo ist 17 Jahre alt und Schüler. Er möchte am Wochenende Geld verdienen.",
+      "text_en": "Leo is 17 years old and a student. He wants to earn money on weekends.",
+      "correct_answer": "F",
+      "explanation_de": "Der Supermarkt (F) sucht Aushilfe für samstags, Mindestalter 16 Jahre.",
+      "explanation_en": "The supermarket (F) is looking for Saturday help, minimum age 16 years."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Frau Nguyen spricht sehr gut Deutsch und Englisch und ist immer freundlich.",
+      "text_en": "Ms. Nguyen speaks very good German and English and is always friendly.",
+      "correct_answer": "E",
+      "explanation_de": "Das Hotel (E) sucht eine Rezeptionistin mit Deutsch und Englisch.",
+      "explanation_en": "The hotel (E) is looking for a receptionist with German and English."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Popov ist neu in Deutschland und hat noch keine Berufserfahrung.",
+      "text_en": "Mr. Popov is new to Germany and has no work experience yet.",
+      "correct_answer": "D",
+      "explanation_de": "Die Reinigungsfirma (D) braucht keine Erfahrung und bietet Einarbeitung.",
+      "explanation_en": "The cleaning company (D) requires no experience and provides training."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Müller studiert Betriebswirtschaft und sucht praktische Erfahrung in einem Büro.",
+      "text_en": "Ms. Müller studies business administration and is looking for practical experience in an office.",
+      "correct_answer": "C",
+      "explanation_de": "Das Büro-Praktikum (C) ist für Studenten mit Büroaufgaben.",
+      "explanation_en": "The office internship (C) is for students with office tasks."
+    }
+  ]
+}

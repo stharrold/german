@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-2-002",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Mein Beruf",
+  "instructions": "Sie bekommen ein Thema. Sprechen Sie über das Thema.",
+  "situation_de": "Der Prüfer / Die Prüferin fragt Sie über Ihren Beruf oder Ihre Arbeit. Beantworten Sie die Fragen mit zwei bis drei Sätzen.",
+  "situation_en": "The examiner asks you about your profession or your work. Answer the questions with two to three sentences.",
+  "discussion_points": [
+    "Was sind Sie von Beruf? Was machen Sie? (What is your profession? What do you do?)",
+    "Wo arbeiten Sie? (Where do you work?)",
+    "Was gefällt Ihnen an Ihrer Arbeit? (What do you like about your work?)",
+    "Wie sieht ein normaler Arbeitstag aus? (What does a normal working day look like?)",
+    "Was möchten Sie in Zukunft beruflich machen? (What would you like to do professionally in the future?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist „Mein Beruf“. Was sind Sie von Beruf?",
+      "text_en": "Our topic is \"My profession.\" What is your profession?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin Verkäufer in einem Elektronikgeschäft. Ich verkaufe Computer und Handys. Ich arbeite dort seit zwei Jahren.",
+      "text_en": "I am a salesperson in an electronics store. I sell computers and phones. I have been working there for two years."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wo arbeiten Sie genau?",
+      "text_en": "Where exactly do you work?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich arbeite in einem großen Geschäft in der Innenstadt. Es ist in der Nähe vom Hauptbahnhof. Ich fahre mit dem Bus zur Arbeit.",
+      "text_en": "I work in a large store in the city center. It is near the main train station. I take the bus to work."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was gefällt Ihnen an Ihrer Arbeit?",
+      "text_en": "What do you like about your work?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich spreche gern mit den Kunden. Ich helfe ihnen, das richtige Produkt zu finden. Das macht mir Spaß.",
+      "text_en": "I like talking to the customers. I help them find the right product. That is fun for me."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wie sieht ein normaler Arbeitstag aus?",
+      "text_en": "What does a normal working day look like?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich fange um 9 Uhr an. Am Vormittag ordne ich die Waren. Am Nachmittag berate ich Kunden. Um 18 Uhr ist Feierabend.",
+      "text_en": "I start at 9 o'clock. In the morning I arrange the products. In the afternoon I advise customers. At 6 p.m. the workday ends."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was möchten Sie in Zukunft beruflich machen?",
+      "text_en": "What would you like to do professionally in the future?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte eine Weiterbildung machen und dann Filialleiter werden. Das ist mein Ziel.",
+      "text_en": "I would like to do further training and then become a store manager. That is my goal."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Fragen werden mit zwei bis drei Sätzen beantwortet.",
+    "Zusammenhang: Die Antworten sind logisch und passen zum Thema.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Arbeit und Beruf wird verwendet.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und einfachen Konnektoren (und, aber, auch).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ]
+}

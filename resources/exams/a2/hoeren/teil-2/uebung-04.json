@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-2-004",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Familienleben",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was ist richtig? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Petra",
+      "text_de": "Hallo Frank, wie geht es deiner Familie?",
+      "text_en": "Hello Frank, how is your family doing?"
+    },
+    {
+      "speaker": "Frank",
+      "text_de": "Danke, gut! Mein Sohn Tim hat letzte Woche seinen ersten Schultag gehabt. Er ist jetzt in der ersten Klasse.",
+      "text_en": "Thanks, good! My son Tim had his first day of school last week. He is now in first grade."
+    },
+    {
+      "speaker": "Petra",
+      "text_de": "Oh, wie schön! Meine Tochter Emma geht schon in die dritte Klasse. Sie lernt gerade Englisch in der Schule.",
+      "text_en": "Oh, how nice! My daughter Emma is already in third grade. She is currently learning English at school."
+    },
+    {
+      "speaker": "Frank",
+      "text_de": "Toll! Tim ist sehr aufgeregt. Er hat schon viele neue Freunde gefunden. Und meine Frau arbeitet jetzt wieder halbtags.",
+      "text_en": "Great! Tim is very excited. He has already made many new friends. And my wife is now working part-time again."
+    },
+    {
+      "speaker": "Petra",
+      "text_de": "Das verstehe ich. Mein Mann arbeitet von zu Hause. Das ist praktisch für die Kinder.",
+      "text_en": "I understand. My husband works from home. That's practical for the children."
+    },
+    {
+      "speaker": "Frank",
+      "text_de": "Das stimmt. Wir suchen noch eine Nachmittagsbetreuung für Tim. Hast du einen Tipp?",
+      "text_en": "That's true. We're still looking for afternoon care for Tim. Do you have any tips?"
+    },
+    {
+      "speaker": "Petra",
+      "text_de": "Ja, Emma geht in den Hort in der Schillerstraße. Der ist sehr gut. Die Kinder können dort Hausaufgaben machen und spielen.",
+      "text_en": "Yes, Emma goes to the after-school care center on Schillerstraße. It's very good. The children can do homework and play there."
+    },
+    {
+      "speaker": "Frank",
+      "text_de": "Das klingt perfekt! Ich rufe dort morgen an. Vielen Dank, Petra!",
+      "text_en": "That sounds perfect! I'll call them tomorrow. Thank you, Petra!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wessen Kind hat gerade mit der Schule angefangen?",
+      "text_en": "Whose child just started school?",
+      "correct_answer": "Frank",
+      "explanation_de": "Franks Sohn Tim hat seinen ersten Schultag gehabt.",
+      "explanation_en": "Frank's son Tim had his first day of school."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wessen Kind lernt Englisch?",
+      "text_en": "Whose child is learning English?",
+      "correct_answer": "Petra",
+      "explanation_de": "Petras Tochter Emma lernt Englisch in der Schule.",
+      "explanation_en": "Petra's daughter Emma is learning English at school."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wessen Partner arbeitet halbtags?",
+      "text_en": "Whose partner works part-time?",
+      "correct_answer": "Frank",
+      "explanation_de": "Franks Frau arbeitet jetzt wieder halbtags.",
+      "explanation_en": "Frank's wife is now working part-time again."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wessen Partner arbeitet von zu Hause?",
+      "text_en": "Whose partner works from home?",
+      "correct_answer": "Petra",
+      "explanation_de": "Petras Mann arbeitet von zu Hause.",
+      "explanation_en": "Petra's husband works from home."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer sucht eine Nachmittagsbetreuung?",
+      "text_en": "Who is looking for afternoon care?",
+      "correct_answer": "Frank",
+      "explanation_de": "Frank sucht eine Nachmittagsbetreuung für Tim.",
+      "explanation_en": "Frank is looking for afternoon care for Tim."
+    }
+  ]
+}

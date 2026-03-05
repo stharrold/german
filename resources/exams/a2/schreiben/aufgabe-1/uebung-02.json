@@ -1,0 +1,25 @@
+{
+  "id": "a2-schreiben-aufgabe-1-002",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Verspätung zum Abendessen",
+  "instructions": "Sie haben eine Nachricht bekommen. Schreiben Sie eine kurze Antwort (ca. 20-30 Wörter).",
+  "situation_de": "Ihr Freund Tom wartet im Restaurant auf Sie. Sie kommen 30 Minuten später, weil der Bus Verspätung hat. Schreiben Sie Tom eine Nachricht.",
+  "situation_en": "Your friend Tom is waiting for you at the restaurant. You will be 30 minutes late because the bus is delayed. Write Tom a message.",
+  "target_word_count": 25,
+  "required_points": [
+    "Sich entschuldigen (Apologize)",
+    "Den Grund für die Verspätung nennen (Give the reason for being late)",
+    "Sagen, wann Sie ankommen (Say when you will arrive)"
+  ],
+  "model_answer": {
+    "text_de": "Hi Tom, es tut mir leid, aber mein Bus hat Verspätung. Ich komme ungefähr 30 Minuten später. Bitte bestell schon etwas zu trinken! Bis gleich!",
+    "text_en": "Hi Tom, I am sorry, but my bus is delayed. I will arrive about 30 minutes later. Please order something to drink already! See you soon!"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary: Simple, appropriate vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}
