@@ -1,0 +1,25 @@
+{
+  "id": "a2-schreiben-aufgabe-1-005",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Geburtstagsgrüße",
+  "instructions": "Sie haben eine Nachricht bekommen. Schreiben Sie eine kurze Antwort (ca. 20-30 Wörter).",
+  "situation_de": "Morgen hat Ihre Freundin Sara Geburtstag. Sie können leider nicht zu ihrer Party kommen. Schreiben Sie Sara eine Nachricht.",
+  "situation_en": "Tomorrow is your friend Sara's birthday. Unfortunately, you cannot come to her party. Write Sara a message.",
+  "target_word_count": 26,
+  "required_points": [
+    "Zum Geburtstag gratulieren (Wish happy birthday)",
+    "Sagen, warum Sie nicht kommen können (Say why you cannot come)",
+    "Ein Treffen an einem anderen Tag vorschlagen (Suggest meeting on another day)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Sara, herzlichen Glückwunsch zum Geburtstag! Leider kann ich morgen nicht kommen, weil ich arbeiten muss. Können wir uns nächste Woche zum Essen treffen? Alles Gute!",
+    "text_en": "Dear Sara, happy birthday! Unfortunately, I cannot come tomorrow because I have to work. Can we meet for dinner next week? All the best!"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary: Simple, appropriate vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

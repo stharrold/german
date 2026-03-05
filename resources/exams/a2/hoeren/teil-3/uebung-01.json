@@ -1,0 +1,178 @@
+{
+  "id": "a2-hoeren-teil-3-001",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Im Alltag",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Kunde",
+      "text_de": "Guten Tag, ich hätte gern fünf Brötchen und ein Vollkornbrot, bitte.",
+      "text_en": "Good day, I'd like five bread rolls and a whole grain bread, please."
+    },
+    {
+      "speaker": "Gespräch 1 — Verkäuferin",
+      "text_de": "Gern. Darf es sonst noch etwas sein? Wir haben heute frischen Apfelkuchen.",
+      "text_en": "Sure. Would you like anything else? We have fresh apple cake today."
+    },
+    {
+      "speaker": "Gespräch 1 — Kunde",
+      "text_de": "Oh ja, ein Stück Apfelkuchen bitte. Was macht das zusammen?",
+      "text_en": "Oh yes, a piece of apple cake please. How much is that altogether?"
+    },
+    {
+      "speaker": "Gespräch 1 — Verkäuferin",
+      "text_de": "Das macht 6 Euro 50, bitte.",
+      "text_en": "That'll be 6 euros 50, please."
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Entschuldigung, fährt dieser Zug nach München?",
+      "text_en": "Excuse me, does this train go to Munich?"
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Nein, dieser Zug fährt nach Stuttgart. Der Zug nach München fährt von Gleis 7.",
+      "text_en": "No, this train goes to Stuttgart. The train to Munich departs from platform 7."
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Danke! Und wann fährt er?",
+      "text_en": "Thanks! And when does it leave?"
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Um 14:30 Uhr. In zehn Minuten.",
+      "text_en": "At 2:30 PM. In ten minutes."
+    },
+    {
+      "speaker": "Gespräch 3 — Patient",
+      "text_de": "Guten Tag, ich habe seit drei Tagen Kopfschmerzen.",
+      "text_en": "Good day, I've had headaches for three days."
+    },
+    {
+      "speaker": "Gespräch 3 — Ärztin",
+      "text_de": "Haben Sie auch Fieber?",
+      "text_en": "Do you also have a fever?"
+    },
+    {
+      "speaker": "Gespräch 3 — Patient",
+      "text_de": "Nein, kein Fieber. Aber ich schlafe schlecht.",
+      "text_en": "No, no fever. But I sleep badly."
+    },
+    {
+      "speaker": "Gespräch 3 — Ärztin",
+      "text_de": "Ich verschreibe Ihnen Tabletten. Nehmen Sie zweimal am Tag eine nach dem Essen.",
+      "text_en": "I'll prescribe you tablets. Take one twice a day after eating."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Ich möchte ein Konto eröffnen. Was brauche ich dafür?",
+      "text_en": "I'd like to open an account. What do I need for that?"
+    },
+    {
+      "speaker": "Gespräch 4 — Bankangestellter",
+      "text_de": "Sie brauchen Ihren Personalausweis und eine Meldebescheinigung.",
+      "text_en": "You need your ID card and a registration certificate."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Ich habe meinen Ausweis dabei. Die Meldebescheinigung bringe ich morgen mit.",
+      "text_en": "I have my ID with me. I'll bring the registration certificate tomorrow."
+    },
+    {
+      "speaker": "Gespräch 5 — Kellner",
+      "text_de": "Guten Abend! Möchten Sie schon bestellen?",
+      "text_en": "Good evening! Would you like to order already?"
+    },
+    {
+      "speaker": "Gespräch 5 — Gast",
+      "text_de": "Ja, ich nehme die Gemüsesuppe und danach den gegrillten Fisch.",
+      "text_en": "Yes, I'll have the vegetable soup and then the grilled fish."
+    },
+    {
+      "speaker": "Gespräch 5 — Kellner",
+      "text_de": "Sehr gern. Und zu trinken?",
+      "text_en": "With pleasure. And to drink?"
+    },
+    {
+      "speaker": "Gespräch 5 — Gast",
+      "text_de": "Ein Glas Wasser, bitte.",
+      "text_en": "A glass of water, please."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel muss der Kunde in der Bäckerei bezahlen?",
+      "text_en": "How much does the customer have to pay at the bakery?",
+      "options": [
+        "a) 5 Euro 50",
+        "b) 6 Euro 50",
+        "c) 7 Euro 50"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Kunde muss 6 Euro 50 bezahlen.",
+      "explanation_en": "The customer has to pay 6 euros 50."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Von welchem Gleis fährt der Zug nach München?",
+      "text_en": "From which platform does the train to Munich depart?",
+      "options": [
+        "a) Gleis 5",
+        "b) Gleis 7",
+        "c) Gleis 9"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Zug nach München fährt von Gleis 7.",
+      "explanation_en": "The train to Munich departs from platform 7."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was verschreibt die Ärztin?",
+      "text_en": "What does the doctor prescribe?",
+      "options": [
+        "a) Tropfen",
+        "b) Tabletten",
+        "c) Einen Tee"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Ärztin verschreibt dem Patienten Tabletten.",
+      "explanation_en": "The doctor prescribes the patient tablets."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was bringt die Frau morgen zur Bank mit?",
+      "text_en": "What will the woman bring to the bank tomorrow?",
+      "options": [
+        "a) Den Personalausweis",
+        "b) Die Meldebescheinigung",
+        "c) Einen Kontoauszug"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Frau bringt morgen die Meldebescheinigung mit.",
+      "explanation_en": "The woman will bring the registration certificate tomorrow."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was bestellt der Gast als Hauptgericht?",
+      "text_en": "What does the guest order as main course?",
+      "options": [
+        "a) Schnitzel",
+        "b) Gemüsesuppe",
+        "c) Gegrillten Fisch"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Gast bestellt den gegrillten Fisch als Hauptgericht.",
+      "explanation_en": "The guest orders the grilled fish as main course."
+    }
+  ]
+}

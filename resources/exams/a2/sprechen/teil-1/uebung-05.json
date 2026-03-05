@@ -1,0 +1,75 @@
+{
+  "id": "a2-sprechen-teil-1-005",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Themen: Sprachen, Urlaub, Kochen, Freunde",
+  "instructions": "Sie bekommen vier Karten mit Themen. Sprechen Sie über die Themen.",
+  "situation_de": "Sie ziehen vier Karten. Auf jeder Karte steht ein Thema. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You draw four cards. Each card has a topic. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Sprachen: Welche Sprachen sprechen Sie? (Languages: Which languages do you speak?)",
+    "Urlaub: Wohin sind Sie letzten Sommer gefahren? (Vacation: Where did you go last summer?)",
+    "Kochen: Kochen Sie gern? Was kochen Sie? (Cooking: Do you like cooking? What do you cook?)",
+    "Freunde: Was machen Sie gern mit Freunden? (Friends: What do you like to do with friends?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre Karten. Fangen Sie bitte an.",
+      "text_en": "Here are your cards. Please start."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein erstes Thema ist Sprachen. Welche Sprachen sprechen Sie?",
+      "text_en": "My first topic is languages. Which languages do you speak?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich spreche Deutsch und Englisch. Und Sie?",
+      "text_en": "I speak German and English. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich spreche Spanisch und lerne Deutsch. Deutsch ist manchmal schwer, aber interessant. Mein zweites Thema ist Urlaub. Wohin sind Sie letzten Sommer gefahren?",
+      "text_en": "I speak Spanish and I am learning German. German is sometimes difficult, but interesting. My second topic is vacation. Where did you go last summer?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich bin nach Österreich gefahren. War Ihr Urlaub schön?",
+      "text_en": "I went to Austria. Was your vacation nice?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich bin ans Meer gefahren. Das war toll. Jetzt kommt Kochen. Kochen Sie gern?",
+      "text_en": "Yes, I went to the sea. That was great. Now comes cooking. Do you like cooking?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ja, ich koche am Wochenende. Was kochen Sie gern?",
+      "text_en": "Yes, I cook on weekends. What do you like to cook?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich koche gern Pasta. Das ist einfach und lecker. Mein letztes Thema ist Freunde. Was machen Sie gern mit Freunden?",
+      "text_en": "I like cooking pasta. That is easy and delicious. My last topic is friends. What do you like to do with friends?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich gehe gern ins Kino mit Freunden. Und Sie?",
+      "text_en": "I like going to the cinema with friends. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wir gehen gern spazieren oder trinken zusammen Kaffee. Das ist schön.",
+      "text_en": "We like going for walks or drinking coffee together. That is nice."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten des Prüfers und stellt Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ]
+}

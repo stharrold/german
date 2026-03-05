@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-3-004",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail: Neuer Job",
+  "instructions": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Lieber Michael,\n\nvielen Dank für deine Nachricht! Du fragst, wie es mir in meinem neuen Job geht. Ich arbeite jetzt seit zwei Wochen als Verkäuferin in einem Schuhgeschäft in der Innenstadt. Die Arbeit gefällt mir gut.\n\nMeine Kolleginnen sind sehr nett und helfen mir viel. Meine Chefin heißt Frau Hartmann. Sie erklärt alles sehr geduldig. Ich arbeite von Dienstag bis Samstag, immer von 10 bis 18:30 Uhr. Montags habe ich frei.\n\nDas Schwierigste ist, den ganzen Tag zu stehen. Am Abend tun mir die Füße weh! Aber die Kunden sind meistens freundlich und ich lerne viel über Schuhe. Ich bekomme auch 20 Prozent Rabatt auf alle Schuhe im Geschäft — das finde ich super!\n\nWann besuchst du mich mal? Dann zeige ich dir die Stadt.\n\nLiebe Grüße\nJulia",
+    "text_en": "Dear Michael,\n\nThank you for your message! You asked how I'm doing at my new job. I've been working for two weeks now as a saleswoman in a shoe store in the city center. I like the work.\n\nMy colleagues are very nice and help me a lot. My boss is called Mrs. Hartmann. She explains everything very patiently. I work from Tuesday to Saturday, always from 10 AM to 6:30 PM. I have Mondays off.\n\nThe hardest part is standing all day. In the evening, my feet hurt! But the customers are mostly friendly and I'm learning a lot about shoes. I also get a 20 percent discount on all shoes in the store — I think that's great!\n\nWhen will you visit me? Then I'll show you the city.\n\nBest regards\nJulia",
+    "source": "E-Mail",
+    "word_count": 135
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo arbeitet Julia?",
+      "text_en": "Where does Julia work?",
+      "options": [
+        "a) In einem Modegeschäft",
+        "b) In einem Schuhgeschäft",
+        "c) In einem Supermarkt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Julia arbeitet als Verkäuferin in einem Schuhgeschäft.",
+      "explanation_en": "Julia works as a saleswoman in a shoe store."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann hat Julia frei?",
+      "text_en": "When does Julia have her day off?",
+      "options": [
+        "a) Am Sonntag",
+        "b) Am Montag",
+        "c) Am Dienstag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Julia arbeitet von Dienstag bis Samstag, montags hat sie frei.",
+      "explanation_en": "Julia works from Tuesday to Saturday, she has Mondays off."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was findet Julia am schwierigsten?",
+      "text_en": "What does Julia find most difficult?",
+      "options": [
+        "a) Die Kunden",
+        "b) Den ganzen Tag stehen",
+        "c) Die Arbeitszeiten"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Schwierigste ist, den ganzen Tag zu stehen.",
+      "explanation_en": "The hardest part is standing all day."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie ist Julias Chefin?",
+      "text_en": "What is Julia's boss like?",
+      "options": [
+        "a) Streng",
+        "b) Geduldig",
+        "c) Lustig"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Hartmann erklärt alles sehr geduldig.",
+      "explanation_en": "Mrs. Hartmann explains everything very patiently."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorteil hat Julia bei ihrem Job?",
+      "text_en": "What benefit does Julia have at her job?",
+      "options": [
+        "a) Kostenlose Schuhe",
+        "b) 20 Prozent Rabatt auf Schuhe",
+        "c) Freie Getränke"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Julia bekommt 20 Prozent Rabatt auf alle Schuhe im Geschäft.",
+      "explanation_en": "Julia gets a 20 percent discount on all shoes in the store."
+    }
+  ]
+}

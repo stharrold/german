@@ -1,0 +1,75 @@
+{
+  "id": "a2-sprechen-teil-1-004",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Themen: Geburtstag, Musik, Verkehrsmittel, Haustiere",
+  "instructions": "Sie bekommen vier Karten mit Themen. Sprechen Sie über die Themen.",
+  "situation_de": "Sie ziehen vier Karten. Auf jeder Karte steht ein Thema. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You draw four cards. Each card has a topic. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Geburtstag: Was machen Sie an Ihrem Geburtstag? (Birthday: What do you do on your birthday?)",
+    "Musik: Welche Musik hören Sie gern? (Music: What music do you like to listen to?)",
+    "Verkehrsmittel: Wie kommen Sie zur Arbeit? (Transport: How do you get to work?)",
+    "Haustiere: Haben Sie ein Haustier? (Pets: Do you have a pet?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte nehmen Sie Ihre vier Karten und beginnen Sie.",
+      "text_en": "Please take your four cards and begin."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein erstes Thema ist Geburtstag. Was machen Sie an Ihrem Geburtstag?",
+      "text_en": "My first topic is birthday. What do you do on your birthday?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich feiere mit meiner Familie. Wir essen zusammen Kuchen. Was machen Sie?",
+      "text_en": "I celebrate with my family. We eat cake together. What do you do?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich lade Freunde ein und wir gehen ins Restaurant. Mein nächstes Thema ist Musik. Welche Musik hören Sie gern?",
+      "text_en": "I invite friends and we go to a restaurant. My next topic is music. What music do you like to listen to?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich höre gern Pop-Musik. Was hören Sie?",
+      "text_en": "I like listening to pop music. What do you listen to?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich höre gern klassische Musik, besonders abends. Jetzt kommt Verkehrsmittel. Wie kommen Sie zur Arbeit?",
+      "text_en": "I like listening to classical music, especially in the evening. Now comes transport. How do you get to work?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich fahre mit der U-Bahn. Das geht schnell. Und Sie?",
+      "text_en": "I take the subway. That is fast. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich fahre mit dem Fahrrad. Das ist gut für die Gesundheit. Mein letztes Thema ist Haustiere. Haben Sie ein Haustier?",
+      "text_en": "I ride my bicycle. That is good for health. My last topic is pets. Do you have a pet?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Nein, ich habe kein Haustier. Und Sie?",
+      "text_en": "No, I don't have a pet. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich habe eine Katze. Sie heißt Mimi und ist sehr lieb.",
+      "text_en": "Yes, I have a cat. Her name is Mimi and she is very sweet."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten des Prüfers und stellt Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ]
+}

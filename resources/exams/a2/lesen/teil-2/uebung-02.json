@@ -1,0 +1,62 @@
+{
+  "id": "a2-lesen-teil-2-002",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Speisekarte: Restaurant Sonnenblume",
+  "instructions": "Lesen Sie die Informationen und die Aufgaben. Welche Information passt? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Restaurant Sonnenblume – Mittagskarte (11:30-14:30 Uhr):\n\nA) Tomatensuppe mit Brot – 4,50 Euro. Hausgemacht, auch vegan.\n\nB) Wiener Schnitzel mit Kartoffelsalat – 11,90 Euro. Unser Klassiker aus Schweinefleisch.\n\nC) Gemüse-Curry mit Reis – 9,50 Euro. Scharf, vegan.\n\nD) Spaghetti Bolognese – 8,90 Euro. Mit Rindfleisch. Kindergröße: 5,50 Euro.\n\nE) Großer Salat mit Hähnchen – 10,50 Euro. Mit Brot und Dressing.\n\nF) Apfelstrudel mit Vanilleeis – 5,90 Euro. Hausgemacht, nur bis 14 Uhr.\n\nAlle Gerichte mit einem Glas Wasser oder Tee. Mittagsmenü (Suppe + Hauptgericht): 2 Euro Rabatt.",
+    "text_en": "Restaurant Sunflower – Lunch Menu (11:30 AM-2:30 PM):\n\nA) Tomato Soup with Bread – 4.50 euros. Homemade, also vegan.\n\nB) Wiener Schnitzel with Potato Salad – 11.90 euros. Our classic made from pork.\n\nC) Vegetable Curry with Rice – 9.50 euros. Spicy, vegan.\n\nD) Spaghetti Bolognese – 8.90 euros. With beef. Children's size: 5.50 euros.\n\nE) Large Salad with Chicken – 10.50 euros. With bread and dressing.\n\nF) Apple Strudel with Vanilla Ice Cream – 5.90 euros. Homemade, only until 2 PM.\n\nAll dishes include a glass of water or tea. Lunch set (soup + main course): 2 euros discount.",
+    "source": "Speisekarte",
+    "word_count": 105
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Frau Meier isst kein Fleisch und keine tierischen Produkte. Sie möchte etwas Warmes essen.",
+      "text_en": "Ms. Meier doesn't eat meat or animal products. She wants to eat something warm.",
+      "correct_answer": "C",
+      "explanation_de": "Das Gemüse-Curry (C) ist vegan und warm.",
+      "explanation_en": "The vegetable curry (C) is vegan and warm."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Herr Wagner kommt mit seinem 6-jährigen Sohn. Der Sohn mag Nudeln.",
+      "text_en": "Mr. Wagner comes with his 6-year-old son. His son likes pasta.",
+      "correct_answer": "D",
+      "explanation_de": "Spaghetti Bolognese (D) gibt es auch in Kindergröße.",
+      "explanation_en": "Spaghetti Bolognese (D) is also available in children's size."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Frau Schmidt möchte typisch österreichisches Essen probieren.",
+      "text_en": "Ms. Schmidt wants to try typical Austrian food.",
+      "correct_answer": "B",
+      "explanation_de": "Das Wiener Schnitzel (B) ist ein österreichischer Klassiker.",
+      "explanation_en": "Wiener Schnitzel (B) is an Austrian classic."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Herr Novak möchte nicht viel Geld ausgeben und nur etwas Kleines essen.",
+      "text_en": "Mr. Novak doesn't want to spend much money and just wants to eat something small.",
+      "correct_answer": "A",
+      "explanation_de": "Die Tomatensuppe mit Brot (A) kostet nur 4,50 Euro und ist eine kleine Mahlzeit.",
+      "explanation_en": "The tomato soup with bread (A) costs only 4.50 euros and is a small meal."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Frau Becker möchte etwas Leichtes mit Fleisch essen und ist auf Diät.",
+      "text_en": "Ms. Becker wants to eat something light with meat and is on a diet.",
+      "correct_answer": "E",
+      "explanation_de": "Der große Salat mit Hähnchen (E) ist leicht und enthält Fleisch.",
+      "explanation_en": "The large salad with chicken (E) is light and contains meat."
+    }
+  ]
+}

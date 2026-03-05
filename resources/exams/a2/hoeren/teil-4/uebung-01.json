@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-4-001",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Mein Hobby Fotografieren",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Guten Tag, liebe Zuhörer. Heute sprechen wir mit Claudia Meier über ihr Hobby. Frau Meier, Sie fotografieren gern. Seit wann machen Sie das?",
+      "text_en": "Good day, dear listeners. Today we are talking with Claudia Meier about her hobby. Mrs. Meier, you like to take photographs. Since when have you been doing that?"
+    },
+    {
+      "speaker": "Claudia",
+      "text_de": "Ich fotografiere seit fünf Jahren. Mein Mann hat mir damals eine Kamera zum Geburtstag geschenkt.",
+      "text_en": "I've been photographing for five years. My husband gave me a camera for my birthday back then."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was fotografieren Sie am liebsten?",
+      "text_en": "What do you most like to photograph?"
+    },
+    {
+      "speaker": "Claudia",
+      "text_de": "Am liebsten fotografiere ich Tiere und Natur. Ich gehe oft in den Wald oder in den Park. Manchmal fotografiere ich auch Blumen in meinem Garten.",
+      "text_en": "I most like to photograph animals and nature. I often go to the forest or to the park. Sometimes I also photograph flowers in my garden."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Haben Sie eine Ausstellung gemacht?",
+      "text_en": "Have you had an exhibition?"
+    },
+    {
+      "speaker": "Claudia",
+      "text_de": "Ja, letztes Jahr hatte ich eine kleine Ausstellung in der Stadtbibliothek. Das war sehr schön. Viele Leute sind gekommen.",
+      "text_en": "Yes, last year I had a small exhibition at the city library. That was very nice. Many people came."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Geben Sie auch Kurse?",
+      "text_en": "Do you also give courses?"
+    },
+    {
+      "speaker": "Claudia",
+      "text_de": "Nein, noch nicht. Aber ich möchte nächstes Jahr einen Anfängerkurs an der Volkshochschule geben. Das wäre toll.",
+      "text_en": "No, not yet. But I'd like to give a beginners' course at the adult education center next year. That would be great."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Claudia fotografiert seit zehn Jahren.",
+      "text_en": "Claudia has been photographing for ten years.",
+      "correct_answer": false,
+      "explanation_de": "Claudia fotografiert seit fünf Jahren, nicht seit zehn.",
+      "explanation_en": "Claudia has been photographing for five years, not ten."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Claudia hat die Kamera von ihrem Mann bekommen.",
+      "text_en": "Claudia got the camera from her husband.",
+      "correct_answer": true,
+      "explanation_de": "Ihr Mann hat ihr die Kamera zum Geburtstag geschenkt.",
+      "explanation_en": "Her husband gave her the camera for her birthday."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Claudia fotografiert am liebsten Menschen.",
+      "text_en": "Claudia most likes to photograph people.",
+      "correct_answer": false,
+      "explanation_de": "Sie fotografiert am liebsten Tiere und Natur.",
+      "explanation_en": "She most likes to photograph animals and nature."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Die Ausstellung war in der Stadtbibliothek.",
+      "text_en": "The exhibition was at the city library.",
+      "correct_answer": true,
+      "explanation_de": "Claudia hatte eine Ausstellung in der Stadtbibliothek.",
+      "explanation_en": "Claudia had an exhibition at the city library."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Claudia gibt schon Fotografiekurse.",
+      "text_en": "Claudia already gives photography courses.",
+      "correct_answer": false,
+      "explanation_de": "Sie gibt noch keine Kurse, möchte aber nächstes Jahr anfangen.",
+      "explanation_en": "She doesn't give courses yet, but wants to start next year."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "a2-hoeren-teil-3-004",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Reisen und Tourismus",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Tourist",
+      "text_de": "Guten Tag, gibt es eine Stadtführung auf Englisch?",
+      "text_en": "Good day, is there a city tour in English?"
+    },
+    {
+      "speaker": "Gespräch 1 — Mitarbeiterin",
+      "text_de": "Ja, die Stadtführung auf Englisch ist jeden Samstag um 11 Uhr. Sie dauert zwei Stunden und kostet 8 Euro.",
+      "text_en": "Yes, the city tour in English is every Saturday at 11 AM. It takes two hours and costs 8 euros."
+    },
+    {
+      "speaker": "Gespräch 1 — Tourist",
+      "text_de": "Wunderbar, zwei Tickets bitte.",
+      "text_en": "Wonderful, two tickets please."
+    },
+    {
+      "speaker": "Gespräch 2 — Gast",
+      "text_de": "Guten Abend, ich habe ein Zimmer reserviert. Mein Name ist Fischer.",
+      "text_en": "Good evening, I have a room reserved. My name is Fischer."
+    },
+    {
+      "speaker": "Gespräch 2 — Rezeptionist",
+      "text_de": "Willkommen, Herr Fischer. Sie haben ein Einzelzimmer für drei Nächte. Das Frühstück ist von 7 bis 10 Uhr im Restaurant im Erdgeschoss.",
+      "text_en": "Welcome, Mr. Fischer. You have a single room for three nights. Breakfast is from 7 to 10 AM in the restaurant on the ground floor."
+    },
+    {
+      "speaker": "Gespräch 2 — Gast",
+      "text_de": "Danke. Gibt es WLAN auf dem Zimmer?",
+      "text_en": "Thanks. Is there WiFi in the room?"
+    },
+    {
+      "speaker": "Gespräch 2 — Rezeptionist",
+      "text_de": "Ja, das Passwort steht auf der Karte in Ihrem Zimmer.",
+      "text_en": "Yes, the password is on the card in your room."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau",
+      "text_de": "Entschuldigung, wie komme ich zum Schloss?",
+      "text_en": "Excuse me, how do I get to the castle?"
+    },
+    {
+      "speaker": "Gespräch 3 — Passant",
+      "text_de": "Das Schloss ist ziemlich weit. Sie nehmen am besten den Bus Linie 12. Die Haltestelle ist dort drüben.",
+      "text_en": "The castle is quite far. You'd best take bus line 12. The bus stop is over there."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau",
+      "text_de": "Und wie lange dauert die Fahrt?",
+      "text_en": "And how long does the ride take?"
+    },
+    {
+      "speaker": "Gespräch 3 — Passant",
+      "text_de": "Ungefähr 15 Minuten.",
+      "text_en": "About 15 minutes."
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Hallo, ich möchte ein Fahrrad mieten. Für einen Tag.",
+      "text_en": "Hello, I'd like to rent a bicycle. For one day."
+    },
+    {
+      "speaker": "Gespräch 4 — Verleih",
+      "text_de": "Ein Fahrrad für einen Tag kostet 12 Euro. Wir brauchen Ihren Ausweis als Pfand.",
+      "text_en": "A bicycle for one day costs 12 euros. We need your ID as deposit."
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Kein Problem. Hier ist mein Ausweis.",
+      "text_en": "No problem. Here is my ID."
+    },
+    {
+      "speaker": "Gespräch 5 — Touristin",
+      "text_de": "Können Sie mir ein gutes Restaurant empfehlen?",
+      "text_en": "Can you recommend a good restaurant to me?"
+    },
+    {
+      "speaker": "Gespräch 5 — Hotelangestellte",
+      "text_de": "Ja, das Restaurant Zur Alten Post ist sehr gut. Es ist in der Hauptstraße, nur zehn Minuten zu Fuß.",
+      "text_en": "Yes, the restaurant Zur Alten Post is very good. It's on the main street, only ten minutes on foot."
+    },
+    {
+      "speaker": "Gespräch 5 — Touristin",
+      "text_de": "Was für Essen gibt es dort?",
+      "text_en": "What kind of food is there?"
+    },
+    {
+      "speaker": "Gespräch 5 — Hotelangestellte",
+      "text_de": "Typisch deutsche Küche. Die Bratwurst ist besonders gut!",
+      "text_en": "Typical German cuisine. The bratwurst is especially good!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert die Stadtführung?",
+      "text_en": "How long does the city tour take?",
+      "options": [
+        "a) Eine Stunde",
+        "b) Zwei Stunden",
+        "c) Drei Stunden"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Stadtführung dauert zwei Stunden.",
+      "explanation_en": "The city tour takes two hours."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Nächte bleibt Herr Fischer?",
+      "text_en": "How many nights is Mr. Fischer staying?",
+      "options": [
+        "a) Zwei Nächte",
+        "b) Drei Nächte",
+        "c) Vier Nächte"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Herr Fischer hat ein Zimmer für drei Nächte.",
+      "explanation_en": "Mr. Fischer has a room for three nights."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie kommt die Frau am besten zum Schloss?",
+      "text_en": "How does the woman best get to the castle?",
+      "options": [
+        "a) Zu Fuß",
+        "b) Mit der U-Bahn",
+        "c) Mit dem Bus"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Frau soll am besten den Bus Linie 12 nehmen.",
+      "explanation_en": "The woman should best take bus line 12."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was braucht der Fahrradverleih als Pfand?",
+      "text_en": "What does the bicycle rental need as deposit?",
+      "options": [
+        "a) Geld",
+        "b) Einen Ausweis",
+        "c) Eine Kreditkarte"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Verleih braucht den Ausweis als Pfand.",
+      "explanation_en": "The rental needs the ID as deposit."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt die Hotelangestellte im Restaurant?",
+      "text_en": "What does the hotel employee recommend at the restaurant?",
+      "options": [
+        "a) Den Fisch",
+        "b) Die Bratwurst",
+        "c) Die Suppe"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Hotelangestellte sagt, die Bratwurst ist besonders gut.",
+      "explanation_en": "The hotel employee says the bratwurst is especially good."
+    }
+  ]
+}

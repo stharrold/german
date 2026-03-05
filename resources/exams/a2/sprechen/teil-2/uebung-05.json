@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-2-005",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Meine Wohnung",
+  "instructions": "Sie bekommen ein Thema. Sprechen Sie über das Thema.",
+  "situation_de": "Der Prüfer / Die Prüferin fragt Sie über Ihre Wohnung oder Ihr Haus. Beantworten Sie die Fragen mit zwei bis drei Sätzen.",
+  "situation_en": "The examiner asks you about your apartment or your house. Answer the questions with two to three sentences.",
+  "discussion_points": [
+    "Wo wohnen Sie? In einer Wohnung oder in einem Haus? (Where do you live? In an apartment or in a house?)",
+    "Wie viele Zimmer hat Ihre Wohnung? (How many rooms does your apartment have?)",
+    "Welches Zimmer ist Ihr Lieblingszimmer? Warum? (Which room is your favorite room? Why?)",
+    "Was ist in der Nähe von Ihrer Wohnung? (What is near your apartment?)",
+    "Möchten Sie umziehen? Warum oder warum nicht? (Would you like to move? Why or why not?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist „Meine Wohnung“. Wo wohnen Sie?",
+      "text_en": "Our topic is \"My apartment.\" Where do you live?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich wohne in einer Wohnung im dritten Stock. Sie ist in einem ruhigen Viertel am Stadtrand. Ich wohne dort seit einem Jahr.",
+      "text_en": "I live in an apartment on the third floor. It is in a quiet neighborhood on the outskirts of the city. I have been living there for a year."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wie viele Zimmer hat Ihre Wohnung?",
+      "text_en": "How many rooms does your apartment have?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Wohnung hat drei Zimmer: ein Schlafzimmer, ein Wohnzimmer und eine Küche. Das Bad ist klein, aber es reicht.",
+      "text_en": "My apartment has three rooms: a bedroom, a living room, and a kitchen. The bathroom is small, but it is enough."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Welches Zimmer ist Ihr Lieblingszimmer?",
+      "text_en": "Which room is your favorite room?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein Lieblingszimmer ist das Wohnzimmer. Es hat ein großes Fenster und viel Licht. Dort lese ich und sehe fern.",
+      "text_en": "My favorite room is the living room. It has a big window and a lot of light. I read and watch TV there."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was ist in der Nähe von Ihrer Wohnung?",
+      "text_en": "What is near your apartment?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "In der Nähe gibt es einen Supermarkt und eine Bäckerei. Auch eine Bushaltestelle ist direkt vor dem Haus.",
+      "text_en": "Nearby there is a supermarket and a bakery. There is also a bus stop right in front of the building."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Möchten Sie umziehen?",
+      "text_en": "Would you like to move?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Im Moment nicht. Die Wohnung ist günstig und die Lage ist gut. Aber vielleicht möchte ich später eine größere Wohnung.",
+      "text_en": "Not at the moment. The apartment is affordable and the location is good. But maybe I would like a bigger apartment later."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Fragen werden mit zwei bis drei Sätzen beantwortet.",
+    "Zusammenhang: Die Antworten sind logisch und passen zum Thema.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Wohnen und Einrichtung wird verwendet.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und einfachen Konnektoren (und, aber, auch).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ]
+}

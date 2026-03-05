@@ -1,0 +1,26 @@
+{
+  "id": "a2-schreiben-aufgabe-2-004",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Problem in der Wohnung",
+  "instructions": "Schreiben Sie eine E-Mail (ca. 30-40 Wörter).",
+  "situation_de": "In Ihrer Wohnung funktioniert die Heizung nicht. Schreiben Sie eine E-Mail an Ihren Vermieter, Herrn Weber.",
+  "situation_en": "The heating in your apartment is not working. Write an email to your landlord, Mr. Weber.",
+  "target_word_count": 36,
+  "required_points": [
+    "Das Problem beschreiben (Describe the problem)",
+    "Sagen, seit wann das Problem besteht (Say since when the problem has existed)",
+    "Um Hilfe bitten (Ask for help)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrter Herr Weber,\n\nich habe ein Problem in meiner Wohnung. Die Heizung funktioniert seit Montag nicht mehr und es ist sehr kalt. Können Sie bitte so schnell wie möglich jemanden schicken?\n\nMit freundlichen Grüßen\nLena Park",
+    "text_en": "Dear Mr. Weber,\n\nI have a problem in my apartment. The heating has not been working since Monday and it is very cold. Could you please send someone as soon as possible?\n\nBest regards\nLena Park"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Kohärenz: Die E-Mail hat eine passende Anrede und einen Gruß (Coherence: The email has an appropriate salutation and closing)",
+    "Wortschatz: Angemessener formeller Wortschatz auf A2-Niveau (Vocabulary: Appropriate formal vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

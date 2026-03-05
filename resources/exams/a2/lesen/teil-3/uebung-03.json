@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-3-003",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail: Urlaub in den Bergen",
+  "instructions": "Lesen Sie den Text und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Anna,\n\nwir sind gerade in Österreich in den Bergen und es ist wunderbar! Wir haben ein kleines Hotel in Tirol gefunden. Das Zimmer ist einfach, aber sauber und gemütlich. Das Frühstück ist jeden Morgen fantastisch — frisches Brot, Käse, Marmelade und Eier.\n\nGestern sind wir drei Stunden gewandert. Der Weg war nicht schwer, aber die Aussicht war unglaublich! Man konnte die Berge und einen See sehen. Heute regnet es leider, deshalb bleiben wir im Hotel und lesen Bücher. Morgen wollen wir in das Dorf gehen und Souvenirs kaufen.\n\nDas Wetter soll ab Donnerstag wieder schön werden. Dann machen wir noch eine Wanderung. Am Sonntag fahren wir zurück nach Hause.\n\nViele Grüße aus den Alpen!\nKlaus und Sabine",
+    "text_en": "Dear Anna,\n\nWe are currently in Austria in the mountains and it's wonderful! We found a small hotel in Tyrol. The room is simple but clean and cozy. Breakfast is fantastic every morning — fresh bread, cheese, jam, and eggs.\n\nYesterday we hiked for three hours. The path wasn't difficult, but the view was incredible! You could see the mountains and a lake. Unfortunately, it's raining today, so we're staying in the hotel and reading books. Tomorrow we want to go to the village and buy souvenirs.\n\nThe weather is supposed to be nice again starting Thursday. Then we'll do another hike. On Sunday, we're driving back home.\n\nMany greetings from the Alps!\nKlaus and Sabine",
+    "source": "E-Mail",
+    "word_count": 130
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo machen Klaus und Sabine Urlaub?",
+      "text_en": "Where are Klaus and Sabine on vacation?",
+      "options": [
+        "a) In der Schweiz",
+        "b) In Österreich",
+        "c) In Süddeutschland"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie sind in Österreich in den Bergen, in Tirol.",
+      "explanation_en": "They are in Austria in the mountains, in Tyrol."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie ist das Hotel?",
+      "text_en": "How is the hotel?",
+      "options": [
+        "a) Groß und luxuriös",
+        "b) Einfach, aber sauber und gemütlich",
+        "c) Alt und kalt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Zimmer ist einfach, aber sauber und gemütlich.",
+      "explanation_en": "The room is simple but clean and cozy."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum bleiben sie heute im Hotel?",
+      "text_en": "Why are they staying in the hotel today?",
+      "options": [
+        "a) Sie sind müde",
+        "b) Es regnet",
+        "c) Das Hotel hat ein Schwimmbad"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Heute regnet es, deshalb bleiben sie im Hotel.",
+      "explanation_en": "It's raining today, so they're staying in the hotel."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was möchten sie morgen machen?",
+      "text_en": "What do they want to do tomorrow?",
+      "options": [
+        "a) Wandern gehen",
+        "b) Schwimmen gehen",
+        "c) Ins Dorf gehen und Souvenirs kaufen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Morgen wollen sie in das Dorf gehen und Souvenirs kaufen.",
+      "explanation_en": "Tomorrow they want to go to the village and buy souvenirs."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann fahren Klaus und Sabine nach Hause?",
+      "text_en": "When are Klaus and Sabine going home?",
+      "options": [
+        "a) Am Samstag",
+        "b) Am Sonntag",
+        "c) Am Montag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Sonntag fahren sie zurück nach Hause.",
+      "explanation_en": "On Sunday, they're driving back home."
+    }
+  ]
+}
