@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-1-005",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Neues Fitnessstudio eröffnet",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Am 1. September eröffnet das neue Fitnessstudio FitPlus in der Bahnhofstraße 12. Wir bieten viele Kurse an: Yoga, Zumba, Pilates und Boxen. Das Studio ist montags bis freitags von 7 bis 22 Uhr geöffnet, am Wochenende von 9 bis 18 Uhr. Eine Monatskarte kostet 35 Euro. Studenten bekommen 20 Prozent Rabatt. In der ersten Woche ist das Training für alle kostenlos! Wir haben auch eine Kinderbetreuung für Eltern, die in Ruhe trainieren möchten. Kommen Sie vorbei und probieren Sie es aus!",
+    "text_en": "On September 1st, the new FitPlus fitness studio opens at Bahnhofstraße 12. We offer many classes: yoga, Zumba, Pilates, and boxing. The studio is open Monday to Friday from 7 AM to 10 PM, on weekends from 9 AM to 6 PM. A monthly pass costs 35 euros. Students get a 20 percent discount. In the first week, training is free for everyone! We also have childcare for parents who want to train in peace. Come by and try it out!",
+    "source": "Anzeige",
+    "word_count": 90
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Kurse gibt es im Fitnessstudio?",
+      "text_en": "Which classes are available at the fitness studio?",
+      "options": [
+        "a) Schwimmen und Tennis",
+        "b) Yoga, Zumba, Pilates und Boxen",
+        "c) Nur Yoga und Pilates"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Studio bietet Yoga, Zumba, Pilates und Boxen an.",
+      "explanation_en": "The studio offers yoga, Zumba, Pilates, and boxing."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet eine Monatskarte?",
+      "text_en": "How much does a monthly pass cost?",
+      "options": [
+        "a) 25 Euro",
+        "b) 35 Euro",
+        "c) 45 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine Monatskarte kostet 35 Euro.",
+      "explanation_en": "A monthly pass costs 35 euros."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wer bekommt einen Rabatt?",
+      "text_en": "Who gets a discount?",
+      "options": [
+        "a) Senioren",
+        "b) Familien",
+        "c) Studenten"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Studenten bekommen 20 Prozent Rabatt.",
+      "explanation_en": "Students get a 20 percent discount."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist in der ersten Woche besonders?",
+      "text_en": "What is special in the first week?",
+      "options": [
+        "a) Es gibt doppelte Kurse",
+        "b) Das Training ist kostenlos",
+        "c) Man bekommt ein Geschenk"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In der ersten Woche ist das Training für alle kostenlos.",
+      "explanation_en": "In the first week, training is free for everyone."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es für Eltern mit kleinen Kindern?",
+      "text_en": "What is there for parents with small children?",
+      "options": [
+        "a) Einen Spielplatz",
+        "b) Eine Kinderbetreuung",
+        "c) Einen Kinderkurs"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es gibt eine Kinderbetreuung für Eltern, die in Ruhe trainieren möchten.",
+      "explanation_en": "There is childcare for parents who want to train in peace."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-1-001",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Stadtfest am Wochenende",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Am Samstag und Sonntag findet in der Altstadt das große Stadtfest statt. Von 10 bis 22 Uhr gibt es Musik, Essen und Getränke aus der Region. Für Kinder gibt es ein besonderes Programm mit Spielen und Basteln. Am Samstag um 15 Uhr spielt die Stadtkapelle auf dem Marktplatz. Am Abend gibt es eine Party mit einer Band aus Berlin. Der Eintritt ist frei. Parkplätze gibt es am Bahnhof. Die Buslinie 5 fährt alle 15 Minuten zum Fest.",
+    "text_en": "On Saturday and Sunday, the big city festival takes place in the old town. From 10 AM to 10 PM there is music, food, and drinks from the region. For children, there is a special program with games and crafts. On Saturday at 3 PM, the city band plays on the market square. In the evening, there is a party with a band from Berlin. Admission is free. Parking is available at the train station. Bus line 5 runs every 15 minutes to the festival.",
+    "source": "Zeitung",
+    "word_count": 90
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann findet das Stadtfest statt?",
+      "text_en": "When does the city festival take place?",
+      "options": [
+        "a) Nur am Samstag",
+        "b) Am Samstag und Sonntag",
+        "c) Von Freitag bis Sonntag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Fest findet am Samstag und Sonntag statt.",
+      "explanation_en": "The festival takes place on Saturday and Sunday."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kostet der Eintritt?",
+      "text_en": "How much does admission cost?",
+      "options": [
+        "a) 5 Euro",
+        "b) 10 Euro",
+        "c) Nichts, er ist frei"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Eintritt ist frei.",
+      "explanation_en": "Admission is free."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es für Kinder?",
+      "text_en": "What is there for children?",
+      "options": [
+        "a) Ein Sportprogramm",
+        "b) Spiele und Basteln",
+        "c) Einen Filmabend"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Für Kinder gibt es ein besonderes Programm mit Spielen und Basteln.",
+      "explanation_en": "For children, there is a special program with games and crafts."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Woher kommt die Band, die am Abend spielt?",
+      "text_en": "Where does the band that plays in the evening come from?",
+      "options": [
+        "a) Aus München",
+        "b) Aus Berlin",
+        "c) Aus der Altstadt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Abend gibt es eine Party mit einer Band aus Berlin.",
+      "explanation_en": "In the evening, there is a party with a band from Berlin."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie kommt man am besten zum Fest?",
+      "text_en": "What is the best way to get to the festival?",
+      "options": [
+        "a) Mit dem Auto zur Altstadt",
+        "b) Mit der U-Bahn",
+        "c) Mit der Buslinie 5"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Buslinie 5 fährt alle 15 Minuten zum Fest.",
+      "explanation_en": "Bus line 5 runs every 15 minutes to the festival."
+    }
+  ]
+}

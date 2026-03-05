@@ -1,0 +1,108 @@
+{
+  "id": "a2-hoeren-teil-1-002",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Alltagstexte — Wetter und Freizeit",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Und jetzt das Wetter für morgen: Am Vormittag ist es sonnig und warm, bis zu 24 Grad. Am Nachmittag kommen Wolken und am Abend regnet es. Nehmen Sie einen Regenschirm mit!",
+      "text_en": "And now the weather for tomorrow: In the morning it is sunny and warm, up to 24 degrees. In the afternoon clouds arrive and in the evening it rains. Take an umbrella with you!"
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Entschuldigung, Sie suchen die Post? Gehen Sie hier geradeaus bis zur Ampel. Dann biegen Sie links ab. Die Post ist auf der rechten Seite, neben der Apotheke.",
+      "text_en": "Excuse me, you're looking for the post office? Go straight ahead to the traffic light. Then turn left. The post office is on the right side, next to the pharmacy."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Hallo Thomas, hier ist Petra. Ich kann heute Abend leider nicht zum Kino kommen. Ich bin krank und muss im Bett bleiben. Vielleicht können wir nächste Woche gehen? Ruf mich bitte an!",
+      "text_en": "Hello Thomas, this is Petra. Unfortunately I can't come to the cinema this evening. I am sick and have to stay in bed. Maybe we can go next week? Please call me!"
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Willkommen im Schwimmbad Sonnenbad. Unsere Öffnungszeiten sind: Montag bis Freitag von 6 bis 22 Uhr, am Wochenende von 8 bis 20 Uhr. Der Eintritt kostet 5 Euro für Erwachsene und 3 Euro für Kinder.",
+      "text_en": "Welcome to Sonnenbad swimming pool. Our opening hours are: Monday to Friday from 6 to 10 PM, on weekends from 8 AM to 8 PM. Admission costs 5 euros for adults and 3 euros for children."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Liebe Schüler, morgen findet kein Unterricht statt. Der Grund ist ein Feiertag. Der Unterricht beginnt wieder am Donnerstag um 8 Uhr. Ich wünsche euch einen schönen freien Tag!",
+      "text_en": "Dear students, there will be no classes tomorrow. The reason is a public holiday. Classes resume on Thursday at 8 AM. I wish you a nice day off!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie wird das Wetter am Nachmittag?",
+      "text_en": "What will the weather be like in the afternoon?",
+      "options": [
+        "a) Es regnet.",
+        "b) Es ist sonnig.",
+        "c) Es kommen Wolken."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Nachmittag kommen Wolken.",
+      "explanation_en": "In the afternoon clouds arrive."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo ist die Post?",
+      "text_en": "Where is the post office?",
+      "options": [
+        "a) Neben der Apotheke",
+        "b) Neben dem Supermarkt",
+        "c) Neben der Bäckerei"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Post ist neben der Apotheke.",
+      "explanation_en": "The post office is next to the pharmacy."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum kann Petra nicht ins Kino kommen?",
+      "text_en": "Why can't Petra come to the cinema?",
+      "options": [
+        "a) Sie muss arbeiten.",
+        "b) Sie ist krank.",
+        "c) Sie hat keinen Geld."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Petra ist krank und muss im Bett bleiben.",
+      "explanation_en": "Petra is sick and has to stay in bed."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kostet der Eintritt für Kinder?",
+      "text_en": "How much is the admission for children?",
+      "options": [
+        "a) 2 Euro",
+        "b) 3 Euro",
+        "c) 5 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Eintritt kostet 3 Euro für Kinder.",
+      "explanation_en": "The admission costs 3 euros for children."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt der Unterricht wieder?",
+      "text_en": "When do classes resume?",
+      "options": [
+        "a) Am Mittwoch",
+        "b) Am Donnerstag",
+        "c) Am Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Unterricht beginnt am Donnerstag um 8 Uhr wieder.",
+      "explanation_en": "Classes resume on Thursday at 8 AM."
+    }
+  ]
+}

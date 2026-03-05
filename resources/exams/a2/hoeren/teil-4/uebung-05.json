@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-4-005",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Ehrenamt und Engagement",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Unser Gast heute ist Martin Schulz. Er arbeitet ehrenamtlich bei der Tafel. Herr Schulz, was macht die Tafel?",
+      "text_en": "Our guest today is Martin Schulz. He works as a volunteer at the food bank. Mr. Schulz, what does the food bank do?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Die Tafel sammelt Lebensmittel von Supermärkten und Bäckereien. Diese Lebensmittel geben wir an Menschen, die wenig Geld haben.",
+      "text_en": "The food bank collects food from supermarkets and bakeries. We give this food to people who have little money."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wie lange machen Sie das schon?",
+      "text_en": "How long have you been doing this?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Seit vier Jahren. Ich helfe jeden Samstag von 9 bis 13 Uhr. Wir sind insgesamt 20 ehrenamtliche Helfer.",
+      "text_en": "For four years. I help every Saturday from 9 AM to 1 PM. We are a total of 20 volunteer helpers."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Warum machen Sie das?",
+      "text_en": "Why do you do it?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Weil ich anderen Menschen helfen möchte. Es macht mich glücklich, wenn ich sehe, dass die Leute sich freuen. Und ich habe hier auch viele nette Menschen kennengelernt.",
+      "text_en": "Because I want to help other people. It makes me happy when I see that people are pleased. And I've also met many nice people here."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Brauchen Sie noch Helfer?",
+      "text_en": "Do you still need helpers?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Ja, immer! Besonders am Mittwoch brauchen wir noch Leute. Man muss nur zwei bis drei Stunden pro Woche helfen. Jeder kann mitmachen.",
+      "text_en": "Yes, always! Especially on Wednesdays we still need people. You only have to help two to three hours per week. Everyone can participate."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Die Tafel kauft Lebensmittel im Supermarkt.",
+      "text_en": "The food bank buys food at the supermarket.",
+      "correct_answer": false,
+      "explanation_de": "Die Tafel sammelt Lebensmittel, sie kauft sie nicht.",
+      "explanation_en": "The food bank collects food, it doesn't buy it."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Martin hilft seit vier Jahren bei der Tafel.",
+      "text_en": "Martin has been helping at the food bank for four years.",
+      "correct_answer": true,
+      "explanation_de": "Martin hilft seit vier Jahren bei der Tafel.",
+      "explanation_en": "Martin has been helping at the food bank for four years."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Martin arbeitet jeden Sonntag bei der Tafel.",
+      "text_en": "Martin works at the food bank every Sunday.",
+      "correct_answer": false,
+      "explanation_de": "Martin hilft jeden Samstag, nicht Sonntag.",
+      "explanation_en": "Martin helps every Saturday, not Sunday."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Es gibt 20 ehrenamtliche Helfer.",
+      "text_en": "There are 20 volunteer helpers.",
+      "correct_answer": true,
+      "explanation_de": "Es sind insgesamt 20 ehrenamtliche Helfer.",
+      "explanation_en": "There are a total of 20 volunteer helpers."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Die Tafel braucht besonders am Samstag noch Helfer.",
+      "text_en": "The food bank especially needs helpers on Saturdays.",
+      "correct_answer": false,
+      "explanation_de": "Besonders am Mittwoch werden noch Helfer gebraucht, nicht am Samstag.",
+      "explanation_en": "Helpers are especially needed on Wednesdays, not on Saturdays."
+    }
+  ]
+}

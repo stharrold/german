@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-3-002",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Zusammen kochen",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin möchten etwas zusammen machen. Planen Sie etwas.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin möchten zusammen für Freunde kochen. Planen Sie das Abendessen zusammen.",
+  "situation_en": "You and your partner would like to cook together for friends. Plan the dinner together.",
+  "discussion_points": [
+    "Was wollen wir kochen? (What do we want to cook?)",
+    "Was müssen wir einkaufen? (What do we need to buy?)",
+    "Wer kocht was? (Who cooks what?)",
+    "Wann sollen die Freunde kommen? (When should the friends come?)",
+    "Was trinken wir dazu? (What do we drink with it?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir möchten für unsere Freunde kochen. Was sollen wir machen? Hast du eine Idee?",
+      "text_en": "We would like to cook for our friends. What should we make? Do you have an idea?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir können Spaghetti mit Tomatensoße machen. Das ist einfach und alle mögen das.",
+      "text_en": "We can make spaghetti with tomato sauce. That is easy and everyone likes it."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee! Und dazu einen Salat. Was müssen wir einkaufen?",
+      "text_en": "Good idea! And a salad with it. What do we need to buy?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wir brauchen Spaghetti, Tomaten, Zwiebeln und Knoblauch. Für den Salat brauchen wir Gurken, Tomaten und Käse.",
+      "text_en": "We need spaghetti, tomatoes, onions, and garlic. For the salad we need cucumbers, tomatoes, and cheese."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Okay. Ich kann die Soße kochen, und du machst den Salat. Ist das in Ordnung?",
+      "text_en": "Okay. I can cook the sauce, and you make the salad. Is that okay?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das mache ich gern. Wann sollen die Freunde kommen?",
+      "text_en": "Yes, I would be happy to do that. When should the friends come?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich denke, um 19 Uhr. Dann haben wir genug Zeit zum Kochen. Wir können um 17 Uhr anfangen.",
+      "text_en": "I think at 7 p.m. Then we have enough time for cooking. We can start at 5 p.m."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Gut. Und was trinken wir? Ich kann Saft und Wasser kaufen.",
+      "text_en": "Good. And what do we drink? I can buy juice and water."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das reicht. Vielleicht können wir auch einen Kuchen als Nachtisch backen?",
+      "text_en": "That is enough. Maybe we can also bake a cake for dessert?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Oh ja, ein Schokoladenkuchen! Das wird toll. Ich freue mich auf den Abend.",
+      "text_en": "Oh yes, a chocolate cake! That will be great. I am looking forward to the evening."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden angesprochen und gemeinsam besprochen.",
+    "Interaktion: Die Kandidaten machen Vorschläge und reagieren auf die Ideen des Partners.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Kochen und Lebensmittel auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, wollen, sollen) und einfachen Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

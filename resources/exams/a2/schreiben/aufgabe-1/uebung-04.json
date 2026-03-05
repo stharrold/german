@@ -1,0 +1,25 @@
+{
+  "id": "a2-schreiben-aufgabe-1-004",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Danke für das Geschenk",
+  "instructions": "Sie haben eine Nachricht bekommen. Schreiben Sie eine kurze Antwort (ca. 20-30 Wörter).",
+  "situation_de": "Ihr Freund Paul hat Ihnen zum Geburtstag ein Buch geschenkt. Sie möchten sich bedanken. Schreiben Sie Paul eine Nachricht.",
+  "situation_en": "Your friend Paul gave you a book for your birthday. You want to thank him. Write Paul a message.",
+  "target_word_count": 25,
+  "required_points": [
+    "Sich für das Geschenk bedanken (Thank for the gift)",
+    "Sagen, warum Sie das Buch mögen (Say why you like the book)",
+    "Ihn zum Kaffee einladen (Invite him for coffee)"
+  ],
+  "model_answer": {
+    "text_de": "Lieber Paul, vielen Dank für das tolle Buch! Ich lese es gerade und es ist wirklich spannend. Möchtest du am Sonntag auf einen Kaffee vorbeikommen? LG",
+    "text_en": "Dear Paul, thank you so much for the great book! I am reading it right now and it is really exciting. Would you like to come by for a coffee on Sunday? Best regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary: Simple, appropriate vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

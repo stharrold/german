@@ -1,0 +1,103 @@
+{
+  "id": "a2-hoeren-teil-2-003",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Urlaubspläne",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was ist richtig? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Lisa",
+      "text_de": "Hallo Michael, fährst du dieses Jahr in den Urlaub?",
+      "text_en": "Hello Michael, are you going on vacation this year?"
+    },
+    {
+      "speaker": "Michael",
+      "text_de": "Ja, ich fahre im Juli nach Spanien. Zwei Wochen ans Meer. Und du?",
+      "text_en": "Yes, I'm going to Spain in July. Two weeks at the sea. And you?"
+    },
+    {
+      "speaker": "Lisa",
+      "text_de": "Ich fahre im August nach Österreich. Ich möchte in den Bergen wandern.",
+      "text_en": "I'm going to Austria in August. I want to hike in the mountains."
+    },
+    {
+      "speaker": "Michael",
+      "text_de": "Das klingt auch schön. Fährst du allein?",
+      "text_en": "That sounds nice too. Are you going alone?"
+    },
+    {
+      "speaker": "Lisa",
+      "text_de": "Nein, meine Schwester kommt mit. Wir haben eine kleine Ferienwohnung gemietet. Sie war nicht teuer, nur 50 Euro pro Nacht.",
+      "text_en": "No, my sister is coming along. We rented a small vacation apartment. It wasn't expensive, only 50 euros per night."
+    },
+    {
+      "speaker": "Michael",
+      "text_de": "Das ist günstig! Ich habe ein Hotel gebucht, direkt am Strand. Es kostet 80 Euro pro Nacht, aber mit Frühstück.",
+      "text_en": "That's cheap! I booked a hotel, right on the beach. It costs 80 euros per night, but with breakfast."
+    },
+    {
+      "speaker": "Lisa",
+      "text_de": "Oh, mit Frühstück ist das gut. Was machst du dort? Nur am Strand liegen?",
+      "text_en": "Oh, with breakfast that's good. What will you do there? Just lie on the beach?"
+    },
+    {
+      "speaker": "Michael",
+      "text_de": "Nein, ich möchte auch surfen lernen. Und abends gehe ich gern in Restaurants. Ich esse gern Fisch.",
+      "text_en": "No, I also want to learn to surf. And in the evening I like to go to restaurants. I like eating fish."
+    },
+    {
+      "speaker": "Lisa",
+      "text_de": "Toll! Ich freue mich auf die Berge. Wir wollen jeden Tag wandern und abends in der Hütte kochen.",
+      "text_en": "Great! I'm looking forward to the mountains. We want to hike every day and cook in the cabin in the evening."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer fährt ans Meer?",
+      "text_en": "Who is going to the sea?",
+      "correct_answer": "Michael",
+      "explanation_de": "Michael fährt nach Spanien ans Meer.",
+      "explanation_en": "Michael is going to Spain to the sea."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer fährt in die Berge?",
+      "text_en": "Who is going to the mountains?",
+      "correct_answer": "Lisa",
+      "explanation_de": "Lisa fährt nach Österreich in die Berge.",
+      "explanation_en": "Lisa is going to Austria to the mountains."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer hat ein Hotel gebucht?",
+      "text_en": "Who booked a hotel?",
+      "correct_answer": "Michael",
+      "explanation_de": "Michael hat ein Hotel direkt am Strand gebucht.",
+      "explanation_en": "Michael booked a hotel right on the beach."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer fährt mit der Schwester?",
+      "text_en": "Who is going with their sister?",
+      "correct_answer": "Lisa",
+      "explanation_de": "Lisas Schwester kommt mit in den Urlaub.",
+      "explanation_en": "Lisa's sister is coming along on vacation."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer möchte surfen lernen?",
+      "text_en": "Who wants to learn to surf?",
+      "correct_answer": "Michael",
+      "explanation_de": "Michael möchte in Spanien surfen lernen.",
+      "explanation_en": "Michael wants to learn to surf in Spain."
+    }
+  ]
+}

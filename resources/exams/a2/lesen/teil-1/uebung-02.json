@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-1-002",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Neue Öffnungszeiten der Stadtbibliothek",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Leserinnen und Leser, ab dem 1. April hat die Stadtbibliothek neue Öffnungszeiten. Wir sind jetzt von Montag bis Freitag von 9 bis 19 Uhr geöffnet. Am Samstag öffnen wir von 10 bis 14 Uhr. Sonntags bleibt die Bibliothek geschlossen. Neu ist auch unser Café im Erdgeschoss. Dort können Sie Kaffee trinken und Kuchen essen. Das Internet ist in der ganzen Bibliothek kostenlos. Die Ausleihe von Büchern kostet 15 Euro im Jahr. Kinder und Schüler bezahlen nur 5 Euro.",
+    "text_en": "Dear readers, starting April 1st, the city library has new opening hours. We are now open Monday to Friday from 9 AM to 7 PM. On Saturday, we open from 10 AM to 2 PM. On Sundays, the library remains closed. New is also our café on the ground floor. There you can drink coffee and eat cake. The internet is free throughout the entire library. Borrowing books costs 15 euros per year. Children and students pay only 5 euros.",
+    "source": "Informationsblatt",
+    "word_count": 95
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnen die neuen Öffnungszeiten?",
+      "text_en": "When do the new opening hours begin?",
+      "options": [
+        "a) Am 1. März",
+        "b) Am 1. April",
+        "c) Am 1. Mai"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ab dem 1. April hat die Bibliothek neue Öffnungszeiten.",
+      "explanation_en": "Starting April 1st, the library has new opening hours."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange ist die Bibliothek am Samstag geöffnet?",
+      "text_en": "How long is the library open on Saturday?",
+      "options": [
+        "a) Von 9 bis 19 Uhr",
+        "b) Von 10 bis 14 Uhr",
+        "c) Von 10 bis 17 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Samstag öffnet die Bibliothek von 10 bis 14 Uhr.",
+      "explanation_en": "On Saturday, the library is open from 10 AM to 2 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es Neues in der Bibliothek?",
+      "text_en": "What is new in the library?",
+      "options": [
+        "a) Einen Buchladen",
+        "b) Ein Café",
+        "c) Einen Spielplatz"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Neu ist das Café im Erdgeschoss.",
+      "explanation_en": "The café on the ground floor is new."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kostet das Internet in der Bibliothek?",
+      "text_en": "How much does internet in the library cost?",
+      "options": [
+        "a) 5 Euro im Jahr",
+        "b) 2 Euro pro Stunde",
+        "c) Es ist kostenlos"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Internet ist in der ganzen Bibliothek kostenlos.",
+      "explanation_en": "The internet is free throughout the entire library."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie viel bezahlen Kinder für die Ausleihe?",
+      "text_en": "How much do children pay for borrowing?",
+      "options": [
+        "a) Nichts",
+        "b) 5 Euro im Jahr",
+        "c) 15 Euro im Jahr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kinder und Schüler bezahlen nur 5 Euro.",
+      "explanation_en": "Children and students pay only 5 euros."
+    }
+  ]
+}

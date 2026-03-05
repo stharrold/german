@@ -1,0 +1,98 @@
+{
+  "id": "a2-hoeren-teil-4-002",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Leben in Deutschland",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Kreuzen Sie an: richtig oder falsch.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Heute ist Carlos Rivera bei uns im Studio. Er kommt aus Mexiko und lebt seit zwei Jahren in Berlin. Hallo Carlos!",
+      "text_en": "Today Carlos Rivera is with us in the studio. He comes from Mexico and has been living in Berlin for two years. Hello Carlos!"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Hallo! Ja, ich bin 2024 nach Berlin gekommen. Ich arbeite hier als Ingenieur bei einer großen Firma.",
+      "text_en": "Hello! Yes, I came to Berlin in 2024. I work here as an engineer at a large company."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wie gefällt Ihnen das Leben in Berlin?",
+      "text_en": "How do you like life in Berlin?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Berlin gefällt mir sehr gut. Die Stadt ist sehr interessant und es gibt viel Kultur. Nur das Wetter im Winter mag ich nicht so gern. Es ist sehr kalt!",
+      "text_en": "I like Berlin very much. The city is very interesting and there's a lot of culture. I just don't like the weather in winter that much. It's very cold!"
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Haben Sie Deutsch gelernt?",
+      "text_en": "Have you learned German?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Ja, ich habe in Mexiko schon A1 gemacht. Hier in Berlin besuche ich jetzt einen A2-Kurs an der Volkshochschule. Der Kurs ist dreimal pro Woche.",
+      "text_en": "Yes, I already did A1 in Mexico. Here in Berlin I'm now taking an A2 course at the adult education center. The course is three times a week."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was vermissen Sie aus Mexiko?",
+      "text_en": "What do you miss from Mexico?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Natürlich meine Familie. Und das Essen! Hier gibt es kein gutes mexikanisches Restaurant. Deshalb koche ich oft selbst.",
+      "text_en": "Of course my family. And the food! There's no good Mexican restaurant here. That's why I often cook myself."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "true_false",
+      "text_de": "Carlos lebt seit fünf Jahren in Berlin.",
+      "text_en": "Carlos has been living in Berlin for five years.",
+      "correct_answer": false,
+      "explanation_de": "Carlos lebt seit zwei Jahren in Berlin.",
+      "explanation_en": "Carlos has been living in Berlin for two years."
+    },
+    {
+      "number": 2,
+      "type": "true_false",
+      "text_de": "Carlos arbeitet als Ingenieur.",
+      "text_en": "Carlos works as an engineer.",
+      "correct_answer": true,
+      "explanation_de": "Carlos arbeitet als Ingenieur bei einer großen Firma.",
+      "explanation_en": "Carlos works as an engineer at a large company."
+    },
+    {
+      "number": 3,
+      "type": "true_false",
+      "text_de": "Carlos mag das Wetter im Winter.",
+      "text_en": "Carlos likes the weather in winter.",
+      "correct_answer": false,
+      "explanation_de": "Carlos mag das Wetter im Winter nicht, es ist ihm zu kalt.",
+      "explanation_en": "Carlos doesn't like the weather in winter, it's too cold for him."
+    },
+    {
+      "number": 4,
+      "type": "true_false",
+      "text_de": "Carlos besucht einen A2-Kurs in Berlin.",
+      "text_en": "Carlos is taking an A2 course in Berlin.",
+      "correct_answer": true,
+      "explanation_de": "Carlos besucht einen A2-Kurs an der Volkshochschule.",
+      "explanation_en": "Carlos is taking an A2 course at the adult education center."
+    },
+    {
+      "number": 5,
+      "type": "true_false",
+      "text_de": "Carlos geht oft in ein mexikanisches Restaurant.",
+      "text_en": "Carlos often goes to a Mexican restaurant.",
+      "correct_answer": false,
+      "explanation_de": "Es gibt kein gutes mexikanisches Restaurant, deshalb kocht er selbst.",
+      "explanation_en": "There's no good Mexican restaurant, so he cooks himself."
+    }
+  ]
+}

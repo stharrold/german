@@ -1,0 +1,103 @@
+{
+  "id": "a2-hoeren-teil-2-005",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Arbeit und Beruf",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was ist richtig? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Sandra",
+      "text_de": "Hallo Peter, ich habe gehört, du hast einen neuen Job?",
+      "text_en": "Hello Peter, I heard you have a new job?"
+    },
+    {
+      "speaker": "Peter",
+      "text_de": "Ja, seit letztem Monat arbeite ich in einem Büro in der Innenstadt. Ich bin dort Sachbearbeiter.",
+      "text_en": "Yes, since last month I've been working in an office in the city center. I'm a clerk there."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Herzlichen Glückwunsch! Ich arbeite seit drei Jahren als Verkäuferin in einem Modegeschäft.",
+      "text_en": "Congratulations! I've been working as a saleswoman in a fashion store for three years."
+    },
+    {
+      "speaker": "Peter",
+      "text_de": "Gefällt dir das? Meine Arbeitszeiten sind von 8 bis 16 Uhr, Montag bis Freitag. Das ist sehr angenehm.",
+      "text_en": "Do you like it? My working hours are from 8 to 4 PM, Monday to Friday. That's very pleasant."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Ich muss auch samstags arbeiten, aber dafür habe ich immer montags frei. Das ist praktisch zum Einkaufen.",
+      "text_en": "I also have to work on Saturdays, but I always have Mondays off instead. That's practical for shopping."
+    },
+    {
+      "speaker": "Peter",
+      "text_de": "Das stimmt. Ich fahre mit der U-Bahn zur Arbeit. Das dauert nur 20 Minuten.",
+      "text_en": "That's true. I take the subway to work. That only takes 20 minutes."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Ich fahre mit dem Fahrrad. Bei Regen nehme ich den Bus. Mein Geschäft ist nur 10 Minuten von meiner Wohnung.",
+      "text_en": "I ride my bicycle. When it rains I take the bus. My store is only 10 minutes from my apartment."
+    },
+    {
+      "speaker": "Peter",
+      "text_de": "Das ist praktisch! Ich möchte in der Mittagspause einmal in dein Geschäft kommen. Ich brauche ein neues Hemd.",
+      "text_en": "That's practical! I'd like to come to your store during lunch break. I need a new shirt."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Gern! Ich gebe dir dann einen Freundschaftsrabatt!",
+      "text_en": "Gladly! I'll give you a friendship discount then!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Wer arbeitet in einem Büro?",
+      "text_en": "Who works in an office?",
+      "correct_answer": "Peter",
+      "explanation_de": "Peter arbeitet in einem Büro in der Innenstadt.",
+      "explanation_en": "Peter works in an office in the city center."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Wer arbeitet auch am Samstag?",
+      "text_en": "Who also works on Saturdays?",
+      "correct_answer": "Sandra",
+      "explanation_de": "Sandra muss auch samstags arbeiten.",
+      "explanation_en": "Sandra also has to work on Saturdays."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Wer fährt mit der U-Bahn zur Arbeit?",
+      "text_en": "Who takes the subway to work?",
+      "correct_answer": "Peter",
+      "explanation_de": "Peter fährt mit der U-Bahn zur Arbeit.",
+      "explanation_en": "Peter takes the subway to work."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Wer fährt mit dem Fahrrad zur Arbeit?",
+      "text_en": "Who rides a bicycle to work?",
+      "correct_answer": "Sandra",
+      "explanation_de": "Sandra fährt mit dem Fahrrad zur Arbeit.",
+      "explanation_en": "Sandra rides her bicycle to work."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Wer braucht ein neues Hemd?",
+      "text_en": "Who needs a new shirt?",
+      "correct_answer": "Peter",
+      "explanation_de": "Peter braucht ein neues Hemd.",
+      "explanation_en": "Peter needs a new shirt."
+    }
+  ]
+}

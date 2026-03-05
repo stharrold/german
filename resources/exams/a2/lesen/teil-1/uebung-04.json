@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-1-004",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Flohmarkt im Bürgerhaus",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Am nächsten Sonntag, den 20. Juni, findet im Bürgerhaus ein großer Flohmarkt statt. Von 8 bis 16 Uhr können Sie dort gebrauchte Kleidung, Bücher, Spielzeug und Möbel kaufen und verkaufen. Einen Tisch kann man für 15 Euro mieten. Kinder bis 12 Jahre können ohne Tisch kostenlos verkaufen. Im Foyer gibt es Kaffee und Kuchen vom Elternverein der Grundschule. Der Erlös geht an das Kinderhilfswerk. Anmeldung für Verkäufer bis zum 15. Juni unter Telefon 0351-5553200 oder per E-Mail an flohmarkt@buergerhaus.de.",
+    "text_en": "Next Sunday, June 20th, a large flea market takes place at the community center. From 8 AM to 4 PM you can buy and sell used clothing, books, toys, and furniture there. A table can be rented for 15 euros. Children up to 12 years can sell for free without a table. In the foyer, there is coffee and cake from the elementary school parent association. The proceeds go to the children's aid organization. Registration for sellers by June 15th by phone at 0351-5553200 or by email at flohmarkt@buergerhaus.de.",
+    "source": "Anzeige",
+    "word_count": 100
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kann man auf dem Flohmarkt kaufen?",
+      "text_en": "What can you buy at the flea market?",
+      "options": [
+        "a) Nur Kleidung",
+        "b) Neue Elektrogeräte",
+        "c) Kleidung, Bücher, Spielzeug und Möbel"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Man kann gebrauchte Kleidung, Bücher, Spielzeug und Möbel kaufen.",
+      "explanation_en": "You can buy used clothing, books, toys, and furniture."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kostet ein Tisch für Verkäufer?",
+      "text_en": "How much does a table for sellers cost?",
+      "options": [
+        "a) 10 Euro",
+        "b) 15 Euro",
+        "c) 20 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Einen Tisch kann man für 15 Euro mieten.",
+      "explanation_en": "A table can be rented for 15 euros."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wer verkauft Kaffee und Kuchen?",
+      "text_en": "Who sells coffee and cake?",
+      "options": [
+        "a) Das Bürgerhaus",
+        "b) Ein Restaurant",
+        "c) Der Elternverein der Grundschule"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Im Foyer gibt es Kaffee und Kuchen vom Elternverein der Grundschule.",
+      "explanation_en": "In the foyer, there is coffee and cake from the elementary school parent association."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wohin geht das Geld vom Kaffee- und Kuchenverkauf?",
+      "text_en": "Where does the money from coffee and cake sales go?",
+      "options": [
+        "a) An die Grundschule",
+        "b) An das Kinderhilfswerk",
+        "c) An das Bürgerhaus"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Erlös geht an das Kinderhilfswerk.",
+      "explanation_en": "The proceeds go to the children's aid organization."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wer kann kostenlos verkaufen?",
+      "text_en": "Who can sell for free?",
+      "options": [
+        "a) Alle Besucher",
+        "b) Senioren",
+        "c) Kinder bis 12 Jahre"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kinder bis 12 Jahre können ohne Tisch kostenlos verkaufen.",
+      "explanation_en": "Children up to 12 years can sell for free without a table."
+    }
+  ]
+}

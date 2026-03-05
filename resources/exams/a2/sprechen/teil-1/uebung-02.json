@@ -1,0 +1,75 @@
+{
+  "id": "a2-sprechen-teil-1-002",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Themen: Arbeit, Freizeit, Sport, Einkaufen",
+  "instructions": "Sie bekommen vier Karten mit Themen. Sprechen Sie über die Themen.",
+  "situation_de": "Sie ziehen vier Karten. Auf jeder Karte steht ein Thema. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You draw four cards. Each card has a topic. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Arbeit: Was sind Sie von Beruf? (Work: What is your profession?)",
+    "Freizeit: Was machen Sie gern in der Freizeit? (Free time: What do you like to do in your free time?)",
+    "Sport: Machen Sie gern Sport? Welchen? (Sport: Do you like doing sport? Which one?)",
+    "Einkaufen: Wo kaufen Sie gern ein? (Shopping: Where do you like to shop?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte beginnen Sie mit Ihren vier Karten.",
+      "text_en": "Please start with your four cards."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein erstes Thema ist Arbeit. Was sind Sie von Beruf?",
+      "text_en": "My first topic is work. What is your profession?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich bin Lehrerin. Was machen Sie beruflich?",
+      "text_en": "I am a teacher. What do you do for a living?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich arbeite in einem Büro. Ich bin Sekretär. Mein zweites Thema ist Freizeit. Was machen Sie gern in der Freizeit?",
+      "text_en": "I work in an office. I am a secretary. My second topic is free time. What do you like to do in your free time?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich lese gern Bücher. Was ist Ihr Hobby?",
+      "text_en": "I like reading books. What is your hobby?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich sehe gern Filme und treffe Freunde. Jetzt kommt Sport. Machen Sie gern Sport?",
+      "text_en": "I like watching movies and meeting friends. Now comes sport. Do you like doing sport?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ja, ich gehe gern schwimmen. Und Sie?",
+      "text_en": "Yes, I like going swimming. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich spiele gern Fußball, am Wochenende mit Freunden. Mein letztes Thema ist Einkaufen. Wo kaufen Sie gern ein?",
+      "text_en": "I like playing football, on weekends with friends. My last topic is shopping. Where do you like to shop?"
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ich kaufe gern auf dem Markt ein. Und Sie?",
+      "text_en": "I like shopping at the market. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich gehe meistens in den Supermarkt. Das ist schnell und praktisch.",
+      "text_en": "I usually go to the supermarket. That is quick and practical."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten des Prüfers und stellt Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ]
+}

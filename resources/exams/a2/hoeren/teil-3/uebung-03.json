@@ -1,0 +1,158 @@
+{
+  "id": "a2-hoeren-teil-3-003",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Wohnen und Nachbarn",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Mieterin",
+      "text_de": "Guten Tag, ich habe ein Problem. Meine Heizung funktioniert nicht.",
+      "text_en": "Good day, I have a problem. My heating isn't working."
+    },
+    {
+      "speaker": "Gespräch 1 — Hausmeister",
+      "text_de": "Oh, das tut mir leid. Ich komme heute Nachmittag vorbei und schaue mir das an. So gegen 15 Uhr?",
+      "text_en": "Oh, I'm sorry. I'll come by this afternoon and take a look. Around 3 PM?"
+    },
+    {
+      "speaker": "Gespräch 1 — Mieterin",
+      "text_de": "Ja, 15 Uhr passt mir gut. Vielen Dank!",
+      "text_en": "Yes, 3 PM works for me. Thank you very much!"
+    },
+    {
+      "speaker": "Gespräch 2 — Nachbar",
+      "text_de": "Hallo Frau Weber, könnten Sie bitte meine Blumen gießen? Ich fahre für eine Woche in den Urlaub.",
+      "text_en": "Hello Mrs. Weber, could you please water my flowers? I'm going on vacation for a week."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Weber",
+      "text_de": "Ja, natürlich! Kein Problem. Wann fahren Sie los?",
+      "text_en": "Yes, of course! No problem. When are you leaving?"
+    },
+    {
+      "speaker": "Gespräch 2 — Nachbar",
+      "text_de": "Am Freitag. Ich lasse Ihnen den Schlüssel im Briefkasten.",
+      "text_en": "On Friday. I'll leave you the key in the mailbox."
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Schatz, die Waschmaschine ist kaputt. Was machen wir jetzt?",
+      "text_en": "Honey, the washing machine is broken. What do we do now?"
+    },
+    {
+      "speaker": "Gespräch 3 — Frau",
+      "text_de": "Wir können zum Waschsalon gehen. Der ist um die Ecke. Oder wir kaufen eine neue.",
+      "text_en": "We can go to the laundromat. It's around the corner. Or we buy a new one."
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Eine neue ist zu teuer. Gehen wir erst mal zum Waschsalon.",
+      "text_en": "A new one is too expensive. Let's go to the laundromat for now."
+    },
+    {
+      "speaker": "Gespräch 4 — Kundin",
+      "text_de": "Ich suche eine Lampe für mein Schlafzimmer. Nichts zu helles.",
+      "text_en": "I'm looking for a lamp for my bedroom. Nothing too bright."
+    },
+    {
+      "speaker": "Gespräch 4 — Verkäufer",
+      "text_de": "Wie wäre es mit dieser hier? Sie hat ein warmes Licht und kostet nur 35 Euro.",
+      "text_en": "How about this one? It has warm light and only costs 35 euros."
+    },
+    {
+      "speaker": "Gespräch 4 — Kundin",
+      "text_de": "Die gefällt mir! Ich nehme sie.",
+      "text_en": "I like it! I'll take it."
+    },
+    {
+      "speaker": "Gespräch 5 — Tochter",
+      "text_de": "Mama, können wir ein Haustier haben? Alle meine Freunde haben einen Hund.",
+      "text_en": "Mom, can we have a pet? All my friends have a dog."
+    },
+    {
+      "speaker": "Gespräch 5 — Mutter",
+      "text_de": "Ein Hund ist zu viel Arbeit. Aber vielleicht können wir eine Katze haben.",
+      "text_en": "A dog is too much work. But maybe we can have a cat."
+    },
+    {
+      "speaker": "Gespräch 5 — Tochter",
+      "text_de": "Eine Katze? Ja, das finde ich auch toll!",
+      "text_en": "A cat? Yes, I think that's great too!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist in der Wohnung kaputt?",
+      "text_en": "What is broken in the apartment?",
+      "options": [
+        "a) Das Licht",
+        "b) Die Heizung",
+        "c) Das Fenster"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Heizung in der Wohnung funktioniert nicht.",
+      "explanation_en": "The heating in the apartment isn't working."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo lässt der Nachbar den Schlüssel?",
+      "text_en": "Where does the neighbor leave the key?",
+      "options": [
+        "a) Unter der Matte",
+        "b) Bei der Rezeption",
+        "c) Im Briefkasten"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Nachbar lässt den Schlüssel im Briefkasten.",
+      "explanation_en": "The neighbor leaves the key in the mailbox."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wohin gehen der Mann und die Frau mit der Wäsche?",
+      "text_en": "Where do the man and woman go with the laundry?",
+      "options": [
+        "a) Zu den Nachbarn",
+        "b) Zum Waschsalon",
+        "c) Zum Elektrogeschäft"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie gehen zum Waschsalon, weil eine neue Waschmaschine zu teuer ist.",
+      "explanation_en": "They go to the laundromat because a new washing machine is too expensive."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Lampe?",
+      "text_en": "How much does the lamp cost?",
+      "options": [
+        "a) 25 Euro",
+        "b) 35 Euro",
+        "c) 45 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Lampe kostet 35 Euro.",
+      "explanation_en": "The lamp costs 35 euros."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welches Haustier bekommt die Tochter vielleicht?",
+      "text_en": "What pet might the daughter get?",
+      "options": [
+        "a) Einen Hund",
+        "b) Einen Hamster",
+        "c) Eine Katze"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Mutter sagt, sie können vielleicht eine Katze haben.",
+      "explanation_en": "The mother says they can maybe have a cat."
+    }
+  ]
+}

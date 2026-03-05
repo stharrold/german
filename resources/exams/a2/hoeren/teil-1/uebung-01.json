@@ -1,0 +1,108 @@
+{
+  "id": "a2-hoeren-teil-1-001",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Alltagstexte — Einkaufen und Termine",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Guten Tag, hier ist der Supermarkt am Marktplatz. Wir möchten Sie informieren: Ab nächster Woche haben wir neue Öffnungszeiten. Wir sind dann von Montag bis Samstag von 7 bis 21 Uhr für Sie da. Sonntags bleiben wir geschlossen.",
+      "text_en": "Good day, this is the supermarket at the market square. We would like to inform you: Starting next week we have new opening hours. We will be open for you Monday to Saturday from 7 to 9 PM. We remain closed on Sundays."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Lisa, hier ist Mama. Ich bin heute im Einkaufszentrum und habe ein schönes Kleid für dich gesehen. Es kostet nur 25 Euro. Ruf mich bitte an, dann kaufe ich es für dich. Tschüss!",
+      "text_en": "Hello Lisa, this is Mom. I'm at the shopping center today and I saw a nice dress for you. It only costs 25 euros. Please call me, then I'll buy it for you. Bye!"
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Achtung, liebe Kunden: Heute haben wir ein Sonderangebot. Alle Brötchen kosten nur 30 Cent. Das Angebot gilt bis 18 Uhr. Wir freuen uns auf Ihren Besuch in unserer Bäckerei.",
+      "text_en": "Attention, dear customers: Today we have a special offer. All bread rolls cost only 30 cents. The offer is valid until 6 PM. We look forward to your visit at our bakery."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Hier ist die Zahnarztpraxis Dr. Klein. Ihr Termin am Freitag um 15 Uhr muss leider ausfallen. Können Sie am Montag um 10 Uhr kommen? Bitte rufen Sie uns an. Die Nummer ist 089 334 556.",
+      "text_en": "This is Dr. Klein's dental practice. Your appointment on Friday at 3 PM unfortunately has to be cancelled. Can you come on Monday at 10 AM? Please call us. The number is 089 334 556."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Liebe Fahrgäste, der Bus Linie 42 nach Stadtmitte fährt heute fünf Minuten später ab. Bitte warten Sie an der Haltestelle. Wir entschuldigen uns für die Verspätung.",
+      "text_en": "Dear passengers, bus line 42 to the city center departs five minutes late today. Please wait at the bus stop. We apologize for the delay."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann öffnet der Supermarkt ab nächster Woche?",
+      "text_en": "When does the supermarket open starting next week?",
+      "options": [
+        "a) Um 6 Uhr",
+        "b) Um 7 Uhr",
+        "c) Um 8 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Supermarkt öffnet ab nächster Woche um 7 Uhr.",
+      "explanation_en": "The supermarket opens at 7 AM starting next week."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat Mama im Einkaufszentrum gesehen?",
+      "text_en": "What did Mom see at the shopping center?",
+      "options": [
+        "a) Einen Rock",
+        "b) Eine Jacke",
+        "c) Ein Kleid"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Mama hat ein schönes Kleid für Lisa gesehen.",
+      "explanation_en": "Mom saw a nice dress for Lisa."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kosten die Brötchen heute?",
+      "text_en": "How much do the bread rolls cost today?",
+      "options": [
+        "a) 20 Cent",
+        "b) 30 Cent",
+        "c) 50 Cent"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Brötchen kosten heute nur 30 Cent.",
+      "explanation_en": "The bread rolls cost only 30 cents today."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der neue Termin beim Zahnarzt?",
+      "text_en": "When is the new dentist appointment?",
+      "options": [
+        "a) Freitag um 15 Uhr",
+        "b) Montag um 10 Uhr",
+        "c) Montag um 15 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der neue Termin ist am Montag um 10 Uhr.",
+      "explanation_en": "The new appointment is on Monday at 10 AM."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Minuten Verspätung hat der Bus?",
+      "text_en": "How many minutes is the bus delayed?",
+      "options": [
+        "a) Drei Minuten",
+        "b) Fünf Minuten",
+        "c) Zehn Minuten"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bus fährt fünf Minuten später ab.",
+      "explanation_en": "The bus departs five minutes late."
+    }
+  ]
+}
