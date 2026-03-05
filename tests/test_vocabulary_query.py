@@ -1,7 +1,7 @@
 """Tests for vocabulary query functions."""
 
-from german.models import Gender, PartOfSpeech
-from german.vocabulary import filter_by_gender, filter_by_pos, get_word, load_vocabulary
+from german.models import CEFRLevel, Gender, PartOfSpeech
+from german.vocabulary import filter_by_gender, filter_by_level, filter_by_pos, get_word, load_vocabulary
 
 
 def test_get_word_found():
@@ -106,3 +106,44 @@ def test_filter_operations_combined():
     assert len(masculine_nouns) > 0
     assert all(word.part_of_speech == PartOfSpeech.NOUN for word in masculine_nouns)
     assert all(word.gender == Gender.MASCULINE for word in masculine_nouns)
+
+
+def test_filter_by_level_a1():
+    """Test filtering by A1 CEFR level."""
+    vocab = load_vocabulary()
+    a1_words = filter_by_level(CEFRLevel.A1, vocab)
+    assert len(a1_words) > 0
+    assert all(word.level == CEFRLevel.A1 for word in a1_words)
+
+
+def test_filter_by_level_string():
+    """Test filtering by level using string."""
+    vocab = load_vocabulary()
+    a1_words_enum = filter_by_level(CEFRLevel.A1, vocab)
+    a1_words_str = filter_by_level("A1", vocab)
+    assert a1_words_str == a1_words_enum
+    assert all(word.level == CEFRLevel.A1 for word in a1_words_str)
+
+
+def test_filter_by_level_no_match():
+    """Test filtering by level with no matches returns empty list."""
+    from german.models import VocabularyWord
+
+    vocab = [
+        VocabularyWord(german="gehen", english="to go", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A1),
+        VocabularyWord(german="laufen", english="to run", part_of_speech=PartOfSpeech.VERB, level=CEFRLevel.A2),
+    ]
+    c2_words = filter_by_level(CEFRLevel.C2, vocab)
+    assert len(c2_words) == 0
+
+
+def test_filter_by_level_combined_with_pos():
+    """Test combining level and part of speech filters."""
+    vocab = load_vocabulary()
+    a1_words = filter_by_level(CEFRLevel.A1, vocab)
+    a1_nouns = filter_by_pos(PartOfSpeech.NOUN, a1_words)
+    expected_count = len([w for w in vocab if w.level == CEFRLevel.A1 and w.part_of_speech == PartOfSpeech.NOUN])
+    assert len(a1_nouns) == expected_count
+    assert len(a1_nouns) > 0
+    assert all(word.level == CEFRLevel.A1 for word in a1_nouns)
+    assert all(word.part_of_speech == PartOfSpeech.NOUN for word in a1_nouns)

@@ -2,7 +2,7 @@
 
 from typing import List, Optional
 
-from ..models import Gender, PartOfSpeech, VocabularyWord
+from ..models import CEFRLevel, Gender, PartOfSpeech, VocabularyWord
 
 
 def get_word(german_word: str, vocabulary: List[VocabularyWord]) -> Optional[VocabularyWord]:
@@ -62,3 +62,22 @@ def filter_by_gender(
         for word in vocabulary
         if word.part_of_speech == PartOfSpeech.NOUN and word.gender == gender
     ]
+
+
+def filter_by_level(
+    level: str | CEFRLevel, vocabulary: List[VocabularyWord]
+) -> List[VocabularyWord]:
+    """
+    Filter vocabulary by CEFR proficiency level.
+
+    Args:
+        level: CEFR level to filter by (A1, A2, B1, B2, C1, C2)
+        vocabulary: List of vocabulary words to filter
+
+    Returns:
+        List of words at the specified CEFR level
+    """
+    if isinstance(level, str):
+        level = CEFRLevel(level)
+
+    return [word for word in vocabulary if word.level == level]

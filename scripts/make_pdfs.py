@@ -1,304 +1,386 @@
-"""Generate printable PDFs from B1 exam exercise JSON files.
+#!/usr/bin/env python3
+# SPDX-FileCopyrightText: 2025 stharrold
+# SPDX-License-Identifier: Apache-2.0
+"""Generate printable PDFs for B1 exam practice exercises.
+
+Produces one PDF per skill (Hören, Lesen, Schreiben, Sprechen) with
+exercise pages and a separate answer key section at the end.
 
 Usage:
-    uv pip install -e ".[pdf]"
-    uv run python scripts/make_pdfs.py
+    uv run --extra pdf python scripts/make_pdfs.py
+    uv run --extra pdf python scripts/make_pdfs.py --output-dir resources/exams/b1/pdfs
+    uv run --extra pdf python scripts/make_pdfs.py --skill hoeren
 
-Output:
-    build/pdfs/b1-{skill}-{teil|aufgabe}-{N}.pdf  (one PDF per part, one exercise per page)
+Requirements:
+    fpdf2 (install via: uv pip install fpdf2, or use --extra pdf)
 """
 
-import os
-import platform
+import argparse
+import json
 import sys
 from pathlib import Path
-from typing import Callable
 
-from fpdf import FPDF
+try:
+    from fpdf import FPDF
+except ImportError:
+    print("Error: fpdf2 is required. Install with: uv pip install fpdf2", file=sys.stderr)
+    sys.exit(1)
 
-# Ensure src/ is importable
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+RESOURCES_DIR = Path(__file__).resolve().parent.parent / "resources" / "exams" / "b1"
 
-from german.exams.loader import load_exercises
-from german.exams.models import ListeningExercise, ReadingExercise, SpeakingExercise, WritingExercise
-
-RESOURCES = Path(__file__).parent.parent / "resources" / "exams" / "b1"
-OUTPUT = Path(__file__).parent.parent / "build" / "pdfs"
-
-# Page layout constants
-PAGE_W = 210  # A4 width mm
-MARGIN = 15
-CONTENT_W = PAGE_W - 2 * MARGIN
-
-# Font name used throughout (registered as Unicode TTF)
-FONT = "Arial"
-
-# Cross-platform font search paths (Arial or fallback sans-serif)
-_WIN_FONTS = Path(os.environ.get("SystemRoot", "C:/Windows")) / "Fonts"
-_FONT_CANDIDATES: dict[str, list[str]] = {
-    "": [
-        "/System/Library/Fonts/Supplemental/Arial.ttf",  # macOS
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",  # Linux (Debian/Ubuntu)
-        "/usr/share/fonts/liberation-sans/LiberationSans-Regular.ttf",  # Linux (Fedora)
-        str(_WIN_FONTS / "arial.ttf"),  # Windows
-    ],
-    "B": [
-        "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-        "/usr/share/fonts/liberation-sans/LiberationSans-Bold.ttf",
-        str(_WIN_FONTS / "arialbd.ttf"),
-    ],
-    "I": [
-        "/System/Library/Fonts/Supplemental/Arial Italic.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf",
-        "/usr/share/fonts/liberation-sans/LiberationSans-Italic.ttf",
-        str(_WIN_FONTS / "ariali.ttf"),
-    ],
-    "BI": [
-        "/System/Library/Fonts/Supplemental/Arial Bold Italic.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf",
-        "/usr/share/fonts/liberation-sans/LiberationSans-BoldItalic.ttf",
-        str(_WIN_FONTS / "arialbi.ttf"),
-    ],
+# Unicode replacements for latin-1 compatible PDF output
+UNICODE_REPLACEMENTS = {
+    "\u2014": "-",  # em dash
+    "\u2013": "-",  # en dash
+    "\u2018": "'",  # left single quote
+    "\u2019": "'",  # right single quote
+    "\u201c": '"',  # left double quote
+    "\u201d": '"',  # right double quote
+    "\u2026": "...",  # ellipsis
+    "\u00a0": " ",  # non-breaking space
+    "\u2022": "-",  # bullet
 }
 
 
-def _find_fonts() -> dict[str, str]:
-    """Return font style -> path mapping, searching cross-platform locations.
+def sanitize_text(text: str) -> str:
+    """Replace Unicode characters unsupported by latin-1 PDF fonts."""
+    for char, replacement in UNICODE_REPLACEMENTS.items():
+        text = text.replace(char, replacement)
+    # Replace any remaining non-latin-1 characters with '?'
+    return text.encode("latin-1", errors="replace").decode("latin-1")
 
-    Falls back to the regular font for missing bold/italic variants.
-    Raises FileNotFoundError if no regular font is found.
-    """
-    found: dict[str, str] = {}
-    for style, candidates in _FONT_CANDIDATES.items():
-        for path in candidates:
-            if Path(path).exists():
-                found[style] = path
-                break
-    if "" not in found:
-        raise FileNotFoundError(
-            f"No Arial/Liberation Sans TTF font found ({platform.system()}).\n"
-            "Install liberation-sans (Linux) or ensure Arial is available."
-        )
-    # Fall back to regular for missing variants
-    for style in ("B", "I", "BI"):
-        if style not in found:
-            found[style] = found[""]
-    return found
+
+# Skill display names and directory mappings
+SKILLS = {
+    "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+    "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
+    "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 3},
+    "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+}
 
 
 class ExamPDF(FPDF):
-    """PDF with consistent header/footer for exam exercises."""
+    """PDF generator with German character support and consistent formatting."""
 
-    def __init__(self, skill: str, part_label: str) -> None:
+    def __init__(self, skill_name: str):
         super().__init__()
-        self.skill_name = skill
-        self.part_label = part_label
-        self.set_margins(MARGIN, MARGIN, MARGIN)
+        self.skill_name = skill_name
         self.set_auto_page_break(auto=True, margin=20)
-        # Register Unicode TTF fonts
-        for style, path in _find_fonts().items():
-            self.add_font(FONT, style, path)
 
-    def header(self) -> None:
-        self.set_font(FONT, "B", 9)
-        self.set_text_color(120, 120, 120)
-        self.cell(0, 6, f"Goethe-Zertifikat B1  |  {self.skill_name}  |  {self.part_label}", align="C")
-        self.ln(8)
+    def cell(self, w=0, h=None, text="", *args, **kwargs):
+        return super().cell(w, h, sanitize_text(str(text)), *args, **kwargs)
+
+    def multi_cell(self, w=0, h=None, text="", *args, **kwargs):
+        return super().multi_cell(w, h, sanitize_text(str(text)), *args, **kwargs)
+
+    def header(self):
+        self.set_font("Helvetica", "B", 10)
+        self.set_text_color(100, 100, 100)
+        self.cell(0, 8, f"Goethe-Zertifikat B1 - {self.skill_name}", align="L")
+        self.ln(10)
         self.set_draw_color(200, 200, 200)
-        self.line(MARGIN, self.get_y(), PAGE_W - MARGIN, self.get_y())
-        self.ln(4)
+        self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
+        self.ln(3)
 
-    def footer(self) -> None:
+    def footer(self):
         self.set_y(-15)
-        self.set_font(FONT, "I", 8)
+        self.set_font("Helvetica", "I", 8)
         self.set_text_color(150, 150, 150)
         self.cell(0, 10, f"Seite {self.page_no()}", align="C")
 
-    def section_title(self, text: str) -> None:
-        self.set_font(FONT, "B", 13)
+    def add_title_page(self):
+        self.add_page()
+        self.ln(60)
+        self.set_font("Helvetica", "B", 28)
         self.set_text_color(0, 0, 0)
-        self.multi_cell(CONTENT_W, 7, text)
-        self.ln(2)
+        self.cell(0, 15, "Goethe-Zertifikat B1", align="C")
+        self.ln(20)
+        self.set_font("Helvetica", "B", 22)
+        self.cell(0, 12, self.skill_name, align="C")
+        self.ln(20)
+        self.set_font("Helvetica", "", 14)
+        self.set_text_color(80, 80, 80)
+        self.cell(0, 10, "Übungsmaterialien / Practice Materials", align="C")
 
-    def section_subtitle(self, text: str) -> None:
-        self.set_font(FONT, "B", 10)
-        self.set_text_color(60, 60, 60)
-        self.multi_cell(CONTENT_W, 6, text)
-        self.ln(2)
-
-    def body_text(self, text: str) -> None:
-        self.set_font(FONT, "", 10)
+    def add_section_header(self, text: str):
+        self.add_page()
+        self.set_font("Helvetica", "B", 16)
         self.set_text_color(0, 0, 0)
-        self.multi_cell(CONTENT_W, 5.5, text)
-        self.ln(2)
+        self.cell(0, 12, text)
+        self.ln(14)
 
-    def italic_text(self, text: str) -> None:
-        self.set_font(FONT, "I", 10)
+    def add_exercise_header(self, exercise_id: str, title: str, instructions: str, time_minutes: int = 0):
+        self.ln(4)
+        self.set_draw_color(180, 180, 180)
+        self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
+        self.ln(4)
+        self.set_font("Helvetica", "B", 12)
         self.set_text_color(0, 0, 0)
-        self.multi_cell(CONTENT_W, 5.5, text)
-        self.ln(1)
-
-    def bullet_list(self, items: list[str]) -> None:
-        self.set_font(FONT, "", 10)
+        self.cell(0, 8, title)
+        self.ln(8)
+        self.set_font("Helvetica", "I", 9)
+        self.set_text_color(100, 100, 100)
+        if time_minutes:
+            self.cell(0, 6, f"{exercise_id}  |  {time_minutes} Minuten")
+        else:
+            self.cell(0, 6, exercise_id)
+        self.ln(8)
+        self.set_font("Helvetica", "", 10)
         self.set_text_color(0, 0, 0)
-        for item in items:
-            self.cell(5)
-            self.multi_cell(CONTENT_W - 5, 5.5, f"\u2022  {item}")
-            self.ln(1)
-        self.ln(1)
-
-    def numbered_list(self, items: list[str], start: int = 1) -> None:
-        self.set_font(FONT, "", 10)
-        self.set_text_color(0, 0, 0)
-        for i, item in enumerate(items, start=start):
-            self.cell(8)
-            self.multi_cell(CONTENT_W - 8, 5.5, f"{i}.  {item}")
-            self.ln(1)
-        self.ln(1)
-
-    def separator(self) -> None:
-        self.set_draw_color(200, 200, 200)
-        y = self.get_y()
-        self.line(MARGIN, y, PAGE_W - MARGIN, y)
+        self.multi_cell(0, 6, instructions)
         self.ln(4)
 
-    def answer_lines(self, count: int = 8) -> None:
-        self.set_draw_color(200, 200, 200)
-        for _ in range(count):
-            y = self.get_y()
-            self.line(MARGIN, y, PAGE_W - MARGIN, y)
-            self.ln(8)
+    def add_text_block(self, label: str, text: str):
+        self.set_font("Helvetica", "B", 10)
+        self.cell(0, 7, label)
+        self.ln(7)
+        self.set_font("Helvetica", "", 10)
+        self.multi_cell(0, 6, text)
+        self.ln(3)
+
+    def add_questions(self, questions: list[dict], show_answers: bool = False):
+        for q in questions:
+            q_type = q.get("type", "")
+            q_num = q.get("number", "")
+            text = q.get("text_de", "")
+
+            self.set_font("Helvetica", "B", 10)
+            self.cell(8, 7, f"{q_num}.")
+            self.set_font("Helvetica", "", 10)
+
+            if q_type == "true_false":
+                self.cell(0, 7, f"{text}")
+                self.ln(7)
+                if show_answers:
+                    answer = "Richtig" if q["correct_answer"] else "Falsch"
+                    self.set_font("Helvetica", "B", 9)
+                    self.set_text_color(0, 100, 0)
+                    explanation = q.get("explanation_de", "")
+                    self.cell(8, 6, "")
+                    self.multi_cell(0, 6, f"{answer} - {explanation}" if explanation else answer)
+                    self.set_text_color(0, 0, 0)
+                else:
+                    self.set_font("Helvetica", "", 9)
+                    self.cell(8, 6, "")
+                    self.cell(20, 6, "[ ] Richtig")
+                    self.cell(20, 6, "[ ] Falsch")
+                    self.ln(6)
+
+            elif q_type == "multiple_choice":
+                self.cell(0, 7, text)
+                self.ln(7)
+                options = q.get("options", [])
+                for i, opt in enumerate(options):
+                    letter = chr(ord("a") + i)
+                    self.set_font("Helvetica", "", 9)
+                    self.cell(8, 6, "")
+                    if show_answers and q.get("correct_answer") == letter:
+                        self.set_font("Helvetica", "B", 9)
+                        self.set_text_color(0, 100, 0)
+                        self.cell(0, 6, f"[x] {opt}")
+                        self.set_text_color(0, 0, 0)
+                    else:
+                        self.cell(0, 6, f"[ ] {opt}")
+                    self.ln(6)
+                if show_answers:
+                    explanation = q.get("explanation_de", "")
+                    if explanation:
+                        self.set_font("Helvetica", "B", 9)
+                        self.set_text_color(0, 100, 0)
+                        self.cell(8, 6, "")
+                        self.multi_cell(0, 6, explanation)
+                        self.set_text_color(0, 0, 0)
+
+            elif q_type == "matching":
+                self.multi_cell(0, 7, text)
+                if show_answers:
+                    self.set_font("Helvetica", "B", 9)
+                    self.set_text_color(0, 100, 0)
+                    self.cell(8, 6, "")
+                    self.cell(0, 6, f"Antwort: {q['correct_answer']}")
+                    self.ln(6)
+                    explanation = q.get("explanation_de", "")
+                    if explanation:
+                        self.cell(8, 6, "")
+                        self.multi_cell(0, 6, explanation)
+                    self.set_text_color(0, 0, 0)
+                else:
+                    self.cell(8, 6, "")
+                    self.cell(0, 6, "Antwort: _______________")
+                    self.ln(6)
+
+            self.ln(2)
+
+    def add_bullet_list(self, label: str, items: list[str]):
+        self.set_font("Helvetica", "B", 10)
+        self.cell(0, 7, label)
+        self.ln(7)
+        self.set_font("Helvetica", "", 9)
+        left_margin = self.l_margin
+        for item in items:
+            self.set_x(left_margin + 6)
+            available_w = self.w - self.r_margin - self.get_x()
+            self.multi_cell(available_w, 6, f"- {item}")
+        self.ln(2)
 
 
-def _render_questions(pdf: ExamPDF, questions: list) -> None:
-    """Render questions with options or true/false checkboxes."""
-    for q in questions:
-        pdf.set_font(FONT, "B", 10)
-        pdf.set_text_color(0, 0, 0)
-        pdf.multi_cell(CONTENT_W, 5.5, f"{q.number}. {q.text_de}")
-        if q.options:
-            pdf.set_font(FONT, "", 10)
-            for opt in q.options:
-                pdf.cell(10)
-                pdf.multi_cell(CONTENT_W - 10, 5.5, opt)
-        elif q.type == "true_false":
-            pdf.set_font(FONT, "", 10)
-            pdf.cell(10)
-            pdf.cell(30, 5.5, "\u25a1  richtig")
-            pdf.cell(30, 5.5, "\u25a1  falsch")
-            pdf.ln(6)
-        pdf.ln(2)
+def load_exercises(skill: str, part_num: int) -> list[dict]:
+    """Load all exercises for a skill/part from JSON files."""
+    part_prefix = SKILLS[skill]["part_label"].lower()
+    part_dir = RESOURCES_DIR / skill / f"{part_prefix}-{part_num}"
+    if not part_dir.exists():
+        return []
+    exercises = []
+    for f in sorted(part_dir.glob("uebung-*.json")):
+        with open(f, "r", encoding="utf-8") as fh:
+            exercises.append(json.load(fh))
+    return exercises
 
 
-def render_listening(pdf: ExamPDF, ex: ListeningExercise) -> None:
-    pdf.add_page()
-    pdf.section_title(ex.title)
-    pdf.italic_text(ex.instructions)
-    pdf.body_text(f"Zeit: {ex.time_minutes} Minuten")
-    pdf.separator()
+def render_hoeren(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
+    """Render listening exercises."""
+    for ex in exercises:
+        time_min = ex.get("time_minutes", 8)
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"], time_min)
 
-    pdf.section_subtitle("Transkript")
-    for line in ex.transcript:
-        pdf.set_font(FONT, "B", 10)
-        pdf.set_text_color(0, 0, 0)
-        speaker_text = f"{line.speaker}: "
-        speaker_w = pdf.get_string_width(speaker_text)
-        pdf.cell(speaker_w, 5.5, text=speaker_text)
-        pdf.set_font(FONT, "", 10)
-        # Temporarily adjust left margin so wrapped lines align under dialogue text
-        old_l_margin = pdf.l_margin
-        pdf.set_left_margin(MARGIN + speaker_w)
-        pdf.multi_cell(CONTENT_W - speaker_w, 5.5, line.text_de)
-        pdf.set_left_margin(old_l_margin)
-        pdf.ln(1)
-    pdf.ln(2)
+        if not show_answers:
+            # Show transcript for practice
+            pdf.add_text_block("Transkript:", "")
+            pdf.set_font("Helvetica", "", 9)
+            for line in ex.get("transcript", []):
+                speaker = line.get("speaker", "")
+                text = line.get("text_de", "")
+                pdf.set_x(pdf.l_margin)
+                available_w = pdf.w - pdf.l_margin - pdf.r_margin
+                pdf.multi_cell(available_w, 6, f"  {speaker}: {text}")
+            pdf.ln(4)
 
-    pdf.section_subtitle("Fragen")
-    _render_questions(pdf, ex.questions)
+        pdf.add_questions(ex.get("questions", []), show_answers=show_answers)
 
 
-def render_reading(pdf: ExamPDF, ex: ReadingExercise) -> None:
-    pdf.add_page()
-    pdf.section_title(ex.title)
-    pdf.italic_text(ex.instructions)
-    pdf.body_text(f"Zeit: {ex.time_minutes} Minuten")
-    pdf.separator()
+def render_lesen(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
+    """Render reading exercises."""
+    for ex in exercises:
+        time_min = ex.get("time_minutes", 10)
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"], time_min)
 
-    pdf.section_subtitle(f"Text ({ex.passage.source})")
-    pdf.body_text(ex.passage.text_de)
-    pdf.separator()
+        if not show_answers:
+            passage = ex.get("passage", {})
+            text_de = passage.get("text_de", "")
+            source = passage.get("source", "")
+            pdf.add_text_block(f"Text ({source}):", text_de)
 
-    pdf.section_subtitle("Fragen")
-    _render_questions(pdf, ex.questions)
-
-
-def render_writing(pdf: ExamPDF, ex: WritingExercise) -> None:
-    pdf.add_page()
-    pdf.section_title(ex.title)
-    pdf.italic_text(ex.instructions)
-    pdf.separator()
-
-    pdf.section_subtitle("Situation")
-    pdf.body_text(ex.situation_de)
-
-    pdf.section_subtitle("Inhaltspunkte")
-    pdf.bullet_list(ex.required_points)
-
-    pdf.body_text(f"Schreiben Sie circa {ex.target_word_count} Wörter.")
-    pdf.separator()
-    pdf.answer_lines(10)
+        pdf.add_questions(ex.get("questions", []), show_answers=show_answers)
 
 
-def render_speaking(pdf: ExamPDF, ex: SpeakingExercise) -> None:
-    pdf.add_page()
-    pdf.section_title(ex.title)
-    pdf.italic_text(ex.instructions)
-    pdf.separator()
+def render_schreiben(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
+    """Render writing exercises."""
+    for ex in exercises:
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"])
 
-    pdf.section_subtitle("Situation")
-    pdf.body_text(ex.situation_de)
+        pdf.add_text_block("Situation:", ex.get("situation_de", ""))
+        pdf.add_bullet_list("Inhaltspunkte:", ex.get("required_points", []))
 
-    pdf.section_subtitle("Diskussionspunkte")
-    pdf.bullet_list(ex.discussion_points)
+        if show_answers:
+            model = ex.get("model_answer", {})
+            pdf.add_text_block("Musterantwort:", model.get("text_de", ""))
+            pdf.add_bullet_list("Bewertungskriterien:", ex.get("scoring_criteria", []))
+        else:
+            # Writing space
+            pdf.ln(4)
+            pdf.set_font("Helvetica", "I", 9)
+            pdf.set_text_color(150, 150, 150)
+            pdf.cell(0, 6, f"(Schreiben Sie ca. {ex.get('target_word_count', 80)} Wörter)")
+            pdf.set_text_color(0, 0, 0)
+            pdf.ln(8)
+            for _ in range(10):
+                pdf.set_draw_color(220, 220, 220)
+                pdf.line(pdf.l_margin, pdf.get_y(), pdf.w - pdf.r_margin, pdf.get_y())
+                pdf.ln(8)
 
 
-# Skill configuration: each entry drives PDF generation for one exam section
-_SKILL_CONFIG: list[dict] = [
-    {"name_de": "Hören", "dir_name": "hoeren", "part_prefix": "teil", "part_label": "Teil", "model": ListeningExercise, "renderer": render_listening},
-    {"name_de": "Lesen", "dir_name": "lesen", "part_prefix": "teil", "part_label": "Teil", "model": ReadingExercise, "renderer": render_reading},
-    {"name_de": "Schreiben", "dir_name": "schreiben", "part_prefix": "aufgabe", "part_label": "Aufgabe", "model": WritingExercise, "renderer": render_writing},
-    {"name_de": "Sprechen", "dir_name": "sprechen", "part_prefix": "teil", "part_label": "Teil", "model": SpeakingExercise, "renderer": render_speaking},
-]
+def render_sprechen(pdf: ExamPDF, exercises: list[dict], show_answers: bool):
+    """Render speaking exercises."""
+    for ex in exercises:
+        pdf.add_exercise_header(ex["id"], ex["title"], ex["instructions"])
+
+        pdf.add_text_block("Situation:", ex.get("situation_de", ""))
+        pdf.add_bullet_list("Gesprächspunkte:", ex.get("discussion_points", []))
+
+        if show_answers:
+            pdf.add_text_block("Musterdialog:", "")
+            pdf.set_font("Helvetica", "", 9)
+            for line in ex.get("model_dialogue", []):
+                speaker = line.get("speaker", "")
+                text = line.get("text_de", "")
+                pdf.set_x(pdf.l_margin)
+                available_w = pdf.w - pdf.l_margin - pdf.r_margin
+                pdf.multi_cell(available_w, 6, f"  {speaker}: {text}")
+            pdf.ln(3)
+            pdf.add_bullet_list("Bewertungskriterien:", ex.get("evaluation_criteria", []))
 
 
-def build_pdfs() -> None:
-    OUTPUT.mkdir(parents=True, exist_ok=True)
-    exercise_count = 0
-    pdf_count = 0
+RENDERERS = {
+    "hoeren": render_hoeren,
+    "lesen": render_lesen,
+    "schreiben": render_schreiben,
+    "sprechen": render_sprechen,
+}
 
-    for config in _SKILL_CONFIG:
-        skill_dir = RESOURCES / config["dir_name"]
-        if not skill_dir.exists():
-            continue
-        renderer: Callable = config["renderer"]
-        for part_dir in sorted(skill_dir.glob(f"{config['part_prefix']}-*")):
-            part_num = part_dir.name.split("-")[-1]
-            exercises = load_exercises(part_dir, config["model"])
-            if not exercises:
-                continue
-            pdf = ExamPDF(config["name_de"], f"{config['part_label']} {part_num}")
-            for ex in exercises:
-                renderer(pdf, ex)
-            out = OUTPUT / f"b1-{config['dir_name']}-{config['part_prefix']}-{part_num}.pdf"
-            pdf.output(str(out))
-            exercise_count += len(exercises)
-            pdf_count += 1
-            print(f"  {out.name}: {len(exercises)} exercises")
 
-    print(f"\nGenerated {exercise_count} exercises across {pdf_count} PDFs in {OUTPUT}/")
+def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
+    """Generate a PDF for one exam skill."""
+    info = SKILLS[skill]
+    pdf = ExamPDF(info["name"])
+
+    # Title page
+    pdf.add_title_page()
+
+    # Load all exercises once
+    renderer = RENDERERS[skill]
+    all_exercises = {}
+    for part_num in range(1, info["parts"] + 1):
+        exercises = load_exercises(skill, part_num)
+        if exercises:
+            all_exercises[part_num] = exercises
+
+    # Exercise pages
+    for part_num, exercises in all_exercises.items():
+        section_label = f"{info['part_label']} {part_num}"
+        pdf.add_section_header(section_label)
+        renderer(pdf, exercises, show_answers=False)
+
+    # Answer key section
+    pdf.add_section_header("Lösungen / Answer Key")
+    for part_num, exercises in all_exercises.items():
+        section_label = f"{info['part_label']} {part_num}"
+        pdf.set_font("Helvetica", "B", 13)
+        pdf.cell(0, 10, section_label)
+        pdf.ln(10)
+        renderer(pdf, exercises, show_answers=True)
+
+    output_path = output_dir / f"b1_{skill}.pdf"
+    pdf.output(str(output_path))
+    return output_path
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate printable PDFs for B1 exam exercises")
+    parser.add_argument("--output-dir", default="resources/exams/b1/pdfs", help="Output directory")
+    parser.add_argument("--skill", choices=list(SKILLS.keys()), help="Generate PDF for a single skill only")
+    args = parser.parse_args()
+
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    skills = [args.skill] if args.skill else list(SKILLS.keys())
+
+    for skill in skills:
+        path = generate_skill_pdf(skill, output_dir)
+        print(f"[OK] Generated: {path}")
+
+    print(f"\nAll PDFs written to: {output_dir}/")
 
 
 if __name__ == "__main__":
-    print("Generating B1 exam practice PDFs...\n")
-    build_pdfs()
+    main()
