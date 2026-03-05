@@ -1,0 +1,62 @@
+{
+  "id": "a2-lesen-teil-2-005",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Fahrplan: Buslinien zum Stadtzentrum",
+  "instructions": "Lesen Sie die Informationen und die Aufgaben. Welche Information passt? Ordnen Sie zu.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Buslinien zum Stadtzentrum:\n\nA) Linie 1: Nordbahnhof – Stadtzentrum. Montag-Freitag alle 10 Minuten, ab 5:30 Uhr. Am Wochenende alle 20 Minuten. Fahrtzeit: 15 Minuten.\n\nB) Linie 3: Krankenhaus – Stadtzentrum – Universität. Montag-Samstag alle 15 Minuten, ab 6:00 Uhr. Sonntags kein Service. Fahrtzeit: 25 Minuten.\n\nC) Linie 7: Flughafen – Hauptbahnhof – Stadtzentrum. Täglich alle 30 Minuten, ab 4:30 Uhr. Fahrtzeit: 40 Minuten. Express: kein Halt zwischen Flughafen und Hauptbahnhof.\n\nD) Linie 12: Einkaufszentrum – Stadtzentrum. Nur Samstag, alle 15 Minuten, 9:00-20:00 Uhr. Fahrtzeit: 20 Minuten.\n\nE) Nachtbus N1: Stadtzentrum – alle Stadtteile. Freitag und Samstag, 0:00-4:00 Uhr, alle 30 Minuten. Fahrtzeit: variiert.\n\nF) Linie 15: Schule am Park – Stadtzentrum – Sportplatz. Nur Schultage, 7:00-8:00 und 13:00-15:00 Uhr, alle 10 Minuten. Fahrtzeit: 12 Minuten.",
+    "text_en": "Bus lines to the city center:\n\nA) Line 1: North Station – City Center. Monday-Friday every 10 minutes, from 5:30 AM. On weekends every 20 minutes. Travel time: 15 minutes.\n\nB) Line 3: Hospital – City Center – University. Monday-Saturday every 15 minutes, from 6:00 AM. No service on Sundays. Travel time: 25 minutes.\n\nC) Line 7: Airport – Main Station – City Center. Daily every 30 minutes, from 4:30 AM. Travel time: 40 minutes. Express: no stop between airport and main station.\n\nD) Line 12: Shopping Center – City Center. Saturday only, every 15 minutes, 9:00 AM-8:00 PM. Travel time: 20 minutes.\n\nE) Night Bus N1: City Center – all districts. Friday and Saturday, 12:00 AM-4:00 AM, every 30 minutes. Travel time: varies.\n\nF) Line 15: School at the Park – City Center – Sports Field. School days only, 7:00-8:00 AM and 1:00-3:00 PM, every 10 minutes. Travel time: 12 minutes.",
+    "source": "Fahrplan",
+    "word_count": 130
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr Kim kommt am Sonntag um 10 Uhr am Flughafen an und muss ins Stadtzentrum.",
+      "text_en": "Mr. Kim arrives at the airport on Sunday at 10 AM and needs to get to the city center.",
+      "correct_answer": "C",
+      "explanation_de": "Linie 7 (C) fährt täglich vom Flughafen zum Stadtzentrum, auch sonntags.",
+      "explanation_en": "Line 7 (C) runs daily from the airport to the city center, including Sundays."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Frau Stein war am Freitagabend in einer Bar und muss um 2 Uhr nachts nach Hause.",
+      "text_en": "Ms. Stein was at a bar on Friday evening and needs to get home at 2 AM.",
+      "correct_answer": "E",
+      "explanation_de": "Der Nachtbus N1 (E) fährt Freitag und Samstag von 0 bis 4 Uhr.",
+      "explanation_en": "Night bus N1 (E) runs Friday and Saturday from 12 AM to 4 AM."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Weiß möchte am Samstag im Einkaufszentrum einkaufen gehen.",
+      "text_en": "Mr. Weiß wants to go shopping at the shopping center on Saturday.",
+      "correct_answer": "D",
+      "explanation_de": "Linie 12 (D) fährt samstags zum Einkaufszentrum.",
+      "explanation_en": "Line 12 (D) runs to the shopping center on Saturdays."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Lang studiert an der Universität und fährt montags morgens vom Krankenhaus.",
+      "text_en": "Ms. Lang studies at the university and travels from the hospital on Monday mornings.",
+      "correct_answer": "B",
+      "explanation_de": "Linie 3 (B) fährt vom Krankenhaus über das Stadtzentrum zur Universität.",
+      "explanation_en": "Line 3 (B) runs from the hospital via the city center to the university."
+    },
+    {
+      "number": 5,
+      "type": "matching",
+      "text_de": "Herr Fuchs wohnt am Nordbahnhof und muss jeden Tag um 6 Uhr im Stadtzentrum sein.",
+      "text_en": "Mr. Fuchs lives at the north station and needs to be in the city center every day at 6 AM.",
+      "correct_answer": "A",
+      "explanation_de": "Linie 1 (A) fährt ab 5:30 vom Nordbahnhof und braucht 15 Minuten.",
+      "explanation_en": "Line 1 (A) departs from the north station at 5:30 and takes 15 minutes."
+    }
+  ]
+}

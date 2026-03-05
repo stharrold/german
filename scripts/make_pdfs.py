@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2025 stharrold
 # SPDX-License-Identifier: Apache-2.0
-"""Generate printable PDFs for B1 exam practice exercises.
+"""Generate printable PDFs for exam practice exercises.
 
 Produces one PDF per skill (Hören, Lesen, Schreiben, Sprechen) with
 exercise pages and a separate answer key section at the end.
 
 Usage:
     uv run --extra pdf python scripts/make_pdfs.py
-    uv run --extra pdf python scripts/make_pdfs.py --output-dir resources/exams/b1/pdfs
-    uv run --extra pdf python scripts/make_pdfs.py --skill hoeren
+    uv run --extra pdf python scripts/make_pdfs.py --level a2
+    uv run --extra pdf python scripts/make_pdfs.py --level b1 --skill hoeren
 
 Requirements:
     fpdf2 (install via: uv pip install fpdf2, or use --extra pdf)
@@ -26,7 +26,7 @@ except ImportError:
     print("Error: fpdf2 is required. Install with: uv pip install fpdf2", file=sys.stderr)
     sys.exit(1)
 
-RESOURCES_DIR = Path(__file__).resolve().parent.parent / "resources" / "exams" / "b1"
+EXAMS_DIR = Path(__file__).resolve().parent.parent / "resources" / "exams"
 
 # Unicode replacements for latin-1 compatible PDF output
 UNICODE_REPLACEMENTS = {
@@ -50,20 +50,29 @@ def sanitize_text(text: str) -> str:
     return text.encode("latin-1", errors="replace").decode("latin-1")
 
 
-# Skill display names and directory mappings
-SKILLS = {
-    "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
-    "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
-    "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 3},
-    "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+# Skill display names and directory mappings per level
+LEVELS = {
+    "a2": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 4},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+    },
+    "b1": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 3},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+    },
 }
 
 
 class ExamPDF(FPDF):
     """PDF generator with German character support and consistent formatting."""
 
-    def __init__(self, skill_name: str):
+    def __init__(self, level: str, skill_name: str):
         super().__init__()
+        self.level = level.upper()
         self.skill_name = skill_name
         self.set_auto_page_break(auto=True, margin=20)
 
@@ -76,7 +85,7 @@ class ExamPDF(FPDF):
     def header(self):
         self.set_font("Helvetica", "B", 10)
         self.set_text_color(100, 100, 100)
-        self.cell(0, 8, f"Goethe-Zertifikat B1 - {self.skill_name}", align="L")
+        self.cell(0, 8, f"Goethe-Zertifikat {self.level} - {self.skill_name}", align="L")
         self.ln(10)
         self.set_draw_color(200, 200, 200)
         self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
@@ -93,7 +102,7 @@ class ExamPDF(FPDF):
         self.ln(60)
         self.set_font("Helvetica", "B", 28)
         self.set_text_color(0, 0, 0)
-        self.cell(0, 15, "Goethe-Zertifikat B1", align="C")
+        self.cell(0, 15, f"Goethe-Zertifikat {self.level}", align="C")
         self.ln(20)
         self.set_font("Helvetica", "B", 22)
         self.cell(0, 12, self.skill_name, align="C")
@@ -224,10 +233,11 @@ class ExamPDF(FPDF):
         self.ln(2)
 
 
-def load_exercises(skill: str, part_num: int) -> list[dict]:
-    """Load all exercises for a skill/part from JSON files."""
-    part_prefix = SKILLS[skill]["part_label"].lower()
-    part_dir = RESOURCES_DIR / skill / f"{part_prefix}-{part_num}"
+def load_exercises(level: str, skill: str, part_num: int) -> list[dict]:
+    """Load all exercises for a level/skill/part from JSON files."""
+    skills = LEVELS[level]
+    part_prefix = skills[skill]["part_label"].lower()
+    part_dir = EXAMS_DIR / level / skill / f"{part_prefix}-{part_num}"
     if not part_dir.exists():
         return []
     exercises = []
@@ -328,10 +338,11 @@ RENDERERS = {
 }
 
 
-def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
-    """Generate a PDF for one exam skill."""
-    info = SKILLS[skill]
-    pdf = ExamPDF(info["name"])
+def generate_skill_pdf(level: str, skill: str, output_dir: Path) -> Path:
+    """Generate a PDF for one exam skill at a given level."""
+    skills = LEVELS[level]
+    info = skills[skill]
+    pdf = ExamPDF(level, info["name"])
 
     # Title page
     pdf.add_title_page()
@@ -340,7 +351,7 @@ def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
     renderer = RENDERERS[skill]
     all_exercises = {}
     for part_num in range(1, info["parts"] + 1):
-        exercises = load_exercises(skill, part_num)
+        exercises = load_exercises(level, skill, part_num)
         if exercises:
             all_exercises[part_num] = exercises
 
@@ -359,24 +370,26 @@ def generate_skill_pdf(skill: str, output_dir: Path) -> Path:
         pdf.ln(10)
         renderer(pdf, exercises, show_answers=True)
 
-    output_path = output_dir / f"b1_{skill}.pdf"
+    output_path = output_dir / f"{level}_{skill}.pdf"
     pdf.output(str(output_path))
     return output_path
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate printable PDFs for B1 exam exercises")
-    parser.add_argument("--output-dir", default="resources/exams/b1/pdfs", help="Output directory")
-    parser.add_argument("--skill", choices=list(SKILLS.keys()), help="Generate PDF for a single skill only")
+    parser = argparse.ArgumentParser(description="Generate printable PDFs for exam exercises")
+    parser.add_argument("--level", choices=list(LEVELS.keys()), default="b1", help="CEFR level")
+    parser.add_argument("--output-dir", help="Output directory (default: resources/exams/{level}/pdfs)")
+    parser.add_argument("--skill", help="Generate PDF for a single skill only")
     args = parser.parse_args()
 
-    output_dir = Path(args.output_dir)
+    output_dir = Path(args.output_dir) if args.output_dir else Path(f"resources/exams/{args.level}/pdfs")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    skills = [args.skill] if args.skill else list(SKILLS.keys())
+    skills_config = LEVELS[args.level]
+    skills = [args.skill] if args.skill else list(skills_config.keys())
 
     for skill in skills:
-        path = generate_skill_pdf(skill, output_dir)
+        path = generate_skill_pdf(args.level, skill, output_dir)
         print(f"[OK] Generated: {path}")
 
     print(f"\nAll PDFs written to: {output_dir}/")

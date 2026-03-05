@@ -1,0 +1,53 @@
+{
+  "id": "a2-lesen-teil-4-003",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kleinanzeigen: Dienstleistungen",
+  "instructions": "Lesen Sie die Anzeigen und die Aufgaben. Welche Anzeige passt? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "A) Nachhilfe in Mathematik und Physik für Schüler Klasse 5-10. Erfahrene Lehrerin. 20 Euro pro Stunde. Auch online möglich. Tel: 0176-5556677.\n\nB) Hundesitter gesucht? Ich passe auf Ihren Hund auf, wenn Sie im Urlaub sind. Erfahrung mit großen und kleinen Hunden. 25 Euro pro Tag. Kontakt: hundeliebe@web.de.\n\nC) Umzugshilfe — zwei starke Männer mit Transporter. 30 Euro pro Stunde. Auch am Wochenende. Kurzfristig möglich. Anruf: 0152-8889900.\n\nD) Gartenarbeit — Rasen mähen, Hecke schneiden, Blumen pflanzen. Freundlicher Service, faire Preise. Kostenloser Kostenvoranschlag. E-Mail: gruen@garten.de.\n\nE) Sprachunterricht: Deutsch als Fremdsprache, alle Niveaus. Muttersprachlerin, Einzelunterricht oder kleine Gruppen. 25 Euro pro Stunde. Erste Stunde kostenlos!\n\nF) Babysitter, 22 Jahre, Erfahrung mit Kindern (0-6 Jahre). Abends und am Wochenende. 12 Euro pro Stunde. Referenzen vorhanden. Tel: 0157-3334455.",
+    "text_en": "A) Tutoring in mathematics and physics for students grades 5-10. Experienced teacher. 20 euros per hour. Also possible online. Tel: 0176-5556677.\n\nB) Looking for a dog sitter? I take care of your dog when you're on vacation. Experience with large and small dogs. 25 euros per day. Contact: hundeliebe@web.de.\n\nC) Moving help — two strong men with van. 30 euros per hour. Also on weekends. Short notice possible. Call: 0152-8889900.\n\nD) Garden work — mowing lawn, trimming hedges, planting flowers. Friendly service, fair prices. Free estimate. Email: gruen@garten.de.\n\nE) Language lessons: German as a foreign language, all levels. Native speaker, individual lessons or small groups. 25 euros per hour. First lesson free!\n\nF) Babysitter, 22 years old, experience with children (0-6 years). Evenings and weekends. 12 euros per hour. References available. Tel: 0157-3334455.",
+    "source": "Kleinanzeigen",
+    "word_count": 120
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Herr und Frau Ozturk fahren nächste Woche in den Urlaub und haben einen Hund.",
+      "text_en": "Mr. and Mrs. Ozturk are going on vacation next week and have a dog.",
+      "correct_answer": "B",
+      "explanation_de": "Der Hundesitter (B) passt auf Hunde auf, wenn die Besitzer im Urlaub sind.",
+      "explanation_en": "The dog sitter (B) takes care of dogs when the owners are on vacation."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Ahmed ist vor einem Monat nach Deutschland gekommen und möchte Deutsch lernen.",
+      "text_en": "Ahmed came to Germany a month ago and wants to learn German.",
+      "correct_answer": "E",
+      "explanation_de": "Der Sprachunterricht (E) bietet Deutsch als Fremdsprache für alle Niveaus.",
+      "explanation_en": "The language lessons (E) offer German as a foreign language for all levels."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Frau Klein zieht am Samstag in eine neue Wohnung und braucht schnell Hilfe.",
+      "text_en": "Ms. Klein is moving to a new apartment on Saturday and needs help quickly.",
+      "correct_answer": "C",
+      "explanation_de": "Die Umzugshilfe (C) arbeitet auch am Wochenende und kurzfristig.",
+      "explanation_en": "The moving help (C) also works on weekends and on short notice."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Die Tochter von Herrn Bauer (12 Jahre) hat Probleme in Mathematik in der Schule.",
+      "text_en": "Mr. Bauer's daughter (12 years old) has problems with mathematics at school.",
+      "correct_answer": "A",
+      "explanation_de": "Die Nachhilfe (A) bietet Mathematik für Schüler ab Klasse 5.",
+      "explanation_en": "The tutoring (A) offers mathematics for students from grade 5."
+    }
+  ]
+}

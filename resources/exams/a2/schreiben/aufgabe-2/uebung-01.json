@@ -1,0 +1,26 @@
+{
+  "id": "a2-schreiben-aufgabe-2-001",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Termin beim Arzt",
+  "instructions": "Schreiben Sie eine E-Mail (ca. 30-40 Wörter).",
+  "situation_de": "Sie möchten einen Termin bei Ihrem Hausarzt machen. Schreiben Sie eine E-Mail an die Arztpraxis.",
+  "situation_en": "You would like to make an appointment with your family doctor. Write an email to the doctor's office.",
+  "target_word_count": 35,
+  "required_points": [
+    "Sagen, warum Sie einen Termin brauchen (Say why you need an appointment)",
+    "Sagen, wann Sie Zeit haben (Say when you have time)",
+    "Um eine Bestätigung bitten (Ask for a confirmation)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich brauche einen Termin, weil ich seit einer Woche starke Kopfschmerzen habe. Ich habe am Montag oder Dienstag Vormittag Zeit. Können Sie mir bitte einen Termin bestätigen?\n\nMit freundlichen Grüßen\nMaria Schmidt",
+    "text_en": "Dear Sir or Madam,\n\nI need an appointment because I have had strong headaches for a week. I have time on Monday or Tuesday morning. Could you please confirm an appointment for me?\n\nBest regards\nMaria Schmidt"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Kohärenz: Die E-Mail hat eine passende Anrede und einen Gruß (Coherence: The email has an appropriate salutation and closing)",
+    "Wortschatz: Angemessener formeller Wortschatz auf A2-Niveau (Vocabulary: Appropriate formal vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

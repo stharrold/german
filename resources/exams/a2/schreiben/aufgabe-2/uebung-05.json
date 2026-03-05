@@ -1,0 +1,26 @@
+{
+  "id": "a2-schreiben-aufgabe-2-005",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Anmeldung zum Stadtfest",
+  "instructions": "Schreiben Sie eine E-Mail (ca. 30-40 Wörter).",
+  "situation_de": "Die Stadt organisiert ein Stadtfest und sucht Freiwillige. Sie möchten helfen. Schreiben Sie eine E-Mail an das Organisationsteam.",
+  "situation_en": "The city is organizing a city festival and is looking for volunteers. You would like to help. Write an email to the organization team.",
+  "target_word_count": 36,
+  "required_points": [
+    "Sagen, dass Sie helfen möchten (Say that you would like to help)",
+    "Sagen, wann Sie Zeit haben (Say when you have time)",
+    "Fragen, was Sie tun können (Ask what you can do)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich habe gelesen, dass Sie Freiwillige für das Stadtfest suchen. Ich möchte gern helfen. Am Samstag und Sonntag habe ich den ganzen Tag Zeit. Was kann ich machen?\n\nMit freundlichen Grüßen\nDavid Chen",
+    "text_en": "Dear Sir or Madam,\n\nI have read that you are looking for volunteers for the city festival. I would like to help. On Saturday and Sunday I have time the whole day. What can I do?\n\nBest regards\nDavid Chen"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Kohärenz: Die E-Mail hat eine passende Anrede und einen Gruß (Coherence: The email has an appropriate salutation and closing)",
+    "Wortschatz: Angemessener formeller Wortschatz auf A2-Niveau (Vocabulary: Appropriate formal vocabulary at A2 level)",
+    "Strukturen: Einfache Satzstrukturen sind korrekt (Structures: Simple sentence structures are correct)"
+  ]
+}

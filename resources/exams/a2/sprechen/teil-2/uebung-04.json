@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-2-004",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Meine Hobbys",
+  "instructions": "Sie bekommen ein Thema. Sprechen Sie über das Thema.",
+  "situation_de": "Der Prüfer / Die Prüferin fragt Sie über Ihre Hobbys und Ihre Freizeit. Beantworten Sie die Fragen mit zwei bis drei Sätzen.",
+  "situation_en": "The examiner asks you about your hobbies and your free time. Answer the questions with two to three sentences.",
+  "discussion_points": [
+    "Was machen Sie gern in Ihrer Freizeit? (What do you like to do in your free time?)",
+    "Wie oft machen Sie Ihr Hobby? (How often do you do your hobby?)",
+    "Machen Sie Ihr Hobby allein oder mit anderen? (Do you do your hobby alone or with others?)",
+    "Seit wann haben Sie dieses Hobby? (Since when have you had this hobby?)",
+    "Möchten Sie ein neues Hobby anfangen? Welches? (Would you like to start a new hobby? Which one?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist „Meine Hobbys“. Was machen Sie gern in Ihrer Freizeit?",
+      "text_en": "Our topic is \"My hobbies.\" What do you like to do in your free time?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "In meiner Freizeit male ich gern Bilder. Ich male mit Wasserfarben. Außerdem lese ich gern Bücher.",
+      "text_en": "In my free time I like to paint pictures. I paint with watercolors. I also like to read books."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wie oft machen Sie Ihr Hobby?",
+      "text_en": "How often do you do your hobby?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich male ungefähr zweimal pro Woche, meistens am Abend nach der Arbeit. Am Wochenende habe ich mehr Zeit dafür.",
+      "text_en": "I paint about twice a week, mostly in the evening after work. On weekends I have more time for it."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Machen Sie das allein oder mit anderen?",
+      "text_en": "Do you do that alone or with others?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meistens male ich allein zu Hause. Aber einmal im Monat gehe ich in einen Malkurs. Dort treffe ich andere Leute, die auch gern malen.",
+      "text_en": "Mostly I paint alone at home. But once a month I go to a painting class. There I meet other people who also like painting."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Seit wann haben Sie dieses Hobby?",
+      "text_en": "Since when have you had this hobby?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich male seit drei Jahren. Eine Freundin hat mir einen Malkurs geschenkt und seitdem male ich regelmäßig.",
+      "text_en": "I have been painting for three years. A friend gave me a painting class as a gift and since then I paint regularly."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Möchten Sie ein neues Hobby anfangen?",
+      "text_en": "Would you like to start a new hobby?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich möchte gern Gitarre spielen lernen. Ich finde Musik toll, aber ich hatte noch keine Zeit für einen Kurs.",
+      "text_en": "Yes, I would like to learn to play the guitar. I find music great, but I have not had time for a class yet."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Fragen werden mit zwei bis drei Sätzen beantwortet.",
+    "Zusammenhang: Die Antworten sind logisch und passen zum Thema.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Freizeit und Hobbys wird verwendet.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und einfachen Konnektoren (und, aber, auch).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ]
+}

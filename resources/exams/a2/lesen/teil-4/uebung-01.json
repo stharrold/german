@@ -1,0 +1,53 @@
+{
+  "id": "a2-lesen-teil-4-001",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kleinanzeigen: Wohnungen",
+  "instructions": "Lesen Sie die Anzeigen und die Aufgaben. Welche Anzeige passt? Ordnen Sie zu.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "A) 2-Zimmer-Wohnung in der Altstadt, 55 qm, 3. Stock ohne Aufzug. 480 Euro warm. Kleine Küche, Bad mit Dusche. Ab sofort frei. Tel: 0176-3456789.\n\nB) Helles WG-Zimmer, 18 qm, in 3er-WG. Küche und Bad gemeinsam. 280 Euro warm. Nähe Universität. Studenten bevorzugt. Ab 1. April.\n\nC) Große Familienwohnung, 4 Zimmer, 95 qm, Erdgeschoss mit Garten. 850 Euro kalt + Nebenkosten. Ruhige Lage, Spielplatz in der Nähe. Ab Mai.\n\nD) 1-Zimmer-Apartment, 30 qm, möbliert. 550 Euro warm. Zentral, 5 Minuten zum Bahnhof. Internet inklusive. Mindestens 6 Monate.\n\nE) 3-Zimmer-Wohnung, 70 qm, 2. Stock mit Aufzug. 620 Euro warm. Balkon, neue Küche. Haustiere erlaubt. Ab 15. März.\n\nF) Zimmer zur Untermiete, 14 qm, in Familienwohnung. 200 Euro warm. Montag bis Freitag, am Wochenende nicht verfügbar. Ideal für Pendler.",
+    "text_en": "A) 2-room apartment in the old town, 55 sqm, 3rd floor without elevator. 480 euros including utilities. Small kitchen, bathroom with shower. Available immediately. Tel: 0176-3456789.\n\nB) Bright shared room, 18 sqm, in 3-person shared apartment. Kitchen and bathroom shared. 280 euros including utilities. Near university. Students preferred. From April 1st.\n\nC) Large family apartment, 4 rooms, 95 sqm, ground floor with garden. 850 euros cold + additional costs. Quiet location, playground nearby. From May.\n\nD) 1-room apartment, 30 sqm, furnished. 550 euros including utilities. Central, 5 minutes to train station. Internet included. Minimum 6 months.\n\nE) 3-room apartment, 70 sqm, 2nd floor with elevator. 620 euros including utilities. Balcony, new kitchen. Pets allowed. From March 15th.\n\nF) Room for subletting, 14 sqm, in family apartment. 200 euros including utilities. Monday to Friday, not available on weekends. Ideal for commuters.",
+    "source": "Kleinanzeigen",
+    "word_count": 130
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "matching",
+      "text_de": "Tomas studiert an der Universität und sucht ein günstiges Zimmer.",
+      "text_en": "Tomas studies at the university and is looking for a cheap room.",
+      "correct_answer": "B",
+      "explanation_de": "Das WG-Zimmer (B) ist in der Nähe der Universität und bevorzugt Studenten.",
+      "explanation_en": "The shared room (B) is near the university and prefers students."
+    },
+    {
+      "number": 2,
+      "type": "matching",
+      "text_de": "Familie Müller hat zwei Kinder und einen Hund. Sie brauchen viel Platz.",
+      "text_en": "The Müller family has two children and a dog. They need a lot of space.",
+      "correct_answer": "E",
+      "explanation_de": "Die 3-Zimmer-Wohnung (E) hat 70 qm und Haustiere sind erlaubt.",
+      "explanation_en": "The 3-room apartment (E) has 70 sqm and pets are allowed."
+    },
+    {
+      "number": 3,
+      "type": "matching",
+      "text_de": "Herr Park kommt aus Korea und braucht sofort eine möblierte Wohnung mit Internet.",
+      "text_en": "Mr. Park comes from Korea and needs a furnished apartment with internet immediately.",
+      "correct_answer": "D",
+      "explanation_de": "Das möblierte 1-Zimmer-Apartment (D) hat Internet inklusive.",
+      "explanation_en": "The furnished 1-room apartment (D) includes internet."
+    },
+    {
+      "number": 4,
+      "type": "matching",
+      "text_de": "Frau Berger arbeitet in der Stadt, wohnt aber auf dem Land. Sie braucht nur unter der Woche ein Zimmer.",
+      "text_en": "Ms. Berger works in the city but lives in the countryside. She only needs a room during the week.",
+      "correct_answer": "F",
+      "explanation_de": "Das Zimmer zur Untermiete (F) ist nur Montag bis Freitag verfügbar und ideal für Pendler.",
+      "explanation_en": "The sublet room (F) is only available Monday to Friday and ideal for commuters."
+    }
+  ]
+}

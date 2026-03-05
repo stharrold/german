@@ -1,0 +1,87 @@
+{
+  "id": "a2-lesen-teil-1-003",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Schwimmbad öffnet wieder",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Nach drei Monaten Renovierung öffnet das Hallenbad am Sportpark wieder seine Türen. Ab Montag, dem 15. März, können Sie wieder schwimmen kommen. Das Bad hat jetzt ein neues Kinderbecken und eine Sauna. Die Wassertemperatur im großen Becken ist 26 Grad. Der Eintritt kostet 4,50 Euro für Erwachsene und 2 Euro für Kinder bis 14 Jahre. Familienkarten gibt es für 10 Euro. Das Bad ist täglich von 6 bis 21 Uhr geöffnet. Am Dienstagmorgen ist Frühschwimmen nur für Senioren von 6 bis 8 Uhr.",
+    "text_en": "After three months of renovation, the indoor pool at the sports park opens its doors again. Starting Monday, March 15th, you can come swimming again. The pool now has a new children's pool and a sauna. The water temperature in the large pool is 26 degrees. Admission costs 4.50 euros for adults and 2 euros for children up to 14 years. Family tickets are available for 10 euros. The pool is open daily from 6 AM to 9 PM. On Tuesday mornings, early swimming is reserved for seniors from 6 to 8 AM.",
+    "source": "Anzeige",
+    "word_count": 97
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum war das Schwimmbad geschlossen?",
+      "text_en": "Why was the swimming pool closed?",
+      "options": [
+        "a) Wegen Ferien",
+        "b) Wegen Renovierung",
+        "c) Wegen Wasserproblemen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Bad war wegen Renovierung drei Monate geschlossen.",
+      "explanation_en": "The pool was closed for renovation for three months."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist neu im Schwimmbad?",
+      "text_en": "What is new in the swimming pool?",
+      "options": [
+        "a) Ein Restaurant",
+        "b) Ein Kinderbecken und eine Sauna",
+        "c) Eine Rutsche"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Bad hat jetzt ein neues Kinderbecken und eine Sauna.",
+      "explanation_en": "The pool now has a new children's pool and a sauna."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet eine Familienkarte?",
+      "text_en": "How much does a family ticket cost?",
+      "options": [
+        "a) 4,50 Euro",
+        "b) 8 Euro",
+        "c) 10 Euro"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Familienkarten gibt es für 10 Euro.",
+      "explanation_en": "Family tickets are available for 10 euros."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie warm ist das Wasser im großen Becken?",
+      "text_en": "How warm is the water in the large pool?",
+      "options": [
+        "a) 22 Grad",
+        "b) 26 Grad",
+        "c) 30 Grad"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wassertemperatur im großen Becken ist 26 Grad.",
+      "explanation_en": "The water temperature in the large pool is 26 degrees."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Frühschwimmen für Senioren?",
+      "text_en": "When is early swimming for seniors?",
+      "options": [
+        "a) Jeden Morgen von 6 bis 8 Uhr",
+        "b) Am Dienstagmorgen von 6 bis 8 Uhr",
+        "c) Am Mittwochmorgen von 7 bis 9 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Dienstagmorgen ist Frühschwimmen nur für Senioren von 6 bis 8 Uhr.",
+      "explanation_en": "On Tuesday mornings, early swimming is reserved for seniors from 6 to 8 AM."
+    }
+  ]
+}

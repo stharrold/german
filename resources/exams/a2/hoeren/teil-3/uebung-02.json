@@ -1,0 +1,168 @@
+{
+  "id": "a2-hoeren-teil-3-002",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Unterwegs in der Stadt",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Kundin",
+      "text_de": "Guten Tag, ich suche ein T-Shirt in Größe M. Haben Sie das in Blau?",
+      "text_en": "Good day, I'm looking for a T-shirt in size M. Do you have it in blue?"
+    },
+    {
+      "speaker": "Gespräch 1 — Verkäufer",
+      "text_de": "In Blau haben wir leider nur noch Größe L. Aber in Grün und Rot haben wir noch M.",
+      "text_en": "In blue we unfortunately only have size L left. But in green and red we still have M."
+    },
+    {
+      "speaker": "Gespräch 1 — Kundin",
+      "text_de": "Dann nehme ich das rote. Was kostet es?",
+      "text_en": "Then I'll take the red one. How much does it cost?"
+    },
+    {
+      "speaker": "Gespräch 1 — Verkäufer",
+      "text_de": "19 Euro 99.",
+      "text_en": "19 euros 99."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Entschuldigung, wo ist hier die nächste Apotheke?",
+      "text_en": "Excuse me, where is the nearest pharmacy here?"
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Gehen Sie die Straße entlang bis zum Krankenhaus. Die Apotheke ist direkt gegenüber.",
+      "text_en": "Go along the street to the hospital. The pharmacy is directly across from it."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Ist das weit?",
+      "text_en": "Is it far?"
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Nein, ungefähr fünf Minuten zu Fuß.",
+      "text_en": "No, about five minutes on foot."
+    },
+    {
+      "speaker": "Gespräch 3 — Bibliothekarin",
+      "text_de": "Guten Tag, möchten Sie sich anmelden?",
+      "text_en": "Good day, would you like to register?"
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Ja, gern. Ich möchte Bücher ausleihen. Was kostet die Jahreskarte?",
+      "text_en": "Yes, please. I'd like to borrow books. How much does the annual card cost?"
+    },
+    {
+      "speaker": "Gespräch 3 — Bibliothekarin",
+      "text_de": "Die Jahreskarte kostet 15 Euro. Dafür können Sie bis zu 10 Bücher gleichzeitig ausleihen.",
+      "text_en": "The annual card costs 15 euros. With that you can borrow up to 10 books at the same time."
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Hallo, ich möchte mich für den Deutschkurs anmelden. Wann beginnt der nächste Kurs?",
+      "text_en": "Hello, I'd like to register for the German course. When does the next course start?"
+    },
+    {
+      "speaker": "Gespräch 4 — Sekretärin",
+      "text_de": "Der nächste A2-Kurs beginnt am 3. März. Er ist immer dienstags und donnerstags von 18 bis 20 Uhr.",
+      "text_en": "The next A2 course starts on March 3rd. It's always Tuesdays and Thursdays from 6 to 8 PM."
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Perfekt, das passt mir gut.",
+      "text_en": "Perfect, that suits me well."
+    },
+    {
+      "speaker": "Gespräch 5 — Frau",
+      "text_de": "Zwei Karten für den Film um 20 Uhr, bitte.",
+      "text_en": "Two tickets for the film at 8 PM, please."
+    },
+    {
+      "speaker": "Gespräch 5 — Kassierer",
+      "text_de": "Die Vorstellung um 20 Uhr ist leider ausverkauft. Aber um 22 Uhr gibt es noch Plätze.",
+      "text_en": "The showing at 8 PM is unfortunately sold out. But there are still seats at 10 PM."
+    },
+    {
+      "speaker": "Gespräch 5 — Frau",
+      "text_de": "Gut, dann nehme ich zwei Karten für 22 Uhr.",
+      "text_en": "Good, then I'll take two tickets for 10 PM."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Farbe hat das T-Shirt, das die Kundin kauft?",
+      "text_en": "What color is the T-shirt the customer buys?",
+      "options": [
+        "a) Blau",
+        "b) Grün",
+        "c) Rot"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Kundin kauft das rote T-Shirt.",
+      "explanation_en": "The customer buys the red T-shirt."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo ist die Apotheke?",
+      "text_en": "Where is the pharmacy?",
+      "options": [
+        "a) Neben dem Krankenhaus",
+        "b) Gegenüber dem Krankenhaus",
+        "c) Hinter dem Krankenhaus"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Apotheke ist direkt gegenüber dem Krankenhaus.",
+      "explanation_en": "The pharmacy is directly across from the hospital."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Bücher kann man gleichzeitig ausleihen?",
+      "text_en": "How many books can you borrow at the same time?",
+      "options": [
+        "a) 5 Bücher",
+        "b) 10 Bücher",
+        "c) 15 Bücher"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man kann bis zu 10 Bücher gleichzeitig ausleihen.",
+      "explanation_en": "You can borrow up to 10 books at the same time."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "An welchen Tagen ist der Deutschkurs?",
+      "text_en": "On which days is the German course?",
+      "options": [
+        "a) Montags und mittwochs",
+        "b) Dienstags und donnerstags",
+        "c) Mittwochs und freitags"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Deutschkurs ist immer dienstags und donnerstags.",
+      "explanation_en": "The German course is always on Tuesdays and Thursdays."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Uhr sieht die Frau den Film?",
+      "text_en": "At what time does the woman see the film?",
+      "options": [
+        "a) Um 18 Uhr",
+        "b) Um 20 Uhr",
+        "c) Um 22 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Frau nimmt die Karten für 22 Uhr.",
+      "explanation_en": "The woman takes the tickets for 10 PM."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "a2-hoeren-teil-3-005",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Sport und Freizeit",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Frau",
+      "text_de": "Ich möchte mich im Fitnessstudio anmelden. Was kostet das?",
+      "text_en": "I'd like to register at the gym. What does it cost?"
+    },
+    {
+      "speaker": "Gespräch 1 — Trainer",
+      "text_de": "Die Monatskarte kostet 30 Euro. Sie können jeden Tag von 6 bis 22 Uhr kommen. Am ersten Tag zeige ich Ihnen alle Geräte.",
+      "text_en": "The monthly card costs 30 euros. You can come every day from 6 AM to 10 PM. On the first day I'll show you all the equipment."
+    },
+    {
+      "speaker": "Gespräch 1 — Frau",
+      "text_de": "Gut, ich melde mich an.",
+      "text_en": "Good, I'll sign up."
+    },
+    {
+      "speaker": "Gespräch 2 — Junge",
+      "text_de": "Papa, können wir heute in den Zoo gehen?",
+      "text_en": "Dad, can we go to the zoo today?"
+    },
+    {
+      "speaker": "Gespräch 2 — Vater",
+      "text_de": "Heute regnet es zu stark. Aber wir können ins Hallenbad gehen. Möchtest du schwimmen?",
+      "text_en": "Today it's raining too hard. But we can go to the indoor pool. Would you like to swim?"
+    },
+    {
+      "speaker": "Gespräch 2 — Junge",
+      "text_de": "Ja, schwimmen ist auch toll! Darf ich auch vom Sprungbrett springen?",
+      "text_en": "Yes, swimming is also great! Can I also jump from the diving board?"
+    },
+    {
+      "speaker": "Gespräch 2 — Vater",
+      "text_de": "Natürlich!",
+      "text_en": "Of course!"
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Ich habe zwei Karten für das Fußballspiel am Samstag. Kommst du mit?",
+      "text_en": "I have two tickets for the football match on Saturday. Will you come along?"
+    },
+    {
+      "speaker": "Gespräch 3 — Freund",
+      "text_de": "Am Samstag? Um wie viel Uhr?",
+      "text_en": "On Saturday? At what time?"
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Das Spiel beginnt um 15:30 Uhr. Wir können uns um 14 Uhr am Stadion treffen.",
+      "text_en": "The game starts at 3:30 PM. We can meet at the stadium at 2 PM."
+    },
+    {
+      "speaker": "Gespräch 3 — Freund",
+      "text_de": "Super, ich komme gerne!",
+      "text_en": "Great, I'd love to come!"
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Hallo, ich möchte einen Tanzkurs machen. Haben Sie noch Plätze?",
+      "text_en": "Hello, I'd like to take a dance course. Do you still have spots?"
+    },
+    {
+      "speaker": "Gespräch 4 — Mitarbeiter",
+      "text_de": "Der Salsa-Kurs ist leider voll. Aber im Walzer-Kurs sind noch drei Plätze frei. Der ist immer freitags um 19 Uhr.",
+      "text_en": "The salsa course is unfortunately full. But in the waltz course there are still three spots. It's always on Fridays at 7 PM."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Walzer klingt auch gut. Ich nehme einen Platz.",
+      "text_en": "Waltz also sounds good. I'll take a spot."
+    },
+    {
+      "speaker": "Gespräch 5 — Mädchen",
+      "text_de": "Mama, ich möchte ein Instrument lernen. Kann ich Klavier spielen lernen?",
+      "text_en": "Mom, I want to learn an instrument. Can I learn to play piano?"
+    },
+    {
+      "speaker": "Gespräch 5 — Mutter",
+      "text_de": "Klavier ist sehr teuer. Wie wäre es mit Flöte? Das ist einfacher am Anfang.",
+      "text_en": "Piano is very expensive. How about flute? That's easier at the beginning."
+    },
+    {
+      "speaker": "Gespräch 5 — Mädchen",
+      "text_de": "Okay, Flöte finde ich auch schön!",
+      "text_en": "Okay, I also think flute is nice!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Monatskarte im Fitnessstudio?",
+      "text_en": "How much does the monthly card cost at the gym?",
+      "options": [
+        "a) 20 Euro",
+        "b) 30 Euro",
+        "c) 40 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Monatskarte im Fitnessstudio kostet 30 Euro.",
+      "explanation_en": "The monthly card at the gym costs 30 euros."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wohin gehen Vater und Sohn?",
+      "text_en": "Where are father and son going?",
+      "options": [
+        "a) In den Zoo",
+        "b) In den Park",
+        "c) Ins Hallenbad"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sie gehen ins Hallenbad, weil es regnet.",
+      "explanation_en": "They go to the indoor pool because it's raining."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Uhr treffen sie sich am Stadion?",
+      "text_en": "At what time do they meet at the stadium?",
+      "options": [
+        "a) Um 13 Uhr",
+        "b) Um 14 Uhr",
+        "c) Um 15 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie treffen sich um 14 Uhr am Stadion.",
+      "explanation_en": "They meet at the stadium at 2 PM."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Tanzkurs macht die Frau?",
+      "text_en": "Which dance course does the woman take?",
+      "options": [
+        "a) Salsa",
+        "b) Tango",
+        "c) Walzer"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Frau macht den Walzer-Kurs.",
+      "explanation_en": "The woman takes the waltz course."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welches Instrument lernt das Mädchen?",
+      "text_en": "Which instrument does the girl learn?",
+      "options": [
+        "a) Klavier",
+        "b) Flöte",
+        "c) Gitarre"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Mädchen lernt Flöte.",
+      "explanation_en": "The girl learns flute."
+    }
+  ]
+}
