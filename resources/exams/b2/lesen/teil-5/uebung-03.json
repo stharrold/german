@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-5-003",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Die Hanse: Europas erstes Handelsnetzwerk",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Hanse war ein Zusammenschluss norddeutscher Kaufleute und Städte, der vom 12. bis zum 17. Jahrhundert den Handel in Nord- und Ostseeraum dominierte. Auf ihrem Höhepunkt im 14. Jahrhundert umfasste die Hanse etwa 200 Städte von London bis Nowgorod und kontrollierte den Handel mit Gütern wie Pelzen, Wachs, Getreide, Tuch und Hering. Lübeck galt als „Königin der Hanse“ und diente als informelles Zentrum des Bündnisses.\n\nDas Besondere an der Hanse war ihre Organisationsstruktur. Sie war weder ein Staat noch ein formeller Bund, sondern ein flexibles Netzwerk auf der Basis gemeinsamer wirtschaftlicher Interessen. Es gab keine zentrale Verwaltung, keine gemeinsame Armee und keine verbindliche Verfassung. Die Mitgliedsstädte trafen sich unregelmäßig zu Hansetagen, auf denen Handelsabkommen beschlossen und Konflikte geschlichtet wurden. Diese dezentrale Struktur war zugleich Stärke und Schwäche: Sie ermöglichte Flexibilität, erschwerte aber auch einheitliches Handeln in Krisensituationen.\n\nHistoriker betrachten die Hanse heute als Vorläufer moderner Wirtschaftsgemeinschaften. Die Parallelen zur Europäischen Union sind offensichtlich: ein Verbund souveräner Einheiten, die zugunsten wirtschaftlicher Vorteile auf einen Teil ihrer Unabhängigkeit verzichten. Der Niedergang der Hanse im 16. Jahrhundert — verursacht durch die Entdeckung neuer Handelsrouten, den Aufstieg der Nationalstaaten und innere Interessenkonflikte — enthält ebenfalls Lehren für die Gegenwart.",
+    "text_en": "The Hanseatic League was an association of North German merchants and cities that dominated trade in the North Sea and Baltic Sea region from the 12th to the 17th century. At its peak in the 14th century, the Hanseatic League comprised approximately 200 cities from London to Novgorod and controlled trade in goods such as furs, wax, grain, cloth, and herring. Lübeck was regarded as the 'Queen of the Hanse' and served as the informal center of the alliance.\n\nWhat was special about the Hanseatic League was its organizational structure. It was neither a state nor a formal federation but a flexible network based on shared economic interests. There was no central administration, no common army, and no binding constitution. The member cities met irregularly at Hanseatic diets where trade agreements were concluded and conflicts were resolved. This decentralized structure was both a strength and a weakness: it enabled flexibility but also made unified action in crisis situations more difficult.\n\nHistorians today regard the Hanseatic League as a precursor to modern economic communities. The parallels to the European Union are obvious: an association of sovereign entities that relinquish part of their independence in favor of economic advantages. The decline of the Hanseatic League in the 16th century — caused by the discovery of new trade routes, the rise of nation-states, and internal conflicts of interest — also contains lessons for the present.",
+    "source": "Fachzeitschrift",
+    "word_count": 203
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was war die Hanse?",
+      "text_en": "What was the Hanseatic League?",
+      "options": [
+        "a) Ein norddeutscher Staat mit eigener Regierung.",
+        "b) Ein Zusammenschluss norddeutscher Kaufleute und Städte für den Handel.",
+        "c) Eine Militärallianz gegen Skandinavien."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Hanse war ein Zusammenschluss norddeutscher Kaufleute und Städte, der den Handel dominierte.",
+      "explanation_en": "The Hanseatic League was an association of North German merchants and cities that dominated trade."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was war das Besondere an der Organisation der Hanse?",
+      "text_en": "What was special about the Hanseatic League's organization?",
+      "options": [
+        "a) Sie war ein flexibles Netzwerk ohne zentrale Verwaltung.",
+        "b) Sie hatte einen mächtigen König an der Spitze.",
+        "c) Sie hatte eine demokratisch gewählte Regierung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Es war ein flexibles Netzwerk ohne zentrale Verwaltung, gemeinsame Armee oder Verfassung.",
+      "explanation_en": "It was a flexible network without central administration, common army, or constitution."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was war die Schwäche der dezentralen Struktur?",
+      "text_en": "What was the weakness of the decentralized structure?",
+      "options": [
+        "a) Sie war zu teuer in der Verwaltung.",
+        "b) Sie führte zu ständigen Kriegen zwischen den Mitgliedsstädten.",
+        "c) Sie erschwerte einheitliches Handeln in Krisensituationen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die dezentrale Struktur erschwerte einheitliches Handeln in Krisensituationen.",
+      "explanation_en": "The decentralized structure made unified action in crisis situations more difficult."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vergleich ziehen Historiker?",
+      "text_en": "What comparison do historians draw?",
+      "options": [
+        "a) Zwischen der Hanse und der Europäischen Union.",
+        "b) Zwischen der Hanse und der NATO.",
+        "c) Zwischen der Hanse und den Vereinten Nationen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Parallelen zur Europäischen Union sind offensichtlich: ein Verbund souveräner Einheiten.",
+      "explanation_en": "The parallels to the European Union are obvious: an association of sovereign entities."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was verursachte den Niedergang der Hanse?",
+      "text_en": "What caused the decline of the Hanseatic League?",
+      "options": [
+        "a) Eine verheerende Seuche, die alle Hansestädte traf.",
+        "b) Neue Handelsrouten, aufsteigende Nationalstaaten und innere Konflikte.",
+        "c) Ein Krieg mit dem Osmanischen Reich."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Neue Handelsrouten, der Aufstieg der Nationalstaaten und innere Interessenkonflikte verursachten den Niedergang.",
+      "explanation_en": "New trade routes, the rise of nation-states, and internal conflicts of interest caused the decline."
+    }
+  ]
+}

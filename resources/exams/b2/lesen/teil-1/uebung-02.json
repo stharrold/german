@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-1-002",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Das Comeback der Schallplatte",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "In einer Welt, die von digitalen Streamingdiensten dominiert wird, erlebt ein analoges Medium ein erstaunliches Comeback: die Schallplatte. Seit über einem Jahrzehnt steigen die Verkaufszahlen von Vinyl kontinuierlich an, und im vergangenen Jahr wurden allein in Deutschland über 4,3 Millionen Schallplatten verkauft. Damit hat das Format seinen höchsten Umsatz seit den frühen 1990er-Jahren erreicht.\n\nExperten sehen mehrere Gründe für diese Entwicklung. Zum einen bietet die Schallplatte ein haptisches Erlebnis, das beim digitalen Musikkonsum vollständig fehlt. Das Herausnehmen der Platte aus der Hülle, das Auflegen der Nadel und das Betrachten der großformatigen Cover-Kunst schaffen ein Ritual, das viele Hörer als bereichernd empfinden. Zum anderen argumentieren Audiophile, dass der analoge Klang wärmer und natürlicher sei als die komprimierten Dateien der Streamingdienste.\n\nBesonders die Generation der 20- bis 35-Jährigen treibt den Vinyl-Boom an — also Menschen, die mit der Schallplatte gar nicht aufgewachsen sind. Für sie verbindet sich das Medium mit einer gewissen Gegenkultur: In einer Zeit der Schnelllebigkeit und des unbegrenzten digitalen Angebots steht die Schallplatte für Entschleunigung und bewussten Konsum. Musikhändler berichten zudem, dass viele junge Käufer die Platten nicht nur hören, sondern auch als Sammlerobjekte und Dekorationselemente schätzen. Kritiker wenden allerdings ein, dass die ökologische Bilanz von Vinylproduktion problematisch sei, da PVC ein erdölbasierter Kunststoff ist.",
+    "text_en": "In a world dominated by digital streaming services, an analog medium is experiencing an astonishing comeback: the vinyl record. For over a decade, vinyl sales have been rising continuously, and last year alone, over 4.3 million records were sold in Germany. The format has thus reached its highest revenue since the early 1990s.\n\nExperts see several reasons for this development. On one hand, the vinyl record offers a tactile experience that is completely absent in digital music consumption. Removing the record from its sleeve, placing the needle, and viewing the large-format cover art create a ritual that many listeners find enriching. On the other hand, audiophiles argue that the analog sound is warmer and more natural than the compressed files of streaming services.\n\nThe generation of 20- to 35-year-olds in particular is driving the vinyl boom — meaning people who did not grow up with records at all. For them, the medium is associated with a certain counterculture: in an age of fast pace and unlimited digital offerings, the vinyl record stands for slowing down and conscious consumption. Music retailers also report that many young buyers not only listen to the records but also value them as collector's items and decorative elements. Critics, however, object that the ecological footprint of vinyl production is problematic, since PVC is a petroleum-based plastic.",
+    "source": "Zeitschrift",
+    "word_count": 229
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie hat sich der Schallplattenmarkt in Deutschland entwickelt?",
+      "text_en": "How has the vinyl record market in Germany developed?",
+      "options": [
+        "a) Die Verkaufszahlen sinken seit Jahren.",
+        "b) Die Verkaufszahlen sind seit den 1990ern stabil geblieben.",
+        "c) Die Verkaufszahlen steigen seit über einem Jahrzehnt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Seit über einem Jahrzehnt steigen die Verkaufszahlen kontinuierlich an.",
+      "explanation_en": "For over a decade, vinyl sales have been rising continuously."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum schätzen viele Hörer die Schallplatte?",
+      "text_en": "Why do many listeners appreciate vinyl records?",
+      "options": [
+        "a) Weil sie billiger sind als Streamingabonnements.",
+        "b) Weil die Klangqualität digital zertifiziert ist.",
+        "c) Weil das Auflegen ein sinnliches Ritual schafft."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Herausnehmen, Auflegen und Betrachten der Cover-Kunst schaffen ein Ritual.",
+      "explanation_en": "Removing, placing the needle, and viewing cover art create a ritual."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Altersgruppe treibt den Vinyl-Boom besonders an?",
+      "text_en": "Which age group particularly drives the vinyl boom?",
+      "options": [
+        "a) 20- bis 35-Jährige, die nicht mit Schallplatten aufgewachsen sind.",
+        "b) Menschen über 60, die nostalgisch sind.",
+        "c) Jugendliche unter 18, die neue Trends setzen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Besonders die Generation der 20- bis 35-Jährigen treibt den Boom an.",
+      "explanation_en": "The 20- to 35-year-old generation particularly drives the boom."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wofür steht die Schallplatte laut Text für junge Käufer?",
+      "text_en": "What does the vinyl record represent for young buyers according to the text?",
+      "options": [
+        "a) Für technischen Fortschritt und Innovation.",
+        "b) Für Entschleunigung und bewussten Konsum.",
+        "c) Für Rebellion gegen die Musikindustrie."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Schallplatte steht für Entschleunigung und bewussten Konsum.",
+      "explanation_en": "The vinyl record stands for slowing down and conscious consumption."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welchen Einwand erheben Kritiker?",
+      "text_en": "What objection do critics raise?",
+      "options": [
+        "a) Die Klangqualität sei schlechter als bei Streaming.",
+        "b) Die Platten seien zu teuer für junge Käufer.",
+        "c) Die Herstellung aus PVC sei ökologisch problematisch."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kritiker wenden ein, dass die ökologische Bilanz der Vinylproduktion problematisch sei, da PVC ein erdölbasierter Kunststoff ist.",
+      "explanation_en": "Critics object that the ecological footprint of vinyl production is problematic since PVC is a petroleum-based plastic."
+    }
+  ]
+}

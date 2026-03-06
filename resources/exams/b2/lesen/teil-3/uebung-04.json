@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-3-004",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Das deutsche Pfandsystem erklärt",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Das deutsche Pfandsystem gilt international als Vorbild für nachhaltiges Recycling. Seit 2003 wird auf Einwegflaschen und -dosen ein Pfand von 25 Cent erhoben, das beim Zurückgeben an Rückgabeautomaten in Supermärkten erstattet wird. Für Mehrwegflaschen aus Glas oder stabilem Kunststoff beträgt das Pfand je nach Größe zwischen 8 und 15 Cent. Das Ziel: möglichst viele Verpackungen im Kreislauf zu halten und die Vermüllung der Umwelt zu reduzieren.\n\nDie Erfolge sind beeindruckend. Die Rückgabequote für Einwegpfandflaschen liegt bei über 98 Prozent — ein Wert, den kaum ein anderes Land erreicht. Jährlich werden in Deutschland rund 20 Milliarden Einwegflaschen und -dosen über das Pfandsystem zurückgegeben. Bei Mehrwegflaschen ist die Quote sogar noch höher, und eine einzelne Glasflasche kann bis zu 50 Mal wiederverwendet werden, bevor sie eingeschmolzen und neu produziert wird.\n\nDennoch gibt es Verbesserungsbedarf. Der Anteil von Mehrwegflaschen am Gesamtmarkt ist in den letzten zwei Jahrzehnten von 66 auf unter 43 Prozent gesunken, da viele Verbraucher und Hersteller Einwegverpackungen aus Bequemlichkeit bevorzugen. Umweltverbände fordern deshalb eine Erhöhung des Einwegpfands auf 50 Cent, um stärkere Anreize für die Nutzung von Mehrwegsystemen zu schaffen. Seit 2024 gilt das Pfand auch für Milchgetränke und Säfte, die zuvor ausgenommen waren.",
+    "text_en": "The German deposit system is internationally regarded as a model for sustainable recycling. Since 2003, a deposit of 25 cents has been charged on single-use bottles and cans, which is refunded when returned at reverse vending machines in supermarkets. For reusable bottles made of glass or sturdy plastic, the deposit ranges from 8 to 15 cents depending on size. The goal: keeping as many containers in the cycle as possible and reducing environmental littering.\n\nThe successes are impressive. The return rate for single-use deposit bottles is over 98 percent — a figure that hardly any other country achieves. Annually, approximately 20 billion single-use bottles and cans are returned through the deposit system in Germany. For reusable bottles, the rate is even higher, and a single glass bottle can be reused up to 50 times before it is melted down and reproduced.\n\nNevertheless, there is room for improvement. The share of reusable bottles in the total market has declined from 66 to under 43 percent over the last two decades, as many consumers and manufacturers prefer single-use packaging for convenience. Environmental organizations therefore demand an increase of the single-use deposit to 50 cents to create stronger incentives for using reusable systems. Since 2024, the deposit also applies to milk beverages and juices, which were previously exempt.",
+    "source": "Sachbuch",
+    "word_count": 196
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist das Pfand auf Einwegflaschen?",
+      "text_en": "How much is the deposit on single-use bottles?",
+      "options": [
+        "a) 8 Cent.",
+        "b) 15 Cent.",
+        "c) 25 Cent."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Auf Einwegflaschen und -dosen wird ein Pfand von 25 Cent erhoben.",
+      "explanation_en": "A deposit of 25 cents is charged on single-use bottles and cans."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Rückgabequote für Einwegpfandflaschen?",
+      "text_en": "What is the return rate for single-use deposit bottles?",
+      "options": [
+        "a) Über 98 Prozent.",
+        "b) Über 92 Prozent.",
+        "c) Über 85 Prozent."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Rückgabequote liegt bei über 98 Prozent.",
+      "explanation_en": "The return rate is over 98 percent."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie oft kann eine Glasflasche wiederverwendet werden?",
+      "text_en": "How many times can a glass bottle be reused?",
+      "options": [
+        "a) Bis zu 50 Mal.",
+        "b) Bis zu 20 Mal.",
+        "c) Bis zu 100 Mal."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Eine einzelne Glasflasche kann bis zu 50 Mal wiederverwendet werden.",
+      "explanation_en": "A single glass bottle can be reused up to 50 times."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist ein negativer Trend laut Text?",
+      "text_en": "What is a negative trend according to the text?",
+      "options": [
+        "a) Die Rückgabequote sinkt von Jahr zu Jahr.",
+        "b) Immer weniger Supermärkte haben Rückgabeautomaten.",
+        "c) Der Mehrweganteil ist von 66 auf unter 43 Prozent gesunken."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Anteil von Mehrwegflaschen ist von 66 auf unter 43 Prozent gesunken.",
+      "explanation_en": "The share of reusable bottles has declined from 66 to under 43 percent."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordern Umweltverbände?",
+      "text_en": "What do environmental organizations demand?",
+      "options": [
+        "a) Eine Erhöhung des Einwegpfands auf 50 Cent.",
+        "b) Ein Verbot von Einwegverpackungen.",
+        "c) Die Abschaffung des Pfandsystems."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Umweltverbände fordern eine Erhöhung des Einwegpfands auf 50 Cent.",
+      "explanation_en": "Environmental organizations demand an increase of the single-use deposit to 50 cents."
+    }
+  ]
+}

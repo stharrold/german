@@ -1,0 +1,77 @@
+{
+  "id": "b2-sprechen-teil-1-001",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Vor- und Nachteile des Stadtlebens",
+  "instructions": "Sie sollen einen kurzen Vortrag zu einem Thema halten. Anschließend diskutieren Sie mit dem Prüfer / der Prüferin darüber.",
+  "situation_de": "In vielen Ländern ziehen immer mehr Menschen in die Städte. Halten Sie einen Vortrag über die Vor- und Nachteile des Stadtlebens im Vergleich zum Landleben. Gehen Sie dabei auf folgende Punkte ein und begründen Sie Ihre Meinung.",
+  "situation_en": "In many countries, more and more people are moving to cities. Give a presentation about the advantages and disadvantages of city life compared to rural life. Address the following points and justify your opinion.",
+  "discussion_points": [
+    "Welche Vorteile bietet das Stadtleben hinsichtlich Beruf und Bildung? (What advantages does city life offer in terms of career and education?)",
+    "Welche Nachteile hat das Leben in der Stadt, z. B. in Bezug auf Umwelt und Lebensqualität? (What disadvantages does living in the city have, e.g., regarding environment and quality of life?)",
+    "Wie unterscheidet sich das soziale Leben in der Stadt und auf dem Land? (How does social life differ in the city and in the countryside?)",
+    "Welche Rolle spielen die Lebenshaltungskosten bei der Entscheidung? (What role do living costs play in the decision?)",
+    "Wie sieht Ihrer Meinung nach die Zukunft des Wohnens aus — eher städtisch oder ländlich? (In your opinion, what does the future of living look like — more urban or rural?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über die Vor- und Nachteile des Stadtlebens sprechen. Einerseits bieten Städte zahlreiche Möglichkeiten in Bezug auf Karriere und Bildung. Man hat Zugang zu Universitäten, Bibliotheken und einem vielfältigen Arbeitsmarkt.",
+      "text_en": "I would like to talk today about the advantages and disadvantages of city life. On one hand, cities offer numerous opportunities regarding career and education. You have access to universities, libraries, and a diverse job market."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Andererseits muss man auch die Schattenseiten betrachten. Die Luftverschmutzung, der Lärm und der ständige Stress wirken sich negativ auf die Gesundheit aus. Hinzu kommt, dass die Mieten in vielen Großstädten kaum noch bezahlbar sind.",
+      "text_en": "On the other hand, one must also consider the downsides. Air pollution, noise, and constant stress have a negative impact on health. In addition, rents in many large cities are barely affordable anymore."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Was das soziale Leben betrifft, so hat man in der Stadt zwar mehr Kontaktmöglichkeiten, aber die Beziehungen sind oft oberflächlicher. Auf dem Land hingegen kennt man seine Nachbarn und es herrscht ein stärkerer Zusammenhalt.",
+      "text_en": "As far as social life is concerned, in the city you have more opportunities for contact, but relationships are often more superficial. In the countryside, on the other hand, you know your neighbors and there is a stronger sense of community."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zusammenfassend lässt sich sagen, dass die Entscheidung von den persönlichen Prioritäten abhängt. Für junge Berufstätige mag die Stadt attraktiver sein, während Familien das Landleben bevorzugen könnten.",
+      "text_en": "In summary, it can be said that the decision depends on personal priorities. For young professionals, the city may be more attractive, while families might prefer country life."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank für Ihren Vortrag. Sie haben erwähnt, dass die Beziehungen in der Stadt oberflächlicher sind. Könnten Sie das etwas genauer erklären?",
+      "text_en": "Thank you for your presentation. You mentioned that relationships in the city are more superficial. Could you explain that in more detail?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, natürlich. In einer Großstadt begegnet man täglich Hunderten von Menschen, aber man kennt die wenigsten persönlich. Im Gegensatz dazu sind die sozialen Netzwerke auf dem Land enger geknüpft. Man hilft sich gegenseitig und es gibt eine stärkere Gemeinschaft.",
+      "text_en": "Yes, of course. In a big city, you encounter hundreds of people daily, but you know very few of them personally. In contrast, social networks in the countryside are more tightly knit. People help each other and there is a stronger community."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie stehen Sie persönlich dazu? Würden Sie lieber in der Stadt oder auf dem Land leben?",
+      "text_en": "And what is your personal stance? Would you prefer to live in the city or in the countryside?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Persönlich würde ich einen Kompromiss bevorzugen — nämlich eine kleinere Stadt mit guter Infrastruktur, die aber trotzdem naturnah ist. So könnte man die Vorteile beider Welten genießen, ohne auf wesentliche Annehmlichkeiten verzichten zu müssen.",
+      "text_en": "Personally, I would prefer a compromise — namely a smaller city with good infrastructure that is still close to nature. That way, you could enjoy the advantages of both worlds without having to give up essential amenities."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Glauben Sie, dass die Digitalisierung die Unterschiede zwischen Stadt und Land in Zukunft verringern könnte?",
+      "text_en": "Do you believe that digitalization could reduce the differences between city and countryside in the future?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Davon bin ich überzeugt. Durch Homeoffice und schnelles Internet werden viele Menschen nicht mehr gezwungen sein, in der Nähe ihres Arbeitsplatzes zu wohnen. Das könnte dazu führen, dass ländliche Regionen wieder attraktiver werden und sich die Bevölkerungsverteilung langfristig ausgleicht.",
+      "text_en": "I am convinced of that. Through remote work and fast internet, many people will no longer be forced to live near their workplace. This could lead to rural areas becoming attractive again and the population distribution balancing out in the long term."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen strukturierten Vortrag und geht auf alle geforderten Aspekte ein.",
+    "Argumentation: Der Kandidat begründet seine Meinungen überzeugend und differenziert, verwendet Redemittel wie einerseits/andererseits.",
+    "Interaktion: Der Kandidat reagiert angemessen auf Rückfragen und kann seine Position vertiefen und verteidigen.",
+    "Wortschatz: Differenzierter Wortschatz zum Thema Stadtleben, Lebensqualität und gesellschaftliche Entwicklung.",
+    "Strukturen: Korrekte Verwendung komplexer Satzstrukturen, Konjunktiv II und Passivkonstruktionen.",
+    "Aussprache und Intonation: Klare, flüssige Aussprache mit angemessener Betonung und natürlichem Redefluss."
+  ]
+}

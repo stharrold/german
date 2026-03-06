@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-2-003",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kommentar: Digitale Transformation — Chance oder Bedrohung?",
+  "instructions": "Lesen Sie den Kommentar und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die digitale Transformation wird oft als unvermeidliche Naturgewalt dargestellt, der wir uns widerstandslos fügen müssen. Diese Sichtweise ist gefährlich, denn sie nimmt uns die Möglichkeit, den technologischen Wandel aktiv zu gestalten. Wir sind keine passiven Zuschauer, sondern haben die Verantwortung und die Mittel, Technologie nach unseren gesellschaftlichen Werten zu formen.\n\nIn der aktuellen Debatte stehen sich zwei Extreme gegenüber. Technikoptimisten preisen jede Innovation als Fortschritt und blenden mögliche Risiken aus. Technikkritiker hingegen warnen vor Arbeitsplatzverlust, Überwachung und dem Verfall menschlicher Fähigkeiten. Beide Positionen greifen zu kurz. Die Realität ist differenzierter: Automatisierung vernichtet bestimmte Arbeitsplätze, schafft aber gleichzeitig neue. Algorithmen können diskriminieren, aber auch Zugang zu Bildung und Gesundheitsversorgung demokratisieren.\n\nWas uns fehlt, ist ein gesellschaftlicher Diskurs über die Regeln, die wir der Technologie auferlegen wollen. Wer profitiert von der Digitalisierung, und wer wird abgehängt? Wie schützen wir Privatsphäre, ohne Innovation zu ersticken? Welche Kompetenzen müssen wir vermitteln, damit Menschen in der digitalen Welt selbstbestimmt handeln können? Diese Fragen lassen sich nicht allein den Ingenieuren und Unternehmen überlassen. Sie erfordern eine breite demokratische Debatte, an der Bürger, Politiker, Wissenschaftler und Unternehmer gleichberechtigt teilnehmen. Technologie ist kein Schicksal — sie ist das, was wir daraus machen.",
+    "text_en": "Digital transformation is often portrayed as an inevitable force of nature to which we must submit without resistance. This perspective is dangerous because it takes away our ability to actively shape technological change. We are not passive spectators but have the responsibility and the means to shape technology according to our societal values.\n\nIn the current debate, two extremes face each other. Technology optimists praise every innovation as progress and ignore possible risks. Technology critics, on the other hand, warn of job losses, surveillance, and the decline of human abilities. Both positions fall short. The reality is more nuanced: automation destroys certain jobs but simultaneously creates new ones. Algorithms can discriminate but can also democratize access to education and healthcare.\n\nWhat we lack is a societal discourse about the rules we want to impose on technology. Who benefits from digitalization, and who is left behind? How do we protect privacy without stifling innovation? What competencies must we teach so that people can act autonomously in the digital world? These questions cannot be left solely to engineers and companies. They require a broad democratic debate in which citizens, politicians, scientists, and entrepreneurs participate equally. Technology is not destiny — it is what we make of it.",
+    "source": "Zeitung",
+    "word_count": 207
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor an der gängigen Darstellung der Digitalisierung?",
+      "text_en": "What does the author criticize about the common portrayal of digitalization?",
+      "options": [
+        "a) Dass sie als unvermeidliche Naturgewalt dargestellt wird, der man sich fügen muss.",
+        "b) Dass sie zu positiv dargestellt wird.",
+        "c) Dass sie von den Medien ignoriert wird."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die digitale Transformation wird oft als unvermeidliche Naturgewalt dargestellt, der wir uns widerstandslos fügen müssen.",
+      "explanation_en": "Digital transformation is often portrayed as an inevitable force of nature to which we must submit without resistance."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche beiden Extrempositionen beschreibt der Autor?",
+      "text_en": "Which two extreme positions does the author describe?",
+      "options": [
+        "a) Junge gegen alte Generation.",
+        "b) Unternehmer gegen Arbeitnehmer.",
+        "c) Technikoptimisten, die alles begrüßen, und Technikkritiker, die nur Risiken sehen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Technikoptimisten preisen jede Innovation, Technikkritiker warnen vor Risiken — beide greifen zu kurz.",
+      "explanation_en": "Technology optimists praise every innovation, technology critics warn of risks — both fall short."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was sagt der Autor zur Automatisierung?",
+      "text_en": "What does the author say about automation?",
+      "options": [
+        "a) Sie vernichtet nur Arbeitsplätze und schafft keine neuen.",
+        "b) Sie hat keinen Einfluss auf den Arbeitsmarkt.",
+        "c) Sie vernichtet bestimmte Arbeitsplätze, schafft aber auch neue."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Automatisierung vernichtet bestimmte Arbeitsplätze, schafft aber gleichzeitig neue.",
+      "explanation_en": "Automation destroys certain jobs but simultaneously creates new ones."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wer soll laut Autor an der Debatte teilnehmen?",
+      "text_en": "Who should participate in the debate according to the author?",
+      "options": [
+        "a) Nur Experten und Wissenschaftler.",
+        "b) Vor allem die Technologieunternehmen.",
+        "c) Bürger, Politiker, Wissenschaftler und Unternehmer gleichberechtigt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Fragen erfordern eine breite demokratische Debatte mit gleichberechtigter Teilnahme aller Gruppen.",
+      "explanation_en": "The questions require a broad democratic debate with equal participation of all groups."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist die zentrale These des Autors?",
+      "text_en": "What is the author's central thesis?",
+      "options": [
+        "a) Technologie muss stärker reguliert werden.",
+        "b) Technologie sollte nur von Demokratien entwickelt werden.",
+        "c) Technologie ist kein Schicksal, sondern gestaltbar."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Technologie ist kein Schicksal — sie ist das, was wir daraus machen.",
+      "explanation_en": "Technology is not destiny — it is what we make of it."
+    }
+  ]
+}

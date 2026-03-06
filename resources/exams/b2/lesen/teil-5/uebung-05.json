@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-5-005",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Kognitive Verzerrungen bei wirtschaftlichen Entscheidungen",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die klassische Wirtschaftstheorie geht davon aus, dass Menschen rationale Entscheidungen treffen, die ihren Nutzen maximieren. Die Verhaltensökonomie hat dieses Modell grundlegend infrage gestellt. Die Forschung der Nobelpreisträger Daniel Kahneman und Amos Tversky zeigt, dass menschliche Entscheidungen von systematischen Denkfehlern — sogenannten kognitiven Verzerrungen — beeinflusst werden, die vorhersagbar und messbar sind.\n\nEin zentrales Konzept ist die Verlustaversion: Menschen empfinden den Schmerz eines Verlusts etwa doppelt so stark wie die Freude über einen gleichwertigen Gewinn. Dies erklärt, warum viele Anleger verlustbringende Aktien zu lange halten und gewinnbringende zu früh verkaufen. Ein weiterer Effekt ist der Ankereffekt: Die erste Information, die wir erhalten, beeinflusst alle nachfolgenden Einschätzungen unverhältnismäßig stark. Immobilienmakler nutzen diesen Effekt gezielt, indem sie zunächst eine überteuerte Immobilie zeigen, wodurch die nächste, eigentlich ebenfalls teure Wohnung plötzlich günstig erscheint.\n\nDie praktischen Anwendungen dieser Erkenntnisse sind weitreichend. Das Konzept des „Nudging“ — die gezielte Gestaltung von Entscheidungssituationen — wird mittlerweile von Regierungen weltweit eingesetzt. So wurde in mehreren Ländern die Organspende von einer Zustimmungslösung auf eine Widerspruchslösung umgestellt, was die Spenderquote drastisch erhöhte. Kritiker warnen allerdings, dass die Grenze zwischen sanfter Steuerung und Manipulation fließend sei und demokratische Kontrolle erfordere.",
+    "text_en": "Classical economic theory assumes that people make rational decisions that maximize their utility. Behavioral economics has fundamentally challenged this model. The research of Nobel laureates Daniel Kahneman and Amos Tversky shows that human decisions are influenced by systematic thinking errors — so-called cognitive biases — that are predictable and measurable.\n\nA central concept is loss aversion: people feel the pain of a loss approximately twice as strongly as the joy of an equivalent gain. This explains why many investors hold loss-making stocks too long and sell profitable ones too early. Another effect is the anchoring effect: the first information we receive disproportionately influences all subsequent assessments. Real estate agents deliberately exploit this effect by first showing an overpriced property, making the next, actually also expensive apartment suddenly appear affordable.\n\nThe practical applications of these findings are far-reaching. The concept of 'nudging' — the deliberate design of decision-making situations — is now used by governments worldwide. In several countries, organ donation was switched from an opt-in to an opt-out system, which drastically increased the donor rate. Critics warn, however, that the boundary between gentle steering and manipulation is fluid and requires democratic oversight.",
+    "source": "Fachzeitschrift",
+    "word_count": 200
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Verhaltensökonomie infrage gestellt?",
+      "text_en": "What has behavioral economics challenged?",
+      "options": [
+        "a) Dass Menschen rational entscheiden und ihren Nutzen maximieren.",
+        "b) Dass Märkte funktionieren.",
+        "c) Dass wirtschaftliches Wachstum möglich ist."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Verhaltensökonomie hat das Modell des rational entscheidenden Menschen grundlegend infrage gestellt.",
+      "explanation_en": "Behavioral economics has fundamentally challenged the model of the rationally deciding human."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was besagt die Verlustaversion?",
+      "text_en": "What does loss aversion state?",
+      "options": [
+        "a) Dass Menschen Risiken generell vermeiden.",
+        "b) Dass der Schmerz eines Verlusts etwa doppelt so stark empfunden wird wie die Freude über einen Gewinn.",
+        "c) Dass Menschen lieber sparen als investieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Menschen empfinden den Schmerz eines Verlusts etwa doppelt so stark wie die Freude über einen gleichwertigen Gewinn.",
+      "explanation_en": "People feel the pain of a loss approximately twice as strongly as the joy of an equivalent gain."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie nutzen Immobilienmakler den Ankereffekt?",
+      "text_en": "How do real estate agents use the anchoring effect?",
+      "options": [
+        "a) Sie zeigen nur die billigsten Wohnungen.",
+        "b) Sie zeigen zuerst eine überteuerte Immobilie, damit die nächste günstig wirkt.",
+        "c) Sie geben keine Preise an und lassen Kunden schätzen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie zeigen zunächst eine überteuerte Immobilie, wodurch die nächste plötzlich günstig erscheint.",
+      "explanation_en": "They first show an overpriced property, making the next one suddenly appear affordable."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist ein Beispiel für erfolgreiches Nudging?",
+      "text_en": "What is an example of successful nudging?",
+      "options": [
+        "a) Höhere Steuern auf ungesunde Lebensmittel.",
+        "b) Verbote von Werbung für Tabakprodukte.",
+        "c) Die Umstellung der Organspende auf eine Widerspruchslösung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Umstellung auf eine Widerspruchslösung erhöhte die Spenderquote drastisch.",
+      "explanation_en": "Switching to an opt-out system drastically increased the donor rate."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wovor warnen Kritiker des Nudging?",
+      "text_en": "What do critics of nudging warn about?",
+      "options": [
+        "a) Dass es zu teuer für den Staat ist.",
+        "b) Dass die Grenze zwischen sanfter Steuerung und Manipulation fließend sei.",
+        "c) Dass es nur bei gebildeten Menschen funktioniert."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kritiker warnen, dass die Grenze zwischen sanfter Steuerung und Manipulation fließend sei.",
+      "explanation_en": "Critics warn that the boundary between gentle steering and manipulation is fluid."
+    }
+  ]
+}

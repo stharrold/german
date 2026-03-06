@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **B2 exam practice content** — 65 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 20 exercises (Teil 1–4, 5 each)
+  - Lesen: 25 exercises (Teil 1–5, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 10 exercises (Teil 1–2, 5 each)
+- B2 exam PDFs (4 skill-specific PDFs in `resources/exams/b2/pdfs/`)
+- `tests/test_b2_exercises.py` — 35 parametrized tests for B2 content validation
+- Subscript digit support (U+2080–U+2089) in `scripts/make_pdfs.py` for CO₂ notation
+
+## [2.3.0] - 2026-03-05
+
+### Added
+- **A2 exam practice content** — 65 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 20 exercises (Teil 1–4, 5 each)
+  - Lesen: 20 exercises (Teil 1–4, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 15 exercises (Teil 1–3, 5 each)
+- A2 exam PDFs (4 skill-specific PDFs in `resources/exams/a2/pdfs/`)
+- `tests/test_a2_exercises.py` — 33 parametrized tests for A2 content validation
+
+### Changed
+- `scripts/make_pdfs.py` refactored for multi-level PDF generation (`--level {a2,b1}`)
+- Exercise ID format generalized: `{level}-{skill}-{teil|aufgabe}-{N}-{NNN}`
+
+## [2.2.0] - 2026-03-05
+
+### Added
+- **Vocabulary leveling** — CEFR level field added to vocabulary words (#319)
+- **PDF generation** — `scripts/make_pdfs.py` for printable exam exercise PDFs (#320)
+- B1 exam PDFs (4 skill-specific PDFs in `resources/exams/b1/pdfs/`)
+
+## [2.1.0] - 2026-03-04
+
+### Added
+- **B1 exam practice content** — 75 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 20 exercises (Teil 1–4, 5 each)
+  - Lesen: 25 exercises (Teil 1–5, 5 each)
+  - Schreiben: 15 exercises (Aufgabe 1–3, 5 each)
+  - Sprechen: 15 exercises (Teil 1–3, 5 each)
+- Pydantic models for exam exercises (`src/german/exams/models.py`)
+- Exam exercise loader and query modules (`src/german/exams/loader.py`, `query.py`)
+- `tests/test_b1_exercises.py` — validation tests for B1 content
+
 ## [2.0.0] - 2026-03-03
 
 ### Changed
@@ -633,6 +677,10 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 2.3.0   | 2026-03-05 | MINOR | A2 exam practice content (65 exercises) + multi-level PDF generation |
+| 2.2.0   | 2026-03-05 | MINOR | Vocabulary leveling + PDF generation script |
+| 2.1.0   | 2026-03-04 | MINOR | B1 exam practice content (75 exercises) + exam models/loader/query |
+| 2.0.0   | 2026-03-03 | MAJOR | Workflow v7x1 upgrade (removed BMAD/SpecKit/quality-enforcer) |
 | 1.10.0  | 2025-11-16 | MINOR | MIT Agent Synchronization Pattern (Phase 1) + DuckDB compatibility fixes |
 | 1.9.0   | 2025-11-09 | MINOR | Work-item generation workflow + VCS adapter enhancements |
 | 1.8.2   | 2025-11-07 | PATCH | Bug fixes for code quality issues + simplified backmerge workflow |

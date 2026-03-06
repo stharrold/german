@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-1-003",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Schlafforschung: Warum wir zu wenig schlafen",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die moderne Gesellschaft leidet unter einem chronischen Schlafdefizit, und die Folgen sind gravierender, als die meisten Menschen ahnen. Laut einer Erhebung der Deutschen Gesellschaft für Schlafforschung schlafen 34 Prozent der Erwachsenen regelmäßig weniger als sechs Stunden pro Nacht — deutlich unter der empfohlenen Dauer von sieben bis neun Stunden. Die Ursachen sind vielfältig: beruflicher Stress, die ständige Erreichbarkeit durch Smartphones und ein Lebensstil, der Produktivität über Erholung stellt.\n\nDr. Martin Reiter, Schlafmediziner an der Charité Berlin, warnt vor den langfristigen Auswirkungen. „Chronischer Schlafmangel erhöht das Risiko für Herz-Kreislauf-Erkrankungen, Diabetes und Depressionen erheblich“, erklärt er. „Außerdem beeinträchtigt er die kognitive Leistungsfähigkeit: Konzentration, Gedächtnis und Entscheidungsfindung leiden messbar.“ Besonders alarmierend sei, dass viele Betroffene sich an den Zustand der Müdigkeit gewöhnen und ihn als normal empfinden.\n\nEine neue Studie aus Schweden liefert jedoch auch hoffnungsvolle Erkenntnisse. Forscher konnten nachweisen, dass bereits eine Woche mit konsequent acht Stunden Schlaf die Entzündungswerte im Blut signifikant senkt und die Immunabwehr stärkt. Die Wissenschaftler empfehlen eine feste Schlafenszeit, den Verzicht auf Bildschirme eine Stunde vor dem Zubettgehen und eine kühle, dunkle Schlafumgebung. Unternehmen werden aufgefordert, flexible Arbeitszeiten anzubieten, die den natürlichen Schlafrhythmus der Mitarbeiter berücksichtigen.",
+    "text_en": "Modern society suffers from a chronic sleep deficit, and the consequences are more serious than most people realize. According to a survey by the German Society for Sleep Research, 34 percent of adults regularly sleep less than six hours per night — well below the recommended duration of seven to nine hours. The causes are varied: work-related stress, constant availability through smartphones, and a lifestyle that prioritizes productivity over rest.\n\nDr. Martin Reiter, a sleep medicine specialist at the Charité Berlin, warns of the long-term effects. 'Chronic sleep deprivation significantly increases the risk of cardiovascular disease, diabetes, and depression,' he explains. 'It also impairs cognitive performance: concentration, memory, and decision-making measurably suffer.' Particularly alarming is that many affected individuals become accustomed to the state of fatigue and perceive it as normal.\n\nHowever, a new study from Sweden also provides hopeful findings. Researchers were able to demonstrate that just one week of consistent eight hours of sleep significantly reduces inflammation markers in the blood and strengthens the immune system. The scientists recommend a fixed bedtime, avoiding screens one hour before going to bed, and a cool, dark sleeping environment. Companies are urged to offer flexible working hours that accommodate employees' natural sleep rhythms.",
+    "source": "Zeitung",
+    "word_count": 213
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent der Erwachsenen schlafen laut der Erhebung zu wenig?",
+      "text_en": "According to the survey, what percentage of adults sleep too little?",
+      "options": [
+        "a) 23 Prozent.",
+        "b) 68 Prozent.",
+        "c) 34 Prozent."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "34 Prozent der Erwachsenen schlafen regelmäßig weniger als sechs Stunden.",
+      "explanation_en": "34 percent of adults regularly sleep less than six hours."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches Gesundheitsrisiko nennt Dr. Reiter NICHT?",
+      "text_en": "Which health risk does Dr. Reiter NOT mention?",
+      "options": [
+        "a) Herz-Kreislauf-Erkrankungen.",
+        "b) Krebserkrankungen.",
+        "c) Diabetes und Depressionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Reiter nennt Herz-Kreislauf-Erkrankungen, Diabetes und Depressionen, aber nicht Krebs.",
+      "explanation_en": "Dr. Reiter mentions cardiovascular disease, diabetes, and depression, but not cancer."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was findet Dr. Reiter besonders besorgniserregend?",
+      "text_en": "What does Dr. Reiter find particularly concerning?",
+      "options": [
+        "a) Dass die Behandlungskosten steigen.",
+        "b) Dass Ärzte das Problem nicht ernst nehmen.",
+        "c) Dass Betroffene ihre Müdigkeit als normal empfinden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Besonders alarmierend sei, dass viele Betroffene sich an die Müdigkeit gewöhnen und sie als normal empfinden.",
+      "explanation_en": "Particularly alarming is that many affected individuals become accustomed to fatigue and perceive it as normal."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat die schwedische Studie herausgefunden?",
+      "text_en": "What did the Swedish study find?",
+      "options": [
+        "a) Dass Schlaftabletten die Immunabwehr stärken.",
+        "b) Dass eine Woche guter Schlaf Entzündungswerte senkt.",
+        "c) Dass Sport vor dem Schlafen die Schlafqualität verbessert."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Bereits eine Woche mit acht Stunden Schlaf senkt Entzündungswerte signifikant.",
+      "explanation_en": "Just one week of eight hours of sleep significantly reduces inflammation markers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was wird Unternehmen empfohlen?",
+      "text_en": "What are companies recommended to do?",
+      "options": [
+        "a) Schlafräume am Arbeitsplatz einzurichten.",
+        "b) Flexible Arbeitszeiten anzubieten, die den Schlafrhythmus berücksichtigen.",
+        "c) Die Arbeitszeit auf sechs Stunden pro Tag zu reduzieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Unternehmen werden aufgefordert, flexible Arbeitszeiten anzubieten, die den natürlichen Schlafrhythmus berücksichtigen.",
+      "explanation_en": "Companies are urged to offer flexible working hours that accommodate natural sleep rhythms."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-2-004",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kommentar: Integration beginnt mit Sprache — aber sie endet nicht dort",
+  "instructions": "Lesen Sie den Kommentar und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "In der Integrationsdebatte wird Sprache häufig als Allheilmittel betrachtet. „Wer Deutsch lernt, ist integriert“ — so lautet die vereinfachte Formel, der viele Politiker folgen. Ohne Zweifel ist der Erwerb der deutschen Sprache eine unerlässliche Voraussetzung für die Teilhabe am gesellschaftlichen Leben. Doch wer glaubt, dass Sprachkurse allein ausreichend sind, verkennt die Komplexität des Integrationsprozesses.\n\nIntegration bedeutet Zugang: Zugang zum Arbeitsmarkt, zum Bildungssystem, zum Wohnungsmarkt und zu sozialen Netzwerken. Ein Ingenieur aus Syrien, der fließend Deutsch spricht, aber dessen Qualifikationen nicht anerkannt werden, ist ebenso wenig integriert wie eine Ärztin aus der Ukraine, die trotz Sprachzertifikat keine Approbation erhält. Die bürokratischen Hürden bei der Anerkennung ausländischer Abschlüsse sind nach wie vor erschreckend hoch und verschwenden menschliches Potenzial.\n\nDarüber hinaus ist Integration keine Einbahnstraße. Sie erfordert Bereitschaft von beiden Seiten: von den Zugewanderten, die sich auf eine neue Gesellschaft einlassen müssen, und von der Aufnahmegesellschaft, die Offenheit und Akzeptanz zeigen muss. Solange in manchen Stadtteilen Vermieter keine Wohnungen an Menschen mit ausländisch klingenden Namen vermieten und Bewerbungen mit nicht-deutschen Nachnamen seltener zu Vorstellungsgesprächen führen, haben wir ein strukturelles Problem. Sprachkurse sind notwendig, aber sie sind nur der erste Schritt auf einem langen Weg.",
+    "text_en": "In the integration debate, language is often regarded as a cure-all. 'If you learn German, you are integrated' — that is the simplified formula many politicians follow. Without doubt, acquiring the German language is an indispensable prerequisite for participation in social life. But whoever believes that language courses alone are sufficient misjudges the complexity of the integration process.\n\nIntegration means access: access to the labor market, the education system, the housing market, and social networks. An engineer from Syria who speaks fluent German but whose qualifications are not recognized is just as little integrated as a doctor from Ukraine who cannot obtain a medical license despite having a language certificate. The bureaucratic hurdles in recognizing foreign degrees remain shockingly high and waste human potential.\n\nMoreover, integration is not a one-way street. It requires willingness from both sides: from the immigrants who must engage with a new society, and from the host society which must show openness and acceptance. As long as landlords in some neighborhoods refuse to rent apartments to people with foreign-sounding names, and applications with non-German surnames lead to fewer job interviews, we have a structural problem. Language courses are necessary, but they are only the first step on a long road.",
+    "source": "Zeitung",
+    "word_count": 207
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor an der Integrationsdebatte?",
+      "text_en": "What does the author criticize about the integration debate?",
+      "options": [
+        "a) Dass Sprache als Allheilmittel für Integration betrachtet wird.",
+        "b) Dass zu wenig Geld für Sprachkurse ausgegeben wird.",
+        "c) Dass Integration kein politisches Thema mehr ist."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "In der Debatte wird Sprache häufig als Allheilmittel betrachtet, was der Autor als zu vereinfacht kritisiert.",
+      "explanation_en": "In the debate, language is often regarded as a cure-all, which the author criticizes as too simplistic."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches konkrete Problem bei der Integration nennt der Autor?",
+      "text_en": "What specific integration problem does the author mention?",
+      "options": [
+        "a) Die schwierige Anerkennung ausländischer Abschlüsse trotz Sprachkenntnissen.",
+        "b) Zu wenige Sprachschulen in ländlichen Gebieten.",
+        "c) Die hohen Kosten für Deutschkurse."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die bürokratischen Hürden bei der Anerkennung ausländischer Abschlüsse sind erschreckend hoch.",
+      "explanation_en": "The bureaucratic hurdles in recognizing foreign degrees remain shockingly high."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was meint der Autor mit „Integration ist keine Einbahnstraße“?",
+      "text_en": "What does the author mean by 'integration is not a one-way street'?",
+      "options": [
+        "a) Dass die Regierung allein verantwortlich ist.",
+        "b) Dass beide Seiten — Zugewanderte und Aufnahmegesellschaft — Bereitschaft zeigen müssen.",
+        "c) Dass Migranten in ihre Heimatländer zurückkehren sollten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Integration erfordert Bereitschaft von Zugewanderten und von der Aufnahmegesellschaft.",
+      "explanation_en": "Integration requires willingness from immigrants and from the host society."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches strukturelle Problem beschreibt der Autor?",
+      "text_en": "What structural problem does the author describe?",
+      "options": [
+        "a) Mangelnde Infrastruktur in ländlichen Gebieten.",
+        "b) Zu strenge Einwanderungsgesetze.",
+        "c) Diskriminierung bei Wohnungs- und Arbeitssuche aufgrund ausländischer Namen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Vermieter verweigern Wohnungen, und Bewerbungen mit nicht-deutschen Nachnamen führen seltener zu Vorstellungsgesprächen.",
+      "explanation_en": "Landlords refuse apartments, and applications with non-German surnames lead to fewer interviews."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist die Schlussfolgerung des Autors?",
+      "text_en": "What is the author's conclusion?",
+      "options": [
+        "a) Sprachkurse sind notwendig, aber nur der erste Schritt.",
+        "b) Sprachkurse sollten abgeschafft werden.",
+        "c) Integration ist in Deutschland bereits gelungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sprachkurse sind notwendig, aber sie sind nur der erste Schritt auf einem langen Weg.",
+      "explanation_en": "Language courses are necessary, but they are only the first step on a long road."
+    }
+  ]
+}

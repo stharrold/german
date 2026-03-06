@@ -1,0 +1,128 @@
+{
+  "id": "b2-hoeren-teil-3-004",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Dienstleistungen und Beratungsgespräche",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Frau Möller (Versicherungsberaterin)",
+      "text_de": "Herr Jung, ich habe mir Ihren aktuellen Versicherungsschutz angeschaut und muss Ihnen sagen, dass Sie in einigen Bereichen deutlich überversichert sind. Sie zahlen monatlich fast 400 Euro für Versicherungen, von denen einige sich inhaltlich überschneiden. Ihre Unfallversicherung und Ihre Berufsunfähigkeitsversicherung decken zum Beispiel teilweise die gleichen Risiken ab. Ich würde vorschlagen, die Unfallversicherung zu kündigen und dafür die Berufsunfähigkeitsversicherung aufzustocken. Das spart Ihnen etwa 80 Euro im Monat.",
+      "text_en": "Mr. Jung, I've looked at your current insurance coverage and I have to tell you that you're significantly over-insured in some areas. You're paying almost 400 euros monthly for insurances, some of which overlap in content. Your accident insurance and your disability insurance, for example, partially cover the same risks. I would suggest canceling the accident insurance and instead upgrading the disability insurance. That saves you about 80 euros per month."
+    },
+    {
+      "speaker": "Gespräch 1 — Herr Jung (Kunde)",
+      "text_de": "80 Euro? Das wäre natürlich eine spürbare Ersparnis. Aber wird mein Schutz dadurch nicht schlechter? Ich arbeite auf Baustellen und habe ein erhöhtes Verletzungsrisiko.",
+      "text_en": "80 euros? That would certainly be a noticeable savings. But won't my coverage get worse? I work on construction sites and have an increased risk of injury."
+    },
+    {
+      "speaker": "Gespräch 1 — Frau Möller (Versicherungsberaterin)",
+      "text_de": "Nein, im Gegenteil. Die aufgestockte Berufsunfähigkeitsversicherung würde im Ernstfall eine deutlich höhere monatliche Rente zahlen als die Unfallversicherung eine Einmalzahlung. Für Ihre berufliche Situation wäre das der bessere Schutz.",
+      "text_en": "No, on the contrary. The upgraded disability insurance would pay a significantly higher monthly pension in an emergency than the accident insurance would pay as a one-time payment. For your professional situation, that would be the better protection."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Petersen (Reisebüro)",
+      "text_de": "Frau Stein, bezüglich Ihrer gebuchten Reise nach Kreta muss ich Sie leider informieren, dass der Veranstalter die Flugzeiten geändert hat. Statt um 8 Uhr morgens fliegen Sie jetzt erst um 14 Uhr, was bedeutet, dass Sie den ersten Urlaubstag praktisch verlieren. Laut Reiserecht haben Sie in diesem Fall drei Möglichkeiten: Sie können die Änderung akzeptieren, kostenlos umbuchen oder die Reise stornieren und den vollen Preis zurückerhalten.",
+      "text_en": "Ms. Stein, regarding your booked trip to Crete, I unfortunately have to inform you that the tour operator has changed the flight times. Instead of 8 AM, you now fly at 2 PM, which means you practically lose the first vacation day. According to travel law, you have three options in this case: You can accept the change, rebook free of charge, or cancel the trip and receive a full refund."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Stein (Kundin)",
+      "text_de": "Das ist wirklich ärgerlich. Gibt es denn einen alternativen Flug am gleichen Tag, der früher geht? Wir haben nur zehn Tage Urlaub und möchten keinen davon verschwenden.",
+      "text_en": "That's really annoying. Is there an alternative flight on the same day that departs earlier? We only have ten days of vacation and don't want to waste any of them."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Petersen (Reisebüro)",
+      "text_de": "Lassen Sie mich nachschauen. Es gibt einen Flug um 10:30 Uhr mit einer anderen Airline, der wäre allerdings 45 Euro pro Person teurer. Da die Änderung aber vom Veranstalter ausgeht, bin ich zuversichtlich, dass wir die Mehrkosten erstattet bekommen.",
+      "text_en": "Let me check. There's a flight at 10:30 AM with another airline, which would however be 45 euros more per person. But since the change comes from the tour operator, I'm confident that we can get the additional costs reimbursed."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Dr. Keller (Anwältin)",
+      "text_de": "Herr Braun, nach Prüfung Ihres Mietvertrags muss ich Ihnen mitteilen, dass die angekündigte Mieterhöhung Ihres Vermieters nicht rechtmäßig ist. Der Vermieter beruft sich auf eine Modernisierungsumlage, aber die Renovierung des Treppenhauses zählt nicht als Modernisierung, sondern als Instandhaltung. Das darf nicht auf die Mieter umgelegt werden. Ich empfehle Ihnen, der Erhöhung schriftlich zu widersprechen. Den Entwurf des Widerspruchsschreibens bereite ich für Sie vor.",
+      "text_en": "Mr. Braun, after reviewing your rental agreement, I have to inform you that the announced rent increase by your landlord is not lawful. The landlord is citing a modernization surcharge, but the renovation of the staircase does not count as modernization but as maintenance. That may not be passed on to tenants. I recommend you object to the increase in writing. I'll prepare the draft of the objection letter for you."
+    },
+    {
+      "speaker": "Gespräch 3 — Herr Braun (Mieter)",
+      "text_de": "Das ist eine große Erleichterung. Die Erhöhung hätte 120 Euro pro Monat bedeutet. Wie lange dauert es in der Regel, bis so etwas geklärt ist?",
+      "text_en": "That's a great relief. The increase would have meant 120 euros per month. How long does it usually take until something like this is resolved?"
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Dr. Keller (Anwältin)",
+      "text_de": "Erfahrungsgemäß geben die meisten Vermieter nach einem fundiert begründeten Widerspruch nach. Sollte Ihr Vermieter auf der Erhöhung bestehen, müsste er klagen, und vor Gericht würde er mit dieser Begründung aller Voraussicht nach verlieren. Rechnen Sie mit etwa vier bis sechs Wochen.",
+      "text_en": "In my experience, most landlords back down after a well-reasoned objection. Should your landlord insist on the increase, he would have to sue, and in court he would in all likelihood lose with this reasoning. Expect about four to six weeks."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt die Versicherungsberaterin Herrn Jung?",
+      "text_en": "What does the insurance consultant recommend to Mr. Jung?",
+      "options": [
+        "a) Die Unfallversicherung zu kündigen und die Berufsunfähigkeitsversicherung aufzustocken.",
+        "b) Alle Versicherungen zu kündigen und neue abzuschließen.",
+        "c) Eine zusätzliche Lebensversicherung abzuschließen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie empfiehlt, die Unfallversicherung zu kündigen und die Berufsunfähigkeitsversicherung aufzustocken, um 80 Euro monatlich zu sparen.",
+      "explanation_en": "She recommends canceling the accident insurance and upgrading the disability insurance to save 80 euros monthly."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches Problem hat Frau Stein mit ihrer Reisebuchung?",
+      "text_en": "What problem does Ms. Stein have with her travel booking?",
+      "options": [
+        "a) Die Flugzeit wurde auf 14 Uhr verschoben, wodurch ein Urlaubstag verloren geht.",
+        "b) Das Hotel wurde storniert.",
+        "c) Die Reise wurde komplett abgesagt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Veranstalter hat die Flugzeit von 8 Uhr auf 14 Uhr geändert, wodurch der erste Urlaubstag praktisch verloren geht.",
+      "explanation_en": "The tour operator changed the flight time from 8 AM to 2 PM, which practically wastes the first vacation day."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt das Reisebüro als Lösung vor?",
+      "text_en": "What does the travel agency suggest as a solution?",
+      "options": [
+        "a) Einen Tag später zu fliegen und dafür einen zusätzlichen Tag zu bekommen.",
+        "b) Einen alternativen Flug um 10:30 Uhr, der etwas teurer ist.",
+        "c) Die Reise komplett zu stornieren und ein anderes Ziel zu wählen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es gibt einen alternativen Flug um 10:30 Uhr, der 45 Euro pro Person teurer ist, wobei die Mehrkosten voraussichtlich erstattet werden.",
+      "explanation_en": "There's an alternative flight at 10:30 AM that's 45 euros more per person, with the additional costs likely to be reimbursed."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum ist die Mieterhöhung laut der Anwältin nicht rechtmäßig?",
+      "text_en": "Why is the rent increase not lawful according to the lawyer?",
+      "options": [
+        "a) Weil die Renovierung des Treppenhauses Instandhaltung ist und nicht als Modernisierung umgelegt werden darf.",
+        "b) Weil der Mietvertrag abgelaufen ist.",
+        "c) Weil der Vermieter die Mieter nicht rechtzeitig informiert hat."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Renovierung des Treppenhauses zählt als Instandhaltung, nicht als Modernisierung, und darf nicht auf die Mieter umgelegt werden.",
+      "explanation_en": "The renovation of the staircase counts as maintenance, not modernization, and may not be passed on to tenants."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert die Klärung voraussichtlich?",
+      "text_en": "How long will the resolution likely take?",
+      "options": [
+        "a) Etwa vier bis sechs Wochen.",
+        "b) Etwa eine Woche.",
+        "c) Etwa sechs bis zwölf Monate."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Anwältin rechnet mit etwa vier bis sechs Wochen für die Klärung.",
+      "explanation_en": "The lawyer expects about four to six weeks for the resolution."
+    }
+  ]
+}

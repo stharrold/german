@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-3-001",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Mediterrane Ernährung und Herzgesundheit",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Eine großangelegte Langzeitstudie der Universität Barcelona hat erneut die gesundheitlichen Vorteile der mediterranen Ernährung bestätigt. Über einen Zeitraum von zwölf Jahren wurden 7.400 Teilnehmer im Alter zwischen 55 und 80 Jahren begleitet. Die Ergebnisse zeigen, dass Personen, die sich konsequent mediterran ernährten, ein um 30 Prozent geringeres Risiko für Herzinfarkt und Schlaganfall aufwiesen als die Kontrollgruppe.\n\nDie mediterrane Ernährung zeichnet sich durch einen hohen Anteil an Olivenöl, Obst, Gemüse, Hülsenfrüchten, Nüssen und Fisch aus, während roter Fleischkonsum und industriell verarbeitete Lebensmittel weitgehend vermieden werden. Besonders interessant ist der Befund, dass die positiven Effekte unabhängig vom Körpergewicht der Teilnehmer auftraten. Auch übergewichtige Personen profitierten von der Ernährungsumstellung, sofern sie die Grundprinzipien konsequent befolgten.\n\nDie Forscher betonen jedoch, dass die mediterrane Ernährung kein isoliertes Phänomen ist, sondern in einen Lebensstil eingebettet sein muss. In den Mittelmeerländern gehören regelmäßige körperliche Aktivität, gemeinsame Mahlzeiten mit Familie und Freunden sowie ein gemäßigter Weinkonsum traditionell dazu. Die Studie empfiehlt dennoch ausdrücklich keine Erhöhung des Alkoholkonsums, da die Risiken den möglichen Nutzen bei weitem überwiegen würden.",
+    "text_en": "A large-scale long-term study by the University of Barcelona has once again confirmed the health benefits of the Mediterranean diet. Over a period of twelve years, 7,400 participants aged between 55 and 80 were followed. The results show that individuals who consistently followed a Mediterranean diet had a 30 percent lower risk of heart attack and stroke compared to the control group.\n\nThe Mediterranean diet is characterized by a high proportion of olive oil, fruits, vegetables, legumes, nuts, and fish, while red meat consumption and industrially processed foods are largely avoided. Particularly interesting is the finding that the positive effects occurred regardless of the participants' body weight. Even overweight individuals benefited from the dietary change, provided they consistently followed the basic principles.\n\nThe researchers emphasize, however, that the Mediterranean diet is not an isolated phenomenon but must be embedded in a lifestyle. In Mediterranean countries, regular physical activity, shared meals with family and friends, and moderate wine consumption are traditionally part of this. The study nevertheless explicitly does not recommend increasing alcohol consumption, as the risks would far outweigh the possible benefits.",
+    "source": "Fachzeitschrift",
+    "word_count": 187
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauerte die Studie?",
+      "text_en": "How long did the study last?",
+      "options": [
+        "a) Fünf Jahre.",
+        "b) Zwanzig Jahre.",
+        "c) Zwölf Jahre."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Teilnehmer wurden über einen Zeitraum von zwölf Jahren begleitet.",
+      "explanation_en": "The participants were followed over a period of twelve years."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Prozent sank das Risiko für Herzinfarkt und Schlaganfall?",
+      "text_en": "By what percentage did the risk of heart attack and stroke decrease?",
+      "options": [
+        "a) Um 15 Prozent.",
+        "b) Um 30 Prozent.",
+        "c) Um 50 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Risiko war um 30 Prozent geringer als bei der Kontrollgruppe.",
+      "explanation_en": "The risk was 30 percent lower than in the control group."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was ist ein überraschendes Ergebnis der Studie?",
+      "text_en": "What is a surprising result of the study?",
+      "options": [
+        "a) Dass nur junge Teilnehmer profitierten.",
+        "b) Dass die Ernährung keine Auswirkungen auf die Herzgesundheit hatte.",
+        "c) Dass auch übergewichtige Personen von der Ernährung profitierten."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die positiven Effekte traten unabhängig vom Körpergewicht auf; auch Übergewichtige profitierten.",
+      "explanation_en": "The positive effects occurred regardless of body weight; even overweight individuals benefited."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was betonen die Forscher bezüglich der Ernährung?",
+      "text_en": "What do the researchers emphasize regarding the diet?",
+      "options": [
+        "a) Dass sie in einen gesamten Lebensstil eingebettet sein muss.",
+        "b) Dass sie nur in Kombination mit Medikamenten wirkt.",
+        "c) Dass sie nur für Menschen aus dem Mittelmeerraum geeignet ist."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Ernährung ist kein isoliertes Phänomen, sondern muss in einen Lebensstil eingebettet sein.",
+      "explanation_en": "The diet is not an isolated phenomenon but must be embedded in a lifestyle."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sagt die Studie zum Alkoholkonsum?",
+      "text_en": "What does the study say about alcohol consumption?",
+      "options": [
+        "a) Dass moderater Weinkonsum ausdrücklich empfohlen wird.",
+        "b) Dass eine Erhöhung des Alkoholkonsums nicht empfohlen wird.",
+        "c) Dass Alkohol keinen Einfluss auf die Gesundheit hat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Studie empfiehlt ausdrücklich keine Erhöhung des Alkoholkonsums, da die Risiken überwiegen.",
+      "explanation_en": "The study explicitly does not recommend increasing alcohol consumption as the risks outweigh the benefits."
+    }
+  ]
+}

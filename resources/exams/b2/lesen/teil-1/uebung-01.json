@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-1-001",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Künstliche Intelligenz im Alltag",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Künstliche Intelligenz ist längst kein Zukunftsthema mehr, sondern prägt bereits unseren Alltag auf vielfältige Weise. Sprachassistenten wie Alexa oder Siri beantworten unsere Fragen, Navigationsapps berechnen die schnellste Route unter Berücksichtigung aktueller Verkehrsdaten, und Streamingdienste schlagen uns Filme vor, die genau unserem Geschmack entsprechen. Doch während viele Menschen diese Technologien begeistert nutzen, wächst gleichzeitig die Sorge um den Datenschutz.\n\nEine aktuelle Studie der Technischen Universität München zeigt, dass 68 Prozent der Befragten KI-gestützte Anwendungen regelmäßig verwenden, aber nur 23 Prozent wissen, welche Daten dabei gesammelt werden. Besonders beunruhigend finden Experten, dass viele Nutzer die Einstellungen zur Datenfreigabe nie überprüfen. Professor Katharina Weiß, die Leiterin der Studie, betont: „Die Bequemlichkeit siegt häufig über die Vorsicht. Die Menschen geben bereitwillig persönliche Informationen preis, ohne die langfristigen Konsequenzen zu bedenken.“\n\nGleichzeitig eröffnet KI enorme Chancen im Gesundheitswesen. Algorithmen können mittlerweile bestimmte Krebsarten früher erkennen als erfahrene Radiologen. In der Landwirtschaft helfen intelligente Systeme dabei, den Einsatz von Pestiziden drastisch zu reduzieren. Die Herausforderung besteht darin, die Vorteile dieser Technologie zu nutzen und gleichzeitig ethische Grenzen zu wahren. Der Europäische KI-Regulierungsrahmen, der kürzlich verabschiedet wurde, gilt als wichtiger erster Schritt in diese Richtung.",
+    "text_en": "Artificial intelligence is no longer a topic of the future but already shapes our everyday life in diverse ways. Voice assistants like Alexa or Siri answer our questions, navigation apps calculate the fastest route considering current traffic data, and streaming services suggest films that match our taste exactly. But while many people enthusiastically use these technologies, concern about data protection is growing at the same time.\n\nA recent study by the Technical University of Munich shows that 68 percent of respondents regularly use AI-powered applications, but only 23 percent know what data is being collected. Experts find it particularly alarming that many users never check the data sharing settings. Professor Katharina Weiß, the study's lead researcher, emphasizes: 'Convenience often wins over caution. People willingly disclose personal information without considering the long-term consequences.'\n\nAt the same time, AI opens enormous opportunities in healthcare. Algorithms can now detect certain types of cancer earlier than experienced radiologists. In agriculture, intelligent systems help to drastically reduce the use of pesticides. The challenge lies in harnessing the benefits of this technology while maintaining ethical boundaries. The European AI regulatory framework, which was recently adopted, is considered an important first step in this direction.",
+    "source": "Zeitschrift",
+    "word_count": 210
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt die Studie der TU München?",
+      "text_en": "What does the TU Munich study show?",
+      "options": [
+        "a) Die meisten Nutzer lehnen KI-Anwendungen ab.",
+        "b) Viele Nutzer verwenden KI, ohne die Datenerhebung zu verstehen.",
+        "c) KI-Anwendungen sammeln keine persönlichen Daten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Studie zeigt, dass 68 % KI nutzen, aber nur 23 % wissen, welche Daten gesammelt werden.",
+      "explanation_en": "The study shows that 68% use AI but only 23% know what data is collected."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Professorin Weiß?",
+      "text_en": "What does Professor Weiß criticize?",
+      "options": [
+        "a) Dass KI-Systeme zu langsam arbeiten.",
+        "b) Dass die Universität zu wenig forscht.",
+        "c) Dass Nutzer Bequemlichkeit über Datenschutz stellen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sie betont, dass die Bequemlichkeit häufig über die Vorsicht siegt.",
+      "explanation_en": "She emphasizes that convenience often wins over caution."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorteil von KI im Gesundheitswesen nennt der Text?",
+      "text_en": "What advantage of AI in healthcare does the text mention?",
+      "options": [
+        "a) KI kann Medikamente schneller entwickeln.",
+        "b) KI kann bestimmte Krebsarten früher erkennen als Ärzte.",
+        "c) KI ersetzt Ärzte vollständig bei Operationen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Algorithmen können bestimmte Krebsarten früher erkennen als erfahrene Radiologen.",
+      "explanation_en": "Algorithms can detect certain cancers earlier than experienced radiologists."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie wird der Europäische KI-Regulierungsrahmen bewertet?",
+      "text_en": "How is the European AI regulatory framework assessed?",
+      "options": [
+        "a) Als gescheitert und wirkungslos.",
+        "b) Als wichtiger erster Schritt.",
+        "c) Als zu streng für die Wirtschaft."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Regulierungsrahmen gilt als wichtiger erster Schritt in die richtige Richtung.",
+      "explanation_en": "The regulatory framework is considered an important first step in the right direction."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Text die zentrale Herausforderung bei KI?",
+      "text_en": "According to the text, what is the central challenge with AI?",
+      "options": [
+        "a) Die Technologie ist noch nicht ausgereift genug.",
+        "b) Die Vorteile zu nutzen und gleichzeitig ethische Grenzen zu wahren.",
+        "c) Die hohen Kosten der Entwicklung zu senken."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Herausforderung besteht darin, die Vorteile zu nutzen und gleichzeitig ethische Grenzen zu wahren.",
+      "explanation_en": "The challenge lies in harnessing the benefits while maintaining ethical boundaries."
+    }
+  ]
+}

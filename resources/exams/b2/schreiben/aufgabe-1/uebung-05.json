@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-1-005",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Vorschlag für ein Firmenprojekt",
+  "instructions": "Ihr Unternehmen sucht Ideen zur Verbesserung des Arbeitsklimas. Schreiben Sie einen formellen Vorschlag an die Geschäftsleitung.",
+  "situation_de": "Die Geschäftsleitung Ihres Unternehmens hat alle Mitarbeiter aufgefordert, Vorschläge zur Verbesserung des Arbeitsklimas einzureichen. Sie möchten vorschlagen, dass ein wöchentlicher Teamtag eingeführt wird, an dem die Mitarbeiter gemeinsam Sport treiben oder an Workshops teilnehmen können. Schreiben Sie einen formellen Vorschlag.",
+  "situation_en": "The management of your company has asked all employees to submit suggestions for improving the work atmosphere. You would like to propose that a weekly team day be introduced where employees can exercise together or participate in workshops. Write a formal proposal.",
+  "target_word_count": 169,
+  "required_points": [
+    "Ihren Vorschlag klar und überzeugend präsentieren (Present your proposal clearly and convincingly)",
+    "Die Vorteile für das Unternehmen und die Mitarbeiter erläutern (Explain the benefits for the company and the employees)",
+    "Mögliche Einwände vorwegnehmen und entkräften (Anticipate and counter possible objections)",
+    "Konkrete Umsetzungsschritte vorschlagen (Suggest concrete implementation steps)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Geschäftsleitung,\n\nich möchte Ihnen im Rahmen Ihres Aufrufs zur Verbesserung des Arbeitsklimas einen konkreten Vorschlag unterbreiten, der meiner Einschätzung nach das Wohlbefinden und die Zusammenarbeit in unserem Unternehmen nachhaltig verbessern könnte. Mein Vorschlag besteht darin, jeden Freitagnachmittag einen gemeinsamen Teamtag einzuführen, an dem die Mitarbeiter zusammen an sportlichen Aktivitäten oder kreativen Workshops teilnehmen können.\n\nDie Vorteile eines solchen regelmäßigen Programms liegen meines Erachtens auf der Hand: Einerseits würde der Zusammenhalt zwischen den verschiedenen Abteilungen erheblich gestärkt, andererseits könnten arbeitsbedingter Stress und krankheitsbedingte Fehlzeiten deutlich reduziert werden. Zahlreiche Studien belegen überzeugend, dass zufriedene und ausgeglichene Mitarbeiter nachweislich produktiver arbeiten.\n\nIch bin mir durchaus bewusst, dass ein wöchentlicher Teamtag zunächst als Verlust wertvoller Arbeitszeit erscheinen könnte. Allerdings würde die daraus resultierende gesteigerte Motivation und verbesserte Teamdynamik diesen zeitlichen Aufwand mehr als ausgleichen.\n\nAls ersten konkreten Umsetzungsschritt würde ich vorschlagen, eine anonyme Umfrage unter allen Mitarbeitern durchzuführen, um deren Interessen und Wünsche zu ermitteln. Anschließend könnte eine dreimonatige Testphase gestartet und danach gemeinsam evaluiert werden.\n\nMit freundlichen Grüßen\nAnna Fischer",
+    "text_en": "Dear Management,\n\nAs part of your call for improvements to the work atmosphere, I would like to submit a concrete proposal that, in my assessment, could sustainably improve well-being and collaboration in our company. My proposal consists of introducing a joint team day every Friday afternoon, where employees can participate together in sports activities or creative workshops.\n\nThe advantages of such a regular program are, in my view, obvious: on one hand, cohesion between the various departments would be significantly strengthened; on the other hand, work-related stress and illness-related absenteeism could be noticeably reduced. Numerous studies convincingly demonstrate that satisfied and balanced employees work demonstrably more productively.\n\nI am certainly aware that a weekly team day might initially appear to be a loss of valuable working time. However, the resulting increased motivation and improved team dynamics would more than compensate for this time investment.\n\nAs a first concrete implementation step, I would suggest conducting an anonymous survey among all employees to determine their interests and wishes. Subsequently, a three-month trial phase could be launched and then jointly evaluated.\n\nSincerely,\nAnna Fischer"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle vier Inhaltspunkte sind angemessen und ausführlich behandelt (Task fulfillment: All four content points are adequately and thoroughly addressed)",
+    "Kohärenz: Der Text ist klar gegliedert und logisch aufgebaut mit passenden Konnektoren (Coherence: The text is clearly structured and logically organized with appropriate connectors)",
+    "Wortschatz: Differenzierter und formeller Wortschatz für Geschäftskommunikation auf B2-Niveau (Vocabulary: Differentiated and formal vocabulary for business communication at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen, Konjunktiv II und Passiv korrekt verwendet (Structures: Complex sentence structures, Konjunktiv II and passive voice used correctly)"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-2-005",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Stadtflucht oder Landflucht — wo lebt es sich besser?",
+  "instructions": "Sie hören eine Radiodiskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Guten Abend, liebe Hörerinnen und Hörer. In unserer heutigen Sendung geht es um ein Thema, das viele Menschen bewegt: Soll man lieber in der Stadt oder auf dem Land leben? Dazu habe ich zwei Gäste eingeladen: Frau Dr. Petra Albrecht, Stadtplanerin und Professorin an der TU Berlin, und Herrn Georg Meier, Bürgermeister einer kleinen Gemeinde in Brandenburg. Frau Albrecht, Sie forschen zur Urbanisierung. Was beobachten Sie gerade?",
+      "text_en": "Good evening, dear listeners. In today's program, we're addressing a topic that moves many people: Should one rather live in the city or in the countryside? For this, I've invited two guests: Dr. Petra Albrecht, urban planner and professor at TU Berlin, and Mr. Georg Meier, mayor of a small community in Brandenburg. Ms. Albrecht, you research urbanization. What are you currently observing?"
+    },
+    {
+      "speaker": "Dr. Albrecht",
+      "text_de": "Wir erleben gerade eine interessante Wende. Jahrzehntelang galt die Landflucht als unaufhaltsamer Trend — junge Menschen zogen in die Städte, und das Land verödete. Seit der Pandemie beobachten wir jedoch eine Gegenbewegung. Immer mehr Familien und auch junge Berufstätige verlassen die Großstädte. Die Gründe liegen auf der Hand: Die Mieten in Städten wie München, Frankfurt oder Berlin sind für viele schlicht unbezahlbar geworden. Eine Dreizimmerwohnung in Berlin-Mitte kostet inzwischen über 1.800 Euro kalt. Gleichzeitig ermöglicht die Digitalisierung vielen, ortsunabhängig zu arbeiten.",
+      "text_en": "We're currently experiencing an interesting turning point. For decades, rural flight was considered an unstoppable trend — young people moved to cities, and the countryside became desolate. Since the pandemic, however, we observe a counter-movement. More and more families and also young professionals are leaving major cities. The reasons are obvious: rents in cities like Munich, Frankfurt, or Berlin have simply become unaffordable for many. A three-room apartment in central Berlin now costs over 1,800 euros excluding utilities. At the same time, digitalization allows many to work location-independently."
+    },
+    {
+      "speaker": "Herr Meier",
+      "text_de": "Das kann ich bestätigen. In unserer Gemeinde haben wir in den letzten drei Jahren einen Zuzug von 15 Prozent erlebt, nachdem die Einwohnerzahl jahrelang geschrumpft war. Aber ich möchte ehrlich sein: Das ländliche Leben hat auch seine Herausforderungen. Die ärztliche Versorgung ist oft mangelhaft — unser nächster Facharzt ist 40 Kilometer entfernt. Der öffentliche Nahverkehr ist praktisch nicht vorhanden, ohne Auto ist man aufgeschmissen. Und das schnelle Internet, das viele für das Homeoffice brauchen, ist in vielen Dörfern immer noch Wunschdenken. Wir kämpfen seit Jahren um einen Glasfaseranschluss.",
+      "text_en": "I can confirm that. In our community, we've experienced a population increase of 15 percent in the last three years, after the population had been shrinking for years. But I want to be honest: rural life also has its challenges. Medical care is often inadequate — our nearest specialist is 40 kilometers away. Public transportation is practically non-existent; without a car, you're stuck. And the fast internet that many need for working from home is still wishful thinking in many villages. We've been fighting for a fiber optic connection for years."
+    },
+    {
+      "speaker": "Dr. Albrecht",
+      "text_de": "Genau diese Infrastrukturprobleme müssen gelöst werden, sonst bleibt die Stadtflucht ein Strohfeuer. Was mich als Stadtplanerin aber auch umtreibt, ist die Frage, was mit den Städten passiert. Wenn die Mittelschicht abwandert, bleiben in den Innenstädten nur noch die sehr Reichen und die sehr Armen. Die soziale Durchmischung, die eine Stadt lebendig macht, geht verloren. Wir brauchen dringend mehr sozialen Wohnungsbau und eine Mietpreisbremse, die ihren Namen verdient.",
+      "text_en": "Exactly these infrastructure problems need to be solved, otherwise the urban flight will be a flash in the pan. But what also concerns me as an urban planner is the question of what happens to the cities. If the middle class migrates out, only the very rich and the very poor remain in the inner cities. The social mix that makes a city vibrant is lost. We urgently need more social housing and a rent cap that deserves its name."
+    },
+    {
+      "speaker": "Herr Meier",
+      "text_de": "Ich stimme zu, dass wir beide Seiten betrachten müssen. Mein Vorschlag wäre, dezentrale Strukturen zu stärken. Anstatt alles in die Großstädte zu konzentrieren — Universitäten, Behörden, Kultureinrichtungen —, könnten wir diese gezielt im ländlichen Raum ansiedeln. Wenn eine Region attraktive Arbeitsplätze, gute Schulen und eine funktionierende Infrastruktur bietet, werden die Menschen ganz von selbst kommen. Dafür brauchen wir aber politischen Willen und langfristige Investitionen.",
+      "text_en": "I agree that we need to look at both sides. My suggestion would be to strengthen decentralized structures. Instead of concentrating everything in major cities — universities, government agencies, cultural institutions — we could deliberately establish these in rural areas. If a region offers attractive jobs, good schools, and functioning infrastructure, people will come on their own. But for that, we need political will and long-term investments."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Gegenbewegung beobachtet Frau Albrecht seit der Pandemie?",
+      "text_en": "What counter-movement has Ms. Albrecht observed since the pandemic?",
+      "options": [
+        "a) Immer mehr Familien und junge Berufstätige verlassen die Großstädte.",
+        "b) Immer mehr Menschen ziehen vom Land in die Stadt.",
+        "c) Die Mietpreise auf dem Land steigen stärker als in der Stadt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Seit der Pandemie verlassen immer mehr Familien und junge Berufstätige die Großstädte.",
+      "explanation_en": "Since the pandemic, more and more families and young professionals are leaving major cities."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Herausforderung nennt Herr Meier für das ländliche Leben?",
+      "text_en": "What challenge does Mr. Meier name for rural life?",
+      "options": [
+        "a) Die hohen Grundstückspreise auf dem Land.",
+        "b) Die Ablehnung der Zugezogenen durch die Einheimischen.",
+        "c) Die mangelnde ärztliche Versorgung und fehlende Infrastruktur."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Er nennt mangelnde ärztliche Versorgung, fehlenden öffentlichen Nahverkehr und fehlendes schnelles Internet.",
+      "explanation_en": "He mentions inadequate medical care, missing public transportation, and lack of fast internet."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was befürchtet Frau Albrecht für die Innenstädte?",
+      "text_en": "What does Ms. Albrecht fear for inner cities?",
+      "options": [
+        "a) Dass die Städte zu leer werden und Geschäfte schließen müssen.",
+        "b) Dass die soziale Durchmischung verloren geht, wenn die Mittelschicht abwandert.",
+        "c) Dass die Mieten in der Stadt noch weiter steigen werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie befürchtet, dass die soziale Durchmischung verloren geht, wenn nur noch sehr Reiche und sehr Arme in den Innenstädten bleiben.",
+      "explanation_en": "She fears that the social mix is lost when only the very rich and very poor remain in inner cities."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Frau Albrecht für die Städte?",
+      "text_en": "What does Ms. Albrecht demand for cities?",
+      "options": [
+        "a) Den Bau von mehr Hochhäusern in den Vororten.",
+        "b) Mehr sozialen Wohnungsbau und eine wirksame Mietpreisbremse.",
+        "c) Die Schließung von Luxuswohnungen zugunsten von Büroflächen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie fordert mehr sozialen Wohnungsbau und eine Mietpreisbremse, die ihren Namen verdient.",
+      "explanation_en": "She demands more social housing and a rent cap that deserves its name."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt Herr Meier als Lösung vor?",
+      "text_en": "What does Mr. Meier propose as a solution?",
+      "options": [
+        "a) Universitäten und Behörden gezielt im ländlichen Raum ansiedeln.",
+        "b) Die Großstädte weiter ausbauen und das Land aufgeben.",
+        "c) Strenge Zuzugsbeschränkungen für Großstädte einführen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Er schlägt vor, dezentrale Strukturen zu stärken und Universitäten, Behörden und Kultureinrichtungen gezielt im ländlichen Raum anzusiedeln.",
+      "explanation_en": "He proposes strengthening decentralized structures and deliberately establishing universities, agencies, and cultural institutions in rural areas."
+    }
+  ]
+}

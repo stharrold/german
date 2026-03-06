@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-4-002",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Nachhaltigkeit in der Modeindustrie",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Dr. Krüger",
+      "text_de": "Sehr geehrte Damen und Herren, herzlich willkommen zu meinem Vortrag auf der Konferenz für nachhaltige Wirtschaft. Mein Thema heute lautet: „Fast Fashion — der wahre Preis unserer Kleidung“. Als Wirtschaftsethikerin möchte ich Ihnen aufzeigen, welche ökologischen und sozialen Kosten hinter unserer Kleidung stecken und welche Alternativen es gibt.",
+      "text_en": "Ladies and gentlemen, welcome to my presentation at the Conference for Sustainable Economics. My topic today is: 'Fast Fashion — the True Price of Our Clothing.' As a business ethicist, I want to show you what ecological and social costs are behind our clothing and what alternatives exist."
+    },
+    {
+      "speaker": "Dr. Krüger",
+      "text_de": "Beginnen wir mit einigen Zahlen, die nachdenklich stimmen sollten. Die Modeindustrie ist für etwa 10 Prozent der weltweiten CO₂-Emissionen verantwortlich — mehr als der internationale Flugverkehr und die Schifffahrt zusammen. Jedes Jahr werden weltweit über 100 Milliarden Kleidungsstücke produziert, aber nur ein Bruchteil davon wird länger als ein Jahr getragen. In Deutschland kauft der Durchschnittsbürger etwa 60 Kleidungsstücke pro Jahr, wirft aber gleichzeitig fast die gleiche Menge weg. Das ist nicht nur eine ökologische Katastrophe, sondern auch eine wirtschaftliche Absurdität.",
+      "text_en": "Let's begin with some numbers that should give us pause. The fashion industry is responsible for about 10 percent of global CO₂ emissions — more than international aviation and shipping combined. Every year, over 100 billion garments are produced worldwide, but only a fraction of them are worn for longer than a year. In Germany, the average citizen buys about 60 garments per year but simultaneously throws away almost the same amount. This is not only an ecological catastrophe but also an economic absurdity."
+    },
+    {
+      "speaker": "Dr. Krüger",
+      "text_de": "Hinter diesen Zahlen stehen Menschen. In Bangladesch, Kambodscha und Vietnam nähen Arbeiterinnen — denn es sind überwiegend Frauen — unsere Kleidung unter zum Teil katastrophalen Bedingungen. Die Löhne liegen häufig unter dem Existenzminimum, die Arbeitszeiten betragen nicht selten 14 Stunden am Tag, und die Gebäude erfüllen oft nicht einmal grundlegende Sicherheitsstandards. Der Einsturz der Textilfabrik Rana Plaza in Bangladesch vor über zehn Jahren, bei dem über 1.100 Menschen starben, war eine tragische Erinnerung an diese Realität.",
+      "text_en": "Behind these numbers are people. In Bangladesh, Cambodia, and Vietnam, workers — predominantly women — sew our clothing under partly catastrophic conditions. Wages frequently fall below the subsistence minimum, working hours are often 14 hours a day, and buildings often don't even meet basic safety standards. The collapse of the Rana Plaza textile factory in Bangladesh over ten years ago, in which over 1,100 people died, was a tragic reminder of this reality."
+    },
+    {
+      "speaker": "Dr. Krüger",
+      "text_de": "Was können wir als Verbraucher tun? Erstens: weniger kaufen, aber besser. Ein hochwertiges Kleidungsstück, das zehn Jahre hält, ist ökologisch und oft auch finanziell günstiger als zehn billige Stücke, die nach einer Saison im Müll landen. Zweitens: Secondhand kaufen. Der Markt für gebrauchte Kleidung wächst rasant — Online-Plattformen machen es einfacher denn je, gut erhaltene Kleidung zu finden. Drittens: auf Siegel und Zertifizierungen achten. Labels wie GOTS, Fair Trade oder der Blaue Engel bieten eine gewisse Orientierung, auch wenn sie nicht perfekt sind.",
+      "text_en": "What can we do as consumers? First: buy less, but better. A high-quality garment that lasts ten years is ecologically and often also financially more cost-effective than ten cheap pieces that end up in the trash after one season. Second: buy secondhand. The market for used clothing is growing rapidly — online platforms make it easier than ever to find well-maintained clothing. Third: pay attention to seals and certifications. Labels like GOTS, Fair Trade, or the Blue Angel offer some orientation, even if they're not perfect."
+    },
+    {
+      "speaker": "Dr. Krüger",
+      "text_de": "Aber — und das möchte ich zum Abschluss betonen — die Verantwortung liegt nicht allein beim Verbraucher. Wir brauchen politische Rahmenbedingungen: ein Lieferkettengesetz mit wirksamen Sanktionen, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards für die Textilproduktion. Einige europäische Länder, insbesondere Frankreich, gehen hier bereits mit gutem Beispiel voran. Frankreich hat vor Kurzem eine Umweltabgabe auf Fast Fashion eingeführt, die je nach ökologischem Fußabdruck des Produkts bis zu 10 Euro pro Kleidungsstück betragen kann. Solche Maßnahmen brauchen wir EU-weit. Vielen Dank.",
+      "text_en": "But — and I want to emphasize this in conclusion — the responsibility does not lie solely with the consumer. We need political frameworks: a supply chain law with effective sanctions, a tax on disposable fashion, and binding environmental standards for textile production. Some European countries, particularly France, are already leading by example here. France recently introduced an environmental levy on fast fashion, which can amount to up to 10 euros per garment depending on the product's ecological footprint. We need such measures EU-wide. Thank you."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Für wie viel Prozent der weltweiten CO₂-Emissionen ist die Modeindustrie verantwortlich?",
+      "text_en": "What percentage of global CO₂ emissions is the fashion industry responsible for?",
+      "options": [
+        "a) Etwa 10 Prozent.",
+        "b) Etwa 3 Prozent.",
+        "c) Etwa 25 Prozent."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Modeindustrie ist für etwa 10 Prozent der weltweiten CO₂-Emissionen verantwortlich.",
+      "explanation_en": "The fashion industry is responsible for about 10 percent of global CO₂ emissions."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Kleidungsstücke kauft der Durchschnittsdeutsche pro Jahr?",
+      "text_en": "How many garments does the average German buy per year?",
+      "options": [
+        "a) Etwa 30.",
+        "b) Etwa 60.",
+        "c) Etwa 100."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In Deutschland kauft der Durchschnittsbürger etwa 60 Kleidungsstücke pro Jahr.",
+      "explanation_en": "In Germany, the average citizen buys about 60 garments per year."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was wird als erste Empfehlung für Verbraucher genannt?",
+      "text_en": "What is mentioned as the first recommendation for consumers?",
+      "options": [
+        "a) Nur noch online einkaufen.",
+        "b) Weniger, aber hochwertigere Kleidung kaufen.",
+        "c) Nur Kleidung aus Deutschland kaufen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die erste Empfehlung lautet: weniger kaufen, aber besser — hochwertige Kleidung, die länger hält.",
+      "explanation_en": "The first recommendation is: buy less, but better — high-quality clothing that lasts longer."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat Frankreich kürzlich eingeführt?",
+      "text_en": "What did France recently introduce?",
+      "options": [
+        "a) Ein Verbot von Kleidungsimporten aus Asien.",
+        "b) Eine Pflicht zum Recycling aller Kleidungsstücke.",
+        "c) Eine Umweltabgabe auf Fast Fashion von bis zu 10 Euro pro Stück."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Frankreich hat vor Kurzem eine Umweltabgabe auf Fast Fashion eingeführt, die bis zu 10 Euro pro Kleidungsstück betragen kann.",
+      "explanation_en": "France recently introduced an environmental levy on fast fashion, which can amount to up to 10 euros per garment."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert die Referentin auf politischer Ebene?",
+      "text_en": "What does the speaker demand on a political level?",
+      "options": [
+        "a) Ein Lieferkettengesetz, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards.",
+        "b) Die Schließung aller Textilfabriken in Entwicklungsländern.",
+        "c) Ein Verbot von Online-Shopping für Kleidung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie fordert ein Lieferkettengesetz mit wirksamen Sanktionen, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards.",
+      "explanation_en": "She demands a supply chain law with effective sanctions, a tax on disposable fashion, and binding environmental standards."
+    }
+  ]
+}

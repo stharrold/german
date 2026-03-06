@@ -1,0 +1,77 @@
+{
+  "id": "b2-sprechen-teil-1-002",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Die Rolle der sozialen Medien",
+  "instructions": "Sie sollen einen kurzen Vortrag zu einem Thema halten. Anschließend diskutieren Sie mit dem Prüfer / der Prüferin darüber.",
+  "situation_de": "Soziale Medien sind aus dem Alltag nicht mehr wegzudenken. Halten Sie einen Vortrag über die Rolle der sozialen Medien in der heutigen Gesellschaft. Gehen Sie auf die folgenden Punkte ein und begründen Sie Ihre Meinung.",
+  "situation_en": "Social media has become an inseparable part of everyday life. Give a presentation about the role of social media in today's society. Address the following points and justify your opinion.",
+  "discussion_points": [
+    "Welche Vorteile bieten soziale Medien für die Kommunikation und den Informationsaustausch? (What advantages do social media offer for communication and information exchange?)",
+    "Welche Gefahren gehen von sozialen Medien aus, insbesondere für junge Menschen? (What dangers emanate from social media, particularly for young people?)",
+    "Wie beeinflussen soziale Medien die politische Meinungsbildung? (How do social media influence political opinion formation?)",
+    "Sollte es strengere Regeln für soziale Medien geben? Warum oder warum nicht? (Should there be stricter rules for social media? Why or why not?)",
+    "Wie gehen Sie persönlich mit sozialen Medien um? (How do you personally handle social media?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Heute möchte ich über die Rolle der sozialen Medien in unserer Gesellschaft sprechen. Es lässt sich kaum leugnen, dass Plattformen wie Instagram, TikTok und X unser tägliches Leben grundlegend verändert haben.",
+      "text_en": "Today I would like to talk about the role of social media in our society. It can hardly be denied that platforms like Instagram, TikTok, and X have fundamentally changed our daily lives."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zunächst zu den Vorteilen: Soziale Medien ermöglichen es uns, mit Menschen auf der ganzen Welt in Kontakt zu bleiben. Sie bieten eine Plattform für den schnellen Informationsaustausch und können sogar demokratische Bewegungen fördern.",
+      "text_en": "First, the advantages: Social media enables us to stay in contact with people around the world. They offer a platform for rapid information exchange and can even promote democratic movements."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Allerdings darf man die Schattenseiten nicht unterschätzen. Besonders bei Jugendlichen beobachten Experten einen Zusammenhang zwischen übermäßiger Social-Media-Nutzung und psychischen Problemen wie Depressionen oder Angstzuständen. Der ständige Vergleich mit idealisierten Darstellungen anderer kann das Selbstwertgefühl erheblich beeinträchtigen.",
+      "text_en": "However, one should not underestimate the dark sides. Especially among young people, experts observe a connection between excessive social media use and mental health problems like depression or anxiety. The constant comparison with idealized portrayals of others can significantly impair self-esteem."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Was die politische Meinungsbildung betrifft, so sehe ich hier sowohl Chancen als auch Risiken. Einerseits können sich Bürger besser informieren, andererseits verbreiten sich Falschinformationen in rasantem Tempo.",
+      "text_en": "Regarding political opinion formation, I see both opportunities and risks here. On one hand, citizens can inform themselves better; on the other hand, misinformation spreads at a rapid pace."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank. Sie haben das Thema Falschinformationen angesprochen. Wie könnte man Ihrer Meinung nach dagegen vorgehen?",
+      "text_en": "Thank you. You mentioned the topic of misinformation. In your opinion, how could one take action against it?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist eine schwierige Frage. Ich bin der Ansicht, dass eine Kombination aus Regulierung und Bildung notwendig ist. Die Plattformen selbst sollten stärker in die Pflicht genommen werden, Falschinformationen zu kennzeichnen. Gleichzeitig sollte Medienkompetenz bereits in der Schule unterrichtet werden.",
+      "text_en": "That is a difficult question. I am of the opinion that a combination of regulation and education is necessary. The platforms themselves should be held more accountable for labeling misinformation. At the same time, media literacy should be taught in schools."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sehen Sie die Gefahr, dass strengere Regulierung die Meinungsfreiheit einschränken könnte?",
+      "text_en": "Do you see the danger that stricter regulation could restrict freedom of expression?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Diese Bedenken sind durchaus berechtigt. Es ist ein schmaler Grat zwischen dem Schutz vor Desinformation und der Einschränkung der Redefreiheit. Meiner Meinung nach sollte sich die Regulierung auf nachweislich falsche Informationen beschränken, die konkreten Schaden anrichten können, etwa im Gesundheitsbereich.",
+      "text_en": "These concerns are certainly justified. It is a fine line between protection from disinformation and restriction of free speech. In my opinion, regulation should be limited to demonstrably false information that can cause concrete harm, for example in the health sector."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie sieht Ihr eigener Umgang mit sozialen Medien aus?",
+      "text_en": "And what does your own use of social media look like?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich versuche, einen bewussten Umgang mit sozialen Medien zu pflegen. Ich habe feste Zeiten dafür festgelegt und nutze sie hauptsächlich, um mit Freunden in Kontakt zu bleiben und Nachrichten aus verschiedenen Quellen zu lesen. Was mir wichtig ist: Ich hinterfrage Informationen kritisch, bevor ich sie weiterverbreite.",
+      "text_en": "I try to maintain a conscious approach to social media. I have set fixed times for it and mainly use it to stay in touch with friends and read news from various sources. What is important to me: I critically question information before sharing it."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat behandelt alle vorgegebenen Aspekte in einem zusammenhängenden Vortrag.",
+    "Argumentation: Differenzierte Darstellung mit Pro- und Kontra-Argumenten, logischer Aufbau der Gedanken.",
+    "Interaktion: Der Kandidat geht auf Nachfragen ein und kann seine Position mit zusätzlichen Argumenten untermauern.",
+    "Wortschatz: Angemessener Fachwortschatz zu den Themen Medien, Kommunikation und Gesellschaft.",
+    "Strukturen: Sichere Verwendung von Konnektoren, Relativsätzen und indirekter Rede.",
+    "Aussprache und Intonation: Flüssiger Vortrag mit klarer Artikulation und angemessener Prosodie."
+  ]
+}

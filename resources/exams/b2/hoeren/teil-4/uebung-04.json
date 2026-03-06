@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-4-004",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Die Zukunft der Mobilität in europäischen Städten",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Liebe Kolleginnen und Kollegen, vielen Dank, dass Sie so zahlreich zu unserem Fachkongress „Stadtentwicklung 2040“ erschienen sind. Ich bin Dr. Robert Hagen, Verkehrsplaner bei der Europäischen Kommission, und mein Vortrag befasst sich mit der Frage, wie wir die Mobilität in europäischen Städten grundlegend umgestalten können — und warum das dringend nötig ist.",
+      "text_en": "Dear colleagues, thank you for attending our professional congress 'Urban Development 2040' in such numbers. I am Dr. Robert Hagen, transportation planner at the European Commission, and my presentation deals with the question of how we can fundamentally reshape mobility in European cities — and why this is urgently needed."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Die Ausgangslage ist alarmierend. In europäischen Städten werden über 60 Prozent aller Wege unter fünf Kilometer mit dem Auto zurückgelegt. Das führt zu Staus, Luftverschmutzung und einem enormen Flächenverbrauch. Bedenken Sie: Ein durchschnittliches Auto steht 23 Stunden am Tag still und nimmt dabei permanent öffentlichen Raum in Anspruch. Wir widmen in unseren Städten mehr Platz dem parkenden Auto als den Menschen, die darin leben. In München beispielsweise nehmen Parkplätze und Straßen zusammen etwa 50 Prozent der gesamten Stadtfläche ein.",
+      "text_en": "The starting point is alarming. In European cities, over 60 percent of all trips under five kilometers are made by car. This leads to traffic jams, air pollution, and an enormous consumption of space. Consider this: an average car stands still 23 hours a day while permanently occupying public space. We dedicate more space in our cities to parked cars than to the people who live in them. In Munich, for example, parking spaces and roads together take up about 50 percent of the total city area."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Die gute Nachricht ist: Es gibt Städte, die zeigen, dass es anders geht. Kopenhagen hat es geschafft, den Anteil des Radverkehrs auf 62 Prozent aller Arbeitswege zu steigern — durch konsequenten Ausbau der Radinfrastruktur, sichere Kreuzungen und eine Stadtplanung, die das Fahrrad gegenüber dem Auto bevorzugt. Paris hat unter Bürgermeisterin Hidalgo in nur fünf Jahren über 60 Kilometer Radwege gebaut und den Autoverkehr in der Innenstadt um 30 Prozent reduziert. Und Wien wurde zum wiederholten Mal zur Stadt mit der höchsten Lebensqualität gewählt — nicht zuletzt dank eines Jahrestickets für den gesamten öffentlichen Nahverkehr, das nur 365 Euro kostet, also einen Euro pro Tag.",
+      "text_en": "The good news is: there are cities that show it can be done differently. Copenhagen has managed to increase the share of bicycle traffic to 62 percent of all commutes — through consistent expansion of cycling infrastructure, safe intersections, and urban planning that prioritizes bicycles over cars. Paris under Mayor Hidalgo has built over 60 kilometers of bike lanes in just five years and reduced car traffic in the city center by 30 percent. And Vienna has been repeatedly voted the city with the highest quality of life — not least thanks to an annual ticket for all public transportation that costs only 365 euros, or one euro per day."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Was müsste sich in Deutschland ändern? Zunächst brauchen wir einen Paradigmenwechsel in der Verkehrsplanung. Bisher wird Verkehr vom Auto her gedacht — Straßen werden breiter gebaut, Parkplätze werden subventioniert. Wir müssen umgekehrt denken: Wie schaffen wir es, dass Menschen das Auto nicht mehr brauchen? Das erfordert massive Investitionen in den öffentlichen Nahverkehr, insbesondere in Städten unter 200.000 Einwohnern, wo das Angebot oft miserabel ist.",
+      "text_en": "What would need to change in Germany? First, we need a paradigm shift in transportation planning. Until now, traffic has been thought of from the car's perspective — roads are built wider, parking spaces are subsidized. We need to think the other way around: How do we make it so that people no longer need cars? This requires massive investments in public transportation, especially in cities with fewer than 200,000 residents, where the service is often miserable."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Abschließend möchte ich betonen, dass die Verkehrswende keine Einschränkung der Freiheit bedeutet, sondern ein Gewinn an Lebensqualität. Stellen Sie sich Ihre Innenstadt vor, wenn die Hälfte der Parkplätze zu Parks, Spielplätzen und Straßencafés werden würde. Wenn die Luft sauber wäre und Kinder sicher zur Schule laufen könnten. Das ist keine Utopie — das ist die Realität in Städten, die den Mut hatten, umzudenken. Die Technologien und Konzepte existieren. Was uns fehlt, ist der politische Wille. Danke sehr.",
+      "text_en": "In conclusion, I want to emphasize that the transportation transition does not mean a restriction of freedom but a gain in quality of life. Imagine your city center if half of the parking spaces became parks, playgrounds, and street cafés. If the air were clean and children could walk safely to school. This is not a utopia — this is the reality in cities that had the courage to rethink. The technologies and concepts exist. What we lack is the political will. Thank you very much."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Stunden am Tag steht ein durchschnittliches Auto laut Dr. Hagen still?",
+      "text_en": "How many hours a day does an average car stand still according to Dr. Hagen?",
+      "options": [
+        "a) 23 Stunden.",
+        "b) 18 Stunden.",
+        "c) 20 Stunden."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Ein durchschnittliches Auto steht 23 Stunden am Tag still und nimmt permanent öffentlichen Raum ein.",
+      "explanation_en": "An average car stands still 23 hours a day while permanently occupying public space."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist der Radverkehrsanteil an Arbeitswegen in Kopenhagen?",
+      "text_en": "What is the share of bicycle traffic for commutes in Copenhagen?",
+      "options": [
+        "a) 62 Prozent.",
+        "b) 48 Prozent.",
+        "c) 35 Prozent."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Kopenhagen hat den Anteil des Radverkehrs auf 62 Prozent aller Arbeitswege gesteigert.",
+      "explanation_en": "Copenhagen has increased the share of bicycle traffic to 62 percent of all commutes."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kostet das Jahresticket für den öffentlichen Nahverkehr in Wien?",
+      "text_en": "How much does the annual ticket for public transportation in Vienna cost?",
+      "options": [
+        "a) 200 Euro.",
+        "b) 365 Euro.",
+        "c) 500 Euro."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Jahresticket für den gesamten öffentlichen Nahverkehr in Wien kostet 365 Euro, also einen Euro pro Tag.",
+      "explanation_en": "The annual ticket for all public transportation in Vienna costs 365 euros, or one euro per day."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Dr. Hagen an der bisherigen deutschen Verkehrsplanung?",
+      "text_en": "What does Dr. Hagen criticize about previous German transportation planning?",
+      "options": [
+        "a) Dass der Verkehr bisher vom Auto her gedacht wird, mit breiteren Straßen und subventionierten Parkplätzen.",
+        "b) Dass zu viel in öffentliche Verkehrsmittel investiert wird.",
+        "c) Dass der Radverkehr zu stark gefördert wird."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Er kritisiert, dass Verkehr bisher vom Auto her gedacht wird — Straßen werden breiter gebaut und Parkplätze subventioniert.",
+      "explanation_en": "He criticizes that traffic has been thought of from the car's perspective — roads are built wider and parking spaces are subsidized."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fehlt laut Dr. Hagen für die Verkehrswende?",
+      "text_en": "What is missing for the transportation transition according to Dr. Hagen?",
+      "options": [
+        "a) Der politische Wille.",
+        "b) Die nötigen Technologien und Konzepte.",
+        "c) Das Interesse der Bürger."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Technologien und Konzepte existieren bereits, aber es fehlt der politische Wille.",
+      "explanation_en": "The technologies and concepts already exist, but the political will is missing."
+    }
+  ]
+}

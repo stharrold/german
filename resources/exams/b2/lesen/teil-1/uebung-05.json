@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-1-005",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Urban Gardening: Gärtnern in der Stadt",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "In vielen deutschen Großstädten breitet sich ein Trend aus, der Natur und Stadtleben miteinander verbindet: Urban Gardening. Auf Dachterrassen, in Hinterhöfen und auf brachliegenden Grundstücken entstehen gemeinschaftlich bewirtschaftete Gärten, in denen Tomaten, Kräuter und Salat angebaut werden. Allein in Berlin gibt es mittlerweile über 200 solcher Projekte, und auch in Hamburg, Köln und München wächst die Bewegung rasant.\n\nDie Motivation der Teilnehmer geht weit über den Wunsch nach frischem Gemüse hinaus. Viele sehen im gemeinschaftlichen Gärtnern eine Möglichkeit, soziale Kontakte zu knüpfen und das Zusammenleben im Stadtviertel zu stärken. Rentnerin Helga Braun, die seit drei Jahren in einem Gemeinschaftsgarten in Berlin-Kreuzberg aktiv ist, erzählt: „Hier treffe ich Menschen aus zwölf verschiedenen Ländern. Wir tauschen nicht nur Setzlinge aus, sondern auch Rezepte und Geschichten. Der Garten hat meine Nachbarschaft verändert.“\n\nÖkologen begrüßen die Bewegung, da städtische Grünflächen die Biodiversität fördern und zur Verbesserung des Mikroklimas beitragen. Bienen und Schmetterlinge finden Nahrung, Regenwasser wird besser absorbiert, und die Temperatur in dicht bebauten Vierteln sinkt messbar. Stadtplaner stehen dem Phänomen jedoch ambivalent gegenüber. Einerseits erkennen sie den sozialen und ökologischen Nutzen an, andererseits stehen die Flächen in Konkurrenz zu dringend benötigtem Wohnraum. Die Lösung könnte in der vertikalen Begrünung von Fassaden und der Integration von Nutzgärten in neue Wohnbauprojekte liegen.",
+    "text_en": "In many major German cities, a trend is spreading that connects nature and city life: urban gardening. On rooftop terraces, in backyards, and on vacant lots, communally cultivated gardens are emerging where tomatoes, herbs, and lettuce are grown. In Berlin alone, there are now over 200 such projects, and the movement is also growing rapidly in Hamburg, Cologne, and Munich.\n\nThe motivation of participants goes far beyond the desire for fresh vegetables. Many see communal gardening as an opportunity to make social connections and strengthen community life in the neighborhood. Retiree Helga Braun, who has been active in a community garden in Berlin-Kreuzberg for three years, says: 'Here I meet people from twelve different countries. We exchange not only seedlings but also recipes and stories. The garden has changed my neighborhood.'\n\nEcologists welcome the movement, as urban green spaces promote biodiversity and contribute to improving the microclimate. Bees and butterflies find food, rainwater is better absorbed, and the temperature in densely built-up areas drops measurably. City planners, however, are ambivalent about the phenomenon. On one hand, they recognize the social and ecological benefits; on the other hand, the areas compete with urgently needed housing. The solution could lie in vertical greening of facades and the integration of kitchen gardens into new housing development projects.",
+    "source": "Zeitschrift",
+    "word_count": 218
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo entstehen die gemeinschaftlichen Gärten?",
+      "text_en": "Where are the communal gardens being established?",
+      "options": [
+        "a) Ausschließlich in öffentlichen Parks.",
+        "b) Auf Dachterrassen, in Hinterhöfen und auf brachliegenden Grundstücken.",
+        "c) Nur in speziell dafür ausgewiesenen Gebieten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Gärten entstehen auf Dachterrassen, in Hinterhöfen und auf brachliegenden Grundstücken.",
+      "explanation_en": "The gardens are established on rooftop terraces, in backyards, and on vacant lots."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was motiviert die Teilnehmer laut Text hauptsächlich?",
+      "text_en": "What mainly motivates participants according to the text?",
+      "options": [
+        "a) Soziale Kontakte zu knüpfen und die Nachbarschaft zu stärken.",
+        "b) Geld durch den Verkauf von Gemüse zu verdienen.",
+        "c) Sich gegen Supermärkte zu positionieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Viele sehen im Gärtnern eine Möglichkeit, soziale Kontakte zu knüpfen und das Zusammenleben zu stärken.",
+      "explanation_en": "Many see gardening as an opportunity to make social connections and strengthen community life."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was berichtet Helga Braun über ihren Gemeinschaftsgarten?",
+      "text_en": "What does Helga Braun report about her community garden?",
+      "options": [
+        "a) Dass dort Menschen aus vielen Ländern zusammenkommen.",
+        "b) Dass er professionell von der Stadt verwaltet wird.",
+        "c) Dass er hauptsächlich von jungen Familien genutzt wird."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie trifft dort Menschen aus zwölf verschiedenen Ländern und tauscht Setzlinge, Rezepte und Geschichten aus.",
+      "explanation_en": "She meets people from twelve different countries there and exchanges seedlings, recipes, and stories."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen ökologischen Nutzen haben städtische Gärten?",
+      "text_en": "What ecological benefit do urban gardens have?",
+      "options": [
+        "a) Sie reduzieren den Autoverkehr in der Stadt.",
+        "b) Sie fördern die Biodiversität und verbessern das Mikroklima.",
+        "c) Sie ersetzen die Lebensmittelproduktion auf dem Land."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Städtische Grünflächen fördern die Biodiversität und verbessern das Mikroklima.",
+      "explanation_en": "Urban green spaces promote biodiversity and improve the microclimate."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum stehen Stadtplaner dem Trend ambivalent gegenüber?",
+      "text_en": "Why are city planners ambivalent about the trend?",
+      "options": [
+        "a) Weil die Flächen mit dem Bedarf an Wohnraum konkurrieren.",
+        "b) Weil die Gärten Lärm und Verschmutzung verursachen.",
+        "c) Weil die rechtliche Lage ungeklärt ist."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Flächen stehen in Konkurrenz zu dringend benötigtem Wohnraum.",
+      "explanation_en": "The areas compete with urgently needed housing."
+    }
+  ]
+}
