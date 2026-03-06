@@ -67,7 +67,10 @@ def test_a1_hoeren_exercises_valid(teil):
         assert ex.part == teil
         assert EXERCISE_ID_PATTERN.match(ex.id), f"Bad ID: {ex.id}"
         assert len(ex.transcript) >= 1
-        assert len(ex.questions) >= 1
+        expected_questions = {1: 5, 2: 4, 3: 5}
+        assert len(ex.questions) == expected_questions[teil], (
+            f"{ex.id}: expected {expected_questions[teil]} questions, got {len(ex.questions)}"
+        )
 
 
 # --- Lesen ---
@@ -118,6 +121,18 @@ def test_a1_schreiben_exercises_valid(aufgabe):
         assert EXERCISE_ID_PATTERN.match(ex.id), f"Bad ID: {ex.id}"
         assert ex.model_answer.text_de
         assert len(ex.required_points) >= 1
+
+
+@pytest.mark.parametrize("aufgabe", [1, 2])
+def test_a1_schreiben_word_count(aufgabe):
+    """Test that target_word_count matches model answer word count (±2)."""
+    aufgabe_dir = A1_DIR / "schreiben" / f"aufgabe-{aufgabe}"
+    exercises = load_exercises(aufgabe_dir, WritingExercise)
+    for ex in exercises:
+        actual = len(ex.model_answer.text_de.split())
+        assert abs(actual - ex.target_word_count) <= 2, (
+            f"{ex.id}: target_word_count={ex.target_word_count}, actual={actual}"
+        )
 
 
 # --- Sprechen ---
