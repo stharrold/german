@@ -45,11 +45,11 @@
       "text_de": "Warum schlägt die Wissenschaftlerin eine Zusammenarbeit vor?",
       "text_en": "Why does the scientist propose a collaboration?",
       "options": [
-        "a) Weil ihr Forschungsprojekt finanziell nicht mehr tragbar ist.",
+        "a) Weil die komplementären Stärken beider bildgebenden Verfahren zu robusteren Befunden führen könnten.",
         "b) Weil ihr eigenes Labor nicht über die nötige Ausstattung verfügt.",
-        "c) Weil die komplementären Stärken beider bildgebenden Verfahren zu robusteren Befunden führen könnten."
+        "c) Weil ihr Forschungsprojekt finanziell nicht mehr tragbar ist."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die komplementären Stärken von fMRT (räumliche Auflösung) und fNIRS (ökologische Validität) könnten zu robusteren Befunden führen.",
       "explanation_en": "The complementary strengths of fMRI (spatial resolution) and fNIRS (ecological validity) could lead to more robust findings."
     },
@@ -74,10 +74,10 @@
       "text_en": "What does Professor Weber suggest to the doctoral student?",
       "options": [
         "a) Ihre Ergebnisse zu verwerfen und einen neuen Ansatz zu wählen.",
-        "b) Sich an einen anderen Experten zu wenden.",
-        "c) Ihre vorläufigen Ergebnisse auf seinem Forschungskolloquium vorzustellen."
+        "b) Ihre vorläufigen Ergebnisse auf seinem Forschungskolloquium vorzustellen.",
+        "c) Sich an einen anderen Experten zu wenden."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Professor Weber lädt die Doktorandin ein, ihre vorläufigen Ergebnisse auf seinem nächsten Forschungskolloquium vorzustellen.",
       "explanation_en": "Professor Weber invites the doctoral student to present her preliminary results at his next research colloquium."
     },
