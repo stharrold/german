@@ -1,19 +1,29 @@
 # German Language Learning Repository
 
-A Python-based repository for German language learning resources, featuring B1 exam practice exercises in Goethe-Institut format.
+A Python-based repository for German language learning resources, featuring A2 and B1 exam practice exercises in Goethe-Institut format.
 
 ## Purpose
 
 This repository contains:
+- **A2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **B1 exam practice exercises** — 75 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
 - **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
 - **Certificate guides** — Reference materials for CEFR levels A1–C2
 - **Python tools** — Loader and query modules for vocabulary and exam data
 
-## B1 Exam Practice Content
+## Exam Practice Content
 
-75 exercises following the Goethe-Institut B1 exam format, with bilingual content (DE/EN):
+### A2 (65 exercises)
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–4 | 20 | Multiple-choice, true/false, matching |
+| **Lesen** (Reading) | Teil 1–4 | 20 | Multiple-choice, true/false, matching |
+| **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Informal messages, form filling |
+| **Sprechen** (Speaking) | Teil 1–3 | 15 | Topic cards, planning, discussions |
+
+### B1 (75 exercises)
 
 | Skill | Parts | Exercises | Format |
 |-------|-------|-----------|--------|
@@ -48,6 +58,12 @@ lesen = load_exercises(Path("resources/exams/b1/lesen"), ReadingExercise)
 ### Exercise Files
 
 ```
+resources/exams/a2/
+├── hoeren/teil-{1-4}/uebung-{01-05}.json
+├── lesen/teil-{1-4}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
+└── sprechen/teil-{1-3}/uebung-{01-05}.json
+
 resources/exams/b1/
 ├── hoeren/teil-{1-4}/uebung-{01-05}.json
 ├── lesen/teil-{1-5}/uebung-{01-05}.json
