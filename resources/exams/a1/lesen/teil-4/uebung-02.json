@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-4-002",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kursprogramm Volkshochschule",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Die Volkshochschule Frankfurt hat im Herbst viele neue Kurse. Der Kochkurs für Anfänger ist am Montag von 18:00 bis 20:00 Uhr. Sie lernen einfache deutsche Gerichte kochen. Der Yogakurs ist am Mittwoch und Freitag von 17:00 bis 18:00 Uhr. Bitte bringen Sie eine Yogamatte mit. Es gibt auch einen Fotokurs am Samstag von 10:00 bis 13:00 Uhr. Sie brauchen eine Kamera oder ein Handy. Jeder Kurs dauert 8 Wochen. Die Preise sind: Kochkurs 90 Euro, Yogakurs 70 Euro, Fotokurs 85 Euro. Anmeldung online oder im Büro bis 15. September.",
+    "text_en": "The adult education center Frankfurt has many new courses in autumn. The cooking course for beginners is on Monday from 6:00 PM to 8:00 PM. You learn to cook simple German dishes. The yoga course is on Wednesday and Friday from 5:00 PM to 6:00 PM. Please bring a yoga mat. There is also a photography course on Saturday from 10:00 AM to 1:00 PM. You need a camera or a phone. Each course lasts 8 weeks. The prices are: cooking course 90 euros, yoga course 70 euros, photography course 85 euros. Registration online or at the office by September 15th.",
+    "source": "Prospekt",
+    "word_count": 89
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der Kochkurs?",
+      "text_en": "When is the cooking course?",
+      "options": [
+        "a) Am Montag",
+        "b) Am Mittwoch",
+        "c) Am Samstag"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Kochkurs ist am Montag von 18:00 bis 20:00 Uhr.",
+      "explanation_en": "The cooking course is on Monday from 6:00 PM to 8:00 PM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was muss man zum Yogakurs mitbringen?",
+      "text_en": "What must you bring to the yoga course?",
+      "options": [
+        "a) Sportschuhe",
+        "b) Eine Yogamatte",
+        "c) Ein Handtuch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man muss eine Yogamatte mitbringen.",
+      "explanation_en": "You must bring a yoga mat."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet der Fotokurs?",
+      "text_en": "How much does the photography course cost?",
+      "options": [
+        "a) 70 Euro",
+        "b) 85 Euro",
+        "c) 90 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Fotokurs kostet 85 Euro.",
+      "explanation_en": "The photography course costs 85 euros."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert jeder Kurs?",
+      "text_en": "How long does each course last?",
+      "options": [
+        "a) 6 Wochen",
+        "b) 8 Wochen",
+        "c) 10 Wochen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Jeder Kurs dauert 8 Wochen.",
+      "explanation_en": "Each course lasts 8 weeks."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Bis wann muss man sich anmelden?",
+      "text_en": "By when must you register?",
+      "options": [
+        "a) Bis 1. September",
+        "b) Bis 15. September",
+        "c) Bis 30. September"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Anmeldung ist bis 15. September.",
+      "explanation_en": "Registration is by September 15th."
+    }
+  ]
+}

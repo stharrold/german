@@ -1,0 +1,133 @@
+{
+  "id": "a1-hoeren-teil-3-003",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Längeres Gespräch — Meine Familie",
+  "instructions": "Sie hören ein längeres Gespräch. Sie hören den Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Hallo Ahmed, erzählen Sie uns von Ihrer Familie.",
+      "text_en": "Hello Ahmed, tell us about your family."
+    },
+    {
+      "speaker": "Ahmed",
+      "text_de": "Gern! Ich komme aus Ägypten. Meine Familie ist groß. Ich habe zwei Brüder und eine Schwester.",
+      "text_en": "Gladly! I come from Egypt. My family is big. I have two brothers and one sister."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Wie alt sind Ihre Geschwister?",
+      "text_en": "How old are your siblings?"
+    },
+    {
+      "speaker": "Ahmed",
+      "text_de": "Mein älterer Bruder ist 30 Jahre alt. Er ist Ingenieur. Mein jüngerer Bruder ist 20 und studiert Medizin. Meine Schwester ist 25 und arbeitet als Lehrerin.",
+      "text_en": "My older brother is 30 years old. He is an engineer. My younger brother is 20 and studies medicine. My sister is 25 and works as a teacher."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Und Ihre Eltern? Was machen sie?",
+      "text_en": "And your parents? What do they do?"
+    },
+    {
+      "speaker": "Ahmed",
+      "text_de": "Mein Vater ist Arzt. Er arbeitet in einem Krankenhaus. Meine Mutter ist zu Hause. Sie kocht sehr gut!",
+      "text_en": "My father is a doctor. He works in a hospital. My mother is at home. She cooks very well!"
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Wohnt Ihre Familie in Deutschland?",
+      "text_en": "Does your family live in Germany?"
+    },
+    {
+      "speaker": "Ahmed",
+      "text_de": "Nein, meine Familie wohnt in Kairo. Ich wohne allein in Berlin. Aber ich telefoniere jeden Sonntag mit meiner Familie.",
+      "text_en": "No, my family lives in Cairo. I live alone in Berlin. But I call my family every Sunday."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Vermissen Sie Ihre Familie?",
+      "text_en": "Do you miss your family?"
+    },
+    {
+      "speaker": "Ahmed",
+      "text_de": "Ja, sehr. Aber im Sommer besuche ich sie für drei Wochen.",
+      "text_en": "Yes, very much. But in summer I visit them for three weeks."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Geschwister hat Ahmed?",
+      "text_en": "How many siblings does Ahmed have?",
+      "options": [
+        "a) Zwei",
+        "b) Drei",
+        "c) Vier"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ahmed hat drei Geschwister: zwei Brüder und eine Schwester.",
+      "explanation_en": "Ahmed has three siblings: two brothers and one sister."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was studiert Ahmeds jüngerer Bruder?",
+      "text_en": "What does Ahmed's younger brother study?",
+      "options": [
+        "a) Informatik",
+        "b) Medizin",
+        "c) Ingenieurwesen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sein jüngerer Bruder studiert Medizin.",
+      "explanation_en": "His younger brother studies medicine."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was ist Ahmeds Vater von Beruf?",
+      "text_en": "What is Ahmed's father's profession?",
+      "options": [
+        "a) Ingenieur",
+        "b) Lehrer",
+        "c) Arzt"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Ahmeds Vater ist Arzt.",
+      "explanation_en": "Ahmed's father is a doctor."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo wohnt Ahmed?",
+      "text_en": "Where does Ahmed live?",
+      "options": [
+        "a) In Kairo",
+        "b) In Berlin",
+        "c) In München"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ahmed wohnt allein in Berlin.",
+      "explanation_en": "Ahmed lives alone in Berlin."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie lange besucht Ahmed seine Familie im Sommer?",
+      "text_en": "How long does Ahmed visit his family in summer?",
+      "options": [
+        "a) Zwei Wochen",
+        "b) Drei Wochen",
+        "c) Vier Wochen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er besucht seine Familie für drei Wochen im Sommer.",
+      "explanation_en": "He visits his family for three weeks in summer."
+    }
+  ]
+}

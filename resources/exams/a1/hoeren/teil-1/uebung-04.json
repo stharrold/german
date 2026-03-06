@@ -1,0 +1,108 @@
+{
+  "id": "a1-hoeren-teil-1-004",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Ansagen — Flughafen, Kindergarten, Bäckerei",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Liebe Fluggäste, der Flug nach München hat 30 Minuten Verspätung. Der neue Abflug ist um 15 Uhr 30. Vielen Dank für Ihr Verständnis.",
+      "text_en": "Dear passengers, the flight to Munich is 30 minutes delayed. The new departure is at 3:30 PM. Thank you for your understanding."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Herr Weber, hier ist der Kindergarten Sonnenblume. Ihr Sohn hat Fieber. Bitte holen Sie ihn so schnell wie möglich ab.",
+      "text_en": "Hello Mr. Weber, this is the Sonnenblume kindergarten. Your son has a fever. Please pick him up as soon as possible."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Guten Morgen! In unserer Bäckerei gibt es heute frisches Brot für 2 Euro 50. Kommen Sie vorbei!",
+      "text_en": "Good morning! In our bakery there is fresh bread today for 2 euros 50. Come by!"
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Hallo Sabine, hier ist Thomas. Ich bin im Stau und komme 20 Minuten später. Warte bitte im Café auf mich.",
+      "text_en": "Hello Sabine, this is Thomas. I am in traffic and will be 20 minutes late. Please wait for me in the café."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Achtung, der Parkplatz vor dem Krankenhaus ist heute voll. Bitte benutzen Sie den Parkplatz in der Gartenstraße.",
+      "text_en": "Attention, the parking lot in front of the hospital is full today. Please use the parking lot on Gartenstraße."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Verspätung hat der Flug nach München?",
+      "text_en": "How much delay does the flight to Munich have?",
+      "options": [
+        "a) 15 Minuten",
+        "b) 30 Minuten",
+        "c) 45 Minuten"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Flug nach München hat 30 Minuten Verspätung.",
+      "explanation_en": "The flight to Munich is 30 minutes delayed."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist mit Herrn Webers Sohn?",
+      "text_en": "What is wrong with Mr. Weber's son?",
+      "options": [
+        "a) Er hat Kopfschmerzen",
+        "b) Er hat Fieber",
+        "c) Er hat Bauchschmerzen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sein Sohn hat Fieber.",
+      "explanation_en": "His son has a fever."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet das Brot in der Bäckerei?",
+      "text_en": "How much does the bread cost at the bakery?",
+      "options": [
+        "a) 1 Euro 50",
+        "b) 2 Euro 50",
+        "c) 3 Euro 50"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Brot kostet 2 Euro 50.",
+      "explanation_en": "The bread costs 2 euros 50."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo soll Sabine auf Thomas warten?",
+      "text_en": "Where should Sabine wait for Thomas?",
+      "options": [
+        "a) Im Restaurant",
+        "b) Im Café",
+        "c) Am Bahnhof"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Thomas bittet Sabine, im Café zu warten.",
+      "explanation_en": "Thomas asks Sabine to wait in the café."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wo soll man heute parken?",
+      "text_en": "Where should you park today?",
+      "options": [
+        "a) Vor dem Krankenhaus",
+        "b) In der Gartenstraße",
+        "c) Am Marktplatz"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man soll den Parkplatz in der Gartenstraße benutzen.",
+      "explanation_en": "You should use the parking lot on Gartenstraße."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-3-001",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Postkarte aus dem Urlaub",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Liebe Oma,\n\nviele Grüße aus Spanien! Wir sind seit Montag hier. Das Wetter ist super, jeden Tag Sonne und 30 Grad. Das Hotel ist sehr schön und hat einen Pool. Gestern waren wir am Strand und haben viel geschwommen. Das Essen hier ist lecker, besonders der Fisch. Am Freitag fliegen wir zurück nach Hamburg.\n\nBis bald!\nDeine Anna",
+    "text_en": "Dear Grandma,\n\nMany greetings from Spain! We have been here since Monday. The weather is great, sunshine and 30 degrees every day. The hotel is very nice and has a pool. Yesterday we were at the beach and swam a lot. The food here is delicious, especially the fish. On Friday we fly back to Hamburg.\n\nSee you soon!\nYour Anna",
+    "source": "Postkarte",
+    "word_count": 58
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo ist Anna?",
+      "text_en": "Where is Anna?",
+      "options": [
+        "a) In Italien",
+        "b) In Spanien",
+        "c) In Frankreich"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Anna schreibt Grüße aus Spanien.",
+      "explanation_en": "Anna writes greetings from Spain."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Seit wann ist Anna im Urlaub?",
+      "text_en": "Since when has Anna been on vacation?",
+      "options": [
+        "a) Seit Sonntag",
+        "b) Seit Montag",
+        "c) Seit Mittwoch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Anna ist seit Montag in Spanien.",
+      "explanation_en": "Anna has been in Spain since Monday."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was hat das Hotel?",
+      "text_en": "What does the hotel have?",
+      "options": [
+        "a) Einen Garten",
+        "b) Einen Pool",
+        "c) Ein Restaurant"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Hotel hat einen Pool.",
+      "explanation_en": "The hotel has a pool."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was schmeckt Anna besonders gut?",
+      "text_en": "What does Anna particularly enjoy eating?",
+      "options": [
+        "a) Die Pizza",
+        "b) Der Fisch",
+        "c) Das Fleisch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Essen ist lecker, besonders der Fisch.",
+      "explanation_en": "The food is delicious, especially the fish."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann fliegt Anna zurück?",
+      "text_en": "When does Anna fly back?",
+      "options": [
+        "a) Am Donnerstag",
+        "b) Am Freitag",
+        "c) Am Sonntag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Anna fliegt am Freitag zurück nach Hamburg.",
+      "explanation_en": "Anna flies back to Hamburg on Friday."
+    }
+  ]
+}

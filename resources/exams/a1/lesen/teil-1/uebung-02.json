@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-1-002",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Plakat: Flohmarkt",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Großer Flohmarkt!\nSamstag, 15. April\n9:00 – 16:00 Uhr\nAuf dem Parkplatz vom Supermarkt Kaufland\nKleidung, Bücher, Spielzeug, Möbel\nEintritt frei!\nSie möchten verkaufen? Ein Tisch kostet 10 Euro.\nAnmeldung bis 10. April unter: flohmarkt@stadt.de",
+    "text_en": "Big Flea Market!\nSaturday, April 15th\n9:00 AM – 4:00 PM\nAt the Kaufland supermarket parking lot\nClothing, books, toys, furniture\nFree admission!\nWould you like to sell? A table costs 10 euros.\nRegistration by April 10th at: flohmarkt@stadt.de",
+    "source": "Plakat",
+    "word_count": 35
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der Flohmarkt?",
+      "text_en": "When is the flea market?",
+      "options": [
+        "a) Am Sonntag",
+        "b) Am Samstag",
+        "c) Am Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Flohmarkt ist am Samstag, 15. April.",
+      "explanation_en": "The flea market is on Saturday, April 15th."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo ist der Flohmarkt?",
+      "text_en": "Where is the flea market?",
+      "options": [
+        "a) Im Stadtpark",
+        "b) Auf dem Parkplatz vom Supermarkt",
+        "c) In der Schule"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Flohmarkt ist auf dem Parkplatz vom Supermarkt Kaufland.",
+      "explanation_en": "The flea market is at the Kaufland supermarket parking lot."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kostet der Eintritt?",
+      "text_en": "How much does admission cost?",
+      "options": [
+        "a) 5 Euro",
+        "b) 10 Euro",
+        "c) Nichts, er ist frei"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Eintritt ist frei.",
+      "explanation_en": "Admission is free."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kostet ein Tisch zum Verkaufen?",
+      "text_en": "How much does a table for selling cost?",
+      "options": [
+        "a) 5 Euro",
+        "b) 10 Euro",
+        "c) 15 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ein Tisch zum Verkaufen kostet 10 Euro.",
+      "explanation_en": "A table for selling costs 10 euros."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Bis wann muss man sich anmelden?",
+      "text_en": "By when must you register?",
+      "options": [
+        "a) Bis 5. April",
+        "b) Bis 10. April",
+        "c) Bis 15. April"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man muss sich bis 10. April anmelden.",
+      "explanation_en": "You must register by April 10th."
+    }
+  ]
+}

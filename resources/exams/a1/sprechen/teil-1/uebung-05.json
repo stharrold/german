@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-1-005",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sich vorstellen: Tagesablauf und Alltag",
+  "instructions": "Stellen Sie sich vor. Der Prüfer / die Prüferin stellt Ihnen Fragen zu Ihrer Person.",
+  "situation_de": "Sie sprechen mit Ihrem Deutschlehrer / Ihrer Deutschlehrerin. Er / sie fragt Sie nach Ihrem Tagesablauf und Ihrem Alltag.",
+  "situation_en": "You are talking to your German teacher. He / she asks you about your daily routine and everyday life.",
+  "discussion_points": [
+    "Wann stehen Sie auf? (When do you get up?)",
+    "Was machen Sie am Morgen? (What do you do in the morning?)",
+    "Was machen Sie am Abend? (What do you do in the evening?)",
+    "Wann gehen Sie schlafen? (When do you go to sleep?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Erzählen Sie mir von Ihrem Tag. Wann stehen Sie auf?",
+      "text_en": "Tell me about your day. When do you get up?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich stehe um sieben Uhr auf.",
+      "text_en": "I get up at seven o'clock."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was machen Sie am Morgen?",
+      "text_en": "What do you do in the morning?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Morgen dusche ich und frühstücke. Dann gehe ich zur Arbeit.",
+      "text_en": "In the morning I shower and have breakfast. Then I go to work."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und was machen Sie am Abend?",
+      "text_en": "And what do you do in the evening?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Abend koche ich das Abendessen. Dann sehe ich fern oder lese ein Buch.",
+      "text_en": "In the evening I cook dinner. Then I watch TV or read a book."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wann gehen Sie schlafen?",
+      "text_en": "When do you go to sleep?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich gehe um halb elf schlafen. Das ist nicht zu spät.",
+      "text_en": "I go to sleep at half past ten. That is not too late."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat beschreibt seinen Tagesablauf und beantwortet alle Fragen.",
+    "Interaktion: Der Kandidat versteht die Fragen und gibt zusammenhängende Antworten.",
+    "Wortschatz: Grundwortschatz zu Tagesablauf und Uhrzeiten auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit trennbaren Verben und Zeitangaben.",
+    "Aussprache und Intonation: Verständliche Aussprache der Alltagsbegriffe und Uhrzeiten."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-2-002",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Themenkarten: Wetter und Jahreszeiten",
+  "instructions": "Sie bekommen eine Karte mit einem Thema und einem Wort. Stellen Sie eine Frage zu dem Wort und beantworten Sie die Frage Ihres Partners / Ihrer Partnerin.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin ziehen Karten zum Thema Wetter und Jahreszeiten. Stellen Sie Fragen und beantworten Sie die Fragen.",
+  "situation_en": "You and your partner draw cards on the topic of weather and seasons. Ask questions and answer the questions.",
+  "discussion_points": [
+    "Wetter heute: Wie ist das Wetter heute? (Weather today: How is the weather today?)",
+    "Lieblingsjahreszeit: Welche Jahreszeit mögen Sie am liebsten? (Favorite season: Which season do you like best?)",
+    "Sommer: Was machen Sie im Sommer? (Summer: What do you do in summer?)",
+    "Regen: Was machen Sie, wenn es regnet? (Rain: What do you do when it rains?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte beginnen Sie. Stellen Sie eine Frage zu Ihrer Karte.",
+      "text_en": "Please begin. Ask a question about your card."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Karte ist Wetter heute. Wie ist das Wetter heute?",
+      "text_en": "My card is weather today. How is the weather today?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Heute ist es sonnig und warm. Es sind 25 Grad. Und wie finden Sie das Wetter?",
+      "text_en": "Today it is sunny and warm. It is 25 degrees. And how do you find the weather?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich finde das Wetter sehr schön. Ich mag die Sonne. Jetzt Sie.",
+      "text_en": "I find the weather very nice. I like the sun. Now you."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Karte ist Lieblingsjahreszeit. Welche Jahreszeit mögen Sie am liebsten?",
+      "text_en": "My card is favorite season. Which season do you like best?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich mag den Frühling am liebsten. Es ist nicht zu kalt und nicht zu warm.",
+      "text_en": "I like spring the best. It is not too cold and not too warm."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich mag den Sommer. Was machen Sie im Sommer?",
+      "text_en": "I like summer. What do you do in summer?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Im Sommer gehe ich gern schwimmen und ich esse viel Eis.",
+      "text_en": "In summer I like to go swimming and I eat a lot of ice cream."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt Fragen zu den Karten und beantwortet die Fragen des Partners.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten und führt das Gespräch weiter.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Wetter und Jahreszeiten auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit Wetterbeschreibungen und Zeitangaben.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Frageintonation."
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "a1-hoeren-teil-3-005",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Längeres Gespräch — Im Sprachkurs",
+  "instructions": "Sie hören ein längeres Gespräch. Sie hören den Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Willkommen im Deutschkurs! Heute stellen wir uns vor. Wer möchte anfangen?",
+      "text_en": "Welcome to the German course! Today we introduce ourselves. Who would like to start?"
+    },
+    {
+      "speaker": "Yuki",
+      "text_de": "Ich fange an. Ich heiße Yuki und komme aus Japan. Ich bin 28 Jahre alt und wohne seit vier Monaten in Frankfurt.",
+      "text_en": "I'll start. My name is Yuki and I come from Japan. I am 28 years old and have been living in Frankfurt for four months."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Schön, Yuki. Warum lernen Sie Deutsch?",
+      "text_en": "Nice, Yuki. Why are you learning German?"
+    },
+    {
+      "speaker": "Yuki",
+      "text_de": "Mein Mann arbeitet hier. Er ist Programmierer. Ich möchte auch Arbeit finden. Ich bin Grafikdesignerin.",
+      "text_en": "My husband works here. He is a programmer. I would also like to find work. I am a graphic designer."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Sehr gut. Und Sie?",
+      "text_en": "Very good. And you?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Ich bin Carlos aus Brasilien. Ich bin 35 und lerne Deutsch für mein Studium. Ich möchte in Deutschland Wirtschaft studieren.",
+      "text_en": "I am Carlos from Brazil. I am 35 and learning German for my studies. I would like to study business in Germany."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Sprechen Sie noch andere Sprachen?",
+      "text_en": "Do you speak other languages?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Ja, ich spreche Portugiesisch, Spanisch und Englisch. Deutsch ist meine vierte Sprache.",
+      "text_en": "Yes, I speak Portuguese, Spanish, and English. German is my fourth language."
+    },
+    {
+      "speaker": "Lehrerin",
+      "text_de": "Das ist toll! Was machen Sie gern in Ihrer Freizeit?",
+      "text_en": "That is great! What do you like to do in your free time?"
+    },
+    {
+      "speaker": "Carlos",
+      "text_de": "Ich spiele gern Fußball und ich koche gern brasilianisches Essen.",
+      "text_en": "I like to play football and I like to cook Brazilian food."
+    },
+    {
+      "speaker": "Yuki",
+      "text_de": "Ich male gern und gehe gern in Museen. Frankfurt hat viele tolle Museen.",
+      "text_en": "I like to paint and I like to go to museums. Frankfurt has many great museums."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie lange wohnt Yuki in Frankfurt?",
+      "text_en": "How long has Yuki been living in Frankfurt?",
+      "options": [
+        "a) Zwei Monate",
+        "b) Vier Monate",
+        "c) Sechs Monate"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Yuki wohnt seit vier Monaten in Frankfurt.",
+      "explanation_en": "Yuki has been living in Frankfurt for four months."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist Yuki von Beruf?",
+      "text_en": "What is Yuki's profession?",
+      "options": [
+        "a) Programmiererin",
+        "b) Grafikdesignerin",
+        "c) Lehrerin"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Yuki ist Grafikdesignerin.",
+      "explanation_en": "Yuki is a graphic designer."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum lernt Carlos Deutsch?",
+      "text_en": "Why is Carlos learning German?",
+      "options": [
+        "a) Für die Arbeit",
+        "b) Für sein Studium",
+        "c) Für seine Familie"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Carlos lernt Deutsch für sein Studium.",
+      "explanation_en": "Carlos is learning German for his studies."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Sprachen spricht Carlos?",
+      "text_en": "How many languages does Carlos speak?",
+      "options": [
+        "a) Drei",
+        "b) Vier",
+        "c) Fünf"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Carlos spricht vier Sprachen: Portugiesisch, Spanisch, Englisch und Deutsch.",
+      "explanation_en": "Carlos speaks four languages: Portuguese, Spanish, English, and German."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was macht Yuki gern in ihrer Freizeit?",
+      "text_en": "What does Yuki like to do in her free time?",
+      "options": [
+        "a) Kochen und Fußball spielen",
+        "b) Malen und in Museen gehen",
+        "c) Lesen und schwimmen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Yuki malt gern und geht gern in Museen.",
+      "explanation_en": "Yuki likes to paint and go to museums."
+    }
+  ]
+}

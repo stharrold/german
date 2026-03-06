@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-4-004",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Bibliothek der Stadt Leipzig",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Die Stadtbibliothek Leipzig ist in der Karlstraße 10. Sie hat über 50.000 Bücher, Zeitungen und Filme. Die Bibliothek ist von Montag bis Freitag von 9:00 bis 19:00 Uhr geöffnet. Am Samstag ist sie von 10:00 bis 14:00 Uhr offen. Am Sonntag ist sie geschlossen. Eine Jahreskarte kostet 15 Euro für Erwachsene. Für Kinder und Jugendliche bis 18 Jahre ist die Karte kostenlos. Sie können bis zu 10 Bücher für 4 Wochen ausleihen. Es gibt auch Computer mit Internet. Die Bibliothek hat ein Café im Erdgeschoss. Jeden Donnerstag um 16:00 Uhr gibt es eine Lesestunde für Kinder.",
+    "text_en": "The Leipzig city library is at Karlstrasse 10. It has over 50,000 books, newspapers, and movies. The library is open from Monday to Friday from 9:00 AM to 7:00 PM. On Saturday it is open from 10:00 AM to 2:00 PM. On Sunday it is closed. An annual card costs 15 euros for adults. For children and young people up to 18 years the card is free. You can borrow up to 10 books for 4 weeks. There are also computers with internet. The library has a café on the ground floor. Every Thursday at 4:00 PM there is a reading hour for children.",
+    "source": "Prospekt",
+    "word_count": 96
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Jahreskarte für Erwachsene?",
+      "text_en": "How much does the annual card cost for adults?",
+      "options": [
+        "a) 10 Euro",
+        "b) 15 Euro",
+        "c) 20 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Jahreskarte kostet 15 Euro für Erwachsene.",
+      "explanation_en": "The annual card costs 15 euros for adults."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Bücher kann man ausleihen?",
+      "text_en": "How many books can you borrow?",
+      "options": [
+        "a) Bis zu 5",
+        "b) Bis zu 10",
+        "c) Bis zu 15"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man kann bis zu 10 Bücher ausleihen.",
+      "explanation_en": "You can borrow up to 10 books."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie lange kann man die Bücher behalten?",
+      "text_en": "How long can you keep the books?",
+      "options": [
+        "a) 2 Wochen",
+        "b) 3 Wochen",
+        "c) 4 Wochen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Man kann die Bücher für 4 Wochen ausleihen.",
+      "explanation_en": "You can borrow the books for 4 weeks."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Zahlen Kinder für die Karte?",
+      "text_en": "Do children pay for the card?",
+      "options": [
+        "a) Ja, 5 Euro",
+        "b) Ja, 10 Euro",
+        "c) Nein, die Karte ist kostenlos"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Für Kinder und Jugendliche bis 18 Jahre ist die Karte kostenlos.",
+      "explanation_en": "For children and young people up to 18 years the card is free."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Lesestunde für Kinder?",
+      "text_en": "When is the reading hour for children?",
+      "options": [
+        "a) Jeden Mittwoch um 15:00 Uhr",
+        "b) Jeden Donnerstag um 16:00 Uhr",
+        "c) Jeden Freitag um 17:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Lesestunde für Kinder ist jeden Donnerstag um 16:00 Uhr.",
+      "explanation_en": "The reading hour for children is every Thursday at 4:00 PM."
+    }
+  ]
+}

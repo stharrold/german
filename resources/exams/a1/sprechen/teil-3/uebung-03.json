@@ -1,0 +1,70 @@
+{
+  "id": "a1-sprechen-teil-3-003",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Etwas planen: Zusammen kochen",
+  "instructions": "Sie möchten etwas mit Ihrem Partner / Ihrer Partnerin zusammen machen. Machen Sie einen Vorschlag und einigen Sie sich.",
+  "situation_de": "Sie möchten am Abend zusammen mit einem Freund / einer Freundin kochen. Planen Sie das gemeinsame Kochen.",
+  "situation_en": "You would like to cook together with a friend in the evening. Plan the cooking together.",
+  "discussion_points": [
+    "Was kochen wir? (What shall we cook?)",
+    "Was brauchen wir? (What do we need?)",
+    "Wer kauft ein? (Who does the shopping?)",
+    "Um wie viel Uhr treffen wir uns? (What time shall we meet?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Hallo! Wollen wir heute Abend zusammen kochen?",
+      "text_en": "Hello! Shall we cook together this evening?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, gern! Was möchtest du kochen?",
+      "text_en": "Yes, gladly! What would you like to cook?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wir können Spaghetti kochen. Das ist einfach und lecker.",
+      "text_en": "We can cook spaghetti. That is easy and tasty."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gute Idee! Was brauchen wir? Tomaten und Nudeln?",
+      "text_en": "Good idea! What do we need? Tomatoes and pasta?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, und Zwiebeln und Käse. Kannst du die Tomaten kaufen?",
+      "text_en": "Yes, and onions and cheese. Can you buy the tomatoes?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, ich kaufe die Tomaten und die Zwiebeln. Und du?",
+      "text_en": "Yes, I will buy the tomatoes and the onions. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bringe die Nudeln und den Käse mit. Um wie viel Uhr treffen wir uns?",
+      "text_en": "I will bring the pasta and the cheese. What time shall we meet?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Um sechs Uhr bei mir? Ist das okay?",
+      "text_en": "At six o'clock at my place? Is that okay?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, perfekt. Bis heute Abend!",
+      "text_en": "Yes, perfect. See you this evening!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat macht Vorschläge und einigt sich mit dem Partner.",
+    "Interaktion: Der Kandidat reagiert auf die Vorschläge des Partners und macht eigene Vorschläge.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Kochen und Lebensmittel auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit wollen, können und Imperativ.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "a1-hoeren-teil-2-004",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Kurze Gespräche — Arbeit und Alltag",
+  "instructions": "Sie hören vier kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Kollegin",
+      "text_de": "Guten Morgen, Herr Schmidt. Wie geht es Ihnen?",
+      "text_en": "Good morning, Mr. Schmidt. How are you?"
+    },
+    {
+      "speaker": "Gespräch 1 — Herr Schmidt",
+      "text_de": "Gut, danke. Ich bin heute müde. Mein Kind war in der Nacht krank.",
+      "text_en": "Good, thank you. I am tired today. My child was sick during the night."
+    },
+    {
+      "speaker": "Gespräch 1 — Kollegin",
+      "text_de": "Oh, das tut mir leid. Geht es dem Kind jetzt besser?",
+      "text_en": "Oh, I am sorry. Is the child doing better now?"
+    },
+    {
+      "speaker": "Gespräch 1 — Herr Schmidt",
+      "text_de": "Ja, danke. Meine Frau ist zu Hause bei ihm.",
+      "text_en": "Yes, thank you. My wife is at home with him."
+    },
+    {
+      "speaker": "Gespräch 2 — Kellnerin",
+      "text_de": "Was darf ich Ihnen bringen?",
+      "text_en": "What may I bring you?"
+    },
+    {
+      "speaker": "Gespräch 2 — Gast",
+      "text_de": "Ich hätte gern eine Pizza Margherita und ein Wasser, bitte.",
+      "text_en": "I would like a Pizza Margherita and a water, please."
+    },
+    {
+      "speaker": "Gespräch 2 — Kellnerin",
+      "text_de": "Mit oder ohne Gas?",
+      "text_en": "Sparkling or still?"
+    },
+    {
+      "speaker": "Gespräch 2 — Gast",
+      "text_de": "Ohne Gas, bitte.",
+      "text_en": "Still, please."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau",
+      "text_de": "Entschuldigung, wie spät ist es?",
+      "text_en": "Excuse me, what time is it?"
+    },
+    {
+      "speaker": "Gespräch 3 — Mann",
+      "text_de": "Es ist halb drei.",
+      "text_en": "It is half past two."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau",
+      "text_de": "Danke! Dann muss ich mich beeilen. Mein Zug fährt um 15 Uhr.",
+      "text_en": "Thank you! Then I have to hurry. My train leaves at 3 PM."
+    },
+    {
+      "speaker": "Gespräch 4 — Nachbar",
+      "text_de": "Guten Tag, ich bin Ihr neuer Nachbar. Ich heiße Jens.",
+      "text_en": "Good day, I am your new neighbor. My name is Jens."
+    },
+    {
+      "speaker": "Gespräch 4 — Nachbarin",
+      "text_de": "Willkommen! Ich bin Petra. Wohnen Sie allein?",
+      "text_en": "Welcome! I am Petra. Do you live alone?"
+    },
+    {
+      "speaker": "Gespräch 4 — Nachbar",
+      "text_de": "Nein, ich wohne mit meiner Frau und unserer Katze hier.",
+      "text_en": "No, I live here with my wife and our cat."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum ist Herr Schmidt müde?",
+      "text_en": "Why is Mr. Schmidt tired?",
+      "options": [
+        "a) Er hat viel gearbeitet",
+        "b) Sein Kind war in der Nacht krank",
+        "c) Er hat schlecht geschlafen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sein Kind war in der Nacht krank.",
+      "explanation_en": "His child was sick during the night."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was bestellt der Gast zu essen?",
+      "text_en": "What does the guest order to eat?",
+      "options": [
+        "a) Einen Salat",
+        "b) Eine Pizza Margherita",
+        "c) Eine Suppe"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Gast bestellt eine Pizza Margherita.",
+      "explanation_en": "The guest orders a Pizza Margherita."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie spät ist es?",
+      "text_en": "What time is it?",
+      "options": [
+        "a) Halb zwei",
+        "b) Halb drei",
+        "c) Drei Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es ist halb drei (14:30 Uhr).",
+      "explanation_en": "It is half past two (2:30 PM)."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Mit wem wohnt Jens zusammen?",
+      "text_en": "Who does Jens live with?",
+      "options": [
+        "a) Allein",
+        "b) Mit seiner Frau und einer Katze",
+        "c) Mit seinem Bruder"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Jens wohnt mit seiner Frau und der Katze zusammen.",
+      "explanation_en": "Jens lives with his wife and the cat."
+    }
+  ]
+}

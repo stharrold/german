@@ -1,0 +1,124 @@
+{
+  "id": "a1-hoeren-teil-2-002",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Kurze Gespräche — Einkaufen und Freizeit",
+  "instructions": "Sie hören vier kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Verkäuferin",
+      "text_de": "Guten Tag, kann ich Ihnen helfen?",
+      "text_en": "Good day, can I help you?"
+    },
+    {
+      "speaker": "Gespräch 1 — Kunde",
+      "text_de": "Ja, ich suche ein weißes T-Shirt in Größe M.",
+      "text_en": "Yes, I am looking for a white T-shirt in size M."
+    },
+    {
+      "speaker": "Gespräch 1 — Verkäuferin",
+      "text_de": "Hier bitte. Das kostet 15 Euro.",
+      "text_en": "Here you go. That costs 15 euros."
+    },
+    {
+      "speaker": "Gespräch 2 — Lisa",
+      "text_de": "Was machst du am Wochenende, Tom?",
+      "text_en": "What are you doing this weekend, Tom?"
+    },
+    {
+      "speaker": "Gespräch 2 — Tom",
+      "text_de": "Am Samstag spiele ich Tennis. Und am Sonntag besuche ich meine Eltern.",
+      "text_en": "On Saturday I play tennis. And on Sunday I visit my parents."
+    },
+    {
+      "speaker": "Gespräch 2 — Lisa",
+      "text_de": "Schön! Ich gehe am Samstag ins Kino.",
+      "text_en": "Nice! I am going to the cinema on Saturday."
+    },
+    {
+      "speaker": "Gespräch 3 — Arzt",
+      "text_de": "Was fehlt Ihnen?",
+      "text_en": "What is wrong?"
+    },
+    {
+      "speaker": "Gespräch 3 — Patient",
+      "text_de": "Ich habe seit drei Tagen Halsschmerzen und Husten.",
+      "text_en": "I have had a sore throat and cough for three days."
+    },
+    {
+      "speaker": "Gespräch 3 — Arzt",
+      "text_de": "Gut, ich schreibe Ihnen ein Rezept. Nehmen Sie die Tabletten dreimal am Tag.",
+      "text_en": "Good, I will write you a prescription. Take the tablets three times a day."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Entschuldigung, fährt dieser Bus zum Krankenhaus?",
+      "text_en": "Excuse me, does this bus go to the hospital?"
+    },
+    {
+      "speaker": "Gespräch 4 — Busfahrer",
+      "text_de": "Nein, Sie brauchen die Linie 12. Diese Haltestelle ist auf der anderen Straßenseite.",
+      "text_en": "No, you need line 12. That bus stop is on the other side of the street."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet das T-Shirt?",
+      "text_en": "How much does the T-shirt cost?",
+      "options": [
+        "a) 10 Euro",
+        "b) 15 Euro",
+        "c) 20 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das weiße T-Shirt kostet 15 Euro.",
+      "explanation_en": "The white T-shirt costs 15 euros."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was macht Tom am Samstag?",
+      "text_en": "What does Tom do on Saturday?",
+      "options": [
+        "a) Er geht ins Kino",
+        "b) Er besucht seine Eltern",
+        "c) Er spielt Tennis"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Samstag spielt Tom Tennis.",
+      "explanation_en": "On Saturday Tom plays tennis."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie oft soll der Patient die Tabletten nehmen?",
+      "text_en": "How often should the patient take the tablets?",
+      "options": [
+        "a) Einmal am Tag",
+        "b) Zweimal am Tag",
+        "c) Dreimal am Tag"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Patient soll die Tabletten dreimal am Tag nehmen.",
+      "explanation_en": "The patient should take the tablets three times a day."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Buslinie fährt zum Krankenhaus?",
+      "text_en": "Which bus line goes to the hospital?",
+      "options": [
+        "a) Linie 8",
+        "b) Linie 10",
+        "c) Linie 12"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Linie 12 fährt zum Krankenhaus.",
+      "explanation_en": "Line 12 goes to the hospital."
+    }
+  ]
+}

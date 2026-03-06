@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-3-003",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail: Einladung zum Abendessen",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Lieber Thomas,\n\nam Samstag koche ich für Freunde. Ich mache Pasta mit Gemüse. Möchtest du auch kommen? Wir essen um 19:00 Uhr. Meine Adresse ist Mozartstraße 8, dritter Stock. Du kannst gerne eine Flasche Wein mitbringen. Sarah und Jan kommen auch. Bitte sag mir bis Freitag Bescheid.\n\nLiebe Grüße\nLukas",
+    "text_en": "Dear Thomas,\n\nOn Saturday I am cooking for friends. I am making pasta with vegetables. Would you like to come too? We eat at 7:00 PM. My address is Mozartstrasse 8, third floor. You are welcome to bring a bottle of wine. Sarah and Jan are also coming. Please let me know by Friday.\n\nBest regards\nLukas",
+    "source": "E-Mail",
+    "word_count": 50
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kocht Lukas?",
+      "text_en": "What is Lukas cooking?",
+      "options": [
+        "a) Suppe",
+        "b) Pasta mit Gemüse",
+        "c) Pizza"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lukas macht Pasta mit Gemüse.",
+      "explanation_en": "Lukas is making pasta with vegetables."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann essen sie?",
+      "text_en": "When do they eat?",
+      "options": [
+        "a) Um 18:00 Uhr",
+        "b) Um 19:00 Uhr",
+        "c) Um 20:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie essen um 19:00 Uhr.",
+      "explanation_en": "They eat at 7:00 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "In welchem Stock wohnt Lukas?",
+      "text_en": "On which floor does Lukas live?",
+      "options": [
+        "a) Im zweiten Stock",
+        "b) Im dritten Stock",
+        "c) Im vierten Stock"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lukas wohnt im dritten Stock.",
+      "explanation_en": "Lukas lives on the third floor."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kann Thomas mitbringen?",
+      "text_en": "What can Thomas bring?",
+      "options": [
+        "a) Einen Kuchen",
+        "b) Eine Flasche Wein",
+        "c) Blumen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Thomas kann eine Flasche Wein mitbringen.",
+      "explanation_en": "Thomas can bring a bottle of wine."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wer kommt noch zum Essen?",
+      "text_en": "Who else is coming to dinner?",
+      "options": [
+        "a) Maria und Jan",
+        "b) Sarah und Jan",
+        "c) Sarah und Peter"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sarah und Jan kommen auch.",
+      "explanation_en": "Sarah and Jan are also coming."
+    }
+  ]
+}

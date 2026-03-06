@@ -1,0 +1,133 @@
+{
+  "id": "a1-hoeren-teil-3-004",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Längeres Gespräch — Meine neue Wohnung",
+  "instructions": "Sie hören ein längeres Gespräch. Sie hören den Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Sandra",
+      "text_de": "Hallo Erik! Ich habe gehört, du hast eine neue Wohnung. Erzähl mal!",
+      "text_en": "Hello Erik! I heard you have a new apartment. Tell me!"
+    },
+    {
+      "speaker": "Erik",
+      "text_de": "Ja, ich bin letzte Woche umgezogen. Die Wohnung ist in der Bergstraße, ganz in der Nähe vom Park.",
+      "text_en": "Yes, I moved last week. The apartment is on Bergstraße, very close to the park."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Wie groß ist die Wohnung?",
+      "text_en": "How big is the apartment?"
+    },
+    {
+      "speaker": "Erik",
+      "text_de": "Sie hat zwei Zimmer, eine Küche und ein Bad. Das Wohnzimmer ist sehr hell. Es hat zwei große Fenster.",
+      "text_en": "It has two rooms, a kitchen, and a bathroom. The living room is very bright. It has two big windows."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Hast du schon alle Möbel?",
+      "text_en": "Do you have all the furniture already?"
+    },
+    {
+      "speaker": "Erik",
+      "text_de": "Fast. Ich habe ein Bett, einen Schreibtisch und einen Schrank. Aber ich brauche noch ein Sofa und einen Tisch für die Küche.",
+      "text_en": "Almost. I have a bed, a desk, and a wardrobe. But I still need a sofa and a table for the kitchen."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Und die Nachbarn? Sind sie nett?",
+      "text_en": "And the neighbors? Are they nice?"
+    },
+    {
+      "speaker": "Erik",
+      "text_de": "Ja, sehr nett. Die Nachbarin im Erdgeschoss ist Rentnerin. Sie hat mir gestern Kuchen gebracht. Und oben wohnt eine Familie mit zwei Kindern.",
+      "text_en": "Yes, very nice. The neighbor on the ground floor is a retiree. She brought me cake yesterday. And upstairs lives a family with two children."
+    },
+    {
+      "speaker": "Sandra",
+      "text_de": "Das klingt toll! Kann ich dich am Wochenende besuchen?",
+      "text_en": "That sounds great! Can I visit you on the weekend?"
+    },
+    {
+      "speaker": "Erik",
+      "text_de": "Ja, klar! Komm am Samstag um 16 Uhr. Ich koche etwas Schönes.",
+      "text_en": "Yes, of course! Come on Saturday at 4 PM. I will cook something nice."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo ist die neue Wohnung?",
+      "text_en": "Where is the new apartment?",
+      "options": [
+        "a) In der Gartenstraße",
+        "b) In der Bergstraße",
+        "c) In der Hauptstraße"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung ist in der Bergstraße.",
+      "explanation_en": "The apartment is on Bergstraße."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Zimmer hat die Wohnung?",
+      "text_en": "How many rooms does the apartment have?",
+      "options": [
+        "a) Eins",
+        "b) Zwei",
+        "c) Drei"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung hat zwei Zimmer.",
+      "explanation_en": "The apartment has two rooms."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was braucht Erik noch?",
+      "text_en": "What does Erik still need?",
+      "options": [
+        "a) Ein Bett und einen Schrank",
+        "b) Ein Sofa und einen Küchentisch",
+        "c) Einen Schreibtisch und ein Regal"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Erik braucht noch ein Sofa und einen Tisch für die Küche.",
+      "explanation_en": "Erik still needs a sofa and a table for the kitchen."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Nachbarin Erik gebracht?",
+      "text_en": "What did the neighbor bring Erik?",
+      "options": [
+        "a) Blumen",
+        "b) Kuchen",
+        "c) Brot"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Nachbarin hat ihm Kuchen gebracht.",
+      "explanation_en": "The neighbor brought him cake."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann soll Sandra kommen?",
+      "text_en": "When should Sandra come?",
+      "options": [
+        "a) Samstag um 14 Uhr",
+        "b) Samstag um 16 Uhr",
+        "c) Sonntag um 16 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sandra soll am Samstag um 16 Uhr kommen.",
+      "explanation_en": "Sandra should come on Saturday at 4 PM."
+    }
+  ]
+}

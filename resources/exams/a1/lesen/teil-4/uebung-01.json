@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-4-001",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Stadtführung durch Heidelberg",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Willkommen in Heidelberg! Unsere Stadtführung beginnt jeden Tag um 10:00 Uhr am Marktplatz vor dem Rathaus. Die Tour dauert zwei Stunden. Wir zeigen Ihnen die Altstadt, die alte Brücke und das berühmte Schloss. Das Schloss ist über 600 Jahre alt. Von dort hat man einen wunderschönen Blick auf den Neckar und die Stadt. Die Führung ist auf Deutsch und Englisch. Sie kostet 8 Euro für Erwachsene und 4 Euro für Kinder. Studenten zahlen 5 Euro mit Studentenausweis. Tickets kaufen Sie direkt am Treffpunkt. Bei Regen findet die Tour auch statt.",
+    "text_en": "Welcome to Heidelberg! Our city tour starts every day at 10:00 AM at the market square in front of the town hall. The tour lasts two hours. We show you the old town, the old bridge, and the famous castle. The castle is over 600 years old. From there you have a beautiful view of the Neckar River and the city. The tour is in German and English. It costs 8 euros for adults and 4 euros for children. Students pay 5 euros with a student ID. You buy tickets directly at the meeting point. The tour also takes place in rain.",
+    "source": "Prospekt",
+    "word_count": 90
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo beginnt die Stadtführung?",
+      "text_en": "Where does the city tour start?",
+      "options": [
+        "a) Am Schloss",
+        "b) Am Marktplatz",
+        "c) An der Brücke"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Stadtführung beginnt am Marktplatz vor dem Rathaus.",
+      "explanation_en": "The city tour starts at the market square in front of the town hall."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert die Tour?",
+      "text_en": "How long does the tour last?",
+      "options": [
+        "a) Eine Stunde",
+        "b) Zwei Stunden",
+        "c) Drei Stunden"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Tour dauert zwei Stunden.",
+      "explanation_en": "The tour lasts two hours."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie alt ist das Schloss?",
+      "text_en": "How old is the castle?",
+      "options": [
+        "a) Über 400 Jahre",
+        "b) Über 500 Jahre",
+        "c) Über 600 Jahre"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Schloss ist über 600 Jahre alt.",
+      "explanation_en": "The castle is over 600 years old."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel zahlen Studenten?",
+      "text_en": "How much do students pay?",
+      "options": [
+        "a) 4 Euro",
+        "b) 5 Euro",
+        "c) 8 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Studenten zahlen 5 Euro mit Studentenausweis.",
+      "explanation_en": "Students pay 5 euros with a student ID."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "In welchen Sprachen ist die Führung?",
+      "text_en": "In which languages is the tour?",
+      "options": [
+        "a) Nur auf Deutsch",
+        "b) Auf Deutsch und Englisch",
+        "c) Auf Deutsch und Französisch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Führung ist auf Deutsch und Englisch.",
+      "explanation_en": "The tour is in German and English."
+    }
+  ]
+}

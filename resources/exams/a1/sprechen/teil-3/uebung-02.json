@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-3-002",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Um Hilfe bitten: Den Weg finden",
+  "instructions": "Sie brauchen Hilfe in einer Alltagssituation. Formulieren Sie eine Bitte und reagieren Sie auf die Antwort.",
+  "situation_de": "Sie sind in einer neuen Stadt und suchen den Bahnhof. Sie fragen eine Person auf der Straße nach dem Weg.",
+  "situation_en": "You are in a new city and are looking for the train station. You ask a person on the street for directions.",
+  "discussion_points": [
+    "Nach dem Weg fragen (Ask for directions)",
+    "Verstehen und nachfragen (Understand and ask again)",
+    "Sich bedanken (Say thank you)",
+    "Sich verabschieden (Say goodbye)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Entschuldigung, können Sie mir helfen? Wo ist der Bahnhof?",
+      "text_en": "Excuse me, can you help me? Where is the train station?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, gern. Gehen Sie geradeaus und dann links.",
+      "text_en": "Yes, gladly. Go straight ahead and then left."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Geradeaus und dann links. Ist das weit?",
+      "text_en": "Straight ahead and then left. Is it far?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Nein, es sind nur fünf Minuten zu Fuß.",
+      "text_en": "No, it is only five minutes on foot."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Sehr gut. Und ist der Bahnhof auf der rechten oder linken Seite?",
+      "text_en": "Very good. And is the train station on the right or left side?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Auf der linken Seite. Sie können ihn nicht verpassen.",
+      "text_en": "On the left side. You cannot miss it."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vielen Dank für Ihre Hilfe. Auf Wiedersehen!",
+      "text_en": "Thank you very much for your help. Goodbye!"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Bitte schön. Auf Wiedersehen!",
+      "text_en": "You are welcome. Goodbye!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat fragt nach dem Weg und versteht die Antwort.",
+    "Interaktion: Der Kandidat fragt nach, wenn er etwas nicht versteht.",
+    "Wortschatz: Einfacher Wortschatz für Wegbeschreibungen auf A1-Niveau.",
+    "Strukturen: Einfache Fragen mit wo, können Sie und Richtungsangaben.",
+    "Aussprache und Intonation: Verständliche Aussprache mit höflicher Intonation."
+  ]
+}

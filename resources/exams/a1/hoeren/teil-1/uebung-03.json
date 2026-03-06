@@ -1,0 +1,108 @@
+{
+  "id": "a1-hoeren-teil-1-003",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Ansagen — Restaurant, Post, Schwimmbad",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Willkommen im Restaurant Sonnenschein. Heute ist unser Mittagstisch von 12 bis 14 Uhr. Die Suppe kostet 4 Euro.",
+      "text_en": "Welcome to restaurant Sonnenschein. Today our lunch menu is from 12 to 2 PM. The soup costs 4 euros."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Julia, hier ist deine Mutter. Ich komme am Samstag zu Besuch. Mein Zug kommt um 16 Uhr an. Kannst du mich abholen?",
+      "text_en": "Hello Julia, this is your mother. I am coming to visit on Saturday. My train arrives at 4 PM. Can you pick me up?"
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Die Post am Rathausplatz hat neue Öffnungszeiten. Wir sind jetzt von Montag bis Freitag von 8 bis 18 Uhr geöffnet.",
+      "text_en": "The post office at Rathausplatz has new opening hours. We are now open from Monday to Friday from 8 AM to 6 PM."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Achtung: Das Schwimmbad ist am Dienstag geschlossen. Am Mittwoch öffnen wir wieder um 7 Uhr.",
+      "text_en": "Attention: The swimming pool is closed on Tuesday. On Wednesday we open again at 7 AM."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Guten Tag, hier ist die Fahrschule Schmidt. Ihre Fahrstunde ist am Donnerstag um 8 Uhr morgens. Bitte seien Sie pünktlich.",
+      "text_en": "Good day, this is driving school Schmidt. Your driving lesson is on Thursday at 8 AM. Please be on time."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Suppe?",
+      "text_en": "How much does the soup cost?",
+      "options": [
+        "a) 3 Euro",
+        "b) 4 Euro",
+        "c) 5 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Suppe kostet 4 Euro.",
+      "explanation_en": "The soup costs 4 euros."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann kommt der Zug von Julias Mutter an?",
+      "text_en": "When does Julia's mother's train arrive?",
+      "options": [
+        "a) Um 14 Uhr",
+        "b) Um 15 Uhr",
+        "c) Um 16 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Zug kommt um 16 Uhr an.",
+      "explanation_en": "The train arrives at 4 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann schließt die Post jetzt?",
+      "text_en": "When does the post office close now?",
+      "options": [
+        "a) Um 17 Uhr",
+        "b) Um 18 Uhr",
+        "c) Um 19 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Post ist jetzt bis 18 Uhr geöffnet.",
+      "explanation_en": "The post office is now open until 6 PM."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Schwimmbad geschlossen?",
+      "text_en": "When is the swimming pool closed?",
+      "options": [
+        "a) Am Montag",
+        "b) Am Dienstag",
+        "c) Am Mittwoch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Schwimmbad ist am Dienstag geschlossen.",
+      "explanation_en": "The swimming pool is closed on Tuesday."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Fahrstunde?",
+      "text_en": "When is the driving lesson?",
+      "options": [
+        "a) Mittwoch um 10 Uhr",
+        "b) Donnerstag um 8 Uhr",
+        "c) Freitag um 9 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Fahrstunde ist am Donnerstag um 8 Uhr.",
+      "explanation_en": "The driving lesson is on Thursday at 8 AM."
+    }
+  ]
+}

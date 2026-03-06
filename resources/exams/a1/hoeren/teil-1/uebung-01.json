@@ -1,0 +1,108 @@
+{
+  "id": "a1-hoeren-teil-1-001",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Ansagen — Supermarkt, Telefon, Bus",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Liebe Kunden, der Supermarkt schließt heute um 20 Uhr. Bitte gehen Sie jetzt zur Kasse. Vielen Dank.",
+      "text_en": "Dear customers, the supermarket closes today at 8 PM. Please go to the checkout now. Thank you."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Peter, hier ist Anna. Wir treffen uns morgen um 9 Uhr am Bahnhof. Bitte ruf mich an. Tschüss!",
+      "text_en": "Hello Peter, this is Anna. We are meeting tomorrow at 9 AM at the train station. Please call me. Bye!"
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Achtung, der Bus Linie 5 nach Hauptbahnhof kommt in drei Minuten. Bitte warten Sie an Gleis 2.",
+      "text_en": "Attention, bus line 5 to the main train station arrives in three minutes. Please wait at platform 2."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Guten Morgen. Heute ist es sonnig und warm. Die Temperatur ist 25 Grad. Am Abend kommt Regen.",
+      "text_en": "Good morning. Today it is sunny and warm. The temperature is 25 degrees. In the evening rain is coming."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Guten Tag, hier ist die Praxis von Doktor Meier. Ihr Termin ist am Mittwoch um 14 Uhr. Bitte bringen Sie Ihre Versichertenkarte mit.",
+      "text_en": "Good day, this is Doctor Meier's practice. Your appointment is on Wednesday at 2 PM. Please bring your insurance card."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann schließt der Supermarkt heute?",
+      "text_en": "When does the supermarket close today?",
+      "options": [
+        "a) Um 18 Uhr",
+        "b) Um 19 Uhr",
+        "c) Um 20 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Supermarkt schließt heute um 20 Uhr.",
+      "explanation_en": "The supermarket closes today at 8 PM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo treffen sich Anna und Peter morgen?",
+      "text_en": "Where are Anna and Peter meeting tomorrow?",
+      "options": [
+        "a) Am Bahnhof",
+        "b) Im Café",
+        "c) Im Park"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie treffen sich morgen um 9 Uhr am Bahnhof.",
+      "explanation_en": "They are meeting tomorrow at 9 AM at the train station."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wohin fährt der Bus Linie 5?",
+      "text_en": "Where does bus line 5 go?",
+      "options": [
+        "a) Zum Flughafen",
+        "b) Zum Hauptbahnhof",
+        "c) Zum Marktplatz"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bus Linie 5 fährt zum Hauptbahnhof.",
+      "explanation_en": "Bus line 5 goes to the main train station."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie ist das Wetter heute?",
+      "text_en": "How is the weather today?",
+      "options": [
+        "a) Kalt und windig",
+        "b) Sonnig und warm",
+        "c) Bewölkt und kühl"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Heute ist es sonnig und warm, 25 Grad.",
+      "explanation_en": "Today it is sunny and warm, 25 degrees."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der Termin bei Doktor Meier?",
+      "text_en": "When is the appointment at Doctor Meier's?",
+      "options": [
+        "a) Montag um 10 Uhr",
+        "b) Dienstag um 12 Uhr",
+        "c) Mittwoch um 14 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Termin ist am Mittwoch um 14 Uhr.",
+      "explanation_en": "The appointment is on Wednesday at 2 PM."
+    }
+  ]
+}
