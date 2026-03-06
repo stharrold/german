@@ -19,11 +19,11 @@
       "text_de": "Was untersuchen die Linguisten der Universität Duisburg-Essen?",
       "text_en": "What are the linguists at the University of Duisburg-Essen studying?",
       "options": [
-        "a) Wie traditionelle Dialekte verschwinden.",
+        "a) Wie soziale Medien die Sprachgewohnheiten junger Erwachsener beeinflussen.",
         "b) Wie man Fremdsprachenunterricht verbessern kann.",
-        "c) Wie soziale Medien die Sprachgewohnheiten junger Erwachsener beeinflussen."
+        "c) Wie traditionelle Dialekte verschwinden."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Sie untersuchen, wie Plattformen wie Instagram, TikTok und WhatsApp die Sprachgewohnheiten beeinflussen.",
       "explanation_en": "They study how platforms like Instagram, TikTok, and WhatsApp influence language habits."
     },
@@ -48,10 +48,10 @@
       "text_en": "Which influence is more profound than vocabulary change according to the text?",
       "options": [
         "a) Der Einfluss auf die Aussprache.",
-        "b) Der Einfluss auf die Rechtschreibung.",
-        "c) Der Einfluss auf die Textstruktur und Satzbildung."
+        "b) Der Einfluss auf die Textstruktur und Satzbildung.",
+        "c) Der Einfluss auf die Rechtschreibung."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Der Einfluss auf die Textstruktur ist tiefgreifender als lexikalische Entlehnungen.",
       "explanation_en": "The influence on text structure is more profound than lexical borrowings."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was ist laut den Forschern entscheidend?",
       "text_en": "What is crucial according to the researchers?",
       "options": [
-        "a) Dass englische Begriffe aus dem Deutschen verbannt werden.",
+        "a) Dass junge Menschen zwischen verschiedenen Sprachregistern wechseln können.",
         "b) Dass soziale Medien in Schulen verboten werden.",
-        "c) Dass junge Menschen zwischen verschiedenen Sprachregistern wechseln können."
+        "c) Dass englische Begriffe aus dem Deutschen verbannt werden."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Entscheidend sei, dass junge Menschen die Fähigkeit behalten, zwischen verschiedenen Sprachregistern zu wechseln.",
       "explanation_en": "What matters is that young people retain the ability to switch between different language registers."
     }
