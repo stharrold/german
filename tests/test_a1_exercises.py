@@ -116,7 +116,7 @@ def test_a1_schreiben_exercises_valid(aufgabe):
         assert ex.skill == ExamSkill.SCHREIBEN
         assert ex.task == aufgabe
         assert EXERCISE_ID_PATTERN.match(ex.id), f"Bad ID: {ex.id}"
-        assert ex.model_answer is not None
+        assert ex.model_answer.text_de
         assert len(ex.required_points) >= 1
 
 
