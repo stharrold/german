@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-1-004",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Verhaltensökonomie und Konsumentscheidungen",
+  "instructions": "Lesen Sie den folgenden wissenschaftlichen Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Verhaltensökonomie hat das traditionelle Bild des rational handelnden Konsumenten, des sogenannten Homo oeconomicus, nachhaltig erschüttert. Zahlreiche experimentelle Studien belegen, dass menschliche Entscheidungen systematisch von kognitiven Verzerrungen beeinflusst werden, die in der Fachsprache als Biases bezeichnet werden. Diese Verzerrungen sind keine individuellen Schwächen, sondern evolutionär bedingte Denkmuster, die in einer komplexen modernen Wirtschaft zu suboptimalen Entscheidungen führen können.\n\nEin besonders gut dokumentiertes Phänomen ist der sogenannte Ankereffekt. Wenn Konsumenten vor einer Kaufentscheidung eine beliebige Zahl präsentiert wird — etwa eine hohe unverbindliche Preisempfehlung —, orientieren sich ihre Zahlungsbereitschaft und Qualitätseinschätzung unbewusst an diesem Anker, selbst wenn er in keinem sachlichen Zusammenhang mit dem Produkt steht. Ebenso wirkmächtig ist die Verlustaversion: Der Schmerz über einen finanziellen Verlust wiegt psychologisch etwa doppelt so schwer wie die Freude über einen gleichwertigen Gewinn, was dazu führt, dass Menschen unverhältnismäßig risikoavers handeln.\n\nDiese Erkenntnisse haben weitreichende politische Implikationen. Das Konzept des Nudging, das auf den Ökonomen Richard Thaler zurückgeht, nutzt das Wissen über kognitive Verzerrungen, um Menschen durch geschickte Gestaltung der Entscheidungsarchitektur zu besseren Entscheidungen zu bewegen, ohne ihre Wahlfreiheit einzuschränken. So kann beispielsweise die automatische Anmeldung zu einer betrieblichen Altersvorsorge, von der man sich aktiv abmelden muss, die Sparquote erheblich steigern. Kritiker des Nudging wenden allerdings ein, dass auch wohlmeinende staatliche Eingriffe in die individuelle Entscheidungsfindung eine Form des Paternalismus darstellen, die demokratische Selbstbestimmung untergräbt und das Manipulationsrisiko durch politische Akteure erhöht.",
+    "text_en": "Behavioral economics has sustainably shattered the traditional image of the rationally acting consumer, the so-called Homo economicus. Numerous experimental studies demonstrate that human decisions are systematically influenced by cognitive distortions, referred to in technical terminology as biases. These distortions are not individual weaknesses but evolutionarily conditioned thought patterns that can lead to suboptimal decisions in a complex modern economy.\n\nA particularly well-documented phenomenon is the so-called anchoring effect. When consumers are presented with an arbitrary number before a purchasing decision — for example, a high non-binding price recommendation — their willingness to pay and quality assessment unconsciously orient themselves toward this anchor, even if it has no factual connection to the product. Equally powerful is loss aversion: the pain of a financial loss weighs psychologically about twice as heavily as the joy of an equivalent gain, which leads people to act disproportionately risk-averse.\n\nThese findings have far-reaching political implications. The concept of nudging, which goes back to the economist Richard Thaler, uses knowledge about cognitive distortions to guide people toward better decisions through skillful design of decision architecture, without restricting their freedom of choice. For example, automatic enrollment in a company pension plan, from which one must actively opt out, can significantly increase the savings rate. Critics of nudging, however, object that even well-intentioned government interventions in individual decision-making represent a form of paternalism that undermines democratic self-determination and increases the risk of manipulation by political actors.",
+    "source": "Fachzeitschrift",
+    "word_count": 228
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was sind kognitive Verzerrungen (Biases) laut dem Text?",
+      "text_en": "What are cognitive biases according to the text?",
+      "options": [
+        "a) Evolutionär bedingte Denkmuster, die zu suboptimalen Entscheidungen führen können.",
+        "b) Bewusste Strategien rationaler Konsumenten.",
+        "c) Ausschließlich durch Werbung verursachte Fehleinschätzungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Biases sind evolutionär bedingte Denkmuster, die in der modernen Wirtschaft zu suboptimalen Entscheidungen führen können.",
+      "explanation_en": "Biases are evolutionarily conditioned thought patterns that can lead to suboptimal decisions in the modern economy."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie funktioniert der Ankereffekt?",
+      "text_en": "How does the anchoring effect work?",
+      "options": [
+        "a) Konsumenten vergleichen systematisch alle verfügbaren Preise.",
+        "b) Konsumenten orientieren sich nur an Empfehlungen von Experten.",
+        "c) Eine zuvor präsentierte Zahl beeinflusst unbewusst die Zahlungsbereitschaft."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Eine beliebige präsentierte Zahl beeinflusst unbewusst die Zahlungsbereitschaft und Qualitätseinschätzung.",
+      "explanation_en": "An arbitrary presented number unconsciously influences willingness to pay and quality assessment."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was besagt das Prinzip der Verlustaversion?",
+      "text_en": "What does the principle of loss aversion state?",
+      "options": [
+        "a) Menschen empfinden Verluste und Gewinne gleich stark.",
+        "b) Der Schmerz über einen Verlust wiegt psychologisch doppelt so schwer wie die Freude über einen Gewinn.",
+        "c) Menschen bevorzugen grundsätzlich riskante Investitionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Schmerz über einen Verlust wiegt psychologisch etwa doppelt so schwer wie die Freude über einen gleichwertigen Gewinn.",
+      "explanation_en": "The pain of a loss weighs psychologically about twice as heavily as the joy of an equivalent gain."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist das Ziel des Nudging?",
+      "text_en": "What is the goal of nudging?",
+      "options": [
+        "a) Menschen zu besseren Entscheidungen zu bewegen, ohne ihre Wahlfreiheit einzuschränken.",
+        "b) Die Wahlmöglichkeiten der Konsumenten auf ein Minimum zu reduzieren.",
+        "c) Kognitive Verzerrungen vollständig zu beseitigen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Nudging bewegt Menschen durch geschickte Entscheidungsarchitektur zu besseren Entscheidungen, ohne die Wahlfreiheit einzuschränken.",
+      "explanation_en": "Nudging guides people toward better decisions through skillful decision architecture without restricting freedom of choice."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was werfen Kritiker dem Nudging vor?",
+      "text_en": "What do critics accuse nudging of?",
+      "options": [
+        "a) Es sei wirtschaftlich ineffizient und zu teuer.",
+        "b) Es funktioniere in der Praxis überhaupt nicht.",
+        "c) Es stelle eine Form des Paternalismus dar, die demokratische Selbstbestimmung untergräbt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kritiker sehen im Nudging eine Form des Paternalismus, die demokratische Selbstbestimmung untergräbt.",
+      "explanation_en": "Critics see nudging as a form of paternalism that undermines democratic self-determination."
+    }
+  ]
+}

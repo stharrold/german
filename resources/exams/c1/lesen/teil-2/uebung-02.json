@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-2-002",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Algorithmische Entscheidungsfindung in der Justiz",
+  "instructions": "Lesen Sie den folgenden Meinungsbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Der zunehmende Einsatz algorithmischer Systeme in der Strafjustiz wird von Befürwortern als Fortschritt in Richtung objektiverer Entscheidungen gepriesen. Prädiktive Algorithmen, die das Rückfallrisiko von Straftätern berechnen, sollen menschliche Vorurteile minimieren und die Effizienz des Justizsystems steigern. Bei näherer Betrachtung zeigt sich jedoch, dass diese Systeme bestehende Diskriminierungsmuster nicht beseitigen, sondern sie hinter einer Fassade technischer Neutralität verbergen und damit sogar verstärken können.\n\nDas Grundproblem liegt in den Trainingsdaten: Wenn ein Algorithmus auf der Basis historischer Polizei- und Gerichtsdaten trainiert wird, die bereits systematische Verzerrungen enthalten — etwa die überproportionale Kriminalisierung bestimmter sozialer Gruppen —, reproduziert er diese Verzerrungen in seinen Vorhersagen. Die scheinbare Objektivität der Maschine verleiht dem Ergebnis eine trügerische Autorität, die es Richterinnen und Richtern erschwert, algorithmische Empfehlungen kritisch zu hinterfragen.\n\nBesonders problematisch ist die fehlende Transparenz vieler dieser Systeme. Kommerzielle Anbieter berufen sich häufig auf Geschäftsgeheimnisse, wenn es um die Offenlegung ihrer Algorithmen geht — ein Umstand, der rechtsstaatlichen Grundprinzipien fundamental widerspricht. Angeklagte haben ein Recht darauf zu erfahren, auf welcher Grundlage Entscheidungen getroffen werden, die ihre Freiheit betreffen. Eine Justiz, die sich auf undurchsichtige algorithmische Blackboxen verlässt, untergräbt nicht nur das Vertrauen der Bürger, sondern gefährdet die Grundlagen des demokratischen Rechtsstaats.",
+    "text_en": "The increasing use of algorithmic systems in criminal justice is praised by proponents as progress toward more objective decisions. Predictive algorithms that calculate the recidivism risk of offenders are supposed to minimize human biases and increase the efficiency of the justice system. Upon closer examination, however, it becomes apparent that these systems do not eliminate existing discrimination patterns but rather conceal them behind a facade of technical neutrality and can thereby even amplify them.\n\nThe fundamental problem lies in the training data: when an algorithm is trained on the basis of historical police and court data that already contain systematic biases — such as the disproportionate criminalization of certain social groups — it reproduces these biases in its predictions. The apparent objectivity of the machine lends the result a deceptive authority that makes it difficult for judges to critically question algorithmic recommendations.\n\nParticularly problematic is the lack of transparency of many of these systems. Commercial providers frequently invoke trade secrets when it comes to disclosing their algorithms — a circumstance that fundamentally contradicts rule-of-law principles. Defendants have a right to know on what basis decisions affecting their freedom are made. A justice system that relies on opaque algorithmic black boxes undermines not only citizens' trust but endangers the foundations of the democratic constitutional state.",
+    "source": "Zeitung",
+    "word_count": 195
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut dem Autor das Grundproblem algorithmischer Justizsysteme?",
+      "text_en": "What is the fundamental problem of algorithmic justice systems according to the author?",
+      "options": [
+        "a) Die Algorithmen sind technisch noch nicht ausgereift genug.",
+        "b) Richter verstehen die Funktionsweise der Algorithmen nicht.",
+        "c) Die Trainingsdaten enthalten bereits systematische Verzerrungen, die reproduziert werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Grundproblem liegt in Trainingsdaten, die bereits systematische Verzerrungen enthalten.",
+      "explanation_en": "The fundamental problem lies in training data that already contain systematic biases."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was bewirkt die scheinbare Objektivität der Algorithmen?",
+      "text_en": "What does the apparent objectivity of algorithms cause?",
+      "options": [
+        "a) Sie erschwert es Richtern, algorithmische Empfehlungen kritisch zu hinterfragen.",
+        "b) Sie führt zu einer vollständigen Abschaffung menschlicher Vorurteile.",
+        "c) Sie macht die Justiz insgesamt effizienter und gerechter."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die scheinbare Objektivität verleiht dem Ergebnis eine trügerische Autorität, die kritisches Hinterfragen erschwert.",
+      "explanation_en": "The apparent objectivity lends the result a deceptive authority that makes critical questioning difficult."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum ist die fehlende Transparenz der Algorithmen besonders problematisch?",
+      "text_en": "Why is the lack of transparency of algorithms particularly problematic?",
+      "options": [
+        "a) Weil die Algorithmen dadurch langsamer arbeiten.",
+        "b) Weil Angeklagte ein Recht haben zu erfahren, auf welcher Grundlage Entscheidungen getroffen werden.",
+        "c) Weil Richter die Algorithmen selbst programmieren müssten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Angeklagte haben ein Recht zu erfahren, auf welcher Grundlage freiheitsbeschränkende Entscheidungen getroffen werden.",
+      "explanation_en": "Defendants have a right to know on what basis decisions affecting their freedom are made."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worauf berufen sich kommerzielle Anbieter, um ihre Algorithmen nicht offenzulegen?",
+      "text_en": "What do commercial providers invoke to not disclose their algorithms?",
+      "options": [
+        "a) Auf technische Unmöglichkeit der Offenlegung.",
+        "b) Auf den Datenschutz der Angeklagten.",
+        "c) Auf Geschäftsgeheimnisse."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kommerzielle Anbieter berufen sich auf Geschäftsgeheimnisse bei der Offenlegung ihrer Algorithmen.",
+      "explanation_en": "Commercial providers invoke trade secrets regarding the disclosure of their algorithms."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was gefährdet laut dem Autor eine auf Algorithmen gestützte Justiz?",
+      "text_en": "What does an algorithm-based justice system endanger according to the author?",
+      "options": [
+        "a) Die Grundlagen des demokratischen Rechtsstaats.",
+        "b) Die Effizienz der Strafverfolgung.",
+        "c) Die Ausbildung von Richterinnen und Richtern."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Eine Justiz, die sich auf undurchsichtige Algorithmen verlässt, gefährdet die Grundlagen des Rechtsstaats.",
+      "explanation_en": "A justice system relying on opaque algorithms endangers the foundations of the constitutional state."
+    }
+  ]
+}

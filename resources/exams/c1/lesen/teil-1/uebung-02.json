@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-1-002",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Quantencomputing und Kryptographie",
+  "instructions": "Lesen Sie den folgenden wissenschaftlichen Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die rasante Entwicklung der Quantencomputertechnologie stellt die moderne Kryptographie vor eine existenzielle Herausforderung. Die derzeit gängigen Verschlüsselungsverfahren, allen voran der RSA-Algorithmus, basieren auf der mathematischen Schwierigkeit, große Zahlen in ihre Primfaktoren zu zerlegen — eine Aufgabe, für die klassische Computer Jahrtausende benötigen würden. Quantencomputer hingegen könnten diese Berechnungen mithilfe des sogenannten Shor-Algorithmus in vergleichsweise kurzer Zeit durchführen und damit die Grundlage der digitalen Sicherheit untergraben.\n\nFührende Forschungseinrichtungen weltweit arbeiten daher intensiv an der Entwicklung quantenresistenter Verschlüsselungsmethoden. Besonders vielversprechend erscheinen gitterbasierte kryptographische Verfahren, deren Sicherheit auf mathematischen Problemen beruht, die auch für Quantencomputer als schwer lösbar gelten. Das amerikanische National Institute of Standards and Technology hat kürzlich erste Standards für sogenannte Post-Quanten-Kryptographie verabschiedet, die schrittweise in bestehende Infrastrukturen integriert werden sollen.\n\nKritikerinnen und Kritiker warnen jedoch davor, die Bedrohung zu überschätzen. Gegenwärtige Quantencomputer verfügen über lediglich einige hundert Qubits, während für das Brechen gängiger Verschlüsselungen Millionen fehlerkorrigierter Qubits erforderlich wären. Dennoch besteht das sogenannte Harvest-now-decrypt-later-Risiko: Staatliche Akteure könnten bereits heute verschlüsselte Kommunikation abfangen und speichern, um sie zu entschlüsseln, sobald leistungsfähige Quantencomputer zur Verfügung stehen. Diese latente Gefährdung verleiht der Umstellung auf quantensichere Verfahren eine besondere Dringlichkeit, insbesondere für Bereiche wie das Gesundheitswesen, das Bankensystem und die staatliche Kommunikation, in denen Daten über Jahrzehnte hinweg vertraulich bleiben müssen.",
+    "text_en": "The rapid development of quantum computing technology presents modern cryptography with an existential challenge. The currently common encryption methods, above all the RSA algorithm, are based on the mathematical difficulty of factoring large numbers into their prime factors — a task that would take classical computers millennia. Quantum computers, however, could perform these calculations using the so-called Shor algorithm in comparatively short time, thereby undermining the foundation of digital security.\n\nLeading research institutions worldwide are therefore working intensively on developing quantum-resistant encryption methods. Lattice-based cryptographic methods appear particularly promising, as their security rests on mathematical problems that are considered difficult to solve even for quantum computers. The American National Institute of Standards and Technology recently adopted the first standards for so-called post-quantum cryptography, which are to be gradually integrated into existing infrastructures.\n\nCritics, however, warn against overestimating the threat. Current quantum computers have only a few hundred qubits, while breaking common encryption would require millions of error-corrected qubits. Nevertheless, the so-called harvest-now-decrypt-later risk exists: state actors could already intercept and store encrypted communication today to decrypt it once powerful quantum computers become available. This latent threat gives the transition to quantum-safe methods particular urgency, especially for areas such as healthcare, banking, and government communication, where data must remain confidential for decades.",
+    "source": "Fachzeitschrift",
+    "word_count": 207
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum ist der RSA-Algorithmus durch Quantencomputer gefährdet?",
+      "text_en": "Why is the RSA algorithm threatened by quantum computers?",
+      "options": [
+        "a) Weil er auf veralteter Programmiersprache basiert.",
+        "b) Weil Quantencomputer die zugrunde liegende Mathematik nicht benötigen.",
+        "c) Weil der Shor-Algorithmus die Primfaktorzerlegung in kurzer Zeit durchführen könnte."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Shor-Algorithmus könnte die Primfaktorzerlegung, auf der RSA basiert, in kurzer Zeit durchführen.",
+      "explanation_en": "The Shor algorithm could perform the prime factorization on which RSA is based in short time."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was sind gitterbasierte kryptographische Verfahren?",
+      "text_en": "What are lattice-based cryptographic methods?",
+      "options": [
+        "a) Verschlüsselungsmethoden, die auch für Quantencomputer schwer zu brechen sind.",
+        "b) Veraltete Verfahren, die bereits ersetzt wurden.",
+        "c) Methoden, die nur auf klassischen Computern funktionieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Gitterbasierte Verfahren beruhen auf Problemen, die auch für Quantencomputer als schwer lösbar gelten.",
+      "explanation_en": "Lattice-based methods rest on problems considered difficult to solve even for quantum computers."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was bedeutet das Harvest-now-decrypt-later-Risiko?",
+      "text_en": "What does the harvest-now-decrypt-later risk mean?",
+      "options": [
+        "a) Daten werden sofort entschlüsselt und veröffentlicht.",
+        "b) Verschlüsselte Daten werden heute gesammelt, um sie später mit Quantencomputern zu entschlüsseln.",
+        "c) Quantencomputer werden bereits eingesetzt, um aktuelle Verschlüsselungen zu brechen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Akteure könnten verschlüsselte Kommunikation heute abfangen, um sie später mit Quantencomputern zu entschlüsseln.",
+      "explanation_en": "Actors could intercept encrypted communication today to decrypt it later with quantum computers."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum relativieren Kritiker die Gefahr durch Quantencomputer?",
+      "text_en": "Why do critics put the danger from quantum computers into perspective?",
+      "options": [
+        "a) Weil Quantencomputer nie leistungsfähig genug sein werden.",
+        "b) Weil die Post-Quanten-Kryptographie bereits vollständig implementiert ist.",
+        "c) Weil aktuelle Quantencomputer noch weit von der benötigten Leistungsfähigkeit entfernt sind."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Aktuelle Quantencomputer haben nur einige hundert Qubits, benötigt würden Millionen fehlerkorrigierter Qubits.",
+      "explanation_en": "Current quantum computers have only a few hundred qubits; millions of error-corrected qubits would be needed."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Für welche Bereiche ist die Umstellung auf quantensichere Verfahren besonders dringlich?",
+      "text_en": "For which areas is the transition to quantum-safe methods particularly urgent?",
+      "options": [
+        "a) Bereiche, in denen Daten über Jahrzehnte vertraulich bleiben müssen.",
+        "b) Unterhaltungsindustrie und soziale Medien.",
+        "c) Ausschließlich militärische Anwendungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Besonders dringlich ist es für Gesundheitswesen, Bankensystem und staatliche Kommunikation.",
+      "explanation_en": "It is particularly urgent for healthcare, banking, and government communication."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-3-002",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Ernährungstrends und Nachhaltigkeit",
+  "instructions": "Lesen Sie den folgenden Magazinbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Suche nach der ökologisch verantwortungsvollen Ernährung hat eine nahezu unüberschaubare Vielfalt an Trends hervorgebracht. Von veganem Fleischersatz über Insektenprotein bis hin zu vertikaler Landwirtschaft reichen die Vorschläge, die nicht selten mit dem Versprechen einer ökologischen Revolution vermarktet werden. Bei genauerer Analyse zeigt sich jedoch, dass viele dieser vermeintlich nachhaltigen Alternativen eine deutlich komplexere Ökobilanz aufweisen, als ihre Befürworter suggerieren.\n\nPflanzliche Fleischersatzprodukte beispielsweise benötigen in ihrer industriellen Herstellung einen erheblichen Energieaufwand für die Extraktion und Verarbeitung pflanzlicher Proteine. Die verwendeten Rohstoffe — häufig Soja oder Erbsenprotein — stammen nicht selten aus Monokulturen, die ihrerseits mit Biodiversitätsverlust und Bodendegradation einhergehen. Ähnlich ambivalent ist die Bilanz der vertikalen Landwirtschaft: Während sie den Flächenverbrauch drastisch reduziert und Transportwege verkürzt, ist ihr Energiebedarf für künstliche Beleuchtung und Klimatisierung beträchtlich und wird häufig aus fossilen Quellen gedeckt.\n\nDies bedeutet nicht, dass Ernährungsinnovationen grundsätzlich abzulehnen wären. Es bedeutet jedoch, dass die Fixierung auf technologische Einzellösungen den Blick auf systemische Veränderungen verstellt, die weitaus wirksamer wären. Eine Reduktion der Lebensmittelverschwendung um die Hälfte hätte einen größeren ökologischen Effekt als jeder Fleischersatz. Die Förderung regionaler, saisonaler Landwirtschaft und die Verkürzung von Lieferketten würden den CO2-Fußabdruck des Ernährungssystems nachhaltiger senken als jede einzelne Produktinnovation.",
+    "text_en": "The search for ecologically responsible nutrition has produced an almost overwhelming variety of trends. From vegan meat substitutes to insect protein to vertical farming, the proposals are often marketed with the promise of an ecological revolution. Upon closer analysis, however, it becomes apparent that many of these supposedly sustainable alternatives have a significantly more complex ecological balance than their advocates suggest.\n\nPlant-based meat substitute products, for example, require considerable energy expenditure in their industrial production for the extraction and processing of plant proteins. The raw materials used — often soy or pea protein — not infrequently come from monocultures that in turn are associated with biodiversity loss and soil degradation. Similarly ambivalent is the balance of vertical farming: while it drastically reduces land use and shortens transport routes, its energy demand for artificial lighting and climate control is considerable and is frequently met from fossil sources.\n\nThis does not mean that nutritional innovations should be fundamentally rejected. It does mean, however, that the fixation on individual technological solutions obscures the view of systemic changes that would be far more effective. A reduction of food waste by half would have a greater ecological effect than any meat substitute. The promotion of regional, seasonal agriculture and the shortening of supply chains would reduce the carbon footprint of the food system more sustainably than any single product innovation.",
+    "source": "Magazin",
+    "word_count": 195
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was bemängelt der Autor an pflanzlichen Fleischersatzprodukten?",
+      "text_en": "What does the author criticize about plant-based meat substitutes?",
+      "options": [
+        "a) Sie schmecken nicht wie echtes Fleisch.",
+        "b) Sie sind zu teuer für den Massenmarkt.",
+        "c) Ihre industrielle Herstellung erfordert erheblichen Energieaufwand und nutzt oft Monokulturen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Herstellung erfordert erheblichen Energieaufwand, und die Rohstoffe stammen oft aus Monokulturen.",
+      "explanation_en": "Production requires considerable energy expenditure, and raw materials often come from monocultures."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist das Problem der vertikalen Landwirtschaft?",
+      "text_en": "What is the problem with vertical farming?",
+      "options": [
+        "a) Ihr hoher Energiebedarf wird häufig aus fossilen Quellen gedeckt.",
+        "b) Sie kann nur eine begrenzte Anzahl von Pflanzenarten anbauen.",
+        "c) Sie benötigt mehr Fläche als konventionelle Landwirtschaft."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der beträchtliche Energiebedarf für Beleuchtung und Klimatisierung wird häufig aus fossilen Quellen gedeckt.",
+      "explanation_en": "The considerable energy demand for lighting and climate control is frequently met from fossil sources."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was wäre laut dem Autor ökologisch wirksamer als Fleischersatz?",
+      "text_en": "What would be more ecologically effective than meat substitutes according to the author?",
+      "options": [
+        "a) Die vollständige Abschaffung der Tierhaltung.",
+        "b) Eine Reduktion der Lebensmittelverschwendung um die Hälfte.",
+        "c) Der ausschließliche Konsum von Insektenprotein."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine Halbierung der Lebensmittelverschwendung hätte einen größeren ökologischen Effekt als jeder Fleischersatz.",
+      "explanation_en": "Halving food waste would have a greater ecological effect than any meat substitute."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was verstellt laut dem Autor den Blick auf systemische Veränderungen?",
+      "text_en": "What obscures the view of systemic changes according to the author?",
+      "options": [
+        "a) Die mangelnde Bereitschaft der Verbraucher zur Verhaltensänderung.",
+        "b) Die fehlende staatliche Regulierung des Lebensmittelmarktes.",
+        "c) Die Fixierung auf technologische Einzellösungen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Fixierung auf technologische Einzellösungen verstellt den Blick auf systemische Veränderungen.",
+      "explanation_en": "The fixation on individual technological solutions obscures the view of systemic changes."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche systemische Maßnahme empfiehlt der Autor?",
+      "text_en": "What systemic measure does the author recommend?",
+      "options": [
+        "a) Die Förderung regionaler, saisonaler Landwirtschaft und kürzerer Lieferketten.",
+        "b) Die staatliche Subventionierung von Fleischersatzprodukten.",
+        "c) Den vollständigen Verzicht auf importierte Lebensmittel."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Regionale, saisonale Landwirtschaft und kürzere Lieferketten würden den CO2-Fußabdruck nachhaltiger senken.",
+      "explanation_en": "Regional, seasonal agriculture and shorter supply chains would reduce the carbon footprint more sustainably."
+    }
+  ]
+}

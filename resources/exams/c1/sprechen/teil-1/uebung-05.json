@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-1-005",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Kulturelles Erbe im Zeitalter der Globalisierung",
+  "instructions": "Sie sollen zu einem komplexen Thema Stellung nehmen. Halten Sie einen strukturierten Vortrag und diskutieren Sie anschließend mit dem Prüfer / der Prüferin.",
+  "situation_de": "Im Zeitalter der Globalisierung stehen Gesellschaften vor der Herausforderung, ihr kulturelles Erbe zu bewahren, ohne sich gegen Veränderungen und äußere Einflüsse abzuschotten. Traditionen, Sprachen, Handwerkskünste und immaterielle Kulturgüter geraten zunehmend unter Druck — gleichzeitig eröffnet die Globalisierung neue Möglichkeiten des interkulturellen Austauschs. Halten Sie einen strukturierten Vortrag, in dem Sie dieses Spannungsfeld beleuchten und Ihre Position darlegen.",
+  "situation_en": "In the age of globalization, societies face the challenge of preserving their cultural heritage without isolating themselves against change and external influences. Traditions, languages, crafts, and intangible cultural assets are coming under increasing pressure — at the same time, globalization opens new possibilities for intercultural exchange. Give a structured presentation in which you examine this field of tension and present your position.",
+  "discussion_points": [
+    "Bedrohte Traditionen: Welche Formen des kulturellen Erbes sind besonders gefährdet und warum? (Endangered traditions: Which forms of cultural heritage are particularly at risk and why?)",
+    "Kulturelle Aneignung vs. Austausch: Wo verläuft die Grenze zwischen respektvollem kulturellem Austausch und problematischer Aneignung? (Cultural appropriation vs. exchange: Where is the boundary between respectful cultural exchange and problematic appropriation?)",
+    "Sprache als Kulturgut: Wie kann die Vielfalt der Sprachen geschützt werden, wenn globale Verkehrssprachen immer dominanter werden? (Language as cultural asset: How can linguistic diversity be protected when global lingua francas become ever more dominant?)",
+    "Digitalisierung und kulturelles Gedächtnis: Bietet die Digitalisierung eine Chance, kulturelles Erbe zu bewahren, oder führt sie zu einer Nivellierung kultureller Unterschiede? (Digitalization and cultural memory: Does digitalization offer an opportunity to preserve cultural heritage, or does it lead to a leveling of cultural differences?)",
+    "Identität und Offenheit: Wie können Gesellschaften eine starke kulturelle Identität pflegen und gleichzeitig weltoffen bleiben? (Identity and openness: How can societies maintain a strong cultural identity while remaining open to the world?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über das Verhältnis von kulturellem Erbe und Globalisierung sprechen — ein Thema, das angesichts der zunehmenden kulturellen Vereinheitlichung weltweit von großer Bedeutung ist. Meine Ausgangsthese lautet: Kulturelles Erbe ist kein statisches Museum der Vergangenheit, sondern ein lebendiger Prozess, der ständig neu ausgehandelt wird. Die Herausforderung besteht darin, diese Dynamik zu gestalten, statt sie entweder konservativ einzufrieren oder unkritisch dem Markt zu überlassen. Betrachten wir zunächst die Dimension der Sprache. Sprachforschern zufolge stirbt etwa alle zwei Wochen eine Sprache aus. Jede dieser Sprachen trägt ein einzigartiges Weltwissen in sich — spezifische Denkmuster, Naturbeobachtungen und kulturelle Erinnerungen. Man könnte argumentieren, dass dies ein unvermeidlicher Prozess sei. Dem möchte ich jedoch entgegenhalten, dass das Aussterben einer Sprache immer auch mit Machtverhältnissen zu tun hat — mit der ökonomischen und politischen Dominanz bestimmter Sprachen und Kulturen.",
+      "text_en": "Today I would like to talk about the relationship between cultural heritage and globalization — a topic of great significance given the increasing cultural homogenization worldwide. My initial thesis is: Cultural heritage is not a static museum of the past, but a living process that is constantly being renegotiated. The challenge lies in shaping this dynamic, rather than either conservatively freezing it or uncritically leaving it to the market. Let us first consider the dimension of language. According to language researchers, approximately every two weeks a language dies out. Each of these languages carries unique world knowledge within it — specific thought patterns, nature observations, and cultural memories. One could argue that this is an inevitable process. However, I would counter that the extinction of a language always has to do with power relations — with the economic and political dominance of certain languages and cultures."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Daraus ergibt sich für mich die Forderung nach aktiver Sprachförderung und Mehrsprachigkeit als Bildungsziel. Unter Berücksichtigung der Tatsache, dass Sprache der wichtigste Träger kultureller Identität ist, halte ich Investitionen in die Dokumentation und Revitalisierung bedrohter Sprachen für eine zivilisatorische Aufgabe ersten Ranges.",
+      "text_en": "From this follows, in my view, the demand for active language promotion and multilingualism as an educational goal. Considering the fact that language is the most important carrier of cultural identity, I consider investments in the documentation and revitalization of endangered languages to be a civilizational task of the first order."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie sprechen die Bewahrung von Sprachen an. Aber wie stehen Sie zur sogenannten kulturellen Aneignung? Manche argumentieren, dass bereits das Tragen traditioneller Kleidung durch Außenstehende respektlos sei.",
+      "text_en": "You mention the preservation of languages. But what is your view on so-called cultural appropriation? Some argue that even the wearing of traditional clothing by outsiders is disrespectful."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein Thema, bei dem die Debatte häufig in Extreme verfällt. Ich würde differenzieren: Kultureller Austausch — das wechselseitige Kennenlernen und Integrieren kultureller Elemente — ist meines Erachtens nicht nur unvermeidlich, sondern auch wünschenswert. Problematisch wird es dann, wenn kulturelle Praktiken aus ihrem Kontext gerissen und kommerzialisiert werden, ohne die Herkunftsgemeinschaft einzubeziehen oder zu würdigen. Es geht also weniger um ein generelles Verbot als um die Frage von Respekt und Machtverhältnissen.",
+      "text_en": "That is a topic where the debate often falls into extremes. I would differentiate: Cultural exchange — the mutual getting to know and integrating of cultural elements — is in my view not only inevitable but also desirable. It becomes problematic when cultural practices are torn from their context and commercialized without involving or honoring the community of origin. It is therefore less about a general prohibition and more about the question of respect and power relations."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und welche Rolle spielt die Digitalisierung bei der Bewahrung von Kulturgütern? Sehen Sie darin eher eine Chance oder ein Risiko?",
+      "text_en": "And what role does digitalization play in the preservation of cultural heritage? Do you see it more as an opportunity or a risk?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Digitalisierung bietet ohne Zweifel enorme Möglichkeiten — man denke etwa an die digitale Archivierung von mündlichen Überlieferungen, an virtuelle Museen oder an Sprachlern-Apps für bedrohte Sprachen. Gleichwohl sehe ich die Gefahr, dass digitale Formate die sinnliche und soziale Dimension kultureller Praktiken nicht erfassen können. Eine Tanz-Tradition etwa lebt vom gemeinschaftlichen Erleben, von der körperlichen Erfahrung — das lässt sich nicht vollständig digitalisieren.",
+      "text_en": "Digitalization undoubtedly offers enormous possibilities — think for example of digital archiving of oral traditions, virtual museums, or language learning apps for endangered languages. However, I see the danger that digital formats cannot capture the sensory and social dimension of cultural practices. A dance tradition, for example, lives from communal experience, from bodily experience — that cannot be fully digitized."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie sprechen von der sinnlichen Dimension kultureller Praktiken. Gibt es dennoch gelungene Beispiele für die digitale Bewahrung von Kulturgut?",
+      "text_en": "You speak of the sensory dimension of cultural practices. Are there nevertheless successful examples of the digital preservation of cultural heritage?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Lassen Sie mich abschließend zusammenfassen: Die Bewahrung kulturellen Erbes in einer globalisierten Welt erfordert einen bewussten Balanceakt. Weder ein nostalgischer Traditionalismus noch eine unkritische Modernisierung führen zum Ziel. Vielmehr brauchen wir Strategien, die Traditionen als lebendige Ressource begreifen und sie in einen Dialog mit der Gegenwart bringen.",
+      "text_en": "Let me summarize in conclusion: The preservation of cultural heritage in a globalized world requires a conscious balancing act. Neither nostalgic traditionalism nor uncritical modernization leads to the goal. Rather, we need strategies that understand traditions as a living resource and bring them into dialogue with the present."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Herzlichen Dank für Ihren Vortrag. Welches konkrete Beispiel für gelungene Kulturbewahrung beeindruckt Sie am meisten?",
+      "text_en": "Sincere thanks for your presentation. Which concrete example of successful cultural preservation impresses you the most?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Besonders beeindruckt mich die Revitalisierung der baskischen Sprache im Baskenland. Durch ein konsequentes Bildungsprogramm, mediale Präsenz und politischen Willen ist es gelungen, eine Sprache, die vor wenigen Jahrzehnten vom Aussterben bedroht war, wieder zu einem selbstverständlichen Kommunikationsmittel zu machen. Das zeigt: Kulturelle Bewahrung ist möglich, wenn sie als gesamtgesellschaftliche Aufgabe verstanden und entsprechend gefördert wird — nicht als folkloristische Kuriosität, sondern als gelebte Praxis.",
+      "text_en": "I am particularly impressed by the revitalization of the Basque language in the Basque Country. Through a consistent education program, media presence, and political will, they succeeded in making a language that was threatened with extinction just a few decades ago into a natural means of communication again. This shows: Cultural preservation is possible when it is understood as a whole-of-society task and supported accordingly — not as a folkloristic curiosity, but as lived practice."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

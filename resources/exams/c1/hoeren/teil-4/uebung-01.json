@@ -1,0 +1,123 @@
+{
+  "id": "c1-hoeren-teil-4-001",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Kognitive Verzerrungen in der Entscheidungsfindung",
+  "instructions": "Sie hören einen wissenschaftlichen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Meine Damen und Herren, ich möchte Ihnen heute einen Überblick über die wichtigsten kognitiven Verzerrungen geben, die unsere Entscheidungsprozesse beeinflussen — oft ohne dass wir uns dessen bewusst sind. Die Forschung zu diesem Thema, die maßgeblich von den Arbeiten Kahnemans und Tverskys geprägt wurde, hat unser Verständnis menschlicher Rationalität grundlegend verändert.",
+      "text_en": "Ladies and gentlemen, I would like to give you an overview today of the most important cognitive biases that influence our decision-making processes — often without our being aware of it. The research on this topic, significantly shaped by the work of Kahneman and Tversky, has fundamentally changed our understanding of human rationality."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Die zentrale Erkenntnis lautet: Menschen entscheiden nicht rational im Sinne des homo oeconomicus, sondern bedienen sich systematischer Abkürzungen — sogenannter Heuristiken —, die in den meisten Alltagssituationen funktional sind, aber unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen. Ich möchte mich auf drei besonders wirkmächtige Verzerrungen konzentrieren.",
+      "text_en": "The central insight is: humans do not decide rationally in the sense of homo economicus but employ systematic shortcuts — so-called heuristics — that are functional in most everyday situations but lead to predictable misjudgments under certain conditions. I would like to focus on three particularly powerful biases."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Die erste ist der Bestätigungsfehler, im Englischen Confirmation Bias. Wir neigen dazu, Informationen bevorzugt wahrzunehmen und zu erinnern, die unsere bestehenden Überzeugungen stützen, während wir widersprüchliche Informationen unbewusst filtern oder abwerten. In einer vielzitierten Studie wurden Probanden gebeten, die Sicherheit einer Kernkraftanlage zu bewerten. Diejenigen, die bereits eine positive Einstellung zur Kernenergie hatten, bewerteten dieselben Sicherheitsdaten signifikant günstiger als die Kernkraftgegner — obwohl alle exakt dieselben Informationen erhielten.",
+      "text_en": "The first is the confirmation bias. We tend to preferentially perceive and remember information that supports our existing beliefs, while unconsciously filtering or devaluing contradictory information. In a widely cited study, subjects were asked to evaluate the safety of a nuclear power plant. Those who already had a positive attitude toward nuclear energy rated the same safety data significantly more favorably than nuclear opponents — even though everyone received exactly the same information."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Die zweite Verzerrung ist der Ankereffekt. Unsere Urteile werden maßgeblich von initialen Informationen beeinflusst, selbst wenn diese völlig willkürlich sind. In einem klassischen Experiment drehten die Probanden ein manipuliertes Glücksrad, das entweder bei 10 oder bei 65 landete. Anschließend sollten sie den Anteil afrikanischer Staaten in den Vereinten Nationen schätzen. Die Gruppe, deren Rad bei 65 gelandet war, schätzte den Anteil signifikant höher ein — obwohl die Zahl des Glücksrads offensichtlich nichts mit der Frage zu tun hatte. Dieser Effekt ist bemerkenswert robust und tritt selbst bei Experten auf.",
+      "text_en": "The second bias is the anchoring effect. Our judgments are significantly influenced by initial information, even when it is completely arbitrary. In a classic experiment, subjects spun a rigged wheel of fortune that landed on either 10 or 65. They were then asked to estimate the proportion of African states in the United Nations. The group whose wheel had landed on 65 estimated the proportion significantly higher — even though the number on the wheel obviously had nothing to do with the question. This effect is remarkably robust and occurs even among experts."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Die dritte Verzerrung, die ich hervorheben möchte, ist die Verfügbarkeitsheuristik. Wir schätzen die Wahrscheinlichkeit von Ereignissen danach ein, wie leicht uns Beispiele dafür einfallen. Nach einem Flugzeugunglück steigt die subjektive Einschätzung des Flugrisikos dramatisch an, obwohl die objektive Wahrscheinlichkeit unverändert bleibt. Medienberichterstattung verstärkt diesen Effekt erheblich, weil spektakuläre Ereignisse überproportional berichtet werden und dadurch kognitiv leichter verfügbar sind.",
+      "text_en": "The third bias I want to highlight is the availability heuristic. We estimate the probability of events based on how easily examples come to mind. After a plane crash, the subjective assessment of flight risk increases dramatically, even though the objective probability remains unchanged. Media coverage significantly amplifies this effect because spectacular events are disproportionately reported and thus more cognitively available."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Was diese Verzerrungen besonders problematisch macht, ist ihre Widerstandsfähigkeit gegenüber Korrekturversuchen. Selbst wenn Personen über ihre Existenz aufgeklärt werden, verschwinden die Verzerrungen nicht — sie werden bestenfalls abgeschwächt. Das liegt daran, dass viele dieser Verzerrungen im sogenannten System 1 verankert sind, dem schnellen, automatischen und intuitiven Denkprozess, der unseren bewussten Kontrolle weitgehend entzogen ist.",
+      "text_en": "What makes these biases particularly problematic is their resistance to correction attempts. Even when people are educated about their existence, the biases do not disappear — they are at best attenuated. This is because many of these biases are anchored in so-called System 1, the fast, automatic, and intuitive thinking process that is largely beyond our conscious control."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Welche Konsequenzen hat das für die Praxis? In Bereichen, in denen fehlerhafte Entscheidungen schwerwiegende Folgen haben — Medizin, Justiz, Finanzwesen —, reicht es nicht aus, auf die Urteilskraft des Einzelnen zu vertrauen. Wir brauchen institutionelle Strukturen, die als Korrektiv wirken: standardisierte Entscheidungsprotokolle, Peer-Review-Verfahren und sogenannte Debiasing-Strategien, die systematisch dafür sorgen, dass alternative Perspektiven berücksichtigt werden.",
+      "text_en": "What consequences does this have for practice? In areas where faulty decisions have severe consequences — medicine, justice, finance — it is not enough to trust in individual judgment. We need institutional structures that act as correctives: standardized decision protocols, peer review processes, and so-called debiasing strategies that systematically ensure alternative perspectives are considered."
+    },
+    {
+      "speaker": "Prof. Dr. Kästner",
+      "text_de": "Abschließend möchte ich darauf hinweisen, dass kognitive Verzerrungen nicht per se negativ sind. Die Heuristiken, auf denen sie beruhen, ermöglichen es uns, in einer komplexen Welt schnell und meistens angemessen zu handeln. Das Problem entsteht erst dann, wenn wir diese Abkürzungen unreflektiert in Kontexte übertragen, die eine sorgfältigere Analyse erfordern. Die bewusste Auseinandersetzung mit unseren eigenen Denkmustern — das, was man als kognitive Demut bezeichnen könnte — ist der erste Schritt zu besseren Entscheidungen.",
+      "text_en": "In closing, I would like to point out that cognitive biases are not inherently negative. The heuristics on which they are based enable us to act quickly and usually appropriately in a complex world. The problem only arises when we unreflectingly transfer these shortcuts to contexts that require more careful analysis. The conscious engagement with our own thinking patterns — what one might call cognitive humility — is the first step toward better decisions."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist die zentrale Erkenntnis der Forschung zu kognitiven Verzerrungen?",
+      "text_en": "What is the central insight of research on cognitive biases?",
+      "options": [
+        "a) Dass Menschen systematische Heuristiken nutzen, die unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen.",
+        "b) Dass Menschen grundsätzlich rational entscheiden, wenn sie ausreichend informiert sind.",
+        "c) Dass kognitive Verzerrungen nur bei unintelligenten Personen auftreten."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Menschen bedienen sich systematischer Heuristiken, die meistens funktional sind, aber unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen.",
+      "explanation_en": "Humans employ systematic heuristics that are mostly functional but lead to predictable misjudgments under certain conditions."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigte die Studie zur Bewertung der Kernkraftanlage?",
+      "text_en": "What did the study on evaluating the nuclear power plant show?",
+      "options": [
+        "a) Dass Kernkraftgegner die Sicherheitsdaten realistischer bewerteten.",
+        "b) Dass Personen mit positiver Einstellung dieselben Daten günstiger bewerteten als Gegner.",
+        "c) Dass alle Teilnehmer zu identischen Bewertungen kamen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Personen mit positiver Einstellung zur Kernenergie bewerteten dieselben Sicherheitsdaten signifikant günstiger — ein Beispiel für den Bestätigungsfehler.",
+      "explanation_en": "People with a positive attitude toward nuclear energy rated the same safety data significantly more favorably — an example of confirmation bias."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was demonstrierte das Glücksrad-Experiment zum Ankereffekt?",
+      "text_en": "What did the wheel of fortune experiment demonstrate about the anchoring effect?",
+      "options": [
+        "a) Dass nur unerfahrene Personen dem Ankereffekt unterliegen.",
+        "b) Dass Probanden ihre Antworten bewusst an die Glücksradzahl anpassten.",
+        "c) Dass selbst willkürliche Zahlen die nachfolgenden Schätzungen signifikant beeinflussen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Selbst eine völlig willkürliche Zahl auf dem Glücksrad beeinflusste die nachfolgenden Schätzungen signifikant — der Ankereffekt ist bemerkenswert robust.",
+      "explanation_en": "Even a completely arbitrary number on the wheel of fortune significantly influenced subsequent estimates — the anchoring effect is remarkably robust."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum verschwinden kognitive Verzerrungen nicht, selbst wenn man über sie Bescheid weiß?",
+      "text_en": "Why do cognitive biases not disappear even when one knows about them?",
+      "options": [
+        "a) Weil sie im System 1 verankert sind, das der bewussten Kontrolle weitgehend entzogen ist.",
+        "b) Weil die Forschung zu Debiasing-Strategien noch in den Anfängen steckt.",
+        "c) Weil Menschen grundsätzlich nicht lernfähig sind."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Viele Verzerrungen sind im System 1 verankert — dem schnellen, automatischen Denkprozess, der unserer bewussten Kontrolle weitgehend entzogen ist.",
+      "explanation_en": "Many biases are anchored in System 1 — the fast, automatic thinking process that is largely beyond our conscious control."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was bezeichnet Prof. Kästner als ersten Schritt zu besseren Entscheidungen?",
+      "text_en": "What does Prof. Kästner call the first step toward better decisions?",
+      "options": [
+        "a) Die vollständige Vermeidung aller Heuristiken im Alltag.",
+        "b) Die kognitive Demut — die bewusste Auseinandersetzung mit den eigenen Denkmustern.",
+        "c) Die ausschließliche Nutzung computergestützter Entscheidungssysteme."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kognitive Demut — die bewusste Auseinandersetzung mit unseren eigenen Denkmustern — ist der erste Schritt zu besseren Entscheidungen.",
+      "explanation_en": "Cognitive humility — the conscious engagement with our own thinking patterns — is the first step toward better decisions."
+    }
+  ]
+}

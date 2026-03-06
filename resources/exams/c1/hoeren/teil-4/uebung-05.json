@@ -1,0 +1,123 @@
+{
+  "id": "c1-hoeren-teil-4-005",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Philosophie des Bewusstseins",
+  "instructions": "Sie hören einen wissenschaftlichen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Meine Damen und Herren, heute möchte ich mich einem der ältesten und zugleich aktuellsten Probleme der Philosophie widmen: der Frage nach dem Bewusstsein. Was ist Bewusstsein? Warum gibt es subjektives Erleben? Und warum ist es so schwer, eine befriedigende wissenschaftliche Erklärung dafür zu finden?",
+      "text_en": "Ladies and gentlemen, today I would like to address one of the oldest and at the same time most current problems of philosophy: the question of consciousness. What is consciousness? Why does subjective experience exist? And why is it so difficult to find a satisfactory scientific explanation for it?"
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Der australische Philosoph David Chalmers hat diese Schwierigkeit prägnant als das „schwere Problem des Bewusstseins“ formuliert. Die „leichten“ Probleme — leicht im Vergleich, nicht absolut — betreffen die Erklärung kognitiver Funktionen: Wie verarbeitet das Gehirn Informationen? Wie steuert es Verhalten? Wie unterscheidet es zwischen Schlaf und Wachzustand? Diese Fragen sind prinzipiell mit den Methoden der Neurowissenschaft beantwortbar. Das schwere Problem hingegen betrifft die Frage, warum diese Prozesse von subjektivem Erleben begleitet werden — warum es sich auf eine bestimmte Weise „anfühlt“, etwas zu sehen, zu hören oder Schmerz zu empfinden.",
+      "text_en": "The Australian philosopher David Chalmers has succinctly formulated this difficulty as the 'hard problem of consciousness.' The 'easy' problems — easy by comparison, not absolutely — concern the explanation of cognitive functions: How does the brain process information? How does it control behavior? How does it distinguish between sleep and wakefulness? These questions are in principle answerable with the methods of neuroscience. The hard problem, however, concerns the question of why these processes are accompanied by subjective experience — why it 'feels' a certain way to see, to hear, or to feel pain."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Es gibt mehrere konkurrierende philosophische Positionen zu diesem Problem. Der physikalische Reduktionismus behauptet, dass Bewusstsein vollständig auf neuronale Prozesse reduzierbar sei — subjektives Erleben sei nichts anderes als Gehirnaktivität. Diese Position hat den Vorteil der Sparsamkeit, steht aber vor dem sogenannten Erklärungslücke-Argument: Selbst eine vollständige Beschreibung aller neuronalen Vorgänge erklärt nicht, warum diese Vorgänge von Bewusstsein begleitet werden.",
+      "text_en": "There are several competing philosophical positions on this problem. Physical reductionism claims that consciousness is fully reducible to neural processes — subjective experience is nothing other than brain activity. This position has the advantage of parsimony but faces the so-called explanatory gap argument: even a complete description of all neural processes does not explain why these processes are accompanied by consciousness."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Eine alternative Position ist der Eigenschaftsdualismus, der davon ausgeht, dass mentale Eigenschaften — also bewusste Erlebnisse — zwar von physischen Prozessen abhängen, aber nicht auf sie reduzierbar sind. Bewusstsein wäre demnach eine emergente Eigenschaft, die aus der Komplexität neuronaler Systeme hervorgeht, aber nicht allein durch die Beschreibung der zugrundeliegenden physischen Prozesse erfasst werden kann. Kritiker werfen diesem Ansatz vor, das Problem lediglich zu benennen, ohne es zu lösen.",
+      "text_en": "An alternative position is property dualism, which assumes that mental properties — that is, conscious experiences — depend on physical processes but are not reducible to them. Consciousness would thus be an emergent property that arises from the complexity of neural systems but cannot be captured solely through the description of underlying physical processes. Critics accuse this approach of merely naming the problem without solving it."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Eine dritte, zunehmend diskutierte Position ist der Panpsychismus — die Auffassung, dass Bewusstsein eine grundlegende Eigenschaft der Materie ist, die nicht erst auf der Ebene komplexer Gehirne entsteht, sondern in rudimentärer Form bereits in den elementarsten physischen Prozessen vorhanden ist. Was zunächst nach esoterischer Spekulation klingt, wird von seriösen Philosophen wie Galen Strawson und Philip Goff mit durchaus beachtenswerten Argumenten vertreten. Der Panpsychismus vermeidet das Erklärungslückenproblem, indem er Bewusstsein nicht als emergent, sondern als fundamental postuliert.",
+      "text_en": "A third, increasingly discussed position is panpsychism — the view that consciousness is a fundamental property of matter that does not first arise at the level of complex brains but exists in rudimentary form already in the most elementary physical processes. What initially sounds like esoteric speculation is advocated by serious philosophers such as Galen Strawson and Philip Goff with quite noteworthy arguments. Panpsychism avoids the explanatory gap problem by postulating consciousness not as emergent but as fundamental."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Die Fortschritte der Neurowissenschaft haben die philosophische Debatte nicht etwa gelöst, sondern verschärft. Wir können heute mit bemerkenswerter Präzision angeben, welche Gehirnregionen bei bestimmten Bewusstseinszuständen aktiv sind. Aber die Korrelation zwischen neuronaler Aktivität und bewusstem Erleben ist nicht dasselbe wie eine Erklärung. Dass die Region V4 im visuellen Kortex beim Farbsehen aktiv ist, erklärt nicht, warum Rot sich auf eine bestimmte Weise „anfühlt“ — es beschreibt lediglich die physische Begleiterscheinung des Erlebens.",
+      "text_en": "The advances of neuroscience have not resolved the philosophical debate but rather intensified it. We can today state with remarkable precision which brain regions are active during certain states of consciousness. But the correlation between neural activity and conscious experience is not the same as an explanation. That region V4 in the visual cortex is active during color perception does not explain why red 'feels' a certain way — it merely describes the physical accompaniment of experience."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Welche praktischen Implikationen hat diese Debatte? Erstens für die Künstliche-Intelligenz-Forschung: Wenn wir nicht verstehen, was Bewusstsein ist, können wir auch nicht beurteilen, ob eine Maschine bewusst sein kann. Zweitens für die Medizinethik: Bei Patienten im Wachkoma oder unter Narkose stellt sich die Frage, ob und in welchem Maße Bewusstsein vorhanden ist — eine Frage mit unmittelbaren Konsequenzen für die Behandlung.",
+      "text_en": "What practical implications does this debate have? First for artificial intelligence research: if we do not understand what consciousness is, we cannot judge whether a machine can be conscious. Second for medical ethics: in patients in persistent vegetative states or under anesthesia, the question arises whether and to what extent consciousness is present — a question with immediate consequences for treatment."
+    },
+    {
+      "speaker": "Prof. Dr. Winkler",
+      "text_de": "Abschließend möchte ich festhalten: Das Bewusstseinsproblem ist das vielleicht letzte große Rätsel, das sich einer wissenschaftlichen Lösung im herkömmlichen Sinne entzieht. Es verlangt möglicherweise einen grundlegend neuen konzeptionellen Rahmen, der die Grenzen sowohl des Materialismus als auch des Dualismus überwindet. Die Philosophie des Bewusstseins steht daher nicht am Ende ihrer Geschichte, sondern — so meine Überzeugung — am Anfang.",
+      "text_en": "In closing, I would like to note: the consciousness problem is perhaps the last great puzzle that eludes a scientific solution in the conventional sense. It may require a fundamentally new conceptual framework that overcomes the limits of both materialism and dualism. The philosophy of consciousness therefore stands not at the end of its history but — in my conviction — at its beginning."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was beschreibt Chalmers' „schweres Problem des Bewusstseins“?",
+      "text_en": "What does Chalmers' 'hard problem of consciousness' describe?",
+      "options": [
+        "a) Die Frage, wie das Gehirn Informationen speichert.",
+        "b) Die Schwierigkeit, neuronale Netzwerke zu simulieren.",
+        "c) Die Frage, warum kognitive Prozesse von subjektivem Erleben begleitet werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das schwere Problem betrifft die Frage, warum neuronale Prozesse von subjektivem Erleben begleitet werden — warum es sich auf eine bestimmte Weise „anfühlt“.",
+      "explanation_en": "The hard problem concerns the question of why neural processes are accompanied by subjective experience — why it 'feels' a certain way."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist das Problem des physikalischen Reduktionismus laut Prof. Winkler?",
+      "text_en": "What is the problem with physical reductionism according to Prof. Winkler?",
+      "options": [
+        "a) Dass er experimentell nicht überprüfbar ist.",
+        "b) Dass er die Erklärungslücke nicht schließen kann — selbst eine vollständige Beschreibung neuronaler Vorgänge erklärt nicht das Bewusstsein.",
+        "c) Dass er nur auf einfache Organismen anwendbar ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Selbst eine vollständige Beschreibung aller neuronalen Vorgänge erklärt nicht, warum diese von Bewusstsein begleitet werden — das ist die Erklärungslücke.",
+      "explanation_en": "Even a complete description of all neural processes does not explain why they are accompanied by consciousness — this is the explanatory gap."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was behauptet der Panpsychismus?",
+      "text_en": "What does panpsychism claim?",
+      "options": [
+        "a) Dass Bewusstsein eine grundlegende Eigenschaft der Materie ist, die in rudimentärer Form überall vorhanden ist.",
+        "b) Dass Bewusstsein eine Illusion ist, die vom Gehirn erzeugt wird.",
+        "c) Dass nur Menschen über echtes Bewusstsein verfügen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Panpsychismus postuliert Bewusstsein als grundlegende Eigenschaft der Materie, die in rudimentärer Form bereits in den elementarsten physischen Prozessen vorhanden ist.",
+      "explanation_en": "Panpsychism postulates consciousness as a fundamental property of matter that exists in rudimentary form already in the most elementary physical processes."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum hat die Neurowissenschaft das Bewusstseinsproblem laut Prof. Winkler nicht gelöst?",
+      "text_en": "Why has neuroscience not solved the consciousness problem according to Prof. Winkler?",
+      "options": [
+        "a) Weil die Messgeräte nicht empfindlich genug sind.",
+        "b) Weil Bewusstsein nur ein Nebenprodukt evolutionärer Anpassung ist.",
+        "c) Weil neuronale Korrelation nicht dasselbe ist wie eine Erklärung des subjektiven Erlebens."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Korrelation zwischen neuronaler Aktivität und bewusstem Erleben ist nicht dasselbe wie eine Erklärung — sie beschreibt die physische Begleiterscheinung, nicht das Erleben selbst.",
+      "explanation_en": "The correlation between neural activity and conscious experience is not the same as an explanation — it describes the physical accompaniment, not the experience itself."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche praktische Implikation nennt Prof. Winkler für die KI-Forschung?",
+      "text_en": "What practical implication does Prof. Winkler mention for AI research?",
+      "options": [
+        "a) Dass KI-Systeme bereits heute bewusst sind.",
+        "b) Dass wir ohne Verständnis von Bewusstsein nicht beurteilen können, ob eine Maschine bewusst sein kann.",
+        "c) Dass die KI-Forschung das Bewusstseinsproblem innerhalb weniger Jahre lösen wird."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wenn wir nicht verstehen, was Bewusstsein ist, können wir auch nicht beurteilen, ob eine Maschine bewusst sein kann.",
+      "explanation_en": "If we do not understand what consciousness is, we cannot judge whether a machine can be conscious."
+    }
+  ]
+}

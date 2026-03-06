@@ -38,6 +38,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 - B2 exam practice content: complete (#335), v2.5.0
 - B2: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
+- C1 exam practice content: in progress (#336)
+- C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
 
 ## Repository Purpose
 
@@ -50,6 +52,7 @@ Python-based German language learning resources and content:
 - A2 exam practice exercises (65 exercises, Goethe-Institut format — #321)
 - A1 exam practice exercises (60 exercises, Goethe-Institut format — #334)
 - B2 exam practice exercises (65 exercises, Goethe-Institut format — #335)
+- C1 exam practice exercises (65 exercises, Goethe-Institut format — #336)
 
 ## Gotchas
 
@@ -166,6 +169,11 @@ resources/exams/b1/              # B1 exam practice exercises (75, Goethe-Instit
 ├── schreiben/aufgabe-{1-3}/    # Writing (3 tasks, 5 exercises each)
 └── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
 resources/exams/b2/              # B2 exam practice exercises (65, Goethe-Institut format)
+├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
+├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-2}/        # Speaking (2 parts, 5 exercises each)
+resources/exams/c1/              # C1 exam practice exercises (65, Goethe-Institut format)
 ├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
 ├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
 ├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)

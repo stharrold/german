@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-2-001",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Grundeinkommen als Gesellschaftsmodell",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Willkommen bei „Kontrovers“ — der Debattensendung im Deutschlandfunk. Heute diskutieren wir über das bedingungslose Grundeinkommen. Zu Gast sind Frau Dr. Monika Frey, Ökonomin an der Universität Mannheim, und Herr Thomas Brückner, Soziologe und Autor. Frau Dr. Frey, Sie befürworten das Grundeinkommen. Warum?",
+      "text_en": "Welcome to 'Kontrovers' — the debate program on Deutschlandfunk. Today we are discussing the unconditional basic income. Our guests are Dr. Monika Frey, economist at the University of Mannheim, and Thomas Brückner, sociologist and author. Dr. Frey, you support the basic income. Why?"
+    },
+    {
+      "speaker": "Dr. Frey",
+      "text_de": "Das bedingungslose Grundeinkommen ist die konsequenteste Antwort auf die tiefgreifenden Umwälzungen des Arbeitsmarktes. Die zunehmende Automatisierung wird in den kommenden Jahrzehnten Millionen von Arbeitsplätzen obsolet machen. Anstatt an einem Sozialsystem festzuhalten, das Erwerbsarbeit als zentrale Voraussetzung für gesellschaftliche Teilhabe definiert, sollten wir den Menschen die materielle Sicherheit geben, sich frei zu entfalten. Ein Grundeinkommen von etwa 1200 Euro pro Monat würde Existenzängste beseitigen und gleichzeitig die Bürokratie des bestehenden Sozialstaats erheblich reduzieren.",
+      "text_en": "The unconditional basic income is the most consistent answer to the profound upheavals of the labor market. Increasing automation will make millions of jobs obsolete in the coming decades. Instead of clinging to a social system that defines gainful employment as the central prerequisite for social participation, we should give people the material security to develop freely. A basic income of about 1,200 euros per month would eliminate existential fears while significantly reducing the bureaucracy of the existing welfare state."
+    },
+    {
+      "speaker": "Herr Brückner",
+      "text_de": "Ich muss hier entschieden widersprechen. Die Annahme, Automatisierung werde massenhaft Arbeitsplätze vernichten, ist eine Prognose, die sich bislang nicht bewahrheitet hat. Historisch betrachtet hat jede technologische Revolution neue Berufsfelder hervorgebracht. Mein Haupteinwand gegen das Grundeinkommen betrifft jedoch die soziale Dimension: Erwerbsarbeit ist nicht nur eine Einkommensquelle, sondern eine zentrale Quelle sozialer Anerkennung, Strukturierung des Alltags und persönlicher Identität. Ein Grundeinkommen, das Menschen von der Notwendigkeit der Erwerbsarbeit befreit, könnte paradoxerweise zu einem Verlust an Sinnstiftung führen.",
+      "text_en": "I must firmly disagree here. The assumption that automation will destroy jobs on a massive scale is a prediction that has not materialized so far. Historically, every technological revolution has produced new occupational fields. My main objection to the basic income, however, concerns the social dimension: gainful employment is not merely a source of income but a central source of social recognition, daily structure, and personal identity. A basic income that frees people from the necessity of gainful employment could paradoxically lead to a loss of meaning."
+    },
+    {
+      "speaker": "Dr. Frey",
+      "text_de": "Herr Brückner, Sie verkennen dabei, dass die überwiegende Mehrheit der Menschen auch mit einem Grundeinkommen weiterarbeiten würde — allerdings unter besseren Bedingungen. Die Pilotprojekte, die in Finnland, Kenia und Kanada durchgeführt wurden, zeigen eindeutig, dass die Empfänger nicht etwa in Passivität verfielen, sondern sich weiterbildeten, ehrenamtlich engagierten oder eigene Unternehmen gründeten. Das Grundeinkommen schafft nicht Faulheit, sondern Freiheit — die Freiheit, Nein zu unwürdigen Arbeitsbedingungen zu sagen.",
+      "text_en": "Mr. Brückner, you fail to recognize that the vast majority of people would continue working even with a basic income — but under better conditions. The pilot projects conducted in Finland, Kenya, and Canada clearly show that recipients did not lapse into passivity but pursued further education, volunteered, or started their own businesses. The basic income does not create laziness but freedom — the freedom to say no to undignified working conditions."
+    },
+    {
+      "speaker": "Herr Brückner",
+      "text_de": "Die Ergebnisse dieser Pilotprojekte sind methodisch umstritten. Kurzfristige Experimente mit kleinen Stichproben lassen keine Rückschlüsse auf die gesellschaftsweiten Auswirkungen eines permanenten Grundeinkommens zu. Meine größte Sorge ist die Finanzierbarkeit. Ein Grundeinkommen von 1200 Euro für alle Erwachsenen in Deutschland würde Kosten von über 800 Milliarden Euro jährlich verursachen. Selbst unter Berücksichtigung der eingesparten Sozialleistungen und Verwaltungskosten bliebe eine enorme Finanzierungslücke, die nur durch massive Steuererhöhungen geschlossen werden könnte.",
+      "text_en": "The results of these pilot projects are methodologically disputed. Short-term experiments with small samples do not allow conclusions about the society-wide effects of a permanent basic income. My greatest concern is affordability. A basic income of 1,200 euros for all adults in Germany would cost over 800 billion euros annually. Even accounting for saved social benefits and administrative costs, an enormous funding gap would remain that could only be closed through massive tax increases."
+    },
+    {
+      "speaker": "Dr. Frey",
+      "text_de": "Die Finanzierungsfrage ist berechtigt, aber lösbar. Eine Kombination aus Finanztransaktionssteuer, Maschinensteuer und der Umwidmung bestehender Transferleistungen könnte den Großteil der Kosten decken. Entscheidend ist, dass wir die Debatte nicht auf die Kostenfrage verengen, sondern die gesamtgesellschaftlichen Erträge berücksichtigen: weniger Armut, bessere Gesundheit, höhere Bildungsbeteiligung und vor allem eine Stärkung der individuellen Verhandlungsmacht gegenüber Arbeitgebern.",
+      "text_en": "The financing question is legitimate but solvable. A combination of financial transaction tax, robot tax, and the reallocation of existing transfer payments could cover most of the costs. What is crucial is that we do not narrow the debate to the cost question but consider the overall societal returns: less poverty, better health, higher educational participation, and above all a strengthening of individual bargaining power vis-à-vis employers."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum befürwortet Dr. Frey das bedingungslose Grundeinkommen?",
+      "text_en": "Why does Dr. Frey support the unconditional basic income?",
+      "options": [
+        "a) Weil es die konsequenteste Antwort auf die Umwälzungen des Arbeitsmarktes durch Automatisierung ist.",
+        "b) Weil es billiger als das bestehende Sozialsystem ist.",
+        "c) Weil die Mehrheit der Bevölkerung nicht mehr arbeiten möchte."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Dr. Frey sieht das Grundeinkommen als konsequenteste Antwort auf die Automatisierung, die Millionen Arbeitsplätze obsolet machen wird.",
+      "explanation_en": "Dr. Frey sees the basic income as the most consistent answer to automation, which will make millions of jobs obsolete."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist Herrn Brückners Haupteinwand gegen das Grundeinkommen?",
+      "text_en": "What is Mr. Brückner's main objection to the basic income?",
+      "options": [
+        "a) Dass es die technologische Entwicklung verlangsamen würde.",
+        "b) Dass der Verlust der Erwerbsarbeit zu einem Verlust an Sinnstiftung führen könnte.",
+        "c) Dass es die Inflation massiv ansteigen lassen würde."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Brückners Haupteinwand betrifft die soziale Dimension: Erwerbsarbeit ist eine zentrale Quelle sozialer Anerkennung und Sinnstiftung.",
+      "explanation_en": "Brückner's main objection concerns the social dimension: gainful employment is a central source of social recognition and meaning."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen die Pilotprojekte zum Grundeinkommen laut Dr. Frey?",
+      "text_en": "What do the basic income pilot projects show according to Dr. Frey?",
+      "options": [
+        "a) Dass die Empfänger weniger arbeiteten als zuvor.",
+        "b) Dass die Projekte mangels Teilnehmern abgebrochen werden mussten.",
+        "c) Dass die Empfänger sich weiterbildeten, ehrenamtlich engagierten oder Unternehmen gründeten."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Pilotprojekte zeigen, dass Empfänger nicht in Passivität verfielen, sondern sich weiterbildeten, engagierten oder Unternehmen gründeten.",
+      "explanation_en": "The pilot projects show that recipients did not lapse into passivity but pursued education, volunteered, or started businesses."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Herr Brückner an den Pilotprojekten?",
+      "text_en": "What does Mr. Brückner criticize about the pilot projects?",
+      "options": [
+        "a) Dass sie methodisch umstritten sind und keine Rückschlüsse auf gesellschaftsweite Effekte erlauben.",
+        "b) Dass sie in den falschen Ländern durchgeführt wurden.",
+        "c) Dass sie von der Industrie finanziert wurden."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Brückner kritisiert, dass kurzfristige Experimente mit kleinen Stichproben methodisch umstritten sind und keine Rückschlüsse auf gesellschaftsweite Auswirkungen zulassen.",
+      "explanation_en": "Brückner criticizes that short-term experiments with small samples are methodologically disputed and do not allow conclusions about society-wide effects."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie will Dr. Frey das Grundeinkommen finanzieren?",
+      "text_en": "How does Dr. Frey want to finance the basic income?",
+      "options": [
+        "a) Ausschließlich durch Kürzungen bei der Verteidigung.",
+        "b) Durch Finanztransaktionssteuer, Maschinensteuer und Umwidmung bestehender Transferleistungen.",
+        "c) Durch freiwillige Beiträge der Unternehmen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Frey schlägt eine Kombination aus Finanztransaktionssteuer, Maschinensteuer und Umwidmung bestehender Transferleistungen vor.",
+      "explanation_en": "Dr. Frey proposes a combination of financial transaction tax, robot tax, and reallocation of existing transfer payments."
+    }
+  ]
+}

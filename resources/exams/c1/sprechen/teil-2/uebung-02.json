@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-2-002",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Reform des Prüfungssystems an Hochschulen",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte und einigen Sie sich auf einen Vorschlag.",
+  "situation_de": "Sie sind beide Mitglieder einer Kommission, die an Ihrer Hochschule eine Reform des Prüfungssystems erarbeiten soll. Die bisherige Praxis — überwiegend schriftliche Klausuren am Semesterende — wird von Studierenden und Lehrenden gleichermaßen kritisiert. Es gibt Forderungen nach vielfältigeren Prüfungsformaten, kompetenzorientierter Bewertung und weniger Prüfungsstress. Gleichzeitig müssen Qualitätsstandards gewahrt und die Vergleichbarkeit sichergestellt werden. Erarbeiten Sie gemeinsam einen Reformvorschlag.",
+  "situation_en": "You are both members of a commission that is to develop a reform of the examination system at your university. The current practice — predominantly written exams at the end of the semester — is criticized equally by students and instructors. There are demands for more diverse examination formats, competency-oriented assessment, and less exam stress. At the same time, quality standards must be maintained and comparability ensured. Develop a reform proposal together.",
+  "discussion_points": [
+    "Prüfungsformate: Welche Alternativen zur klassischen Klausur — mündliche Prüfungen, Portfolios, Projektarbeiten, Peer-Assessments — sind sinnvoll? (Examination formats: Which alternatives to the classic written exam — oral exams, portfolios, project work, peer assessments — are sensible?)",
+    "Kompetenzorientierung: Wie kann sichergestellt werden, dass Prüfungen tatsächlich relevante Kompetenzen messen und nicht nur auswendig gelerntes Wissen abfragen? (Competency orientation: How can it be ensured that exams actually measure relevant competencies and not just memorized knowledge?)",
+    "Prüfungsbelastung: Wie lässt sich die Prüfungslast besser über das Semester verteilen, ohne den Arbeitsaufwand insgesamt zu erhöhen? (Exam burden: How can the exam load be better distributed over the semester without increasing the overall workload?)",
+    "Digitale Prüfungsformate: Welche Chancen und Risiken bieten digitale Prüfungen, insbesondere im Hinblick auf Betrugsanfälligkeit und Datenschutz? (Digital exam formats: What opportunities and risks do digital exams offer, especially regarding susceptibility to cheating and data protection?)",
+    "Qualitätssicherung und Vergleichbarkeit: Wie können bei vielfältigeren Prüfungsformaten dennoch faire und vergleichbare Bewertungsstandards gewährleistet werden? (Quality assurance and comparability: How can fair and comparable assessment standards still be guaranteed with more diverse exam formats?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich denke, wir sind uns einig, dass das aktuelle System erhebliche Schwächen hat. Der Prüfungsdruck am Semesterende ist für viele Studierende kaum noch zu bewältigen, und die Aussagekraft einer dreistündigen Klausur über die tatsächlichen Kompetenzen ist doch recht begrenzt. Wie sehen Sie das?",
+      "text_en": "I think we agree that the current system has considerable weaknesses. The exam pressure at the end of the semester is barely manageable for many students, and the meaningfulness of a three-hour written exam regarding actual competencies is quite limited. How do you see it?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das sehe ich ähnlich, wobei ich auch die Perspektive der Lehrenden berücksichtigen möchte. Viele Dozentinnen und Dozenten befürchten, dass alternative Prüfungsformate einen erheblichen Mehraufwand bei der Korrektur und Bewertung bedeuten. Wir müssen also Formate finden, die für alle Beteiligten praktikabel sind.",
+      "text_en": "I see it similarly, although I would also like to consider the perspective of the instructors. Many lecturers fear that alternative exam formats mean a considerable additional workload for correction and assessment. We therefore need to find formats that are practicable for all involved."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ein berechtigter Einwand. Mein Vorschlag wäre ein modulares System, bei dem je nach Fach und Veranstaltungstyp unterschiedliche Prüfungsformate zum Einsatz kommen. In naturwissenschaftlichen Fächern könnten Laborberichte und praktische Demonstrationen die Klausur teilweise ersetzen, während in den Geisteswissenschaften Portfolios und mündliche Präsentationen sinnvoller wären.",
+      "text_en": "A justified objection. My suggestion would be a modular system where different exam formats are used depending on the subject and course type. In natural sciences, lab reports and practical demonstrations could partially replace the written exam, while in humanities, portfolios and oral presentations would be more sensible."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das klingt schlüssig. Allerdings stellt sich dann die Frage der Vergleichbarkeit. Wenn Studierende desselben Studiengangs in verschiedenen Modulen völlig unterschiedlich geprüft werden, wie stellen wir dann sicher, dass die Noten vergleichbar und fair sind?",
+      "text_en": "That sounds logical. However, the question of comparability then arises. If students of the same program are examined completely differently in various modules, how do we ensure that grades are comparable and fair?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist in der Tat die zentrale Herausforderung. Ich würde vorschlagen, dass wir kompetenzbasierte Bewertungsraster — sogenannte Rubrics — entwickeln, die für alle Prüfungsformate gelten. Diese Raster würden transparent definieren, welche Kompetenzstufen welcher Note entsprechen. So wäre die Vergleichbarkeit auch bei unterschiedlichen Formaten gewährleistet, weil nicht die Form, sondern die demonstrierte Kompetenz bewertet wird.",
+      "text_en": "That is indeed the central challenge. I would suggest that we develop competency-based assessment rubrics that apply to all exam formats. These rubrics would transparently define which competency levels correspond to which grades. This way, comparability would be ensured even with different formats, because what is assessed is not the form, but the demonstrated competency."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein guter Ansatz. Und was halten Sie von der Idee, die Prüfungsleistungen über das Semester zu verteilen — etwa durch semesterbegleitende Teilleistungen? Das würde den Druck am Ende reduzieren und gleichzeitig ein kontinuierliches Lernen fördern.",
+      "text_en": "A good approach. And what do you think of the idea of distributing examination requirements throughout the semester — for example through semester-accompanying partial assessments? That would reduce the pressure at the end and simultaneously promote continuous learning."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Im Prinzip befürworte ich das. Man muss allerdings aufpassen, dass die Studierenden nicht durch eine Vielzahl kleiner Prüfungen noch stärker belastet werden als bisher. Mein Vorschlag wäre eine Kombination aus einer semesterbegleitenden Leistung — zum Beispiel einem Portfolio oder einer Projektarbeit — und einer abschließenden Prüfung, deren Gewichtung reduziert wird. So hätten Studierende die Möglichkeit, bereits während des Semesters einen substanziellen Teil der Note zu erarbeiten.",
+      "text_en": "In principle, I support that. However, one must be careful that students are not burdened even more than before by a multitude of small exams. My suggestion would be a combination of a semester-accompanying assessment — for example a portfolio or project work — and a final exam whose weighting is reduced. This way students would have the opportunity to earn a substantial portion of the grade already during the semester."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das halte ich für einen ausgewogenen Kompromiss. Bleibt noch die Frage der Digitalisierung. Sollen wir digitale Prüfungsformate empfehlen? Die Erfahrungen der letzten Jahre sind ja durchaus gemischt — einerseits mehr Flexibilität, andererseits Probleme mit Täuschungsversuchen.",
+      "text_en": "I consider that a balanced compromise. There remains the question of digitalization. Should we recommend digital exam formats? The experiences of recent years have been quite mixed — on one hand more flexibility, on the other hand problems with cheating attempts."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde digitale Formate als Ergänzung empfehlen, nicht als Ersatz. Für bestimmte Prüfungstypen — etwa Open-Book-Klausuren oder computergestützte Simulationen — sind digitale Formate ideal. Allerdings sollten wir klare Richtlinien zum Datenschutz formulieren und von invasiven Überwachungssoftware absehen. Das Vertrauensprinzip sollte Vorrang haben — kombiniert mit Prüfungsformaten, bei denen Täuschen ohnehin wenig bringt, weil es um Argumentation und Problemlösung geht, nicht um reproduzierbares Faktenwissen.",
+      "text_en": "I would recommend digital formats as a supplement, not a replacement. For certain exam types — such as open-book exams or computer-assisted simulations — digital formats are ideal. However, we should formulate clear data protection guidelines and refrain from invasive surveillance software. The principle of trust should take priority — combined with exam formats where cheating is of little use anyway because they focus on argumentation and problem-solving, not reproducible factual knowledge."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Damit bin ich einverstanden. Fassen wir zusammen: Wir schlagen ein modulares Prüfungssystem vor mit fachspezifischen Formaten, kompetenzbasierten Bewertungsrastern zur Qualitätssicherung, einer Kombination aus semesterbegleitenden Leistungen und reduzierten Abschlussprüfungen sowie digitalen Ergänzungen unter Wahrung des Datenschutzes. Können wir diesen Vorschlag so der Hochschulleitung vorlegen?",
+      "text_en": "I agree with that. Let us summarize: We propose a modular examination system with subject-specific formats, competency-based assessment rubrics for quality assurance, a combination of semester-accompanying assessments and reduced final exams, as well as digital supplements while maintaining data protection. Can we present this proposal to the university administration?"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

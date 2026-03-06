@@ -1,6 +1,6 @@
 # German Language Learning Repository
 
-A Python-based repository for German language learning resources, featuring A1, A2, B1, and B2 exam practice exercises in Goethe-Institut format.
+A Python-based repository for German language learning resources, featuring A1, A2, B1, B2, and C1 exam practice exercises in Goethe-Institut format.
 
 ## Purpose
 
@@ -9,6 +9,7 @@ This repository contains:
 - **A2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **B1 exam practice exercises** — 75 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **B2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
+- **C1 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
 - **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
 - **Certificate guides** — Reference materials for CEFR levels A1–C2
@@ -51,6 +52,15 @@ This repository contains:
 | **Lesen** (Reading) | Teil 1–5 | 25 | Multiple-choice, opinions, academic texts |
 | **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Formal letters, argumentative essays |
 | **Sprechen** (Speaking) | Teil 1–2 | 10 | Presentations, discussions, negotiations |
+
+### C1 (65 exercises)
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–4 | 20 | Academic lectures, debates, professional conversations |
+| **Lesen** (Reading) | Teil 1–5 | 25 | Academic articles, essays, reports, literary analysis |
+| **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Professional texts, argumentative essays |
+| **Sprechen** (Speaking) | Teil 1–2 | 10 | Academic presentations, collaborative negotiation |
 
 ### How to Practice
 

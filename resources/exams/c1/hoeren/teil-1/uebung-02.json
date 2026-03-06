@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-1-002",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Neuroplastizität und lebenslanges Lernen",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Meine Damen und Herren, ich freue mich, Ihnen heute Frau Dr. Elena Voss vorstellen zu dürfen, Neurowissenschaftlerin am Max-Planck-Institut für Kognitionsforschung. Sie wird uns über die neuesten Erkenntnisse zur Neuroplastizität berichten. Frau Dr. Voss, was genau versteht man unter Neuroplastizität?",
+      "text_en": "Ladies and gentlemen, I am pleased to introduce Dr. Elena Voss today, a neuroscientist at the Max Planck Institute for Cognitive Research. She will report on the latest findings on neuroplasticity. Dr. Voss, what exactly is meant by neuroplasticity?"
+    },
+    {
+      "speaker": "Dr. Voss",
+      "text_de": "Vielen Dank. Unter Neuroplastizität verstehen wir die Fähigkeit des Gehirns, seine Struktur und Funktion als Reaktion auf Erfahrungen, Lernprozesse und Umwelteinflüsse fortlaufend zu verändern. Lange Zeit ging man davon aus, dass das Gehirn nach einer kritischen Entwicklungsphase in der Kindheit weitgehend unveränderlich sei. Diese Annahme ist durch zahlreiche Studien der vergangenen Jahrzehnte widerlegt worden. Wir wissen heute, dass neuronale Netzwerke sich ein Leben lang umstrukturieren können — allerdings mit abnehmender Geschwindigkeit.",
+      "text_en": "Thank you. By neuroplasticity we mean the brain's ability to continuously change its structure and function in response to experiences, learning processes, and environmental influences. For a long time it was assumed that the brain was largely immutable after a critical developmental phase in childhood. This assumption has been refuted by numerous studies in recent decades. We now know that neural networks can restructure throughout life — albeit at a decreasing speed."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Das heißt also, dass auch ältere Menschen noch lernfähig sind. Aber gibt es nicht doch signifikante Unterschiede zwischen dem jungen und dem alternden Gehirn?",
+      "text_en": "So that means that older people are still capable of learning. But aren't there significant differences between the young and the aging brain?"
+    },
+    {
+      "speaker": "Dr. Voss",
+      "text_de": "Zweifellos. Das jugendliche Gehirn zeichnet sich durch eine höhere synaptische Dichte aus, was eine schnellere Informationsverarbeitung ermöglicht. Im Alter nehmen bestimmte kognitive Fähigkeiten ab, insbesondere die Verarbeitungsgeschwindigkeit und das Arbeitsgedächtnis. Doch was häufig übersehen wird: Die sogenannte kristalline Intelligenz — also das angesammelte Wissen und die Fähigkeit, komplexe Zusammenhänge zu erkennen — nimmt bis ins hohe Alter zu. Darüber hinaus haben unsere Studien gezeigt, dass gezieltes kognitives Training die altersbedingte Abnahme der fluiden Intelligenz erheblich verlangsamen kann.",
+      "text_en": "Without doubt. The young brain is characterized by higher synaptic density, which enables faster information processing. In old age, certain cognitive abilities decline, particularly processing speed and working memory. But what is frequently overlooked: so-called crystallized intelligence — that is, accumulated knowledge and the ability to recognize complex relationships — increases into old age. Furthermore, our studies have shown that targeted cognitive training can significantly slow the age-related decline of fluid intelligence."
+    },
+    {
+      "speaker": "Dr. Voss",
+      "text_de": "Besonders aufschlussreich sind die Ergebnisse unserer Langzeitstudie mit Teilnehmern zwischen 60 und 85 Jahren. Die Probanden, die über einen Zeitraum von zwei Jahren regelmäßig an einem multimodalen Trainingsprogramm teilnahmen — das heißt, einer Kombination aus körperlicher Bewegung, kognitivem Training und sozialem Engagement —, zeigten nicht nur eine Stabilisierung, sondern in einigen Bereichen sogar eine messbare Verbesserung ihrer kognitiven Leistungsfähigkeit. Besonders bemerkenswert war, dass die Effekte am stärksten bei denjenigen ausfielen, die das Training als sinnstiftend und motivierend empfanden.",
+      "text_en": "Particularly revealing are the results of our longitudinal study with participants between 60 and 85 years old. The subjects who regularly participated in a multimodal training program over a period of two years — that is, a combination of physical exercise, cognitive training, and social engagement — showed not only stabilization but in some areas even measurable improvement in their cognitive performance. Particularly noteworthy was that the effects were strongest in those who perceived the training as meaningful and motivating."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Welche praktischen Empfehlungen lassen sich daraus ableiten?",
+      "text_en": "What practical recommendations can be derived from this?"
+    },
+    {
+      "speaker": "Dr. Voss",
+      "text_de": "Die wichtigste Erkenntnis lautet: Lernen muss ganzheitlich sein. Reine Gehirnjogging-Apps, wie sie derzeit auf dem Markt florieren, greifen zu kurz. Unser Gehirn profitiert am meisten von Herausforderungen, die verschiedene kognitive Systeme gleichzeitig ansprechen — und zwar idealerweise eingebettet in einen sozialen Kontext. Eine neue Sprache zu lernen, ein Musikinstrument zu spielen oder sich ehrenamtlich zu engagieren — das sind Aktivitäten, die weitaus effektiver sind als isolierte Übungen am Bildschirm. Der entscheidende Faktor ist die emotionale Beteiligung: Was uns berührt, verankert sich tiefer im Gedächtnis.",
+      "text_en": "The most important finding is: learning must be holistic. Pure brain-training apps, which are currently flourishing on the market, fall short. Our brain benefits most from challenges that engage different cognitive systems simultaneously — ideally embedded in a social context. Learning a new language, playing a musical instrument, or volunteering — these are activities that are far more effective than isolated exercises on a screen. The decisive factor is emotional involvement: what moves us becomes more deeply anchored in memory."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was wurde laut Dr. Voss durch neuere Studien widerlegt?",
+      "text_en": "What was refuted by recent studies according to Dr. Voss?",
+      "options": [
+        "a) Dass Neuroplastizität nur bei Kindern vorkommt.",
+        "b) Dass das Gehirn im Alter schneller arbeitet als in der Jugend.",
+        "c) Dass das Gehirn nach der Kindheit weitgehend unveränderlich ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Annahme, das Gehirn sei nach einer kritischen Entwicklungsphase in der Kindheit unveränderlich, wurde durch zahlreiche Studien widerlegt.",
+      "explanation_en": "The assumption that the brain was largely immutable after a critical developmental phase in childhood has been refuted by numerous studies."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was sagt Dr. Voss über die kristalline Intelligenz im Alter?",
+      "text_en": "What does Dr. Voss say about crystallized intelligence in old age?",
+      "options": [
+        "a) Sie nimmt bis ins hohe Alter zu.",
+        "b) Sie bleibt ab dem mittleren Alter konstant.",
+        "c) Sie nimmt parallel zur fluiden Intelligenz ab."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die kristalline Intelligenz — angesammeltes Wissen und die Fähigkeit, Zusammenhänge zu erkennen — nimmt bis ins hohe Alter zu.",
+      "explanation_en": "Crystallized intelligence — accumulated knowledge and the ability to recognize complex relationships — increases into old age."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was zeigte die Langzeitstudie mit älteren Probanden?",
+      "text_en": "What did the longitudinal study with older participants show?",
+      "options": [
+        "a) Dass nur körperliche Bewegung kognitive Leistungen verbessert.",
+        "b) Dass multimodales Training die kognitive Leistung sogar verbessern kann.",
+        "c) Dass kognitive Verbesserungen nur bei Teilnehmern unter 70 Jahren auftraten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Teilnehmer eines multimodalen Trainings (Bewegung, kognitives Training, soziales Engagement) zeigten messbare Verbesserungen der kognitiven Leistung.",
+      "explanation_en": "Participants in multimodal training (exercise, cognitive training, social engagement) showed measurable improvements in cognitive performance."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie bewertet Dr. Voss Gehirnjogging-Apps?",
+      "text_en": "How does Dr. Voss evaluate brain-training apps?",
+      "options": [
+        "a) Sie sind die effektivste Methode für kognitives Training.",
+        "b) Sie sind vollkommen nutzlos und sollten verboten werden.",
+        "c) Sie greifen zu kurz, weil sie nicht ganzheitlich genug sind."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Reine Gehirnjogging-Apps greifen laut Dr. Voss zu kurz; das Gehirn profitiert am meisten von ganzheitlichen Herausforderungen in sozialem Kontext.",
+      "explanation_en": "Pure brain-training apps fall short according to Dr. Voss; the brain benefits most from holistic challenges in a social context."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Dr. Voss der entscheidende Faktor für nachhaltiges Lernen?",
+      "text_en": "What is the decisive factor for sustainable learning according to Dr. Voss?",
+      "options": [
+        "a) Die emotionale Beteiligung am Lernprozess.",
+        "b) Die Dauer der einzelnen Trainingseinheiten.",
+        "c) Die Regelmäßigkeit der Übungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der entscheidende Faktor ist die emotionale Beteiligung: Was uns berührt, verankert sich tiefer im Gedächtnis.",
+      "explanation_en": "The decisive factor is emotional involvement: what moves us becomes more deeply anchored in memory."
+    }
+  ]
+}

@@ -88,6 +88,12 @@ LEVELS = {
         "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
         "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 2},
     },
+    "c1": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 2},
+    },
 }
 
 

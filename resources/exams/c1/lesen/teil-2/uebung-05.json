@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-2-005",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Pflege im demographischen Wandel",
+  "instructions": "Lesen Sie den folgenden Meinungsbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Pflegekrise in den alternden Gesellschaften Europas ist keine Zukunftsprognose mehr, sondern bittere Gegenwart. Hunderttausende Pflegekräfte fehlen bereits, während die Zahl der Pflegebedürftigen durch den demographischen Wandel unaufhaltsam steigt. Statt dieses strukturelle Problem mit der gebotenen Dringlichkeit anzugehen, beschränkt sich die Politik auf kosmetische Maßnahmen und verweist auf die Eigenverantwortung der Familien — eine zynische Haltung angesichts der Tatsache, dass pflegende Angehörige bereits am Rand der Erschöpfung stehen.\n\nDie Ursachen des Pflegenotstands sind keineswegs rätselhaft. Die chronische Unterbezahlung der Pflegeberufe, die körperlich und psychisch belastenden Arbeitsbedingungen und die mangelnde gesellschaftliche Wertschätzung dieser Tätigkeit machen den Beruf für potenzielle Nachwuchskräfte unattraktiv. Gleichzeitig hat die Ökonomisierung des Gesundheitswesens dazu geführt, dass Pflegeeinrichtungen unter permanentem Kostendruck stehen und den Personalschlüssel auf ein Minimum reduzieren.\n\nEin grundlegender Kurswechsel ist unausweichlich. Die Pflegeberufe müssen nicht nur deutlich besser entlohnt, sondern auch durch verbesserte Arbeitsbedingungen, Aufstiegsmöglichkeiten und gesellschaftliche Anerkennung aufgewertet werden. Darüber hinaus bedarf es einer solidarischen Finanzierung der Pflege, die nicht länger überproportional zulasten der Betroffenen und ihrer Familien geht. Die skandinavischen Länder zeigen, dass ein steuerfinanziertes Pflegesystem mit hoher Versorgungsqualität möglich ist — es erfordert allerdings den gesellschaftlichen Konsens, dass die Pflege alter und kranker Menschen keine private Angelegenheit, sondern eine gesamtgesellschaftliche Aufgabe ist.",
+    "text_en": "The care crisis in Europe's aging societies is no longer a future projection but bitter reality. Hundreds of thousands of care workers are already missing while the number of people needing care rises inexorably due to demographic change. Instead of addressing this structural problem with the required urgency, politicians limit themselves to cosmetic measures and point to families' personal responsibility — a cynical attitude given the fact that family caregivers are already on the verge of exhaustion.\n\nThe causes of the care emergency are by no means mysterious. The chronic underpayment of care professions, the physically and psychologically demanding working conditions, and the lack of societal appreciation for this work make the profession unattractive for potential new recruits. At the same time, the economization of the healthcare system has led to care facilities being under permanent cost pressure and reducing staffing ratios to a minimum.\n\nA fundamental course change is inevitable. Care professions must not only be significantly better compensated but also upgraded through improved working conditions, advancement opportunities, and societal recognition. Furthermore, a solidary financing of care is needed that no longer disproportionately burdens those affected and their families. The Scandinavian countries show that a tax-financed care system with high quality of provision is possible — it requires, however, the societal consensus that caring for elderly and sick people is not a private matter but a responsibility of society as a whole.",
+    "source": "Zeitung",
+    "word_count": 200
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor an der politischen Reaktion auf die Pflegekrise?",
+      "text_en": "What does the author criticize about the political response to the care crisis?",
+      "options": [
+        "a) Die Politik investiert zu viel in technische Lösungen.",
+        "b) Die Politik setzt ausschließlich auf ausländische Pflegekräfte.",
+        "c) Die Politik beschränkt sich auf kosmetische Maßnahmen und verweist auf Eigenverantwortung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Politik beschränkt sich auf kosmetische Maßnahmen und verweist auf die Eigenverantwortung der Familien.",
+      "explanation_en": "Politicians limit themselves to cosmetic measures and point to families' personal responsibility."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was macht den Pflegeberuf laut dem Text unattraktiv?",
+      "text_en": "What makes the care profession unattractive according to the text?",
+      "options": [
+        "a) Die zu hohe Akademisierung der Ausbildung.",
+        "b) Unterbezahlung, belastende Arbeitsbedingungen und mangelnde Wertschätzung.",
+        "c) Die zunehmende Automatisierung der Pflege."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Unterbezahlung, belastende Arbeitsbedingungen und mangelnde gesellschaftliche Wertschätzung machen den Beruf unattraktiv.",
+      "explanation_en": "Underpayment, demanding working conditions, and lack of societal appreciation make the profession unattractive."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Vorbild nennt der Autor für ein funktionierendes Pflegesystem?",
+      "text_en": "What model does the author cite for a functioning care system?",
+      "options": [
+        "a) Die skandinavischen Länder mit steuerfinanziertem Pflegesystem.",
+        "b) Das privatwirtschaftliche Modell der USA.",
+        "c) Das familienbasierte Modell Südeuropas."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die skandinavischen Länder zeigen, dass ein steuerfinanziertes Pflegesystem mit hoher Qualität möglich ist.",
+      "explanation_en": "The Scandinavian countries show that a tax-financed care system with high quality is possible."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Ökonomisierung des Gesundheitswesens bewirkt?",
+      "text_en": "What has the economization of healthcare caused?",
+      "options": [
+        "a) Eine deutliche Verbesserung der Arbeitsbedingungen.",
+        "b) Einen Anstieg der Löhne im Pflegebereich.",
+        "c) Permanenten Kostendruck und minimierte Personalschlüssel in Pflegeeinrichtungen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Ökonomisierung führte zu permanentem Kostendruck und minimierten Personalschlüsseln.",
+      "explanation_en": "Economization led to permanent cost pressure and minimized staffing ratios."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welchen gesellschaftlichen Konsens fordert der Autor?",
+      "text_en": "What societal consensus does the author demand?",
+      "options": [
+        "a) Dass Pflege vollständig privatisiert werden sollte.",
+        "b) Dass Pflege keine private Angelegenheit, sondern eine gesamtgesellschaftliche Aufgabe ist.",
+        "c) Dass nur der Staat für die Pflege zuständig sein sollte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Pflege alter und kranker Menschen ist keine private Angelegenheit, sondern eine gesamtgesellschaftliche Aufgabe.",
+      "explanation_en": "Caring for elderly and sick people is not a private matter but a responsibility of society as a whole."
+    }
+  ]
+}

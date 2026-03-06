@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-1-001",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Epigenetik und Umwelteinflüsse",
+  "instructions": "Lesen Sie den folgenden wissenschaftlichen Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Epigenetik hat in den vergangenen zwei Jahrzehnten unser Verständnis von Vererbung grundlegend verändert. Während die klassische Genetik davon ausgeht, dass die DNA-Sequenz allein das biologische Schicksal eines Organismus bestimmt, zeigen epigenetische Forschungsergebnisse, dass Umweltfaktoren wie Ernährung, Stress und Schadstoffbelastung die Genaktivität nachhaltig beeinflussen können, ohne die zugrunde liegende DNA-Sequenz zu verändern. Diese Modifikationen erfolgen durch chemische Markierungen, insbesondere durch Methylierungsprozesse, die bestimmte Genabschnitte aktivieren oder stilllegen.\n\nBesonders aufsehenerregend sind Studien, die eine transgenerationale Weitergabe epigenetischer Veränderungen nachweisen konnten. In einem viel beachteten Experiment an der Universität Zürich wurden Mäuse in ihrer frühen Entwicklungsphase kontrollierten Stresssituationen ausgesetzt. Die resultierenden Verhaltensänderungen — erhöhte Ängstlichkeit und veränderte Stressreaktionen — ließen sich nicht nur bei den direkt betroffenen Tieren beobachten, sondern auch bei deren Nachkommen über mehrere Generationen hinweg, obwohl diese keinem vergleichbaren Stress ausgesetzt worden waren.\n\nDiese Befunde werfen weitreichende Fragen für die Humanmedizin auf. Wenn traumatische Erfahrungen epigenetische Spuren hinterlassen, die an nachfolgende Generationen weitergegeben werden, ergeben sich daraus neue Erklärungsansätze für die Häufung bestimmter psychischer Erkrankungen in Familien. Gleichzeitig eröffnen sich therapeutische Perspektiven: Da epigenetische Markierungen im Gegensatz zu genetischen Mutationen prinzipiell reversibel sind, könnten gezielte pharmakologische Interventionen diese Veränderungen möglicherweise rückgängig machen. Die ethischen Implikationen einer solchen gezielten Beeinflussung des Epigenoms bedürfen allerdings einer sorgfältigen gesellschaftlichen Debatte.",
+    "text_en": "Epigenetics has fundamentally changed our understanding of heredity over the past two decades. While classical genetics assumes that the DNA sequence alone determines an organism's biological fate, epigenetic research findings show that environmental factors such as nutrition, stress, and pollutant exposure can sustainably influence gene activity without altering the underlying DNA sequence. These modifications occur through chemical markers, particularly through methylation processes that activate or silence certain gene segments.\n\nParticularly sensational are studies that have demonstrated transgenerational transmission of epigenetic changes. In a widely noted experiment at the University of Zurich, mice were exposed to controlled stress situations during their early developmental phase. The resulting behavioral changes — increased anxiety and altered stress responses — could be observed not only in the directly affected animals but also in their offspring across several generations, even though these had not been exposed to comparable stress.\n\nThese findings raise far-reaching questions for human medicine. If traumatic experiences leave epigenetic traces that are passed on to subsequent generations, this provides new explanatory approaches for the accumulation of certain mental illnesses in families. At the same time, therapeutic perspectives open up: since epigenetic markers, unlike genetic mutations, are in principle reversible, targeted pharmacological interventions could potentially reverse these changes. The ethical implications of such targeted influence on the epigenome, however, require careful societal debate.",
+    "source": "Fachzeitschrift",
+    "word_count": 208
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet die Epigenetik von der klassischen Genetik?",
+      "text_en": "What distinguishes epigenetics from classical genetics?",
+      "options": [
+        "a) Sie untersucht, wie Umweltfaktoren die Genaktivität beeinflussen, ohne die DNA zu verändern.",
+        "b) Sie konzentriert sich ausschließlich auf Mutationen in der DNA-Sequenz.",
+        "c) Sie lehnt das Konzept der Vererbung grundsätzlich ab."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Epigenetik zeigt, dass Umweltfaktoren die Genaktivität beeinflussen können, ohne die DNA-Sequenz zu verändern.",
+      "explanation_en": "Epigenetics shows that environmental factors can influence gene activity without altering the DNA sequence."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was wurde im Züricher Experiment mit Mäusen festgestellt?",
+      "text_en": "What was found in the Zurich experiment with mice?",
+      "options": [
+        "a) Stress verursachte direkte DNA-Mutationen bei den Mäusen.",
+        "b) Verhaltensänderungen durch Stress wurden über Generationen weitergegeben.",
+        "c) Nur die direkt betroffenen Mäuse zeigten Verhaltensänderungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Verhaltensänderungen ließen sich auch bei Nachkommen über mehrere Generationen beobachten.",
+      "explanation_en": "The behavioral changes could also be observed in offspring across several generations."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche therapeutische Perspektive ergibt sich aus der epigenetischen Forschung?",
+      "text_en": "What therapeutic perspective arises from epigenetic research?",
+      "options": [
+        "a) Genetische Mutationen können jetzt vollständig geheilt werden.",
+        "b) Psychische Erkrankungen lassen sich durch Gentherapie beseitigen.",
+        "c) Epigenetische Veränderungen könnten durch Medikamente rückgängig gemacht werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Da epigenetische Markierungen prinzipiell reversibel sind, könnten pharmakologische Interventionen sie rückgängig machen.",
+      "explanation_en": "Since epigenetic markers are in principle reversible, pharmacological interventions could reverse them."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was wird im Text als notwendig erachtet?",
+      "text_en": "What is considered necessary in the text?",
+      "options": [
+        "a) Eine gesellschaftliche Debatte über die ethischen Implikationen.",
+        "b) Ein sofortiges Verbot epigenetischer Forschung.",
+        "c) Die Einschränkung von Tierversuchen in der Epigenetik."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die ethischen Implikationen einer gezielten Beeinflussung des Epigenoms bedürfen einer sorgfältigen gesellschaftlichen Debatte.",
+      "explanation_en": "The ethical implications of targeted influence on the epigenome require careful societal debate."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sind Methylierungsprozesse laut dem Text?",
+      "text_en": "What are methylation processes according to the text?",
+      "options": [
+        "a) Veränderungen der DNA-Sequenz durch Umweltgifte.",
+        "b) Chemische Markierungen, die Genabschnitte aktivieren oder stilllegen.",
+        "c) Therapeutische Verfahren zur Behandlung psychischer Erkrankungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Methylierungsprozesse sind chemische Markierungen, die bestimmte Genabschnitte aktivieren oder stilllegen.",
+      "explanation_en": "Methylation processes are chemical markers that activate or silence certain gene segments."
+    }
+  ]
+}

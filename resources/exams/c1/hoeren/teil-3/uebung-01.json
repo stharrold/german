@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-3-001",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Fachgespräche in Universität und Klinik",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören die Texte einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Dozentin",
+      "text_de": "Herr Müller, ich habe Ihre Seminararbeit gelesen. Die Fragestellung ist durchaus originell, aber die methodische Fundierung lässt zu wünschen übrig. Sie stützen sich ausschließlich auf qualitative Interviews, ohne die Stichprobenauswahl theoretisch zu begründen. Für eine Arbeit auf Masterniveau erwarte ich eine reflektierte Methodendiskussion, die auch die Limitationen des gewählten Ansatzes transparent macht.",
+      "text_en": "Mr. Müller, I have read your seminar paper. The research question is quite original, but the methodological foundation leaves something to be desired. You rely exclusively on qualitative interviews without theoretically justifying the sample selection. For a master's-level paper, I expect a reflective methods discussion that also makes the limitations of the chosen approach transparent."
+    },
+    {
+      "speaker": "Gespräch 1 — Student",
+      "text_de": "Vielen Dank für die Rückmeldung, Frau Professor Engel. Soll ich die Arbeit um eine quantitative Komponente ergänzen, oder genügt es, die methodische Reflexion auszubauen?",
+      "text_en": "Thank you for the feedback, Professor Engel. Should I supplement the paper with a quantitative component, or is it sufficient to expand the methodological reflection?"
+    },
+    {
+      "speaker": "Gespräch 1 — Dozentin",
+      "text_de": "Eine rein qualitative Arbeit ist durchaus akzeptabel, sofern Sie die Entscheidung für diesen Ansatz theoretisch fundiert begründen. Ergänzen Sie ein Kapitel zur Methodik und positionieren Sie sich explizit innerhalb der interpretativen Forschungstradition.",
+      "text_en": "A purely qualitative paper is certainly acceptable, provided you justify the decision for this approach with theoretical foundations. Add a methodology chapter and explicitly position yourself within the interpretive research tradition."
+    },
+    {
+      "speaker": "Gespräch 2 — Oberärztin",
+      "text_de": "Kolleginnen und Kollegen, bei der Patientin auf Station 3B zeigt sich ein unklares Befundmuster. Die Bildgebung deutet auf eine Raumforderung im rechten Leberlappen hin, aber die Laborwerte sind nicht konsistent mit einer malignen Genese. Ich möchte die Differenzialdiagnose um einen hepatischen Abszess und eine fokale noduläre Hyperplasie erweitern. Bevor wir eine Biopsie ansetzen, sollten wir eine kontrastmittelunterstützte MRT veranlassen.",
+      "text_en": "Colleagues, the patient on ward 3B shows an unclear finding pattern. The imaging suggests a space-occupying lesion in the right liver lobe, but the laboratory values are not consistent with a malignant origin. I would like to expand the differential diagnosis to include a hepatic abscess and focal nodular hyperplasia. Before we schedule a biopsy, we should order a contrast-enhanced MRI."
+    },
+    {
+      "speaker": "Gespräch 2 — Assistenzarzt",
+      "text_de": "Einverstanden. Soll ich auch ein hepatobiliäres Sequenzprotokoll anfordern? Das könnte bei der Differenzierung zwischen FNH und Adenomen hilfreich sein.",
+      "text_en": "Agreed. Should I also request a hepatobiliary sequence protocol? That could be helpful in differentiating between FNH and adenomas."
+    },
+    {
+      "speaker": "Gespräch 3 — Forschungsgruppenleiterin",
+      "text_de": "Ich habe den Drittmittelantrag für die Verlängerung unseres DFG-Projekts durchgesehen. Die bisherigen Ergebnisse sind vielversprechend, aber der Gutachter hat moniert, dass die theoretische Einbettung der Hypothesen stärker herausgearbeitet werden muss. Außerdem fehlt ein überzeugender Verwertungsplan. Können Sie bis Ende des Monats einen überarbeiteten Entwurf vorlegen?",
+      "text_en": "I have reviewed the third-party funding application for the extension of our DFG project. The results so far are promising, but the reviewer noted that the theoretical embedding of the hypotheses needs to be elaborated more strongly. Additionally, a convincing exploitation plan is missing. Can you submit a revised draft by the end of the month?"
+    },
+    {
+      "speaker": "Gespräch 3 — Postdoktorand",
+      "text_de": "Selbstverständlich. Ich werde den theoretischen Rahmen um die neueren Befunde aus der Metaanalyse von Hasselmann und Kollegen ergänzen. Den Verwertungsplan kann ich gemeinsam mit der Transferstelle ausarbeiten.",
+      "text_en": "Of course. I will supplement the theoretical framework with the newer findings from the meta-analysis by Hasselmann and colleagues. I can develop the exploitation plan together with the transfer office."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert die Dozentin an der Seminararbeit?",
+      "text_en": "What does the lecturer criticize about the seminar paper?",
+      "options": [
+        "a) Die fehlende methodische Fundierung und Reflexion der Limitationen.",
+        "b) Die zu kurze Literaturliste und fehlende Quellenangaben.",
+        "c) Die mangelnde Originalität der Fragestellung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Dozentin kritisiert die mangelnde methodische Fundierung und das Fehlen einer reflektierten Methodendiskussion mit Limitationen.",
+      "explanation_en": "The lecturer criticizes the lacking methodological foundation and the absence of a reflective methods discussion with limitations."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt die Dozentin dem Studenten?",
+      "text_en": "What does the lecturer recommend to the student?",
+      "options": [
+        "a) Die Arbeit vollständig neu zu schreiben.",
+        "b) Ein Kapitel zur Methodik hinzuzufügen und sich in der interpretativen Forschungstradition zu positionieren.",
+        "c) Die qualitative Studie durch eine quantitative zu ersetzen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Dozentin empfiehlt, ein Methodikkapitel zu ergänzen und sich explizit innerhalb der interpretativen Forschungstradition zu positionieren.",
+      "explanation_en": "The lecturer recommends adding a methodology chapter and explicitly positioning oneself within the interpretive research tradition."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum soll vor der Biopsie zunächst eine MRT durchgeführt werden?",
+      "text_en": "Why should an MRI be performed before the biopsy?",
+      "options": [
+        "a) Weil die Patientin eine Allergie gegen Narkosemittel hat.",
+        "b) Weil die Biopsie-Geräte derzeit nicht verfügbar sind.",
+        "c) Weil das Befundmuster unklar ist und die Differenzialdiagnose erweitert werden muss."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Oberärztin möchte vor der Biopsie eine kontrastmittelunterstützte MRT, weil das Befundmuster unklar ist und weitere Differenzialdiagnosen abgeklärt werden müssen.",
+      "explanation_en": "The senior physician wants a contrast-enhanced MRI before the biopsy because the finding pattern is unclear and further differential diagnoses need to be clarified."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat der Gutachter am Drittmittelantrag bemängelt?",
+      "text_en": "What did the reviewer criticize about the funding application?",
+      "options": [
+        "a) Die mangelnde theoretische Einbettung der Hypothesen und den fehlenden Verwertungsplan.",
+        "b) Die zu hohe Fördersumme und den unrealistischen Zeitplan.",
+        "c) Die unzureichende Qualifikation der Projektmitarbeiter."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Gutachter monierte die mangelnde theoretische Einbettung der Hypothesen und das Fehlen eines Verwertungsplans.",
+      "explanation_en": "The reviewer criticized the lacking theoretical embedding of hypotheses and the missing exploitation plan."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie will der Postdoktorand den Antrag verbessern?",
+      "text_en": "How does the postdoc plan to improve the application?",
+      "options": [
+        "a) Durch Einstellung zusätzlicher Mitarbeiter für das Projekt.",
+        "b) Durch Ergänzung des theoretischen Rahmens und Ausarbeitung des Verwertungsplans mit der Transferstelle.",
+        "c) Durch Verzicht auf die Projektverlängerung zugunsten eines neuen Antrags."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Postdoktorand will den theoretischen Rahmen um neuere Befunde ergänzen und den Verwertungsplan gemeinsam mit der Transferstelle ausarbeiten.",
+      "explanation_en": "The postdoc will supplement the theoretical framework with newer findings and develop the exploitation plan together with the transfer office."
+    }
+  ]
+}

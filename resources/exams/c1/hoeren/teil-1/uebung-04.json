@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-1-004",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Nachhaltige Stadtentwicklung",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Herzlich willkommen zu unserer Fachtagung „Urbane Zukunft“. Heute referiert Frau Dr. Sabine Lindner, Professorin für Stadtplanung an der Technischen Universität Dresden, über nachhaltige Stadtentwicklung. Frau Professor Lindner, was bedeutet Nachhaltigkeit konkret im städtebaulichen Kontext?",
+      "text_en": "Welcome to our conference 'Urban Future.' Today Dr. Sabine Lindner, Professor of Urban Planning at the Technical University of Dresden, is presenting on sustainable urban development. Professor Lindner, what does sustainability mean concretely in the urban planning context?"
+    },
+    {
+      "speaker": "Prof. Dr. Lindner",
+      "text_de": "Herzlichen Dank. Nachhaltige Stadtentwicklung ist ein vielschichtiges Konzept, das weit über den bloßen Umweltschutz hinausgeht. Es umfasst drei gleichberechtigte Dimensionen: die ökologische, die soziale und die ökonomische. Eine nachhaltige Stadt muss ihre Ressourcen so bewirtschaften, dass künftige Generationen nicht benachteiligt werden, gleichzeitig aber soziale Teilhabe ermöglichen und wirtschaftlich lebensfähig bleiben. Das klingt trivial, ist aber in der Praxis außerordentlich komplex, weil diese Dimensionen häufig in Zielkonflikten zueinander stehen.",
+      "text_en": "Thank you very much. Sustainable urban development is a multifaceted concept that goes far beyond mere environmental protection. It encompasses three equal dimensions: ecological, social, and economic. A sustainable city must manage its resources so that future generations are not disadvantaged, while simultaneously enabling social participation and remaining economically viable. That sounds trivial but is extraordinarily complex in practice, because these dimensions frequently stand in conflict with each other."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Können Sie ein konkretes Beispiel für einen solchen Zielkonflikt nennen?",
+      "text_en": "Can you give a concrete example of such a conflict of objectives?"
+    },
+    {
+      "speaker": "Prof. Dr. Lindner",
+      "text_de": "Ein klassisches Beispiel ist die Nachverdichtung, also die bauliche Verdichtung bestehender Stadtquartiere. Aus ökologischer Sicht ist Nachverdichtung sinnvoll, weil sie den Flächenverbrauch reduziert und kurze Wege fördert. Aus sozialer Perspektive kann sie jedoch problematisch sein, wenn sie zu einer Verdrängung einkommensschwacher Bevölkerungsgruppen führt — Stichwort Gentrifizierung. Die ökonomische Dimension wiederum begünstigt die Verdichtung, weil sie Infrastrukturkosten pro Kopf senkt. Der Planer steht also vor der Aufgabe, diese divergierenden Interessen in einen Ausgleich zu bringen, was nur durch partizipative Verfahren gelingen kann.",
+      "text_en": "A classic example is densification, that is, the architectural densification of existing urban quarters. From an ecological perspective, densification makes sense because it reduces land consumption and promotes short distances. From a social perspective, however, it can be problematic when it leads to the displacement of low-income population groups — keyword gentrification. The economic dimension in turn favors densification because it reduces per-capita infrastructure costs. The planner thus faces the task of balancing these diverging interests, which can only succeed through participatory processes."
+    },
+    {
+      "speaker": "Prof. Dr. Lindner",
+      "text_de": "Ein weiterer Schwerpunkt unserer Forschung betrifft die sogenannte Schwammstadt, ein Konzept, das angesichts des Klimawandels zunehmend an Bedeutung gewinnt. Die Idee besteht darin, städtische Flächen so zu gestalten, dass sie Regenwasser aufnehmen, speichern und bei Bedarf wieder abgeben können — ähnlich einem Schwamm. Dazu gehören entsiegelte Böden, Gründächer, Fassadenbegrünung und dezentrale Regenwassermanagement-Systeme. Unsere Modellrechnungen zeigen, dass eine konsequente Umsetzung des Schwammstadtprinzips die Überflutungsrisiken um bis zu 40 Prozent senken kann.",
+      "text_en": "Another focus of our research concerns the so-called sponge city, a concept that is gaining increasing importance in view of climate change. The idea is to design urban surfaces so that they can absorb, store, and release rainwater as needed — similar to a sponge. This includes unsealed soils, green roofs, façade greening, and decentralized rainwater management systems. Our model calculations show that consistent implementation of the sponge city principle can reduce flooding risks by up to 40 percent."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Das klingt vielversprechend. Was hindert die Städte daran, solche Konzepte umzusetzen?",
+      "text_en": "That sounds promising. What prevents cities from implementing such concepts?"
+    },
+    {
+      "speaker": "Prof. Dr. Lindner",
+      "text_de": "Das Haupthindernis ist die sektorale Fragmentierung der Stadtverwaltung. Umweltamt, Tiefbauamt, Sozialamt und Wirtschaftsförderung arbeiten häufig nebeneinander statt miteinander. Nachhaltige Stadtentwicklung erfordert jedoch einen integrierten Ansatz, der Ressortgrenzen überwindet. Dazu kommt die kurzfristige Orientierung der Kommunalpolitik: Investitionen in nachhaltige Infrastruktur amortisieren sich oft erst nach Jahrzehnten, während die Legislaturperiode nur wenige Jahre dauert. Es fehlt an langfristigen Planungsinstrumenten und der politischen Bereitschaft, unpopuläre Maßnahmen durchzusetzen.",
+      "text_en": "The main obstacle is the sectoral fragmentation of city administration. Environmental offices, civil engineering offices, social welfare offices, and economic development agencies frequently work alongside each other rather than with each other. Sustainable urban development, however, requires an integrated approach that overcomes departmental boundaries. Added to this is the short-term orientation of municipal politics: investments in sustainable infrastructure often only pay off after decades, while legislative terms last only a few years. There is a lack of long-term planning instruments and the political willingness to enforce unpopular measures."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Dimensionen umfasst nachhaltige Stadtentwicklung laut Prof. Lindner?",
+      "text_en": "Which dimensions does sustainable urban development encompass according to Prof. Lindner?",
+      "options": [
+        "a) Die ökologische, soziale und ökonomische Dimension gleichberechtigt.",
+        "b) Ausschließlich die ökologische Dimension mit Fokus auf Umweltschutz.",
+        "c) Die technologische und die demografische Dimension."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Nachhaltige Stadtentwicklung umfasst drei gleichberechtigte Dimensionen: die ökologische, die soziale und die ökonomische.",
+      "explanation_en": "Sustainable urban development encompasses three equal dimensions: ecological, social, and economic."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist das soziale Problem bei der Nachverdichtung?",
+      "text_en": "What is the social problem with densification?",
+      "options": [
+        "a) Der erhöhte Flächenverbrauch in ländlichen Gebieten.",
+        "b) Die steigenden Infrastrukturkosten pro Einwohner.",
+        "c) Die mögliche Verdrängung einkommensschwacher Bevölkerungsgruppen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Nachverdichtung kann zur Verdrängung einkommensschwacher Bevölkerungsgruppen führen (Gentrifizierung).",
+      "explanation_en": "Densification can lead to the displacement of low-income population groups (gentrification)."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Prozent können Überflutungsrisiken durch das Schwammstadtprinzip gesenkt werden?",
+      "text_en": "By what percentage can flooding risks be reduced through the sponge city principle?",
+      "options": [
+        "a) Um bis zu 20 Prozent.",
+        "b) Um bis zu 40 Prozent.",
+        "c) Um bis zu 60 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Modellrechnungen zeigen, dass das Schwammstadtprinzip Überflutungsrisiken um bis zu 40 Prozent senken kann.",
+      "explanation_en": "Model calculations show that the sponge city principle can reduce flooding risks by up to 40 percent."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Prof. Lindner das Haupthindernis für nachhaltige Stadtentwicklung?",
+      "text_en": "What is the main obstacle to sustainable urban development according to Prof. Lindner?",
+      "options": [
+        "a) Die sektorale Fragmentierung der Stadtverwaltung.",
+        "b) Der Mangel an finanziellen Mitteln in den Kommunen.",
+        "c) Die fehlende technische Expertise der Stadtplaner."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Haupthindernis ist die sektorale Fragmentierung der Stadtverwaltung — Ämter arbeiten nebeneinander statt miteinander.",
+      "explanation_en": "The main obstacle is the sectoral fragmentation of city administration — offices work alongside each other rather than with each other."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum scheitern langfristige Investitionen in nachhaltige Infrastruktur häufig?",
+      "text_en": "Why do long-term investments in sustainable infrastructure often fail?",
+      "options": [
+        "a) Weil die Bürger solche Maßnahmen ausnahmslos ablehnen.",
+        "b) Weil die Technologien noch nicht ausgereift sind.",
+        "c) Weil die kurzfristige Orientierung der Kommunalpolitik langfristigen Planungen entgegensteht."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Investitionen in nachhaltige Infrastruktur amortisieren sich oft erst nach Jahrzehnten, während Legislaturperioden nur wenige Jahre dauern.",
+      "explanation_en": "Investments in sustainable infrastructure often only pay off after decades, while legislative terms last only a few years."
+    }
+  ]
+}

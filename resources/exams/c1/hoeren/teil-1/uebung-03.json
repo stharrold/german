@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-1-003",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Ethik der Gentechnologie",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Guten Abend und herzlich willkommen zu unserer Ringvorlesung „Wissenschaft und Verantwortung“. Unser heutiger Referent ist Professor Dr. Friedrich Hartmann, Bioethiker an der Universität Tübingen. Herr Professor Hartmann, die Gentechnologie hat in den vergangenen Jahren rasante Fortschritte gemacht. Wo sehen Sie die größten ethischen Herausforderungen?",
+      "text_en": "Good evening and welcome to our lecture series 'Science and Responsibility.' Our speaker today is Professor Dr. Friedrich Hartmann, bioethicist at the University of Tübingen. Professor Hartmann, genetic technology has made rapid progress in recent years. Where do you see the greatest ethical challenges?"
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Vielen Dank für die Einladung. Die größte ethische Herausforderung liegt meines Erachtens in der sogenannten Keimbahntherapie, also der genetischen Veränderung von Embryonen, die an nachfolgende Generationen weitervererbt wird. Die technische Machbarkeit — insbesondere durch die CRISPR-Technologie — eilt der ethischen Reflexion voraus. Wir stehen vor dem grundsätzlichen Dilemma, dass eine Technologie, die schwere Erbkrankheiten heilen könnte, gleichzeitig das Tor zur gezielten Optimierung menschlicher Eigenschaften öffnet.",
+      "text_en": "Thank you for the invitation. The greatest ethical challenge in my view lies in so-called germline therapy, that is, the genetic modification of embryos that is passed on to subsequent generations. The technical feasibility — particularly through CRISPR technology — outpaces ethical reflection. We face the fundamental dilemma that a technology capable of curing severe hereditary diseases simultaneously opens the door to the targeted optimization of human traits."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Können Sie diese Unterscheidung zwischen Therapie und Enhancement näher erläutern?",
+      "text_en": "Could you elaborate on this distinction between therapy and enhancement?"
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Gewiss. Die Abgrenzung zwischen therapeutischem Eingriff und optimierender Verbesserung ist philosophisch höchst problematisch. Wo endet die Behandlung einer Krankheit, und wo beginnt die Verbesserung eines gesunden Organismus? Nehmen wir das Beispiel der Sichelzellanämie: Die genetische Korrektur dieser schweren Erkrankung würde von den meisten Ethikern als legitim eingestuft. Aber was ist mit der genetischen Veranlagung zu Übergewicht? Oder der Prädisposition für eine leicht unterdurchschnittliche Intelligenz? Je weiter wir uns von eindeutigen Krankheitsbildern entfernen, desto gleitender wird die Grenze.",
+      "text_en": "Certainly. The demarcation between therapeutic intervention and optimizing enhancement is philosophically highly problematic. Where does the treatment of a disease end, and where does the improvement of a healthy organism begin? Take the example of sickle cell anemia: the genetic correction of this severe disease would be classified as legitimate by most ethicists. But what about the genetic predisposition to obesity? Or the predisposition for slightly below-average intelligence? The further we move from clear-cut disease patterns, the more fluid the boundary becomes."
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Ein weiterer Aspekt, der mir große Sorgen bereitet, ist die Frage der sozialen Gerechtigkeit. Wenn genetische Optimierung technisch möglich und legal verfügbar wird, wer wird sich diese Eingriffe leisten können? Wir riskieren die Entstehung einer genetischen Zweiklassengesellschaft, in der wohlhabende Eltern ihren Kindern nicht nur bessere Bildung, sondern auch ein optimiertes Genom verschaffen können. Die ohnehin wachsende soziale Ungleichheit würde durch eine biologische Dimension ergänzt, die — und das ist der entscheidende Punkt — irreversibel ist.",
+      "text_en": "Another aspect that causes me great concern is the question of social justice. If genetic optimization becomes technically possible and legally available, who will be able to afford these interventions? We risk the emergence of a genetic two-class society in which wealthy parents can provide their children not only with better education but also an optimized genome. The already growing social inequality would be supplemented by a biological dimension that — and this is the crucial point — is irreversible."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Wie sollte die Gesellschaft Ihrer Meinung nach mit diesen Herausforderungen umgehen?",
+      "text_en": "How should society deal with these challenges in your opinion?"
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Ich plädiere für einen breiten gesellschaftlichen Diskurs, der nicht nur Wissenschaftler und Ethiker einbezieht, sondern auch Betroffene, religiöse Gemeinschaften und die allgemeine Öffentlichkeit. Zudem brauchen wir einen internationalen Regulierungsrahmen, denn nationale Alleingänge sind in einer globalisierten Forschungslandschaft wirkungslos. Wenn ein Land bestimmte Eingriffe verbietet, werden sie in einem anderen durchgeführt — das sehen wir bereits im Bereich des Reproduktionstourismus. Die Wissenschaft muss sich selbst Grenzen setzen, bevor es die Politik unter möglicherweise weniger sachkundigen Vorzeichen tut.",
+      "text_en": "I advocate for a broad societal discourse that includes not only scientists and ethicists but also affected individuals, religious communities, and the general public. Additionally, we need an international regulatory framework, because national solo efforts are ineffective in a globalized research landscape. If one country prohibits certain interventions, they will be carried out in another — we already see this in the area of reproductive tourism. Science must set its own limits before politics does so under potentially less informed auspices."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was sieht Prof. Hartmann als größte ethische Herausforderung der Gentechnologie?",
+      "text_en": "What does Prof. Hartmann see as the greatest ethical challenge of genetic technology?",
+      "options": [
+        "a) Die mangelnde Finanzierung der Grundlagenforschung.",
+        "b) Die Keimbahntherapie und ihre Vererbbarkeit an nachfolgende Generationen.",
+        "c) Die fehlende technische Reife der CRISPR-Technologie."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die größte Herausforderung liegt in der Keimbahntherapie, da genetische Veränderungen an nachfolgende Generationen weitervererbt werden.",
+      "explanation_en": "The greatest challenge lies in germline therapy, as genetic modifications are passed on to subsequent generations."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum ist die Abgrenzung zwischen Therapie und Enhancement problematisch?",
+      "text_en": "Why is the demarcation between therapy and enhancement problematic?",
+      "options": [
+        "a) Weil die Kosten für beide Eingriffe identisch sind.",
+        "b) Weil es keine klaren Krankheitsbilder gibt.",
+        "c) Weil die Grenze zwischen Krankheitsbehandlung und Optimierung gleitend ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Je weiter man sich von eindeutigen Krankheitsbildern entfernt, desto gleitender wird die Grenze zwischen Therapie und Enhancement.",
+      "explanation_en": "The further one moves from clear-cut disease patterns, the more fluid the boundary between therapy and enhancement becomes."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche soziale Gefahr sieht Prof. Hartmann bei genetischer Optimierung?",
+      "text_en": "What social danger does Prof. Hartmann see in genetic optimization?",
+      "options": [
+        "a) Die Entstehung einer genetischen Zweiklassengesellschaft.",
+        "b) Den Verlust jeglicher kultureller Vielfalt.",
+        "c) Die vollständige Abschaffung natürlicher Fortpflanzung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Er warnt vor einer genetischen Zweiklassengesellschaft, in der wohlhabende Eltern ihren Kindern ein optimiertes Genom verschaffen können.",
+      "explanation_en": "He warns of a genetic two-class society in which wealthy parents can provide their children with an optimized genome."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum sind nationale Alleingänge bei der Regulierung laut Prof. Hartmann wirkungslos?",
+      "text_en": "Why are national solo efforts in regulation ineffective according to Prof. Hartmann?",
+      "options": [
+        "a) Weil alle Länder bereits identische Gesetze verabschiedet haben.",
+        "b) Weil die Forschung globalisiert ist und verbotene Eingriffe anderswo durchgeführt werden.",
+        "c) Weil nationale Regierungen kein Interesse an Bioethik haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Nationale Alleingänge sind wirkungslos, weil in einer globalisierten Forschungslandschaft verbotene Eingriffe in anderen Ländern durchgeführt werden.",
+      "explanation_en": "National solo efforts are ineffective because in a globalized research landscape, prohibited interventions are carried out in other countries."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wen möchte Prof. Hartmann in den gesellschaftlichen Diskurs einbeziehen?",
+      "text_en": "Whom does Prof. Hartmann want to include in the societal discourse?",
+      "options": [
+        "a) Ausschließlich Wissenschaftler und Politiker.",
+        "b) Nur die direkt Betroffenen genetischer Erkrankungen.",
+        "c) Wissenschaftler, Ethiker, Betroffene, religiöse Gemeinschaften und die Öffentlichkeit."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Er plädiert für einen breiten Diskurs, der Wissenschaftler, Ethiker, Betroffene, religiöse Gemeinschaften und die allgemeine Öffentlichkeit einbezieht.",
+      "explanation_en": "He advocates for a broad discourse including scientists, ethicists, affected individuals, religious communities, and the general public."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-3-005",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Professionelle Teamberatungen",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören die Texte einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Abteilungsleiterin",
+      "text_de": "Kolleginnen und Kollegen, die Ergebnisse der Mitarbeiterbefragung liegen vor, und sie sind besorgniserregend. Die Zufriedenheit mit der internen Kommunikation ist um 15 Prozentpunkte gesunken. Besonders kritisch wird die mangelnde Transparenz bei Entscheidungsprozessen bewertet. Ich möchte, dass wir heute konkrete Maßnahmen beschließen — keine allgemeinen Absichtserklärungen, sondern umsetzbare Schritte mit klaren Verantwortlichkeiten und Fristen.",
+      "text_en": "Colleagues, the results of the employee survey are in, and they are concerning. Satisfaction with internal communication has dropped by 15 percentage points. The lack of transparency in decision-making processes is rated particularly critically. I want us to agree on concrete measures today — not general declarations of intent, but actionable steps with clear responsibilities and deadlines."
+    },
+    {
+      "speaker": "Gespräch 1 — Teamleiter",
+      "text_de": "Ich schlage vor, dass wir monatliche Town-Hall-Meetings einführen, bei denen die Geschäftsleitung über strategische Entscheidungen informiert und Fragen der Mitarbeitenden beantwortet. Zusätzlich könnte ein internes Kommunikationsportal eingerichtet werden, auf dem Protokolle der Führungskräftesitzungen — natürlich in gekürzter, nicht-vertraulicher Form — veröffentlicht werden.",
+      "text_en": "I suggest we introduce monthly town hall meetings where management informs about strategic decisions and answers employees' questions. Additionally, an internal communication portal could be set up where minutes of management meetings — naturally in abbreviated, non-confidential form — are published."
+    },
+    {
+      "speaker": "Gespräch 2 — Qualitätsmanagerin",
+      "text_de": "Die Reklamationsquote im vergangenen Quartal liegt bei 3,2 Prozent — das ist fast doppelt so hoch wie unser Zielwert von 1,8 Prozent. Die Fehleranalyse zeigt, dass 60 Prozent der Reklamationen auf denselben Produktionsfehler zurückzuführen sind: eine mangelhafte Kalibrierung der Schweißroboter in Linie 4. Das ist kein Zufallsfehler, sondern ein systemisches Problem, das eine grundlegende Überarbeitung des Wartungsprotokolls erfordert.",
+      "text_en": "The complaint rate last quarter was 3.2 percent — that is almost double our target value of 1.8 percent. The error analysis shows that 60 percent of complaints can be traced back to the same production error: inadequate calibration of the welding robots in line 4. This is not a random error but a systemic problem that requires a fundamental overhaul of the maintenance protocol."
+    },
+    {
+      "speaker": "Gespräch 2 — Produktionsleiter",
+      "text_de": "Die Kalibrierungsintervalle wurden aus Kostengründen verlängert — das war eine Entscheidung des Controllings, die ich von Anfang an für riskant hielt. Ich empfehle, auf wöchentliche Kalibrierung zurückzukehren und zusätzlich ein automatisches Monitoring-System zu installieren, das Abweichungen in Echtzeit erkennt.",
+      "text_en": "The calibration intervals were extended for cost reasons — that was a decision by controlling that I considered risky from the beginning. I recommend returning to weekly calibration and additionally installing an automatic monitoring system that detects deviations in real time."
+    },
+    {
+      "speaker": "Gespräch 3 — Personalentwicklerin",
+      "text_de": "Im Rahmen unserer Nachfolgeplanung möchte ich die Kandidatenliste für die Position der Bereichsleitung vorstellen. Nach dem Assessment-Center sind drei interne Kandidaten in der engeren Auswahl. Allerdings hat keiner der Kandidaten Auslandserfahrung, die für die zunehmende Internationalisierung unseres Geschäfts unerlässlich wäre. Ich empfehle, parallel einen Mentoring-Programm aufzusetzen, das die ausgewählte Person gezielt auf die internationale Dimension der Rolle vorbereitet.",
+      "text_en": "As part of our succession planning, I would like to present the candidate list for the division head position. After the assessment center, three internal candidates are shortlisted. However, none of the candidates has international experience, which would be essential for the increasing internationalization of our business. I recommend setting up a parallel mentoring program that specifically prepares the selected person for the international dimension of the role."
+    },
+    {
+      "speaker": "Gespräch 3 — Geschäftsführer",
+      "text_de": "Einverstanden. Aber ich möchte auch prüfen lassen, ob wir nicht zusätzlich extern rekrutieren sollten, um eine breitere Auswahl zu haben. Die interne Nachfolge ist wertvoll für die Unternehmenskultur, aber sie darf nicht auf Kosten der fachlichen Qualifikation gehen. Können Sie bis nächste Woche einen Vergleich der Profile vorlegen?",
+      "text_en": "Agreed. But I also want to have it examined whether we should additionally recruit externally to have a broader selection. Internal succession is valuable for company culture, but it must not come at the expense of professional qualification. Can you present a comparison of profiles by next week?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen die Ergebnisse der Mitarbeiterbefragung?",
+      "text_en": "What do the employee survey results show?",
+      "options": [
+        "a) Dass die Gehaltszufriedenheit stark gesunken ist.",
+        "b) Dass die Mitarbeitenden insgesamt sehr zufrieden sind.",
+        "c) Dass die Zufriedenheit mit der internen Kommunikation um 15 Prozentpunkte gesunken ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Zufriedenheit mit der internen Kommunikation ist um 15 Prozentpunkte gesunken, besonders kritisch wird die mangelnde Transparenz bewertet.",
+      "explanation_en": "Satisfaction with internal communication has dropped by 15 percentage points, with the lack of transparency rated particularly critically."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Worauf sind 60 Prozent der Reklamationen zurückzuführen?",
+      "text_en": "What are 60 percent of the complaints attributable to?",
+      "options": [
+        "a) Auf Materialfehler bei der Zulieferung.",
+        "b) Auf eine mangelhafte Kalibrierung der Schweißroboter in Linie 4.",
+        "c) Auf Bedienungsfehler des Personals."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "60 Prozent der Reklamationen sind auf eine mangelhafte Kalibrierung der Schweißroboter in Linie 4 zurückzuführen.",
+      "explanation_en": "60 percent of complaints are attributable to inadequate calibration of the welding robots in line 4."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt der Produktionsleiter zur Lösung des Qualitätsproblems?",
+      "text_en": "What does the production manager recommend to solve the quality problem?",
+      "options": [
+        "a) Rückkehr zur wöchentlichen Kalibrierung und Installation eines automatischen Monitoring-Systems.",
+        "b) Austausch aller Schweißroboter durch neuere Modelle.",
+        "c) Einstellung zusätzlichen Personals für die Qualitätskontrolle."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Produktionsleiter empfiehlt die Rückkehr zur wöchentlichen Kalibrierung und die Installation eines automatischen Monitoring-Systems.",
+      "explanation_en": "The production manager recommends returning to weekly calibration and installing an automatic monitoring system."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches Defizit haben die internen Kandidaten für die Bereichsleitung?",
+      "text_en": "What deficit do the internal candidates for the division head position have?",
+      "options": [
+        "a) Mangelnde Führungserfahrung und fehlende Teamfähigkeit.",
+        "b) Unzureichende fachliche Qualifikation für die Position.",
+        "c) Fehlende Auslandserfahrung, die für die Internationalisierung nötig wäre."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Keiner der drei internen Kandidaten hat Auslandserfahrung, die für die zunehmende Internationalisierung unerlässlich wäre.",
+      "explanation_en": "None of the three internal candidates has international experience, which would be essential for the increasing internationalization."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was möchte der Geschäftsführer zusätzlich prüfen lassen?",
+      "text_en": "What does the managing director additionally want to have examined?",
+      "options": [
+        "a) Ob die Position vollständig gestrichen werden kann.",
+        "b) Ob zusätzlich extern rekrutiert werden sollte, um eine breitere Auswahl zu haben.",
+        "c) Ob alle drei Kandidaten gleichzeitig eingestellt werden können."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Geschäftsführer möchte prüfen lassen, ob zusätzlich extern rekrutiert werden sollte, um eine breitere Auswahl zu haben.",
+      "explanation_en": "The managing director wants to examine whether external recruitment should be pursued additionally to have a broader selection."
+    }
+  ]
+}

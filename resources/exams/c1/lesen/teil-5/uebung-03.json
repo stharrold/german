@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-5-003",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Fachkräftemangel im Gesundheitswesen",
+  "instructions": "Lesen Sie den folgenden Berichtsauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Der Fachkräftemangel im Gesundheitswesen hat eine Dimension erreicht, die die flächendeckende Versorgungssicherheit gefährdet. Der vorliegende Bericht beziffert die aktuelle Personallücke auf 120.000 unbesetzte Stellen in Pflege und medizinisch-technischen Berufen, mit einer projizierten Verdoppelung innerhalb des kommenden Jahrzehnts. Besonders betroffen sind ländliche Regionen und strukturschwache Stadtteile, in denen bereits heute Arztpraxen und Krankenhausabteilungen geschlossen werden mussten.\n\nDie Ursachenanalyse offenbart ein Zusammenwirken mehrerer Faktoren. Die demographische Entwicklung lässt die Zahl der Pflegebedürftigen steigen, während gleichzeitig geburtenstarke Jahrgänge in der Gesundheitsbranche in den Ruhestand treten. Die Arbeitsbedingungen — Schichtarbeit, psychische Belastung, körperliche Schwerstarbeit bei vergleichsweise geringer Vergütung — schrecken potenzielle Berufseinsteiger ab. Hinzu kommen systemische Fehlanreize: Das Vergütungssystem belohnt medizinische Eingriffe, nicht aber die zeitintensive pflegerische und präventive Betreuung, was zu einer chronischen Unterbewertung dieser Tätigkeiten führt.\n\nDer Bericht formuliert einen Maßnahmenkatalog auf drei Ebenen. Kurzfristig empfiehlt er vereinfachte Anerkennungsverfahren für ausländische Fachkräfte und die Ausweitung von Delegationsmodellen, bei denen nichtärztliche Fachkräfte bestimmte ärztliche Tätigkeiten übernehmen. Mittelfristig müssen die Ausbildungskapazitäten in Pflegeberufen verdoppelt und die Vergütungsstrukturen grundlegend reformiert werden. Langfristig bedarf es eines Paradigmenwechsels hin zu einem präventionsorientierten Gesundheitssystem, das den Behandlungsbedarf reduziert und die Gesundheitsberufe aufwertet.",
+    "text_en": "The skilled labor shortage in healthcare has reached a dimension that endangers comprehensive care provision. The present report quantifies the current personnel gap at 120,000 unfilled positions in nursing and medical-technical professions, with a projected doubling within the coming decade. Particularly affected are rural regions and structurally weak urban districts, where medical practices and hospital departments have already had to be closed.\n\nThe causal analysis reveals an interplay of multiple factors. Demographic development increases the number of people requiring care while simultaneously baby-boom cohorts in the health sector are entering retirement. Working conditions — shift work, psychological stress, physically demanding labor with comparatively low compensation — deter potential new entrants. Additionally, systemic misaligned incentives exist: the reimbursement system rewards medical interventions but not time-intensive nursing and preventive care, leading to a chronic undervaluation of these activities.\n\nThe report formulates a catalog of measures at three levels. In the short term, it recommends simplified recognition procedures for foreign skilled workers and the expansion of delegation models in which non-physician professionals take over certain medical activities. In the medium term, training capacities in nursing professions must be doubled and compensation structures fundamentally reformed. In the long term, a paradigm shift toward a prevention-oriented health system is needed that reduces treatment demand and upgrades health professions.",
+    "source": "Bericht",
+    "word_count": 184
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie groß ist die aktuelle Personallücke im Gesundheitswesen?",
+      "text_en": "How large is the current personnel gap in healthcare?",
+      "options": [
+        "a) 50.000 unbesetzte Stellen mit rückläufiger Tendenz.",
+        "b) 120.000 unbesetzte Stellen mit projizierter Verdoppelung im kommenden Jahrzehnt.",
+        "c) 200.000 Stellen, die durch Automatisierung ersetzt werden sollen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die aktuelle Personallücke beträgt 120.000 Stellen mit projizierter Verdoppelung im kommenden Jahrzehnt.",
+      "explanation_en": "The current personnel gap is 120,000 positions with a projected doubling in the coming decade."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welchen systemischen Fehlanreiz beschreibt der Bericht?",
+      "text_en": "What systemic misaligned incentive does the report describe?",
+      "options": [
+        "a) Die Bevorzugung spezialisierter Kliniken gegenüber Hausarztpraxen.",
+        "b) Die übermäßige Regulierung der Ausbildungswege im Gesundheitswesen.",
+        "c) Das Vergütungssystem belohnt Eingriffe, nicht aber pflegerische und präventive Betreuung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Vergütungssystem belohnt medizinische Eingriffe, nicht die zeitintensive pflegerische und präventive Betreuung.",
+      "explanation_en": "The reimbursement system rewards medical interventions but not nursing and preventive care."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt der Bericht als kurzfristige Maßnahme?",
+      "text_en": "What does the report recommend as a short-term measure?",
+      "options": [
+        "a) Vereinfachte Anerkennungsverfahren für ausländische Fachkräfte und Delegationsmodelle.",
+        "b) Die Verdoppelung der Ausbildungskapazitäten in Pflegeberufen.",
+        "c) Einen Paradigmenwechsel hin zum präventionsorientierten System."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Kurzfristig empfiehlt der Bericht vereinfachte Anerkennungsverfahren und Delegationsmodelle.",
+      "explanation_en": "In the short term, the report recommends simplified recognition procedures and delegation models."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum sind ländliche Regionen besonders betroffen?",
+      "text_en": "Why are rural regions particularly affected?",
+      "options": [
+        "a) Weil dort die Bevölkerung am gesündesten ist.",
+        "b) Weil dort bereits Arztpraxen und Krankenhausabteilungen geschlossen werden mussten.",
+        "c) Weil die dortigen Vergütungen am höchsten sind."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In ländlichen Regionen und strukturschwachen Stadtteilen mussten bereits Arztpraxen und Abteilungen geschlossen werden.",
+      "explanation_en": "In rural regions and structurally weak districts, medical practices and departments have already had to be closed."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist das langfristige Ziel laut dem Bericht?",
+      "text_en": "What is the long-term goal according to the report?",
+      "options": [
+        "a) Die vollständige Digitalisierung aller Gesundheitsdienstleistungen.",
+        "b) Die Verdreifachung der Anzahl von Medizinstudienplätzen.",
+        "c) Ein Paradigmenwechsel hin zu einem präventionsorientierten Gesundheitssystem."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Langfristig bedarf es eines Paradigmenwechsels hin zu einem präventionsorientierten Gesundheitssystem.",
+      "explanation_en": "In the long term, a paradigm shift toward a prevention-oriented health system is needed."
+    }
+  ]
+}
