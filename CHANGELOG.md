@@ -19,6 +19,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `tests/test_b2_exercises.py` — 35 parametrized tests for B2 content validation
 - Subscript digit support (U+2080–U+2089) in `scripts/make_pdfs.py` for CO₂ notation
 
+## [2.4.0] - 2026-03-06
+
+### Added
+- **A1 exam practice content** — 60 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 15 exercises (Teil 1–3, 5 each)
+  - Lesen: 20 exercises (Teil 1–4, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 15 exercises (Teil 1–3, 5 each)
+- A1 exam PDFs (4 skill-specific PDFs in `resources/exams/a1/pdfs/`)
+- `tests/test_a1_exercises.py` — parametrized tests for A1 content validation
+
 ## [2.3.0] - 2026-03-05
 
 ### Added
