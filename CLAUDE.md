@@ -38,7 +38,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 - B2 exam practice content: complete (#335), v2.5.0
 - B2: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
-- C1 exam practice content: in progress (#336)
+- C1 exam practice content: complete (#336)
 - C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
 
 ## Repository Purpose

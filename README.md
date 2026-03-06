@@ -99,6 +99,18 @@ resources/exams/b1/
 ├── lesen/teil-{1-5}/uebung-{01-05}.json
 ├── schreiben/aufgabe-{1-3}/uebung-{01-05}.json
 └── sprechen/teil-{1-3}/uebung-{01-05}.json
+
+resources/exams/b2/
+├── hoeren/teil-{1-4}/uebung-{01-05}.json
+├── lesen/teil-{1-5}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
+└── sprechen/teil-{1-2}/uebung-{01-05}.json
+
+resources/exams/c1/
+├── hoeren/teil-{1-4}/uebung-{01-05}.json
+├── lesen/teil-{1-5}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
+└── sprechen/teil-{1-2}/uebung-{01-05}.json
 ```
 
 ## Quick Start

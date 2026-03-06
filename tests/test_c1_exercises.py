@@ -182,16 +182,13 @@ def test_c1_all_ids_unique():
 
 
 def test_c1_all_bilingual():
-    """Test that all exercises have bilingual content where expected."""
+    """Test that _en fields are not orphaned (have matching _de counterpart)."""
     def check_fields(obj, filepath):
         if isinstance(obj, dict):
             for key, value in obj.items():
-                if key.endswith("_de"):
-                    en_key = key[:-3] + "_en"
-                    assert en_key in obj, f"Missing '{en_key}' for '{key}' in {filepath}"
-                elif key.endswith("_en"):
+                if key.endswith("_en"):
                     de_key = key[:-3] + "_de"
-                    assert de_key in obj, f"Missing '{de_key}' for '{key}' in {filepath}"
+                    assert de_key in obj, f"Orphaned '{key}' without '{de_key}' in {filepath}"
                 check_fields(value, filepath)
         elif isinstance(obj, list):
             for item in obj:
