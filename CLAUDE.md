@@ -38,7 +38,7 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 - B2 exam practice content: complete (#335), v2.5.0
 - B2: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
-- C1 exam practice content: complete (#336)
+- C1 exam practice content: complete (#336), v2.6.0
 - C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
 
 ## Repository Purpose
@@ -92,6 +92,8 @@ Python-based German language learning resources and content:
 - Agent-generated JSON files may have CRLF line endings — check with `grep -rl $'\r'` and normalize before committing
 - AI-generated exam exercises bias correct_answer to one option — redistribute using deterministic hash: `md5(exercise_id + question_number) % num_options`
 - `release_workflow.py tag-release` creates git tags but NOT GitHub Releases — run `gh release create vX.Y.Z` separately after tagging
+- After hash-based answer redistribution, check for exercises with all-same answers — manually swap option content to fix outliers (hash over 5 questions × 3 options can produce all-same by chance)
+- AI-generated German content may have article/case errors (e.g., "einen Programm" for neuter *das Programm*) — review grammar in generated text, especially articles with borrowed/compound nouns
 
 ## Branch Structure
 
