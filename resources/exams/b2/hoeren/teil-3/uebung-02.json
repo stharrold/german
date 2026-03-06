@@ -60,10 +60,10 @@
       "text_en": "What is the project team's problem?",
       "options": [
         "a) Der Kunde hat das Projekt komplett abgesagt.",
-        "b) Der Liefertermin wurde um drei Wochen vorverlegt.",
-        "c) Das Budget wurde um die Hälfte gekürzt."
+        "b) Das Budget wurde um die Hälfte gekürzt.",
+        "c) Der Liefertermin wurde um drei Wochen vorverlegt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Kunde hat den Liefertermin um drei Wochen vorverlegt.",
       "explanation_en": "The client moved the delivery date up by three weeks."
     },
@@ -74,10 +74,10 @@
       "text_en": "What third option does Ms. Schmidt propose?",
       "options": [
         "a) Das Projekt auf einen späteren Termin zu verschieben.",
-        "b) Das externe Entwicklerteam in Krakau hinzuzuziehen.",
-        "c) Einen neuen Kunden zu suchen."
+        "b) Einen neuen Kunden zu suchen.",
+        "c) Das externe Entwicklerteam in Krakau hinzuzuziehen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Frau Schmidt schlägt vor, das externe Entwicklerteam in Krakau hinzuzuziehen, um den vollen Umfang ohne Überstunden zu liefern.",
       "explanation_en": "Ms. Schmidt proposes bringing in the external development team in Krakow to deliver the full scope without overtime."
     },
@@ -87,11 +87,11 @@
       "text_de": "Worüber beschwert sich Frau Winter bei ihrem Nachbarn?",
       "text_en": "What does Ms. Winter complain about to her neighbor?",
       "options": [
-        "a) Über Baulärm in der Wohnung.",
-        "b) Über zu laute Musik am Abend, die ihr Kind am Schlafen hindert.",
+        "a) Über zu laute Musik am Abend, die ihr Kind am Schlafen hindert.",
+        "b) Über Baulärm in der Wohnung.",
         "c) Über Zigarettenrauch, der in ihre Wohnung zieht."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sie beschwert sich über zu laute Musik am Abend, wegen der ihr Kind erst um halb elf einschlafen konnte.",
       "explanation_en": "She complains about music that is too loud in the evening, because of which her child couldn't fall asleep until half past ten."
     },
@@ -101,11 +101,11 @@
       "text_de": "Wie reagiert Herr Hoffmann auf die Beschwerde?",
       "text_en": "How does Mr. Hoffmann react to the complaint?",
       "options": [
-        "a) Er streitet ab, dass die Musik zu laut war.",
-        "b) Er entschuldigt sich und bietet an, seine Handynummer zu geben.",
+        "a) Er entschuldigt sich und bietet an, seine Handynummer zu geben.",
+        "b) Er streitet ab, dass die Musik zu laut war.",
         "c) Er schlägt vor, schalldichte Fenster einzubauen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er entschuldigt sich, sagt, es war ihm nicht bewusst, und bietet seine Handynummer für direkte Kontaktaufnahme an.",
       "explanation_en": "He apologizes, says he wasn't aware, and offers his mobile number for direct contact."
     }

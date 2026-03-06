@@ -20,10 +20,10 @@
       "text_en": "What are the linguists at the University of Duisburg-Essen studying?",
       "options": [
         "a) Wie traditionelle Dialekte verschwinden.",
-        "b) Wie soziale Medien die Sprachgewohnheiten junger Erwachsener beeinflussen.",
-        "c) Wie man Fremdsprachenunterricht verbessern kann."
+        "b) Wie man Fremdsprachenunterricht verbessern kann.",
+        "c) Wie soziale Medien die Sprachgewohnheiten junger Erwachsener beeinflussen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Sie untersuchen, wie Plattformen wie Instagram, TikTok und WhatsApp die Sprachgewohnheiten beeinflussen.",
       "explanation_en": "They study how platforms like Instagram, TikTok, and WhatsApp influence language habits."
     },
@@ -34,10 +34,10 @@
       "text_en": "What is special about the adoption of English terms?",
       "options": [
         "a) Sie werden nur von Jugendlichen verwendet.",
-        "b) Sie werden nach deutschen Grammatikregeln konjugiert und dekliniert.",
-        "c) Sie ersetzen die deutschen Wörter vollständig."
+        "b) Sie ersetzen die deutschen Wörter vollständig.",
+        "c) Sie werden nach deutschen Grammatikregeln konjugiert und dekliniert."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Englische Begriffe werden nach deutschen grammatischen Regeln konjugiert und dekliniert.",
       "explanation_en": "English terms are conjugated and declined according to German grammatical rules."
     },
@@ -48,10 +48,10 @@
       "text_en": "Which influence is more profound than vocabulary change according to the text?",
       "options": [
         "a) Der Einfluss auf die Aussprache.",
-        "b) Der Einfluss auf die Textstruktur und Satzbildung.",
-        "c) Der Einfluss auf die Rechtschreibung."
+        "b) Der Einfluss auf die Rechtschreibung.",
+        "c) Der Einfluss auf die Textstruktur und Satzbildung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Einfluss auf die Textstruktur ist tiefgreifender als lexikalische Entlehnungen.",
       "explanation_en": "The influence on text structure is more profound than lexical borrowings."
     },
@@ -62,10 +62,10 @@
       "text_en": "How does Professor Schmidbauer assess the language change?",
       "options": [
         "a) Als besorgniserregenden Verfall der Sprachkultur.",
-        "b) Als Ausdruck bemerkenswerter Kreativität junger Menschen.",
-        "c) Als unvermeidliche Folge der Globalisierung."
+        "b) Als unvermeidliche Folge der Globalisierung.",
+        "c) Als Ausdruck bemerkenswerter Kreativität junger Menschen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die heutige Jugendsprache zeigt eine bemerkenswerte Kreativität in der Verknüpfung verschiedener Sprachsysteme.",
       "explanation_en": "Today's youth language shows remarkable creativity in linking different language systems."
     },
@@ -76,10 +76,10 @@
       "text_en": "What is crucial according to the researchers?",
       "options": [
         "a) Dass englische Begriffe aus dem Deutschen verbannt werden.",
-        "b) Dass junge Menschen zwischen verschiedenen Sprachregistern wechseln können.",
-        "c) Dass soziale Medien in Schulen verboten werden."
+        "b) Dass soziale Medien in Schulen verboten werden.",
+        "c) Dass junge Menschen zwischen verschiedenen Sprachregistern wechseln können."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Entscheidend sei, dass junge Menschen die Fähigkeit behalten, zwischen verschiedenen Sprachregistern zu wechseln.",
       "explanation_en": "What matters is that young people retain the ability to switch between different language registers."
     }

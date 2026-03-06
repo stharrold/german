@@ -20,10 +20,10 @@
       "text_en": "What is RebeccaN's main problem with the open-plan office?",
       "options": [
         "a) Die schlechte Klimaanlage.",
-        "b) Der Lärmpegel und die sinkende Produktivität.",
-        "c) Die weite Entfernung zu ihrem Arbeitsplatz."
+        "b) Die weite Entfernung zu ihrem Arbeitsplatz.",
+        "c) Der Lärmpegel und die sinkende Produktivität."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Lärmpegel ist unerträglich, und ihre Produktivität ist um 30 Prozent gesunken.",
       "explanation_en": "The noise level is unbearable, and her productivity has dropped by 30 percent."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was schätzt DanielW am Großraumbüro?",
       "text_en": "What does DanielW appreciate about the open-plan office?",
       "options": [
-        "a) Dass er seinen eigenen Schreibtisch hat.",
-        "b) Die direkte Kommunikation und schnellere Entscheidungen.",
+        "a) Die direkte Kommunikation und schnellere Entscheidungen.",
+        "b) Dass er seinen eigenen Schreibtisch hat.",
         "c) Dass er von zu Hause aus arbeiten kann."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Kommunikation ist direkter, und Entscheidungen werden schneller getroffen.",
       "explanation_en": "Communication is more direct, and decisions are made faster."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was hat die Forschung laut MonikaSch herausgefunden?",
       "text_en": "What has research found according to MonikaSch?",
       "options": [
-        "a) Dass Mitarbeiter im Großraumbüro zufriedener sind.",
-        "b) Dass Großraumbüros die persönliche Kommunikation um bis zu 70 Prozent senken.",
+        "a) Dass Großraumbüros die persönliche Kommunikation um bis zu 70 Prozent senken.",
+        "b) Dass Mitarbeiter im Großraumbüro zufriedener sind.",
         "c) Dass offene Büros die Kreativität steigern."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Großraumbüros senken die persönliche Kommunikation um bis zu 70 Prozent.",
       "explanation_en": "Open-plan offices reduce personal communication by up to 70 percent."
     },
@@ -62,10 +62,10 @@
       "text_en": "Why do companies still adopt open offices according to MonikaSch?",
       "options": [
         "a) Weil die Mitarbeiter es fordern.",
-        "b) Hauptsächlich, um Mietkosten zu sparen.",
-        "c) Weil moderne Architektur es verlangt."
+        "b) Weil moderne Architektur es verlangt.",
+        "c) Hauptsächlich, um Mietkosten zu sparen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Immer mehr Firmen setzen auf offene Konzepte, hauptsächlich um Mietkosten zu sparen.",
       "explanation_en": "More and more companies adopt open concepts mainly to save rental costs."
     },

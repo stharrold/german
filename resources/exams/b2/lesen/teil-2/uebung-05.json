@@ -47,11 +47,11 @@
       "text_de": "Was geht laut Autor im Homeoffice verloren?",
       "text_en": "What is lost in remote work according to the author?",
       "options": [
-        "a) Die Fähigkeit, eigenständig zu arbeiten.",
-        "b) Spontane Begegnungen und informelles Lernen.",
+        "a) Spontane Begegnungen und informelles Lernen.",
+        "b) Die Fähigkeit, eigenständig zu arbeiten.",
         "c) Der Zugang zu technischen Ressourcen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Spontane Gespräche, gemeinsame Mittagessen und informelles Lernen durch Beobachtung gehen verloren.",
       "explanation_en": "Spontaneous conversations, shared lunches, and informal learning through observation are lost."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was fordert der Autor von der Führungskultur?",
       "text_en": "What does the author demand from leadership culture?",
       "options": [
-        "a) Strengere Kontrolle der Arbeitszeiten.",
-        "b) Bewertung von Ergebnissen statt Anwesenheit.",
+        "a) Bewertung von Ergebnissen statt Anwesenheit.",
+        "b) Strengere Kontrolle der Arbeitszeiten.",
         "c) Regelmäßige Teambuilding-Veranstaltungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Wir brauchen eine neue Führungskultur, die Ergebnisse statt Anwesenheit bewertet.",
       "explanation_en": "We need a new leadership culture that evaluates results rather than presence."
     }

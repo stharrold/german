@@ -20,10 +20,10 @@
       "text_en": "How has the vinyl record market in Germany developed?",
       "options": [
         "a) Die Verkaufszahlen sinken seit Jahren.",
-        "b) Die Verkaufszahlen steigen seit über einem Jahrzehnt.",
-        "c) Die Verkaufszahlen sind seit den 1990ern stabil geblieben."
+        "b) Die Verkaufszahlen sind seit den 1990ern stabil geblieben.",
+        "c) Die Verkaufszahlen steigen seit über einem Jahrzehnt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Seit über einem Jahrzehnt steigen die Verkaufszahlen kontinuierlich an.",
       "explanation_en": "For over a decade, vinyl sales have been rising continuously."
     },
@@ -34,10 +34,10 @@
       "text_en": "Why do many listeners appreciate vinyl records?",
       "options": [
         "a) Weil sie billiger sind als Streamingabonnements.",
-        "b) Weil das Auflegen ein sinnliches Ritual schafft.",
-        "c) Weil die Klangqualität digital zertifiziert ist."
+        "b) Weil die Klangqualität digital zertifiziert ist.",
+        "c) Weil das Auflegen ein sinnliches Ritual schafft."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Das Herausnehmen, Auflegen und Betrachten der Cover-Kunst schaffen ein Ritual.",
       "explanation_en": "Removing, placing the needle, and viewing cover art create a ritual."
     },
@@ -47,11 +47,11 @@
       "text_de": "Welche Altersgruppe treibt den Vinyl-Boom besonders an?",
       "text_en": "Which age group particularly drives the vinyl boom?",
       "options": [
-        "a) Menschen über 60, die nostalgisch sind.",
-        "b) 20- bis 35-Jährige, die nicht mit Schallplatten aufgewachsen sind.",
+        "a) 20- bis 35-Jährige, die nicht mit Schallplatten aufgewachsen sind.",
+        "b) Menschen über 60, die nostalgisch sind.",
         "c) Jugendliche unter 18, die neue Trends setzen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Besonders die Generation der 20- bis 35-Jährigen treibt den Boom an.",
       "explanation_en": "The 20- to 35-year-old generation particularly drives the boom."
     },
@@ -76,10 +76,10 @@
       "text_en": "What objection do critics raise?",
       "options": [
         "a) Die Klangqualität sei schlechter als bei Streaming.",
-        "b) Die Herstellung aus PVC sei ökologisch problematisch.",
-        "c) Die Platten seien zu teuer für junge Käufer."
+        "b) Die Platten seien zu teuer für junge Käufer.",
+        "c) Die Herstellung aus PVC sei ökologisch problematisch."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Kritiker wenden ein, dass die ökologische Bilanz der Vinylproduktion problematisch sei, da PVC ein erdölbasierter Kunststoff ist.",
       "explanation_en": "Critics object that the ecological footprint of vinyl production is problematic since PVC is a petroleum-based plastic."
     }

@@ -33,11 +33,11 @@
       "text_de": "Was war das Besondere an der Organisation der Hanse?",
       "text_en": "What was special about the Hanseatic League's organization?",
       "options": [
-        "a) Sie hatte einen mächtigen König an der Spitze.",
-        "b) Sie war ein flexibles Netzwerk ohne zentrale Verwaltung.",
+        "a) Sie war ein flexibles Netzwerk ohne zentrale Verwaltung.",
+        "b) Sie hatte einen mächtigen König an der Spitze.",
         "c) Sie hatte eine demokratisch gewählte Regierung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Es war ein flexibles Netzwerk ohne zentrale Verwaltung, gemeinsame Armee oder Verfassung.",
       "explanation_en": "It was a flexible network without central administration, common army, or constitution."
     },
@@ -48,10 +48,10 @@
       "text_en": "What was the weakness of the decentralized structure?",
       "options": [
         "a) Sie war zu teuer in der Verwaltung.",
-        "b) Sie erschwerte einheitliches Handeln in Krisensituationen.",
-        "c) Sie führte zu ständigen Kriegen zwischen den Mitgliedsstädten."
+        "b) Sie führte zu ständigen Kriegen zwischen den Mitgliedsstädten.",
+        "c) Sie erschwerte einheitliches Handeln in Krisensituationen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die dezentrale Struktur erschwerte einheitliches Handeln in Krisensituationen.",
       "explanation_en": "The decentralized structure made unified action in crisis situations more difficult."
     },
@@ -61,11 +61,11 @@
       "text_de": "Welchen Vergleich ziehen Historiker?",
       "text_en": "What comparison do historians draw?",
       "options": [
-        "a) Zwischen der Hanse und der NATO.",
-        "b) Zwischen der Hanse und der Europäischen Union.",
+        "a) Zwischen der Hanse und der Europäischen Union.",
+        "b) Zwischen der Hanse und der NATO.",
         "c) Zwischen der Hanse und den Vereinten Nationen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Parallelen zur Europäischen Union sind offensichtlich: ein Verbund souveräner Einheiten.",
       "explanation_en": "The parallels to the European Union are obvious: an association of sovereign entities."
     },

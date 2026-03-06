@@ -1,18 +1,29 @@
 # German Language Learning Repository
 
-A Python-based repository for German language learning resources, featuring A2 and B1 exam practice exercises in Goethe-Institut format.
+A Python-based repository for German language learning resources, featuring A1, A2, B1, and B2 exam practice exercises in Goethe-Institut format.
 
 ## Purpose
 
 This repository contains:
+- **A1 exam practice exercises** — 60 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **A2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **B1 exam practice exercises** — 75 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
+- **B2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
 - **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
 - **Certificate guides** — Reference materials for CEFR levels A1–C2
 - **Python tools** — Loader and query modules for vocabulary and exam data
 
 ## Exam Practice Content
+
+### A1 (60 exercises)
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–3 | 15 | Multiple-choice, true/false |
+| **Lesen** (Reading) | Teil 1–4 | 20 | Multiple-choice, true/false, matching |
+| **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Form filling, short messages |
+| **Sprechen** (Speaking) | Teil 1–3 | 15 | Introductions, requests, planning |
 
 ### A2 (65 exercises)
 
@@ -31,6 +42,15 @@ This repository contains:
 | **Lesen** (Reading) | Teil 1–5 | 25 | Multiple-choice, true/false, matching |
 | **Schreiben** (Writing) | Aufgabe 1–3 | 15 | Informal/formal emails, opinion pieces |
 | **Sprechen** (Speaking) | Teil 1–3 | 15 | Planning, presentations, discussions |
+
+### B2 (65 exercises)
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–4 | 20 | Multiple-choice, interviews, lectures |
+| **Lesen** (Reading) | Teil 1–5 | 25 | Multiple-choice, opinions, academic texts |
+| **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Formal letters, argumentative essays |
+| **Sprechen** (Speaking) | Teil 1–2 | 10 | Presentations, discussions, negotiations |
 
 ### How to Practice
 

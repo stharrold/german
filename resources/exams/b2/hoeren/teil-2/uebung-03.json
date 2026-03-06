@@ -40,11 +40,11 @@
       "text_de": "Wie informieren sich laut Frau Weber die meisten unter 30-Jährigen?",
       "text_en": "How do most people under 30 inform themselves according to Ms. Weber?",
       "options": [
-        "a) Hauptsächlich über Tageszeitungen.",
-        "b) Hauptsächlich über soziale Medien.",
+        "a) Hauptsächlich über soziale Medien.",
+        "b) Hauptsächlich über Tageszeitungen.",
         "c) Hauptsächlich über das Radio."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "72 Prozent der unter 30-Jährigen beziehen ihre Nachrichten hauptsächlich über soziale Medien.",
       "explanation_en": "72 percent of people under 30 primarily get their news through social media."
     },
@@ -68,11 +68,11 @@
       "text_de": "Wie schnell verbreiten sich Falschinformationen im Vergleich zu wahren Nachrichten?",
       "text_en": "How fast does misinformation spread compared to true news?",
       "options": [
-        "a) Doppelt so schnell.",
-        "b) Sechsmal schneller.",
+        "a) Sechsmal schneller.",
+        "b) Doppelt so schnell.",
         "c) Zehnmal schneller."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Laut einer MIT-Studie verbreiten sich Falschinformationen sechsmal schneller als wahre Nachrichten.",
       "explanation_en": "According to an MIT study, misinformation spreads six times faster than true news."
     },
@@ -97,10 +97,10 @@
       "text_en": "What does Mr. Richter demand from the big tech companies?",
       "options": [
         "a) Dass sie ihre Plattformen für Nachrichten komplett schließen.",
-        "b) Dass sie algorithmisch bevorzugte Inhalte transparent machen und gegen Desinformation vorgehen.",
-        "c) Dass sie Journalisten einstellen, um Nachrichten zu schreiben."
+        "b) Dass sie Journalisten einstellen, um Nachrichten zu schreiben.",
+        "c) Dass sie algorithmisch bevorzugte Inhalte transparent machen und gegen Desinformation vorgehen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Herr Richter fordert, dass Plattformen algorithmisch bevorzugte Inhalte transparent machen und gegen Desinformation vorgehen müssen.",
       "explanation_en": "Mr. Richter demands that platforms must make algorithmically preferred content transparent and take action against disinformation."
     }

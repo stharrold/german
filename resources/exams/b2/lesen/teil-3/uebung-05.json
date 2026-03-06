@@ -20,10 +20,10 @@
       "text_en": "How many institutes does the Goethe-Institut have worldwide?",
       "options": [
         "a) 98 in 57 Ländern.",
-        "b) 157 in 98 Ländern.",
-        "c) 260 in 120 Ländern."
+        "b) 260 in 120 Ländern.",
+        "c) 157 in 98 Ländern."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Es gibt 157 Institute in 98 Ländern.",
       "explanation_en": "There are 157 institutes in 98 countries."
     },
@@ -34,10 +34,10 @@
       "text_en": "What was the Goethe-Institut's mission when it was founded?",
       "options": [
         "a) Deutsche Filme im Ausland zu zeigen.",
-        "b) Deutschlehrer im Ausland fortzubilden.",
-        "c) Ausländische Studenten nach Deutschland einzuladen."
+        "b) Ausländische Studenten nach Deutschland einzuladen.",
+        "c) Deutschlehrer im Ausland fortzubilden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Zunächst hatte es den Auftrag, Deutschlehrer im Ausland fortzubilden.",
       "explanation_en": "Initially, its mission was to train German teachers abroad."
     },
@@ -47,11 +47,11 @@
       "text_de": "Wofür werden die Sprachzertifikate des Goethe-Instituts benötigt?",
       "text_en": "What are Goethe-Institut language certificates needed for?",
       "options": [
-        "a) Für den Erwerb der deutschen Staatsbürgerschaft.",
-        "b) Für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen.",
+        "a) Für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen.",
+        "b) Für den Erwerb der deutschen Staatsbürgerschaft.",
         "c) Ausschließlich für akademische Bewerbungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Zertifikate werden für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen benötigt.",
       "explanation_en": "The certificates are needed for visa applications, university admissions, and professional qualifications."
     },
@@ -76,10 +76,10 @@
       "text_en": "What development has the institute undergone in recent years?",
       "options": [
         "a) Es hat viele Standorte im Ausland geschlossen.",
-        "b) Es hat verstärkt auf digitale Angebote wie Online-Kurse gesetzt.",
-        "c) Es konzentriert sich nur noch auf Sprachprüfungen."
+        "b) Es konzentriert sich nur noch auf Sprachprüfungen.",
+        "c) Es hat verstärkt auf digitale Angebote wie Online-Kurse gesetzt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Das Institut hat verstärkt auf digitale Angebote gesetzt, darunter Online-Sprachkurse und virtuelle Kulturprogramme.",
       "explanation_en": "The institute has increasingly focused on digital offerings, including online language courses and virtual cultural programs."
     }

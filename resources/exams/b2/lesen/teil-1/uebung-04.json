@@ -20,10 +20,10 @@
       "text_en": "According to the text, who is increasingly using coworking spaces?",
       "options": [
         "a) Ausschließlich Freiberufler und Start-up-Gründer.",
-        "b) Auch Angestellte großer Konzerne.",
-        "c) Hauptsächlich Studenten und Praktikanten."
+        "b) Hauptsächlich Studenten und Praktikanten.",
+        "c) Auch Angestellte großer Konzerne."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Zunehmend nutzen auch Angestellte großer Konzerne diese flexiblen Arbeitsräume.",
       "explanation_en": "Increasingly, employees of large corporations also use these flexible workspaces."
     },
@@ -34,10 +34,10 @@
       "text_en": "What is an advantage compared to working from home?",
       "options": [
         "a) Die Kosten sind deutlich geringer.",
-        "b) Man hat mehr Ruhe zum Arbeiten.",
-        "c) Man hat eine professionelle Umgebung ohne soziale Isolation."
+        "b) Man hat eine professionelle Umgebung ohne soziale Isolation.",
+        "c) Man hat mehr Ruhe zum Arbeiten."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Coworking-Spaces bieten eine professionelle Arbeitsumgebung ohne die sozialen Nachteile der Isolation.",
       "explanation_en": "Coworking spaces offer a professional work environment without the social disadvantages of isolation."
     },
@@ -62,10 +62,10 @@
       "text_en": "What is criticized about coworking spaces?",
       "options": [
         "a) Die schlechte Internetverbindung.",
-        "b) Der fehlende Datenschutz und die Ablenkung durch andere.",
-        "c) Die unfreundliche Atmosphäre."
+        "b) Die unfreundliche Atmosphäre.",
+        "c) Der fehlende Datenschutz und die Ablenkung durch andere."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Kritisiert werden der fehlende Datenschutz in offenen Bereichen und die Ablenkung durch Gespräche anderer.",
       "explanation_en": "The lack of data privacy in open areas and distraction from others' conversations are criticized."
     },

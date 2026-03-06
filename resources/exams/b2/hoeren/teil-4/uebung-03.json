@@ -41,10 +41,10 @@
       "text_en": "What does the long-term study show about bilingual children?",
       "options": [
         "a) Sie schneiden in beiden Sprachen dauerhaft schlechter ab.",
-        "b) Sie holen anfängliche Rückstände auf und übertreffen einsprachige Kinder in kognitiven Bereichen.",
-        "c) Sie haben ab dem ersten Lebensjahr einen größeren Wortschatz."
+        "b) Sie haben ab dem ersten Lebensjahr einen größeren Wortschatz.",
+        "c) Sie holen anfängliche Rückstände auf und übertreffen einsprachige Kinder in kognitiven Bereichen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Ab dem vierten Lebensjahr holen zweisprachige Kinder auf und übertreffen einsprachige Kinder in Problemlösung, Flexibilität und Aufmerksamkeit.",
       "explanation_en": "From the fourth year onward, bilingual children catch up and surpass monolingual children in problem-solving, flexibility, and attention."
     },
@@ -54,11 +54,11 @@
       "text_de": "Womit vergleicht Frau Antonescu das Sprachenwechseln im Gehirn?",
       "text_en": "What does Ms. Antonescu compare language switching in the brain to?",
       "options": [
-        "a) Mit einem Computer, der mehrere Programme gleichzeitig ausführt.",
-        "b) Mit einem Muskel, der ständig trainiert wird.",
+        "a) Mit einem Muskel, der ständig trainiert wird.",
+        "b) Mit einem Computer, der mehrere Programme gleichzeitig ausführt.",
         "c) Mit einem Orchester, das verschiedene Instrumente koordiniert."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sie vergleicht es mit einem Muskel, der ständig trainiert wird — das Hin- und Herschalten ist ein kognitives Training.",
       "explanation_en": "She compares it to a muscle that is constantly exercised — switching back and forth is cognitive training."
     },
@@ -69,10 +69,10 @@
       "text_en": "What does Ms. Antonescu say about language learning in adulthood?",
       "options": [
         "a) Es ist nach der Pubertät praktisch unmöglich.",
-        "b) Erwachsene lernen grammatische Strukturen oft schneller als Kinder.",
-        "c) Erwachsene können nur einfache Alltagssprache erlernen."
+        "b) Erwachsene können nur einfache Alltagssprache erlernen.",
+        "c) Erwachsene lernen grammatische Strukturen oft schneller als Kinder."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Erwachsene können auf Weltwissen und analytisches Denken zurückgreifen und lernen grammatische Strukturen oft schneller als Kinder.",
       "explanation_en": "Adults can draw on world knowledge and analytical thinking and often learn grammatical structures faster than children."
     },
@@ -82,11 +82,11 @@
       "text_de": "Welchen Schutzeffekt hat Mehrsprachigkeit laut der Forschung?",
       "text_en": "What protective effect does multilingualism have according to research?",
       "options": [
-        "a) Sie verhindert Alzheimer vollständig.",
-        "b) Sie verzögert die ersten Demenzsymptome um vier bis fünf Jahre.",
+        "a) Sie verzögert die ersten Demenzsymptome um vier bis fünf Jahre.",
+        "b) Sie verhindert Alzheimer vollständig.",
         "c) Sie halbiert das Risiko für alle Gehirnerkrankungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Bei mehrsprachigen Menschen treten die ersten Alzheimer-Symptome im Durchschnitt vier bis fünf Jahre später auf.",
       "explanation_en": "In multilingual people, the first Alzheimer's symptoms appear on average four to five years later."
     },
@@ -97,10 +97,10 @@
       "text_en": "Which brain regions are more developed in multilinguals?",
       "options": [
         "a) Die Regionen für Sprachverständnis und Grammatik.",
-        "b) Die Regionen für exekutive Funktionen wie Planung und Entscheidungsfindung.",
-        "c) Die Regionen für Emotionen und Empathie."
+        "b) Die Regionen für Emotionen und Empathie.",
+        "c) Die Regionen für exekutive Funktionen wie Planung und Entscheidungsfindung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Hirnregionen für exekutive Funktionen — Planung, Entscheidungsfindung und Impulskontrolle — sind stärker ausgeprägt.",
       "explanation_en": "The brain regions for executive functions — planning, decision-making, and impulse control — are more developed."
     }

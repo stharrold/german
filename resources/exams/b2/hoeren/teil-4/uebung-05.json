@@ -40,11 +40,11 @@
       "text_de": "Was ist laut Professor Zimmermann das Problem mit den zwei Denksystemen?",
       "text_en": "What is the problem with the two thinking systems according to Professor Zimmermann?",
       "options": [
-        "a) System zwei funktioniert bei den meisten Menschen nicht richtig.",
-        "b) Wir benutzen System eins zu oft, auch wenn System zwei nötig wäre.",
+        "a) Wir benutzen System eins zu oft, auch wenn System zwei nötig wäre.",
+        "b) System zwei funktioniert bei den meisten Menschen nicht richtig.",
         "c) Beide Systeme widersprechen sich ständig."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Wir benutzen viel zu oft das schnelle, intuitive System eins, auch bei Entscheidungen, die das analytische System zwei erfordern würden.",
       "explanation_en": "We use the fast, intuitive system one far too often, even for decisions that would require the analytical system two."
     },
@@ -54,11 +54,11 @@
       "text_de": "Was zeigte die Studie zum Bestätigungsfehler?",
       "text_en": "What did the study on confirmation bias show?",
       "options": [
-        "a) Versuchspersonen interpretierten neutrale Daten zugunsten ihrer vorgefassten Meinung.",
-        "b) Versuchspersonen änderten ihre Meinung, wenn die Daten eindeutig waren.",
+        "a) Versuchspersonen änderten ihre Meinung, wenn die Daten eindeutig waren.",
+        "b) Versuchspersonen interpretierten neutrale Daten zugunsten ihrer vorgefassten Meinung.",
         "c) Versuchspersonen konnten keine Daten interpretieren."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Versuchspersonen mit Vorannahmen interpretierten neutrale Daten ausnahmslos zugunsten ihrer vorgefassten Meinung.",
       "explanation_en": "Test subjects with preconceptions invariably interpreted neutral data in favor of their preconceived opinion."
     },
@@ -96,11 +96,11 @@
       "text_de": "Welche Empfehlung gibt Professor Zimmermann für bessere Entscheidungen?",
       "text_en": "What recommendation does Professor Zimmermann give for better decisions?",
       "options": [
-        "a) Immer der ersten Intuition vertrauen.",
-        "b) Bewusst die Gegenposition einnehmen und Argumente dagegen suchen.",
+        "a) Bewusst die Gegenposition einnehmen und Argumente dagegen suchen.",
+        "b) Immer der ersten Intuition vertrauen.",
         "c) Entscheidungen möglichst schnell treffen, bevor man sich verunsichern lässt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er empfiehlt, bewusst die Gegenposition einzunehmen und Argumente dagegen zu suchen, um Denkfehler zu vermeiden.",
       "explanation_en": "He recommends consciously taking the opposing position and searching for arguments against to avoid cognitive errors."
     }

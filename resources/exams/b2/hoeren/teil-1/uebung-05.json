@@ -45,11 +45,11 @@
       "text_de": "Wie viele Erwachsene in Deutschland fühlen sich chronisch einsam?",
       "text_en": "How many adults in Germany feel chronically lonely?",
       "options": [
-        "a) Etwa 5 Prozent.",
-        "b) Etwa 14 Prozent.",
+        "a) Etwa 14 Prozent.",
+        "b) Etwa 5 Prozent.",
         "c) Etwa 25 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Laut den Erhebungen fühlen sich etwa 14 Prozent der Erwachsenen chronisch einsam, das sind rund neun Millionen Menschen.",
       "explanation_en": "According to the surveys, about 14 percent of adults feel chronically lonely, which is around nine million people."
     },
@@ -59,11 +59,11 @@
       "text_de": "Welche Altersgruppe ist am stärksten von Einsamkeit betroffen?",
       "text_en": "Which age group is most affected by loneliness?",
       "options": [
-        "a) Menschen über 65 Jahre.",
-        "b) Die 18- bis 29-Jährigen.",
+        "a) Die 18- bis 29-Jährigen.",
+        "b) Menschen über 65 Jahre.",
         "c) Die 40- bis 55-Jährigen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Altersgruppe der 18- bis 29-Jährigen weist die höchsten Einsamkeitswerte auf.",
       "explanation_en": "The 18 to 29 age group shows the highest loneliness scores."
     },
@@ -88,10 +88,10 @@
       "text_en": "Why don't many affected people talk about their loneliness?",
       "options": [
         "a) Weil sie keine Hilfsangebote kennen.",
-        "b) Weil Einsamkeit als persönliches Versagen wahrgenommen wird.",
-        "c) Weil sie denken, dass es ein vorübergehendes Problem ist."
+        "b) Weil sie denken, dass es ein vorübergehendes Problem ist.",
+        "c) Weil Einsamkeit als persönliches Versagen wahrgenommen wird."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Viele Betroffene sprechen nicht über ihre Einsamkeit, weil sie als persönliches Versagen wahrgenommen wird.",
       "explanation_en": "Many affected people don't talk about their loneliness because it is perceived as personal failure."
     },
@@ -101,11 +101,11 @@
       "text_de": "Was ist laut Professor Weidner bei persönlichen Kontakten entscheidend?",
       "text_en": "What is crucial for personal contacts according to Professor Weidner?",
       "options": [
-        "a) Dass man möglichst viele verschiedene Menschen trifft.",
-        "b) Die Regelmäßigkeit und Qualität der Begegnungen.",
+        "a) Die Regelmäßigkeit und Qualität der Begegnungen.",
+        "b) Dass man möglichst viele verschiedene Menschen trifft.",
         "c) Dass man ausschließlich alte Freundschaften pflegt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Entscheidend ist die Regelmäßigkeit und die Qualität der Begegnungen, nicht die Quantität.",
       "explanation_en": "What matters is the regularity and quality of encounters, not the quantity."
     }

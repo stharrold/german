@@ -174,7 +174,7 @@ resources/exams/b2/              # B2 exam practice exercises (65, Goethe-Instit
 
 **Exercise ID format:** `{level}-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
 
-`scripts/make_pdfs.py` supports `--level {a1,a2,b1}` for multi-level PDF generation
+`scripts/make_pdfs.py` supports `--level {a1,a2,b1,b2}` for multi-level PDF generation
 
 **Design:** `docs/plans/2026-03-03-b1-exam-practice-content-design.md`
 

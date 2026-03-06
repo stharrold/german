@@ -41,10 +41,10 @@
       "text_en": "How much CO₂ could be saved through a speed limit according to Ms. Koch?",
       "options": [
         "a) Bis zu 2 Millionen Tonnen pro Jahr.",
-        "b) Bis zu 6 Millionen Tonnen pro Jahr.",
-        "c) Bis zu 15 Millionen Tonnen pro Jahr."
+        "b) Bis zu 15 Millionen Tonnen pro Jahr.",
+        "c) Bis zu 6 Millionen Tonnen pro Jahr."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Frau Koch sagt, ein Tempolimit würde den CO₂-Ausstoß um bis zu 6 Millionen Tonnen pro Jahr senken.",
       "explanation_en": "Ms. Koch says a speed limit would reduce CO₂ emissions by up to 6 million tons per year."
     },
@@ -54,11 +54,11 @@
       "text_de": "Was entgegnet Herr Walther zum CO₂-Argument?",
       "text_en": "How does Mr. Walther respond to the CO₂ argument?",
       "options": [
-        "a) Die Einsparung entspricht weniger als einem Prozent der Gesamtemissionen.",
-        "b) Autobahnen verursachen gar keine CO₂-Emissionen.",
+        "a) Autobahnen verursachen gar keine CO₂-Emissionen.",
+        "b) Die Einsparung entspricht weniger als einem Prozent der Gesamtemissionen.",
         "c) Die Automobilindustrie hat die Emissionen bereits auf null reduziert."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Herr Walther sagt, die sechs Millionen Tonnen entsprechen weniger als einem Prozent der Gesamtemissionen.",
       "explanation_en": "Mr. Walther says the six million tons correspond to less than one percent of total emissions."
     },
@@ -68,11 +68,11 @@
       "text_de": "Wo passieren laut Herrn Walther die meisten tödlichen Unfälle?",
       "text_en": "Where do most fatal accidents occur according to Mr. Walther?",
       "options": [
-        "a) Auf Autobahnen ohne Tempolimit.",
+        "a) Auf Landstraßen.",
         "b) In Innenstädten.",
-        "c) Auf Landstraßen."
+        "c) Auf Autobahnen ohne Tempolimit."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Herr Walther sagt, die meisten tödlichen Unfälle ereignen sich auf Landstraßen, nicht auf Autobahnen.",
       "explanation_en": "Mr. Walther says most fatal accidents occur on country roads, not on highways."
     },
@@ -96,11 +96,11 @@
       "text_de": "Was schlägt Herr Walther als Alternative zum Tempolimit vor?",
       "text_en": "What does Mr. Walther propose as an alternative to a speed limit?",
       "options": [
-        "a) Ein Verbot von Autos mit hohem Verbrauch.",
-        "b) Intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen.",
+        "a) Intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen.",
+        "b) Ein Verbot von Autos mit hohem Verbrauch.",
         "c) Die vollständige Umstellung auf Elektroautos bis 2030."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Herr Walther plädiert für intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen.",
       "explanation_en": "Mr. Walther advocates for intelligent traffic management with dynamic speed limits."
     }

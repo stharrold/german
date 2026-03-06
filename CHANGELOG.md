@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **B2 exam practice content** — 65 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 20 exercises (Teil 1–4, 5 each)
+  - Lesen: 25 exercises (Teil 1–5, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 10 exercises (Teil 1–2, 5 each)
+- B2 exam PDFs (4 skill-specific PDFs in `resources/exams/b2/pdfs/`)
+- `tests/test_b2_exercises.py` — 35 parametrized tests for B2 content validation
+- Subscript digit support (U+2080–U+2089) in `scripts/make_pdfs.py` for CO₂ notation
+
 ## [2.3.0] - 2026-03-05
 
 ### Added

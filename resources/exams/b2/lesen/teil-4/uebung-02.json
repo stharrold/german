@@ -20,10 +20,10 @@
       "text_en": "How does AnnaW use online reviews?",
       "options": [
         "a) Sie liest sie nur bei teuren Produkten.",
-        "b) Sie kauft praktisch nichts mehr, ohne vorher Bewertungen zu lesen.",
-        "c) Sie schreibt selbst viele Bewertungen für andere."
+        "b) Sie schreibt selbst viele Bewertungen für andere.",
+        "c) Sie kauft praktisch nichts mehr, ohne vorher Bewertungen zu lesen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Sie kauft praktisch nichts mehr, ohne vorher Bewertungen zu lesen.",
       "explanation_en": "She practically never buys anything without reading reviews first."
     },
@@ -34,10 +34,10 @@
       "text_en": "What problem does ChristianH describe?",
       "options": [
         "a) Dass Bewertungen zu positiv ausfallen.",
-        "b) Dass Gäste mit schlechten Bewertungen drohen, um Vorteile zu erpressen.",
-        "c) Dass zu wenig Kunden Bewertungen schreiben."
+        "b) Dass zu wenig Kunden Bewertungen schreiben.",
+        "c) Dass Gäste mit schlechten Bewertungen drohen, um Vorteile zu erpressen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Manche Gäste drohen mit schlechten Bewertungen, um Rabatte oder Gratisessen zu erpressen.",
       "explanation_en": "Some guests threaten with bad reviews to extort discounts or free meals."
     },

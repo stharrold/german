@@ -33,11 +33,11 @@
       "text_de": "Was ist die berühmteste Sehenswürdigkeit?",
       "text_en": "What is the most famous attraction?",
       "options": [
-        "a) Die Festung Königstein.",
-        "b) Die Basteibrücke mit Blick auf das Elbtal.",
+        "a) Die Basteibrücke mit Blick auf das Elbtal.",
+        "b) Die Festung Königstein.",
         "c) Die historischen Straßenbahnen von Bad Schandau."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die berühmteste Sehenswürdigkeit ist die Basteibrücke.",
       "explanation_en": "The most famous attraction is the Bastei Bridge."
     },
@@ -48,10 +48,10 @@
       "text_en": "Why is the area particularly attractive for climbers?",
       "options": [
         "a) Weil es künstliche Kletterhallen gibt.",
-        "b) Weil über 1.100 Felsen mehr als 21.000 Kletterrouten bieten.",
-        "c) Weil es die einzige Kletterregion in Deutschland ist."
+        "b) Weil es die einzige Kletterregion in Deutschland ist.",
+        "c) Weil über 1.100 Felsen mehr als 21.000 Kletterrouten bieten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Über 1.100 freistehende Felsen bieten mehr als 21.000 verschiedene Kletterrouten.",
       "explanation_en": "Over 1,100 freestanding rocks offer more than 21,000 different climbing routes."
     },
@@ -62,10 +62,10 @@
       "text_en": "What is Königstein Fortress?",
       "options": [
         "a) Ein mittelalterliches Kloster.",
-        "b) Eine der größten Bergfestungen Europas.",
-        "c) Ein modernes Museum für Militärgeschichte."
+        "b) Ein modernes Museum für Militärgeschichte.",
+        "c) Eine der größten Bergfestungen Europas."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Festung Königstein ist eine der größten Bergfestungen Europas.",
       "explanation_en": "Königstein Fortress is one of the largest hilltop fortifications in Europe."
     },
@@ -76,10 +76,10 @@
       "text_en": "When is the best travel time?",
       "options": [
         "a) Von November bis März wegen der Schneelandschaft.",
-        "b) Von Mai bis Oktober, besonders im Herbst.",
-        "c) Das ganze Jahr über, da es keine Saisonunterschiede gibt."
+        "b) Das ganze Jahr über, da es keine Saisonunterschiede gibt.",
+        "c) Von Mai bis Oktober, besonders im Herbst."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die beste Reisezeit ist von Mai bis Oktober, wobei der Herbst besonders empfehlenswert ist.",
       "explanation_en": "The best travel time is from May to October, with autumn being particularly recommended."
     }

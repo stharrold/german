@@ -19,11 +19,11 @@
       "text_de": "Was kritisiert der Autor an der Integrationsdebatte?",
       "text_en": "What does the author criticize about the integration debate?",
       "options": [
-        "a) Dass zu wenig Geld für Sprachkurse ausgegeben wird.",
-        "b) Dass Sprache als Allheilmittel für Integration betrachtet wird.",
+        "a) Dass Sprache als Allheilmittel für Integration betrachtet wird.",
+        "b) Dass zu wenig Geld für Sprachkurse ausgegeben wird.",
         "c) Dass Integration kein politisches Thema mehr ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "In der Debatte wird Sprache häufig als Allheilmittel betrachtet, was der Autor als zu vereinfacht kritisiert.",
       "explanation_en": "In the debate, language is often regarded as a cure-all, which the author criticizes as too simplistic."
     },
@@ -33,11 +33,11 @@
       "text_de": "Welches konkrete Problem bei der Integration nennt der Autor?",
       "text_en": "What specific integration problem does the author mention?",
       "options": [
-        "a) Zu wenige Sprachschulen in ländlichen Gebieten.",
-        "b) Die schwierige Anerkennung ausländischer Abschlüsse trotz Sprachkenntnissen.",
+        "a) Die schwierige Anerkennung ausländischer Abschlüsse trotz Sprachkenntnissen.",
+        "b) Zu wenige Sprachschulen in ländlichen Gebieten.",
         "c) Die hohen Kosten für Deutschkurse."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die bürokratischen Hürden bei der Anerkennung ausländischer Abschlüsse sind erschreckend hoch.",
       "explanation_en": "The bureaucratic hurdles in recognizing foreign degrees remain shockingly high."
     },
@@ -62,10 +62,10 @@
       "text_en": "What structural problem does the author describe?",
       "options": [
         "a) Mangelnde Infrastruktur in ländlichen Gebieten.",
-        "b) Diskriminierung bei Wohnungs- und Arbeitssuche aufgrund ausländischer Namen.",
-        "c) Zu strenge Einwanderungsgesetze."
+        "b) Zu strenge Einwanderungsgesetze.",
+        "c) Diskriminierung bei Wohnungs- und Arbeitssuche aufgrund ausländischer Namen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Vermieter verweigern Wohnungen, und Bewerbungen mit nicht-deutschen Nachnamen führen seltener zu Vorstellungsgesprächen.",
       "explanation_en": "Landlords refuse apartments, and applications with non-German surnames lead to fewer interviews."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was ist die Schlussfolgerung des Autors?",
       "text_en": "What is the author's conclusion?",
       "options": [
-        "a) Sprachkurse sollten abgeschafft werden.",
-        "b) Sprachkurse sind notwendig, aber nur der erste Schritt.",
+        "a) Sprachkurse sind notwendig, aber nur der erste Schritt.",
+        "b) Sprachkurse sollten abgeschafft werden.",
         "c) Integration ist in Deutschland bereits gelungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sprachkurse sind notwendig, aber sie sind nur der erste Schritt auf einem langen Weg.",
       "explanation_en": "Language courses are necessary, but they are only the first step on a long road."
     }

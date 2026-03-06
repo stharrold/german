@@ -20,10 +20,10 @@
       "text_en": "What does the author criticize about the current school system?",
       "options": [
         "a) Dass es zu teuer und ineffizient ist.",
-        "b) Dass es Auswendiglernen belohnt und Kreativität bestraft.",
-        "c) Dass es zu viel Wert auf Technologie legt."
+        "b) Dass es zu viel Wert auf Technologie legt.",
+        "c) Dass es Auswendiglernen belohnt und Kreativität bestraft."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Autor kritisiert, dass das System Auswendiglernen belohnt und Kreativität bestraft.",
       "explanation_en": "The author criticizes that the system rewards memorization and punishes creativity."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was fordert der Autor konkret?",
       "text_en": "What does the author specifically demand?",
       "options": [
-        "a) Die Abschaffung von Schulen zugunsten von Onlineunterricht.",
-        "b) Projektorientiertes Arbeiten statt Frontalunterricht.",
+        "a) Projektorientiertes Arbeiten statt Frontalunterricht.",
+        "b) Die Abschaffung von Schulen zugunsten von Onlineunterricht.",
         "c) Eine Verlängerung der Schulzeit auf 13 Jahre."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Projektorientiertes Arbeiten muss den Frontalunterricht ersetzen.",
       "explanation_en": "Project-based work must replace lecture-style teaching."
     },
@@ -48,10 +48,10 @@
       "text_en": "Which countries are mentioned as role models?",
       "options": [
         "a) Schweden und Norwegen.",
-        "b) Finnland und Singapur.",
-        "c) Japan und Südkorea."
+        "b) Japan und Südkorea.",
+        "c) Finnland und Singapur."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Finnland und Singapur zeigen seit Jahren, dass solche Reformen möglich sind.",
       "explanation_en": "Finland and Singapore have shown for years that such reforms are possible."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was kritisiert der Autor am Digitalpakt?",
       "text_en": "What does the author criticize about the Digital Pact?",
       "options": [
-        "a) Dass zu wenig Geld bereitgestellt wird.",
-        "b) Dass Geld für Geräte ausgegeben wird, ohne Lehrkräfte fortzubilden.",
+        "a) Dass Geld für Geräte ausgegeben wird, ohne Lehrkräfte fortzubilden.",
+        "b) Dass zu wenig Geld bereitgestellt wird.",
         "c) Dass nur Privatschulen davon profitieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Das Geld wird häufig für Geräte ausgegeben, ohne dass Lehrkräfte angemessen fortgebildet werden.",
       "explanation_en": "The money is often spent on devices without adequately training teachers."
     },
@@ -76,10 +76,10 @@
       "text_en": "According to the author, what is the key to the education revolution?",
       "options": [
         "a) Modernste technische Ausstattung in allen Schulen.",
-        "b) Befähigte Lehrkräfte, die Technologie sinnvoll einsetzen.",
-        "c) Mehr Investitionen der Privatwirtschaft."
+        "b) Mehr Investitionen der Privatwirtschaft.",
+        "c) Befähigte Lehrkräfte, die Technologie sinnvoll einsetzen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Bildungsrevolution beginnt nicht mit Geräten, sondern mit Menschen — befähigten Lehrkräften.",
       "explanation_en": "The education revolution begins not with devices but with people — empowered teachers."
     }

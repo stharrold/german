@@ -56,10 +56,10 @@
       "text_en": "Why hasn't Ms. Berger received her desk?",
       "options": [
         "a) Weil die Lieferadresse falsch war.",
-        "b) Weil es beim Lieferanten einen Engpass gab und der Tisch nicht auf Lager ist.",
-        "c) Weil die Bestellung im System nicht registriert wurde."
+        "b) Weil die Bestellung im System nicht registriert wurde.",
+        "c) Weil es beim Lieferanten einen Engpass gab und der Tisch nicht auf Lager ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Es gab beim Lieferanten einen Engpass, und der Schreibtisch ist derzeit nicht auf Lager.",
       "explanation_en": "There was a bottleneck at the supplier, and the desk is currently out of stock."
     },
@@ -69,11 +69,11 @@
       "text_de": "Wofür entscheidet sich Frau Berger?",
       "text_en": "What does Ms. Berger decide?",
       "options": [
-        "a) Sie will den Rabatt annehmen und warten.",
-        "b) Sie möchte alternative Modelle sehen, die sofort lieferbar sind.",
+        "a) Sie möchte alternative Modelle sehen, die sofort lieferbar sind.",
+        "b) Sie will den Rabatt annehmen und warten.",
         "c) Sie will die Bestellung komplett stornieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Frau Berger bittet darum, die alternativen Modelle zu sehen, weil sie den Schreibtisch dringend braucht.",
       "explanation_en": "Ms. Berger asks to see the alternative models because she urgently needs the desk."
     },
@@ -97,11 +97,11 @@
       "text_de": "Was empfiehlt die Ärztin Herrn Becker zunächst?",
       "text_en": "What does the doctor initially recommend to Mr. Becker?",
       "options": [
-        "a) Sofort Medikamente einzunehmen.",
-        "b) Seine Ernährung umzustellen und den Lebensstil zu ändern.",
+        "a) Seine Ernährung umzustellen und den Lebensstil zu ändern.",
+        "b) Sofort Medikamente einzunehmen.",
         "c) Eine Operation durchführen zu lassen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Ärztin empfiehlt zunächst eine Ernährungsumstellung und Lebensstiländerungen für drei Monate.",
       "explanation_en": "The doctor initially recommends a dietary change and lifestyle changes for three months."
     },

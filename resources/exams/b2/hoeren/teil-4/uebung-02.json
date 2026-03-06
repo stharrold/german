@@ -40,11 +40,11 @@
       "text_de": "Für wie viel Prozent der weltweiten CO₂-Emissionen ist die Modeindustrie verantwortlich?",
       "text_en": "What percentage of global CO₂ emissions is the fashion industry responsible for?",
       "options": [
-        "a) Etwa 3 Prozent.",
-        "b) Etwa 10 Prozent.",
+        "a) Etwa 10 Prozent.",
+        "b) Etwa 3 Prozent.",
         "c) Etwa 25 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Modeindustrie ist für etwa 10 Prozent der weltweiten CO₂-Emissionen verantwortlich.",
       "explanation_en": "The fashion industry is responsible for about 10 percent of global CO₂ emissions."
     },
@@ -83,10 +83,10 @@
       "text_en": "What did France recently introduce?",
       "options": [
         "a) Ein Verbot von Kleidungsimporten aus Asien.",
-        "b) Eine Umweltabgabe auf Fast Fashion von bis zu 10 Euro pro Stück.",
-        "c) Eine Pflicht zum Recycling aller Kleidungsstücke."
+        "b) Eine Pflicht zum Recycling aller Kleidungsstücke.",
+        "c) Eine Umweltabgabe auf Fast Fashion von bis zu 10 Euro pro Stück."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Frankreich hat vor Kurzem eine Umweltabgabe auf Fast Fashion eingeführt, die bis zu 10 Euro pro Kleidungsstück betragen kann.",
       "explanation_en": "France recently introduced an environmental levy on fast fashion, which can amount to up to 10 euros per garment."
     },
@@ -96,11 +96,11 @@
       "text_de": "Was fordert die Referentin auf politischer Ebene?",
       "text_en": "What does the speaker demand on a political level?",
       "options": [
-        "a) Die Schließung aller Textilfabriken in Entwicklungsländern.",
-        "b) Ein Lieferkettengesetz, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards.",
+        "a) Ein Lieferkettengesetz, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards.",
+        "b) Die Schließung aller Textilfabriken in Entwicklungsländern.",
         "c) Ein Verbot von Online-Shopping für Kleidung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sie fordert ein Lieferkettengesetz mit wirksamen Sanktionen, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards.",
       "explanation_en": "She demands a supply chain law with effective sanctions, a tax on disposable fashion, and binding environmental standards."
     }

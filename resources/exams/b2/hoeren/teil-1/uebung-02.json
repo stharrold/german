@@ -45,11 +45,11 @@
       "text_de": "Was sagt Dr. Hoffmann über die tägliche Nutzung von KI?",
       "text_en": "What does Dr. Hoffmann say about the daily use of AI?",
       "options": [
-        "a) Die meisten Menschen nutzen KI bewusst und gezielt.",
-        "b) Die meisten Menschen nutzen KI, ohne es zu bemerken.",
+        "a) Die meisten Menschen nutzen KI, ohne es zu bemerken.",
+        "b) Die meisten Menschen nutzen KI bewusst und gezielt.",
         "c) Nur Fachleute nutzen KI regelmäßig im Alltag."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Dr. Hoffmann sagt, dass die meisten Menschen bereits täglich KI nutzen, ohne es zu wissen.",
       "explanation_en": "Dr. Hoffmann says that most people already use AI daily without knowing it."
     },
@@ -59,11 +59,11 @@
       "text_de": "Was hat sich laut Dr. Hoffmann in den letzten zwei Jahren dramatisch verändert?",
       "text_en": "What has dramatically changed in the last two years according to Dr. Hoffmann?",
       "options": [
-        "a) Die Geschwindigkeit der Computer hat sich verdoppelt.",
-        "b) Die KI kann jetzt natürliche Sprache verstehen und erzeugen.",
+        "a) Die KI kann jetzt natürliche Sprache verstehen und erzeugen.",
+        "b) Die Geschwindigkeit der Computer hat sich verdoppelt.",
         "c) Die Kosten für KI-Technologie sind stark gesunken."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Fähigkeit der KI, natürliche Sprache zu verstehen und zu erzeugen, hat sich dramatisch verändert.",
       "explanation_en": "AI's ability to understand and generate natural language has dramatically changed."
     },
@@ -74,10 +74,10 @@
       "text_en": "What percentage of today's activities could be automated within the coming years?",
       "options": [
         "a) Etwa 5 Prozent.",
-        "b) Etwa 15 Prozent.",
-        "c) Etwa 30 Prozent."
+        "b) Etwa 30 Prozent.",
+        "c) Etwa 15 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Prognosen deuten darauf hin, dass innerhalb der nächsten Jahre etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten.",
       "explanation_en": "Forecasts indicate that within the coming years, about 15 percent of today's activities could be automated."
     },
@@ -101,11 +101,11 @@
       "text_de": "Welche Berufe werden laut Dr. Hoffmann an Bedeutung gewinnen?",
       "text_en": "Which professions will gain importance according to Dr. Hoffmann?",
       "options": [
-        "a) Berufe in der Datenverarbeitung und Buchhaltung.",
-        "b) Berufe, die Kreativität und emotionale Intelligenz erfordern.",
+        "a) Berufe, die Kreativität und emotionale Intelligenz erfordern.",
+        "b) Berufe in der Datenverarbeitung und Buchhaltung.",
         "c) Berufe in der einfachen Verwaltung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Berufe, die Kreativität, emotionale Intelligenz oder komplexe Problemlösung erfordern, werden an Bedeutung gewinnen.",
       "explanation_en": "Professions that require creativity, emotional intelligence, or complex problem-solving will gain importance."
     }

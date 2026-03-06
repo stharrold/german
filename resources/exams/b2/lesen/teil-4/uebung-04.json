@@ -33,11 +33,11 @@
       "text_de": "Was schätzt OliverK besonders an der Großstadt?",
       "text_en": "What does OliverK particularly appreciate about the big city?",
       "options": [
-        "a) Die niedrigen Lebenshaltungskosten.",
-        "b) Das kulturelle Angebot und die internationale Vielfalt.",
+        "a) Das kulturelle Angebot und die internationale Vielfalt.",
+        "b) Die niedrigen Lebenshaltungskosten.",
         "c) Die saubere Luft und großen Parks."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Das kulturelle Angebot ist unschlagbar, und man trifft Menschen aus aller Welt.",
       "explanation_en": "The cultural offerings are unbeatable, and you meet people from all over the world."
     },
@@ -62,10 +62,10 @@
       "text_en": "What is PeterM's main argument?",
       "options": [
         "a) Dass das Land grundsätzlich besser ist als die Stadt.",
-        "b) Dass die Lebensphase bestimmt, wo man am besten lebt.",
-        "c) Dass Kinder immer auf dem Land aufwachsen sollten."
+        "b) Dass Kinder immer auf dem Land aufwachsen sollten.",
+        "c) Dass die Lebensphase bestimmt, wo man am besten lebt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Das Entscheidende ist die Lebensphase — es gibt keine pauschale Antwort.",
       "explanation_en": "What matters is the life phase — there is no one-size-fits-all answer."
     },
@@ -75,11 +75,11 @@
       "text_de": "Welche Aussage trifft auf alle Forumsteilnehmer zu?",
       "text_en": "Which statement applies to all forum participants?",
       "options": [
-        "a) Alle sind sich einig, dass die Großstadt besser ist.",
-        "b) Jeder hat unterschiedliche Prioritäten und Erfahrungen.",
+        "a) Jeder hat unterschiedliche Prioritäten und Erfahrungen.",
+        "b) Alle sind sich einig, dass die Großstadt besser ist.",
         "c) Alle planen einen Umzug in nächster Zeit."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Alle vier Beiträge zeigen unterschiedliche Perspektiven basierend auf persönlichen Prioritäten.",
       "explanation_en": "All four contributions show different perspectives based on personal priorities."
     }

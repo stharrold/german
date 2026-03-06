@@ -40,11 +40,11 @@
       "text_de": "Wie viele Stunden am Tag steht ein durchschnittliches Auto laut Dr. Hagen still?",
       "text_en": "How many hours a day does an average car stand still according to Dr. Hagen?",
       "options": [
-        "a) 18 Stunden.",
-        "b) 23 Stunden.",
+        "a) 23 Stunden.",
+        "b) 18 Stunden.",
         "c) 20 Stunden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Ein durchschnittliches Auto steht 23 Stunden am Tag still und nimmt permanent öffentlichen Raum ein.",
       "explanation_en": "An average car stands still 23 hours a day while permanently occupying public space."
     },
@@ -54,11 +54,11 @@
       "text_de": "Wie hoch ist der Radverkehrsanteil an Arbeitswegen in Kopenhagen?",
       "text_en": "What is the share of bicycle traffic for commutes in Copenhagen?",
       "options": [
-        "a) 35 Prozent.",
+        "a) 62 Prozent.",
         "b) 48 Prozent.",
-        "c) 62 Prozent."
+        "c) 35 Prozent."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Kopenhagen hat den Anteil des Radverkehrs auf 62 Prozent aller Arbeitswege gesteigert.",
       "explanation_en": "Copenhagen has increased the share of bicycle traffic to 62 percent of all commutes."
     },
@@ -82,11 +82,11 @@
       "text_de": "Was kritisiert Dr. Hagen an der bisherigen deutschen Verkehrsplanung?",
       "text_en": "What does Dr. Hagen criticize about previous German transportation planning?",
       "options": [
-        "a) Dass zu viel in öffentliche Verkehrsmittel investiert wird.",
-        "b) Dass der Verkehr bisher vom Auto her gedacht wird, mit breiteren Straßen und subventionierten Parkplätzen.",
+        "a) Dass der Verkehr bisher vom Auto her gedacht wird, mit breiteren Straßen und subventionierten Parkplätzen.",
+        "b) Dass zu viel in öffentliche Verkehrsmittel investiert wird.",
         "c) Dass der Radverkehr zu stark gefördert wird."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er kritisiert, dass Verkehr bisher vom Auto her gedacht wird — Straßen werden breiter gebaut und Parkplätze subventioniert.",
       "explanation_en": "He criticizes that traffic has been thought of from the car's perspective — roads are built wider and parking spaces are subsidized."
     },
@@ -96,11 +96,11 @@
       "text_de": "Was fehlt laut Dr. Hagen für die Verkehrswende?",
       "text_en": "What is missing for the transportation transition according to Dr. Hagen?",
       "options": [
-        "a) Die nötigen Technologien und Konzepte.",
-        "b) Der politische Wille.",
+        "a) Der politische Wille.",
+        "b) Die nötigen Technologien und Konzepte.",
         "c) Das Interesse der Bürger."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Technologien und Konzepte existieren bereits, aber es fehlt der politische Wille.",
       "explanation_en": "The technologies and concepts already exist, but the political will is missing."
     }

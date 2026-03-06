@@ -19,11 +19,11 @@
       "text_de": "Was hat die Verhaltensökonomie infrage gestellt?",
       "text_en": "What has behavioral economics challenged?",
       "options": [
-        "a) Dass Märkte funktionieren.",
-        "b) Dass Menschen rational entscheiden und ihren Nutzen maximieren.",
+        "a) Dass Menschen rational entscheiden und ihren Nutzen maximieren.",
+        "b) Dass Märkte funktionieren.",
         "c) Dass wirtschaftliches Wachstum möglich ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Verhaltensökonomie hat das Modell des rational entscheidenden Menschen grundlegend infrage gestellt.",
       "explanation_en": "Behavioral economics has fundamentally challenged the model of the rationally deciding human."
     },
@@ -62,10 +62,10 @@
       "text_en": "What is an example of successful nudging?",
       "options": [
         "a) Höhere Steuern auf ungesunde Lebensmittel.",
-        "b) Die Umstellung der Organspende auf eine Widerspruchslösung.",
-        "c) Verbote von Werbung für Tabakprodukte."
+        "b) Verbote von Werbung für Tabakprodukte.",
+        "c) Die Umstellung der Organspende auf eine Widerspruchslösung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Umstellung auf eine Widerspruchslösung erhöhte die Spenderquote drastisch.",
       "explanation_en": "Switching to an opt-out system drastically increased the donor rate."
     },

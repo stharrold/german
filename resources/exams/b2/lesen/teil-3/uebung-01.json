@@ -20,10 +20,10 @@
       "text_en": "How long did the study last?",
       "options": [
         "a) Fünf Jahre.",
-        "b) Zwölf Jahre.",
-        "c) Zwanzig Jahre."
+        "b) Zwanzig Jahre.",
+        "c) Zwölf Jahre."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Teilnehmer wurden über einen Zeitraum von zwölf Jahren begleitet.",
       "explanation_en": "The participants were followed over a period of twelve years."
     },
@@ -48,10 +48,10 @@
       "text_en": "What is a surprising result of the study?",
       "options": [
         "a) Dass nur junge Teilnehmer profitierten.",
-        "b) Dass auch übergewichtige Personen von der Ernährung profitierten.",
-        "c) Dass die Ernährung keine Auswirkungen auf die Herzgesundheit hatte."
+        "b) Dass die Ernährung keine Auswirkungen auf die Herzgesundheit hatte.",
+        "c) Dass auch übergewichtige Personen von der Ernährung profitierten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die positiven Effekte traten unabhängig vom Körpergewicht auf; auch Übergewichtige profitierten.",
       "explanation_en": "The positive effects occurred regardless of body weight; even overweight individuals benefited."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was betonen die Forscher bezüglich der Ernährung?",
       "text_en": "What do the researchers emphasize regarding the diet?",
       "options": [
-        "a) Dass sie nur in Kombination mit Medikamenten wirkt.",
-        "b) Dass sie in einen gesamten Lebensstil eingebettet sein muss.",
+        "a) Dass sie in einen gesamten Lebensstil eingebettet sein muss.",
+        "b) Dass sie nur in Kombination mit Medikamenten wirkt.",
         "c) Dass sie nur für Menschen aus dem Mittelmeerraum geeignet ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Ernährung ist kein isoliertes Phänomen, sondern muss in einen Lebensstil eingebettet sein.",
       "explanation_en": "The diet is not an isolated phenomenon but must be embedded in a lifestyle."
     },

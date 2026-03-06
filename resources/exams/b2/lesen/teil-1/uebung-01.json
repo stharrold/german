@@ -34,10 +34,10 @@
       "text_en": "What does Professor Weiß criticize?",
       "options": [
         "a) Dass KI-Systeme zu langsam arbeiten.",
-        "b) Dass Nutzer Bequemlichkeit über Datenschutz stellen.",
-        "c) Dass die Universität zu wenig forscht."
+        "b) Dass die Universität zu wenig forscht.",
+        "c) Dass Nutzer Bequemlichkeit über Datenschutz stellen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Sie betont, dass die Bequemlichkeit häufig über die Vorsicht siegt.",
       "explanation_en": "She emphasizes that convenience often wins over caution."
     },

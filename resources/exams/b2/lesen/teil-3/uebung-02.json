@@ -20,10 +20,10 @@
       "text_en": "What percentage of electricity comes from renewable sources?",
       "options": [
         "a) 27 Prozent.",
-        "b) 40 Prozent.",
-        "c) 52 Prozent."
+        "b) 52 Prozent.",
+        "c) 40 Prozent."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "52 Prozent des Bruttostromverbrauchs stammten aus erneuerbaren Quellen.",
       "explanation_en": "52 percent of gross electricity consumption came from renewable sources."
     },
@@ -34,10 +34,10 @@
       "text_en": "Which renewable energy source has the largest share?",
       "options": [
         "a) Solarenergie.",
-        "b) Windkraft.",
-        "c) Biomasse."
+        "b) Biomasse.",
+        "c) Windkraft."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Windkraft lieferte den größten Anteil mit 27 Prozent.",
       "explanation_en": "Wind power provided the largest share at 27 percent."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was ist das Hauptproblem beim Netzausbau?",
       "text_en": "What is the main problem with grid expansion?",
       "options": [
-        "a) Es gibt zu wenig Fachkräfte für den Bau.",
-        "b) Es fehlen rund 4.000 Kilometer Übertragungsleitungen.",
+        "a) Es fehlen rund 4.000 Kilometer Übertragungsleitungen.",
+        "b) Es gibt zu wenig Fachkräfte für den Bau.",
         "c) Die Technologie für Fernleitungen existiert noch nicht."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Es fehlen rund 4.000 Kilometer Übertragungsleitungen für den Nord-Süd-Transport.",
       "explanation_en": "Approximately 4,000 kilometers of transmission lines are missing for north-south transport."
     },

@@ -19,11 +19,11 @@
       "text_de": "Was kritisiert der Autor an der gängigen Darstellung der Digitalisierung?",
       "text_en": "What does the author criticize about the common portrayal of digitalization?",
       "options": [
-        "a) Dass sie zu positiv dargestellt wird.",
-        "b) Dass sie als unvermeidliche Naturgewalt dargestellt wird, der man sich fügen muss.",
+        "a) Dass sie als unvermeidliche Naturgewalt dargestellt wird, der man sich fügen muss.",
+        "b) Dass sie zu positiv dargestellt wird.",
         "c) Dass sie von den Medien ignoriert wird."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die digitale Transformation wird oft als unvermeidliche Naturgewalt dargestellt, der wir uns widerstandslos fügen müssen.",
       "explanation_en": "Digital transformation is often portrayed as an inevitable force of nature to which we must submit without resistance."
     },
@@ -34,10 +34,10 @@
       "text_en": "Which two extreme positions does the author describe?",
       "options": [
         "a) Junge gegen alte Generation.",
-        "b) Technikoptimisten, die alles begrüßen, und Technikkritiker, die nur Risiken sehen.",
-        "c) Unternehmer gegen Arbeitnehmer."
+        "b) Unternehmer gegen Arbeitnehmer.",
+        "c) Technikoptimisten, die alles begrüßen, und Technikkritiker, die nur Risiken sehen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Technikoptimisten preisen jede Innovation, Technikkritiker warnen vor Risiken — beide greifen zu kurz.",
       "explanation_en": "Technology optimists praise every innovation, technology critics warn of risks — both fall short."
     },
@@ -48,10 +48,10 @@
       "text_en": "What does the author say about automation?",
       "options": [
         "a) Sie vernichtet nur Arbeitsplätze und schafft keine neuen.",
-        "b) Sie vernichtet bestimmte Arbeitsplätze, schafft aber auch neue.",
-        "c) Sie hat keinen Einfluss auf den Arbeitsmarkt."
+        "b) Sie hat keinen Einfluss auf den Arbeitsmarkt.",
+        "c) Sie vernichtet bestimmte Arbeitsplätze, schafft aber auch neue."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Automatisierung vernichtet bestimmte Arbeitsplätze, schafft aber gleichzeitig neue.",
       "explanation_en": "Automation destroys certain jobs but simultaneously creates new ones."
     },
@@ -62,10 +62,10 @@
       "text_en": "Who should participate in the debate according to the author?",
       "options": [
         "a) Nur Experten und Wissenschaftler.",
-        "b) Bürger, Politiker, Wissenschaftler und Unternehmer gleichberechtigt.",
-        "c) Vor allem die Technologieunternehmen."
+        "b) Vor allem die Technologieunternehmen.",
+        "c) Bürger, Politiker, Wissenschaftler und Unternehmer gleichberechtigt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Fragen erfordern eine breite demokratische Debatte mit gleichberechtigter Teilnahme aller Gruppen.",
       "explanation_en": "The questions require a broad democratic debate with equal participation of all groups."
     },
@@ -76,10 +76,10 @@
       "text_en": "What is the author's central thesis?",
       "options": [
         "a) Technologie muss stärker reguliert werden.",
-        "b) Technologie ist kein Schicksal, sondern gestaltbar.",
-        "c) Technologie sollte nur von Demokratien entwickelt werden."
+        "b) Technologie sollte nur von Demokratien entwickelt werden.",
+        "c) Technologie ist kein Schicksal, sondern gestaltbar."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Technologie ist kein Schicksal — sie ist das, was wir daraus machen.",
       "explanation_en": "Technology is not destiny — it is what we make of it."
     }

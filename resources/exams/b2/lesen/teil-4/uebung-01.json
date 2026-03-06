@@ -33,11 +33,11 @@
       "text_de": "Was kritisiert ThomasB?",
       "text_en": "What does ThomasB criticize?",
       "options": [
-        "a) Dass Biofleisch zu teuer ist.",
-        "b) Dass aus dem Veganismus ein moralischer Absolutismus wird.",
+        "a) Dass aus dem Veganismus ein moralischer Absolutismus wird.",
+        "b) Dass Biofleisch zu teuer ist.",
         "c) Dass die Regierung Fleisch subventioniert."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er findet es problematisch, wenn aus dem Veganismus ein moralischer Absolutismus wird.",
       "explanation_en": "He finds it problematic when veganism becomes moral absolutism."
     },
@@ -48,10 +48,10 @@
       "text_en": "For which groups does SarahL recommend caution?",
       "options": [
         "a) Bei Sportlern und älteren Menschen.",
-        "b) Bei Kindern und Schwangeren.",
-        "c) Bei Menschen mit Allergien."
+        "b) Bei Menschen mit Allergien.",
+        "c) Bei Kindern und Schwangeren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Bei Kindern und Schwangeren sollte man vorsichtiger sein und ärztlichen Rat einholen.",
       "explanation_en": "One should be more cautious with children and pregnant women and seek medical advice."
     },
@@ -62,10 +62,10 @@
       "text_en": "What environmental argument does SarahL mention?",
       "options": [
         "a) Dass Fleischproduktion 50 Prozent des Wassers verbraucht.",
-        "b) Dass Tierhaltung 14,5 Prozent der globalen Treibhausgasemissionen verursacht.",
-        "c) Dass Wälder für den Futteranbau abgeholzt werden."
+        "b) Dass Wälder für den Futteranbau abgeholzt werden.",
+        "c) Dass Tierhaltung 14,5 Prozent der globalen Treibhausgasemissionen verursacht."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Tierhaltung verursacht 14,5 Prozent der globalen Treibhausgasemissionen.",
       "explanation_en": "Animal husbandry causes 14.5 percent of global greenhouse gas emissions."
     },
@@ -76,10 +76,10 @@
       "text_en": "What is MarkusR's main criticism?",
       "options": [
         "a) Dass veganes Essen schlecht schmeckt.",
-        "b) Dass vegane Fertigprodukte oft genauso ungesund sind wie Fast Food.",
-        "c) Dass zu wenig vegane Produkte im Supermarkt angeboten werden."
+        "b) Dass zu wenig vegane Produkte im Supermarkt angeboten werden.",
+        "c) Dass vegane Fertigprodukte oft genauso ungesund sind wie Fast Food."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Vegane Fertigprodukte sind oft genauso ungesund wie konventionelles Fast Food.",
       "explanation_en": "Vegan convenience products are often just as unhealthy as conventional fast food."
     }

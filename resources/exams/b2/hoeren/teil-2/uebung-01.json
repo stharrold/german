@@ -60,10 +60,10 @@
       "text_en": "What is Mr. Brandt's main criticism of mandatory full-day schools?",
       "options": [
         "a) Dass Ganztagsschulen generell schlechte Ergebnisse liefern.",
-        "b) Dass Eltern das Recht haben, über die Erziehung ihrer Kinder zu entscheiden.",
-        "c) Dass Kinder im Ausland bessere Leistungen ohne Ganztagsschulen erbringen."
+        "b) Dass Kinder im Ausland bessere Leistungen ohne Ganztagsschulen erbringen.",
+        "c) Dass Eltern das Recht haben, über die Erziehung ihrer Kinder zu entscheiden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Herr Brandt betont, dass Eltern das Recht haben, über die Erziehung ihrer Kinder zu entscheiden.",
       "explanation_en": "Mr. Brandt emphasizes that parents have the right to decide about their children's upbringing."
     },
@@ -74,10 +74,10 @@
       "text_en": "On what point does Ms. Neumann agree with Mr. Brandt?",
       "options": [
         "a) Dass die Ganztagsschulpflicht abgelehnt werden sollte.",
-        "b) Dass massiv in Personal und Infrastruktur investiert werden muss.",
-        "c) Dass Kinder zu viel Freizeit haben."
+        "b) Dass Kinder zu viel Freizeit haben.",
+        "c) Dass massiv in Personal und Infrastruktur investiert werden muss."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Frau Neumann stimmt zu, dass massiv in Personal und Infrastruktur investiert werden muss.",
       "explanation_en": "Ms. Neumann agrees that massive investment in staff and infrastructure is needed."
     },
@@ -87,11 +87,11 @@
       "text_de": "Welche Alternative schlägt Herr Brandt vor?",
       "text_en": "What alternative does Mr. Brandt suggest?",
       "options": [
-        "a) Gutscheine für außerschulische Aktivitäten und freiwillige Ganztagsangebote.",
+        "a) Privatschulen für benachteiligte Kinder.",
         "b) Kürzere Schulzeiten am Vormittag.",
-        "c) Privatschulen für benachteiligte Kinder."
+        "c) Gutscheine für außerschulische Aktivitäten und freiwillige Ganztagsangebote."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Herr Brandt schlägt Gutscheine für außerschulische Aktivitäten und den Ausbau freiwilliger Ganztagsangebote vor.",
       "explanation_en": "Mr. Brandt suggests vouchers for extracurricular activities and expanding voluntary full-day offerings."
     },
@@ -102,10 +102,10 @@
       "text_en": "What does Mr. Brandt fear regarding constant supervision?",
       "options": [
         "a) Dass die Kinder zu abhängig von Erwachsenen werden.",
-        "b) Dass es zu Überforderung führen kann und die Kindheit durchorganisiert wird.",
-        "c) Dass die Eltern den Kontakt zu ihren Kindern verlieren."
+        "b) Dass die Eltern den Kontakt zu ihren Kindern verlieren.",
+        "c) Dass es zu Überforderung führen kann und die Kindheit durchorganisiert wird."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Er befürchtet, dass ständige Betreuung zu Überforderung führen kann und die Kindheit nicht durchorganisiert werden sollte.",
       "explanation_en": "He fears that constant supervision can lead to overwhelm and that childhood should not be over-organized."
     }

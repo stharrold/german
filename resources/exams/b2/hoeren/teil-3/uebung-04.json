@@ -60,11 +60,11 @@
       "text_de": "Was empfiehlt die Versicherungsberaterin Herrn Jung?",
       "text_en": "What does the insurance consultant recommend to Mr. Jung?",
       "options": [
-        "a) Alle Versicherungen zu kündigen und neue abzuschließen.",
-        "b) Die Unfallversicherung zu kündigen und die Berufsunfähigkeitsversicherung aufzustocken.",
+        "a) Die Unfallversicherung zu kündigen und die Berufsunfähigkeitsversicherung aufzustocken.",
+        "b) Alle Versicherungen zu kündigen und neue abzuschließen.",
         "c) Eine zusätzliche Lebensversicherung abzuschließen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sie empfiehlt, die Unfallversicherung zu kündigen und die Berufsunfähigkeitsversicherung aufzustocken, um 80 Euro monatlich zu sparen.",
       "explanation_en": "She recommends canceling the accident insurance and upgrading the disability insurance to save 80 euros monthly."
     },
@@ -74,11 +74,11 @@
       "text_de": "Welches Problem hat Frau Stein mit ihrer Reisebuchung?",
       "text_en": "What problem does Ms. Stein have with her travel booking?",
       "options": [
-        "a) Das Hotel wurde storniert.",
-        "b) Die Flugzeit wurde auf 14 Uhr verschoben, wodurch ein Urlaubstag verloren geht.",
+        "a) Die Flugzeit wurde auf 14 Uhr verschoben, wodurch ein Urlaubstag verloren geht.",
+        "b) Das Hotel wurde storniert.",
         "c) Die Reise wurde komplett abgesagt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Der Veranstalter hat die Flugzeit von 8 Uhr auf 14 Uhr geändert, wodurch der erste Urlaubstag praktisch verloren geht.",
       "explanation_en": "The tour operator changed the flight time from 8 AM to 2 PM, which practically wastes the first vacation day."
     },
@@ -102,11 +102,11 @@
       "text_de": "Warum ist die Mieterhöhung laut der Anwältin nicht rechtmäßig?",
       "text_en": "Why is the rent increase not lawful according to the lawyer?",
       "options": [
-        "a) Weil der Mietvertrag abgelaufen ist.",
-        "b) Weil die Renovierung des Treppenhauses Instandhaltung ist und nicht als Modernisierung umgelegt werden darf.",
+        "a) Weil die Renovierung des Treppenhauses Instandhaltung ist und nicht als Modernisierung umgelegt werden darf.",
+        "b) Weil der Mietvertrag abgelaufen ist.",
         "c) Weil der Vermieter die Mieter nicht rechtzeitig informiert hat."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Renovierung des Treppenhauses zählt als Instandhaltung, nicht als Modernisierung, und darf nicht auf die Mieter umgelegt werden.",
       "explanation_en": "The renovation of the staircase counts as maintenance, not modernization, and may not be passed on to tenants."
     },
@@ -116,11 +116,11 @@
       "text_de": "Wie lange dauert die Klärung voraussichtlich?",
       "text_en": "How long will the resolution likely take?",
       "options": [
-        "a) Etwa eine Woche.",
-        "b) Etwa vier bis sechs Wochen.",
+        "a) Etwa vier bis sechs Wochen.",
+        "b) Etwa eine Woche.",
         "c) Etwa sechs bis zwölf Monate."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Anwältin rechnet mit etwa vier bis sechs Wochen für die Klärung.",
       "explanation_en": "The lawyer expects about four to six weeks for the resolution."
     }

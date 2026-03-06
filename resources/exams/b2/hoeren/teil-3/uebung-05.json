@@ -51,10 +51,10 @@
       "text_en": "What compromise does Ms. Richter propose for the website project?",
       "options": [
         "a) Einen billigeren Anbieter zu beauftragen.",
-        "b) Das Projekt in zwei Phasen aufzuteilen und zunächst nur die Kernfunktionen umzusetzen.",
-        "c) Auf alle Zusatzfunktionen komplett zu verzichten."
+        "b) Auf alle Zusatzfunktionen komplett zu verzichten.",
+        "c) Das Projekt in zwei Phasen aufzuteilen und zunächst nur die Kernfunktionen umzusetzen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Sie schlägt vor, das Projekt in zwei Phasen aufzuteilen: erst die Kernfunktionen, später Online-Shop und mehrsprachige Version.",
       "explanation_en": "She proposes splitting the project into two phases: first the core features, later the online shop and multilingual version."
     },
@@ -64,11 +64,11 @@
       "text_de": "Warum hat sich Herr Müllers Leistung verschlechtert?",
       "text_en": "Why has Mr. Müller's performance declined?",
       "options": [
-        "a) Weil er einen neuen Job sucht.",
-        "b) Weil er seine schwer erkrankte Mutter pflegt.",
+        "a) Weil er seine schwer erkrankte Mutter pflegt.",
+        "b) Weil er einen neuen Job sucht.",
         "c) Weil er mit seinem Gehalt unzufrieden ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Seine Mutter ist schwer erkrankt, und er pflegt sie nebenbei, was ihn viel Kraft kostet.",
       "explanation_en": "His mother has become seriously ill, and he cares for her on the side, which costs him a lot of energy."
     },
@@ -93,10 +93,10 @@
       "text_en": "What was the main problem at the birthday celebration in the restaurant?",
       "options": [
         "a) Das Restaurant war geschlossen.",
-        "b) Der reservierte separate Raum war anderweitig vergeben worden.",
-        "c) Die Gäste mussten draußen sitzen."
+        "b) Die Gäste mussten draußen sitzen.",
+        "c) Der reservierte separate Raum war anderweitig vergeben worden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der ausdrücklich reservierte separate Raum war anderweitig vergeben worden, und sie mussten im allgemeinen Gastraum sitzen.",
       "explanation_en": "The explicitly reserved separate room had been given to someone else, and they had to sit in the general dining area."
     },
@@ -106,11 +106,11 @@
       "text_de": "Wie entschädigt der Restaurantleiter die Kundin?",
       "text_en": "How does the restaurant manager compensate the customer?",
       "options": [
-        "a) Mit einer Erstattung von 20 Prozent der Rechnung.",
-        "b) Mit 50 Prozent Rabatt auf die Rechnung und einem kostenlosen Abendessen.",
+        "a) Mit 50 Prozent Rabatt auf die Rechnung und einem kostenlosen Abendessen.",
+        "b) Mit einer Erstattung von 20 Prozent der Rechnung.",
         "c) Mit einem kostenlosen Dessert für alle Gäste."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er reduziert die Rechnung um 50 Prozent und lädt zu einem Abendessen auf Kosten des Hauses ein.",
       "explanation_en": "He reduces the bill by 50 percent and invites them to a dinner on the house."
     }

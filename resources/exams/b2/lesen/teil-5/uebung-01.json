@@ -20,10 +20,10 @@
       "text_en": "What does the Dunning-Kruger effect state?",
       "options": [
         "a) Dass alle Menschen ihre Fähigkeiten überschätzen.",
-        "b) Dass Inkompetente sich überschätzen und Experten sich unterschätzen.",
-        "c) Dass Experten immer recht haben."
+        "b) Dass Experten immer recht haben.",
+        "c) Dass Inkompetente sich überschätzen und Experten sich unterschätzen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Menschen mit geringen Fähigkeiten überschätzen sich, während Experten sich eher unterschätzen.",
       "explanation_en": "People with low abilities overestimate themselves, while experts tend to underestimate themselves."
     },
@@ -33,11 +33,11 @@
       "text_de": "Warum überschätzen sich Anfänger?",
       "text_en": "Why do beginners overestimate themselves?",
       "options": [
-        "a) Weil sie mehr Selbstvertrauen haben als Experten.",
-        "b) Weil ihnen die metakognitive Fähigkeit fehlt, ihr Unwissen zu erkennen.",
+        "a) Weil ihnen die metakognitive Fähigkeit fehlt, ihr Unwissen zu erkennen.",
+        "b) Weil sie mehr Selbstvertrauen haben als Experten.",
         "c) Weil sie von anderen zu viel Lob bekommen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Ihnen fehlt nicht nur das Wissen, sondern auch die metakognitive Fähigkeit zu erkennen, wie wenig sie wissen.",
       "explanation_en": "They lack not only knowledge but also the metacognitive ability to recognize how little they know."
     },
@@ -48,10 +48,10 @@
       "text_en": "What example is used in the text?",
       "options": [
         "a) Ein Student, der eine Prüfung unterschätzt.",
-        "b) Ein Schachanfänger, der die Züge eines Großmeisters nicht einschätzen kann.",
-        "c) Ein Sportler, der seine Leistung falsch bewertet."
+        "b) Ein Sportler, der seine Leistung falsch bewertet.",
+        "c) Ein Schachanfänger, der die Züge eines Großmeisters nicht einschätzen kann."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Ein Anfänger im Schachspiel kann die Raffinesse eines Großmeisterzugs nicht wahrnehmen.",
       "explanation_en": "A beginner in chess cannot perceive the sophistication of a grandmaster's move."
     },
@@ -62,10 +62,10 @@
       "text_en": "In which areas is self-overestimation particularly strong?",
       "options": [
         "a) In Mathematik und Programmieren.",
-        "b) In Bereichen ohne objektive Rückmeldung wie Kommunikationsfähigkeit.",
-        "c) In körperlichen Aktivitäten wie Sport."
+        "b) In körperlichen Aktivitäten wie Sport.",
+        "c) In Bereichen ohne objektive Rückmeldung wie Kommunikationsfähigkeit."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Selbstüberschätzung ist besonders in Bereichen ausgeprägt, in denen objektive Rückmeldung fehlt.",
       "explanation_en": "Self-overestimation is particularly pronounced in areas where objective feedback is lacking."
     },

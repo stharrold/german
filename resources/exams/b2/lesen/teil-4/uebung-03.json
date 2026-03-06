@@ -75,11 +75,11 @@
       "text_de": "Warum ist StefanG seinen Eltern heute dankbar?",
       "text_en": "Why is StefanG grateful to his parents today?",
       "options": [
-        "a) Weil er durch Schwimmen eine Profikarriere gemacht hat.",
-        "b) Weil Schwimmen ihm vermutlich einmal das Leben gerettet hat.",
+        "a) Weil Schwimmen ihm vermutlich einmal das Leben gerettet hat.",
+        "b) Weil er durch Schwimmen eine Profikarriere gemacht hat.",
         "c) Weil er dadurch viele Freunde gefunden hat."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Schwimmen hat ihm vermutlich einmal das Leben gerettet, als er in einen Fluss gefallen ist.",
       "explanation_en": "Swimming probably saved his life once when he fell into a river."
     }

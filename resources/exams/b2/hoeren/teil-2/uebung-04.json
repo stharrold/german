@@ -40,11 +40,11 @@
       "text_de": "Was hat die Umfrage unter den Klienten von Frau Kern ergeben?",
       "text_en": "What did the survey among Ms. Kern's clients reveal?",
       "options": [
-        "a) Die meisten Angestellten nutzen flexible Arbeitszeiten effektiv.",
-        "b) 68 Prozent beantworten auch nach Feierabend geschäftliche E-Mails.",
+        "a) 68 Prozent beantworten auch nach Feierabend geschäftliche E-Mails.",
+        "b) Die meisten Angestellten nutzen flexible Arbeitszeiten effektiv.",
         "c) Die Mehrheit lehnt Homeoffice ab."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "68 Prozent der Angestellten beantworten auch nach Feierabend regelmäßig geschäftliche E-Mails.",
       "explanation_en": "68 percent of employees regularly answer work emails even after hours."
     },
@@ -55,10 +55,10 @@
       "text_en": "By what percentage have burnout cases increased according to Dr. Schreiber?",
       "options": [
         "a) Um 20 Prozent.",
-        "b) Um 40 Prozent.",
-        "c) Um 60 Prozent."
+        "b) Um 60 Prozent.",
+        "c) Um 40 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Burnout-Fälle sind in den letzten fünf Jahren um 40 Prozent gestiegen.",
       "explanation_en": "Burnout cases have increased by 40 percent in the last five years."
     },
@@ -69,10 +69,10 @@
       "text_en": "What distinguishes the work culture in Scandinavia from that in Germany?",
       "options": [
         "a) In Skandinavien wird deutlich mehr gearbeitet als in Deutschland.",
-        "b) In Skandinavien verlassen Angestellte pünktlich das Büro, ohne als faul zu gelten.",
-        "c) In Skandinavien gibt es keine flexiblen Arbeitszeiten."
+        "b) In Skandinavien gibt es keine flexiblen Arbeitszeiten.",
+        "c) In Skandinavien verlassen Angestellte pünktlich das Büro, ohne als faul zu gelten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "In Skandinavien verlassen die meisten Angestellten pünktlich um 16 Uhr das Büro, und das gilt nicht als Faulheit.",
       "explanation_en": "In Scandinavia, most employees leave the office punctually at 4 PM, and that is not perceived as laziness."
     },
@@ -83,10 +83,10 @@
       "text_en": "What do the initial results of the four-day week show?",
       "options": [
         "a) Die Produktivität sinkt erheblich.",
-        "b) Die Produktivität bleibt gleich oder steigt, die Zufriedenheit nimmt zu.",
-        "c) Die Mitarbeiter wollen wieder zur Fünf-Tage-Woche zurück."
+        "b) Die Mitarbeiter wollen wieder zur Fünf-Tage-Woche zurück.",
+        "c) Die Produktivität bleibt gleich oder steigt, die Zufriedenheit nimmt zu."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Produktivität bleibt gleich oder steigt sogar, während die Zufriedenheit der Mitarbeiter deutlich zunimmt.",
       "explanation_en": "Productivity remains the same or even increases, while employee satisfaction increases significantly."
     },
@@ -96,11 +96,11 @@
       "text_de": "Was empfiehlt Dr. Schreiber seinen Patienten?",
       "text_en": "What does Dr. Schreiber recommend to his patients?",
       "options": [
-        "a) Den Job zu wechseln und weniger zu verdienen.",
-        "b) Bewusst Grenzen zu setzen, zum Beispiel keine E-Mails nach 19 Uhr.",
+        "a) Bewusst Grenzen zu setzen, zum Beispiel keine E-Mails nach 19 Uhr.",
+        "b) Den Job zu wechseln und weniger zu verdienen.",
         "c) Möglichst viele Überstunden zu machen, um schneller voranzukommen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Er empfiehlt, bewusst Grenzen zu setzen: keine E-Mails nach 19 Uhr, mindestens ein berufsfremdes Hobby und regelmäßige Bewegung.",
       "explanation_en": "He recommends consciously setting boundaries: no emails after 7 PM, at least one non-work hobby, and regular exercise."
     }

@@ -54,11 +54,11 @@
       "text_de": "An wie viel Prozent des Stoffes erinnerte sich die schlafdefizitäre Gruppe?",
       "text_en": "What percentage of the material did the sleep-deprived group remember?",
       "options": [
-        "a) An 40 Prozent.",
+        "a) An 85 Prozent.",
         "b) An 60 Prozent.",
-        "c) An 85 Prozent."
+        "c) An 40 Prozent."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die schlafdefizitäre Gruppe erinnerte sich nur an 40 Prozent des Stoffes, verglichen mit 85 Prozent bei der ausgeschlafenen Gruppe.",
       "explanation_en": "The sleep-deprived group remembered only 40 percent of the material, compared to 85 percent in the well-rested group."
     },
@@ -68,11 +68,11 @@
       "text_de": "Warum ist das Durchlernen vor Prüfungen kontraproduktiv?",
       "text_en": "Why is cramming all night before exams counterproductive?",
       "options": [
-        "a) Weil man am nächsten Tag zu müde ist, um zur Prüfung zu gehen.",
-        "b) Weil das Gehirn ohne Schlaf die Informationen nicht dauerhaft speichern kann.",
+        "a) Weil das Gehirn ohne Schlaf die Informationen nicht dauerhaft speichern kann.",
+        "b) Weil man am nächsten Tag zu müde ist, um zur Prüfung zu gehen.",
         "c) Weil man im Dunkeln nicht gut lesen kann."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Ohne ausreichenden Schlaf kann das Gehirn neue Informationen nicht dauerhaft speichern — die Gedächtniskonsolidierung findet im Tiefschlaf statt.",
       "explanation_en": "Without sufficient sleep, the brain cannot permanently store new information — memory consolidation occurs during deep sleep."
     },
@@ -97,10 +97,10 @@
       "text_en": "By what percentage does a twenty-minute nap improve memory performance?",
       "options": [
         "a) Um bis zu 10 Prozent.",
-        "b) Um bis zu 20 Prozent.",
-        "c) Um bis zu 50 Prozent."
+        "b) Um bis zu 50 Prozent.",
+        "c) Um bis zu 20 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Ein zwanzigminütiger Mittagsschlaf verbessert die Gedächtnisleistung nachweislich um bis zu 20 Prozent.",
       "explanation_en": "A twenty-minute nap has been proven to improve memory performance by up to 20 percent."
     }

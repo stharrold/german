@@ -46,10 +46,10 @@
       "text_en": "What was the discussion about the Documenta about?",
       "options": [
         "a) Ob der Eintrittspreis zu hoch war.",
-        "b) Ob Kunst politisch sein darf oder rein ästhetisch sein sollte.",
-        "c) Ob die Ausstellung länger hätte dauern sollen."
+        "b) Ob die Ausstellung länger hätte dauern sollen.",
+        "c) Ob Kunst politisch sein darf oder rein ästhetisch sein sollte."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Diskussion ging um die Frage, ob Kunst rein ästhetisch sein oder politisch Stellung beziehen sollte.",
       "explanation_en": "The discussion was about whether art should be purely aesthetic or take a political stance."
     },
@@ -60,10 +60,10 @@
       "text_en": "Why did many visitors feel overwhelmed?",
       "options": [
         "a) Weil die Ausstellung zu groß und unübersichtlich war.",
-        "b) Weil die Werke stark konzeptionell waren und kaum traditionelle Kunst zu sehen war.",
-        "c) Weil es keine Erklärungen zu den Kunstwerken gab."
+        "b) Weil es keine Erklärungen zu den Kunstwerken gab.",
+        "c) Weil die Werke stark konzeptionell waren und kaum traditionelle Kunst zu sehen war."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Werke waren stark konzeptionell und es war kaum traditionelle Malerei oder Skulptur zu sehen.",
       "explanation_en": "The works were strongly conceptual and hardly any traditional painting or sculpture was to be seen."
     },
@@ -87,11 +87,11 @@
       "text_de": "Wie hat sich die Rolle des Publikums verändert?",
       "text_en": "How has the role of the audience changed?",
       "options": [
-        "a) Besucher sollen heute mit dem Kunstwerk interagieren und es hinterfragen.",
+        "a) Besucher werden heute weniger in die Ausstellungen einbezogen.",
         "b) Besucher dürfen heute die Kunstwerke selbst verändern.",
-        "c) Besucher werden heute weniger in die Ausstellungen einbezogen."
+        "c) Besucher sollen heute mit dem Kunstwerk interagieren und es hinterfragen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Von den Besuchern wird heute erwartet, dass sie mit dem Kunstwerk interagieren und es hinterfragen.",
       "explanation_en": "Today, visitors are expected to interact with the artwork and question it."
     },
@@ -101,11 +101,11 @@
       "text_de": "Wie ist die aktuelle Lage der Kulturförderung laut Frau Schuster?",
       "text_en": "What is the current state of cultural funding according to Ms. Schuster?",
       "options": [
-        "a) Die Förderung wurde um bis zu 20 Prozent gekürzt.",
+        "a) Private Mäzene haben die öffentliche Förderung vollständig ersetzt.",
         "b) Die Förderung ist stabil geblieben.",
-        "c) Private Mäzene haben die öffentliche Förderung vollständig ersetzt."
+        "c) Die Förderung wurde um bis zu 20 Prozent gekürzt."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die öffentliche Kulturförderung wurde in manchen Bundesländern um bis zu 20 Prozent gekürzt.",
       "explanation_en": "Public cultural funding has been cut by up to 20 percent in some federal states."
     }

@@ -20,10 +20,10 @@
       "text_en": "According to the survey, what percentage of adults sleep too little?",
       "options": [
         "a) 23 Prozent.",
-        "b) 34 Prozent.",
-        "c) 68 Prozent."
+        "b) 68 Prozent.",
+        "c) 34 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "34 Prozent der Erwachsenen schlafen regelmäßig weniger als sechs Stunden.",
       "explanation_en": "34 percent of adults regularly sleep less than six hours."
     },
@@ -34,10 +34,10 @@
       "text_en": "Which health risk does Dr. Reiter NOT mention?",
       "options": [
         "a) Herz-Kreislauf-Erkrankungen.",
-        "b) Diabetes und Depressionen.",
-        "c) Krebserkrankungen."
+        "b) Krebserkrankungen.",
+        "c) Diabetes und Depressionen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Dr. Reiter nennt Herz-Kreislauf-Erkrankungen, Diabetes und Depressionen, aber nicht Krebs.",
       "explanation_en": "Dr. Reiter mentions cardiovascular disease, diabetes, and depression, but not cancer."
     },
@@ -48,10 +48,10 @@
       "text_en": "What does Dr. Reiter find particularly concerning?",
       "options": [
         "a) Dass die Behandlungskosten steigen.",
-        "b) Dass Betroffene ihre Müdigkeit als normal empfinden.",
-        "c) Dass Ärzte das Problem nicht ernst nehmen."
+        "b) Dass Ärzte das Problem nicht ernst nehmen.",
+        "c) Dass Betroffene ihre Müdigkeit als normal empfinden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Besonders alarmierend sei, dass viele Betroffene sich an die Müdigkeit gewöhnen und sie als normal empfinden.",
       "explanation_en": "Particularly alarming is that many affected individuals become accustomed to fatigue and perceive it as normal."
     },

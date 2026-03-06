@@ -19,11 +19,11 @@
       "text_de": "Welche Altersgruppe ist am stärksten von Einsamkeit betroffen?",
       "text_en": "Which age group is most affected by loneliness?",
       "options": [
-        "a) Menschen über 70 Jahre.",
-        "b) 18- bis 29-Jährige.",
+        "a) 18- bis 29-Jährige.",
+        "b) Menschen über 70 Jahre.",
         "c) 40- bis 55-Jährige."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die höchsten Einsamkeitswerte wurden bei 18- bis 29-Jährigen gemessen.",
       "explanation_en": "The highest loneliness scores were measured among 18- to 29-year-olds."
     },
@@ -48,10 +48,10 @@
       "text_en": "What role do social media play according to the text?",
       "options": [
         "a) Sie sind die Hauptursache für Einsamkeit.",
-        "b) Sie erzeugen eine Illusion von Verbundenheit, ersetzen aber keine tiefen Beziehungen.",
-        "c) Sie helfen effektiv gegen Einsamkeit."
+        "b) Sie helfen effektiv gegen Einsamkeit.",
+        "c) Sie erzeugen eine Illusion von Verbundenheit, ersetzen aber keine tiefen Beziehungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Soziale Medien erzeugen die Illusion von Verbundenheit, können aber tiefe Beziehungen nicht ersetzen.",
       "explanation_en": "Social media create the illusion of connectedness but cannot replace deep relationships."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was hat Großbritannien gegen Einsamkeit getan?",
       "text_en": "What did the United Kingdom do to address loneliness?",
       "options": [
-        "a) Ein Gesetz gegen soziale Isolation verabschiedet.",
-        "b) Ein Ministerium für Einsamkeit eingerichtet.",
+        "a) Ein Ministerium für Einsamkeit eingerichtet.",
+        "b) Ein Gesetz gegen soziale Isolation verabschiedet.",
         "c) Eine landesweite Befragung zur Einsamkeit durchgeführt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Großbritannien hat vor einigen Jahren ein Ministerium für Einsamkeit eingerichtet.",
       "explanation_en": "The United Kingdom established a Ministry for Loneliness several years ago."
     },

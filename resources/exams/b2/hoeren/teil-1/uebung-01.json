@@ -45,11 +45,11 @@
       "text_de": "Was zeigt die neueste Studie von Frau Bergmann?",
       "text_en": "What does Ms. Bergmann's latest study show?",
       "options": [
-        "a) Die Mehrheit der Deutschen arbeitet vollständig im Homeoffice.",
-        "b) Etwa 40 Prozent der Beschäftigten arbeiten teilweise von zu Hause.",
+        "a) Etwa 40 Prozent der Beschäftigten arbeiten teilweise von zu Hause.",
+        "b) Die Mehrheit der Deutschen arbeitet vollständig im Homeoffice.",
         "c) Der Anteil der Heimarbeitenden ist seit der Pandemie kaum gestiegen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Laut der Studie arbeiten etwa 40 Prozent der Beschäftigten zumindest teilweise von zu Hause.",
       "explanation_en": "According to the study, about 40 percent of employees work at least partially from home."
     },
@@ -73,11 +73,11 @@
       "text_de": "Welches Arbeitsmodell empfiehlt Frau Bergmann?",
       "text_en": "Which work model does Ms. Bergmann recommend?",
       "options": [
-        "a) Vollständige Rückkehr ins Büro für besseren Teamgeist.",
-        "b) Ein hybrides Modell mit zwei bis drei Bürotagen pro Woche.",
+        "a) Ein hybrides Modell mit zwei bis drei Bürotagen pro Woche.",
+        "b) Vollständige Rückkehr ins Büro für besseren Teamgeist.",
         "c) Vollständiges Homeoffice mit monatlichen Teamtreffen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Sie empfiehlt das hybride Modell mit zwei bis drei Bürotagen als besten Kompromiss.",
       "explanation_en": "She recommends the hybrid model with two to three office days as the best compromise."
     },
@@ -87,11 +87,11 @@
       "text_de": "Worüber klagt fast ein Drittel der Befragten?",
       "text_en": "What does almost a third of respondents complain about?",
       "options": [
-        "a) Über zu viele Videokonferenzen am Tag.",
-        "b) Über unzureichende Ausstattung am Heimarbeitsplatz.",
+        "a) Über unzureichende Ausstattung am Heimarbeitsplatz.",
+        "b) Über zu viele Videokonferenzen am Tag.",
         "c) Über mangelnde Unterstützung durch Vorgesetzte."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Fast ein Drittel klagt über mangelnde Ausstattung, besonders ergonomische Einrichtung und Internetverbindung.",
       "explanation_en": "Almost a third complain about inadequate equipment, especially ergonomic furniture and internet connection."
     },

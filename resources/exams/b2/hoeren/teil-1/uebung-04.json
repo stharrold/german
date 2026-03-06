@@ -45,11 +45,11 @@
       "text_de": "Welche weniger bekannte Quelle von Mikroplastik wird genannt?",
       "text_en": "Which lesser-known source of microplastics is mentioned?",
       "options": [
-        "a) Holzverarbeitung in der Möbelindustrie.",
-        "b) Synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen.",
+        "a) Synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen.",
+        "b) Holzverarbeitung in der Möbelindustrie.",
         "c) Natürliche Erosion von Gesteinen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen, werden als weniger bekannte Quelle genannt.",
       "explanation_en": "Synthetic clothing fibers that enter wastewater during washing are mentioned as a lesser-known source."
     },
@@ -74,10 +74,10 @@
       "text_en": "Why are nanoplastic particles particularly concerning?",
       "options": [
         "a) Weil sie einen unangenehmen Geschmack haben.",
-        "b) Weil sie Zellmembranen durchdringen und sich in Organen anreichern können.",
-        "c) Weil sie radioaktive Strahlung aussenden."
+        "b) Weil sie radioaktive Strahlung aussenden.",
+        "c) Weil sie Zellmembranen durchdringen und sich in Organen anreichern können."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Nanoplastik-Partikel sind so klein, dass sie die Zellmembranen durchdringen und sich in Organen anreichern können.",
       "explanation_en": "Nanoplastic particles are so small that they can penetrate cell membranes and accumulate in organs."
     },
@@ -101,11 +101,11 @@
       "text_de": "Was hält Frau Fischer von der EU-Maßnahme zum Einwegplastik?",
       "text_en": "What does Dr. Fischer think of the EU measure on single-use plastics?",
       "options": [
-        "a) Es war ein wichtiger Schritt, reicht aber bei Weitem nicht aus.",
-        "b) Es war eine überflüssige Maßnahme ohne echte Wirkung.",
+        "a) Es war eine überflüssige Maßnahme ohne echte Wirkung.",
+        "b) Es war ein wichtiger Schritt, reicht aber bei Weitem nicht aus.",
         "c) Es war zu streng und schadet der Wirtschaft."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Sie sagt, die EU hat einen wichtigen Schritt getan, aber das reiche bei Weitem nicht aus.",
       "explanation_en": "She says the EU took an important step, but it is far from enough."
     }

@@ -19,11 +19,11 @@
       "text_de": "Was ist die Hauptposition des Autors?",
       "text_en": "What is the author's main position?",
       "options": [
-        "a) Deutschland sollte ein Tempolimit einführen.",
-        "b) Deutschland sollte die Autobahnen privatisieren.",
+        "a) Deutschland sollte die Autobahnen privatisieren.",
+        "b) Deutschland sollte ein Tempolimit einführen.",
         "c) Deutschland sollte mehr in Elektroautos investieren."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der Autor argumentiert, dass ein Tempolimit längst überfällig sei.",
       "explanation_en": "The author argues that a speed limit is long overdue."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was sagt die Unfallforschung laut Text?",
       "text_en": "What does accident research say according to the text?",
       "options": [
-        "a) Dass Tempolimits keinen Einfluss auf die Unfallzahlen haben.",
-        "b) Dass auf Strecken mit Tempolimit weniger tödliche Unfälle passieren.",
+        "a) Dass auf Strecken mit Tempolimit weniger tödliche Unfälle passieren.",
+        "b) Dass Tempolimits keinen Einfluss auf die Unfallzahlen haben.",
         "c) Dass die meisten Unfälle bei niedrigen Geschwindigkeiten passieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Auf Abschnitten mit Tempolimit ereignen sich deutlich weniger tödliche Unfälle.",
       "explanation_en": "On sections with speed limits, significantly fewer fatal accidents occur."
     },
@@ -61,11 +61,11 @@
       "text_de": "Wie entkräftet der Autor das Wirtschaftsargument?",
       "text_en": "How does the author refute the economic argument?",
       "options": [
-        "a) Er verweist darauf, dass die Autoindustrie ohnehin auf Elektroautos umsteigt.",
-        "b) Er zeigt, dass kein anderes europäisches Land wirtschaftlich darunter gelitten hat.",
+        "a) Er zeigt, dass kein anderes europäisches Land wirtschaftlich darunter gelitten hat.",
+        "b) Er verweist darauf, dass die Autoindustrie ohnehin auf Elektroautos umsteigt.",
         "c) Er argumentiert, dass die Wirtschaft vom Tempolimit profitieren würde."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "In keinem anderen europäischen Land hat ein Tempolimit zum wirtschaftlichen Niedergang der Autoindustrie geführt.",
       "explanation_en": "In no other European country has a speed limit led to the economic decline of the auto industry."
     },
@@ -75,11 +75,11 @@
       "text_de": "Welches rhetorische Argument nutzt der Autor bezüglich Freiheit?",
       "text_en": "What rhetorical argument does the author use regarding freedom?",
       "options": [
-        "a) Dass Freiheit wichtiger sei als Sicherheit.",
-        "b) Dass wir bereits Tempolimits in Ortschaften akzeptieren, ohne von Tyrannei zu sprechen.",
+        "a) Dass wir bereits Tempolimits in Ortschaften akzeptieren, ohne von Tyrannei zu sprechen.",
+        "b) Dass Freiheit wichtiger sei als Sicherheit.",
         "c) Dass individuelle Freiheit durch die Verfassung geschützt sei."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Wir akzeptieren Tempolimits in Ortschaften und an Baustellen, ohne von Tyrannei zu sprechen.",
       "explanation_en": "We accept speed limits in residential areas and at construction sites without speaking of tyranny."
     }

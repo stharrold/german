@@ -40,11 +40,11 @@
       "text_de": "Welche Gegenbewegung beobachtet Frau Albrecht seit der Pandemie?",
       "text_en": "What counter-movement has Ms. Albrecht observed since the pandemic?",
       "options": [
-        "a) Immer mehr Menschen ziehen vom Land in die Stadt.",
-        "b) Immer mehr Familien und junge Berufstätige verlassen die Großstädte.",
+        "a) Immer mehr Familien und junge Berufstätige verlassen die Großstädte.",
+        "b) Immer mehr Menschen ziehen vom Land in die Stadt.",
         "c) Die Mietpreise auf dem Land steigen stärker als in der Stadt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Seit der Pandemie verlassen immer mehr Familien und junge Berufstätige die Großstädte.",
       "explanation_en": "Since the pandemic, more and more families and young professionals are leaving major cities."
     },
@@ -55,10 +55,10 @@
       "text_en": "What challenge does Mr. Meier name for rural life?",
       "options": [
         "a) Die hohen Grundstückspreise auf dem Land.",
-        "b) Die mangelnde ärztliche Versorgung und fehlende Infrastruktur.",
-        "c) Die Ablehnung der Zugezogenen durch die Einheimischen."
+        "b) Die Ablehnung der Zugezogenen durch die Einheimischen.",
+        "c) Die mangelnde ärztliche Versorgung und fehlende Infrastruktur."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Er nennt mangelnde ärztliche Versorgung, fehlenden öffentlichen Nahverkehr und fehlendes schnelles Internet.",
       "explanation_en": "He mentions inadequate medical care, missing public transportation, and lack of fast internet."
     },

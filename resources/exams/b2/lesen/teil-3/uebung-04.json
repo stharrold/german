@@ -33,11 +33,11 @@
       "text_de": "Wie hoch ist die Rückgabequote für Einwegpfandflaschen?",
       "text_en": "What is the return rate for single-use deposit bottles?",
       "options": [
-        "a) Über 85 Prozent.",
+        "a) Über 98 Prozent.",
         "b) Über 92 Prozent.",
-        "c) Über 98 Prozent."
+        "c) Über 85 Prozent."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die Rückgabequote liegt bei über 98 Prozent.",
       "explanation_en": "The return rate is over 98 percent."
     },
@@ -47,11 +47,11 @@
       "text_de": "Wie oft kann eine Glasflasche wiederverwendet werden?",
       "text_en": "How many times can a glass bottle be reused?",
       "options": [
-        "a) Bis zu 20 Mal.",
-        "b) Bis zu 50 Mal.",
+        "a) Bis zu 50 Mal.",
+        "b) Bis zu 20 Mal.",
         "c) Bis zu 100 Mal."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Eine einzelne Glasflasche kann bis zu 50 Mal wiederverwendet werden.",
       "explanation_en": "A single glass bottle can be reused up to 50 times."
     },
@@ -62,10 +62,10 @@
       "text_en": "What is a negative trend according to the text?",
       "options": [
         "a) Die Rückgabequote sinkt von Jahr zu Jahr.",
-        "b) Der Mehrweganteil ist von 66 auf unter 43 Prozent gesunken.",
-        "c) Immer weniger Supermärkte haben Rückgabeautomaten."
+        "b) Immer weniger Supermärkte haben Rückgabeautomaten.",
+        "c) Der Mehrweganteil ist von 66 auf unter 43 Prozent gesunken."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Anteil von Mehrwegflaschen ist von 66 auf unter 43 Prozent gesunken.",
       "explanation_en": "The share of reusable bottles has declined from 66 to under 43 percent."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was fordern Umweltverbände?",
       "text_en": "What do environmental organizations demand?",
       "options": [
-        "a) Ein Verbot von Einwegverpackungen.",
-        "b) Eine Erhöhung des Einwegpfands auf 50 Cent.",
+        "a) Eine Erhöhung des Einwegpfands auf 50 Cent.",
+        "b) Ein Verbot von Einwegverpackungen.",
         "c) Die Abschaffung des Pfandsystems."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Umweltverbände fordern eine Erhöhung des Einwegpfands auf 50 Cent.",
       "explanation_en": "Environmental organizations demand an increase of the single-use deposit to 50 cents."
     }

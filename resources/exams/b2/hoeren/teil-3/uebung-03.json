@@ -78,11 +78,11 @@
       "text_de": "Welche Übergangslösung bietet die Hausverwaltung an?",
       "text_en": "What interim solution does the property management offer?",
       "options": [
-        "a) Eine vorübergehende Unterbringung in einem Hotel.",
-        "b) Einen elektrischen Heizlüfter auf Kosten der Hausverwaltung.",
+        "a) Einen elektrischen Heizlüfter auf Kosten der Hausverwaltung.",
+        "b) Eine vorübergehende Unterbringung in einem Hotel.",
         "c) Eine Mietminderung von 30 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Hausverwaltung bietet übergangsweise einen elektrischen Heizlüfter auf ihre Kosten an.",
       "explanation_en": "The property management offers a portable electric heater in the meantime at their expense."
     },
@@ -93,10 +93,10 @@
       "text_en": "What does the team leader criticize about Anna's presentation?",
       "options": [
         "a) Die Daten waren fehlerhaft und die Schlussfolgerungen falsch.",
-        "b) Sie sprach zu schnell und hielt kaum Blickkontakt.",
-        "c) Die Präsentation war inhaltlich zu oberflächlich."
+        "b) Die Präsentation war inhaltlich zu oberflächlich.",
+        "c) Sie sprach zu schnell und hielt kaum Blickkontakt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Teamleiter kritisiert, dass sie zu schnell gesprochen und kaum Blickkontakt gehalten hat.",
       "explanation_en": "The team leader criticizes that she spoke too quickly and hardly maintained eye contact."
     },
@@ -107,10 +107,10 @@
       "text_en": "What does Anna want to do after the feedback?",
       "options": [
         "a) Keine weiteren Präsentationen mehr halten.",
-        "b) Ein Rhetorikseminar besuchen, um sich zu verbessern.",
-        "c) Die Präsentation schriftlich nachreichen."
+        "b) Die Präsentation schriftlich nachreichen.",
+        "c) Ein Rhetorikseminar besuchen, um sich zu verbessern."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Anna fragt nach einem Rhetorikseminar, weil sie an ihrer Präsentationsfähigkeit arbeiten möchte.",
       "explanation_en": "Anna asks about a rhetoric seminar because she wants to work on her presentation skills."
     }
