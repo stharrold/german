@@ -51,10 +51,10 @@
       "text_en": "What was refuted by recent studies according to Dr. Voss?",
       "options": [
         "a) Dass Neuroplastizität nur bei Kindern vorkommt.",
-        "b) Dass das Gehirn im Alter schneller arbeitet als in der Jugend.",
-        "c) Dass das Gehirn nach der Kindheit weitgehend unveränderlich ist."
+        "b) Dass das Gehirn nach der Kindheit weitgehend unveränderlich ist.",
+        "c) Dass das Gehirn im Alter schneller arbeitet als in der Jugend."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Annahme, das Gehirn sei nach einer kritischen Entwicklungsphase in der Kindheit unveränderlich, wurde durch zahlreiche Studien widerlegt.",
       "explanation_en": "The assumption that the brain was largely immutable after a critical developmental phase in childhood has been refuted by numerous studies."
     },
@@ -79,10 +79,10 @@
       "text_en": "What did the longitudinal study with older participants show?",
       "options": [
         "a) Dass nur körperliche Bewegung kognitive Leistungen verbessert.",
-        "b) Dass multimodales Training die kognitive Leistung sogar verbessern kann.",
-        "c) Dass kognitive Verbesserungen nur bei Teilnehmern unter 70 Jahren auftraten."
+        "b) Dass kognitive Verbesserungen nur bei Teilnehmern unter 70 Jahren auftraten.",
+        "c) Dass multimodales Training die kognitive Leistung sogar verbessern kann."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Teilnehmer eines multimodalen Trainings (Bewegung, kognitives Training, soziales Engagement) zeigten messbare Verbesserungen der kognitiven Leistung.",
       "explanation_en": "Participants in multimodal training (exercise, cognitive training, social engagement) showed measurable improvements in cognitive performance."
     },
@@ -106,11 +106,11 @@
       "text_de": "Was ist laut Dr. Voss der entscheidende Faktor für nachhaltiges Lernen?",
       "text_en": "What is the decisive factor for sustainable learning according to Dr. Voss?",
       "options": [
-        "a) Die emotionale Beteiligung am Lernprozess.",
-        "b) Die Dauer der einzelnen Trainingseinheiten.",
+        "a) Die Dauer der einzelnen Trainingseinheiten.",
+        "b) Die emotionale Beteiligung am Lernprozess.",
         "c) Die Regelmäßigkeit der Übungen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der entscheidende Faktor ist die emotionale Beteiligung: Was uns berührt, verankert sich tiefer im Gedächtnis.",
       "explanation_en": "The decisive factor is emotional involvement: what moves us becomes more deeply anchored in memory."
     }

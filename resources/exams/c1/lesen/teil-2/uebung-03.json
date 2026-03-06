@@ -19,11 +19,11 @@
       "text_de": "Was kritisiert der Autor an der Haltung konservativer Haushaltspolitiker?",
       "text_en": "What does the author criticize about conservative fiscal politicians' stance?",
       "options": [
-        "a) Sie investieren zu viel in kulturelle Institutionen.",
-        "b) Sie verkennen die fundamentale Bedeutung der Kultur als öffentliches Gut.",
+        "a) Sie verkennen die fundamentale Bedeutung der Kultur als öffentliches Gut.",
+        "b) Sie investieren zu viel in kulturelle Institutionen.",
         "c) Sie fördern ausschließlich Leuchttürmprojekte."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Der Autor kritisiert, dass diese Sichtweise die fundamentale Bedeutung der Kultur als öffentliches Gut verkennt.",
       "explanation_en": "The author criticizes that this view misjudges the fundamental significance of culture as a public good."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was belegen empirische Studien laut dem Text?",
       "text_en": "What do empirical studies demonstrate according to the text?",
       "options": [
-        "a) Kulturinstitutionen erwirtschaften stets Verluste.",
+        "a) Jeder in Kultur investierte Euro generiert das Dreifache an regionaler Wertschöpfung.",
         "b) Der Wert von Kultur lässt sich nicht messen.",
-        "c) Jeder in Kultur investierte Euro generiert das Dreifache an regionaler Wertschöpfung."
+        "c) Kulturinstitutionen erwirtschaften stets Verluste."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Jeder investierte Euro generiert im Durchschnitt das Dreifache an regionaler Wertschöpfung.",
       "explanation_en": "Every euro invested generates on average triple the regional value creation."
     },
@@ -47,11 +47,11 @@
       "text_de": "Welche Forderung stellt der Autor an die Kulturpolitik?",
       "text_en": "What demand does the author make of cultural policy?",
       "options": [
-        "a) Kulturelle Teilhabe aller gesellschaftlichen Schichten zu ermöglichen.",
+        "a) Die Kulturförderung vollständig dem privaten Sektor zu überlassen.",
         "b) Sich auf internationale Prestigeprojekte zu konzentrieren.",
-        "c) Die Kulturförderung vollständig dem privaten Sektor zu überlassen."
+        "c) Kulturelle Teilhabe aller gesellschaftlichen Schichten zu ermöglichen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Kulturförderung muss die kulturelle Teilhabe aller gesellschaftlichen Schichten ermöglichen.",
       "explanation_en": "Cultural funding must enable cultural participation of all social strata."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was sind laut dem Text gesellschaftliche Funktionen von Kulturinstitutionen?",
       "text_en": "What are societal functions of cultural institutions according to the text?",
       "options": [
-        "a) Sie dienen ausschließlich der Unterhaltung.",
-        "b) Sie sind Orte der Begegnung und des kritischen Diskurses.",
+        "a) Sie sind Orte der Begegnung und des kritischen Diskurses.",
+        "b) Sie dienen ausschließlich der Unterhaltung.",
         "c) Sie ersetzen politische Institutionen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Theater, Museen und Bibliotheken sind Orte der Begegnung und des kritischen Diskurses.",
       "explanation_en": "Theaters, museums, and libraries are places of encounter and critical discourse."
     },
@@ -75,11 +75,11 @@
       "text_de": "Wozu führt laut dem Autor die Kürzung kultureller Budgets langfristig?",
       "text_en": "What does cutting cultural budgets lead to in the long run according to the author?",
       "options": [
-        "a) Zu einer Stärkung des privaten Kultursektors.",
+        "a) Zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik.",
         "b) Zu einer effizienteren Verteilung der Mittel.",
-        "c) Zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik."
+        "c) Zu einer Stärkung des privaten Kultursektors."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Kürzungen führen langfristig zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik.",
       "explanation_en": "Cuts lead in the long run to a loss of social cohesion and economic dynamism."
     }

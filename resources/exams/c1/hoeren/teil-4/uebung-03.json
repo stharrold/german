@@ -55,11 +55,11 @@
       "text_de": "Wie unterscheidet sich Desinformation von Fehlinformation laut Prof. Hartung?",
       "text_en": "How does disinformation differ from misinformation according to Prof. Hartung?",
       "options": [
-        "a) Desinformation betrifft nur politische Themen, Fehlinformation nur wissenschaftliche.",
-        "b) Desinformation ist die gezielte, strategisch motivierte Verbreitung falscher Inhalte.",
+        "a) Desinformation ist die gezielte, strategisch motivierte Verbreitung falscher Inhalte.",
+        "b) Desinformation betrifft nur politische Themen, Fehlinformation nur wissenschaftliche.",
         "c) Es gibt keinen wesentlichen Unterschied zwischen beiden Begriffen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Desinformation unterscheidet sich durch die Intentionalität: Sie ist die gezielte, strategisch motivierte Verbreitung falscher oder irreführender Inhalte.",
       "explanation_en": "Disinformation differs through intentionality: it is the targeted, strategically motivated spread of false or misleading content."
     },
@@ -112,10 +112,10 @@
       "text_en": "Why is the integrity of the information order so important according to Prof. Hartung?",
       "options": [
         "a) Weil sie die wirtschaftliche Produktivität steigert.",
-        "b) Weil sie die internationale Wettbewerbsfähigkeit sichert.",
-        "c) Weil sie ein konstitutives Element der Demokratie selbst ist."
+        "b) Weil sie ein konstitutives Element der Demokratie selbst ist.",
+        "c) Weil sie die internationale Wettbewerbsfähigkeit sichert."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Integrität der Informationsordnung ist ein konstitutives Element der Demokratie — ohne verlässliche Information keine informierte Öffentlichkeit und keine demokratische Willensbildung.",
       "explanation_en": "The integrity of the information order is a constitutive element of democracy — without reliable information, no informed public and no democratic opinion formation."
     }

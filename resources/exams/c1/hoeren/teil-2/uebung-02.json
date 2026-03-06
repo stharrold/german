@@ -46,10 +46,10 @@
       "text_en": "How does Prof. Wendt describe the role of AI in diagnostics?",
       "options": [
         "a) Als vollständigen Ersatz für menschliche Ärzte.",
-        "b) Als unterstützendes System, das Befunde schneller und konsistenter liefert.",
-        "c) Als unterstützendes System, das als zweite Meinung fungiert."
+        "b) Als unterstützendes System, das als zweite Meinung fungiert.",
+        "c) Als unterstützendes System, das Befunde schneller und konsistenter liefert."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Prof. Wendt betont, dass KI-Systeme den Arzt nicht ersetzen, sondern als eine Art zweite Meinung fungieren.",
       "explanation_en": "Prof. Wendt emphasizes that AI systems do not replace the physician but function as a kind of second opinion."
     },
@@ -59,11 +59,11 @@
       "text_de": "Was versteht Dr. Schilling unter Automatisierungsbias?",
       "text_en": "What does Dr. Schilling understand by automation bias?",
       "options": [
-        "a) Die Tendenz, dem maschinellen Urteil zu vertrauen, auch wenn die eigene Erfahrung widerspricht.",
+        "a) Die automatische Abschaltung des Systems bei Fehlern.",
         "b) Die Ablehnung jeglicher technologischer Neuerungen durch Ärzte.",
-        "c) Die automatische Abschaltung des Systems bei Fehlern."
+        "c) Die Tendenz, dem maschinellen Urteil zu vertrauen, auch wenn die eigene Erfahrung widerspricht."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Automatisierungsbias ist die Tendenz, dem maschinellen Urteil zu vertrauen, selbst wenn die eigene klinische Erfahrung etwas anderes nahelegt.",
       "explanation_en": "Automation bias is the tendency to trust the machine's judgment even when one's own clinical experience suggests otherwise."
     },
@@ -88,10 +88,10 @@
       "text_en": "What does Dr. Schilling demand regarding liability?",
       "options": [
         "a) Dass Patienten selbst die Verantwortung für KI-Diagnosen übernehmen.",
-        "b) Dass KI-Systeme vollständig verboten werden.",
-        "c) Dass ein klarer Haftungsrahmen geschaffen wird, bevor KI klinisch eingesetzt wird."
+        "b) Dass ein klarer Haftungsrahmen geschaffen wird, bevor KI klinisch eingesetzt wird.",
+        "c) Dass KI-Systeme vollständig verboten werden."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Dr. Schilling hält es für fahrlässig, KI-Systeme einzusetzen, ohne zuvor einen klaren Haftungsrahmen geschaffen zu haben.",
       "explanation_en": "Dr. Schilling considers it negligent to deploy AI systems without first establishing a clear liability framework."
     },
@@ -101,11 +101,11 @@
       "text_de": "Was entgegnet Prof. Wendt auf die Bedenken bezüglich der Regulierung?",
       "text_en": "What does Prof. Wendt counter regarding the regulatory concerns?",
       "options": [
-        "a) Dass es ethisch fragwürdig wäre, wirksame KI-Systeme vorzuenthalten, weil die Regulierung noch nicht perfekt ist.",
-        "b) Dass Regulierung grundsätzlich überflüssig ist.",
+        "a) Dass Regulierung grundsätzlich überflüssig ist.",
+        "b) Dass es ethisch fragwürdig wäre, wirksame KI-Systeme vorzuenthalten, weil die Regulierung noch nicht perfekt ist.",
         "c) Dass die Regulierung innerhalb weniger Monate abgeschlossen sein wird."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Prof. Wendt argumentiert, es wäre ethisch fragwürdig, Patienten wirksame KI-Systeme vorzuenthalten, nur weil die regulatorischen Rahmenbedingungen noch nicht perfekt sind.",
       "explanation_en": "Prof. Wendt argues it would be ethically questionable to withhold effective AI systems from patients just because the regulatory framework is not yet perfect."
     }

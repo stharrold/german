@@ -19,11 +19,11 @@
       "text_de": "Wie haben sich die Ausgaben pro Studierendem entwickelt?",
       "text_en": "How have expenditures per student developed?",
       "options": [
-        "a) Sie sind inflationsbereinigt um 11 Prozent gesunken, obwohl die Studierendenzahlen um 42 Prozent stiegen.",
-        "b) Sie sind proportional zu den steigenden Studierendenzahlen gestiegen.",
+        "a) Sie sind proportional zu den steigenden Studierendenzahlen gestiegen.",
+        "b) Sie sind inflationsbereinigt um 11 Prozent gesunken, obwohl die Studierendenzahlen um 42 Prozent stiegen.",
         "c) Sie sind konstant geblieben trotz höherer Studierendenzahlen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Die Ausgaben pro Studierendem sind inflationsbereinigt um 11 Prozent gesunken bei 42 Prozent mehr Studierenden.",
       "explanation_en": "Expenditures per student have decreased by 11 percent in real terms while student numbers rose 42 percent."
     },
@@ -34,10 +34,10 @@
       "text_en": "What problem exists despite better finances in the natural sciences?",
       "options": [
         "a) Zu wenig Studierende wählen naturwissenschaftliche Fächer.",
-        "b) Abhängigkeit von Drittmitteln führt zu befristeter Beschäftigung und Vernachlässigung der Grundlagenforschung.",
-        "c) Die Labore sind veraltet und müssen modernisiert werden."
+        "b) Die Labore sind veraltet und müssen modernisiert werden.",
+        "c) Abhängigkeit von Drittmitteln führt zu befristeter Beschäftigung und Vernachlässigung der Grundlagenforschung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Die Abhängigkeit von Drittmitteln erzeugt befristete Beschäftigung und Vernachlässigung der Grundlagenforschung.",
       "explanation_en": "Dependence on third-party funding creates temporary employment and neglect of basic research."
     },
@@ -48,10 +48,10 @@
       "text_en": "What does the report recommend regarding base funding?",
       "options": [
         "a) Die vollständige Privatisierung der Hochschulfinanzierung.",
-        "b) Die Einführung von Studiengebühren zur Schließung der Finanzierungslücke.",
-        "c) Eine Dynamisierung, die automatisch an Studierendenzahlen und Inflationsrate gekoppelt ist."
+        "b) Eine Dynamisierung, die automatisch an Studierendenzahlen und Inflationsrate gekoppelt ist.",
+        "c) Die Einführung von Studiengebühren zur Schließung der Finanzierungslücke."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Grundfinanzierung sollte automatisch an Studierendenzahlen und Inflationsrate gekoppelt werden.",
       "explanation_en": "Base funding should be automatically linked to student numbers and the inflation rate."
     },
@@ -75,11 +75,11 @@
       "text_de": "Warum sollen Dauerstellen im Mittelbau gestärkt werden?",
       "text_en": "Why should permanent mid-level positions be strengthened?",
       "options": [
-        "a) Um die Verwaltungskosten der Hochschulen zu senken.",
-        "b) Um dem prekären Beschäftigungssystem entgegenzuwirken, das Wissenschaftler ins Ausland treibt.",
+        "a) Um dem prekären Beschäftigungssystem entgegenzuwirken, das Wissenschaftler ins Ausland treibt.",
+        "b) Um die Verwaltungskosten der Hochschulen zu senken.",
         "c) Um die Lehrverpflichtung der Professoren zu reduzieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Dauerstellen sollen dem prekären Beschäftigungssystem entgegenwirken, das Wissenschaftler in andere Felder oder ins Ausland treibt.",
       "explanation_en": "Permanent positions should counteract the precarious employment system driving researchers abroad."
     }

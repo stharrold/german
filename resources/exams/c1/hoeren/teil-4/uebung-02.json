@@ -56,10 +56,10 @@
       "text_en": "Why is the economic value of ecosystem services ignored according to Prof. Berger?",
       "options": [
         "a) Weil die Leistungen der Natur nicht messbar sind.",
-        "b) Weil die klassische Volkswirtschaftslehre diese Leistungen nicht quantifiziert hat.",
-        "c) Weil er in der klassischen Volkswirtschaftslehre systematisch ignoriert wird."
+        "b) Weil er in der klassischen Volkswirtschaftslehre systematisch ignoriert wird.",
+        "c) Weil die klassische Volkswirtschaftslehre diese Leistungen nicht quantifiziert hat."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Der ökonomische Wert der Ökosystemdienstleistungen wird in der klassischen Volkswirtschaftslehre systematisch ignoriert.",
       "explanation_en": "The economic value of ecosystem services is systematically ignored in classical economics."
     },
@@ -69,11 +69,11 @@
       "text_de": "Was besagt die Redundanzhypothese?",
       "text_en": "What does the redundancy hypothesis state?",
       "options": [
-        "a) Dass viele Ökosystemfunktionen von mehreren Arten gleichzeitig erbracht werden.",
+        "a) Dass Artenvielfalt für das Funktionieren von Ökosystemen irrelevant ist.",
         "b) Dass jede Art eine einzigartige, unersetzbare Funktion im Ökosystem hat.",
-        "c) Dass Artenvielfalt für das Funktionieren von Ökosystemen irrelevant ist."
+        "c) Dass viele Ökosystemfunktionen von mehreren Arten gleichzeitig erbracht werden."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Redundanzhypothese besagt, dass viele Ökosystemfunktionen von mehreren Arten gleichzeitig erbracht werden — der Verlust einzelner Arten hat zunächst keine spürbaren Auswirkungen.",
       "explanation_en": "The redundancy hypothesis states that many ecosystem functions are provided by multiple species simultaneously — the loss of individual species initially has no noticeable effects."
     },
@@ -83,11 +83,11 @@
       "text_de": "Was passiert laut Prof. Berger ab einem bestimmten Schwellenwert des Artenverlusts?",
       "text_en": "What happens according to Prof. Berger beyond a certain threshold of species loss?",
       "options": [
-        "a) Das Ökosystem passt sich automatisch an die neuen Bedingungen an.",
-        "b) Es kann zu einem abrupten, oft irreversiblen Zusammenbruch kommen — einem Regime Shift.",
+        "a) Es kann zu einem abrupten, oft irreversiblen Zusammenbruch kommen — einem Regime Shift.",
+        "b) Das Ökosystem passt sich automatisch an die neuen Bedingungen an.",
         "c) Neue Arten entstehen schnell genug, um die Lücke zu füllen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Ab einem bestimmten Schwellenwert kann es zu einem abrupten Zusammenbruch kommen — einem Regime Shift, der häufig irreversibel ist.",
       "explanation_en": "Beyond a certain threshold, an abrupt collapse can occur — a regime shift, which is often irreversible."
     },
@@ -111,11 +111,11 @@
       "text_de": "Was fordert Prof. Berger als ethisches Fundament des Biodiversitätsschutzes?",
       "text_en": "What does Prof. Berger demand as the ethical foundation of biodiversity protection?",
       "options": [
-        "a) Die Anerkennung des Eigenwerts der Natur — das Recht anderer Arten auf Existenz.",
-        "b) Die vollständige Abkehr von ökonomischen Bewertungsansätzen.",
+        "a) Die vollständige Abkehr von ökonomischen Bewertungsansätzen.",
+        "b) Die Anerkennung des Eigenwerts der Natur — das Recht anderer Arten auf Existenz.",
         "c) Die Einführung eines globalen Naturschutzbudgets von einer Billion Euro."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der Eigenwert der Natur — das Recht anderer Arten auf Existenz, unabhängig von ihrem Nutzen für den Menschen — muss als ethisches Fundament erhalten bleiben.",
       "explanation_en": "The intrinsic value of nature — the right of other species to existence, regardless of their utility for humans — must be maintained as the ethical foundation."
     }

@@ -55,11 +55,11 @@
       "text_de": "Was beschreibt Chalmers' „schweres Problem des Bewusstseins“?",
       "text_en": "What does Chalmers' 'hard problem of consciousness' describe?",
       "options": [
-        "a) Die Frage, wie das Gehirn Informationen speichert.",
+        "a) Die Frage, warum kognitive Prozesse von subjektivem Erleben begleitet werden.",
         "b) Die Schwierigkeit, neuronale Netzwerke zu simulieren.",
-        "c) Die Frage, warum kognitive Prozesse von subjektivem Erleben begleitet werden."
+        "c) Die Frage, wie das Gehirn Informationen speichert."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Das schwere Problem betrifft die Frage, warum neuronale Prozesse von subjektivem Erleben begleitet werden — warum es sich auf eine bestimmte Weise „anfühlt“.",
       "explanation_en": "The hard problem concerns the question of why neural processes are accompanied by subjective experience — why it 'feels' a certain way."
     },
@@ -83,11 +83,11 @@
       "text_de": "Was behauptet der Panpsychismus?",
       "text_en": "What does panpsychism claim?",
       "options": [
-        "a) Dass Bewusstsein eine grundlegende Eigenschaft der Materie ist, die in rudimentärer Form überall vorhanden ist.",
-        "b) Dass Bewusstsein eine Illusion ist, die vom Gehirn erzeugt wird.",
+        "a) Dass Bewusstsein eine Illusion ist, die vom Gehirn erzeugt wird.",
+        "b) Dass Bewusstsein eine grundlegende Eigenschaft der Materie ist, die in rudimentärer Form überall vorhanden ist.",
         "c) Dass nur Menschen über echtes Bewusstsein verfügen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der Panpsychismus postuliert Bewusstsein als grundlegende Eigenschaft der Materie, die in rudimentärer Form bereits in den elementarsten physischen Prozessen vorhanden ist.",
       "explanation_en": "Panpsychism postulates consciousness as a fundamental property of matter that exists in rudimentary form already in the most elementary physical processes."
     },
@@ -98,10 +98,10 @@
       "text_en": "Why has neuroscience not solved the consciousness problem according to Prof. Winkler?",
       "options": [
         "a) Weil die Messgeräte nicht empfindlich genug sind.",
-        "b) Weil Bewusstsein nur ein Nebenprodukt evolutionärer Anpassung ist.",
-        "c) Weil neuronale Korrelation nicht dasselbe ist wie eine Erklärung des subjektiven Erlebens."
+        "b) Weil neuronale Korrelation nicht dasselbe ist wie eine Erklärung des subjektiven Erlebens.",
+        "c) Weil Bewusstsein nur ein Nebenprodukt evolutionärer Anpassung ist."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Korrelation zwischen neuronaler Aktivität und bewusstem Erleben ist nicht dasselbe wie eine Erklärung — sie beschreibt die physische Begleiterscheinung, nicht das Erleben selbst.",
       "explanation_en": "The correlation between neural activity and conscious experience is not the same as an explanation — it describes the physical accompaniment, not the experience itself."
     },

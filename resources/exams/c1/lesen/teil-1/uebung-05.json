@@ -33,11 +33,11 @@
       "text_de": "Was versteht man unter Parametrisierung in der Klimamodellierung?",
       "text_en": "What is meant by parameterization in climate modeling?",
       "options": [
-        "a) Die exakte Messung aller Klimavariablen weltweit.",
-        "b) Die vereinfachte mathematische Darstellung von Prozessen, die feiner sind als die Modellauflösung.",
+        "a) Die vereinfachte mathematische Darstellung von Prozessen, die feiner sind als die Modellauflösung.",
+        "b) Die exakte Messung aller Klimavariablen weltweit.",
         "c) Die politische Festlegung von Klimazielen durch internationale Abkommen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Parametrisierung bedeutet die vereinfachte mathematische Darstellung von Prozessen auf Skalen feiner als die Modellauflösung.",
       "explanation_en": "Parameterization means the simplified mathematical representation of processes on scales finer than model resolution."
     },
@@ -47,11 +47,11 @@
       "text_de": "Wie groß ist die Spannbreite der Erwärmungsprojektionen bis Jahrhundertende?",
       "text_en": "How large is the range of warming projections by century's end?",
       "options": [
-        "a) Zwischen 1,5 und 4,5 Grad Celsius.",
+        "a) Zwischen 3,0 und 6,0 Grad Celsius.",
         "b) Zwischen 0,5 und 2,0 Grad Celsius.",
-        "c) Zwischen 3,0 und 6,0 Grad Celsius."
+        "c) Zwischen 1,5 und 4,5 Grad Celsius."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Projektionen variieren je nach Modell zwischen 1,5 und 4,5 Grad Celsius.",
       "explanation_en": "Projections vary between 1.5 and 4.5 degrees Celsius depending on the model."
     },

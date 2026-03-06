@@ -55,11 +55,11 @@
       "text_de": "Was ist die zentrale Erkenntnis der Forschung zu kognitiven Verzerrungen?",
       "text_en": "What is the central insight of research on cognitive biases?",
       "options": [
-        "a) Dass Menschen systematische Heuristiken nutzen, die unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen.",
+        "a) Dass kognitive Verzerrungen nur bei unintelligenten Personen auftreten.",
         "b) Dass Menschen grundsätzlich rational entscheiden, wenn sie ausreichend informiert sind.",
-        "c) Dass kognitive Verzerrungen nur bei unintelligenten Personen auftreten."
+        "c) Dass Menschen systematische Heuristiken nutzen, die unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Menschen bedienen sich systematischer Heuristiken, die meistens funktional sind, aber unter bestimmten Bedingungen zu vorhersagbaren Fehlurteilen führen.",
       "explanation_en": "Humans employ systematic heuristics that are mostly functional but lead to predictable misjudgments under certain conditions."
     },
@@ -69,11 +69,11 @@
       "text_de": "Was zeigte die Studie zur Bewertung der Kernkraftanlage?",
       "text_en": "What did the study on evaluating the nuclear power plant show?",
       "options": [
-        "a) Dass Kernkraftgegner die Sicherheitsdaten realistischer bewerteten.",
-        "b) Dass Personen mit positiver Einstellung dieselben Daten günstiger bewerteten als Gegner.",
+        "a) Dass Personen mit positiver Einstellung dieselben Daten günstiger bewerteten als Gegner.",
+        "b) Dass Kernkraftgegner die Sicherheitsdaten realistischer bewerteten.",
         "c) Dass alle Teilnehmer zu identischen Bewertungen kamen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Personen mit positiver Einstellung zur Kernenergie bewerteten dieselben Sicherheitsdaten signifikant günstiger — ein Beispiel für den Bestätigungsfehler.",
       "explanation_en": "People with a positive attitude toward nuclear energy rated the same safety data significantly more favorably — an example of confirmation bias."
     },
@@ -97,11 +97,11 @@
       "text_de": "Warum verschwinden kognitive Verzerrungen nicht, selbst wenn man über sie Bescheid weiß?",
       "text_en": "Why do cognitive biases not disappear even when one knows about them?",
       "options": [
-        "a) Weil sie im System 1 verankert sind, das der bewussten Kontrolle weitgehend entzogen ist.",
-        "b) Weil die Forschung zu Debiasing-Strategien noch in den Anfängen steckt.",
+        "a) Weil die Forschung zu Debiasing-Strategien noch in den Anfängen steckt.",
+        "b) Weil sie im System 1 verankert sind, das der bewussten Kontrolle weitgehend entzogen ist.",
         "c) Weil Menschen grundsätzlich nicht lernfähig sind."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Viele Verzerrungen sind im System 1 verankert — dem schnellen, automatischen Denkprozess, der unserer bewussten Kontrolle weitgehend entzogen ist.",
       "explanation_en": "Many biases are anchored in System 1 — the fast, automatic thinking process that is largely beyond our conscious control."
     },
@@ -111,11 +111,11 @@
       "text_de": "Was bezeichnet Prof. Kästner als ersten Schritt zu besseren Entscheidungen?",
       "text_en": "What does Prof. Kästner call the first step toward better decisions?",
       "options": [
-        "a) Die vollständige Vermeidung aller Heuristiken im Alltag.",
-        "b) Die kognitive Demut — die bewusste Auseinandersetzung mit den eigenen Denkmustern.",
+        "a) Die kognitive Demut — die bewusste Auseinandersetzung mit den eigenen Denkmustern.",
+        "b) Die vollständige Vermeidung aller Heuristiken im Alltag.",
         "c) Die ausschließliche Nutzung computergestützter Entscheidungssysteme."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Kognitive Demut — die bewusste Auseinandersetzung mit unseren eigenen Denkmustern — ist der erste Schritt zu besseren Entscheidungen.",
       "explanation_en": "Cognitive humility — the conscious engagement with our own thinking patterns — is the first step toward better decisions."
     }

@@ -88,10 +88,10 @@
       "text_en": "What does Prof. Steinbach emphasize regarding technological change?",
       "options": [
         "a) Dass technologischer Wandel unvermeidlich ist und nicht beeinflusst werden kann.",
-        "b) Dass Automatisierung sofort gestoppt werden sollte.",
-        "c) Dass er das Ergebnis gesellschaftlicher Entscheidungen ist und die Frage der Automatisierung politisch ist."
+        "b) Dass er das Ergebnis gesellschaftlicher Entscheidungen ist und die Frage der Automatisierung politisch ist.",
+        "c) Dass Automatisierung sofort gestoppt werden sollte."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Technologischer Wandel ist kein Naturereignis, sondern das Ergebnis gesellschaftlicher Entscheidungen — die Frage, was automatisiert wird, ist eine politische Frage.",
       "explanation_en": "Technological change is not a natural event but the result of societal decisions — the question of what is automated is a political question."
     },

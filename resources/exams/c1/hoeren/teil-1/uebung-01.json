@@ -50,11 +50,11 @@
       "text_de": "Wie beschreibt Prof. Schreiber den digitalen Sprachwandel?",
       "text_en": "How does Prof. Schreiber describe digital language change?",
       "options": [
-        "a) Als eine funktionale Ausdifferenzierung der Sprache, nicht als Verfall.",
-        "b) Als einen kulturellen Niedergang, der dringend aufgehalten werden muss.",
+        "a) Als einen kulturellen Niedergang, der dringend aufgehalten werden muss.",
+        "b) Als eine funktionale Ausdifferenzierung der Sprache, nicht als Verfall.",
         "c) Als ein vorübergehendes Phänomen, das sich von selbst korrigieren wird."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Prof. Schreiber betont, dass es sich nicht um Sprachverfall handelt, sondern um eine funktionale Ausdifferenzierung mit erweitertem Register.",
       "explanation_en": "Prof. Schreiber emphasizes that it is not language decay but rather a functional differentiation with an expanded register."
     },
@@ -64,11 +64,11 @@
       "text_de": "Welche Funktion haben Emojis laut Prof. Schreiber in der digitalen Kommunikation?",
       "text_en": "What function do emojis serve according to Prof. Schreiber in digital communication?",
       "options": [
-        "a) Sie dienen ausschließlich als dekorative Elemente in Textnachrichten.",
-        "b) Sie übernehmen pragmatische Funktionen wie die Modulation der Illokution.",
+        "a) Sie übernehmen pragmatische Funktionen wie die Modulation der Illokution.",
+        "b) Sie dienen ausschließlich als dekorative Elemente in Textnachrichten.",
         "c) Sie ersetzen zunehmend die geschriebene Sprache vollständig."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Emojis fungieren nicht als Schmuck, sondern übernehmen pragmatische Funktionen: Sie modulieren die Illokution, mildern Kritik ab oder signalisieren Ironie.",
       "explanation_en": "Emojis do not function as decoration but take on pragmatic functions: they modulate illocutionary force, soften criticism, or signal irony."
     },
@@ -78,11 +78,11 @@
       "text_de": "Was zeigen die korpuslinguistischen Analysen zur Satzlänge?",
       "text_en": "What do the corpus-linguistic analyses show about sentence length?",
       "options": [
-        "a) Die durchschnittliche Satzlänge ist in allen digitalen Textsorten zurückgegangen.",
+        "a) In bestimmten digitalen Diskursgemeinschaften hat die Satzlänge sogar zugenommen.",
         "b) Die Satzlänge bleibt in digitalen Medien konstant im Vergleich zu Printmedien.",
-        "c) In bestimmten digitalen Diskursgemeinschaften hat die Satzlänge sogar zugenommen."
+        "c) Die durchschnittliche Satzlänge ist in allen digitalen Textsorten zurückgegangen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die korpuslinguistischen Analysen zeigen, dass die durchschnittliche Satzlänge in wissenschaftlichen Foren und politischen Blogs zugenommen hat.",
       "explanation_en": "The corpus-linguistic analyses show that average sentence length in academic forums and political blogs has actually increased."
     },
@@ -92,11 +92,11 @@
       "text_de": "Wie werden englische Wörter laut Prof. Schreiber ins Deutsche integriert?",
       "text_en": "How are English words integrated into German according to Prof. Schreiber?",
       "options": [
-        "a) Sie werden in das morphologische System des Deutschen eingepasst.",
+        "a) Sie werden von der Sprachgemeinschaft überwiegend abgelehnt.",
         "b) Sie bleiben unverändert und folgen den englischen Grammatikregeln.",
-        "c) Sie werden von der Sprachgemeinschaft überwiegend abgelehnt."
+        "c) Sie werden in das morphologische System des Deutschen eingepasst."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Anglizismen werden rasch in das morphologische System integriert und folgen deutschen Konjugationsregeln (googeln, posten, liken).",
       "explanation_en": "Anglicisms are quickly integrated into the morphological system and follow German conjugation rules (googeln, posten, liken)."
     },

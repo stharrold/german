@@ -19,11 +19,11 @@
       "text_de": "Was wurde in der Architektur lange vernachlässigt?",
       "text_en": "What was long neglected in architecture?",
       "options": [
-        "a) Die Auswirkungen der gebauten Umgebung auf die seelische Gesundheit.",
+        "a) Die funktionale Nutzbarkeit von Räumen.",
         "b) Die ästhetische Gestaltung von Gebäuden.",
-        "c) Die funktionale Nutzbarkeit von Räumen."
+        "c) Die Auswirkungen der gebauten Umgebung auf die seelische Gesundheit."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Auswirkungen auf die seelische Gesundheit der Nutzer fanden kaum Beachtung.",
       "explanation_en": "The effects on users' mental health received little attention."
     },
@@ -34,10 +34,10 @@
       "text_en": "What effect do high ceilings have according to research?",
       "options": [
         "a) Sie führen zu erhöhter Müdigkeit und Unkonzentriertheit.",
-        "b) Sie aktivieren abstraktes Denken und fördern kreative Problemlösungen.",
-        "c) Sie haben keinen messbaren Einfluss auf kognitive Prozesse."
+        "b) Sie haben keinen messbaren Einfluss auf kognitive Prozesse.",
+        "c) Sie aktivieren abstraktes Denken und fördern kreative Problemlösungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Hohe Decken aktivieren nachweislich abstraktes Denken und fördern kreative Problemlösungen.",
       "explanation_en": "High ceilings demonstrably activate abstract thinking and promote creative problem-solving."
     },
@@ -75,11 +75,11 @@
       "text_de": "Welche Schlussfolgerung zieht der Autor bezüglich menschengerechter Architektur?",
       "text_en": "What conclusion does the author draw regarding human-appropriate architecture?",
       "options": [
-        "a) Sie ist nur für wohlhabende Gesellschaften realisierbar.",
-        "b) Sie ist keine Frage des Luxus, sondern der Gesundheitsvorsorge.",
+        "a) Sie ist keine Frage des Luxus, sondern der Gesundheitsvorsorge.",
+        "b) Sie ist nur für wohlhabende Gesellschaften realisierbar.",
         "c) Sie sollte ausschließlich im Wohnungsbau angewendet werden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Investition in menschengerechte Architektur ist keine Frage des Luxus, sondern der Gesundheitsvorsorge.",
       "explanation_en": "Investment in human-appropriate architecture is not a question of luxury but of health prevention."
     }

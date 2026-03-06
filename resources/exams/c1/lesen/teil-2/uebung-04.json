@@ -19,11 +19,11 @@
       "text_de": "Was ist laut dem Autor das fundamentale Missverständnis der Öffentlichkeit?",
       "text_en": "What is the fundamental misunderstanding of the public according to the author?",
       "options": [
-        "a) Dass der wissenschaftliche Erkenntnisprozess vorläufig und selten eindeutig ist.",
-        "b) Dass Wissenschaft keine praktische Relevanz hat.",
+        "a) Dass Wissenschaft keine praktische Relevanz hat.",
+        "b) Dass der wissenschaftliche Erkenntnisprozess vorläufig und selten eindeutig ist.",
         "c) Dass nur Naturwissenschaften vertrauenswürdig sind."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Beide Haltungen beruhen auf einem Missverständnis des vorläufigen, selbstkorrigierenden Erkenntnisprozesses.",
       "explanation_en": "Both attitudes rest on a misunderstanding of the provisional, self-correcting knowledge process."
     },
@@ -34,10 +34,10 @@
       "text_en": "What shared responsibility does the author attribute to science?",
       "options": [
         "a) Zu wenig in Grundlagenforschung investiert zu haben.",
-        "b) Die Medien nicht ausreichend kontrolliert zu haben.",
-        "c) Die Grenzen ihrer Erkenntnisse nicht transparent kommuniziert zu haben."
+        "b) Die Grenzen ihrer Erkenntnisse nicht transparent kommuniziert zu haben.",
+        "c) Die Medien nicht ausreichend kontrolliert zu haben."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Wissenschaft hat es versäumt, die Grenzen ihrer Erkenntnisse transparent zu kommunizieren.",
       "explanation_en": "Science has failed to transparently communicate the limits of its findings."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was fordert der Autor von der Wissenschaftskommunikation?",
       "text_en": "What does the author demand of science communication?",
       "options": [
-        "a) Komplexe Sachverhalte stärker zu vereinfachen.",
-        "b) Die Vorläufigkeit von Erkenntnissen und die Grenzen der Expertise ehrlich zu benennen.",
+        "a) Die Vorläufigkeit von Erkenntnissen und die Grenzen der Expertise ehrlich zu benennen.",
+        "b) Komplexe Sachverhalte stärker zu vereinfachen.",
         "c) Nur noch gesicherte Fakten zu kommunizieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Forscher müssen die Vorläufigkeit ihrer Erkenntnisse und die Grenzen ihrer Expertise ehrlich benennen.",
       "explanation_en": "Researchers must honestly name the provisionality of their findings and the limits of their expertise."
     },
@@ -61,11 +61,11 @@
       "text_de": "Welches paradoxe Ergebnis beschreibt der Autor?",
       "text_en": "What paradoxical result does the author describe?",
       "options": [
-        "a) Offene Kommunikation von Unsicherheit stärkt das Vertrauen in Experten.",
+        "a) Einfache Botschaften werden besser verstanden, aber weniger geglaubt.",
         "b) Je mehr Studien veröffentlicht werden, desto weniger vertraut die Öffentlichkeit.",
-        "c) Einfache Botschaften werden besser verstanden, aber weniger geglaubt."
+        "c) Offene Kommunikation von Unsicherheit stärkt das Vertrauen in Experten."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Gerade die Offenheit über Unsicherheiten stärkt paradoxerweise das Vertrauen.",
       "explanation_en": "Precisely the openness about uncertainties paradoxically strengthens trust."
     },

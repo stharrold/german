@@ -33,11 +33,11 @@
       "text_de": "Was kritisiert der Autor an gängigen interkulturellen Trainings?",
       "text_en": "What does the author criticize about common intercultural trainings?",
       "options": [
-        "a) Sie sind zu theoretisch und praxisfern.",
+        "a) Sie reduzieren interkulturelle Kompetenz auf oberflächliche Etikette und vermitteln Stereotype.",
         "b) Sie werden ausschließlich in englischer Sprache angeboten.",
-        "c) Sie reduzieren interkulturelle Kompetenz auf oberflächliche Etikette und vermitteln Stereotype."
+        "c) Sie sind zu theoretisch und praxisfern."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Viele Unternehmen reduzieren interkulturelle Kompetenz auf oberflächliche Etikette und vermitteln Stereotype.",
       "explanation_en": "Many companies reduce intercultural competence to superficial etiquette and convey stereotypes."
     },
@@ -61,11 +61,11 @@
       "text_de": "Was geht über sprachliche Barrieren hinaus?",
       "text_en": "What goes beyond linguistic barriers?",
       "options": [
-        "a) Unterschiedliche Kommunikationsstile und implizite kulturelle Normen.",
-        "b) Technische Schwierigkeiten bei der digitalen Zusammenarbeit.",
+        "a) Technische Schwierigkeiten bei der digitalen Zusammenarbeit.",
+        "b) Unterschiedliche Kommunikationsstile und implizite kulturelle Normen.",
         "c) Unterschiede in der beruflichen Qualifikation."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Unterschiedliche Kommunikationsstile und implizite kulturelle Normen gehen weit über sprachliche Barrieren hinaus.",
       "explanation_en": "Different communication styles and implicit cultural norms go far beyond linguistic barriers."
     },
@@ -76,10 +76,10 @@
       "text_en": "When does considerable conflict potential arise according to the text?",
       "options": [
         "a) Wenn Unternehmen auf interkulturelle Trainings verzichten.",
-        "b) Wenn alle Teammitglieder denselben kulturellen Hintergrund haben.",
-        "c) Wenn Mitarbeiter aus kontextarmen und kontextreichen Kulturen zusammenarbeiten."
+        "b) Wenn Mitarbeiter aus kontextarmen und kontextreichen Kulturen zusammenarbeiten.",
+        "c) Wenn alle Teammitglieder denselben kulturellen Hintergrund haben."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Wenn Mitarbeiter aus beiden Kulturkreisen zusammenarbeiten, entsteht erhebliches Konfliktpotenzial.",
       "explanation_en": "When employees from both cultural spheres work together, considerable conflict potential arises."
     }

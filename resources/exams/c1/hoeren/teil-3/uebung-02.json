@@ -64,11 +64,11 @@
       "text_de": "Was braucht Herr Khoury für den Antrag bei der Ingenieurkammer?",
       "text_en": "What does Mr. Khoury need for the application at the Chamber of Engineers?",
       "options": [
-        "a) Eine beglaubigte Übersetzung der Zeugnisse und eine Äquivalenzbescheinigung der Zentralstelle.",
+        "a) Eine Empfehlung seines früheren Arbeitgebers.",
         "b) Nur seinen Originalabschluss ohne weitere Dokumente.",
-        "c) Eine Empfehlung seines früheren Arbeitgebers."
+        "c) Eine beglaubigte Übersetzung der Zeugnisse und eine Äquivalenzbescheinigung der Zentralstelle."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Ingenieurkammer verlangt eine beglaubigte Übersetzung der Zeugnisse und eine Äquivalenzbescheinigung der Zentralstelle für ausländisches Bildungswesen.",
       "explanation_en": "The Chamber of Engineers requires a certified translation of certificates and an equivalence certificate from the Central Office for Foreign Education."
     },
@@ -106,11 +106,11 @@
       "text_de": "Wie lange dauert das Befreiungsverfahren beim Oberlandesgericht erfahrungsgemäß?",
       "text_en": "How long does the exemption procedure at the Higher Regional Court typically take?",
       "options": [
-        "a) Vier bis sechs Wochen.",
+        "a) Etwa zwei bis drei Wochen.",
         "b) Drei bis sechs Monate.",
-        "c) Etwa zwei bis drei Wochen."
+        "c) Vier bis sechs Wochen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Das Befreiungsverfahren dauert erfahrungsgemäß vier bis sechs Wochen.",
       "explanation_en": "The exemption procedure typically takes four to six weeks."
     }

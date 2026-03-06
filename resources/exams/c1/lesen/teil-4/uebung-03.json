@@ -20,10 +20,10 @@
       "text_en": "What does the Japanese term Wabi-Sabi describe?",
       "options": [
         "a) Die Perfektion traditioneller japanischer Handwerkskunst.",
-        "b) Eine Ästhetik, die Schönheit in Unvollkommenheit und Vergänglichkeit findet.",
-        "c) Die japanische Praxis der Gebäuderestaurierung."
+        "b) Die japanische Praxis der Gebäuderestaurierung.",
+        "c) Eine Ästhetik, die Schönheit in Unvollkommenheit und Vergänglichkeit findet."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Wabi-Sabi findet Schönheit gerade in der Unvollkommenheit, den Spuren der Zeit und der Vergänglichkeit.",
       "explanation_en": "Wabi-Sabi finds beauty precisely in imperfection, traces of time, and transience."
     },
@@ -34,10 +34,10 @@
       "text_en": "What is the aesthetics of decay NOT according to the author?",
       "options": [
         "a) Eine Form der Anerkennung der Vergänglichkeit.",
-        "b) Eine kulturübergreifende ästhetische Tradition.",
-        "c) Ein Ausdruck von Nihilismus."
+        "b) Ein Ausdruck von Nihilismus.",
+        "c) Eine kulturübergreifende ästhetische Tradition."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Verfallsästhetik ist kein Ausdruck von Nihilismus, sondern eine Form der Anerkennung.",
       "explanation_en": "The aesthetics of decay is not an expression of nihilism but a form of acknowledgment."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was sehen Urban Explorer in verlassenen Räumen?",
       "text_en": "What do Urban Explorers see in abandoned spaces?",
       "options": [
-        "a) Eine Gegenwelt zum optimierten, durchgestalteten Alltag.",
-        "b) Möglichkeiten zur kommerziellen Verwertung verfallener Gebäude.",
+        "a) Möglichkeiten zur kommerziellen Verwertung verfallener Gebäude.",
+        "b) Eine Gegenwelt zum optimierten, durchgestalteten Alltag.",
         "c) Beweise für den Niedergang der modernen Zivilisation."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Die Anhänger sehen in menschenleeren Räumen eine Gegenwelt zum optimierten Alltag.",
       "explanation_en": "Adherents see in deserted spaces a counter-world to the optimized everyday life."
     },
@@ -61,11 +61,11 @@
       "text_de": "Wogegen rebelliert die Ästhetik des Verfalls laut dem Text?",
       "text_en": "Against what does the aesthetics of decay rebel according to the text?",
       "options": [
-        "a) Gegen traditionelle Kunstformen und Museumskultur.",
-        "b) Gegen den Kontrollwahn einer Gesellschaft, die das Endliche zu tilgen versucht.",
+        "a) Gegen den Kontrollwahn einer Gesellschaft, die das Endliche zu tilgen versucht.",
+        "b) Gegen traditionelle Kunstformen und Museumskultur.",
         "c) Gegen die Globalisierung und den Verlust lokaler Identität."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Verfallsästhetik ist eine Rebellion gegen den Kontrollwahn einer Gesellschaft, die das Unvollkommene tilgen will.",
       "explanation_en": "The aesthetics of decay is a rebellion against the control mania of a society seeking to eliminate the imperfect."
     },

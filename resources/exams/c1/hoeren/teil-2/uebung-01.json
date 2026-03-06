@@ -45,11 +45,11 @@
       "text_de": "Warum befürwortet Dr. Frey das bedingungslose Grundeinkommen?",
       "text_en": "Why does Dr. Frey support the unconditional basic income?",
       "options": [
-        "a) Weil es die konsequenteste Antwort auf die Umwälzungen des Arbeitsmarktes durch Automatisierung ist.",
+        "a) Weil die Mehrheit der Bevölkerung nicht mehr arbeiten möchte.",
         "b) Weil es billiger als das bestehende Sozialsystem ist.",
-        "c) Weil die Mehrheit der Bevölkerung nicht mehr arbeiten möchte."
+        "c) Weil es die konsequenteste Antwort auf die Umwälzungen des Arbeitsmarktes durch Automatisierung ist."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Dr. Frey sieht das Grundeinkommen als konsequenteste Antwort auf die Automatisierung, die Millionen Arbeitsplätze obsolet machen wird.",
       "explanation_en": "Dr. Frey sees the basic income as the most consistent answer to automation, which will make millions of jobs obsolete."
     },
@@ -60,10 +60,10 @@
       "text_en": "What is Mr. Brückner's main objection to the basic income?",
       "options": [
         "a) Dass es die technologische Entwicklung verlangsamen würde.",
-        "b) Dass der Verlust der Erwerbsarbeit zu einem Verlust an Sinnstiftung führen könnte.",
-        "c) Dass es die Inflation massiv ansteigen lassen würde."
+        "b) Dass es die Inflation massiv ansteigen lassen würde.",
+        "c) Dass der Verlust der Erwerbsarbeit zu einem Verlust an Sinnstiftung führen könnte."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Brückners Haupteinwand betrifft die soziale Dimension: Erwerbsarbeit ist eine zentrale Quelle sozialer Anerkennung und Sinnstiftung.",
       "explanation_en": "Brückner's main objection concerns the social dimension: gainful employment is a central source of social recognition and meaning."
     },
@@ -74,10 +74,10 @@
       "text_en": "What do the basic income pilot projects show according to Dr. Frey?",
       "options": [
         "a) Dass die Empfänger weniger arbeiteten als zuvor.",
-        "b) Dass die Projekte mangels Teilnehmern abgebrochen werden mussten.",
-        "c) Dass die Empfänger sich weiterbildeten, ehrenamtlich engagierten oder Unternehmen gründeten."
+        "b) Dass die Empfänger sich weiterbildeten, ehrenamtlich engagierten oder Unternehmen gründeten.",
+        "c) Dass die Projekte mangels Teilnehmern abgebrochen werden mussten."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Pilotprojekte zeigen, dass Empfänger nicht in Passivität verfielen, sondern sich weiterbildeten, engagierten oder Unternehmen gründeten.",
       "explanation_en": "The pilot projects show that recipients did not lapse into passivity but pursued education, volunteered, or started businesses."
     },
@@ -87,11 +87,11 @@
       "text_de": "Was kritisiert Herr Brückner an den Pilotprojekten?",
       "text_en": "What does Mr. Brückner criticize about the pilot projects?",
       "options": [
-        "a) Dass sie methodisch umstritten sind und keine Rückschlüsse auf gesellschaftsweite Effekte erlauben.",
-        "b) Dass sie in den falschen Ländern durchgeführt wurden.",
+        "a) Dass sie in den falschen Ländern durchgeführt wurden.",
+        "b) Dass sie methodisch umstritten sind und keine Rückschlüsse auf gesellschaftsweite Effekte erlauben.",
         "c) Dass sie von der Industrie finanziert wurden."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Brückner kritisiert, dass kurzfristige Experimente mit kleinen Stichproben methodisch umstritten sind und keine Rückschlüsse auf gesellschaftsweite Auswirkungen zulassen.",
       "explanation_en": "Brückner criticizes that short-term experiments with small samples are methodologically disputed and do not allow conclusions about society-wide effects."
     },
@@ -102,10 +102,10 @@
       "text_en": "How does Dr. Frey want to finance the basic income?",
       "options": [
         "a) Ausschließlich durch Kürzungen bei der Verteidigung.",
-        "b) Durch Finanztransaktionssteuer, Maschinensteuer und Umwidmung bestehender Transferleistungen.",
-        "c) Durch freiwillige Beiträge der Unternehmen."
+        "b) Durch freiwillige Beiträge der Unternehmen.",
+        "c) Durch Finanztransaktionssteuer, Maschinensteuer und Umwidmung bestehender Transferleistungen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Dr. Frey schlägt eine Kombination aus Finanztransaktionssteuer, Maschinensteuer und Umwidmung bestehender Transferleistungen vor.",
       "explanation_en": "Dr. Frey proposes a combination of financial transaction tax, robot tax, and reallocation of existing transfer payments."
     }

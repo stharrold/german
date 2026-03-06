@@ -51,10 +51,10 @@
       "text_en": "What does Prof. Demir think of the thesis that globalization leads to cultural homogenization?",
       "options": [
         "a) Sie stimmt dieser These vollständig zu.",
-        "b) Sie bestätigt die These mit Einschränkungen.",
-        "c) Sie hält sie für eine unzulässige Vereinfachung."
+        "b) Sie hält sie für eine unzulässige Vereinfachung.",
+        "c) Sie bestätigt die These mit Einschränkungen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Prof. Demir hält die Homogenisierungsthese für eine unzulässige Vereinfachung; stattdessen beobachtet sie einen dialektischen Prozess.",
       "explanation_en": "Prof. Demir considers the homogenization thesis an inadmissible simplification; instead she observes a dialectical process."
     },
@@ -65,10 +65,10 @@
       "text_en": "What does Prof. Demir understand by the term glocalization?",
       "options": [
         "a) Die vollständige Ablösung lokaler Kulturen durch globale Trends.",
-        "b) Die Verschränkung von globalen und lokalen Dynamiken.",
-        "c) Die Rückkehr zu vorindustriellen Kulturformen."
+        "b) Die Rückkehr zu vorindustriellen Kulturformen.",
+        "c) Die Verschränkung von globalen und lokalen Dynamiken."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Glokalisierung bezeichnet die Verschränkung von globalen und lokalen Dynamiken — kulturelle Identität als Aushandlungsprozess.",
       "explanation_en": "Glocalization refers to the intertwining of global and local dynamics — cultural identity as a negotiation process."
     },
@@ -78,11 +78,11 @@
       "text_de": "Welche Rolle spielen digitale Medien laut Prof. Demir für diasporische Gemeinschaften?",
       "text_en": "What role do digital media play for diasporic communities according to Prof. Demir?",
       "options": [
-        "a) Sie ermöglichen die Aufrechterhaltung kultureller Praktiken über nationale Grenzen hinweg.",
+        "a) Sie haben keinen wesentlichen Einfluss auf kulturelle Identitäten.",
         "b) Sie beschleunigen den Verlust traditioneller kultureller Praktiken.",
-        "c) Sie haben keinen wesentlichen Einfluss auf kulturelle Identitäten."
+        "c) Sie ermöglichen die Aufrechterhaltung kultureller Praktiken über nationale Grenzen hinweg."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Digitale Medien ermöglichen diasporischen Gemeinschaften, kulturelle Praktiken über nationale Grenzen hinweg aufrechtzuerhalten und transnationale Kulturräume zu schaffen.",
       "explanation_en": "Digital media enable diasporic communities to maintain cultural practices across national borders and create transnational cultural spaces."
     },
@@ -106,11 +106,11 @@
       "text_de": "Was ist laut Prof. Demir die entscheidende gesellschaftliche Frage im Umgang mit kulturellem Wandel?",
       "text_en": "What is the decisive societal question in dealing with cultural change according to Prof. Demir?",
       "options": [
-        "a) Ob Kulturen sich überhaupt verändern.",
-        "b) Wie eine Gesellschaft mit kultureller Veränderung umgeht — offen oder abgrenzend.",
+        "a) Wie eine Gesellschaft mit kultureller Veränderung umgeht — offen oder abgrenzend.",
+        "b) Ob Kulturen sich überhaupt verändern.",
         "c) Ob der Staat kulturellen Wandel gesetzlich regulieren sollte."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die entscheidende Frage ist nicht, ob sich Kulturen verändern, sondern wie die Gesellschaft damit umgeht: offen und dialogbereit oder ängstlich und abgrenzend.",
       "explanation_en": "The decisive question is not whether cultures change but how society deals with it: openly and ready for dialogue, or anxiously and demarcating."
     }

@@ -19,11 +19,11 @@
       "text_de": "Welches ernüchternde Ergebnis präsentiert der Bericht?",
       "text_en": "What sobering result does the report present?",
       "options": [
-        "a) Die Teilnehmerzahlen an Integrationskursen sind rückläufig.",
+        "a) Weniger als die Hälfte der Absolventen erreicht das angestrebte B1-Niveau.",
         "b) Die Integrationskurse sind zu teuer für die Teilnehmer.",
-        "c) Weniger als die Hälfte der Absolventen erreicht das angestrebte B1-Niveau."
+        "c) Die Teilnehmerzahlen an Integrationskursen sind rückläufig."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Weniger als die Hälfte der Absolventen erreicht das angestrebte Sprachniveau B1.",
       "explanation_en": "Fewer than half of graduates reach the target language level B1."
     },
@@ -33,11 +33,11 @@
       "text_de": "Warum ist die hohe Fluktuation bei Lehrkräften ein Problem?",
       "text_en": "Why is the high turnover of teachers a problem?",
       "options": [
-        "a) Weil es zu wenig qualifizierte Deutschlehrer gibt.",
-        "b) Weil die niedrigen Honorare qualifizierte Dozenten nicht halten können.",
+        "a) Weil die niedrigen Honorare qualifizierte Dozenten nicht halten können.",
+        "b) Weil es zu wenig qualifizierte Deutschlehrer gibt.",
         "c) Weil Lehrkräfte ungern mit heterogenen Gruppen arbeiten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Honorare liegen unter dem Niveau regulärer Sprachschulen, was zu hoher Fluktuation führt.",
       "explanation_en": "Fees are below the level of regular language schools, leading to high turnover."
     },
@@ -62,10 +62,10 @@
       "text_en": "What group size does the report recommend?",
       "options": [
         "a) 20 bis 25 Personen wie im bestehenden System.",
-        "b) 5 bis 10 Personen für maximale individuelle Betreuung.",
-        "c) Maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo."
+        "b) Maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo.",
+        "c) 5 bis 10 Personen für maximale individuelle Betreuung."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Der Bericht empfiehlt Gruppen von maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo.",
       "explanation_en": "The report recommends groups of maximum 15 persons, differentiated by educational background and learning pace."
     },
@@ -75,11 +75,11 @@
       "text_de": "Warum sollte Sprachförderung mit beruflicher Qualifizierung verzahnt werden?",
       "text_en": "Why should language promotion be integrated with professional qualification?",
       "options": [
-        "a) Weil allgemeinsprachliche Fähigkeiten für den Beruf nicht relevant sind.",
-        "b) Weil fachsprachliche Kompetenzen für den Arbeitsmarktzugang mindestens ebenso bedeutsam sind.",
+        "a) Weil fachsprachliche Kompetenzen für den Arbeitsmarktzugang mindestens ebenso bedeutsam sind.",
+        "b) Weil allgemeinsprachliche Fähigkeiten für den Beruf nicht relevant sind.",
         "c) Weil Arbeitgeber keine allgemeinen Sprachzertifikate akzeptieren."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Fachsprachliche Kompetenzen sind für den Arbeitsmarktzugang mindestens ebenso bedeutsam wie allgemeinsprachliche.",
       "explanation_en": "Technical language skills are at least as important for labor market access as general language abilities."
     }

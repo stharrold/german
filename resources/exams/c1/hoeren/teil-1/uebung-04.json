@@ -78,11 +78,11 @@
       "text_de": "Um wie viel Prozent können Überflutungsrisiken durch das Schwammstadtprinzip gesenkt werden?",
       "text_en": "By what percentage can flooding risks be reduced through the sponge city principle?",
       "options": [
-        "a) Um bis zu 20 Prozent.",
-        "b) Um bis zu 40 Prozent.",
+        "a) Um bis zu 40 Prozent.",
+        "b) Um bis zu 20 Prozent.",
         "c) Um bis zu 60 Prozent."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Modellrechnungen zeigen, dass das Schwammstadtprinzip Überflutungsrisiken um bis zu 40 Prozent senken kann.",
       "explanation_en": "Model calculations show that the sponge city principle can reduce flooding risks by up to 40 percent."
     },
@@ -106,11 +106,11 @@
       "text_de": "Warum scheitern langfristige Investitionen in nachhaltige Infrastruktur häufig?",
       "text_en": "Why do long-term investments in sustainable infrastructure often fail?",
       "options": [
-        "a) Weil die Bürger solche Maßnahmen ausnahmslos ablehnen.",
+        "a) Weil die kurzfristige Orientierung der Kommunalpolitik langfristigen Planungen entgegensteht.",
         "b) Weil die Technologien noch nicht ausgereift sind.",
-        "c) Weil die kurzfristige Orientierung der Kommunalpolitik langfristigen Planungen entgegensteht."
+        "c) Weil die Bürger solche Maßnahmen ausnahmslos ablehnen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Investitionen in nachhaltige Infrastruktur amortisieren sich oft erst nach Jahrzehnten, während Legislaturperioden nur wenige Jahre dauern.",
       "explanation_en": "Investments in sustainable infrastructure often only pay off after decades, while legislative terms last only a few years."
     }

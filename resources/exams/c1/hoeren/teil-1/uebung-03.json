@@ -65,10 +65,10 @@
       "text_en": "Why is the demarcation between therapy and enhancement problematic?",
       "options": [
         "a) Weil die Kosten für beide Eingriffe identisch sind.",
-        "b) Weil es keine klaren Krankheitsbilder gibt.",
-        "c) Weil die Grenze zwischen Krankheitsbehandlung und Optimierung gleitend ist."
+        "b) Weil die Grenze zwischen Krankheitsbehandlung und Optimierung gleitend ist.",
+        "c) Weil es keine klaren Krankheitsbilder gibt."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Je weiter man sich von eindeutigen Krankheitsbildern entfernt, desto gleitender wird die Grenze zwischen Therapie und Enhancement.",
       "explanation_en": "The further one moves from clear-cut disease patterns, the more fluid the boundary between therapy and enhancement becomes."
     },
@@ -92,11 +92,11 @@
       "text_de": "Warum sind nationale Alleingänge bei der Regulierung laut Prof. Hartmann wirkungslos?",
       "text_en": "Why are national solo efforts in regulation ineffective according to Prof. Hartmann?",
       "options": [
-        "a) Weil alle Länder bereits identische Gesetze verabschiedet haben.",
-        "b) Weil die Forschung globalisiert ist und verbotene Eingriffe anderswo durchgeführt werden.",
+        "a) Weil die Forschung globalisiert ist und verbotene Eingriffe anderswo durchgeführt werden.",
+        "b) Weil alle Länder bereits identische Gesetze verabschiedet haben.",
         "c) Weil nationale Regierungen kein Interesse an Bioethik haben."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Nationale Alleingänge sind wirkungslos, weil in einer globalisierten Forschungslandschaft verbotene Eingriffe in anderen Ländern durchgeführt werden.",
       "explanation_en": "National solo efforts are ineffective because in a globalized research landscape, prohibited interventions are carried out in other countries."
     },
@@ -107,10 +107,10 @@
       "text_en": "Whom does Prof. Hartmann want to include in the societal discourse?",
       "options": [
         "a) Ausschließlich Wissenschaftler und Politiker.",
-        "b) Nur die direkt Betroffenen genetischer Erkrankungen.",
-        "c) Wissenschaftler, Ethiker, Betroffene, religiöse Gemeinschaften und die Öffentlichkeit."
+        "b) Wissenschaftler, Ethiker, Betroffene, religiöse Gemeinschaften und die Öffentlichkeit.",
+        "c) Nur die direkt Betroffenen genetischer Erkrankungen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Er plädiert für einen breiten Diskurs, der Wissenschaftler, Ethiker, Betroffene, religiöse Gemeinschaften und die allgemeine Öffentlichkeit einbezieht.",
       "explanation_en": "He advocates for a broad discourse including scientists, ethicists, affected individuals, religious communities, and the general public."
     }

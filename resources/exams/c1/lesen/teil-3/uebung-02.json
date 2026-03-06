@@ -20,10 +20,10 @@
       "text_en": "What does the author criticize about plant-based meat substitutes?",
       "options": [
         "a) Sie schmecken nicht wie echtes Fleisch.",
-        "b) Sie sind zu teuer für den Massenmarkt.",
-        "c) Ihre industrielle Herstellung erfordert erheblichen Energieaufwand und nutzt oft Monokulturen."
+        "b) Ihre industrielle Herstellung erfordert erheblichen Energieaufwand und nutzt oft Monokulturen.",
+        "c) Sie sind zu teuer für den Massenmarkt."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Herstellung erfordert erheblichen Energieaufwand, und die Rohstoffe stammen oft aus Monokulturen.",
       "explanation_en": "Production requires considerable energy expenditure, and raw materials often come from monocultures."
     },
@@ -75,11 +75,11 @@
       "text_de": "Welche systemische Maßnahme empfiehlt der Autor?",
       "text_en": "What systemic measure does the author recommend?",
       "options": [
-        "a) Die Förderung regionaler, saisonaler Landwirtschaft und kürzerer Lieferketten.",
+        "a) Den vollständigen Verzicht auf importierte Lebensmittel.",
         "b) Die staatliche Subventionierung von Fleischersatzprodukten.",
-        "c) Den vollständigen Verzicht auf importierte Lebensmittel."
+        "c) Die Förderung regionaler, saisonaler Landwirtschaft und kürzerer Lieferketten."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Regionale, saisonale Landwirtschaft und kürzere Lieferketten würden den CO2-Fußabdruck nachhaltiger senken.",
       "explanation_en": "Regional, seasonal agriculture and shorter supply chains would reduce the carbon footprint more sustainably."
     }

@@ -70,10 +70,10 @@
       "text_en": "What distinguishes translanguaging from classic code-switching?",
       "options": [
         "a) Translanguaging findet nur in formellen Kontexten statt.",
-        "b) Translanguaging beschreibt den vollständigen Sprachverlust einer der beiden Sprachen.",
-        "c) Translanguaging geht von einem integrierten sprachlichen Repertoire aus, nicht von getrennten Systemen."
+        "b) Translanguaging geht von einem integrierten sprachlichen Repertoire aus, nicht von getrennten Systemen.",
+        "c) Translanguaging beschreibt den vollständigen Sprachverlust einer der beiden Sprachen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Translanguaging geht davon aus, dass Mehrsprachige über ein integriertes sprachliches Repertoire verfügen, aus dem sie kontextabhängig schöpfen.",
       "explanation_en": "Translanguaging assumes that multilinguals possess an integrated linguistic repertoire from which they draw depending on context."
     },
@@ -97,11 +97,11 @@
       "text_de": "Was verdeutlicht das Beispiel der unterschiedlichen Bewertung von Englisch-Deutsch- und Türkisch-Deutsch-Sprechern?",
       "text_en": "What does the example of the different evaluation of English-German and Turkish-German speakers illustrate?",
       "options": [
-        "a) Dass die asymmetrische Bewertung Ausdruck gesellschaftlicher Machtverhältnisse ist.",
-        "b) Dass Englisch linguistisch wertvoller ist als Türkisch.",
+        "a) Dass Englisch linguistisch wertvoller ist als Türkisch.",
+        "b) Dass die asymmetrische Bewertung Ausdruck gesellschaftlicher Machtverhältnisse ist.",
         "c) Dass nur romanische und germanische Sprachen kognitive Vorteile bieten."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Die asymmetrische Bewertung ist Ausdruck gesellschaftlicher Machtverhältnisse, nicht linguistischer Unterschiede.",
       "explanation_en": "The asymmetric evaluation is an expression of societal power relations, not linguistic differences."
     },
@@ -111,11 +111,11 @@
       "text_de": "Wofür plädiert Prof. Ağaoğlu abschließend?",
       "text_en": "What does Prof. Ağaoğlu advocate for in conclusion?",
       "options": [
-        "a) Für die Abschaffung des Fremdsprachenunterrichts zugunsten der Herkunftssprachen.",
+        "a) Für einen Paradigmenwechsel hin zur Ressourcenorientierung, die sprachliche Vielfalt als Reichtum begreift.",
         "b) Für die gesetzliche Verpflichtung zur Dreisprachigkeit für alle Bürger.",
-        "c) Für einen Paradigmenwechsel hin zur Ressourcenorientierung, die sprachliche Vielfalt als Reichtum begreift."
+        "c) Für die Abschaffung des Fremdsprachenunterrichts zugunsten der Herkunftssprachen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Prof. Ağaoğlu plädiert für einen Paradigmenwechsel: weg vom Defizitansatz, hin zu einer Ressourcenorientierung, die sprachliche Vielfalt als gesellschaftlichen Reichtum begreift.",
       "explanation_en": "Prof. Ağaoğlu advocates for a paradigm shift: away from the deficit approach, toward a resource orientation that understands linguistic diversity as societal wealth."
     }

@@ -20,10 +20,10 @@
       "text_en": "Why is the RSA algorithm threatened by quantum computers?",
       "options": [
         "a) Weil er auf veralteter Programmiersprache basiert.",
-        "b) Weil Quantencomputer die zugrunde liegende Mathematik nicht benötigen.",
-        "c) Weil der Shor-Algorithmus die Primfaktorzerlegung in kurzer Zeit durchführen könnte."
+        "b) Weil der Shor-Algorithmus die Primfaktorzerlegung in kurzer Zeit durchführen könnte.",
+        "c) Weil Quantencomputer die zugrunde liegende Mathematik nicht benötigen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Der Shor-Algorithmus könnte die Primfaktorzerlegung, auf der RSA basiert, in kurzer Zeit durchführen.",
       "explanation_en": "The Shor algorithm could perform the prime factorization on which RSA is based in short time."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was sind gitterbasierte kryptographische Verfahren?",
       "text_en": "What are lattice-based cryptographic methods?",
       "options": [
-        "a) Verschlüsselungsmethoden, die auch für Quantencomputer schwer zu brechen sind.",
-        "b) Veraltete Verfahren, die bereits ersetzt wurden.",
+        "a) Veraltete Verfahren, die bereits ersetzt wurden.",
+        "b) Verschlüsselungsmethoden, die auch für Quantencomputer schwer zu brechen sind.",
         "c) Methoden, die nur auf klassischen Computern funktionieren."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Gitterbasierte Verfahren beruhen auf Problemen, die auch für Quantencomputer als schwer lösbar gelten.",
       "explanation_en": "Lattice-based methods rest on problems considered difficult to solve even for quantum computers."
     },
@@ -48,10 +48,10 @@
       "text_en": "What does the harvest-now-decrypt-later risk mean?",
       "options": [
         "a) Daten werden sofort entschlüsselt und veröffentlicht.",
-        "b) Verschlüsselte Daten werden heute gesammelt, um sie später mit Quantencomputern zu entschlüsseln.",
-        "c) Quantencomputer werden bereits eingesetzt, um aktuelle Verschlüsselungen zu brechen."
+        "b) Quantencomputer werden bereits eingesetzt, um aktuelle Verschlüsselungen zu brechen.",
+        "c) Verschlüsselte Daten werden heute gesammelt, um sie später mit Quantencomputern zu entschlüsseln."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Akteure könnten verschlüsselte Kommunikation heute abfangen, um sie später mit Quantencomputern zu entschlüsseln.",
       "explanation_en": "Actors could intercept encrypted communication today to decrypt it later with quantum computers."
     },
@@ -75,11 +75,11 @@
       "text_de": "Für welche Bereiche ist die Umstellung auf quantensichere Verfahren besonders dringlich?",
       "text_en": "For which areas is the transition to quantum-safe methods particularly urgent?",
       "options": [
-        "a) Bereiche, in denen Daten über Jahrzehnte vertraulich bleiben müssen.",
+        "a) Ausschließlich militärische Anwendungen.",
         "b) Unterhaltungsindustrie und soziale Medien.",
-        "c) Ausschließlich militärische Anwendungen."
+        "c) Bereiche, in denen Daten über Jahrzehnte vertraulich bleiben müssen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Besonders dringlich ist es für Gesundheitswesen, Bankensystem und staatliche Kommunikation.",
       "explanation_en": "It is particularly urgent for healthcare, banking, and government communication."
     }

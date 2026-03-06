@@ -20,10 +20,10 @@
       "text_en": "What does AI-generated art lack according to its critics?",
       "options": [
         "a) Technische Perfektion und visuelle Qualität.",
-        "b) Die existenzielle Dimension menschlicher Erfahrung.",
-        "c) Die Fähigkeit, bestehende Kunstwerke zu imitieren."
+        "b) Die Fähigkeit, bestehende Kunstwerke zu imitieren.",
+        "c) Die existenzielle Dimension menschlicher Erfahrung."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Dem Algorithmus fehlt die existenzielle Dimension: Er kennt weder Schmerz noch Freude, weder Sterblichkeit noch Sehnsucht.",
       "explanation_en": "The algorithm lacks the existential dimension: it knows neither pain nor joy, neither mortality nor longing."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was entgegnen Befürworter der KI-Kunst?",
       "text_en": "What do proponents of AI art counter?",
       "options": [
-        "a) KI-Kunst sei der menschlichen Kunst in jeder Hinsicht überlegen.",
+        "a) Auch menschliche Kreativität beruht auf der Transformation vorhandener Einflüsse.",
         "b) Authentische Kunst könne nur von Menschen geschaffen werden.",
-        "c) Auch menschliche Kreativität beruht auf der Transformation vorhandener Einflüsse."
+        "c) KI-Kunst sei der menschlichen Kunst in jeder Hinsicht überlegen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Menschliche Kreativität beruht ebenfalls auf der Transformation vorhandener Einflüsse; die Grenze ist fließend.",
       "explanation_en": "Human creativity also rests on the transformation of existing influences; the boundary is fluid."
     },
@@ -47,11 +47,11 @@
       "text_de": "Warum versagt das bestehende Urheberrecht bei KI-generierter Kunst?",
       "text_en": "Why does existing copyright law fail with AI-generated art?",
       "options": [
-        "a) Es beruht auf dem Konzept eines menschlichen Schöpfers.",
+        "a) Es schützt nur Werke, die kommerziell erfolgreich sind.",
         "b) Es wurde seit Jahrzehnten nicht mehr aktualisiert.",
-        "c) Es schützt nur Werke, die kommerziell erfolgreich sind."
+        "c) Es beruht auf dem Konzept eines menschlichen Schöpfers."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Das Urheberrecht bietet keinen klaren Schutzrahmen, da es auf dem Konzept eines menschlichen Schöpfers beruht.",
       "explanation_en": "Copyright law offers no clear framework as it is based on the concept of a human creator."
     },
@@ -61,11 +61,11 @@
       "text_de": "Welche sozioökonomische Bedrohung beschreibt der Text?",
       "text_en": "What socioeconomic threat does the text describe?",
       "options": [
-        "a) Kunsthochschulen verlieren ihre Studierenden an Technologieunternehmen.",
-        "b) Kreative Berufe sehen ihre Existenzgrundlage durch KI-Systeme bedroht.",
+        "a) Kreative Berufe sehen ihre Existenzgrundlage durch KI-Systeme bedroht.",
+        "b) Kunsthochschulen verlieren ihre Studierenden an Technologieunternehmen.",
         "c) Museen können keine Besucher mehr anziehen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Illustratoren, Grafikdesigner und Musiker sehen ihre Existenzgrundlage durch KI-Systeme bedroht.",
       "explanation_en": "Illustrators, graphic designers, and musicians see their livelihood threatened by AI systems."
     },
@@ -75,11 +75,11 @@
       "text_de": "Worin besteht die kulturpolitische Herausforderung?",
       "text_en": "What does the cultural-political challenge consist of?",
       "options": [
-        "a) KI-generierte Kunst vollständig zu verbieten.",
+        "a) Innovation zu ermöglichen, ohne die wirtschaftliche Grundlage kreativer Berufe zu zerstören.",
         "b) Nur noch menschliche Kunst staatlich zu fördern.",
-        "c) Innovation zu ermöglichen, ohne die wirtschaftliche Grundlage kreativer Berufe zu zerstören."
+        "c) KI-generierte Kunst vollständig zu verbieten."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die Herausforderung besteht darin, Innovation zu ermöglichen, ohne die Grundlage kreativer Berufe zu zerstören.",
       "explanation_en": "The challenge consists in enabling innovation without destroying the foundation of creative professions."
     }

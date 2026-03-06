@@ -59,11 +59,11 @@
       "text_de": "Welchen Vorteil der Videoüberwachung nennt Frau Becker?",
       "text_en": "What advantage of video surveillance does Ms. Becker mention?",
       "options": [
-        "a) Dass sie die Kriminalität vollständig beseitigt.",
+        "a) Dass sie die Aufklärungsquote an Brennpunkten signifikant erhöht.",
         "b) Dass sie die Kosten der Polizeiarbeit halbiert.",
-        "c) Dass sie die Aufklärungsquote an Brennpunkten signifikant erhöht."
+        "c) Dass sie die Kriminalität vollständig beseitigt."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Frau Becker verweist darauf, dass Videoüberwachung an Brennpunkten die Aufklärungsquote signifikant erhöht — in einigen Städten um bis zu 30 Prozent.",
       "explanation_en": "Ms. Becker points out that video surveillance at hotspots significantly increases the clearance rate — in some cities by up to 30 percent."
     },

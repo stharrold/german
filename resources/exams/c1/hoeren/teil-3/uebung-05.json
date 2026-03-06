@@ -46,10 +46,10 @@
       "text_en": "What do the employee survey results show?",
       "options": [
         "a) Dass die Gehaltszufriedenheit stark gesunken ist.",
-        "b) Dass die Mitarbeitenden insgesamt sehr zufrieden sind.",
-        "c) Dass die Zufriedenheit mit der internen Kommunikation um 15 Prozentpunkte gesunken ist."
+        "b) Dass die Zufriedenheit mit der internen Kommunikation um 15 Prozentpunkte gesunken ist.",
+        "c) Dass die Mitarbeitenden insgesamt sehr zufrieden sind."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Zufriedenheit mit der internen Kommunikation ist um 15 Prozentpunkte gesunken, besonders kritisch wird die mangelnde Transparenz bewertet.",
       "explanation_en": "Satisfaction with internal communication has dropped by 15 percentage points, with the lack of transparency rated particularly critically."
     },
@@ -60,10 +60,10 @@
       "text_en": "What are 60 percent of the complaints attributable to?",
       "options": [
         "a) Auf Materialfehler bei der Zulieferung.",
-        "b) Auf eine mangelhafte Kalibrierung der Schweißroboter in Linie 4.",
-        "c) Auf Bedienungsfehler des Personals."
+        "b) Auf Bedienungsfehler des Personals.",
+        "c) Auf eine mangelhafte Kalibrierung der Schweißroboter in Linie 4."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "60 Prozent der Reklamationen sind auf eine mangelhafte Kalibrierung der Schweißroboter in Linie 4 zurückzuführen.",
       "explanation_en": "60 percent of complaints are attributable to inadequate calibration of the welding robots in line 4."
     },
@@ -73,11 +73,11 @@
       "text_de": "Was empfiehlt der Produktionsleiter zur Lösung des Qualitätsproblems?",
       "text_en": "What does the production manager recommend to solve the quality problem?",
       "options": [
-        "a) Rückkehr zur wöchentlichen Kalibrierung und Installation eines automatischen Monitoring-Systems.",
+        "a) Einstellung zusätzlichen Personals für die Qualitätskontrolle.",
         "b) Austausch aller Schweißroboter durch neuere Modelle.",
-        "c) Einstellung zusätzlichen Personals für die Qualitätskontrolle."
+        "c) Rückkehr zur wöchentlichen Kalibrierung und Installation eines automatischen Monitoring-Systems."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Der Produktionsleiter empfiehlt die Rückkehr zur wöchentlichen Kalibrierung und die Installation eines automatischen Monitoring-Systems.",
       "explanation_en": "The production manager recommends returning to weekly calibration and installing an automatic monitoring system."
     },
@@ -87,11 +87,11 @@
       "text_de": "Welches Defizit haben die internen Kandidaten für die Bereichsleitung?",
       "text_en": "What deficit do the internal candidates for the division head position have?",
       "options": [
-        "a) Mangelnde Führungserfahrung und fehlende Teamfähigkeit.",
+        "a) Fehlende Auslandserfahrung, die für die Internationalisierung nötig wäre.",
         "b) Unzureichende fachliche Qualifikation für die Position.",
-        "c) Fehlende Auslandserfahrung, die für die Internationalisierung nötig wäre."
+        "c) Mangelnde Führungserfahrung und fehlende Teamfähigkeit."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Keiner der drei internen Kandidaten hat Auslandserfahrung, die für die zunehmende Internationalisierung unerlässlich wäre.",
       "explanation_en": "None of the three internal candidates has international experience, which would be essential for the increasing internationalization."
     },
@@ -102,10 +102,10 @@
       "text_en": "What does the managing director additionally want to have examined?",
       "options": [
         "a) Ob die Position vollständig gestrichen werden kann.",
-        "b) Ob zusätzlich extern rekrutiert werden sollte, um eine breitere Auswahl zu haben.",
-        "c) Ob alle drei Kandidaten gleichzeitig eingestellt werden können."
+        "b) Ob alle drei Kandidaten gleichzeitig eingestellt werden können.",
+        "c) Ob zusätzlich extern rekrutiert werden sollte, um eine breitere Auswahl zu haben."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Der Geschäftsführer möchte prüfen lassen, ob zusätzlich extern rekrutiert werden sollte, um eine breitere Auswahl zu haben.",
       "explanation_en": "The managing director wants to examine whether external recruitment should be pursued additionally to have a broader selection."
     }

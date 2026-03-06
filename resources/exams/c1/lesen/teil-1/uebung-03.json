@@ -19,11 +19,11 @@
       "text_de": "Was kennzeichnet das Schweizer Territorialprinzip?",
       "text_en": "What characterizes the Swiss territorial principle?",
       "options": [
-        "a) Alle Bürger müssen alle vier Landessprachen beherrschen.",
-        "b) Jede Region hat eine offizielle Amtssprache.",
+        "a) Jede Region hat eine offizielle Amtssprache.",
+        "b) Alle Bürger müssen alle vier Landessprachen beherrschen.",
         "c) Die Bundesregierung bestimmt die Sprache jeder Region."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Das Territorialprinzip bedeutet, dass jede Region eine offizielle Amtssprache hat.",
       "explanation_en": "The territorial principle means that each region has an official administrative language."
     },
@@ -47,11 +47,11 @@
       "text_de": "Wie instrumentalisieren populistische Bewegungen laut Text die Sprachfrage?",
       "text_en": "How do populist movements instrumentalize the language question according to the text?",
       "options": [
-        "a) Sie stellen sprachliche Vielfalt als Bedrohung der nationalen Identität dar.",
-        "b) Sie fordern die Einführung weiterer Amtssprachen.",
+        "a) Sie fordern die Einführung weiterer Amtssprachen.",
+        "b) Sie stellen sprachliche Vielfalt als Bedrohung der nationalen Identität dar.",
         "c) Sie setzen sich für die Rechte von Minderheitensprechern ein."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Populistische Bewegungen stellen sprachliche Vielfalt als Bedrohung der nationalen Identität dar.",
       "explanation_en": "Populist movements portray linguistic diversity as a threat to national identity."
     },
@@ -76,10 +76,10 @@
       "text_en": "What does scientific evidence say about multilingualism?",
       "options": [
         "a) Sie führt langfristig zum Verfall der Nationalsprache.",
-        "b) Sie hat weder positive noch negative Auswirkungen.",
-        "c) Gesellschaften mit institutioneller Mehrsprachigkeit haben höhere soziale Kohäsion."
+        "b) Gesellschaften mit institutioneller Mehrsprachigkeit haben höhere soziale Kohäsion.",
+        "c) Sie hat weder positive noch negative Auswirkungen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Gesellschaften, die Mehrsprachigkeit fördern, weisen höhere soziale Kohäsion und wirtschaftliche Produktivität auf.",
       "explanation_en": "Societies that promote multilingualism exhibit higher social cohesion and economic productivity."
     }

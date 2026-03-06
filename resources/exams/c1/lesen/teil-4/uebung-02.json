@@ -19,11 +19,11 @@
       "text_de": "In welcher Form findet die Sapir-Whorf-Hypothese zunehmend Bestätigung?",
       "text_en": "In what form does the Sapir-Whorf hypothesis find increasing confirmation?",
       "options": [
-        "a) In ihrer starken Form: Sprache determiniert das Denken vollständig.",
+        "a) In ihrer gemäßigten Form: Sprache beeinflusst die Wahrnehmung, ohne sie vollständig zu bestimmen.",
         "b) Weder in starker noch in gemäßigter Form.",
-        "c) In ihrer gemäßigten Form: Sprache beeinflusst die Wahrnehmung, ohne sie vollständig zu bestimmen."
+        "c) In ihrer starken Form: Sprache determiniert das Denken vollständig."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "In der gemäßigten Form — Sprache beeinflusst die Wahrnehmung, ohne sie vollständig zu bestimmen — findet sie Bestätigung.",
       "explanation_en": "In its moderate form — language influences perception without completely determining it — it finds confirmation."
     },
@@ -33,11 +33,11 @@
       "text_de": "Welches Beispiel belegt den Einfluss des grammatischen Geschlechts auf die Wahrnehmung?",
       "text_en": "What example demonstrates the influence of grammatical gender on perception?",
       "options": [
-        "a) Deutsche assoziieren Brücke mit Eleganz, Spanischsprachige puente mit Stärke.",
+        "a) Französischsprachige können Farben differenzierter wahrnehmen.",
         "b) Englischsprachige nehmen keine Geschlechtszuordnung bei Objekten vor.",
-        "c) Französischsprachige können Farben differenzierter wahrnehmen."
+        "c) Deutsche assoziieren Brücke mit Eleganz, Spanischsprachige puente mit Stärke."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Deutsche assoziieren Brücke (feminin) mit Eleganz, Spanischsprachige puente (maskulin) mit Stärke.",
       "explanation_en": "Germans associate Bruecke (feminine) with elegance, Spanish speakers puente (masculine) with strength."
     },
@@ -48,10 +48,10 @@
       "text_en": "What does it mean that language is a mirror of society?",
       "options": [
         "a) Sprache verändert sich nie und bewahrt vergangene Zustände.",
-        "b) Sprache bildet Machtverhältnisse und Wertvorstellungen ab und formt sie zugleich.",
-        "c) Sprache ist ein rein neutrales Kommunikationsinstrument."
+        "b) Sprache ist ein rein neutrales Kommunikationsinstrument.",
+        "c) Sprache bildet Machtverhältnisse und Wertvorstellungen ab und formt sie zugleich."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Sprache bildet gesellschaftliche Machtverhältnisse und Wertvorstellungen ab und formt sie zugleich.",
       "explanation_en": "Language reflects and simultaneously shapes societal power relations and values."
     },
@@ -61,11 +61,11 @@
       "text_de": "Wie ordnet der Autor die Forderung nach geschlechtergerechter Sprache ein?",
       "text_en": "How does the author classify the demand for gender-inclusive language?",
       "options": [
-        "a) Als unnötige Einmischung in die Sprachentwicklung.",
+        "a) Als logische Konsequenz linguistischer Evidenz.",
         "b) Als rein ideologisch motivierte Bewegung.",
-        "c) Als logische Konsequenz linguistischer Evidenz."
+        "c) Als unnötige Einmischung in die Sprachentwicklung."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die Forderung nach inklusiverer Sprache ist die logische Konsequenz linguistischer Evidenz.",
       "explanation_en": "The demand for more inclusive language is the logical consequence of linguistic evidence."
     },
@@ -75,11 +75,11 @@
       "text_de": "Welche Grundeinsicht ignoriert laut dem Autor die Gegenposition?",
       "text_en": "What fundamental insight does the counter-position ignore according to the author?",
       "options": [
-        "a) Dass Sprache nie statisch war und ihr Wandel gesellschaftliche Aushandlungsprozesse widerspiegelt.",
+        "a) Dass Sprachveränderungen nur von oben verordnet werden können.",
         "b) Dass die deutsche Sprache die reichste Grammatik der Welt besitzt.",
-        "c) Dass Sprachveränderungen nur von oben verordnet werden können."
+        "c) Dass Sprache nie statisch war und ihr Wandel gesellschaftliche Aushandlungsprozesse widerspiegelt."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Gegenposition ignoriert, dass Sprache nie statisch war und Wandel Aushandlungsprozesse widerspiegelt.",
       "explanation_en": "The counter-position ignores that language was never static and change reflects negotiation processes."
     }

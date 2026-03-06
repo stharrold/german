@@ -19,11 +19,11 @@
       "text_de": "Was unterscheidet die Epigenetik von der klassischen Genetik?",
       "text_en": "What distinguishes epigenetics from classical genetics?",
       "options": [
-        "a) Sie untersucht, wie Umweltfaktoren die Genaktivität beeinflussen, ohne die DNA zu verändern.",
-        "b) Sie konzentriert sich ausschließlich auf Mutationen in der DNA-Sequenz.",
+        "a) Sie konzentriert sich ausschließlich auf Mutationen in der DNA-Sequenz.",
+        "b) Sie untersucht, wie Umweltfaktoren die Genaktivität beeinflussen, ohne die DNA zu verändern.",
         "c) Sie lehnt das Konzept der Vererbung grundsätzlich ab."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Epigenetik zeigt, dass Umweltfaktoren die Genaktivität beeinflussen können, ohne die DNA-Sequenz zu verändern.",
       "explanation_en": "Epigenetics shows that environmental factors can influence gene activity without altering the DNA sequence."
     },
@@ -76,10 +76,10 @@
       "text_en": "What are methylation processes according to the text?",
       "options": [
         "a) Veränderungen der DNA-Sequenz durch Umweltgifte.",
-        "b) Chemische Markierungen, die Genabschnitte aktivieren oder stilllegen.",
-        "c) Therapeutische Verfahren zur Behandlung psychischer Erkrankungen."
+        "b) Therapeutische Verfahren zur Behandlung psychischer Erkrankungen.",
+        "c) Chemische Markierungen, die Genabschnitte aktivieren oder stilllegen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Methylierungsprozesse sind chemische Markierungen, die bestimmte Genabschnitte aktivieren oder stilllegen.",
       "explanation_en": "Methylation processes are chemical markers that activate or silence certain gene segments."
     }

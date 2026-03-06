@@ -33,11 +33,11 @@
       "text_de": "Was unterscheidet die aristotelische von der augustinischen Zeitkonzeption?",
       "text_en": "What distinguishes the Aristotelian from the Augustinian conception of time?",
       "options": [
-        "a) Aristoteles hielt Zeit für eine Illusion, Augustinus für real.",
-        "b) Aristoteles sah Zeit als objektive Größe, Augustinus als Struktur des Bewusstseins.",
+        "a) Aristoteles sah Zeit als objektive Größe, Augustinus als Struktur des Bewusstseins.",
+        "b) Aristoteles hielt Zeit für eine Illusion, Augustinus für real.",
         "c) Beide waren sich einig, dass Zeit messbar ist."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Aristoteles begreift Zeit als objektive Größe, Augustinus als Struktur des Bewusstseins selbst.",
       "explanation_en": "Aristotle conceives time as an objective quantity, Augustine as a structure of consciousness itself."
     },
@@ -48,10 +48,10 @@
       "text_en": "What has the theory of relativity shown about time?",
       "options": [
         "a) Dass Zeit in allen Bezugssystemen gleich schnell vergeht.",
-        "b) Dass Zeit eine reine Bewusstseinsleistung ohne physikalische Grundlage ist.",
-        "c) Dass Zeit von Geschwindigkeit und Gravitation abhängt und keine absolute Größe ist."
+        "b) Dass Zeit von Geschwindigkeit und Gravitation abhängt und keine absolute Größe ist.",
+        "c) Dass Zeit eine reine Bewusstseinsleistung ohne physikalische Grundlage ist."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Einstein demonstrierte, dass Zeit von Geschwindigkeit und Gravitation abhängt und nicht absolut ist.",
       "explanation_en": "Einstein demonstrated that time depends on velocity and gravity and is not absolute."
     },
@@ -61,11 +61,11 @@
       "text_de": "Welche Frage wirft die Quantenphysik bezüglich der Zeit auf?",
       "text_en": "What question does quantum physics raise regarding time?",
       "options": [
-        "a) Ob die erlebte Gerichtetheit der Zeit möglicherweise eine Bewusstseinsillusion ist.",
+        "a) Ob Zeitreisen in die Vergangenheit physikalisch möglich sind.",
         "b) Ob Zeit in der Quantenwelt schneller vergeht als in der makroskopischen Welt.",
-        "c) Ob Zeitreisen in die Vergangenheit physikalisch möglich sind."
+        "c) Ob die erlebte Gerichtetheit der Zeit möglicherweise eine Bewusstseinsillusion ist."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Quantenphysik wirft die Frage auf, ob die Gerichtetheit der Zeit eine Illusion des Bewusstseins ist.",
       "explanation_en": "Quantum physics raises the question whether the directionality of time is an illusion of consciousness."
     },

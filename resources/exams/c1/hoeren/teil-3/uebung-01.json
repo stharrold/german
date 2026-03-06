@@ -50,11 +50,11 @@
       "text_de": "Was kritisiert die Dozentin an der Seminararbeit?",
       "text_en": "What does the lecturer criticize about the seminar paper?",
       "options": [
-        "a) Die fehlende methodische Fundierung und Reflexion der Limitationen.",
+        "a) Die mangelnde Originalität der Fragestellung.",
         "b) Die zu kurze Literaturliste und fehlende Quellenangaben.",
-        "c) Die mangelnde Originalität der Fragestellung."
+        "c) Die fehlende methodische Fundierung und Reflexion der Limitationen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die Dozentin kritisiert die mangelnde methodische Fundierung und das Fehlen einer reflektierten Methodendiskussion mit Limitationen.",
       "explanation_en": "The lecturer criticizes the lacking methodological foundation and the absence of a reflective methods discussion with limitations."
     },
@@ -64,11 +64,11 @@
       "text_de": "Was empfiehlt die Dozentin dem Studenten?",
       "text_en": "What does the lecturer recommend to the student?",
       "options": [
-        "a) Die Arbeit vollständig neu zu schreiben.",
-        "b) Ein Kapitel zur Methodik hinzuzufügen und sich in der interpretativen Forschungstradition zu positionieren.",
+        "a) Ein Kapitel zur Methodik hinzuzufügen und sich in der interpretativen Forschungstradition zu positionieren.",
+        "b) Die Arbeit vollständig neu zu schreiben.",
         "c) Die qualitative Studie durch eine quantitative zu ersetzen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Dozentin empfiehlt, ein Methodikkapitel zu ergänzen und sich explizit innerhalb der interpretativen Forschungstradition zu positionieren.",
       "explanation_en": "The lecturer recommends adding a methodology chapter and explicitly positioning oneself within the interpretive research tradition."
     },
@@ -79,10 +79,10 @@
       "text_en": "Why should an MRI be performed before the biopsy?",
       "options": [
         "a) Weil die Patientin eine Allergie gegen Narkosemittel hat.",
-        "b) Weil die Biopsie-Geräte derzeit nicht verfügbar sind.",
-        "c) Weil das Befundmuster unklar ist und die Differenzialdiagnose erweitert werden muss."
+        "b) Weil das Befundmuster unklar ist und die Differenzialdiagnose erweitert werden muss.",
+        "c) Weil die Biopsie-Geräte derzeit nicht verfügbar sind."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Die Oberärztin möchte vor der Biopsie eine kontrastmittelunterstützte MRT, weil das Befundmuster unklar ist und weitere Differenzialdiagnosen abgeklärt werden müssen.",
       "explanation_en": "The senior physician wants a contrast-enhanced MRI before the biopsy because the finding pattern is unclear and further differential diagnoses need to be clarified."
     },
@@ -92,11 +92,11 @@
       "text_de": "Was hat der Gutachter am Drittmittelantrag bemängelt?",
       "text_en": "What did the reviewer criticize about the funding application?",
       "options": [
-        "a) Die mangelnde theoretische Einbettung der Hypothesen und den fehlenden Verwertungsplan.",
-        "b) Die zu hohe Fördersumme und den unrealistischen Zeitplan.",
+        "a) Die zu hohe Fördersumme und den unrealistischen Zeitplan.",
+        "b) Die mangelnde theoretische Einbettung der Hypothesen und den fehlenden Verwertungsplan.",
         "c) Die unzureichende Qualifikation der Projektmitarbeiter."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der Gutachter monierte die mangelnde theoretische Einbettung der Hypothesen und das Fehlen eines Verwertungsplans.",
       "explanation_en": "The reviewer criticized the lacking theoretical embedding of hypotheses and the missing exploitation plan."
     },

@@ -19,11 +19,11 @@
       "text_de": "Was beschreibt das Paradox der Wahl?",
       "text_en": "What does the paradox of choice describe?",
       "options": [
-        "a) Dass Menschen grundsätzlich ungern Entscheidungen treffen.",
+        "a) Dass zu viele Optionen zu Lähmung, Reue und Unzufriedenheit führen können.",
         "b) Dass weniger Optionen immer besser sind als viele.",
-        "c) Dass zu viele Optionen zu Lähmung, Reue und Unzufriedenheit führen können."
+        "c) Dass Menschen grundsätzlich ungern Entscheidungen treffen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Jenseits eines Schwellenwerts führt die Zunahme von Optionen zu Lähmung, Reue und Unzufriedenheit.",
       "explanation_en": "Beyond a threshold, an increase in options leads to paralysis, regret, and dissatisfaction."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was beschrieb Kierkegaard als Schwindel der Freiheit?",
       "text_en": "What did Kierkegaard describe as the dizziness of freedom?",
       "options": [
-        "a) Die Angst angesichts der Verantwortung für die eigene Lebensgestaltung bei wachsenden Möglichkeiten.",
-        "b) Das Gefühl der Euphorie bei der Entdeckung neuer Lebenswege.",
+        "a) Das Gefühl der Euphorie bei der Entdeckung neuer Lebenswege.",
+        "b) Die Angst angesichts der Verantwortung für die eigene Lebensgestaltung bei wachsenden Möglichkeiten.",
         "c) Die Orientierungslosigkeit nach dem Verlust religiöser Gewissheiten."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Kierkegaard beschrieb die Angst als Schwindel der Freiheit angesichts wachsender Verantwortung für die Lebensgestaltung.",
       "explanation_en": "Kierkegaard described anxiety as the dizziness of freedom in the face of growing responsibility for life design."
     },
@@ -61,11 +61,11 @@
       "text_de": "Wann kann die Pluralisierung von Lebensentwürfen problematisch werden?",
       "text_en": "When can the pluralization of life paths become problematic?",
       "options": [
-        "a) Wenn sie von staatlicher Seite eingeschränkt wird.",
+        "a) Wenn sie nicht von stabilen sozialen Bindungen und kulturellen Orientierungsrahmen begleitet wird.",
         "b) Wenn sie ausschließlich wohlhabenden Bevölkerungsgruppen offensteht.",
-        "c) Wenn sie nicht von stabilen sozialen Bindungen und kulturellen Orientierungsrahmen begleitet wird."
+        "c) Wenn sie von staatlicher Seite eingeschränkt wird."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die Pluralisierung kann zur existenziellen Verunsicherung werden ohne stabile soziale Bindungen und kulturelle Orientierung.",
       "explanation_en": "Pluralization can become existential insecurity without stable social bonds and cultural orientation."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was passiert bei unbegrenzter Wahl mit der Verantwortung für das Ergebnis?",
       "text_en": "What happens to the responsibility for the outcome with unlimited choice?",
       "options": [
-        "a) Sie wird gleichmäßig auf die Gesellschaft verteilt.",
-        "b) Sie lastet vollständig auf dem Individuum.",
+        "a) Sie lastet vollständig auf dem Individuum.",
+        "b) Sie wird gleichmäßig auf die Gesellschaft verteilt.",
         "c) Sie wird den Anbietern der Optionen zugeschrieben."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Bei unbegrenzter Wahl kann man nur sich selbst für das Ergebnis verantwortlich machen.",
       "explanation_en": "With unlimited choice, one can only blame oneself for the outcome."
     }

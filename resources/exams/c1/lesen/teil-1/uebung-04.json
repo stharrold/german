@@ -33,11 +33,11 @@
       "text_de": "Wie funktioniert der Ankereffekt?",
       "text_en": "How does the anchoring effect work?",
       "options": [
-        "a) Konsumenten vergleichen systematisch alle verfügbaren Preise.",
+        "a) Eine zuvor präsentierte Zahl beeinflusst unbewusst die Zahlungsbereitschaft.",
         "b) Konsumenten orientieren sich nur an Empfehlungen von Experten.",
-        "c) Eine zuvor präsentierte Zahl beeinflusst unbewusst die Zahlungsbereitschaft."
+        "c) Konsumenten vergleichen systematisch alle verfügbaren Preise."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Eine beliebige präsentierte Zahl beeinflusst unbewusst die Zahlungsbereitschaft und Qualitätseinschätzung.",
       "explanation_en": "An arbitrary presented number unconsciously influences willingness to pay and quality assessment."
     },

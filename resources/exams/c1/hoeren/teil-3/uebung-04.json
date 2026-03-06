@@ -45,11 +45,11 @@
       "text_de": "Warum schlägt die Wissenschaftlerin eine Zusammenarbeit vor?",
       "text_en": "Why does the scientist propose a collaboration?",
       "options": [
-        "a) Weil die komplementären Stärken beider bildgebenden Verfahren zu robusteren Befunden führen könnten.",
+        "a) Weil ihr Forschungsprojekt finanziell nicht mehr tragbar ist.",
         "b) Weil ihr eigenes Labor nicht über die nötige Ausstattung verfügt.",
-        "c) Weil ihr Forschungsprojekt finanziell nicht mehr tragbar ist."
+        "c) Weil die komplementären Stärken beider bildgebenden Verfahren zu robusteren Befunden führen könnten."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Die komplementären Stärken von fMRT (räumliche Auflösung) und fNIRS (ökologische Validität) könnten zu robusteren Befunden führen.",
       "explanation_en": "The complementary strengths of fMRI (spatial resolution) and fNIRS (ecological validity) could lead to more robust findings."
     },
@@ -74,10 +74,10 @@
       "text_en": "What does Professor Weber suggest to the doctoral student?",
       "options": [
         "a) Ihre Ergebnisse zu verwerfen und einen neuen Ansatz zu wählen.",
-        "b) Ihre vorläufigen Ergebnisse auf seinem Forschungskolloquium vorzustellen.",
-        "c) Sich an einen anderen Experten zu wenden."
+        "b) Sich an einen anderen Experten zu wenden.",
+        "c) Ihre vorläufigen Ergebnisse auf seinem Forschungskolloquium vorzustellen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Professor Weber lädt die Doktorandin ein, ihre vorläufigen Ergebnisse auf seinem nächsten Forschungskolloquium vorzustellen.",
       "explanation_en": "Professor Weber invites the doctoral student to present her preliminary results at his next research colloquium."
     },
@@ -87,11 +87,11 @@
       "text_de": "Warum ist Dr. Nolte hinsichtlich des Keynote-Vortrags zurückhaltend?",
       "text_en": "Why is Dr. Nolte hesitant about the keynote talk?",
       "options": [
-        "a) Weil er sich in der Endphase eines DFG-Projekts befindet und wenig Zeit hat.",
+        "a) Weil er auf einer konkurrierenden Konferenz sprechen wird.",
         "b) Weil er das Thema verkörperte Kognition für veraltet hält.",
-        "c) Weil er auf einer konkurrierenden Konferenz sprechen wird."
+        "c) Weil er sich in der Endphase eines DFG-Projekts befindet und wenig Zeit hat."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Dr. Nolte befindet sich in der Endphase eines DFG-Projekts, was seinen zeitlichen Spielraum stark einschränkt.",
       "explanation_en": "Dr. Nolte is in the final phase of a DFG project, which severely limits his available time."
     },

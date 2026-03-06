@@ -19,11 +19,11 @@
       "text_de": "Wie groß ist die aktuelle Personallücke im Gesundheitswesen?",
       "text_en": "How large is the current personnel gap in healthcare?",
       "options": [
-        "a) 50.000 unbesetzte Stellen mit rückläufiger Tendenz.",
-        "b) 120.000 unbesetzte Stellen mit projizierter Verdoppelung im kommenden Jahrzehnt.",
+        "a) 120.000 unbesetzte Stellen mit projizierter Verdoppelung im kommenden Jahrzehnt.",
+        "b) 50.000 unbesetzte Stellen mit rückläufiger Tendenz.",
         "c) 200.000 Stellen, die durch Automatisierung ersetzt werden sollen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die aktuelle Personallücke beträgt 120.000 Stellen mit projizierter Verdoppelung im kommenden Jahrzehnt.",
       "explanation_en": "The current personnel gap is 120,000 positions with a projected doubling in the coming decade."
     },
@@ -34,10 +34,10 @@
       "text_en": "What systemic misaligned incentive does the report describe?",
       "options": [
         "a) Die Bevorzugung spezialisierter Kliniken gegenüber Hausarztpraxen.",
-        "b) Die übermäßige Regulierung der Ausbildungswege im Gesundheitswesen.",
-        "c) Das Vergütungssystem belohnt Eingriffe, nicht aber pflegerische und präventive Betreuung."
+        "b) Das Vergütungssystem belohnt Eingriffe, nicht aber pflegerische und präventive Betreuung.",
+        "c) Die übermäßige Regulierung der Ausbildungswege im Gesundheitswesen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Das Vergütungssystem belohnt medizinische Eingriffe, nicht die zeitintensive pflegerische und präventive Betreuung.",
       "explanation_en": "The reimbursement system rewards medical interventions but not nursing and preventive care."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was empfiehlt der Bericht als kurzfristige Maßnahme?",
       "text_en": "What does the report recommend as a short-term measure?",
       "options": [
-        "a) Vereinfachte Anerkennungsverfahren für ausländische Fachkräfte und Delegationsmodelle.",
+        "a) Einen Paradigmenwechsel hin zum präventionsorientierten System.",
         "b) Die Verdoppelung der Ausbildungskapazitäten in Pflegeberufen.",
-        "c) Einen Paradigmenwechsel hin zum präventionsorientierten System."
+        "c) Vereinfachte Anerkennungsverfahren für ausländische Fachkräfte und Delegationsmodelle."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Kurzfristig empfiehlt der Bericht vereinfachte Anerkennungsverfahren und Delegationsmodelle.",
       "explanation_en": "In the short term, the report recommends simplified recognition procedures and delegation models."
     },
@@ -62,10 +62,10 @@
       "text_en": "Why are rural regions particularly affected?",
       "options": [
         "a) Weil dort die Bevölkerung am gesündesten ist.",
-        "b) Weil dort bereits Arztpraxen und Krankenhausabteilungen geschlossen werden mussten.",
-        "c) Weil die dortigen Vergütungen am höchsten sind."
+        "b) Weil die dortigen Vergütungen am höchsten sind.",
+        "c) Weil dort bereits Arztpraxen und Krankenhausabteilungen geschlossen werden mussten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "In ländlichen Regionen und strukturschwachen Stadtteilen mussten bereits Arztpraxen und Abteilungen geschlossen werden.",
       "explanation_en": "In rural regions and structurally weak districts, medical practices and departments have already had to be closed."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was ist das langfristige Ziel laut dem Bericht?",
       "text_en": "What is the long-term goal according to the report?",
       "options": [
-        "a) Die vollständige Digitalisierung aller Gesundheitsdienstleistungen.",
+        "a) Ein Paradigmenwechsel hin zu einem präventionsorientierten Gesundheitssystem.",
         "b) Die Verdreifachung der Anzahl von Medizinstudienplätzen.",
-        "c) Ein Paradigmenwechsel hin zu einem präventionsorientierten Gesundheitssystem."
+        "c) Die vollständige Digitalisierung aller Gesundheitsdienstleistungen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Langfristig bedarf es eines Paradigmenwechsels hin zu einem präventionsorientierten Gesundheitssystem.",
       "explanation_en": "In the long term, a paradigm shift toward a prevention-oriented health system is needed."
     }

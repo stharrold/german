@@ -19,11 +19,11 @@
       "text_de": "Was hat die Internet-Utopie abgelöst?",
       "text_en": "What has replaced the internet utopia?",
       "options": [
-        "a) Algorithmisch kuratierte Echokammern mit Desinformation und Polarisierung.",
+        "a) Ein weitgehend ungenutztes und irrelevantes Medium.",
         "b) Ein vollständig regulierter und staatlich kontrollierter digitaler Raum.",
-        "c) Ein weitgehend ungenutztes und irrelevantes Medium."
+        "c) Algorithmisch kuratierte Echokammern mit Desinformation und Polarisierung."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "An die Stelle des offenen Marktplatzes sind algorithmisch kuratierte Echokammern getreten.",
       "explanation_en": "Algorithmically curated echo chambers have replaced the open marketplace."
     },
@@ -47,11 +47,11 @@
       "text_de": "Wo muss die Regulierung laut dem Autor ansetzen?",
       "text_en": "Where must regulation start according to the author?",
       "options": [
-        "a) Bei der direkten Kontrolle aller Inhalte durch den Staat.",
-        "b) Bei den Mechanismen der Verstärkung: Algorithmen, Geschäftsmodelle, Plattformtransparenz.",
+        "a) Bei den Mechanismen der Verstärkung: Algorithmen, Geschäftsmodelle, Plattformtransparenz.",
+        "b) Bei der direkten Kontrolle aller Inhalte durch den Staat.",
         "c) Bei der Abschaffung sozialer Medien."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Die Regulierung muss bei Algorithmen, Geschäftsmodellen und der Transparenz der Plattformarchitektur ansetzen.",
       "explanation_en": "Regulation must target algorithms, business models, and platform architecture transparency."
     },
@@ -61,11 +61,11 @@
       "text_de": "Warum bevorzugen Algorithmen laut dem Text extreme Positionen?",
       "text_en": "Why do algorithms favor extreme positions according to the text?",
       "options": [
-        "a) Weil diese die höchste Verweildauer erzeugen.",
+        "a) Weil moderate Positionen technisch schwerer zu verarbeiten sind.",
         "b) Weil sie von den Plattformbetreibern politisch gewollt sind.",
-        "c) Weil moderate Positionen technisch schwerer zu verarbeiten sind."
+        "c) Weil diese die höchste Verweildauer erzeugen."
       ],
-      "correct_answer": "a",
+      "correct_answer": "c",
       "explanation_de": "Algorithmen bevorzugen die extremsten Positionen, weil diese die höchste Verweildauer erzeugen.",
       "explanation_en": "Algorithms favor the most extreme positions because these generate the highest engagement."
     },
@@ -75,11 +75,11 @@
       "text_de": "Was soll eine verantwortungsvolle digitale Gesellschaft laut dem Autor gestalten?",
       "text_en": "What should a responsible digital society shape according to the author?",
       "options": [
-        "a) Die politischen Inhalte, die im Internet verbreitet werden dürfen.",
+        "a) Die infrastrukturellen Bedingungen der Kommunikation, ohne den Inhalt zu diktieren.",
         "b) Die Nutzungszeiten und Altersfreigaben für soziale Medien.",
-        "c) Die infrastrukturellen Bedingungen der Kommunikation, ohne den Inhalt zu diktieren."
+        "c) Die politischen Inhalte, die im Internet verbreitet werden dürfen."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Die infrastrukturellen Bedingungen der Kommunikation müssen demokratisch gestaltet werden, ohne den Inhalt zu diktieren.",
       "explanation_en": "The infrastructural conditions of communication must be democratically shaped without dictating content."
     }

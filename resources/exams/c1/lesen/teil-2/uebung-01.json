@@ -19,11 +19,11 @@
       "text_de": "Welche Position vertritt der Autor zur Gentrifizierung?",
       "text_en": "What position does the author take on gentrification?",
       "options": [
-        "a) Gentrifizierung ist nicht unvermeidlich, sondern das Ergebnis politischer Entscheidungen.",
-        "b) Gentrifizierung ist ein natürlicher ökonomischer Prozess.",
+        "a) Gentrifizierung ist ein natürlicher ökonomischer Prozess.",
+        "b) Gentrifizierung ist nicht unvermeidlich, sondern das Ergebnis politischer Entscheidungen.",
         "c) Gentrifizierung betrifft nur wohlhabende Stadtviertel."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Der Autor argumentiert, dass Gentrifizierung das Ergebnis politischer Entscheidungen ist, nicht naturgesetzlich.",
       "explanation_en": "The author argues that gentrification is the result of political decisions, not a natural law."
     },
@@ -34,10 +34,10 @@
       "text_en": "Why is Vienna cited as a counterexample?",
       "options": [
         "a) Weil Wien die höchsten Mieten Europas hat.",
-        "b) Weil dort Stadterneuerung ohne Verdrängung gelingt.",
-        "c) Weil Wien keine innerstädtischen Quartiere saniert."
+        "b) Weil Wien keine innerstädtischen Quartiere saniert.",
+        "c) Weil dort Stadterneuerung ohne Verdrängung gelingt."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "In Wien verläuft die Stadterneuerung dank kommunalem Wohnungsbau weitgehend ohne Verdrängungseffekte.",
       "explanation_en": "In Vienna, urban renewal proceeds largely without displacement effects thanks to municipal housing."
     },
@@ -47,11 +47,11 @@
       "text_de": "Was fordert der Autor konkret?",
       "text_en": "What does the author specifically demand?",
       "options": [
-        "a) Den vollständigen Stopp jeglicher Stadtentwicklung.",
+        "a) Die Anerkennung bezahlbaren Wohnraums als Grundrecht.",
         "b) Die Privatisierung des kommunalen Wohnungsbestands.",
-        "c) Die Anerkennung bezahlbaren Wohnraums als Grundrecht."
+        "c) Den vollständigen Stopp jeglicher Stadtentwicklung."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Der Autor fordert, das Recht auf bezahlbaren Wohnraum als Grundrecht anzuerkennen.",
       "explanation_en": "The author demands recognizing the right to affordable housing as a fundamental right."
     },

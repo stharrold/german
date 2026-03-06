@@ -48,10 +48,10 @@
       "text_en": "When should mandatory minimum energy standards apply according to the report?",
       "options": [
         "a) Sofort für alle Bestandsgebäude ohne Ausnahme.",
-        "b) Bei Eigentümerwechsel von Bestandsgebäuden.",
-        "c) Nur bei Neubauten, nicht bei Bestandsgebäuden."
+        "b) Nur bei Neubauten, nicht bei Bestandsgebäuden.",
+        "c) Bei Eigentümerwechsel von Bestandsgebäuden."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Verbindliche Mindestenergiestandards für Bestandsgebäude sollen bei Eigentümerwechsel greifen.",
       "explanation_en": "Mandatory minimum energy standards for existing buildings should apply upon change of ownership."
     },
@@ -76,10 +76,10 @@
       "text_en": "What does the report recommend for rental housing stock?",
       "options": [
         "a) Die vollständige Übernahme der Sanierungskosten durch die Mieter.",
-        "b) Ein Verbot energetischer Sanierungen in bewohnten Mietgebäuden.",
-        "c) Eine Reform der Modernisierungsumlage für faire Kostenaufteilung zwischen Mietern und Vermietern."
+        "b) Eine Reform der Modernisierungsumlage für faire Kostenaufteilung zwischen Mietern und Vermietern.",
+        "c) Ein Verbot energetischer Sanierungen in bewohnten Mietgebäuden."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Der Bericht empfiehlt eine Reform der Modernisierungsumlage für faire Kostenaufteilung.",
       "explanation_en": "The report recommends a reform of the modernization surcharge for fair cost sharing."
     }

@@ -19,11 +19,11 @@
       "text_de": "Warum greifen urbane Mobilitätskonzepte im ländlichen Raum zu kurz?",
       "text_en": "Why do urban mobility concepts fall short in rural areas?",
       "options": [
-        "a) Weil ländliche Bewohner generell kein Interesse an nachhaltiger Mobilität haben.",
+        "a) Weil das Auto dort eine existenzielle Notwendigkeit ist aufgrund fehlender Alternativen.",
         "b) Weil die ländliche Bevölkerung zu klein für solche Investitionen ist.",
-        "c) Weil das Auto dort eine existenzielle Notwendigkeit ist aufgrund fehlender Alternativen."
+        "c) Weil ländliche Bewohner generell kein Interesse an nachhaltiger Mobilität haben."
       ],
-      "correct_answer": "c",
+      "correct_answer": "a",
       "explanation_de": "Im ländlichen Raum ist das Auto existenzielle Notwendigkeit wegen ausgedünnter Verkehrsanbindungen und großer Entfernungen.",
       "explanation_en": "In rural areas, the car is an existential necessity due to thinned-out transport connections and large distances."
     },
@@ -48,10 +48,10 @@
       "text_en": "What solution does the report identify as forward-looking?",
       "options": [
         "a) Den massiven Ausbau klassischer Buslinien im ländlichen Raum.",
-        "b) Integrierte Mobilitätskonzepte mit On-Demand-Shuttles, E-Bikes und digitalen Plattformen.",
-        "c) Die Subventionierung von Privatfahrzeugen für ländliche Bewohner."
+        "b) Die Subventionierung von Privatfahrzeugen für ländliche Bewohner.",
+        "c) Integrierte Mobilitätskonzepte mit On-Demand-Shuttles, E-Bikes und digitalen Plattformen."
       ],
-      "correct_answer": "b",
+      "correct_answer": "c",
       "explanation_de": "Integrierte Mobilitätskonzepte mit On-Demand-Shuttles, E-Bike-Stationen und digitalen Plattformen sind zukunftsweisend.",
       "explanation_en": "Integrated mobility concepts with on-demand shuttles, e-bike stations, and digital platforms are forward-looking."
     },

@@ -20,10 +20,10 @@
       "text_en": "What is the fundamental problem of algorithmic justice systems according to the author?",
       "options": [
         "a) Die Algorithmen sind technisch noch nicht ausgereift genug.",
-        "b) Richter verstehen die Funktionsweise der Algorithmen nicht.",
-        "c) Die Trainingsdaten enthalten bereits systematische Verzerrungen, die reproduziert werden."
+        "b) Die Trainingsdaten enthalten bereits systematische Verzerrungen, die reproduziert werden.",
+        "c) Richter verstehen die Funktionsweise der Algorithmen nicht."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Das Grundproblem liegt in Trainingsdaten, die bereits systematische Verzerrungen enthalten.",
       "explanation_en": "The fundamental problem lies in training data that already contain systematic biases."
     },
@@ -33,11 +33,11 @@
       "text_de": "Was bewirkt die scheinbare Objektivität der Algorithmen?",
       "text_en": "What does the apparent objectivity of algorithms cause?",
       "options": [
-        "a) Sie erschwert es Richtern, algorithmische Empfehlungen kritisch zu hinterfragen.",
-        "b) Sie führt zu einer vollständigen Abschaffung menschlicher Vorurteile.",
+        "a) Sie führt zu einer vollständigen Abschaffung menschlicher Vorurteile.",
+        "b) Sie erschwert es Richtern, algorithmische Empfehlungen kritisch zu hinterfragen.",
         "c) Sie macht die Justiz insgesamt effizienter und gerechter."
       ],
-      "correct_answer": "a",
+      "correct_answer": "b",
       "explanation_de": "Die scheinbare Objektivität verleiht dem Ergebnis eine trügerische Autorität, die kritisches Hinterfragen erschwert.",
       "explanation_en": "The apparent objectivity lends the result a deceptive authority that makes critical questioning difficult."
     },
@@ -47,11 +47,11 @@
       "text_de": "Warum ist die fehlende Transparenz der Algorithmen besonders problematisch?",
       "text_en": "Why is the lack of transparency of algorithms particularly problematic?",
       "options": [
-        "a) Weil die Algorithmen dadurch langsamer arbeiten.",
-        "b) Weil Angeklagte ein Recht haben zu erfahren, auf welcher Grundlage Entscheidungen getroffen werden.",
+        "a) Weil Angeklagte ein Recht haben zu erfahren, auf welcher Grundlage Entscheidungen getroffen werden.",
+        "b) Weil die Algorithmen dadurch langsamer arbeiten.",
         "c) Weil Richter die Algorithmen selbst programmieren müssten."
       ],
-      "correct_answer": "b",
+      "correct_answer": "a",
       "explanation_de": "Angeklagte haben ein Recht zu erfahren, auf welcher Grundlage freiheitsbeschränkende Entscheidungen getroffen werden.",
       "explanation_en": "Defendants have a right to know on what basis decisions affecting their freedom are made."
     },
@@ -62,10 +62,10 @@
       "text_en": "What do commercial providers invoke to not disclose their algorithms?",
       "options": [
         "a) Auf technische Unmöglichkeit der Offenlegung.",
-        "b) Auf den Datenschutz der Angeklagten.",
-        "c) Auf Geschäftsgeheimnisse."
+        "b) Auf Geschäftsgeheimnisse.",
+        "c) Auf den Datenschutz der Angeklagten."
       ],
-      "correct_answer": "c",
+      "correct_answer": "b",
       "explanation_de": "Kommerzielle Anbieter berufen sich auf Geschäftsgeheimnisse bei der Offenlegung ihrer Algorithmen.",
       "explanation_en": "Commercial providers invoke trade secrets regarding the disclosure of their algorithms."
     },
