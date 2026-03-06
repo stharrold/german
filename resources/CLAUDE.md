@@ -33,6 +33,11 @@ resources/
 │   ├── lesen/teil-{1-5}/         # Reading (25 exercises)
 │   ├── schreiben/aufgabe-{1-3}/  # Writing (15 exercises)
 │   └── sprechen/teil-{1-3}/      # Speaking (15 exercises)
+├── exams/b2/                     # B2 exam practice exercises (65, Goethe-Institut format)
+│   ├── hoeren/teil-{1-4}/        # Listening (20 exercises)
+│   ├── lesen/teil-{1-5}/         # Reading (25 exercises)
+│   ├── schreiben/aufgabe-{1-2}/  # Writing (10 exercises)
+│   └── sprechen/teil-{1-2}/      # Speaking (10 exercises)
 └── supplementary/                # Supplementary teaching resources
     └── b1-listening-topics/      # B1 listening topics (20 bilingual prose files)
 ```

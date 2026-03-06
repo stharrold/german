@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-3-002",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Deutschlands Energiewende in Zahlen",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Energiewende ist eines der ambitioniertesten Projekte der deutschen Wirtschaftspolitik. Bis 2045 soll Deutschland klimaneutral werden, und erneuerbare Energien spielen dabei die zentrale Rolle. Im vergangenen Jahr stammten bereits 52 Prozent des Bruttostromverbrauchs aus erneuerbaren Quellen — ein neuer Rekord. Windkraft lieferte dabei den größten Anteil mit 27 Prozent, gefolgt von Solarenergie mit 12 Prozent und Biomasse mit 8 Prozent.\n\nDie wirtschaftlichen Auswirkungen sind beträchtlich. Der Sektor der erneuerbaren Energien beschäftigt mittlerweile über 380.000 Menschen in Deutschland und erwirtschaftet einen Jahresumsatz von rund 50 Milliarden Euro. Besonders der Ausbau der Offshore-Windparks in Nord- und Ostsee hat in den letzten Jahren an Dynamik gewonnen. Allerdings stellt die Integration der schwankenden erneuerbaren Energien in das Stromnetz eine erhebliche technische Herausforderung dar.\n\nDer Netzausbau hinkt dem Ausbau der Erzeugungskapazitäten deutlich hinterher. Es fehlen rund 4.000 Kilometer Übertragungsleitungen, um den Windstrom aus dem Norden zu den Industriezentren im Süden zu transportieren. Hinzu kommen die Kosten: Die EEG-Umlage und steigende Netzentgelte haben die Strompreise für Verbraucher in den letzten zehn Jahren um durchschnittlich 40 Prozent erhöht. Die Regierung arbeitet an Entlastungsmaßnahmen, um die gesellschaftliche Akzeptanz der Energiewende nicht zu gefährden.",
+    "text_en": "The energy transition is one of the most ambitious projects in German economic policy. By 2045, Germany is to become climate-neutral, and renewable energies play the central role. Last year, 52 percent of gross electricity consumption already came from renewable sources — a new record. Wind power provided the largest share at 27 percent, followed by solar energy at 12 percent and biomass at 8 percent.\n\nThe economic impacts are considerable. The renewable energy sector now employs over 380,000 people in Germany and generates an annual revenue of around 50 billion euros. The expansion of offshore wind farms in the North Sea and Baltic Sea in particular has gained momentum in recent years. However, integrating the fluctuating renewable energies into the power grid poses a significant technical challenge.\n\nGrid expansion significantly lags behind the expansion of generation capacity. Approximately 4,000 kilometers of transmission lines are missing to transport wind power from the north to the industrial centers in the south. Added to this are the costs: the EEG surcharge and rising grid fees have increased electricity prices for consumers by an average of 40 percent over the last ten years. The government is working on relief measures to avoid jeopardizing public acceptance of the energy transition.",
+    "source": "Sachbuch",
+    "word_count": 196
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent des Stroms stammen aus erneuerbaren Quellen?",
+      "text_en": "What percentage of electricity comes from renewable sources?",
+      "options": [
+        "a) 27 Prozent.",
+        "b) 40 Prozent.",
+        "c) 52 Prozent."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "52 Prozent des Bruttostromverbrauchs stammten aus erneuerbaren Quellen.",
+      "explanation_en": "52 percent of gross electricity consumption came from renewable sources."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche erneuerbare Energiequelle hat den größten Anteil?",
+      "text_en": "Which renewable energy source has the largest share?",
+      "options": [
+        "a) Solarenergie.",
+        "b) Windkraft.",
+        "c) Biomasse."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Windkraft lieferte den größten Anteil mit 27 Prozent.",
+      "explanation_en": "Wind power provided the largest share at 27 percent."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Menschen arbeiten im Sektor der erneuerbaren Energien?",
+      "text_en": "How many people work in the renewable energy sector?",
+      "options": [
+        "a) Über 200.000.",
+        "b) Über 380.000.",
+        "c) Über 500.000."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Sektor beschäftigt mittlerweile über 380.000 Menschen.",
+      "explanation_en": "The sector now employs over 380,000 people."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist das Hauptproblem beim Netzausbau?",
+      "text_en": "What is the main problem with grid expansion?",
+      "options": [
+        "a) Es gibt zu wenig Fachkräfte für den Bau.",
+        "b) Es fehlen rund 4.000 Kilometer Übertragungsleitungen.",
+        "c) Die Technologie für Fernleitungen existiert noch nicht."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es fehlen rund 4.000 Kilometer Übertragungsleitungen für den Nord-Süd-Transport.",
+      "explanation_en": "Approximately 4,000 kilometers of transmission lines are missing for north-south transport."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum arbeitet die Regierung an Entlastungsmaßnahmen?",
+      "text_en": "Why is the government working on relief measures?",
+      "options": [
+        "a) Weil die Industrie mit höheren Steuern droht.",
+        "b) Weil steigende Strompreise die gesellschaftliche Akzeptanz gefährden könnten.",
+        "c) Weil die EU Strafen für zu langsamen Ausbau verhängt hat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Regierung will die gesellschaftliche Akzeptanz der Energiewende nicht gefährden.",
+      "explanation_en": "The government wants to avoid jeopardizing public acceptance of the energy transition."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "b2-hoeren-teil-3-003",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Professionelle Gespräche — Beratung und Reklamation",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Herr Fischer (Bankberater)",
+      "text_de": "Guten Tag, Frau Schulz. Sie hatten sich nach Möglichkeiten der Geldanlage erkundigt. Ich habe drei Optionen für Sie vorbereitet. Zunächst gibt es das klassische Festgeld mit derzeit 3,2 Prozent Zinsen pro Jahr — sicher, aber wenig flexibel. Dann hätten wir einen Aktienfonds, der in den letzten fünf Jahren durchschnittlich 7 Prozent Rendite erzielt hat, aber natürlich mit Risiko verbunden ist. Und schließlich eine Mischung aus beidem, ein sogenanntes Mischportfolio.",
+      "text_en": "Good day, Ms. Schulz. You had inquired about investment options. I've prepared three options for you. First, there's the classic fixed-term deposit with currently 3.2 percent interest per year — safe but not very flexible. Then we'd have an equity fund that has achieved an average return of 7 percent in the last five years, but of course carries risk. And finally, a mixture of both, a so-called mixed portfolio."
+    },
+    {
+      "speaker": "Gespräch 1 — Frau Schulz (Kundin)",
+      "text_de": "Das Mischportfolio klingt interessant. Wie ist denn da das Verhältnis zwischen Sicherheit und Rendite? Und welche Gebühren fallen an? Bei meiner letzten Bank haben die Verwaltungsgebühren fast die gesamte Rendite aufgefressen.",
+      "text_en": "The mixed portfolio sounds interesting. What's the ratio between security and return there? And what fees apply? At my last bank, the management fees ate up almost the entire return."
+    },
+    {
+      "speaker": "Gespräch 1 — Herr Fischer (Bankberater)",
+      "text_de": "Ein berechtigter Einwand. Unser Mischportfolio besteht zu 60 Prozent aus festverzinslichen Anlagen und zu 40 Prozent aus Aktien. Die Verwaltungsgebühr beträgt 0,8 Prozent jährlich — deutlich unter dem Branchendurchschnitt von 1,5 Prozent.",
+      "text_en": "A valid objection. Our mixed portfolio consists of 60 percent fixed-income investments and 40 percent equities. The management fee is 0.8 percent annually — significantly below the industry average of 1.5 percent."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Bauer (Mieterin)",
+      "text_de": "Herr Gruber, ich wende mich an Sie als Hausverwaltung, weil ich seit drei Monaten auf die Reparatur meiner Heizung warte. Ich habe zwei Mal angerufen und einmal eine E-Mail geschrieben. Jedes Mal wurde mir versprochen, dass ein Techniker kommt, aber niemand ist erschienen. Es ist jetzt November, und die Temperaturen in meiner Wohnung liegen nachts unter 16 Grad. Ich muss Sie darauf hinweisen, dass ich rechtlich berechtigt bin, die Miete zu mindern, wenn das Problem nicht zeitnah behoben wird.",
+      "text_en": "Mr. Gruber, I'm turning to you as the property management because I've been waiting for the repair of my heating for three months. I called twice and wrote one email. Each time I was promised that a technician would come, but nobody appeared. It's now November, and the temperatures in my apartment are below 16 degrees at night. I have to point out that I'm legally entitled to reduce the rent if the problem isn't resolved promptly."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Gruber (Hausverwaltung)",
+      "text_de": "Frau Bauer, ich entschuldige mich aufrichtig für die Verzögerung. Das hätte nicht passieren dürfen. Ich werde noch heute einen Notfalltechniker beauftragen, der spätestens morgen bei Ihnen ist. Sollte die Reparatur länger dauern, stellen wir Ihnen übergangsweise einen elektrischen Heizlüfter zur Verfügung — selbstverständlich auf unsere Kosten.",
+      "text_en": "Ms. Bauer, I sincerely apologize for the delay. That should not have happened. I will commission an emergency technician today who will be at your place tomorrow at the latest. Should the repair take longer, we'll provide you with a portable electric heater in the meantime — at our expense, of course."
+    },
+    {
+      "speaker": "Gespräch 3 — Herr Vogel (Teamleiter)",
+      "text_de": "Anna, hast du kurz Zeit? Ich wollte dir eine Rückmeldung zu deiner Präsentation von gestern geben. Inhaltlich war sie ausgezeichnet — die Datenanalyse war gründlich, und deine Schlussfolgerungen waren überzeugend. Allerdings ist mir aufgefallen, dass du beim Vortragen sehr schnell gesprochen und kaum Blickkontakt mit dem Publikum gehalten hast. Das hat dazu geführt, dass einige Zuhörer abgeschaltet haben. Mein Vorschlag wäre, beim nächsten Mal bewusst Pausen einzubauen und das Publikum direkt anzusprechen.",
+      "text_en": "Anna, do you have a moment? I wanted to give you feedback on your presentation from yesterday. Content-wise, it was excellent — the data analysis was thorough, and your conclusions were convincing. However, I noticed that you spoke very quickly during the presentation and hardly maintained eye contact with the audience. That caused some listeners to tune out. My suggestion would be to consciously incorporate pauses next time and address the audience directly."
+    },
+    {
+      "speaker": "Gespräch 3 — Anna (Mitarbeiterin)",
+      "text_de": "Danke für die ehrliche Rückmeldung. Da haben Sie recht, ich war ziemlich nervös und wollte einfach nur durchkommen. Gibt es vielleicht ein Rhetorikseminar, das Sie empfehlen könnten? Ich möchte wirklich daran arbeiten.",
+      "text_en": "Thank you for the honest feedback. You're right, I was quite nervous and just wanted to get through it. Is there perhaps a rhetoric seminar you could recommend? I really want to work on that."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Verwaltungsgebühr des Mischportfolios?",
+      "text_en": "How high is the management fee of the mixed portfolio?",
+      "options": [
+        "a) 1,5 Prozent jährlich.",
+        "b) 0,8 Prozent jährlich.",
+        "c) 3,2 Prozent jährlich."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Verwaltungsgebühr beträgt 0,8 Prozent jährlich, deutlich unter dem Branchendurchschnitt.",
+      "explanation_en": "The management fee is 0.8 percent annually, significantly below the industry average."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange wartet Frau Bauer schon auf die Heizungsreparatur?",
+      "text_en": "How long has Ms. Bauer been waiting for the heating repair?",
+      "options": [
+        "a) Seit einer Woche.",
+        "b) Seit drei Monaten.",
+        "c) Seit einem halben Jahr."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Bauer wartet seit drei Monaten auf die Reparatur ihrer Heizung.",
+      "explanation_en": "Ms. Bauer has been waiting for three months for the repair of her heating."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Übergangslösung bietet die Hausverwaltung an?",
+      "text_en": "What interim solution does the property management offer?",
+      "options": [
+        "a) Eine vorübergehende Unterbringung in einem Hotel.",
+        "b) Einen elektrischen Heizlüfter auf Kosten der Hausverwaltung.",
+        "c) Eine Mietminderung von 30 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Hausverwaltung bietet übergangsweise einen elektrischen Heizlüfter auf ihre Kosten an.",
+      "explanation_en": "The property management offers a portable electric heater in the meantime at their expense."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Teamleiter an Annas Präsentation?",
+      "text_en": "What does the team leader criticize about Anna's presentation?",
+      "options": [
+        "a) Die Daten waren fehlerhaft und die Schlussfolgerungen falsch.",
+        "b) Sie sprach zu schnell und hielt kaum Blickkontakt.",
+        "c) Die Präsentation war inhaltlich zu oberflächlich."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Teamleiter kritisiert, dass sie zu schnell gesprochen und kaum Blickkontakt gehalten hat.",
+      "explanation_en": "The team leader criticizes that she spoke too quickly and hardly maintained eye contact."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was möchte Anna nach dem Feedback tun?",
+      "text_en": "What does Anna want to do after the feedback?",
+      "options": [
+        "a) Keine weiteren Präsentationen mehr halten.",
+        "b) Ein Rhetorikseminar besuchen, um sich zu verbessern.",
+        "c) Die Präsentation schriftlich nachreichen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Anna fragt nach einem Rhetorikseminar, weil sie an ihrer Präsentationsfähigkeit arbeiten möchte.",
+      "explanation_en": "Anna asks about a rhetoric seminar because she wants to work on her presentation skills."
+    }
+  ]
+}

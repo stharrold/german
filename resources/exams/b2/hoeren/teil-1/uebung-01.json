@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-1-001",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Homeoffice und die Zukunft der Arbeit",
+  "instructions": "Sie hören ein Radiointerview. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Herzlich willkommen zu unserer Sendung „Arbeitswelt im Wandel“. Heute sprechen wir mit Professor Dr. Katharina Bergmann, Arbeitssoziologin an der Universität München, über das Thema Homeoffice. Frau Bergmann, die Pandemie hat die Arbeitswelt grundlegend verändert. Wie sehen Sie die aktuelle Entwicklung?",
+      "text_en": "Welcome to our show 'The Changing World of Work.' Today we're speaking with Professor Dr. Katharina Bergmann, a work sociologist at the University of Munich, about the topic of working from home. Ms. Bergmann, the pandemic fundamentally changed the world of work. How do you see the current development?"
+    },
+    {
+      "speaker": "Prof. Dr. Bergmann",
+      "text_de": "Vielen Dank für die Einladung. Ja, die Veränderungen sind enorm. Unsere neueste Studie zeigt, dass etwa 40 Prozent der Beschäftigten in Deutschland mittlerweile zumindest teilweise von zu Hause arbeiten. Das ist ein deutlicher Anstieg im Vergleich zur Zeit vor der Pandemie, als es nur rund 12 Prozent waren. Was mich allerdings überrascht hat, ist die Tatsache, dass nicht alle Arbeitnehmer diese Entwicklung begrüßen. Viele vermissen den sozialen Austausch im Büro und berichten von zunehmender Isolation.",
+      "text_en": "Thank you for the invitation. Yes, the changes are enormous. Our latest study shows that about 40 percent of employees in Germany now work at least partially from home. That's a significant increase compared to before the pandemic, when it was only around 12 percent. What surprised me, however, is the fact that not all employees welcome this development. Many miss the social interaction in the office and report increasing isolation."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Das klingt widersprüchlich. Einerseits wünschen sich die Menschen mehr Flexibilität, andererseits fehlt ihnen der persönliche Kontakt. Gibt es denn ein ideales Modell?",
+      "text_en": "That sounds contradictory. On one hand, people want more flexibility, on the other hand they miss personal contact. Is there an ideal model?"
+    },
+    {
+      "speaker": "Prof. Dr. Bergmann",
+      "text_de": "Ich würde sagen, das hybride Modell hat sich als der beste Kompromiss erwiesen. Zwei bis drei Tage im Büro, den Rest zu Hause — so profitieren die Beschäftigten sowohl von der Flexibilität als auch vom Teamgeist. Allerdings müssten die Unternehmen mehr in die technische Ausstattung investieren. Wir haben festgestellt, dass fast ein Drittel der Befragten über mangelnde Ausstattung am Heimarbeitsplatz klagt. Das betrifft vor allem die ergonomische Einrichtung und die Internetverbindung.",
+      "text_en": "I would say the hybrid model has proven to be the best compromise. Two to three days in the office, the rest at home — this way employees benefit from both flexibility and team spirit. However, companies would need to invest more in technical equipment. We found that almost a third of respondents complain about inadequate equipment at their home workplace. This mainly concerns ergonomic furniture and internet connection."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Und wie steht es um die Produktivität? Arbeitgeber haben ja oft Bedenken, dass zu Hause weniger gearbeitet wird.",
+      "text_en": "And what about productivity? Employers often have concerns that less work gets done at home."
+    },
+    {
+      "speaker": "Prof. Dr. Bergmann",
+      "text_de": "Diese Sorge ist weitgehend unbegründet. Die Daten sprechen eine klare Sprache: Die Produktivität ist im Homeoffice sogar leicht gestiegen, und zwar um etwa 5 Prozent. Das liegt unter anderem daran, dass die Pendelzeit entfällt und die Beschäftigten ihre Arbeitszeit besser einteilen können. Was allerdings abnimmt, ist die kreative Zusammenarbeit. Spontane Gespräche auf dem Flur, das berühmte „Kaffeeküchenmoment“ — solche informellen Begegnungen lassen sich digital nur schwer ersetzen. Deshalb plädiere ich für eine bewusste Gestaltung der Bürotage mit Fokus auf Teamarbeit und Innovation.",
+      "text_en": "This concern is largely unfounded. The data speaks clearly: productivity has actually slightly increased when working from home, by about 5 percent. This is partly because commuting time is eliminated and employees can better organize their working time. What does decrease, however, is creative collaboration. Spontaneous conversations in the hallway, the famous 'coffee kitchen moment' — such informal encounters are difficult to replace digitally. That's why I advocate for a conscious design of office days with a focus on teamwork and innovation."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt die neueste Studie von Frau Bergmann?",
+      "text_en": "What does Ms. Bergmann's latest study show?",
+      "options": [
+        "a) Die Mehrheit der Deutschen arbeitet vollständig im Homeoffice.",
+        "b) Etwa 40 Prozent der Beschäftigten arbeiten teilweise von zu Hause.",
+        "c) Der Anteil der Heimarbeitenden ist seit der Pandemie kaum gestiegen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Laut der Studie arbeiten etwa 40 Prozent der Beschäftigten zumindest teilweise von zu Hause.",
+      "explanation_en": "According to the study, about 40 percent of employees work at least partially from home."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat Frau Bergmann bei der Studie überrascht?",
+      "text_en": "What surprised Ms. Bergmann in the study?",
+      "options": [
+        "a) Dass viele Arbeitnehmer das Homeoffice nicht nur positiv sehen.",
+        "b) Dass die meisten Arbeitnehmer nie ins Büro zurückkehren wollen.",
+        "c) Dass Unternehmen die Büros komplett geschlossen haben."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie war überrascht, dass nicht alle Arbeitnehmer die Entwicklung begrüßen und viele den sozialen Austausch vermissen.",
+      "explanation_en": "She was surprised that not all employees welcome the development and many miss the social interaction."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Arbeitsmodell empfiehlt Frau Bergmann?",
+      "text_en": "Which work model does Ms. Bergmann recommend?",
+      "options": [
+        "a) Vollständige Rückkehr ins Büro für besseren Teamgeist.",
+        "b) Ein hybrides Modell mit zwei bis drei Bürotagen pro Woche.",
+        "c) Vollständiges Homeoffice mit monatlichen Teamtreffen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie empfiehlt das hybride Modell mit zwei bis drei Bürotagen als besten Kompromiss.",
+      "explanation_en": "She recommends the hybrid model with two to three office days as the best compromise."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worüber klagt fast ein Drittel der Befragten?",
+      "text_en": "What does almost a third of respondents complain about?",
+      "options": [
+        "a) Über zu viele Videokonferenzen am Tag.",
+        "b) Über unzureichende Ausstattung am Heimarbeitsplatz.",
+        "c) Über mangelnde Unterstützung durch Vorgesetzte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Fast ein Drittel klagt über mangelnde Ausstattung, besonders ergonomische Einrichtung und Internetverbindung.",
+      "explanation_en": "Almost a third complain about inadequate equipment, especially ergonomic furniture and internet connection."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie hat sich die Produktivität im Homeoffice entwickelt?",
+      "text_en": "How has productivity developed when working from home?",
+      "options": [
+        "a) Sie ist deutlich zurückgegangen, besonders bei kreativen Aufgaben.",
+        "b) Sie ist um etwa 5 Prozent gestiegen.",
+        "c) Sie ist unverändert geblieben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Produktivität ist im Homeoffice um etwa 5 Prozent gestiegen, unter anderem weil die Pendelzeit entfällt.",
+      "explanation_en": "Productivity increased by about 5 percent when working from home, partly because commuting time is eliminated."
+    }
+  ]
+}

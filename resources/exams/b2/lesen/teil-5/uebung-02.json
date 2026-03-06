@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-5-002",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Sprachwandel durch soziale Medien",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die deutsche Sprache verändert sich schneller als je zuvor, und soziale Medien spielen dabei eine treibende Rolle. Linguisten an der Universität Duisburg-Essen untersuchen seit 2018, wie Plattformen wie Instagram, TikTok und WhatsApp die Sprachgewohnheiten junger Erwachsener beeinflussen. Ihre Ergebnisse zeigen einen tiefgreifenden Wandel sowohl im Wortschatz als auch in der Satzstruktur.\n\nAuffällig ist zunächst die massive Übernahme englischer Begriffe, die über herkömmliches Code-Switching hinausgeht. Ausdrücke wie „cringe“, „random“ oder „vibe“ werden nicht als Fremdwörter empfunden, sondern als selbstverständlicher Bestandteil des Deutschen behandelt und nach deutschen grammatischen Regeln konjugiert und dekliniert: „Ich habe gecringt“, „ein randomer Typ“. Gleichzeitig entstehen hybride Wortschöpfungen, die beide Sprachen verbinden.\n\nTiefergreifend als lexikalische Entlehnungen ist jedoch der Einfluss auf die Textstruktur. Die Zeichenbegrenzung und Geschwindigkeit sozialer Medien fördern eine verkürzte, fragmentarische Kommunikation. Nebensätze werden seltener, Satzzeichen willkürlich eingesetzt oder weggelassen. Sprachwissenschaftler warnen davor, diesen Wandel pauschal als Verfall zu werten. Professorin Elena Schmidbauer argumentiert: „Jede Generation passt Sprache an ihre Kommunikationsbedürfnisse an. Die heutige Jugendsprache zeigt eine bemerkenswerte Kreativität in der Verknüpfung verschiedener Sprachsysteme.“ Entscheidend sei, dass junge Menschen die Fähigkeit behalten, zwischen verschiedenen Sprachregistern zu wechseln.",
+    "text_en": "The German language is changing faster than ever before, and social media plays a driving role in this. Linguists at the University of Duisburg-Essen have been studying since 2018 how platforms like Instagram, TikTok, and WhatsApp influence the language habits of young adults. Their findings show a profound change in both vocabulary and sentence structure.\n\nStriking first is the massive adoption of English terms that goes beyond conventional code-switching. Expressions like 'cringe,' 'random,' or 'vibe' are not perceived as foreign words but are treated as a natural part of German and conjugated and declined according to German grammatical rules: 'Ich habe gecringt,' 'ein randomer Typ.' At the same time, hybrid word creations emerge that combine both languages.\n\nMore profound than lexical borrowings, however, is the influence on text structure. The character limits and speed of social media promote shortened, fragmentary communication. Subordinate clauses become rarer, punctuation is used arbitrarily or omitted. Linguists warn against categorically judging this change as decline. Professor Elena Schmidbauer argues: 'Every generation adapts language to its communication needs. Today's youth language shows remarkable creativity in linking different language systems.' What matters is that young people retain the ability to switch between different language registers.",
+    "source": "Fachzeitschrift",
+    "word_count": 200
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was untersuchen die Linguisten der Universität Duisburg-Essen?",
+      "text_en": "What are the linguists at the University of Duisburg-Essen studying?",
+      "options": [
+        "a) Wie traditionelle Dialekte verschwinden.",
+        "b) Wie soziale Medien die Sprachgewohnheiten junger Erwachsener beeinflussen.",
+        "c) Wie man Fremdsprachenunterricht verbessern kann."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie untersuchen, wie Plattformen wie Instagram, TikTok und WhatsApp die Sprachgewohnheiten beeinflussen.",
+      "explanation_en": "They study how platforms like Instagram, TikTok, and WhatsApp influence language habits."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist besonders an der Übernahme englischer Begriffe?",
+      "text_en": "What is special about the adoption of English terms?",
+      "options": [
+        "a) Sie werden nur von Jugendlichen verwendet.",
+        "b) Sie werden nach deutschen Grammatikregeln konjugiert und dekliniert.",
+        "c) Sie ersetzen die deutschen Wörter vollständig."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Englische Begriffe werden nach deutschen grammatischen Regeln konjugiert und dekliniert.",
+      "explanation_en": "English terms are conjugated and declined according to German grammatical rules."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welcher Einfluss ist laut Text tiefgreifender als der Wortschatzwandel?",
+      "text_en": "Which influence is more profound than vocabulary change according to the text?",
+      "options": [
+        "a) Der Einfluss auf die Aussprache.",
+        "b) Der Einfluss auf die Textstruktur und Satzbildung.",
+        "c) Der Einfluss auf die Rechtschreibung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Einfluss auf die Textstruktur ist tiefgreifender als lexikalische Entlehnungen.",
+      "explanation_en": "The influence on text structure is more profound than lexical borrowings."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie bewertet Professorin Schmidbauer den Sprachwandel?",
+      "text_en": "How does Professor Schmidbauer assess the language change?",
+      "options": [
+        "a) Als besorgniserregenden Verfall der Sprachkultur.",
+        "b) Als Ausdruck bemerkenswerter Kreativität junger Menschen.",
+        "c) Als unvermeidliche Folge der Globalisierung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die heutige Jugendsprache zeigt eine bemerkenswerte Kreativität in der Verknüpfung verschiedener Sprachsysteme.",
+      "explanation_en": "Today's youth language shows remarkable creativity in linking different language systems."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut den Forschern entscheidend?",
+      "text_en": "What is crucial according to the researchers?",
+      "options": [
+        "a) Dass englische Begriffe aus dem Deutschen verbannt werden.",
+        "b) Dass junge Menschen zwischen verschiedenen Sprachregistern wechseln können.",
+        "c) Dass soziale Medien in Schulen verboten werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Entscheidend sei, dass junge Menschen die Fähigkeit behalten, zwischen verschiedenen Sprachregistern zu wechseln.",
+      "explanation_en": "What matters is that young people retain the ability to switch between different language registers."
+    }
+  ]
+}

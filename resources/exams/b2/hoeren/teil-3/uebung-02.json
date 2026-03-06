@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-3-002",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Alltag im Berufsleben — Ratschläge und Abstimmungen",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Frau Lehmann (Kollegin)",
+      "text_de": "Sag mal, Markus, du hast doch im letzten Jahr den Wechsel vom Großkonzern zum Start-up gewagt. Wie läuft es? Ich überlege nämlich selbst, den Schritt zu machen, aber ich bin mir unsicher.",
+      "text_en": "Say, Markus, you made the leap from the large corporation to a start-up last year. How's it going? I'm actually considering making the move myself, but I'm unsure."
+    },
+    {
+      "speaker": "Gespräch 1 — Markus (Kollege)",
+      "text_de": "Ehrlich? Es war die beste Entscheidung meines Lebens, aber auch die härteste. Im Start-up musst du alles selbst machen — es gibt keine festen Zuständigkeiten. An einem Tag schreibe ich Code, am nächsten halte ich eine Kundenpräsentation. Das Gehalt ist niedriger, aber dafür habe ich Anteile am Unternehmen, und die Atmosphäre ist unglaublich motivierend. Mein Rat: Wenn du finanziell ein halbes Jahr überbrücken kannst und Lust auf Unsicherheit hast, mach es. Wenn du Sicherheit brauchst, bleib lieber, wo du bist.",
+      "text_en": "Honestly? It was the best decision of my life, but also the toughest. In a start-up, you have to do everything yourself — there are no fixed responsibilities. One day I write code, the next I give a client presentation. The salary is lower, but I have shares in the company, and the atmosphere is incredibly motivating. My advice: If you can financially bridge half a year and enjoy uncertainty, do it. If you need security, better stay where you are."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Krause (Projektleiter)",
+      "text_de": "Kolleginnen und Kollegen, ich muss Ihnen leider mitteilen, dass der Kunde den Liefertermin um drei Wochen vorverlegt hat. Das bedeutet, wir müssen unseren Zeitplan anpassen. Ich sehe zwei Möglichkeiten: Entweder wir reduzieren den Funktionsumfang und liefern eine Basisversion, oder wir arbeiten die nächsten drei Wochen im Schichtbetrieb. Ich möchte betonen, dass ich niemanden zu Überstunden zwingen kann, aber ich wäre dankbar für freiwillige Meldungen.",
+      "text_en": "Colleagues, I unfortunately have to inform you that the client has moved the delivery date up by three weeks. That means we need to adjust our schedule. I see two possibilities: Either we reduce the feature scope and deliver a basic version, or we work in shifts for the next three weeks. I want to emphasize that I cannot force anyone to work overtime, but I would be grateful for volunteers."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Schmidt (Entwicklerin)",
+      "text_de": "Herr Krause, bevor wir uns entscheiden — könnten wir nicht eine dritte Option prüfen? Wenn wir das externe Entwicklerteam in Krakau hinzuziehen, könnten wir den vollen Umfang liefern, ohne dass unser Team Überstunden machen muss. Das würde zwar das Budget belasten, aber der Kunde würde das vollständige Produkt erhalten.",
+      "text_en": "Mr. Krause, before we decide — couldn't we examine a third option? If we bring in the external development team in Krakow, we could deliver the full scope without our team having to work overtime. That would strain the budget, but the client would receive the complete product."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Winter (Nachbarin)",
+      "text_de": "Entschuldigung, Herr Hoffmann, ich muss Sie leider ansprechen. Seit einigen Wochen ist die Musik aus Ihrer Wohnung abends deutlich zu laut. Ich verstehe, dass man sich zu Hause entspannen möchte, aber gestern Abend konnte ich mein Kind erst um halb elf zum Schlafen bringen. Wäre es möglich, die Musik ab 22 Uhr leiser zu drehen? Das wäre die gesetzliche Nachtruhe.",
+      "text_en": "Excuse me, Mr. Hoffmann, I unfortunately need to address you. For several weeks, the music from your apartment has been clearly too loud in the evenings. I understand that one wants to relax at home, but last night I couldn't get my child to sleep until half past ten. Would it be possible to turn the music down from 10 PM? That would be the legal quiet hours."
+    },
+    {
+      "speaker": "Gespräch 3 — Herr Hoffmann (Nachbar)",
+      "text_de": "Oh, das tut mir wirklich leid, Frau Winter. Das war mir gar nicht bewusst. Ich habe neue Lautsprecher gekauft und offenbar die Lautstärke unterschätzt. Selbstverständlich werde ich darauf achten. Und wenn es Ihnen recht ist, gebe ich Ihnen meine Handynummer — dann können Sie mich direkt anrufen, falls es nochmal vorkommt, anstatt sich ärgern zu müssen.",
+      "text_en": "Oh, I'm really sorry, Ms. Winter. I wasn't aware of that at all. I bought new speakers and apparently underestimated the volume. Of course I'll pay attention to that. And if it's alright with you, I'll give you my mobile number — then you can call me directly if it happens again, instead of having to be annoyed."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was rät Markus seiner Kollegin bezüglich des Wechsels zum Start-up?",
+      "text_en": "What does Markus advise his colleague regarding the switch to a start-up?",
+      "options": [
+        "a) Man sollte es nur wagen, wenn man finanziell abgesichert ist und Unsicherheit mag.",
+        "b) Man sollte auf jeden Fall sofort wechseln.",
+        "c) Man sollte auf keinen Fall wechseln, weil das Gehalt zu niedrig ist."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Markus rät, es nur zu wagen, wenn man finanziell ein halbes Jahr überbrücken kann und Lust auf Unsicherheit hat.",
+      "explanation_en": "Markus advises to only do it if you can financially bridge half a year and enjoy uncertainty."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist das Problem des Projektteams?",
+      "text_en": "What is the project team's problem?",
+      "options": [
+        "a) Der Kunde hat das Projekt komplett abgesagt.",
+        "b) Der Liefertermin wurde um drei Wochen vorverlegt.",
+        "c) Das Budget wurde um die Hälfte gekürzt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Kunde hat den Liefertermin um drei Wochen vorverlegt.",
+      "explanation_en": "The client moved the delivery date up by three weeks."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche dritte Option schlägt Frau Schmidt vor?",
+      "text_en": "What third option does Ms. Schmidt propose?",
+      "options": [
+        "a) Das Projekt auf einen späteren Termin zu verschieben.",
+        "b) Das externe Entwicklerteam in Krakau hinzuzuziehen.",
+        "c) Einen neuen Kunden zu suchen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Schmidt schlägt vor, das externe Entwicklerteam in Krakau hinzuzuziehen, um den vollen Umfang ohne Überstunden zu liefern.",
+      "explanation_en": "Ms. Schmidt proposes bringing in the external development team in Krakow to deliver the full scope without overtime."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worüber beschwert sich Frau Winter bei ihrem Nachbarn?",
+      "text_en": "What does Ms. Winter complain about to her neighbor?",
+      "options": [
+        "a) Über Baulärm in der Wohnung.",
+        "b) Über zu laute Musik am Abend, die ihr Kind am Schlafen hindert.",
+        "c) Über Zigarettenrauch, der in ihre Wohnung zieht."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie beschwert sich über zu laute Musik am Abend, wegen der ihr Kind erst um halb elf einschlafen konnte.",
+      "explanation_en": "She complains about music that is too loud in the evening, because of which her child couldn't fall asleep until half past ten."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie reagiert Herr Hoffmann auf die Beschwerde?",
+      "text_en": "How does Mr. Hoffmann react to the complaint?",
+      "options": [
+        "a) Er streitet ab, dass die Musik zu laut war.",
+        "b) Er entschuldigt sich und bietet an, seine Handynummer zu geben.",
+        "c) Er schlägt vor, schalldichte Fenster einzubauen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er entschuldigt sich, sagt, es war ihm nicht bewusst, und bietet seine Handynummer für direkte Kontaktaufnahme an.",
+      "explanation_en": "He apologizes, says he wasn't aware, and offers his mobile number for direct contact."
+    }
+  ]
+}

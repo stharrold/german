@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-2-002",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Tempolimit auf deutschen Autobahnen",
+  "instructions": "Sie hören eine Radiodiskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Guten Abend und willkommen zu „Pro und Contra“. Heute geht es um eine Frage, die Deutschland seit Jahrzehnten spaltet: Soll es ein generelles Tempolimit von 130 Stundenkilometern auf Autobahnen geben? Bei mir sind Frau Sabine Koch, Pressesprecherin eines Umweltverbandes, und Herr Jürgen Walther, Automobilexperte und Vertreter des ADAC. Frau Koch, bitte beginnen Sie.",
+      "text_en": "Good evening and welcome to 'Pro and Contra.' Today we're addressing a question that has divided Germany for decades: Should there be a general speed limit of 130 kilometers per hour on highways? With me are Ms. Sabine Koch, press spokesperson of an environmental association, and Mr. Jürgen Walther, automobile expert and representative of the ADAC. Ms. Koch, please begin."
+    },
+    {
+      "speaker": "Frau Koch",
+      "text_de": "Danke schön. Deutschland ist das einzige Land in Europa — und eines der wenigen weltweit —, das kein generelles Tempolimit auf Autobahnen hat. Das ist aus mehreren Gründen nicht mehr zeitgemäß. Erstens: Ein Tempolimit von 130 km/h würde den CO₂-Ausstoß um bis zu 6 Millionen Tonnen pro Jahr senken. Das klingt vielleicht wenig, aber es wäre eine der einfachsten und kostengünstigsten Klimaschutzmaßnahmen überhaupt. Zweitens: Die Zahl der schweren Unfälle auf unbegrenzten Autobahnabschnitten ist signifikant höher als auf Abschnitten mit Tempolimit. Es geht hier buchstäblich um Menschenleben.",
+      "text_en": "Thank you. Germany is the only country in Europe — and one of the few worldwide — that has no general speed limit on highways. This is no longer appropriate for several reasons. First: A speed limit of 130 km/h would reduce CO₂ emissions by up to 6 million tons per year. That may sound like little, but it would be one of the simplest and most cost-effective climate protection measures of all. Second: The number of serious accidents on unrestricted highway sections is significantly higher than on sections with speed limits. This is literally about human lives."
+    },
+    {
+      "speaker": "Herr Walther",
+      "text_de": "Frau Koch, ich respektiere Ihre Argumente, aber lassen Sie mich die Zahlen einordnen. Der Verkehrssektor ist für etwa 20 Prozent der deutschen CO₂-Emissionen verantwortlich, und Autobahnen machen davon nur einen Bruchteil aus. Die sechs Millionen Tonnen entsprechen weniger als einem Prozent der Gesamtemissionen. Wenn wir wirklich etwas für das Klima tun wollen, müssen wir bei der Energiewende und der Industrie ansetzen, nicht beim Autofahrer. Was die Sicherheit angeht: Deutsche Autobahnen gehören zu den sichersten Straßen der Welt. Die meisten tödlichen Unfälle ereignen sich auf Landstraßen, nicht auf Autobahnen.",
+      "text_en": "Ms. Koch, I respect your arguments, but let me put the numbers in context. The transport sector is responsible for about 20 percent of German CO₂ emissions, and highways make up only a fraction of that. The six million tons correspond to less than one percent of total emissions. If we really want to do something for the climate, we need to start with the energy transition and industry, not with drivers. Regarding safety: German highways are among the safest roads in the world. Most fatal accidents occur on country roads, not on highways."
+    },
+    {
+      "speaker": "Frau Koch",
+      "text_de": "Herr Walther, das „weniger als ein Prozent“-Argument höre ich oft, und es ärgert mich jedes Mal. Klimaschutz funktioniert nicht, indem man einzelne Maßnahmen kleinredet. Jede Tonne CO₂, die wir einsparen, zählt. Und es gibt noch weitere Vorteile, die Sie verschweigen: gleichmäßigerer Verkehrsfluss, weniger Staus, geringerer Kraftstoffverbrauch und weniger Lärmbelästigung. Außerdem zeigen Umfragen, dass inzwischen eine deutliche Mehrheit der Deutschen ein Tempolimit befürwortet — über 60 Prozent.",
+      "text_en": "Mr. Walther, I hear the 'less than one percent' argument often, and it annoys me every time. Climate protection doesn't work by downplaying individual measures. Every ton of CO₂ we save counts. And there are additional benefits you're not mentioning: smoother traffic flow, fewer traffic jams, lower fuel consumption, and less noise pollution. Furthermore, surveys show that a clear majority of Germans now support a speed limit — over 60 percent."
+    },
+    {
+      "speaker": "Herr Walther",
+      "text_de": "Umfragen hin oder her — die Frage ist doch, ob wir individuelle Freiheit einschränken wollen, wenn der Nutzen marginal ist. Die deutsche Automobilindustrie hat die schnellsten und sichersten Autos der Welt entwickelt, gerade weil es keine Geschwindigkeitsbegrenzung gab. Diesen Innovationsvorsprung würden wir aufs Spiel setzen. Ich plädiere stattdessen für eine intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen bei schlechtem Wetter oder hohem Verkehrsaufkommen.",
+      "text_en": "Surveys aside — the question is whether we want to restrict individual freedom when the benefit is marginal. The German automobile industry developed the fastest and safest cars in the world precisely because there was no speed limit. We would be risking this innovation advantage. Instead, I advocate for intelligent traffic management with dynamic speed limits during bad weather or heavy traffic."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel CO₂ könnte laut Frau Koch durch ein Tempolimit eingespart werden?",
+      "text_en": "How much CO₂ could be saved through a speed limit according to Ms. Koch?",
+      "options": [
+        "a) Bis zu 2 Millionen Tonnen pro Jahr.",
+        "b) Bis zu 6 Millionen Tonnen pro Jahr.",
+        "c) Bis zu 15 Millionen Tonnen pro Jahr."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Koch sagt, ein Tempolimit würde den CO₂-Ausstoß um bis zu 6 Millionen Tonnen pro Jahr senken.",
+      "explanation_en": "Ms. Koch says a speed limit would reduce CO₂ emissions by up to 6 million tons per year."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was entgegnet Herr Walther zum CO₂-Argument?",
+      "text_en": "How does Mr. Walther respond to the CO₂ argument?",
+      "options": [
+        "a) Die Einsparung entspricht weniger als einem Prozent der Gesamtemissionen.",
+        "b) Autobahnen verursachen gar keine CO₂-Emissionen.",
+        "c) Die Automobilindustrie hat die Emissionen bereits auf null reduziert."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Herr Walther sagt, die sechs Millionen Tonnen entsprechen weniger als einem Prozent der Gesamtemissionen.",
+      "explanation_en": "Mr. Walther says the six million tons correspond to less than one percent of total emissions."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wo passieren laut Herrn Walther die meisten tödlichen Unfälle?",
+      "text_en": "Where do most fatal accidents occur according to Mr. Walther?",
+      "options": [
+        "a) Auf Autobahnen ohne Tempolimit.",
+        "b) In Innenstädten.",
+        "c) Auf Landstraßen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Herr Walther sagt, die meisten tödlichen Unfälle ereignen sich auf Landstraßen, nicht auf Autobahnen.",
+      "explanation_en": "Mr. Walther says most fatal accidents occur on country roads, not on highways."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die Zustimmung der Deutschen zum Tempolimit laut Frau Koch?",
+      "text_en": "How high is German public approval of a speed limit according to Ms. Koch?",
+      "options": [
+        "a) Etwa 40 Prozent.",
+        "b) Über 60 Prozent.",
+        "c) Fast 90 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Koch sagt, über 60 Prozent der Deutschen befürworten ein Tempolimit.",
+      "explanation_en": "Ms. Koch says over 60 percent of Germans support a speed limit."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt Herr Walther als Alternative zum Tempolimit vor?",
+      "text_en": "What does Mr. Walther propose as an alternative to a speed limit?",
+      "options": [
+        "a) Ein Verbot von Autos mit hohem Verbrauch.",
+        "b) Intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen.",
+        "c) Die vollständige Umstellung auf Elektroautos bis 2030."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Herr Walther plädiert für intelligente Verkehrssteuerung mit dynamischen Geschwindigkeitsbegrenzungen.",
+      "explanation_en": "Mr. Walther advocates for intelligent traffic management with dynamic speed limits."
+    }
+  ]
+}

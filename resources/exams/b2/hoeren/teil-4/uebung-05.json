@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-4-005",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Psychologie der Entscheidungsfindung",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Zimmermann",
+      "text_de": "Meine sehr geehrten Damen und Herren, ich begrüße Sie herzlich zum Abendvortrag unserer Ringvorlesung „Psychologie im Alltag“. Mein Name ist Lukas Zimmermann, und ich bin Professor für Verhaltensökonomie an der Universität Zürich. Heute spreche ich über ein Thema, das jeden von uns täglich betrifft: Warum treffen wir oft schlechte Entscheidungen — und wie können wir es besser machen?",
+      "text_en": "Ladies and gentlemen, I warmly welcome you to the evening lecture of our lecture series 'Psychology in Everyday Life.' My name is Lukas Zimmermann, and I am a professor of behavioral economics at the University of Zurich. Today I'm speaking about a topic that affects each of us daily: Why do we often make bad decisions — and how can we do better?"
+    },
+    {
+      "speaker": "Prof. Dr. Zimmermann",
+      "text_de": "Unser Gehirn ist ein bemerkenswertes Organ, aber es hat Schwächen, die wir kennen sollten. Der Nobelpreisträger Daniel Kahneman hat gezeigt, dass wir zwei Denksysteme haben: System eins ist schnell, intuitiv und automatisch — es hilft uns, blitzschnell auf eine Gefahr zu reagieren. System zwei ist langsam, analytisch und anstrengend — es hilft uns, komplexe Probleme zu lösen. Das Problem ist: Wir benutzen viel zu oft System eins, auch bei Entscheidungen, die eigentlich System zwei erfordern würden.",
+      "text_en": "Our brain is a remarkable organ, but it has weaknesses we should know about. Nobel laureate Daniel Kahneman showed that we have two thinking systems: System one is fast, intuitive, and automatic — it helps us react to danger in a flash. System two is slow, analytical, and effortful — it helps us solve complex problems. The problem is: We use system one far too often, even for decisions that would actually require system two."
+    },
+    {
+      "speaker": "Prof. Dr. Zimmermann",
+      "text_de": "Lassen Sie mich drei häufige Denkfehler vorstellen. Der erste ist der Bestätigungsfehler: Wir suchen bevorzugt nach Informationen, die unsere bestehende Meinung bestätigen, und ignorieren oder entwerten gegenteilige Beweise. In einer Studie legten wir Versuchspersonen identische Daten vor und baten sie um eine Einschätzung. Diejenigen, die bereits eine Vorannahme hatten, interpretierten die Daten ausnahmslos zugunsten ihrer vorgefassten Meinung — obwohl die Daten neutral waren.",
+      "text_en": "Let me introduce three common cognitive errors. The first is the confirmation bias: We preferentially search for information that confirms our existing opinion and ignore or devalue contrary evidence. In a study, we presented identical data to test subjects and asked them for an assessment. Those who already had a preconception invariably interpreted the data in favor of their preconceived opinion — even though the data was neutral."
+    },
+    {
+      "speaker": "Prof. Dr. Zimmermann",
+      "text_de": "Der zweite Denkfehler ist der Ankereffekt. Menschen orientieren sich bei Schätzungen stark an der ersten Zahl, die sie hören, selbst wenn diese völlig willkürlich ist. Wir haben Immobilienmakler gebeten, den Wert eines Hauses zu schätzen. Eine Gruppe erhielt einen überhöhten Richtpreis, die andere einen niedrigen. Obwohl alle Makler behaupteten, sich nicht vom Richtpreis beeinflussen zu lassen, lagen die Schätzungen der ersten Gruppe im Durchschnitt 40.000 Euro höher als die der zweiten.",
+      "text_en": "The second cognitive error is the anchoring effect. People strongly orient their estimates on the first number they hear, even if it is completely arbitrary. We asked real estate agents to estimate the value of a house. One group received an inflated guide price, the other a low one. Although all agents claimed not to be influenced by the guide price, the estimates of the first group were on average 40,000 euros higher than those of the second."
+    },
+    {
+      "speaker": "Prof. Dr. Zimmermann",
+      "text_de": "Der dritte Denkfehler ist die sogenannte Verlustaversion. Menschen empfinden den Schmerz eines Verlustes etwa doppelt so stark wie die Freude über einen gleich großen Gewinn. Deshalb halten Anleger an verlustbringenden Aktien fest, anstatt sie zu verkaufen — sie hoffen, den Verlust noch auszugleichen. Und deshalb scheuen Menschen Veränderungen, selbst wenn die Veränderung objektiv vorteilhaft wäre. Was können Sie dagegen tun? Erstens: Wichtige Entscheidungen nie unter Zeitdruck treffen. Zweitens: Bewusst die Gegenposition einnehmen und Argumente dagegen suchen. Drittens: Entscheidungen wenn möglich in Gruppen treffen, weil verschiedene Perspektiven Denkfehler reduzieren. Und viertens: Sich bewusst machen, dass jede Nicht-Entscheidung ebenfalls eine Entscheidung ist. Vielen Dank für Ihre Aufmerksamkeit.",
+      "text_en": "The third cognitive error is the so-called loss aversion. People feel the pain of a loss about twice as strongly as the joy of an equal gain. That's why investors hold on to loss-making stocks instead of selling them — they hope to still offset the loss. And that's why people shy away from change, even when the change would be objectively advantageous. What can you do about it? First: Never make important decisions under time pressure. Second: Consciously take the opposing position and search for arguments against. Third: Make decisions in groups when possible, because different perspectives reduce cognitive errors. And fourth: Be aware that every non-decision is also a decision. Thank you for your attention."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Professor Zimmermann das Problem mit den zwei Denksystemen?",
+      "text_en": "What is the problem with the two thinking systems according to Professor Zimmermann?",
+      "options": [
+        "a) System zwei funktioniert bei den meisten Menschen nicht richtig.",
+        "b) Wir benutzen System eins zu oft, auch wenn System zwei nötig wäre.",
+        "c) Beide Systeme widersprechen sich ständig."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wir benutzen viel zu oft das schnelle, intuitive System eins, auch bei Entscheidungen, die das analytische System zwei erfordern würden.",
+      "explanation_en": "We use the fast, intuitive system one far too often, even for decisions that would require the analytical system two."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigte die Studie zum Bestätigungsfehler?",
+      "text_en": "What did the study on confirmation bias show?",
+      "options": [
+        "a) Versuchspersonen interpretierten neutrale Daten zugunsten ihrer vorgefassten Meinung.",
+        "b) Versuchspersonen änderten ihre Meinung, wenn die Daten eindeutig waren.",
+        "c) Versuchspersonen konnten keine Daten interpretieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Versuchspersonen mit Vorannahmen interpretierten neutrale Daten ausnahmslos zugunsten ihrer vorgefassten Meinung.",
+      "explanation_en": "Test subjects with preconceptions invariably interpreted neutral data in favor of their preconceived opinion."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Euro unterschieden sich die Schätzungen der Immobilienmakler?",
+      "text_en": "By how many euros did the real estate agents' estimates differ?",
+      "options": [
+        "a) Um durchschnittlich 15.000 Euro.",
+        "b) Um durchschnittlich 40.000 Euro.",
+        "c) Um durchschnittlich 80.000 Euro."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Schätzungen der Gruppe mit dem überhöhten Richtpreis lagen im Durchschnitt 40.000 Euro höher.",
+      "explanation_en": "The estimates of the group with the inflated guide price were on average 40,000 euros higher."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was besagt die Verlustaversion?",
+      "text_en": "What does loss aversion state?",
+      "options": [
+        "a) Menschen vermeiden jedes Risiko grundsätzlich.",
+        "b) Der Schmerz eines Verlustes wird etwa doppelt so stark empfunden wie die Freude über einen gleich großen Gewinn.",
+        "c) Menschen investieren lieber in sichere Anlagen als in Aktien."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Menschen empfinden den Schmerz eines Verlustes etwa doppelt so stark wie die Freude über einen gleich großen Gewinn.",
+      "explanation_en": "People feel the pain of a loss about twice as strongly as the joy of an equal gain."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Empfehlung gibt Professor Zimmermann für bessere Entscheidungen?",
+      "text_en": "What recommendation does Professor Zimmermann give for better decisions?",
+      "options": [
+        "a) Immer der ersten Intuition vertrauen.",
+        "b) Bewusst die Gegenposition einnehmen und Argumente dagegen suchen.",
+        "c) Entscheidungen möglichst schnell treffen, bevor man sich verunsichern lässt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er empfiehlt, bewusst die Gegenposition einzunehmen und Argumente dagegen zu suchen, um Denkfehler zu vermeiden.",
+      "explanation_en": "He recommends consciously taking the opposing position and searching for arguments against to avoid cognitive errors."
+    }
+  ]
+}

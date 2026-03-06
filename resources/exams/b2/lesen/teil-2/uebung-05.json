@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-2-005",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kommentar: Homeoffice — das Ende der Bürokultur?",
+  "instructions": "Lesen Sie den Kommentar und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Pandemie hat Millionen von Beschäftigten ins Homeoffice gezwungen, und viele wollen nicht mehr zurück. Laut einer Umfrage des Instituts der deutschen Wirtschaft möchten 56 Prozent der Büroangestellten dauerhaft mindestens zwei Tage pro Woche von zu Hause arbeiten. Arbeitgeber stehen vor einem Dilemma: Wer kein Homeoffice anbietet, verliert qualifizierte Fachkräfte an die Konkurrenz. Doch ganz ohne Büro funktioniert es auch nicht.\n\nDie Vorteile des Homeoffice sind gut dokumentiert. Pendler sparen Zeit und Geld, die Work-Life-Balance verbessert sich, und Studien zeigen, dass die Produktivität bei konzentrierter Einzelarbeit sogar steigt. Gleichzeitig gehen jedoch wichtige Aspekte der Zusammenarbeit verloren. Spontane Gespräche auf dem Flur, gemeinsame Mittagessen und die nonverbale Kommunikation in Besprechungen lassen sich digital nur unzureichend ersetzen. Besonders für neue Mitarbeiter und Berufseinsteiger fehlt das informelle Lernen durch Beobachtung und Nachahmung.\n\nIch bin überzeugt, dass die Zukunft nicht im reinen Homeoffice liegt, sondern in hybriden Modellen, die das Beste aus beiden Welten verbinden. Unternehmen sollten ihre Büros zu Begegnungsstätten umgestalten: weniger Einzelschreibtische, mehr Projektflächen und Kreativräume. Die Einzelarbeit findet zu Hause statt, die Teamarbeit im Büro. Dafür brauchen wir allerdings klare Regelungen und eine neue Führungskultur, die Ergebnisse statt Anwesenheit bewertet.",
+    "text_en": "The pandemic forced millions of employees into home offices, and many do not want to go back. According to a survey by the Institute of the German Economy, 56 percent of office workers want to permanently work from home at least two days per week. Employers face a dilemma: those who do not offer remote work lose qualified professionals to competitors. But working entirely without an office does not work either.\n\nThe advantages of working from home are well documented. Commuters save time and money, work-life balance improves, and studies show that productivity for focused individual work even increases. At the same time, however, important aspects of collaboration are lost. Spontaneous conversations in the hallway, shared lunches, and nonverbal communication in meetings can only be inadequately replicated digitally. Especially for new employees and career starters, the informal learning through observation and imitation is missing.\n\nI am convinced that the future does not lie in pure remote work but in hybrid models that combine the best of both worlds. Companies should transform their offices into meeting places: fewer individual desks, more project spaces and creative rooms. Individual work takes place at home, teamwork at the office. For this, however, we need clear regulations and a new leadership culture that evaluates results rather than presence.",
+    "source": "Zeitung",
+    "word_count": 204
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welches Dilemma haben Arbeitgeber laut Text?",
+      "text_en": "What dilemma do employers face according to the text?",
+      "options": [
+        "a) Sie können sich Büroräume nicht mehr leisten.",
+        "b) Ohne Homeoffice verlieren sie Fachkräfte, aber ganz ohne Büro geht es nicht.",
+        "c) Sie finden keine neuen Mitarbeiter mehr."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wer kein Homeoffice anbietet, verliert Fachkräfte, aber ganz ohne Büro funktioniert es auch nicht.",
+      "explanation_en": "Those who don't offer remote work lose professionals, but working entirely without an office doesn't work either."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorteil des Homeoffice belegen Studien?",
+      "text_en": "What advantage of remote work do studies demonstrate?",
+      "options": [
+        "a) Die Teamarbeit verbessert sich deutlich.",
+        "b) Die Produktivität bei konzentrierter Einzelarbeit steigt.",
+        "c) Die Mitarbeiter sind zufriedener mit ihrem Gehalt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Studien zeigen, dass die Produktivität bei konzentrierter Einzelarbeit sogar steigt.",
+      "explanation_en": "Studies show that productivity for focused individual work even increases."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was geht laut Autor im Homeoffice verloren?",
+      "text_en": "What is lost in remote work according to the author?",
+      "options": [
+        "a) Die Fähigkeit, eigenständig zu arbeiten.",
+        "b) Spontane Begegnungen und informelles Lernen.",
+        "c) Der Zugang zu technischen Ressourcen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Spontane Gespräche, gemeinsame Mittagessen und informelles Lernen durch Beobachtung gehen verloren.",
+      "explanation_en": "Spontaneous conversations, shared lunches, and informal learning through observation are lost."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches Arbeitsmodell bevorzugt der Autor?",
+      "text_en": "Which work model does the author prefer?",
+      "options": [
+        "a) Vollständiges Homeoffice für alle Angestellten.",
+        "b) Hybride Modelle mit Einzelarbeit zu Hause und Teamarbeit im Büro.",
+        "c) Rückkehr zur vollständigen Büropräsenz."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Zukunft liegt in hybriden Modellen: Einzelarbeit zu Hause, Teamarbeit im Büro.",
+      "explanation_en": "The future lies in hybrid models: individual work at home, teamwork at the office."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Autor von der Führungskultur?",
+      "text_en": "What does the author demand from leadership culture?",
+      "options": [
+        "a) Strengere Kontrolle der Arbeitszeiten.",
+        "b) Bewertung von Ergebnissen statt Anwesenheit.",
+        "c) Regelmäßige Teambuilding-Veranstaltungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wir brauchen eine neue Führungskultur, die Ergebnisse statt Anwesenheit bewertet.",
+      "explanation_en": "We need a new leadership culture that evaluates results rather than presence."
+    }
+  ]
+}

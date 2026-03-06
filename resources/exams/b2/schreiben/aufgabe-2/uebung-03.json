@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-2-003",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Umweltmaßnahmen im Alltag",
+  "instructions": "Schreiben Sie einen argumentativen Text, in dem Sie zu dem Thema Stellung nehmen.",
+  "situation_de": "In einer Diskussionsrunde wird debattiert, ob der Einzelne durch sein Verhalten einen bedeutenden Beitrag zum Umweltschutz leisten kann oder ob nur politische Maßnahmen wirklich etwas verändern. Nehmen Sie Stellung und begründen Sie Ihre Position.",
+  "situation_en": "In a discussion panel, people are debating whether individuals can make a significant contribution to environmental protection through their behavior or whether only political measures can truly change anything. Take a position and justify your stance.",
+  "target_word_count": 133,
+  "required_points": [
+    "Ihre Position klar formulieren (Clearly formulate your position)",
+    "Mindestens zwei Argumente für Ihre Position anführen (Provide at least two arguments for your position)",
+    "Ein Gegenargument nennen und entkräften (Name a counterargument and refute it)",
+    "Ein Fazit ziehen (Draw a conclusion)"
+  ],
+  "model_answer": {
+    "text_de": "Ich vertrete die Auffassung, dass sowohl individuelles Handeln als auch entschlossene politische Maßnahmen für einen wirklich wirksamen Umweltschutz gleichermaßen notwendig sind. Beide Ebenen ergänzen sich dabei gegenseitig auf unverzichtbare Weise.\n\nEinerseits kann jeder Einzelne durch bewussten Konsum, die konsequente Vermeidung von Plastik und die regelmäßige Nutzung öffentlicher Verkehrsmittel einen durchaus wichtigen persönlichen Beitrag leisten. Andererseits üben Verbraucher durch ihre alltäglichen Kaufentscheidungen zunehmend Druck auf Unternehmen aus, ihre Produktion insgesamt nachhaltiger und umweltfreundlicher zu gestalten.\n\nSkeptiker mögen zwar einwenden, dass individuelle Maßnahmen angesichts des enormen globalen Ausmaßes der Klimakrise letztlich bedeutungslos seien. Dem ist jedoch klar entgegenzuhalten, dass tiefgreifender gesellschaftlicher Wandel historisch betrachtet stets mit dem bewussten Handeln engagierter Einzelner begonnen hat.\n\nLetztlich brauchen wir daher beides: verantwortungsbewusste Bürger, die im Alltag aktiv Verantwortung übernehmen, und eine entschlossene Politik, die den notwendigen Rahmen schafft.",
+    "text_en": "I hold the view that both individual action and determined political measures are equally necessary for truly effective environmental protection. Both levels complement each other in an indispensable way.\n\nOn one hand, each individual can make a quite important personal contribution through conscious consumption, the consistent avoidance of plastic, and the regular use of public transportation. On the other hand, consumers increasingly exert pressure on companies through their everyday purchasing decisions to make their production overall more sustainable and environmentally friendly.\n\nSkeptics may indeed object that individual measures are ultimately meaningless given the enormous global scale of the climate crisis. However, it must be clearly countered that profound societal change has historically always begun with the conscious actions of engaged individuals.\n\nUltimately, we therefore need both: responsible citizens who actively take responsibility in everyday life, and determined politics that creates the necessary framework."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Klare Positionierung mit überzeugenden Argumenten und Gegenargument (Task fulfillment: Clear positioning with convincing arguments and counterargument)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Fazit (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Differenzierter Wortschatz für Umweltthemen und Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for environmental topics and argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen mit Konnektoren wie einerseits, andererseits, jedoch, letztlich (Structures: Complex sentence structures with connectors such as einerseits, andererseits, jedoch, letztlich)"
+  ]
+}

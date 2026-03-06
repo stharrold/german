@@ -147,6 +147,11 @@ resources/exams/b1/              # B1 exam practice exercises (75, Goethe-Instit
 ├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
 ├── schreiben/aufgabe-{1-3}/    # Writing (3 tasks, 5 exercises each)
 └── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
+resources/exams/b2/              # B2 exam practice exercises (65, Goethe-Institut format)
+├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
+├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-2}/        # Speaking (2 parts, 5 exercises each)
 ```
 
 **Exam exercise schema:** Structured JSON validated by Pydantic models in `src/german/exams/`. Key fields differ by skill:

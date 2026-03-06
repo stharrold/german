@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-4-004",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Forum: Großstadt oder Land — wo lebt man besser?",
+  "instructions": "Lesen Sie die Forumsbeiträge und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "NadineR: Wir sind letztes Jahr von Berlin aufs Land gezogen, und es war die beste Entscheidung unseres Lebens. Die Kinder spielen im Garten statt auf dem Betonhof, die Luft ist sauber, und wir haben für die Hälfte der Berliner Miete ein ganzes Haus. Allerdings braucht man definitiv ein Auto, denn der nächste Supermarkt ist zehn Kilometer entfernt.\n\nOliverK: Ich bin überzeugter Großstädter. Alles ist fußläufig erreichbar: Kino, Theater, Restaurants, Ärzte. Außerdem ist das kulturelle Angebot unschlagbar. Auf dem Land würde ich vor Langeweile eingehen. Und was viele vergessen: In der Stadt trifft man Menschen aus aller Welt, das macht den Alltag einfach interessanter.\n\nJuliaH: Die Debatte ist zu vereinfacht. Es gibt auch Kleinstädte mit 30.000 bis 80.000 Einwohnern, die das Beste aus beiden Welten bieten: kurze Wege, bezahlbarer Wohnraum, genug kulturelles Angebot und trotzdem Nähe zur Natur. Ich wohne in Freiburg und möchte mit niemandem tauschen.\n\nPeterM: Das Entscheidende ist die Lebensphase. Als Student wollte ich unbedingt in der Großstadt leben. Jetzt mit Mitte vierzig und zwei Kindern zählen für mich andere Dinge: ein Garten, ruhige Nachbarn und eine gute Grundschule um die Ecke. Es gibt keine pauschale Antwort.",
+    "text_en": "NadineR: We moved from Berlin to the countryside last year, and it was the best decision of our lives. The children play in the garden instead of on the concrete yard, the air is clean, and we have a whole house for half the Berlin rent. However, you definitely need a car because the nearest supermarket is ten kilometers away.\n\nOliverK: I am a convinced city dweller. Everything is within walking distance: cinema, theater, restaurants, doctors. Besides, the cultural offerings are unbeatable. In the countryside, I would die of boredom. And what many forget: in the city, you meet people from all over the world, which simply makes everyday life more interesting.\n\nJuliaH: The debate is too simplified. There are also small cities with 30,000 to 80,000 inhabitants that offer the best of both worlds: short distances, affordable housing, enough cultural offerings, and still proximity to nature. I live in Freiburg and would not want to trade with anyone.\n\nPeterM: What matters is the life phase. As a student, I absolutely wanted to live in a big city. Now in my mid-forties with two children, other things matter to me: a garden, quiet neighbors, and a good primary school around the corner. There is no one-size-fits-all answer.",
+    "source": "Blog",
+    "word_count": 178
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut NadineR ein Nachteil des Landlebens?",
+      "text_en": "What is a disadvantage of rural life according to NadineR?",
+      "options": [
+        "a) Die Nachbarn sind unfreundlich.",
+        "b) Man braucht unbedingt ein Auto wegen der Entfernungen.",
+        "c) Die Schulen auf dem Land sind schlecht."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man braucht definitiv ein Auto, denn der nächste Supermarkt ist zehn Kilometer entfernt.",
+      "explanation_en": "You definitely need a car because the nearest supermarket is ten kilometers away."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was schätzt OliverK besonders an der Großstadt?",
+      "text_en": "What does OliverK particularly appreciate about the big city?",
+      "options": [
+        "a) Die niedrigen Lebenshaltungskosten.",
+        "b) Das kulturelle Angebot und die internationale Vielfalt.",
+        "c) Die saubere Luft und großen Parks."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das kulturelle Angebot ist unschlagbar, und man trifft Menschen aus aller Welt.",
+      "explanation_en": "The cultural offerings are unbeatable, and you meet people from all over the world."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt JuliaH als Alternative vor?",
+      "text_en": "What does JuliaH suggest as an alternative?",
+      "options": [
+        "a) Einen Vorort einer Großstadt.",
+        "b) Kleinstädte, die das Beste aus beiden Welten bieten.",
+        "c) Regelmäßige Wochenendausflüge aufs Land."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kleinstädte mit 30.000 bis 80.000 Einwohnern bieten das Beste aus beiden Welten.",
+      "explanation_en": "Small cities with 30,000 to 80,000 inhabitants offer the best of both worlds."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist PeterMs Hauptargument?",
+      "text_en": "What is PeterM's main argument?",
+      "options": [
+        "a) Dass das Land grundsätzlich besser ist als die Stadt.",
+        "b) Dass die Lebensphase bestimmt, wo man am besten lebt.",
+        "c) Dass Kinder immer auf dem Land aufwachsen sollten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Entscheidende ist die Lebensphase — es gibt keine pauschale Antwort.",
+      "explanation_en": "What matters is the life phase — there is no one-size-fits-all answer."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Aussage trifft auf alle Forumsteilnehmer zu?",
+      "text_en": "Which statement applies to all forum participants?",
+      "options": [
+        "a) Alle sind sich einig, dass die Großstadt besser ist.",
+        "b) Jeder hat unterschiedliche Prioritäten und Erfahrungen.",
+        "c) Alle planen einen Umzug in nächster Zeit."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Alle vier Beiträge zeigen unterschiedliche Perspektiven basierend auf persönlichen Prioritäten.",
+      "explanation_en": "All four contributions show different perspectives based on personal priorities."
+    }
+  ]
+}

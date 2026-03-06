@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-1-002",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Künstliche Intelligenz im Alltag",
+  "instructions": "Sie hören ein Radiointerview. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "In unserer Reihe „Technik verstehen“ begrüßen wir heute Dr. Stefan Hoffmann, der am Fraunhofer-Institut für Künstliche Intelligenz forscht. Herr Hoffmann, KI ist in aller Munde. Aber wie weit ist diese Technologie wirklich im Alltag der Menschen angekommen?",
+      "text_en": "In our series 'Understanding Technology,' we welcome today Dr. Stefan Hoffmann, who researches at the Fraunhofer Institute for Artificial Intelligence. Mr. Hoffmann, AI is on everyone's lips. But how far has this technology really arrived in people's everyday lives?"
+    },
+    {
+      "speaker": "Dr. Hoffmann",
+      "text_de": "Nun, die meisten Menschen nutzen bereits täglich KI, ohne es zu wissen. Wenn Sie Ihr Smartphone entsperren, eine Sprachassistentin verwenden oder Empfehlungen auf Streaming-Plattformen erhalten — hinter all dem steckt Künstliche Intelligenz. Was sich allerdings in den letzten zwei Jahren dramatisch verändert hat, ist die Fähigkeit der KI, natürliche Sprache zu verstehen und zu erzeugen. Die sogenannten großen Sprachmodelle haben die Art und Weise revolutioniert, wie wir mit Computern interagieren.",
+      "text_en": "Well, most people already use AI daily without knowing it. When you unlock your smartphone, use a voice assistant, or receive recommendations on streaming platforms — artificial intelligence is behind all of that. What has dramatically changed in the last two years, however, is AI's ability to understand and generate natural language. The so-called large language models have revolutionized the way we interact with computers."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Viele Menschen haben aber auch Angst vor KI, insbesondere was den Arbeitsmarkt betrifft. Sind diese Befürchtungen berechtigt?",
+      "text_en": "But many people are also afraid of AI, especially regarding the job market. Are these fears justified?"
+    },
+    {
+      "speaker": "Dr. Hoffmann",
+      "text_de": "Ich würde sagen, die Befürchtungen sind teilweise nachvollziehbar, aber oft übertrieben. Die Geschichte zeigt, dass technologische Revolutionen zwar bestimmte Berufe verdrängen, aber gleichzeitig neue schaffen. Unsere Prognosen deuten darauf hin, dass innerhalb der nächsten Jahre etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten. Aber — und das ist entscheidend — es werden voraussichtlich mehr neue Arbeitsplätze entstehen, als verloren gehen. Der Schlüssel liegt in der Weiterbildung. Wer bereit ist, sich neue Fähigkeiten anzueignen, wird von der Entwicklung profitieren.",
+      "text_en": "I would say the fears are partly understandable but often exaggerated. History shows that technological revolutions do displace certain professions but simultaneously create new ones. Our forecasts indicate that within the coming years, about 15 percent of today's activities could be automated. But — and this is crucial — more new jobs are expected to be created than lost. The key lies in continuing education. Those who are willing to acquire new skills will benefit from the development."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und welche Bereiche werden besonders betroffen sein?",
+      "text_en": "And which areas will be particularly affected?"
+    },
+    {
+      "speaker": "Dr. Hoffmann",
+      "text_de": "Am stärksten betroffen werden Routinetätigkeiten sein, etwa in der Buchhaltung, der Datenverarbeitung und einfachen Verwaltungsaufgaben. Berufe, die Kreativität, emotionale Intelligenz oder komplexe Problemlösung erfordern, werden hingegen eher an Bedeutung gewinnen. Ärzte, Therapeuten, Ingenieure und Lehrer werden KI als Werkzeug nutzen, aber nicht durch sie ersetzt werden. Ich sage meinen Studierenden immer: KI wird nicht Ihren Job übernehmen, aber jemand, der KI nutzt, könnte es tun.",
+      "text_en": "Routine activities will be most affected, such as in accounting, data processing, and simple administrative tasks. Professions that require creativity, emotional intelligence, or complex problem-solving, on the other hand, will tend to gain importance. Doctors, therapists, engineers, and teachers will use AI as a tool but won't be replaced by it. I always tell my students: AI won't take your job, but someone who uses AI might."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was sagt Dr. Hoffmann über die tägliche Nutzung von KI?",
+      "text_en": "What does Dr. Hoffmann say about the daily use of AI?",
+      "options": [
+        "a) Die meisten Menschen nutzen KI bewusst und gezielt.",
+        "b) Die meisten Menschen nutzen KI, ohne es zu bemerken.",
+        "c) Nur Fachleute nutzen KI regelmäßig im Alltag."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Hoffmann sagt, dass die meisten Menschen bereits täglich KI nutzen, ohne es zu wissen.",
+      "explanation_en": "Dr. Hoffmann says that most people already use AI daily without knowing it."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat sich laut Dr. Hoffmann in den letzten zwei Jahren dramatisch verändert?",
+      "text_en": "What has dramatically changed in the last two years according to Dr. Hoffmann?",
+      "options": [
+        "a) Die Geschwindigkeit der Computer hat sich verdoppelt.",
+        "b) Die KI kann jetzt natürliche Sprache verstehen und erzeugen.",
+        "c) Die Kosten für KI-Technologie sind stark gesunken."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Fähigkeit der KI, natürliche Sprache zu verstehen und zu erzeugen, hat sich dramatisch verändert.",
+      "explanation_en": "AI's ability to understand and generate natural language has dramatically changed."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent der heutigen Tätigkeiten könnten innerhalb der nächsten Jahre automatisiert werden?",
+      "text_en": "What percentage of today's activities could be automated within the coming years?",
+      "options": [
+        "a) Etwa 5 Prozent.",
+        "b) Etwa 15 Prozent.",
+        "c) Etwa 30 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Prognosen deuten darauf hin, dass innerhalb der nächsten Jahre etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten.",
+      "explanation_en": "Forecasts indicate that within the coming years, about 15 percent of today's activities could be automated."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo liegt laut Dr. Hoffmann der Schlüssel für die Zukunft?",
+      "text_en": "Where does the key for the future lie according to Dr. Hoffmann?",
+      "options": [
+        "a) In strengeren Gesetzen zur Regulierung der KI.",
+        "b) In der beruflichen Weiterbildung.",
+        "c) In der Verlangsamung der technologischen Entwicklung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Hoffmann sagt, der Schlüssel liegt in der Weiterbildung und der Bereitschaft, sich neue Fähigkeiten anzueignen.",
+      "explanation_en": "Dr. Hoffmann says the key lies in continuing education and the willingness to acquire new skills."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Berufe werden laut Dr. Hoffmann an Bedeutung gewinnen?",
+      "text_en": "Which professions will gain importance according to Dr. Hoffmann?",
+      "options": [
+        "a) Berufe in der Datenverarbeitung und Buchhaltung.",
+        "b) Berufe, die Kreativität und emotionale Intelligenz erfordern.",
+        "c) Berufe in der einfachen Verwaltung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Berufe, die Kreativität, emotionale Intelligenz oder komplexe Problemlösung erfordern, werden an Bedeutung gewinnen.",
+      "explanation_en": "Professions that require creativity, emotional intelligence, or complex problem-solving will gain importance."
+    }
+  ]
+}

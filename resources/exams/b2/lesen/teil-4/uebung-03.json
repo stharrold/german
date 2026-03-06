@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-4-003",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Forum: Sollte man Kinder zum Sport zwingen?",
+  "instructions": "Lesen Sie die Forumsbeiträge und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "KarinP: Mein Sohn sitzt am liebsten den ganzen Tag vor dem Computer. Ich habe ihn in einen Fußballverein angemeldet, obwohl er lautstark protestiert hat. Nach drei Monaten hat er jetzt Freunde gefunden und geht gerne zum Training. Manchmal wissen Kinder eben noch nicht, was gut für sie ist.\n\nJürgenD: Ich halte das für den falschen Weg. Wenn man Kinder zu einer Sportart zwingt, die ihnen keinen Spaß macht, entwickeln sie eine Abneigung gegen Bewegung, die ein Leben lang anhalten kann. Besser wäre es, verschiedene Sportarten auszuprobieren und das Kind selbst entscheiden zu lassen.\n\nMelanieF: Als Kinderärztin sehe ich täglich die Folgen von Bewegungsmangel: Übergewicht, Haltungsschäden, Konzentrationsprobleme. Kinder brauchen mindestens 60 Minuten Bewegung am Tag. Ob das organisierter Sport sein muss, ist eine andere Frage. Fahrradfahren, Klettern auf dem Spielplatz oder gemeinsame Familienwanderungen sind ebenso wertvoll.\n\nStefanG: Ich war als Kind im Schwimmverein und habe es gehasst. Meine Eltern haben mich trotzdem drei Jahre lang hingeschickt. Heute bin ich ihnen dankbar, denn Schwimmen hat mir vermutlich einmal das Leben gerettet, als ich in einen Fluss gefallen bin. Manche Fähigkeiten sind einfach überlebenswichtig.",
+    "text_en": "KarinP: My son would prefer to sit in front of the computer all day. I enrolled him in a football club even though he protested loudly. After three months, he has now made friends and enjoys going to practice. Sometimes children simply don't know yet what is good for them.\n\nJürgenD: I think that is the wrong approach. If you force children into a sport they don't enjoy, they develop an aversion to physical activity that can last a lifetime. It would be better to try different sports and let the child decide for themselves.\n\nMelanieF: As a pediatrician, I see the consequences of lack of exercise daily: obesity, posture problems, concentration difficulties. Children need at least 60 minutes of physical activity per day. Whether that has to be organized sport is another question. Cycling, climbing on the playground, or family hikes together are equally valuable.\n\nStefanG: As a child, I was in a swimming club and hated it. My parents still sent me there for three years. Today, I am grateful to them because swimming probably saved my life once when I fell into a river. Some skills are simply vital for survival.",
+    "source": "Blog",
+    "word_count": 176
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist KarinPs Erfahrung mit ihrem Sohn?",
+      "text_en": "What is KarinP's experience with her son?",
+      "options": [
+        "a) Er weigert sich immer noch, zum Fußball zu gehen.",
+        "b) Er hat nach anfänglichem Protest Freunde gefunden und geht jetzt gerne hin.",
+        "c) Er hat vom Fußball zum Schwimmen gewechselt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Nach drei Monaten hat er Freunde gefunden und geht gerne zum Training.",
+      "explanation_en": "After three months, he has made friends and enjoys going to practice."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wovor warnt JürgenD?",
+      "text_en": "What does JürgenD warn about?",
+      "options": [
+        "a) Vor Verletzungen im Leistungssport.",
+        "b) Vor einer lebenslangen Abneigung gegen Bewegung durch Zwang.",
+        "c) Vor zu hohen Vereinsgebühren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wenn man Kinder zwingt, können sie eine lebenslange Abneigung gegen Bewegung entwickeln.",
+      "explanation_en": "If you force children, they can develop a lifelong aversion to physical activity."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Folgen von Bewegungsmangel nennt MelanieF?",
+      "text_en": "What consequences of lack of exercise does MelanieF mention?",
+      "options": [
+        "a) Schlafstörungen und Angstzustände.",
+        "b) Übergewicht, Haltungsschäden und Konzentrationsprobleme.",
+        "c) Soziale Isolation und Depressionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie sieht täglich Übergewicht, Haltungsschäden und Konzentrationsprobleme.",
+      "explanation_en": "She sees obesity, posture problems, and concentration difficulties daily."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt MelanieF als Alternative zum Vereinssport vor?",
+      "text_en": "What does MelanieF suggest as an alternative to organized sports?",
+      "options": [
+        "a) Videospiele mit Bewegungssensor.",
+        "b) Fahrradfahren, Spielplatz-Klettern und Familienwanderungen.",
+        "c) Täglichen Schulsport von zwei Stunden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Fahrradfahren, Klettern auf dem Spielplatz oder Familienwanderungen sind ebenso wertvoll.",
+      "explanation_en": "Cycling, climbing on the playground, or family hikes are equally valuable."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum ist StefanG seinen Eltern heute dankbar?",
+      "text_en": "Why is StefanG grateful to his parents today?",
+      "options": [
+        "a) Weil er durch Schwimmen eine Profikarriere gemacht hat.",
+        "b) Weil Schwimmen ihm vermutlich einmal das Leben gerettet hat.",
+        "c) Weil er dadurch viele Freunde gefunden hat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Schwimmen hat ihm vermutlich einmal das Leben gerettet, als er in einen Fluss gefallen ist.",
+      "explanation_en": "Swimming probably saved his life once when he fell into a river."
+    }
+  ]
+}

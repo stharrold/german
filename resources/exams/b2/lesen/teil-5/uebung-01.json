@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-5-001",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Der Dunning-Kruger-Effekt: Warum Inkompetente sich überschätzen",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Vor über zwei Jahrzehnten veröffentlichten die Psychologen David Dunning und Justin Kruger eine Studie, die zu den meistzitierten Arbeiten der Sozialpsychologie gehört. Sie wiesen nach, dass Menschen mit geringen Fähigkeiten in einem bestimmten Bereich dazu neigen, ihre Kompetenz systematisch zu überschätzen, während Experten ihre Fähigkeiten eher unterschätzen. Dieses Phänomen, bekannt als Dunning-Kruger-Effekt, hat weitreichende Auswirkungen auf Bildung, Berufsleben und gesellschaftliche Entscheidungsprozesse.\n\nDie Erklärung liegt in einer doppelten Fehlerquelle: Wer wenig von einem Thema versteht, dem fehlt nicht nur das Wissen, sondern auch die metakognitive Fähigkeit zu erkennen, wie wenig er weiß. Ein Anfänger im Schachspiel etwa kann die Raffinesse eines Großmeisterzugs gar nicht wahrnehmen und hält deshalb seine eigenen Züge für gleichwertig. Experten hingegen sind sich der Komplexität ihres Fachgebiets bewusst und neigen dazu, das Wissen anderer zu überschätzen.\n\nNeuere Forschungen haben den Effekt differenziert. Eine neuere Metaanalyse zeigt, dass die Selbstüberschätzung besonders in Bereichen ausgeprägt ist, in denen objektive Rückmeldung fehlt — etwa in der Einschätzung der eigenen Kommunikationsfähigkeit oder emotionalen Intelligenz. In Bereichen mit klarem Feedback, wie Mathematik oder Programmieren, korrigieren sich die Fehleinschätzungen schneller. Die Forscher betonen die Bedeutung einer konstruktiven Fehlerkultur, die es Menschen ermöglicht, ihre blinden Flecken zu erkennen.",
+    "text_en": "Over two decades ago, psychologists David Dunning and Justin Kruger published a study that is one of the most cited works in social psychology. They demonstrated that people with low abilities in a particular area tend to systematically overestimate their competence, while experts tend to underestimate their abilities. This phenomenon, known as the Dunning-Kruger effect, has far-reaching implications for education, professional life, and societal decision-making processes.\n\nThe explanation lies in a dual source of error: those who understand little about a subject lack not only knowledge but also the metacognitive ability to recognize how little they know. A beginner in chess, for example, cannot perceive the sophistication of a grandmaster's move and therefore considers their own moves to be equivalent. Experts, on the other hand, are aware of the complexity of their field and tend to overestimate others' knowledge.\n\nMore recent research has nuanced the effect. A more recent meta-analysis shows that self-overestimation is particularly pronounced in areas where objective feedback is lacking — such as in assessing one's own communication skills or emotional intelligence. In areas with clear feedback, like mathematics or programming, the misjudgments correct themselves more quickly. The researchers emphasize the importance of a constructive error culture that enables people to recognize their blind spots.",
+    "source": "Fachzeitschrift",
+    "word_count": 207
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was besagt der Dunning-Kruger-Effekt?",
+      "text_en": "What does the Dunning-Kruger effect state?",
+      "options": [
+        "a) Dass alle Menschen ihre Fähigkeiten überschätzen.",
+        "b) Dass Inkompetente sich überschätzen und Experten sich unterschätzen.",
+        "c) Dass Experten immer recht haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Menschen mit geringen Fähigkeiten überschätzen sich, während Experten sich eher unterschätzen.",
+      "explanation_en": "People with low abilities overestimate themselves, while experts tend to underestimate themselves."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum überschätzen sich Anfänger?",
+      "text_en": "Why do beginners overestimate themselves?",
+      "options": [
+        "a) Weil sie mehr Selbstvertrauen haben als Experten.",
+        "b) Weil ihnen die metakognitive Fähigkeit fehlt, ihr Unwissen zu erkennen.",
+        "c) Weil sie von anderen zu viel Lob bekommen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ihnen fehlt nicht nur das Wissen, sondern auch die metakognitive Fähigkeit zu erkennen, wie wenig sie wissen.",
+      "explanation_en": "They lack not only knowledge but also the metacognitive ability to recognize how little they know."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Beispiel wird im Text verwendet?",
+      "text_en": "What example is used in the text?",
+      "options": [
+        "a) Ein Student, der eine Prüfung unterschätzt.",
+        "b) Ein Schachanfänger, der die Züge eines Großmeisters nicht einschätzen kann.",
+        "c) Ein Sportler, der seine Leistung falsch bewertet."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ein Anfänger im Schachspiel kann die Raffinesse eines Großmeisterzugs nicht wahrnehmen.",
+      "explanation_en": "A beginner in chess cannot perceive the sophistication of a grandmaster's move."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "In welchen Bereichen ist die Selbstüberschätzung besonders stark?",
+      "text_en": "In which areas is self-overestimation particularly strong?",
+      "options": [
+        "a) In Mathematik und Programmieren.",
+        "b) In Bereichen ohne objektive Rückmeldung wie Kommunikationsfähigkeit.",
+        "c) In körperlichen Aktivitäten wie Sport."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Selbstüberschätzung ist besonders in Bereichen ausgeprägt, in denen objektive Rückmeldung fehlt.",
+      "explanation_en": "Self-overestimation is particularly pronounced in areas where objective feedback is lacking."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was empfehlen die Forscher?",
+      "text_en": "What do the researchers recommend?",
+      "options": [
+        "a) Mehr standardisierte Tests in allen Lebensbereichen.",
+        "b) Eine konstruktive Fehlerkultur, die blinde Flecken sichtbar macht.",
+        "c) Dass Anfänger keine Meinungen äußern sollten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Forscher betonen die Bedeutung einer konstruktiven Fehlerkultur.",
+      "explanation_en": "The researchers emphasize the importance of a constructive error culture."
+    }
+  ]
+}

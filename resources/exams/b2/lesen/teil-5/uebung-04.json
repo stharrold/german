@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-5-004",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Einsamkeit als gesellschaftliches Phänomen",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Einsamkeit wird zunehmend als ernsthaftes gesellschaftliches und gesundheitliches Problem erkannt. Eine umfassende Studie der Universität Mainz hat ergeben, dass sich in Deutschland etwa 14 Prozent der Erwachsenen chronisch einsam fühlen — das sind über neun Millionen Menschen. Entgegen der verbreiteten Annahme betrifft Einsamkeit nicht nur ältere Menschen: Die höchsten Einsamkeitswerte wurden bei 18- bis 29-Jährigen gemessen.\n\nDie gesundheitlichen Folgen sind alarmierend. Der Neurowissenschaftler Dr. Andreas Berger vergleicht die Auswirkungen chronischer Einsamkeit mit dem Rauchen von 15 Zigaretten pro Tag. Das Risiko für Herzerkrankungen steigt um 29 Prozent, für Demenz um 40 Prozent. Einsamkeit aktiviert die gleichen Hirnregionen wie physischer Schmerz und versetzt den Körper in einen dauerhaften Stresszustand, der das Immunsystem schwächt und Entzündungsprozesse fördert.\n\nDie Ursachen sind vielschichtig. Die Zunahme von Singlehaushalten, die Auflösung traditioneller Gemeinschaftsstrukturen und paradoxerweise auch die digitale Vernetzung tragen zum Problem bei. Soziale Medien erzeugen die Illusion von Verbundenheit, können aber tiefe, bedeutungsvolle Beziehungen nicht ersetzen. Großbritannien hat vor einigen Jahren ein Ministerium für Einsamkeit eingerichtet, und auch in Deutschland wird eine nationale Strategie gefordert. Wissenschaftler empfehlen den Ausbau von Nachbarschaftszentren, die Förderung ehrenamtlicher Tätigkeit und gezielte Programme in Schulen, um soziale Kompetenzen frühzeitig zu stärken.",
+    "text_en": "Loneliness is increasingly being recognized as a serious societal and health problem. A comprehensive study by the University of Mainz found that approximately 14 percent of adults in Germany feel chronically lonely — that is over nine million people. Contrary to the widespread assumption, loneliness does not only affect older people: the highest loneliness scores were measured among 18- to 29-year-olds.\n\nThe health consequences are alarming. Neuroscientist Dr. Andreas Berger compares the effects of chronic loneliness to smoking 15 cigarettes per day. The risk of heart disease increases by 29 percent, for dementia by 40 percent. Loneliness activates the same brain regions as physical pain and puts the body in a permanent state of stress that weakens the immune system and promotes inflammatory processes.\n\nThe causes are multifaceted. The increase in single-person households, the dissolution of traditional community structures, and paradoxically also digital networking contribute to the problem. Social media create the illusion of connectedness but cannot replace deep, meaningful relationships. The United Kingdom established a Ministry for Loneliness several years ago, and a national strategy is also being demanded in Germany. Scientists recommend expanding neighborhood centers, promoting volunteer work, and targeted programs in schools to strengthen social skills early on.",
+    "source": "Fachzeitschrift",
+    "word_count": 204
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Altersgruppe ist am stärksten von Einsamkeit betroffen?",
+      "text_en": "Which age group is most affected by loneliness?",
+      "options": [
+        "a) Menschen über 70 Jahre.",
+        "b) 18- bis 29-Jährige.",
+        "c) 40- bis 55-Jährige."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die höchsten Einsamkeitswerte wurden bei 18- bis 29-Jährigen gemessen.",
+      "explanation_en": "The highest loneliness scores were measured among 18- to 29-year-olds."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Womit vergleicht Dr. Berger die Auswirkungen chronischer Einsamkeit?",
+      "text_en": "What does Dr. Berger compare the effects of chronic loneliness to?",
+      "options": [
+        "a) Mit Schlafmangel.",
+        "b) Mit dem Rauchen von 15 Zigaretten pro Tag.",
+        "c) Mit Bewegungsmangel."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er vergleicht die Auswirkungen mit dem Rauchen von 15 Zigaretten pro Tag.",
+      "explanation_en": "He compares the effects to smoking 15 cigarettes per day."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Rolle spielen soziale Medien laut Text?",
+      "text_en": "What role do social media play according to the text?",
+      "options": [
+        "a) Sie sind die Hauptursache für Einsamkeit.",
+        "b) Sie erzeugen eine Illusion von Verbundenheit, ersetzen aber keine tiefen Beziehungen.",
+        "c) Sie helfen effektiv gegen Einsamkeit."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Soziale Medien erzeugen die Illusion von Verbundenheit, können aber tiefe Beziehungen nicht ersetzen.",
+      "explanation_en": "Social media create the illusion of connectedness but cannot replace deep relationships."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat Großbritannien gegen Einsamkeit getan?",
+      "text_en": "What did the United Kingdom do to address loneliness?",
+      "options": [
+        "a) Ein Gesetz gegen soziale Isolation verabschiedet.",
+        "b) Ein Ministerium für Einsamkeit eingerichtet.",
+        "c) Eine landesweite Befragung zur Einsamkeit durchgeführt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Großbritannien hat vor einigen Jahren ein Ministerium für Einsamkeit eingerichtet.",
+      "explanation_en": "The United Kingdom established a Ministry for Loneliness several years ago."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was empfehlen Wissenschaftler gegen Einsamkeit?",
+      "text_en": "What do scientists recommend against loneliness?",
+      "options": [
+        "a) Mehr Therapieplätze und Medikamente.",
+        "b) Nachbarschaftszentren, Ehrenamt und Schulprogramme für soziale Kompetenzen.",
+        "c) Einschränkung der Nutzung sozialer Medien."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Empfohlen werden Nachbarschaftszentren, Förderung ehrenamtlicher Tätigkeit und Programme in Schulen.",
+      "explanation_en": "Recommended are neighborhood centers, promoting volunteer work, and programs in schools."
+    }
+  ]
+}

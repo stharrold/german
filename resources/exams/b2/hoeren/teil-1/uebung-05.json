@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-1-005",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Einsamkeit als gesellschaftliches Problem",
+  "instructions": "Sie hören ein Radiointerview. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "In unserer Sendung „Gesellschaft im Fokus“ widmen wir uns heute einem Thema, das oft unterschätzt wird: Einsamkeit. Mein Gast ist der Sozialpsychologe Professor Dr. Thomas Weidner von der Freien Universität Berlin. Herr Weidner, Einsamkeit wird zunehmend als gesellschaftliches Problem wahrgenommen. Großbritannien hat sogar ein eigenes Ministerium dafür eingerichtet. Wie ernst ist die Lage in Deutschland?",
+      "text_en": "In our program 'Society in Focus,' we're dedicating ourselves today to a topic that is often underestimated: loneliness. My guest is social psychologist Professor Dr. Thomas Weidner from the Free University of Berlin. Mr. Weidner, loneliness is increasingly perceived as a social problem. Great Britain has even established a dedicated ministry for it. How serious is the situation in Germany?"
+    },
+    {
+      "speaker": "Prof. Dr. Weidner",
+      "text_de": "Sehr ernst, und ich bin froh, dass wir darüber sprechen. Unsere aktuellen Erhebungen zeigen, dass sich in Deutschland etwa 14 Prozent der Erwachsenen chronisch einsam fühlen. Das mag auf den ersten Blick nicht viel klingen, bedeutet aber, dass rund neun Millionen Menschen betroffen sind. Und was viele überrascht: Einsamkeit ist kein Problem, das nur ältere Menschen betrifft. Die Altersgruppe der 18- bis 29-Jährigen weist die höchsten Einsamkeitswerte auf.",
+      "text_en": "Very serious, and I'm glad we're talking about it. Our current surveys show that about 14 percent of adults in Germany feel chronically lonely. That may not sound like much at first glance, but it means that around nine million people are affected. And what surprises many: loneliness is not a problem that only affects older people. The 18 to 29 age group shows the highest loneliness scores."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Junge Menschen? Das ist in der Tat überraschend. Woran liegt das?",
+      "text_en": "Young people? That is indeed surprising. What is the reason for that?"
+    },
+    {
+      "speaker": "Prof. Dr. Weidner",
+      "text_de": "Die Gründe sind vielfältig. Einerseits haben soziale Medien paradoxerweise zu mehr Isolation geführt. Junge Menschen haben zwar Hunderte von Online-Kontakten, aber immer weniger echte, tiefgehende Freundschaften. Andererseits spielen auch gesellschaftliche Veränderungen eine Rolle: Die zunehmende Mobilität, häufige Umzüge für Studium oder Beruf und der Rückgang traditioneller Gemeinschaftsstrukturen wie Vereine oder Kirchengemeinden. Was wir auch beobachten, ist eine gewisse Scham. Viele Betroffene sprechen nicht über ihre Einsamkeit, weil sie als persönliches Versagen wahrgenommen wird.",
+      "text_en": "The reasons are manifold. On one hand, social media have paradoxically led to more isolation. Young people may have hundreds of online contacts but fewer and fewer real, deep friendships. On the other hand, social changes also play a role: increasing mobility, frequent moves for studies or work, and the decline of traditional community structures like clubs or church congregations. What we also observe is a certain shame. Many affected people don't talk about their loneliness because it is perceived as personal failure."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Was kann man dagegen tun — sowohl auf politischer als auch auf persönlicher Ebene?",
+      "text_en": "What can be done about it — both on a political and personal level?"
+    },
+    {
+      "speaker": "Prof. Dr. Weidner",
+      "text_de": "Auf politischer Ebene brauchen wir eine Strategie gegen Einsamkeit, ähnlich wie in Großbritannien. Das bedeutet konkret: mehr Investitionen in öffentliche Begegnungsräume, Förderung von Nachbarschaftsprojekten und die Integration von Einsamkeitsprävention in das Gesundheitssystem. Auf persönlicher Ebene rate ich dazu, bewusst analoge Kontakte zu pflegen. Das kann ein Sportverein sein, ein Ehrenamt oder einfach ein regelmäßiger Spaziergang mit einem Nachbarn. Entscheidend ist die Regelmäßigkeit und die Qualität der Begegnungen, nicht die Quantität.",
+      "text_en": "On a political level, we need a strategy against loneliness, similar to Great Britain. Concretely, this means: more investment in public meeting spaces, support for neighborhood projects, and the integration of loneliness prevention into the healthcare system. On a personal level, I advise consciously maintaining analog contacts. That can be a sports club, volunteer work, or simply a regular walk with a neighbor. What matters is the regularity and quality of encounters, not the quantity."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Erwachsene in Deutschland fühlen sich chronisch einsam?",
+      "text_en": "How many adults in Germany feel chronically lonely?",
+      "options": [
+        "a) Etwa 5 Prozent.",
+        "b) Etwa 14 Prozent.",
+        "c) Etwa 25 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Laut den Erhebungen fühlen sich etwa 14 Prozent der Erwachsenen chronisch einsam, das sind rund neun Millionen Menschen.",
+      "explanation_en": "According to the surveys, about 14 percent of adults feel chronically lonely, which is around nine million people."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Altersgruppe ist am stärksten von Einsamkeit betroffen?",
+      "text_en": "Which age group is most affected by loneliness?",
+      "options": [
+        "a) Menschen über 65 Jahre.",
+        "b) Die 18- bis 29-Jährigen.",
+        "c) Die 40- bis 55-Jährigen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Altersgruppe der 18- bis 29-Jährigen weist die höchsten Einsamkeitswerte auf.",
+      "explanation_en": "The 18 to 29 age group shows the highest loneliness scores."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Rolle spielen soziale Medien laut Professor Weidner?",
+      "text_en": "What role do social media play according to Professor Weidner?",
+      "options": [
+        "a) Sie haben paradoxerweise zu mehr Isolation geführt.",
+        "b) Sie haben die Einsamkeit erfolgreich bekämpft.",
+        "c) Sie haben keinen messbaren Einfluss auf Einsamkeit."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Soziale Medien haben paradoxerweise zu mehr Isolation geführt, da junge Menschen weniger echte Freundschaften haben.",
+      "explanation_en": "Social media have paradoxically led to more isolation, as young people have fewer real friendships."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum sprechen viele Betroffene nicht über ihre Einsamkeit?",
+      "text_en": "Why don't many affected people talk about their loneliness?",
+      "options": [
+        "a) Weil sie keine Hilfsangebote kennen.",
+        "b) Weil Einsamkeit als persönliches Versagen wahrgenommen wird.",
+        "c) Weil sie denken, dass es ein vorübergehendes Problem ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Viele Betroffene sprechen nicht über ihre Einsamkeit, weil sie als persönliches Versagen wahrgenommen wird.",
+      "explanation_en": "Many affected people don't talk about their loneliness because it is perceived as personal failure."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Professor Weidner bei persönlichen Kontakten entscheidend?",
+      "text_en": "What is crucial for personal contacts according to Professor Weidner?",
+      "options": [
+        "a) Dass man möglichst viele verschiedene Menschen trifft.",
+        "b) Die Regelmäßigkeit und Qualität der Begegnungen.",
+        "c) Dass man ausschließlich alte Freundschaften pflegt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Entscheidend ist die Regelmäßigkeit und die Qualität der Begegnungen, nicht die Quantität.",
+      "explanation_en": "What matters is the regularity and quality of encounters, not the quantity."
+    }
+  ]
+}

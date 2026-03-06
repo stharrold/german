@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-2-003",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Medienkonsum und Nachrichtenkompetenz",
+  "instructions": "Sie hören eine Radiodiskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Guten Tag und herzlich willkommen. Unser heutiges Thema: Wie informieren sich die Deutschen, und können sie noch zwischen seriösen Nachrichten und Falschinformationen unterscheiden? Darüber diskutieren Professor Dr. Hannah Weber, Medienwissenschaftlerin, und Herr Tobias Richter, Chefredakteur einer großen Tageszeitung. Frau Weber, wie hat sich der Medienkonsum in den letzten Jahren verändert?",
+      "text_en": "Good day and welcome. Our topic today: How do Germans inform themselves, and can they still distinguish between serious news and misinformation? Discussing this are Professor Dr. Hannah Weber, media scholar, and Mr. Tobias Richter, editor-in-chief of a major daily newspaper. Ms. Weber, how has media consumption changed in recent years?"
+    },
+    {
+      "speaker": "Prof. Dr. Weber",
+      "text_de": "Die Veränderungen sind tiefgreifend. Unsere Langzeitstudie zeigt, dass mittlerweile 72 Prozent der unter 30-Jährigen ihre Nachrichten hauptsächlich über soziale Medien beziehen. Klassische Medien wie Fernsehen und Zeitung verlieren kontinuierlich an Bedeutung. Das Problem dabei ist: Algorithmen auf sozialen Plattformen zeigen den Nutzern vor allem das, was sie sehen wollen — die sogenannte Filterblase. Dadurch werden bestehende Meinungen verstärkt, und differenzierte Berichterstattung geht verloren. Gleichzeitig ist die Fähigkeit, Quellen kritisch zu bewerten, erschreckend gering. In unseren Tests konnte nur etwa ein Viertel der Befragten zuverlässig zwischen einer seriösen Nachricht und einer Falschinformation unterscheiden.",
+      "text_en": "The changes are profound. Our long-term study shows that 72 percent of people under 30 now primarily get their news through social media. Traditional media like television and newspapers are continuously losing importance. The problem is: algorithms on social platforms show users mainly what they want to see — the so-called filter bubble. This reinforces existing opinions, and differentiated reporting is lost. At the same time, the ability to critically evaluate sources is alarmingly low. In our tests, only about a quarter of respondents could reliably distinguish between serious news and misinformation."
+    },
+    {
+      "speaker": "Herr Richter",
+      "text_de": "Da muss ich aus der Praxis etwas ergänzen. Als Chefredakteur erlebe ich täglich, wie schwer es geworden ist, gegen Falschinformationen anzukämpfen. Wir haben eine Redaktion mit ausgebildeten Journalisten, die Fakten überprüfen und Quellen verifizieren. Aber auf sozialen Medien kann jeder alles behaupten, ohne dafür Rechenschaft ablegen zu müssen. Was mich besonders beunruhigt, ist die Geschwindigkeit, mit der sich Falschmeldungen verbreiten. Eine Studie des MIT hat gezeigt, dass sich Falschinformationen auf Twitter sechsmal schneller verbreiten als wahre Nachrichten. Bis unsere Faktenchecks erscheinen, hat die Lüge schon die halbe Welt erreicht.",
+      "text_en": "I need to add something from practice here. As editor-in-chief, I experience daily how difficult it has become to fight misinformation. We have an editorial team with trained journalists who verify facts and check sources. But on social media, anyone can claim anything without being held accountable. What particularly worries me is the speed at which false reports spread. A study by MIT showed that misinformation spreads six times faster on Twitter than true news. By the time our fact-checks appear, the lie has already reached half the world."
+    },
+    {
+      "speaker": "Prof. Dr. Weber",
+      "text_de": "Genau, und deshalb reicht es nicht aus, nur auf die Medien zu schauen. Wir müssen bei der Bildung ansetzen. Medienkompetenz muss ein Pflichtfach in der Schule werden — und zwar nicht erst in der Oberstufe, sondern bereits in der Grundschule. Kinder müssen lernen, Quellen zu hinterfragen, Statistiken zu interpretieren und die Mechanismen der sozialen Medien zu durchschauen. In Finnland wird das bereits seit Jahren erfolgreich praktiziert, und das Land schneidet bei Medienkompetenz-Rankings regelmäßig am besten ab.",
+      "text_en": "Exactly, and that's why it's not enough to just look at the media. We need to start with education. Media literacy must become a mandatory subject in school — not only in upper secondary school, but already in elementary school. Children need to learn to question sources, interpret statistics, and see through the mechanisms of social media. In Finland, this has been successfully practiced for years, and the country regularly ranks highest in media literacy rankings."
+    },
+    {
+      "speaker": "Herr Richter",
+      "text_de": "Da bin ich voll und ganz Ihrer Meinung. Aber wir dürfen auch die Plattformen nicht aus der Verantwortung entlassen. Die großen Tech-Konzerne verdienen Milliarden mit Aufmerksamkeit, und kontroverse Inhalte erzeugen nun mal mehr Klicks als ausgewogene Berichterstattung. Wir brauchen strengere Regulierung — die Plattformen müssen verpflichtet werden, algorithmisch bevorzugte Inhalte transparent zu machen und gegen systematische Desinformation vorzugehen.",
+      "text_en": "I fully agree with you there. But we must not let the platforms off the hook either. The big tech companies earn billions from attention, and controversial content simply generates more clicks than balanced reporting. We need stricter regulation — the platforms must be required to make algorithmically preferred content transparent and to take action against systematic disinformation."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie informieren sich laut Frau Weber die meisten unter 30-Jährigen?",
+      "text_en": "How do most people under 30 inform themselves according to Ms. Weber?",
+      "options": [
+        "a) Hauptsächlich über Tageszeitungen.",
+        "b) Hauptsächlich über soziale Medien.",
+        "c) Hauptsächlich über das Radio."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "72 Prozent der unter 30-Jährigen beziehen ihre Nachrichten hauptsächlich über soziale Medien.",
+      "explanation_en": "72 percent of people under 30 primarily get their news through social media."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Befragte konnten in den Tests seriöse Nachrichten von Falschinformationen unterscheiden?",
+      "text_en": "How many respondents in the tests could distinguish serious news from misinformation?",
+      "options": [
+        "a) Etwa die Hälfte.",
+        "b) Etwa drei Viertel.",
+        "c) Etwa ein Viertel."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Nur etwa ein Viertel der Befragten konnte zuverlässig zwischen seriöser Nachricht und Falschinformation unterscheiden.",
+      "explanation_en": "Only about a quarter of respondents could reliably distinguish between serious news and misinformation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie schnell verbreiten sich Falschinformationen im Vergleich zu wahren Nachrichten?",
+      "text_en": "How fast does misinformation spread compared to true news?",
+      "options": [
+        "a) Doppelt so schnell.",
+        "b) Sechsmal schneller.",
+        "c) Zehnmal schneller."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Laut einer MIT-Studie verbreiten sich Falschinformationen sechsmal schneller als wahre Nachrichten.",
+      "explanation_en": "According to an MIT study, misinformation spreads six times faster than true news."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Frau Weber als Bildungsmaßnahme?",
+      "text_en": "What does Ms. Weber demand as an educational measure?",
+      "options": [
+        "a) Ein Verbot sozialer Medien für Kinder unter 16.",
+        "b) Medienkompetenz als Pflichtfach ab der Grundschule.",
+        "c) Mehr Schulausflüge zu Zeitungsredaktionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie fordert Medienkompetenz als Pflichtfach in der Schule, bereits ab der Grundschule, wie in Finnland.",
+      "explanation_en": "She demands media literacy as a mandatory subject in school, starting in elementary school, as in Finland."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Herr Richter von den großen Tech-Konzernen?",
+      "text_en": "What does Mr. Richter demand from the big tech companies?",
+      "options": [
+        "a) Dass sie ihre Plattformen für Nachrichten komplett schließen.",
+        "b) Dass sie algorithmisch bevorzugte Inhalte transparent machen und gegen Desinformation vorgehen.",
+        "c) Dass sie Journalisten einstellen, um Nachrichten zu schreiben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Herr Richter fordert, dass Plattformen algorithmisch bevorzugte Inhalte transparent machen und gegen Desinformation vorgehen müssen.",
+      "explanation_en": "Mr. Richter demands that platforms must make algorithmically preferred content transparent and take action against disinformation."
+    }
+  ]
+}
