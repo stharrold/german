@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0] - 2026-03-06
+
 ### Added
 - **B2 exam practice content** — 65 exercises across all 4 skills (Goethe-Institut format)
   - Hören: 20 exercises (Teil 1–4, 5 each)

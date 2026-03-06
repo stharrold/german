@@ -8,6 +8,7 @@ exercise pages and a separate answer key section at the end.
 
 Usage:
     uv run --extra pdf python scripts/make_pdfs.py
+    uv run --extra pdf python scripts/make_pdfs.py --level a1
     uv run --extra pdf python scripts/make_pdfs.py --level a2
     uv run --extra pdf python scripts/make_pdfs.py --level b1 --skill hoeren
     uv run --extra pdf python scripts/make_pdfs.py --level b2
