@@ -1,0 +1,27 @@
+{
+  "id": "a1-schreiben-aufgabe-1-002",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Bibliotheksausweis beantragen",
+  "instructions": "Füllen Sie das Formular aus. (Fill in the form.)",
+  "situation_de": "Sie möchten einen Bibliotheksausweis bekommen. Füllen Sie das Formular in der Bibliothek aus.",
+  "situation_en": "You would like to get a library card. Fill in the form at the library.",
+  "target_word_count": 28,
+  "required_points": [
+    "Name und Geburtsdatum schreiben (Write name and date of birth)",
+    "Adresse angeben (Provide address)",
+    "Telefonnummer oder E-Mail angeben (Provide phone number or email)",
+    "Ausweisnummer angeben (Provide ID number)",
+    "Datum und Unterschrift (Date and signature)"
+  ],
+  "model_answer": {
+    "text_de": "Familienname: Schmidt\nVorname: Thomas\nGeburtsdatum: 15. Mai 1990\nAdresse: Hauptstraße 5, 80331 München\nTelefon: 089 9876543\nE-Mail: thomas.schmidt@mail.de\nAusweisnummer: PA 1234567\nDatum: 6. März 2026\nUnterschrift: Thomas Schmidt",
+    "text_en": "Last name: Schmidt\nFirst name: Thomas\nDate of birth: 15 May 1990\nAddress: Hauptstraße 5, 80331 München\nPhone: 089 9876543\nEmail: thomas.schmidt@mail.de\nID number: PA 1234567\nDate: 6 March 2026\nSignature: Thomas Schmidt"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Felder sind ausgefüllt (Task fulfillment: All fields are filled in)",
+    "Korrektheit: Die Informationen sind richtig geschrieben (Correctness: The information is written correctly)",
+    "Lesbarkeit: Die Handschrift ist klar und lesbar (Legibility: The handwriting is clear and readable)"
+  ]
+}

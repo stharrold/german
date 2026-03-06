@@ -1,0 +1,128 @@
+{
+  "id": "a1-hoeren-teil-3-002",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Längeres Gespräch — Hobbys und Freizeit",
+  "instructions": "Sie hören ein längeres Gespräch. Sie hören den Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Laura",
+      "text_de": "Hallo Martin, was machst du gern in deiner Freizeit?",
+      "text_en": "Hello Martin, what do you like to do in your free time?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Ich spiele gern Gitarre. Ich spiele seit drei Jahren. Und ich lese auch gern Bücher.",
+      "text_en": "I like to play guitar. I have been playing for three years. And I also like to read books."
+    },
+    {
+      "speaker": "Laura",
+      "text_de": "Was für Bücher liest du?",
+      "text_en": "What kind of books do you read?"
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Ich lese gern Krimis. Am Wochenende gehe ich auch gern wandern. Die Natur ist so schön hier.",
+      "text_en": "I like to read crime novels. On the weekend I also like to go hiking. Nature is so beautiful here."
+    },
+    {
+      "speaker": "Laura",
+      "text_de": "Das stimmt! Ich schwimme gern. Ich gehe zweimal pro Woche ins Schwimmbad.",
+      "text_en": "That's true! I like to swim. I go to the swimming pool twice a week."
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Machst du noch andere Sachen?",
+      "text_en": "Do you do other things too?"
+    },
+    {
+      "speaker": "Laura",
+      "text_de": "Ja, ich fotografiere gern. Ich mache Fotos von Blumen und Tieren. Am Samstag gehe ich immer in den Tierpark.",
+      "text_en": "Yes, I like to take photos. I take photos of flowers and animals. On Saturday I always go to the zoo."
+    },
+    {
+      "speaker": "Martin",
+      "text_de": "Cool! Spielst du auch ein Instrument?",
+      "text_en": "Cool! Do you also play an instrument?"
+    },
+    {
+      "speaker": "Laura",
+      "text_de": "Nein, aber ich singe gern. Ich singe in einem Chor. Wir üben jeden Donnerstag.",
+      "text_en": "No, but I like to sing. I sing in a choir. We practice every Thursday."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welches Instrument spielt Martin?",
+      "text_en": "Which instrument does Martin play?",
+      "options": [
+        "a) Klavier",
+        "b) Gitarre",
+        "c) Geige"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Martin spielt Gitarre.",
+      "explanation_en": "Martin plays guitar."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was liest Martin gern?",
+      "text_en": "What does Martin like to read?",
+      "options": [
+        "a) Romane",
+        "b) Zeitungen",
+        "c) Krimis"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Martin liest gern Krimis.",
+      "explanation_en": "Martin likes to read crime novels."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie oft geht Laura schwimmen?",
+      "text_en": "How often does Laura go swimming?",
+      "options": [
+        "a) Einmal pro Woche",
+        "b) Zweimal pro Woche",
+        "c) Dreimal pro Woche"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Laura geht zweimal pro Woche ins Schwimmbad.",
+      "explanation_en": "Laura goes to the swimming pool twice a week."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fotografiert Laura?",
+      "text_en": "What does Laura photograph?",
+      "options": [
+        "a) Menschen und Häuser",
+        "b) Blumen und Tiere",
+        "c) Berge und Seen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Laura fotografiert Blumen und Tiere.",
+      "explanation_en": "Laura photographs flowers and animals."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann übt Lauras Chor?",
+      "text_en": "When does Laura's choir practice?",
+      "options": [
+        "a) Jeden Mittwoch",
+        "b) Jeden Donnerstag",
+        "c) Jeden Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Chor übt jeden Donnerstag.",
+      "explanation_en": "The choir practices every Thursday."
+    }
+  ]
+}

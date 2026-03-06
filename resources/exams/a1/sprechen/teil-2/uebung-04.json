@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-2-004",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Themenkarten: Wohnung und Zimmer",
+  "instructions": "Sie bekommen eine Karte mit einem Thema und einem Wort. Stellen Sie eine Frage zu dem Wort und beantworten Sie die Frage Ihres Partners / Ihrer Partnerin.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin ziehen Karten zum Thema Wohnung. Stellen Sie Fragen und beantworten Sie die Fragen.",
+  "situation_en": "You and your partner draw cards on the topic of apartment. Ask questions and answer the questions.",
+  "discussion_points": [
+    "Wohnung: Wie ist Ihre Wohnung? (Apartment: What is your apartment like?)",
+    "Zimmer: Wie viele Zimmer haben Sie? (Rooms: How many rooms do you have?)",
+    "Möbel: Welche Möbel haben Sie im Wohnzimmer? (Furniture: What furniture do you have in the living room?)",
+    "Küche: Was haben Sie in der Küche? (Kitchen: What do you have in the kitchen?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte beginnen Sie. Stellen Sie eine Frage zu Ihrer Karte.",
+      "text_en": "Please begin. Ask a question about your card."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Karte ist Wohnung. Wie ist Ihre Wohnung?",
+      "text_en": "My card is apartment. What is your apartment like?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Wohnung ist klein, aber schön. Sie hat drei Zimmer. Und Ihre?",
+      "text_en": "My apartment is small but nice. It has three rooms. And yours?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Wohnung hat zwei Zimmer. Ein Schlafzimmer und ein Wohnzimmer.",
+      "text_en": "My apartment has two rooms. A bedroom and a living room."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Karte ist Möbel. Welche Möbel haben Sie im Wohnzimmer?",
+      "text_en": "My card is furniture. What furniture do you have in the living room?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich habe ein Sofa, einen Tisch und einen Fernseher. Und einen Schrank.",
+      "text_en": "I have a sofa, a table, and a TV. And a cupboard."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Was haben Sie in der Küche?",
+      "text_en": "What do you have in the kitchen?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "In der Küche habe ich einen Herd, einen Kühlschrank und einen kleinen Tisch.",
+      "text_en": "In the kitchen I have a stove, a fridge, and a small table."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt Fragen zu den Karten und beschreibt seine Wohnung.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten und gibt Details zur eigenen Wohnung.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Wohnen und Möbel auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit haben und Akkusativobjekten.",
+    "Aussprache und Intonation: Verständliche Aussprache der Wohnungsbegriffe."
+  ]
+}

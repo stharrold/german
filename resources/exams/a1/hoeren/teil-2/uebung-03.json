@@ -1,0 +1,124 @@
+{
+  "id": "a1-hoeren-teil-2-003",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Kurze Gespräche — Hotel und Reise",
+  "instructions": "Sie hören vier kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Rezeptionist",
+      "text_de": "Guten Abend, haben Sie eine Reservierung?",
+      "text_en": "Good evening, do you have a reservation?"
+    },
+    {
+      "speaker": "Gespräch 1 — Gast",
+      "text_de": "Ja, mein Name ist Müller. Ich habe ein Einzelzimmer für zwei Nächte reserviert.",
+      "text_en": "Yes, my name is Müller. I reserved a single room for two nights."
+    },
+    {
+      "speaker": "Gespräch 1 — Rezeptionist",
+      "text_de": "Ja, Zimmer 204. Das Frühstück ist von 7 bis 10 Uhr im Erdgeschoss.",
+      "text_en": "Yes, room 204. Breakfast is from 7 to 10 AM on the ground floor."
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Wie komme ich zum Museum?",
+      "text_en": "How do I get to the museum?"
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Gehen Sie hier rechts und dann die zweite Straße links. Das Museum ist auf der rechten Seite.",
+      "text_en": "Go right here and then the second street left. The museum is on the right side."
+    },
+    {
+      "speaker": "Gespräch 3 — Verkäuferin",
+      "text_de": "Möchten Sie Äpfel oder Bananen?",
+      "text_en": "Would you like apples or bananas?"
+    },
+    {
+      "speaker": "Gespräch 3 — Kunde",
+      "text_de": "Ein Kilo Äpfel bitte. Und haben Sie auch Erdbeeren?",
+      "text_en": "One kilo of apples please. And do you also have strawberries?"
+    },
+    {
+      "speaker": "Gespräch 3 — Verkäuferin",
+      "text_de": "Leider nein. Erdbeeren gibt es erst im Sommer wieder.",
+      "text_en": "Unfortunately no. Strawberries are available again only in summer."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Sprechen Sie Englisch?",
+      "text_en": "Do you speak English?"
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Ein bisschen. Ich lerne seit sechs Monaten Deutsch. Es ist schwer, aber interessant.",
+      "text_en": "A little. I have been learning German for six months. It is hard, but interesting."
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Sehr gut! Ihr Deutsch ist schon gut.",
+      "text_en": "Very good! Your German is already good."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welches Zimmer bekommt Herr Müller?",
+      "text_en": "Which room does Mr. Müller get?",
+      "options": [
+        "a) Zimmer 104",
+        "b) Zimmer 204",
+        "c) Zimmer 304"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Herr Müller bekommt Zimmer 204.",
+      "explanation_en": "Mr. Müller gets room 204."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "In welche Richtung muss der Mann zuerst gehen?",
+      "text_en": "In which direction must the man go first?",
+      "options": [
+        "a) Links",
+        "b) Geradeaus",
+        "c) Rechts"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Er muss zuerst rechts gehen.",
+      "explanation_en": "He must go right first."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kauft der Kunde?",
+      "text_en": "What does the customer buy?",
+      "options": [
+        "a) Bananen",
+        "b) Erdbeeren",
+        "c) Äpfel"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Kunde kauft ein Kilo Äpfel.",
+      "explanation_en": "The customer buys one kilo of apples."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie lange lernt der Mann schon Deutsch?",
+      "text_en": "How long has the man been learning German?",
+      "options": [
+        "a) Drei Monate",
+        "b) Sechs Monate",
+        "c) Ein Jahr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er lernt seit sechs Monaten Deutsch.",
+      "explanation_en": "He has been learning German for six months."
+    }
+  ]
+}

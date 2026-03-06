@@ -1,0 +1,25 @@
+{
+  "id": "a1-schreiben-aufgabe-2-004",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Nach dem Weg fragen",
+  "instructions": "Schreiben Sie eine kurze Nachricht (ca. 20-30 Wörter). (Write a short message, approx. 20-30 words.)",
+  "situation_de": "Sie sind neu in der Stadt und suchen den Bahnhof. Schreiben Sie eine Nachricht an Ihren Kollegen Peter und fragen Sie nach dem Weg.",
+  "situation_en": "You are new in the city and looking for the train station. Write a message to your colleague Peter and ask for directions.",
+  "target_word_count": 28,
+  "required_points": [
+    "Sagen, dass Sie neu in der Stadt sind (Say that you are new in the city)",
+    "Nach dem Weg zum Bahnhof fragen (Ask for directions to the train station)",
+    "Fragen, wie lange man braucht (Ask how long it takes)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Peter, ich bin neu in der Stadt und suche den Bahnhof. Kannst du mir bitte den Weg erklären? Wie lange brauche ich zu Fuß? Danke! Viele Grüße",
+    "text_en": "Hello Peter, I am new in the city and looking for the train station. Can you please explain the way to me? How long do I need on foot? Thanks! Best regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher Wortschatz auf A1-Niveau (Vocabulary: Simple vocabulary at A1 level)",
+    "Strukturen: Einfache Sätze im Präsens sind korrekt (Structures: Simple sentences in present tense are correct)"
+  ]
+}

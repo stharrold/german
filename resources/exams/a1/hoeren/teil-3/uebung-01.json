@@ -1,0 +1,133 @@
+{
+  "id": "a1-hoeren-teil-3-001",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Längeres Gespräch — Mein Tagesablauf",
+  "instructions": "Sie hören ein längeres Gespräch. Sie hören den Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Hallo, heute sprechen wir mit Frau Hoffmann. Frau Hoffmann, erzählen Sie uns von Ihrem Tag.",
+      "text_en": "Hello, today we are talking with Mrs. Hoffmann. Mrs. Hoffmann, tell us about your day."
+    },
+    {
+      "speaker": "Frau Hoffmann",
+      "text_de": "Guten Tag! Ich stehe jeden Morgen um 6 Uhr auf. Zuerst dusche ich und dann frühstücke ich.",
+      "text_en": "Good day! I get up every morning at 6 AM. First I shower and then I have breakfast."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was frühstücken Sie?",
+      "text_en": "What do you have for breakfast?"
+    },
+    {
+      "speaker": "Frau Hoffmann",
+      "text_de": "Ich esse Brot mit Käse und trinke einen Kaffee. Manchmal esse ich auch ein Ei.",
+      "text_en": "I eat bread with cheese and drink a coffee. Sometimes I also eat an egg."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und wann gehen Sie zur Arbeit?",
+      "text_en": "And when do you go to work?"
+    },
+    {
+      "speaker": "Frau Hoffmann",
+      "text_de": "Ich fahre um 7 Uhr 30 mit dem Bus zur Arbeit. Ich arbeite in einem Büro in der Stadt. Ich bin Sekretärin.",
+      "text_en": "I take the bus to work at 7:30 AM. I work in an office in the city. I am a secretary."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wann machen Sie Mittagspause?",
+      "text_en": "When do you take your lunch break?"
+    },
+    {
+      "speaker": "Frau Hoffmann",
+      "text_de": "Um 12 Uhr 30 mache ich Mittagspause. Ich esse in der Kantine. Nach der Arbeit gehe ich oft in den Park spazieren.",
+      "text_en": "At 12:30 PM I take my lunch break. I eat in the cafeteria. After work I often go for a walk in the park."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was machen Sie am Abend?",
+      "text_en": "What do you do in the evening?"
+    },
+    {
+      "speaker": "Frau Hoffmann",
+      "text_de": "Am Abend koche ich das Abendessen für meine Familie. Dann sehen wir zusammen fern. Ich gehe um 22 Uhr ins Bett.",
+      "text_en": "In the evening I cook dinner for my family. Then we watch TV together. I go to bed at 10 PM."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann steht Frau Hoffmann auf?",
+      "text_en": "When does Mrs. Hoffmann get up?",
+      "options": [
+        "a) Um 5 Uhr",
+        "b) Um 6 Uhr",
+        "c) Um 7 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Hoffmann steht um 6 Uhr auf.",
+      "explanation_en": "Mrs. Hoffmann gets up at 6 AM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie fährt Frau Hoffmann zur Arbeit?",
+      "text_en": "How does Mrs. Hoffmann get to work?",
+      "options": [
+        "a) Mit dem Auto",
+        "b) Mit dem Fahrrad",
+        "c) Mit dem Bus"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sie fährt mit dem Bus zur Arbeit.",
+      "explanation_en": "She takes the bus to work."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was ist Frau Hoffmann von Beruf?",
+      "text_en": "What is Mrs. Hoffmann's job?",
+      "options": [
+        "a) Lehrerin",
+        "b) Sekretärin",
+        "c) Ärztin"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Hoffmann ist Sekretärin.",
+      "explanation_en": "Mrs. Hoffmann is a secretary."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wo isst Frau Hoffmann zu Mittag?",
+      "text_en": "Where does Mrs. Hoffmann eat lunch?",
+      "options": [
+        "a) Im Restaurant",
+        "b) In der Kantine",
+        "c) Zu Hause"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie isst in der Kantine.",
+      "explanation_en": "She eats in the cafeteria."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann geht Frau Hoffmann ins Bett?",
+      "text_en": "When does Mrs. Hoffmann go to bed?",
+      "options": [
+        "a) Um 21 Uhr",
+        "b) Um 22 Uhr",
+        "c) Um 23 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie geht um 22 Uhr ins Bett.",
+      "explanation_en": "She goes to bed at 10 PM."
+    }
+  ]
+}

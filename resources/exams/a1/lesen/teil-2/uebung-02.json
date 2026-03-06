@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-2-002",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Neues Café in der Stadt",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Am Freitag öffnet ein neues Café in der Bergstraße. Das Café Sonnenschein hat Kaffee, Tee und heiße Schokolade. Es gibt auch Kuchen und Sandwiches. Das Café ist von Montag bis Samstag von 8:00 bis 20:00 Uhr geöffnet. Am Sonntag ist es geschlossen. Am ersten Tag bekommt jeder Gast ein Stück Kuchen gratis. Das Café hat auch kostenloses WLAN für alle Gäste.",
+    "text_en": "On Friday a new café opens on Bergstrasse. Café Sonnenschein has coffee, tea, and hot chocolate. There is also cake and sandwiches. The café is open from Monday to Saturday from 8:00 AM to 8:00 PM. On Sunday it is closed. On the first day every guest gets a piece of cake for free. The café also has free WiFi for all guests.",
+    "source": "Zeitungsartikel",
+    "word_count": 61
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann öffnet das neue Café?",
+      "text_en": "When does the new café open?",
+      "options": [
+        "a) Am Montag",
+        "b) Am Freitag",
+        "c) Am Samstag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Café öffnet am Freitag.",
+      "explanation_en": "The café opens on Friday."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo ist das Café?",
+      "text_en": "Where is the café?",
+      "options": [
+        "a) In der Hauptstraße",
+        "b) In der Bergstraße",
+        "c) Am Marktplatz"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Café ist in der Bergstraße.",
+      "explanation_en": "The café is on Bergstrasse."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was bekommt man am ersten Tag gratis?",
+      "text_en": "What do you get for free on the first day?",
+      "options": [
+        "a) Einen Kaffee",
+        "b) Ein Sandwich",
+        "c) Ein Stück Kuchen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am ersten Tag bekommt jeder Gast ein Stück Kuchen gratis.",
+      "explanation_en": "On the first day every guest gets a piece of cake for free."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Café geschlossen?",
+      "text_en": "When is the café closed?",
+      "options": [
+        "a) Am Samstag",
+        "b) Am Sonntag",
+        "c) Am Montag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Sonntag ist das Café geschlossen.",
+      "explanation_en": "On Sunday the café is closed."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es für alle Gäste?",
+      "text_en": "What is there for all guests?",
+      "options": [
+        "a) Kostenloses WLAN",
+        "b) Kostenlose Getränke",
+        "c) Kostenlose Zeitungen"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Café hat kostenloses WLAN für alle Gäste.",
+      "explanation_en": "The café has free WiFi for all guests."
+    }
+  ]
+}

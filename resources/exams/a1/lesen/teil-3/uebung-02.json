@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-3-002",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "SMS: Arzttermin",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Hallo Peter,\n\nich kann heute leider nicht zum Deutschkurs kommen. Ich war beim Arzt und bin krank. Ich habe Fieber und Kopfschmerzen. Der Arzt sagt, ich soll drei Tage zu Hause bleiben. Kannst du mir bitte die Hausaufgaben schicken? Meine E-Mail ist peter.mueller@web.de. Nächste Woche bin ich hoffentlich wieder da.\n\nDanke und viele Grüße\nMaria",
+    "text_en": "Hello Peter,\n\nUnfortunately I cannot come to German class today. I went to the doctor and am sick. I have a fever and headaches. The doctor says I should stay home for three days. Can you please send me the homework? My email is peter.mueller@web.de. Next week I will hopefully be back.\n\nThanks and best regards\nMaria",
+    "source": "SMS",
+    "word_count": 55
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum kommt Maria nicht zum Kurs?",
+      "text_en": "Why doesn't Maria come to class?",
+      "options": [
+        "a) Sie ist im Urlaub",
+        "b) Sie ist krank",
+        "c) Sie hat keine Zeit"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Maria ist krank und war beim Arzt.",
+      "explanation_en": "Maria is sick and went to the doctor."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat Maria?",
+      "text_en": "What does Maria have?",
+      "options": [
+        "a) Bauchschmerzen",
+        "b) Fieber und Kopfschmerzen",
+        "c) Halsschmerzen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Maria hat Fieber und Kopfschmerzen.",
+      "explanation_en": "Maria has a fever and headaches."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie lange soll Maria zu Hause bleiben?",
+      "text_en": "How long should Maria stay home?",
+      "options": [
+        "a) Zwei Tage",
+        "b) Drei Tage",
+        "c) Eine Woche"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Arzt sagt, Maria soll drei Tage zu Hause bleiben.",
+      "explanation_en": "The doctor says Maria should stay home for three days."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was soll Peter schicken?",
+      "text_en": "What should Peter send?",
+      "options": [
+        "a) Medikamente",
+        "b) Die Hausaufgaben",
+        "c) Ein Buch"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Peter soll die Hausaufgaben per E-Mail schicken.",
+      "explanation_en": "Peter should send the homework by email."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann kommt Maria wieder zum Kurs?",
+      "text_en": "When will Maria come back to class?",
+      "options": [
+        "a) Morgen",
+        "b) In drei Tagen",
+        "c) Nächste Woche"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Nächste Woche ist Maria hoffentlich wieder da.",
+      "explanation_en": "Next week Maria will hopefully be back."
+    }
+  ]
+}

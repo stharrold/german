@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-1-004",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Fahrplan: Bus 12",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Buslinie 12 – Richtung Hauptbahnhof\nMontag bis Freitag: alle 10 Minuten (6:00 – 22:00 Uhr)\nSamstag: alle 15 Minuten (7:00 – 22:00 Uhr)\nSonntag: alle 30 Minuten (8:00 – 20:00 Uhr)\nHaltestellen: Marktplatz – Schule – Krankenhaus – Hauptbahnhof\nFahrzeit: circa 20 Minuten\nEinzelfahrkarte: 2,50 Euro\nTageskarte: 6 Euro",
+    "text_en": "Bus line 12 – Direction Main Station\nMonday to Friday: every 10 minutes (6:00 AM – 10:00 PM)\nSaturday: every 15 minutes (7:00 AM – 10:00 PM)\nSunday: every 30 minutes (8:00 AM – 8:00 PM)\nStops: Market Square – School – Hospital – Main Station\nTravel time: approximately 20 minutes\nSingle ticket: 2.50 euros\nDay ticket: 6 euros",
+    "source": "Fahrplan",
+    "word_count": 49
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie oft fährt der Bus am Samstag?",
+      "text_en": "How often does the bus run on Saturday?",
+      "options": [
+        "a) Alle 10 Minuten",
+        "b) Alle 15 Minuten",
+        "c) Alle 30 Minuten"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Samstag fährt der Bus alle 15 Minuten.",
+      "explanation_en": "On Saturday, the bus runs every 15 minutes."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert die Fahrt?",
+      "text_en": "How long does the trip take?",
+      "options": [
+        "a) Circa 10 Minuten",
+        "b) Circa 15 Minuten",
+        "c) Circa 20 Minuten"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Fahrzeit ist circa 20 Minuten.",
+      "explanation_en": "The travel time is approximately 20 minutes."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kostet eine Einzelfahrkarte?",
+      "text_en": "How much does a single ticket cost?",
+      "options": [
+        "a) 2,00 Euro",
+        "b) 2,50 Euro",
+        "c) 6,00 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine Einzelfahrkarte kostet 2,50 Euro.",
+      "explanation_en": "A single ticket costs 2.50 euros."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wohin fährt der Bus?",
+      "text_en": "Where does the bus go?",
+      "options": [
+        "a) Zum Flughafen",
+        "b) Zum Hauptbahnhof",
+        "c) Zum Stadion"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bus fährt Richtung Hauptbahnhof.",
+      "explanation_en": "The bus goes in the direction of the main station."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt der Bus am Sonntag?",
+      "text_en": "When does the bus start on Sunday?",
+      "options": [
+        "a) Um 6:00 Uhr",
+        "b) Um 7:00 Uhr",
+        "c) Um 8:00 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Sonntag fährt der Bus ab 8:00 Uhr.",
+      "explanation_en": "On Sunday, the bus runs from 8:00 AM."
+    }
+  ]
+}

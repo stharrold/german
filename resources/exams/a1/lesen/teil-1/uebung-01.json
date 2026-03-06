@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-1-001",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Öffnungszeiten Bäckerei",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Bäckerei Schmidt\nMontag bis Freitag: 6:00 – 18:00 Uhr\nSamstag: 7:00 – 14:00 Uhr\nSonntag: geschlossen\nFrisches Brot und Brötchen jeden Tag!\nKaffee und Kuchen ab 9:00 Uhr.\nWir haben auch Geburtstagstorten.\nBitte bestellen Sie 2 Tage vorher.",
+    "text_en": "Schmidt Bakery\nMonday to Friday: 6:00 AM – 6:00 PM\nSaturday: 7:00 AM – 2:00 PM\nSunday: closed\nFresh bread and rolls every day!\nCoffee and cake from 9:00 AM.\nWe also have birthday cakes.\nPlease order 2 days in advance.",
+    "source": "Aushang",
+    "word_count": 38
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann öffnet die Bäckerei am Samstag?",
+      "text_en": "When does the bakery open on Saturday?",
+      "options": [
+        "a) Um 6:00 Uhr",
+        "b) Um 7:00 Uhr",
+        "c) Um 9:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Samstag öffnet die Bäckerei um 7:00 Uhr.",
+      "explanation_en": "On Saturday, the bakery opens at 7:00 AM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Ist die Bäckerei am Sonntag offen?",
+      "text_en": "Is the bakery open on Sunday?",
+      "options": [
+        "a) Ja, von 7:00 bis 12:00 Uhr",
+        "b) Ja, von 9:00 bis 14:00 Uhr",
+        "c) Nein, sie ist geschlossen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Sonntag ist die Bäckerei geschlossen.",
+      "explanation_en": "On Sunday, the bakery is closed."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Ab wann gibt es Kaffee und Kuchen?",
+      "text_en": "From when is coffee and cake available?",
+      "options": [
+        "a) Ab 6:00 Uhr",
+        "b) Ab 9:00 Uhr",
+        "c) Ab 14:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kaffee und Kuchen gibt es ab 9:00 Uhr.",
+      "explanation_en": "Coffee and cake are available from 9:00 AM."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kann man bestellen?",
+      "text_en": "What can you order?",
+      "options": [
+        "a) Pizza",
+        "b) Geburtstagstorten",
+        "c) Eis"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man kann Geburtstagstorten bestellen.",
+      "explanation_en": "You can order birthday cakes."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann muss man die Torte bestellen?",
+      "text_en": "When must you order the cake?",
+      "options": [
+        "a) 1 Tag vorher",
+        "b) 2 Tage vorher",
+        "c) 1 Woche vorher"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man muss die Torte 2 Tage vorher bestellen.",
+      "explanation_en": "You must order the cake 2 days in advance."
+    }
+  ]
+}

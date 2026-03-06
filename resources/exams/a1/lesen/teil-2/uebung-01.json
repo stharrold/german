@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-2-001",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Wetter in München",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Das Wetter in München diese Woche: Am Montag und Dienstag scheint die Sonne. Es wird warm, bis 25 Grad. Am Mittwoch kommen Wolken und am Nachmittag regnet es. Am Donnerstag und Freitag ist es wieder sonnig, aber kühler. Die Temperaturen liegen bei 18 Grad. Am Wochenende wird es wärmer. Samstag und Sonntag haben wir 22 Grad und Sonne. Perfekt für einen Ausflug!",
+    "text_en": "The weather in Munich this week: On Monday and Tuesday the sun shines. It will be warm, up to 25 degrees. On Wednesday clouds come and in the afternoon it rains. On Thursday and Friday it is sunny again, but cooler. Temperatures are around 18 degrees. On the weekend it gets warmer. Saturday and Sunday we have 22 degrees and sunshine. Perfect for a trip!",
+    "source": "Zeitungsartikel",
+    "word_count": 62
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie ist das Wetter am Montag?",
+      "text_en": "What is the weather like on Monday?",
+      "options": [
+        "a) Es regnet",
+        "b) Es scheint die Sonne",
+        "c) Es ist bewölkt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Montag scheint die Sonne.",
+      "explanation_en": "On Monday the sun shines."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann regnet es?",
+      "text_en": "When does it rain?",
+      "options": [
+        "a) Am Dienstag",
+        "b) Am Mittwoch",
+        "c) Am Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Mittwoch regnet es am Nachmittag.",
+      "explanation_en": "On Wednesday it rains in the afternoon."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie warm ist es am Donnerstag?",
+      "text_en": "How warm is it on Thursday?",
+      "options": [
+        "a) 18 Grad",
+        "b) 22 Grad",
+        "c) 25 Grad"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Am Donnerstag liegen die Temperaturen bei 18 Grad.",
+      "explanation_en": "On Thursday temperatures are around 18 degrees."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie ist das Wetter am Wochenende?",
+      "text_en": "What is the weather like on the weekend?",
+      "options": [
+        "a) Es regnet",
+        "b) Es ist kalt",
+        "c) Es ist sonnig und warm"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Wochenende ist es sonnig und 22 Grad warm.",
+      "explanation_en": "On the weekend it is sunny and 22 degrees warm."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie warm wird es am Dienstag?",
+      "text_en": "How warm does it get on Tuesday?",
+      "options": [
+        "a) Bis 18 Grad",
+        "b) Bis 22 Grad",
+        "c) Bis 25 Grad"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Montag und Dienstag wird es bis 25 Grad warm.",
+      "explanation_en": "On Monday and Tuesday it gets up to 25 degrees warm."
+    }
+  ]
+}

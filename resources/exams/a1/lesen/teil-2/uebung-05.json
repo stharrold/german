@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-2-005",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Fahrrad zu verkaufen",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Ich verkaufe mein Fahrrad. Es ist ein rotes Damenfahrrad von der Marke Pegasus. Das Fahrrad ist 2 Jahre alt und in sehr gutem Zustand. Es hat 7 Gänge und einen Korb vorne. Ich habe es wenig benutzt, weil ich jetzt ein Auto habe. Der Preis ist 120 Euro. Das Fahrrad steht in Hamburg-Altona. Ich bin abends ab 18:00 Uhr zu Hause. Bitte rufen Sie an: 0170-9876543.",
+    "text_en": "I am selling my bicycle. It is a red women's bicycle from the brand Pegasus. The bicycle is 2 years old and in very good condition. It has 7 gears and a basket in front. I have used it little because I now have a car. The price is 120 euros. The bicycle is in Hamburg-Altona. I am home in the evenings from 6:00 PM. Please call: 0170-9876543.",
+    "source": "Anzeige",
+    "word_count": 66
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Farbe hat das Fahrrad?",
+      "text_en": "What color is the bicycle?",
+      "options": [
+        "a) Blau",
+        "b) Rot",
+        "c) Grün"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es ist ein rotes Damenfahrrad.",
+      "explanation_en": "It is a red women's bicycle."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie alt ist das Fahrrad?",
+      "text_en": "How old is the bicycle?",
+      "options": [
+        "a) 1 Jahr",
+        "b) 2 Jahre",
+        "c) 3 Jahre"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Fahrrad ist 2 Jahre alt.",
+      "explanation_en": "The bicycle is 2 years old."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum verkauft die Person das Fahrrad?",
+      "text_en": "Why is the person selling the bicycle?",
+      "options": [
+        "a) Es ist kaputt",
+        "b) Sie hat jetzt ein Auto",
+        "c) Es ist zu klein"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Person hat jetzt ein Auto und benutzt das Fahrrad wenig.",
+      "explanation_en": "The person now has a car and uses the bicycle little."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet das Fahrrad?",
+      "text_en": "How much does the bicycle cost?",
+      "options": [
+        "a) 80 Euro",
+        "b) 100 Euro",
+        "c) 120 Euro"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Fahrrad kostet 120 Euro.",
+      "explanation_en": "The bicycle costs 120 euros."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Person zu Hause?",
+      "text_en": "When is the person at home?",
+      "options": [
+        "a) Morgens ab 8:00 Uhr",
+        "b) Mittags ab 12:00 Uhr",
+        "c) Abends ab 18:00 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Person ist abends ab 18:00 Uhr zu Hause.",
+      "explanation_en": "The person is home in the evenings from 6:00 PM."
+    }
+  ]
+}

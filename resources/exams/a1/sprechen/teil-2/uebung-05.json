@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-2-005",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Themenkarten: Verkehrsmittel und Wege",
+  "instructions": "Sie bekommen eine Karte mit einem Thema und einem Wort. Stellen Sie eine Frage zu dem Wort und beantworten Sie die Frage Ihres Partners / Ihrer Partnerin.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin ziehen Karten zum Thema Verkehr und Wege. Stellen Sie Fragen und beantworten Sie die Fragen.",
+  "situation_en": "You and your partner draw cards on the topic of transport and getting around. Ask questions and answer the questions.",
+  "discussion_points": [
+    "Bus: Fahren Sie mit dem Bus? (Bus: Do you take the bus?)",
+    "Fahrrad: Haben Sie ein Fahrrad? (Bicycle: Do you have a bicycle?)",
+    "Arbeit: Wie kommen Sie zur Arbeit? (Work: How do you get to work?)",
+    "Auto: Haben Sie ein Auto? (Car: Do you have a car?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte beginnen Sie mit Ihrer Karte.",
+      "text_en": "Please begin with your card."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Karte ist Bus. Fahren Sie oft mit dem Bus?",
+      "text_en": "My card is bus. Do you often take the bus?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, ich fahre jeden Tag mit dem Bus zur Arbeit. Und Sie?",
+      "text_en": "Yes, I take the bus to work every day. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich fahre manchmal mit dem Bus. Meistens fahre ich mit der U-Bahn.",
+      "text_en": "I sometimes take the bus. Usually I take the subway."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Karte ist Fahrrad. Haben Sie ein Fahrrad?",
+      "text_en": "My card is bicycle. Do you have a bicycle?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich habe ein Fahrrad. Im Sommer fahre ich gern mit dem Fahrrad.",
+      "text_en": "Yes, I have a bicycle. In summer I like to ride my bicycle."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Haben Sie auch ein Auto?",
+      "text_en": "Do you also have a car?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Nein, ich habe kein Auto. Ein Auto ist zu teuer in der Stadt.",
+      "text_en": "No, I do not have a car. A car is too expensive in the city."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt Fragen zu den Karten und beantwortet die Fragen des Partners.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten und gibt eigene Informationen.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Verkehrsmittel auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit fahren und Dativobjekten (mit dem Bus, mit der U-Bahn).",
+    "Aussprache und Intonation: Verständliche Aussprache mit korrekter Frageintonation."
+  ]
+}

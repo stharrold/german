@@ -52,6 +52,12 @@ def sanitize_text(text: str) -> str:
 
 # Skill display names and directory mappings per level
 LEVELS = {
+    "a1": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 3},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 4},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+    },
     "a2": {
         "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
         "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 4},

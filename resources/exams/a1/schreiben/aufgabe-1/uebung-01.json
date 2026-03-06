@@ -1,0 +1,27 @@
+{
+  "id": "a1-schreiben-aufgabe-1-001",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Anmeldung an einer Sprachschule",
+  "instructions": "Füllen Sie das Formular aus. (Fill in the form.)",
+  "situation_de": "Sie möchten einen Deutschkurs an einer Sprachschule besuchen. Füllen Sie das Anmeldeformular aus.",
+  "situation_en": "You would like to attend a German course at a language school. Fill in the registration form.",
+  "target_word_count": 29,
+  "required_points": [
+    "Name und Vorname schreiben (Write last name and first name)",
+    "Adresse und Telefonnummer angeben (Provide address and phone number)",
+    "Den gewünschten Kurs angeben (Indicate the desired course)",
+    "Das Startdatum schreiben (Write the start date)",
+    "Unterschrift und Datum (Signature and date)"
+  ],
+  "model_answer": {
+    "text_de": "Familienname: Müller\nVorname: Anna\nAdresse: Berliner Straße 12, 10115 Berlin\nTelefon: 030 1234567\nE-Mail: anna.mueller@mail.de\nKurs: Deutsch A1\nStartdatum: 1. April 2026\nDatum: 6. März 2026\nUnterschrift: Anna Müller",
+    "text_en": "Last name: Müller\nFirst name: Anna\nAddress: Berliner Straße 12, 10115 Berlin\nPhone: 030 1234567\nEmail: anna.mueller@mail.de\nCourse: German A1\nStart date: 1 April 2026\nDate: 6 March 2026\nSignature: Anna Müller"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Felder sind ausgefüllt (Task fulfillment: All fields are filled in)",
+    "Korrektheit: Die Informationen sind richtig geschrieben (Correctness: The information is written correctly)",
+    "Lesbarkeit: Die Handschrift ist klar und lesbar (Legibility: The handwriting is clear and readable)"
+  ]
+}

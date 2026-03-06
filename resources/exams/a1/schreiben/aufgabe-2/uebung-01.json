@@ -1,0 +1,25 @@
+{
+  "id": "a1-schreiben-aufgabe-2-001",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Einladung an einen Freund",
+  "instructions": "Schreiben Sie eine kurze Nachricht (ca. 20-30 Wörter). (Write a short message, approx. 20-30 words.)",
+  "situation_de": "Sie möchten Ihren Freund Max am Samstag zum Abendessen einladen. Schreiben Sie ihm eine Nachricht.",
+  "situation_en": "You would like to invite your friend Max to dinner on Saturday. Write him a message.",
+  "target_word_count": 26,
+  "required_points": [
+    "Max zum Essen einladen (Invite Max to dinner)",
+    "Den Tag und die Uhrzeit sagen (Say the day and time)",
+    "Fragen, ob er kommen kann (Ask if he can come)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Max, ich koche am Samstag Abendessen. Kommst du um 19 Uhr zu mir? Ich mache Pasta. Sag mir bitte, ob du kommen kannst. Viele Grüße",
+    "text_en": "Hello Max, I am cooking dinner on Saturday. Will you come to my place at 7 pm? I am making pasta. Please tell me if you can come. Best regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher Wortschatz auf A1-Niveau (Vocabulary: Simple vocabulary at A1 level)",
+    "Strukturen: Einfache Sätze im Präsens sind korrekt (Structures: Simple sentences in present tense are correct)"
+  ]
+}
