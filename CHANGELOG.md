@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.0] - 2026-03-06
+
+### Added
+- **C1 exam practice content** — 65 exercises across all 4 skills (Goethe-Institut format)
+  - Hören: 20 exercises (Teil 1–4, 5 each)
+  - Lesen: 25 exercises (Teil 1–5, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 10 exercises (Teil 1–2, 5 each)
+- C1 exam PDFs (4 skill-specific PDFs in `resources/exams/c1/pdfs/`)
+- `tests/test_c1_exercises.py` — 35 parametrized tests for C1 content validation
+
 ## [2.5.0] - 2026-03-06
 
 ### Added

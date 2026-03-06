@@ -221,6 +221,7 @@ resources/exams/c1/              # C1 exam practice exercises (65, Goethe-Instit
 
 ## Version History
 
+- **v2.6.0** (2026-03-06): C1 exam practice content (65 exercises), PDF generation and tests
 - **v2.5.0** (2026-03-06): B2 exam practice content (65 exercises), subscript digit PDF support
 - **v2.4.0** (2026-03-06): A1 exam practice content (60 exercises), version bump alignment
 - **v2.3.0** (2026-03-05): A2 exam practice content (65 exercises), multi-level PDF generation

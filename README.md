@@ -88,6 +88,12 @@ lesen = load_exercises(Path("resources/exams/b1/lesen"), ReadingExercise)
 ### Exercise Files
 
 ```
+resources/exams/a1/
+├── hoeren/teil-{1-3}/uebung-{01-05}.json
+├── lesen/teil-{1-4}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
+└── sprechen/teil-{1-3}/uebung-{01-05}.json
+
 resources/exams/a2/
 ├── hoeren/teil-{1-4}/uebung-{01-05}.json
 ├── lesen/teil-{1-4}/uebung-{01-05}.json
