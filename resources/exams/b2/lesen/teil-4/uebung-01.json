@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-4-001",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Forum: Soll man auf Fleisch verzichten?",
+  "instructions": "Lesen Sie die Forumsbeiträge und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "MartinaK: Ich lebe seit drei Jahren vegan und habe es nie bereut. Meine Blutwerte sind besser als je zuvor, und ich fühle mich fitter. Natürlich muss man sich bewusst ernähren und auf Vitamin B12 achten, aber das ist kein großes Problem. Für mich ist es vor allem eine ethische Entscheidung: Ich möchte nicht, dass Tiere für mein Essen leiden.\n\nThomasB: Ich respektiere jeden, der vegetarisch oder vegan lebt, aber ich finde es problematisch, wenn daraus ein moralischer Absolutismus wird. Der Mensch ist von Natur aus Allesfresser. Entscheidend ist nicht, ob wir Fleisch essen, sondern wie es produziert wird. Wer beim Biobauern kauft und den Konsum reduziert, tut auch etwas Gutes.\n\nSarahL: Als Ernährungswissenschaftlerin möchte ich darauf hinweisen, dass eine ausgewogene pflanzenbasierte Ernährung für die meisten Erwachsenen gesundheitlich unbedenklich ist. Bei Kindern und Schwangeren sollte man allerdings vorsichtiger sein und ärztlichen Rat einholen. Die Umweltbilanz spricht klar für weniger Fleischkonsum: Die Tierhaltung verursacht 14,5 Prozent der globalen Treibhausgasemissionen.\n\nMarkusR: Das Problem ist doch die Lebensmittelindustrie. Vegane Fertigprodukte sind oft genauso ungesund wie konventionelles Fast Food — voller Zucker, Salz und Zusatzstoffe. Wirklich nachhaltig wäre es, saisonal und regional zu kochen, egal ob mit oder ohne Fleisch.",
+    "text_en": "MartinaK: I have been living vegan for three years and have never regretted it. My blood values are better than ever, and I feel fitter. Of course, you have to eat consciously and pay attention to vitamin B12, but that is not a big problem. For me, it is above all an ethical decision: I do not want animals to suffer for my food.\n\nThomasB: I respect everyone who lives vegetarian or vegan, but I find it problematic when it becomes moral absolutism. Humans are omnivores by nature. What matters is not whether we eat meat, but how it is produced. Those who buy from organic farmers and reduce consumption are also doing something good.\n\nSarahL: As a nutritional scientist, I would like to point out that a balanced plant-based diet is safe for most adults from a health perspective. However, one should be more cautious with children and pregnant women and seek medical advice. The environmental record clearly speaks for less meat consumption: animal husbandry causes 14.5 percent of global greenhouse gas emissions.\n\nMarkusR: The real problem is the food industry. Vegan convenience products are often just as unhealthy as conventional fast food — full of sugar, salt, and additives. Truly sustainable would be cooking seasonally and locally, whether with or without meat.",
+    "source": "Blog",
+    "word_count": 178
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum lebt MartinaK vegan?",
+      "text_en": "Why does MartinaK live vegan?",
+      "options": [
+        "a) Weil ihr Arzt es empfohlen hat.",
+        "b) Vor allem aus ethischen Gründen — sie will nicht, dass Tiere leiden.",
+        "c) Weil sie gegen tierische Produkte allergisch ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Für sie ist es vor allem eine ethische Entscheidung: Sie möchte nicht, dass Tiere leiden.",
+      "explanation_en": "For her, it is above all an ethical decision: she does not want animals to suffer."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert ThomasB?",
+      "text_en": "What does ThomasB criticize?",
+      "options": [
+        "a) Dass aus dem Veganismus ein moralischer Absolutismus wird.",
+        "b) Dass Biofleisch zu teuer ist.",
+        "c) Dass die Regierung Fleisch subventioniert."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Er findet es problematisch, wenn aus dem Veganismus ein moralischer Absolutismus wird.",
+      "explanation_en": "He finds it problematic when veganism becomes moral absolutism."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Bei welchen Gruppen empfiehlt SarahL Vorsicht?",
+      "text_en": "For which groups does SarahL recommend caution?",
+      "options": [
+        "a) Bei Sportlern und älteren Menschen.",
+        "b) Bei Menschen mit Allergien.",
+        "c) Bei Kindern und Schwangeren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Bei Kindern und Schwangeren sollte man vorsichtiger sein und ärztlichen Rat einholen.",
+      "explanation_en": "One should be more cautious with children and pregnant women and seek medical advice."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches Umweltargument nennt SarahL?",
+      "text_en": "What environmental argument does SarahL mention?",
+      "options": [
+        "a) Dass Fleischproduktion 50 Prozent des Wassers verbraucht.",
+        "b) Dass Wälder für den Futteranbau abgeholzt werden.",
+        "c) Dass Tierhaltung 14,5 Prozent der globalen Treibhausgasemissionen verursacht."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Tierhaltung verursacht 14,5 Prozent der globalen Treibhausgasemissionen.",
+      "explanation_en": "Animal husbandry causes 14.5 percent of global greenhouse gas emissions."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist MarkusRs Hauptkritik?",
+      "text_en": "What is MarkusR's main criticism?",
+      "options": [
+        "a) Dass veganes Essen schlecht schmeckt.",
+        "b) Dass zu wenig vegane Produkte im Supermarkt angeboten werden.",
+        "c) Dass vegane Fertigprodukte oft genauso ungesund sind wie Fast Food."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Vegane Fertigprodukte sind oft genauso ungesund wie konventionelles Fast Food.",
+      "explanation_en": "Vegan convenience products are often just as unhealthy as conventional fast food."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "a1-sprechen-teil-3-004",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Im Restaurant bestellen",
+  "instructions": "Sie sind in einem Restaurant und möchten etwas bestellen. Sprechen Sie mit dem Kellner / der Kellnerin.",
+  "situation_de": "Sie sind in einem Restaurant und möchten etwas essen und trinken. Bestellen Sie beim Kellner / bei der Kellnerin.",
+  "situation_en": "You are in a restaurant and would like to eat and drink something. Order from the waiter / waitress.",
+  "discussion_points": [
+    "Die Speisekarte lesen (Read the menu)",
+    "Etwas zu essen bestellen (Order something to eat)",
+    "Etwas zu trinken bestellen (Order something to drink)",
+    "Bezahlen (Pay the bill)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Partner",
+      "text_de": "Guten Abend! Hier ist die Speisekarte. Was möchten Sie?",
+      "text_en": "Good evening! Here is the menu. What would you like?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Guten Abend! Ich hätte gern eine Suppe, bitte.",
+      "text_en": "Good evening! I would like a soup, please."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gern. Wir haben Tomatensuppe und Kartoffelsuppe. Was möchten Sie?",
+      "text_en": "Gladly. We have tomato soup and potato soup. Which would you like?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Tomatensuppe, bitte. Und ein Wasser.",
+      "text_en": "The tomato soup, please. And a water."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Mit oder ohne Kohlensäure?",
+      "text_en": "Sparkling or still?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ohne Kohlensäure, bitte. Was kostet die Suppe?",
+      "text_en": "Still, please. How much does the soup cost?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Die Suppe kostet 4 Euro 50 und das Wasser 2 Euro. Zusammen 6 Euro 50.",
+      "text_en": "The soup costs 4 euros 50 and the water 2 euros. Together 6 euros 50."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Hier sind 7 Euro. Stimmt so. Danke schön!",
+      "text_en": "Here are 7 euros. Keep the change. Thank you!"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Vielen Dank! Guten Appetit!",
+      "text_en": "Thank you very much! Enjoy your meal!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat bestellt Essen und Trinken und bezahlt.",
+    "Interaktion: Der Kandidat versteht die Fragen des Kellners und antwortet passend.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Restaurant und Essen auf A1-Niveau.",
+    "Strukturen: Höfliche Bestellungen mit ich hätte gern und bitte.",
+    "Aussprache und Intonation: Verständliche Aussprache mit höflicher Intonation."
+  ]
+}

@@ -162,7 +162,7 @@ def test_a2_no_unicode_escapes():
     """Test that JSON files use native UTF-8, not unicode escapes."""
     for f in A2_DIR.glob("**/uebung-*.json"):
         content = f.read_text(encoding="utf-8")
-        assert "\\u00" not in content, f"Unicode escape found in {f}"
+        assert not re.search(r"\\u[0-9a-fA-F]{4}", content), f"Unicode escape found in {f}"
 
 
 def test_a2_all_ids_unique():

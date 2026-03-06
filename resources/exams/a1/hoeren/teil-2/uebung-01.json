@@ -1,0 +1,134 @@
+{
+  "id": "a1-hoeren-teil-2-001",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Kurze Gespräche — Im Restaurant bestellen",
+  "instructions": "Sie hören vier kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Kellner",
+      "text_de": "Guten Tag, was möchten Sie trinken?",
+      "text_en": "Good day, what would you like to drink?"
+    },
+    {
+      "speaker": "Gespräch 1 — Gast",
+      "text_de": "Ich nehme einen Kaffee, bitte. Mit Milch und Zucker.",
+      "text_en": "I'll have a coffee, please. With milk and sugar."
+    },
+    {
+      "speaker": "Gespräch 1 — Kellner",
+      "text_de": "Und möchten Sie auch etwas essen?",
+      "text_en": "And would you also like something to eat?"
+    },
+    {
+      "speaker": "Gespräch 1 — Gast",
+      "text_de": "Ja, ein Stück Kuchen, bitte.",
+      "text_en": "Yes, a piece of cake, please."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Entschuldigung, wo ist hier ein Supermarkt?",
+      "text_en": "Excuse me, where is a supermarket here?"
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Gehen Sie geradeaus und dann links. Der Supermarkt ist neben der Bank.",
+      "text_en": "Go straight ahead and then left. The supermarket is next to the bank."
+    },
+    {
+      "speaker": "Gespräch 3 — Verkäufer",
+      "text_de": "Kann ich Ihnen helfen?",
+      "text_en": "Can I help you?"
+    },
+    {
+      "speaker": "Gespräch 3 — Kundin",
+      "text_de": "Ja, ich suche eine Fahrkarte nach Hamburg. Was kostet das?",
+      "text_en": "Yes, I am looking for a train ticket to Hamburg. How much does that cost?"
+    },
+    {
+      "speaker": "Gespräch 3 — Verkäufer",
+      "text_de": "Einfach oder hin und zurück?",
+      "text_en": "One way or round trip?"
+    },
+    {
+      "speaker": "Gespräch 3 — Kundin",
+      "text_de": "Hin und zurück, bitte. Ich fahre am Freitag und komme am Sonntag zurück.",
+      "text_en": "Round trip, please. I travel on Friday and come back on Sunday."
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Hallo, ich bin Stefan. Und wie heißen Sie?",
+      "text_en": "Hello, I am Stefan. And what is your name?"
+    },
+    {
+      "speaker": "Gespräch 4 — Frau",
+      "text_de": "Ich heiße Monika. Ich komme aus Polen. Und Sie?",
+      "text_en": "My name is Monika. I come from Poland. And you?"
+    },
+    {
+      "speaker": "Gespräch 4 — Mann",
+      "text_de": "Ich komme aus der Türkei. Ich wohne seit zwei Jahren in Deutschland.",
+      "text_en": "I come from Turkey. I have been living in Germany for two years."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was bestellt der Gast zu trinken?",
+      "text_en": "What does the guest order to drink?",
+      "options": [
+        "a) Einen Tee",
+        "b) Einen Kaffee",
+        "c) Einen Saft"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Gast bestellt einen Kaffee mit Milch und Zucker.",
+      "explanation_en": "The guest orders a coffee with milk and sugar."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo ist der Supermarkt?",
+      "text_en": "Where is the supermarket?",
+      "options": [
+        "a) Neben der Apotheke",
+        "b) Neben der Bank",
+        "c) Neben dem Bahnhof"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Supermarkt ist neben der Bank.",
+      "explanation_en": "The supermarket is next to the bank."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Fahrkarte möchte die Kundin?",
+      "text_en": "Which ticket does the customer want?",
+      "options": [
+        "a) Einfach nach Hamburg",
+        "b) Hin und zurück nach Hamburg",
+        "c) Einfach nach Berlin"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Kundin möchte eine Fahrkarte hin und zurück nach Hamburg.",
+      "explanation_en": "The customer wants a round trip ticket to Hamburg."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Woher kommt Monika?",
+      "text_en": "Where does Monika come from?",
+      "options": [
+        "a) Aus der Türkei",
+        "b) Aus Deutschland",
+        "c) Aus Polen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Monika kommt aus Polen.",
+      "explanation_en": "Monika comes from Poland."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-1-005",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Anzeige: Sprachkurs",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Volkshochschule Berlin\nDeutschkurs für Anfänger (A1)\nStart: 3. September\nJeden Dienstag und Donnerstag\n18:00 – 19:30 Uhr\nDauer: 12 Wochen\nPreis: 150 Euro (mit Buch)\nMaximal 15 Personen\nAnmeldung im Büro oder online: www.vhs-berlin.de\nFragen? Rufen Sie uns an: 030-12345",
+    "text_en": "Adult Education Center Berlin\nGerman course for beginners (A1)\nStart: September 3rd\nEvery Tuesday and Thursday\n6:00 PM – 7:30 PM\nDuration: 12 weeks\nPrice: 150 euros (with book)\nMaximum 15 people\nRegistration at the office or online: www.vhs-berlin.de\nQuestions? Call us: 030-12345",
+    "source": "Anzeige",
+    "word_count": 40
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt der Kurs?",
+      "text_en": "When does the course start?",
+      "options": [
+        "a) Am 1. September",
+        "b) Am 3. September",
+        "c) Am 5. September"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Kurs beginnt am 3. September.",
+      "explanation_en": "The course starts on September 3rd."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "An welchen Tagen ist der Kurs?",
+      "text_en": "On which days is the course?",
+      "options": [
+        "a) Montag und Mittwoch",
+        "b) Dienstag und Donnerstag",
+        "c) Mittwoch und Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Kurs ist jeden Dienstag und Donnerstag.",
+      "explanation_en": "The course is every Tuesday and Thursday."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet der Kurs?",
+      "text_en": "How much does the course cost?",
+      "options": [
+        "a) 100 Euro",
+        "b) 120 Euro",
+        "c) 150 Euro"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Kurs kostet 150 Euro mit Buch.",
+      "explanation_en": "The course costs 150 euros with a book."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Personen können maximal mitmachen?",
+      "text_en": "How many people can participate at most?",
+      "options": [
+        "a) 10 Personen",
+        "b) 12 Personen",
+        "c) 15 Personen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Maximal 15 Personen können mitmachen.",
+      "explanation_en": "A maximum of 15 people can participate."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie kann man sich anmelden?",
+      "text_en": "How can you register?",
+      "options": [
+        "a) Nur im Büro",
+        "b) Nur online",
+        "c) Im Büro oder online"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Man kann sich im Büro oder online anmelden.",
+      "explanation_en": "You can register at the office or online."
+    }
+  ]
+}

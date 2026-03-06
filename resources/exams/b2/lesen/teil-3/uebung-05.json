@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-3-005",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Das Goethe-Institut: Kulturvermittlung weltweit",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Das Goethe-Institut ist die weltweit tätige Organisation der Bundesrepublik Deutschland für kulturelle Zusammenarbeit und Sprachvermittlung. Mit 157 Instituten in 98 Ländern ist es die größte Mittlerorganisation dieser Art weltweit. Gegründet wurde es 1951 in München, zunächst mit dem Auftrag, Deutschlehrer im Ausland fortzubilden. Heute umfasst sein Aufgabenspektrum weit mehr: von Deutschkursen und Sprachprüfungen über Kulturprogramme bis hin zur Förderung des internationalen Austauschs.\n\nJährlich besuchen rund 260.000 Menschen Deutschkurse am Goethe-Institut, sei es an den Standorten im Ausland oder in einem der zwölf Institute in Deutschland. Das Institut bietet Prüfungen auf allen Niveaustufen des Gemeinsamen Europäischen Referenzrahmens an, von A1 bis C2. Diese Zertifikate sind international anerkannt und werden häufig für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen benötigt.\n\nÜber die Sprachvermittlung hinaus organisiert das Goethe-Institut kulturelle Veranstaltungen wie Filmreihen, Ausstellungen, Konzerte und Diskussionsrunden. In vielen Ländern dient es als Brücke zwischen der deutschen und der lokalen Kultur und schafft Räume für Dialog und Verständigung. Die Finanzierung erfolgt überwiegend durch den Bundeshaushalt, ergänzt durch Kursgebühren und Prüfungsentgelte. In den letzten Jahren hat das Institut verstärkt auf digitale Angebote gesetzt, darunter Online-Sprachkurse und virtuelle Kulturprogramme.",
+    "text_en": "The Goethe-Institut is the Federal Republic of Germany's worldwide organization for cultural cooperation and language instruction. With 157 institutes in 98 countries, it is the largest intermediary organization of its kind worldwide. It was founded in 1951 in Munich, initially with the mission of training German teachers abroad. Today, its range of tasks encompasses far more: from German courses and language examinations to cultural programs and the promotion of international exchange.\n\nApproximately 260,000 people attend German courses at the Goethe-Institut annually, whether at locations abroad or at one of the twelve institutes in Germany. The institute offers examinations at all levels of the Common European Framework of Reference, from A1 to C2. These certificates are internationally recognized and are frequently required for visa applications, university admissions, and professional qualifications.\n\nBeyond language instruction, the Goethe-Institut organizes cultural events such as film series, exhibitions, concerts, and discussion panels. In many countries, it serves as a bridge between German and local culture and creates spaces for dialogue and understanding. Funding comes predominantly from the federal budget, supplemented by course fees and examination charges. In recent years, the institute has increasingly focused on digital offerings, including online language courses and virtual cultural programs.",
+    "source": "Sachbuch",
+    "word_count": 189
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Institute hat das Goethe-Institut weltweit?",
+      "text_en": "How many institutes does the Goethe-Institut have worldwide?",
+      "options": [
+        "a) 98 in 57 Ländern.",
+        "b) 260 in 120 Ländern.",
+        "c) 157 in 98 Ländern."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Es gibt 157 Institute in 98 Ländern.",
+      "explanation_en": "There are 157 institutes in 98 countries."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welchen Auftrag hatte das Goethe-Institut bei seiner Gründung?",
+      "text_en": "What was the Goethe-Institut's mission when it was founded?",
+      "options": [
+        "a) Deutsche Filme im Ausland zu zeigen.",
+        "b) Ausländische Studenten nach Deutschland einzuladen.",
+        "c) Deutschlehrer im Ausland fortzubilden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Zunächst hatte es den Auftrag, Deutschlehrer im Ausland fortzubilden.",
+      "explanation_en": "Initially, its mission was to train German teachers abroad."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wofür werden die Sprachzertifikate des Goethe-Instituts benötigt?",
+      "text_en": "What are Goethe-Institut language certificates needed for?",
+      "options": [
+        "a) Für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen.",
+        "b) Für den Erwerb der deutschen Staatsbürgerschaft.",
+        "c) Ausschließlich für akademische Bewerbungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Zertifikate werden für Visa-Anträge, Hochschulzulassungen und berufliche Qualifikationen benötigt.",
+      "explanation_en": "The certificates are needed for visa applications, university admissions, and professional qualifications."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie wird das Goethe-Institut finanziert?",
+      "text_en": "How is the Goethe-Institut financed?",
+      "options": [
+        "a) Ausschließlich durch private Spenden.",
+        "b) Überwiegend durch den Bundeshaushalt, ergänzt durch Gebühren.",
+        "c) Nur durch Kursgebühren und Prüfungsentgelte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Finanzierung erfolgt überwiegend durch den Bundeshaushalt, ergänzt durch Kursgebühren und Prüfungsentgelte.",
+      "explanation_en": "Funding comes predominantly from the federal budget, supplemented by course fees and examination charges."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Entwicklung hat das Institut in den letzten Jahren vollzogen?",
+      "text_en": "What development has the institute undergone in recent years?",
+      "options": [
+        "a) Es hat viele Standorte im Ausland geschlossen.",
+        "b) Es konzentriert sich nur noch auf Sprachprüfungen.",
+        "c) Es hat verstärkt auf digitale Angebote wie Online-Kurse gesetzt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Institut hat verstärkt auf digitale Angebote gesetzt, darunter Online-Sprachkurse und virtuelle Kulturprogramme.",
+      "explanation_en": "The institute has increasingly focused on digital offerings, including online language courses and virtual cultural programs."
+    }
+  ]
+}

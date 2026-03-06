@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-3-005",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "SMS: Treffpunkt",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Hi Laura,\n\nich bin heute Nachmittag in der Stadt. Wollen wir zusammen einen Kaffee trinken? Ich bin ab 15:00 Uhr frei. Wir können ins Café am Marktplatz gehen. Ich muss aber um 17:00 Uhr zu Hause sein, weil meine Eltern zum Abendessen kommen. Sag mir bitte schnell Bescheid! Ich bin am Handy.\n\nLiebe Grüße\nKatrin",
+    "text_en": "Hi Laura,\n\nI am in the city this afternoon. Do you want to have a coffee together? I am free from 3:00 PM. We can go to the café at the market square. But I have to be home by 5:00 PM because my parents are coming for dinner. Please let me know quickly! I am on my phone.\n\nBest regards\nKatrin",
+    "source": "SMS",
+    "word_count": 55
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was möchte Katrin machen?",
+      "text_en": "What does Katrin want to do?",
+      "options": [
+        "a) Einkaufen gehen",
+        "b) Kaffee trinken",
+        "c) Ins Kino gehen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Katrin möchte zusammen einen Kaffee trinken.",
+      "explanation_en": "Katrin wants to have a coffee together."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Ab wann ist Katrin frei?",
+      "text_en": "From when is Katrin free?",
+      "options": [
+        "a) Ab 14:00 Uhr",
+        "b) Ab 15:00 Uhr",
+        "c) Ab 16:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Katrin ist ab 15:00 Uhr frei.",
+      "explanation_en": "Katrin is free from 3:00 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wo wollen sie sich treffen?",
+      "text_en": "Where do they want to meet?",
+      "options": [
+        "a) Im Café am Bahnhof",
+        "b) Im Café am Marktplatz",
+        "c) Im Café in der Schule"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie können ins Café am Marktplatz gehen.",
+      "explanation_en": "They can go to the café at the market square."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann muss Katrin zu Hause sein?",
+      "text_en": "When does Katrin have to be home?",
+      "options": [
+        "a) Um 16:00 Uhr",
+        "b) Um 17:00 Uhr",
+        "c) Um 18:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Katrin muss um 17:00 Uhr zu Hause sein.",
+      "explanation_en": "Katrin has to be home by 5:00 PM."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum muss Katrin früh nach Hause?",
+      "text_en": "Why does Katrin have to go home early?",
+      "options": [
+        "a) Sie hat einen Arzttermin",
+        "b) Ihre Eltern kommen zum Abendessen",
+        "c) Sie muss arbeiten"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Katrins Eltern kommen zum Abendessen.",
+      "explanation_en": "Katrin's parents are coming for dinner."
+    }
+  ]
+}

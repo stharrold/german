@@ -1,0 +1,27 @@
+{
+  "id": "a1-schreiben-aufgabe-1-005",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Anmeldung für einen Kochkurs",
+  "instructions": "Füllen Sie das Formular aus. (Fill in the form.)",
+  "situation_de": "Sie möchten an einem Kochkurs in der Volkshochschule teilnehmen. Füllen Sie das Anmeldeformular aus.",
+  "situation_en": "You would like to participate in a cooking course at the community college. Fill in the registration form.",
+  "target_word_count": 30,
+  "required_points": [
+    "Name und Vorname schreiben (Write last name and first name)",
+    "Adresse und Telefonnummer angeben (Provide address and phone number)",
+    "Den gewünschten Kurs angeben (Indicate the desired course)",
+    "Den gewünschten Termin angeben (Indicate the desired date)",
+    "Datum und Unterschrift (Date and signature)"
+  ],
+  "model_answer": {
+    "text_de": "Familienname: Braun\nVorname: Katharina\nAdresse: Lindenallee 14, 20095 Hamburg\nTelefon: 040 7788990\nE-Mail: k.braun@mail.de\nKurs: Italienisch kochen für Anfänger\nTermin: Mittwoch, 18:00 Uhr\nDatum: 6. März 2026\nUnterschrift: Katharina Braun",
+    "text_en": "Last name: Braun\nFirst name: Katharina\nAddress: Lindenallee 14, 20095 Hamburg\nPhone: 040 7788990\nEmail: k.braun@mail.de\nCourse: Italian cooking for beginners\nDate/time: Wednesday, 6:00 pm\nDate: 6 March 2026\nSignature: Katharina Braun"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Felder sind ausgefüllt (Task fulfillment: All fields are filled in)",
+    "Korrektheit: Die Informationen sind richtig geschrieben (Correctness: The information is written correctly)",
+    "Lesbarkeit: Die Handschrift ist klar und lesbar (Legibility: The handwriting is clear and readable)"
+  ]
+}

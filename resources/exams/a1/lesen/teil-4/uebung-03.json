@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-4-003",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Restaurant Gasthaus zum Löwen",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Das Restaurant Gasthaus zum Löwen liegt in der Altstadt von Freiburg. Wir haben deutsche und internationale Küche. Unser Mittagsmenü gibt es von 11:30 bis 14:00 Uhr. Es kostet nur 8,50 Euro mit Suppe, Hauptgericht und einem Getränk. Am Abend haben wir Schnitzel, Braten und frischen Fisch. Für Vegetarier gibt es Pasta und Salate. Kinder bekommen eine kleinere Portion zum halben Preis. Am Sonntag gibt es ein Frühstücksbuffet von 9:00 bis 12:00 Uhr für 12 Euro pro Person. Wir haben einen Biergarten mit 60 Plätzen. Reservierung unter 0761-5678. Dienstag ist Ruhetag.",
+    "text_en": "The restaurant Gasthaus zum Löwen is in the old town of Freiburg. We have German and international cuisine. Our lunch menu is available from 11:30 AM to 2:00 PM. It costs only 8.50 euros with soup, main course, and a drink. In the evening we have schnitzel, roast, and fresh fish. For vegetarians there is pasta and salads. Children get a smaller portion at half price. On Sunday there is a breakfast buffet from 9:00 AM to 12:00 PM for 12 euros per person. We have a beer garden with 60 seats. Reservation at 0761-5678. Tuesday is closed.",
+    "source": "Speisekarte",
+    "word_count": 90
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet das Mittagsmenü?",
+      "text_en": "How much does the lunch menu cost?",
+      "options": [
+        "a) 6,50 Euro",
+        "b) 8,50 Euro",
+        "c) 12,00 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Mittagsmenü kostet 8,50 Euro.",
+      "explanation_en": "The lunch menu costs 8.50 euros."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was gibt es für Vegetarier?",
+      "text_en": "What is there for vegetarians?",
+      "options": [
+        "a) Fisch und Salat",
+        "b) Pasta und Salate",
+        "c) Suppe und Brot"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Für Vegetarier gibt es Pasta und Salate.",
+      "explanation_en": "For vegetarians there is pasta and salads."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Sonntagsfrühstück?",
+      "text_en": "When is the Sunday breakfast?",
+      "options": [
+        "a) Von 8:00 bis 11:00 Uhr",
+        "b) Von 9:00 bis 12:00 Uhr",
+        "c) Von 10:00 bis 13:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Frühstücksbuffet am Sonntag ist von 9:00 bis 12:00 Uhr.",
+      "explanation_en": "The Sunday breakfast buffet is from 9:00 AM to 12:00 PM."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel zahlen Kinder?",
+      "text_en": "How much do children pay?",
+      "options": [
+        "a) Nichts",
+        "b) Den halben Preis",
+        "c) Den vollen Preis"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kinder bekommen eine kleinere Portion zum halben Preis.",
+      "explanation_en": "Children get a smaller portion at half price."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Restaurant geschlossen?",
+      "text_en": "When is the restaurant closed?",
+      "options": [
+        "a) Am Montag",
+        "b) Am Dienstag",
+        "c) Am Sonntag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dienstag ist Ruhetag.",
+      "explanation_en": "Tuesday is the day off."
+    }
+  ]
+}

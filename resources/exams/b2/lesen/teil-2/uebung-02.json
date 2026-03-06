@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-2-002",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kommentar: Das Tempolimit — eine überfällige Maßnahme",
+  "instructions": "Lesen Sie den Kommentar und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Deutschland ist das letzte Industrieland der Welt, in dem es auf Autobahnen kein generelles Tempolimit gibt. Was von vielen als Symbol der Freiheit verteidigt wird, ist in Wahrheit ein Anachronismus, der weder ökologisch noch sicherheitstechnisch zu rechtfertigen ist. Es wird höchste Zeit, dass wir diese Debatte sachlich führen und die Fakten sprechen lassen.\n\nDas Umweltbundesamt hat errechnet, dass ein Tempolimit von 120 km/h auf Autobahnen jährlich rund 6,7 Millionen Tonnen CO₂ einsparen würde. In Zeiten des Klimawandels ist das keine vernachlässigbare Größe. Hinzu kommt der Sicherheitsaspekt: Die Unfallforschung belegt eindeutig, dass höhere Geschwindigkeiten zu schwereren Unfällen führen. Auf Autobahnabschnitten mit Tempolimit ereignen sich deutlich weniger tödliche Unfälle als auf unbegrenzten Strecken.\n\nGegner argumentieren, dass ein Tempolimit die persönliche Freiheit einschränke und der Automobilindustrie schade. Doch diese Argumente halten einer kritischen Überprüfung nicht stand. In keinem anderen europäischen Land hat ein Tempolimit zum wirtschaftlichen Niedergang der Autoindustrie geführt. Und was die Freiheit betrifft: Freiheit endet dort, wo sie andere gefährdet. Wir akzeptieren Geschwindigkeitsbegrenzungen in Ortschaften und an Baustellen, ohne von Tyrannei zu sprechen. Warum sollte die Autobahn eine Ausnahme sein? Ein Tempolimit wäre ein pragmatischer Schritt für mehr Klimaschutz und Sicherheit.",
+    "text_en": "Germany is the last industrialized country in the world without a general speed limit on highways. What many defend as a symbol of freedom is in reality an anachronism that can be justified neither ecologically nor in terms of safety. It is high time that we conduct this debate objectively and let the facts speak.\n\nThe Federal Environment Agency has calculated that a speed limit of 120 km/h on highways would save approximately 6.7 million tons of CO₂ annually. In times of climate change, that is not a negligible figure. Added to this is the safety aspect: accident research clearly demonstrates that higher speeds lead to more severe accidents. On highway sections with speed limits, significantly fewer fatal accidents occur than on unrestricted stretches.\n\nOpponents argue that a speed limit restricts personal freedom and harms the automotive industry. But these arguments do not withstand critical scrutiny. In no other European country has a speed limit led to the economic decline of the auto industry. And as for freedom: freedom ends where it endangers others. We accept speed limits in residential areas and at construction sites without speaking of tyranny. Why should the highway be an exception? A speed limit would be a pragmatic step toward more climate protection and safety.",
+    "source": "Zeitung",
+    "word_count": 199
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist die Hauptposition des Autors?",
+      "text_en": "What is the author's main position?",
+      "options": [
+        "a) Deutschland sollte die Autobahnen privatisieren.",
+        "b) Deutschland sollte ein Tempolimit einführen.",
+        "c) Deutschland sollte mehr in Elektroautos investieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Autor argumentiert, dass ein Tempolimit längst überfällig sei.",
+      "explanation_en": "The author argues that a speed limit is long overdue."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel CO₂ könnte ein Tempolimit laut Umweltbundesamt einsparen?",
+      "text_en": "How much CO₂ could a speed limit save according to the Federal Environment Agency?",
+      "options": [
+        "a) Etwa 2,3 Millionen Tonnen pro Jahr.",
+        "b) Etwa 6,7 Millionen Tonnen pro Jahr.",
+        "c) Etwa 12 Millionen Tonnen pro Jahr."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Umweltbundesamt hat rund 6,7 Millionen Tonnen CO₂ pro Jahr errechnet.",
+      "explanation_en": "The Federal Environment Agency calculated approximately 6.7 million tons of CO₂ per year."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was sagt die Unfallforschung laut Text?",
+      "text_en": "What does accident research say according to the text?",
+      "options": [
+        "a) Dass auf Strecken mit Tempolimit weniger tödliche Unfälle passieren.",
+        "b) Dass Tempolimits keinen Einfluss auf die Unfallzahlen haben.",
+        "c) Dass die meisten Unfälle bei niedrigen Geschwindigkeiten passieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Auf Abschnitten mit Tempolimit ereignen sich deutlich weniger tödliche Unfälle.",
+      "explanation_en": "On sections with speed limits, significantly fewer fatal accidents occur."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie entkräftet der Autor das Wirtschaftsargument?",
+      "text_en": "How does the author refute the economic argument?",
+      "options": [
+        "a) Er zeigt, dass kein anderes europäisches Land wirtschaftlich darunter gelitten hat.",
+        "b) Er verweist darauf, dass die Autoindustrie ohnehin auf Elektroautos umsteigt.",
+        "c) Er argumentiert, dass die Wirtschaft vom Tempolimit profitieren würde."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "In keinem anderen europäischen Land hat ein Tempolimit zum wirtschaftlichen Niedergang der Autoindustrie geführt.",
+      "explanation_en": "In no other European country has a speed limit led to the economic decline of the auto industry."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welches rhetorische Argument nutzt der Autor bezüglich Freiheit?",
+      "text_en": "What rhetorical argument does the author use regarding freedom?",
+      "options": [
+        "a) Dass wir bereits Tempolimits in Ortschaften akzeptieren, ohne von Tyrannei zu sprechen.",
+        "b) Dass Freiheit wichtiger sei als Sicherheit.",
+        "c) Dass individuelle Freiheit durch die Verfassung geschützt sei."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Wir akzeptieren Tempolimits in Ortschaften und an Baustellen, ohne von Tyrannei zu sprechen.",
+      "explanation_en": "We accept speed limits in residential areas and at construction sites without speaking of tyranny."
+    }
+  ]
+}

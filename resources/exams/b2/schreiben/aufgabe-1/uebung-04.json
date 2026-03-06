@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-1-004",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Reaktion auf einen Zeitungsartikel: Plastikverbot",
+  "instructions": "Sie haben einen Zeitungsartikel über ein mögliches Verbot von Einwegplastik gelesen. Schreiben Sie eine Reaktion darauf.",
+  "situation_de": "Sie haben in einer Zeitung gelesen, dass die Regierung plant, Einwegplastik vollständig zu verbieten. Viele Verbraucher und kleine Unternehmen sind besorgt über die Kosten der Umstellung auf Alternativen. Schreiben Sie einen Leserbrief, in dem Sie Ihre Meinung dazu äußern.",
+  "situation_en": "You read in a newspaper that the government plans to completely ban single-use plastic. Many consumers and small businesses are concerned about the costs of switching to alternatives. Write a letter to the editor expressing your opinion on this.",
+  "target_word_count": 172,
+  "required_points": [
+    "Ihre grundsätzliche Meinung zum Plastikverbot äußern (Express your fundamental opinion on the plastic ban)",
+    "Auf die Bedenken der Verbraucher und Unternehmen eingehen (Address the concerns of consumers and businesses)",
+    "Die ökologischen Vorteile des Verbots hervorheben (Highlight the ecological benefits of the ban)",
+    "Vorschläge machen, wie die Umstellung erleichtert werden könnte (Make suggestions for how the transition could be facilitated)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Redaktion,\n\nich begrüße den Vorschlag der Regierung, Einwegplastik vollständig zu verbieten, grundsätzlich sehr. Dennoch verstehe ich die berechtigten Sorgen derjenigen, die von einer schnellen und umfassenden Umstellung unmittelbar betroffen wären.\n\nEs steht für mich völlig außer Frage, dass Einwegplastik erhebliche und teilweise irreversible Schäden an unserer Umwelt verursacht. Jedes Jahr gelangen mehrere Millionen Tonnen Plastik in unsere Meere und gefährden dort die gesamte Tierwelt. Ein konsequentes Verbot wäre daher ein äußerst wichtiger und längst überfälliger Schritt zum nachhaltigen Schutz unseres Planeten.\n\nAllerdings sollte die Regierung insbesondere kleine und mittelständische Unternehmen bei der notwendigen Umstellung finanziell unterstützen, da sich diese die oft deutlich teureren Alternativen nicht ohne Weiteres leisten können. Ich würde konkret vorschlagen, dass der Staat großzügige Förderprogramme für umweltfreundliche Verpackungslösungen einrichtet und eine angemessene Übergangsfrist von mindestens zwei Jahren gewährt. Darüber hinaus könnten gezielte steuerliche Anreize für Unternehmen geschaffen werden, die besonders frühzeitig auf nachhaltige Materialien umsteigen.\n\nNur durch eine sozial gerechte und wirtschaftlich durchdachte Umsetzung kann dieses wichtige Verbot langfristig tatsächlich erfolgreich sein.\n\nMit freundlichen Grüßen\nLukas Hartmann",
+    "text_en": "Dear Editorial Team,\n\nI fundamentally very much welcome the government's proposal to completely ban single-use plastic. Nevertheless, I understand the legitimate concerns of those who would be directly affected by a rapid and comprehensive transition.\n\nFor me, there is absolutely no question that single-use plastic causes considerable and partially irreversible damage to our environment. Every year, several million tons of plastic enter our oceans and endanger the entire wildlife there. A consistent ban would therefore be an extremely important and long overdue step toward the sustainable protection of our planet.\n\nHowever, the government should financially support especially small and medium-sized businesses during the necessary transition, as they often cannot easily afford the significantly more expensive alternatives. I would specifically suggest that the state establishes generous funding programs for environmentally friendly packaging solutions and grants an appropriate transition period of at least two years. Furthermore, targeted tax incentives could be created for companies that switch to sustainable materials particularly early.\n\nOnly through a socially fair and economically well-thought-out implementation can this important ban truly be successful in the long term.\n\nSincerely,\nLukas Hartmann"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle vier Inhaltspunkte sind angemessen und ausführlich behandelt (Task fulfillment: All four content points are adequately and thoroughly addressed)",
+    "Kohärenz: Der Text ist klar gegliedert und logisch aufgebaut mit passenden Konnektoren wie dennoch, allerdings, darüber hinaus (Coherence: The text is clearly structured and logically organized with appropriate connectors such as dennoch, allerdings, darüber hinaus)",
+    "Wortschatz: Differenzierter Wortschatz für Umweltthemen und politische Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for environmental topics and political argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen, Konjunktiv II und Passiv korrekt verwendet (Structures: Complex sentence structures, Konjunktiv II and passive voice used correctly)"
+  ]
+}

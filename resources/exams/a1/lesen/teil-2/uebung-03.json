@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-2-003",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kinderfest im Park",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Am Sonntag, den 10. Juni, gibt es ein großes Kinderfest im Stadtpark. Von 10:00 bis 17:00 Uhr können Kinder spielen, malen und basteln. Es gibt Musik und ein Puppentheater um 14:00 Uhr. Essen und Getränke kann man kaufen. Es gibt Würstchen, Pommes und Eis. Der Eintritt ist für Kinder frei. Erwachsene zahlen 2 Euro. Bei Regen findet das Fest in der Turnhalle statt.",
+    "text_en": "On Sunday, June 10th, there is a big children's festival in the city park. From 10:00 AM to 5:00 PM children can play, paint, and do crafts. There is music and a puppet show at 2:00 PM. Food and drinks can be purchased. There are sausages, fries, and ice cream. Admission is free for children. Adults pay 2 euros. In case of rain, the festival takes place in the gym.",
+    "source": "Zeitungsartikel",
+    "word_count": 63
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann ist das Kinderfest?",
+      "text_en": "When is the children's festival?",
+      "options": [
+        "a) Am Samstag, 10. Juni",
+        "b) Am Sonntag, 10. Juni",
+        "c) Am Sonntag, 10. Juli"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Kinderfest ist am Sonntag, den 10. Juni.",
+      "explanation_en": "The children's festival is on Sunday, June 10th."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt das Puppentheater?",
+      "text_en": "When does the puppet show start?",
+      "options": [
+        "a) Um 10:00 Uhr",
+        "b) Um 14:00 Uhr",
+        "c) Um 17:00 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Puppentheater ist um 14:00 Uhr.",
+      "explanation_en": "The puppet show is at 2:00 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel zahlen Erwachsene?",
+      "text_en": "How much do adults pay?",
+      "options": [
+        "a) Nichts",
+        "b) 2 Euro",
+        "c) 5 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Erwachsene zahlen 2 Euro Eintritt.",
+      "explanation_en": "Adults pay 2 euros admission."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was können die Kinder machen?",
+      "text_en": "What can the children do?",
+      "options": [
+        "a) Schwimmen und laufen",
+        "b) Spielen, malen und basteln",
+        "c) Kochen und lesen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kinder können spielen, malen und basteln.",
+      "explanation_en": "Children can play, paint, and do crafts."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was passiert bei Regen?",
+      "text_en": "What happens when it rains?",
+      "options": [
+        "a) Das Fest fällt aus",
+        "b) Das Fest ist in der Turnhalle",
+        "c) Das Fest ist am nächsten Tag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Bei Regen findet das Fest in der Turnhalle statt.",
+      "explanation_en": "In case of rain, the festival takes place in the gym."
+    }
+  ]
+}

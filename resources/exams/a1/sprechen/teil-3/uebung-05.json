@@ -1,0 +1,75 @@
+{
+  "id": "a1-sprechen-teil-3-005",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Informationen erfragen: Beim Arzt anmelden",
+  "instructions": "Sie brauchen eine Information. Fragen Sie und reagieren Sie auf die Antwort.",
+  "situation_de": "Sie möchten einen Termin beim Arzt machen. Sie rufen in der Arztpraxis an und fragen nach einem Termin.",
+  "situation_en": "You would like to make an appointment at the doctor. You call the doctor's office and ask for an appointment.",
+  "discussion_points": [
+    "Einen Termin machen (Make an appointment)",
+    "Tag und Uhrzeit nennen (State day and time)",
+    "Den Namen buchstabieren (Spell the name)",
+    "Die Adresse nennen (Give the address)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Partner",
+      "text_de": "Praxis Dr. Weber, guten Tag. Was kann ich für Sie tun?",
+      "text_en": "Dr. Weber's practice, good day. What can I do for you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Guten Tag. Ich möchte bitte einen Termin machen.",
+      "text_en": "Good day. I would like to make an appointment, please."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, gern. Wann passt es Ihnen? Am Montag oder am Dienstag?",
+      "text_en": "Yes, gladly. When suits you? On Monday or on Tuesday?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Dienstag, bitte. Am Vormittag, wenn es geht.",
+      "text_en": "On Tuesday, please. In the morning, if possible."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Am Dienstag um 10 Uhr? Ist das okay?",
+      "text_en": "On Tuesday at 10 o'clock? Is that okay?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, das ist gut. Um 10 Uhr am Dienstag.",
+      "text_en": "Yes, that is good. At 10 o'clock on Tuesday."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Wie heißen Sie, bitte?",
+      "text_en": "What is your name, please?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich heiße Anna Schmidt. S-C-H-M-I-D-T.",
+      "text_en": "My name is Anna Schmidt. S-C-H-M-I-D-T."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Danke, Frau Schmidt. Dann bis Dienstag um 10 Uhr. Auf Wiederhören!",
+      "text_en": "Thank you, Ms. Schmidt. Then see you Tuesday at 10 o'clock. Goodbye!"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vielen Dank. Auf Wiederhören!",
+      "text_en": "Thank you very much. Goodbye!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat macht einen Termin und gibt persönliche Daten an.",
+    "Interaktion: Der Kandidat versteht die Fragen und gibt klare Antworten.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Arzt und Termine auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit ich möchte und Zeitangaben (Wochentage, Uhrzeiten).",
+    "Aussprache und Intonation: Verständliche Aussprache beim Buchstabieren und bei Zeitangaben."
+  ]
+}

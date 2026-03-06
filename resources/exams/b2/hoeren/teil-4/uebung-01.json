@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-4-001",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Der Einfluss des Schlafs auf die Lernfähigkeit",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Kowalski",
+      "text_de": "Meine Damen und Herren, vielen Dank für Ihre Teilnahme an diesem Vortrag. Heute möchte ich über ein Thema sprechen, das uns alle betrifft, dem wir aber viel zu wenig Aufmerksamkeit schenken: den Zusammenhang zwischen Schlaf und Lernfähigkeit. Als Neurowissenschaftler beschäftige ich mich seit über zwanzig Jahren mit der Frage, was in unserem Gehirn passiert, während wir schlafen.",
+      "text_en": "Ladies and gentlemen, thank you for attending this lecture. Today I would like to speak about a topic that affects us all but to which we pay far too little attention: the connection between sleep and learning ability. As a neuroscientist, I have been investigating for over twenty years what happens in our brain while we sleep."
+    },
+    {
+      "speaker": "Prof. Dr. Kowalski",
+      "text_de": "Lassen Sie mich mit einer überraschenden Erkenntnis beginnen: Schlaf ist kein passiver Zustand. Im Gegenteil — während wir schlafen, ist unser Gehirn hochaktiv. Es verarbeitet die Informationen des Tages, sortiert Wichtiges von Unwichtigem und überführt kurzfristige Erinnerungen in das Langzeitgedächtnis. Dieser Prozess wird als Gedächtniskonsolidierung bezeichnet und findet hauptsächlich in der sogenannten Tiefschlafphase statt. Ohne ausreichenden Tiefschlaf kann das Gehirn neue Informationen schlicht nicht dauerhaft speichern.",
+      "text_en": "Let me begin with a surprising finding: Sleep is not a passive state. On the contrary — while we sleep, our brain is highly active. It processes the day's information, sorts important from unimportant things, and transfers short-term memories into long-term memory. This process is called memory consolidation and occurs mainly during the so-called deep sleep phase. Without sufficient deep sleep, the brain simply cannot permanently store new information."
+    },
+    {
+      "speaker": "Prof. Dr. Kowalski",
+      "text_de": "In einer unserer Studien haben wir zwei Gruppen von Studierenden verglichen. Beide Gruppen lernten denselben Stoff. Die eine Gruppe schlief anschließend acht Stunden, die andere nur vier. Am nächsten Tag testeten wir das Gelernte. Das Ergebnis war eindeutig: Die ausgeschlafene Gruppe erinnerte sich an 85 Prozent des Stoffes, die schlafdefizitäre Gruppe nur an 40 Prozent. Noch bemerkenswerter war, dass die schlafdefizitäre Gruppe nicht nur weniger wusste, sondern auch häufiger falsche Antworten gab — ihr Gehirn hatte die Informationen fehlerhaft verarbeitet.",
+      "text_en": "In one of our studies, we compared two groups of students. Both groups studied the same material. One group then slept eight hours, the other only four. The next day, we tested what they had learned. The result was clear: the well-rested group remembered 85 percent of the material, the sleep-deprived group only 40 percent. Even more remarkable was that the sleep-deprived group not only knew less but also gave incorrect answers more frequently — their brain had processed the information incorrectly."
+    },
+    {
+      "speaker": "Prof. Dr. Kowalski",
+      "text_de": "Was bedeutet das für unseren Alltag? Zunächst einmal: Die weit verbreitete Angewohnheit, vor Prüfungen die Nacht durchzulernen, ist kontraproduktiv. Wer den Stoff am Abend lernt und dann gut schläft, wird deutlich bessere Ergebnisse erzielen als jemand, der die ganze Nacht büffelt. Darüber hinaus wirkt sich chronischer Schlafmangel nicht nur auf das Lernen aus, sondern auch auf die Kreativität, die Entscheidungsfähigkeit und die emotionale Stabilität. Menschen, die dauerhaft weniger als sechs Stunden schlafen, haben ein dreifach erhöhtes Risiko für Depressionen.",
+      "text_en": "What does this mean for our daily lives? First of all: the widespread habit of studying all night before exams is counterproductive. Anyone who studies the material in the evening and then sleeps well will achieve significantly better results than someone who crams all night. Furthermore, chronic sleep deprivation affects not only learning but also creativity, decision-making ability, and emotional stability. People who consistently sleep less than six hours have a threefold increased risk of depression."
+    },
+    {
+      "speaker": "Prof. Dr. Kowalski",
+      "text_de": "Abschließend möchte ich Ihnen fünf evidenzbasierte Empfehlungen mitgeben: Erstens, halten Sie einen regelmäßigen Schlafrhythmus ein — auch am Wochenende. Zweitens, vermeiden Sie Bildschirme mindestens eine Stunde vor dem Schlafengehen, da das blaue Licht die Melatoninproduktion hemmt. Drittens, halten Sie das Schlafzimmer kühl, idealerweise zwischen 16 und 18 Grad. Viertens, kein Koffein nach 14 Uhr. Und fünftens: Wenn Sie etwas Neues gelernt haben, legen Sie sich danach kurz hin — selbst ein zwanzigminütiger Mittagsschlaf verbessert die Gedächtnisleistung nachweislich um bis zu 20 Prozent. Vielen Dank für Ihre Aufmerksamkeit.",
+      "text_en": "In conclusion, I would like to give you five evidence-based recommendations: First, maintain a regular sleep schedule — including on weekends. Second, avoid screens at least one hour before bedtime, as blue light inhibits melatonin production. Third, keep the bedroom cool, ideally between 16 and 18 degrees. Fourth, no caffeine after 2 PM. And fifth: if you've learned something new, lie down briefly afterward — even a twenty-minute nap has been proven to improve memory performance by up to 20 percent. Thank you for your attention."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was passiert laut Professor Kowalski während des Schlafs im Gehirn?",
+      "text_en": "What happens in the brain during sleep according to Professor Kowalski?",
+      "options": [
+        "a) Das Gehirn schaltet sich vollständig ab, um sich zu erholen.",
+        "b) Das Gehirn verarbeitet Informationen und überführt sie ins Langzeitgedächtnis.",
+        "c) Das Gehirn löscht alle unwichtigen Erinnerungen des Tages."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Gehirn ist hochaktiv, verarbeitet Informationen und überführt kurzfristige Erinnerungen in das Langzeitgedächtnis.",
+      "explanation_en": "The brain is highly active, processes information, and transfers short-term memories into long-term memory."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "An wie viel Prozent des Stoffes erinnerte sich die schlafdefizitäre Gruppe?",
+      "text_en": "What percentage of the material did the sleep-deprived group remember?",
+      "options": [
+        "a) An 85 Prozent.",
+        "b) An 60 Prozent.",
+        "c) An 40 Prozent."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die schlafdefizitäre Gruppe erinnerte sich nur an 40 Prozent des Stoffes, verglichen mit 85 Prozent bei der ausgeschlafenen Gruppe.",
+      "explanation_en": "The sleep-deprived group remembered only 40 percent of the material, compared to 85 percent in the well-rested group."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum ist das Durchlernen vor Prüfungen kontraproduktiv?",
+      "text_en": "Why is cramming all night before exams counterproductive?",
+      "options": [
+        "a) Weil das Gehirn ohne Schlaf die Informationen nicht dauerhaft speichern kann.",
+        "b) Weil man am nächsten Tag zu müde ist, um zur Prüfung zu gehen.",
+        "c) Weil man im Dunkeln nicht gut lesen kann."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Ohne ausreichenden Schlaf kann das Gehirn neue Informationen nicht dauerhaft speichern — die Gedächtniskonsolidierung findet im Tiefschlaf statt.",
+      "explanation_en": "Without sufficient sleep, the brain cannot permanently store new information — memory consolidation occurs during deep sleep."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches Risiko haben Menschen, die dauerhaft weniger als sechs Stunden schlafen?",
+      "text_en": "What risk do people have who consistently sleep less than six hours?",
+      "options": [
+        "a) Ein doppelt erhöhtes Risiko für Herzerkrankungen.",
+        "b) Ein dreifach erhöhtes Risiko für Depressionen.",
+        "c) Ein fünffach erhöhtes Risiko für Übergewicht."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Menschen, die dauerhaft weniger als sechs Stunden schlafen, haben ein dreifach erhöhtes Risiko für Depressionen.",
+      "explanation_en": "People who consistently sleep less than six hours have a threefold increased risk of depression."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Prozent verbessert ein zwanzigminütiger Mittagsschlaf die Gedächtnisleistung?",
+      "text_en": "By what percentage does a twenty-minute nap improve memory performance?",
+      "options": [
+        "a) Um bis zu 10 Prozent.",
+        "b) Um bis zu 50 Prozent.",
+        "c) Um bis zu 20 Prozent."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Ein zwanzigminütiger Mittagsschlaf verbessert die Gedächtnisleistung nachweislich um bis zu 20 Prozent.",
+      "explanation_en": "A twenty-minute nap has been proven to improve memory performance by up to 20 percent."
+    }
+  ]
+}

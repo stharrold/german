@@ -1,0 +1,72 @@
+{
+  "id": "b2-sprechen-teil-1-004",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Die Zukunft der Arbeit",
+  "instructions": "Sie sollen einen kurzen Vortrag zu einem Thema halten. Anschließend diskutieren Sie mit dem Prüfer / der Prüferin darüber.",
+  "situation_de": "Die Arbeitswelt befindet sich im Wandel: Digitalisierung, künstliche Intelligenz und neue Arbeitsmodelle verändern unseren Berufsalltag. Halten Sie einen Vortrag über die Zukunft der Arbeit. Gehen Sie auf die folgenden Punkte ein und begründen Sie Ihre Meinung.",
+  "situation_en": "The world of work is undergoing change: digitalization, artificial intelligence, and new work models are transforming our professional daily life. Give a presentation about the future of work. Address the following points and justify your opinion.",
+  "discussion_points": [
+    "Wie verändert die Digitalisierung die Arbeitswelt? (How is digitalization changing the world of work?)",
+    "Welche Berufe könnten in Zukunft verschwinden und welche werden entstehen? (Which professions might disappear in the future and which will emerge?)",
+    "Welche Vor- und Nachteile hat das Arbeiten im Homeoffice? (What are the advantages and disadvantages of working from home?)",
+    "Wie wichtig ist lebenslanges Lernen für die berufliche Zukunft? (How important is lifelong learning for professional futures?)",
+    "Wie sollte sich das Bildungssystem an die neuen Anforderungen anpassen? (How should the education system adapt to new requirements?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "In meinem Vortrag möchte ich über ein Thema sprechen, das uns alle betrifft: die Zukunft der Arbeit. Die rasante Entwicklung der Digitalisierung und der künstlichen Intelligenz stellt unsere Gesellschaft vor enorme Herausforderungen, bietet aber zugleich auch große Chancen.",
+      "text_en": "In my presentation, I would like to talk about a topic that affects us all: the future of work. The rapid development of digitalization and artificial intelligence poses enormous challenges for our society, but at the same time also offers great opportunities."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Es ist absehbar, dass viele Routinetätigkeiten in den kommenden Jahrzehnten automatisiert werden. Berufe in der Produktion, im Transportwesen und auch in der Verwaltung werden sich grundlegend verändern. Gleichzeitig entstehen neue Berufsfelder, etwa im Bereich Datenanalyse, Cybersicherheit oder KI-Entwicklung.",
+      "text_en": "It is foreseeable that many routine activities will be automated in the coming decades. Professions in manufacturing, transportation, and also in administration will fundamentally change. At the same time, new professional fields are emerging, for example in data analysis, cybersecurity, or AI development."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ein weiterer bedeutender Trend ist das Homeoffice. Die Pandemie hat gezeigt, dass viele Tätigkeiten problemlos von zu Hause erledigt werden können. Die Vorteile liegen auf der Hand: mehr Flexibilität, keine Pendelzeiten und eine bessere Vereinbarkeit von Beruf und Familie. Dem stehen jedoch Nachteile gegenüber wie soziale Isolation und die Schwierigkeit, Arbeit und Freizeit zu trennen.",
+      "text_en": "Another significant trend is working from home. The pandemic showed that many tasks can be handled from home without problems. The advantages are obvious: more flexibility, no commuting times, and better compatibility of work and family. However, disadvantages include social isolation and the difficulty of separating work and leisure."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank. Sie haben lebenslanges Lernen noch nicht angesprochen. Wie wichtig ist das Ihrer Meinung nach?",
+      "text_en": "Thank you. You haven't addressed lifelong learning yet. How important is that in your opinion?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Lebenslanges Lernen ist meines Erachtens absolut unverzichtbar geworden. Die Zeiten, in denen man eine Ausbildung machte und dann dreißig Jahre denselben Beruf ausübte, sind vorbei. Die technologische Entwicklung verläuft so schnell, dass man seine Fähigkeiten ständig aktualisieren muss, um wettbewerbsfähig zu bleiben.",
+      "text_en": "In my view, lifelong learning has become absolutely indispensable. The times when you completed training and then practiced the same profession for thirty years are over. Technological development is progressing so quickly that one must constantly update skills to remain competitive."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Haben Sie Bedenken, dass KI Ihren eigenen Beruf gefährden könnte?",
+      "text_en": "Do you have concerns that AI could threaten your own profession?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Gewisse Bedenken habe ich schon, aber ich sehe KI eher als Werkzeug, das meine Arbeit unterstützen kann, als als Bedrohung. Kreativität, Empathie und kritisches Denken sind Fähigkeiten, die Maschinen auf absehbare Zeit nicht ersetzen können. Entscheidend ist, dass man lernt, mit diesen neuen Technologien umzugehen, statt sie zu fürchten.",
+      "text_en": "I do have certain concerns, but I see AI more as a tool that can support my work rather than as a threat. Creativity, empathy, and critical thinking are skills that machines cannot replace for the foreseeable future. The key is to learn to work with these new technologies rather than fearing them."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und was sollte das Bildungssystem Ihrer Meinung nach anders machen, um die nächste Generation vorzubereiten?",
+      "text_en": "And what should the education system do differently in your opinion to prepare the next generation?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das Bildungssystem muss sich stärker auf digitale Kompetenzen und überfachliche Fähigkeiten konzentrieren. Statt nur Fachwissen zu vermitteln, sollten Schulen auch Problemlösungsfähigkeiten, Teamarbeit und den kritischen Umgang mit Informationen fördern. Außerdem sollten Weiterbildungsangebote für Erwachsene deutlich ausgebaut werden, damit auch ältere Arbeitnehmer den Anschluss nicht verlieren.",
+      "text_en": "The education system must focus more on digital competencies and cross-disciplinary skills. Instead of only conveying specialized knowledge, schools should also promote problem-solving skills, teamwork, and critical handling of information. Additionally, continuing education offerings for adults should be significantly expanded so that older workers don't get left behind."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen kohärenten Vortrag und reagiert angemessen auf ergänzende Fragen.",
+    "Argumentation: Differenzierte Betrachtung des Themas mit Abwägen von Chancen und Risiken.",
+    "Interaktion: Fähigkeit, spontan und ausführlich auf Nachfragen zu antworten.",
+    "Wortschatz: Differenzierter Wortschatz zu den Themen Arbeitswelt, Technologie und Bildung.",
+    "Strukturen: Korrekte Verwendung von Kausalsätzen, Finalsätzen und komplexen Nominalphrasen.",
+    "Aussprache und Intonation: Klare Aussprache auch bei Fachbegriffen, angemessenes Sprechtempo."
+  ]
+}

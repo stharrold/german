@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-1-004",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sich vorstellen: Hobbys und Freizeit",
+  "instructions": "Stellen Sie sich vor. Der Prüfer / die Prüferin stellt Ihnen Fragen zu Ihrer Person.",
+  "situation_de": "Sie melden sich bei einem Sportverein an. Der Prüfer / die Prüferin fragt Sie nach Ihren Hobbys und Ihrer Freizeit.",
+  "situation_en": "You are signing up at a sports club. The examiner asks you about your hobbies and your free time.",
+  "discussion_points": [
+    "Was machen Sie gern in der Freizeit? (What do you like to do in your free time?)",
+    "Treiben Sie Sport? (Do you do sports?)",
+    "Was machen Sie am Wochenende? (What do you do on the weekend?)",
+    "Haben Sie ein Lieblingshobby? (Do you have a favorite hobby?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was machen Sie gern in Ihrer Freizeit?",
+      "text_en": "What do you like to do in your free time?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich lese gern und ich höre gern Musik.",
+      "text_en": "I like to read and I like to listen to music."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Treiben Sie auch Sport?",
+      "text_en": "Do you also do sports?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich spiele gern Fußball. Und ich schwimme gern.",
+      "text_en": "Yes, I like to play football. And I like to swim."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was machen Sie am Wochenende?",
+      "text_en": "What do you do on the weekend?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Am Samstag spiele ich Fußball mit Freunden. Am Sonntag koche ich gern.",
+      "text_en": "On Saturday I play football with friends. On Sunday I like to cook."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was ist Ihr Lieblingshobby?",
+      "text_en": "What is your favorite hobby?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein Lieblingshobby ist Fußball. Ich spiele seit zehn Jahren.",
+      "text_en": "My favorite hobby is football. I have been playing for ten years."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat beantwortet Fragen zu Hobbys und Freizeit.",
+    "Interaktion: Der Kandidat versteht die Fragen und antwortet mit passenden Details.",
+    "Wortschatz: Grundwortschatz zu Freizeit und Hobbys auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit gern und Freizeitverben sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Betonung."
+  ]
+}

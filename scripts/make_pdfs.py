@@ -8,8 +8,10 @@ exercise pages and a separate answer key section at the end.
 
 Usage:
     uv run --extra pdf python scripts/make_pdfs.py
+    uv run --extra pdf python scripts/make_pdfs.py --level a1
     uv run --extra pdf python scripts/make_pdfs.py --level a2
     uv run --extra pdf python scripts/make_pdfs.py --level b1 --skill hoeren
+    uv run --extra pdf python scripts/make_pdfs.py --level b2
 
 Requirements:
     fpdf2 (install via: uv pip install fpdf2, or use --extra pdf)
@@ -39,6 +41,16 @@ UNICODE_REPLACEMENTS = {
     "\u2026": "...",  # ellipsis
     "\u00a0": " ",  # non-breaking space
     "\u2022": "-",  # bullet
+    "\u2080": "0",  # subscript 0
+    "\u2081": "1",  # subscript 1
+    "\u2082": "2",  # subscript 2
+    "\u2083": "3",  # subscript 3
+    "\u2084": "4",  # subscript 4
+    "\u2085": "5",  # subscript 5
+    "\u2086": "6",  # subscript 6
+    "\u2087": "7",  # subscript 7
+    "\u2088": "8",  # subscript 8
+    "\u2089": "9",  # subscript 9
 }
 
 
@@ -52,6 +64,12 @@ def sanitize_text(text: str) -> str:
 
 # Skill display names and directory mappings per level
 LEVELS = {
+    "a1": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 3},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 4},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+    },
     "a2": {
         "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
         "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 4},
@@ -63,6 +81,12 @@ LEVELS = {
         "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
         "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 3},
         "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
+    },
+    "b2": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 2},
     },
 }
 

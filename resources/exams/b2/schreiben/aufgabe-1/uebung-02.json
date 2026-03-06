@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-1-002",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Formelle Anfrage an die Stadtverwaltung",
+  "instructions": "Sie möchten in Ihrem Stadtteil ein Gemeinschaftsprojekt starten. Schreiben Sie eine formelle Anfrage an die Stadtverwaltung.",
+  "situation_de": "Sie wohnen in einem Stadtteil, in dem es wenig Grünflächen gibt. Sie möchten zusammen mit anderen Bewohnern einen Gemeinschaftsgarten auf einem ungenutzten Grundstück anlegen. Schreiben Sie an die Stadtverwaltung, um eine Genehmigung zu beantragen und Unterstützung zu erbitten.",
+  "situation_en": "You live in a neighborhood with few green spaces. Together with other residents, you would like to create a community garden on an unused plot of land. Write to the city administration to apply for a permit and request support.",
+  "target_word_count": 175,
+  "required_points": [
+    "Ihr Anliegen und das Projekt klar beschreiben (Clearly describe your concern and the project)",
+    "Die Vorteile des Gemeinschaftsgartens für den Stadtteil erläutern (Explain the benefits of the community garden for the neighborhood)",
+    "Um Genehmigung für die Nutzung des Grundstücks bitten (Request permission to use the plot of land)",
+    "Nach möglicher finanzieller oder materieller Unterstützung fragen (Ask about possible financial or material support)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Damen und Herren,\n\nich wende mich an Sie im Namen einer Gruppe von engagierten Bewohnern des Stadtteils Nordheim mit einer Anfrage, die uns sehr am Herzen liegt. Wir würden gerne einen Gemeinschaftsgarten auf dem seit Jahren ungenutzten Grundstück in der Bergstraße 45 anlegen und möchten hiermit offiziell eine entsprechende Genehmigung bei der Stadtverwaltung beantragen.\n\nUnser Stadtteil verfügt leider über sehr wenige Grünflächen, was sich nach unserer Einschätzung negativ auf die Lebensqualität der Bewohner auswirkt. Ein Gemeinschaftsgarten würde nicht nur das Stadtbild erheblich verschönern, sondern auch den sozialen Zusammenhalt in der Nachbarschaft deutlich stärken. Darüber hinaus könnten insbesondere Kinder dort den verantwortungsvollen Umgang mit der Natur erlernen und ein Bewusstsein für nachhaltige Ernährung entwickeln.\n\nWir haben bereits über zwanzig interessierte Teilnehmer gewonnen, die bereit wären, die regelmäßige Pflege des Gartens vollständig ehrenamtlich zu übernehmen. Dennoch wären wir bei der Anfangsfinanzierung auf die Unterstützung der Stadt angewiesen, beispielsweise bei der Bereitstellung von Erde, Gartengeräten und einem Wasseranschluss.\n\nÜber eine positive Rückmeldung und ein persönliches Gespräch würden wir uns außerordentlich freuen.\n\nMit freundlichen Grüßen\nThomas Weber",
+    "text_en": "Dear Sir or Madam,\n\nI am contacting you on behalf of a group of dedicated residents of the Nordheim district with a request that is very close to our hearts. We would like to create a community garden on the plot of land at Bergstraße 45, which has been unused for years, and hereby wish to officially apply for the appropriate permit from the city administration.\n\nUnfortunately, our neighborhood has very few green spaces, which in our assessment negatively affects the quality of life of residents. A community garden would not only significantly beautify the cityscape but would also clearly strengthen social cohesion in the neighborhood. Furthermore, children in particular could learn responsible interaction with nature there and develop an awareness of sustainable nutrition.\n\nWe have already recruited over twenty interested participants who would be willing to completely take on the regular maintenance of the garden on a voluntary basis. Nevertheless, we would depend on the city's support for initial financing, for example in providing soil, gardening tools, and a water connection.\n\nWe would be extraordinarily pleased to receive a positive response and to arrange a personal meeting.\n\nSincerely,\nThomas Weber"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle vier Inhaltspunkte sind angemessen und ausführlich behandelt (Task fulfillment: All four content points are adequately and thoroughly addressed)",
+    "Kohärenz: Der Text ist klar gegliedert und logisch aufgebaut mit passenden Konnektoren (Coherence: The text is clearly structured and logically organized with appropriate connectors)",
+    "Wortschatz: Differenzierter und formeller Wortschatz auf B2-Niveau, z. B. Verwaltungssprache (Vocabulary: Differentiated and formal vocabulary at B2 level, e.g. administrative language)",
+    "Strukturen: Komplexe Satzstrukturen, Konjunktiv II und Passiv korrekt verwendet (Structures: Complex sentence structures, Konjunktiv II and passive voice used correctly)"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-2-002",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Digitale Medien im Unterricht",
+  "instructions": "Schreiben Sie einen argumentativen Text, in dem Sie zu dem Thema Stellung nehmen.",
+  "situation_de": "An vielen Schulen wird darüber diskutiert, ob Tablets und Laptops den traditionellen Unterricht mit Büchern und Heften ersetzen sollten. Befürworter betonen die interaktiven Lernmöglichkeiten, während Gegner vor Ablenkung und gesundheitlichen Risiken warnen. Nehmen Sie Stellung und begründen Sie Ihre Position.",
+  "situation_en": "At many schools, there is a discussion about whether tablets and laptops should replace traditional instruction with books and notebooks. Supporters emphasize interactive learning opportunities, while opponents warn of distraction and health risks. Take a position and justify your stance.",
+  "target_word_count": 130,
+  "required_points": [
+    "Ihre Position klar formulieren (Clearly formulate your position)",
+    "Mindestens zwei Argumente für Ihre Position anführen (Provide at least two arguments for your position)",
+    "Ein Gegenargument nennen und entkräften (Name a counterargument and refute it)",
+    "Ein Fazit ziehen (Draw a conclusion)"
+  ],
+  "model_answer": {
+    "text_de": "Ich bin der festen Überzeugung, dass digitale Medien im Unterricht gezielt und sinnvoll eingesetzt werden sollten, jedoch keinesfalls als vollständiger Ersatz für bewährte traditionelle Materialien dienen dürfen.\n\nZum einen bieten Tablets und Laptops vielfältige interaktive Lernmethoden, die den alltäglichen Unterricht deutlich abwechslungsreicher und ansprechender gestalten können. Zum anderen bereiten fundierte digitale Kompetenzen die Schülerinnen und Schüler optimal auf die Anforderungen der modernen Arbeitswelt vor, in der Technologie inzwischen schlichtweg unverzichtbar geworden ist.\n\nObwohl einige Kritiker behaupten, dass digitale Geräte die Schüler im Unterricht stark ablenken, kann diesem durchaus berechtigten Problem durch klare Nutzungsregeln und pädagogisch sorgfältig durchdachte Software wirksam begegnet werden.\n\nAbschließend lässt sich festhalten, dass eine ausgewogene Kombination aus digitalen und traditionellen Lernmitteln den größten pädagogischen Nutzen bringt. Entscheidend ist letztlich nicht das Medium, sondern die Qualität des Unterrichts.",
+    "text_en": "I am firmly convinced that digital media should be used in a targeted and meaningful way in the classroom, but should by no means serve as a complete replacement for proven traditional materials.\n\nFor one thing, tablets and laptops offer diverse interactive learning methods that can make everyday lessons significantly more varied and engaging. For another, solid digital competencies optimally prepare students for the demands of the modern working world, in which technology has meanwhile simply become indispensable.\n\nAlthough some critics claim that digital devices strongly distract students in the classroom, this quite legitimate problem can be effectively addressed through clear usage rules and pedagogically carefully designed software.\n\nIn conclusion, it can be stated that a balanced combination of digital and traditional learning materials brings the greatest pedagogical benefit. What ultimately matters is not the medium, but the quality of instruction."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Klare Positionierung mit überzeugenden Argumenten und Gegenargument (Task fulfillment: Clear positioning with convincing arguments and counterargument)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Fazit (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Differenzierter Wortschatz für Bildungsthemen und Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for education topics and argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen mit Konnektoren wie zum einen, zum anderen, obwohl, abschließend (Structures: Complex sentence structures with connectors such as zum einen, zum anderen, obwohl, abschließend)"
+  ]
+}

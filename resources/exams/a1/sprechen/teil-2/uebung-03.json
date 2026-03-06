@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-2-003",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Themenkarten: Einkaufen und Geschäfte",
+  "instructions": "Sie bekommen eine Karte mit einem Thema und einem Wort. Stellen Sie eine Frage zu dem Wort und beantworten Sie die Frage Ihres Partners / Ihrer Partnerin.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin ziehen Karten zum Thema Einkaufen. Stellen Sie Fragen und beantworten Sie die Fragen.",
+  "situation_en": "You and your partner draw cards on the topic of shopping. Ask questions and answer the questions.",
+  "discussion_points": [
+    "Supermarkt: Wo kaufen Sie ein? (Supermarket: Where do you shop?)",
+    "Kleidung: Was kaufen Sie gern? (Clothes: What do you like to buy?)",
+    "Preis: Wie viel kostet das? (Price: How much does that cost?)",
+    "Markt: Gehen Sie gern auf den Markt? (Market: Do you like to go to the market?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Bitte beginnen Sie mit Ihrer ersten Karte.",
+      "text_en": "Please begin with your first card."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Karte ist Supermarkt. Wo kaufen Sie ein?",
+      "text_en": "My card is supermarket. Where do you shop?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich kaufe im Supermarkt ein. Er ist neben meiner Wohnung. Und Sie?",
+      "text_en": "I shop at the supermarket. It is next to my apartment. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich kaufe auch im Supermarkt ein. Manchmal gehe ich auf den Markt.",
+      "text_en": "I also shop at the supermarket. Sometimes I go to the market."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Karte ist Kleidung. Was kaufen Sie gern?",
+      "text_en": "My card is clothes. What do you like to buy?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich kaufe gern T-Shirts und Schuhe. Kleidung ist teuer!",
+      "text_en": "I like to buy T-shirts and shoes. Clothes are expensive!"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, das stimmt. Wie viel bezahlen Sie für Schuhe?",
+      "text_en": "Yes, that is true. How much do you pay for shoes?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meistens 50 oder 60 Euro. Das ist nicht zu viel.",
+      "text_en": "Usually 50 or 60 euros. That is not too much."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt Fragen zu den Karten und beantwortet die Fragen des Partners.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten und gibt eigene Informationen.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Einkaufen und Preise auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit einkaufen, kosten und Zahlen.",
+    "Aussprache und Intonation: Verständliche Aussprache mit korrekter Betonung der Zahlen."
+  ]
+}

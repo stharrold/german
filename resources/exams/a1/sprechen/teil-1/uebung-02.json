@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-1-002",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sich vorstellen: Alter, Wohnort, Beruf",
+  "instructions": "Stellen Sie sich vor. Der Prüfer / die Prüferin stellt Ihnen Fragen zu Ihrer Person.",
+  "situation_de": "Sie sind bei einem Vorstellungsgespräch für einen Sprachkurs. Beantworten Sie die Fragen zu Ihrem Alter, Ihrem Wohnort und Ihrem Beruf.",
+  "situation_en": "You are at an interview for a language course. Answer the questions about your age, where you live, and your job.",
+  "discussion_points": [
+    "Wie alt sind Sie? (How old are you?)",
+    "Wo wohnen Sie? (Where do you live?)",
+    "Was sind Sie von Beruf? (What is your job?)",
+    "Arbeiten Sie oder studieren Sie? (Do you work or study?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Willkommen. Wie alt sind Sie?",
+      "text_en": "Welcome. How old are you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin 28 Jahre alt.",
+      "text_en": "I am 28 years old."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wo wohnen Sie?",
+      "text_en": "And where do you live?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich wohne in München, in der Stadtmitte.",
+      "text_en": "I live in Munich, in the city center."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was sind Sie von Beruf?",
+      "text_en": "What is your job?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin Ingenieur. Ich arbeite bei einer großen Firma.",
+      "text_en": "I am an engineer. I work at a big company."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Arbeiten Sie schon lange in München?",
+      "text_en": "Have you been working in Munich for a long time?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Nein, ich arbeite erst seit drei Monaten hier.",
+      "text_en": "No, I have only been working here for three months."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat gibt Auskunft über Alter, Wohnort und Beruf.",
+    "Interaktion: Der Kandidat versteht die Fragen und antwortet passend.",
+    "Wortschatz: Grundwortschatz zu Alter, Wohnort und Beruf auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit sein, wohnen, arbeiten sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit klarer Betonung."
+  ]
+}

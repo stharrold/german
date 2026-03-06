@@ -32,6 +32,10 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
 - B1 Schreiben complete: 15 exercises across aufgabe-1 to aufgabe-3 (#291-293)
 - B1 Sprechen complete: 15 exercises across teil-1 to teil-3 (#294-296)
+- A2 exam practice content: complete (#321), v2.3.0
+- A2: 65 exercises — Hören (4×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
+- A1 exam practice content: complete (#334), v2.4.0
+- A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 
 ## Repository Purpose
 
@@ -41,6 +45,8 @@ Python-based German language learning resources and content:
 - Certificate guides for CEFR levels (A1-C2)
 - Python tools for loading and querying vocabulary data
 - B1 exam practice exercises (75 exercises, Goethe-Institut format — see [#299](https://github.com/stharrold/german/issues/299))
+- A2 exam practice exercises (65 exercises, Goethe-Institut format — #321)
+- A1 exam practice exercises (60 exercises, Goethe-Institut format — #334)
 
 ## Gotchas
 
@@ -70,6 +76,13 @@ Python-based German language learning resources and content:
 - Reply to PR inline comments via `gh api repos/{owner}/{repo}/pulls/{pr}/comments/{id}/replies` — not top-level PR comments
 - `Closes #N` in PR body doesn't auto-close issues when PRs go through contrib→develop (two-hop merge) — close issues manually with `gh issue close`
 - `claude-code-review.yml` workflow validation fails until the file exists on `main` (the default branch) — do a release to fix
+- Never cherry-pick commits between branches — causes duplicate commits and test failures. If a PR was closed (not merged), recreate the source branch and reopen the PR instead
+- Can't reopen a GitHub PR if its head branch was deleted — recreate the branch at the original SHA first, then `gh pr reopen`
+- `gh pr view --json state,mergeCommit` distinguishes merged (`mergeCommit` present) from closed-without-merge (`mergeCommit: null`)
+- When creating new exam level content, generate PDFs (`uv run --extra pdf python scripts/make_pdfs.py --level {level}`) and commit them — they're not auto-generated
+- JSON files written by agents/Write tool lack trailing newlines — always add `fh.write("\n")` after `json.dump` or reformat with `jq`
+- Bump `pyproject.toml` version on every release — `__init__.py` reads it dynamically via `importlib.metadata.version()`
+- A1 Hören Teil-2 has 4 questions (not 5) matching the 4-dialogue Goethe format — test assertions must reflect per-teil question counts
 
 ## Branch Structure
 
@@ -131,11 +144,26 @@ resources/vocabulary/
 input/                          # Certificate guides (A1-C2, resource links)
 resources/supplementary/         # B1 listening topics (20 topics, bilingual prose)
 resources/vocabulary/            # JSON word lists (nouns, verbs, adjectives)
-resources/exams/b1/              # Exam practice exercises (Goethe-Institut format)
+resources/exams/a1/              # A1 exam practice exercises (60, Goethe-Institut format)
+├── hoeren/teil-{1-3}/          # Listening (3 parts, 5 exercises each)
+├── lesen/teil-{1-4}/           # Reading (4 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
+resources/exams/a2/              # A2 exam practice exercises (65, Goethe-Institut format)
+├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
+├── lesen/teil-{1-4}/           # Reading (4 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
+resources/exams/b1/              # B1 exam practice exercises (75, Goethe-Institut format)
 ├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
 ├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
 ├── schreiben/aufgabe-{1-3}/    # Writing (3 tasks, 5 exercises each)
 └── sprechen/teil-{1-3}/        # Speaking (3 parts, 5 exercises each)
+resources/exams/b2/              # B2 exam practice exercises (65, Goethe-Institut format)
+├── hoeren/teil-{1-4}/          # Listening (4 parts, 5 exercises each)
+├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-2}/        # Speaking (2 parts, 5 exercises each)
 ```
 
 **Exam exercise schema:** Structured JSON validated by Pydantic models in `src/german/exams/`. Key fields differ by skill:
@@ -144,7 +172,9 @@ resources/exams/b1/              # Exam practice exercises (Goethe-Institut form
 - *Schreiben:* `situation_de`, `required_points`, `model_answer`, `scoring_criteria`
 - *Sprechen:* `situation_de`, `discussion_points`, `model_dialogue`, `evaluation_criteria`
 
-**Exercise ID format:** `b1-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
+**Exercise ID format:** `{level}-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
+
+`scripts/make_pdfs.py` supports `--level {a1,a2,b1,b2}` for multi-level PDF generation
 
 **Design:** `docs/plans/2026-03-03-b1-exam-practice-content-design.md`
 
@@ -177,6 +207,8 @@ resources/exams/b1/              # Exam practice exercises (Goethe-Institut form
 
 ## Version History
 
+- **v2.4.0** (2026-03-06): A1 exam practice content (60 exercises), version bump alignment
+- **v2.3.0** (2026-03-05): A2 exam practice content (65 exercises), multi-level PDF generation
 - **v2.0.0** (2026-03-03): Workflow v7x1 upgrade (BREAKING: removed BMAD/SpecKit/quality-enforcer)
 - **v1.15.1** (2025-11-18): CLAUDE.md improvements, worktree cleanup guide
 - **v1.15.0** (2025-11-18): MIT Agent Sync Pattern complete (all 6 phases)

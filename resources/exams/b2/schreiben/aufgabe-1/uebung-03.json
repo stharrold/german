@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-1-003",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Meinungsäußerung: Ehrenamtliche Arbeit",
+  "instructions": "Sie haben in einer Zeitung einen Artikel über ehrenamtliche Arbeit gelesen. Schreiben Sie einen Leserbrief, in dem Sie Ihre Meinung dazu äußern.",
+  "situation_de": "In einer deutschen Zeitung haben Sie einen Artikel gelesen, in dem behauptet wird, dass immer weniger junge Menschen bereit sind, sich ehrenamtlich zu engagieren. Der Autor fordert, dass ehrenamtliche Arbeit in Schulen als Pflichtfach eingeführt werden sollte. Schreiben Sie einen Leserbrief und nehmen Sie Stellung zu diesem Vorschlag.",
+  "situation_en": "In a German newspaper, you read an article claiming that fewer and fewer young people are willing to volunteer. The author demands that volunteer work should be introduced as a compulsory subject in schools. Write a letter to the editor and take a position on this proposal.",
+  "target_word_count": 171,
+  "required_points": [
+    "Auf den Artikel Bezug nehmen und Ihre Meinung zum Vorschlag äußern (Refer to the article and express your opinion on the proposal)",
+    "Argumente für oder gegen die Einführung als Pflichtfach nennen (Give arguments for or against introducing it as a compulsory subject)",
+    "Eigene Erfahrungen mit ehrenamtlicher Arbeit einbeziehen (Include your own experiences with volunteer work)",
+    "Einen alternativen Vorschlag machen (Make an alternative suggestion)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Redaktion,\n\nmit großem Interesse habe ich Ihren Artikel über das nachlassende ehrenamtliche Engagement junger Menschen gelesen. Obwohl ich das beschriebene Problem durchaus nachvollziehen kann, halte ich den Vorschlag des Autors, ehrenamtliche Arbeit als Pflichtfach an Schulen einzuführen, aus mehreren Gründen für äußerst problematisch.\n\nEhrenamtliches Engagement sollte meiner festen Überzeugung nach stets auf Freiwilligkeit beruhen. Wenn man junge Menschen dazu zwingt, sich sozial zu engagieren, verliert die Tätigkeit ihren eigentlichen Wert und wird lediglich als lästige Pflicht wahrgenommen. Aus meiner eigenen Erfahrung weiß ich, dass ich mich erst dann wirklich mit Begeisterung engagiert habe, als ich selbst den inneren Wunsch dazu verspürte. Seit nunmehr drei Jahren arbeite ich freiwillig in einem Tierheim und empfinde diese Tätigkeit als äußerst bereichernd für mein Leben.\n\nAnstelle eines Pflichtfachs würde ich stattdessen vorschlagen, dass Schulen regelmäßig Projekttage und Informationsveranstaltungen organisieren, bei denen Schülerinnen und Schüler verschiedene ehrenamtliche Tätigkeiten aus erster Hand kennenlernen können. Auf diese Weise könnte man echtes Interesse wecken, ohne dabei Zwang auf die jungen Menschen auszuüben.\n\nMit freundlichen Grüßen\nSofia Meier",
+    "text_en": "Dear Editorial Team,\n\nI read your article about the declining volunteer engagement of young people with great interest. Although I can certainly understand the problem described, I consider the author's proposal to introduce volunteer work as a compulsory subject in schools to be extremely problematic for several reasons.\n\nIn my firm conviction, volunteer engagement should always be based on voluntariness. If you force young people to get socially involved, the activity loses its true value and is merely perceived as a tedious obligation. From my own experience, I know that I only truly got involved with enthusiasm when I felt the inner desire to do so myself. For three years now, I have been volunteering at an animal shelter and find this activity extremely enriching for my life.\n\nInstead of a compulsory subject, I would instead suggest that schools regularly organize project days and informational events where students can get to know various volunteer activities firsthand. In this way, one could spark genuine interest without exerting pressure on the young people.\n\nSincerely,\nSofia Meier"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle vier Inhaltspunkte sind angemessen und ausführlich behandelt (Task fulfillment: All four content points are adequately and thoroughly addressed)",
+    "Kohärenz: Der Text ist klar gegliedert und logisch aufgebaut mit passenden Konnektoren (Coherence: The text is clearly structured and logically organized with appropriate connectors)",
+    "Wortschatz: Differenzierter Wortschatz für Meinungsäußerung und Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for expressing opinions and argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen, Konjunktiv II und Nebensätze korrekt verwendet (Structures: Complex sentence structures, Konjunktiv II and subordinate clauses used correctly)"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-4-005",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Jugendherberge am See",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Die Jugendherberge am See liegt direkt am Bodensee in Konstanz. Wir haben Einzelzimmer, Doppelzimmer und Mehrbettzimmer. Ein Bett im Mehrbettzimmer kostet 25 Euro pro Nacht mit Frühstück. Ein Doppelzimmer kostet 60 Euro pro Nacht. Das Frühstück ist von 7:00 bis 9:30 Uhr. Mittag- und Abendessen können Sie extra buchen. Wir haben kostenloses WLAN in allen Zimmern. Es gibt einen Fahrradverleih für 10 Euro am Tag. Der Strand ist nur 5 Minuten zu Fuß entfernt. Sie können hier schwimmen, wandern und Rad fahren. Hunde sind leider nicht erlaubt. Reservierung unter www.jh-bodensee.de oder 07531-23456.",
+    "text_en": "The youth hostel at the lake is directly on Lake Constance in Konstanz. We have single rooms, double rooms, and dormitory rooms. A bed in a dormitory room costs 25 euros per night with breakfast. A double room costs 60 euros per night. Breakfast is from 7:00 AM to 9:30 AM. Lunch and dinner can be booked separately. We have free WiFi in all rooms. There is a bicycle rental for 10 euros per day. The beach is only 5 minutes away on foot. You can swim, hike, and cycle here. Dogs are unfortunately not allowed. Reservation at www.jh-bodensee.de or 07531-23456.",
+    "source": "Prospekt",
+    "word_count": 92
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo liegt die Jugendherberge?",
+      "text_en": "Where is the youth hostel located?",
+      "options": [
+        "a) Am Starnberger See",
+        "b) Am Bodensee",
+        "c) Am Chiemsee"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Jugendherberge liegt am Bodensee in Konstanz.",
+      "explanation_en": "The youth hostel is at Lake Constance in Konstanz."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet ein Bett im Mehrbettzimmer?",
+      "text_en": "How much does a bed in a dormitory room cost?",
+      "options": [
+        "a) 20 Euro",
+        "b) 25 Euro",
+        "c) 30 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ein Bett im Mehrbettzimmer kostet 25 Euro pro Nacht.",
+      "explanation_en": "A bed in a dormitory room costs 25 euros per night."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kostet der Fahrradverleih?",
+      "text_en": "How much does the bicycle rental cost?",
+      "options": [
+        "a) 5 Euro am Tag",
+        "b) 10 Euro am Tag",
+        "c) 15 Euro am Tag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Fahrradverleih kostet 10 Euro am Tag.",
+      "explanation_en": "The bicycle rental costs 10 euros per day."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Darf man einen Hund mitbringen?",
+      "text_en": "Are you allowed to bring a dog?",
+      "options": [
+        "a) Ja, für 5 Euro extra",
+        "b) Ja, in allen Zimmern",
+        "c) Nein, Hunde sind nicht erlaubt"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Hunde sind leider nicht erlaubt.",
+      "explanation_en": "Dogs are unfortunately not allowed."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie weit ist der Strand entfernt?",
+      "text_en": "How far away is the beach?",
+      "options": [
+        "a) 2 Minuten zu Fuß",
+        "b) 5 Minuten zu Fuß",
+        "c) 10 Minuten zu Fuß"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Strand ist nur 5 Minuten zu Fuß entfernt.",
+      "explanation_en": "The beach is only 5 minutes away on foot."
+    }
+  ]
+}

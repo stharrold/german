@@ -1,0 +1,82 @@
+{
+  "id": "b2-sprechen-teil-2-005",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Planung eines Kulturaustauschprogramms",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen gemeinsam etwas planen. Diskutieren Sie verschiedene Möglichkeiten und einigen Sie sich auf einen Kompromiss.",
+  "situation_de": "Ihre Stadt möchte ein Kulturaustauschprogramm mit einer Partnerstadt im Ausland aufbauen. Sie und ein Mitglied des Stadtrats sollen ein Konzept erarbeiten. Das Programm soll den kulturellen Dialog fördern und Bürgern beider Städte die Möglichkeit geben, die jeweils andere Kultur kennenzulernen. Besprechen Sie die folgenden Punkte.",
+  "situation_en": "Your city wants to establish a cultural exchange program with a partner city abroad. You and a member of the city council are to develop a concept. The program should promote cultural dialogue and give citizens of both cities the opportunity to get to know each other's culture. Discuss the following points.",
+  "discussion_points": [
+    "Welche Aktivitäten sollen zum Austauschprogramm gehören — Schüleraustausch, Künstlerresidenz, Sportbegegnungen oder Berufsaustausch? (What activities should be part of the exchange program — student exchange, artist residency, sports encounters, or professional exchange?)",
+    "Wie lang soll der Austausch dauern und wie oft soll er stattfinden? (How long should the exchange last and how often should it take place?)",
+    "Wie soll das Programm finanziert werden — durch die Stadt, Sponsoren oder Teilnehmerbeiträge? (How should the program be financed — by the city, sponsors, or participant fees?)",
+    "Welche organisatorischen Herausforderungen müssen bewältigt werden? (What organizational challenges need to be overcome?)",
+    "Wie kann das Programm langfristig aufrechterhalten und weiterentwickelt werden? (How can the program be sustained and developed long-term?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin begeistert von der Idee eines Kulturaustauschprogramms. Unsere Partnerstadt Lyon hat so viel zu bieten — Kunst, Gastronomie, Geschichte. Ich denke, wir sollten ein vielseitiges Programm zusammenstellen, das verschiedene Bereiche abdeckt.",
+      "text_en": "I'm excited about the idea of a cultural exchange program. Our partner city Lyon has so much to offer — art, gastronomy, history. I think we should put together a diverse program that covers different areas."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Da sind wir einer Meinung. Mein Vorschlag wäre, mit drei Säulen zu beginnen: erstens ein Schüleraustausch, der jungen Menschen interkulturelle Erfahrungen ermöglicht, zweitens eine Künstlerresidenz, bei der Künstler aus beiden Städten jeweils für einige Wochen in der Partnerstadt leben und arbeiten, und drittens ein Berufsaustauschprogramm für Berufstätige.",
+      "text_en": "We agree on that. My suggestion would be to start with three pillars: first, a student exchange that enables young people to have intercultural experiences; second, an artist residency where artists from both cities live and work in the partner city for several weeks; and third, a professional exchange program for working professionals."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die drei Säulen gefallen mir. Bezüglich der Dauer würde ich für den Schüleraustausch zwei Wochen vorschlagen, für die Künstlerresidenz sechs bis acht Wochen und für den Berufsaustausch drei bis vier Wochen. Der Schüleraustausch könnte zweimal jährlich stattfinden, die anderen Programme einmal im Jahr.",
+      "text_en": "I like the three pillars. Regarding duration, I would suggest two weeks for the student exchange, six to eight weeks for the artist residency, and three to four weeks for the professional exchange. The student exchange could take place twice a year, the other programs once a year."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Acht Wochen für die Künstlerresidenz finde ich etwas lang. Das wird finanziell schwierig. Könnten wir uns auf vier Wochen einigen? Das wäre lang genug für ein ernsthaftes Kunstprojekt, aber nicht so kostspielig.",
+      "text_en": "I find eight weeks for the artist residency a bit long. That will be financially difficult. Could we agree on four weeks? That would be long enough for a serious art project but not as costly."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vier Wochen sind akzeptabel, wenn die Künstler im Gegenzug am Ende eine öffentliche Ausstellung oder Aufführung machen. So profitiert auch die Öffentlichkeit direkt davon. Was die Finanzierung angeht — wie stellt sich die Stadt das vor?",
+      "text_en": "Four weeks are acceptable if the artists in return hold a public exhibition or performance at the end. That way the public benefits directly. Regarding financing — what does the city have in mind?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Die Stadt kann jährlich fünfzigtausend Euro bereitstellen, aber das wird nicht für alle drei Programmsäulen reichen. Wir müssten zusätzliche Geldquellen erschließen. Ich würde vorschlagen, lokale Unternehmen als Sponsoren zu gewinnen und EU-Fördermittel für interkulturelle Projekte zu beantragen.",
+      "text_en": "The city can provide fifty thousand euros annually, but that won't be enough for all three program pillars. We would need to tap into additional funding sources. I would suggest winning local businesses as sponsors and applying for EU funding for intercultural projects."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Gute Idee. Beim Schüleraustausch könnten die Familien einen Teil der Kosten selbst tragen — etwa für die Anreise —, während die Unterbringung in Gastfamilien kostenlos wäre. So bleibt der finanzielle Aufwand für die Familien überschaubar.",
+      "text_en": "Good idea. For the student exchange, families could bear part of the costs themselves — for example, travel — while accommodation in host families would be free. That way the financial burden for families remains manageable."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das sehe ich auch so. Organisatorisch wird die größte Herausforderung die Koordination zwischen beiden Städten sein. Wir brauchen auf jeder Seite einen festen Ansprechpartner, der sich um die Logistik kümmert — Unterkünfte, Versicherungen, Visa falls nötig.",
+      "text_en": "I see it the same way. Organizationally, the biggest challenge will be coordination between both cities. We need a fixed contact person on each side who takes care of logistics — accommodation, insurance, visas if necessary."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Einverstanden. Ich würde außerdem vorschlagen, eine digitale Plattform einzurichten, auf der sich die Teilnehmer beider Städte schon vor dem Austausch kennenlernen können. Das erleichtert den Start und schafft eine Verbindung, die über den eigentlichen Aufenthalt hinaus bestehen bleibt.",
+      "text_en": "Agreed. I would also suggest setting up a digital platform where participants from both cities can get to know each other before the exchange. That facilitates the start and creates a connection that lasts beyond the actual stay."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Hervorragend. Für die langfristige Entwicklung sollten wir jährliche Evaluationen durchführen und das Feedback der Teilnehmer systematisch auswerten. So können wir das Programm stetig verbessern und bei Erfolg vielleicht auf weitere Partnerstädte ausweiten.",
+      "text_en": "Excellent. For long-term development, we should conduct annual evaluations and systematically analyze participant feedback. That way we can continuously improve the program and, if successful, perhaps expand it to additional partner cities."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das wäre die ideale Perspektive. Halten wir fest: Drei Programmsäulen mit angepasster Dauer, Mischfinanzierung aus städtischen Mitteln, Sponsoring und Eigenbeiträgen, feste Ansprechpartner auf beiden Seiten und eine digitale Plattform. Ich erstelle einen Projektplan und du klärst die Fördermöglichkeiten ab. Dann treffen wir uns nächste Woche wieder.",
+      "text_en": "That would be the ideal perspective. Let's note: three program pillars with adjusted durations, mixed financing from city funds, sponsoring, and personal contributions, fixed contact persons on both sides, and a digital platform. I'll create a project plan and you look into the funding options. Then we'll meet again next week."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden besprochen und ein realistisches Gesamtkonzept wird erarbeitet.",
+    "Interaktion: Konstruktive Zusammenarbeit mit Kompromissbereitschaft und diplomatischer Verhandlungsführung.",
+    "Argumentation: Vorschläge werden durchdacht begründet, Alternativen werden abgewogen und Lösungen werden gefunden.",
+    "Wortschatz: Differenzierter Wortschatz zu den Themen Kulturaustausch, Projektmanagement und internationale Zusammenarbeit.",
+    "Strukturen: Korrekte Verwendung von Finalsätzen, Konditionalsätzen und Passivkonstruktionen auf B2-Niveau.",
+    "Aussprache und Intonation: Flüssige, natürliche Aussprache mit angemessener Intonation bei Verhandlungen und Vorschlägen."
+  ]
+}

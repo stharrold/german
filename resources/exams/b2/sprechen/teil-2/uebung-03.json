@@ -1,0 +1,82 @@
+{
+  "id": "b2-sprechen-teil-2-003",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Gestaltung eines Gemeinschaftsprogramms",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen gemeinsam etwas planen. Diskutieren Sie verschiedene Möglichkeiten und einigen Sie sich auf einen Kompromiss.",
+  "situation_de": "In Ihrem Stadtviertel soll ein neues Gemeinschaftsprogramm für die Bewohner ins Leben gerufen werden. Ziel ist es, den Zusammenhalt in der Nachbarschaft zu stärken und Menschen verschiedener Altersgruppen zusammenzubringen. Planen Sie gemeinsam mit Ihrem Partner das Programm.",
+  "situation_en": "In your neighborhood, a new community program for residents is to be launched. The goal is to strengthen cohesion in the neighborhood and bring people of different age groups together. Plan the program together with your partner.",
+  "discussion_points": [
+    "Welche Aktivitäten sollen angeboten werden — Sportkurse, Kulturveranstaltungen, Sprachkurse oder Nachbarschaftshilfe? (What activities should be offered — sports courses, cultural events, language courses, or neighborhood help?)",
+    "Wie oft und wo sollen die Aktivitäten stattfinden? (How often and where should the activities take place?)",
+    "Wie kann man verschiedene Altersgruppen und Kulturen einbeziehen? (How can different age groups and cultures be included?)",
+    "Wie soll das Programm finanziert werden? (How should the program be financed?)",
+    "Wer soll die Organisation und Koordination übernehmen? (Who should take over the organization and coordination?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich finde es großartig, dass unsere Gemeinde ein solches Programm starten möchte. Es gibt in unserem Viertel viele Menschen, die sich kaum kennen, obwohl sie Tür an Tür wohnen. Welche Aktivitäten würdest du für sinnvoll halten?",
+      "text_en": "I think it's great that our community wants to start such a program. There are many people in our neighborhood who barely know each other, even though they live next door. What activities would you consider meaningful?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich würde ein breites Angebot vorschlagen, damit für jede Altersgruppe etwas dabei ist. Zum Beispiel Sportkurse wie Yoga oder Wandergruppen für die Aktiven, einen Lesezirkel oder Filmabend für die Kulturinteressierten und vielleicht eine Nachbarschaftshilfe für ältere Menschen.",
+      "text_en": "I would suggest a broad range of offerings so that there is something for every age group. For example, sports courses like yoga or hiking groups for active people, a reading circle or movie evening for those interested in culture, and perhaps neighborhood assistance for older people."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das gefällt mir. Ich würde noch einen interkulturellen Kochabend ergänzen. In unserem Viertel leben viele Menschen aus unterschiedlichen Ländern, und gemeinsames Kochen ist eine wunderbare Möglichkeit, sich kennenzulernen und voneinander zu lernen.",
+      "text_en": "I like that. I would add an intercultural cooking evening. Many people from different countries live in our neighborhood, and cooking together is a wonderful opportunity to get to know each other and learn from one another."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist eine hervorragende Idee! Was den Ort betrifft, könnten wir das Gemeindezentrum nutzen. Es hat eine große Küche, einen Saal und auch Außenflächen. Wie oft sollten die Aktivitäten deiner Meinung nach stattfinden?",
+      "text_en": "That's an excellent idea! As for the location, we could use the community center. It has a large kitchen, a hall, and also outdoor areas. How often should the activities take place in your opinion?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde vorschlagen, dass wir mit wöchentlichen Angeboten beginnen — zum Beispiel montags Sport, mittwochs der Kochabend und samstags der Lesezirkel. Wobei wir am Anfang vielleicht nicht zu viel auf einmal anbieten sollten, um die Ehrenamtlichen nicht zu überfordern.",
+      "text_en": "I would suggest that we start with weekly offerings — for example, sports on Monday, cooking evening on Wednesday, and reading circle on Saturday. Although at the beginning we perhaps shouldn't offer too much at once, so as not to overwhelm the volunteers."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Stimmt. Vielleicht starten wir mit zwei Aktivitäten pro Woche und erweitern das Angebot schrittweise, je nachdem, wie groß die Nachfrage ist. Nun zur Finanzierung — das ist natürlich der kritische Punkt.",
+      "text_en": "True. Maybe we start with two activities per week and gradually expand the offerings depending on how great the demand is. Now about financing — that is of course the critical point."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich habe mich erkundigt: Die Stadt bietet Fördermittel für Nachbarschaftsprojekte an. Außerdem könnten wir einen symbolischen Teilnehmerbeitrag erheben, etwa zwei Euro pro Veranstaltung, um die Materialkosten zu decken. Und für den Kochabend könnte jeder Teilnehmer Zutaten mitbringen.",
+      "text_en": "I've inquired: The city offers funding for neighborhood projects. Additionally, we could charge a symbolic participation fee, about two euros per event, to cover material costs. And for the cooking evening, each participant could bring ingredients."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Der Teilnehmerbeitrag sollte aber auf keinen Fall zu hoch sein, damit niemand ausgeschlossen wird. Für Familien mit geringem Einkommen könnten wir eine Ermäßigung oder Befreiung anbieten.",
+      "text_en": "The participation fee should definitely not be too high, so that nobody is excluded. For families with low income, we could offer a reduction or exemption."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Absolut, das ist mir auch wichtig. Zur Organisation: Ich denke, wir brauchen ein kleines Kernteam von vielleicht fünf bis sechs engagierten Bewohnern, das die Koordination übernimmt. Wir könnten bei der nächsten Bewohnerversammlung nach Freiwilligen fragen.",
+      "text_en": "Absolutely, that's important to me too. Regarding organization: I think we need a small core team of maybe five to six committed residents to handle coordination. We could ask for volunteers at the next residents' meeting."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Genau, und jedes Kernteam-Mitglied könnte die Verantwortung für eine bestimmte Aktivität übernehmen. So verteilt sich die Arbeit und es fühlt sich niemand überlastet. Wollen wir unseren Plan zusammenfassen und einen Entwurf für die Bewohnerversammlung vorbereiten?",
+      "text_en": "Exactly, and each core team member could take responsibility for a specific activity. That way the work is distributed and nobody feels overburdened. Shall we summarize our plan and prepare a draft for the residents' meeting?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, lass uns das machen. Ich formuliere den Vorschlag mit den Aktivitäten und dem Zeitplan, und du bereitest die Kostenaufstellung und den Förderantrag vor. Dann treffen wir uns nächste Woche, um alles zu finalisieren.",
+      "text_en": "Yes, let's do that. I'll draft the proposal with the activities and schedule, and you prepare the cost breakdown and funding application. Then we'll meet next week to finalize everything."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden systematisch besprochen und es wird ein konkreter Plan erarbeitet.",
+    "Interaktion: Kooperative Gesprächsführung mit gegenseitigem Eingehen auf Vorschläge und konstruktiver Weiterentwicklung von Ideen.",
+    "Argumentation: Vorschläge werden mit nachvollziehbaren Überlegungen begründet, Probleme werden antizipiert.",
+    "Wortschatz: Angemessener Wortschatz zu den Themen Gemeindearbeit, Veranstaltungsplanung und soziales Engagement.",
+    "Strukturen: Korrekte Verwendung von Konjunktiv II, Modalverben und komplexen Satzgefügen.",
+    "Aussprache und Intonation: Natürlicher Gesprächsfluss mit angemessener Betonung bei Vorschlägen und Fragen."
+  ]
+}
