@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-2-005",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Zukunft der Arbeit und Automatisierung",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Willkommen bei „Wirtschaft und Gesellschaft“. Heute diskutieren wir über die Zukunft der Arbeit im Zeitalter der Automatisierung. Bei mir sind Frau Dr. Ingrid Sommer, Arbeitsmarktforscherin am Institut für Wirtschaftsforschung, und Herr Professor Dr. Robert Steinbach, Technikphilosoph. Frau Dr. Sommer, wie wird sich der Arbeitsmarkt in den nächsten Jahrzehnten verändern?",
+      "text_en": "Welcome to 'Economy and Society.' Today we discuss the future of work in the age of automation. With me are Dr. Ingrid Sommer, labor market researcher at the Institute for Economic Research, and Professor Dr. Robert Steinbach, philosopher of technology. Dr. Sommer, how will the labor market change in the coming decades?"
+    },
+    {
+      "speaker": "Dr. Sommer",
+      "text_de": "Die Veränderungen werden tiefgreifend sein, aber nicht in der katastrophalen Weise, wie sie von manchen prognostiziert wird. Unsere Modellierungen zeigen, dass Automatisierung und Künstliche Intelligenz bis Mitte des Jahrhunderts etwa 25 bis 30 Prozent der heutigen Tätigkeiten verändern werden — aber „verändern“ bedeutet nicht „vernichten“. In den meisten Fällen werden bestimmte Teilaufgaben automatisiert, während andere, insbesondere kreative, soziale und koordinierende Tätigkeiten, an Bedeutung gewinnen. Das eigentliche Problem ist nicht der Jobverlust, sondern die Polarisierung: Hochqualifizierte profitieren überproportional, während gering Qualifizierte zunehmend marginalisiert werden.",
+      "text_en": "The changes will be profound but not in the catastrophic way predicted by some. Our modeling shows that automation and artificial intelligence will change approximately 25 to 30 percent of today's activities by mid-century — but 'change' does not mean 'destroy.' In most cases, certain subtasks will be automated while others, particularly creative, social, and coordinating activities, gain importance. The real problem is not job loss but polarization: highly qualified workers benefit disproportionately while low-skilled workers are increasingly marginalized."
+    },
+    {
+      "speaker": "Prof. Dr. Steinbach",
+      "text_de": "Ich möchte hier eine grundsätzlichere Perspektive einbringen. Die Debatte um Automatisierung wird fast ausschließlich ökonomisch geführt — Produktivitätsgewinne, Wettbewerbsfähigkeit, Arbeitsplatzbilanzen. Was dabei zu kurz kommt, ist die anthropologische Dimension: Was bedeutet es für das menschliche Selbstverständnis, wenn Maschinen zunehmend Tätigkeiten übernehmen, die wir bisher als genuin menschlich betrachtet haben? Das Verfassen von Texten, das Komponieren von Musik, das Diagnostizieren von Krankheiten — wenn all das maschinell möglich wird, stellt sich die Frage nach dem spezifisch Menschlichen mit neuer Dringlichkeit.",
+      "text_en": "I would like to introduce a more fundamental perspective here. The debate about automation is conducted almost exclusively in economic terms — productivity gains, competitiveness, job balances. What falls short is the anthropological dimension: what does it mean for human self-understanding when machines increasingly take over activities that we have previously considered genuinely human? Writing texts, composing music, diagnosing diseases — when all of this becomes possible by machine, the question of what is specifically human arises with new urgency."
+    },
+    {
+      "speaker": "Dr. Sommer",
+      "text_de": "Die philosophische Dimension ist wichtig, aber wir dürfen die konkreten arbeitsmarktpolitischen Herausforderungen nicht aus dem Blick verlieren. Was wir dringend brauchen, ist ein umfassendes Konzept für lebenslanges Lernen, das über die bisherigen Weiterbildungsangebote hinausgeht. Gegenwärtig nimmt weniger als ein Fünftel der Erwerbstätigen an beruflicher Weiterbildung teil, und die Beteiligung ist sozial hochgradig selektiv: Akademiker bilden sich weiter, Geringqualifizierte nicht. Wenn wir diese Schere nicht schließen, werden die sozialen Verwerfungen der Automatisierung erheblich sein.",
+      "text_en": "The philosophical dimension is important, but we must not lose sight of the concrete labor market policy challenges. What we urgently need is a comprehensive concept for lifelong learning that goes beyond existing continuing education offerings. Currently, fewer than one-fifth of employed persons participate in professional continuing education, and participation is highly socially selective: academics pursue further education, low-skilled workers do not. If we do not close this gap, the social disruptions of automation will be considerable."
+    },
+    {
+      "speaker": "Prof. Dr. Steinbach",
+      "text_de": "Einverstanden, aber lebenslanges Lernen darf nicht auf funktionale Anpassung an Markterfordernisse reduziert werden. Es geht nicht nur darum, Menschen für neue Berufe zu qualifizieren, sondern darum, sie zu befähigen, die Veränderungen kritisch zu reflektieren und mitzugestalten. Technologischer Wandel ist kein Naturereignis, dem wir hilflos ausgeliefert sind — er ist das Ergebnis gesellschaftlicher Entscheidungen. Die Frage, welche Tätigkeiten wir automatisieren wollen und welche nicht, ist keine technische, sondern eine zutiefst politische Frage.",
+      "text_en": "Agreed, but lifelong learning must not be reduced to functional adaptation to market requirements. It is not just about qualifying people for new occupations but about enabling them to critically reflect on and co-shape the changes. Technological change is not a natural event to which we are helplessly exposed — it is the result of societal decisions. The question of which activities we want to automate and which not is not a technical but a profoundly political question."
+    },
+    {
+      "speaker": "Dr. Sommer",
+      "text_de": "Da stimme ich Ihnen zu, Herr Steinbach. Letztlich brauchen wir einen neuen Gesellschaftsvertrag für das digitale Zeitalter — einen, der die Produktivitätsgewinne der Automatisierung gerecht verteilt und gleichzeitig jedem Einzelnen die Möglichkeit gibt, einen sinnvollen Beitrag zur Gesellschaft zu leisten, unabhängig davon, ob dieser Beitrag in Form von Erwerbsarbeit stattfindet oder nicht.",
+      "text_en": "I agree with you there, Mr. Steinbach. Ultimately we need a new social contract for the digital age — one that distributes the productivity gains of automation fairly while also giving every individual the opportunity to make a meaningful contribution to society, regardless of whether this contribution takes the form of gainful employment or not."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Dr. Sommer das eigentliche Problem der Automatisierung?",
+      "text_en": "What is the real problem of automation according to Dr. Sommer?",
+      "options": [
+        "a) Der vollständige Verlust aller Arbeitsplätze.",
+        "b) Die mangelnde technische Reife der Automatisierungssysteme.",
+        "c) Die Polarisierung zwischen Hochqualifizierten und Geringqualifizierten."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das eigentliche Problem ist die Polarisierung: Hochqualifizierte profitieren überproportional, während Geringqualifizierte zunehmend marginalisiert werden.",
+      "explanation_en": "The real problem is polarization: highly qualified workers benefit disproportionately while low-skilled workers are increasingly marginalized."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Dimension vermisst Prof. Steinbach in der Automatisierungsdebatte?",
+      "text_en": "What dimension does Prof. Steinbach miss in the automation debate?",
+      "options": [
+        "a) Die ökologische Dimension und den Klimaschutz.",
+        "b) Die anthropologische Dimension — was es für das menschliche Selbstverständnis bedeutet.",
+        "c) Die militärische Dimension der Automatisierung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Prof. Steinbach vermisst die anthropologische Dimension: Was bedeutet es für das menschliche Selbstverständnis, wenn Maschinen genuin menschliche Tätigkeiten übernehmen?",
+      "explanation_en": "Prof. Steinbach misses the anthropological dimension: what does it mean for human self-understanding when machines take over genuinely human activities?"
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Dr. Sommer am gegenwärtigen Weiterbildungssystem?",
+      "text_en": "What does Dr. Sommer criticize about the current continuing education system?",
+      "options": [
+        "a) Dass die Beteiligung sozial hochgradig selektiv ist und Geringqualifizierte nicht erreicht.",
+        "b) Dass zu viele Akademiker an Weiterbildungen teilnehmen.",
+        "c) Dass die Weiterbildungsangebote zu teuer für Unternehmen sind."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Beteiligung an beruflicher Weiterbildung ist sozial hochgradig selektiv: Akademiker bilden sich weiter, Geringqualifizierte nicht.",
+      "explanation_en": "Participation in professional continuing education is highly socially selective: academics pursue further education, low-skilled workers do not."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was betont Prof. Steinbach bezüglich des technologischen Wandels?",
+      "text_en": "What does Prof. Steinbach emphasize regarding technological change?",
+      "options": [
+        "a) Dass technologischer Wandel unvermeidlich ist und nicht beeinflusst werden kann.",
+        "b) Dass er das Ergebnis gesellschaftlicher Entscheidungen ist und die Frage der Automatisierung politisch ist.",
+        "c) Dass Automatisierung sofort gestoppt werden sollte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Technologischer Wandel ist kein Naturereignis, sondern das Ergebnis gesellschaftlicher Entscheidungen — die Frage, was automatisiert wird, ist eine politische Frage.",
+      "explanation_en": "Technological change is not a natural event but the result of societal decisions — the question of what is automated is a political question."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Dr. Sommer abschließend?",
+      "text_en": "What does Dr. Sommer demand in conclusion?",
+      "options": [
+        "a) Die vollständige Verstaatlichung aller automatisierten Betriebe.",
+        "b) Einen neuen Gesellschaftsvertrag, der Produktivitätsgewinne gerecht verteilt.",
+        "c) Die Rückkehr zu vorindustriellen Arbeitsmethoden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Sommer fordert einen neuen Gesellschaftsvertrag für das digitale Zeitalter, der die Produktivitätsgewinne gerecht verteilt.",
+      "explanation_en": "Dr. Sommer demands a new social contract for the digital age that distributes productivity gains fairly."
+    }
+  ]
+}

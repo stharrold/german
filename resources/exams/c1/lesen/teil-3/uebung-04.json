@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-3-004",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Interkulturelle Kommunikation im Beruf",
+  "instructions": "Lesen Sie den folgenden Magazinbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "In einer globalisierten Arbeitswelt gehören interkulturelle Teams längst zum Alltag. Doch die Realität der Zusammenarbeit über kulturelle Grenzen hinweg ist weitaus komplexer als die harmonischen Teamfotos in Unternehmensbroschüren suggerieren. Unterschiedliche Kommunikationsstile, divergierende Vorstellungen von Hierarchie und Zeit sowie implizite kulturelle Normen können zu Missverständnissen führen, die weit über sprachliche Barrieren hinausgehen.\n\nDie Kulturwissenschaft unterscheidet grundlegend zwischen kontextarmen und kontextreichen Kommunikationskulturen. In kontextarmen Kulturen, wie sie in skandinavischen und angelsächsischen Ländern vorherrschen, wird Wert auf explizite, direkte Aussagen gelegt — was gesagt wird, ist auch gemeint. In kontextreichen Kulturen hingegen, die in Ostasien und im arabischen Raum verbreitet sind, transportiert der Kontext — Tonfall, Beziehungsgefüge, situative Umstände — einen erheblichen Teil der Botschaft. Was nicht gesagt wird, kann ebenso bedeutsam sein wie das Ausgesprochene. Wenn Mitarbeiter aus beiden Kulturkreisen zusammenarbeiten, entsteht ein erhebliches Konfliktpotenzial, das ohne interkulturelles Bewusstsein kaum zu bewältigen ist.\n\nProblematisch ist dabei, dass viele Unternehmen interkulturelle Kompetenz auf oberflächliche Etikette reduzieren: Visitenkartenübergabe in Japan, Begrüßungsrituale im arabischen Raum. Solche Trainings kratzen lediglich an der Oberfläche und vermitteln ein stereotypisiertes Bild anderer Kulturen. Wirksame interkulturelle Kompetenzentwicklung erfordert hingegen die Fähigkeit zur Perspektivenübernahme, die kritische Reflexion eigener kultureller Prägungen und die Bereitschaft, Ambiguität auszuhalten, statt kulturelle Unterschiede vorschnell in einfache Kategorien zu pressen.",
+    "text_en": "In a globalized working world, intercultural teams have long been part of everyday life. But the reality of collaboration across cultural boundaries is far more complex than the harmonious team photos in corporate brochures suggest. Different communication styles, divergent concepts of hierarchy and time, as well as implicit cultural norms can lead to misunderstandings that go far beyond linguistic barriers.\n\nCultural studies fundamentally distinguish between low-context and high-context communication cultures. In low-context cultures, prevalent in Scandinavian and Anglo-Saxon countries, value is placed on explicit, direct statements — what is said is what is meant. In high-context cultures, by contrast, widespread in East Asia and the Arab world, context — tone of voice, relationship structures, situational circumstances — carries a considerable portion of the message. What is not said can be equally significant as what is spoken. When employees from both cultural spheres work together, considerable conflict potential arises that is hardly manageable without intercultural awareness.\n\nProblematic here is that many companies reduce intercultural competence to superficial etiquette: business card exchange in Japan, greeting rituals in the Arab world. Such trainings merely scratch the surface and convey a stereotyped image of other cultures. Effective intercultural competence development, by contrast, requires the ability for perspective-taking, critical reflection on one's own cultural conditioning, and the willingness to tolerate ambiguity instead of hastily pressing cultural differences into simple categories.",
+    "source": "Magazin",
+    "word_count": 203
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kennzeichnet kontextreiche Kommunikationskulturen?",
+      "text_en": "What characterizes high-context communication cultures?",
+      "options": [
+        "a) Der Kontext transportiert einen erheblichen Teil der Botschaft; Ungesagtes kann ebenso bedeutsam sein.",
+        "b) Wert wird ausschließlich auf explizite, direkte Aussagen gelegt.",
+        "c) Kommunikation findet vorwiegend schriftlich statt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "In kontextreichen Kulturen transportiert der Kontext einen erheblichen Teil der Botschaft.",
+      "explanation_en": "In high-context cultures, context carries a considerable portion of the message."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor an gängigen interkulturellen Trainings?",
+      "text_en": "What does the author criticize about common intercultural trainings?",
+      "options": [
+        "a) Sie reduzieren interkulturelle Kompetenz auf oberflächliche Etikette und vermitteln Stereotype.",
+        "b) Sie werden ausschließlich in englischer Sprache angeboten.",
+        "c) Sie sind zu theoretisch und praxisfern."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Viele Unternehmen reduzieren interkulturelle Kompetenz auf oberflächliche Etikette und vermitteln Stereotype.",
+      "explanation_en": "Many companies reduce intercultural competence to superficial etiquette and convey stereotypes."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was erfordert wirksame interkulturelle Kompetenz laut dem Text?",
+      "text_en": "What does effective intercultural competence require according to the text?",
+      "options": [
+        "a) Die Beherrschung möglichst vieler Fremdsprachen.",
+        "b) Perspektivenübernahme, Reflexion eigener Prägungen und Ambiguitätstoleranz.",
+        "c) Umfassende Kenntnisse der Etikette aller Kulturen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wirksame interkulturelle Kompetenz erfordert Perspektivenübernahme, Reflexion und Ambiguitätstoleranz.",
+      "explanation_en": "Effective intercultural competence requires perspective-taking, reflection, and ambiguity tolerance."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was geht über sprachliche Barrieren hinaus?",
+      "text_en": "What goes beyond linguistic barriers?",
+      "options": [
+        "a) Technische Schwierigkeiten bei der digitalen Zusammenarbeit.",
+        "b) Unterschiedliche Kommunikationsstile und implizite kulturelle Normen.",
+        "c) Unterschiede in der beruflichen Qualifikation."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Unterschiedliche Kommunikationsstile und implizite kulturelle Normen gehen weit über sprachliche Barrieren hinaus.",
+      "explanation_en": "Different communication styles and implicit cultural norms go far beyond linguistic barriers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann entsteht laut dem Text erhebliches Konfliktpotenzial?",
+      "text_en": "When does considerable conflict potential arise according to the text?",
+      "options": [
+        "a) Wenn Unternehmen auf interkulturelle Trainings verzichten.",
+        "b) Wenn Mitarbeiter aus kontextarmen und kontextreichen Kulturen zusammenarbeiten.",
+        "c) Wenn alle Teammitglieder denselben kulturellen Hintergrund haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wenn Mitarbeiter aus beiden Kulturkreisen zusammenarbeiten, entsteht erhebliches Konfliktpotenzial.",
+      "explanation_en": "When employees from both cultural spheres work together, considerable conflict potential arises."
+    }
+  ]
+}

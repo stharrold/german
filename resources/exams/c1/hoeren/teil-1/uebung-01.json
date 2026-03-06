@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-1-001",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Sprachentwicklung im digitalen Zeitalter",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zu unserer Vortragsreihe „Sprache und Gesellschaft“. Heute haben wir Professor Dr. Martin Schreiber zu Gast, Sprachwissenschaftler an der Humboldt-Universität. Er spricht über die Auswirkungen der Digitalisierung auf unsere Sprache. Herr Professor Schreiber, wie verändert sich die deutsche Sprache durch die digitale Kommunikation?",
+      "text_en": "Welcome to our lecture series 'Language and Society.' Today we have Professor Dr. Martin Schreiber as our guest, a linguist at Humboldt University. He is speaking about the effects of digitalization on our language. Professor Schreiber, how is the German language changing through digital communication?"
+    },
+    {
+      "speaker": "Prof. Dr. Schreiber",
+      "text_de": "Vielen Dank. Die Frage nach dem digitalen Sprachwandel ist eine der drängendsten in der modernen Linguistik. Was wir beobachten, ist nicht etwa ein Verfall der Sprache, wie häufig von Kulturpessimisten behauptet wird, sondern vielmehr eine funktionale Ausdifferenzierung. Die Sprecher verfügen zunehmend über ein erweitertes Register, das sowohl die formelle Schriftsprache als auch informelle digitale Kommunikationsformen umfasst. Man könnte von einer Art Bilingualismus innerhalb derselben Sprache sprechen.",
+      "text_en": "Thank you. The question of digital language change is one of the most pressing in modern linguistics. What we observe is not a decay of language, as is often claimed by cultural pessimists, but rather a functional differentiation. Speakers increasingly possess an expanded register that encompasses both formal written language and informal digital communication forms. One could speak of a kind of bilingualism within the same language."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Das ist ein interessanter Ansatz. Können Sie das an konkreten Beispielen verdeutlichen?",
+      "text_en": "That's an interesting approach. Can you illustrate that with concrete examples?"
+    },
+    {
+      "speaker": "Prof. Dr. Schreiber",
+      "text_de": "Selbstverständlich. Nehmen wir die sogenannte konzeptionelle Mündlichkeit in geschriebenen Texten — also Nachrichten, die zwar getippt werden, aber sprachlich wie gesprochene Äußerungen funktionieren. Die Verwendung von Partikeln wie „halt“, „eben“ oder „ja“ in Chatnachrichten ist ein Phänomen, das in der traditionellen Schriftsprache undenkbar gewesen wäre. Hinzu kommt die Entstehung neuer semiotischer Systeme: Emojis fungieren dabei nicht als bloßer Schmuck, sondern übernehmen pragmatische Funktionen — sie modulieren die Illokution einer Äußerung, mildern Kritik ab oder signalisieren Ironie.",
+      "text_en": "Certainly. Take the so-called conceptual orality in written texts — that is, messages that are typed but linguistically function like spoken utterances. The use of particles like 'halt,' 'eben,' or 'ja' in chat messages is a phenomenon that would have been unthinkable in traditional written language. Additionally, new semiotic systems are emerging: emojis do not function as mere decoration but take on pragmatic functions — they modulate the illocutionary force of an utterance, soften criticism, or signal irony."
+    },
+    {
+      "speaker": "Prof. Dr. Schreiber",
+      "text_de": "Ein weiterer Aspekt, der häufig übersehen wird, betrifft die syntaktische Komplexität. Entgegen der weitverbreiteten Annahme, digitale Kommunikation führe zu einer Vereinfachung der Sprache, zeigen unsere korpuslinguistischen Analysen, dass die durchschnittliche Satzlänge in bestimmten digitalen Diskursgemeinschaften — etwa wissenschaftlichen Foren oder politischen Blogs — sogar zugenommen hat. Die Vereinfachungsthese greift also zu kurz; sie berücksichtigt nicht die enorme Bandbreite digitaler Textsorten.",
+      "text_en": "Another aspect that is frequently overlooked concerns syntactic complexity. Contrary to the widespread assumption that digital communication leads to a simplification of language, our corpus-linguistic analyses show that the average sentence length in certain digital discourse communities — such as academic forums or political blogs — has actually increased. The simplification thesis therefore falls short; it does not account for the enormous range of digital text types."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Und wie bewerten Sie den Einfluss des Englischen auf die digitale Kommunikation im Deutschen?",
+      "text_en": "And how do you assess the influence of English on digital communication in German?"
+    },
+    {
+      "speaker": "Prof. Dr. Schreiber",
+      "text_de": "Der Einfluss des Englischen ist unbestreitbar, aber er wird meines Erachtens oft überschätzt. Die sogenannten Anglizismen, die in der digitalen Kommunikation auftauchen, werden in der Regel rasch in das morphologische System des Deutschen integriert. Man „googelt“, „postet“ oder „liked“ — diese Verben folgen den deutschen Konjugationsregeln. Wirklich problematisch wird es erst dann, wenn ganze Fachdomänen — etwa die Informatik oder das Marketing — sprachlich vom Englischen dominiert werden und deutschsprachige Fachterminologie gar nicht mehr entwickelt wird. Das ist eine sprachpolitische Herausforderung, die über die bloße Entlehnung einzelner Wörter hinausgeht.",
+      "text_en": "The influence of English is undeniable, but in my view it is often overestimated. The so-called anglicisms that appear in digital communication are usually quickly integrated into the morphological system of German. One 'googelt,' 'postet,' or 'liked' — these verbs follow German conjugation rules. It only becomes truly problematic when entire specialized domains — such as computer science or marketing — are linguistically dominated by English and German-language terminology is no longer even developed. That is a language-policy challenge that goes beyond the mere borrowing of individual words."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie beschreibt Prof. Schreiber den digitalen Sprachwandel?",
+      "text_en": "How does Prof. Schreiber describe digital language change?",
+      "options": [
+        "a) Als einen kulturellen Niedergang, der dringend aufgehalten werden muss.",
+        "b) Als eine funktionale Ausdifferenzierung der Sprache, nicht als Verfall.",
+        "c) Als ein vorübergehendes Phänomen, das sich von selbst korrigieren wird."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Prof. Schreiber betont, dass es sich nicht um Sprachverfall handelt, sondern um eine funktionale Ausdifferenzierung mit erweitertem Register.",
+      "explanation_en": "Prof. Schreiber emphasizes that it is not language decay but rather a functional differentiation with an expanded register."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Funktion haben Emojis laut Prof. Schreiber in der digitalen Kommunikation?",
+      "text_en": "What function do emojis serve according to Prof. Schreiber in digital communication?",
+      "options": [
+        "a) Sie übernehmen pragmatische Funktionen wie die Modulation der Illokution.",
+        "b) Sie dienen ausschließlich als dekorative Elemente in Textnachrichten.",
+        "c) Sie ersetzen zunehmend die geschriebene Sprache vollständig."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Emojis fungieren nicht als Schmuck, sondern übernehmen pragmatische Funktionen: Sie modulieren die Illokution, mildern Kritik ab oder signalisieren Ironie.",
+      "explanation_en": "Emojis do not function as decoration but take on pragmatic functions: they modulate illocutionary force, soften criticism, or signal irony."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen die korpuslinguistischen Analysen zur Satzlänge?",
+      "text_en": "What do the corpus-linguistic analyses show about sentence length?",
+      "options": [
+        "a) In bestimmten digitalen Diskursgemeinschaften hat die Satzlänge sogar zugenommen.",
+        "b) Die Satzlänge bleibt in digitalen Medien konstant im Vergleich zu Printmedien.",
+        "c) Die durchschnittliche Satzlänge ist in allen digitalen Textsorten zurückgegangen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die korpuslinguistischen Analysen zeigen, dass die durchschnittliche Satzlänge in wissenschaftlichen Foren und politischen Blogs zugenommen hat.",
+      "explanation_en": "The corpus-linguistic analyses show that average sentence length in academic forums and political blogs has actually increased."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie werden englische Wörter laut Prof. Schreiber ins Deutsche integriert?",
+      "text_en": "How are English words integrated into German according to Prof. Schreiber?",
+      "options": [
+        "a) Sie werden von der Sprachgemeinschaft überwiegend abgelehnt.",
+        "b) Sie bleiben unverändert und folgen den englischen Grammatikregeln.",
+        "c) Sie werden in das morphologische System des Deutschen eingepasst."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Anglizismen werden rasch in das morphologische System integriert und folgen deutschen Konjugationsregeln (googeln, posten, liken).",
+      "explanation_en": "Anglicisms are quickly integrated into the morphological system and follow German conjugation rules (googeln, posten, liken)."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sieht Prof. Schreiber als eigentliche sprachpolitische Herausforderung?",
+      "text_en": "What does Prof. Schreiber see as the real language-policy challenge?",
+      "options": [
+        "a) Die Verwendung von Emojis in der formellen Kommunikation.",
+        "b) Die Dominanz des Englischen in ganzen Fachdomänen ohne Entwicklung deutscher Terminologie.",
+        "c) Die zunehmende Ablehnung traditioneller Grammatikregeln durch junge Menschen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die eigentliche Herausforderung liegt darin, dass ganze Fachdomänen sprachlich vom Englischen dominiert werden und keine deutschsprachige Fachterminologie mehr entsteht.",
+      "explanation_en": "The real challenge is that entire specialized domains are linguistically dominated by English and German-language terminology is no longer developed."
+    }
+  ]
+}

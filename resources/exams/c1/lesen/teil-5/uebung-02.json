@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-5-002",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Mobilitätswende im ländlichen Raum",
+  "instructions": "Lesen Sie den folgenden Berichtsauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Mobilitätswende wird in der politischen Debatte vorwiegend als urbanes Phänomen diskutiert: Fahrradwege, U-Bahn-Ausbau, Carsharing. Für die rund 30 Prozent der Bevölkerung, die in ländlichen Regionen leben, greifen diese Konzepte jedoch grundlegend zu kurz. Hier, wo öffentliche Verkehrsanbindungen ausgedünnt wurden und die nächste Versorgungseinrichtung nicht selten zwanzig Kilometer entfernt liegt, ist das private Automobil keine Lifestyle-Entscheidung, sondern eine existenzielle Notwendigkeit.\n\nDer vorliegende Bericht dokumentiert den fortschreitenden Rückzug des öffentlichen Nahverkehrs aus ländlichen Gebieten. In den vergangenen fünfzehn Jahren wurden 12 Prozent der Buslinien und 8 Prozent der Bahnhaltepunkte im ländlichen Raum gestrichen. Die verbleibenden Verbindungen operieren häufig mit Taktzeiten von über einer Stunde, was sie für Berufspendler faktisch unbrauchbar macht. Die Folgen sind gravierend: steigende Abwanderung junger Menschen, Überalterung der Dorfgemeinschaften und eine zunehmende Abhängigkeit vom motorisierten Individualverkehr, die den Klimaschutzzielen diametral entgegensteht.\n\nAls zukunftsweisend identifiziert der Bericht integrierte Mobilitätskonzepte, die verschiedene Verkehrsmittel intelligent vernetzen. On-Demand-Shuttles, die per App gebucht werden und flexible Routen bedienen, könnten die starre Linienführung klassischer Busnetze ersetzen. Die Kombination aus Rufbussen, E-Bike-Verleihstationen an Bahnhaltepunkten und digitalen Mitfahrplattformen ermöglicht eine bedarfsgerechte Versorgung auch dünn besiedelter Gebiete. Entscheidend für den Erfolg solcher Modelle ist allerdings eine verlässliche öffentliche Kofinanzierung, da sich rentable Betriebsmodelle in ländlichen Räumen nur schwer ohne Zuschüsse realisieren lassen.",
+    "text_en": "The mobility transition is predominantly discussed in political debate as an urban phenomenon: bicycle paths, subway expansion, car sharing. For the roughly 30 percent of the population living in rural regions, however, these concepts fall fundamentally short. Here, where public transport connections have been thinned out and the nearest supply facility is not infrequently twenty kilometers away, the private automobile is not a lifestyle choice but an existential necessity.\n\nThe present report documents the progressive withdrawal of public local transport from rural areas. Over the past fifteen years, 12 percent of bus lines and 8 percent of railway stops in rural areas have been eliminated. The remaining connections frequently operate with intervals of over one hour, making them practically unusable for commuters. The consequences are severe: increasing migration of young people, aging of village communities, and growing dependence on individual motorized transport that stands diametrically opposed to climate protection goals.\n\nThe report identifies integrated mobility concepts that intelligently network different modes of transport as forward-looking. On-demand shuttles booked via app and serving flexible routes could replace the rigid routing of classical bus networks. The combination of dial-a-bus services, e-bike rental stations at railway stops, and digital ride-sharing platforms enables needs-based provision even in sparsely populated areas. Crucial for the success of such models, however, is reliable public co-financing, as profitable operating models in rural areas are difficult to realize without subsidies.",
+    "source": "Bericht",
+    "word_count": 205
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum greifen urbane Mobilitätskonzepte im ländlichen Raum zu kurz?",
+      "text_en": "Why do urban mobility concepts fall short in rural areas?",
+      "options": [
+        "a) Weil das Auto dort eine existenzielle Notwendigkeit ist aufgrund fehlender Alternativen.",
+        "b) Weil die ländliche Bevölkerung zu klein für solche Investitionen ist.",
+        "c) Weil ländliche Bewohner generell kein Interesse an nachhaltiger Mobilität haben."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Im ländlichen Raum ist das Auto existenzielle Notwendigkeit wegen ausgedünnter Verkehrsanbindungen und großer Entfernungen.",
+      "explanation_en": "In rural areas, the car is an existential necessity due to thinned-out transport connections and large distances."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was dokumentiert der Bericht bezüglich des öffentlichen Nahverkehrs?",
+      "text_en": "What does the report document regarding public local transport?",
+      "options": [
+        "a) Dass 12 Prozent der Buslinien und 8 Prozent der Bahnhaltepunkte gestrichen wurden.",
+        "b) Dass die Taktzeiten im ländlichen Raum deutlich verkürzt wurden.",
+        "c) Dass der ländliche Nahverkehr vollständig privatisiert wurde."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "12 Prozent der Buslinien und 8 Prozent der Bahnhaltepunkte im ländlichen Raum wurden gestrichen.",
+      "explanation_en": "12 percent of bus lines and 8 percent of railway stops in rural areas have been eliminated."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Lösung identifiziert der Bericht als zukunftsweisend?",
+      "text_en": "What solution does the report identify as forward-looking?",
+      "options": [
+        "a) Den massiven Ausbau klassischer Buslinien im ländlichen Raum.",
+        "b) Die Subventionierung von Privatfahrzeugen für ländliche Bewohner.",
+        "c) Integrierte Mobilitätskonzepte mit On-Demand-Shuttles, E-Bikes und digitalen Plattformen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Integrierte Mobilitätskonzepte mit On-Demand-Shuttles, E-Bike-Stationen und digitalen Plattformen sind zukunftsweisend.",
+      "explanation_en": "Integrated mobility concepts with on-demand shuttles, e-bike stations, and digital platforms are forward-looking."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist entscheidend für den Erfolg neuer Mobilitätsmodelle im ländlichen Raum?",
+      "text_en": "What is crucial for the success of new mobility models in rural areas?",
+      "options": [
+        "a) Die vollständige Übernahme durch private Investoren.",
+        "b) Die Einführung einer Pkw-Maut zur Querfinanzierung.",
+        "c) Verlässliche öffentliche Kofinanzierung, da sich rentable Modelle ohne Zuschüsse kaum realisieren lassen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Entscheidend ist verlässliche öffentliche Kofinanzierung, da rentable Modelle ohne Zuschüsse kaum realisierbar sind.",
+      "explanation_en": "Crucial is reliable public co-financing, as profitable models are difficult to realize without subsidies."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Folgen hat der Rückzug des Nahverkehrs laut dem Bericht?",
+      "text_en": "What consequences does the withdrawal of local transport have according to the report?",
+      "options": [
+        "a) Abwanderung junger Menschen, Überalterung und wachsende Autoabhängigkeit.",
+        "b) Wirtschaftliche Stärkung der ländlichen Regionen durch Individualverkehr.",
+        "c) Zunehmende Digitalisierung des ländlichen Lebens."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Folgen sind Abwanderung, Überalterung und zunehmende Abhängigkeit vom Individualverkehr.",
+      "explanation_en": "Consequences are migration, aging, and increasing dependence on individual transport."
+    }
+  ]
+}

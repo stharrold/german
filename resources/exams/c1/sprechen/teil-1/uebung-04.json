@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-1-004",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Wissenschaft und Verantwortung",
+  "instructions": "Sie sollen zu einem komplexen Thema Stellung nehmen. Halten Sie einen strukturierten Vortrag und diskutieren Sie anschließend mit dem Prüfer / der Prüferin.",
+  "situation_de": "Die wissenschaftliche Forschung hat der Menschheit enormen Fortschritt gebracht, gleichzeitig aber auch ethisch problematische Entwicklungen ermöglicht — von der Atomforschung über die Gentechnik bis hin zur künstlichen Intelligenz. Halten Sie einen strukturierten Vortrag darüber, welche Verantwortung Wissenschaftlerinnen und Wissenschaftler für die Folgen ihrer Forschung tragen und wie ein angemessener Umgang mit ethischen Grenzen aussehen könnte.",
+  "situation_en": "Scientific research has brought enormous progress to humanity, but at the same time has enabled ethically problematic developments — from nuclear research to genetic engineering to artificial intelligence. Give a structured presentation about what responsibility scientists bear for the consequences of their research and what an appropriate approach to ethical boundaries might look like.",
+  "discussion_points": [
+    "Historische Verantwortung: Welche Lehren lassen sich aus der Geschichte der Wissenschaft ziehen — etwa aus der Entwicklung der Atombombe? (Historical responsibility: What lessons can be drawn from the history of science — for example from the development of the atomic bomb?)",
+    "Forschungsethik und Regulierung: Brauchen wir strengere ethische Leitlinien für die Forschung, oder hemmen diese den Fortschritt? (Research ethics and regulation: Do we need stricter ethical guidelines for research, or do these hinder progress?)",
+    "Künstliche Intelligenz: Wie sollte die Gesellschaft mit den Risiken und Chancen autonomer Systeme umgehen? (Artificial intelligence: How should society deal with the risks and opportunities of autonomous systems?)",
+    "Gentechnik und Bioethik: Wo verläuft die Grenze zwischen medizinischem Fortschritt und der Manipulation des Menschlichen? (Genetic engineering and bioethics: Where is the boundary between medical progress and the manipulation of what is human?)",
+    "Wissenschaftskommunikation: Welche Pflichten haben Forschende gegenüber der Öffentlichkeit, wenn es um die Vermittlung komplexer Sachverhalte geht? (Science communication: What obligations do researchers have toward the public when it comes to communicating complex issues?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "In meinem Vortrag möchte ich der Frage nachgehen, welche Verantwortung die Wissenschaft für die Folgen ihrer Erkenntnisse trägt. Dies ist ein Thema, das durch die rasante Entwicklung der künstlichen Intelligenz und der Biotechnologie eine neue Dringlichkeit erhalten hat. Meine These lautet: Wissenschaftliche Erkenntnis ist ihrem Wesen nach wertfrei, doch die Entscheidung, was erforscht und wie es angewendet wird, ist zutiefst normativ — und erfordert daher eine institutionalisierte ethische Reflexion. Ein Blick in die Geschichte zeigt, dass Wissenschaftler sich dieser Verantwortung durchaus bewusst waren. Man denke etwa an die Pugwash-Konferenzen, bei denen Physiker nach den Erfahrungen des Zweiten Weltkriegs eine globale Verständigung über die Kontrolle nuklearer Waffen anstrebten. Gleichwohl muss man einräumen, dass das Bewusstsein für ethische Grenzen häufig erst im Nachhinein entstanden ist — nachdem der Schaden bereits angerichtet war.",
+      "text_en": "In my presentation, I would like to explore the question of what responsibility science bears for the consequences of its findings. This is a topic that has gained new urgency through the rapid development of artificial intelligence and biotechnology. My thesis is: Scientific knowledge is by its nature value-free, but the decision about what is researched and how it is applied is deeply normative — and therefore requires institutionalized ethical reflection. A look at history shows that scientists have been quite aware of this responsibility. Consider, for example, the Pugwash Conferences, where physicists sought global understanding about the control of nuclear weapons after the experiences of the Second World War. Nevertheless, one must admit that awareness of ethical boundaries has often emerged only in hindsight — after the damage was already done."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Daraus ergibt sich die zentrale Frage: Wie können wir sicherstellen, dass ethische Überlegungen nicht erst nach, sondern bereits während des Forschungsprozesses berücksichtigt werden? Ich plädiere für ein Modell der begleitenden Ethik, bei dem interdisziplinäre Gremien — bestehend aus Wissenschaftlern, Ethikern und Vertretern der Zivilgesellschaft — Forschungsprojekte kontinuierlich begleiten.",
+      "text_en": "From this arises the central question: How can we ensure that ethical considerations are taken into account not only after, but already during the research process? I advocate for a model of accompanying ethics, in which interdisciplinary committees — consisting of scientists, ethicists, and representatives of civil society — continuously accompany research projects."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Das klingt überzeugend. Aber birgt nicht eine zu strenge ethische Regulierung die Gefahr, dass Forschung behindert wird? Andere Länder mit weniger Regulierung könnten dann einen Wettbewerbsvorteil erlangen.",
+      "text_en": "That sounds convincing. But doesn't overly strict ethical regulation carry the risk of hindering research? Other countries with less regulation could then gain a competitive advantage."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Diesen Einwand halte ich für berechtigt und gleichzeitig für verkürzt. Natürlich besteht die Gefahr eines regulatorischen Wettlaufs nach unten. Aber genau deshalb plädiere ich für internationale Standards und multilaterale Abkommen. Es lässt sich nicht von der Hand weisen, dass etwa im Bereich der Gentechnik ein globaler Konsens dringend erforderlich ist. Die Alternative — ein unkontrollierter Wettbewerb ohne ethische Leitplanken — wäre ungleich gefährlicher.",
+      "text_en": "I consider this objection valid and at the same time oversimplified. Of course there is a danger of a regulatory race to the bottom. But that is precisely why I advocate for international standards and multilateral agreements. It cannot be denied that, for example in the field of genetic engineering, a global consensus is urgently needed. The alternative — uncontrolled competition without ethical guardrails — would be incomparably more dangerous."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie beurteilen Sie die besondere Verantwortung der Wissenschaft in der öffentlichen Kommunikation — gerade in Zeiten, in denen wissenschaftliche Erkenntnisse oft angezweifelt werden?",
+      "text_en": "And how do you assess the particular responsibility of science in public communication — especially in times when scientific findings are often doubted?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein Punkt, der mir besonders am Herzen liegt. Ich bin der Überzeugung, dass Wissenschaftskommunikation keine Kür, sondern eine Pflicht ist. Forscherinnen und Forscher müssen in der Lage sein, ihre Ergebnisse verständlich zu vermitteln — und zwar einschließlich der Unsicherheiten und Grenzen ihres Wissens. Gerade dieses ehrliche Eingestehen von Nicht-Wissen schafft Vertrauen, wohingegen eine vereinfachende Darstellung langfristig die Glaubwürdigkeit der Wissenschaft untergräbt.",
+      "text_en": "That is a point that is particularly close to my heart. I am convinced that science communication is not optional but an obligation. Researchers must be able to communicate their results in an understandable way — including the uncertainties and limits of their knowledge. It is precisely this honest admission of not-knowing that creates trust, whereas an oversimplifying presentation undermines the credibility of science in the long run."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie betonen die Bedeutung der Wissenschaftskommunikation. Aber sehen Sie nicht die Gefahr, dass Wissenschaftler dabei zu Aktivisten werden?",
+      "text_en": "You emphasize the importance of science communication. But don't you see the danger that scientists become activists in the process?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zusammenfassend möchte ich festhalten: Wissenschaftliche Verantwortung ist keine individuelle Bürde, die einzelnen Forschenden auferlegt werden sollte, sondern eine institutionelle und gesellschaftliche Aufgabe. Wir brauchen robuste Strukturen, die ethische Reflexion ermöglichen, ohne die Forschungsfreiheit zu ersticken.",
+      "text_en": "In summary, I would like to state: Scientific responsibility is not an individual burden that should be imposed on individual researchers, but an institutional and societal task. We need robust structures that enable ethical reflection without stifling research freedom."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Herzlichen Dank für Ihre differenzierte Darstellung. Gibt es ein konkretes Forschungsfeld, das Sie derzeit für besonders kritisch halten?",
+      "text_en": "Sincere thanks for your nuanced presentation. Is there a specific research field that you currently consider particularly critical?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ohne Frage würde ich die Entwicklung autonomer Waffensysteme nennen. Hier konvergieren technologische Machbarkeit und ethische Bedenken in einer Weise, die unverzügliches Handeln erfordert. Die Vorstellung, dass Maschinen autonom über Leben und Tod entscheiden könnten, ist mit unserem Verständnis von menschlicher Würde und Verantwortung schlechthin unvereinbar. Ein internationales Verbot halte ich daher für unerlässlich — und zwar bevor die Technologie irreversibel in militärische Strukturen integriert ist.",
+      "text_en": "Without question, I would name the development of autonomous weapons systems. Here, technological feasibility and ethical concerns converge in a way that requires immediate action. The idea that machines could autonomously decide over life and death is absolutely incompatible with our understanding of human dignity and responsibility. I therefore consider an international ban indispensable — and specifically before the technology is irreversibly integrated into military structures."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

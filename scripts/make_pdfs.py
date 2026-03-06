@@ -12,6 +12,7 @@ Usage:
     uv run --extra pdf python scripts/make_pdfs.py --level a2
     uv run --extra pdf python scripts/make_pdfs.py --level b1 --skill hoeren
     uv run --extra pdf python scripts/make_pdfs.py --level b2
+    uv run --extra pdf python scripts/make_pdfs.py --level c1
 
 Requirements:
     fpdf2 (install via: uv pip install fpdf2, or use --extra pdf)
@@ -83,6 +84,12 @@ LEVELS = {
         "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 3},
     },
     "b2": {
+        "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
+        "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
+        "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},
+        "sprechen": {"name": "Sprechen", "part_label": "Teil", "parts": 2},
+    },
+    "c1": {
         "hoeren": {"name": "Hören", "part_label": "Teil", "parts": 4},
         "lesen": {"name": "Lesen", "part_label": "Teil", "parts": 5},
         "schreiben": {"name": "Schreiben", "part_label": "Aufgabe", "parts": 2},

@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-3-003",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Verhandlungen im Geschäftsumfeld",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören die Texte einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Einkaufsleiterin",
+      "text_de": "Herr Fischer, wir schätzen die langjährige Geschäftsbeziehung mit Ihrem Unternehmen. Allerdings müssen wir die vorgeschlagene Preiserhöhung von acht Prozent ablehnen. Unsere internen Kalkulationen zeigen, dass wir maximal drei Prozent verkraften können, ohne unsere eigene Marge zu gefährden. Ich schlage vor, dass wir über die Vertragslaufzeit sprechen — bei einer Verlängerung auf drei Jahre könnten wir Ihnen ein höheres Abnahmevolumen zusichern.",
+      "text_en": "Mr. Fischer, we value the long-standing business relationship with your company. However, we must reject the proposed price increase of eight percent. Our internal calculations show that we can absorb a maximum of three percent without jeopardizing our own margin. I suggest we discuss the contract duration — with an extension to three years, we could guarantee you a higher purchase volume."
+    },
+    {
+      "speaker": "Gespräch 1 — Vertriebsleiter",
+      "text_de": "Ich verstehe Ihre Position, Frau Kellner. Die Rohstoffpreise sind jedoch um zwölf Prozent gestiegen, sodass die acht Prozent bereits eine Teilabsorption unsererseits darstellen. Bei einem dreijährigen Vertrag mit Mindestabnahmemenge von 500 Einheiten pro Quartal könnte ich Ihnen fünf Prozent anbieten. Das wäre ein Kompromiss, der für beide Seiten tragfähig ist.",
+      "text_en": "I understand your position, Ms. Kellner. However, raw material prices have increased by twelve percent, so the eight percent already represents a partial absorption on our side. With a three-year contract with a minimum purchase quantity of 500 units per quarter, I could offer you five percent. That would be a compromise viable for both sides."
+    },
+    {
+      "speaker": "Gespräch 2 — Geschäftsführerin",
+      "text_de": "Herr Tanaka, wir freuen uns über Ihr Interesse an einer strategischen Partnerschaft. Bevor wir über die konkreten Lizenzkonditionen sprechen, möchte ich sicherstellen, dass wir hinsichtlich der Exklusivität eine gemeinsame Grundlage haben. Wir können eine exklusive Vertriebslizenz für den japanischen Markt einräumen, aber nur unter der Bedingung, dass innerhalb der ersten achtzehn Monate ein Mindestumsatz von drei Millionen Euro erzielt wird. Andernfalls wandelt sich die Exklusivität automatisch in eine nicht-exklusive Lizenz um.",
+      "text_en": "Mr. Tanaka, we are pleased about your interest in a strategic partnership. Before we discuss the specific licensing terms, I want to ensure that we have a common basis regarding exclusivity. We can grant an exclusive distribution license for the Japanese market, but only on the condition that a minimum turnover of three million euros is achieved within the first eighteen months. Otherwise, the exclusivity automatically converts to a non-exclusive license."
+    },
+    {
+      "speaker": "Gespräch 2 — Verhandlungspartner",
+      "text_de": "Diese Umsatzschwelle erscheint uns angesichts der erforderlichen Markteintrittskosten ambitioniert. Wären Sie bereit, den Zeitraum auf 24 Monate zu verlängern? Im Gegenzug könnten wir eine höhere Lizenzgebühr von zwölf statt zehn Prozent akzeptieren.",
+      "text_en": "This turnover threshold seems ambitious to us given the required market entry costs. Would you be willing to extend the period to 24 months? In return, we could accept a higher license fee of twelve instead of ten percent."
+    },
+    {
+      "speaker": "Gespräch 3 — Projektleiterin",
+      "text_de": "Herr Braun, der Baufortschritt liegt drei Wochen hinter dem Zeitplan. Gemäß unserer Vertragsklausel zur Terminverzögerung wäre eine Vertragsstrafe von 0,5 Prozent pro Woche fällig. Allerdings bin ich bereit, auf die Vertragsstrafe zu verzichten, wenn Sie die Fertigstellung bis zum Ende des übernächsten Monats garantieren und die zusätzlichen Kosten für die beschleunigte Ausführung selbst tragen.",
+      "text_en": "Mr. Braun, the construction progress is three weeks behind schedule. According to our contractual clause on schedule delays, a penalty of 0.5 percent per week would be due. However, I am willing to waive the penalty if you guarantee completion by the end of the month after next and bear the additional costs for accelerated execution yourself."
+    },
+    {
+      "speaker": "Gespräch 3 — Auftragnehmer",
+      "text_de": "Die Verzögerung ist auf unvorhergesehene Bodenverhältnisse zurückzuführen, die eine Anpassung des Gründungskonzepts erforderlich machten. Das fällt unter die vertragliche Regelung zu höherer Gewalt. Dennoch sind wir bereit, den Mehraufwand hälftig zu teilen und den neuen Zeitplan verbindlich einzuhalten.",
+      "text_en": "The delay is due to unforeseen ground conditions that required an adaptation of the foundation concept. This falls under the contractual force majeure clause. Nevertheless, we are willing to share the additional costs fifty-fifty and bindingly adhere to the new schedule."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welchen Kompromiss bietet die Einkaufsleiterin an?",
+      "text_en": "What compromise does the purchasing manager offer?",
+      "options": [
+        "a) Eine Verlängerung der Vertragslaufzeit auf drei Jahre mit höherem Abnahmevolumen.",
+        "b) Eine sofortige Zahlung der gesamten Jahresrechnung.",
+        "c) Einen Wechsel zu einem günstigeren Lieferanten."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Einkaufsleiterin schlägt vor, über die Vertragslaufzeit zu sprechen — bei einer Verlängerung auf drei Jahre könnte ein höheres Abnahmevolumen zugesichert werden.",
+      "explanation_en": "The purchasing manager suggests discussing the contract duration — with an extension to three years, a higher purchase volume could be guaranteed."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Auf welchen Preis einigt sich der Vertriebsleiter bei einem dreijährigen Vertrag?",
+      "text_en": "What price does the sales manager agree on for a three-year contract?",
+      "options": [
+        "a) Fünf Prozent Erhöhung als Kompromiss.",
+        "b) Acht Prozent Erhöhung wie ursprünglich vorgeschlagen.",
+        "c) Drei Prozent Erhöhung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Vertriebsleiter bietet bei einem dreijährigen Vertrag mit Mindestabnahme fünf Prozent als Kompromiss an.",
+      "explanation_en": "The sales manager offers five percent as a compromise for a three-year contract with minimum purchase quantity."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Unter welcher Bedingung wird die exklusive Vertriebslizenz eingeräumt?",
+      "text_en": "Under what condition is the exclusive distribution license granted?",
+      "options": [
+        "a) Dass der Lizenznehmer eine Tochtergesellschaft in Deutschland gründet.",
+        "b) Dass innerhalb der ersten achtzehn Monate ein Mindestumsatz von drei Millionen Euro erzielt wird.",
+        "c) Dass der Lizenznehmer auf andere Produktlinien verzichtet."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die exklusive Lizenz wird unter der Bedingung eingeräumt, dass innerhalb von achtzehn Monaten ein Mindestumsatz von drei Millionen Euro erzielt wird.",
+      "explanation_en": "The exclusive license is granted on condition that a minimum turnover of three million euros is achieved within eighteen months."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worauf führt der Auftragnehmer die Bauverzögerung zurück?",
+      "text_en": "What does the contractor attribute the construction delay to?",
+      "options": [
+        "a) Auf einen Mangel an qualifiziertem Personal.",
+        "b) Auf unvorhergesehene Bodenverhältnisse, die eine Anpassung des Gründungskonzepts erforderten.",
+        "c) Auf fehlerhafte Baupläne der Projektleiterin."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Verzögerung ist auf unvorhergesehene Bodenverhältnisse zurückzuführen, die eine Anpassung des Gründungskonzepts erforderlich machten.",
+      "explanation_en": "The delay is due to unforeseen ground conditions that required an adaptation of the foundation concept."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Lösung schlägt der Auftragnehmer für die Kostenverteilung vor?",
+      "text_en": "What solution does the contractor propose for cost distribution?",
+      "options": [
+        "a) Dass die Projektleiterin die gesamten Mehrkosten übernimmt.",
+        "b) Dass die Vertragsstrafe in voller Höhe gezahlt wird.",
+        "c) Dass die Mehrkosten hälftig geteilt werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Auftragnehmer ist bereit, den Mehraufwand hälftig zu teilen und den neuen Zeitplan verbindlich einzuhalten.",
+      "explanation_en": "The contractor is willing to share the additional costs fifty-fifty and bindingly adhere to the new schedule."
+    }
+  ]
+}

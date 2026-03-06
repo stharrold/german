@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-5-005",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Integration durch Sprachförderung",
+  "instructions": "Lesen Sie den folgenden Berichtsauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Sprachkompetenz gilt als Schlüsselfaktor für die gesellschaftliche Integration zugewanderter Menschen. Der vorliegende Bericht evaluiert die Wirksamkeit der staatlichen Integrationskursangebote und kommt zu einem ernüchternden Ergebnis: Obwohl die Teilnehmerzahlen in den vergangenen fünf Jahren um 35 Prozent gestiegen sind, erreichen weniger als die Hälfte der Absolventen das angestrebte Sprachniveau B1 — die Mindestschwelle für eine eigenständige Teilhabe am gesellschaftlichen und beruflichen Leben.\n\nDie Schwachstellen des bestehenden Systems sind vielschichtig. Die durchschnittliche Kursgröße von 20 bis 25 Teilnehmern ermöglicht keine differenzierte Förderung der sehr heterogenen Lerngruppen, in denen Analphabeten neben Akademikern sitzen. Die Honorare für Lehrkräfte in Integrationskursen liegen erheblich unter dem Niveau regulärer Sprachschulen, was zu einer hohen Fluktuation qualifizierter Dozenten führt. Darüber hinaus fehlen begleitende Kinderbetreuungsangebote, die insbesondere zugewanderten Frauen die regelmäßige Kursteilnahme ermöglichen würden — eine Versäumnis, die zur Verfestigung geschlechtsspezifischer Integrationsdefizite beiträgt.\n\nDer Bericht empfiehlt eine grundlegende Reform der Integrationskursstruktur. Kleinere Lerngruppen von maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo, sollten eine individuellere Förderung ermöglichen. Die Lehrkräftevergütung muss spürbar angehoben werden, um qualifiziertes Personal zu gewinnen und zu halten. Obligatorische Kinderbetreuung während der Kurszeiten und die Möglichkeit flexibler Kursformate — einschließlich digitaler Ergänzungsangebote — würden die Teilnahmebarrieren insbesondere für Frauen und Alleinerziehende deutlich senken. Schließlich sollte die Sprachförderung stärker mit beruflicher Qualifizierung verzahnt werden, da fachsprachliche Kompetenzen für den Arbeitsmarktzugang mindestens ebenso bedeutsam sind wie allgemeinsprachliche Fähigkeiten.",
+    "text_en": "Language competence is considered a key factor for the societal integration of immigrants. The present report evaluates the effectiveness of state integration course offerings and arrives at a sobering result: although participant numbers have risen by 35 percent over the past five years, fewer than half of graduates reach the target language level B1 — the minimum threshold for independent participation in social and professional life.\n\nThe weaknesses of the existing system are multilayered. The average class size of 20 to 25 participants does not allow differentiated support for the very heterogeneous learning groups in which illiterate persons sit alongside academics. The fees for teachers in integration courses are considerably below the level of regular language schools, leading to high turnover of qualified instructors. Furthermore, accompanying childcare offerings are lacking that would enable particularly immigrant women to attend courses regularly — an omission that contributes to the solidification of gender-specific integration deficits.\n\nThe report recommends a fundamental reform of the integration course structure. Smaller learning groups of maximum 15 persons, differentiated by educational background and learning pace, should enable more individualized support. Teacher compensation must be noticeably raised to recruit and retain qualified personnel. Obligatory childcare during course times and the option of flexible course formats — including digital supplementary offerings — would significantly lower participation barriers especially for women and single parents. Finally, language promotion should be more closely integrated with professional qualification, since technical language skills are at least as important for labor market access as general language abilities.",
+    "source": "Bericht",
+    "word_count": 220
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welches ernüchternde Ergebnis präsentiert der Bericht?",
+      "text_en": "What sobering result does the report present?",
+      "options": [
+        "a) Weniger als die Hälfte der Absolventen erreicht das angestrebte B1-Niveau.",
+        "b) Die Integrationskurse sind zu teuer für die Teilnehmer.",
+        "c) Die Teilnehmerzahlen an Integrationskursen sind rückläufig."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Weniger als die Hälfte der Absolventen erreicht das angestrebte Sprachniveau B1.",
+      "explanation_en": "Fewer than half of graduates reach the target language level B1."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum ist die hohe Fluktuation bei Lehrkräften ein Problem?",
+      "text_en": "Why is the high turnover of teachers a problem?",
+      "options": [
+        "a) Weil die niedrigen Honorare qualifizierte Dozenten nicht halten können.",
+        "b) Weil es zu wenig qualifizierte Deutschlehrer gibt.",
+        "c) Weil Lehrkräfte ungern mit heterogenen Gruppen arbeiten."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Honorare liegen unter dem Niveau regulärer Sprachschulen, was zu hoher Fluktuation führt.",
+      "explanation_en": "Fees are below the level of regular language schools, leading to high turnover."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Problem betrifft besonders zugewanderte Frauen?",
+      "text_en": "What problem particularly affects immigrant women?",
+      "options": [
+        "a) Fehlende Kinderbetreuungsangebote, die regelmäßige Kursteilnahme verhindern.",
+        "b) Zu hohe sprachliche Anforderungen in den Integrationskursen.",
+        "c) Mangelnde Motivation zur Teilnahme an Sprachkursen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Fehlende Kinderbetreuung verhindert insbesondere bei zugewanderten Frauen die regelmäßige Kursteilnahme.",
+      "explanation_en": "Lacking childcare prevents particularly immigrant women from regular course attendance."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Gruppengröße empfiehlt der Bericht?",
+      "text_en": "What group size does the report recommend?",
+      "options": [
+        "a) 20 bis 25 Personen wie im bestehenden System.",
+        "b) Maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo.",
+        "c) 5 bis 10 Personen für maximale individuelle Betreuung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bericht empfiehlt Gruppen von maximal 15 Personen, differenziert nach Bildungshintergrund und Lerntempo.",
+      "explanation_en": "The report recommends groups of maximum 15 persons, differentiated by educational background and learning pace."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum sollte Sprachförderung mit beruflicher Qualifizierung verzahnt werden?",
+      "text_en": "Why should language promotion be integrated with professional qualification?",
+      "options": [
+        "a) Weil fachsprachliche Kompetenzen für den Arbeitsmarktzugang mindestens ebenso bedeutsam sind.",
+        "b) Weil allgemeinsprachliche Fähigkeiten für den Beruf nicht relevant sind.",
+        "c) Weil Arbeitgeber keine allgemeinen Sprachzertifikate akzeptieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Fachsprachliche Kompetenzen sind für den Arbeitsmarktzugang mindestens ebenso bedeutsam wie allgemeinsprachliche.",
+      "explanation_en": "Technical language skills are at least as important for labor market access as general language abilities."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-2-001",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Gentrifizierung und soziale Verdrängung",
+  "instructions": "Lesen Sie den folgenden Meinungsbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Gentrifizierung innerstädtischer Quartiere wird in der öffentlichen Debatte häufig als unvermeidliche Begleiterscheinung urbaner Entwicklung dargestellt. Investoren und Stadtplaner verweisen auf die Aufwertung vernachlässigter Viertel, die Sanierung maroder Bausubstanz und die Schaffung neuer kultureller Angebote. Was dabei systematisch ausgeblendet wird, ist der soziale Preis dieser Transformation: Langjährige Bewohnerinnen und Bewohner, die das Viertel über Jahrzehnte geprägt haben, werden durch steigende Mieten und Eigenbedarfskündigungen an die Stadtränder verdrängt.\n\nDie ökonomische Logik hinter diesem Prozess ist dabei keineswegs naturgesetzlich, sondern das Ergebnis politischer Entscheidungen. In Städten wie Wien, wo der kommunale Wohnungsbau einen erheblichen Anteil am Gesamtbestand ausmacht, verläuft die Stadterneuerung weitgehend ohne Verdrängungseffekte. Der Schlüssel liegt in der aktiven Bodenpolitik: Solange Kommunen über ausreichend eigene Flächen verfügen und Mietpreisbindungen konsequent durchsetzen, lassen sich Aufwertung und soziale Durchmischung vereinbaren.\n\nEs ist daher an der Zeit, die Erzählung von der unausweichlichen Gentrifizierung als das zu entlarven, was sie ist: eine interessengeleitete Konstruktion, die den Profit weniger über das Gemeinwohl stellt. Eine gerechte Stadtentwicklung erfordert den politischen Willen, dem spekulativen Kapital Grenzen zu setzen und das Recht auf bezahlbaren Wohnraum als Grundrecht anzuerkennen. Die Erfahrungen europäischer Städte mit starkem sozialen Wohnungsbau zeigen, dass dies nicht nur möglich, sondern auch ökonomisch sinnvoll ist.",
+    "text_en": "The gentrification of inner-city neighborhoods is frequently presented in public debate as an inevitable side effect of urban development. Investors and city planners point to the upgrading of neglected districts, the renovation of dilapidated building stock, and the creation of new cultural offerings. What is systematically ignored is the social price of this transformation: long-term residents who have shaped the neighborhood over decades are displaced to the city outskirts by rising rents and evictions for personal use.\n\nThe economic logic behind this process is by no means a natural law but the result of political decisions. In cities like Vienna, where municipal housing construction accounts for a considerable share of the total stock, urban renewal proceeds largely without displacement effects. The key lies in active land policy: as long as municipalities have sufficient land of their own and consistently enforce rent controls, upgrading and social mixing can be reconciled.\n\nIt is therefore time to expose the narrative of inevitable gentrification for what it is: an interest-driven construction that places the profit of the few above the common good. Just urban development requires the political will to set limits on speculative capital and to recognize the right to affordable housing as a fundamental right. The experiences of European cities with strong social housing show that this is not only possible but also economically sensible.",
+    "source": "Zeitung",
+    "word_count": 198
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Position vertritt der Autor zur Gentrifizierung?",
+      "text_en": "What position does the author take on gentrification?",
+      "options": [
+        "a) Gentrifizierung ist ein natürlicher ökonomischer Prozess.",
+        "b) Gentrifizierung ist nicht unvermeidlich, sondern das Ergebnis politischer Entscheidungen.",
+        "c) Gentrifizierung betrifft nur wohlhabende Stadtviertel."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Autor argumentiert, dass Gentrifizierung das Ergebnis politischer Entscheidungen ist, nicht naturgesetzlich.",
+      "explanation_en": "The author argues that gentrification is the result of political decisions, not a natural law."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum wird Wien als Gegenbeispiel angeführt?",
+      "text_en": "Why is Vienna cited as a counterexample?",
+      "options": [
+        "a) Weil Wien die höchsten Mieten Europas hat.",
+        "b) Weil Wien keine innerstädtischen Quartiere saniert.",
+        "c) Weil dort Stadterneuerung ohne Verdrängung gelingt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "In Wien verläuft die Stadterneuerung dank kommunalem Wohnungsbau weitgehend ohne Verdrängungseffekte.",
+      "explanation_en": "In Vienna, urban renewal proceeds largely without displacement effects thanks to municipal housing."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Autor konkret?",
+      "text_en": "What does the author specifically demand?",
+      "options": [
+        "a) Die Anerkennung bezahlbaren Wohnraums als Grundrecht.",
+        "b) Die Privatisierung des kommunalen Wohnungsbestands.",
+        "c) Den vollständigen Stopp jeglicher Stadtentwicklung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Autor fordert, das Recht auf bezahlbaren Wohnraum als Grundrecht anzuerkennen.",
+      "explanation_en": "The author demands recognizing the right to affordable housing as a fundamental right."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was wird laut dem Autor in der Gentrifizierungsdebatte ausgeblendet?",
+      "text_en": "What is being ignored in the gentrification debate according to the author?",
+      "options": [
+        "a) Der soziale Preis der Transformation — die Verdrängung langjähriger Bewohner.",
+        "b) Die positiven wirtschaftlichen Effekte für die Gesamtstadt.",
+        "c) Die kulturelle Bereicherung durch neue Bewohner."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Systematisch ausgeblendet wird der soziale Preis: die Verdrängung langjähriger Bewohner durch steigende Mieten.",
+      "explanation_en": "Systematically ignored is the social price: displacement of long-term residents by rising rents."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut dem Autor der Schlüssel zur Vermeidung von Verdrängung?",
+      "text_en": "What is the key to avoiding displacement according to the author?",
+      "options": [
+        "a) Die vollständige Deregulierung des Wohnungsmarktes.",
+        "b) Aktive Bodenpolitik mit kommunalen Flächen und Mietpreisbindungen.",
+        "c) Der Rückzug der öffentlichen Hand aus dem Wohnungsbau."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Schlüssel liegt in aktiver Bodenpolitik mit eigenen Flächen und konsequenten Mietpreisbindungen.",
+      "explanation_en": "The key lies in active land policy with municipal land and consistent rent controls."
+    }
+  ]
+}

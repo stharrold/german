@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-2-001",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Konzept für ein interkulturelles Stadtfest",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte und einigen Sie sich auf einen Vorschlag.",
+  "situation_de": "Sie arbeiten beide im Kulturamt einer mittelgroßen Stadt. Die Stadtverwaltung hat Sie beauftragt, ein interkulturelles Stadtfest zu organisieren, das die Vielfalt der Bevölkerung sichtbar machen und den Zusammenhalt fördern soll. Sie haben ein begrenztes Budget und müssen verschiedene Interessen berücksichtigen — von den Migrantenorganisationen über die ansässigen Vereine bis hin zu den Anwohnern, die sich Sorgen um Lärm und Verkehr machen. Erarbeiten Sie gemeinsam ein tragfähiges Konzept.",
+  "situation_en": "You both work in the cultural office of a medium-sized city. The city administration has tasked you with organizing an intercultural city festival that should make the diversity of the population visible and promote cohesion. You have a limited budget and must consider various interests — from migrant organizations to local clubs to residents who are concerned about noise and traffic. Develop a viable concept together.",
+  "discussion_points": [
+    "Programm und Format: Welche Veranstaltungsformate — Konzerte, Workshops, Podiumsdiskussionen, kulinarische Stände — eignen sich am besten? (Program and format: Which event formats — concerts, workshops, panel discussions, culinary stands — are most suitable?)",
+    "Einbindung der Gemeinschaften: Wie können die verschiedenen kulturellen Gruppen der Stadt authentisch repräsentiert werden, ohne in Stereotypen zu verfallen? (Involvement of communities: How can the various cultural groups of the city be authentically represented without falling into stereotypes?)",
+    "Finanzierung und Sponsoring: Wie lässt sich das begrenzte Budget sinnvoll einsetzen, und welche Fördermöglichkeiten und Sponsoren kommen infrage? (Financing and sponsorship: How can the limited budget be used sensibly, and which funding opportunities and sponsors could be considered?)",
+    "Logistik und Anwohnerinteressen: Wie können mögliche Konflikte mit Anwohnern — Lärm, Verkehr, Müll — im Vorfeld entschärft werden? (Logistics and resident interests: How can potential conflicts with residents — noise, traffic, waste — be defused in advance?)",
+    "Nachhaltigkeit: Wie kann sichergestellt werden, dass das Fest nicht ein einmaliges Event bleibt, sondern langfristig zur interkulturellen Verständigung beiträgt? (Sustainability: How can it be ensured that the festival does not remain a one-time event but contributes to intercultural understanding in the long term?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich freue mich, dass wir gemeinsam an diesem Projekt arbeiten. Bevor wir ins Detail gehen, sollten wir uns meiner Meinung nach zunächst über die grundlegende Ausrichtung verständigen. Ich würde vorschlagen, dass wir kein klassisches Folklore-Festival anstreben, sondern etwas Zeitgemäßeres — etwas, das Begegnung und Dialog in den Vordergrund stellt.",
+      "text_en": "I am glad that we are working on this project together. Before we go into detail, I think we should first agree on the basic orientation. I would suggest that we not aim for a classic folklore festival, but something more contemporary — something that foregrounds encounter and dialogue."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Da stimme ich Ihnen grundsätzlich zu. Allerdings sollten wir auch bedenken, dass viele der Migrantenorganisationen durchaus stolz auf ihre Traditionen sind und diese gerne präsentieren möchten. Wir müssten einen Mittelweg finden zwischen der Darstellung kultureller Vielfalt und der Vermeidung von Exotisierung.",
+      "text_en": "I fundamentally agree with you on that. However, we should also consider that many of the migrant organizations are quite proud of their traditions and would like to present them. We would need to find a middle way between showcasing cultural diversity and avoiding exoticization."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ein sehr wichtiger Punkt. Man könnte das Problem lösen, indem man nicht einzelne Kulturen isoliert präsentiert, sondern Formate schafft, die Verbindungen herstellen — etwa interkulturelle Kochworkshops, bei denen Teams aus verschiedenen Herkunftsregionen gemeinsam kochen, oder musikalische Kooperationen, bei denen Musiker aus unterschiedlichen Traditionen zusammenspielen.",
+      "text_en": "A very important point. One could solve the problem by not presenting individual cultures in isolation, but creating formats that establish connections — for example intercultural cooking workshops where teams from different regions of origin cook together, or musical collaborations where musicians from different traditions play together."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das klingt vielversprechend. Und was die Finanzierung angeht — hätten Sie schon eine Vorstellung, wie wir das Budget aufteilen sollten? Ich denke, wir könnten bei lokalen Unternehmen anfragen, ob sie als Sponsoren auftreten möchten. Allerdings müssten wir darauf achten, dass die Sponsoren zum Charakter des Festes passen.",
+      "text_en": "That sounds promising. And regarding financing — do you already have an idea of how we should divide the budget? I think we could ask local businesses whether they would like to act as sponsors. However, we would need to make sure that the sponsors fit the character of the festival."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Absolut. Ich würde vorschlagen, dass wir den Großteil des Budgets für Honorare und Infrastruktur einplanen — Bühne, Technik, Beschilderung. Für die Verpflegung könnten die beteiligten Gemeinschaften selbst Stände betreiben und die Einnahmen behalten. Das fördert die Eigenverantwortung und entlastet gleichzeitig unser Budget. Was die Sponsoren betrifft, sollten wir einen ethischen Rahmen definieren — keine Waffenhersteller, keine Firmen mit diskriminierenden Geschäftspraktiken.",
+      "text_en": "Absolutely. I would suggest that we plan the majority of the budget for fees and infrastructure — stage, technology, signage. For catering, the participating communities could run their own stands and keep the revenue. That promotes self-responsibility and relieves our budget at the same time. Regarding sponsors, we should define an ethical framework — no weapons manufacturers, no companies with discriminatory business practices."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Und wie gehen wir mit den Bedenken der Anwohner um? Bei den letzten Stadtfesten gab es erhebliche Beschwerden wegen Lärmbelästigung. Wenn wir das nicht von vornherein adressieren, riskieren wir negativen Presseberichte, die das ganze Projekt überschatten.",
+      "text_en": "Agreed. And how do we deal with residents' concerns? At the last city festivals there were considerable complaints about noise disturbance. If we don't address that from the outset, we risk negative press coverage that overshadows the entire project."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Da haben Sie recht. Ich schlage vor, dass wir im Vorfeld Informationsveranstaltungen für die Anwohner organisieren und sie aktiv zur Mitgestaltung einladen. Darüber hinaus könnten wir ein abgestuftes Lärmkonzept entwickeln — laute Veranstaltungen tagsüber in der Innenstadt, ruhigere Formate wie Lesungen oder Filmvorführungen am Abend in den Wohngebieten. So verteilen wir die Belastung und schaffen gleichzeitig ein dezentrales Festkonzept.",
+      "text_en": "You are right about that. I suggest that we organize information events for residents in advance and actively invite them to participate in shaping the festival. Furthermore, we could develop a graduated noise concept — loud events during the day in the city center, quieter formats like readings or film screenings in the evening in residential areas. This distributes the burden and simultaneously creates a decentralized festival concept."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist ein ausgezeichneter Vorschlag. Bleibt noch die Frage der Nachhaltigkeit. Wir sollten das Fest nicht als isoliertes Ereignis planen, sondern als Teil einer langfristigen Strategie. Wäre es denkbar, daraus eine jährliche Veranstaltung zu machen und dazwischen kleinere Begegnungsformate anzubieten?",
+      "text_en": "That is an excellent suggestion. There remains the question of sustainability. We should not plan the festival as an isolated event, but as part of a long-term strategy. Would it be conceivable to make it an annual event and offer smaller encounter formats in between?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Unbedingt. Ich würde sogar noch einen Schritt weiter gehen und vorschlagen, aus dem Fest einen dauerhaften interkulturellen Beirat hervorgehen zu lassen, der die Stadtverwaltung in Fragen der Diversitätspolitik berät. So würde das Fest nicht nur ein symbolisches Zeichen setzen, sondern tatsächlich institutionelle Veränderungen anstoßen.",
+      "text_en": "Absolutely. I would even go one step further and suggest having the festival give rise to a permanent intercultural advisory council that advises the city administration on matters of diversity policy. This way the festival would not only set a symbolic sign, but actually initiate institutional changes."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist ein sehr überzeugender Ansatz. Lassen Sie uns also zusammenfassen: Ein dezentrales Festival mit interaktiven Formaten, die Begegnung statt bloße Präsentation fördern, ein ethisch verantwortungsvolles Sponsoringkonzept, ein abgestuftes Lärmmanagement mit aktiver Anwohnerbeteiligung und die Verstetigung durch einen interkulturellen Beirat. Können wir uns darauf einigen?",
+      "text_en": "That is a very convincing approach. Let us summarize then: A decentralized festival with interactive formats that promote encounter rather than mere presentation, an ethically responsible sponsorship concept, graduated noise management with active resident participation, and continuation through an intercultural advisory council. Can we agree on that?"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

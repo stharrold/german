@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-2-004",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Wissenschaftskommunikation und Vertrauen",
+  "instructions": "Lesen Sie den folgenden Meinungsbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Das Vertrauen der Öffentlichkeit in die Wissenschaft hat in den vergangenen Krisenjahren tiefe Risse bekommen. Während Teile der Bevölkerung Forschungsergebnisse grundsätzlich anzweifeln, wachsen auf der anderen Seite die Erwartungen an eindeutige, handlungsleitende Aussagen der Wissenschaft. Beide Haltungen beruhen auf einem fundamentalen Missverständnis des wissenschaftlichen Erkenntnisprozesses, der seiner Natur nach vorläufig, selbstkorrigierend und selten eindeutig ist.\n\nDie Verantwortung für dieses Kommunikationsversagen liegt nicht allein bei einer sensationslüsternen Medienlandschaft. Auch die Wissenschaft selbst hat es versäumt, die Grenzen ihrer Erkenntnisse transparent zu kommunizieren. Zu oft traten Forscherinnen und Forscher mit einer Sicherheit auf, die ihre Befunde nicht hergaben, oder formulierten Empfehlungen, die über ihre fachliche Kompetenz hinausgingen. Die Folge war ein Glaubwürdigkeitsverlust, der das gesamte wissenschaftliche Establishment betrifft und nicht auf einzelne Disziplinen beschränkt bleibt.\n\nEin Ausweg aus dieser Vertrauenskrise erfordert einen grundlegenden Wandel der Wissenschaftskommunikation. Anstatt vereinfachte Gewissheiten zu verkünden, müssen Forscherinnen und Forscher die Vorläufigkeit ihrer Erkenntnisse, die Bandbreite konkurrierender Interpretationen und die Grenzen der eigenen Expertise ehrlich benennen. Paradoxerweise stärkt gerade diese Offenheit das Vertrauen: Studien zeigen, dass Menschen Experten mehr vertrauen, wenn diese die Unsicherheit ihrer Aussagen transparent machen, als wenn sie uneingeschränkte Gewissheit suggerieren.",
+    "text_en": "Public trust in science has developed deep cracks in recent crisis years. While parts of the population fundamentally doubt research findings, expectations for clear, action-guiding statements from science are growing on the other side. Both attitudes rest on a fundamental misunderstanding of the scientific knowledge process, which is by nature provisional, self-correcting, and rarely unambiguous.\n\nResponsibility for this communication failure does not lie solely with a sensation-hungry media landscape. Science itself has also failed to transparently communicate the limits of its findings. Too often, researchers appeared with a certainty that their findings did not support, or formulated recommendations that went beyond their professional competence. The consequence was a loss of credibility that affects the entire scientific establishment and is not limited to individual disciplines.\n\nA way out of this trust crisis requires a fundamental change in science communication. Instead of proclaiming simplified certainties, researchers must honestly name the provisionality of their findings, the range of competing interpretations, and the limits of their own expertise. Paradoxically, it is precisely this openness that strengthens trust: studies show that people trust experts more when they make the uncertainty of their statements transparent than when they suggest unrestricted certainty.",
+    "source": "Zeitung",
+    "word_count": 187
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut dem Autor das fundamentale Missverständnis der Öffentlichkeit?",
+      "text_en": "What is the fundamental misunderstanding of the public according to the author?",
+      "options": [
+        "a) Dass Wissenschaft keine praktische Relevanz hat.",
+        "b) Dass der wissenschaftliche Erkenntnisprozess vorläufig und selten eindeutig ist.",
+        "c) Dass nur Naturwissenschaften vertrauenswürdig sind."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Beide Haltungen beruhen auf einem Missverständnis des vorläufigen, selbstkorrigierenden Erkenntnisprozesses.",
+      "explanation_en": "Both attitudes rest on a misunderstanding of the provisional, self-correcting knowledge process."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Mitschuld räumt der Autor der Wissenschaft ein?",
+      "text_en": "What shared responsibility does the author attribute to science?",
+      "options": [
+        "a) Zu wenig in Grundlagenforschung investiert zu haben.",
+        "b) Die Grenzen ihrer Erkenntnisse nicht transparent kommuniziert zu haben.",
+        "c) Die Medien nicht ausreichend kontrolliert zu haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wissenschaft hat es versäumt, die Grenzen ihrer Erkenntnisse transparent zu kommunizieren.",
+      "explanation_en": "Science has failed to transparently communicate the limits of its findings."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Autor von der Wissenschaftskommunikation?",
+      "text_en": "What does the author demand of science communication?",
+      "options": [
+        "a) Die Vorläufigkeit von Erkenntnissen und die Grenzen der Expertise ehrlich zu benennen.",
+        "b) Komplexe Sachverhalte stärker zu vereinfachen.",
+        "c) Nur noch gesicherte Fakten zu kommunizieren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Forscher müssen die Vorläufigkeit ihrer Erkenntnisse und die Grenzen ihrer Expertise ehrlich benennen.",
+      "explanation_en": "Researchers must honestly name the provisionality of their findings and the limits of their expertise."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welches paradoxe Ergebnis beschreibt der Autor?",
+      "text_en": "What paradoxical result does the author describe?",
+      "options": [
+        "a) Einfache Botschaften werden besser verstanden, aber weniger geglaubt.",
+        "b) Je mehr Studien veröffentlicht werden, desto weniger vertraut die Öffentlichkeit.",
+        "c) Offene Kommunikation von Unsicherheit stärkt das Vertrauen in Experten."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Gerade die Offenheit über Unsicherheiten stärkt paradoxerweise das Vertrauen.",
+      "explanation_en": "Precisely the openness about uncertainties paradoxically strengthens trust."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wen betrifft der Glaubwürdigkeitsverlust laut dem Text?",
+      "text_en": "Whom does the credibility loss affect according to the text?",
+      "options": [
+        "a) Ausschließlich die Medizin.",
+        "b) Nur Forscher, die falsche Empfehlungen ausgesprochen haben.",
+        "c) Das gesamte wissenschaftliche Establishment, nicht nur einzelne Disziplinen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Glaubwürdigkeitsverlust betrifft das gesamte wissenschaftliche Establishment, nicht nur einzelne Disziplinen.",
+      "explanation_en": "The credibility loss affects the entire scientific establishment, not just individual disciplines."
+    }
+  ]
+}

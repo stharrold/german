@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-4-002",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Sprache als Spiegel der Gesellschaft",
+  "instructions": "Lesen Sie den folgenden Essayauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Sprache ist mehr als ein neutrales Kommunikationsinstrument — sie ist ein Spiegel, der gesellschaftliche Machtverhältnisse, Wertvorstellungen und Denkstrukturen zugleich abbildet und formt. Wer die Sprache einer Gesellschaft untersucht, stößt unweigerlich auf die sedimentierten Schichten ihrer Geschichte: auf alte Herrschaftsansprüche, die sich in Redewendungen verewigt haben, auf Ausgrenzungen, die in der Grammatik codiert sind, und auf Weltbilder, die sich in den Metaphern einer Sprache verdichten.\n\nDie Sapir-Whorf-Hypothese, die in ihrer starken Variante behauptet, dass Sprache das Denken determiniert, gilt in der modernen Linguistik zwar als überholt. In ihrer gemäßigten Form — Sprache beeinflusst die Wahrnehmung und das Kategorisieren der Wirklichkeit, ohne sie vollständig zu bestimmen — findet sie jedoch zunehmend empirische Bestätigung. So zeigen psycholinguistische Experimente, dass Sprecher von Sprachen, die Farbunterscheidungen lexikalisch differenzierter abbilden, Farbunterschiede tatsächlich schneller und genauer wahrnehmen. Ebenso beeinflusst das grammatische Geschlecht die Objektwahrnehmung: Deutschsprachige assoziieren mit dem Wort Brücke eher feminine Eigenschaften wie Eleganz, während Spanischsprachige, für die puente maskulin ist, Stärke und Robustheit betonen.\n\nDiese Erkenntnisse verleihen der Debatte um geschlechtergerechte Sprache eine wissenschaftliche Dimension, die über ideologische Grabenkämpfe hinausgeht. Wenn sprachliche Formen nachweislich die Vorstellungen von der Wirklichkeit mitprägen, dann ist die Forderung nach inklusiverer Sprache kein sprachpolitischer Aktivismus, sondern die logische Konsequenz linguistischer Evidenz. Die Gegenposition, die jede Veränderung etablierter Sprachformen als ideologische Sprachpolizei denunziert, ignoriert die grundlegende Einsicht, dass Sprache nie statisch war und ihr Wandel stets gesellschaftliche Aushandlungsprozesse widerspiegelt.",
+    "text_en": "Language is more than a neutral communication instrument — it is a mirror that simultaneously reflects and shapes societal power relations, values, and thought structures. Whoever examines a society's language inevitably encounters the sedimented layers of its history: old claims to power that have immortalized themselves in idioms, exclusions coded in grammar, and worldviews that condense in a language's metaphors.\n\nThe Sapir-Whorf hypothesis, which in its strong version claims that language determines thought, is considered outdated in modern linguistics. In its moderate form, however — language influences the perception and categorization of reality without completely determining it — it finds increasing empirical confirmation. Psycholinguistic experiments show that speakers of languages that lexically differentiate color distinctions more finely actually perceive color differences faster and more accurately. Likewise, grammatical gender influences object perception: German speakers associate the word Bruecke (bridge, feminine) with feminine properties like elegance, while Spanish speakers, for whom puente is masculine, emphasize strength and robustness.\n\nThese findings give the debate about gender-inclusive language a scientific dimension that goes beyond ideological trench warfare. If linguistic forms demonstrably co-shape conceptions of reality, then the demand for more inclusive language is not linguistic-political activism but the logical consequence of linguistic evidence. The counter-position, which denounces any change of established linguistic forms as ideological language policing, ignores the fundamental insight that language was never static and that its change always reflects societal negotiation processes.",
+    "source": "Essay",
+    "word_count": 228
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "In welcher Form findet die Sapir-Whorf-Hypothese zunehmend Bestätigung?",
+      "text_en": "In what form does the Sapir-Whorf hypothesis find increasing confirmation?",
+      "options": [
+        "a) In ihrer gemäßigten Form: Sprache beeinflusst die Wahrnehmung, ohne sie vollständig zu bestimmen.",
+        "b) Weder in starker noch in gemäßigter Form.",
+        "c) In ihrer starken Form: Sprache determiniert das Denken vollständig."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "In der gemäßigten Form — Sprache beeinflusst die Wahrnehmung, ohne sie vollständig zu bestimmen — findet sie Bestätigung.",
+      "explanation_en": "In its moderate form — language influences perception without completely determining it — it finds confirmation."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches Beispiel belegt den Einfluss des grammatischen Geschlechts auf die Wahrnehmung?",
+      "text_en": "What example demonstrates the influence of grammatical gender on perception?",
+      "options": [
+        "a) Französischsprachige können Farben differenzierter wahrnehmen.",
+        "b) Englischsprachige nehmen keine Geschlechtszuordnung bei Objekten vor.",
+        "c) Deutsche assoziieren Brücke mit Eleganz, Spanischsprachige puente mit Stärke."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Deutsche assoziieren Brücke (feminin) mit Eleganz, Spanischsprachige puente (maskulin) mit Stärke.",
+      "explanation_en": "Germans associate Bruecke (feminine) with elegance, Spanish speakers puente (masculine) with strength."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was bedeutet es, dass Sprache ein Spiegel der Gesellschaft ist?",
+      "text_en": "What does it mean that language is a mirror of society?",
+      "options": [
+        "a) Sprache verändert sich nie und bewahrt vergangene Zustände.",
+        "b) Sprache ist ein rein neutrales Kommunikationsinstrument.",
+        "c) Sprache bildet Machtverhältnisse und Wertvorstellungen ab und formt sie zugleich."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sprache bildet gesellschaftliche Machtverhältnisse und Wertvorstellungen ab und formt sie zugleich.",
+      "explanation_en": "Language reflects and simultaneously shapes societal power relations and values."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie ordnet der Autor die Forderung nach geschlechtergerechter Sprache ein?",
+      "text_en": "How does the author classify the demand for gender-inclusive language?",
+      "options": [
+        "a) Als logische Konsequenz linguistischer Evidenz.",
+        "b) Als rein ideologisch motivierte Bewegung.",
+        "c) Als unnötige Einmischung in die Sprachentwicklung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Forderung nach inklusiverer Sprache ist die logische Konsequenz linguistischer Evidenz.",
+      "explanation_en": "The demand for more inclusive language is the logical consequence of linguistic evidence."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Grundeinsicht ignoriert laut dem Autor die Gegenposition?",
+      "text_en": "What fundamental insight does the counter-position ignore according to the author?",
+      "options": [
+        "a) Dass Sprachveränderungen nur von oben verordnet werden können.",
+        "b) Dass die deutsche Sprache die reichste Grammatik der Welt besitzt.",
+        "c) Dass Sprache nie statisch war und ihr Wandel gesellschaftliche Aushandlungsprozesse widerspiegelt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Gegenposition ignoriert, dass Sprache nie statisch war und Wandel Aushandlungsprozesse widerspiegelt.",
+      "explanation_en": "The counter-position ignores that language was never static and change reflects negotiation processes."
+    }
+  ]
+}

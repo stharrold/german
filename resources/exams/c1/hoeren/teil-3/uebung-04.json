@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-3-004",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Akademische Konferenzgespräche",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören die Texte einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Wissenschaftlerin A",
+      "text_de": "Ihr Vortrag über die neuronalen Korrelate der Entscheidungsfindung war äußerst anregend. Besonders die Ergebnisse zur Rolle des präfrontalen Kortex haben mich überrascht. In unserer Arbeitsgruppe verwenden wir einen ähnlichen experimentellen Ansatz, allerdings mit funktioneller Nahinfrarotspektroskopie statt fMRT. Wäre eine methodische Zusammenarbeit denkbar?",
+      "text_en": "Your talk on the neural correlates of decision-making was extremely stimulating. The results on the role of the prefrontal cortex particularly surprised me. In our research group, we use a similar experimental approach, but with functional near-infrared spectroscopy instead of fMRI. Would a methodological collaboration be conceivable?"
+    },
+    {
+      "speaker": "Gespräch 1 — Wissenschaftler B",
+      "text_de": "Das klingt sehr interessant. Die komplementären Stärken beider Verfahren — die hohe räumliche Auflösung der fMRT und die ökologische Validität der fNIRS — könnten tatsächlich zu robusteren Befunden führen. Ich schlage vor, dass wir nach der Konferenz ein gemeinsames Forschungsdesign skizzieren. Haben Sie bereits Erfahrung mit Multimodal-Imaging-Ansätzen?",
+      "text_en": "That sounds very interesting. The complementary strengths of both methods — the high spatial resolution of fMRI and the ecological validity of fNIRS — could indeed lead to more robust findings. I suggest we sketch a joint research design after the conference. Do you already have experience with multimodal imaging approaches?"
+    },
+    {
+      "speaker": "Gespräch 2 — Doktorandin",
+      "text_de": "Entschuldigen Sie, Professor Weber, darf ich Ihnen eine Frage zu Ihrem Postervortrag stellen? Ihre Hypothese zur sozialen Konstruktion von Risikobewertung deckt sich teilweise mit meinem Dissertationsprojekt. Allerdings frage ich mich, ob Ihr Modell auch kulturvergleichend validiert wurde. In meiner Studie mit Teilnehmern aus Ostasien zeigen sich signifikant andere Risikowahrnehmungsmuster als in westlichen Stichproben.",
+      "text_en": "Excuse me, Professor Weber, may I ask you a question about your poster presentation? Your hypothesis on the social construction of risk assessment partially overlaps with my dissertation project. However, I wonder whether your model has also been validated cross-culturally. In my study with participants from East Asia, significantly different risk perception patterns emerge compared to Western samples."
+    },
+    {
+      "speaker": "Gespräch 2 — Professor",
+      "text_de": "Eine berechtigte Frage. Tatsächlich ist die kulturelle Dimension bislang unterrepräsentiert in unserem Modell. Ihre Daten könnten eine wertvolle Ergänzung darstellen. Wären Sie bereit, Ihre vorläufigen Ergebnisse auf unserem nächsten Forschungskolloquium vorzustellen? Das wäre eine gute Gelegenheit für einen fachlichen Austausch.",
+      "text_en": "A legitimate question. Indeed, the cultural dimension has been underrepresented in our model so far. Your data could be a valuable addition. Would you be willing to present your preliminary results at our next research colloquium? That would be a good opportunity for academic exchange."
+    },
+    {
+      "speaker": "Gespräch 3 — Konferenzteilnehmerin",
+      "text_de": "Herr Dr. Nolte, ich leite die Programmkommission für die Jahrestagung der Gesellschaft für Kognitionsforschung. Wir suchen noch einen Keynote-Sprecher für das Panel zur verkörperten Kognition. Angesichts Ihrer jüngsten Publikation im „Journal of Cognitive Science“ wären Sie ein idealer Kandidat. Der Vortrag wäre auf 45 Minuten angesetzt, mit anschließender Diskussion.",
+      "text_en": "Dr. Nolte, I head the program committee for the annual conference of the Society for Cognitive Research. We are still looking for a keynote speaker for the panel on embodied cognition. Given your recent publication in the Journal of Cognitive Science, you would be an ideal candidate. The talk would be scheduled for 45 minutes, with a discussion afterward."
+    },
+    {
+      "speaker": "Gespräch 3 — Dr. Nolte",
+      "text_de": "Das ehrt mich. Allerdings befinde ich mich gerade in der Endphase eines DFG-Projekts, was meinen zeitlichen Spielraum stark einschränkt. Wann genau findet die Tagung statt? Und wäre es möglich, den Vortrag thematisch so auszurichten, dass er auch unsere neuesten, noch unveröffentlichten Befunde zur sensomotorischen Integration einbezieht?",
+      "text_en": "That is an honor. However, I am currently in the final phase of a DFG project, which severely limits my available time. When exactly does the conference take place? And would it be possible to thematically orient the talk to also include our latest, as yet unpublished findings on sensorimotor integration?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum schlägt die Wissenschaftlerin eine Zusammenarbeit vor?",
+      "text_en": "Why does the scientist propose a collaboration?",
+      "options": [
+        "a) Weil ihr Forschungsprojekt finanziell nicht mehr tragbar ist.",
+        "b) Weil ihr eigenes Labor nicht über die nötige Ausstattung verfügt.",
+        "c) Weil die komplementären Stärken beider bildgebenden Verfahren zu robusteren Befunden führen könnten."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die komplementären Stärken von fMRT (räumliche Auflösung) und fNIRS (ökologische Validität) könnten zu robusteren Befunden führen.",
+      "explanation_en": "The complementary strengths of fMRI (spatial resolution) and fNIRS (ecological validity) could lead to more robust findings."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Lücke identifiziert die Doktorandin in Professor Webers Modell?",
+      "text_en": "What gap does the doctoral student identify in Professor Weber's model?",
+      "options": [
+        "a) Die fehlende statistische Signifikanz der Ergebnisse.",
+        "b) Die mangelnde Berücksichtigung ökonomischer Faktoren.",
+        "c) Die fehlende kulturvergleichende Validierung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Doktorandin fragt, ob das Modell kulturvergleichend validiert wurde, da ihre Studie andere Risikowahrnehmungsmuster in ostasiatischen Stichproben zeigt.",
+      "explanation_en": "The doctoral student asks whether the model has been validated cross-culturally, as her study shows different risk perception patterns in East Asian samples."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt Professor Weber der Doktorandin vor?",
+      "text_en": "What does Professor Weber suggest to the doctoral student?",
+      "options": [
+        "a) Ihre Ergebnisse zu verwerfen und einen neuen Ansatz zu wählen.",
+        "b) Sich an einen anderen Experten zu wenden.",
+        "c) Ihre vorläufigen Ergebnisse auf seinem Forschungskolloquium vorzustellen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Professor Weber lädt die Doktorandin ein, ihre vorläufigen Ergebnisse auf seinem nächsten Forschungskolloquium vorzustellen.",
+      "explanation_en": "Professor Weber invites the doctoral student to present her preliminary results at his next research colloquium."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum ist Dr. Nolte hinsichtlich des Keynote-Vortrags zurückhaltend?",
+      "text_en": "Why is Dr. Nolte hesitant about the keynote talk?",
+      "options": [
+        "a) Weil er auf einer konkurrierenden Konferenz sprechen wird.",
+        "b) Weil er das Thema verkörperte Kognition für veraltet hält.",
+        "c) Weil er sich in der Endphase eines DFG-Projekts befindet und wenig Zeit hat."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Dr. Nolte befindet sich in der Endphase eines DFG-Projekts, was seinen zeitlichen Spielraum stark einschränkt.",
+      "explanation_en": "Dr. Nolte is in the final phase of a DFG project, which severely limits his available time."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was möchte Dr. Nolte in den Vortrag einbeziehen?",
+      "text_en": "What does Dr. Nolte want to include in the talk?",
+      "options": [
+        "a) Ergebnisse anderer Forschungsgruppen zum gleichen Thema.",
+        "b) Eine Kritik an der bisherigen Forschungsliteratur.",
+        "c) Neueste, noch unveröffentlichte Befunde zur sensomotorischen Integration."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Dr. Nolte möchte die neuesten, noch unveröffentlichten Befunde zur sensomotorischen Integration in den Vortrag einbeziehen.",
+      "explanation_en": "Dr. Nolte wants to include the latest, as yet unpublished findings on sensorimotor integration in the talk."
+    }
+  ]
+}

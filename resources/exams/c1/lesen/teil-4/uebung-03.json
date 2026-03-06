@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-4-003",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Ästhetik des Verfalls in der Kunst",
+  "instructions": "Lesen Sie den folgenden Essayauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Faszination für den Verfall durchzieht die abendländische Kulturgeschichte wie ein roter Faden. Von den Ruinenlandschaften der Romantik über die morbiden Stillleben des Barock bis hin zu den verfallenden Industriekulissen zeitgenössischer Fotografie übt das Zerfallende eine ästhetische Anziehungskraft aus, die dem modernen Fortschrittsdenken scheinbar widerspricht. Was treibt Menschen dazu, im Untergang Schönheit zu finden, und welche tiefere Bedeutung birgt diese paradoxe Ästhetik?\n\nDer japanische Begriff Wabi-Sabi liefert einen aufschlussreichen kulturübergreifenden Bezugspunkt. Diese ästhetische Philosophie findet Schönheit gerade in der Unvollkommenheit, in den Spuren der Zeit und in der Vergänglichkeit aller Dinge. Ein von vielen Händen geglättetes Holzgeländer, die Patina einer alten Bronzestatue, die Risse in einer jahrhundertealten Keramik — all dies erzählt von gelebtem Leben und erinnert an die Zeitlichkeit der menschlichen Existenz. Die Verfallsästhetik ist somit kein Ausdruck von Nihilismus, sondern eine Form der Anerkennung: Sie würdigt die Vergänglichkeit als konstitutives Element des Lebens, anstatt sie zu verdrängen.\n\nIn der Gegenwart hat die Ruinenfaszination neue Formen angenommen. Die Fotografie verlassener Fabriken, aufgegebener Freizeitparks und entvölkerter Stadtviertel — im Englischen als Urban Exploration bekannt — ist zu einer verbreiteten kulturellen Praxis geworden. Ihre Anhänger sehen in den menschenleeren Räumen eine Gegenwelt zum optimierten, durchgestalteten Alltag: Orte, an denen die Natur die menschliche Ordnung zurückerobert und die Zeit ihre eigene stille Arbeit verrichtet. Die Ästhetik des Verfalls erweist sich damit als stille Rebellion gegen den Kontrollwahn einer Gesellschaft, die das Unvollkommene, Unkontrollierbare und Endliche um jeden Preis zu tilgen versucht.",
+    "text_en": "The fascination with decay runs through Western cultural history like a common thread. From the ruin landscapes of Romanticism through the morbid still lifes of the Baroque to the decaying industrial backdrops of contemporary photography, that which is decaying exerts an aesthetic attraction that seemingly contradicts modern progressive thinking. What drives people to find beauty in decline, and what deeper meaning does this paradoxical aesthetic hold?\n\nThe Japanese concept of Wabi-Sabi provides an instructive cross-cultural reference point. This aesthetic philosophy finds beauty precisely in imperfection, in the traces of time, and in the transience of all things. A wooden handrail smoothed by many hands, the patina of an old bronze statue, the cracks in a centuries-old ceramic — all of this tells of lived life and reminds us of the temporality of human existence. The aesthetics of decay is thus not an expression of nihilism but a form of acknowledgment: it honors transience as a constitutive element of life rather than suppressing it.\n\nIn the present, ruin fascination has taken new forms. The photography of abandoned factories, forsaken amusement parks, and depopulated neighborhoods — known in English as Urban Exploration — has become a widespread cultural practice. Its adherents see in the deserted spaces a counter-world to the optimized, designed everyday life: places where nature reclaims human order and time performs its own quiet work. The aesthetics of decay thus proves to be a quiet rebellion against the control mania of a society that seeks to eliminate the imperfect, uncontrollable, and finite at all costs.",
+    "source": "Essay",
+    "word_count": 239
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was beschreibt der japanische Begriff Wabi-Sabi?",
+      "text_en": "What does the Japanese term Wabi-Sabi describe?",
+      "options": [
+        "a) Die Perfektion traditioneller japanischer Handwerkskunst.",
+        "b) Die japanische Praxis der Gebäuderestaurierung.",
+        "c) Eine Ästhetik, die Schönheit in Unvollkommenheit und Vergänglichkeit findet."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Wabi-Sabi findet Schönheit gerade in der Unvollkommenheit, den Spuren der Zeit und der Vergänglichkeit.",
+      "explanation_en": "Wabi-Sabi finds beauty precisely in imperfection, traces of time, and transience."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist die Verfallsästhetik laut dem Autor NICHT?",
+      "text_en": "What is the aesthetics of decay NOT according to the author?",
+      "options": [
+        "a) Eine Form der Anerkennung der Vergänglichkeit.",
+        "b) Ein Ausdruck von Nihilismus.",
+        "c) Eine kulturübergreifende ästhetische Tradition."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Verfallsästhetik ist kein Ausdruck von Nihilismus, sondern eine Form der Anerkennung.",
+      "explanation_en": "The aesthetics of decay is not an expression of nihilism but a form of acknowledgment."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was sehen Urban Explorer in verlassenen Räumen?",
+      "text_en": "What do Urban Explorers see in abandoned spaces?",
+      "options": [
+        "a) Möglichkeiten zur kommerziellen Verwertung verfallener Gebäude.",
+        "b) Eine Gegenwelt zum optimierten, durchgestalteten Alltag.",
+        "c) Beweise für den Niedergang der modernen Zivilisation."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Anhänger sehen in menschenleeren Räumen eine Gegenwelt zum optimierten Alltag.",
+      "explanation_en": "Adherents see in deserted spaces a counter-world to the optimized everyday life."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wogegen rebelliert die Ästhetik des Verfalls laut dem Text?",
+      "text_en": "Against what does the aesthetics of decay rebel according to the text?",
+      "options": [
+        "a) Gegen den Kontrollwahn einer Gesellschaft, die das Endliche zu tilgen versucht.",
+        "b) Gegen traditionelle Kunstformen und Museumskultur.",
+        "c) Gegen die Globalisierung und den Verlust lokaler Identität."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Verfallsästhetik ist eine Rebellion gegen den Kontrollwahn einer Gesellschaft, die das Unvollkommene tilgen will.",
+      "explanation_en": "The aesthetics of decay is a rebellion against the control mania of a society seeking to eliminate the imperfect."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Kunstepochen werden als Beispiele für Verfallsfaszination genannt?",
+      "text_en": "Which art epochs are mentioned as examples of decay fascination?",
+      "options": [
+        "a) Nur die zeitgenössische Kunst.",
+        "b) Ausschließlich die japanische Kunsttradition.",
+        "c) Romantik, Barock und zeitgenössische Fotografie."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Genannt werden die Ruinenlandschaften der Romantik, morbide Stillleben des Barock und zeitgenössische Fotografie.",
+      "explanation_en": "Mentioned are ruin landscapes of Romanticism, morbid still lifes of Baroque, and contemporary photography."
+    }
+  ]
+}

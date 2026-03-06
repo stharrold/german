@@ -1,0 +1,123 @@
+{
+  "id": "c1-hoeren-teil-4-003",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Medienethik im Zeitalter der Desinformation",
+  "instructions": "Sie hören einen wissenschaftlichen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Meine Damen und Herren, ich möchte heute über Medienethik im Zeitalter der Desinformation sprechen — ein Thema, das angesichts der Krise des Journalismus und der Verbreitung von Falschinformationen über soziale Netzwerke von höchster Dringlichkeit ist.",
+      "text_en": "Ladies and gentlemen, I would like to speak today about media ethics in the age of disinformation — a topic of utmost urgency given the crisis of journalism and the spread of misinformation through social networks."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Zunächst ist eine begriffliche Klärung erforderlich. Desinformation unterscheidet sich von Fehlinformation durch die Intentionalität: Während Fehlinformation die unbeabsichtigte Verbreitung unrichtiger Informationen bezeichnet, ist Desinformation die gezielte, strategisch motivierte Verbreitung falscher oder irreführender Inhalte. Diese Unterscheidung ist fundamental, weil sie unterschiedliche ethische und regulatorische Antworten erfordert.",
+      "text_en": "First, a conceptual clarification is necessary. Disinformation differs from misinformation through intentionality: while misinformation refers to the unintentional spread of incorrect information, disinformation is the targeted, strategically motivated spread of false or misleading content. This distinction is fundamental because it requires different ethical and regulatory responses."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Die Verbreitungsmechanismen von Desinformation haben sich durch die Digitalisierung grundlegend verändert. Traditionelle Medien fungierten als Gatekeeper — sie filterten, überprüften und kontextualisierten Informationen, bevor sie veröffentlicht wurden. In der digitalen Öffentlichkeit sind diese Gatekeeping-Funktionen weitgehend erodiert. Algorithmische Kuratierung auf sozialen Plattformen optimiert nicht für Wahrheit, sondern für Engagement — und emotionale, polarisierende und falsche Inhalte erzeugen nachweislich mehr Engagement als sachliche, differenzierte Berichterstattung.",
+      "text_en": "The dissemination mechanisms of disinformation have been fundamentally changed by digitalization. Traditional media functioned as gatekeepers — they filtered, verified, and contextualized information before it was published. In the digital public sphere, these gatekeeping functions have largely eroded. Algorithmic curation on social platforms optimizes not for truth but for engagement — and emotional, polarizing, and false content demonstrably generates more engagement than factual, differentiated reporting."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Ein besonders beunruhigendes Phänomen ist die sogenannte Desinformationskaskade. Eine falsche Behauptung wird von einer Quelle in die Welt gesetzt, dann von Tausenden geteilt, kommentiert und weiterverbreitet. Selbst wenn die Originalquelle die Falschinformation korrigiert, erreicht die Korrektur in der Regel nur einen Bruchteil der Personen, die die ursprüngliche Falschmeldung gesehen haben. Diesen asymmetrischen Effekt bezeichnen wir als das „Korrekturdefizit“ — die inhärente Unterlegenheit der Wahrheit gegenüber der Lüge in der Aufmerksamkeitsökonomie.",
+      "text_en": "A particularly concerning phenomenon is the so-called disinformation cascade. A false claim is put into the world by one source, then shared, commented on, and further spread by thousands. Even when the original source corrects the misinformation, the correction typically reaches only a fraction of the persons who saw the original false report. We call this asymmetric effect the 'correction deficit' — the inherent inferiority of truth compared to falsehood in the attention economy."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Welche ethischen Prinzipien sollten die Regulierung von Desinformation leiten? Hier stehen zwei Grundwerte in einem Spannungsverhältnis: die Meinungsfreiheit einerseits und der Schutz der demokratischen Willensbildung andererseits. Eine zu weitreichende Regulierung riskiert Zensur; eine zu zurückhaltende Regulierung überlässt die Öffentlichkeit den Manipulatoren. Der sogenannte Proportionalitätsgrundsatz bietet hier eine Orientierung: Eingriffe in die Meinungsfreiheit müssen verhältnismäßig sein und dürfen nur als Ultima Ratio erfolgen.",
+      "text_en": "What ethical principles should guide the regulation of disinformation? Here two fundamental values stand in tension: freedom of expression on one hand and protection of democratic opinion formation on the other. Overly extensive regulation risks censorship; overly restrained regulation abandons the public sphere to manipulators. The so-called proportionality principle offers guidance here: interventions in freedom of expression must be proportionate and may only occur as a last resort."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "In der Praxis sehe ich drei Ansatzpunkte. Erstens: die Stärkung des professionellen Journalismus durch öffentliche Finanzierungsmodelle, die redaktionelle Unabhängigkeit garantieren. Zweitens: die Verpflichtung der Plattformen zur algorithmischen Transparenz — Nutzer müssen nachvollziehen können, warum ihnen bestimmte Inhalte angezeigt werden. Drittens: die flächendeckende Einführung von Medienkompetenz als Pflichtfach in Schulen, damit Bürgerinnen und Bürger in die Lage versetzt werden, Informationsquellen kritisch zu bewerten.",
+      "text_en": "In practice, I see three approaches. First: strengthening professional journalism through public funding models that guarantee editorial independence. Second: obligating platforms to ensure algorithmic transparency — users must be able to understand why they are shown certain content. Third: the comprehensive introduction of media literacy as a mandatory subject in schools, so that citizens are enabled to critically evaluate information sources."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Abschließend möchte ich betonen, dass die Bekämpfung von Desinformation nicht nur eine technische oder regulatorische Aufgabe ist, sondern eine zivilgesellschaftliche. Eine Demokratie, in der sich die Bürger nicht mehr auf einen geteilten Bestand an Fakten einigen können, verliert ihre Handlungsfähigkeit. Die Verteidigung einer gemeinsamen epistemischen Grundlage — eines Minimums an geteilter Wirklichkeit — ist daher eine der drängendsten Aufgaben unserer Zeit.",
+      "text_en": "In closing, I want to emphasize that combating disinformation is not only a technical or regulatory task but a civil society one. A democracy in which citizens can no longer agree on a shared body of facts loses its capacity to act. The defense of a common epistemic foundation — a minimum of shared reality — is therefore one of the most pressing tasks of our time."
+    },
+    {
+      "speaker": "Prof. Dr. Hartung",
+      "text_de": "Denn letztlich geht es bei Medienethik nicht allein um Wahrheit und Falschheit, sondern um die Voraussetzungen eines demokratischen Gemeinwesens. Ohne verlässliche Information gibt es keine informierte Öffentlichkeit, ohne informierte Öffentlichkeit keine demokratische Willensbildung, und ohne demokratische Willensbildung keine legitime Herrschaft. Die Integrität der Informationsordnung ist somit ein konstitutives Element der Demokratie selbst.",
+      "text_en": "For ultimately media ethics is not just about truth and falsehood, but about the prerequisites of a democratic polity. Without reliable information there is no informed public, without an informed public no democratic opinion formation, and without democratic opinion formation no legitimate governance. The integrity of the information order is thus a constitutive element of democracy itself."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie unterscheidet sich Desinformation von Fehlinformation laut Prof. Hartung?",
+      "text_en": "How does disinformation differ from misinformation according to Prof. Hartung?",
+      "options": [
+        "a) Desinformation ist die gezielte, strategisch motivierte Verbreitung falscher Inhalte.",
+        "b) Desinformation betrifft nur politische Themen, Fehlinformation nur wissenschaftliche.",
+        "c) Es gibt keinen wesentlichen Unterschied zwischen beiden Begriffen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Desinformation unterscheidet sich durch die Intentionalität: Sie ist die gezielte, strategisch motivierte Verbreitung falscher oder irreführender Inhalte.",
+      "explanation_en": "Disinformation differs through intentionality: it is the targeted, strategically motivated spread of false or misleading content."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wofür optimieren Algorithmen auf sozialen Plattformen laut Prof. Hartung?",
+      "text_en": "What do algorithms on social platforms optimize for according to Prof. Hartung?",
+      "options": [
+        "a) Für die Verbreitung korrekter und geprüfter Informationen.",
+        "b) Für die politische Neutralität der angezeigten Inhalte.",
+        "c) Für Engagement — wobei emotionale und polarisierende Inhalte bevorzugt werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Algorithmische Kuratierung optimiert für Engagement, nicht für Wahrheit — emotionale, polarisierende Inhalte erzeugen mehr Engagement.",
+      "explanation_en": "Algorithmic curation optimizes for engagement, not truth — emotional, polarizing content generates more engagement."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Prof. Hartung unter dem Korrekturdefizit?",
+      "text_en": "What does Prof. Hartung understand by the correction deficit?",
+      "options": [
+        "a) Die inhärente Unterlegenheit der Wahrheit gegenüber der Lüge in der Aufmerksamkeitsökonomie.",
+        "b) Die fehlende Bereitschaft von Journalisten, Fehler zu korrigieren.",
+        "c) Die mangelnde Finanzierung von Faktencheckern."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Korrekturdefizit bezeichnet die inhärente Unterlegenheit der Wahrheit — Korrekturen erreichen nur einen Bruchteil der Personen, die die Falschmeldung sahen.",
+      "explanation_en": "The correction deficit refers to the inherent inferiority of truth — corrections reach only a fraction of the persons who saw the false report."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche drei Maßnahmen schlägt Prof. Hartung gegen Desinformation vor?",
+      "text_en": "What three measures does Prof. Hartung propose against disinformation?",
+      "options": [
+        "a) Komplettes Verbot sozialer Medien, staatliche Medienkontrolle und Strafen für Falschmeldungen.",
+        "b) Stärkung des Journalismus, algorithmische Transparenz und Medienkompetenz als Pflichtfach.",
+        "c) Selbstregulierung der Plattformen, KI-basierte Filterung und Subventionierung der Printpresse."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Prof. Hartung schlägt vor: Stärkung des professionellen Journalismus, Verpflichtung zur algorithmischen Transparenz und Medienkompetenz als Pflichtfach in Schulen.",
+      "explanation_en": "Prof. Hartung proposes: strengthening professional journalism, obligating algorithmic transparency, and media literacy as a mandatory subject in schools."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum ist die Integrität der Informationsordnung laut Prof. Hartung so wichtig?",
+      "text_en": "Why is the integrity of the information order so important according to Prof. Hartung?",
+      "options": [
+        "a) Weil sie die wirtschaftliche Produktivität steigert.",
+        "b) Weil sie ein konstitutives Element der Demokratie selbst ist.",
+        "c) Weil sie die internationale Wettbewerbsfähigkeit sichert."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Integrität der Informationsordnung ist ein konstitutives Element der Demokratie — ohne verlässliche Information keine informierte Öffentlichkeit und keine demokratische Willensbildung.",
+      "explanation_en": "The integrity of the information order is a constitutive element of democracy — without reliable information, no informed public and no democratic opinion formation."
+    }
+  ]
+}

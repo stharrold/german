@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-1-005",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kulturelle Identität in der Globalisierung",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zu unserer Podiumsreihe „Kultur im Wandel“. Heute ist Frau Professor Dr. Ayşe Demir bei uns, Kulturwissenschaftlerin an der Freien Universität Berlin. Sie forscht zu kultureller Identität im Kontext der Globalisierung. Frau Professor Demir, was geschieht mit kulturellen Identitäten in einer zunehmend vernetzten Welt?",
+      "text_en": "Welcome to our panel series 'Culture in Transition.' Today we have Professor Dr. Ayşe Demir with us, a cultural studies scholar at the Free University of Berlin. She researches cultural identity in the context of globalization. Professor Demir, what happens to cultural identities in an increasingly connected world?"
+    },
+    {
+      "speaker": "Prof. Dr. Demir",
+      "text_de": "Vielen Dank. Die Vorstellung, Globalisierung führe zwangsläufig zu einer kulturellen Homogenisierung — also einer weltweiten Angleichung der Lebensweisen —, halte ich für eine unzulässige Vereinfachung. Was wir tatsächlich beobachten, ist ein dialektischer Prozess: Einerseits verbreiten sich bestimmte kulturelle Muster global — man denke an den weltweiten Konsum von Streaming-Inhalten oder die Dominanz des Englischen als Verkehrssprache. Andererseits löst genau diese Globalisierung verstärkt lokale Gegenbewegungen aus, die auf die Bewahrung und Revitalisierung regionaler Traditionen abzielen.",
+      "text_en": "Thank you. The notion that globalization inevitably leads to cultural homogenization — that is, a worldwide convergence of lifestyles — I consider an inadmissible simplification. What we actually observe is a dialectical process: on one hand, certain cultural patterns spread globally — think of the worldwide consumption of streaming content or the dominance of English as a lingua franca. On the other hand, this very globalization triggers increased local counter-movements aimed at preserving and revitalizing regional traditions."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Sie sprechen von einer Dialektik. Wie äußert sich das konkret?",
+      "text_en": "You speak of a dialectic. How does that manifest concretely?"
+    },
+    {
+      "speaker": "Prof. Dr. Demir",
+      "text_de": "Nehmen wir das Beispiel der Sprache. Während das Englische als globale Kommunikationssprache expandiert, erleben wir gleichzeitig eine Rennaissance regionaler Sprachbewegungen. In Wales etwa hat sich die Zahl der Walisisch-Sprecher in den vergangenen Jahrzehnten stabilisiert; in Katalonien ist das Katalanische ein zentraler Identitätsmarker geworden. Dieses Phänomen bezeichnen wir als Glokalisierung — die Verschränkung von globalen und lokalen Dynamiken. Kulturelle Identität ist eben kein statisches Konstrukt, sondern ein permanenter Aushandlungsprozess zwischen dem Globalen und dem Lokalen.",
+      "text_en": "Take the example of language. While English expands as a global communication language, we simultaneously witness a renaissance of regional language movements. In Wales, for instance, the number of Welsh speakers has stabilized in recent decades; in Catalonia, Catalan has become a central identity marker. We call this phenomenon glocalization — the intertwining of global and local dynamics. Cultural identity is not a static construct but a permanent negotiation process between the global and the local."
+    },
+    {
+      "speaker": "Prof. Dr. Demir",
+      "text_de": "Besonders aufschlussreich ist die Rolle der digitalen Medien in diesem Prozess. Soziale Netzwerke ermöglichen diasporischen Gemeinschaften, ihre kulturellen Praktiken über nationale Grenzen hinweg aufrechtzuerhalten. Ein in Deutschland lebender syrischer Musiker kann über Plattformen ein globales Publikum erreichen und gleichzeitig die musikalische Tradition seines Herkunftslandes weiterentwickeln. Die digitale Vernetzung schafft transnationale Kulturräume, die sich nicht mehr in den Kategorien des Nationalstaats fassen lassen.",
+      "text_en": "Particularly revealing is the role of digital media in this process. Social networks enable diasporic communities to maintain their cultural practices across national borders. A Syrian musician living in Germany can reach a global audience through platforms while simultaneously developing the musical tradition of their country of origin. Digital networking creates transnational cultural spaces that can no longer be captured in the categories of the nation-state."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Sehen Sie in dieser Entwicklung eher Chancen oder Risiken?",
+      "text_en": "Do you see more opportunities or risks in this development?"
+    },
+    {
+      "speaker": "Prof. Dr. Demir",
+      "text_de": "Beides. Die Chance liegt in der kulturellen Bereicherung, im Zugang zu einer Vielfalt von Perspektiven und Ausdrucksformen, die früheren Generationen nicht zur Verfügung standen. Das Risiko besteht in der Instrumentalisierung kultureller Identität für politische Zwecke. Wenn kulturelle Differenz nicht als Bereicherung, sondern als Bedrohung wahrgenommen wird, entstehen identitäre Abschottungsbewegungen, die den Kulturaustausch als Gefahr stilisieren. Die entscheidende Frage ist daher nicht, ob sich Kulturen verändern — das tun sie immer —, sondern wie eine Gesellschaft mit dieser Veränderung umgeht: offen und dialogbereit oder ängstlich und abgrenzend.",
+      "text_en": "Both. The opportunity lies in cultural enrichment, in access to a diversity of perspectives and forms of expression that were not available to previous generations. The risk lies in the instrumentalization of cultural identity for political purposes. When cultural difference is perceived not as enrichment but as a threat, identitarian isolation movements emerge that stylize cultural exchange as a danger. The decisive question is therefore not whether cultures change — they always do — but how a society deals with this change: openly and ready for dialogue, or anxiously and demarcating."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hält Prof. Demir von der These, Globalisierung führe zu kultureller Homogenisierung?",
+      "text_en": "What does Prof. Demir think of the thesis that globalization leads to cultural homogenization?",
+      "options": [
+        "a) Sie stimmt dieser These vollständig zu.",
+        "b) Sie hält sie für eine unzulässige Vereinfachung.",
+        "c) Sie bestätigt die These mit Einschränkungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Prof. Demir hält die Homogenisierungsthese für eine unzulässige Vereinfachung; stattdessen beobachtet sie einen dialektischen Prozess.",
+      "explanation_en": "Prof. Demir considers the homogenization thesis an inadmissible simplification; instead she observes a dialectical process."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Prof. Demir unter dem Begriff Glokalisierung?",
+      "text_en": "What does Prof. Demir understand by the term glocalization?",
+      "options": [
+        "a) Die vollständige Ablösung lokaler Kulturen durch globale Trends.",
+        "b) Die Rückkehr zu vorindustriellen Kulturformen.",
+        "c) Die Verschränkung von globalen und lokalen Dynamiken."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Glokalisierung bezeichnet die Verschränkung von globalen und lokalen Dynamiken — kulturelle Identität als Aushandlungsprozess.",
+      "explanation_en": "Glocalization refers to the intertwining of global and local dynamics — cultural identity as a negotiation process."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Rolle spielen digitale Medien laut Prof. Demir für diasporische Gemeinschaften?",
+      "text_en": "What role do digital media play for diasporic communities according to Prof. Demir?",
+      "options": [
+        "a) Sie haben keinen wesentlichen Einfluss auf kulturelle Identitäten.",
+        "b) Sie beschleunigen den Verlust traditioneller kultureller Praktiken.",
+        "c) Sie ermöglichen die Aufrechterhaltung kultureller Praktiken über nationale Grenzen hinweg."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Digitale Medien ermöglichen diasporischen Gemeinschaften, kulturelle Praktiken über nationale Grenzen hinweg aufrechtzuerhalten und transnationale Kulturräume zu schaffen.",
+      "explanation_en": "Digital media enable diasporic communities to maintain cultural practices across national borders and create transnational cultural spaces."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worin sieht Prof. Demir das Risiko der Globalisierung für kulturelle Identität?",
+      "text_en": "What does Prof. Demir see as the risk of globalization for cultural identity?",
+      "options": [
+        "a) Im vollständigen Verschwinden aller nationalen Kulturen.",
+        "b) In der mangelnden digitalen Infrastruktur vieler Länder.",
+        "c) In der Instrumentalisierung kultureller Identität für politische Zwecke."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Risiko liegt in der Instrumentalisierung kultureller Identität für politische Zwecke und der Entstehung identitärer Abschottungsbewegungen.",
+      "explanation_en": "The risk lies in the instrumentalization of cultural identity for political purposes and the emergence of identitarian isolation movements."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Prof. Demir die entscheidende gesellschaftliche Frage im Umgang mit kulturellem Wandel?",
+      "text_en": "What is the decisive societal question in dealing with cultural change according to Prof. Demir?",
+      "options": [
+        "a) Wie eine Gesellschaft mit kultureller Veränderung umgeht — offen oder abgrenzend.",
+        "b) Ob Kulturen sich überhaupt verändern.",
+        "c) Ob der Staat kulturellen Wandel gesetzlich regulieren sollte."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die entscheidende Frage ist nicht, ob sich Kulturen verändern, sondern wie die Gesellschaft damit umgeht: offen und dialogbereit oder ängstlich und abgrenzend.",
+      "explanation_en": "The decisive question is not whether cultures change but how society deals with it: openly and ready for dialogue, or anxiously and demarcating."
+    }
+  ]
+}

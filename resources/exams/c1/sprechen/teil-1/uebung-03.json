@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-1-003",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Gentrifizierung und das Recht auf Stadt",
+  "instructions": "Sie sollen zu einem komplexen Thema Stellung nehmen. Halten Sie einen strukturierten Vortrag und diskutieren Sie anschließend mit dem Prüfer / der Prüferin.",
+  "situation_de": "In vielen Großstädten steigen die Mieten rapide an, traditionelle Viertel verändern sich grundlegend und langjährige Bewohnerinnen und Bewohner werden verdrängt. Dieses Phänomen, bekannt als Gentrifizierung, wird einerseits als natürlicher Prozess der Stadtentwicklung betrachtet und andererseits als soziale Ungerechtigkeit kritisiert. Halten Sie einen strukturierten Vortrag, in dem Sie verschiedene Aspekte der Gentrifizierung beleuchten und Ihre Position zum sogenannten Recht auf Stadt darlegen.",
+  "situation_en": "In many large cities, rents are rising rapidly, traditional neighborhoods are fundamentally changing, and long-term residents are being displaced. This phenomenon, known as gentrification, is on one hand viewed as a natural process of urban development and on the other criticized as social injustice. Give a structured presentation in which you examine various aspects of gentrification and present your position on the so-called right to the city.",
+  "discussion_points": [
+    "Ursachen der Gentrifizierung: Welche wirtschaftlichen und sozialen Faktoren treiben die Aufwertung von Stadtvierteln voran? (Causes of gentrification: What economic and social factors drive the upgrading of urban neighborhoods?)",
+    "Verdrängung und soziale Folgen: Wie wirkt sich die Gentrifizierung auf einkommensschwache Bevölkerungsgruppen und gewachsene Gemeinschaften aus? (Displacement and social consequences: How does gentrification affect low-income population groups and established communities?)",
+    "Wohnungspolitische Instrumente: Welche Maßnahmen — wie Mietpreisbremse, sozialer Wohnungsbau oder Milieuschutz — sind wirksam? (Housing policy instruments: Which measures — such as rent control, social housing, or milieu protection — are effective?)",
+    "Stadtplanung und Partizipation: Inwieweit sollten Bewohnerinnen und Bewohner an Entscheidungen über die Entwicklung ihres Viertels beteiligt werden? (Urban planning and participation: To what extent should residents be involved in decisions about the development of their neighborhood?)",
+    "Recht auf Stadt: Gibt es ein moralisches oder gar rechtliches Anrecht darauf, in seinem angestammten Viertel wohnen bleiben zu können? (Right to the city: Is there a moral or even legal claim to being able to remain living in one's established neighborhood?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über Gentrifizierung und das sogenannte Recht auf Stadt sprechen. Dieses Thema berührt grundlegende Fragen sozialer Gerechtigkeit und städtischer Entwicklung. Meine zentrale These lautet: Gentrifizierung ist kein unausweichliches Naturgesetz, sondern das Ergebnis politischer Entscheidungen — und kann daher auch politisch gestaltet werden. Zunächst zu den Ursachen: Gentrifizierung entsteht typischerweise dort, wo mehrere Faktoren zusammentreffen — steigende Nachfrage nach urbanem Wohnraum, Investitionen in die Infrastruktur, kulturelle Aufwertung durch Gastronomie und Kreativwirtschaft sowie spekulative Immobilieninvestitionen. Man könnte argumentieren, dass dieser Prozess positive Seiten hat: verfallene Gebäude werden saniert, die öffentliche Sicherheit verbessert sich, das kulturelle Angebot wird vielfältiger.",
+      "text_en": "Today I would like to talk about gentrification and the so-called right to the city. This topic touches on fundamental questions of social justice and urban development. My central thesis is: Gentrification is not an inevitable law of nature, but the result of political decisions — and can therefore also be shaped politically. First, regarding the causes: Gentrification typically arises where several factors converge — rising demand for urban housing, investments in infrastructure, cultural upgrading through gastronomy and the creative economy, and speculative real estate investments. One could argue that this process has positive sides: dilapidated buildings are renovated, public safety improves, the cultural offerings become more diverse."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dessen ungeachtet darf man die Kehrseite nicht ausblenden: Die Verdrängung einkommensschwacher Haushalte und alteingesessener Bewohnerinnen und Bewohner stellt einen gravierenden sozialen Einschnitt dar. Gewachsene Nachbarschaften werden zerstört, soziale Netzwerke zerbrechen, und die kulturelle Identität ganzer Viertel geht verloren. Daraus ergibt sich ein fundamentales Gerechtigkeitsproblem.",
+      "text_en": "Notwithstanding this, one must not ignore the downside: The displacement of low-income households and long-established residents represents a severe social disruption. Established neighborhoods are destroyed, social networks break apart, and the cultural identity of entire neighborhoods is lost. From this arises a fundamental problem of justice."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben die Problematik gut umrissen. Aber wie stehen Sie konkret zur Mietpreisbremse? Kritiker sagen, sie verschärfe das Problem langfristig, weil sie Investitionen in den Wohnungsbau bremse.",
+      "text_en": "You have outlined the problem well. But what is your specific view on rent control? Critics say it worsens the problem in the long run because it slows investment in housing construction."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Mietpreisbremse ist ein gutes Beispiel dafür, wie komplex wohnungspolitische Maßnahmen sind. Unter Berücksichtigung der bisherigen Erfahrungen würde ich sagen, dass sie als Instrument allein nicht ausreicht. Sie kann kurzfristig Preissteigerungen abmildern, löst aber das Grundproblem — den Mangel an bezahlbarem Wohnraum — nicht. Weitaus wirksamer wäre eine konsequente Ausweitung des sozialen Wohnungsbaus, kombiniert mit einer stärkeren Regulierung von Immobilienspekulation.",
+      "text_en": "Rent control is a good example of how complex housing policy measures are. Considering the experiences so far, I would say that it alone is not sufficient as an instrument. It can mitigate price increases in the short term, but does not solve the fundamental problem — the shortage of affordable housing. Far more effective would be a consistent expansion of social housing construction, combined with stronger regulation of real estate speculation."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und das Konzept des Rechts auf Stadt — ist das für Sie eher eine politische Forderung oder sollte es tatsächlich rechtlich verankert werden?",
+      "text_en": "And the concept of the right to the city — is that for you more of a political demand or should it actually be legally anchored?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist eine sehr grundsätzliche Frage. Ich würde das Recht auf Stadt als ein normatives Konzept verstehen, das über das individuelle Mietrecht hinausgeht. Es geht im Kern darum, dass die Stadt als gemeinsamer Lebensraum allen gehört und nicht primär als Renditeobjekt behandelt werden darf. Ob sich daraus ein einklagbares subjektives Recht ableiten lässt, ist juristisch umstritten. Aber als politische Leitidee halte ich es für unverzichtbar.",
+      "text_en": "That is a very fundamental question. I would understand the right to the city as a normative concept that goes beyond individual tenancy law. At its core, it is about the city as a shared living space belonging to everyone and not being treated primarily as an investment object. Whether a legally enforceable subjective right can be derived from this is legally disputed. But as a guiding political idea, I consider it indispensable."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Das Konzept des Rechts auf Stadt ist ein wichtiger Gedanke. Lässt sich das Ihrer Meinung nach auch praktisch umsetzen?",
+      "text_en": "The concept of the right to the city is an important idea. Can it, in your opinion, also be practically implemented?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Abschließend möchte ich betonen, dass eine sozialverträgliche Stadtentwicklung keine Utopie sein muss. Erfolgreiche Beispiele aus anderen europäischen Städten zeigen, dass es durchaus möglich ist, wirtschaftliche Dynamik und soziale Durchmischung in Einklang zu bringen — vorausgesetzt, es gibt den politischen Willen dazu.",
+      "text_en": "In conclusion, I would like to emphasize that socially compatible urban development does not have to be a utopia. Successful examples from other European cities show that it is entirely possible to reconcile economic dynamism and social mixing — provided there is the political will to do so."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank. Wenn Sie eine Botschaft an die Stadtpolitik richten könnten, was wäre der wichtigste Punkt?",
+      "text_en": "Thank you very much. If you could address one message to urban policymakers, what would be the most important point?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine Kernbotschaft wäre: Investiert in gemeinwohlorientierte Stadtentwicklung, bevor es zu spät ist. Sobald die Verdrängung einmal in Gang gesetzt ist, lässt sie sich kaum noch rückgängig machen. Prävention — etwa durch kommunalen Grundstückserwerb und langfristige Mietbindungen — ist wesentlich kostengünstiger und wirksamer als nachträgliche Reparaturmaßnahmen.",
+      "text_en": "My core message would be: Invest in common-good-oriented urban development before it is too late. Once displacement has been set in motion, it can hardly be reversed. Prevention — for example through municipal land acquisition and long-term rent commitments — is considerably more cost-effective and more effective than retroactive repair measures."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}
