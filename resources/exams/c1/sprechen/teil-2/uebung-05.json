@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-2-005",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Planung einer Fachkonferenz zum Thema Digitalisierung",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte und einigen Sie sich auf einen Vorschlag.",
+  "situation_de": "Sie arbeiten beide in einem Branchenverband und sollen eine zweitägige Fachkonferenz zum Thema 'Digitale Transformation — Chancen und Herausforderungen' organisieren. Die Konferenz richtet sich an Führungskräfte, Fachleute und politische Entscheidungsträger. Sie müssen das inhaltliche Programm, das Format, die Referentenauswahl und die Logistik planen. Dabei sollen sowohl wirtschaftliche als auch gesellschaftliche und ethische Aspekte der Digitalisierung berücksichtigt werden. Erarbeiten Sie gemeinsam ein Konferenzkonzept.",
+  "situation_en": "You both work in an industry association and are to organize a two-day professional conference on the topic 'Digital Transformation — Opportunities and Challenges.' The conference is aimed at executives, specialists, and political decision-makers. You must plan the content program, format, speaker selection, and logistics. Both economic as well as societal and ethical aspects of digitalization should be considered. Develop a conference concept together.",
+  "discussion_points": [
+    "Thematische Schwerpunkte: Welche Aspekte der Digitalisierung — KI, Datenschutz, Arbeitswelt der Zukunft, digitale Bildung — sollten prioritär behandelt werden? (Thematic focus areas: Which aspects of digitalization — AI, data protection, future of work, digital education — should be treated as priorities?)",
+    "Konferenzformat: Welche Mischung aus Keynotes, Podiumsdiskussionen, Workshops und interaktiven Formaten ist am wirkungsvollsten? (Conference format: Which mix of keynotes, panel discussions, workshops, and interactive formats is most effective?)",
+    "Referentenauswahl: Wie stellen wir ein ausgewogenes Programm sicher — Wissenschaft und Praxis, verschiedene Branchen, Diversität der Stimmen? (Speaker selection: How do we ensure a balanced program — academia and practice, various industries, diversity of voices?)",
+    "Hybrides Format: Sollte die Konferenz auch digital zugänglich sein, und wie lässt sich ein gleichwertiges Erlebnis für Online-Teilnehmende schaffen? (Hybrid format: Should the conference also be digitally accessible, and how can an equivalent experience be created for online participants?)",
+    "Nachhaltigkeit und Dokumentation: Wie können die Ergebnisse der Konferenz gesichert und für die weitere Arbeit des Verbands genutzt werden? (Sustainability and documentation: How can the results of the conference be preserved and used for the association's further work?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde vorschlagen, dass wir zunächst die thematische Ausrichtung festlegen, bevor wir uns den organisatorischen Details widmen. Die Digitalisierung ist ein weites Feld — wir sollten uns auf die Themen konzentrieren, die für unsere Zielgruppe den größten Mehrwert bieten und gleichzeitig eine gesellschaftliche Relevanz haben.",
+      "text_en": "I would suggest that we first establish the thematic direction before we turn to the organizational details. Digitalization is a broad field — we should focus on the topics that offer the greatest added value for our target audience while also having societal relevance."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Ich sehe vier zentrale Themenfelder: erstens die Auswirkungen künstlicher Intelligenz auf Geschäftsmodelle und Arbeitsplätze, zweitens Datenschutz und digitale Souveränität, drittens die Transformation der Arbeitswelt — Stichwort New Work — und viertens digitale Bildung und Kompetenzentwicklung. Was meinen Sie?",
+      "text_en": "Agreed. I see four central thematic areas: first, the impact of artificial intelligence on business models and jobs, second, data protection and digital sovereignty, third, the transformation of the working world — keyword New Work — and fourth, digital education and competency development. What do you think?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Diese vier Schwerpunkte finde ich gut gewählt. Ich würde allerdings vorschlagen, dass wir einen übergreifenden ethischen Rahmen schaffen, der sich durch alle Themenblöcke zieht. Die Frage, wie wir die Digitalisierung menschenzentriert gestalten können, sollte keine separate Sektion sein, sondern eine Querschnittsperspektive, die in jedem Panel präsent ist.",
+      "text_en": "I think these four focus areas are well chosen. However, I would suggest that we create an overarching ethical framework that runs through all thematic blocks. The question of how we can shape digitalization in a human-centered way should not be a separate section, but a cross-cutting perspective present in every panel."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein überzeugender Ansatz. Und was das Format betrifft — ich halte es für wichtig, dass wir nicht nur Frontalvorträge anbieten, sondern auch interaktive Formate einplanen. Meine Erfahrung ist, dass Teilnehmende vor allem die Möglichkeit zum persönlichen Austausch schätzen. Wie wäre es mit einer Mischung aus Keynotes am Morgen, Workshops am Nachmittag und einem moderierten Networking-Event am Abend?",
+      "text_en": "A convincing approach. And regarding the format — I consider it important that we not only offer frontal lectures but also plan interactive formats. My experience is that participants especially value the opportunity for personal exchange. How about a mix of keynotes in the morning, workshops in the afternoon, and a moderated networking event in the evening?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das klingt nach einem ausgewogenen Programm. Für die Workshops würde ich das Format der Zukunftswerkstatt vorschlagen — dabei werden in kleinen Gruppen zunächst Probleme identifiziert, dann Visionen entwickelt und schließlich konkrete Handlungsempfehlungen erarbeitet. Die Ergebnisse könnten am zweiten Tag im Plenum vorgestellt und diskutiert werden. So entsteht ein greifbarer Mehrwert, den die Teilnehmenden mitnehmen können.",
+      "text_en": "That sounds like a balanced program. For the workshops, I would suggest the future workshop format — in small groups, problems are first identified, then visions are developed, and finally concrete recommendations for action are worked out. The results could be presented and discussed in the plenary on the second day. This creates tangible added value that participants can take away."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gute Idee. Kommen wir zur Referentenauswahl. Ich würde darauf achten, dass wir ein ausgewogenes Verhältnis zwischen Wissenschaft und Praxis herstellen. Außerdem sollten wir bewusst auf Diversität achten — nicht nur in Bezug auf Geschlecht, sondern auch hinsichtlich Alter, Herkunft und Branchenzugehörigkeit. Eine Konferenz über die Zukunft der Digitalisierung, bei der nur Vertreter der großen Technologiekonzerne sprechen, wäre wenig glaubwürdig.",
+      "text_en": "Good idea. Let us come to speaker selection. I would make sure that we create a balanced ratio between academia and practice. We should also consciously pay attention to diversity — not only regarding gender, but also age, background, and industry affiliation. A conference about the future of digitalization where only representatives of large technology corporations speak would have little credibility."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dem stimme ich vollkommen zu. Ich würde zusätzlich vorschlagen, dass wir gezielt Stimmen einladen, die kritische Perspektiven einbringen — etwa Datenschutzexperten, Gewerkschaftsvertreter oder Sozialwissenschaftler, die sich mit den Schattenseiten der Digitalisierung befassen. Eine kontroverse Podiumsdiskussion am zweiten Tag könnte ein Highlight der Konferenz werden.",
+      "text_en": "I completely agree. I would additionally suggest that we specifically invite voices that bring critical perspectives — for example data protection experts, union representatives, or social scientists who deal with the downsides of digitalization. A controversial panel discussion on the second day could become a highlight of the conference."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ausgezeichnet. Und was das hybride Format angeht — sollten wir die gesamte Konferenz streamen oder nur ausgewählte Sessions? Die technische Umsetzung eines vollständig hybriden Formats ist aufwendig und teuer.",
+      "text_en": "Excellent. And regarding the hybrid format — should we stream the entire conference or only selected sessions? The technical implementation of a fully hybrid format is elaborate and expensive."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Angesichts der begrenzten Ressourcen würde ich empfehlen, die Keynotes und die zentrale Podiumsdiskussion live zu streamen und die Workshops ausschließlich in Präsenz durchzuführen. Für die Online-Teilnehmenden könnten wir stattdessen eine virtuelle Networking-Plattform einrichten, auf der sie sich in thematischen Räumen austauschen können. So schaffen wir ein differenziertes Angebot, ohne den Aufwand ins Unermessliche zu treiben.",
+      "text_en": "Given the limited resources, I would recommend live-streaming the keynotes and the central panel discussion and conducting the workshops exclusively in person. For online participants, we could instead set up a virtual networking platform where they can exchange ideas in thematic rooms. This way we create a differentiated offering without driving the effort to immeasurable levels."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das halte ich für einen vernünftigen Kompromiss. Fassen wir zusammen: Vier thematische Schwerpunkte mit einer ethischen Querschnittsperspektive, ein Mischformat aus Keynotes, Zukunftswerkstätten und Networking, eine diverse Referentenauswahl mit bewusst einbezogenen kritischen Stimmen, ein teilhybrides Format mit Live-Streaming der Hauptveranstaltungen und eine virtuelle Networking-Plattform. Dazu eine systematische Dokumentation der Ergebnisse als Positionspapier des Verbands. Sind wir uns einig?",
+      "text_en": "I consider that a reasonable compromise. Let us summarize: Four thematic focus areas with an ethical cross-cutting perspective, a mixed format of keynotes, future workshops, and networking, a diverse speaker selection with deliberately included critical voices, a partially hybrid format with live streaming of the main events and a virtual networking platform. Additionally, systematic documentation of the results as a position paper of the association. Are we in agreement?"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

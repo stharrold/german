@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-1-003",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Sprachpolitik in mehrsprachigen Gesellschaften",
+  "instructions": "Lesen Sie den folgenden wissenschaftlichen Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die sprachpolitische Gestaltung mehrsprachiger Gesellschaften gehört zu den komplexesten Herausforderungen moderner Staatlichkeit. Während einige Länder wie die Schweiz mit ihrem Territorialprinzip — jede Region hat eine offizielle Amtssprache — ein international anerkanntes Modell der institutionalisierten Mehrsprachigkeit geschaffen haben, ringen andere Staaten mit der Frage, wie sprachliche Vielfalt gefördert werden kann, ohne den gesellschaftlichen Zusammenhalt zu gefährden.\n\nLinguistische Forschungen belegen, dass die Bevorzugung einer Sprache im öffentlichen Raum weitreichende sozioökonomische Konsequenzen hat. Sprecher von Minderheitensprachen sind häufig im Bildungssystem benachteiligt, haben eingeschränkten Zugang zu staatlichen Dienstleistungen und erfahren auf dem Arbeitsmarkt systematische Diskriminierung. Eine umfassende Studie der Europäischen Kommission hat gezeigt, dass in Regionen mit aktiver Sprachförderungspolitik die Bildungsabschlüsse von Minderheitensprechern um durchschnittlich 18 Prozent höher liegen als in vergleichbaren Regionen ohne solche Maßnahmen.\n\nDennoch ist die Implementierung wirksamer Sprachpolitik mit erheblichen praktischen Schwierigkeiten verbunden. Die Bereitstellung mehrsprachiger Verwaltungsdienstleistungen, die Ausbildung qualifizierter Lehrkräfte für den muttersprachlichen Unterricht und die Entwicklung standardisierter Prüfungsformate in Minderheitensprachen erfordern beträchtliche finanzielle und personelle Ressourcen. Hinzu kommt die Gefahr einer politischen Instrumentalisierung: Sprachfragen werden nicht selten von populistischen Bewegungen aufgegriffen, die sprachliche Vielfalt als Bedrohung der nationalen Identität darstellen. Die wissenschaftliche Evidenz widerspricht dieser Darstellung jedoch eindeutig: Gesellschaften, die Mehrsprachigkeit institutionell fördern, weisen in der Regel eine höhere soziale Kohäsion und wirtschaftliche Produktivität auf als solche, die auf sprachliche Homogenität setzen.",
+    "text_en": "The language-political organization of multilingual societies is among the most complex challenges of modern statehood. While some countries like Switzerland, with their territorial principle — each region has an official administrative language — have created an internationally recognized model of institutionalized multilingualism, other states struggle with the question of how linguistic diversity can be promoted without endangering social cohesion.\n\nLinguistic research demonstrates that favoring one language in public spaces has far-reaching socioeconomic consequences. Speakers of minority languages are frequently disadvantaged in the education system, have limited access to government services, and experience systematic discrimination in the labor market. A comprehensive study by the European Commission has shown that in regions with active language promotion policies, educational attainment of minority speakers is on average 18 percent higher than in comparable regions without such measures.\n\nNevertheless, implementing effective language policy is associated with considerable practical difficulties. Providing multilingual administrative services, training qualified teachers for mother-tongue instruction, and developing standardized examination formats in minority languages require substantial financial and personnel resources. Additionally, there is the danger of political instrumentalization: language issues are not infrequently seized upon by populist movements that portray linguistic diversity as a threat to national identity. Scientific evidence, however, clearly contradicts this portrayal: societies that institutionally promote multilingualism typically exhibit higher social cohesion and economic productivity than those that aim for linguistic homogeneity.",
+    "source": "Fachzeitschrift",
+    "word_count": 215
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kennzeichnet das Schweizer Territorialprinzip?",
+      "text_en": "What characterizes the Swiss territorial principle?",
+      "options": [
+        "a) Jede Region hat eine offizielle Amtssprache.",
+        "b) Alle Bürger müssen alle vier Landessprachen beherrschen.",
+        "c) Die Bundesregierung bestimmt die Sprache jeder Region."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Territorialprinzip bedeutet, dass jede Region eine offizielle Amtssprache hat.",
+      "explanation_en": "The territorial principle means that each region has an official administrative language."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt die Studie der Europäischen Kommission?",
+      "text_en": "What does the European Commission study show?",
+      "options": [
+        "a) Sprachförderung hat keinen messbaren Einfluss auf Bildungserfolge.",
+        "b) Minderheitensprecher haben grundsätzlich bessere Bildungsabschlüsse.",
+        "c) Aktive Sprachförderung führt zu deutlich besseren Bildungsabschlüssen bei Minderheitensprechern."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "In Regionen mit aktiver Sprachförderung liegen die Bildungsabschlüsse von Minderheitensprechern um 18 Prozent höher.",
+      "explanation_en": "In regions with active language promotion, educational attainment of minority speakers is 18 percent higher."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie instrumentalisieren populistische Bewegungen laut Text die Sprachfrage?",
+      "text_en": "How do populist movements instrumentalize the language question according to the text?",
+      "options": [
+        "a) Sie fordern die Einführung weiterer Amtssprachen.",
+        "b) Sie stellen sprachliche Vielfalt als Bedrohung der nationalen Identität dar.",
+        "c) Sie setzen sich für die Rechte von Minderheitensprechern ein."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Populistische Bewegungen stellen sprachliche Vielfalt als Bedrohung der nationalen Identität dar.",
+      "explanation_en": "Populist movements portray linguistic diversity as a threat to national identity."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche praktische Schwierigkeit der Sprachpolitik wird im Text NICHT genannt?",
+      "text_en": "Which practical difficulty of language policy is NOT mentioned in the text?",
+      "options": [
+        "a) Die Entwicklung standardisierter Prüfungsformate.",
+        "b) Die Einführung einer einheitlichen Weltsprache.",
+        "c) Die Ausbildung qualifizierter Lehrkräfte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine einheitliche Weltsprache wird im Text nicht als praktische Schwierigkeit genannt.",
+      "explanation_en": "A unified world language is not mentioned in the text as a practical difficulty."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sagt die wissenschaftliche Evidenz über Mehrsprachigkeit?",
+      "text_en": "What does scientific evidence say about multilingualism?",
+      "options": [
+        "a) Sie führt langfristig zum Verfall der Nationalsprache.",
+        "b) Gesellschaften mit institutioneller Mehrsprachigkeit haben höhere soziale Kohäsion.",
+        "c) Sie hat weder positive noch negative Auswirkungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Gesellschaften, die Mehrsprachigkeit fördern, weisen höhere soziale Kohäsion und wirtschaftliche Produktivität auf.",
+      "explanation_en": "Societies that promote multilingualism exhibit higher social cohesion and economic productivity."
+    }
+  ]
+}

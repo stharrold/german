@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-4-004",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Freiheit und Verantwortung im digitalen Raum",
+  "instructions": "Lesen Sie den folgenden Essayauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Utopie des frühen Internets — ein herrschaftsfreier Raum unbegrenzter Kommunikation und demokratischer Teilhabe — hat sich als naive Illusion erwiesen. An die Stelle des offenen digitalen Marktplatzes der Ideen sind algorithmisch kuratierte Echokammern getreten, in denen Desinformation floriert, Hassrede sich ungehindert ausbreitet und die öffentliche Debatte in polarisierte Lager zerfällt. Die Frage, wie digitale Freiheit und gesellschaftliche Verantwortung in Einklang gebracht werden können, gehört zu den drängendsten philosophischen Herausforderungen der Gegenwart.\n\nDie libertäre Position, die jede Regulierung digitaler Inhalte als Zensur ablehnt, verkennt einen fundamentalen Unterschied zwischen klassischer Meinungsfreiheit und algorithmischer Verstärkung. Wenn ein einzelner Bürger seine Meinung auf dem Marktplatz äußert, ist das etwas kategorial anderes, als wenn ein Algorithmus diese Meinung millionenfach verstärkt, gezielt an besonders empfängliche Nutzer ausspielt und dabei systematisch die extremsten Positionen bevorzugt, weil diese die höchste Verweildauer erzeugen. Die algorithmische Verstärkung verwandelt individuelle Äußerungen in eine strukturelle Kraft, die demokratische Diskurse deformieren kann.\n\nDas bedeutet nicht, dass der Staat die Inhalte des Internets kontrollieren sollte — dies wäre tatsächlich ein autoritärer Eingriff. Die Regulierung muss vielmehr bei den Mechanismen der Verstärkung ansetzen: bei den Algorithmen, die über Sichtbarkeit und Reichweite entscheiden, bei den Geschäftsmodellen, die Aufmerksamkeit monetarisieren, und bei der Transparenz der Plattformarchitektur. Eine digitale Gesellschaft, die Freiheit mit Verantwortung verbinden will, muss die infrastrukturellen Bedingungen der Kommunikation demokratisch gestalten, ohne den Inhalt der Kommunikation selbst zu diktieren.",
+    "text_en": "The utopia of the early internet — a domination-free space of unlimited communication and democratic participation — has proven to be a naive illusion. In place of the open digital marketplace of ideas, algorithmically curated echo chambers have emerged in which disinformation flourishes, hate speech spreads unchecked, and public debate fragments into polarized camps. The question of how digital freedom and societal responsibility can be reconciled is among the most pressing philosophical challenges of the present.\n\nThe libertarian position, which rejects any regulation of digital content as censorship, misjudges a fundamental difference between classical freedom of speech and algorithmic amplification. When a single citizen expresses their opinion in the marketplace, that is something categorically different from when an algorithm amplifies that opinion millions of times, specifically targets it at particularly receptive users, and systematically favors the most extreme positions because these generate the highest engagement. Algorithmic amplification transforms individual expressions into a structural force that can deform democratic discourses.\n\nThis does not mean that the state should control the content of the internet — this would indeed be an authoritarian intervention. Regulation must rather target the mechanisms of amplification: the algorithms that decide visibility and reach, the business models that monetize attention, and the transparency of platform architecture. A digital society that wants to combine freedom with responsibility must democratically shape the infrastructural conditions of communication without dictating the content of communication itself.",
+    "source": "Essay",
+    "word_count": 225
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Internet-Utopie abgelöst?",
+      "text_en": "What has replaced the internet utopia?",
+      "options": [
+        "a) Ein weitgehend ungenutztes und irrelevantes Medium.",
+        "b) Ein vollständig regulierter und staatlich kontrollierter digitaler Raum.",
+        "c) Algorithmisch kuratierte Echokammern mit Desinformation und Polarisierung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "An die Stelle des offenen Marktplatzes sind algorithmisch kuratierte Echokammern getreten.",
+      "explanation_en": "Algorithmically curated echo chambers have replaced the open marketplace."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet laut dem Autor algorithmische Verstärkung von klassischer Meinungsfreiheit?",
+      "text_en": "What distinguishes algorithmic amplification from classical freedom of speech according to the author?",
+      "options": [
+        "a) Algorithmische Verstärkung betrifft nur politische Inhalte.",
+        "b) Klassische Meinungsfreiheit existiert im digitalen Raum nicht.",
+        "c) Algorithmen verwandeln individuelle Äußerungen in eine strukturelle Kraft, die Diskurse deformieren kann."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die algorithmische Verstärkung verwandelt individuelle Äußerungen in eine strukturelle Kraft.",
+      "explanation_en": "Algorithmic amplification transforms individual expressions into a structural force."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wo muss die Regulierung laut dem Autor ansetzen?",
+      "text_en": "Where must regulation start according to the author?",
+      "options": [
+        "a) Bei den Mechanismen der Verstärkung: Algorithmen, Geschäftsmodelle, Plattformtransparenz.",
+        "b) Bei der direkten Kontrolle aller Inhalte durch den Staat.",
+        "c) Bei der Abschaffung sozialer Medien."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Regulierung muss bei Algorithmen, Geschäftsmodellen und der Transparenz der Plattformarchitektur ansetzen.",
+      "explanation_en": "Regulation must target algorithms, business models, and platform architecture transparency."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum bevorzugen Algorithmen laut dem Text extreme Positionen?",
+      "text_en": "Why do algorithms favor extreme positions according to the text?",
+      "options": [
+        "a) Weil moderate Positionen technisch schwerer zu verarbeiten sind.",
+        "b) Weil sie von den Plattformbetreibern politisch gewollt sind.",
+        "c) Weil diese die höchste Verweildauer erzeugen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Algorithmen bevorzugen die extremsten Positionen, weil diese die höchste Verweildauer erzeugen.",
+      "explanation_en": "Algorithms favor the most extreme positions because these generate the highest engagement."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was soll eine verantwortungsvolle digitale Gesellschaft laut dem Autor gestalten?",
+      "text_en": "What should a responsible digital society shape according to the author?",
+      "options": [
+        "a) Die infrastrukturellen Bedingungen der Kommunikation, ohne den Inhalt zu diktieren.",
+        "b) Die Nutzungszeiten und Altersfreigaben für soziale Medien.",
+        "c) Die politischen Inhalte, die im Internet verbreitet werden dürfen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die infrastrukturellen Bedingungen der Kommunikation müssen demokratisch gestaltet werden, ohne den Inhalt zu diktieren.",
+      "explanation_en": "The infrastructural conditions of communication must be democratically shaped without dictating content."
+    }
+  ]
+}

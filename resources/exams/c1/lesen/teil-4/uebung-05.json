@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-4-005",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Das Paradox der Wahl",
+  "instructions": "Lesen Sie den folgenden Essayauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "In der westlichen Moderne gilt die individuelle Wahlfreiheit als einer der höchsten Werte überhaupt. Mehr Optionen, so die tief verwurzelte Überzeugung, bedeuten mehr Freiheit und damit mehr Glück. Diese Gleichsetzung von Wahlmöglichkeit und Wohlbefinden erweist sich bei näherer philosophischer und psychologischer Betrachtung jedoch als trügerisch. Das Paradox der Wahl — ein Begriff, den der Psychologe Barry Schwartz prägte — beschreibt das Phänomen, dass eine Zunahme von Optionen jenseits eines bestimmten Schwellenwerts nicht zu größerer Zufriedenheit führt, sondern zu Lähmung, Reue und einer diffusen Unzufriedenheit.\n\nDie psychologischen Mechanismen hinter diesem Paradox sind gut erforscht. Bei einer Vielzahl von Alternativen steigen die kognitiven Kosten der Entscheidungsfindung: Jede gewählte Option bedeutet den gleichzeitigen Verzicht auf zahlreiche andere, was ein Gefühl des Verlusts erzeugt. Hinzu kommt die Tyrannei des Vergleichens: Wenn hundert ähnliche Produkte zur Auswahl stehen, steigt die Wahrscheinlichkeit, dass die getroffene Wahl als suboptimal empfunden wird, weil stets ein vermeintlich besseres Produkt in Reichweite liegt. Die Verantwortung für das Ergebnis lastet zudem vollständig auf dem Individuum — bei wenigen Optionen kann man die Umstände beschuldigen; bei unbegrenzter Wahl nur sich selbst.\n\nDieses Paradox hat weitreichende gesellschaftliche Implikationen, die weit über das Konsumverhalten hinausgehen. Die Pluralisierung von Lebensentwürfen — an sich ein emanzipatorischer Fortschritt — kann zur Quelle existenzieller Verunsicherung werden, wenn sie nicht von stabilen sozialen Bindungen und kulturellen Orientierungsrahmen begleitet wird. Der Existenzphilosoph Kierkegaard beschrieb die Angst als Schwindel der Freiheit: Je mehr Möglichkeiten sich eröffnen, desto schwerer wiegt die Verantwortung für die eigene Lebensgestaltung und desto bedrohlicher erscheint die Möglichkeit, die falsche Entscheidung getroffen zu haben.",
+    "text_en": "In Western modernity, individual freedom of choice is considered one of the highest values. More options, according to deeply rooted conviction, mean more freedom and thus more happiness. This equation of choice and well-being, however, proves deceptive upon closer philosophical and psychological examination. The paradox of choice — a term coined by psychologist Barry Schwartz — describes the phenomenon that an increase in options beyond a certain threshold does not lead to greater satisfaction but to paralysis, regret, and a diffuse dissatisfaction.\n\nThe psychological mechanisms behind this paradox are well researched. With a multitude of alternatives, the cognitive costs of decision-making increase: every chosen option simultaneously means forgoing numerous others, which creates a feeling of loss. Added to this is the tyranny of comparison: when a hundred similar products are available for selection, the likelihood increases that the choice made will be perceived as suboptimal, because a supposedly better product is always within reach. The responsibility for the outcome also rests entirely on the individual — with few options, one can blame circumstances; with unlimited choice, only oneself.\n\nThis paradox has far-reaching societal implications that go well beyond consumer behavior. The pluralization of life paths — in itself an emancipatory progress — can become a source of existential insecurity when not accompanied by stable social bonds and cultural orientation frameworks. The existential philosopher Kierkegaard described anxiety as the dizziness of freedom: the more possibilities open up, the heavier weighs the responsibility for one's own life design and the more threatening appears the possibility of having made the wrong decision.",
+    "source": "Essay",
+    "word_count": 256
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was beschreibt das Paradox der Wahl?",
+      "text_en": "What does the paradox of choice describe?",
+      "options": [
+        "a) Dass zu viele Optionen zu Lähmung, Reue und Unzufriedenheit führen können.",
+        "b) Dass weniger Optionen immer besser sind als viele.",
+        "c) Dass Menschen grundsätzlich ungern Entscheidungen treffen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Jenseits eines Schwellenwerts führt die Zunahme von Optionen zu Lähmung, Reue und Unzufriedenheit.",
+      "explanation_en": "Beyond a threshold, an increase in options leads to paralysis, regret, and dissatisfaction."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was erzeugt bei einer Vielzahl von Alternativen ein Verlustgefühl?",
+      "text_en": "What creates a feeling of loss with a multitude of alternatives?",
+      "options": [
+        "a) Die hohen Kosten der verfügbaren Produkte.",
+        "b) Der gleichzeitige Verzicht auf zahlreiche andere Optionen bei jeder Wahl.",
+        "c) Die Unvergleichbarkeit der verschiedenen Optionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Jede gewählte Option bedeutet den Verzicht auf zahlreiche andere, was ein Verlustgefühl erzeugt.",
+      "explanation_en": "Every chosen option means forgoing numerous others, creating a feeling of loss."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was beschrieb Kierkegaard als Schwindel der Freiheit?",
+      "text_en": "What did Kierkegaard describe as the dizziness of freedom?",
+      "options": [
+        "a) Das Gefühl der Euphorie bei der Entdeckung neuer Lebenswege.",
+        "b) Die Angst angesichts der Verantwortung für die eigene Lebensgestaltung bei wachsenden Möglichkeiten.",
+        "c) Die Orientierungslosigkeit nach dem Verlust religiöser Gewissheiten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kierkegaard beschrieb die Angst als Schwindel der Freiheit angesichts wachsender Verantwortung für die Lebensgestaltung.",
+      "explanation_en": "Kierkegaard described anxiety as the dizziness of freedom in the face of growing responsibility for life design."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann kann die Pluralisierung von Lebensentwürfen problematisch werden?",
+      "text_en": "When can the pluralization of life paths become problematic?",
+      "options": [
+        "a) Wenn sie nicht von stabilen sozialen Bindungen und kulturellen Orientierungsrahmen begleitet wird.",
+        "b) Wenn sie ausschließlich wohlhabenden Bevölkerungsgruppen offensteht.",
+        "c) Wenn sie von staatlicher Seite eingeschränkt wird."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Pluralisierung kann zur existenziellen Verunsicherung werden ohne stabile soziale Bindungen und kulturelle Orientierung.",
+      "explanation_en": "Pluralization can become existential insecurity without stable social bonds and cultural orientation."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was passiert bei unbegrenzter Wahl mit der Verantwortung für das Ergebnis?",
+      "text_en": "What happens to the responsibility for the outcome with unlimited choice?",
+      "options": [
+        "a) Sie lastet vollständig auf dem Individuum.",
+        "b) Sie wird gleichmäßig auf die Gesellschaft verteilt.",
+        "c) Sie wird den Anbietern der Optionen zugeschrieben."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Bei unbegrenzter Wahl kann man nur sich selbst für das Ergebnis verantwortlich machen.",
+      "explanation_en": "With unlimited choice, one can only blame oneself for the outcome."
+    }
+  ]
+}

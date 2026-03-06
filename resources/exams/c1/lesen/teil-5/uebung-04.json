@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-5-004",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Energieeffizienz im Gebäudesektor",
+  "instructions": "Lesen Sie den folgenden Berichtsauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Der Gebäudesektor ist für rund 35 Prozent des gesamten Endenergieverbrauchs und etwa 30 Prozent der energiebedingten CO2-Emissionen verantwortlich. Trotz ambitionierter politischer Zielvorgaben zur Gebäudesanierung bleibt die tatsächliche Sanierungsquote mit knapp einem Prozent des Gesamtbestands pro Jahr weit hinter dem Erforderlichen zurück. Um die Klimaziele im Gebäudesektor zu erreichen, müsste die jährliche Sanierungsrate nach Berechnungen des Berichts mindestens verdreifacht werden.\n\nDie Gründe für das schleppende Sanierungstempo sind vielschichtig. Für Eigentümer stellen die hohen Investitionskosten einer energetischen Gebäudesanierung — im Durchschnitt zwischen 40.000 und 80.000 Euro für ein Einfamilienhaus — eine erhebliche finanzielle Hürde dar. Die bestehenden Förderprogramme werden von vielen Hausbesitzern als bürokratisch und unzureichend empfunden. Im Mietwohnungsbestand kommt das sogenannte Mieter-Vermieter-Dilemma hinzu: Die Investitionskosten trägt der Vermieter, die Energiekosteneinsparung kommt jedoch dem Mieter zugute, was den wirtschaftlichen Anreiz für Vermieter minimiert.\n\nDer Bericht schlägt eine Kombination aus ordnungsrechtlichen und marktwirtschaftlichen Instrumenten vor. Verbindliche Mindestenergiestandards für Bestandsgebäude bei Eigentümerwechsel könnten einen kontinuierlichen Sanierungsimpuls setzen. Gleichzeitig sollten zinsgünstige Sanierungskredite mit langen Laufzeiten und steuerliche Abschreibungsmöglichkeiten die finanzielle Belastung der Eigentümer mildern. Für den Mietwohnungsbestand empfiehlt der Bericht eine Reform der Modernisierungsumlage, die eine faire Kostenaufteilung zwischen Mietern und Vermietern gewährleistet und Anreize für energetische Sanierungen schafft, ohne Mieter durch unverhältnismäßige Mieterhöhungen zu belasten.",
+    "text_en": "The building sector accounts for approximately 35 percent of total final energy consumption and about 30 percent of energy-related CO2 emissions. Despite ambitious political targets for building renovation, the actual renovation rate at just under one percent of total stock per year remains far behind what is required. To achieve climate targets in the building sector, the annual renovation rate would need to be at least tripled according to the report's calculations.\n\nThe reasons for the sluggish renovation pace are multilayered. For owners, the high investment costs of energy-efficient building renovation — on average between 40,000 and 80,000 euros for a single-family house — represent a considerable financial hurdle. Existing subsidy programs are perceived by many homeowners as bureaucratic and insufficient. In rental housing stock, the so-called tenant-landlord dilemma is added: the investment costs are borne by the landlord, but the energy cost savings benefit the tenant, which minimizes the economic incentive for landlords.\n\nThe report proposes a combination of regulatory and market-based instruments. Mandatory minimum energy standards for existing buildings upon change of ownership could provide a continuous renovation impulse. Simultaneously, low-interest renovation loans with long terms and tax depreciation opportunities should mitigate the financial burden on owners. For rental housing stock, the report recommends a reform of the modernization surcharge that ensures a fair cost sharing between tenants and landlords and creates incentives for energy renovations without burdening tenants with disproportionate rent increases.",
+    "source": "Bericht",
+    "word_count": 201
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie hoch ist die aktuelle Sanierungsquote im Gebäudebestand?",
+      "text_en": "What is the current renovation rate in the building stock?",
+      "options": [
+        "a) Knapp ein Prozent pro Jahr — weit hinter dem Erforderlichen.",
+        "b) Etwa drei Prozent pro Jahr — im Zielkorridor.",
+        "c) Weniger als 0,5 Prozent — ein historischer Tiefstand."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Sanierungsquote beträgt knapp ein Prozent pro Jahr und müsste mindestens verdreifacht werden.",
+      "explanation_en": "The renovation rate is just under one percent per year and would need to be at least tripled."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was beschreibt das Mieter-Vermieter-Dilemma?",
+      "text_en": "What does the tenant-landlord dilemma describe?",
+      "options": [
+        "a) Dass Mieter sich weigern, Renovierungsarbeiten zuzulassen.",
+        "b) Dass beide Seiten gleichermaßen von Sanierungen profitieren.",
+        "c) Dass der Vermieter investiert, aber der Mieter von den Energiekosteneinsparungen profitiert."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Investitionskosten trägt der Vermieter, die Einsparung kommt dem Mieter zugute.",
+      "explanation_en": "The investment costs are borne by the landlord, but the savings benefit the tenant."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann sollen laut dem Bericht verbindliche Mindestenergiestandards greifen?",
+      "text_en": "When should mandatory minimum energy standards apply according to the report?",
+      "options": [
+        "a) Sofort für alle Bestandsgebäude ohne Ausnahme.",
+        "b) Nur bei Neubauten, nicht bei Bestandsgebäuden.",
+        "c) Bei Eigentümerwechsel von Bestandsgebäuden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Verbindliche Mindestenergiestandards für Bestandsgebäude sollen bei Eigentümerwechsel greifen.",
+      "explanation_en": "Mandatory minimum energy standards for existing buildings should apply upon change of ownership."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Prozent der CO2-Emissionen entfallen auf den Gebäudesektor?",
+      "text_en": "What percentage of CO2 emissions does the building sector account for?",
+      "options": [
+        "a) Etwa 30 Prozent der energiebedingten Emissionen.",
+        "b) Rund 50 Prozent aller Emissionen.",
+        "c) Weniger als 15 Prozent der Gesamtemissionen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Gebäudesektor ist für etwa 30 Prozent der energiebedingten CO2-Emissionen verantwortlich.",
+      "explanation_en": "The building sector accounts for about 30 percent of energy-related CO2 emissions."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt der Bericht für den Mietwohnungsbestand?",
+      "text_en": "What does the report recommend for rental housing stock?",
+      "options": [
+        "a) Die vollständige Übernahme der Sanierungskosten durch die Mieter.",
+        "b) Eine Reform der Modernisierungsumlage für faire Kostenaufteilung zwischen Mietern und Vermietern.",
+        "c) Ein Verbot energetischer Sanierungen in bewohnten Mietgebäuden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bericht empfiehlt eine Reform der Modernisierungsumlage für faire Kostenaufteilung.",
+      "explanation_en": "The report recommends a reform of the modernization surcharge for fair cost sharing."
+    }
+  ]
+}

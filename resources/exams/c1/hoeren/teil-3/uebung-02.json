@@ -1,0 +1,118 @@
+{
+  "id": "c1-hoeren-teil-3-002",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Beratungsgespräche in Behörden",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören die Texte einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Sachbearbeiterin",
+      "text_de": "Guten Tag, Herr Khoury. Sie haben einen Antrag auf Anerkennung Ihres ausländischen Hochschulabschlusses gestellt. Ich muss Sie darauf hinweisen, dass die Zuständigkeit für Ihr Fachgebiet — Bauingenieurwesen — bei der Ingenieurkammer liegt, nicht bei uns. Wir können lediglich eine Gleichwertigkeitsbescheinigung für allgemeinbildende Abschlüsse ausstellen. Für die berufsrechtliche Anerkennung müssen Sie sich an die zuständige Kammer wenden.",
+      "text_en": "Good day, Mr. Khoury. You have submitted an application for recognition of your foreign university degree. I must point out that the jurisdiction for your field — civil engineering — lies with the Chamber of Engineers, not with us. We can only issue an equivalence certificate for general educational qualifications. For professional recognition, you need to contact the relevant chamber."
+    },
+    {
+      "speaker": "Gespräch 1 — Antragsteller",
+      "text_de": "Das war mir nicht bewusst. Können Sie mir die Kontaktdaten der Ingenieurkammer geben? Und brauche ich die Gleichwertigkeitsbescheinigung trotzdem als Voraussetzung für den Antrag bei der Kammer?",
+      "text_en": "I was not aware of that. Can you give me the contact details of the Chamber of Engineers? And do I still need the equivalence certificate as a prerequisite for the application at the chamber?"
+    },
+    {
+      "speaker": "Gespräch 1 — Sachbearbeiterin",
+      "text_de": "Die Ingenieurkammer verlangt in der Regel eine beglaubigte Übersetzung Ihrer Zeugnisse sowie eine Äquivalenzbescheinigung der Zentralstelle für ausländisches Bildungswesen. Das ist ein anderes Verfahren als unser Anerkennungsverfahren. Ich gebe Ihnen eine Checkliste mit, auf der alle erforderlichen Unterlagen aufgelistet sind.",
+      "text_en": "The Chamber of Engineers usually requires a certified translation of your certificates as well as an equivalence certificate from the Central Office for Foreign Education. That is a different procedure from our recognition process. I will give you a checklist that lists all required documents."
+    },
+    {
+      "speaker": "Gespräch 2 — Beraterin im Jobcenter",
+      "text_de": "Frau Petersen, ich sehe hier, dass Ihre Eingliederungsvereinbarung in zwei Wochen ausläuft. Wir sollten heute über die nächsten Schritte sprechen. Die Umschulung zur medizinischen Fachangestellten, die wir besprochen hatten, beginnt im Herbst. Allerdings ist die Förderung durch einen Bildungsgutschein an die Bedingung geknüpft, dass Sie vorab einen Eignungstest beim Bildungsträger absolvieren. Haben Sie sich dort bereits angemeldet?",
+      "text_en": "Ms. Petersen, I see here that your integration agreement expires in two weeks. We should discuss the next steps today. The retraining to become a medical assistant that we discussed begins in autumn. However, the funding through an education voucher is contingent on you completing an aptitude test at the training provider beforehand. Have you already registered there?"
+    },
+    {
+      "speaker": "Gespräch 2 — Kundin",
+      "text_de": "Nein, noch nicht. Ich war unsicher, ob die Finanzierung tatsächlich genehmigt wird. Kann ich den Eignungstest auch machen, bevor der Gutschein offiziell ausgestellt ist?",
+      "text_en": "No, not yet. I was uncertain whether the financing would actually be approved. Can I take the aptitude test even before the voucher is officially issued?"
+    },
+    {
+      "speaker": "Gespräch 3 — Standesbeamter",
+      "text_de": "Herr Nakamura, für die Eheschließung mit einer deutschen Staatsbürgerin benötigen wir ein Ehefähigkeitszeugnis Ihres Heimatlandes. Da Japan dieses Dokument nicht ausstellt, können Sie ersatzweise eine Befreiung beim Oberlandesgericht beantragen. Dieses Verfahren dauert erfahrungsgemäß vier bis sechs Wochen. Bringen Sie bitte Ihren Reisepass, Ihre Geburtsurkunde und eine aktuelle Meldebestätigung zum Termin mit — alle Dokumente mit beglaubigter Übersetzung und Apostille.",
+      "text_en": "Mr. Nakamura, for the marriage to a German citizen we need a certificate of capacity to marry from your home country. Since Japan does not issue this document, you can alternatively apply for an exemption at the Higher Regional Court. This procedure typically takes four to six weeks. Please bring your passport, birth certificate, and a current registration confirmation to the appointment — all documents with certified translation and apostille."
+    },
+    {
+      "speaker": "Gespräch 3 — Antragsteller",
+      "text_de": "Verstanden. Ist die Apostille des japanischen Außenministeriums ausreichend, oder brauche ich eine zusätzliche Legalisation durch die deutsche Botschaft?",
+      "text_en": "Understood. Is the apostille from the Japanese Ministry of Foreign Affairs sufficient, or do I need additional legalization by the German embassy?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum kann die Behörde Herrn Khourys Antrag nicht bearbeiten?",
+      "text_en": "Why can the authority not process Mr. Khoury's application?",
+      "options": [
+        "a) Weil sein Abschluss zu alt ist und nicht mehr anerkannt werden kann.",
+        "b) Weil seine Unterlagen unvollständig eingereicht wurden.",
+        "c) Weil die Zuständigkeit für Bauingenieurwesen bei der Ingenieurkammer liegt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die berufsrechtliche Anerkennung für Bauingenieurwesen liegt in der Zuständigkeit der Ingenieurkammer, nicht der allgemeinen Anerkennungsbehörde.",
+      "explanation_en": "Professional recognition for civil engineering falls under the jurisdiction of the Chamber of Engineers, not the general recognition authority."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was braucht Herr Khoury für den Antrag bei der Ingenieurkammer?",
+      "text_en": "What does Mr. Khoury need for the application at the Chamber of Engineers?",
+      "options": [
+        "a) Eine Empfehlung seines früheren Arbeitgebers.",
+        "b) Nur seinen Originalabschluss ohne weitere Dokumente.",
+        "c) Eine beglaubigte Übersetzung der Zeugnisse und eine Äquivalenzbescheinigung der Zentralstelle."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Ingenieurkammer verlangt eine beglaubigte Übersetzung der Zeugnisse und eine Äquivalenzbescheinigung der Zentralstelle für ausländisches Bildungswesen.",
+      "explanation_en": "The Chamber of Engineers requires a certified translation of certificates and an equivalence certificate from the Central Office for Foreign Education."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Woran ist die Förderung der Umschulung durch einen Bildungsgutschein geknüpft?",
+      "text_en": "What is the funding for retraining through an education voucher contingent on?",
+      "options": [
+        "a) An den Nachweis einer bestimmten Berufserfahrung.",
+        "b) An das Bestehen eines Eignungstests beim Bildungsträger.",
+        "c) An die Empfehlung eines Arztes."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Förderung ist an die Bedingung geknüpft, dass vorab ein Eignungstest beim Bildungsträger absolviert wird.",
+      "explanation_en": "The funding is contingent on completing an aptitude test at the training provider beforehand."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum muss Herr Nakamura eine Befreiung beim Oberlandesgericht beantragen?",
+      "text_en": "Why does Mr. Nakamura need to apply for an exemption at the Higher Regional Court?",
+      "options": [
+        "a) Weil er noch nicht volljährig ist.",
+        "b) Weil seine Verlobte keine deutsche Staatsbürgerin ist.",
+        "c) Weil sein Heimatland Japan kein Ehefähigkeitszeugnis ausstellt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Da Japan kein Ehefähigkeitszeugnis ausstellt, kann Herr Nakamura ersatzweise eine Befreiung beim Oberlandesgericht beantragen.",
+      "explanation_en": "Since Japan does not issue a certificate of capacity to marry, Mr. Nakamura can alternatively apply for an exemption at the Higher Regional Court."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie lange dauert das Befreiungsverfahren beim Oberlandesgericht erfahrungsgemäß?",
+      "text_en": "How long does the exemption procedure at the Higher Regional Court typically take?",
+      "options": [
+        "a) Etwa zwei bis drei Wochen.",
+        "b) Drei bis sechs Monate.",
+        "c) Vier bis sechs Wochen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Befreiungsverfahren dauert erfahrungsgemäß vier bis sechs Wochen.",
+      "explanation_en": "The exemption procedure typically takes four to six weeks."
+    }
+  ]
+}
