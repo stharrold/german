@@ -1,0 +1,25 @@
+{
+  "id": "a1-schreiben-aufgabe-2-005",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Geburtstagsgruß",
+  "instructions": "Schreiben Sie eine kurze Nachricht (ca. 20-30 Wörter). (Write a short message, approx. 20-30 words.)",
+  "situation_de": "Ihre Freundin Sara hat morgen Geburtstag. Schreiben Sie ihr eine Geburtstagsnachricht.",
+  "situation_en": "Your friend Sara has her birthday tomorrow. Write her a birthday message.",
+  "target_word_count": 25,
+  "required_points": [
+    "Zum Geburtstag gratulieren (Wish happy birthday)",
+    "Etwas Nettes wünschen (Wish something nice)",
+    "Fragen, ob sie eine Party macht (Ask if she is having a party)"
+  ],
+  "model_answer": {
+    "text_de": "Liebe Sara, alles Gute zum Geburtstag! Ich wünsche dir viel Glück und Gesundheit. Machst du eine Party? Ich bringe gern einen Kuchen mit. Liebe Grüße",
+    "text_en": "Dear Sara, happy birthday! I wish you lots of happiness and health. Are you having a party? I would be happy to bring a cake. With love"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Wortschatz: Einfacher Wortschatz auf A1-Niveau (Vocabulary: Simple vocabulary at A1 level)",
+    "Strukturen: Einfache Sätze im Präsens sind korrekt (Structures: Simple sentences in present tense are correct)"
+  ]
+}

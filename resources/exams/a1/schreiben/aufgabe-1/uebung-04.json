@@ -1,0 +1,27 @@
+{
+  "id": "a1-schreiben-aufgabe-1-004",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Anmeldung im Fitnessstudio",
+  "instructions": "Füllen Sie das Formular aus. (Fill in the form.)",
+  "situation_de": "Sie möchten Mitglied in einem Fitnessstudio werden. Füllen Sie das Anmeldeformular aus.",
+  "situation_en": "You would like to become a member of a gym. Fill in the registration form.",
+  "target_word_count": 28,
+  "required_points": [
+    "Name und Geburtsdatum schreiben (Write name and date of birth)",
+    "Adresse und Telefonnummer angeben (Provide address and phone number)",
+    "Die gewünschte Mitgliedschaft wählen (Choose the desired membership)",
+    "Zahlungsmethode angeben (Provide payment method)",
+    "Datum und Unterschrift (Date and signature)"
+  ],
+  "model_answer": {
+    "text_de": "Familienname: Fischer\nVorname: Martin\nGeburtsdatum: 3. September 1992\nAdresse: Parkstraße 20, 70173 Stuttgart\nTelefon: 0711 3334455\nMitgliedschaft: Standard monatlich\nZahlung: Banküberweisung\nDatum: 6. März 2026\nUnterschrift: Martin Fischer",
+    "text_en": "Last name: Fischer\nFirst name: Martin\nDate of birth: 3 September 1992\nAddress: Parkstraße 20, 70173 Stuttgart\nPhone: 0711 3334455\nMembership: Standard monthly\nPayment: Bank transfer\nDate: 6 March 2026\nSignature: Martin Fischer"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Felder sind ausgefüllt (Task fulfillment: All fields are filled in)",
+    "Korrektheit: Die Informationen sind richtig geschrieben (Correctness: The information is written correctly)",
+    "Lesbarkeit: Die Handschrift ist klar und lesbar (Legibility: The handwriting is clear and readable)"
+  ]
+}

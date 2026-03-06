@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-3-004",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail: Neue Wohnung",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Hallo Julia,\n\nich habe gute Nachrichten! Ich habe eine neue Wohnung gefunden. Sie ist in der Nähe vom Bahnhof und hat zwei Zimmer, eine Küche und ein Bad. Die Wohnung ist nicht groß, aber sehr hell. Die Miete ist 450 Euro im Monat. Nächsten Samstag ziehe ich um. Kannst du mir helfen? Wir brauchen dein Auto für die Möbel.\n\nViele Grüße\nStefan",
+    "text_en": "Hello Julia,\n\nI have good news! I have found a new apartment. It is near the train station and has two rooms, a kitchen, and a bathroom. The apartment is not big, but very bright. The rent is 450 euros per month. Next Saturday I am moving. Can you help me? We need your car for the furniture.\n\nBest regards\nStefan",
+    "source": "E-Mail",
+    "word_count": 62
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo ist die neue Wohnung?",
+      "text_en": "Where is the new apartment?",
+      "options": [
+        "a) In der Nähe vom Park",
+        "b) In der Nähe vom Bahnhof",
+        "c) In der Nähe vom Supermarkt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung ist in der Nähe vom Bahnhof.",
+      "explanation_en": "The apartment is near the train station."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viele Zimmer hat die Wohnung?",
+      "text_en": "How many rooms does the apartment have?",
+      "options": [
+        "a) Ein Zimmer",
+        "b) Zwei Zimmer",
+        "c) Drei Zimmer"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung hat zwei Zimmer.",
+      "explanation_en": "The apartment has two rooms."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie ist die Wohnung?",
+      "text_en": "What is the apartment like?",
+      "options": [
+        "a) Groß und dunkel",
+        "b) Nicht groß, aber hell",
+        "c) Klein und dunkel"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Wohnung ist nicht groß, aber sehr hell.",
+      "explanation_en": "The apartment is not big, but very bright."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Miete?",
+      "text_en": "How much is the rent?",
+      "options": [
+        "a) 350 Euro",
+        "b) 400 Euro",
+        "c) 450 Euro"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Miete ist 450 Euro im Monat.",
+      "explanation_en": "The rent is 450 euros per month."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was braucht Stefan von Julia?",
+      "text_en": "What does Stefan need from Julia?",
+      "options": [
+        "a) Geld",
+        "b) Ihr Auto",
+        "c) Neue Möbel"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Stefan braucht Julias Auto für die Möbel.",
+      "explanation_en": "Stefan needs Julia's car for the furniture."
+    }
+  ]
+}

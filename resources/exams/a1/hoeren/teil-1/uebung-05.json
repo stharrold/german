@@ -1,0 +1,108 @@
+{
+  "id": "a1-hoeren-teil-1-005",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Ansagen — Kino, Fitnessstudio, Zahnarzt",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Willkommen im Kino Star. Der Film beginnt um 20 Uhr 15. Bitte schalten Sie Ihr Handy aus. Viel Spaß!",
+      "text_en": "Welcome to Star Cinema. The film starts at 8:15 PM. Please turn off your mobile phone. Enjoy!"
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Frau Braun, hier ist das Fitnessstudio. Ihr Kurs am Montag fällt aus. Der nächste Kurs ist am Mittwoch um 18 Uhr.",
+      "text_en": "Hello Mrs. Braun, this is the fitness studio. Your class on Monday is cancelled. The next class is on Wednesday at 6 PM."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Liebe Nachbarn, am Samstag machen wir ein Fest im Garten. Es beginnt um 15 Uhr. Alle sind herzlich eingeladen!",
+      "text_en": "Dear neighbors, on Saturday we are having a party in the garden. It starts at 3 PM. Everyone is warmly invited!"
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Guten Tag, hier ist die Zahnarztpraxis Dr. Fischer. Bitte kommen Sie 10 Minuten vor Ihrem Termin. Bringen Sie bitte Ihren Ausweis mit.",
+      "text_en": "Good day, this is Dr. Fischer's dental practice. Please come 10 minutes before your appointment. Please bring your ID."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Der Wochenmarkt ist jeden Samstag von 8 bis 13 Uhr auf dem Rathausplatz. Heute gibt es frisches Obst und Gemüse.",
+      "text_en": "The weekly market is every Saturday from 8 AM to 1 PM at the town hall square. Today there is fresh fruit and vegetables."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt der Film?",
+      "text_en": "When does the film start?",
+      "options": [
+        "a) Um 19 Uhr 45",
+        "b) Um 20 Uhr 15",
+        "c) Um 20 Uhr 45"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Film beginnt um 20 Uhr 15.",
+      "explanation_en": "The film starts at 8:15 PM."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der nächste Kurs im Fitnessstudio?",
+      "text_en": "When is the next class at the fitness studio?",
+      "options": [
+        "a) Montag um 18 Uhr",
+        "b) Dienstag um 17 Uhr",
+        "c) Mittwoch um 18 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der nächste Kurs ist am Mittwoch um 18 Uhr.",
+      "explanation_en": "The next class is on Wednesday at 6 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann beginnt das Fest im Garten?",
+      "text_en": "When does the garden party start?",
+      "options": [
+        "a) Um 14 Uhr",
+        "b) Um 15 Uhr",
+        "c) Um 16 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Fest beginnt am Samstag um 15 Uhr.",
+      "explanation_en": "The party starts on Saturday at 3 PM."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was soll man zum Zahnarzt mitbringen?",
+      "text_en": "What should you bring to the dentist?",
+      "options": [
+        "a) Die Versichertenkarte",
+        "b) Den Ausweis",
+        "c) Das Rezept"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man soll seinen Ausweis mitbringen.",
+      "explanation_en": "You should bring your ID."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist der Wochenmarkt zu Ende?",
+      "text_en": "When does the weekly market end?",
+      "options": [
+        "a) Um 12 Uhr",
+        "b) Um 13 Uhr",
+        "c) Um 14 Uhr"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Wochenmarkt ist von 8 bis 13 Uhr.",
+      "explanation_en": "The weekly market is from 8 AM to 1 PM."
+    }
+  ]
+}

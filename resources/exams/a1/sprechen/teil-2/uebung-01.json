@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-2-001",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Themenkarten: Essen und Trinken",
+  "instructions": "Sie bekommen eine Karte mit einem Thema und einem Wort. Stellen Sie eine Frage zu dem Wort und beantworten Sie die Frage Ihres Partners / Ihrer Partnerin.",
+  "situation_de": "Sie und Ihr Partner / Ihre Partnerin ziehen Karten zum Thema Essen und Trinken. Stellen Sie Fragen und beantworten Sie die Fragen.",
+  "situation_en": "You and your partner draw cards on the topic of food and drink. Ask questions and answer the questions.",
+  "discussion_points": [
+    "Frühstück: Was essen Sie zum Frühstück? (Breakfast: What do you eat for breakfast?)",
+    "Lieblingsessen: Was ist Ihr Lieblingsessen? (Favorite food: What is your favorite food?)",
+    "Getränk: Was trinken Sie gern? (Drink: What do you like to drink?)",
+    "Kochen: Kochen Sie gern? (Cooking: Do you like to cook?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre Karten. Bitte stellen Sie Fragen zu den Wörtern auf den Karten.",
+      "text_en": "Here are your cards. Please ask questions about the words on the cards."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meine erste Karte ist Frühstück. Was essen Sie zum Frühstück?",
+      "text_en": "My first card is breakfast. What do you eat for breakfast?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich esse Brot mit Butter und Marmelade. Und Sie?",
+      "text_en": "I eat bread with butter and jam. And you?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich esse ein Ei und trinke Tee. Jetzt Ihre Karte.",
+      "text_en": "I eat an egg and drink tea. Now your card."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Meine Karte ist Lieblingsessen. Was ist Ihr Lieblingsessen?",
+      "text_en": "My card is favorite food. What is your favorite food?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein Lieblingsessen ist Pizza. Ich mag auch Nudeln sehr gern.",
+      "text_en": "My favorite food is pizza. I also like pasta a lot."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich mag Reis mit Gemüse. Kochen Sie gern?",
+      "text_en": "I like rice with vegetables. Do you like to cook?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich koche gern. Am Wochenende koche ich für meine Familie.",
+      "text_en": "Yes, I like to cook. On the weekend I cook for my family."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat stellt Fragen zu den Karten und beantwortet die Fragen des Partners.",
+    "Interaktion: Der Kandidat reagiert auf die Antworten und stellt passende Rückfragen.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Essen und Trinken auf A1-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze mit essen, trinken, mögen.",
+    "Aussprache und Intonation: Verständliche Aussprache mit klarer Frageintonation."
+  ]
+}

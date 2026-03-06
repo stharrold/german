@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-2-004",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Neuer Supermarkt",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Am 1. März öffnet ein neuer Supermarkt in der Lindenstraße 20. Der Supermarkt heißt FreshMarkt und hat Obst, Gemüse, Brot, Fleisch und Milchprodukte. Alles ist frisch und aus der Region. Der Supermarkt ist jeden Tag von 7:00 bis 21:00 Uhr geöffnet, auch am Samstag. Am Sonntag ist er geschlossen. In der ersten Woche gibt es 10 Prozent Rabatt auf alles. Es gibt auch einen Parkplatz mit 50 Plätzen.",
+    "text_en": "On March 1st a new supermarket opens at Lindenstrasse 20. The supermarket is called FreshMarkt and has fruit, vegetables, bread, meat, and dairy products. Everything is fresh and from the region. The supermarket is open every day from 7:00 AM to 9:00 PM, also on Saturday. On Sunday it is closed. In the first week there is a 10 percent discount on everything. There is also a parking lot with 50 spaces.",
+    "source": "Zeitungsartikel",
+    "word_count": 68
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wann öffnet der neue Supermarkt?",
+      "text_en": "When does the new supermarket open?",
+      "options": [
+        "a) Am 1. Februar",
+        "b) Am 1. März",
+        "c) Am 1. April"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der neue Supermarkt öffnet am 1. März.",
+      "explanation_en": "The new supermarket opens on March 1st."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie heißt der Supermarkt?",
+      "text_en": "What is the supermarket called?",
+      "options": [
+        "a) BioMarkt",
+        "b) FreshMarkt",
+        "c) StadtMarkt"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Supermarkt heißt FreshMarkt.",
+      "explanation_en": "The supermarket is called FreshMarkt."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Rabatt gibt es in der ersten Woche?",
+      "text_en": "How much discount is there in the first week?",
+      "options": [
+        "a) 5 Prozent",
+        "b) 10 Prozent",
+        "c) 20 Prozent"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In der ersten Woche gibt es 10 Prozent Rabatt.",
+      "explanation_en": "In the first week there is a 10 percent discount."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wann schließt der Supermarkt abends?",
+      "text_en": "When does the supermarket close in the evening?",
+      "options": [
+        "a) Um 19:00 Uhr",
+        "b) Um 20:00 Uhr",
+        "c) Um 21:00 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Supermarkt schließt um 21:00 Uhr.",
+      "explanation_en": "The supermarket closes at 9:00 PM."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Woher kommen die Produkte?",
+      "text_en": "Where do the products come from?",
+      "options": [
+        "a) Aus dem Ausland",
+        "b) Aus der Region",
+        "c) Aus dem Internet"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Alles ist frisch und aus der Region.",
+      "explanation_en": "Everything is fresh and from the region."
+    }
+  ]
+}

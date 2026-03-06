@@ -1,0 +1,87 @@
+{
+  "id": "a1-lesen-teil-1-003",
+  "level": "A1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Anzeige: Schwimmbad",
+  "instructions": "Lesen Sie die Texte und die Aufgaben. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "Schwimmbad Aquafun\nTäglich geöffnet: 8:00 – 21:00 Uhr\nErwachsene: 5 Euro\nKinder (bis 12 Jahre): 3 Euro\nFamilienkarte (2 Erwachsene + 2 Kinder): 12 Euro\nJeden Mittwoch: Kinderschwimmen ab 15:00 Uhr\nCafé im Schwimmbad\nBitte bringen Sie Ihre eigene Badekappe mit.",
+    "text_en": "Aquafun Swimming Pool\nOpen daily: 8:00 AM – 9:00 PM\nAdults: 5 euros\nChildren (up to 12 years): 3 euros\nFamily ticket (2 adults + 2 children): 12 euros\nEvery Wednesday: children's swimming from 3:00 PM\nCafé in the swimming pool\nPlease bring your own swimming cap.",
+    "source": "Aushang",
+    "word_count": 41
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet eine Karte für ein Kind?",
+      "text_en": "How much does a ticket for a child cost?",
+      "options": [
+        "a) 3 Euro",
+        "b) 5 Euro",
+        "c) 12 Euro"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Kinder bis 12 Jahre zahlen 3 Euro.",
+      "explanation_en": "Children up to 12 years pay 3 euros."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wann ist Kinderschwimmen?",
+      "text_en": "When is children's swimming?",
+      "options": [
+        "a) Jeden Montag",
+        "b) Jeden Mittwoch",
+        "c) Jeden Freitag"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kinderschwimmen ist jeden Mittwoch ab 15:00 Uhr.",
+      "explanation_en": "Children's swimming is every Wednesday from 3:00 PM."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was muss man mitbringen?",
+      "text_en": "What must you bring?",
+      "options": [
+        "a) Ein Handtuch",
+        "b) Eine Badekappe",
+        "c) Schwimmschuhe"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Man muss eine eigene Badekappe mitbringen.",
+      "explanation_en": "You must bring your own swimming cap."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kostet die Familienkarte?",
+      "text_en": "How much does the family ticket cost?",
+      "options": [
+        "a) 10 Euro",
+        "b) 12 Euro",
+        "c) 16 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Familienkarte kostet 12 Euro.",
+      "explanation_en": "The family ticket costs 12 euros."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann schließt das Schwimmbad?",
+      "text_en": "When does the swimming pool close?",
+      "options": [
+        "a) Um 19:00 Uhr",
+        "b) Um 20:00 Uhr",
+        "c) Um 21:00 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Schwimmbad schließt um 21:00 Uhr.",
+      "explanation_en": "The swimming pool closes at 9:00 PM."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "a1-schreiben-aufgabe-1-003",
+  "level": "A1",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "Formular beim Arzt",
+  "instructions": "Füllen Sie das Formular aus. (Fill in the form.)",
+  "situation_de": "Sie gehen zum ersten Mal zu einem neuen Arzt. Füllen Sie das Patientenformular aus.",
+  "situation_en": "You are going to a new doctor for the first time. Fill in the patient form.",
+  "target_word_count": 30,
+  "required_points": [
+    "Name und Geburtsdatum schreiben (Write name and date of birth)",
+    "Adresse und Telefonnummer angeben (Provide address and phone number)",
+    "Krankenkasse angeben (Provide health insurance)",
+    "Allergien oder Medikamente angeben (Provide allergies or medications)",
+    "Datum und Unterschrift (Date and signature)"
+  ],
+  "model_answer": {
+    "text_de": "Familienname: Weber\nVorname: Julia\nGeburtsdatum: 22. Januar 1985\nAdresse: Gartenweg 8, 50667 Köln\nTelefon: 0221 5551234\nKrankenkasse: AOK Rheinland\nAllergien: keine\nMedikamente: keine\nDatum: 6. März 2026\nUnterschrift: Julia Weber",
+    "text_en": "Last name: Weber\nFirst name: Julia\nDate of birth: 22 January 1985\nAddress: Gartenweg 8, 50667 Köln\nPhone: 0221 5551234\nHealth insurance: AOK Rheinland\nAllergies: none\nMedications: none\nDate: 6 March 2026\nSignature: Julia Weber"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle Felder sind ausgefüllt (Task fulfillment: All fields are filled in)",
+    "Korrektheit: Die Informationen sind richtig geschrieben (Correctness: The information is written correctly)",
+    "Lesbarkeit: Die Handschrift ist klar und lesbar (Legibility: The handwriting is clear and readable)"
+  ]
+}

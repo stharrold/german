@@ -1,0 +1,139 @@
+{
+  "id": "a1-hoeren-teil-2-005",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Kurze Gespräche — Wohnung und Freizeit",
+  "instructions": "Sie hören vier kurze Gespräche. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Makler",
+      "text_de": "Die Wohnung hat drei Zimmer, eine Küche und ein Bad. Die Miete ist 550 Euro im Monat.",
+      "text_en": "The apartment has three rooms, a kitchen, and a bathroom. The rent is 550 euros per month."
+    },
+    {
+      "speaker": "Gespräch 1 — Kundin",
+      "text_de": "Gibt es auch einen Balkon?",
+      "text_en": "Is there also a balcony?"
+    },
+    {
+      "speaker": "Gespräch 1 — Makler",
+      "text_de": "Ja, einen kleinen Balkon. Die Wohnung ist im zweiten Stock.",
+      "text_en": "Yes, a small balcony. The apartment is on the second floor."
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Hast du heute Abend Zeit? Wir können zusammen kochen.",
+      "text_en": "Do you have time this evening? We can cook together."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Gute Idee! Was möchtest du kochen?",
+      "text_en": "Good idea! What would you like to cook?"
+    },
+    {
+      "speaker": "Gespräch 2 — Mann",
+      "text_de": "Ich mache Spaghetti mit Tomatensoße. Kannst du Brot mitbringen?",
+      "text_en": "I am making spaghetti with tomato sauce. Can you bring bread?"
+    },
+    {
+      "speaker": "Gespräch 2 — Frau",
+      "text_de": "Ja, klar. Ich komme um 19 Uhr.",
+      "text_en": "Yes, sure. I am coming at 7 PM."
+    },
+    {
+      "speaker": "Gespräch 3 — Lehrerin",
+      "text_de": "Haben Sie Ihre Hausaufgaben gemacht?",
+      "text_en": "Did you do your homework?"
+    },
+    {
+      "speaker": "Gespräch 3 — Schüler",
+      "text_de": "Nein, tut mir leid. Ich hatte gestern keine Zeit.",
+      "text_en": "No, I am sorry. I did not have time yesterday."
+    },
+    {
+      "speaker": "Gespräch 3 — Lehrerin",
+      "text_de": "Bitte bringen Sie die Hausaufgaben morgen mit.",
+      "text_en": "Please bring the homework tomorrow."
+    },
+    {
+      "speaker": "Gespräch 4 — Kind",
+      "text_de": "Mama, kann ich heute im Park spielen?",
+      "text_en": "Mom, can I play in the park today?"
+    },
+    {
+      "speaker": "Gespräch 4 — Mutter",
+      "text_de": "Ja, aber zuerst musst du dein Zimmer aufräumen.",
+      "text_en": "Yes, but first you have to clean up your room."
+    },
+    {
+      "speaker": "Gespräch 4 — Kind",
+      "text_de": "Okay, ich räume jetzt auf. Kann Max auch mitkommen?",
+      "text_en": "Okay, I will clean up now. Can Max come too?"
+    },
+    {
+      "speaker": "Gespräch 4 — Mutter",
+      "text_de": "Ja, natürlich. Aber seid um 18 Uhr zu Hause.",
+      "text_en": "Yes, of course. But be home at 6 PM."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie viel kostet die Miete?",
+      "text_en": "How much is the rent?",
+      "options": [
+        "a) 450 Euro",
+        "b) 550 Euro",
+        "c) 650 Euro"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Miete ist 550 Euro im Monat.",
+      "explanation_en": "The rent is 550 euros per month."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kocht der Mann?",
+      "text_en": "What is the man cooking?",
+      "options": [
+        "a) Reis mit Gemüse",
+        "b) Spaghetti mit Tomatensoße",
+        "c) Kartoffelsuppe"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Mann macht Spaghetti mit Tomatensoße.",
+      "explanation_en": "The man is making spaghetti with tomato sauce."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum hat der Schüler keine Hausaufgaben?",
+      "text_en": "Why does the student not have homework?",
+      "options": [
+        "a) Er war krank",
+        "b) Er hatte keine Zeit",
+        "c) Er hat es vergessen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Schüler hatte gestern keine Zeit.",
+      "explanation_en": "The student did not have time yesterday."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was muss das Kind zuerst machen?",
+      "text_en": "What must the child do first?",
+      "options": [
+        "a) Hausaufgaben machen",
+        "b) Das Zimmer aufräumen",
+        "c) Essen kochen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Kind muss zuerst sein Zimmer aufräumen.",
+      "explanation_en": "The child must clean up their room first."
+    }
+  ]
+}

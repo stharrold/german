@@ -1,0 +1,108 @@
+{
+  "id": "a1-hoeren-teil-1-002",
+  "level": "A1",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Ansagen — Schule, Bibliothek, Apotheke",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Liebe Schüler, der Deutschkurs beginnt heute um 10 Uhr in Raum 3. Bitte bringen Sie Ihr Buch mit.",
+      "text_en": "Dear students, the German course starts today at 10 AM in room 3. Please bring your book."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Tina, hier ist Marco. Ich bin krank und kann heute nicht kommen. Wir sehen uns am Freitag. Bis dann!",
+      "text_en": "Hello Tina, this is Marco. I am sick and cannot come today. We will see each other on Friday. See you then!"
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Die Bibliothek ist am Montag und Mittwoch von 9 bis 17 Uhr geöffnet. Am Wochenende ist sie geschlossen.",
+      "text_en": "The library is open on Monday and Wednesday from 9 AM to 5 PM. On the weekend it is closed."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Guten Tag. Hier ist die Apotheke am Markt. Ihre Medizin ist fertig. Sie können sie ab 15 Uhr abholen.",
+      "text_en": "Good day. This is the pharmacy at the market. Your medicine is ready. You can pick it up from 3 PM."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Achtung, der Zug nach Berlin fährt heute von Gleis 7. Der Zug fährt um 11 Uhr 30 ab.",
+      "text_en": "Attention, the train to Berlin departs today from platform 7. The train departs at 11:30 AM."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "In welchem Raum ist der Deutschkurs?",
+      "text_en": "In which room is the German course?",
+      "options": [
+        "a) Raum 1",
+        "b) Raum 3",
+        "c) Raum 5"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Deutschkurs ist in Raum 3.",
+      "explanation_en": "The German course is in room 3."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum kann Marco heute nicht kommen?",
+      "text_en": "Why can Marco not come today?",
+      "options": [
+        "a) Er arbeitet",
+        "b) Er ist krank",
+        "c) Er hat einen Termin"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Marco ist krank und kann heute nicht kommen.",
+      "explanation_en": "Marco is sick and cannot come today."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die Bibliothek geschlossen?",
+      "text_en": "When is the library closed?",
+      "options": [
+        "a) Am Montag",
+        "b) Am Mittwoch",
+        "c) Am Wochenende"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Wochenende ist die Bibliothek geschlossen.",
+      "explanation_en": "On the weekend the library is closed."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Ab wann kann man die Medizin abholen?",
+      "text_en": "From when can you pick up the medicine?",
+      "options": [
+        "a) Ab 13 Uhr",
+        "b) Ab 14 Uhr",
+        "c) Ab 15 Uhr"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Medizin kann ab 15 Uhr abgeholt werden.",
+      "explanation_en": "The medicine can be picked up from 3 PM."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Von welchem Gleis fährt der Zug nach Berlin?",
+      "text_en": "From which platform does the train to Berlin depart?",
+      "options": [
+        "a) Gleis 5",
+        "b) Gleis 7",
+        "c) Gleis 9"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Zug nach Berlin fährt von Gleis 7.",
+      "explanation_en": "The train to Berlin departs from platform 7."
+    }
+  ]
+}

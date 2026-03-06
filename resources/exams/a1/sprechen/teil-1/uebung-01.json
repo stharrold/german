@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-1-001",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sich vorstellen: Name, Herkunft, Sprachen",
+  "instructions": "Stellen Sie sich vor. Der Prüfer / die Prüferin stellt Ihnen Fragen zu Ihrer Person.",
+  "situation_de": "Sie sind neu in einem Deutschkurs. Der Prüfer / die Prüferin möchte Sie kennenlernen. Beantworten Sie die Fragen zu Ihrem Namen, Ihrer Herkunft und Ihren Sprachen.",
+  "situation_en": "You are new in a German course. The examiner would like to get to know you. Answer the questions about your name, where you are from, and your languages.",
+  "discussion_points": [
+    "Wie heißen Sie? (What is your name?)",
+    "Woher kommen Sie? (Where do you come from?)",
+    "Welche Sprachen sprechen Sie? (Which languages do you speak?)",
+    "Wie buchstabieren Sie Ihren Namen? (How do you spell your name?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Guten Tag. Bitte stellen Sie sich vor. Wie heißen Sie?",
+      "text_en": "Good day. Please introduce yourself. What is your name?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Guten Tag. Ich heiße Maria Rossi.",
+      "text_en": "Good day. My name is Maria Rossi."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Können Sie Ihren Nachnamen buchstabieren?",
+      "text_en": "Can you spell your last name?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, R-O-S-S-I.",
+      "text_en": "Yes, R-O-S-S-I."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Woher kommen Sie, Frau Rossi?",
+      "text_en": "Where do you come from, Ms. Rossi?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich komme aus Italien, aus Rom.",
+      "text_en": "I come from Italy, from Rome."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Welche Sprachen sprechen Sie?",
+      "text_en": "Which languages do you speak?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich spreche Italienisch und ein bisschen Deutsch. Ich lerne jetzt Deutsch.",
+      "text_en": "I speak Italian and a little German. I am learning German now."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat beantwortet alle Fragen zu Name, Herkunft und Sprachen.",
+    "Interaktion: Der Kandidat versteht die Fragen und reagiert angemessen.",
+    "Wortschatz: Einfacher Grundwortschatz zur persönlichen Vorstellung auf A1-Niveau.",
+    "Strukturen: Einfache Aussagesätze mit Verben wie heißen, kommen, sprechen.",
+    "Aussprache und Intonation: Verständliche Aussprache der Grundbegriffe."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "a1-sprechen-teil-3-001",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Etwas ausleihen: Einen Stift",
+  "instructions": "Sie möchten etwas von Ihrem Partner / Ihrer Partnerin. Formulieren Sie eine Bitte und reagieren Sie auf die Antwort.",
+  "situation_de": "Sie sind im Deutschkurs. Sie haben keinen Stift und möchten einen Stift von Ihrem Nachbarn / Ihrer Nachbarin ausleihen.",
+  "situation_en": "You are in your German class. You do not have a pen and would like to borrow a pen from your neighbor.",
+  "discussion_points": [
+    "Nach einem Stift fragen (Ask for a pen)",
+    "Sich bedanken (Say thank you)",
+    "Den Stift zurückgeben (Return the pen)",
+    "Höflich reagieren (Respond politely)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Entschuldigung, haben Sie einen Stift für mich?",
+      "text_en": "Excuse me, do you have a pen for me?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ja, natürlich. Hier, bitte.",
+      "text_en": "Yes, of course. Here you go."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vielen Dank! Das ist sehr nett.",
+      "text_en": "Thank you very much! That is very kind."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Bitte, kein Problem. Brauchen Sie auch Papier?",
+      "text_en": "You are welcome, no problem. Do you also need paper?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Nein, danke. Ich habe Papier. Nur den Stift.",
+      "text_en": "No, thank you. I have paper. Just the pen."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Okay. Sie können den Stift behalten.",
+      "text_en": "Okay. You can keep the pen."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist wirklich nett. Danke schön!",
+      "text_en": "That is really kind. Thank you!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat formuliert eine höfliche Bitte und reagiert angemessen.",
+    "Interaktion: Der Kandidat bedankt sich und reagiert auf Angebote des Partners.",
+    "Wortschatz: Einfacher Wortschatz für Bitten und Danken auf A1-Niveau.",
+    "Strukturen: Höfliche Fragen mit haben Sie und einfache Reaktionen.",
+    "Aussprache und Intonation: Verständliche Aussprache mit freundlicher Intonation."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "a1-sprechen-teil-1-003",
+  "level": "A1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sich vorstellen: Familie und Kinder",
+  "instructions": "Stellen Sie sich vor. Der Prüfer / die Prüferin stellt Ihnen Fragen zu Ihrer Person.",
+  "situation_de": "Sie treffen eine neue Nachbarin / einen neuen Nachbarn. Beantworten Sie die Fragen zu Ihrer Familie.",
+  "situation_en": "You meet a new neighbor. Answer the questions about your family.",
+  "discussion_points": [
+    "Sind Sie verheiratet? (Are you married?)",
+    "Haben Sie Kinder? (Do you have children?)",
+    "Haben Sie Geschwister? (Do you have siblings?)",
+    "Wo wohnt Ihre Familie? (Where does your family live?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hallo! Erzählen Sie mir von Ihrer Familie. Sind Sie verheiratet?",
+      "text_en": "Hello! Tell me about your family. Are you married?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich bin verheiratet. Mein Mann heißt Thomas.",
+      "text_en": "Yes, I am married. My husband's name is Thomas."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Haben Sie Kinder?",
+      "text_en": "Do you have children?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich habe zwei Kinder. Ein Mädchen und einen Jungen. Sie sind fünf und sieben Jahre alt.",
+      "text_en": "Yes, I have two children. A girl and a boy. They are five and seven years old."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Haben Sie auch Geschwister?",
+      "text_en": "Do you also have siblings?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, ich habe eine Schwester. Sie wohnt in Hamburg.",
+      "text_en": "Yes, I have a sister. She lives in Hamburg."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wo wohnt Ihre Familie? Hier in der Stadt?",
+      "text_en": "And where does your family live? Here in the city?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ja, wir wohnen hier. Meine Eltern wohnen in der Türkei, in Istanbul.",
+      "text_en": "Yes, we live here. My parents live in Turkey, in Istanbul."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat beantwortet Fragen zu Familie und Kindern.",
+    "Interaktion: Der Kandidat versteht die Fragen und gibt passende Antworten.",
+    "Wortschatz: Grundwortschatz zum Thema Familie auf A1-Niveau.",
+    "Strukturen: Einfache Sätze mit haben, sein und Possessivartikeln.",
+    "Aussprache und Intonation: Verständliche Aussprache der Familienbegriffe."
+  ]
+}
