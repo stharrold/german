@@ -19,8 +19,8 @@
     },
     {
       "speaker": "Dr. Krüger",
-      "text_de": "Hinter diesen Zahlen stehen Menschen. In Bangladesch, Kambodscha und Vietnam nähen Arbeiterinnen — denn es sind überwiegend Frauen — unsere Kleidung unter zum Teil katastrophalen Bedingungen. Die Löhne liegen häufig unter dem Existenzminimum, die Arbeitszeiten betragen nicht selten 14 Stunden am Tag, und die Gebäude erfüllen oft nicht einmal grundlegende Sicherheitsstandards. Der Einsturz der Textilfabrik Rana Plaza in Bangladesch 2013, bei dem über 1.100 Menschen starben, war eine tragische Erinnerung an diese Realität.",
-      "text_en": "Behind these numbers are people. In Bangladesh, Cambodia, and Vietnam, workers — predominantly women — sew our clothing under partly catastrophic conditions. Wages frequently fall below the subsistence minimum, working hours are often 14 hours a day, and buildings often don't even meet basic safety standards. The collapse of the Rana Plaza textile factory in Bangladesh in 2013, in which over 1,100 people died, was a tragic reminder of this reality."
+      "text_de": "Hinter diesen Zahlen stehen Menschen. In Bangladesch, Kambodscha und Vietnam nähen Arbeiterinnen — denn es sind überwiegend Frauen — unsere Kleidung unter zum Teil katastrophalen Bedingungen. Die Löhne liegen häufig unter dem Existenzminimum, die Arbeitszeiten betragen nicht selten 14 Stunden am Tag, und die Gebäude erfüllen oft nicht einmal grundlegende Sicherheitsstandards. Der Einsturz der Textilfabrik Rana Plaza in Bangladesch vor über zehn Jahren, bei dem über 1.100 Menschen starben, war eine tragische Erinnerung an diese Realität.",
+      "text_en": "Behind these numbers are people. In Bangladesh, Cambodia, and Vietnam, workers — predominantly women — sew our clothing under partly catastrophic conditions. Wages frequently fall below the subsistence minimum, working hours are often 14 hours a day, and buildings often don't even meet basic safety standards. The collapse of the Rana Plaza textile factory in Bangladesh over ten years ago, in which over 1,100 people died, was a tragic reminder of this reality."
     },
     {
       "speaker": "Dr. Krüger",
@@ -29,8 +29,8 @@
     },
     {
       "speaker": "Dr. Krüger",
-      "text_de": "Aber — und das möchte ich zum Abschluss betonen — die Verantwortung liegt nicht allein beim Verbraucher. Wir brauchen politische Rahmenbedingungen: ein Lieferkettengesetz mit wirksamen Sanktionen, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards für die Textilproduktion. Einige europäische Länder, insbesondere Frankreich, gehen hier bereits mit gutem Beispiel voran. Frankreich hat 2024 eine Umweltabgabe auf Fast Fashion eingeführt, die je nach ökologischem Fußabdruck des Produkts bis zu 10 Euro pro Kleidungsstück betragen kann. Solche Maßnahmen brauchen wir EU-weit. Vielen Dank.",
-      "text_en": "But — and I want to emphasize this in conclusion — the responsibility does not lie solely with the consumer. We need political frameworks: a supply chain law with effective sanctions, a tax on disposable fashion, and binding environmental standards for textile production. Some European countries, particularly France, are already leading by example here. France introduced an environmental levy on fast fashion in 2024, which can amount to up to 10 euros per garment depending on the product's ecological footprint. We need such measures EU-wide. Thank you."
+      "text_de": "Aber — und das möchte ich zum Abschluss betonen — die Verantwortung liegt nicht allein beim Verbraucher. Wir brauchen politische Rahmenbedingungen: ein Lieferkettengesetz mit wirksamen Sanktionen, eine Steuer auf Wegwerfmode und verbindliche Umweltstandards für die Textilproduktion. Einige europäische Länder, insbesondere Frankreich, gehen hier bereits mit gutem Beispiel voran. Frankreich hat vor Kurzem eine Umweltabgabe auf Fast Fashion eingeführt, die je nach ökologischem Fußabdruck des Produkts bis zu 10 Euro pro Kleidungsstück betragen kann. Solche Maßnahmen brauchen wir EU-weit. Vielen Dank.",
+      "text_en": "But — and I want to emphasize this in conclusion — the responsibility does not lie solely with the consumer. We need political frameworks: a supply chain law with effective sanctions, a tax on disposable fashion, and binding environmental standards for textile production. Some European countries, particularly France, are already leading by example here. France recently introduced an environmental levy on fast fashion, which can amount to up to 10 euros per garment depending on the product's ecological footprint. We need such measures EU-wide. Thank you."
     }
   ],
   "questions": [
@@ -79,16 +79,16 @@
     {
       "number": 4,
       "type": "multiple_choice",
-      "text_de": "Was hat Frankreich 2024 eingeführt?",
-      "text_en": "What did France introduce in 2024?",
+      "text_de": "Was hat Frankreich kürzlich eingeführt?",
+      "text_en": "What did France recently introduce?",
       "options": [
         "a) Ein Verbot von Kleidungsimporten aus Asien.",
         "b) Eine Umweltabgabe auf Fast Fashion von bis zu 10 Euro pro Stück.",
         "c) Eine Pflicht zum Recycling aller Kleidungsstücke."
       ],
       "correct_answer": "b",
-      "explanation_de": "Frankreich hat 2024 eine Umweltabgabe auf Fast Fashion eingeführt, die bis zu 10 Euro pro Kleidungsstück betragen kann.",
-      "explanation_en": "France introduced an environmental levy on fast fashion in 2024, which can amount to up to 10 euros per garment."
+      "explanation_de": "Frankreich hat vor Kurzem eine Umweltabgabe auf Fast Fashion eingeführt, die bis zu 10 Euro pro Kleidungsstück betragen kann.",
+      "explanation_en": "France recently introduced an environmental levy on fast fashion, which can amount to up to 10 euros per garment."
     },
     {
       "number": 5,

@@ -24,8 +24,8 @@
     },
     {
       "speaker": "Dr. Hoffmann",
-      "text_de": "Ich würde sagen, die Befürchtungen sind teilweise nachvollziehbar, aber oft übertrieben. Die Geschichte zeigt, dass technologische Revolutionen zwar bestimmte Berufe verdrängen, aber gleichzeitig neue schaffen. Unsere Prognosen deuten darauf hin, dass bis 2030 etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten. Aber — und das ist entscheidend — es werden voraussichtlich mehr neue Arbeitsplätze entstehen, als verloren gehen. Der Schlüssel liegt in der Weiterbildung. Wer bereit ist, sich neue Fähigkeiten anzueignen, wird von der Entwicklung profitieren.",
-      "text_en": "I would say the fears are partly understandable but often exaggerated. History shows that technological revolutions do displace certain professions but simultaneously create new ones. Our forecasts indicate that by 2030, about 15 percent of today's activities could be automated. But — and this is crucial — more new jobs are expected to be created than lost. The key lies in continuing education. Those who are willing to acquire new skills will benefit from the development."
+      "text_de": "Ich würde sagen, die Befürchtungen sind teilweise nachvollziehbar, aber oft übertrieben. Die Geschichte zeigt, dass technologische Revolutionen zwar bestimmte Berufe verdrängen, aber gleichzeitig neue schaffen. Unsere Prognosen deuten darauf hin, dass innerhalb der nächsten Jahre etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten. Aber — und das ist entscheidend — es werden voraussichtlich mehr neue Arbeitsplätze entstehen, als verloren gehen. Der Schlüssel liegt in der Weiterbildung. Wer bereit ist, sich neue Fähigkeiten anzueignen, wird von der Entwicklung profitieren.",
+      "text_en": "I would say the fears are partly understandable but often exaggerated. History shows that technological revolutions do displace certain professions but simultaneously create new ones. Our forecasts indicate that within the coming years, about 15 percent of today's activities could be automated. But — and this is crucial — more new jobs are expected to be created than lost. The key lies in continuing education. Those who are willing to acquire new skills will benefit from the development."
     },
     {
       "speaker": "Moderator",
@@ -70,16 +70,16 @@
     {
       "number": 3,
       "type": "multiple_choice",
-      "text_de": "Wie viel Prozent der heutigen Tätigkeiten könnten bis 2030 automatisiert werden?",
-      "text_en": "What percentage of today's activities could be automated by 2030?",
+      "text_de": "Wie viel Prozent der heutigen Tätigkeiten könnten innerhalb der nächsten Jahre automatisiert werden?",
+      "text_en": "What percentage of today's activities could be automated within the coming years?",
       "options": [
         "a) Etwa 5 Prozent.",
         "b) Etwa 15 Prozent.",
         "c) Etwa 30 Prozent."
       ],
       "correct_answer": "b",
-      "explanation_de": "Die Prognosen deuten darauf hin, dass bis 2030 etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten.",
-      "explanation_en": "Forecasts indicate that by 2030, about 15 percent of today's activities could be automated."
+      "explanation_de": "Die Prognosen deuten darauf hin, dass innerhalb der nächsten Jahre etwa 15 Prozent der heutigen Tätigkeiten automatisiert werden könnten.",
+      "explanation_en": "Forecasts indicate that within the coming years, about 15 percent of today's activities could be automated."
     },
     {
       "number": 4,

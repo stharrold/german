@@ -14,8 +14,8 @@
     },
     {
       "speaker": "Prof. Dr. Bergmann",
-      "text_de": "Vielen Dank für die Einladung. Ja, die Veränderungen sind enorm. Unsere neueste Studie zeigt, dass etwa 40 Prozent der Beschäftigten in Deutschland mittlerweile zumindest teilweise von zu Hause arbeiten. Das ist ein deutlicher Anstieg im Vergleich zu 2019, als es nur rund 12 Prozent waren. Was mich allerdings überrascht hat, ist die Tatsache, dass nicht alle Arbeitnehmer diese Entwicklung begrüßen. Viele vermissen den sozialen Austausch im Büro und berichten von zunehmender Isolation.",
-      "text_en": "Thank you for the invitation. Yes, the changes are enormous. Our latest study shows that about 40 percent of employees in Germany now work at least partially from home. That's a significant increase compared to 2019, when it was only around 12 percent. What surprised me, however, is the fact that not all employees welcome this development. Many miss the social interaction in the office and report increasing isolation."
+      "text_de": "Vielen Dank für die Einladung. Ja, die Veränderungen sind enorm. Unsere neueste Studie zeigt, dass etwa 40 Prozent der Beschäftigten in Deutschland mittlerweile zumindest teilweise von zu Hause arbeiten. Das ist ein deutlicher Anstieg im Vergleich zur Zeit vor der Pandemie, als es nur rund 12 Prozent waren. Was mich allerdings überrascht hat, ist die Tatsache, dass nicht alle Arbeitnehmer diese Entwicklung begrüßen. Viele vermissen den sozialen Austausch im Büro und berichten von zunehmender Isolation.",
+      "text_en": "Thank you for the invitation. Yes, the changes are enormous. Our latest study shows that about 40 percent of employees in Germany now work at least partially from home. That's a significant increase compared to before the pandemic, when it was only around 12 percent. What surprised me, however, is the fact that not all employees welcome this development. Many miss the social interaction in the office and report increasing isolation."
     },
     {
       "speaker": "Moderatorin",
@@ -47,7 +47,7 @@
       "options": [
         "a) Die Mehrheit der Deutschen arbeitet vollständig im Homeoffice.",
         "b) Etwa 40 Prozent der Beschäftigten arbeiten teilweise von zu Hause.",
-        "c) Der Anteil der Heimarbeitenden ist seit 2019 kaum gestiegen."
+        "c) Der Anteil der Heimarbeitenden ist seit der Pandemie kaum gestiegen."
       ],
       "correct_answer": "b",
       "explanation_de": "Laut der Studie arbeiten etwa 40 Prozent der Beschäftigten zumindest teilweise von zu Hause.",
