@@ -1,0 +1,118 @@
+{
+  "id": "b2-hoeren-teil-3-005",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Verhandlungen und schwierige Gespräche",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Herr Weber (Auftraggeber)",
+      "text_de": "Frau Richter, ich habe mir das Angebot Ihrer Firma für die Website-Erstellung angesehen. Der Gesamtpreis von 18.000 Euro liegt allerdings deutlich über unserem Budget. Wir hatten ursprünglich mit maximal 12.000 Euro gerechnet. Gibt es Möglichkeiten, den Preis zu reduzieren, ohne auf wesentliche Funktionen verzichten zu müssen?",
+      "text_en": "Ms. Richter, I've looked at your company's offer for the website creation. The total price of 18,000 euros is, however, significantly above our budget. We had originally calculated a maximum of 12,000 euros. Are there ways to reduce the price without having to forgo essential features?"
+    },
+    {
+      "speaker": "Gespräch 1 — Frau Richter (Agentur)",
+      "text_de": "Herr Weber, ich verstehe Ihre Budgetbeschränkung. Lassen Sie mich einen Vorschlag machen: Wir könnten das Projekt in zwei Phasen aufteilen. In der ersten Phase erstellen wir die Kernfunktionen für 11.500 Euro — das wäre die Startseite, die Produktseiten und das Kontaktformular. In der zweiten Phase, die Sie zu einem späteren Zeitpunkt beauftragen könnten, kämen der Online-Shop und die mehrsprachige Version dazu. So verteilen sich die Kosten, und Sie gehen mit einer funktionsfähigen Website an den Start.",
+      "text_en": "Mr. Weber, I understand your budget constraint. Let me make a suggestion: We could split the project into two phases. In the first phase, we create the core features for 11,500 euros — that would be the homepage, the product pages, and the contact form. In the second phase, which you could commission at a later point, the online shop and the multilingual version would be added. This way the costs are distributed, and you go live with a functioning website."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Dr. Lang (Personalchefin)",
+      "text_de": "Herr Müller, ich muss offen mit Ihnen sprechen. Ihre Leistung in den letzten drei Monaten hat deutlich nachgelassen. Die Projektberichte kommen regelmäßig zu spät, und bei der letzten Kundenpräsentation gab es mehrere inhaltliche Fehler. Ihre Kolleginnen und Kollegen haben sich ebenfalls besorgt geäußert. Ich möchte verstehen, ob es Gründe gibt, die ich kennen sollte, und wie wir gemeinsam eine Lösung finden können.",
+      "text_en": "Mr. Müller, I need to speak openly with you. Your performance in the last three months has significantly declined. The project reports regularly come in late, and there were several content errors in the last client presentation. Your colleagues have also expressed concern. I want to understand if there are reasons I should know about, and how we can find a solution together."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Müller (Mitarbeiter)",
+      "text_de": "Frau Dr. Lang, es tut mir leid. Ich wollte das eigentlich nicht ansprechen, aber meine Mutter ist schwer erkrankt, und ich pflege sie nebenbei. Das kostet mich viel Kraft, und ich schaffe es nicht immer, mich tagsüber voll zu konzentrieren. Ich habe mich geschämt, das zuzugeben, weil ich nicht als schwach gelten wollte.",
+      "text_en": "Dr. Lang, I'm sorry. I actually didn't want to bring this up, but my mother has become seriously ill, and I'm caring for her on the side. That costs me a lot of energy, and I'm not always able to fully concentrate during the day. I was ashamed to admit this because I didn't want to be seen as weak."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Dr. Lang (Personalchefin)",
+      "text_de": "Herr Müller, dafür brauchen Sie sich überhaupt nicht zu schämen. Im Gegenteil, ich bin froh, dass Sie es mir jetzt erzählen. Wir haben ein betriebliches Unterstützungsprogramm, das auch Beratung für pflegende Angehörige anbietet. Außerdem können wir Ihre Arbeitszeit vorübergehend flexibilisieren. Lassen Sie uns gemeinsam einen Plan machen.",
+      "text_en": "Mr. Müller, you don't need to be ashamed about that at all. On the contrary, I'm glad you're telling me now. We have a company support program that also offers counseling for caregiving relatives. Additionally, we can temporarily make your working hours more flexible. Let's make a plan together."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Engel (Kundin)",
+      "text_de": "Ich möchte mich beschweren. Ich habe gestern Abend in Ihrem Restaurant eine Geburtstagsfeier für 20 Personen veranstaltet. Wir hatten ausdrücklich einen separaten Raum reserviert, aber bei unserer Ankunft wurde uns mitgeteilt, dass der Raum anderweitig vergeben war. Wir mussten im allgemeinen Gastraum sitzen, was für eine private Feier völlig ungeeignet war. Abgesehen davon war das Essen kalt und der Service langsam.",
+      "text_en": "I would like to complain. Yesterday evening I held a birthday celebration for 20 people at your restaurant. We had explicitly reserved a separate room, but upon our arrival we were informed that the room had been given to someone else. We had to sit in the general dining area, which was completely unsuitable for a private celebration. Apart from that, the food was cold and the service was slow."
+    },
+    {
+      "speaker": "Gespräch 3 — Herr Fink (Restaurantleiter)",
+      "text_de": "Frau Engel, ich kann Ihren Ärger absolut nachvollziehen, und ich möchte mich in aller Form entschuldigen. Das war ein Fehler unserer Reservierungssoftware, der nicht hätte passieren dürfen. Ich möchte Ihnen anbieten, Ihre gesamte Rechnung um 50 Prozent zu reduzieren. Darüber hinaus lade ich Sie und Ihre Gäste zu einem Abendessen auf Kosten des Hauses ein, bei dem Sie den separaten Raum selbstverständlich erhalten.",
+      "text_en": "Ms. Engel, I can absolutely understand your anger, and I want to formally apologize. That was an error in our reservation software that should not have happened. I would like to offer you a 50 percent reduction on your entire bill. Furthermore, I invite you and your guests to a dinner on the house, where you will of course receive the separate room."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welchen Kompromiss schlägt Frau Richter für das Website-Projekt vor?",
+      "text_en": "What compromise does Ms. Richter propose for the website project?",
+      "options": [
+        "a) Einen billigeren Anbieter zu beauftragen.",
+        "b) Das Projekt in zwei Phasen aufzuteilen und zunächst nur die Kernfunktionen umzusetzen.",
+        "c) Auf alle Zusatzfunktionen komplett zu verzichten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie schlägt vor, das Projekt in zwei Phasen aufzuteilen: erst die Kernfunktionen, später Online-Shop und mehrsprachige Version.",
+      "explanation_en": "She proposes splitting the project into two phases: first the core features, later the online shop and multilingual version."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum hat sich Herr Müllers Leistung verschlechtert?",
+      "text_en": "Why has Mr. Müller's performance declined?",
+      "options": [
+        "a) Weil er einen neuen Job sucht.",
+        "b) Weil er seine schwer erkrankte Mutter pflegt.",
+        "c) Weil er mit seinem Gehalt unzufrieden ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Seine Mutter ist schwer erkrankt, und er pflegt sie nebenbei, was ihn viel Kraft kostet.",
+      "explanation_en": "His mother has become seriously ill, and he cares for her on the side, which costs him a lot of energy."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Unterstützung bietet die Personalchefin an?",
+      "text_en": "What support does the HR director offer?",
+      "options": [
+        "a) Drei Monate unbezahlten Urlaub.",
+        "b) Ein betriebliches Unterstützungsprogramm und flexible Arbeitszeiten.",
+        "c) Eine sofortige Beförderung mit weniger Verantwortung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie bietet ein betriebliches Unterstützungsprogramm für pflegende Angehörige und vorübergehend flexible Arbeitszeiten an.",
+      "explanation_en": "She offers a company support program for caregiving relatives and temporarily flexible working hours."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was war das Hauptproblem bei der Geburtstagsfeier im Restaurant?",
+      "text_en": "What was the main problem at the birthday celebration in the restaurant?",
+      "options": [
+        "a) Das Restaurant war geschlossen.",
+        "b) Der reservierte separate Raum war anderweitig vergeben worden.",
+        "c) Die Gäste mussten draußen sitzen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der ausdrücklich reservierte separate Raum war anderweitig vergeben worden, und sie mussten im allgemeinen Gastraum sitzen.",
+      "explanation_en": "The explicitly reserved separate room had been given to someone else, and they had to sit in the general dining area."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie entschädigt der Restaurantleiter die Kundin?",
+      "text_en": "How does the restaurant manager compensate the customer?",
+      "options": [
+        "a) Mit einer Erstattung von 20 Prozent der Rechnung.",
+        "b) Mit 50 Prozent Rabatt auf die Rechnung und einem kostenlosen Abendessen.",
+        "c) Mit einem kostenlosen Dessert für alle Gäste."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er reduziert die Rechnung um 50 Prozent und lädt zu einem Abendessen auf Kosten des Hauses ein.",
+      "explanation_en": "He reduces the bill by 50 percent and invites them to a dinner on the house."
+    }
+  ]
+}

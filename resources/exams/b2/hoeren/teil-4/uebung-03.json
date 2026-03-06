@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-4-003",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Mehrsprachigkeit als kognitive Ressource",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Prof. Dr. Antonescu",
+      "text_de": "Guten Morgen und herzlich willkommen zum Symposium „Sprache und Gehirn“. Mein Name ist Maria Antonescu, und ich leite den Lehrstuhl für angewandte Linguistik an der Universität Heidelberg. Heute möchte ich mit einigen verbreiteten Mythen über Mehrsprachigkeit aufräumen und Ihnen die neuesten Forschungsergebnisse zu den kognitiven Vorteilen des Sprachenlernens vorstellen.",
+      "text_en": "Good morning and welcome to the symposium 'Language and the Brain.' My name is Maria Antonescu, and I head the chair of applied linguistics at the University of Heidelberg. Today I would like to dispel some common myths about multilingualism and present the latest research findings on the cognitive benefits of language learning."
+    },
+    {
+      "speaker": "Prof. Dr. Antonescu",
+      "text_de": "Beginnen wir mit dem hartnäckigsten Mythos: dass Kinder, die zweisprachig aufwachsen, in beiden Sprachen schlechter abschneiden als einsprachige Kinder. Das Gegenteil ist der Fall. Unsere Langzeitstudie, die wir über zehn Jahre hinweg mit 2.000 Kindern durchgeführt haben, zeigt eindeutig, dass zweisprachige Kinder zwar in den ersten drei Lebensjahren einen etwas kleineren Wortschatz in jeder einzelnen Sprache haben, aber ab dem vierten Lebensjahr holen sie auf und übertreffen einsprachige Kinder in wichtigen kognitiven Bereichen: Problemlösung, kognitive Flexibilität und selektive Aufmerksamkeit.",
+      "text_en": "Let's begin with the most persistent myth: that children who grow up bilingual perform worse in both languages than monolingual children. The opposite is the case. Our long-term study, which we conducted over ten years with 2,000 children, clearly shows that bilingual children do have a slightly smaller vocabulary in each individual language in the first three years of life, but from the fourth year onward they catch up and surpass monolingual children in important cognitive areas: problem-solving, cognitive flexibility, and selective attention."
+    },
+    {
+      "speaker": "Prof. Dr. Antonescu",
+      "text_de": "Warum ist das so? Das Gehirn eines mehrsprachigen Menschen muss ständig zwischen Sprachsystemen hin- und herschalten und dabei die gerade nicht benötigte Sprache aktiv unterdrücken. Das ist ein enormes kognitives Training, vergleichbar mit einem Muskel, der ständig trainiert wird. Dieser Effekt wurde in bildgebenden Verfahren nachgewiesen: Die Hirnregionen, die für exekutive Funktionen zuständig sind — also Planung, Entscheidungsfindung und Impulskontrolle —, sind bei Mehrsprachigen stärker ausgeprägt als bei Einsprachigen.",
+      "text_en": "Why is that? The brain of a multilingual person must constantly switch between language systems and actively suppress the language not currently needed. This is enormous cognitive training, comparable to a muscle that is constantly exercised. This effect has been demonstrated in neuroimaging studies: the brain regions responsible for executive functions — planning, decision-making, and impulse control — are more developed in multilinguals than in monolinguals."
+    },
+    {
+      "speaker": "Prof. Dr. Antonescu",
+      "text_de": "Besonders spannend sind die Erkenntnisse zum Alter. Lange galt die Ansicht, dass man Sprachen nur in der Kindheit richtig lernen kann — das sogenannte Fenster der Sprachentwicklung schließe sich mit der Pubertät. Das stimmt so nicht. Es stimmt zwar, dass Kinder eine muttersprachliche Aussprache leichter erreichen, aber die grammatische und kommunikative Kompetenz kann in jedem Alter erworben werden. Erwachsene Lernende haben sogar Vorteile: Sie können auf ihr Weltwissen und analytisches Denken zurückgreifen und lernen grammatische Strukturen oft schneller als Kinder.",
+      "text_en": "Particularly exciting are the findings regarding age. For a long time, the view prevailed that languages can only be properly learned in childhood — the so-called window of language development closes with puberty. That's not quite right. While it is true that children achieve native-like pronunciation more easily, grammatical and communicative competence can be acquired at any age. Adult learners even have advantages: they can draw on their world knowledge and analytical thinking and often learn grammatical structures faster than children."
+    },
+    {
+      "speaker": "Prof. Dr. Antonescu",
+      "text_de": "Und schließlich ein Aspekt, der für eine alternde Gesellschaft besonders relevant ist: Mehrsprachigkeit scheint einen schützenden Effekt gegen Demenz zu haben. Studien aus Kanada und Indien zeigen, dass bei mehrsprachigen Menschen die ersten Symptome einer Alzheimer-Erkrankung im Durchschnitt vier bis fünf Jahre später auftreten als bei einsprachigen. Mehrsprachigkeit verhindert die Krankheit zwar nicht, aber sie baut eine sogenannte kognitive Reserve auf, die es dem Gehirn ermöglicht, die Schäden länger zu kompensieren. Das allein sollte Grund genug sein, in die Sprachbildung zu investieren — in jeder Lebensphase. Vielen Dank.",
+      "text_en": "And finally, an aspect that is particularly relevant for an aging society: multilingualism appears to have a protective effect against dementia. Studies from Canada and India show that in multilingual people, the first symptoms of Alzheimer's disease appear on average four to five years later than in monolinguals. Multilingualism does not prevent the disease, but it builds a so-called cognitive reserve that enables the brain to compensate for the damage longer. That alone should be reason enough to invest in language education — at every stage of life. Thank you."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt die Langzeitstudie über zweisprachige Kinder?",
+      "text_en": "What does the long-term study show about bilingual children?",
+      "options": [
+        "a) Sie schneiden in beiden Sprachen dauerhaft schlechter ab.",
+        "b) Sie holen anfängliche Rückstände auf und übertreffen einsprachige Kinder in kognitiven Bereichen.",
+        "c) Sie haben ab dem ersten Lebensjahr einen größeren Wortschatz."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Ab dem vierten Lebensjahr holen zweisprachige Kinder auf und übertreffen einsprachige Kinder in Problemlösung, Flexibilität und Aufmerksamkeit.",
+      "explanation_en": "From the fourth year onward, bilingual children catch up and surpass monolingual children in problem-solving, flexibility, and attention."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Womit vergleicht Frau Antonescu das Sprachenwechseln im Gehirn?",
+      "text_en": "What does Ms. Antonescu compare language switching in the brain to?",
+      "options": [
+        "a) Mit einem Computer, der mehrere Programme gleichzeitig ausführt.",
+        "b) Mit einem Muskel, der ständig trainiert wird.",
+        "c) Mit einem Orchester, das verschiedene Instrumente koordiniert."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie vergleicht es mit einem Muskel, der ständig trainiert wird — das Hin- und Herschalten ist ein kognitives Training.",
+      "explanation_en": "She compares it to a muscle that is constantly exercised — switching back and forth is cognitive training."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was sagt Frau Antonescu über das Sprachenlernen im Erwachsenenalter?",
+      "text_en": "What does Ms. Antonescu say about language learning in adulthood?",
+      "options": [
+        "a) Es ist nach der Pubertät praktisch unmöglich.",
+        "b) Erwachsene lernen grammatische Strukturen oft schneller als Kinder.",
+        "c) Erwachsene können nur einfache Alltagssprache erlernen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Erwachsene können auf Weltwissen und analytisches Denken zurückgreifen und lernen grammatische Strukturen oft schneller als Kinder.",
+      "explanation_en": "Adults can draw on world knowledge and analytical thinking and often learn grammatical structures faster than children."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Schutzeffekt hat Mehrsprachigkeit laut der Forschung?",
+      "text_en": "What protective effect does multilingualism have according to research?",
+      "options": [
+        "a) Sie verhindert Alzheimer vollständig.",
+        "b) Sie verzögert die ersten Demenzsymptome um vier bis fünf Jahre.",
+        "c) Sie halbiert das Risiko für alle Gehirnerkrankungen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Bei mehrsprachigen Menschen treten die ersten Alzheimer-Symptome im Durchschnitt vier bis fünf Jahre später auf.",
+      "explanation_en": "In multilingual people, the first Alzheimer's symptoms appear on average four to five years later."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Hirnregionen sind bei Mehrsprachigen stärker ausgeprägt?",
+      "text_en": "Which brain regions are more developed in multilinguals?",
+      "options": [
+        "a) Die Regionen für Sprachverständnis und Grammatik.",
+        "b) Die Regionen für exekutive Funktionen wie Planung und Entscheidungsfindung.",
+        "c) Die Regionen für Emotionen und Empathie."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Hirnregionen für exekutive Funktionen — Planung, Entscheidungsfindung und Impulskontrolle — sind stärker ausgeprägt.",
+      "explanation_en": "The brain regions for executive functions — planning, decision-making, and impulse control — are more developed."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "b2-sprechen-teil-1-003",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Die Bedeutung des Fremdsprachenlernens",
+  "instructions": "Sie sollen einen kurzen Vortrag zu einem Thema halten. Anschließend diskutieren Sie mit dem Prüfer / der Prüferin darüber.",
+  "situation_de": "In einer globalisierten Welt werden Fremdsprachenkenntnisse immer wichtiger. Halten Sie einen Vortrag über die Bedeutung des Fremdsprachenlernens. Gehen Sie auf die folgenden Punkte ein und begründen Sie Ihre Meinung.",
+  "situation_en": "In a globalized world, foreign language skills are becoming increasingly important. Give a presentation about the importance of learning foreign languages. Address the following points and justify your opinion.",
+  "discussion_points": [
+    "Warum ist es heutzutage besonders wichtig, Fremdsprachen zu lernen? (Why is it particularly important nowadays to learn foreign languages?)",
+    "Welche Vorteile bringt Mehrsprachigkeit im Berufsleben? (What advantages does multilingualism bring in professional life?)",
+    "Reicht Englisch als einzige Fremdsprache aus? Warum oder warum nicht? (Is English sufficient as the only foreign language? Why or why not?)",
+    "Welche Methoden halten Sie für besonders effektiv beim Sprachenlernen? (Which methods do you consider particularly effective for language learning?)",
+    "Welche Rolle spielen kulturelle Aspekte beim Erlernen einer Fremdsprache? (What role do cultural aspects play in learning a foreign language?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "In meinem heutigen Vortrag möchte ich über die Bedeutung des Fremdsprachenlernens sprechen. Angesichts der zunehmenden Globalisierung halte ich Fremdsprachenkenntnisse für eine der wichtigsten Kompetenzen unserer Zeit.",
+      "text_en": "In my presentation today, I would like to talk about the importance of learning foreign languages. In view of increasing globalization, I consider foreign language skills to be one of the most important competencies of our time."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Im Berufsleben eröffnet Mehrsprachigkeit zahlreiche Türen. Wer neben Englisch noch weitere Sprachen beherrscht, hat deutlich bessere Chancen auf dem internationalen Arbeitsmarkt. Unternehmen suchen gezielt nach Mitarbeitern, die mit Kunden und Partnern in deren Muttersprache kommunizieren können.",
+      "text_en": "In professional life, multilingualism opens numerous doors. Those who master additional languages besides English have significantly better chances in the international job market. Companies specifically seek employees who can communicate with clients and partners in their native language."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Obwohl Englisch zweifellos die wichtigste Weltsprache ist, bin ich der Überzeugung, dass es nicht ausreicht, sich nur auf diese eine Sprache zu verlassen. In vielen Wirtschaftsregionen — etwa in China, Brasilien oder den arabischen Ländern — sind Kenntnisse der jeweiligen Landessprache ein entscheidender Wettbewerbsvorteil.",
+      "text_en": "Although English is undoubtedly the most important global language, I am convinced that it is not enough to rely solely on this one language. In many economic regions — such as China, Brazil, or Arab countries — knowledge of the respective national language is a decisive competitive advantage."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Darüber hinaus fördert das Sprachenlernen auch das Verständnis für andere Kulturen. Man lernt nicht nur Vokabeln und Grammatik, sondern auch neue Denkweisen und Perspektiven kennen.",
+      "text_en": "Furthermore, language learning also promotes understanding of other cultures. You don't just learn vocabulary and grammar, but also new ways of thinking and perspectives."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Danke für Ihren Vortrag. Sie haben das Thema Lernmethoden angesprochen. Welche Methoden haben Ihnen persönlich am meisten geholfen?",
+      "text_en": "Thank you for your presentation. You touched on the topic of learning methods. Which methods have helped you personally the most?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Meiner Erfahrung nach ist eine Kombination verschiedener Methoden am wirksamsten. Formaler Unterricht bildet eine solide Grundlage, aber erst durch regelmäßige Anwendung im Alltag — etwa durch Gespräche mit Muttersprachlern, das Lesen von Büchern oder das Anschauen von Filmen in der Zielsprache — festigen sich die Kenntnisse wirklich.",
+      "text_en": "In my experience, a combination of different methods is most effective. Formal instruction forms a solid foundation, but only through regular application in everyday life — for example through conversations with native speakers, reading books, or watching films in the target language — do the skills truly solidify."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Manche Leute sagen, dass Sprachlern-Apps den traditionellen Unterricht ersetzen können. Was meinen Sie dazu?",
+      "text_en": "Some people say that language learning apps can replace traditional instruction. What do you think about that?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Apps wie Duolingo oder Babbel sind sicherlich nützliche Ergänzungen, aber als vollwertigen Ersatz für den Unterricht würde ich sie nicht betrachten. Sie eignen sich gut für das Erlernen von Vokabeln und einfachen Strukturen, aber die Fähigkeit zur freien Kommunikation entwickelt man nur durch echte Interaktion mit anderen Menschen.",
+      "text_en": "Apps like Duolingo or Babbel are certainly useful supplements, but I would not consider them a full replacement for instruction. They are well suited for learning vocabulary and simple structures, but the ability to communicate freely can only be developed through real interaction with other people."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Ab welchem Alter sollte man Ihrer Meinung nach mit dem Fremdsprachenlernen beginnen?",
+      "text_en": "At what age should one begin learning foreign languages in your opinion?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Je früher, desto besser — das ist meine klare Überzeugung. Kinder haben die bemerkenswerte Fähigkeit, Sprachen fast mühelos aufzunehmen. Wenn der Fremdsprachenunterricht bereits im Kindergarten spielerisch eingeführt wird, profitieren die Kinder ihr ganzes Leben lang davon. Das bedeutet allerdings nicht, dass man als Erwachsener keine Sprache mehr lernen kann — es erfordert nur mehr bewusste Anstrengung.",
+      "text_en": "The earlier the better — that is my firm conviction. Children have the remarkable ability to absorb languages almost effortlessly. If foreign language instruction is introduced playfully in kindergarten, children benefit from it their entire lives. However, this does not mean that adults can no longer learn a language — it just requires more conscious effort."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat geht in seinem Vortrag auf alle vorgegebenen Diskussionspunkte ein.",
+    "Argumentation: Überzeugend und differenziert, mit Beispielen aus der eigenen Erfahrung untermauert.",
+    "Interaktion: Angemessene und ausführliche Reaktion auf die Rückfragen des Prüfers.",
+    "Wortschatz: Breiter Wortschatz zu den Themen Bildung, Sprache, Globalisierung und Berufsleben.",
+    "Strukturen: Sichere Verwendung von Nebensätzen, Passivkonstruktionen und Komparativformen.",
+    "Aussprache und Intonation: Natürlicher Sprechrhythmus mit korrekter Betonung, auch bei längeren Sätzen."
+  ]
+}

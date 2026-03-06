@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-3-003",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Reiseführer: Die Sächsische Schweiz",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Sächsische Schweiz, gelegen im Osten Deutschlands an der Grenze zu Tschechien, ist eines der spektakulärsten Naturgebiete Mitteleuropas. Das Elbsandsteingebirge erstreckt sich auf einer Fläche von rund 360 Quadratkilometern und beeindruckt durch seine bizarren Felsformationen, tiefen Schluchten und ausgedehnten Wälder. Seit 1990 ist der sächsische Teil als Nationalpark geschützt.\n\nDer Nationalpark bietet über 400 Kilometer markierte Wanderwege für unterschiedliche Schwierigkeitsgrade. Die berühmteste Sehenswürdigkeit ist die Basteibrücke, eine 76 Meter hohe Steinbrücke aus dem 19. Jahrhundert, die einen atemberaubenden Blick auf das Elbtal gewährt. Für erfahrene Kletterer ist das Gebiet ein Paradies: Über 1.100 freistehende Felsen bieten mehr als 21.000 verschiedene Kletterrouten. Die hier praktizierte Klettertradition, das sogenannte Sächsische Klettern, gilt als eine der ältesten Formen des Freikletterns weltweit.\n\nNeben Wandern und Klettern lockt die Region mit kulturellen Attraktionen. Die Festung Königstein, eine der größten Bergfestungen Europas, thront auf einem Tafelberg über der Elbe. Die nahegelegene Stadt Bad Schandau dient als idealer Ausgangspunkt für Ausflüge und verfügt über ein Netz von historischen Straßenbahnen und einen Aufzug, der Besucher auf die Felskuppe befördert. Die beste Reisezeit ist von Mai bis Oktober, wobei der Herbst besonders empfehlenswert ist, wenn die Laubfärbung die Landschaft in warme Töne taucht.",
+    "text_en": "Saxon Switzerland, located in eastern Germany on the border with the Czech Republic, is one of the most spectacular natural areas in Central Europe. The Elbe Sandstone Mountains extend over an area of approximately 360 square kilometers and impress with their bizarre rock formations, deep gorges, and extensive forests. Since 1990, the Saxon part has been protected as a national park.\n\nThe national park offers over 400 kilometers of marked hiking trails for varying difficulty levels. The most famous attraction is the Bastei Bridge, a 76-meter-high stone bridge from the 19th century that offers a breathtaking view of the Elbe valley. For experienced climbers, the area is a paradise: over 1,100 freestanding rocks offer more than 21,000 different climbing routes. The climbing tradition practiced here, known as Saxon climbing, is considered one of the oldest forms of free climbing worldwide.\n\nBesides hiking and climbing, the region attracts with cultural attractions. Königstein Fortress, one of the largest hilltop fortifications in Europe, perches on a flat-topped mountain above the Elbe. The nearby town of Bad Schandau serves as an ideal starting point for excursions and has a network of historic trams and an elevator that transports visitors to the rock summit. The best travel time is from May to October, with autumn being particularly recommended when the foliage colors bathe the landscape in warm tones.",
+    "source": "Sachbuch",
+    "word_count": 199
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo liegt die Sächsische Schweiz?",
+      "text_en": "Where is Saxon Switzerland located?",
+      "options": [
+        "a) Im Westen Deutschlands an der Grenze zu Frankreich.",
+        "b) Im Osten Deutschlands an der Grenze zu Tschechien.",
+        "c) Im Süden Deutschlands an der Grenze zu Österreich."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Sächsische Schweiz liegt im Osten Deutschlands an der Grenze zu Tschechien.",
+      "explanation_en": "Saxon Switzerland is located in eastern Germany on the border with the Czech Republic."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist die berühmteste Sehenswürdigkeit?",
+      "text_en": "What is the most famous attraction?",
+      "options": [
+        "a) Die Festung Königstein.",
+        "b) Die Basteibrücke mit Blick auf das Elbtal.",
+        "c) Die historischen Straßenbahnen von Bad Schandau."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die berühmteste Sehenswürdigkeit ist die Basteibrücke.",
+      "explanation_en": "The most famous attraction is the Bastei Bridge."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum ist das Gebiet für Kletterer besonders attraktiv?",
+      "text_en": "Why is the area particularly attractive for climbers?",
+      "options": [
+        "a) Weil es künstliche Kletterhallen gibt.",
+        "b) Weil über 1.100 Felsen mehr als 21.000 Kletterrouten bieten.",
+        "c) Weil es die einzige Kletterregion in Deutschland ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Über 1.100 freistehende Felsen bieten mehr als 21.000 verschiedene Kletterrouten.",
+      "explanation_en": "Over 1,100 freestanding rocks offer more than 21,000 different climbing routes."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist die Festung Königstein?",
+      "text_en": "What is Königstein Fortress?",
+      "options": [
+        "a) Ein mittelalterliches Kloster.",
+        "b) Eine der größten Bergfestungen Europas.",
+        "c) Ein modernes Museum für Militärgeschichte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Festung Königstein ist eine der größten Bergfestungen Europas.",
+      "explanation_en": "Königstein Fortress is one of the largest hilltop fortifications in Europe."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wann ist die beste Reisezeit?",
+      "text_en": "When is the best travel time?",
+      "options": [
+        "a) Von November bis März wegen der Schneelandschaft.",
+        "b) Von Mai bis Oktober, besonders im Herbst.",
+        "c) Das ganze Jahr über, da es keine Saisonunterschiede gibt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die beste Reisezeit ist von Mai bis Oktober, wobei der Herbst besonders empfehlenswert ist.",
+      "explanation_en": "The best travel time is from May to October, with autumn being particularly recommended."
+    }
+  ]
+}

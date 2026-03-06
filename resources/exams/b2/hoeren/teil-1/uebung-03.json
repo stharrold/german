@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-1-003",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Das Documenta-Festival und zeitgenössische Kunst",
+  "instructions": "Sie hören ein Radiointerview. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen bei „Kultur aktuell“. Am Mikrofon ist heute die Kunstkritikerin und Kuratorin Dr. Marianne Schuster, die uns über die neuesten Trends in der zeitgenössischen Kunst berichtet. Frau Schuster, die letzte Documenta in Kassel hat für viel Diskussion gesorgt. Was waren die Hauptkritikpunkte?",
+      "text_en": "Welcome to 'Culture Today.' At the microphone today is art critic and curator Dr. Marianne Schuster, who reports on the latest trends in contemporary art. Ms. Schuster, the last Documenta in Kassel caused much discussion. What were the main points of criticism?"
+    },
+    {
+      "speaker": "Dr. Schuster",
+      "text_de": "Ja, die Diskussion war in der Tat heftig. Im Kern ging es um die Frage, ob Kunst einen rein ästhetischen Zweck erfüllen sollte oder ob sie auch politisch Stellung beziehen darf — oder sogar muss. Viele Besucher fühlten sich überfordert, weil die ausgestellten Werke stark konzeptionell waren und kaum traditionelle Malerei oder Skulptur zu sehen war. Die Besucherzahlen waren dennoch beachtlich: Über 700.000 Menschen kamen in den hundert Tagen der Ausstellung.",
+      "text_en": "Yes, the discussion was indeed heated. At its core, it was about the question of whether art should serve a purely aesthetic purpose or whether it may — or even must — take a political stance. Many visitors felt overwhelmed because the exhibited works were strongly conceptual and hardly any traditional painting or sculpture was to be seen. The visitor numbers were nevertheless remarkable: over 700,000 people came during the hundred days of the exhibition."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Sehen Sie einen allgemeinen Trend weg von der klassischen Kunst hin zu konzeptioneller Kunst?",
+      "text_en": "Do you see a general trend away from classical art toward conceptual art?"
+    },
+    {
+      "speaker": "Dr. Schuster",
+      "text_de": "Nicht unbedingt. Was wir beobachten, ist eher eine Diversifizierung. Es gibt eine starke Rückbesinnung auf handwerkliche Techniken — Keramik, Textilkunst, Holzschnitt — die lange als „niedere Künste“ galten. Gleichzeitig boomen digitale Kunstformen, Installationen und performative Kunst. Der Kunstmarkt ist so vielfältig wie nie zuvor. Was sich allerdings verändert hat, ist die Rolle des Publikums. Früher waren Museumsbesucher passive Betrachter. Heute wird von ihnen erwartet, dass sie mit dem Kunstwerk interagieren, es hinterfragen und einen persönlichen Bezug herstellen.",
+      "text_en": "Not necessarily. What we observe is rather a diversification. There is a strong return to craftsmanship techniques — ceramics, textile art, woodcuts — which were long considered 'lesser arts.' At the same time, digital art forms, installations, and performative art are booming. The art market is more diverse than ever. What has changed, however, is the role of the audience. Previously, museum visitors were passive observers. Today, they are expected to interact with the artwork, question it, and establish a personal connection."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Und wie sieht es mit der Förderung junger Künstlerinnen und Künstler aus?",
+      "text_en": "And what about the support of young artists?"
+    },
+    {
+      "speaker": "Dr. Schuster",
+      "text_de": "Da sehe ich leider ein großes Problem. Die öffentliche Kulturförderung wurde in den letzten Jahren deutlich gekürzt, in manchen Bundesländern um bis zu 20 Prozent. Junge Künstler sind zunehmend auf private Galerien und Mäzene angewiesen, was die Unabhängigkeit der Kunst gefährdet. Ich würde mir wünschen, dass die Politik die Bedeutung der Kulturförderung wiedererkennt. Kunst ist kein Luxus, sondern ein wesentlicher Bestandteil einer demokratischen Gesellschaft.",
+      "text_en": "Unfortunately, I see a major problem there. Public cultural funding has been significantly cut in recent years, in some federal states by up to 20 percent. Young artists are increasingly dependent on private galleries and patrons, which endangers the independence of art. I would wish that politics recognizes the importance of cultural funding again. Art is not a luxury but an essential part of a democratic society."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worum ging es bei der Diskussion über die Documenta?",
+      "text_en": "What was the discussion about the Documenta about?",
+      "options": [
+        "a) Ob der Eintrittspreis zu hoch war.",
+        "b) Ob Kunst politisch sein darf oder rein ästhetisch sein sollte.",
+        "c) Ob die Ausstellung länger hätte dauern sollen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Diskussion ging um die Frage, ob Kunst rein ästhetisch sein oder politisch Stellung beziehen sollte.",
+      "explanation_en": "The discussion was about whether art should be purely aesthetic or take a political stance."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Warum fühlten sich viele Besucher überfordert?",
+      "text_en": "Why did many visitors feel overwhelmed?",
+      "options": [
+        "a) Weil die Ausstellung zu groß und unübersichtlich war.",
+        "b) Weil die Werke stark konzeptionell waren und kaum traditionelle Kunst zu sehen war.",
+        "c) Weil es keine Erklärungen zu den Kunstwerken gab."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Werke waren stark konzeptionell und es war kaum traditionelle Malerei oder Skulptur zu sehen.",
+      "explanation_en": "The works were strongly conceptual and hardly any traditional painting or sculpture was to be seen."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welchen Trend beobachtet Frau Schuster in der Kunst?",
+      "text_en": "What trend does Ms. Schuster observe in art?",
+      "options": [
+        "a) Eine klare Hinwendung zur digitalen Kunst.",
+        "b) Eine Diversifizierung mit Rückbesinnung auf Handwerk und digitale Formen.",
+        "c) Ein Rückgang des Interesses an zeitgenössischer Kunst."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie beobachtet eine Diversifizierung mit Rückbesinnung auf handwerkliche Techniken und gleichzeitigem Boom digitaler Kunstformen.",
+      "explanation_en": "She observes a diversification with a return to craftsmanship techniques and a simultaneous boom in digital art forms."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie hat sich die Rolle des Publikums verändert?",
+      "text_en": "How has the role of the audience changed?",
+      "options": [
+        "a) Besucher sollen heute mit dem Kunstwerk interagieren und es hinterfragen.",
+        "b) Besucher dürfen heute die Kunstwerke selbst verändern.",
+        "c) Besucher werden heute weniger in die Ausstellungen einbezogen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Von den Besuchern wird heute erwartet, dass sie mit dem Kunstwerk interagieren und es hinterfragen.",
+      "explanation_en": "Today, visitors are expected to interact with the artwork and question it."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie ist die aktuelle Lage der Kulturförderung laut Frau Schuster?",
+      "text_en": "What is the current state of cultural funding according to Ms. Schuster?",
+      "options": [
+        "a) Die Förderung wurde um bis zu 20 Prozent gekürzt.",
+        "b) Die Förderung ist stabil geblieben.",
+        "c) Private Mäzene haben die öffentliche Förderung vollständig ersetzt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die öffentliche Kulturförderung wurde in manchen Bundesländern um bis zu 20 Prozent gekürzt.",
+      "explanation_en": "Public cultural funding has been cut by up to 20 percent in some federal states."
+    }
+  ]
+}

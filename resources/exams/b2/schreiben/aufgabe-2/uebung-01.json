@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-2-001",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Homeoffice: Vor- und Nachteile",
+  "instructions": "Schreiben Sie einen argumentativen Text, in dem Sie zu dem Thema Stellung nehmen.",
+  "situation_de": "In einem Online-Forum wird darüber diskutiert, ob Unternehmen ihren Mitarbeitern dauerhaft die Möglichkeit zum Homeoffice anbieten sollten. Einige Teilnehmer sind der Meinung, dass Homeoffice die Produktivität steigert, während andere befürchten, dass der Teamgeist darunter leidet. Nehmen Sie Stellung und begründen Sie Ihre Position.",
+  "situation_en": "In an online forum, people are discussing whether companies should permanently offer their employees the option to work from home. Some participants believe that working from home increases productivity, while others fear that team spirit suffers as a result. Take a position and justify your stance.",
+  "target_word_count": 125,
+  "required_points": [
+    "Ihre Position klar formulieren (Clearly formulate your position)",
+    "Mindestens zwei Argumente für Ihre Position anführen (Provide at least two arguments for your position)",
+    "Ein Gegenargument nennen und entkräften (Name a counterargument and refute it)",
+    "Ein Fazit ziehen (Draw a conclusion)"
+  ],
+  "model_answer": {
+    "text_de": "Meiner Meinung nach sollten Unternehmen ihren Mitarbeitern grundsätzlich die Möglichkeit zum Homeoffice anbieten, wobei ein ausgewogenes hybrides Modell dabei am sinnvollsten wäre.\n\nErstens ermöglicht das regelmäßige Arbeiten von zu Hause eine deutlich bessere Vereinbarkeit von Beruf und Privatleben, was sich positiv auf die Zufriedenheit der Mitarbeiter auswirkt. Zweitens entfällt der oft stressige und zeitaufwendige tägliche Arbeitsweg, wodurch nicht nur wertvolle Zeit gespart, sondern gleichzeitig auch die Umwelt durch weniger Verkehr geschont wird.\n\nKritiker wenden zwar häufig ein, dass der Teamgeist im Homeoffice erheblich leide. Diesem Argument lässt sich jedoch überzeugend entgegenhalten, dass regelmäßige Präsenztage im Büro und gut organisierte digitale Teambuilding-Maßnahmen den kollegialen Zusammenhalt durchaus wirkungsvoll aufrechterhalten können.\n\nZusammenfassend lässt sich daher sagen, dass ein gut durchdachtes Hybridmodell die jeweiligen Vorteile beider Arbeitsformen optimal vereint.",
+    "text_en": "In my opinion, companies should fundamentally offer their employees the option to work from home, whereby a balanced hybrid model would be most sensible.\n\nFirstly, regularly working from home enables a significantly better work-life balance, which positively affects employee satisfaction. Secondly, the often stressful and time-consuming daily commute is eliminated, which not only saves valuable time but simultaneously also benefits the environment through less traffic.\n\nCritics often object that team spirit suffers considerably when working from home. However, this argument can be convincingly countered by noting that regular in-office days and well-organized digital team-building activities can certainly effectively maintain collegial cohesion.\n\nIn summary, it can therefore be said that a well-thought-out hybrid model optimally combines the respective advantages of both work formats."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Klare Positionierung mit überzeugenden Argumenten und Gegenargument (Task fulfillment: Clear positioning with convincing arguments and counterargument)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Fazit (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Differenzierter Wortschatz für Argumentation und Diskussion auf B2-Niveau (Vocabulary: Differentiated vocabulary for argumentation and discussion at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen mit Konnektoren wie erstens, zweitens, jedoch, zusammenfassend (Structures: Complex sentence structures with connectors such as erstens, zweitens, jedoch, zusammenfassend)"
+  ]
+}

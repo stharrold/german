@@ -1,0 +1,82 @@
+{
+  "id": "b2-sprechen-teil-2-001",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Organisation einer Firmenveranstaltung",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen gemeinsam etwas planen. Diskutieren Sie verschiedene Möglichkeiten und einigen Sie sich auf einen Kompromiss.",
+  "situation_de": "Ihre Firma möchte eine Veranstaltung für alle Mitarbeiter organisieren, um den Teamzusammenhalt zu stärken. Sie und Ihr Kollege / Ihre Kollegin sollen die Planung übernehmen. Besprechen Sie die folgenden Punkte und einigen Sie sich auf einen gemeinsamen Plan.",
+  "situation_en": "Your company wants to organize an event for all employees to strengthen team cohesion. You and your colleague are to take over the planning. Discuss the following points and agree on a joint plan.",
+  "discussion_points": [
+    "Welche Art von Veranstaltung soll es sein — Sommerfest, Teambuilding-Tag oder Kulturabend? (What kind of event should it be — summer party, team-building day, or cultural evening?)",
+    "Wo und wann soll die Veranstaltung stattfinden? (Where and when should the event take place?)",
+    "Wie hoch ist das Budget und wie soll es verteilt werden? (What is the budget and how should it be allocated?)",
+    "Welches Programm soll angeboten werden? (What program should be offered?)",
+    "Wie können alle Mitarbeiter — auch die im Homeoffice — eingebunden werden? (How can all employees — including those working from home — be included?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Geschäftsleitung hat uns also gebeten, eine Veranstaltung für das ganze Team zu organisieren. Ich finde, wir sollten uns zunächst überlegen, welche Art von Event am besten geeignet wäre. Was meinst du dazu?",
+      "text_en": "So management has asked us to organize an event for the whole team. I think we should first consider what type of event would be most suitable. What do you think?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ich hätte spontan an einen Teambuilding-Tag gedacht. Da können die Leute sich besser kennenlernen und es fördert die Zusammenarbeit. Allerdings wäre ein Sommerfest vielleicht lockerer und entspannter.",
+      "text_en": "Spontaneously, I would have thought of a team-building day. People can get to know each other better and it promotes collaboration. However, a summer party might be more relaxed and casual."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wie wäre es mit einer Kombination? Wir könnten vormittags ein paar Teambuilding-Aktivitäten anbieten und nachmittags in ein Sommerfest übergehen. So hätten wir beides — den professionellen Aspekt und den Spaßfaktor.",
+      "text_en": "How about a combination? We could offer a few team-building activities in the morning and transition into a summer party in the afternoon. That way we would have both — the professional aspect and the fun factor."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das klingt nach einem guten Kompromiss. Bezüglich des Ortes — ich würde vorschlagen, dass wir es außerhalb des Büros machen. Ein Park oder ein Veranstaltungsort am See wäre ideal, wenn das Wetter mitspielt.",
+      "text_en": "That sounds like a good compromise. Regarding the location — I would suggest we do it outside the office. A park or a venue by the lake would be ideal, if the weather cooperates."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Einverstanden. Aber wir sollten auf jeden Fall einen Plan B haben, falls es regnet. Vielleicht können wir eine Location mieten, die sowohl Innen- als auch Außenbereiche hat. Was das Datum betrifft, würde ich einen Freitag im Juni vorschlagen.",
+      "text_en": "Agreed. But we should definitely have a plan B in case it rains. Maybe we can rent a location that has both indoor and outdoor areas. As for the date, I would suggest a Friday in June."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein Freitag ist gut, dann können die Leute anschließend ins Wochenende starten. Jetzt zum Budget — die Geschäftsleitung hat uns fünftausend Euro genehmigt. Ich denke, wir sollten den größten Anteil für das Catering einplanen, weil gutes Essen immer für gute Stimmung sorgt.",
+      "text_en": "A Friday is good, then people can head into the weekend afterwards. Now about the budget — management approved five thousand euros for us. I think we should allocate the largest portion for catering, because good food always ensures a good mood."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Da stimme ich dir zu. Ich würde etwa die Hälfte für das Catering vorsehen, einen Teil für die Miete der Location und den Rest für die Teambuilding-Aktivitäten und Dekoration. Eventuell könnten wir einen externen Moderator engagieren, der die Gruppenspiele leitet.",
+      "text_en": "I agree with you on that. I would allocate about half for catering, a portion for the venue rental, and the rest for team-building activities and decoration. We could possibly hire an external moderator to lead the group games."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gute Idee. Was mich noch beschäftigt, ist die Einbindung der Kollegen im Homeoffice. Wir haben ja mittlerweile einige Mitarbeiter, die komplett remote arbeiten und teilweise in anderen Städten wohnen.",
+      "text_en": "Good idea. What still concerns me is including the colleagues working from home. We now have several employees who work completely remotely and some live in other cities."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein wichtiger Punkt. Ich würde vorschlagen, dass wir die Reisekosten für die Remote-Mitarbeiter übernehmen — zumindest teilweise. Außerdem könnten wir für diejenigen, die wirklich nicht kommen können, einen Livestream einrichten und sie virtuell an einigen Aktivitäten teilnehmen lassen.",
+      "text_en": "That is an important point. I would suggest that we cover travel costs for remote employees — at least partially. Additionally, for those who really cannot come, we could set up a livestream and let them participate virtually in some activities."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Damit bin ich einverstanden. Fassen wir zusammen: Ein kombinierter Teambuilding- und Sommerfest-Tag an einem Freitag im Juni, an einer Location mit Innen- und Außenbereich, mit einem Budget von fünftausend Euro, und wir sorgen dafür, dass auch die Remote-Kollegen eingebunden werden. Klingt das gut?",
+      "text_en": "I agree with that. Let's summarize: A combined team-building and summer party day on a Friday in June, at a venue with indoor and outdoor areas, with a budget of five thousand euros, and we make sure remote colleagues are included. Does that sound good?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Perfekt. Dann teilen wir uns die Aufgaben auf. Ich kümmere mich um die Location-Suche und das Catering, und du organisierst die Teambuilding-Aktivitäten und die technische Einrichtung für den Livestream. Einverstanden?",
+      "text_en": "Perfect. Then let's divide up the tasks. I'll take care of the venue search and catering, and you organize the team-building activities and the technical setup for the livestream. Agreed?"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Planungspunkte werden besprochen und eine gemeinsame Lösung wird gefunden.",
+    "Interaktion: Die Kandidaten machen konstruktive Vorschläge, gehen auf die Ideen des Partners ein und finden Kompromisse.",
+    "Argumentation: Vorschläge werden mit nachvollziehbaren Gründen untermauert.",
+    "Wortschatz: Angemessener Wortschatz zu den Themen Eventplanung, Teamarbeit und Organisation.",
+    "Strukturen: Sichere Verwendung von Konjunktiv II für Vorschläge und hypothetische Situationen.",
+    "Aussprache und Intonation: Natürliche Gesprächsintonation mit angemessenem Sprechtempo."
+  ]
+}

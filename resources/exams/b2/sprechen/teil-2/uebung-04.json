@@ -1,0 +1,82 @@
+{
+  "id": "b2-sprechen-teil-2-004",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Verhandlung über die Büroraumnutzung",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen gemeinsam etwas planen. Diskutieren Sie verschiedene Möglichkeiten und einigen Sie sich auf einen Kompromiss.",
+  "situation_de": "Ihre Firma zieht in ein neues Bürogebäude um. Es gibt begrenzte Räumlichkeiten und verschiedene Abteilungen haben unterschiedliche Anforderungen. Sie und ein Kollege / eine Kollegin aus einer anderen Abteilung sollen gemeinsam einen Raumaufteilungsplan erstellen. Besprechen Sie die folgenden Punkte und finden Sie einen Kompromiss.",
+  "situation_en": "Your company is moving to a new office building. There is limited space and different departments have different requirements. You and a colleague from another department are to create a room allocation plan together. Discuss the following points and find a compromise.",
+  "discussion_points": [
+    "Welche Abteilungen brauchen eigene Büros und welche können sich Räume teilen? (Which departments need their own offices and which can share rooms?)",
+    "Soll es Einzelbüros, Großraumbüros oder eine Mischung geben? (Should there be individual offices, open-plan offices, or a mix?)",
+    "Wie sollen Besprechungsräume und Gemeinschaftsbereiche aufgeteilt werden? (How should meeting rooms and common areas be allocated?)",
+    "Welche technische Ausstattung wird in welchen Räumen benötigt? (What technical equipment is needed in which rooms?)",
+    "Wie können die Bedürfnisse aller Mitarbeiter fair berücksichtigt werden? (How can the needs of all employees be fairly considered?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Der Umzug steht vor der Tür und wir müssen dringend klären, wie wir die neuen Büroflächen aufteilen. Meine Abteilung — die Softwareentwicklung — braucht ruhige Arbeitsbereiche, weil konzentriertes Arbeiten bei uns essenziell ist. Wie sieht das bei euch im Vertrieb aus?",
+      "text_en": "The move is approaching and we urgently need to clarify how to allocate the new office spaces. My department — software development — needs quiet work areas because concentrated work is essential for us. How does it look for you in sales?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Im Vertrieb telefonieren wir den ganzen Tag und haben ständig Kundenbesuche. Wir brauchen also eher offene Flächen, in denen die Kommunikation leicht fällt, und zusätzlich einen repräsentativen Empfangsbereich für Kunden. Ich sehe schon, dass unsere Anforderungen ziemlich gegensätzlich sind.",
+      "text_en": "In sales, we're on the phone all day and constantly have client visits. So we need more open areas where communication is easy, and additionally a representative reception area for clients. I can already see that our requirements are quite opposite."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Stimmt, aber genau deshalb sollten wir einen guten Kompromiss finden. Ich schlage vor, dass wir das Gebäude in Zonen einteilen: eine ruhige Zone für Abteilungen, die konzentriert arbeiten müssen, und eine kommunikative Zone für den Vertrieb und ähnliche Bereiche.",
+      "text_en": "True, but that's exactly why we should find a good compromise. I suggest that we divide the building into zones: a quiet zone for departments that need to work with concentration, and a communicative zone for sales and similar areas."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das klingt vernünftig. Was die Büroform angeht, würde ich für unsere Abteilung ein Großraumbüro befürworten, weil der schnelle Austausch untereinander für uns sehr wichtig ist. Aber ich verstehe, dass das für die Entwickler nicht funktioniert.",
+      "text_en": "That sounds reasonable. As for the office type, I would advocate for an open-plan office for our department, because quick exchange among each other is very important for us. But I understand that wouldn't work for the developers."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Genau. Für die Entwicklung würde ich Zweier- oder Dreierbüros vorschlagen, mit der Möglichkeit, die Türen zu schließen. Allerdings könnten wir auch einen gemeinsamen Projektbereich einrichten, in dem abteilungsübergreifende Teams zusammenarbeiten können.",
+      "text_en": "Exactly. For development, I would suggest two- or three-person offices, with the option to close the doors. However, we could also set up a shared project area where cross-departmental teams can work together."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Den gemeinsamen Projektbereich finde ich sehr sinnvoll. Jetzt zu den Besprechungsräumen — davon gibt es im neuen Gebäude leider nur vier. Wie sollen wir die aufteilen?",
+      "text_en": "I find the shared project area very sensible. Now about the meeting rooms — unfortunately there are only four in the new building. How should we allocate them?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin dafür, dass die Besprechungsräume nicht einzelnen Abteilungen zugeordnet werden, sondern über ein zentrales Buchungssystem allen zur Verfügung stehen. So wird die Nutzung gerechter und transparenter. Einen der Räume könnten wir als Konferenzraum mit Videokonferenz-Technik ausstatten.",
+      "text_en": "I am in favor of not assigning the meeting rooms to individual departments but making them available to everyone through a central booking system. That way the usage becomes fairer and more transparent. We could equip one of the rooms as a conference room with video conferencing technology."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Allerdings bräuchten wir für Kundengespräche mindestens einen Raum, der jederzeit kurzfristig verfügbar ist. Vielleicht können wir eine Regelung treffen, dass dieser Raum maximal eine Stunde im Voraus für Kundenbesuche reserviert werden kann.",
+      "text_en": "Agreed. However, for client meetings we would need at least one room that is available at short notice at any time. Perhaps we can make an arrangement that this room can be reserved for client visits at most one hour in advance."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein fairer Vorschlag. Bezüglich der Gemeinschaftsbereiche — eine Küche und ein Pausenraum sollten zentral gelegen sein, damit alle Abteilungen gleichen Zugang haben. Das fördert nebenbei auch den informellen Austausch zwischen den Abteilungen.",
+      "text_en": "That's a fair proposal. Regarding common areas — a kitchen and break room should be centrally located so that all departments have equal access. Incidentally, that also promotes informal exchange between departments."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Da bin ich ganz deiner Meinung. Zur technischen Ausstattung: Jeder Arbeitsplatz sollte einen höhenverstellbaren Schreibtisch und zwei Monitore haben. Das hat die Geschäftsführung bereits zugesagt. Wir müssen nur noch klären, wo die Server und die Netzwerkinfrastruktur untergebracht werden.",
+      "text_en": "I completely agree with you on that. Regarding technical equipment: every workstation should have a height-adjustable desk and two monitors. Management has already agreed to that. We just need to clarify where the servers and network infrastructure will be housed."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Server brauchen einen separaten, klimatisierten Raum. Das liegt eindeutig in der Zuständigkeit meiner Abteilung. Ich kümmere mich darum, dass die technischen Anforderungen an die Gebäudeverwaltung weitergeleitet werden. Dann fassen wir zusammen: Zonierung nach Lautstärke, zentrales Buchungssystem für Besprechungsräume, ein kurzfristig verfügbarer Kundenraum, und zentrale Gemeinschaftsbereiche. Passt das so?",
+      "text_en": "The servers need a separate, air-conditioned room. That clearly falls under my department's responsibility. I'll make sure the technical requirements are forwarded to building management. Then let's summarize: zoning by noise level, central booking system for meeting rooms, a client room available at short notice, and central common areas. Does that work?"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Die Kandidaten verhandeln alle Planungspunkte und finden tragfähige Kompromisse.",
+    "Interaktion: Konstruktive Verhandlungsführung mit Bereitschaft, auf die Bedürfnisse des Partners einzugehen.",
+    "Argumentation: Sachliche Begründung der eigenen Position, Abwägen von Alternativen.",
+    "Wortschatz: Fachvokabular zu den Themen Bürogestaltung, Organisation und Verhandlung.",
+    "Strukturen: Sichere Verwendung von Komparativsätzen, Konzessivsätzen und Konjunktiv II für Vorschläge.",
+    "Aussprache und Intonation: Angemessene Verhandlungsintonation mit diplomatischem Tonfall."
+  ]
+}

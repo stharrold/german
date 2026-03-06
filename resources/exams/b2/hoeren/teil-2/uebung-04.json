@@ -1,0 +1,108 @@
+{
+  "id": "b2-hoeren-teil-2-004",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Work-Life-Balance — ein erreichbares Ziel?",
+  "instructions": "Sie hören eine Radiodiskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Herzlich willkommen zu unserer Gesprächsrunde. Heute fragen wir: Ist eine gesunde Work-Life-Balance überhaupt noch realistisch? Darüber sprechen Frau Lisa Kern, Personalberaterin bei einer internationalen Unternehmensberatung, und Herr Dr. Martin Schreiber, Arbeitspsychologe. Frau Kern, Sie beraten Unternehmen in ganz Europa. Wie sieht die Realität aus?",
+      "text_en": "Welcome to our discussion round. Today we ask: Is a healthy work-life balance still realistic at all? Discussing this are Ms. Lisa Kern, HR consultant at an international management consultancy, and Dr. Martin Schreiber, occupational psychologist. Ms. Kern, you advise companies across Europe. What does reality look like?"
+    },
+    {
+      "speaker": "Frau Kern",
+      "text_de": "Ehrlich gesagt, die Situation hat sich verschlechtert, obwohl alle das Gegenteil behaupten. Unternehmen werben zwar mit flexiblen Arbeitszeiten und Homeoffice, aber die Erwartung, ständig erreichbar zu sein, ist gestiegen. Eine Umfrage unter unseren Klienten hat ergeben, dass 68 Prozent der Angestellten auch nach Feierabend regelmäßig geschäftliche E-Mails beantworten. Die Grenze zwischen Arbeit und Privatleben verschwimmt zunehmend, und viele Menschen merken das gar nicht, weil sie es als normal empfinden.",
+      "text_en": "Honestly, the situation has worsened, although everyone claims the opposite. Companies do advertise flexible working hours and remote work, but the expectation of being constantly available has increased. A survey among our clients found that 68 percent of employees regularly answer work emails even after hours. The boundary between work and private life is increasingly blurring, and many people don't even notice because they perceive it as normal."
+    },
+    {
+      "speaker": "Dr. Schreiber",
+      "text_de": "Das kann ich aus psychologischer Sicht nur bestätigen. Wir beobachten einen dramatischen Anstieg von Burnout-Fällen — um 40 Prozent in den letzten fünf Jahren. Was viele nicht verstehen: Burnout ist keine Schwäche, sondern eine natürliche Reaktion des Körpers auf chronische Überlastung. Das Problem beginnt oft schleichend. Zunächst ist man stolz auf seine Leistungsfähigkeit, dann kommen Schlafstörungen, Reizbarkeit, und schließlich der Zusammenbruch. Besonders gefährdet sind Menschen in Führungspositionen und im Gesundheitswesen.",
+      "text_en": "I can only confirm that from a psychological perspective. We observe a dramatic increase in burnout cases — by 40 percent in the last five years. What many don't understand: burnout is not a weakness but a natural reaction of the body to chronic overload. The problem often begins gradually. First, you're proud of your performance capacity, then come sleep disturbances, irritability, and finally the breakdown. Particularly at risk are people in leadership positions and in healthcare."
+    },
+    {
+      "speaker": "Frau Kern",
+      "text_de": "Interessant ist auch der kulturelle Unterschied. In Skandinavien zum Beispiel verlassen die meisten Angestellten pünktlich um 16 Uhr das Büro, und niemand empfindet das als Faulheit. In Deutschland hingegen gilt die Anwesenheitskultur immer noch als Zeichen von Engagement. Wer vor dem Chef nach Hause geht, gilt als unmotiviert. Diese Mentalität müssen wir dringend ändern. Einige fortschrittliche Unternehmen experimentieren bereits mit der Vier-Tage-Woche, und die ersten Ergebnisse sind vielversprechend: Die Produktivität bleibt gleich oder steigt sogar, während die Zufriedenheit der Mitarbeiter deutlich zunimmt.",
+      "text_en": "The cultural difference is also interesting. In Scandinavia, for example, most employees leave the office punctually at 4 PM, and nobody perceives that as laziness. In Germany, by contrast, the presence culture is still considered a sign of commitment. Anyone who leaves before the boss is considered unmotivated. We urgently need to change this mentality. Some progressive companies are already experimenting with the four-day week, and the initial results are promising: productivity remains the same or even increases, while employee satisfaction increases significantly."
+    },
+    {
+      "speaker": "Dr. Schreiber",
+      "text_de": "Die Vier-Tage-Woche ist ein spannender Ansatz, aber sie allein löst das Problem nicht. Wir müssen grundsätzlich unser Verhältnis zur Arbeit überdenken. Arbeit ist wichtig für unsere Identität, aber sie darf nicht der einzige Lebensinhalt sein. Ich empfehle meinen Patienten, bewusst Grenzen zu setzen: keine E-Mails nach 19 Uhr, mindestens ein Hobby, das nichts mit dem Beruf zu tun hat, und regelmäßige Bewegung. Und — ganz wichtig — ein Urlaub, in dem man tatsächlich abschaltet und nicht nur den Laptop an den Strand mitnimmt.",
+      "text_en": "The four-day week is an exciting approach, but it alone doesn't solve the problem. We fundamentally need to reconsider our relationship with work. Work is important for our identity, but it must not be the only purpose in life. I recommend to my patients to consciously set boundaries: no emails after 7 PM, at least one hobby that has nothing to do with work, and regular exercise. And — very importantly — a vacation where you actually switch off and don't just take the laptop to the beach."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Umfrage unter den Klienten von Frau Kern ergeben?",
+      "text_en": "What did the survey among Ms. Kern's clients reveal?",
+      "options": [
+        "a) Die meisten Angestellten nutzen flexible Arbeitszeiten effektiv.",
+        "b) 68 Prozent beantworten auch nach Feierabend geschäftliche E-Mails.",
+        "c) Die Mehrheit lehnt Homeoffice ab."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "68 Prozent der Angestellten beantworten auch nach Feierabend regelmäßig geschäftliche E-Mails.",
+      "explanation_en": "68 percent of employees regularly answer work emails even after hours."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Um wie viel Prozent sind die Burnout-Fälle laut Dr. Schreiber gestiegen?",
+      "text_en": "By what percentage have burnout cases increased according to Dr. Schreiber?",
+      "options": [
+        "a) Um 20 Prozent.",
+        "b) Um 40 Prozent.",
+        "c) Um 60 Prozent."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Burnout-Fälle sind in den letzten fünf Jahren um 40 Prozent gestiegen.",
+      "explanation_en": "Burnout cases have increased by 40 percent in the last five years."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet die Arbeitskultur in Skandinavien von der in Deutschland?",
+      "text_en": "What distinguishes the work culture in Scandinavia from that in Germany?",
+      "options": [
+        "a) In Skandinavien wird deutlich mehr gearbeitet als in Deutschland.",
+        "b) In Skandinavien verlassen Angestellte pünktlich das Büro, ohne als faul zu gelten.",
+        "c) In Skandinavien gibt es keine flexiblen Arbeitszeiten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In Skandinavien verlassen die meisten Angestellten pünktlich um 16 Uhr das Büro, und das gilt nicht als Faulheit.",
+      "explanation_en": "In Scandinavia, most employees leave the office punctually at 4 PM, and that is not perceived as laziness."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen die ersten Ergebnisse zur Vier-Tage-Woche?",
+      "text_en": "What do the initial results of the four-day week show?",
+      "options": [
+        "a) Die Produktivität sinkt erheblich.",
+        "b) Die Produktivität bleibt gleich oder steigt, die Zufriedenheit nimmt zu.",
+        "c) Die Mitarbeiter wollen wieder zur Fünf-Tage-Woche zurück."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Produktivität bleibt gleich oder steigt sogar, während die Zufriedenheit der Mitarbeiter deutlich zunimmt.",
+      "explanation_en": "Productivity remains the same or even increases, while employee satisfaction increases significantly."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt Dr. Schreiber seinen Patienten?",
+      "text_en": "What does Dr. Schreiber recommend to his patients?",
+      "options": [
+        "a) Den Job zu wechseln und weniger zu verdienen.",
+        "b) Bewusst Grenzen zu setzen, zum Beispiel keine E-Mails nach 19 Uhr.",
+        "c) Möglichst viele Überstunden zu machen, um schneller voranzukommen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er empfiehlt, bewusst Grenzen zu setzen: keine E-Mails nach 19 Uhr, mindestens ein berufsfremdes Hobby und regelmäßige Bewegung.",
+      "explanation_en": "He recommends consciously setting boundaries: no emails after 7 PM, at least one non-work hobby, and regular exercise."
+    }
+  ]
+}

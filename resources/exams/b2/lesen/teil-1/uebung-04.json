@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-1-004",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Coworking-Spaces: Die neue Arbeitswelt",
+  "instructions": "Lesen Sie den Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Arbeitswelt hat sich in den vergangenen Jahren grundlegend verändert, und Coworking-Spaces sind zu einem festen Bestandteil dieser Transformation geworden. In Deutschland gibt es mittlerweile über 1.800 solcher Gemeinschaftsbüros, und die Zahl wächst stetig. Nicht nur Freiberufler und Start-up-Gründer nutzen diese flexiblen Arbeitsräume, sondern zunehmend auch Angestellte großer Konzerne, die einen Teil ihrer Arbeitszeit außerhalb des Firmenbüros verbringen möchten.\n\nDie Attraktivität von Coworking-Spaces liegt in ihrer Kombination aus Flexibilität und Gemeinschaft. Anders als im Homeoffice bieten sie eine professionelle Arbeitsumgebung mit schnellem Internet, Besprechungsräumen und Küchenbereichen, ohne die sozialen Nachteile der Isolation. Viele Nutzer berichten, dass der Austausch mit Menschen aus völlig unterschiedlichen Branchen ihre Kreativität anregt und zu unerwarteten Kooperationen führt. Eine Architektin arbeitet neben einem Softwareentwickler, eine Journalistin neben einem Unternehmensberater — diese Vielfalt erzeugt eine Dynamik, die in traditionellen Büros selten zu finden ist.\n\nAllerdings gibt es auch kritische Stimmen. Manche bemängeln den fehlenden Datenschutz in offenen Arbeitsbereichen und die Ablenkung durch Gespräche und Telefonate anderer Nutzer. Zudem sind die Kosten nicht unerheblich: Ein fester Arbeitsplatz in einem gehobenen Coworking-Space in einer Großstadt kann leicht 500 Euro monatlich kosten. Dennoch sind sich Arbeitsmarktforscher einig, dass flexible Arbeitsmodelle weiter zunehmen werden und Coworking-Spaces dabei eine zentrale Rolle spielen werden.",
+    "text_en": "The working world has fundamentally changed in recent years, and coworking spaces have become an integral part of this transformation. In Germany, there are now over 1,800 such shared offices, and the number is growing steadily. Not only freelancers and startup founders use these flexible workspaces, but increasingly also employees of large corporations who want to spend part of their working time outside the company office.\n\nThe attractiveness of coworking spaces lies in their combination of flexibility and community. Unlike working from home, they offer a professional work environment with fast internet, meeting rooms, and kitchen areas, without the social disadvantages of isolation. Many users report that exchanging ideas with people from completely different industries stimulates their creativity and leads to unexpected collaborations. An architect works next to a software developer, a journalist next to a management consultant — this diversity creates a dynamic that is rarely found in traditional offices.\n\nHowever, there are also critical voices. Some complain about the lack of data privacy in open work areas and the distraction from conversations and phone calls of other users. Furthermore, the costs are not insignificant: a fixed desk at an upscale coworking space in a major city can easily cost 500 euros per month. Nevertheless, labor market researchers agree that flexible work models will continue to increase and coworking spaces will play a central role in this.",
+    "source": "Zeitung",
+    "word_count": 222
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wer nutzt laut Text zunehmend Coworking-Spaces?",
+      "text_en": "According to the text, who is increasingly using coworking spaces?",
+      "options": [
+        "a) Ausschließlich Freiberufler und Start-up-Gründer.",
+        "b) Auch Angestellte großer Konzerne.",
+        "c) Hauptsächlich Studenten und Praktikanten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Zunehmend nutzen auch Angestellte großer Konzerne diese flexiblen Arbeitsräume.",
+      "explanation_en": "Increasingly, employees of large corporations also use these flexible workspaces."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist ein Vorteil gegenüber dem Homeoffice?",
+      "text_en": "What is an advantage compared to working from home?",
+      "options": [
+        "a) Die Kosten sind deutlich geringer.",
+        "b) Man hat mehr Ruhe zum Arbeiten.",
+        "c) Man hat eine professionelle Umgebung ohne soziale Isolation."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Coworking-Spaces bieten eine professionelle Arbeitsumgebung ohne die sozialen Nachteile der Isolation.",
+      "explanation_en": "Coworking spaces offer a professional work environment without the social disadvantages of isolation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was schätzen viele Nutzer besonders?",
+      "text_en": "What do many users particularly value?",
+      "options": [
+        "a) Den Austausch mit Menschen aus verschiedenen Branchen.",
+        "b) Die günstigen Mietpreise.",
+        "c) Die strikte Trennung zwischen den Arbeitsbereichen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Viele Nutzer berichten, dass der Austausch mit Menschen aus unterschiedlichen Branchen ihre Kreativität anregt.",
+      "explanation_en": "Many users report that exchanging ideas with people from different industries stimulates their creativity."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was wird an Coworking-Spaces kritisiert?",
+      "text_en": "What is criticized about coworking spaces?",
+      "options": [
+        "a) Die schlechte Internetverbindung.",
+        "b) Der fehlende Datenschutz und die Ablenkung durch andere.",
+        "c) Die unfreundliche Atmosphäre."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kritisiert werden der fehlende Datenschutz in offenen Bereichen und die Ablenkung durch Gespräche anderer.",
+      "explanation_en": "The lack of data privacy in open areas and distraction from others' conversations are criticized."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was prognostizieren Arbeitsmarktforscher?",
+      "text_en": "What do labor market researchers predict?",
+      "options": [
+        "a) Dass Coworking-Spaces bald durch VR-Büros ersetzt werden.",
+        "b) Dass flexible Arbeitsmodelle weiter zunehmen werden.",
+        "c) Dass Unternehmen zu traditionellen Büros zurückkehren werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Arbeitsmarktforscher sind sich einig, dass flexible Arbeitsmodelle weiter zunehmen werden.",
+      "explanation_en": "Labor market researchers agree that flexible work models will continue to increase."
+    }
+  ]
+}

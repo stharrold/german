@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-1-004",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Mikroplastik in der Nahrungskette",
+  "instructions": "Sie hören ein Radiointerview. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "In unserer Wissenschaftssendung geht es heute um ein Thema, das uns alle betrifft: Mikroplastik in der Nahrungskette. Dazu begrüße ich Dr. Elena Fischer vom Helmholtz-Zentrum für Umweltforschung. Frau Dr. Fischer, wie gelangt Mikroplastik überhaupt in unsere Nahrung?",
+      "text_en": "In our science program today, we're covering a topic that affects us all: microplastics in the food chain. For this, I welcome Dr. Elena Fischer from the Helmholtz Centre for Environmental Research. Dr. Fischer, how does microplastic actually get into our food?"
+    },
+    {
+      "speaker": "Dr. Fischer",
+      "text_de": "Das ist eine ausgezeichnete Frage, und die Antwort ist leider erschreckend komplex. Mikroplastik gelangt auf verschiedenen Wegen in unsere Nahrungskette. Der offensichtlichste Weg führt über die Meere: Plastikabfälle zersetzen sich im Wasser zu winzigen Partikeln, die von Fischen und anderen Meereslebewesen aufgenommen werden. Aber es gibt auch weniger bekannte Quellen. Reifenabrieb auf Straßen, synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen, und sogar Kosmetikprodukte tragen erheblich zur Belastung bei.",
+      "text_en": "That's an excellent question, and the answer is unfortunately alarmingly complex. Microplastics enter our food chain through various pathways. The most obvious route is through the oceans: plastic waste decomposes in water into tiny particles that are absorbed by fish and other marine organisms. But there are also lesser-known sources. Tire abrasion on roads, synthetic clothing fibers that enter wastewater during washing, and even cosmetic products contribute significantly to the pollution."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wie gefährlich ist das für die menschliche Gesundheit? Gibt es schon gesicherte Erkenntnisse?",
+      "text_en": "How dangerous is this for human health? Are there already confirmed findings?"
+    },
+    {
+      "speaker": "Dr. Fischer",
+      "text_de": "Die Forschung steht noch relativ am Anfang, das muss ich ehrlich sagen. Was wir wissen, ist, dass der durchschnittliche Mensch pro Woche etwa fünf Gramm Mikroplastik aufnimmt — das entspricht ungefähr dem Gewicht einer Kreditkarte. Erste Studien deuten darauf hin, dass bestimmte Kunststoffpartikel Entzündungsreaktionen im Körper auslösen können und möglicherweise das Hormonsystem beeinflussen. Besonders besorgniserregend sind die sogenannten Nanoplastik-Partikel, die so klein sind, dass sie die Zellmembranen durchdringen und sich in Organen anreichern können.",
+      "text_en": "Research is still relatively at the beginning, I have to say honestly. What we know is that the average person ingests about five grams of microplastic per week — that corresponds roughly to the weight of a credit card. Initial studies suggest that certain plastic particles can trigger inflammatory reactions in the body and possibly affect the hormonal system. Particularly concerning are the so-called nanoplastic particles, which are so small that they can penetrate cell membranes and accumulate in organs."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Das klingt beunruhigend. Was können Verbraucher tun, um ihre Belastung zu reduzieren?",
+      "text_en": "That sounds alarming. What can consumers do to reduce their exposure?"
+    },
+    {
+      "speaker": "Dr. Fischer",
+      "text_de": "Auf individueller Ebene kann man einiges tun: Leitungswasser statt Wasser aus Plastikflaschen trinken, frische Lebensmittel statt verpackter Fertiggerichte kaufen und auf Kosmetik ohne Mikroplastik achten. Aber — und das möchte ich betonen — die Verantwortung darf nicht allein bei den Verbrauchern liegen. Wir brauchen strengere gesetzliche Regelungen für die Plastikindustrie. Die EU hat mit dem Verbot von Einwegplastik einen wichtigen Schritt getan, aber das reicht bei Weitem nicht aus. Wir müssten grundlegend umdenken und Plastik durch biologisch abbaubare Alternativen ersetzen, wo immer es möglich ist.",
+      "text_en": "On an individual level, one can do quite a bit: drink tap water instead of water from plastic bottles, buy fresh foods instead of packaged ready meals, and look for cosmetics without microplastics. But — and I want to emphasize this — the responsibility must not lie solely with consumers. We need stricter legal regulations for the plastics industry. The EU took an important step with the ban on single-use plastics, but that is far from enough. We would need to fundamentally rethink and replace plastic with biodegradable alternatives wherever possible."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche weniger bekannte Quelle von Mikroplastik wird genannt?",
+      "text_en": "Which lesser-known source of microplastics is mentioned?",
+      "options": [
+        "a) Holzverarbeitung in der Möbelindustrie.",
+        "b) Synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen.",
+        "c) Natürliche Erosion von Gesteinen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Synthetische Kleidungsfasern, die beim Waschen ins Abwasser gelangen, werden als weniger bekannte Quelle genannt.",
+      "explanation_en": "Synthetic clothing fibers that enter wastewater during washing are mentioned as a lesser-known source."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie viel Mikroplastik nimmt der Mensch durchschnittlich pro Woche auf?",
+      "text_en": "How much microplastic does a person ingest on average per week?",
+      "options": [
+        "a) Etwa ein Gramm.",
+        "b) Etwa fünf Gramm.",
+        "c) Etwa zehn Gramm."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der durchschnittliche Mensch nimmt pro Woche etwa fünf Gramm Mikroplastik auf, was dem Gewicht einer Kreditkarte entspricht.",
+      "explanation_en": "The average person ingests about five grams of microplastic per week, which corresponds to the weight of a credit card."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum sind Nanoplastik-Partikel besonders besorgniserregend?",
+      "text_en": "Why are nanoplastic particles particularly concerning?",
+      "options": [
+        "a) Weil sie einen unangenehmen Geschmack haben.",
+        "b) Weil sie Zellmembranen durchdringen und sich in Organen anreichern können.",
+        "c) Weil sie radioaktive Strahlung aussenden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Nanoplastik-Partikel sind so klein, dass sie die Zellmembranen durchdringen und sich in Organen anreichern können.",
+      "explanation_en": "Nanoplastic particles are so small that they can penetrate cell membranes and accumulate in organs."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt Frau Fischer den Verbrauchern?",
+      "text_en": "What does Dr. Fischer recommend to consumers?",
+      "options": [
+        "a) Komplett auf Fisch und Meeresfrüchte zu verzichten.",
+        "b) Leitungswasser trinken und frische Lebensmittel kaufen.",
+        "c) Nur Produkte aus dem Bioladen zu kaufen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie empfiehlt, Leitungswasser statt Wasser aus Plastikflaschen zu trinken und frische Lebensmittel zu kaufen.",
+      "explanation_en": "She recommends drinking tap water instead of water from plastic bottles and buying fresh foods."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was hält Frau Fischer von der EU-Maßnahme zum Einwegplastik?",
+      "text_en": "What does Dr. Fischer think of the EU measure on single-use plastics?",
+      "options": [
+        "a) Es war ein wichtiger Schritt, reicht aber bei Weitem nicht aus.",
+        "b) Es war eine überflüssige Maßnahme ohne echte Wirkung.",
+        "c) Es war zu streng und schadet der Wirtschaft."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sie sagt, die EU hat einen wichtigen Schritt getan, aber das reiche bei Weitem nicht aus.",
+      "explanation_en": "She says the EU took an important step, but it is far from enough."
+    }
+  ]
+}

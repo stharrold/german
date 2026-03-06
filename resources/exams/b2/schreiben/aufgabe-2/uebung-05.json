@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-2-005",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Einfluss sozialer Medien auf die Gesellschaft",
+  "instructions": "Schreiben Sie einen argumentativen Text, in dem Sie zu dem Thema Stellung nehmen.",
+  "situation_de": "In einer Zeitschrift wird diskutiert, ob soziale Medien der Gesellschaft insgesamt mehr schaden als nutzen. Während manche die Vernetzungsmöglichkeiten loben, warnen andere vor Desinformation und psychischen Belastungen. Nehmen Sie Stellung und begründen Sie Ihre Position.",
+  "situation_en": "In a magazine, there is a discussion about whether social media does more harm than good to society overall. While some praise the networking opportunities, others warn of disinformation and psychological stress. Take a position and justify your stance.",
+  "target_word_count": 139,
+  "required_points": [
+    "Ihre Position klar formulieren (Clearly formulate your position)",
+    "Mindestens zwei Argumente für Ihre Position anführen (Provide at least two arguments for your position)",
+    "Ein Gegenargument nennen und entkräften (Name a counterargument and refute it)",
+    "Ein Fazit ziehen (Draw a conclusion)"
+  ],
+  "model_answer": {
+    "text_de": "Ich bin der Ansicht, dass soziale Medien weder grundsätzlich gut noch grundsätzlich schlecht sind. Entscheidend ist vielmehr, wie wir als Gesellschaft und als Einzelne bewusst mit ihnen umgehen.\n\nEinerseits ermöglichen Plattformen wie Instagram und Twitter es Menschen auf der ganzen Welt, sich miteinander zu vernetzen und gezielt auf gesellschaftliche Missstände aufmerksam zu machen. Andererseits bieten sie einen niedrigschwelligen und kostenlosen Zugang zu Informationen und hochwertigen Bildungsinhalten, der vor zwanzig Jahren in dieser Form völlig undenkbar gewesen wäre.\n\nDennoch darf man die ernsthaften Risiken keinesfalls unterschätzen. Kritiker weisen zu Recht auf die massive Verbreitung von Falschinformationen hin. Diesem gravierenden Problem könnte jedoch durch konsequent bessere Medienkompetenz in der Bildung und deutlich strengere gesetzliche Regulierung wirksam begegnet werden.\n\nAbschließend bin ich fest überzeugt, dass soziale Medien ein wertvolles Werkzeug bleiben, sofern alle Nutzer einen stets bewussten und kritischen Umgang damit pflegen.",
+    "text_en": "I am of the opinion that social media is neither fundamentally good nor fundamentally bad. What matters is rather how we as a society and as individuals consciously deal with it.\n\nOn one hand, platforms like Instagram and Twitter enable people all over the world to connect with each other and specifically draw attention to social grievances. On the other hand, they offer easy and free access to information and high-quality educational content that would have been completely unthinkable in this form twenty years ago.\n\nNevertheless, one must by no means underestimate the serious risks. Critics rightly point to the massive spread of misinformation. However, this grave problem could be effectively addressed through consistently better media literacy in education and significantly stricter legal regulation.\n\nIn conclusion, I am firmly convinced that social media remains a valuable tool, provided that all users maintain a consistently conscious and critical approach to it."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Klare Positionierung mit überzeugenden Argumenten und Gegenargument (Task fulfillment: Clear positioning with convincing arguments and counterargument)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Fazit (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Differenzierter Wortschatz für Medienthemen und Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for media topics and argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen mit Konnektoren wie einerseits, andererseits, dennoch, abschließend (Structures: Complex sentence structures with connectors such as einerseits, andererseits, dennoch, abschließend)"
+  ]
+}

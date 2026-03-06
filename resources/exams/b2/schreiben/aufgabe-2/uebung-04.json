@@ -1,0 +1,27 @@
+{
+  "id": "b2-schreiben-aufgabe-2-004",
+  "level": "B2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "Stadtleben oder Landleben",
+  "instructions": "Schreiben Sie einen argumentativen Text, in dem Sie zu dem Thema Stellung nehmen.",
+  "situation_de": "In einem Magazin wird die Frage diskutiert, ob das Leben auf dem Land dem Stadtleben vorzuziehen ist. Viele junge Menschen ziehen in die Großstadt, während andere bewusst aufs Land zurückkehren. Nehmen Sie Stellung und begründen Sie Ihre Position.",
+  "situation_en": "In a magazine, the question is being discussed whether life in the countryside is preferable to city life. Many young people move to big cities, while others consciously return to the countryside. Take a position and justify your stance.",
+  "target_word_count": 135,
+  "required_points": [
+    "Ihre Position klar formulieren (Clearly formulate your position)",
+    "Mindestens zwei Argumente für Ihre Position anführen (Provide at least two arguments for your position)",
+    "Ein Gegenargument nennen und entkräften (Name a counterargument and refute it)",
+    "Ein Fazit ziehen (Draw a conclusion)"
+  ],
+  "model_answer": {
+    "text_de": "Obwohl beide Lebensformen zweifellos ihre ganz eigenen Vorzüge haben, bin ich persönlich der Meinung, dass das Stadtleben für die meisten jungen Menschen insgesamt mehr Vorteile bietet, insbesondere in beruflicher und kultureller Hinsicht.\n\nZum einen findet man in der Stadt ein deutlich breiteres und vielfältigeres Angebot an Arbeitsplätzen und beruflichen Karrieremöglichkeiten. Zum anderen bieten Großstädte ein äußerst vielfältiges kulturelles Angebot mit Theatern, Museen, Konzerthallen und internationalen Restaurants, das auf dem Land in dieser beeindruckenden Form schlichtweg nicht existiert.\n\nNatürlich lässt sich durchaus einwenden, dass das Landleben ruhiger, entspannter und deutlich naturnaher ist. Trotzdem verfügen mittlerweile viele moderne Städte über ausgezeichnete Parks, großzügige Grünanlagen und attraktive Naherholungsgebiete, die einen willkommenen Ausgleich zum oft hektischen städtischen Alltag bieten.\n\nInsgesamt überwiegen für mich daher die Vorteile des Stadtlebens klar, wobei selbstverständlich jeder Mensch seine eigenen Prioritäten individuell abwägen sollte.",
+    "text_en": "Although both ways of life undoubtedly have their very own merits, I am personally of the opinion that city life overall offers more advantages for most young people, especially in terms of career and culture.\n\nFor one thing, in the city you find a significantly broader and more diverse range of jobs and professional career opportunities. For another, large cities offer an extremely diverse cultural scene with theaters, museums, concert halls, and international restaurants that simply does not exist in this impressive form in the countryside.\n\nOf course, one can certainly argue that country life is quieter, more relaxed, and significantly closer to nature. Nevertheless, many modern cities meanwhile have excellent parks, generous green spaces, and attractive local recreation areas that offer a welcome counterbalance to the often hectic urban daily routine.\n\nOverall, the advantages of city life therefore clearly outweigh for me, although naturally every person should individually weigh their own priorities."
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Klare Positionierung mit überzeugenden Argumenten und Gegenargument (Task fulfillment: Clear positioning with convincing arguments and counterargument)",
+    "Kohärenz: Logischer Aufbau mit Einleitung, Argumentation und Fazit (Coherence: Logical structure with introduction, argumentation, and conclusion)",
+    "Wortschatz: Differenzierter Wortschatz für Vergleiche und Argumentation auf B2-Niveau (Vocabulary: Differentiated vocabulary for comparisons and argumentation at B2 level)",
+    "Strukturen: Komplexe Satzstrukturen mit Konnektoren wie obwohl, trotzdem, insgesamt (Structures: Complex sentence structures with connectors such as obwohl, trotzdem, insgesamt)"
+  ]
+}

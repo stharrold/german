@@ -1,0 +1,72 @@
+{
+  "id": "b2-sprechen-teil-1-005",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Gesunde Lebensweise — Entscheidungen und Herausforderungen",
+  "instructions": "Sie sollen einen kurzen Vortrag zu einem Thema halten. Anschließend diskutieren Sie mit dem Prüfer / der Prüferin darüber.",
+  "situation_de": "Gesundheit ist ein zentrales Thema in der modernen Gesellschaft. Immer mehr Menschen achten auf ihre Ernährung, treiben Sport und versuchen, Stress zu reduzieren. Halten Sie einen Vortrag über gesunde Lebensweise und die damit verbundenen Herausforderungen. Gehen Sie auf die folgenden Punkte ein.",
+  "situation_en": "Health is a central topic in modern society. More and more people are paying attention to their diet, exercising, and trying to reduce stress. Give a presentation about healthy lifestyle choices and the associated challenges. Address the following points.",
+  "discussion_points": [
+    "Welche Faktoren gehören zu einem gesunden Lebensstil? (What factors belong to a healthy lifestyle?)",
+    "Warum fällt es vielen Menschen schwer, gesund zu leben? (Why do many people find it difficult to live healthily?)",
+    "Welche Rolle spielt die Gesellschaft bei der Förderung eines gesunden Lebensstils? (What role does society play in promoting a healthy lifestyle?)",
+    "Wie beurteilen Sie aktuelle Gesundheitstrends wie vegane Ernährung oder Achtsamkeit? (How do you assess current health trends like vegan diets or mindfulness?)",
+    "Was tun Sie persönlich für Ihre Gesundheit? (What do you personally do for your health?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über das Thema gesunde Lebensweise sprechen — ein Thema, das in den letzten Jahren immer mehr an Bedeutung gewonnen hat. Zu einem gesunden Lebensstil gehören meiner Meinung nach mehrere Säulen: eine ausgewogene Ernährung, regelmäßige Bewegung, ausreichend Schlaf und ein guter Umgang mit Stress.",
+      "text_en": "I would like to talk today about the topic of healthy lifestyle — a topic that has gained increasing importance in recent years. In my opinion, a healthy lifestyle consists of several pillars: a balanced diet, regular exercise, sufficient sleep, and good stress management."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Trotz des breiten Wissens über gesunde Lebensführung fällt es vielen Menschen schwer, diese Prinzipien im Alltag umzusetzen. Der Hauptgrund dafür liegt meines Erachtens in unserem hektischen Lebensstil. Zwischen Arbeit, Familie und sozialen Verpflichtungen bleibt oft wenig Zeit für Sport oder das Kochen frischer Mahlzeiten.",
+      "text_en": "Despite the broad knowledge about healthy living, many people find it difficult to implement these principles in everyday life. The main reason for this, in my view, lies in our hectic lifestyle. Between work, family, and social obligations, there is often little time left for exercise or cooking fresh meals."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Hinzu kommt der Einfluss der Lebensmittelindustrie. Verarbeitete Produkte sind oft günstiger und schneller verfügbar als frische Zutaten. Die Gesellschaft — und insbesondere die Politik — hat hier die Verantwortung, durch bessere Aufklärung und gegebenenfalls regulierende Maßnahmen wie eine Zuckersteuer gesündere Entscheidungen zu erleichtern.",
+      "text_en": "In addition, there is the influence of the food industry. Processed products are often cheaper and more quickly available than fresh ingredients. Society — and particularly politics — has the responsibility here to facilitate healthier decisions through better education and, if necessary, regulatory measures such as a sugar tax."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank. Sie haben verschiedene Gesundheitstrends erwähnt. Was halten Sie zum Beispiel von veganer Ernährung?",
+      "text_en": "Thank you. You mentioned various health trends. What do you think about vegan diets, for example?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vegane Ernährung kann durchaus gesund sein, wenn sie gut geplant ist und alle notwendigen Nährstoffe abdeckt. Ich finde es positiv, dass sich immer mehr Menschen mit der Herkunft ihrer Lebensmittel auseinandersetzen. Allerdings sollte man aufpassen, dass solche Trends nicht zu einer dogmatischen Haltung führen, bei der andere Ernährungsweisen verurteilt werden.",
+      "text_en": "A vegan diet can certainly be healthy if it is well planned and covers all necessary nutrients. I find it positive that more and more people are engaging with the origin of their food. However, one should be careful that such trends don't lead to a dogmatic attitude where other dietary choices are condemned."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und das Thema Achtsamkeit — ist das nur ein vorübergehender Trend oder steckt mehr dahinter?",
+      "text_en": "And the topic of mindfulness — is that just a passing trend or is there more to it?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich denke, dass Achtsamkeit weit mehr als ein Trend ist. Wissenschaftliche Studien belegen, dass Meditation und Achtsamkeitsübungen nachweislich Stress reduzieren und das allgemeine Wohlbefinden steigern. In einer Zeit, in der viele Menschen unter Burnout und Erschöpfung leiden, halte ich solche Praktiken für äußerst wertvoll.",
+      "text_en": "I think that mindfulness is far more than a trend. Scientific studies prove that meditation and mindfulness exercises demonstrably reduce stress and increase overall well-being. In a time when many people suffer from burnout and exhaustion, I consider such practices extremely valuable."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Was tun Sie selbst für Ihre Gesundheit?",
+      "text_en": "What do you do yourself for your health?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich versuche, dreimal pro Woche Sport zu treiben — meistens Joggen oder Schwimmen. Beim Essen achte ich auf eine abwechslungsreiche Ernährung mit viel Gemüse und Obst, ohne mir jedoch alles zu verbieten. Was ich noch verbessern möchte, ist mein Schlafverhalten. Ich neige dazu, abends zu lange am Bildschirm zu sitzen, was die Schlafqualität beeinträchtigt.",
+      "text_en": "I try to exercise three times a week — usually jogging or swimming. With food, I pay attention to a varied diet with lots of vegetables and fruit, without forbidding myself everything. What I would still like to improve is my sleep behavior. I tend to sit in front of the screen too long in the evening, which impairs sleep quality."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat präsentiert einen gut strukturierten Vortrag zu allen genannten Aspekten.",
+    "Argumentation: Ausgewogene Darstellung mit persönlichen Einschätzungen und sachlichen Argumenten.",
+    "Interaktion: Kompetenter Umgang mit Nachfragen, Fähigkeit zur Selbstreflexion.",
+    "Wortschatz: Differenzierter Wortschatz aus den Bereichen Gesundheit, Ernährung und Gesellschaft.",
+    "Strukturen: Sicherer Gebrauch von Konzessivsätzen, Infinitivkonstruktionen und Partizipialattributen.",
+    "Aussprache und Intonation: Deutliche Aussprache mit natürlichem Sprechrhythmus und angemessener Lautstärke."
+  ]
+}

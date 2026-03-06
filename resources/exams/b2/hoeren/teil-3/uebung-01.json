@@ -1,0 +1,123 @@
+{
+  "id": "b2-hoeren-teil-3-001",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Berufliche Situationen — Verhandlungen und Beschwerden",
+  "instructions": "Sie hören mehrere kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Gespräch 1 — Frau Berger (Kundin)",
+      "text_de": "Guten Tag. Ich habe vor zwei Wochen bei Ihnen einen Schreibtisch bestellt, und der Liefertermin war vergangenen Freitag. Bis heute habe ich nichts erhalten und auch keine Benachrichtigung bekommen. Könnten Sie mir bitte sagen, woran das liegt?",
+      "text_en": "Good day. I ordered a desk from you two weeks ago, and the delivery date was last Friday. I haven't received anything to this day and also haven't gotten any notification. Could you please tell me what the reason is?"
+    },
+    {
+      "speaker": "Gespräch 1 — Herr Klein (Verkäufer)",
+      "text_de": "Es tut mir sehr leid, Frau Berger. Lassen Sie mich das sofort überprüfen. Ah, ich sehe hier, dass es bei unserem Lieferanten einen Engpass gab. Der Schreibtisch ist derzeit nicht auf Lager und wird voraussichtlich erst in zwei Wochen verfügbar sein. Ich kann Ihnen als Entschädigung einen Rabatt von 15 Prozent anbieten, oder wir suchen Ihnen ein vergleichbares Modell, das sofort lieferbar ist.",
+      "text_en": "I'm very sorry, Ms. Berger. Let me check that immediately. Ah, I see here that there was a bottleneck at our supplier. The desk is currently out of stock and won't be available for approximately two more weeks. I can offer you a 15 percent discount as compensation, or we can find you a comparable model that is immediately available."
+    },
+    {
+      "speaker": "Gespräch 1 — Frau Berger (Kundin)",
+      "text_de": "Zwei weitere Wochen? Das ist wirklich ärgerlich. Ich brauche den Schreibtisch dringend für mein Homeoffice. Zeigen Sie mir bitte die alternativen Modelle.",
+      "text_en": "Two more weeks? That's really annoying. I urgently need the desk for my home office. Please show me the alternative models."
+    },
+    {
+      "speaker": "Gespräch 2 — Herr Nowak (Mitarbeiter)",
+      "text_de": "Frau Direktor, ich wollte mit Ihnen über meine Gehaltsvorstellungen sprechen. Ich bin nun seit drei Jahren in der Abteilung und habe im letzten Jahr das Projekt zur Prozessoptimierung erfolgreich geleitet. Dabei konnten wir die Kosten um 12 Prozent senken. Ich denke, eine Gehaltserhöhung von 8 Prozent wäre angemessen.",
+      "text_en": "Director, I wanted to speak with you about my salary expectations. I've been in the department for three years now and successfully led the process optimization project last year. We were able to reduce costs by 12 percent. I think a salary increase of 8 percent would be appropriate."
+    },
+    {
+      "speaker": "Gespräch 2 — Frau Direktor Weber",
+      "text_de": "Herr Nowak, ich schätze Ihr Engagement und Ihre Leistungen sehr. Das Projekt war tatsächlich ein großer Erfolg. Allerdings muss ich ehrlich sein: Unser Budget für Gehaltserhöhungen ist in diesem Jahr begrenzt. Ich könnte Ihnen 5 Prozent sofort anbieten und weitere 3 Prozent zum Jahresende, wenn die Geschäftszahlen stimmen. Zusätzlich würde ich Ihnen gerne zwei Fortbildungstage genehmigen.",
+      "text_en": "Mr. Nowak, I greatly appreciate your commitment and your achievements. The project was indeed a great success. However, I have to be honest: our budget for salary increases is limited this year. I could offer you 5 percent immediately and another 3 percent at year-end, if the business numbers are right. Additionally, I'd like to approve two professional development days for you."
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Dr. Hartmann (Ärztin)",
+      "text_de": "Herr Becker, Ihre Blutwerte sind insgesamt zufriedenstellend, aber Ihr Cholesterinspiegel liegt deutlich über dem Normalwert. Das müssen wir im Auge behalten. Ich würde Ihnen empfehlen, Ihre Ernährung umzustellen — weniger gesättigte Fettsäuren, mehr Gemüse und Vollkornprodukte. Bevor wir über Medikamente nachdenken, sollten wir drei Monate lang versuchen, das durch Lebensstiländerungen in den Griff zu bekommen.",
+      "text_en": "Mr. Becker, your blood values are overall satisfactory, but your cholesterol level is significantly above the normal range. We need to keep an eye on that. I would recommend you change your diet — less saturated fatty acids, more vegetables and whole grain products. Before we think about medication, we should try to get this under control through lifestyle changes for three months."
+    },
+    {
+      "speaker": "Gespräch 3 — Herr Becker (Patient)",
+      "text_de": "Drei Monate? Und wenn sich die Werte nicht verbessern?",
+      "text_en": "Three months? And if the values don't improve?"
+    },
+    {
+      "speaker": "Gespräch 3 — Frau Dr. Hartmann (Ärztin)",
+      "text_de": "Dann werden wir über eine medikamentöse Behandlung sprechen. Aber erfahrungsgemäß reagieren die meisten Patienten sehr gut auf eine Ernährungsumstellung, besonders wenn sie zusätzlich regelmäßig Sport treiben. Ich verschreibe Ihnen jetzt keine Medikamente, sondern einen Termin bei unserer Ernährungsberaterin.",
+      "text_en": "Then we'll discuss medication treatment. But in my experience, most patients respond very well to a dietary change, especially when they also exercise regularly. I'm not prescribing you medication now, but an appointment with our nutritional counselor."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum hat Frau Berger ihren Schreibtisch nicht erhalten?",
+      "text_en": "Why hasn't Ms. Berger received her desk?",
+      "options": [
+        "a) Weil die Lieferadresse falsch war.",
+        "b) Weil es beim Lieferanten einen Engpass gab und der Tisch nicht auf Lager ist.",
+        "c) Weil die Bestellung im System nicht registriert wurde."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es gab beim Lieferanten einen Engpass, und der Schreibtisch ist derzeit nicht auf Lager.",
+      "explanation_en": "There was a bottleneck at the supplier, and the desk is currently out of stock."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wofür entscheidet sich Frau Berger?",
+      "text_en": "What does Ms. Berger decide?",
+      "options": [
+        "a) Sie will den Rabatt annehmen und warten.",
+        "b) Sie möchte alternative Modelle sehen, die sofort lieferbar sind.",
+        "c) Sie will die Bestellung komplett stornieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Berger bittet darum, die alternativen Modelle zu sehen, weil sie den Schreibtisch dringend braucht.",
+      "explanation_en": "Ms. Berger asks to see the alternative models because she urgently needs the desk."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Gegenangebot macht die Direktorin Herrn Nowak?",
+      "text_en": "What counter-offer does the director make to Mr. Nowak?",
+      "options": [
+        "a) 8 Prozent sofort und eine Beförderung.",
+        "b) 5 Prozent sofort und weitere 3 Prozent zum Jahresende plus Fortbildungstage.",
+        "c) Keine Gehaltserhöhung, aber eine neue Stellenbeschreibung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie bietet 5 Prozent sofort, weitere 3 Prozent zum Jahresende und zwei Fortbildungstage an.",
+      "explanation_en": "She offers 5 percent immediately, another 3 percent at year-end, and two professional development days."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt die Ärztin Herrn Becker zunächst?",
+      "text_en": "What does the doctor initially recommend to Mr. Becker?",
+      "options": [
+        "a) Sofort Medikamente einzunehmen.",
+        "b) Seine Ernährung umzustellen und den Lebensstil zu ändern.",
+        "c) Eine Operation durchführen zu lassen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Ärztin empfiehlt zunächst eine Ernährungsumstellung und Lebensstiländerungen für drei Monate.",
+      "explanation_en": "The doctor initially recommends a dietary change and lifestyle changes for three months."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was verschreibt die Ärztin Herrn Becker?",
+      "text_en": "What does the doctor prescribe for Mr. Becker?",
+      "options": [
+        "a) Cholesterinsenkende Medikamente.",
+        "b) Einen Termin bei der Ernährungsberaterin.",
+        "c) Einen Aufenthalt in einer Reha-Klinik."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie verschreibt keine Medikamente, sondern einen Termin bei der Ernährungsberaterin.",
+      "explanation_en": "She doesn't prescribe medication but an appointment with the nutritional counselor."
+    }
+  ]
+}

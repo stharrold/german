@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-4-002",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Forum: Online-Bewertungen — Fluch oder Segen?",
+  "instructions": "Lesen Sie die Forumsbeiträge und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "AnnaW: Ich kaufe praktisch nichts mehr, ohne vorher Bewertungen zu lesen. Ob Hotel, Restaurant oder Staubsauger — die Erfahrungen anderer Kunden helfen mir enorm bei der Entscheidung. Natürlich muss man einzelne Bewertungen kritisch betrachten, aber wenn 200 Leute ein Produkt gut finden, kann es so schlecht nicht sein.\n\nChristianH: Als Restaurantbesitzer bin ich da anderer Meinung. Eine einzige negative Bewertung kann uns erheblich schaden, selbst wenn sie ungerechtfertigt ist. Manche Gäste drohen sogar mit schlechten Bewertungen, um Rabatte oder Gratisessen zu erpressen. Und die Plattformen unternehmen viel zu wenig gegen gefälschte Rezensionen.\n\nLenaM: Das Problem ist die Anonymität. Menschen schreiben online Dinge, die sie dem Betreiber niemals ins Gesicht sagen würden. Ich habe in meinem Friseursalon eine Ein-Stern-Bewertung bekommen, weil die Kundin den Parkplatz nicht gefunden hat. Das hat nichts mit meiner Dienstleistung zu tun, schadet aber meinem Geschäft.\n\nFelixS: Bewertungsportale haben trotz aller Probleme die Machtverhältnisse zwischen Unternehmen und Verbrauchern verschoben. Früher war man auf Werbung und Empfehlungen von Bekannten angewiesen. Heute kann sich jeder informieren. Das zwingt Unternehmen, bessere Qualität zu liefern. Die Lösung liegt nicht in der Abschaffung von Bewertungen, sondern in besserer Verifizierung der Rezensenten.",
+    "text_en": "AnnaW: I practically never buy anything anymore without reading reviews first. Whether hotel, restaurant, or vacuum cleaner — other customers' experiences help me enormously in making decisions. Of course, you have to look at individual reviews critically, but if 200 people like a product, it can't be that bad.\n\nChristianH: As a restaurant owner, I have a different opinion. A single negative review can significantly harm us, even if it is unjustified. Some guests even threaten with bad reviews to extort discounts or free meals. And the platforms do far too little against fake reviews.\n\nLenaM: The problem is anonymity. People write things online that they would never say to the owner's face. I received a one-star review for my hair salon because the customer could not find the parking lot. That has nothing to do with my service but damages my business.\n\nFelixS: Despite all problems, review platforms have shifted the power dynamics between businesses and consumers. Previously, one relied on advertising and recommendations from acquaintances. Today, anyone can inform themselves. This forces businesses to deliver better quality. The solution lies not in abolishing reviews but in better verification of reviewers.",
+    "source": "Blog",
+    "word_count": 180
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie nutzt AnnaW Online-Bewertungen?",
+      "text_en": "How does AnnaW use online reviews?",
+      "options": [
+        "a) Sie liest sie nur bei teuren Produkten.",
+        "b) Sie kauft praktisch nichts mehr, ohne vorher Bewertungen zu lesen.",
+        "c) Sie schreibt selbst viele Bewertungen für andere."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sie kauft praktisch nichts mehr, ohne vorher Bewertungen zu lesen.",
+      "explanation_en": "She practically never buys anything without reading reviews first."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches Problem beschreibt ChristianH?",
+      "text_en": "What problem does ChristianH describe?",
+      "options": [
+        "a) Dass Bewertungen zu positiv ausfallen.",
+        "b) Dass Gäste mit schlechten Bewertungen drohen, um Vorteile zu erpressen.",
+        "c) Dass zu wenig Kunden Bewertungen schreiben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Manche Gäste drohen mit schlechten Bewertungen, um Rabatte oder Gratisessen zu erpressen.",
+      "explanation_en": "Some guests threaten with bad reviews to extort discounts or free meals."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum bekam LenaM eine schlechte Bewertung?",
+      "text_en": "Why did LenaM receive a bad review?",
+      "options": [
+        "a) Weil die Kundin mit dem Haarschnitt unzufrieden war.",
+        "b) Weil die Kundin den Parkplatz nicht gefunden hat.",
+        "c) Weil die Wartezeit zu lang war."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Kundin gab eine Ein-Stern-Bewertung, weil sie den Parkplatz nicht gefunden hat.",
+      "explanation_en": "The customer gave a one-star review because she could not find the parking lot."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was hat sich laut FelixS durch Bewertungsportale verändert?",
+      "text_en": "What has changed through review platforms according to FelixS?",
+      "options": [
+        "a) Die Preise sind gesunken.",
+        "b) Die Machtverhältnisse zwischen Unternehmen und Verbrauchern haben sich verschoben.",
+        "c) Die Werbeindustrie ist gewachsen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Bewertungsportale haben die Machtverhältnisse zwischen Unternehmen und Verbrauchern verschoben.",
+      "explanation_en": "Review platforms have shifted the power dynamics between businesses and consumers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Lösung schlägt FelixS vor?",
+      "text_en": "What solution does FelixS propose?",
+      "options": [
+        "a) Die Abschaffung anonymer Bewertungen.",
+        "b) Bessere Verifizierung der Rezensenten.",
+        "c) Staatliche Kontrolle aller Bewertungsportale."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Lösung liegt in besserer Verifizierung der Rezensenten.",
+      "explanation_en": "The solution lies in better verification of reviewers."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "b2-hoeren-teil-2-001",
+  "level": "B2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Bildungspolitik — Ganztagsschulen für alle?",
+  "instructions": "Sie hören eine Radiodiskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Willkommen zur Diskussionsrunde „Standpunkte“. Heute debattieren wir über die Frage, ob Ganztagsschulen in Deutschland verpflichtend werden sollten. Im Studio begrüße ich Frau Dr. Claudia Neumann, Bildungspolitikerin der Regierungspartei, und Herrn Michael Brandt, Vorsitzenden des Elternbeirats Bayern. Frau Neumann, warum setzen Sie sich für verpflichtende Ganztagsschulen ein?",
+      "text_en": "Welcome to the discussion round 'Viewpoints.' Today we're debating whether full-day schools should become mandatory in Germany. In the studio, I welcome Dr. Claudia Neumann, education politician of the governing party, and Mr. Michael Brandt, chairman of the Bavarian parents' council. Ms. Neumann, why do you advocate for mandatory full-day schools?"
+    },
+    {
+      "speaker": "Dr. Neumann",
+      "text_de": "Vielen Dank. Der Grund ist ganz einfach: Deutschland hinkt im internationalen Vergleich hinterher. In Frankreich, Skandinavien und vielen asiatischen Ländern sind Ganztagsschulen längst Standard. Sie bieten Kindern aus benachteiligten Familien die Chance, die gleiche Förderung zu erhalten wie Kinder aus privilegierten Haushalten. Studien belegen eindeutig, dass Ganztagsschulen die Bildungsgerechtigkeit verbessern. Darüber hinaus entlasten sie berufstätige Eltern — insbesondere Mütter, die sonst häufig ihre Karriere zurückstellen müssen.",
+      "text_en": "Thank you. The reason is quite simple: Germany is lagging behind in international comparison. In France, Scandinavia, and many Asian countries, full-day schools have long been standard. They offer children from disadvantaged families the chance to receive the same support as children from privileged households. Studies clearly demonstrate that full-day schools improve educational equity. Furthermore, they relieve working parents — especially mothers, who otherwise often have to put their careers on hold."
+    },
+    {
+      "speaker": "Herr Brandt",
+      "text_de": "Da muss ich aber entschieden widersprechen. Es geht hier nicht um die Frage, ob Ganztagsschulen gut oder schlecht sind — das hängt stark von der Umsetzung ab. Es geht um die Frage der Verpflichtung. Eltern haben das Recht, über die Erziehung ihrer Kinder zu entscheiden. Wenn ein Kind nachmittags Musikunterricht hat oder im Sportverein trainiert, sollte die Familie das selbst regeln können. Außerdem sind viele Schulen personell und räumlich gar nicht in der Lage, einen qualitativ hochwertigen Ganztag anzubieten. Eine Pflicht ohne entsprechende Ressourcen wäre reine Aufbewahrung.",
+      "text_en": "I have to strongly disagree there. This isn't about whether full-day schools are good or bad — that depends heavily on the implementation. It's about the question of making it mandatory. Parents have the right to decide about their children's upbringing. If a child has music lessons in the afternoon or trains at a sports club, the family should be able to arrange that themselves. Moreover, many schools don't have the staff or space to offer high-quality full-day programs. A mandate without corresponding resources would be mere warehousing."
+    },
+    {
+      "speaker": "Dr. Neumann",
+      "text_de": "Herr Brandt, ich verstehe Ihre Bedenken bezüglich der Qualität, und da stimme ich Ihnen teilweise zu. Natürlich müssen wir massiv in Personal und Infrastruktur investieren. Aber das Argument der elterlichen Wahlfreiheit greift zu kurz. In der Realität haben Eltern mit niedrigem Einkommen diese Wahlfreiheit gar nicht. Sie können sich keinen Musikunterricht oder Sportverein leisten. Die Ganztagsschule wäre für diese Kinder die einzige Möglichkeit, solche Angebote wahrzunehmen. Es geht letztlich um Chancengleichheit.",
+      "text_en": "Mr. Brandt, I understand your concerns about quality, and I partially agree with you there. Of course we need to invest massively in staff and infrastructure. But the argument of parental freedom of choice falls short. In reality, parents with low income don't have this freedom of choice at all. They can't afford music lessons or sports clubs. Full-day school would be the only opportunity for these children to take advantage of such offerings. Ultimately, it's about equal opportunities."
+    },
+    {
+      "speaker": "Herr Brandt",
+      "text_de": "Dann sollten wir gezielt diese Familien unterstützen, anstatt allen Familien eine bestimmte Lebensweise aufzuzwingen. Wir könnten Gutscheine für außerschulische Aktivitäten einführen oder freiwillige Ganztagsangebote ausbauen. Eines möchte ich noch ergänzen: Kinder brauchen auch unverplante Zeit. Ständige Betreuung und Programm von morgens bis abends — das kann zu Überforderung führen. Wir dürfen die Kindheit nicht durchorganisieren.",
+      "text_en": "Then we should specifically support these families instead of imposing a certain way of life on all families. We could introduce vouchers for extracurricular activities or expand voluntary full-day offerings. I'd like to add one more thing: children also need unstructured time. Constant supervision and programs from morning to evening — that can lead to overwhelm. We must not over-organize childhood."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Vielen Dank für diese lebhafte Diskussion. Offensichtlich gibt es hier noch viel Gesprächsbedarf.",
+      "text_en": "Thank you for this lively discussion. Obviously, there is still much need for conversation here."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum unterstützt Frau Neumann verpflichtende Ganztagsschulen?",
+      "text_en": "Why does Ms. Neumann support mandatory full-day schools?",
+      "options": [
+        "a) Weil sie die Kosten für das Bildungssystem senken würden.",
+        "b) Weil sie die Bildungsgerechtigkeit verbessern und berufstätige Eltern entlasten.",
+        "c) Weil deutsche Schüler die schlechtesten Leistungen in Europa zeigen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Neumann argumentiert, dass Ganztagsschulen die Bildungsgerechtigkeit verbessern und berufstätige Eltern entlasten.",
+      "explanation_en": "Ms. Neumann argues that full-day schools improve educational equity and relieve working parents."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist Herrn Brandts Hauptkritik an der Ganztagsschulpflicht?",
+      "text_en": "What is Mr. Brandt's main criticism of mandatory full-day schools?",
+      "options": [
+        "a) Dass Ganztagsschulen generell schlechte Ergebnisse liefern.",
+        "b) Dass Eltern das Recht haben, über die Erziehung ihrer Kinder zu entscheiden.",
+        "c) Dass Kinder im Ausland bessere Leistungen ohne Ganztagsschulen erbringen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Herr Brandt betont, dass Eltern das Recht haben, über die Erziehung ihrer Kinder zu entscheiden.",
+      "explanation_en": "Mr. Brandt emphasizes that parents have the right to decide about their children's upbringing."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Worin stimmt Frau Neumann Herrn Brandt zu?",
+      "text_en": "On what point does Ms. Neumann agree with Mr. Brandt?",
+      "options": [
+        "a) Dass die Ganztagsschulpflicht abgelehnt werden sollte.",
+        "b) Dass massiv in Personal und Infrastruktur investiert werden muss.",
+        "c) Dass Kinder zu viel Freizeit haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Frau Neumann stimmt zu, dass massiv in Personal und Infrastruktur investiert werden muss.",
+      "explanation_en": "Ms. Neumann agrees that massive investment in staff and infrastructure is needed."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Alternative schlägt Herr Brandt vor?",
+      "text_en": "What alternative does Mr. Brandt suggest?",
+      "options": [
+        "a) Gutscheine für außerschulische Aktivitäten und freiwillige Ganztagsangebote.",
+        "b) Kürzere Schulzeiten am Vormittag.",
+        "c) Privatschulen für benachteiligte Kinder."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Herr Brandt schlägt Gutscheine für außerschulische Aktivitäten und den Ausbau freiwilliger Ganztagsangebote vor.",
+      "explanation_en": "Mr. Brandt suggests vouchers for extracurricular activities and expanding voluntary full-day offerings."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was befürchtet Herr Brandt bezüglich ständiger Betreuung?",
+      "text_en": "What does Mr. Brandt fear regarding constant supervision?",
+      "options": [
+        "a) Dass die Kinder zu abhängig von Erwachsenen werden.",
+        "b) Dass es zu Überforderung führen kann und die Kindheit durchorganisiert wird.",
+        "c) Dass die Eltern den Kontakt zu ihren Kindern verlieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Er befürchtet, dass ständige Betreuung zu Überforderung führen kann und die Kindheit nicht durchorganisiert werden sollte.",
+      "explanation_en": "He fears that constant supervision can lead to overwhelm and that childhood should not be over-organized."
+    }
+  ]
+}

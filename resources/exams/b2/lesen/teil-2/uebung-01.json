@@ -1,0 +1,87 @@
+{
+  "id": "b2-lesen-teil-2-001",
+  "level": "B2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kommentar: Brauchen wir eine Bildungsrevolution?",
+  "instructions": "Lesen Sie den Kommentar und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Unser Bildungssystem stammt im Kern aus dem 19. Jahrhundert und wird den Anforderungen des 21. Jahrhunderts nicht mehr gerecht. Während die Welt sich in rasantem Tempo verändert, halten wir an einem Schulsystem fest, das Auswendiglernen belohnt und Kreativität bestraft. Kinder sitzen stundenlang still in Reihen, wiederholen vorgegebene Inhalte und werden nach einheitlichen Maßstäben bewertet — ungeachtet ihrer individuellen Talente und Lernstile.\n\nIch plädiere nicht für die Abschaffung von Schulen, sondern für einen fundamentalen Wandel in der Art, wie wir lehren und lernen. Projektorientiertes Arbeiten muss den Frontalunterricht ersetzen. Kritisches Denken, Teamarbeit und digitale Kompetenz sollten ebenso selbstverständlich unterrichtet werden wie Mathematik und Deutsch. Finnland und Singapur zeigen seit Jahren, dass solche Reformen möglich sind — und zu besseren Ergebnissen führen.\n\nBesonders dringend ist die Digitalisierung der Klassenzimmer. Deutschland investiert zwar Milliarden in den Digitalpakt, doch das Geld fließt zu langsam und wird häufig für Geräte ausgegeben, ohne dass Lehrkräfte angemessen fortgebildet werden. Ein Tablet ohne pädagogisches Konzept ist nicht mehr als ein teures Spielzeug. Was wir brauchen, sind Lehrerinnen und Lehrer, die befähigt werden, Technologie sinnvoll in ihren Unterricht zu integrieren. Die Bildungsrevolution beginnt nicht mit Geräten, sondern mit Menschen.",
+    "text_en": "Our education system fundamentally dates from the 19th century and no longer meets the demands of the 21st century. While the world is changing at a rapid pace, we cling to a school system that rewards memorization and punishes creativity. Children sit still in rows for hours, repeat prescribed content, and are assessed by uniform standards — regardless of their individual talents and learning styles.\n\nI am not advocating for the abolition of schools, but for a fundamental change in the way we teach and learn. Project-based work must replace lecture-style teaching. Critical thinking, teamwork, and digital literacy should be taught as naturally as mathematics and German. Finland and Singapore have shown for years that such reforms are possible — and lead to better results.\n\nParticularly urgent is the digitalization of classrooms. Germany is indeed investing billions in the Digital Pact, but the money flows too slowly and is often spent on devices without adequately training teachers. A tablet without a pedagogical concept is nothing more than an expensive toy. What we need are teachers who are empowered to meaningfully integrate technology into their instruction. The education revolution does not begin with devices, but with people.",
+    "source": "Zeitung",
+    "word_count": 196
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor am aktuellen Schulsystem?",
+      "text_en": "What does the author criticize about the current school system?",
+      "options": [
+        "a) Dass es zu teuer und ineffizient ist.",
+        "b) Dass es Auswendiglernen belohnt und Kreativität bestraft.",
+        "c) Dass es zu viel Wert auf Technologie legt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Autor kritisiert, dass das System Auswendiglernen belohnt und Kreativität bestraft.",
+      "explanation_en": "The author criticizes that the system rewards memorization and punishes creativity."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Autor konkret?",
+      "text_en": "What does the author specifically demand?",
+      "options": [
+        "a) Die Abschaffung von Schulen zugunsten von Onlineunterricht.",
+        "b) Projektorientiertes Arbeiten statt Frontalunterricht.",
+        "c) Eine Verlängerung der Schulzeit auf 13 Jahre."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Projektorientiertes Arbeiten muss den Frontalunterricht ersetzen.",
+      "explanation_en": "Project-based work must replace lecture-style teaching."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Länder werden als Vorbilder genannt?",
+      "text_en": "Which countries are mentioned as role models?",
+      "options": [
+        "a) Schweden und Norwegen.",
+        "b) Finnland und Singapur.",
+        "c) Japan und Südkorea."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Finnland und Singapur zeigen seit Jahren, dass solche Reformen möglich sind.",
+      "explanation_en": "Finland and Singapore have shown for years that such reforms are possible."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor am Digitalpakt?",
+      "text_en": "What does the author criticize about the Digital Pact?",
+      "options": [
+        "a) Dass zu wenig Geld bereitgestellt wird.",
+        "b) Dass Geld für Geräte ausgegeben wird, ohne Lehrkräfte fortzubilden.",
+        "c) Dass nur Privatschulen davon profitieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Geld wird häufig für Geräte ausgegeben, ohne dass Lehrkräfte angemessen fortgebildet werden.",
+      "explanation_en": "The money is often spent on devices without adequately training teachers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Autor der Schlüssel zur Bildungsrevolution?",
+      "text_en": "According to the author, what is the key to the education revolution?",
+      "options": [
+        "a) Modernste technische Ausstattung in allen Schulen.",
+        "b) Befähigte Lehrkräfte, die Technologie sinnvoll einsetzen.",
+        "c) Mehr Investitionen der Privatwirtschaft."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Bildungsrevolution beginnt nicht mit Geräten, sondern mit Menschen — befähigten Lehrkräften.",
+      "explanation_en": "The education revolution begins not with devices but with people — empowered teachers."
+    }
+  ]
+}

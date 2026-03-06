@@ -1,0 +1,77 @@
+{
+  "id": "b2-sprechen-teil-2-002",
+  "level": "B2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Planung eines Wohltätigkeitsprojekts",
+  "instructions": "Sie und Ihr Partner / Ihre Partnerin sollen gemeinsam etwas planen. Diskutieren Sie verschiedene Möglichkeiten und einigen Sie sich auf einen Kompromiss.",
+  "situation_de": "Ihr Verein möchte ein Wohltätigkeitsprojekt ins Leben rufen, um bedürftigen Familien in der Region zu helfen. Sie und ein anderes Vereinsmitglied sollen das Projekt planen. Besprechen Sie die folgenden Punkte und einigen Sie sich auf ein gemeinsames Konzept.",
+  "situation_en": "Your association wants to launch a charity project to help families in need in the region. You and another member of the association are to plan the project. Discuss the following points and agree on a joint concept.",
+  "discussion_points": [
+    "Welche Art von Hilfe soll angeboten werden — Sachspenden, Geldspenden oder ehrenamtliche Arbeit? (What kind of help should be offered — donations in kind, monetary donations, or volunteer work?)",
+    "Wie können Spenden und Freiwillige gewonnen werden? (How can donations and volunteers be recruited?)",
+    "Welche Zielgruppe soll das Projekt besonders ansprechen? (What target group should the project particularly address?)",
+    "Wie soll das Projekt in der Öffentlichkeit bekannt gemacht werden? (How should the project be publicized?)",
+    "Wie kann der langfristige Erfolg des Projekts sichergestellt werden? (How can the long-term success of the project be ensured?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich freue mich, dass wir dieses Wohltätigkeitsprojekt gemeinsam planen können. Zunächst sollten wir uns darüber einig werden, welche Art von Unterstützung wir anbieten wollen. Ich tendiere zu einer Kombination aus Sachspenden und ehrenamtlicher Arbeit.",
+      "text_en": "I'm glad we can plan this charity project together. First, we should agree on what kind of support we want to offer. I tend toward a combination of donations in kind and volunteer work."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das finde ich grundsätzlich gut. Allerdings würde ich auch eine Möglichkeit für Geldspenden einrichten, weil wir damit flexibler auf die tatsächlichen Bedürfnisse reagieren können. Nicht jede Familie braucht das Gleiche.",
+      "text_en": "I think that's generally good. However, I would also set up an option for monetary donations, because that way we can respond more flexibly to actual needs. Not every family needs the same things."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Da hast du recht. Dann bieten wir alle drei Möglichkeiten an. Was die Zielgruppe betrifft, würde ich vorschlagen, dass wir uns besonders auf alleinerziehende Eltern konzentrieren, da diese statistisch gesehen am stärksten von Armut betroffen sind.",
+      "text_en": "You're right about that. Then we'll offer all three options. Regarding the target group, I would suggest that we focus particularly on single parents, as they are statistically most affected by poverty."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist ein wichtiger Ansatz. Ich würde aber vorschlagen, auch Familien mit Migrationshintergrund einzubeziehen, die oft zusätzliche Hürden bewältigen müssen, zum Beispiel sprachliche Barrieren oder Schwierigkeiten bei der Anerkennung von Qualifikationen.",
+      "text_en": "That's an important approach. But I would also suggest including families with a migration background, who often have to overcome additional hurdles, for example language barriers or difficulties with recognition of qualifications."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Einverstanden, wir machen das Projekt für beide Gruppen zugänglich. Nun zur Frage, wie wir Spenden und Freiwillige gewinnen können. Ich denke, wir sollten eine Spendenaktion in Zusammenarbeit mit lokalen Unternehmen organisieren. Viele Firmen sind bereit, soziale Projekte zu unterstützen, weil es auch ihr Image verbessert.",
+      "text_en": "Agreed, we'll make the project accessible to both groups. Now to the question of how we can recruit donations and volunteers. I think we should organize a fundraising campaign in collaboration with local businesses. Many companies are willing to support social projects because it also improves their image."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Guter Vorschlag. Zusätzlich könnten wir an der Universität nach Freiwilligen suchen. Viele Studierende suchen nach Möglichkeiten, sich sozial zu engagieren, und wir könnten ihnen dafür eine Bescheinigung für ehrenamtliche Tätigkeit ausstellen.",
+      "text_en": "Good suggestion. Additionally, we could look for volunteers at the university. Many students are looking for opportunities to get socially involved, and we could issue them a certificate for volunteer work."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ausgezeichnet. Was die Öffentlichkeitsarbeit angeht, bin ich der Meinung, dass wir sowohl traditionelle als auch digitale Kanäle nutzen sollten. Ein Bericht in der Lokalzeitung erreicht die ältere Generation, während wir über soziale Medien jüngere Menschen ansprechen können.",
+      "text_en": "Excellent. As far as public relations are concerned, I believe we should use both traditional and digital channels. A report in the local newspaper reaches the older generation, while we can address younger people through social media."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Dem stimme ich voll zu. Vielleicht könnten wir auch eine eigene Website erstellen, auf der man sich als Freiwilliger registrieren und Spenden abwickeln kann. Das macht den Prozess transparenter und professioneller.",
+      "text_en": "I fully agree. Perhaps we could also create our own website where you can register as a volunteer and process donations. That makes the process more transparent and professional."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Und um den langfristigen Erfolg zu sichern, sollten wir von Anfang an klare Strukturen schaffen. Ich schlage vor, dass wir vierteljährlich Berichte über die Verwendung der Spenden veröffentlichen. Das schafft Vertrauen und motiviert die Spender, weiterhin zu unterstützen.",
+      "text_en": "And to ensure long-term success, we should establish clear structures from the beginning. I suggest that we publish quarterly reports on the use of donations. That builds trust and motivates donors to continue supporting."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Absolut. Außerdem sollten wir regelmäßig Feedback von den Familien einholen, die wir unterstützen, damit wir das Angebot bei Bedarf anpassen können. Dann lass uns die nächsten Schritte festlegen: Ich kontaktiere die Universität und die lokalen Unternehmen, und du kümmerst dich um die Website und die Medienarbeit.",
+      "text_en": "Absolutely. Additionally, we should regularly collect feedback from the families we support so that we can adjust the offerings as needed. Then let's establish the next steps: I'll contact the university and local businesses, and you take care of the website and media outreach."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Beide Kandidaten besprechen alle Planungspunkte und einigen sich auf ein konkretes Konzept.",
+    "Interaktion: Aktives Eingehen auf die Vorschläge des Partners, konstruktive Ergänzungen und Kompromissbereitschaft.",
+    "Argumentation: Vorschläge werden sachlich begründet und mit konkreten Beispielen untermauert.",
+    "Wortschatz: Differenzierter Wortschatz zu den Themen Sozialarbeit, Projektmanagement und Öffentlichkeitsarbeit.",
+    "Strukturen: Korrekte Verwendung von Finalsätzen, Konditionalsätzen und Passivkonstruktionen.",
+    "Aussprache und Intonation: Flüssige Gesprächsführung mit natürlichen Pausen und angemessener Betonung."
+  ]
+}
