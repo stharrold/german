@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-2-003",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kulturförderung als öffentliche Aufgabe",
+  "instructions": "Lesen Sie den folgenden Meinungsbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "In Zeiten knapper öffentlicher Kassen wird die staatliche Kulturförderung regelmäßig als verzichtbarer Luxus dargestellt. Konservative Haushaltspolitiker argumentieren, der Markt solle entscheiden, welche kulturellen Angebote bestehen und welche verschwinden. Diese Sichtweise verkennt jedoch die fundamentale Bedeutung der Kultur als öffentliches Gut, dessen Wert sich nicht in Einnahmen und Besucherzahlen erschöpft.\n\nKulturförderung ist kein Selbstzweck, sondern erfüllt wesentliche gesellschaftliche Funktionen. Theater, Museen und Bibliotheken sind Orte der Begegnung und des kritischen Diskurses, die in einer zunehmend fragmentierten Gesellschaft unverzichtbar sind. Empirische Studien belegen zudem den erheblichen wirtschaftlichen Multiplikatoreffekt kultureller Institutionen: Jeder investierte Euro generiert im Durchschnitt das Dreifache an regionaler Wertschöpfung durch Gastronomie, Tourismus und kreativwirtschaftliche Impulse. Die Kürzung kultureller Budgets führt daher langfristig nicht zu Einsparungen, sondern zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik.\n\nEntscheidend ist dabei die Frage der Verteilungsgerechtigkeit. Öffentliche Kulturförderung darf sich nicht auf die Subventionierung prestigeträchtiger Leuchttürmprojekte beschränken, die vornehmlich einem bildungsbürgerlichen Publikum dienen. Vielmehr muss sie die kulturelle Teilhabe aller gesellschaftlichen Schichten ermöglichen — durch dezentrale Angebote, freien Eintritt für einkommensschwache Bevölkerungsgruppen und die gezielte Förderung kultureller Bildung in benachteiligten Stadtteilen. Eine Kulturpolitik, die diesen Anspruch ernst nimmt, ist keine Ausgabe, sondern eine Investition in den gesellschaftlichen Zusammenhalt.",
+    "text_en": "In times of tight public budgets, state cultural funding is regularly portrayed as a dispensable luxury. Conservative fiscal politicians argue that the market should decide which cultural offerings survive and which disappear. This view, however, misjudges the fundamental significance of culture as a public good whose value is not exhausted by revenues and visitor numbers.\n\nCultural funding is not an end in itself but fulfills essential societal functions. Theaters, museums, and libraries are places of encounter and critical discourse that are indispensable in an increasingly fragmented society. Empirical studies also demonstrate the considerable economic multiplier effect of cultural institutions: every euro invested generates on average triple the regional value creation through gastronomy, tourism, and creative economy impulses. Cutting cultural budgets therefore does not lead to savings in the long run but to a loss of social cohesion and economic dynamism.\n\nCrucial here is the question of distributional justice. Public cultural funding must not be limited to subsidizing prestigious flagship projects that primarily serve an educated bourgeois audience. Rather, it must enable cultural participation of all social strata — through decentralized offerings, free admission for low-income population groups, and targeted promotion of cultural education in disadvantaged neighborhoods. A cultural policy that takes this claim seriously is not an expense but an investment in social cohesion.",
+    "source": "Zeitung",
+    "word_count": 194
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert der Autor an der Haltung konservativer Haushaltspolitiker?",
+      "text_en": "What does the author criticize about conservative fiscal politicians' stance?",
+      "options": [
+        "a) Sie investieren zu viel in kulturelle Institutionen.",
+        "b) Sie verkennen die fundamentale Bedeutung der Kultur als öffentliches Gut.",
+        "c) Sie fördern ausschließlich Leuchttürmprojekte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Autor kritisiert, dass diese Sichtweise die fundamentale Bedeutung der Kultur als öffentliches Gut verkennt.",
+      "explanation_en": "The author criticizes that this view misjudges the fundamental significance of culture as a public good."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was belegen empirische Studien laut dem Text?",
+      "text_en": "What do empirical studies demonstrate according to the text?",
+      "options": [
+        "a) Kulturinstitutionen erwirtschaften stets Verluste.",
+        "b) Der Wert von Kultur lässt sich nicht messen.",
+        "c) Jeder in Kultur investierte Euro generiert das Dreifache an regionaler Wertschöpfung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Jeder investierte Euro generiert im Durchschnitt das Dreifache an regionaler Wertschöpfung.",
+      "explanation_en": "Every euro invested generates on average triple the regional value creation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Forderung stellt der Autor an die Kulturpolitik?",
+      "text_en": "What demand does the author make of cultural policy?",
+      "options": [
+        "a) Kulturelle Teilhabe aller gesellschaftlichen Schichten zu ermöglichen.",
+        "b) Sich auf internationale Prestigeprojekte zu konzentrieren.",
+        "c) Die Kulturförderung vollständig dem privaten Sektor zu überlassen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Kulturförderung muss die kulturelle Teilhabe aller gesellschaftlichen Schichten ermöglichen.",
+      "explanation_en": "Cultural funding must enable cultural participation of all social strata."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was sind laut dem Text gesellschaftliche Funktionen von Kulturinstitutionen?",
+      "text_en": "What are societal functions of cultural institutions according to the text?",
+      "options": [
+        "a) Sie dienen ausschließlich der Unterhaltung.",
+        "b) Sie sind Orte der Begegnung und des kritischen Diskurses.",
+        "c) Sie ersetzen politische Institutionen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Theater, Museen und Bibliotheken sind Orte der Begegnung und des kritischen Diskurses.",
+      "explanation_en": "Theaters, museums, and libraries are places of encounter and critical discourse."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wozu führt laut dem Autor die Kürzung kultureller Budgets langfristig?",
+      "text_en": "What does cutting cultural budgets lead to in the long run according to the author?",
+      "options": [
+        "a) Zu einer Stärkung des privaten Kultursektors.",
+        "b) Zu einer effizienteren Verteilung der Mittel.",
+        "c) Zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kürzungen führen langfristig zu einem Verlust an gesellschaftlichem Zusammenhalt und wirtschaftlicher Dynamik.",
+      "explanation_en": "Cuts lead in the long run to a loss of social cohesion and economic dynamism."
+    }
+  ]
+}

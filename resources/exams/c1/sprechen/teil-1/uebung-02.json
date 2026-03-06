@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-1-002",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Grenzen der Meinungsfreiheit",
+  "instructions": "Sie sollen zu einem komplexen Thema Stellung nehmen. Halten Sie einen strukturierten Vortrag und diskutieren Sie anschließend mit dem Prüfer / der Prüferin.",
+  "situation_de": "Die Meinungsfreiheit gilt als eines der fundamentalen Grundrechte demokratischer Gesellschaften. Gleichzeitig wird zunehmend diskutiert, ob und wo diese Freiheit ihre Grenzen haben sollte — etwa bei Hassrede, Desinformation oder der Verletzung persönlicher Würde. Halten Sie einen strukturierten Vortrag, in dem Sie die verschiedenen Positionen zu diesem Thema darlegen und Ihre eigene Haltung differenziert begründen.",
+  "situation_en": "Freedom of speech is considered one of the fundamental basic rights of democratic societies. At the same time, there is increasing discussion about whether and where this freedom should have its limits — for example with hate speech, disinformation, or the violation of personal dignity. Give a structured presentation in which you present the various positions on this topic and justify your own stance in a differentiated manner.",
+  "discussion_points": [
+    "Rechtlicher Rahmen: Wo zieht das Grundgesetz die Grenze zwischen Meinungsfreiheit und Persönlichkeitsschutz? (Legal framework: Where does the constitution draw the line between freedom of speech and protection of personal rights?)",
+    "Hassrede und Diskriminierung: Sollten bestimmte Äußerungen stärker reguliert werden, auch wenn sie formal unter die Meinungsfreiheit fallen? (Hate speech and discrimination: Should certain statements be more strictly regulated, even if they formally fall under freedom of speech?)",
+    "Desinformation und soziale Medien: Wer trägt die Verantwortung für die Verbreitung falscher Informationen — die Plattformen, die Nutzer oder der Staat? (Disinformation and social media: Who bears responsibility for the spread of false information — the platforms, the users, or the state?)",
+    "Kulturelle Unterschiede: Wie gehen verschiedene Gesellschaften mit dem Spannungsfeld zwischen freier Rede und gesellschaftlichem Zusammenhalt um? (Cultural differences: How do different societies deal with the tension between free speech and social cohesion?)",
+    "Selbstzensur und Cancel Culture: Führt die gesellschaftliche Debatte dazu, dass Menschen aus Angst vor Konsequenzen ihre Meinung nicht mehr frei äußern? (Self-censorship and cancel culture: Does the societal debate lead to people no longer freely expressing their opinions out of fear of consequences?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Mein Vortrag befasst sich mit den Grenzen der Meinungsfreiheit — einem Thema, das in Zeiten von sozialen Medien und zunehmender gesellschaftlicher Polarisierung besonders brisant ist. Ich vertrete die These, dass Meinungsfreiheit zwar ein unverzichtbares Grundrecht darstellt, jedoch keineswegs absolut gelten kann, da sie stets im Spannungsverhältnis zu anderen Grundrechten steht. Zunächst zum rechtlichen Rahmen: Das Grundgesetz garantiert in Artikel 5 die Meinungsfreiheit, schränkt sie jedoch durch die Bestimmungen der allgemeinen Gesetze, den Jugendschutz und das Recht der persönlichen Ehre ein. Es handelt sich also keineswegs um ein unbeschränktes Recht, sondern um eines, das einer sorgfältigen Abwägung bedarf.",
+      "text_en": "My presentation deals with the limits of freedom of speech — a topic that is particularly explosive in times of social media and increasing societal polarization. I argue the thesis that while freedom of speech is an indispensable fundamental right, it can by no means be absolute, as it always exists in tension with other fundamental rights. First, regarding the legal framework: The Basic Law guarantees freedom of speech in Article 5, but restricts it through the provisions of general laws, youth protection, and the right to personal honor. It is therefore by no means an unlimited right, but one that requires careful balancing."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Besonders kontrovers wird es bei der Frage der Hassrede. Man könnte argumentieren, dass auch provokante oder verletzende Äußerungen durch die Meinungsfreiheit gedeckt sein müssen, um einen offenen Diskurs zu gewährleisten. Dem ließe sich jedoch entgegenhalten, dass systematische Herabwürdigung bestimmter Gruppen den demokratischen Diskurs nicht bereichert, sondern untergräbt.",
+      "text_en": "It becomes particularly controversial with the question of hate speech. One could argue that even provocative or hurtful statements must be covered by freedom of speech to ensure open discourse. However, one could counter that systematic degradation of certain groups does not enrich democratic discourse but undermines it."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie sprechen die Abwägung zwischen Meinungsfreiheit und Persönlichkeitsschutz an. Aber wer sollte letztlich entscheiden, wo die Grenze verläuft — Gerichte, Plattformbetreiber oder die Gesellschaft selbst?",
+      "text_en": "You mention the balancing of freedom of speech and personal rights protection. But who should ultimately decide where the line is drawn — courts, platform operators, or society itself?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist eine Kernfrage, die ich gerne aufgreife. Meiner Einschätzung nach muss die letztinstanzliche Entscheidung bei den Gerichten liegen, da nur sie die notwendige Unabhängigkeit und rechtliche Kompetenz mitbringen. Allerdings wäre es problematisch, wenn Plattformbetreiber keinerlei Verantwortung trügen. Unter Berücksichtigung der Tatsache, dass soziale Medien inzwischen eine quasi-öffentliche Infrastruktur darstellen, sollten sie zu transparenten Moderationsrichtlinien verpflichtet werden.",
+      "text_en": "That is a core question that I am happy to address. In my assessment, the final decision must rest with the courts, as only they bring the necessary independence and legal competence. However, it would be problematic if platform operators bore no responsibility at all. Considering the fact that social media now represents a quasi-public infrastructure, they should be obligated to maintain transparent moderation guidelines."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie beurteilen Sie das Phänomen der sogenannten Cancel Culture? Manche sehen darin eine Einschränkung der Meinungsfreiheit, andere eine Form demokratischer Selbstregulierung.",
+      "text_en": "And how do you assess the phenomenon of so-called cancel culture? Some see it as a restriction of freedom of speech, others as a form of democratic self-regulation."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Hier würde ich eine differenzierte Haltung einnehmen. Es lässt sich nicht von der Hand weisen, dass öffentliche Kritik an problematischen Äußerungen ein wichtiger Bestandteil des demokratischen Diskurses ist. Gleichwohl beobachte ich mit einer gewissen Sorge, dass die Debattenkultur zunehmend von einer Logik der Ausgrenzung geprägt wird. Wenn Menschen aus berechtigter Angst vor beruflichen oder sozialen Konsequenzen bestimmte Themen meiden, dann haben wir es mit einer subtilen Form der Selbstzensur zu tun.",
+      "text_en": "Here I would take a differentiated stance. It cannot be denied that public criticism of problematic statements is an important component of democratic discourse. Nevertheless, I observe with some concern that the culture of debate is increasingly characterized by a logic of exclusion. When people avoid certain topics out of justified fear of professional or social consequences, then we are dealing with a subtle form of self-censorship."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie erwähnen die Selbstzensur. Würden Sie sagen, dass die Debattenkultur insgesamt verengter geworden ist?",
+      "text_en": "You mention self-censorship. Would you say that the culture of debate has become narrower overall?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Daraus ergibt sich für mich folgende Schlussfolgerung: Wir brauchen einen gesellschaftlichen Konsens, der zwischen berechtigter Kritik und unverhältnismäßiger sozialer Sanktionierung unterscheidet. Meinungsfreiheit bedeutet nicht Konsequenzenfreiheit, aber die Konsequenzen müssen verhältnismäßig sein.",
+      "text_en": "From this, I draw the following conclusion: We need a societal consensus that distinguishes between legitimate criticism and disproportionate social sanctioning. Freedom of speech does not mean freedom from consequences, but the consequences must be proportionate."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank. Abschließend: Sehen Sie eher die Gefahr, dass die Meinungsfreiheit zu stark eingeschränkt wird, oder dass sie zu wenig reguliert ist?",
+      "text_en": "Thank you. Finally: Do you see more danger that freedom of speech is being too strongly restricted, or that it is too little regulated?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wenn ich die aktuelle Situation in ihrer Gesamtheit betrachte, sehe ich beide Gefahren — allerdings in unterschiedlichen Kontexten. Im digitalen Raum besteht nach wie vor ein erhebliches Regulierungsdefizit, insbesondere bei algorithmisch verstärkter Desinformation. Im gesellschaftlichen Diskurs hingegen beobachte ich eine zunehmende Verengung des Sagbaren. Die Herausforderung liegt darin, diese beiden Entwicklungen gleichzeitig in den Blick zu nehmen und differenzierte Antworten zu finden, statt einer pauschalen Liberalisierung oder Regulierung das Wort zu reden.",
+      "text_en": "When I look at the current situation as a whole, I see both dangers — though in different contexts. In the digital space, there remains a considerable regulatory deficit, especially regarding algorithmically amplified disinformation. In societal discourse, however, I observe an increasing narrowing of what is considered sayable. The challenge lies in addressing both developments simultaneously and finding differentiated answers, rather than advocating for blanket liberalization or regulation."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-1-005",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Klimamodellierung und Prognosegenauigkeit",
+  "instructions": "Lesen Sie den folgenden wissenschaftlichen Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Klimamodelle sind das zentrale Werkzeug der Klimawissenschaft, um zukünftige Entwicklungen des Erdklimas zu projizieren. Diese hochkomplexen mathematischen Simulationen bilden die physikalischen, chemischen und biologischen Prozesse der Atmosphäre, der Ozeane und der Landoberflächen ab. Trotz enormer Fortschritte in der Rechenleistung und der Modellgenauigkeit bleiben jedoch erhebliche Unsicherheiten bestehen, die eine differenzierte Betrachtung der Prognoseergebnisse erforderlich machen.\n\nEine wesentliche Quelle der Unsicherheit liegt in der sogenannten Parametrisierung. Da viele klimarelevante Prozesse — etwa die Bildung von Wolken oder die Wechselwirkungen zwischen Vegetation und Atmosphäre — auf Skalen ablaufen, die feiner sind als die räumliche Auflösung der Modelle, müssen sie durch vereinfachte mathematische Näherungen dargestellt werden. Verschiedene Forschungsgruppen verwenden unterschiedliche Parametrisierungsansätze, was zu einer beträchtlichen Spannbreite der Modellergebnisse führt. So variieren die Projektionen für die globale Erwärmung bis zum Ende des Jahrhunderts je nach Modell zwischen 1,5 und 4,5 Grad Celsius — eine Differenz mit weitreichenden Konsequenzen für die Klimapolitik.\n\nJüngste methodische Innovationen versprechen jedoch eine deutliche Verbesserung der Prognosequalität. Durch den Einsatz maschineller Lernverfahren können historische Klimadaten effizienter ausgewertet und Parametrisierungen optimiert werden. Darüber hinaus ermöglichen sogenannte Ensembleläufe, bei denen dasselbe Szenario mit leicht variierten Anfangsbedingungen vielfach durchgerechnet wird, eine statistische Quantifizierung der Modellunsicherheit. Entscheidend ist dabei die transparente Kommunikation dieser Unsicherheiten gegenüber politischen Entscheidungsträgern, damit diese fundierte Maßnahmen ergreifen können, anstatt die Ungenauigkeit der Modelle als Vorwand für Untätigkeit zu missbrauchen.",
+    "text_en": "Climate models are the central tool of climate science for projecting future developments of Earth's climate. These highly complex mathematical simulations represent the physical, chemical, and biological processes of the atmosphere, oceans, and land surfaces. Despite enormous advances in computing power and model accuracy, however, considerable uncertainties remain that necessitate a differentiated consideration of projection results.\n\nA major source of uncertainty lies in so-called parameterization. Since many climate-relevant processes — such as cloud formation or interactions between vegetation and atmosphere — occur on scales finer than the spatial resolution of the models, they must be represented by simplified mathematical approximations. Different research groups use different parameterization approaches, leading to a considerable range of model results. Thus, projections for global warming by the end of the century vary between 1.5 and 4.5 degrees Celsius depending on the model — a difference with far-reaching consequences for climate policy.\n\nRecent methodological innovations, however, promise a significant improvement in forecast quality. Through the use of machine learning methods, historical climate data can be evaluated more efficiently and parameterizations optimized. Furthermore, so-called ensemble runs, in which the same scenario is calculated multiple times with slightly varied initial conditions, enable a statistical quantification of model uncertainty. Crucial here is the transparent communication of these uncertainties to political decision-makers so that they can take well-founded measures instead of misusing the inaccuracy of models as a pretext for inaction.",
+    "source": "Fachzeitschrift",
+    "word_count": 220
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was ist die größte Herausforderung bei Klimamodellen laut dem Text?",
+      "text_en": "What is the greatest challenge with climate models according to the text?",
+      "options": [
+        "a) Die Rechenleistung moderner Computer ist unzureichend.",
+        "b) Die Modelle sind zu einfach, um das Klima abzubilden.",
+        "c) Erhebliche Unsicherheiten erfordern eine differenzierte Betrachtung der Ergebnisse."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Trotz Fortschritten bleiben erhebliche Unsicherheiten bestehen, die differenzierte Betrachtung erfordern.",
+      "explanation_en": "Despite advances, considerable uncertainties remain that require differentiated consideration."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht man unter Parametrisierung in der Klimamodellierung?",
+      "text_en": "What is meant by parameterization in climate modeling?",
+      "options": [
+        "a) Die exakte Messung aller Klimavariablen weltweit.",
+        "b) Die vereinfachte mathematische Darstellung von Prozessen, die feiner sind als die Modellauflösung.",
+        "c) Die politische Festlegung von Klimazielen durch internationale Abkommen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Parametrisierung bedeutet die vereinfachte mathematische Darstellung von Prozessen auf Skalen feiner als die Modellauflösung.",
+      "explanation_en": "Parameterization means the simplified mathematical representation of processes on scales finer than model resolution."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie groß ist die Spannbreite der Erwärmungsprojektionen bis Jahrhundertende?",
+      "text_en": "How large is the range of warming projections by century's end?",
+      "options": [
+        "a) Zwischen 1,5 und 4,5 Grad Celsius.",
+        "b) Zwischen 0,5 und 2,0 Grad Celsius.",
+        "c) Zwischen 3,0 und 6,0 Grad Celsius."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Projektionen variieren je nach Modell zwischen 1,5 und 4,5 Grad Celsius.",
+      "explanation_en": "Projections vary between 1.5 and 4.5 degrees Celsius depending on the model."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was sind Ensembleläufe?",
+      "text_en": "What are ensemble runs?",
+      "options": [
+        "a) Einzelne Simulationen mit identischen Parametern.",
+        "b) Vergleiche zwischen verschiedenen Klimamodellen unterschiedlicher Länder.",
+        "c) Vielfache Berechnungen desselben Szenarios mit leicht variierten Anfangsbedingungen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Ensembleläufe berechnen dasselbe Szenario vielfach mit leicht variierten Anfangsbedingungen zur Quantifizierung der Unsicherheit.",
+      "explanation_en": "Ensemble runs calculate the same scenario multiple times with slightly varied initial conditions to quantify uncertainty."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Text hinsichtlich der Kommunikation von Modellunsicherheiten?",
+      "text_en": "What does the text demand regarding the communication of model uncertainties?",
+      "options": [
+        "a) Unsicherheiten sollten verschwiegen werden, um Panik zu vermeiden.",
+        "b) Transparente Kommunikation, damit Entscheidungsträger fundierte Maßnahmen ergreifen können.",
+        "c) Nur Wissenschaftler sollten Zugang zu den Unsicherheitsdaten haben."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Entscheidend ist die transparente Kommunikation der Unsicherheiten gegenüber politischen Entscheidungsträgern.",
+      "explanation_en": "Crucial is the transparent communication of uncertainties to political decision-makers."
+    }
+  ]
+}

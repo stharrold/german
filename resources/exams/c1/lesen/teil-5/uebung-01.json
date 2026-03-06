@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-5-001",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 5,
+  "title": "Bildungsbericht zur Hochschulfinanzierung",
+  "instructions": "Lesen Sie den folgenden Berichtsauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Der aktuelle Bildungsbericht zeichnet ein besorgniserregendes Bild der Hochschulfinanzierung. Während die Studierendenzahlen in den vergangenen anderthalb Jahrzehnten um 42 Prozent gestiegen sind, haben die öffentlichen Ausgaben pro Studierendem inflationsbereinigt um 11 Prozent abgenommen. Diese wachsende Diskrepanz zwischen steigender Nachfrage und sinkender Pro-Kopf-Investition gefährdet mittelfristig die Qualität der akademischen Ausbildung und damit die Wettbewerbsfähigkeit des Wissenschaftsstandorts.\n\nBesonders betroffen sind die geisteswissenschaftlichen Fächer, deren Betreuungsverhältnis sich dramatisch verschlechtert hat. Kamen vor einem Jahrzehnt noch durchschnittlich 45 Studierende auf eine Professur, sind es heute 68 — ein Wert, der eine individuelle Betreuung und Förderung faktisch unmöglich macht. Die naturwissenschaftlichen Fächer stehen zwar dank Drittmitteleinwerbung finanziell besser da, doch erzeugt die zunehmende Abhängigkeit von projektbezogener Finanzierung neue Probleme: befristete Beschäftigungsverhältnisse für den wissenschaftlichen Nachwuchs, Ausrichtung der Forschung an kurzfristigen Verwertungsinteressen und Vernachlässigung der Grundlagenforschung.\n\nDer Bericht empfiehlt ein Bündel von Maßnahmen. Erstens sollte die Grundfinanzierung der Hochschulen dynamisiert werden, sodass sie automatisch an die Studierendenzahlen und die Inflationsrate gekoppelt ist. Zweitens bedarf es einer Stärkung der Dauerstellen im Mittelbau, um dem prekären Beschäftigungssystem entgegenzuwirken, das qualifizierte Wissenschaftlerinnen und Wissenschaftler in andere Berufsfelder oder ins Ausland treibt. Drittens sollte die Hochschulfinanzierung stärker an Qualitätsindikatoren wie Abschlussquoten und Beschäftigungsfähigkeit der Absolventen gekoppelt werden.",
+    "text_en": "The current education report paints a concerning picture of university financing. While student numbers have risen by 42 percent over the past one and a half decades, public expenditure per student has decreased by 11 percent in real terms. This growing discrepancy between rising demand and declining per-capita investment threatens the quality of academic education in the medium term and thus the competitiveness of the research location.\n\nParticularly affected are the humanities, whose supervision ratio has deteriorated dramatically. While an average of 45 students per professorship was the norm a decade ago, the figure today is 68 — a value that makes individual supervision and support practically impossible. The natural sciences, while financially better off thanks to third-party funding, face new problems from the increasing dependence on project-based financing: temporary employment contracts for early-career researchers, alignment of research with short-term commercialization interests, and neglect of basic research.\n\nThe report recommends a bundle of measures. First, the base funding of universities should be dynamized so that it is automatically linked to student numbers and the inflation rate. Second, permanent mid-level positions need to be strengthened to counteract the precarious employment system that drives qualified researchers into other professional fields or abroad. Third, university financing should be more closely linked to quality indicators such as graduation rates and graduate employability.",
+    "source": "Bericht",
+    "word_count": 197
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie haben sich die Ausgaben pro Studierendem entwickelt?",
+      "text_en": "How have expenditures per student developed?",
+      "options": [
+        "a) Sie sind inflationsbereinigt um 11 Prozent gesunken, obwohl die Studierendenzahlen um 42 Prozent stiegen.",
+        "b) Sie sind proportional zu den steigenden Studierendenzahlen gestiegen.",
+        "c) Sie sind konstant geblieben trotz höherer Studierendenzahlen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Ausgaben pro Studierendem sind inflationsbereinigt um 11 Prozent gesunken bei 42 Prozent mehr Studierenden.",
+      "explanation_en": "Expenditures per student have decreased by 11 percent in real terms while student numbers rose 42 percent."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welches Problem besteht trotz besserer Finanzlage in den Naturwissenschaften?",
+      "text_en": "What problem exists despite better finances in the natural sciences?",
+      "options": [
+        "a) Zu wenig Studierende wählen naturwissenschaftliche Fächer.",
+        "b) Abhängigkeit von Drittmitteln führt zu befristeter Beschäftigung und Vernachlässigung der Grundlagenforschung.",
+        "c) Die Labore sind veraltet und müssen modernisiert werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Abhängigkeit von Drittmitteln erzeugt befristete Beschäftigung und Vernachlässigung der Grundlagenforschung.",
+      "explanation_en": "Dependence on third-party funding creates temporary employment and neglect of basic research."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was empfiehlt der Bericht bezüglich der Grundfinanzierung?",
+      "text_en": "What does the report recommend regarding base funding?",
+      "options": [
+        "a) Die vollständige Privatisierung der Hochschulfinanzierung.",
+        "b) Die Einführung von Studiengebühren zur Schließung der Finanzierungslücke.",
+        "c) Eine Dynamisierung, die automatisch an Studierendenzahlen und Inflationsrate gekoppelt ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Grundfinanzierung sollte automatisch an Studierendenzahlen und Inflationsrate gekoppelt werden.",
+      "explanation_en": "Base funding should be automatically linked to student numbers and the inflation rate."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie hat sich das Betreuungsverhältnis in den Geisteswissenschaften verändert?",
+      "text_en": "How has the supervision ratio in the humanities changed?",
+      "options": [
+        "a) Von 45 auf 68 Studierende pro Professur — eine dramatische Verschlechterung.",
+        "b) Es hat sich leicht verbessert dank neuer Lehrformate.",
+        "c) Es ist seit einem Jahrzehnt stabil geblieben."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Betreuungsverhältnis verschlechterte sich von 45 auf 68 Studierende pro Professur.",
+      "explanation_en": "The supervision ratio deteriorated from 45 to 68 students per professorship."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum sollen Dauerstellen im Mittelbau gestärkt werden?",
+      "text_en": "Why should permanent mid-level positions be strengthened?",
+      "options": [
+        "a) Um die Verwaltungskosten der Hochschulen zu senken.",
+        "b) Um dem prekären Beschäftigungssystem entgegenzuwirken, das Wissenschaftler ins Ausland treibt.",
+        "c) Um die Lehrverpflichtung der Professoren zu reduzieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dauerstellen sollen dem prekären Beschäftigungssystem entgegenwirken, das Wissenschaftler in andere Felder oder ins Ausland treibt.",
+      "explanation_en": "Permanent positions should counteract the precarious employment system driving researchers abroad."
+    }
+  ]
+}

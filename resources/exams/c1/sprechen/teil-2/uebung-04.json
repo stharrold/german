@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-2-004",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Gestaltung eines Mentoring-Programms",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte und einigen Sie sich auf einen Vorschlag.",
+  "situation_de": "Sie arbeiten beide in der Personalabteilung eines großen Unternehmens. Die Geschäftsführung hat Sie beauftragt, ein Mentoring-Programm zu entwickeln, das den Wissenstransfer zwischen erfahrenen Fachkräften und Nachwuchskräften verbessern soll. Der Hintergrund: In den kommenden Jahren wird ein erheblicher Teil der Belegschaft in den Ruhestand gehen, und wertvolles Erfahrungswissen droht verloren zu gehen. Gleichzeitig soll das Programm die Integration neuer Mitarbeitender erleichtern und die Diversität im Unternehmen fördern. Erarbeiten Sie gemeinsam ein Konzept.",
+  "situation_en": "You both work in the human resources department of a large company. Management has tasked you with developing a mentoring program that should improve knowledge transfer between experienced professionals and junior staff. The background: In the coming years, a significant portion of the workforce will retire, and valuable experiential knowledge threatens to be lost. At the same time, the program should facilitate the integration of new employees and promote diversity in the company. Develop a concept together.",
+  "discussion_points": [
+    "Programmstruktur: Wie sollte das Mentoring-Programm aufgebaut sein — formell oder informell, in Tandems oder Gruppen, zeitlich begrenzt oder unbefristet? (Program structure: How should the mentoring program be structured — formal or informal, in tandems or groups, time-limited or open-ended?)",
+    "Matching und Zielgruppen: Nach welchen Kriterien sollten Mentoren und Mentees zusammengebracht werden, und welche Zielgruppen sollten priorisiert werden? (Matching and target groups: By which criteria should mentors and mentees be paired, and which target groups should be prioritized?)",
+    "Wissenstransfer: Wie kann implizites Erfahrungswissen — das sogenannte stille Wissen — systematisch weitergegeben werden? (Knowledge transfer: How can implicit experiential knowledge — so-called tacit knowledge — be systematically passed on?)",
+    "Diversität und Inklusion: Wie kann das Programm gezielt dazu beitragen, unterrepräsentierte Gruppen zu fördern und Barrieren abzubauen? (Diversity and inclusion: How can the program specifically contribute to promoting underrepresented groups and removing barriers?)",
+    "Evaluation und Qualitätssicherung: Wie messen wir den Erfolg des Programms und stellen eine kontinuierliche Verbesserung sicher? (Evaluation and quality assurance: How do we measure the success of the program and ensure continuous improvement?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Bevor wir die einzelnen Aspekte besprechen, möchte ich eine grundsätzliche Überlegung voranstellen: Ein Mentoring-Programm ist nur so gut wie die Kultur, in die es eingebettet ist. Wenn wir wollen, dass es funktioniert, müssen wir eine Atmosphäre schaffen, in der Wissensteilung als selbstverständlich gilt — und nicht als Bedrohung der eigenen Position.",
+      "text_en": "Before we discuss the individual aspects, I would like to put forward a fundamental consideration: A mentoring program is only as good as the culture it is embedded in. If we want it to work, we must create an atmosphere where knowledge sharing is taken for granted — and not perceived as a threat to one's own position."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist ein wichtiger Punkt. Gerade bei älteren Fachkräften erlebe ich manchmal die Sorge, dass sie durch Wissenstransfer überflüssig gemacht werden sollen. Wir müssten also von Anfang an deutlich kommunizieren, dass Mentoring eine Wertschätzung ihrer Expertise ist — und keine Vorstufe zur Verrentung.",
+      "text_en": "That is an important point. Especially with older professionals, I sometimes experience the concern that they are supposed to be made redundant through knowledge transfer. We would therefore need to communicate clearly from the beginning that mentoring is an appreciation of their expertise — and not a preliminary stage to retirement."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Genau. Und deshalb plädiere ich für ein Modell des wechselseitigen Mentorings. Die erfahrenen Kolleginnen und Kollegen geben ihr Fachwissen und ihre Branchenkenntnis weiter, während die jüngeren Mitarbeitenden zum Beispiel digitale Kompetenzen oder neue methodische Ansätze einbringen. So entsteht ein Austausch auf Augenhöhe, der für beide Seiten gewinnbringend ist.",
+      "text_en": "Exactly. And that is why I advocate for a model of reciprocal mentoring. The experienced colleagues pass on their specialist knowledge and industry expertise, while the younger employees bring in, for example, digital competencies or new methodological approaches. This creates an exchange at eye level that is beneficial for both sides."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das Konzept des Reverse Mentorings gefällt mir. Aber wie stellen wir das Matching sicher? Wenn die Chemie zwischen Mentor und Mentee nicht stimmt, wird das Programm schnell zur Pflichtübung. Sollten wir die Paare zusammenstellen oder die Beteiligten selbst wählen lassen?",
+      "text_en": "I like the concept of reverse mentoring. But how do we ensure the matching? If the chemistry between mentor and mentee is not right, the program quickly becomes a mandatory exercise. Should we assemble the pairs or let the participants choose themselves?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde einen hybriden Ansatz vorschlagen. Zunächst führen wir ein Profilsystem ein, in dem alle Beteiligten ihre Kompetenzen, Interessen und Entwicklungsziele angeben. Auf dieser Basis erstellen wir Vorschläge, lassen aber die endgültige Entscheidung bei den Beteiligten. Außerdem sollte es eine Probephase geben — wenn die Zusammenarbeit nicht funktioniert, kann ohne Gesichtsverlust gewechselt werden.",
+      "text_en": "I would suggest a hybrid approach. First, we introduce a profile system in which all participants specify their competencies, interests, and development goals. On this basis, we create suggestions but leave the final decision to the participants. There should also be a trial phase — if the collaboration does not work, a change can be made without loss of face."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Klingt pragmatisch. Und was den Aspekt der Diversität betrifft — ich halte es für wichtig, dass wir gezielt Mentoring-Tandems fördern, die Abteilungsgrenzen und Hierarchieebenen überschreiten. Gerade Mitarbeitende mit Migrationshintergrund oder Kolleginnen in technischen Bereichen profitieren erfahrungsgemäß besonders von Mentorinnen und Mentoren, die ihnen Zugang zu informellen Netzwerken verschaffen.",
+      "text_en": "Sounds pragmatic. And regarding the aspect of diversity — I consider it important that we specifically promote mentoring tandems that cross departmental boundaries and hierarchy levels. Employees with migration backgrounds or female colleagues in technical areas in particular benefit from mentors who give them access to informal networks, based on experience."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dem stimme ich voll zu. Darüber hinaus sollten wir die Mentoren in interkultureller Kompetenz schulen. Es reicht nicht, einfach Tandems zusammenzusetzen — die Mentoren müssen auch in der Lage sein, mögliche Barrieren zu erkennen und sensibel damit umzugehen. Ich würde daher eine verpflichtende Schulung für alle Mentorinnen und Mentoren vorschlagen.",
+      "text_en": "I fully agree. Beyond that, we should train mentors in intercultural competence. It is not enough to simply put tandems together — the mentors must also be able to recognize potential barriers and deal with them sensitively. I would therefore suggest mandatory training for all mentors."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Und wie evaluieren wir den Erfolg? Wir brauchen messbare Indikatoren, um der Geschäftsführung nachweisen zu können, dass sich die Investition lohnt.",
+      "text_en": "Agreed. And how do we evaluate success? We need measurable indicators to be able to demonstrate to management that the investment is worthwhile."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich schlage eine Kombination aus quantitativen und qualitativen Indikatoren vor. Quantitativ könnten wir die Fluktuation unter neuen Mitarbeitenden messen, die Beförderungsraten in den Zielgruppen und die Teilnahmequoten. Qualitativ sollten wir regelmäßige Feedbackgespräche führen und anonyme Zufriedenheitsbefragungen durchführen. Entscheidend ist, dass wir die Ergebnisse nicht nur erheben, sondern tatsächlich zur Weiterentwicklung des Programms nutzen.",
+      "text_en": "I suggest a combination of quantitative and qualitative indicators. Quantitatively, we could measure turnover among new employees, promotion rates in the target groups, and participation rates. Qualitatively, we should conduct regular feedback conversations and anonymous satisfaction surveys. What is crucial is that we not only collect the results but actually use them for the further development of the program."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gut, dann haben wir ein umfassendes Konzept: wechselseitiges Mentoring mit hybridem Matching, interkulturelle Schulung der Mentoren, gezielte Diversitätsförderung durch abteilungsübergreifende Tandems und eine systematische Evaluation mit quantitativen und qualitativen Indikatoren. Ich bin zuversichtlich, dass die Geschäftsführung diesem Vorschlag zustimmen wird.",
+      "text_en": "Good, then we have a comprehensive concept: reciprocal mentoring with hybrid matching, intercultural training of mentors, targeted diversity promotion through cross-departmental tandems, and systematic evaluation with quantitative and qualitative indicators. I am confident that management will approve this proposal."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

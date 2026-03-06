@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-3-005",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Schlafforschung und Leistungsfähigkeit",
+  "instructions": "Lesen Sie den folgenden Magazinbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Die Schlafforschung hat in den vergangenen Jahrzehnten einen fundamentalen Wandel unseres Verständnisses von Erholung bewirkt. Galt Schlaf lange als passiver Zustand, in dem der Körper lediglich ruht, wissen wir heute, dass das Gehirn während des Schlafs hochaktiv ist und essentielle Prozesse durchführt, die für die kognitive Leistungsfähigkeit unentbehrlich sind. Insbesondere die Konsolidierung von Gedächtnisinhalten, die synaptische Plastizität und die Entfernung neurotoxischer Abfallprodukte über das glymphatische System finden vorwiegend im Schlaf statt.\n\nDennoch propagiert die moderne Leistungsgesellschaft einen Kult der Schlafminimierung. Führungskräfte brüsten sich mit vier Stunden Schlaf pro Nacht, und Produktivitätsratgeber empfehlen aggressive Schlafverkürzung als Wettbewerbsvorteil. Die neurobiologische Evidenz widerspricht diesem Narrativ eindeutig: Chronischer Schlafmangel — definiert als weniger als sieben Stunden pro Nacht über einen längeren Zeitraum — beeinträchtigt die Entscheidungsfähigkeit, die emotionale Regulation und die Kreativität in einem Ausmaß, das den Betroffenen selbst häufig nicht bewusst ist. Studien zeigen, dass bereits nach drei aufeinanderfolgenden Nächten mit weniger als sechs Stunden Schlaf die kognitive Leistung auf das Niveau einer Person mit einem Blutalkoholspiegel von 0,5 Promille sinkt.\n\nDie gesellschaftlichen Kosten dieser kollektiven Schlafverschuldung sind enorm. Arbeitsunfälle, Produktivitätsverluste und schlafmangelbezogene Gesundheitsausgaben verursachen volkswirtschaftliche Schäden in Milliardenhöhe. Fortschrittliche Unternehmen haben dies erkannt und implementieren Schlafgesundheitsprogramme, flexible Arbeitszeiten und die Abschaffung nächtlicher E-Mail-Erwartungen. Der kulturelle Wandel hin zur Anerkennung des Schlafs als Leistungsgrundlage steht jedoch erst am Anfang.",
+    "text_en": "Sleep research has brought about a fundamental change in our understanding of rest over the past decades. While sleep was long considered a passive state in which the body merely rests, we now know that the brain is highly active during sleep and carries out essential processes indispensable for cognitive performance. In particular, the consolidation of memory contents, synaptic plasticity, and the removal of neurotoxic waste products via the glymphatic system take place predominantly during sleep.\n\nNevertheless, modern achievement-oriented society propagates a cult of sleep minimization. Executives boast about four hours of sleep per night, and productivity guides recommend aggressive sleep reduction as a competitive advantage. Neurobiological evidence clearly contradicts this narrative: chronic sleep deprivation — defined as less than seven hours per night over an extended period — impairs decision-making ability, emotional regulation, and creativity to an extent that those affected are frequently not even aware of. Studies show that after just three consecutive nights of less than six hours of sleep, cognitive performance drops to the level of a person with a blood alcohol concentration of 0.5 per mille.\n\nThe societal costs of this collective sleep debt are enormous. Workplace accidents, productivity losses, and sleep-deprivation-related health expenditures cause economic damages in the billions. Progressive companies have recognized this and implement sleep health programs, flexible working hours, and the abolition of nighttime email expectations. The cultural shift toward recognizing sleep as a foundation for performance, however, is only at its beginning.",
+    "source": "Magazin",
+    "word_count": 216
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was findet laut neuerer Forschung vorwiegend im Schlaf statt?",
+      "text_en": "What takes place predominantly during sleep according to newer research?",
+      "options": [
+        "a) Die Produktion neuer Gehirnzellen in der Großhirnrinde.",
+        "b) Die vollständige Abschaltung aller neuronalen Aktivität.",
+        "c) Gedächtniskonsolidierung, synaptische Plastizität und Entfernung neurotoxischer Abfallprodukte."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Gedächtniskonsolidierung, synaptische Plastizität und Abfallproduktentfernung finden vorwiegend im Schlaf statt.",
+      "explanation_en": "Memory consolidation, synaptic plasticity, and waste product removal take place predominantly during sleep."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen Studien über die Auswirkungen von drei Nächten mit weniger als sechs Stunden Schlaf?",
+      "text_en": "What do studies show about the effects of three nights with less than six hours of sleep?",
+      "options": [
+        "a) Die Betroffenen passen sich an den Schlafmangel an.",
+        "b) Die kognitive Leistung sinkt auf das Niveau einer Person mit 0,5 Promille Blutalkohol.",
+        "c) Die körperliche Leistungsfähigkeit nimmt zu, aber die Kreativität sinkt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die kognitive Leistung sinkt auf das Niveau einer Person mit 0,5 Promille Blutalkoholspiegel.",
+      "explanation_en": "Cognitive performance drops to the level of a person with a blood alcohol concentration of 0.5 per mille."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was propagiert die moderne Leistungsgesellschaft laut dem Text?",
+      "text_en": "What does modern achievement-oriented society propagate according to the text?",
+      "options": [
+        "a) Einen Kult der Schlafminimierung als vermeintlichen Wettbewerbsvorteil.",
+        "b) Ausreichend Schlaf als Grundlage wirtschaftlichen Erfolgs.",
+        "c) Flexible Arbeitszeiten zur Verbesserung der Schlafqualität."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Leistungsgesellschaft propagiert einen Kult der Schlafminimierung als Wettbewerbsvorteil.",
+      "explanation_en": "Achievement-oriented society propagates a cult of sleep minimization as a competitive advantage."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche gesellschaftlichen Kosten verursacht Schlafmangel?",
+      "text_en": "What societal costs does sleep deprivation cause?",
+      "options": [
+        "a) Ausschließlich erhöhte Krankenversicherungsbeiträge.",
+        "b) Nur Produktivitätsverluste in der Industrie.",
+        "c) Arbeitsunfälle, Produktivitätsverluste und Gesundheitsausgaben in Milliardenhöhe."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Arbeitsunfälle, Produktivitätsverluste und Gesundheitsausgaben verursachen Milliardenschäden.",
+      "explanation_en": "Workplace accidents, productivity losses, and health expenditures cause damages in the billions."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was implementieren fortschrittliche Unternehmen?",
+      "text_en": "What do progressive companies implement?",
+      "options": [
+        "a) Pflicht-Schlafzeiten während der Arbeitszeit.",
+        "b) Schlafgesundheitsprogramme, flexible Arbeitszeiten und keine nächtlichen E-Mail-Erwartungen.",
+        "c) Verbote für Überstunden und Wochenendarbeit."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Fortschrittliche Unternehmen implementieren Schlafgesundheitsprogramme, flexible Arbeitszeiten und abgeschaffte nächtliche E-Mail-Erwartungen.",
+      "explanation_en": "Progressive companies implement sleep health programs, flexible working hours, and abolished nighttime email expectations."
+    }
+  ]
+}

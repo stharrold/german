@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-2-002",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "KI in der medizinischen Diagnostik",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Guten Abend bei „Forschung aktuell“. Heute geht es um den Einsatz Künstlicher Intelligenz in der medizinischen Diagnostik. Zu Gast sind Herr Professor Dr. Klaus Wendt, Radiologe und KI-Forscher, und Frau Dr. Petra Schilling, Medizinethikerin. Herr Professor Wendt, wie weit ist die KI in der Diagnostik bereits?",
+      "text_en": "Good evening on 'Forschung aktuell.' Today's topic is the use of Artificial Intelligence in medical diagnostics. Our guests are Professor Dr. Klaus Wendt, radiologist and AI researcher, and Dr. Petra Schilling, medical ethicist. Professor Wendt, how far has AI progressed in diagnostics?"
+    },
+    {
+      "speaker": "Prof. Dr. Wendt",
+      "text_de": "Die Fortschritte sind beeindruckend. In der Bildgebung — also bei der Analyse von Röntgenaufnahmen, CT-Scans und MRT-Bildern — erreichen KI-Systeme mittlerweile eine Trefferquote, die der erfahrener Radiologen entspricht und sie in manchen Bereichen sogar übertrifft. Besonders bei der Erkennung von Lungenknoten oder Hautkrebs zeigen die Algorithmen eine bemerkenswerte Sensitivität. Wichtig ist jedoch zu betonen, dass es sich um unterstützende Systeme handelt — sie ersetzen nicht den Arzt, sondern fungieren als eine Art zweite Meinung, die Befunde schneller und konsistenter liefert.",
+      "text_en": "The advances are impressive. In imaging — that is, in the analysis of X-rays, CT scans, and MRI images — AI systems now achieve an accuracy rate that matches and in some areas even surpasses that of experienced radiologists. Particularly in detecting lung nodules or skin cancer, the algorithms show remarkable sensitivity. It is important to emphasize, however, that these are supporting systems — they do not replace the physician but function as a kind of second opinion that delivers findings faster and more consistently."
+    },
+    {
+      "speaker": "Dr. Schilling",
+      "text_de": "Genau hier liegt das Problem, das mich als Ethikerin beschäftigt. Die Darstellung der KI als bloßes Unterstützungsinstrument verschleiert die tatsächliche Machtverschiebung, die stattfindet. Wenn ein KI-System in 95 Prozent der Fälle korrekt diagnostiziert, wie wahrscheinlich ist es dann, dass ein Arzt der verbleibenden 5 Prozent widerspricht? Es entsteht ein sogenannter Automatisierungsbias — die Tendenz, dem maschinellen Urteil zu vertrauen, selbst wenn die eigene klinische Erfahrung etwas anderes nahelegt. Das ist keine theoretische Sorge; in der Luftfahrt ist dieses Phänomen seit Jahrzehnten dokumentiert.",
+      "text_en": "This is precisely where the problem lies that concerns me as an ethicist. The portrayal of AI as a mere support instrument obscures the actual power shift that is taking place. If an AI system diagnoses correctly in 95 percent of cases, how likely is it that a physician will contradict the remaining 5 percent? A so-called automation bias emerges — the tendency to trust the machine's judgment even when one's own clinical experience suggests otherwise. This is not a theoretical concern; in aviation, this phenomenon has been documented for decades."
+    },
+    {
+      "speaker": "Prof. Dr. Wendt",
+      "text_de": "Der Automatisierungsbias ist ein berechtigtes Anliegen, aber er lässt sich durch entsprechende Ausbildung und Schnittstellengestaltung minimieren. Viel gravierender finde ich die Frage der Datenqualität. KI-Systeme sind nur so gut wie die Daten, mit denen sie trainiert werden. Wenn die Trainingsdaten vorwiegend von einer bestimmten Bevölkerungsgruppe stammen — etwa helle Haut bei der Hautkrebs-Erkennung —, entstehen systematische Verzerrungen, die andere Gruppen benachteiligen. Das ist ein ernstes Problem, dem die Branche noch nicht ausreichend begegnet ist.",
+      "text_en": "Automation bias is a legitimate concern, but it can be minimized through appropriate training and interface design. I find the question of data quality much more serious. AI systems are only as good as the data they are trained on. If the training data predominantly comes from a specific population group — for example light skin in skin cancer detection — systematic biases emerge that disadvantage other groups. This is a serious problem that the industry has not yet adequately addressed."
+    },
+    {
+      "speaker": "Dr. Schilling",
+      "text_de": "Und damit kommen wir zu einer grundsätzlichen Frage: Wer haftet, wenn eine KI-gestützte Diagnose falsch ist? Im traditionellen Modell trägt der behandelnde Arzt die Verantwortung. Aber wenn der Arzt auf die Empfehlung eines algorithmischen Systems vertraut hat, verschiebt sich die Verantwortung. Haftet der Arzt? Der Hersteller der Software? Das Krankenhaus, das die Software eingesetzt hat? Diese juristischen Fragen sind bislang weitgehend ungeklärt, und ich halte es für fahrlässig, KI-Systeme im klinischen Alltag einzusetzen, ohne zuvor einen klaren Haftungsrahmen geschaffen zu haben.",
+      "text_en": "And this brings us to a fundamental question: who is liable when an AI-assisted diagnosis is wrong? In the traditional model, the treating physician bears the responsibility. But when the physician has trusted the recommendation of an algorithmic system, responsibility shifts. Is the physician liable? The software manufacturer? The hospital that deployed the software? These legal questions are largely unresolved, and I consider it negligent to deploy AI systems in clinical practice without first establishing a clear liability framework."
+    },
+    {
+      "speaker": "Prof. Dr. Wendt",
+      "text_de": "Die Haftungsfrage muss zweifellos geklärt werden. Aber wir dürfen nicht vergessen, dass auch das gegenwärtige System fehlerhaft ist. Fehldiagnosen kosten jährlich Tausende von Menschenleben. Wenn KI-Systeme die Fehlerquote nachweislich senken, wäre es ethisch fragwürdig, sie den Patienten vorzuenthalten, nur weil die regulatorischen Rahmenbedingungen noch nicht perfekt sind.",
+      "text_en": "The liability question must undoubtedly be clarified. But we must not forget that the current system is also flawed. Misdiagnoses cost thousands of lives annually. If AI systems demonstrably reduce the error rate, it would be ethically questionable to withhold them from patients just because the regulatory framework is not yet perfect."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie beschreibt Prof. Wendt die Rolle der KI in der Diagnostik?",
+      "text_en": "How does Prof. Wendt describe the role of AI in diagnostics?",
+      "options": [
+        "a) Als vollständigen Ersatz für menschliche Ärzte.",
+        "b) Als unterstützendes System, das Befunde schneller und konsistenter liefert.",
+        "c) Als unterstützendes System, das als zweite Meinung fungiert."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Prof. Wendt betont, dass KI-Systeme den Arzt nicht ersetzen, sondern als eine Art zweite Meinung fungieren.",
+      "explanation_en": "Prof. Wendt emphasizes that AI systems do not replace the physician but function as a kind of second opinion."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Dr. Schilling unter Automatisierungsbias?",
+      "text_en": "What does Dr. Schilling understand by automation bias?",
+      "options": [
+        "a) Die Tendenz, dem maschinellen Urteil zu vertrauen, auch wenn die eigene Erfahrung widerspricht.",
+        "b) Die Ablehnung jeglicher technologischer Neuerungen durch Ärzte.",
+        "c) Die automatische Abschaltung des Systems bei Fehlern."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Automatisierungsbias ist die Tendenz, dem maschinellen Urteil zu vertrauen, selbst wenn die eigene klinische Erfahrung etwas anderes nahelegt.",
+      "explanation_en": "Automation bias is the tendency to trust the machine's judgment even when one's own clinical experience suggests otherwise."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welches Problem bei der Datenqualität nennt Prof. Wendt?",
+      "text_en": "What data quality problem does Prof. Wendt mention?",
+      "options": [
+        "a) Dass Trainingsdaten zu umfangreich und daher unübersichtlich sind.",
+        "b) Dass Trainingsdaten vorwiegend von bestimmten Bevölkerungsgruppen stammen und systematische Verzerrungen erzeugen.",
+        "c) Dass Trainingsdaten absichtlich manipuliert werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wenn Trainingsdaten vorwiegend von einer bestimmten Bevölkerungsgruppe stammen, entstehen systematische Verzerrungen, die andere Gruppen benachteiligen.",
+      "explanation_en": "When training data predominantly comes from a specific population group, systematic biases emerge that disadvantage other groups."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Dr. Schilling bezüglich der Haftung?",
+      "text_en": "What does Dr. Schilling demand regarding liability?",
+      "options": [
+        "a) Dass Patienten selbst die Verantwortung für KI-Diagnosen übernehmen.",
+        "b) Dass KI-Systeme vollständig verboten werden.",
+        "c) Dass ein klarer Haftungsrahmen geschaffen wird, bevor KI klinisch eingesetzt wird."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Dr. Schilling hält es für fahrlässig, KI-Systeme einzusetzen, ohne zuvor einen klaren Haftungsrahmen geschaffen zu haben.",
+      "explanation_en": "Dr. Schilling considers it negligent to deploy AI systems without first establishing a clear liability framework."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was entgegnet Prof. Wendt auf die Bedenken bezüglich der Regulierung?",
+      "text_en": "What does Prof. Wendt counter regarding the regulatory concerns?",
+      "options": [
+        "a) Dass es ethisch fragwürdig wäre, wirksame KI-Systeme vorzuenthalten, weil die Regulierung noch nicht perfekt ist.",
+        "b) Dass Regulierung grundsätzlich überflüssig ist.",
+        "c) Dass die Regulierung innerhalb weniger Monate abgeschlossen sein wird."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Prof. Wendt argumentiert, es wäre ethisch fragwürdig, Patienten wirksame KI-Systeme vorzuenthalten, nur weil die regulatorischen Rahmenbedingungen noch nicht perfekt sind.",
+      "explanation_en": "Prof. Wendt argues it would be ethically questionable to withhold effective AI systems from patients just because the regulatory framework is not yet perfect."
+    }
+  ]
+}

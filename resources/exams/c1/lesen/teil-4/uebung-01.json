@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-4-001",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Das Wesen der Zeit in der Philosophie",
+  "instructions": "Lesen Sie den folgenden Essayauszug und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Kaum ein Phänomen ist dem Menschen so vertraut und zugleich so rätselhaft wie die Zeit. Wir messen sie mit Uhren, teilen sie in Sekunden und Stunden, planen unser Leben nach ihrem Takt — und doch entzieht sie sich jedem Versuch einer endgültigen Definition. Der Kirchenvater Augustinus brachte dieses Paradox auf die berühmte Formel: Wenn niemand ihn danach frage, wisse er, was die Zeit sei; wenn er es aber jemandem erklären solle, wisse er es nicht. Diese Ratlosigkeit hat sich über die Jahrhunderte als erstaunlich beständig erwiesen.\n\nDie abendländische Philosophie hat zwei grundlegend verschiedene Zeitkonzeptionen hervorgebracht. Die eine, die auf Aristoteles zurückgeht, begreift Zeit als objektive, messbare Größe — als gleichmäßigen Fluss, der unabhängig vom menschlichen Bewusstsein verstreicht. Die andere, die Augustinus begründete und die über Kant bis zu Husserl und Heidegger weitergedacht wurde, versteht Zeit als Struktur des Bewusstseins selbst: Vergangenheit existiert nur als Erinnerung, Zukunft nur als Erwartung, und selbst die Gegenwart erweist sich bei näherer Betrachtung als ein ungreifbarer Übergang zwischen dem Nicht-mehr und dem Noch-nicht.\n\nDie moderne Physik hat diese philosophische Debatte nicht aufgelöst, sondern verschärft. Einsteins Relativitätstheorie demonstrierte, dass Zeit keine absolute Größe ist, sondern von Geschwindigkeit und Gravitation abhängt — eine Erkenntnis, die die Alltagsintuition fundamental unterläuft. In der Quantenphysik taucht die Zeit in den grundlegenden Gleichungen als reversible Variable auf, was die Frage aufwirft, ob die erlebte Gerichtetheit der Zeit — vom Vergangenen zum Zukünftigen — möglicherweise eine Illusion des menschlichen Bewusstseins ist und nicht eine Eigenschaft der physikalischen Wirklichkeit.",
+    "text_en": "Hardly any phenomenon is as familiar to humans and yet as puzzling as time. We measure it with clocks, divide it into seconds and hours, plan our lives according to its rhythm — and yet it eludes every attempt at a definitive definition. The Church Father Augustine put this paradox into the famous formula: when nobody asks him, he knows what time is; but when he should explain it to someone, he does not know. This perplexity has proven remarkably persistent over the centuries.\n\nWestern philosophy has produced two fundamentally different conceptions of time. One, going back to Aristotle, conceives of time as an objective, measurable quantity — as an even flow that passes independently of human consciousness. The other, founded by Augustine and further developed through Kant to Husserl and Heidegger, understands time as a structure of consciousness itself: the past exists only as memory, the future only as expectation, and even the present proves upon closer examination to be an intangible transition between the no-longer and the not-yet.\n\nModern physics has not resolved this philosophical debate but intensified it. Einstein's theory of relativity demonstrated that time is not an absolute quantity but depends on velocity and gravity — an insight that fundamentally undermines everyday intuition. In quantum physics, time appears in the fundamental equations as a reversible variable, which raises the question whether the experienced directionality of time — from past to future — is possibly an illusion of human consciousness and not a property of physical reality.",
+    "source": "Essay",
+    "word_count": 246
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was illustriert das Augustinus-Zitat?",
+      "text_en": "What does the Augustine quotation illustrate?",
+      "options": [
+        "a) Das Paradox, dass wir Zeit erleben, aber nicht definieren können.",
+        "b) Dass die Zeitmessung im Mittelalter noch ungenau war.",
+        "c) Dass die Philosophie keine praktische Relevanz hat."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Augustinus illustriert das Paradox: Wir wissen intuitiv, was Zeit ist, können sie aber nicht erklären.",
+      "explanation_en": "Augustine illustrates the paradox: we intuitively know what time is but cannot explain it."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet die aristotelische von der augustinischen Zeitkonzeption?",
+      "text_en": "What distinguishes the Aristotelian from the Augustinian conception of time?",
+      "options": [
+        "a) Aristoteles hielt Zeit für eine Illusion, Augustinus für real.",
+        "b) Aristoteles sah Zeit als objektive Größe, Augustinus als Struktur des Bewusstseins.",
+        "c) Beide waren sich einig, dass Zeit messbar ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Aristoteles begreift Zeit als objektive Größe, Augustinus als Struktur des Bewusstseins selbst.",
+      "explanation_en": "Aristotle conceives time as an objective quantity, Augustine as a structure of consciousness itself."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Relativitätstheorie über die Zeit gezeigt?",
+      "text_en": "What has the theory of relativity shown about time?",
+      "options": [
+        "a) Dass Zeit in allen Bezugssystemen gleich schnell vergeht.",
+        "b) Dass Zeit eine reine Bewusstseinsleistung ohne physikalische Grundlage ist.",
+        "c) Dass Zeit von Geschwindigkeit und Gravitation abhängt und keine absolute Größe ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Einstein demonstrierte, dass Zeit von Geschwindigkeit und Gravitation abhängt und nicht absolut ist.",
+      "explanation_en": "Einstein demonstrated that time depends on velocity and gravity and is not absolute."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Frage wirft die Quantenphysik bezüglich der Zeit auf?",
+      "text_en": "What question does quantum physics raise regarding time?",
+      "options": [
+        "a) Ob die erlebte Gerichtetheit der Zeit möglicherweise eine Bewusstseinsillusion ist.",
+        "b) Ob Zeit in der Quantenwelt schneller vergeht als in der makroskopischen Welt.",
+        "c) Ob Zeitreisen in die Vergangenheit physikalisch möglich sind."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Quantenphysik wirft die Frage auf, ob die Gerichtetheit der Zeit eine Illusion des Bewusstseins ist.",
+      "explanation_en": "Quantum physics raises the question whether the directionality of time is an illusion of consciousness."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie hat die moderne Physik die philosophische Zeitdebatte beeinflusst?",
+      "text_en": "How has modern physics influenced the philosophical debate about time?",
+      "options": [
+        "a) Sie hat die Debatte abschließend zugunsten der aristotelischen Position entschieden.",
+        "b) Sie hat die Debatte nicht aufgelöst, sondern verschärft.",
+        "c) Sie hat gezeigt, dass philosophische Zeitkonzeptionen irrelevant sind."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die moderne Physik hat die philosophische Debatte nicht aufgelöst, sondern verschärft.",
+      "explanation_en": "Modern physics has not resolved the philosophical debate but intensified it."
+    }
+  ]
+}

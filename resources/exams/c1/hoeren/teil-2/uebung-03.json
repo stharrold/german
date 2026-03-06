@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-2-003",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Bildungsgerechtigkeit und Chancengleichheit",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Herzlich willkommen bei „Bildung im Fokus“. Heute diskutieren wir über Bildungsgerechtigkeit mit Frau Professor Dr. Claudia Roth, Bildungsforscherin, und Herrn Dr. Markus Hagen, Schulleiter und Bildungspolitiker. Frau Professor Roth, wie steht es um die Chancengleichheit im deutschen Bildungssystem?",
+      "text_en": "Welcome to 'Education in Focus.' Today we discuss educational equity with Professor Dr. Claudia Roth, education researcher, and Dr. Markus Hagen, school principal and education politician. Professor Roth, how does equal opportunity stand in the German education system?"
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Die Befunde sind ernüchternd. Trotz jahrzehntelanger Reformbemühungen bleibt der Bildungserfolg in Deutschland in hohem Maße von der sozialen Herkunft abhängig. Kinder aus akademischen Elternhäusern haben eine drei- bis viermal höhere Wahrscheinlichkeit, ein Gymnasium zu besuchen, als Kinder aus Arbeiterfamilien — selbst bei vergleichbarer kognitiver Leistungsfähigkeit. Das ist ein strukturelles Problem, das sich nicht durch einzelne Förderprogramme beheben lässt. Es erfordert einen grundlegenden Paradigmenwechsel in der Art und Weise, wie wir Bildung organisieren.",
+      "text_en": "The findings are sobering. Despite decades of reform efforts, educational success in Germany remains highly dependent on social background. Children from academic households have a three to four times higher probability of attending Gymnasium than children from working-class families — even with comparable cognitive abilities. This is a structural problem that cannot be fixed through individual support programs. It requires a fundamental paradigm shift in how we organize education."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Ich teile die Diagnose, aber nicht die Therapie. Das dreigliedrige Schulsystem hat durchaus seine Berechtigung — es ermöglicht eine Differenzierung, die den unterschiedlichen Begabungen und Interessen der Schüler gerecht wird. Das Problem liegt nicht in der Struktur, sondern in der Durchlässigkeit. Wir müssen die Übergänge zwischen den Schulformen erleichtern und die Stigmatisierung der Haupt- und Realschulen abbauen. Ein begabtes Kind sollte auch nach der vierten Klasse noch problemlos den Wechsel aufs Gymnasium schaffen können.",
+      "text_en": "I share the diagnosis but not the therapy. The three-tiered school system certainly has its justification — it enables differentiation that does justice to the different talents and interests of students. The problem lies not in the structure but in the permeability. We must facilitate transitions between school types and reduce the stigmatization of Hauptschule and Realschule. A gifted child should still be able to switch to Gymnasium without problems even after fourth grade."
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Herr Hagen, die Rede von der Durchlässigkeit ist ein Mythos. Die Zahlen zeigen, dass der Wechsel von der Realschule aufs Gymnasium in der Praxis verschwindend selten stattfindet — weniger als 3 Prozent der Schüler wechseln nach oben, während der Abwärtswechsel wesentlich häufiger vorkommt. Die frühe Selektion mit zehn Jahren zementiert soziale Ungleichheiten, anstatt sie aufzulösen. Die PISA-Studien belegen konsistent, dass Länder mit längerer gemeinsamer Schulzeit — wie Finnland oder Kanada — sowohl bessere Durchschnittsergebnisse als auch geringere soziale Disparitäten aufweisen.",
+      "text_en": "Mr. Hagen, the talk of permeability is a myth. The numbers show that the switch from Realschule to Gymnasium in practice occurs vanishingly rarely — fewer than 3 percent of students move up, while downward switches are much more common. The early selection at age ten cements social inequalities instead of dissolving them. PISA studies consistently demonstrate that countries with longer periods of common schooling — such as Finland or Canada — show both better average results and lower social disparities."
+    },
+    {
+      "speaker": "Dr. Hagen",
+      "text_de": "Die Vergleiche mit Finnland greifen meines Erachtens zu kurz. Finnland hat ein völlig anderes Gesellschaftsmodell, eine homogenere Bevölkerungsstruktur und eine kulturelle Tradition, die Lehrkräften einen wesentlich höheren gesellschaftlichen Status einräumt. Was wir in Deutschland dringend brauchen, ist eine bessere Ausstattung der Schulen in sozial benachteiligten Vierteln — kleinere Klassen, mehr Schulsozialarbeiter, bessere digitale Infrastruktur. Das ist der pragmatische Weg, der innerhalb des bestehenden Systems umsetzbar ist.",
+      "text_en": "The comparisons with Finland fall short in my view. Finland has a completely different societal model, a more homogeneous population structure, and a cultural tradition that grants teachers a significantly higher social status. What we urgently need in Germany is better equipping schools in socially disadvantaged neighborhoods — smaller classes, more school social workers, better digital infrastructure. That is the pragmatic path that can be implemented within the existing system."
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Die bessere Ausstattung ist notwendig, aber nicht hinreichend. Solange die Grundstruktur einer frühen Selektion bestehen bleibt, werden wir die Reproduktion sozialer Ungleichheit durch das Bildungssystem nicht durchbrechen. Was ich vorschlage, ist eine Gemeinschaftsschule bis zur neunten Klasse, ergänzt durch individuelle Förderung und Binnendifferenzierung. Das ist kein Gleichmacherei, sondern das Gegenteil: ein System, das jedem Kind unabhängig von seiner Herkunft die bestmögliche Entfaltung ermöglicht.",
+      "text_en": "Better equipment is necessary but not sufficient. As long as the basic structure of early selection remains, we will not break the reproduction of social inequality through the education system. What I propose is a comprehensive school until ninth grade, supplemented by individual support and internal differentiation. This is not leveling down but the opposite: a system that enables every child the best possible development regardless of their background."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen die Befunde zur Bildungsgerechtigkeit laut Prof. Roth?",
+      "text_en": "What do the findings on educational equity show according to Prof. Roth?",
+      "options": [
+        "a) Dass die Chancengleichheit in Deutschland weitgehend verwirklicht ist.",
+        "b) Dass der Bildungserfolg stark von der sozialen Herkunft abhängt.",
+        "c) Dass kognitive Fähigkeiten der einzige Faktor für den Bildungserfolg sind."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Bildungserfolg bleibt in hohem Maße von der sozialen Herkunft abhängig — Kinder aus Akademikerhaushalten besuchen drei- bis viermal häufiger das Gymnasium.",
+      "explanation_en": "Educational success remains highly dependent on social background — children from academic households attend Gymnasium three to four times more often."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wo sieht Dr. Hagen das eigentliche Problem des Bildungssystems?",
+      "text_en": "Where does Dr. Hagen see the actual problem of the education system?",
+      "options": [
+        "a) In der dreigliedrigen Struktur an sich.",
+        "b) In der fehlenden Differenzierung nach Begabung.",
+        "c) In der mangelnden Durchlässigkeit zwischen den Schulformen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Dr. Hagen sieht das Problem nicht in der Struktur, sondern in der mangelnden Durchlässigkeit zwischen den Schulformen.",
+      "explanation_en": "Dr. Hagen sees the problem not in the structure but in the lack of permeability between school types."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum bezeichnet Prof. Roth die Durchlässigkeit als Mythos?",
+      "text_en": "Why does Prof. Roth call permeability a myth?",
+      "options": [
+        "a) Weil weniger als 3 Prozent der Schüler von der Realschule aufs Gymnasium wechseln.",
+        "b) Weil es keine gesetzlichen Regelungen für Schulwechsel gibt.",
+        "c) Weil alle Eltern den Wechsel ihrer Kinder ablehnen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Weniger als 3 Prozent der Schüler wechseln von der Realschule aufs Gymnasium, während der Abwärtswechsel wesentlich häufiger vorkommt.",
+      "explanation_en": "Fewer than 3 percent of students switch from Realschule to Gymnasium, while downward switches are much more common."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Warum hält Dr. Hagen den Vergleich mit Finnland für unzureichend?",
+      "text_en": "Why does Dr. Hagen consider the comparison with Finland insufficient?",
+      "options": [
+        "a) Weil Finnlands Ergebnisse in Wirklichkeit schlechter sind als dargestellt.",
+        "b) Weil Finnland ein anderes Gesellschaftsmodell und eine homogenere Bevölkerung hat.",
+        "c) Weil Finnland das dreigliedrige System kürzlich übernommen hat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dr. Hagen argumentiert, Finnland habe ein anderes Gesellschaftsmodell, eine homogenere Bevölkerung und einen höheren Status für Lehrkräfte.",
+      "explanation_en": "Dr. Hagen argues Finland has a different societal model, a more homogeneous population, and higher status for teachers."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt Prof. Roth als Lösung vor?",
+      "text_en": "What does Prof. Roth propose as a solution?",
+      "options": [
+        "a) Die Abschaffung aller Prüfungen und Noten.",
+        "b) Eine vollständige Privatisierung des Schulsystems.",
+        "c) Eine Gemeinschaftsschule bis zur neunten Klasse mit individueller Förderung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Prof. Roth schlägt eine Gemeinschaftsschule bis zur neunten Klasse vor, ergänzt durch individuelle Förderung und Binnendifferenzierung.",
+      "explanation_en": "Prof. Roth proposes a comprehensive school until ninth grade, supplemented by individual support and internal differentiation."
+    }
+  ]
+}

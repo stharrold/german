@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-3-001",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Architektur und psychisches Wohlbefinden",
+  "instructions": "Lesen Sie den folgenden Magazinbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Dass die gebaute Umgebung einen messbaren Einfluss auf das psychische Wohlbefinden ausübt, ist in der Architekturpsychologie mittlerweile unbestritten. Lange wurde Architektur jedoch vornehmlich unter ästhetischen oder funktionalen Gesichtspunkten bewertet, während ihre Auswirkungen auf die seelische Gesundheit der Nutzer kaum Beachtung fanden. Neuere interdisziplinäre Forschungsansätze verbinden nun Erkenntnisse der Neurowissenschaften mit architektonischer Gestaltungslehre und liefern erstmals empirisch fundierte Leitlinien für eine gesundheitsfördernde Bauweise.\n\nZentrale Ergebnisse dieser Forschung betreffen den Einfluss von Raumhöhe, Lichteinfall und Materialität auf kognitive und emotionale Prozesse. Hohe Decken beispielsweise aktivieren nachweislich abstraktes Denken und fördern kreative Problemlösungen, während niedrige Räume die Konzentration auf Detailarbeit begünstigen. Natürliches Licht reguliert den zirkadianen Rhythmus und beeinflusst die Ausschüttung von Serotonin, weshalb fensterarme Arbeitsumgebungen mit erhöhten Raten von Erschöpfungssymptomen assoziiert sind. Die Verwendung natürlicher Materialien wie Holz und Stein erzeugt zudem eine messbar beruhigende Wirkung auf das vegetative Nervensystem.\n\nDiese Erkenntnisse stellen die gängige Praxis des kostenminimierten Bauens grundlegend infrage. Wenn monotone Bürolandschaften, beengte Wohnverhältnisse und lichtarme Innenräume nachweislich die psychische Gesundheit beeinträchtigen, dann ist die Investition in menschengerechte Architektur keine Frage des Luxus, sondern der Gesundheitsvorsorge. Einige skandinavische Kommunen haben dies bereits erkannt und integrieren architekturpsychologische Gutachten in ihre Bauordnungen — ein Ansatz, der als Vorbild für die europäische Baupolitik dienen könnte.",
+    "text_en": "That the built environment exerts a measurable influence on psychological well-being is now undisputed in architectural psychology. For a long time, however, architecture was primarily evaluated from aesthetic or functional perspectives, while its effects on the mental health of users received little attention. Newer interdisciplinary research approaches now combine insights from neuroscience with architectural design theory and provide, for the first time, empirically founded guidelines for health-promoting construction.\n\nCentral findings of this research concern the influence of room height, light exposure, and materiality on cognitive and emotional processes. High ceilings, for example, demonstrably activate abstract thinking and promote creative problem-solving, while low rooms favor concentration on detailed work. Natural light regulates the circadian rhythm and influences serotonin release, which is why windowless work environments are associated with increased rates of exhaustion symptoms. The use of natural materials such as wood and stone additionally produces a measurably calming effect on the autonomic nervous system.\n\nThese findings fundamentally question the common practice of cost-minimized construction. If monotonous office landscapes, cramped living conditions, and poorly lit interiors demonstrably impair mental health, then investment in human-appropriate architecture is not a question of luxury but of health prevention. Some Scandinavian municipalities have already recognized this and integrate architectural psychology assessments into their building codes — an approach that could serve as a model for European building policy.",
+    "source": "Magazin",
+    "word_count": 202
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was wurde in der Architektur lange vernachlässigt?",
+      "text_en": "What was long neglected in architecture?",
+      "options": [
+        "a) Die Auswirkungen der gebauten Umgebung auf die seelische Gesundheit.",
+        "b) Die ästhetische Gestaltung von Gebäuden.",
+        "c) Die funktionale Nutzbarkeit von Räumen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Auswirkungen auf die seelische Gesundheit der Nutzer fanden kaum Beachtung.",
+      "explanation_en": "The effects on users' mental health received little attention."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Wirkung haben hohe Decken laut der Forschung?",
+      "text_en": "What effect do high ceilings have according to research?",
+      "options": [
+        "a) Sie führen zu erhöhter Müdigkeit und Unkonzentriertheit.",
+        "b) Sie aktivieren abstraktes Denken und fördern kreative Problemlösungen.",
+        "c) Sie haben keinen messbaren Einfluss auf kognitive Prozesse."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Hohe Decken aktivieren nachweislich abstraktes Denken und fördern kreative Problemlösungen.",
+      "explanation_en": "High ceilings demonstrably activate abstract thinking and promote creative problem-solving."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum sind fensterarme Arbeitsumgebungen problematisch?",
+      "text_en": "Why are windowless work environments problematic?",
+      "options": [
+        "a) Sie verbrauchen mehr Energie für künstliche Beleuchtung.",
+        "b) Sie erschweren die Kommunikation zwischen Mitarbeitern.",
+        "c) Sie stören den zirkadianen Rhythmus und sind mit Erschöpfungssymptomen assoziiert."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Natürliches Licht reguliert den zirkadianen Rhythmus; fensterarme Umgebungen sind mit Erschöpfung assoziiert.",
+      "explanation_en": "Natural light regulates the circadian rhythm; windowless environments are associated with exhaustion."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was haben einige skandinavische Kommunen bereits umgesetzt?",
+      "text_en": "What have some Scandinavian municipalities already implemented?",
+      "options": [
+        "a) Die Integration architekturpsychologischer Gutachten in Bauordnungen.",
+        "b) Ein vollständiges Verbot von Bürolandschaften.",
+        "c) Die Pflicht zur Verwendung ausschließlich natürlicher Baumaterialien."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Skandinavische Kommunen integrieren architekturpsychologische Gutachten in ihre Bauordnungen.",
+      "explanation_en": "Scandinavian municipalities integrate architectural psychology assessments into their building codes."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Schlussfolgerung zieht der Autor bezüglich menschengerechter Architektur?",
+      "text_en": "What conclusion does the author draw regarding human-appropriate architecture?",
+      "options": [
+        "a) Sie ist nur für wohlhabende Gesellschaften realisierbar.",
+        "b) Sie ist keine Frage des Luxus, sondern der Gesundheitsvorsorge.",
+        "c) Sie sollte ausschließlich im Wohnungsbau angewendet werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Investition in menschengerechte Architektur ist keine Frage des Luxus, sondern der Gesundheitsvorsorge.",
+      "explanation_en": "Investment in human-appropriate architecture is not a question of luxury but of health prevention."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c1-lesen-teil-3-003",
+  "level": "C1",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Digitale Kunst und Authentizität",
+  "instructions": "Lesen Sie den folgenden Magazinbeitrag und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 12,
+  "passage": {
+    "text_de": "Der Aufstieg KI-generierter Kunst hat eine fundamentale Debatte über den Authentizitätsbegriff in der zeitgenössischen Kunstwelt ausgelöst. Wenn Algorithmen Gemälde erzeugen, die von menschlichen Werken kaum zu unterscheiden sind, und Sprachmodelle Gedichte verfassen, die bei Literaturwettbewerben ausgezeichnet werden, stellt sich die Frage, ob das Konzept der künstlerischen Originalität neu definiert werden muss oder ob es gerade jetzt seine unentbehrliche Bedeutung offenbart.\n\nKritiker der KI-Kunst argumentieren, dass authentische Kunst untrennbar mit der menschlichen Erfahrung verbunden ist. Ein Algorithmus mag visuell ansprechende Kompositionen erzeugen, doch fehlt ihm die existenzielle Dimension: Er kennt weder Schmerz noch Freude, weder Sterblichkeit noch Sehnsucht. Was er produziert, ist eine statistisch optimierte Rekombination bestehender Werke, keine genuine Schöpfung. Demgegenüber betonen Befürworter, dass auch menschliche Kreativität stets auf der Transformation vorhandener Einflüsse beruht und die Grenze zwischen Inspiration und Imitation fließend ist.\n\nJenseits dieser philosophischen Kontroverse wirft die KI-Kunst handfeste sozioökonomische Fragen auf. Illustratoren, Grafikdesigner und Musiker sehen ihre Existenzgrundlage durch Systeme bedroht, die in Sekundenbruchteilen produzieren, wofür sie Stunden oder Tage benötigen. Das bestehende Urheberrecht bietet für durch KI generierte Werke keinen klaren Schutzrahmen, da es auf dem Konzept eines menschlichen Schöpfers beruht. Die kulturpolitische Herausforderung besteht darin, technologische Innovation zu ermöglichen, ohne die wirtschaftliche Grundlage kreativer Berufe zu zerstören und ohne den Wert menschlicher Schöpfungskraft dem Primat der Effizienz zu opfern.",
+    "text_en": "The rise of AI-generated art has triggered a fundamental debate about the concept of authenticity in the contemporary art world. When algorithms produce paintings barely distinguishable from human works, and language models compose poems that win literary competitions, the question arises whether the concept of artistic originality must be redefined or whether it is precisely now revealing its indispensable significance.\n\nCritics of AI art argue that authentic art is inseparably connected with human experience. An algorithm may produce visually appealing compositions, but it lacks the existential dimension: it knows neither pain nor joy, neither mortality nor longing. What it produces is a statistically optimized recombination of existing works, not a genuine creation. In contrast, proponents emphasize that human creativity also always rests on the transformation of existing influences and that the boundary between inspiration and imitation is fluid.\n\nBeyond this philosophical controversy, AI art raises tangible socioeconomic questions. Illustrators, graphic designers, and musicians see their livelihood threatened by systems that produce in fractions of seconds what takes them hours or days. Existing copyright law offers no clear protective framework for AI-generated works, as it is based on the concept of a human creator. The cultural-political challenge consists in enabling technological innovation without destroying the economic foundation of creative professions and without sacrificing the value of human creative power to the primacy of efficiency.",
+    "source": "Magazin",
+    "word_count": 214
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was fehlt KI-generierter Kunst laut ihren Kritikern?",
+      "text_en": "What does AI-generated art lack according to its critics?",
+      "options": [
+        "a) Technische Perfektion und visuelle Qualität.",
+        "b) Die existenzielle Dimension menschlicher Erfahrung.",
+        "c) Die Fähigkeit, bestehende Kunstwerke zu imitieren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Dem Algorithmus fehlt die existenzielle Dimension: Er kennt weder Schmerz noch Freude, weder Sterblichkeit noch Sehnsucht.",
+      "explanation_en": "The algorithm lacks the existential dimension: it knows neither pain nor joy, neither mortality nor longing."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was entgegnen Befürworter der KI-Kunst?",
+      "text_en": "What do proponents of AI art counter?",
+      "options": [
+        "a) KI-Kunst sei der menschlichen Kunst in jeder Hinsicht überlegen.",
+        "b) Authentische Kunst könne nur von Menschen geschaffen werden.",
+        "c) Auch menschliche Kreativität beruht auf der Transformation vorhandener Einflüsse."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Menschliche Kreativität beruht ebenfalls auf der Transformation vorhandener Einflüsse; die Grenze ist fließend.",
+      "explanation_en": "Human creativity also rests on the transformation of existing influences; the boundary is fluid."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum versagt das bestehende Urheberrecht bei KI-generierter Kunst?",
+      "text_en": "Why does existing copyright law fail with AI-generated art?",
+      "options": [
+        "a) Es beruht auf dem Konzept eines menschlichen Schöpfers.",
+        "b) Es wurde seit Jahrzehnten nicht mehr aktualisiert.",
+        "c) Es schützt nur Werke, die kommerziell erfolgreich sind."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Urheberrecht bietet keinen klaren Schutzrahmen, da es auf dem Konzept eines menschlichen Schöpfers beruht.",
+      "explanation_en": "Copyright law offers no clear framework as it is based on the concept of a human creator."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche sozioökonomische Bedrohung beschreibt der Text?",
+      "text_en": "What socioeconomic threat does the text describe?",
+      "options": [
+        "a) Kunsthochschulen verlieren ihre Studierenden an Technologieunternehmen.",
+        "b) Kreative Berufe sehen ihre Existenzgrundlage durch KI-Systeme bedroht.",
+        "c) Museen können keine Besucher mehr anziehen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Illustratoren, Grafikdesigner und Musiker sehen ihre Existenzgrundlage durch KI-Systeme bedroht.",
+      "explanation_en": "Illustrators, graphic designers, and musicians see their livelihood threatened by AI systems."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht die kulturpolitische Herausforderung?",
+      "text_en": "What does the cultural-political challenge consist of?",
+      "options": [
+        "a) KI-generierte Kunst vollständig zu verbieten.",
+        "b) Nur noch menschliche Kunst staatlich zu fördern.",
+        "c) Innovation zu ermöglichen, ohne die wirtschaftliche Grundlage kreativer Berufe zu zerstören."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Herausforderung besteht darin, Innovation zu ermöglichen, ohne die Grundlage kreativer Berufe zu zerstören.",
+      "explanation_en": "The challenge consists in enabling innovation without destroying the foundation of creative professions."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-2-003",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Nachhaltigkeitsstrategie für ein Unternehmen",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte und einigen Sie sich auf einen Vorschlag.",
+  "situation_de": "Sie arbeiten beide in der Geschäftsleitung eines mittelständischen Produktionsunternehmens. Der Vorstand hat Sie beauftragt, eine umfassende Nachhaltigkeitsstrategie zu entwickeln, die ökologische, soziale und wirtschaftliche Aspekte berücksichtigt. Das Unternehmen steht unter zunehmendem Druck von Kunden, Investoren und der Öffentlichkeit, nachhaltiger zu wirtschaften. Gleichzeitig müssen die Wettbewerbsfähigkeit und die Arbeitsplätze gesichert werden. Erarbeiten Sie gemeinsam einen Strategievorschlag.",
+  "situation_en": "You both work in the management of a medium-sized production company. The board has tasked you with developing a comprehensive sustainability strategy that considers ecological, social, and economic aspects. The company is under increasing pressure from customers, investors, and the public to operate more sustainably. At the same time, competitiveness and jobs must be secured. Develop a strategy proposal together.",
+  "discussion_points": [
+    "Ökologische Maßnahmen: Welche konkreten Schritte — Energieeffizienz, erneuerbare Energien, Kreislaufwirtschaft — sind prioritär? (Ecological measures: Which concrete steps — energy efficiency, renewable energies, circular economy — are priorities?)",
+    "Lieferkette und Transparenz: Wie können wir sicherstellen, dass auch unsere Zulieferer nachhaltig arbeiten? (Supply chain and transparency: How can we ensure that our suppliers also work sustainably?)",
+    "Soziale Verantwortung: Wie können faire Arbeitsbedingungen, Diversität und Mitarbeiterbeteiligung in die Strategie integriert werden? (Social responsibility: How can fair working conditions, diversity, and employee participation be integrated into the strategy?)",
+    "Kommunikation und Glaubwürdigkeit: Wie vermeiden wir den Vorwurf des Greenwashings und kommunizieren authentisch? (Communication and credibility: How do we avoid the accusation of greenwashing and communicate authentically?)",
+    "Wirtschaftlichkeit: Wie lassen sich Nachhaltigkeitsinvestitionen langfristig refinanzieren, ohne kurzfristig die Wettbewerbsfähigkeit zu gefährden? (Economic viability: How can sustainability investments be refinanced in the long term without jeopardizing competitiveness in the short term?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Vielen Dank, dass wir diese Aufgabe gemeinsam angehen. Ich halte es für entscheidend, dass wir die Nachhaltigkeitsstrategie nicht als bloßes Marketinginstrument betrachten, sondern als fundamentale Transformation unseres Geschäftsmodells. Der erste Schritt sollte meiner Meinung nach eine ehrliche Bestandsaufnahme unseres ökologischen Fußabdrucks sein.",
+      "text_en": "Thank you for tackling this task together. I consider it crucial that we do not view the sustainability strategy as a mere marketing instrument, but as a fundamental transformation of our business model. The first step should, in my opinion, be an honest assessment of our ecological footprint."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Allerdings möchte ich betonen, dass wir den Vorstand auch von der wirtschaftlichen Tragfähigkeit überzeugen müssen. Nachhaltigkeit darf kein Kostenfaktor sein, der unsere Wettbewerbsposition schwächt. Wir brauchen Maßnahmen, die sich mittelfristig auch finanziell rechnen.",
+      "text_en": "Agreed. However, I would like to emphasize that we also need to convince the board of the economic viability. Sustainability must not be a cost factor that weakens our competitive position. We need measures that also pay off financially in the medium term."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das sehe ich genauso. Und genau deshalb würde ich vorschlagen, mit der Energieeffizienz zu beginnen — das ist der Bereich, in dem ökologische und ökonomische Ziele am stärksten konvergieren. Eine Umstellung auf erneuerbare Energien und die Optimierung unserer Produktionsprozesse könnten die Betriebskosten mittelfristig um bis zu dreißig Prozent senken, wenn man die steigenden Energiepreise berücksichtigt.",
+      "text_en": "I see it the same way. And that is precisely why I would suggest starting with energy efficiency — that is the area where ecological and economic goals converge most strongly. A switch to renewable energies and the optimization of our production processes could reduce operating costs by up to thirty percent in the medium term, considering rising energy prices."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Gute Idee. Und was die Lieferkette betrifft — das ist ein besonders heikler Punkt. Wir beziehen Rohstoffe aus Regionen, in denen die Umwelt- und Arbeitsstandards deutlich niedriger sind als bei uns. Wenn wir dort strengere Anforderungen stellen, riskieren wir höhere Einkaufspreise und möglicherweise Lieferengpässe.",
+      "text_en": "Good idea. And regarding the supply chain — that is a particularly sensitive point. We source raw materials from regions where environmental and labor standards are significantly lower than ours. If we impose stricter requirements there, we risk higher purchasing prices and possibly supply bottlenecks."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Da haben Sie recht, aber ich würde das Risiko als beherrschbar einschätzen, wenn wir schrittweise vorgehen. Mein Vorschlag wäre ein dreistufiges Modell: Zunächst eine umfassende Risikoanalyse der gesamten Lieferkette, dann die Festlegung verbindlicher Mindeststandards für bestehende Zulieferer mit einer Übergangsfrist, und schließlich die schrittweise Diversifizierung unserer Lieferantenstruktur zugunsten nachhaltigerer Partner.",
+      "text_en": "You are right about that, but I would assess the risk as manageable if we proceed gradually. My suggestion would be a three-stage model: First, a comprehensive risk analysis of the entire supply chain, then the establishment of binding minimum standards for existing suppliers with a transition period, and finally the gradual diversification of our supplier structure in favor of more sustainable partners."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das klingt durchdacht. Kommen wir zur sozialen Dimension — die wird in Nachhaltigkeitsstrategien oft vernachlässigt. Ich denke, wir sollten auch intern ansetzen: faire Vergütung, Weiterbildungsmöglichkeiten und eine inklusive Unternehmenskultur sind genauso Teil von Nachhaltigkeit wie der CO₂-Fußabdruck.",
+      "text_en": "That sounds well thought out. Let us come to the social dimension — that is often neglected in sustainability strategies. I think we should also start internally: fair compensation, continuing education opportunities, and an inclusive corporate culture are just as much a part of sustainability as the carbon footprint."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dem stimme ich uneingeschränkt zu. Ich würde sogar noch weiter gehen und vorschlagen, die Mitarbeiterinnen und Mitarbeiter aktiv in die Strategieentwicklung einzubinden — etwa durch Nachhaltigkeits-Workshops oder ein internes Ideenmanagement. Die Erfahrung zeigt, dass Veränderungsprozesse wesentlich erfolgreicher sind, wenn sie von der Belegschaft mitgetragen werden.",
+      "text_en": "I agree with that unreservedly. I would even go further and suggest actively involving employees in the strategy development — for example through sustainability workshops or internal idea management. Experience shows that change processes are significantly more successful when they are supported by the workforce."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Sehr gut. Und schließlich die Kommunikation — wie stellen wir sicher, dass wir glaubwürdig auftreten und uns nicht dem Vorwurf des Greenwashings aussetzen? In der Vergangenheit haben andere Unternehmen mit vollmundigen Nachhaltigkeitsversprechen für Schlagzeilen gesorgt, die sich als haltlos erwiesen.",
+      "text_en": "Very good. And finally, communication — how do we ensure that we appear credible and do not expose ourselves to accusations of greenwashing? In the past, other companies have made headlines with grandiose sustainability promises that turned out to be baseless."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Transparenz ist hier der Schlüssel. Ich würde vorschlagen, dass wir einen jährlichen Nachhaltigkeitsbericht veröffentlichen, der nach anerkannten Standards erstellt wird und von einer unabhängigen Stelle geprüft wird. Außerdem sollten wir ehrlich über Herausforderungen und Rückschläge kommunizieren — das schafft mehr Vertrauen als eine beschönigende Selbstdarstellung.",
+      "text_en": "Transparency is the key here. I would suggest that we publish an annual sustainability report prepared according to recognized standards and audited by an independent body. Furthermore, we should communicate honestly about challenges and setbacks — that creates more trust than a glossing self-presentation."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Fassen wir zusammen: Unsere Strategie umfasst erstens die energetische Transformation der Produktion, zweitens ein dreistufiges Lieferkettenmanagement, drittens die Einbindung der Mitarbeitenden in den Nachhaltigkeitsprozess und viertens eine transparente, extern geprüfte Berichterstattung. Ich denke, damit können wir vor den Vorstand treten.",
+      "text_en": "Agreed. Let us summarize: Our strategy encompasses first the energy transformation of production, second a three-stage supply chain management, third the involvement of employees in the sustainability process, and fourth transparent, externally audited reporting. I think we can present this to the board."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

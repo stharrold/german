@@ -1,0 +1,77 @@
+{
+  "id": "c1-sprechen-teil-1-001",
+  "level": "C1",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Die Rolle der Universität in der Gesellschaft",
+  "instructions": "Sie sollen zu einem komplexen Thema Stellung nehmen. Halten Sie einen strukturierten Vortrag und diskutieren Sie anschließend mit dem Prüfer / der Prüferin.",
+  "situation_de": "In den letzten Jahren wird vermehrt darüber debattiert, welche Rolle Universitäten in der modernen Gesellschaft spielen sollten. Einerseits wird von ihnen erwartet, dass sie praxisorientierte Fachkräfte für den Arbeitsmarkt ausbilden. Andererseits verstehen sich viele Universitäten als Orte der freien Forschung und der kritischen Reflexion, die nicht primär wirtschaftlichen Interessen dienen sollten. Halten Sie einen strukturierten Vortrag, in dem Sie verschiedene Perspektiven beleuchten und Ihre eigene Position begründen.",
+  "situation_en": "In recent years, there has been increasing debate about what role universities should play in modern society. On one hand, they are expected to train practice-oriented professionals for the job market. On the other hand, many universities see themselves as places of free research and critical reflection that should not primarily serve economic interests. Give a structured presentation in which you examine different perspectives and justify your own position.",
+  "discussion_points": [
+    "Bildungsauftrag vs. Arbeitsmarktorientierung: Sollte die Universität primär Wissen vermitteln oder Berufsqualifikationen? (Educational mission vs. labor market orientation: Should universities primarily impart knowledge or professional qualifications?)",
+    "Forschungsfreiheit und gesellschaftliche Verantwortung: Inwieweit darf die Gesellschaft Forschungsthemen vorgeben? (Freedom of research and social responsibility: To what extent may society dictate research topics?)",
+    "Zugänglichkeit und Chancengleichheit: Wie kann sichergestellt werden, dass Hochschulbildung allen offensteht? (Accessibility and equal opportunity: How can it be ensured that higher education is open to all?)",
+    "Internationalisierung: Welche Chancen und Risiken birgt die zunehmende Globalisierung der Hochschullandschaft? (Internationalization: What opportunities and risks does the increasing globalization of the university landscape bring?)",
+    "Digitalisierung der Lehre: Verändert die digitale Transformation das Wesen der universitären Bildung grundlegend? (Digitalization of teaching: Does the digital transformation fundamentally change the nature of university education?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute über die Rolle der Universität in der Gesellschaft sprechen — ein Thema, das angesichts des zunehmenden Drucks auf Hochschulen, sich wirtschaftlich zu rechtfertigen, von großer Aktualität ist. Meine These lautet: Die Universität muss einen Spagat zwischen Praxisorientierung und freier Wissensproduktion leisten, ohne dabei ihren Kern als Ort der kritischen Reflexion aufzugeben.",
+      "text_en": "Today I would like to talk about the role of the university in society — a topic that is highly relevant given the increasing pressure on universities to justify themselves economically. My thesis is: The university must balance practice orientation and free knowledge production without abandoning its core function as a place of critical reflection."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Man könnte argumentieren, dass Universitäten in erster Linie dafür da sind, junge Menschen auf den Arbeitsmarkt vorzubereiten. Dessen ungeachtet darf man nicht vergessen, dass viele der bedeutendsten wissenschaftlichen Durchbrüche aus der Grundlagenforschung hervorgegangen sind — also aus Forschung, die zunächst keinen unmittelbaren wirtschaftlichen Nutzen versprach. Daraus ergibt sich meines Erachtens, dass eine rein marktorientierte Ausrichtung der Universität langfristig kontraproduktiv wäre. Gleichzeitig wäre es naiv zu behaupten, die Universität könne sich völlig von gesellschaftlichen Anforderungen abkoppeln. Es lässt sich nicht von der Hand weisen, dass Absolventinnen und Absolventen auch berufliche Perspektiven brauchen.",
+      "text_en": "One could argue that universities are primarily there to prepare young people for the job market. Notwithstanding this, one must not forget that many of the most significant scientific breakthroughs have emerged from basic research — that is, from research that initially promised no immediate economic benefit. From this, in my view, it follows that a purely market-oriented alignment of the university would be counterproductive in the long run. At the same time, it would be naive to claim that the university can completely decouple itself from societal demands. It cannot be denied that graduates also need professional prospects."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben die Spannung zwischen Grundlagenforschung und Praxisorientierung sehr differenziert dargestellt. Aber wie stehen Sie konkret zur zunehmenden Drittmittelfinanzierung? Sehen Sie darin eine Gefahr für die Forschungsfreiheit?",
+      "text_en": "You have presented the tension between basic research and practice orientation in a very nuanced way. But what is your specific view on the increasing third-party funding? Do you see a danger to academic freedom in this?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein äußerst relevanter Punkt. Unter Berücksichtigung der Tatsache, dass viele Lehrstühle inzwischen maßgeblich von Drittmitteln abhängen, sehe ich durchaus die Gefahr, dass Forschungsagenden durch wirtschaftliche Interessen verzerrt werden könnten. Allerdings möchte ich differenzieren: Drittmittel per se sind nicht problematisch — entscheidend ist, ob die wissenschaftliche Unabhängigkeit gewahrt bleibt.",
+      "text_en": "That is an extremely relevant point. Considering the fact that many university chairs now depend significantly on third-party funding, I do see the danger that research agendas could be distorted by economic interests. However, I would like to differentiate: third-party funding per se is not problematic — what matters is whether scientific independence is maintained."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie bewerten Sie die Digitalisierung der Lehre? Manche sagen, Online-Vorlesungen könnten langfristig den Präsenzbetrieb ersetzen.",
+      "text_en": "And how do you assess the digitalization of teaching? Some say online lectures could replace in-person operations in the long run."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde hier eine differenzierte Position einnehmen. Einerseits bietet die Digitalisierung enorme Chancen — etwa für den Zugang zu Bildung in ländlichen Regionen oder für internationale Kooperationen. Andererseits lebt die universitäre Bildung von der direkten Interaktion, vom spontanen Austausch im Seminarraum, von der Atmosphäre des gemeinsamen Denkens. Das lässt sich digital nur bedingt abbilden.",
+      "text_en": "I would take a nuanced position here. On one hand, digitalization offers enormous opportunities — for example, for access to education in rural areas or for international collaborations. On the other hand, university education thrives on direct interaction, on spontaneous exchange in the seminar room, on the atmosphere of thinking together. This can only be partially replicated digitally."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben vorhin die direkte Interaktion angesprochen. Sehen Sie darin den eigentlichen Kern der universitären Bildung?",
+      "text_en": "You mentioned direct interaction earlier. Do you see that as the actual core of university education?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zusammenfassend lässt sich sagen, dass die Universität der Zukunft hybride Modelle entwickeln muss, die das Beste beider Welten verbinden. Sie sollte weder zum reinen Ausbildungsbetrieb verkommen noch sich in einem Elfenbeinturm verschanzen. Die größte Herausforderung besteht darin, diese Balance institutionell zu verankern.",
+      "text_en": "In summary, it can be said that the university of the future must develop hybrid models that combine the best of both worlds. It should neither degenerate into a mere training operation nor barricade itself in an ivory tower. The greatest challenge lies in anchoring this balance institutionally."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Vielen Dank für Ihren differenzierten Vortrag. Abschließend: Wenn Sie eine einzige Reform vorschlagen könnten, welche wäre das?",
+      "text_en": "Thank you very much for your nuanced presentation. Finally: If you could propose a single reform, what would it be?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wenn ich eine einzige Maßnahme vorschlagen dürfte, wäre es die Stärkung der Grundfinanzierung. Nur wenn Universitäten finanziell unabhängig genug sind, können sie wirklich frei forschen und lehren. Alles andere — die Digitalisierung, die Internationalisierung, die Praxisorientierung — ließe sich auf dieser Grundlage wesentlich besser umsetzen.",
+      "text_en": "If I could propose a single measure, it would be strengthening basic funding. Only when universities are financially independent enough can they truly research and teach freely. Everything else — digitalization, internationalization, practice orientation — could be implemented much better on this basis."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat nimmt differenziert Stellung und geht strukturiert auf alle Aspekte ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat formuliert schlüssige Argumente, berücksichtigt Gegenargumente und bezieht klar Position.",
+    "Interaktion und Gesprächsführung: Der Kandidat reagiert flexibel auf Rückfragen, greift Impulse auf und steuert das Gespräch aktiv mit.",
+    "Wortschatz und Ausdruck: Differenzierter, idiomatischer Wortschatz auf C1-Niveau mit fachsprachlichen Elementen und Redemitteln der Argumentation.",
+    "Grammatische Korrektheit: Sichere Verwendung komplexer Strukturen wie Konjunktiv II, Passivkonstruktionen, Partizipialkonstruktionen und Nominalisierungen.",
+    "Aussprache, Intonation und Flüssigkeit: Klare, natürliche Aussprache mit angemessener Prosodie und wenigen Stockungen."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "c1-hoeren-teil-2-004",
+  "level": "C1",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Datenschutz versus Sicherheit",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Guten Abend bei „Standpunkte“. Heute geht es um das Spannungsfeld zwischen Datenschutz und öffentlicher Sicherheit. Zu Gast sind Herr Professor Dr. Jens Keller, Verfassungsrechtler, und Frau Laura Becker, Kriminologin und Sicherheitsberaterin. Herr Professor Keller, wie bewerten Sie die zunehmende Überwachung im öffentlichen Raum?",
+      "text_en": "Good evening on 'Standpunkte.' Today's topic is the tension between data protection and public safety. Our guests are Professor Dr. Jens Keller, constitutional law scholar, and Laura Becker, criminologist and security consultant. Professor Keller, how do you assess the increasing surveillance in public spaces?"
+    },
+    {
+      "speaker": "Prof. Dr. Keller",
+      "text_de": "Die Ausweitung der Videoüberwachung und die Einführung biometrischer Gesichtserkennung im öffentlichen Raum stellen einen gravierenden Eingriff in das Grundrecht auf informationelle Selbstbestimmung dar. Das Bundesverfassungsgericht hat in seiner wegweisenden Entscheidung von 1983 festgestellt, dass die freie Entfaltung der Persönlichkeit voraussetzt, dass der Einzelne nicht einem unkontrollierten Überwachungsdruck ausgesetzt ist. Eine Gesellschaft, in der sich die Bürger permanent beobachtet fühlen, verändert ihr Verhalten — das ist der sogenannte Chilling Effect, der demokratische Teilhabe und Meinungsvielfalt untergräbt.",
+      "text_en": "The expansion of video surveillance and the introduction of biometric facial recognition in public spaces constitute a severe intrusion into the fundamental right to informational self-determination. The Federal Constitutional Court established in its landmark decision of 1983 that the free development of personality presupposes that the individual is not exposed to uncontrolled surveillance pressure. A society in which citizens feel permanently observed changes its behavior — this is the so-called chilling effect, which undermines democratic participation and diversity of opinion."
+    },
+    {
+      "speaker": "Frau Becker",
+      "text_de": "Ich verstehe die verfassungsrechtlichen Bedenken, aber wir müssen auch die Realität der Sicherheitslage berücksichtigen. Die Kriminalstatistiken zeigen, dass Videoüberwachung an Brennpunkten die Aufklärungsquote signifikant erhöht — in einigen Städten um bis zu 30 Prozent. Gesichtserkennung ermöglicht es, gesuchte Straftäter und vermisste Personen in Echtzeit zu identifizieren. Es geht nicht um Massenüberwachung, sondern um gezielte, anlassbezogene Maßnahmen, die dem Schutz der Bevölkerung dienen.",
+      "text_en": "I understand the constitutional concerns, but we must also consider the reality of the security situation. Crime statistics show that video surveillance at hotspots significantly increases the clearance rate — in some cities by up to 30 percent. Facial recognition makes it possible to identify wanted criminals and missing persons in real time. This is not about mass surveillance but about targeted, cause-related measures that serve the protection of the population."
+    },
+    {
+      "speaker": "Prof. Dr. Keller",
+      "text_de": "Der Verweis auf die Aufklärungsquote greift zu kurz, Frau Becker. Erstens zeigen die Studien, dass Videoüberwachung Kriminalität nicht verhindert, sondern bestenfalls verlagert. Zweitens — und das ist der entscheidende Punkt — schaffen Überwachungsinfrastrukturen, die heute für legitime Zwecke eingesetzt werden, ein Potenzial für Missbrauch, das künftige Regierungen ausschöpfen könnten. Die Geschichte lehrt uns, dass Überwachungstechnologien in autoritären Systemen systematisch gegen die eigene Bevölkerung eingesetzt werden. Einmal aufgebaute Infrastrukturen lassen sich nicht einfach wieder abbauen.",
+      "text_en": "The reference to the clearance rate falls short, Ms. Becker. First, studies show that video surveillance does not prevent crime but at best displaces it. Second — and this is the crucial point — surveillance infrastructures that are used for legitimate purposes today create a potential for abuse that future governments could exploit. History teaches us that surveillance technologies in authoritarian systems are systematically used against their own population. Infrastructures once built cannot simply be dismantled."
+    },
+    {
+      "speaker": "Frau Becker",
+      "text_de": "Das Argument des potenziellen Missbrauchs lässt sich auf jede staatliche Befugnis anwenden. Der Staat hat das Gewaltmonopol, er erhebt Steuern, er kann Freiheitsstrafen verhängen — all das birgt Missbrauchspotenzial. Die Antwort darauf ist nicht der Verzicht auf staatliches Handeln, sondern eine robuste rechtsstaatliche Kontrolle. Unabhängige Aufsichtsbehörden, richterliche Genehmigungspflichten und strenge Löschfristen können den Missbrauch von Überwachungsdaten wirksam verhindern.",
+      "text_en": "The argument of potential abuse can be applied to any state authority. The state has a monopoly on force, it collects taxes, it can impose prison sentences — all of that carries potential for abuse. The answer is not to forgo state action but robust rule-of-law oversight. Independent supervisory authorities, judicial approval requirements, and strict deletion deadlines can effectively prevent the abuse of surveillance data."
+    },
+    {
+      "speaker": "Prof. Dr. Keller",
+      "text_de": "Die rechtsstaatliche Kontrolle ist eine notwendige, aber keine hinreichende Bedingung. Die Erfahrungen mit den Geheimdiensten — ich erinnere an die Enthüllungen zur anlasslosen Massenüberwachung — zeigen, dass selbst in funktionierenden Rechtsstaaten die Aufsichtsmechanismen versagen können. Mein Vorschlag wäre ein Moratorium für biometrische Gesichtserkennung im öffentlichen Raum, bis die gesellschaftliche und juristische Debatte zu einem belastbaren Konsens geführt hat.",
+      "text_en": "Rule-of-law oversight is a necessary but not sufficient condition. The experiences with intelligence services — I recall the revelations about mass surveillance without cause — show that even in functioning constitutional states, oversight mechanisms can fail. My proposal would be a moratorium on biometric facial recognition in public spaces until the societal and legal debate has led to a sustainable consensus."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worauf beruft sich Prof. Keller bei seiner Kritik an der Überwachung?",
+      "text_en": "What does Prof. Keller invoke in his criticism of surveillance?",
+      "options": [
+        "a) Auf das Grundrecht auf informationelle Selbstbestimmung und die Entscheidung des Bundesverfassungsgerichts.",
+        "b) Auf internationale Handelsabkommen zum Datenschutz.",
+        "c) Auf die mangelnde technische Zuverlässigkeit der Überwachungssysteme."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Prof. Keller beruft sich auf das Grundrecht auf informationelle Selbstbestimmung und die wegweisende Entscheidung des Bundesverfassungsgerichts von 1983.",
+      "explanation_en": "Prof. Keller invokes the fundamental right to informational self-determination and the landmark decision of the Federal Constitutional Court from 1983."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorteil der Videoüberwachung nennt Frau Becker?",
+      "text_en": "What advantage of video surveillance does Ms. Becker mention?",
+      "options": [
+        "a) Dass sie die Kriminalität vollständig beseitigt.",
+        "b) Dass sie die Kosten der Polizeiarbeit halbiert.",
+        "c) Dass sie die Aufklärungsquote an Brennpunkten signifikant erhöht."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Frau Becker verweist darauf, dass Videoüberwachung an Brennpunkten die Aufklärungsquote signifikant erhöht — in einigen Städten um bis zu 30 Prozent.",
+      "explanation_en": "Ms. Becker points out that video surveillance at hotspots significantly increases the clearance rate — in some cities by up to 30 percent."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Prof. Keller das Hauptrisiko von Überwachungsinfrastrukturen?",
+      "text_en": "What is the main risk of surveillance infrastructures according to Prof. Keller?",
+      "options": [
+        "a) Dass die Technik zu teuer ist und den Staatshaushalt belastet.",
+        "b) Dass sie ein Missbrauchspotenzial schaffen, das künftige Regierungen ausschöpfen könnten.",
+        "c) Dass sie von Hackern leicht manipuliert werden können."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Überwachungsinfrastrukturen schaffen ein Potenzial für Missbrauch, das künftige Regierungen ausschöpfen könnten — einmal aufgebaut, lassen sie sich nicht einfach abbauen.",
+      "explanation_en": "Surveillance infrastructures create potential for abuse that future governments could exploit — once built, they cannot simply be dismantled."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was schlägt Frau Becker als Schutzmaßnahme gegen Missbrauch vor?",
+      "text_en": "What does Ms. Becker propose as protection against abuse?",
+      "options": [
+        "a) Unabhängige Aufsichtsbehörden, richterliche Genehmigungspflichten und Löschfristen.",
+        "b) Die vollständige Privatisierung der Überwachungssysteme.",
+        "c) Den freiwilligen Verzicht der Behörden auf Datenauswertung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Frau Becker schlägt unabhängige Aufsichtsbehörden, richterliche Genehmigungspflichten und strenge Löschfristen als rechtsstaatliche Kontrolle vor.",
+      "explanation_en": "Ms. Becker proposes independent supervisory authorities, judicial approval requirements, and strict deletion deadlines as rule-of-law oversight."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert Prof. Keller am Ende der Debatte?",
+      "text_en": "What does Prof. Keller demand at the end of the debate?",
+      "options": [
+        "a) Die sofortige Abschaffung aller Videoüberwachung.",
+        "b) Eine stärkere finanzielle Förderung der Überwachungstechnik.",
+        "c) Ein Moratorium für biometrische Gesichtserkennung bis zu einem gesellschaftlichen Konsens."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Prof. Keller fordert ein Moratorium für biometrische Gesichtserkennung im öffentlichen Raum, bis ein belastbarer gesellschaftlicher und juristischer Konsens erreicht ist.",
+      "explanation_en": "Prof. Keller demands a moratorium on biometric facial recognition in public spaces until a sustainable societal and legal consensus is reached."
+    }
+  ]
+}
