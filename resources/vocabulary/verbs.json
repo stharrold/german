@@ -179,6 +179,1308 @@
       "english": "to lead",
       "part_of_speech": "verb",
       "level": "A1"
+    },
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "spielen",
+      "english": "to play",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "lesen",
+      "english": "to read",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schreiben",
+      "english": "to write",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "hören",
+      "english": "to hear",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "essen",
+      "english": "to eat",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "trinken",
+      "english": "to drink",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "wohnen",
+      "english": "to live (reside)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fahren",
+      "english": "to drive / to travel",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "antworten",
+      "english": "to answer",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kennen",
+      "english": "to know (a person/place)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "leben",
+      "english": "to live (be alive)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bringen",
+      "english": "to bring",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "helfen",
+      "english": "to help",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "laufen",
+      "english": "to run / to walk",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kosten",
+      "english": "to cost",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "öffnen",
+      "english": "to open",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schließen",
+      "english": "to close",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "beginnen",
+      "english": "to begin",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "warten",
+      "english": "to wait",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "suchen",
+      "english": "to search / to look for",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "sitzen",
+      "english": "to sit",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "rufen",
+      "english": "to call (shout)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "tragen",
+      "english": "to carry / to wear",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fallen",
+      "english": "to fall",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "ziehen",
+      "english": "to pull / to move",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bekommen",
+      "english": "to receive / to get",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "versuchen",
+      "english": "to try",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "aufstehen",
+      "english": "to get up / to stand up",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "anfangen",
+      "english": "to start / to begin",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop / to go shopping",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "anrufen",
+      "english": "to call (phone)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fernsehen",
+      "english": "to watch TV",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "gefallen",
+      "english": "to be pleasing / to like",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "gehören",
+      "english": "to belong to",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "stimmen",
+      "english": "to be correct / to be right",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "dauern",
+      "english": "to last / to take (time)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "erklären",
+      "english": "to explain",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erzählen",
+      "english": "to tell / to narrate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vergessen",
+      "english": "to forget",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erinnern",
+      "english": "to remember / to remind",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "beschreiben",
+      "english": "to describe",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "entscheiden",
+      "english": "to decide",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "empfehlen",
+      "english": "to recommend",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "bestellen",
+      "english": "to order",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "besuchen",
+      "english": "to visit",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verbringen",
+      "english": "to spend (time)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "reisen",
+      "english": "to travel",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "fliegen",
+      "english": "to fly",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schwimmen",
+      "english": "to swim",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wandern",
+      "english": "to hike",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop / to cease",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "einladen",
+      "english": "to invite",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "ausgeben",
+      "english": "to spend (money)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "umziehen",
+      "english": "to move (residence)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vorbereiten",
+      "english": "to prepare",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to participate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "stattfinden",
+      "english": "to take place",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vorschlagen",
+      "english": "to suggest / to propose",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "abholen",
+      "english": "to pick up / to collect",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "ankommen",
+      "english": "to arrive",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "abfahren",
+      "english": "to depart",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "umsteigen",
+      "english": "to transfer / to change (trains)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aussteigen",
+      "english": "to get off / to exit",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "einsteigen",
+      "english": "to get on / to board",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verdienen",
+      "english": "to earn",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "sparen",
+      "english": "to save (money)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "leihen",
+      "english": "to lend / to borrow",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wechseln",
+      "english": "to change / to exchange",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "reparieren",
+      "english": "to repair",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "putzen",
+      "english": "to clean",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "waschen",
+      "english": "to wash",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aufräumen",
+      "english": "to tidy up / to clean up",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schmecken",
+      "english": "to taste",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "riechen",
+      "english": "to smell",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "backen",
+      "english": "to bake",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schneiden",
+      "english": "to cut",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "hoffen",
+      "english": "to hope",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wünschen",
+      "english": "to wish",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "träumen",
+      "english": "to dream",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "lachen",
+      "english": "to laugh",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "weinen",
+      "english": "to cry",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "übersetzen",
+      "english": "to translate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "üben",
+      "english": "to practice",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat / to review",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "prüfen",
+      "english": "to test / to check",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign (a document)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erreichen",
+      "english": "to reach / to achieve",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verlieren",
+      "english": "to lose",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "gewinnen",
+      "english": "to win",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "diskutieren",
+      "english": "to discuss",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "streiten",
+      "english": "to argue",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vereinbaren",
+      "english": "to arrange/agree upon",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "mitteilen",
+      "english": "to inform/communicate",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "überzeugen",
+      "english": "to convince",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "zustimmen",
+      "english": "to agree",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "ablehnen",
+      "english": "to reject/decline",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bewerben",
+      "english": "to apply (for a job)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "kündigen",
+      "english": "to quit/resign",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "einstellen",
+      "english": "to hire/employ",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "planen",
+      "english": "to plan",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "organisieren",
+      "english": "to organize",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "buchen",
+      "english": "to book/reserve",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "enttäuschen",
+      "english": "to disappoint",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vermissen",
+      "english": "to miss (someone/something)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beraten",
+      "english": "to advise/counsel",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vergleichen",
+      "english": "to compare",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "versprechen",
+      "english": "to promise",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "warnen",
+      "english": "to warn",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bitten",
+      "english": "to ask/request",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bewundern",
+      "english": "to admire",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vermuten",
+      "english": "to suspect/assume",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vorziehen",
+      "english": "to prefer",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "veröffentlichen",
+      "english": "to publish",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "unterstützen",
+      "english": "to support",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beobachten",
+      "english": "to observe",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "stören",
+      "english": "to disturb",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "anerkennen",
+      "english": "to recognize/acknowledge",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "erledigen",
+      "english": "to take care of/complete (a task)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beeinflussen",
+      "english": "to influence",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bedauern",
+      "english": "to regret",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "gratulieren",
+      "english": "to congratulate",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "benachrichtigen",
+      "english": "to notify",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "analysieren",
+      "english": "to analyze",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "argumentieren",
+      "english": "to argue/reason",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beurteilen",
+      "english": "to assess/judge",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "widersprechen",
+      "english": "to contradict",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erörtern",
+      "english": "to discuss/deliberate (formal)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "nachweisen",
+      "english": "to prove/demonstrate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "behaupten",
+      "english": "to claim/assert",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "widerlegen",
+      "english": "to refute",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "hervorheben",
+      "english": "to emphasize/highlight",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "zusammenfassen",
+      "english": "to summarize",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "auswerten",
+      "english": "to evaluate/analyze (data)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erforschen",
+      "english": "to research/explore",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "einschätzen",
+      "english": "to assess/estimate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "voraussetzen",
+      "english": "to presuppose/require",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "berücksichtigen",
+      "english": "to consider/take into account",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ableiten",
+      "english": "to derive/deduce",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "verknüpfen",
+      "english": "to link/connect",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "bewältigen",
+      "english": "to cope with/manage",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "gewährleisten",
+      "english": "to guarantee/ensure",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "durchführen",
+      "english": "to carry out/conduct",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beauftragen",
+      "english": "to commission/assign",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "betreuen",
+      "english": "to supervise/look after",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beantragen",
+      "english": "to apply for (formally)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "begründen",
+      "english": "to justify/give reasons",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "anstreben",
+      "english": "to aspire to/strive for",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "verfügen",
+      "english": "to have at one's disposal",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beitragen",
+      "english": "to contribute",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "untersuchen",
+      "english": "to examine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ermitteln",
+      "english": "to determine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beeinträchtigen",
+      "english": "to impair/affect negatively",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "vernachlässigen",
+      "english": "to neglect",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "darstellen",
+      "english": "to represent/depict",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "überprüfen",
+      "english": "to verify/review",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "fördern",
+      "english": "to promote/support",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "hinterfragen",
+      "english": "to question critically",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "anwenden",
+      "english": "to apply/use",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erwägen",
+      "english": "to consider/contemplate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ergänzen",
+      "english": "to supplement/complement",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "veranschaulichen",
+      "english": "to illustrate/visualize",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "darlegen",
+      "english": "to set forth/expound",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "erläutern",
+      "english": "to elucidate/explain in detail",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "implizieren",
+      "english": "to imply",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konstatieren",
+      "english": "to state/establish (a fact)",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "postulieren",
+      "english": "to postulate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "deduzieren",
+      "english": "to deduce",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "abstrahieren",
+      "english": "to abstract",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "differenzieren",
+      "english": "to differentiate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konkretisieren",
+      "english": "to make concrete/specify",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "relativieren",
+      "english": "to put into perspective/relativize",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "ratifizieren",
+      "english": "to ratify",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "legitimieren",
+      "english": "to legitimize",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "reglementieren",
+      "english": "to regulate strictly",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "sanktionieren",
+      "english": "to sanction",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konsolidieren",
+      "english": "to consolidate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "anvisieren",
+      "english": "to target/aim at",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "gegenüberstellen",
+      "english": "to juxtapose/compare",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "einräumen",
+      "english": "to concede/admit",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "untermauern",
+      "english": "to underpin/substantiate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "suggerieren",
+      "english": "to suggest/insinuate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "antizipieren",
+      "english": "to anticipate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "kompensieren",
+      "english": "to compensate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "korrelieren",
+      "english": "to correlate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "manifestieren",
+      "english": "to manifest",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "transformieren",
+      "english": "to transform",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "frönen",
+      "english": "to indulge in",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "huldigen",
+      "english": "to pay homage",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "schmähen",
+      "english": "to revile/vilify",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "ersinnen",
+      "english": "to devise/contrive",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "erküren",
+      "english": "to choose/elect (archaic)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "entsagen",
+      "english": "to renounce/forswear",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "obwalten",
+      "english": "to prevail/obtain (formal)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "verheißen",
+      "english": "to promise/foretell (literary)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "trachten",
+      "english": "to strive/aspire (literary)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "subsumieren",
+      "english": "to subsume",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "extrapolieren",
+      "english": "to extrapolate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "dekonstruieren",
+      "english": "to deconstruct",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "kontextualisieren",
+      "english": "to contextualize",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "perpetuieren",
+      "english": "to perpetuate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "amalgamieren",
+      "english": "to amalgamate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "prädestinieren",
+      "english": "to predestine",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "transzendieren",
+      "english": "to transcend",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "oszillieren",
+      "english": "to oscillate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "evozieren",
+      "english": "to evoke",
+      "part_of_speech": "verb",
+      "level": "C2"
     }
   ]
 }
