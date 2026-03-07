@@ -325,7 +325,7 @@
       "english": "milk",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Milch",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -357,7 +357,7 @@
       "english": "meat",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Fleisch",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -381,7 +381,7 @@
       "english": "butter",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Butter",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -389,7 +389,7 @@
       "english": "rice",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Reis",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -421,7 +421,7 @@
       "english": "fruit",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Obst",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -429,7 +429,7 @@
       "english": "vegetables",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Gemüse",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -757,7 +757,7 @@
       "english": "snow",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Schnee",
+      "plural": null,
       "level": "A1"
     },
     {
@@ -893,7 +893,7 @@
       "english": "music",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Musik",
+      "plural": null,
       "level": "A1"
     },
     {

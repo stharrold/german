@@ -16,10 +16,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-# Add src to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-
-from german.models import VocabularyWord  # noqa: E402
+from german.models import VocabularyWord
 
 
 def generate_nouns() -> list[dict]:
@@ -58,7 +55,7 @@ def generate_adjectives() -> list[dict]:
     ]
 
 
-def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False) -> bool:
+def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False) -> int:
     """Validate vocabulary entries and write to JSON file.
 
     Args:
@@ -196,20 +193,20 @@ def _nouns_a1() -> list[dict]:
         {"german": "Bein", "english": "leg", "part_of_speech": "noun", "gender": "neuter", "plural": "Beine", "level": "A1"},
         {"german": "Haar", "english": "hair", "part_of_speech": "noun", "gender": "neuter", "plural": "Haare", "level": "A1"},
         # Food & Drink
-        {"german": "Milch", "english": "milk", "part_of_speech": "noun", "gender": "feminine", "plural": "Milch", "level": "A1"},
+        {"german": "Milch", "english": "milk", "part_of_speech": "noun", "gender": "feminine", "plural": None, "level": "A1"},
         {"german": "Kaffee", "english": "coffee", "part_of_speech": "noun", "gender": "masculine", "plural": "Kaffees", "level": "A1"},
         {"german": "Tee", "english": "tea", "part_of_speech": "noun", "gender": "masculine", "plural": "Tees", "level": "A1"},
         {"german": "Ei", "english": "egg", "part_of_speech": "noun", "gender": "neuter", "plural": "Eier", "level": "A1"},
-        {"german": "Fleisch", "english": "meat", "part_of_speech": "noun", "gender": "neuter", "plural": "Fleisch", "level": "A1"},
+        {"german": "Fleisch", "english": "meat", "part_of_speech": "noun", "gender": "neuter", "plural": None, "level": "A1"},
         {"german": "Fisch", "english": "fish", "part_of_speech": "noun", "gender": "masculine", "plural": "Fische", "level": "A1"},
         {"german": "Käse", "english": "cheese", "part_of_speech": "noun", "gender": "masculine", "plural": "Käse", "level": "A1"},
-        {"german": "Butter", "english": "butter", "part_of_speech": "noun", "gender": "feminine", "plural": "Butter", "level": "A1"},
-        {"german": "Reis", "english": "rice", "part_of_speech": "noun", "gender": "masculine", "plural": "Reis", "level": "A1"},
+        {"german": "Butter", "english": "butter", "part_of_speech": "noun", "gender": "feminine", "plural": None, "level": "A1"},
+        {"german": "Reis", "english": "rice", "part_of_speech": "noun", "gender": "masculine", "plural": None, "level": "A1"},
         {"german": "Kuchen", "english": "cake", "part_of_speech": "noun", "gender": "masculine", "plural": "Kuchen", "level": "A1"},
         {"german": "Suppe", "english": "soup", "part_of_speech": "noun", "gender": "feminine", "plural": "Suppen", "level": "A1"},
         {"german": "Saft", "english": "juice", "part_of_speech": "noun", "gender": "masculine", "plural": "Säfte", "level": "A1"},
-        {"german": "Obst", "english": "fruit", "part_of_speech": "noun", "gender": "neuter", "plural": "Obst", "level": "A1"},
-        {"german": "Gemüse", "english": "vegetables", "part_of_speech": "noun", "gender": "neuter", "plural": "Gemüse", "level": "A1"},
+        {"german": "Obst", "english": "fruit", "part_of_speech": "noun", "gender": "neuter", "plural": None, "level": "A1"},
+        {"german": "Gemüse", "english": "vegetables", "part_of_speech": "noun", "gender": "neuter", "plural": None, "level": "A1"},
         # Home
         {"german": "Küche", "english": "kitchen", "part_of_speech": "noun", "gender": "feminine", "plural": "Küchen", "level": "A1"},
         {"german": "Zimmer", "english": "room", "part_of_speech": "noun", "gender": "neuter", "plural": "Zimmer", "level": "A1"},
@@ -255,7 +252,7 @@ def _nouns_a1() -> list[dict]:
         {"german": "Sonne", "english": "sun", "part_of_speech": "noun", "gender": "feminine", "plural": "Sonnen", "level": "A1"},
         {"german": "Mond", "english": "moon", "part_of_speech": "noun", "gender": "masculine", "plural": "Monde", "level": "A1"},
         {"german": "Regen", "english": "rain", "part_of_speech": "noun", "gender": "masculine", "plural": "Regen", "level": "A1"},
-        {"german": "Schnee", "english": "snow", "part_of_speech": "noun", "gender": "masculine", "plural": "Schnee", "level": "A1"},
+        {"german": "Schnee", "english": "snow", "part_of_speech": "noun", "gender": "masculine", "plural": None, "level": "A1"},
         {"german": "Berg", "english": "mountain", "part_of_speech": "noun", "gender": "masculine", "plural": "Berge", "level": "A1"},
         {"german": "Meer", "english": "sea", "part_of_speech": "noun", "gender": "neuter", "plural": "Meere", "level": "A1"},
         {"german": "Tier", "english": "animal", "part_of_speech": "noun", "gender": "neuter", "plural": "Tiere", "level": "A1"},
@@ -274,7 +271,7 @@ def _nouns_a1() -> list[dict]:
         {"german": "Bild", "english": "picture", "part_of_speech": "noun", "gender": "neuter", "plural": "Bilder", "level": "A1"},
         {"german": "Brief", "english": "letter", "part_of_speech": "noun", "gender": "masculine", "plural": "Briefe", "level": "A1"},
         {"german": "Zeitung", "english": "newspaper", "part_of_speech": "noun", "gender": "feminine", "plural": "Zeitungen", "level": "A1"},
-        {"german": "Musik", "english": "music", "part_of_speech": "noun", "gender": "feminine", "plural": "Musik", "level": "A1"},
+        {"german": "Musik", "english": "music", "part_of_speech": "noun", "gender": "feminine", "plural": None, "level": "A1"},
         {"german": "Farbe", "english": "color", "part_of_speech": "noun", "gender": "feminine", "plural": "Farben", "level": "A1"},
         {"german": "Frage", "english": "question", "part_of_speech": "noun", "gender": "feminine", "plural": "Fragen", "level": "A1"},
         {"german": "Antwort", "english": "answer", "part_of_speech": "noun", "gender": "feminine", "plural": "Antworten", "level": "A1"},
