@@ -34,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 10 exercises (Teil 1–2, 5 each)
 - C1 exam PDFs (4 skill-specific PDFs in `resources/exams/c1/pdfs/`)
-- `tests/test_c1_exercises.py` — 35 parametrized tests for C1 content validation
+- `tests/test_c1_exercises.py` — 35 tests for C1 content validation
 
 ## [2.5.0] - 2026-03-06
 
@@ -45,7 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 10 exercises (Teil 1–2, 5 each)
 - B2 exam PDFs (4 skill-specific PDFs in `resources/exams/b2/pdfs/`)
-- `tests/test_b2_exercises.py` — 35 parametrized tests for B2 content validation
+- `tests/test_b2_exercises.py` — 35 tests for B2 content validation
 - Subscript digit support (U+2080–U+2089) in `scripts/make_pdfs.py` for CO₂ notation
 
 ## [2.4.0] - 2026-03-06
@@ -57,7 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 15 exercises (Teil 1–3, 5 each)
 - A1 exam PDFs (4 skill-specific PDFs in `resources/exams/a1/pdfs/`)
-- `tests/test_a1_exercises.py` — parametrized tests for A1 content validation
+- `tests/test_a1_exercises.py` — tests for A1 content validation
 
 ## [2.3.0] - 2026-03-05
 
@@ -68,7 +68,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 15 exercises (Teil 1–3, 5 each)
 - A2 exam PDFs (4 skill-specific PDFs in `resources/exams/a2/pdfs/`)
-- `tests/test_a2_exercises.py` — 33 parametrized tests for A2 content validation
+- `tests/test_a2_exercises.py` — 33 tests for A2 content validation
 
 ### Changed
 - `scripts/make_pdfs.py` refactored for multi-level PDF generation (`--level {a2,b1}`)
