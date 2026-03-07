@@ -42,6 +42,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
 - C2 exam practice content: complete (#337), v2.7.0
 - C2: 50 exercises — Hören (2×5), Lesen (4×5), Schreiben (2×5), Sprechen (2×5)
+- Vocabulary expansion: complete (#338), v2.8.0
+- 960 CEFR-tagged words: 467 nouns, 247 verbs, 246 adjectives
 
 ## Repository Purpose
 
@@ -231,6 +233,8 @@ resources/exams/c2/              # C2 exam practice exercises (50, Goethe-Instit
 
 ## Version History
 
+- **v2.8.0** (2026-03-07): Expanded vocabulary with CEFR tagging (960 words, A1–C2)
+- **v2.7.1** (2026-03-07): Fix CHANGELOG Version History Summary table and test count wording
 - **v2.7.0** (2026-03-07): C2 exam practice content (50 exercises, GDS format), PDF generation and tests
 - **v2.6.0** (2026-03-06): C1 exam practice content (65 exercises), PDF generation and tests
 - **v2.5.0** (2026-03-06): B2 exam practice content (65 exercises), subscript digit PDF support
