@@ -1,0 +1,113 @@
+{
+  "id": "c2-hoeren-teil-2-004",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Medizinethik und Biotechnologie",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Herzlich willkommen zur Diskussionsreihe „Medizin und Verantwortung“ der Deutschen Gesellschaft für Medizinethik. Auf dem Podium begrüße ich Professorin Dr. Lena Hoffmann, Medizinethikerin, und Professor Dr. Markus Weber, Humangenetiker. Wir diskutieren die ethischen Implikationen der sogenannten Keimbahntherapie. Frau Professorin Hoffmann, wo sehen Sie die zentralen ethischen Herausforderungen?",
+      "text_en": "A warm welcome to the discussion series 'Medicine and Responsibility' of the German Society for Medical Ethics. On the panel I welcome Professor Dr. Lena Hoffmann, medical ethicist, and Professor Dr. Markus Weber, human geneticist. We are discussing the ethical implications of so-called germline therapy. Professor Hoffmann, where do you see the central ethical challenges?"
+    },
+    {
+      "speaker": "Prof. Dr. Hoffmann",
+      "text_de": "Die Keimbahntherapie — also der gezielte Eingriff in das Erbgut von Keimzellen oder Embryonen, dessen Veränderungen an die nächsten Generationen weitergegeben werden — wirft eine Reihe grundlegender ethischer Fragen auf, die über die klassische medizinethische Abwägung von Nutzen und Risiken hinausgehen. Das zentrale Problem besteht in der intergenerationellen Verantwortung: Wir treffen Entscheidungen über das genetische Erbe zukünftiger Menschen, die per definitionem nicht einwilligen können. Das Prinzip der informierten Zustimmung, das den Grundpfeiler der modernen Medizinethik bildet, wird hier systematisch unterlaufen.",
+      "text_en": "Germline therapy — the targeted intervention in the genetic material of germ cells or embryos whose modifications are passed on to subsequent generations — raises a series of fundamental ethical questions that go beyond the classical medical-ethical weighing of benefits and risks. The central problem lies in intergenerational responsibility: we make decisions about the genetic heritage of future humans who by definition cannot consent. The principle of informed consent, which forms the cornerstone of modern medical ethics, is systematically undermined here."
+    },
+    {
+      "speaker": "Prof. Dr. Weber",
+      "text_de": "Ich teile die Sorge um die intergenerationelle Verantwortung, möchte aber darauf hinweisen, dass wir bereits in vielen Bereichen Entscheidungen für zukünftige Generationen treffen — denken Sie an die Umweltpolitik, die Staatsverschuldung oder die Erziehung. Die Frage ist nicht, ob wir das dürfen, sondern unter welchen Bedingungen. Was die Keimbahntherapie betrifft, so ist zu differenzieren: Die Korrektur schwerer monogenetischer Erkrankungen — etwa der Huntington-Krankheit oder der Mukoviszidose — stellt einen grundlegend anderen Fall dar als die sogenannte genetische Verbesserung, also das Enhancement. Im ersten Fall geht es um die Vermeidung schweren Leids; im zweiten um die Optimierung menschlicher Fähigkeiten nach möglicherweise willkürlichen Kriterien.",
+      "text_en": "I share the concern about intergenerational responsibility but would like to point out that we already make decisions for future generations in many areas — think of environmental policy, national debt, or education. The question is not whether we may do this but under what conditions. Regarding germline therapy, a differentiation is necessary: the correction of severe monogenetic diseases — such as Huntington's disease or cystic fibrosis — represents a fundamentally different case from so-called genetic enhancement. In the first case it is about the avoidance of severe suffering; in the second about the optimization of human abilities according to potentially arbitrary criteria."
+    },
+    {
+      "speaker": "Prof. Dr. Hoffmann",
+      "text_de": "Diese Unterscheidung zwischen Therapie und Enhancement ist intuitiv plausibel, aber philosophisch problematischer, als sie auf den ersten Blick erscheint. Wo genau verläuft die Grenze zwischen Krankheit und Normalität? Ist geringe Körpergröße eine behandlungsbedürftige Abweichung oder eine normale Variation? Ist eine genetische Prädisposition für Depressionen ein therapeutischer Indikator oder Teil der menschlichen Konstitution? Die Geschichte der Medizin zeigt, dass die Grenze zwischen dem Pathologischen und dem Normalen stets sozial verhandelt wird — sie ist kein natürliches Faktum, sondern ein kulturelles Konstrukt. Und genau darin liegt die Gefahr: Wenn wir die Grenze nicht fixieren können, droht ein Dammbruch in Richtung unbegrenzter Optimierung.",
+      "text_en": "This distinction between therapy and enhancement is intuitively plausible but philosophically more problematic than it appears at first glance. Where exactly does the boundary between disease and normality run? Is short stature a deviation requiring treatment or a normal variation? Is a genetic predisposition for depression a therapeutic indicator or part of the human constitution? The history of medicine shows that the boundary between the pathological and the normal is always socially negotiated — it is not a natural fact but a cultural construct. And therein lies precisely the danger: if we cannot fix the boundary, we risk a slippery slope toward unlimited optimization."
+    },
+    {
+      "speaker": "Prof. Dr. Weber",
+      "text_de": "Ich verstehe diesen Einwand, halte ihn aber für eine Art Kategorienfehler. Die Tatsache, dass eine Grenze unscharf ist, bedeutet nicht, dass sie nicht existiert. Niemand würde ernsthaft bestreiten, dass die Huntington-Krankheit eine schwere Erkrankung ist. Die Grenzfälle — etwa die erwähnte Körpergröße — erfordern sorgfältige Einzelfallprüfung, aber sie entkräften nicht das Prinzip der Unterscheidung. Überdies arbeiten wir in der Medizin ständig mit unscharfen Grenzen — zwischen leicht und schwer, zwischen akut und chronisch — und dennoch sind diese Unterscheidungen klinisch unverzichtbar.",
+      "text_en": "I understand this objection but consider it a kind of category error. The fact that a boundary is fuzzy does not mean it does not exist. Nobody would seriously dispute that Huntington's disease is a severe illness. The borderline cases — such as the mentioned stature — require careful case-by-case examination but do not invalidate the principle of the distinction. Moreover, in medicine we constantly work with fuzzy boundaries — between mild and severe, between acute and chronic — and yet these distinctions are clinically indispensable."
+    },
+    {
+      "speaker": "Prof. Dr. Hoffmann",
+      "text_de": "Lassen Sie mich noch einen weiteren Aspekt anführen, der in der Debatte häufig vernachlässigt wird: die Frage der sozialen Gerechtigkeit. Keimbahntherapie wird, wenn sie klinisch verfügbar wird, zunächst nur für wohlhabende Bevölkerungsschichten zugänglich sein. Damit droht eine neue Form der biologischen Ungleichheit zu entstehen — eine genetische Klassengesellschaft, in der die Privilegierten nicht nur über bessere Bildung und Gesundheitsversorgung verfügen, sondern auch über genetisch optimierte Nachkommen. Das wäre nicht nur ungerecht, sondern würde das Fundament der demokratischen Gleichheit untergraben.",
+      "text_en": "Let me raise one more aspect that is frequently neglected in the debate: the question of social justice. Germline therapy, when it becomes clinically available, will initially only be accessible to wealthy segments of the population. This threatens to create a new form of biological inequality — a genetic class society in which the privileged not only have better education and healthcare but also genetically optimized offspring. This would not only be unjust but would undermine the foundation of democratic equality."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin sieht Professorin Hoffmann das zentrale ethische Problem der Keimbahntherapie?",
+      "text_en": "What does Professor Hoffmann see as the central ethical problem of germline therapy?",
+      "options": [
+        "a) In der intergenerationellen Verantwortung, da zukünftige Menschen nicht einwilligen können und das Prinzip der informierten Zustimmung unterlaufen wird.",
+        "b) In den hohen Kosten, die das Gesundheitssystem belasten würden.",
+        "c) In der mangelnden technischen Reife der Verfahren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Hoffmann identifiziert die intergenerationelle Verantwortung als zentrales Problem, da zukünftige Menschen per definitionem nicht in genetische Veränderungen einwilligen können.",
+      "explanation_en": "Hoffmann identifies intergenerational responsibility as the central problem, as future humans by definition cannot consent to genetic modifications."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Differenzierung hält Prof. Weber bei der Keimbahntherapie für wesentlich?",
+      "text_en": "What differentiation does Prof. Weber consider essential regarding germline therapy?",
+      "options": [
+        "a) Die Unterscheidung zwischen öffentlicher und privater Forschung.",
+        "b) Die Unterscheidung zwischen tierischer und menschlicher Gentherapie.",
+        "c) Die Unterscheidung zwischen der Korrektur schwerer Erkrankungen und genetischem Enhancement."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Weber differenziert zwischen der Korrektur schwerer monogenetischer Erkrankungen (Leidvermeidung) und genetischem Enhancement (Optimierung nach möglicherweise willkürlichen Kriterien).",
+      "explanation_en": "Weber differentiates between correcting severe monogenetic diseases (avoiding suffering) and genetic enhancement (optimization according to potentially arbitrary criteria)."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum hält Prof. Hoffmann die Unterscheidung von Therapie und Enhancement für problematisch?",
+      "text_en": "Why does Prof. Hoffmann consider the distinction between therapy and enhancement problematic?",
+      "options": [
+        "a) Weil Enhancement grundsätzlich wünschenswert und daher nicht von Therapie abgrenzbar ist.",
+        "b) Weil die Grenze zwischen Pathologischem und Normalem stets sozial verhandelt wird und kein natürliches Faktum darstellt.",
+        "c) Weil die Medizin grundsätzlich keine Unterscheidungen treffen kann."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Hoffmann argumentiert, dass die Grenze zwischen Krankheit und Normalität sozial verhandelt wird — ein kulturelles Konstrukt, kein natürliches Faktum —, was die Unterscheidung philosophisch problematisch macht.",
+      "explanation_en": "Hoffmann argues that the boundary between disease and normality is socially negotiated — a cultural construct, not a natural fact — making the distinction philosophically problematic."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie begegnet Prof. Weber dem Einwand der unscharfen Grenze zwischen Therapie und Enhancement?",
+      "text_en": "How does Prof. Weber respond to the objection of the fuzzy boundary between therapy and enhancement?",
+      "options": [
+        "a) Er argumentiert, dass unscharfe Grenzen die Unterscheidung nicht entkräften und die Medizin ständig mit solchen Grenzen arbeitet.",
+        "b) Er räumt ein, dass die Unterscheidung aufgegeben werden muss.",
+        "c) Er schlägt vor, die Entscheidung ausschließlich den Eltern zu überlassen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Weber argumentiert, dass unscharfe Grenzen nicht bedeuten, dass keine Grenze existiert, und verweist auf klinisch unverzichtbare Unterscheidungen trotz Unschärfe.",
+      "explanation_en": "Weber argues that fuzzy boundaries do not mean no boundary exists, pointing to clinically indispensable distinctions despite fuzziness."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Gerechtigkeitsproblematik sieht Prof. Hoffmann bei der Keimbahntherapie?",
+      "text_en": "What justice problem does Prof. Hoffmann see with germline therapy?",
+      "options": [
+        "a) Dass genetische Forschung nur in reichen Ländern betrieben wird.",
+        "b) Dass Ärzte durch Keimbahntherapie finanziell benachteiligt werden.",
+        "c) Dass nur wohlhabende Schichten Zugang haben werden und eine genetische Klassengesellschaft entstehen könnte, die demokratische Gleichheit untergräbt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Hoffmann warnt vor einer genetischen Klassengesellschaft, in der nur Privilegierte genetisch optimierte Nachkommen haben und die demokratische Gleichheit untergraben wird.",
+      "explanation_en": "Hoffmann warns of a genetic class society where only the privileged have genetically optimized offspring, undermining democratic equality."
+    }
+  ]
+}

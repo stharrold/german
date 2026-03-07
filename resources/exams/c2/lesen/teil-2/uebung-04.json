@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-2-004",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Evolutionspsychologie und kulturelle Anpassung",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Evolutionspsychologie beansprucht, menschliches Verhalten und Erleben als Ausdruck adaptiver Mechanismen zu erklären, die sich unter den Selektionsbedingungen der pleistozänen Umwelt herausgebildet haben. Die diesem Forschungsprogramm zugrunde liegende Prämisse eines „Environment of Evolutionary Adaptedness“ postuliert, dass die grundlegenden kognitiven und emotionalen Module des menschlichen Geistes auf die Lösung wiederkehrender Anpassungsprobleme unserer Vorfahren — Nahrungsbeschaffung, Partnerwahl, Koalitionsbildung, Feindvermeidung — zugeschnitten sind und sich seither nicht wesentlich verändert haben.\n\nDie an diesem Ansatz geübte Kritik richtet sich gegen dessen vermeintlich reduktionistischen Charakter. Die von Kulturanthropologen und Entwicklungspsychologen vertretene Position, wonach die Plastizität des menschlichen Gehirns und die kulturelle Transmission von Wissen die biologische Evolution als primären Erklärungsfaktor für gegenwärtiges Verhalten weitgehend obsolet machen, verweist auf die beispiellose Fähigkeit des Menschen zur kumulativen Kultur. Die in wenigen Generationen vollzogenen kulturellen Transformationen — etwa die Entstehung komplexer Gesellschaften, die Entwicklung formaler Bildungssysteme oder die digitale Revolution — lassen sich mit dem Verweis auf eine im Wesentlichen unveränderte psychische Architektur nur unzureichend erklären.\n\nEine vermittelnde Position sieht in der Gen-Kultur-Koevolution den Schlüssel zum Verständnis menschlicher Anpassungsfähigkeit. Demnach haben genetisch fundierte kognitive Prädispositionen — etwa die Fähigkeit zu sozialer Kognition und kulturellem Lernen — die Voraussetzungen für die kumulative kulturelle Evolution geschaffen, die ihrerseits als Selektionsdruck auf die biologische Evolution zurückwirkt. Kulturelle Anpassung und biologische Evolution stehen in einem dynamischen Wechselverhältnis, das sich weder auf das eine noch auf das andere reduzieren lässt.",
+    "text_en": "Evolutionary psychology claims to explain human behavior and experience as expressions of adaptive mechanisms that developed under the selection conditions of the Pleistocene environment. The premise underlying this research program of an 'Environment of Evolutionary Adaptedness' postulates that the fundamental cognitive and emotional modules of the human mind are tailored to solving recurring adaptation problems of our ancestors — food procurement, mate selection, coalition formation, enemy avoidance — and have not substantially changed since.\n\nThe criticism directed at this approach targets its allegedly reductionist character. The position held by cultural anthropologists and developmental psychologists, according to which the plasticity of the human brain and cultural transmission of knowledge largely render biological evolution obsolete as a primary explanatory factor for present behavior, points to humanity's unprecedented capacity for cumulative culture. The cultural transformations accomplished in just a few generations — such as the emergence of complex societies, the development of formal education systems, or the digital revolution — can only be inadequately explained by reference to an essentially unchanged psychic architecture.\n\nA mediating position sees gene-culture coevolution as the key to understanding human adaptability. Accordingly, genetically grounded cognitive predispositions — such as the capacity for social cognition and cultural learning — created the prerequisites for cumulative cultural evolution, which in turn feeds back as selection pressure on biological evolution. Cultural adaptation and biological evolution stand in a dynamic reciprocal relationship that can be reduced to neither one nor the other.",
+    "source": "Wissenschaftsjournal",
+    "word_count": 227
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was postuliert die Prämisse des „Environment of Evolutionary Adaptedness“?",
+      "text_en": "What does the premise of the 'Environment of Evolutionary Adaptedness' postulate?",
+      "options": [
+        "a) Dass die kognitiven Module des menschlichen Geistes auf pleistozäne Anpassungsprobleme zugeschnitten sind.",
+        "b) Dass sich das menschliche Gehirn seit der Steinzeit grundlegend verändert hat.",
+        "c) Dass kulturelle Evolution biologische Evolution vollständig ersetzt hat."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Prämisse postuliert, dass die grundlegenden kognitiven Module auf die Lösung wiederkehrender Anpassungsprobleme unserer Vorfahren zugeschnitten sind.",
+      "explanation_en": "The premise postulates that the fundamental cognitive modules are tailored to solving recurring adaptation problems of our ancestors."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Worauf verweist die Kritik der Kulturanthropologen an der Evolutionspsychologie?",
+      "text_en": "What does the criticism of cultural anthropologists point to regarding evolutionary psychology?",
+      "options": [
+        "a) Auf die Unmöglichkeit kulturellen Lernens.",
+        "b) Auf die genetische Determination allen menschlichen Verhaltens.",
+        "c) Auf die beispiellose Fähigkeit des Menschen zur kumulativen Kultur."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Kritik verweist auf die beispiellose Fähigkeit des Menschen zur kumulativen Kultur, die biologische Evolution als primären Erklärungsfaktor weitgehend obsolet mache.",
+      "explanation_en": "The criticism points to humanity's unprecedented capacity for cumulative culture, which largely renders biological evolution obsolete as a primary explanatory factor."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was sieht die vermittelnde Position als Schlüssel zum Verständnis menschlicher Anpassungsfähigkeit?",
+      "text_en": "What does the mediating position see as the key to understanding human adaptability?",
+      "options": [
+        "a) Die ausschließliche Betonung genetischer Faktoren.",
+        "b) Die Gen-Kultur-Koevolution.",
+        "c) Die Überlegenheit kultureller gegenüber biologischer Evolution."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine vermittelnde Position sieht in der Gen-Kultur-Koevolution den Schlüssel zum Verständnis menschlicher Anpassungsfähigkeit.",
+      "explanation_en": "A mediating position sees gene-culture coevolution as the key to understanding human adaptability."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was haben genetisch fundierte kognitive Prädispositionen laut der vermittelnden Position geschaffen?",
+      "text_en": "What have genetically grounded cognitive predispositions created according to the mediating position?",
+      "options": [
+        "a) Die Voraussetzungen für die kumulative kulturelle Evolution.",
+        "b) Die vollständige Unabhängigkeit des Menschen von seiner Biologie.",
+        "c) Einen Stillstand der biologischen Evolution."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Genetisch fundierte kognitive Prädispositionen haben die Voraussetzungen für die kumulative kulturelle Evolution geschaffen.",
+      "explanation_en": "Genetically grounded cognitive predispositions created the prerequisites for cumulative cultural evolution."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "In welchem Verhältnis stehen kulturelle Anpassung und biologische Evolution laut dem Text?",
+      "text_en": "In what relationship do cultural adaptation and biological evolution stand according to the text?",
+      "options": [
+        "a) Kulturelle Anpassung hat biologische Evolution vollständig abgelöst.",
+        "b) Biologische Evolution determiniert kulturelle Entwicklung einseitig.",
+        "c) Sie stehen in einem dynamischen Wechselverhältnis, das sich auf keines von beiden reduzieren lässt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kulturelle Anpassung und biologische Evolution stehen in einem dynamischen Wechselverhältnis, das sich weder auf das eine noch auf das andere reduzieren lässt.",
+      "explanation_en": "Cultural adaptation and biological evolution stand in a dynamic reciprocal relationship that can be reduced to neither one nor the other."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-3-002",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Wissenssoziologie und soziale Konstruktion",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die wissenssoziologische These, wonach sämtliche Formen gesellschaftlich anerkannten Wissens in spezifischen sozialen Konstellationen verankert seien und somit keinen standortunabhängigen Wahrheitsanspruch erheben könnten, hat die erkenntnistheoretischen Grundlagen der Wissenschaft nachhaltig erschüttert. Karl Mannheim, der Begründer der systematischen Wissenssoziologie, unterschied zwischen einem partikularen Ideologiebegriff, der die Aussagen des Gegners als interessengebunden entlarvt, und einem totalen Ideologiebegriff, der die Standortgebundenheit allen Denkens — einschließlich des eigenen — anerkennt und damit eine radikale Selbstreflexivität der Erkenntnis einfordert.\n\nDie von Berger und Luckmann weiterentwickelte These der sozialen Konstruktion der Wirklichkeit verschärft diese Position, indem sie aufzeigt, dass nicht nur wissenschaftliches Fachwissen, sondern auch das lebensweltliche Alltagswissen durch Prozesse der Institutionalisierung, Legitimation und Internalisierung sozial hervorgebracht wird. Die als selbstverständlich erfahrene Ordnung der Dinge — von Geschlechterrollen über Eigentumsvorstellungen bis hin zu Krankheitsdefinitionen — erweist sich bei genauerer Betrachtung als Ergebnis historisch kontingenter Objektivierungsprozesse, die durch fortwährende soziale Bestätigung den Anschein natürlicher Gegebenheiten annehmen.\n\nGegen den häufig erhobenen Vorwurf des Relativismus verteidigen Vertreter des Konstruktivismus ihre Position mit dem Argument, dass die Anerkennung der sozialen Bedingtheit von Wissen keineswegs die Möglichkeit rationaler Begründung aufhebe. Vielmehr ermögliche gerade das Bewusstsein der eigenen Standortgebundenheit eine reflektiertere und damit epistemisch angemessenere Form der Wissensproduktion, die ihre Voraussetzungen offenlege, anstatt sie hinter einem Objektivitätspostulat zu verbergen.",
+    "text_en": "The sociology-of-knowledge thesis, according to which all forms of socially recognized knowledge are anchored in specific social constellations and therefore cannot claim truth independent of standpoint, has lastingly shaken the epistemological foundations of science. Karl Mannheim, the founder of systematic sociology of knowledge, distinguished between a particular concept of ideology, which exposes the opponent's statements as interest-bound, and a total concept of ideology, which acknowledges the situatedness of all thinking — including one's own — and thereby demands a radical self-reflexivity of cognition.\n\nThe thesis of the social construction of reality, further developed by Berger and Luckmann, sharpens this position by demonstrating that not only specialized scientific knowledge but also everyday lifeworld knowledge is socially produced through processes of institutionalization, legitimation, and internalization. The order of things experienced as self-evident — from gender roles to conceptions of property to definitions of illness — proves upon closer examination to be the result of historically contingent objectification processes that assume the appearance of natural givens through continuous social confirmation.\n\nAgainst the frequently raised accusation of relativism, representatives of constructivism defend their position with the argument that acknowledging the social conditionality of knowledge by no means abolishes the possibility of rational justification. Rather, precisely the awareness of one's own situatedness enables a more reflective and therefore epistemically more adequate form of knowledge production that discloses its presuppositions instead of concealing them behind a postulate of objectivity.",
+    "source": "Fachzeitschrift",
+    "word_count": 206
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht der Unterschied zwischen dem partikularen und dem totalen Ideologiebegriff bei Mannheim?",
+      "text_en": "What is the difference between the particular and the total concept of ideology in Mannheim?",
+      "options": [
+        "a) Der partikulare entlarvt nur den Gegner als ideologisch, der totale schließt das eigene Denken ein.",
+        "b) Der partikulare bezieht sich auf politische Systeme, der totale auf kulturelle Praktiken.",
+        "c) Der partikulare betrifft nur den Gegner als interessengebunden, der totale erkennt die Standortgebundenheit allen Denkens an."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der partikulare Ideologiebegriff entlarvt die Aussagen des Gegners als interessengebunden, während der totale die Standortgebundenheit allen Denkens anerkennt.",
+      "explanation_en": "The particular concept exposes the opponent's statements as interest-bound, while the total one acknowledges the situatedness of all thinking."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen Berger und Luckmann über das Alltagswissen auf?",
+      "text_en": "What do Berger and Luckmann demonstrate about everyday knowledge?",
+      "options": [
+        "a) Dass Alltagswissen durch Institutionalisierung, Legitimation und Internalisierung sozial hervorgebracht wird.",
+        "b) Dass Alltagswissen im Gegensatz zum wissenschaftlichen Wissen nicht sozial konstruiert ist.",
+        "c) Dass Alltagswissen ausschließlich durch individuelle Erfahrung entsteht."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Berger und Luckmann zeigen, dass auch lebensweltliches Alltagswissen durch Prozesse der Institutionalisierung, Legitimation und Internalisierung sozial hervorgebracht wird.",
+      "explanation_en": "Berger and Luckmann show that everyday lifeworld knowledge is also socially produced through processes of institutionalization, legitimation, and internalization."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was versteht der Text unter 'historisch kontingenten Objektivierungsprozessen'?",
+      "text_en": "What does the text understand by 'historically contingent objectification processes'?",
+      "options": [
+        "a) Unveränderliche naturgesetzliche Vorgänge, die gesellschaftliche Ordnung determinieren.",
+        "b) Prozesse, durch die sozial Konstruiertes den Anschein natürlicher Gegebenheiten annimmt.",
+        "c) Wissenschaftliche Methoden zur Überprüfung gesellschaftlicher Normen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es handelt sich um Prozesse, die durch fortwährende soziale Bestätigung den Anschein natürlicher Gegebenheiten annehmen.",
+      "explanation_en": "These are processes that assume the appearance of natural givens through continuous social confirmation."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welcher Vorwurf wird häufig gegen den Konstruktivismus erhoben?",
+      "text_en": "What accusation is frequently raised against constructivism?",
+      "options": [
+        "a) Dass er die Bedeutung individueller Erfahrung überbewerte.",
+        "b) Dass er die Naturwissenschaften vollständig ablehne.",
+        "c) Dass er einem erkenntnistheoretischen Relativismus Vorschub leiste."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Gegen den Konstruktivismus wird häufig der Vorwurf des Relativismus erhoben.",
+      "explanation_en": "The accusation of relativism is frequently raised against constructivism."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie verteidigen Vertreter des Konstruktivismus ihre Position gegen den Relativismusvorwurf?",
+      "text_en": "How do representatives of constructivism defend their position against the charge of relativism?",
+      "options": [
+        "a) Das Bewusstsein der eigenen Standortgebundenheit ermögliche eine reflektiertere und epistemisch angemessenere Wissensproduktion.",
+        "b) Rationale Begründung sei ohnehin unmöglich und solle durch pragmatische Kriterien ersetzt werden.",
+        "c) Die soziale Bedingtheit betreffe nur die Geistes-, nicht aber die Naturwissenschaften."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Bewusstsein der eigenen Standortgebundenheit ermöglicht eine reflektiertere Form der Wissensproduktion, die ihre Voraussetzungen offenlegt.",
+      "explanation_en": "Awareness of one's own situatedness enables a more reflective form of knowledge production that discloses its presuppositions."
+    }
+  ]
+}

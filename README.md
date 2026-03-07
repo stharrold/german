@@ -1,6 +1,6 @@
 # German Language Learning Repository
 
-A Python-based repository for German language learning resources, featuring A1, A2, B1, B2, and C1 exam practice exercises in Goethe-Institut format.
+A Python-based repository for German language learning resources, featuring A1, A2, B1, B2, C1, and C2 exam practice exercises in Goethe-Institut format.
 
 ## Purpose
 
@@ -10,6 +10,7 @@ This repository contains:
 - **B1 exam practice exercises** — 75 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **B2 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
 - **C1 exam practice exercises** — 65 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut format
+- **C2 exam practice exercises** — 50 structured exercises across all 4 skills (Hören, Lesen, Schreiben, Sprechen) in Goethe-Institut GDS format
 - **Supplementary listening topics** — 20 bilingual prose topics (~2,250 words each) for B1 listening practice
 - **Vocabulary data** — German nouns, verbs, and adjectives with Pydantic validation
 - **Certificate guides** — Reference materials for CEFR levels A1–C2
@@ -61,6 +62,15 @@ This repository contains:
 | **Lesen** (Reading) | Teil 1–5 | 25 | Academic articles, essays, reports, literary analysis |
 | **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Professional texts, argumentative essays |
 | **Sprechen** (Speaking) | Teil 1–2 | 10 | Academic presentations, collaborative negotiation |
+
+### C2 (50 exercises)
+
+| Skill | Parts | Exercises | Format |
+|-------|-------|-----------|--------|
+| **Hören** (Listening) | Teil 1–2 | 10 | Philosophical discourse, specialized lectures |
+| **Lesen** (Reading) | Teil 1–4 | 20 | Literary criticism, academic essays, cultural theory |
+| **Schreiben** (Writing) | Aufgabe 1–2 | 10 | Academic critiques, philosophical essays |
+| **Sprechen** (Speaking) | Teil 1–2 | 10 | Academic presentations, institutional negotiation |
 
 ### How to Practice
 
@@ -115,6 +125,12 @@ resources/exams/b2/
 resources/exams/c1/
 ├── hoeren/teil-{1-4}/uebung-{01-05}.json
 ├── lesen/teil-{1-5}/uebung-{01-05}.json
+├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
+└── sprechen/teil-{1-2}/uebung-{01-05}.json
+
+resources/exams/c2/
+├── hoeren/teil-{1-2}/uebung-{01-05}.json
+├── lesen/teil-{1-4}/uebung-{01-05}.json
 ├── schreiben/aufgabe-{1-2}/uebung-{01-05}.json
 └── sprechen/teil-{1-2}/uebung-{01-05}.json
 ```

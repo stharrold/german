@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-4-002",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Diskursanalyse und Machtstrukturen",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Foucaults diskursanalytischer Ansatz hat die Sprachwissenschaft insofern nachhaltig beeinflusst, als er die Frage nach der Bedeutung sprachlicher Äußerungen untrennbar mit der Analyse von Machtverhältnissen verknüpfte. Diskurse sind in dieser Perspektive nicht bloß sprachliche Repräsentationen einer vorgegebenen Wirklichkeit, sondern konstitutive Praktiken, die ihren Gegenstand — sei es der Wahnsinn, die Sexualität oder die Kriminalität — durch systematische Ein- und Ausschlussverfahren allererst hervorbringen. Die Regeln, die bestimmen, was innerhalb eines Diskurses als sagbar gilt und was nicht, sind dabei keine rein sprachlichen Konventionen, sondern Ausdruck institutionell verankerter Machtkonstellationen.\n\nDie von Foucault als Diskursformation bezeichnete Gesamtheit der Regelmäßigkeiten, die einen bestimmten Wissensbereich organisieren, umfasst nicht nur die zulässigen Aussagen, sondern auch die Subjektpositionen, von denen aus gesprochen werden darf, die institutionellen Orte, an denen gültiges Wissen produziert wird, und die begrifflichen Strategien, durch die Gegenstände klassifiziert und hierarchisiert werden. Die kritische Diskursanalyse nach Fairclough und Wodak hat diese Perspektive methodisch operationalisiert und zeigt, wie sprachliche Mikrostrukturen — Nominalisierungen, Passivkonstruktionen, metaphorische Rahmungen — ideologische Effekte erzeugen, indem sie Handelnde verschleiern, Verantwortung diffundieren und naturalisieren, was historisch kontingent ist.\n\nKritiker wenden ein, dass Foucaults radikaler Diskursivismus die außerdiskursive Materialität gesellschaftlicher Verhältnisse vernachlässige und einem sprachlichen Idealismus Vorschub leiste. Diese Kritik verkennt jedoch, dass Foucault Diskurse ausdrücklich als materielle Praktiken begreift, die in institutionelle Apparate, körperliche Disziplinierungstechniken und ökonomische Produktionsverhältnisse eingelassen sind — eine Konzeption, die gerade die Überwindung des Gegensatzes von Sprache und Materialität beansprucht.",
+    "text_en": "Foucault's discourse-analytical approach has lastingly influenced linguistics insofar as it inextricably linked the question of the meaning of linguistic utterances with the analysis of power relations. Discourses in this perspective are not merely linguistic representations of a given reality but constitutive practices that first produce their object — be it madness, sexuality, or criminality — through systematic procedures of inclusion and exclusion. The rules that determine what counts as sayable within a discourse and what does not are not purely linguistic conventions but expressions of institutionally anchored power constellations.\n\nThe totality of regularities organizing a particular domain of knowledge, which Foucault termed discursive formation, encompasses not only permissible statements but also the subject positions from which one may speak, the institutional sites at which valid knowledge is produced, and the conceptual strategies through which objects are classified and hierarchized. Critical discourse analysis following Fairclough and Wodak has methodically operationalized this perspective and shows how linguistic microstructures — nominalizations, passive constructions, metaphorical framings — produce ideological effects by concealing agents, diffusing responsibility, and naturalizing what is historically contingent.\n\nCritics object that Foucault's radical discursivism neglects the extra-discursive materiality of social conditions and promotes a linguistic idealism. This criticism fails to recognize, however, that Foucault expressly conceives of discourses as material practices embedded in institutional apparatuses, corporeal disciplining techniques, and economic relations of production — a conception that precisely claims to overcome the opposition between language and materiality.",
+    "source": "Sprachwissenschaft",
+    "word_count": 230
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was sind Diskurse in Foucaults Perspektive?",
+      "text_en": "What are discourses in Foucault's perspective?",
+      "options": [
+        "a) Neutrale sprachliche Abbilder einer objektiv vorgegebenen Wirklichkeit.",
+        "b) Rein individuelle Meinungsäußerungen ohne gesellschaftliche Relevanz.",
+        "c) Konstitutive Praktiken, die ihren Gegenstand durch Ein- und Ausschlussverfahren hervorbringen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Diskurse sind konstitutive Praktiken, die ihren Gegenstand durch systematische Ein- und Ausschlussverfahren allererst hervorbringen.",
+      "explanation_en": "Discourses are constitutive practices that first produce their object through systematic procedures of inclusion and exclusion."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was umfasst eine Diskursformation laut dem Text neben den zulässigen Aussagen?",
+      "text_en": "Besides permissible statements, what does a discursive formation encompass according to the text?",
+      "options": [
+        "a) Subjektpositionen, institutionelle Orte und begriffliche Strategien.",
+        "b) Ausschließlich grammatische Regeln und phonologische Systeme.",
+        "c) Nur die historischen Bedingungen der Textproduktion."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Diskursformation umfasst auch Subjektpositionen, institutionelle Orte der Wissensproduktion und begriffliche Strategien der Klassifizierung.",
+      "explanation_en": "The discursive formation also encompasses subject positions, institutional sites of knowledge production, and conceptual strategies of classification."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie erzeugen sprachliche Mikrostrukturen laut der kritischen Diskursanalyse ideologische Effekte?",
+      "text_en": "How do linguistic microstructures produce ideological effects according to critical discourse analysis?",
+      "options": [
+        "a) Durch die Verwendung dialektaler Varietäten in formellen Kontexten.",
+        "b) Indem sie Handelnde verschleiern, Verantwortung diffundieren und Kontingentes naturalisieren.",
+        "c) Durch die bewusste Manipulation grammatischer Regeln durch politische Akteure."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sprachliche Mikrostrukturen erzeugen ideologische Effekte, indem sie Handelnde verschleiern, Verantwortung diffundieren und naturalisieren, was historisch kontingent ist.",
+      "explanation_en": "Linguistic microstructures produce ideological effects by concealing agents, diffusing responsibility, and naturalizing what is historically contingent."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorwurf erheben Kritiker gegen Foucaults Diskursanalyse?",
+      "text_en": "What accusation do critics raise against Foucault's discourse analysis?",
+      "options": [
+        "a) Dass er die Rolle der Sprache in der Gesellschaft grundsätzlich unterschätze.",
+        "b) Dass er die historische Entwicklung von Diskursen nicht berücksichtige.",
+        "c) Dass er die außerdiskursive Materialität gesellschaftlicher Verhältnisse vernachlässige."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kritiker wenden ein, dass Foucaults radikaler Diskursivismus die außerdiskursive Materialität gesellschaftlicher Verhältnisse vernachlässige.",
+      "explanation_en": "Critics object that Foucault's radical discursivism neglects the extra-discursive materiality of social conditions."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie entkräftet der Text die Kritik am vermeintlichen sprachlichen Idealismus Foucaults?",
+      "text_en": "How does the text refute the criticism of Foucault's alleged linguistic idealism?",
+      "options": [
+        "a) Foucault begreife Diskurse ausdrücklich als materielle Praktiken, eingelassen in institutionelle Apparate und ökonomische Verhältnisse.",
+        "b) Foucault habe seine Position in späteren Schriften revidiert und die Materialität anerkannt.",
+        "c) Die Kritiker hätten Foucaults Werk nicht im französischen Original gelesen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Foucault begreift Diskurse ausdrücklich als materielle Praktiken, die in institutionelle Apparate, körperliche Disziplinierungstechniken und ökonomische Produktionsverhältnisse eingelassen sind.",
+      "explanation_en": "Foucault expressly conceives of discourses as material practices embedded in institutional apparatuses, corporeal disciplining techniques, and economic relations of production."
+    }
+  ]
+}

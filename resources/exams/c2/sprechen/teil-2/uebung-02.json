@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-2-002",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Umstrukturierung einer kriselnden Kulturinstitution — Tradition und Innovation in Einklang bringen",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine differenzierte Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte, wägen Sie Vor- und Nachteile sorgfältig ab und einigen Sie sich auf einen tragfähigen Vorschlag.",
+  "situation_de": "Sie sind als externe Berater für ein traditionsreiches, aber finanziell angeschlagenes Kulturhaus tätig, das sowohl ein Theaterprogramm als auch eine Konzert- und Ausstellungsreihe unterhält. Die Besucherzahlen sind in den vergangenen Jahren kontinuierlich gesunken, das Durchschnittsalter des Publikums ist stark gestiegen, und die öffentlichen Zuschüsse werden gekürzt. Gleichzeitig gibt es erheblichen Widerstand seitens des Stammpublikums und der langjährigen Mitarbeitenden gegen jede Veränderung des bewährten Programms. Erarbeiten Sie gemeinsam eine Strategie, die das Kulturhaus zukunftsfähig macht, ohne seine Identität preiszugeben.",
+  "situation_en": "You are working as external consultants for a tradition-rich but financially struggling cultural center that maintains a theater program as well as a concert and exhibition series. Visitor numbers have continuously declined in recent years, the average age of the audience has risen significantly, and public subsidies are being cut. At the same time, there is considerable resistance from the regular audience and long-standing staff against any change to the established program. Develop a strategy together that makes the cultural center future-proof without sacrificing its identity.",
+  "discussion_points": [
+    "Programmreform: Wie lässt sich das Programm erneuern, ohne das bestehende Publikum zu verprellen? (Program reform: How can the program be renewed without alienating the existing audience?)",
+    "Zielgruppengewinnung: Welche Strategien sind geeignet, um jüngere und diversere Zielgruppen zu erschließen? (Audience development: Which strategies are suitable for reaching younger and more diverse target groups?)",
+    "Finanzierungsmodelle: Welche alternativen Einnahmequellen kommen infrage, und wie ist deren Vereinbarkeit mit dem kulturellen Auftrag zu bewerten? (Financing models: What alternative revenue sources are possible, and how is their compatibility with the cultural mission to be assessed?)",
+    "Personalentwicklung und Change-Management: Wie gewinnt man die Mitarbeitenden für den Veränderungsprozess? (Staff development and change management: How does one win over staff for the change process?)",
+    "Digitale Präsenz: Inwieweit sollte das Kulturhaus auf digitale Formate setzen, und wo liegen die Grenzen der Digitalisierung im Kulturbereich? (Digital presence: To what extent should the cultural center invest in digital formats, and where are the limits of digitalization in the cultural sector?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Situation, mit der wir es zu tun haben, ist leider typisch für viele traditionsreiche Kulturinstitutionen: ein Publikum, das treuer, aber stetig kleiner wird, sinkende öffentliche Mittel und eine wachsende Kluft zwischen dem kulturellen Angebot und den Rezeptionsgewohnheiten jüngerer Generationen. Ich würde vorschlagen, dass wir zunächst die Frage der Programmgestaltung in den Blick nehmen, da sie die inhaltliche Kernfrage darstellt.",
+      "text_en": "The situation we are dealing with is unfortunately typical of many tradition-rich cultural institutions: an audience that is loyal but steadily shrinking, declining public funds, and a growing gap between the cultural offering and the reception habits of younger generations. I would suggest that we first focus on the question of program design, as it represents the core substantive question."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Ich möchte gleich zu Beginn vor einem Fehler warnen, der in solchen Situationen häufig begangen wird: dem Versuch, das Programm radikal zu verjüngen, in der Hoffnung, damit ein neues Publikum zu gewinnen. Erfahrungsgemäß verliert man dadurch das Stammpublikum, ohne das neue dauerhaft zu binden. Was mir vorschwebt, ist eher ein Sowohl-als-auch: Das bewährte Repertoire sollte beibehalten, aber durch experimentelle Formate ergänzt werden — beispielsweise durch szenische Lesungen, interdisziplinäre Projekte oder Kooperationen mit freien Ensembles, die ein jüngeres Publikum ansprechen.",
+      "text_en": "Agreed. I would like to warn right at the outset against a mistake that is frequently made in such situations: the attempt to radically rejuvenate the program in the hope of winning a new audience. Experience shows that this causes one to lose the regular audience without permanently attracting the new one. What I envision is rather a both-and approach: the proven repertoire should be maintained but supplemented by experimental formats — for example, through staged readings, interdisciplinary projects, or collaborations with independent ensembles that appeal to a younger audience."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Diesem Ansatz kann ich mich grundsätzlich anschließen, würde ihn aber um eine konzeptionelle Komponente ergänzen. Es genügt nicht, neue Formate einfach neben die bestehenden zu stellen — das wirkt beliebig und kann den Eindruck erwecken, das Haus habe kein klares Profil. Stattdessen sollte man eine kuratorische Klammer finden, die Tradition und Innovation inhaltlich verbindet. Man könnte etwa Spielzeitmottos formulieren, die klassische und zeitgenössische Werke in einen thematischen Dialog bringen: eine Inszenierung eines Klassikers neben einem zeitgenössischen Stück, das dasselbe Thema aus heutiger Perspektive behandelt.",
+      "text_en": "I can fundamentally agree with this approach but would supplement it with a conceptual component. It is not enough to simply place new formats alongside the existing ones — that appears arbitrary and can create the impression that the house has no clear profile. Instead, one should find a curatorial framework that substantively connects tradition and innovation. One could, for example, formulate season mottos that bring classical and contemporary works into a thematic dialogue: a production of a classic alongside a contemporary piece that treats the same theme from today's perspective."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das ist ein überzeugender Gedanke. Kommen wir zur Finanzierungsfrage. Die Kürzung öffentlicher Zuschüsse zwingt uns, alternative Einnahmequellen zu erschließen. Sponsoring und Mäzenatentum liegen nahe, bergen aber die Gefahr einer Abhängigkeit, die die künstlerische Unabhängigkeit untergraben könnte. Crowdfunding und Mitgliedsmodelle wären eine Möglichkeit, die Bindung des Publikums an das Haus zu stärken und gleichzeitig zusätzliche Mittel zu generieren. Was halten Sie von einem Förderverein mit gestuften Mitgliedsbeiträgen, der seinen Mitgliedern exklusive Einblicke in den künstlerischen Prozess gewährt?",
+      "text_en": "That is a convincing idea. Let us turn to the financing question. The reduction of public subsidies forces us to develop alternative revenue sources. Sponsoring and patronage are obvious but carry the risk of a dependency that could undermine artistic independence. Crowdfunding and membership models would be a way to strengthen the audience's bond with the house while generating additional funds. What do you think of a friends' association with tiered membership fees that grants its members exclusive insights into the artistic process?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ein Förderverein wäre in der Tat ein vielversprechendes Instrument, das nicht nur finanzielle, sondern auch ideelle Bindung schafft. Allerdings sollten wir bei der Akquise von Sponsoren transparente Richtlinien etablieren, die sicherstellen, dass kein Sponsor inhaltlichen Einfluss auf das Programm nehmen kann. Ich denke an eine Art Charta der künstlerischen Unabhängigkeit, die bei jeder Sponsoringvereinbarung als verbindliche Grundlage dient.",
+      "text_en": "A friends' association would indeed be a promising instrument that creates not only financial but also ideational bonds. However, in the acquisition of sponsors we should establish transparent guidelines that ensure no sponsor can exert substantive influence on the program. I am thinking of a kind of charter of artistic independence that serves as a binding basis for every sponsorship agreement."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ausgezeichnet. Bleibt die Frage des Change-Managements. Die langjährigen Mitarbeitenden fühlen sich durch jede Veränderung in ihrer Identität bedroht. Das ist menschlich nachvollziehbar und darf nicht als bloßer Widerstand abgetan werden. Ich würde empfehlen, die Mitarbeitenden von Anfang an in den Transformationsprozess einzubeziehen — nicht als Objekte des Wandels, sondern als dessen Mitgestalter. Workshops, in denen die Mitarbeitenden ihre eigene Vision für die Zukunft des Hauses artikulieren können, wären ein erster Schritt.",
+      "text_en": "Excellent. The question of change management remains. Long-standing staff feel threatened in their identity by every change. This is humanly understandable and must not be dismissed as mere resistance. I would recommend involving the staff from the very beginning in the transformation process — not as objects of change but as its co-creators. Workshops in which staff can articulate their own vision for the future of the house would be a first step."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dem schließe ich mich an. Lassen Sie mich unsere Strategie zusammenfassen: Erstens eine kuratorische Neuausrichtung, die Tradition und Innovation durch thematische Spielzeitmottos verbindet, ohne das bewährte Repertoire aufzugeben. Zweitens ein diversifiziertes Finanzierungsmodell mit Förderverein, transparentem Sponsoring und einer Charta der künstlerischen Unabhängigkeit. Drittens ein partizipatives Change-Management, das die Mitarbeitenden als Mitgestalter einbezieht. Und viertens eine behutsame digitale Erweiterung, die physische Kulturerlebnisse nicht ersetzt, sondern ergänzt und dem Haus überregionale Sichtbarkeit verschafft.",
+      "text_en": "I concur. Let me summarize our strategy: First, a curatorial realignment that connects tradition and innovation through thematic season mottos without abandoning the proven repertoire. Second, a diversified financing model with a friends' association, transparent sponsoring, and a charter of artistic independence. Third, a participatory change management that involves staff as co-creators. And fourth, a careful digital expansion that does not replace physical cultural experiences but supplements them and gives the house supra-regional visibility."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Eine stimmige und durchdachte Strategie. Entscheidend wird sein, dass die Umsetzung nicht überstürzt, sondern behutsam und transparent erfolgt. Ein Kulturhaus ist kein Unternehmen, das sich beliebig neu erfinden kann — es lebt von dem Vertrauen, das es über Jahrzehnte aufgebaut hat. Dieses Vertrauen zu bewahren und gleichzeitig den Wandel zu gestalten, ist die eigentliche Kunst.",
+      "text_en": "A coherent and well-thought-out strategy. The decisive factor will be that the implementation does not happen hastily but carefully and transparently. A cultural center is not a company that can reinvent itself at will — it lives on the trust it has built over decades. Preserving this trust while simultaneously shaping change is the real art."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Die Gesprächspartner erarbeiten kooperativ einen differenzierten, umsetzbaren Lösungsvorschlag und gehen auf alle relevanten Aspekte der Problemstellung ein.",
+    "Argumentation und Überzeugungskraft: Beide Gesprächspartner formulieren vielschichtige Argumente, wägen Alternativen souverän ab und gelangen durch konstruktive Auseinandersetzung zu einem tragfähigen Kompromiss.",
+    "Interaktion und Gesprächsführung: Die Gesprächspartner interagieren auf muttersprachlichem Niveau, nehmen präzise Bezug aufeinander, entwickeln Gedanken gemeinsam weiter und steuern das Gespräch kooperativ.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung institutioneller Fachsprache, diplomatischer Redemittel und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-1-001",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Phänomenologie der Wahrnehmung in der zeitgenössischen Kunst",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die in der Tradition Merleau-Pontys stehende Phänomenologie der Wahrnehmung hat in den vergangenen Jahrzehnten einen bemerkenswerten Einfluss auf die zeitgenössische Kunsttheorie ausgeübt. Anstatt das Kunstwerk als einen zu dechiffrierenden Zeichenträger zu begreifen, rückt der phänomenologische Ansatz die leibliche Erfahrung des Betrachters in den Vordergrund — eine Verschiebung, die weitreichende Konsequenzen für das Verständnis installativer und performativer Kunstformen nach sich zieht.\n\nDie von der traditionellen Ästhetik stillschweigend vorausgesetzte Dichotomie zwischen dem wahrnehmenden Subjekt und dem wahrgenommenen Objekt wird dabei grundlegend infrage gestellt. In der phänomenologischen Perspektive konstituiert sich die ästhetische Erfahrung vielmehr in einem Zwischenraum, in dem die Grenzen zwischen Betrachter und Werk oszillieren. Der in jüngster Zeit viel diskutierte Begriff der „Atmosphäre“, wie ihn Gernot Böhme für die Ästhetik fruchtbar gemacht hat, verweist auf eben jene vorreflexive Dimension des ästhetischen Erlebens, die sich einer rein kognitiven Analyse entzieht.\n\nKritiker dieses Ansatzes wenden ein, dass die Betonung der unmittelbaren leiblichen Erfahrung die historisch-gesellschaftliche Vermitteltheit jeder Wahrnehmung unterschlage. Eine ausschließlich auf das Phänomenale gerichtete Kunstbetrachtung laufe Gefahr, die in jedem Sehen sedimentierten kulturellen Prägungen und Machtstrukturen zu übersehen. Es bedürfe daher einer dialektischen Vermittlung zwischen phänomenologischer Unmittelbarkeit und ideologiekritischer Reflexion, um der Komplexität zeitgenössischer Kunst gerecht zu werden.",
+    "text_en": "The phenomenology of perception, standing in the tradition of Merleau-Ponty, has exerted a remarkable influence on contemporary art theory in recent decades. Rather than conceiving the artwork as a sign-carrier to be deciphered, the phenomenological approach foregrounds the embodied experience of the viewer — a shift that has far-reaching consequences for understanding installation and performance art forms.\n\nThe dichotomy between the perceiving subject and the perceived object, tacitly presupposed by traditional aesthetics, is thereby fundamentally called into question. In the phenomenological perspective, aesthetic experience constitutes itself rather in an interspace where the boundaries between viewer and work oscillate. The recently much-discussed concept of 'atmosphere,' as Gernot Böhme has made it productive for aesthetics, points to precisely that pre-reflexive dimension of aesthetic experience that eludes purely cognitive analysis.\n\nCritics of this approach object that the emphasis on immediate embodied experience suppresses the historically and socially mediated nature of all perception. An art contemplation directed exclusively at the phenomenal risks overlooking the cultural imprints and power structures sedimented in every act of seeing. A dialectical mediation between phenomenological immediacy and ideology-critical reflection would therefore be required to do justice to the complexity of contemporary art.",
+    "source": "Literaturkritik",
+    "word_count": 196
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Welche Verschiebung vollzieht der phänomenologische Ansatz in der Kunsttheorie?",
+      "text_en": "What shift does the phenomenological approach enact in art theory?",
+      "options": [
+        "a) Er stellt die leibliche Erfahrung des Betrachters in den Vordergrund.",
+        "b) Er betont die semiotische Entschlüsselung des Kunstwerks.",
+        "c) Er priorisiert die historische Kontextualisierung gegenüber der Wahrnehmung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der phänomenologische Ansatz rückt die leibliche Erfahrung des Betrachters in den Vordergrund, anstatt das Kunstwerk als Zeichenträger zu begreifen.",
+      "explanation_en": "The phenomenological approach foregrounds the embodied experience of the viewer rather than conceiving the artwork as a sign-carrier."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Gernot Böhme unter dem Begriff der „Atmosphäre“ im ästhetischen Kontext?",
+      "text_en": "What does Gernot Böhme understand by the concept of 'atmosphere' in the aesthetic context?",
+      "options": [
+        "a) Eine messbare physikalische Eigenschaft des Ausstellungsraums.",
+        "b) Die vorreflexive Dimension des ästhetischen Erlebens, die sich kognitiver Analyse entzieht.",
+        "c) Eine rein metaphorische Beschreibung der Raumgestaltung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Begriff der Atmosphäre verweist auf die vorreflexive Dimension des ästhetischen Erlebens, die sich einer rein kognitiven Analyse entzieht.",
+      "explanation_en": "The concept of atmosphere points to the pre-reflexive dimension of aesthetic experience that eludes purely cognitive analysis."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was werfen Kritiker dem phänomenologischen Ansatz vor?",
+      "text_en": "What do critics reproach the phenomenological approach with?",
+      "options": [
+        "a) Er sei zu stark auf die historische Vermittlung fixiert.",
+        "b) Er vernachlässige die gesellschaftliche Bedingtheit von Wahrnehmung.",
+        "c) Er überschätze die Rolle kognitiver Analyse in der Kunsterfahrung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kritiker wenden ein, dass die Betonung der leiblichen Erfahrung die historisch-gesellschaftliche Vermitteltheit jeder Wahrnehmung unterschlage.",
+      "explanation_en": "Critics object that the emphasis on embodied experience suppresses the historically and socially mediated nature of all perception."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was wird laut Text in der phänomenologischen Perspektive infrage gestellt?",
+      "text_en": "What is called into question in the phenomenological perspective according to the text?",
+      "options": [
+        "a) Die Dichotomie zwischen wahrnehmendem Subjekt und wahrgenommenem Objekt.",
+        "b) Die Relevanz der Leiblichkeit für die Kunsterfahrung.",
+        "c) Die Möglichkeit einer vorreflexiven Kunsterfahrung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die von der traditionellen Ästhetik vorausgesetzte Dichotomie zwischen Subjekt und Objekt wird grundlegend infrage gestellt.",
+      "explanation_en": "The dichotomy between perceiving subject and perceived object, presupposed by traditional aesthetics, is fundamentally called into question."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Lösung schlägt der Text für die Spannung zwischen Phänomenologie und Ideologiekritik vor?",
+      "text_en": "What solution does the text propose for the tension between phenomenology and ideology critique?",
+      "options": [
+        "a) Die vollständige Ablösung der Phänomenologie durch die Ideologiekritik.",
+        "b) Eine dialektische Vermittlung zwischen phänomenologischer Unmittelbarkeit und ideologiekritischer Reflexion.",
+        "c) Die Rückkehr zur traditionellen Ästhetik als Kompromiss."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es bedürfe einer dialektischen Vermittlung zwischen phänomenologischer Unmittelbarkeit und ideologiekritischer Reflexion.",
+      "explanation_en": "A dialectical mediation between phenomenological immediacy and ideology-critical reflection would be required."
+    }
+  ]
+}

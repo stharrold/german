@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-3-005",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Ethik der Künstlichen Intelligenz",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die ethische Bewertung autonomer Entscheidungssysteme steht vor dem grundsätzlichen Problem, dass die in der abendländischen Moralphilosophie entwickelten Zurechnungskategorien — Intentionalität, Verantwortung, Schuld — auf ein handelndes Subjekt zugeschnitten sind, das über Bewusstsein und Willensfreiheit verfügt. Maschinelle Entscheidungsprozesse, die auf statistischen Korrelationsmustern basieren und deren Ergebnisse selbst von ihren Entwicklern häufig nicht nachvollzogen werden können, entziehen sich diesen traditionellen Kategorien und erzeugen ein Verantwortungsvakuum, das weder durch individualethische noch durch rein technikregulatorische Ansätze geschlossen werden kann.\n\nBesonders virulent wird dieses Problem in Kontexten, in denen algorithmische Systeme über die Zuweisung gesellschaftlich relevanter Güter entscheiden — etwa in der Kreditvergabe, der strafrechtlichen Risikoeinschätzung oder der medizinischen Diagnostik. Die in den Trainingsdaten eingeschriebenen historischen Diskriminierungsmuster werden von selbstlernenden Systemen nicht korrigiert, sondern reproduziert und hinter einer Fassade technischer Objektivität verschleiert. Die vermeintliche Neutralität des Algorithmus erweist sich bei genauerer Analyse als Einschreibung vergangener Ungerechtigkeiten in die Entscheidungsarchitektur der Gegenwart.\n\nEine dem Problem angemessene ethische Rahmung müsste daher auf mehreren Ebenen ansetzen: auf der Ebene der algorithmischen Transparenz, die eine nachvollziehbare Darlegung der entscheidungsrelevanten Faktoren ermöglicht; auf der Ebene institutioneller Zurechenbarkeit, die klare Verantwortungsketten zwischen Entwicklern, Betreibern und Regulierungsbehörden etabliert; und auf der Ebene demokratischer Kontrolle, die sicherstellt, dass die normativen Prämissen automatisierter Entscheidungsprozesse gesellschaftlicher Deliberation unterworfen werden, anstatt als technische Implementierungsdetails der öffentlichen Debatte entzogen zu bleiben.",
+    "text_en": "The ethical assessment of autonomous decision systems faces the fundamental problem that the attribution categories developed in Western moral philosophy — intentionality, responsibility, guilt — are tailored to an acting subject that possesses consciousness and free will. Machine decision processes based on statistical correlation patterns, whose results frequently cannot be comprehended even by their developers, elude these traditional categories and generate a responsibility vacuum that can be closed by neither individual-ethical nor purely techno-regulatory approaches.\n\nThis problem becomes particularly virulent in contexts where algorithmic systems decide on the allocation of socially relevant goods — for example in credit allocation, criminal risk assessment, or medical diagnostics. The historical discrimination patterns inscribed in training data are not corrected by self-learning systems but reproduced and concealed behind a facade of technical objectivity. The supposed neutrality of the algorithm proves upon closer analysis to be an inscription of past injustices into the decision architecture of the present.\n\nAn ethical framework adequate to the problem would therefore have to operate on multiple levels: on the level of algorithmic transparency, enabling a comprehensible disclosure of decision-relevant factors; on the level of institutional accountability, establishing clear chains of responsibility between developers, operators, and regulatory authorities; and on the level of democratic control, ensuring that the normative premises of automated decision processes are subjected to societal deliberation rather than remaining withdrawn from public debate as technical implementation details.",
+    "source": "Fachzeitschrift",
+    "word_count": 214
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum greifen traditionelle moralphilosophische Zurechnungskategorien bei autonomen Systemen nicht?",
+      "text_en": "Why do traditional moral-philosophical attribution categories fail with autonomous systems?",
+      "options": [
+        "a) Weil autonome Systeme bereits über ein eigenes moralisches Bewusstsein verfügen.",
+        "b) Weil die abendländische Moralphilosophie veraltet ist und grundsätzlich reformiert werden muss.",
+        "c) Weil sie auf ein handelndes Subjekt mit Bewusstsein und Willensfreiheit zugeschnitten sind, das bei maschinellen Prozessen fehlt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Zurechnungskategorien sind auf ein Subjekt zugeschnitten, das über Bewusstsein und Willensfreiheit verfügt — Eigenschaften, die maschinelle Prozesse nicht besitzen.",
+      "explanation_en": "Attribution categories are tailored to a subject possessing consciousness and free will — qualities that machine processes do not possess."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was geschieht laut dem Text mit historischen Diskriminierungsmustern in selbstlernenden Systemen?",
+      "text_en": "According to the text, what happens to historical discrimination patterns in self-learning systems?",
+      "options": [
+        "a) Sie werden durch die überlegene Rechenleistung der Algorithmen erkannt und beseitigt.",
+        "b) Sie werden von den Systemen reproduziert und hinter einer Fassade technischer Objektivität verschleiert.",
+        "c) Sie werden von Aufsichtsbehörden systematisch aus den Trainingsdaten entfernt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die in den Trainingsdaten eingeschriebenen Diskriminierungsmuster werden reproduziert und hinter einer Fassade technischer Objektivität verschleiert.",
+      "explanation_en": "Discrimination patterns inscribed in training data are reproduced and concealed behind a facade of technical objectivity."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was versteht der Text unter der 'vermeintlichen Neutralität des Algorithmus'?",
+      "text_en": "What does the text understand by the 'supposed neutrality of the algorithm'?",
+      "options": [
+        "a) Die Einschreibung vergangener Ungerechtigkeiten in die Entscheidungsarchitektur der Gegenwart.",
+        "b) Die mathematische Korrektheit der verwendeten statistischen Verfahren.",
+        "c) Die Tatsache, dass Algorithmen frei von menschlichen Vorurteilen programmiert werden."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die vermeintliche Neutralität erweist sich als Einschreibung vergangener Ungerechtigkeiten in die Entscheidungsarchitektur der Gegenwart.",
+      "explanation_en": "The supposed neutrality proves to be an inscription of past injustices into the decision architecture of the present."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Auf welchen Ebenen müsste eine angemessene ethische Rahmung ansetzen?",
+      "text_en": "On which levels would an adequate ethical framework need to operate?",
+      "options": [
+        "a) Nur auf der Ebene der technischen Regulierung durch staatliche Behörden.",
+        "b) Auf den Ebenen der Grundlagenforschung, der Produktentwicklung und der Markteinführung.",
+        "c) Auf den Ebenen der algorithmischen Transparenz, der institutionellen Zurechenbarkeit und der demokratischen Kontrolle."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die ethische Rahmung muss auf den Ebenen der algorithmischen Transparenz, der institutionellen Zurechenbarkeit und der demokratischen Kontrolle ansetzen.",
+      "explanation_en": "The ethical framework must operate on the levels of algorithmic transparency, institutional accountability, and democratic control."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Autor in Bezug auf die normativen Prämissen automatisierter Entscheidungen?",
+      "text_en": "What does the author demand regarding the normative premises of automated decisions?",
+      "options": [
+        "a) Dass sie als technische Implementierungsdetails behandelt und Ingenieuren überlassen werden.",
+        "b) Dass sie gesellschaftlicher Deliberation unterworfen werden, anstatt der öffentlichen Debatte entzogen zu bleiben.",
+        "c) Dass sie durch internationale Abkommen einheitlich festgelegt werden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die normativen Prämissen automatisierter Entscheidungsprozesse sollen gesellschaftlicher Deliberation unterworfen werden.",
+      "explanation_en": "The normative premises of automated decision processes should be subjected to societal deliberation."
+    }
+  ]
+}

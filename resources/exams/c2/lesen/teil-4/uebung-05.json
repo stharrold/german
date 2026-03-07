@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-4-005",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Soziolinguistik und Sprachideologie",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die soziolinguistische Erforschung von Sprachideologien untersucht die metasprachlichen Überzeugungen und Bewertungen, die Sprechergemeinschaften über ihre eigene und fremde Sprachen entwickeln und die weit über rein deskriptive Beobachtungen hinausgehen. Sprachideologien sind in diesem Verständnis keine individuellen Meinungen, sondern gesellschaftlich strukturierte Repräsentationssysteme, die sprachliche Praktiken naturalisieren, hierarchisieren und mit moralischen Bewertungen versehen. Die in vielen europäischen Gesellschaften vorherrschende Standardsprachideologie, die eine bestimmte Varietät als die eigentliche, korrekte Form der Sprache definiert und alle davon abweichenden Varietäten als fehlerhaft oder minderwertig markiert, stellt das paradigmatische Beispiel einer solchen ideologischen Konstruktion dar.\n\nDie von Bourdieu als sprachlicher Markt konzeptualisierte soziale Arena, in der die Sprecher um symbolisches Kapital konkurrieren, veranschaulicht den ökonomischen Charakter sprachideologischer Prozesse. Die Beherrschung der Standardsprache fungiert als distinktives Merkmal sozialer Zugehörigkeit und determiniert den Zugang zu Bildungsinstitutionen, Arbeitsmarkt und politischer Teilhabe. Die unter dem Deckmantel sprachlicher Korrektheit vollzogene Entwertung regionaler Varietäten und sozialer Dialekte erweist sich bei genauerer Analyse als Mechanismus sozialer Exklusion, der die bestehende Hierarchie gesellschaftlicher Gruppen reproduziert und legitimiert.\n\nGegen die essentialistische Gleichsetzung von Sprache und Nation — eine ideologische Konstruktion, deren Ursprünge im europäischen Nationalismus des neunzehnten Jahrhunderts liegen — hat die neuere Soziolinguistik das Konzept der Mehrsprachigkeit als gesellschaftlichen Normalfall rehabilitiert. Die in globalisierten urbanen Räumen beobachtbaren translingualen Praktiken, in denen Sprecher flexibel zwischen Sprachen, Varietäten und Registern wechseln, stellen das monolinguale Paradigma grundsätzlich infrage und verweisen auf eine Konzeption von Sprache als dynamischem Repertoire statt als fest umgrenztem System.",
+    "text_en": "The sociolinguistic study of language ideologies examines the metalinguistic beliefs and evaluations that speech communities develop about their own and others' languages, going far beyond purely descriptive observations. Language ideologies in this understanding are not individual opinions but socially structured systems of representation that naturalize, hierarchize, and attach moral evaluations to linguistic practices. The standard language ideology prevailing in many European societies, which defines a particular variety as the actual, correct form of the language and marks all deviating varieties as faulty or inferior, represents the paradigmatic example of such an ideological construction.\n\nThe social arena conceptualized by Bourdieu as the linguistic market, in which speakers compete for symbolic capital, illustrates the economic character of language-ideological processes. Command of the standard language functions as a distinctive marker of social belonging and determines access to educational institutions, the labor market, and political participation. The devaluation of regional varieties and social dialects, carried out under the guise of linguistic correctness, proves upon closer analysis to be a mechanism of social exclusion that reproduces and legitimizes the existing hierarchy of social groups.\n\nAgainst the essentialist equation of language and nation — an ideological construction whose origins lie in European nationalism of the nineteenth century — recent sociolinguistics has rehabilitated the concept of multilingualism as the societal norm. The translingual practices observable in globalized urban spaces, in which speakers flexibly switch between languages, varieties, and registers, fundamentally question the monolingual paradigm and point toward a conception of language as a dynamic repertoire rather than a firmly bounded system.",
+    "source": "Sprachwissenschaft",
+    "word_count": 235
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was sind Sprachideologien im soziolinguistischen Verständnis?",
+      "text_en": "What are language ideologies in the sociolinguistic understanding?",
+      "options": [
+        "a) Individuelle Meinungen über die Schönheit bestimmter Sprachen.",
+        "b) Wissenschaftlich fundierte Beschreibungen sprachlicher Strukturen.",
+        "c) Gesellschaftlich strukturierte Repräsentationssysteme, die sprachliche Praktiken naturalisieren und hierarchisieren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sprachideologien sind gesellschaftlich strukturierte Repräsentationssysteme, die sprachliche Praktiken naturalisieren, hierarchisieren und mit moralischen Bewertungen versehen.",
+      "explanation_en": "Language ideologies are socially structured systems of representation that naturalize, hierarchize, and attach moral evaluations to linguistic practices."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche Funktion erfüllt die Beherrschung der Standardsprache laut Bourdieu?",
+      "text_en": "What function does command of the standard language fulfill according to Bourdieu?",
+      "options": [
+        "a) Sie ermöglicht eine genauere Beschreibung wissenschaftlicher Sachverhalte.",
+        "b) Sie fungiert als distinktives Merkmal sozialer Zugehörigkeit und determiniert den Zugang zu Institutionen.",
+        "c) Sie dient ausschließlich der interkulturellen Verständigung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Beherrschung der Standardsprache fungiert als distinktives Merkmal sozialer Zugehörigkeit und determiniert den Zugang zu Bildungsinstitutionen, Arbeitsmarkt und politischer Teilhabe.",
+      "explanation_en": "Command of the standard language functions as a distinctive marker of social belonging and determines access to educational institutions, the labor market, and political participation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was erweist sich die Entwertung regionaler Varietäten laut dem Text bei genauerer Analyse?",
+      "text_en": "What does the devaluation of regional varieties prove to be upon closer analysis according to the text?",
+      "options": [
+        "a) Als Mechanismus sozialer Exklusion, der bestehende Hierarchien reproduziert und legitimiert.",
+        "b) Als notwendige Maßnahme zur Sicherung der nationalen Verständigung.",
+        "c) Als unvermeidliche Folge natürlicher Sprachentwicklung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Entwertung regionaler Varietäten erweist sich als Mechanismus sozialer Exklusion, der die bestehende Hierarchie gesellschaftlicher Gruppen reproduziert und legitimiert.",
+      "explanation_en": "The devaluation of regional varieties proves to be a mechanism of social exclusion that reproduces and legitimizes the existing hierarchy of social groups."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Ursprung hat die Gleichsetzung von Sprache und Nation laut dem Text?",
+      "text_en": "What origin does the equation of language and nation have according to the text?",
+      "options": [
+        "a) Die sprachwissenschaftliche Forschung der Aufklärung.",
+        "b) Die antike griechische Philosophie und ihre Sprachreflexion.",
+        "c) Den europäischen Nationalismus des neunzehnten Jahrhunderts."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Gleichsetzung von Sprache und Nation ist eine ideologische Konstruktion, deren Ursprünge im europäischen Nationalismus des neunzehnten Jahrhunderts liegen.",
+      "explanation_en": "The equation of language and nation is an ideological construction whose origins lie in European nationalism of the nineteenth century."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was stellen translinguale Praktiken in globalisierten urbanen Räumen infrage?",
+      "text_en": "What do translingual practices in globalized urban spaces question?",
+      "options": [
+        "a) Die Notwendigkeit einer schulischen Sprachausbildung.",
+        "b) Das monolinguale Paradigma und die Konzeption von Sprache als fest umgrenztem System.",
+        "c) Die Existenz regionaler Varietäten und sozialer Dialekte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Translinguale Praktiken stellen das monolinguale Paradigma grundsätzlich infrage und verweisen auf Sprache als dynamisches Repertoire statt als fest umgrenztes System.",
+      "explanation_en": "Translingual practices fundamentally question the monolingual paradigm and point toward language as a dynamic repertoire rather than a firmly bounded system."
+    }
+  ]
+}

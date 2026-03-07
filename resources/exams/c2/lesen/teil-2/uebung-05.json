@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-2-005",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Computational Sociology und emergentes Verhalten",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die Computational Sociology hat sich in den vergangenen Jahrzehnten als ein Forschungsparadigma etabliert, das die traditionellen Methoden der empirischen Sozialforschung durch agentenbasierte Modellierung und die Analyse großer Datensätze ergänzt. Der diesem Ansatz zugrunde liegende methodologische Individualismus geht davon aus, dass sich makrosoziale Phänomene — von Segregationsmustern über Marktdynamiken bis hin zu kollektiven Handlungsdilemmas — als emergente Effekte der Interaktionen einer Vielzahl individueller Akteure erklären lassen, ohne auf holistische Entitäten wie „die Gesellschaft“ oder „das System“ rekurrieren zu müssen.\n\nDas von Schelling in einem wegweisenden Modell demonstrierte Prinzip, wonach selbst milde individuelle Präferenzen hinsichtlich der Nachbarschaftszusammensetzung zu extremer räumlicher Segregation führen können, gilt als paradigmatisches Beispiel für die Emergenz sozialer Strukturen aus individuellen Handlungen. Die in solchen Modellen sichtbar werdende Nichtlinearität — kleine Änderungen der Modellparameter können qualitativ völlig unterschiedliche Gleichgewichtszustände hervorbringen — stellt die in der klassischen Soziologie verbreitete Annahme proportionaler Ursache-Wirkungs-Beziehungen fundamental infrage.\n\nKritiker der Computational Sociology wenden ein, dass die Reduktion sozialer Akteure auf regelfolgende Agenten die Bedeutung subjektiver Sinngebung, kultureller Rahmungen und machtstruktureller Kontexte systematisch unterschätze. Die in agentenbasierten Modellen notwendigerweise vorgenommenen Vereinfachungen menschlichen Handelns — die Festlegung auf begrenzte Handlungsalternativen und deterministische Entscheidungsregeln — blendeten gerade jene Dimensionen sozialer Wirklichkeit aus, die das Spezifikum des Sozialen gegenüber natürlichen Systemen ausmachten: Reflexivität, Interpretativität und die Fähigkeit zur bewussten Normtransgression.",
+    "text_en": "Computational sociology has established itself in recent decades as a research paradigm that supplements the traditional methods of empirical social research through agent-based modeling and the analysis of large datasets. The methodological individualism underlying this approach assumes that macro-social phenomena — from segregation patterns through market dynamics to collective action dilemmas — can be explained as emergent effects of the interactions of a multitude of individual actors, without needing to resort to holistic entities such as 'society' or 'the system.'\n\nThe principle demonstrated by Schelling in a pioneering model, according to which even mild individual preferences regarding neighborhood composition can lead to extreme spatial segregation, is considered a paradigmatic example of the emergence of social structures from individual actions. The nonlinearity visible in such models — small changes in model parameters can produce qualitatively entirely different equilibrium states — fundamentally challenges the assumption of proportional cause-and-effect relationships prevalent in classical sociology.\n\nCritics of computational sociology object that the reduction of social actors to rule-following agents systematically underestimates the significance of subjective meaning-making, cultural framings, and power-structural contexts. The simplifications of human action necessarily undertaken in agent-based models — the restriction to limited action alternatives and deterministic decision rules — block out precisely those dimensions of social reality that constitute the specificity of the social vis-a-vis natural systems: reflexivity, interpretativity, and the capacity for conscious norm transgression.",
+    "source": "Wissenschaftsjournal",
+    "word_count": 212
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was besagt der methodologische Individualismus der Computational Sociology?",
+      "text_en": "What does the methodological individualism of computational sociology state?",
+      "options": [
+        "a) Dass makrosoziale Phänomene nur durch holistische Theorien erklärbar sind.",
+        "b) Dass individuelle Akteure keinen Einfluss auf soziale Strukturen haben.",
+        "c) Dass sich makrosoziale Phänomene als emergente Effekte individueller Interaktionen erklären lassen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der methodologische Individualismus geht davon aus, dass sich makrosoziale Phänomene als emergente Effekte der Interaktionen individueller Akteure erklären lassen.",
+      "explanation_en": "Methodological individualism assumes that macro-social phenomena can be explained as emergent effects of individual actors' interactions."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was demonstriert das Schelling-Modell?",
+      "text_en": "What does the Schelling model demonstrate?",
+      "options": [
+        "a) Dass Segregation nur durch extremen Rassismus entsteht.",
+        "b) Dass selbst milde individuelle Präferenzen zu extremer räumlicher Segregation führen können.",
+        "c) Dass Segregation ein rein politisches Phänomen ist."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Schelling-Modell zeigt, dass selbst milde individuelle Präferenzen hinsichtlich der Nachbarschaftszusammensetzung zu extremer räumlicher Segregation führen können.",
+      "explanation_en": "The Schelling model shows that even mild individual preferences regarding neighborhood composition can lead to extreme spatial segregation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was stellt die in agentenbasierten Modellen sichtbare Nichtlinearität infrage?",
+      "text_en": "What does the nonlinearity visible in agent-based models challenge?",
+      "options": [
+        "a) Die Annahme proportionaler Ursache-Wirkungs-Beziehungen in der klassischen Soziologie.",
+        "b) Die Existenz sozialer Strukturen überhaupt.",
+        "c) Die Möglichkeit jeder Form soziologischer Theoriebildung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Nichtlinearität stellt die in der klassischen Soziologie verbreitete Annahme proportionaler Ursache-Wirkungs-Beziehungen fundamental infrage.",
+      "explanation_en": "The nonlinearity fundamentally challenges the assumption of proportional cause-and-effect relationships prevalent in classical sociology."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Dimensionen sozialer Wirklichkeit werden laut Kritikern in agentenbasierten Modellen ausgeblendet?",
+      "text_en": "Which dimensions of social reality are blocked out in agent-based models according to critics?",
+      "options": [
+        "a) Wirtschaftliche Produktionsverhältnisse und Marktmechanismen.",
+        "b) Demografische Entwicklungen und Bevölkerungswachstum.",
+        "c) Reflexivität, Interpretativität und die Fähigkeit zur bewussten Normtransgression."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Agentenbasierte Modelle blendeten Reflexivität, Interpretativität und die Fähigkeit zur bewussten Normtransgression aus.",
+      "explanation_en": "Agent-based models block out reflexivity, interpretativity, and the capacity for conscious norm transgression."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was unterschätzt die Reduktion sozialer Akteure auf regelfolgende Agenten laut Kritikern?",
+      "text_en": "What does the reduction of social actors to rule-following agents underestimate according to critics?",
+      "options": [
+        "a) Die Rechenleistung moderner Computer.",
+        "b) Die Bedeutung subjektiver Sinngebung, kultureller Rahmungen und Machtkontexte.",
+        "c) Die statistische Aussagekraft großer Datensätze."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Reduktion unterschätze die Bedeutung subjektiver Sinngebung, kultureller Rahmungen und machtstruktureller Kontexte systematisch.",
+      "explanation_en": "The reduction systematically underestimates the significance of subjective meaning-making, cultural framings, and power-structural contexts."
+    }
+  ]
+}

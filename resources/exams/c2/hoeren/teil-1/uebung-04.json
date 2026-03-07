@@ -1,0 +1,118 @@
+{
+  "id": "c2-hoeren-teil-1-004",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Musikalische Ästhetik und Kulturkritik",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zum Symposium „Klang und Gesellschaft“ an der Hochschule für Musik und Theater. Unser heutiger Gast ist Professorin Dr. Renate Fassbinder, Musikwissenschaftlerin und Kulturphilosophin. Frau Professorin Fassbinder, Sie haben vor Kurzem die These aufgestellt, dass die Autonomieästhetik der Musik im Grunde eine bürgerliche Ideologie darstelle. Können Sie das erläutern?",
+      "text_en": "Welcome to the symposium 'Sound and Society' at the University of Music and Theatre. Our guest today is Professor Dr. Renate Fassbinder, musicologist and cultural philosopher. Professor Fassbinder, you recently proposed the thesis that the autonomy aesthetics of music is essentially a bourgeois ideology. Could you elaborate?"
+    },
+    {
+      "speaker": "Prof. Dr. Fassbinder",
+      "text_de": "Herzlichen Dank. Die Idee, dass Musik eine rein autonome, von gesellschaftlichen Bezügen losgelöste Kunstform sei, die nur nach immanent musikalischen Kriterien beurteilt werden könne, ist historisch betrachtet eine Erfindung des späten achtzehnten Jahrhunderts. Sie korrespondiert mit dem Aufstieg des Bürgertums, das den Konzertsaal als einen Ort der ästhetischen Kontemplation konstituierte — im Gegensatz etwa zur höfischen Musik, die immer funktional eingebunden war. Die Autonomieästhetik ist insofern keine überzeitliche Wahrheit, sondern ein soziokulturelles Konstrukt, das bestimmte Machtstrukturen legitimiert.",
+      "text_en": "Thank you very much. The idea that music is a purely autonomous art form, detached from social references, that can only be judged by immanently musical criteria, is historically speaking an invention of the late eighteenth century. It corresponds to the rise of the bourgeoisie, which constituted the concert hall as a place of aesthetic contemplation — in contrast, for example, to courtly music, which was always functionally embedded. The autonomy aesthetics is, in this respect, not a timeless truth but a sociocultural construct that legitimizes certain power structures."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Aber hat nicht Adorno gezeigt, dass gerade die Autonomie der Musik ihr gesellschaftskritisches Potenzial ausmacht?",
+      "text_en": "But didn't Adorno show that it is precisely the autonomy of music that constitutes its socially critical potential?"
+    },
+    {
+      "speaker": "Prof. Dr. Fassbinder",
+      "text_de": "Sie sprechen einen entscheidenden Punkt an. Adornos Position ist in der Tat subtiler, als ich sie eben dargestellt habe: Für ihn ist die Autonomie der Musik zugleich Schein und Wahrheit. Schein, weil keine Musik je vollständig von der Gesellschaft abgelöst werden kann; Wahrheit, weil gerade in der Verweigerung unmittelbarer gesellschaftlicher Funktion ein utopisches Moment aufscheint — das Versprechen eines Zustands jenseits der Herrschaft. Allerdings — und hier weiche ich von Adorno ab — führt diese dialektische Konstruktion zu einer problematischen Hierarchisierung: Nur die atonale, avantgardistische Musik gilt als gesellschaftskritisch, während jede Form populärer Musik als Kulturindustrie abqualifiziert wird.",
+      "text_en": "You raise a crucial point. Adorno's position is indeed more subtle than I have just presented it: for him, the autonomy of music is simultaneously semblance and truth. Semblance, because no music can ever be completely detached from society; truth, because precisely in the refusal of an immediate social function a utopian moment shines through — the promise of a state beyond domination. However — and here I depart from Adorno — this dialectical construction leads to a problematic hierarchy: only atonal, avant-garde music counts as socially critical, while every form of popular music is dismissed as culture industry."
+    },
+    {
+      "speaker": "Prof. Dr. Fassbinder",
+      "text_de": "Was ich stattdessen vorschlage, ist eine kontextualistische Ästhetik, die musikalische Werke weder auf ihre gesellschaftliche Funktion reduziert noch von ihr abstrahiert. Musik ist immer beides: ein ästhetisches Gebilde mit eigener Logik und ein soziales Phänomen, das in Machtverhältnisse eingebettet ist. Die Aufgabe der Musikästhetik besteht darin, diese Doppelstruktur zu denken, ohne sie nach einer Seite hin aufzulösen. Das bedeutet auch, dass wir die Grenze zwischen sogenannter Ernster und Unterhaltungsmusik nicht als ästhetische Tatsache, sondern als Ergebnis sozialer Distinktionsprozesse begreifen müssen.",
+      "text_en": "What I propose instead is a contextualist aesthetics that neither reduces musical works to their social function nor abstracts from it. Music is always both: an aesthetic construct with its own logic and a social phenomenon embedded in power relations. The task of musical aesthetics is to think this dual structure without dissolving it in one direction. This also means that we must understand the boundary between so-called serious and popular music not as an aesthetic fact but as a result of social processes of distinction."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Welche Konsequenzen hat das für die musikalische Bildung und den Kanon?",
+      "text_en": "What consequences does this have for musical education and the canon?"
+    },
+    {
+      "speaker": "Prof. Dr. Fassbinder",
+      "text_de": "Weitreichende Konsequenzen. Wenn der Kanon nicht Ausdruck überzeitlicher ästhetischer Werte ist, sondern das Ergebnis historisch kontingenter Kanonisierungsprozesse, dann muss er grundsätzlich offen für Revision sein. Das heißt nicht, dass Bach oder Beethoven ihren Platz verlieren sollen — im Gegenteil, ihre Werke gewinnen an analytischer Tiefe, wenn wir sie in ihren sozialen Entstehungskontext zurückversetzen. Es heißt aber, dass wir die Ausschlussmechanismen reflektieren müssen: Warum fehlen Komponistinnen so weitgehend im Kanon? Warum wird außereuropäische Musik marginalisiert? Diese Fragen sind keine modischen Zugeständnisse an den Zeitgeist, sondern genuin ästhetische Fragen, die das Selbstverständnis der Disziplin betreffen.",
+      "text_en": "Far-reaching consequences. If the canon is not an expression of timeless aesthetic values but the result of historically contingent canonization processes, then it must be fundamentally open to revision. This does not mean that Bach or Beethoven should lose their place — on the contrary, their works gain analytical depth when we restore them to their social context of origin. But it does mean that we must reflect on the mechanisms of exclusion: why are women composers so largely absent from the canon? Why is non-European music marginalized? These questions are not fashionable concessions to the zeitgeist but genuinely aesthetic questions that concern the discipline's self-understanding."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Fassbinder unter der Autonomieästhetik der Musik?",
+      "text_en": "What does Fassbinder understand by the autonomy aesthetics of music?",
+      "options": [
+        "a) Ein historisch entstandenes soziokulturelles Konstrukt, das bestimmte Machtstrukturen legitimiert.",
+        "b) Eine überzeitliche ästhetische Wahrheit, die für alle Musikformen universell gilt.",
+        "c) Ein technischer Begriff der Musiktheorie ohne gesellschaftliche Dimension."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Fassbinder beschreibt die Autonomieästhetik als eine historische Erfindung des späten achtzehnten Jahrhunderts, die mit dem Aufstieg des Bürgertums korrespondiert und Machtstrukturen legitimiert.",
+      "explanation_en": "Fassbinder describes autonomy aesthetics as a historical invention of the late eighteenth century that corresponds to the rise of the bourgeoisie and legitimizes power structures."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Worin liegt laut Fassbinder die Problematik von Adornos Position?",
+      "text_en": "Where does the problem with Adorno's position lie according to Fassbinder?",
+      "options": [
+        "a) Adorno ignoriert die Autonomie der Musik vollständig.",
+        "b) Adorno hält jede Musik für gleichermaßen gesellschaftskritisch.",
+        "c) Adornos Dialektik führt zu einer Hierarchisierung, die nur avantgardistische Musik als kritisch anerkennt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Fassbinder kritisiert, dass Adornos dialektische Konstruktion nur atonale, avantgardistische Musik als gesellschaftskritisch gelten lässt und populäre Musik als Kulturindustrie abqualifiziert.",
+      "explanation_en": "Fassbinder criticizes that Adorno's dialectical construction only recognizes atonal, avant-garde music as socially critical and dismisses popular music as culture industry."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kennzeichnet Fassbinders kontextualistische Ästhetik?",
+      "text_en": "What characterizes Fassbinder's contextualist aesthetics?",
+      "options": [
+        "a) Die vollständige Reduktion musikalischer Werke auf ihre Marktfunktion.",
+        "b) Die Erkenntnis, dass Musik zugleich ästhetisches Gebilde und soziales Phänomen ist, ohne diese Doppelstruktur aufzulösen.",
+        "c) Die ausschließliche Konzentration auf die formale Struktur des musikalischen Werks."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Fassbinders kontextualistische Ästhetik denkt Musik als Doppelstruktur — ästhetisches Gebilde mit eigener Logik und soziales Phänomen in Machtverhältnissen — ohne nach einer Seite aufzulösen.",
+      "explanation_en": "Fassbinder's contextualist aesthetics conceives of music as a dual structure — aesthetic construct with its own logic and social phenomenon in power relations — without dissolving it in one direction."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Fassbinder die Doppelnatur der Autonomie bei Adorno?",
+      "text_en": "What is the dual nature of autonomy in Adorno according to Fassbinder?",
+      "options": [
+        "a) Zugleich Schein — da Musik nie von der Gesellschaft abgelöst ist — und Wahrheit — da in der Verweigerung ein utopisches Moment aufscheint.",
+        "b) Zugleich Theorie und Praxis, die untrennbar miteinander verbunden sind.",
+        "c) Zugleich nationaler Ausdruck und universale Kunst, die kulturelle Grenzen überwindet."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Für Adorno ist die Autonomie zugleich Schein (keine Musik ist je vollständig gesellschaftsfrei) und Wahrheit (in der Verweigerung unmittelbarer Funktion scheint ein utopisches Moment auf).",
+      "explanation_en": "For Adorno, autonomy is simultaneously semblance (no music is ever completely free of society) and truth (in the refusal of immediate function a utopian moment shines through)."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Konsequenz zieht Fassbinder für den musikalischen Kanon?",
+      "text_en": "What consequence does Fassbinder draw for the musical canon?",
+      "options": [
+        "a) Bach und Beethoven sollten aus dem Kanon entfernt werden.",
+        "b) Der Kanon sollte unverändert bleiben, da er ästhetische Qualität widerspiegelt.",
+        "c) Der Kanon muss grundsätzlich offen für Revision sein, und Ausschlussmechanismen müssen reflektiert werden."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Fassbinder fordert, dass der Kanon als Ergebnis historisch kontingenter Prozesse offen für Revision sein muss und Ausschlussmechanismen reflektiert werden müssen.",
+      "explanation_en": "Fassbinder demands that the canon, as a result of historically contingent processes, must be open to revision and exclusion mechanisms must be reflected upon."
+    }
+  ]
+}

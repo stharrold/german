@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-2-001",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Neurolinguistik und bilinguale Kognition",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die neurolinguistische Erforschung bilingualer Kognition hat in den vergangenen Jahrzehnten zu einer grundlegenden Revision tradierter Vorstellungen über die zerebrale Organisation von Sprache geführt. Das von der klassischen Aphasiologie postulierte Modell strikt lokalisierter Sprachzentren — Broca-Areal für die Produktion, Wernicke-Areal für das Verstehen — erweist sich angesichts neuerer bildgebender Verfahren als vereinfachend. Insbesondere bei bilingualen Sprechern zeigen funktionelle Magnetresonanztomographien ein weitaus komplexeres Aktivierungsmuster, das über die traditionell definierten Sprachareale hinausreicht.\n\nDie seit langem kontrovers diskutierte Frage, ob die Erstsprache und die Zweitsprache in überlappenden oder getrennten neuronalen Netzwerken repräsentiert sind, lässt sich nicht pauschal beantworten. Entscheidend sind vielmehr das Erwerbsalter und das Kompetenzniveau: Früh-Bilinguale, die beide Sprachen vor dem sechsten Lebensjahr erworben haben, weisen eine weitgehend überlappende kortikale Repräsentation auf, während Spät-Bilinguale für die Zweitsprache zusätzliche präfrontale Areale rekrutieren, die mit erhöhter kognitiver Kontrolle assoziiert sind.\n\nBesonders aufschlussreich ist die neurowissenschaftliche Untersuchung des sogenannten Sprachwechsels. Die beim Umschalten zwischen zwei Sprachen beobachtbare Aktivierung des dorsolateralen Präfrontalkortex und des anterioren Cingulums deutet darauf hin, dass bilinguale Sprachverarbeitung wesentlich exekutive Kontrollprozesse einschließt. Die daraus abgeleitete Hypothese eines bilingualen kognitiven Vorteils — wonach die permanente Übung im Inhibieren der jeweils nicht benötigten Sprache zu einer generell verbesserten exekutiven Kontrolle führe — wird allerdings zunehmend differenziert betrachtet.",
+    "text_en": "Neurolinguistic research on bilingual cognition has led in recent decades to a fundamental revision of traditional conceptions about the cerebral organization of language. The model of strictly localized language centers postulated by classical aphasiology — Broca's area for production, Wernicke's area for comprehension — proves simplistic in light of newer imaging techniques. Particularly in bilingual speakers, functional magnetic resonance imaging reveals a far more complex activation pattern that extends beyond the traditionally defined language areas.\n\nThe long controversially discussed question of whether the first language and the second language are represented in overlapping or separate neural networks cannot be answered categorically. Rather, the age of acquisition and the level of competence are decisive: early bilinguals who acquired both languages before age six show a largely overlapping cortical representation, while late bilinguals recruit additional prefrontal areas for the second language that are associated with increased cognitive control.\n\nParticularly illuminating is the neuroscientific investigation of so-called language switching. The activation of the dorsolateral prefrontal cortex and the anterior cingulate observable when switching between two languages suggests that bilingual language processing essentially involves executive control processes. The hypothesis of a bilingual cognitive advantage derived from this — according to which the permanent exercise in inhibiting the language not currently needed leads to generally improved executive control — is, however, increasingly viewed with differentiation.",
+    "source": "Wissenschaftsjournal",
+    "word_count": 202
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum gilt das klassische aphasiologische Modell der Sprachzentren als vereinfachend?",
+      "text_en": "Why is the classical aphasiological model of language centers considered simplistic?",
+      "options": [
+        "a) Neuere bildgebende Verfahren zeigen ein weitaus komplexeres Aktivierungsmuster bei bilingualen Sprechern.",
+        "b) Die klassischen Sprachzentren existieren neuroanatomisch nicht.",
+        "c) Aphasiepatienten zeigen keinerlei sprachliche Ausfälle."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Funktionelle Magnetresonanztomographien zeigen bei bilingualen Sprechern ein weitaus komplexeres Aktivierungsmuster, das über die traditionellen Sprachareale hinausreicht.",
+      "explanation_en": "Functional MRI reveals a far more complex activation pattern in bilingual speakers that extends beyond the traditionally defined language areas."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet Früh-Bilinguale von Spät-Bilingualen hinsichtlich der kortikalen Repräsentation?",
+      "text_en": "What distinguishes early bilinguals from late bilinguals regarding cortical representation?",
+      "options": [
+        "a) Früh-Bilinguale nutzen ausschließlich das Broca-Areal für beide Sprachen.",
+        "b) Früh-Bilinguale weisen überlappende Repräsentationen auf, Spät-Bilinguale rekrutieren zusätzliche präfrontale Areale.",
+        "c) Spät-Bilinguale haben eine vollständig getrennte kortikale Repräsentation beider Sprachen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Früh-Bilinguale weisen eine weitgehend überlappende kortikale Repräsentation auf, während Spät-Bilinguale zusätzliche präfrontale Areale rekrutieren.",
+      "explanation_en": "Early bilinguals show largely overlapping cortical representation, while late bilinguals recruit additional prefrontal areas."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was deutet die Aktivierung des dorsolateralen Präfrontalkortex beim Sprachwechsel an?",
+      "text_en": "What does the activation of the dorsolateral prefrontal cortex during language switching indicate?",
+      "options": [
+        "a) Dass Sprachwechsel ohne kognitive Anstrengung erfolgt.",
+        "b) Dass bilinguale Sprachverarbeitung keine exekutiven Kontrollprozesse erfordert.",
+        "c) Dass bilinguale Sprachverarbeitung wesentlich exekutive Kontrollprozesse einschließt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Aktivierung deutet darauf hin, dass bilinguale Sprachverarbeitung wesentlich exekutive Kontrollprozesse einschließt.",
+      "explanation_en": "The activation suggests that bilingual language processing essentially involves executive control processes."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Faktoren sind entscheidend für die neuronale Repräsentation bei Bilingualen?",
+      "text_en": "Which factors are decisive for neural representation in bilinguals?",
+      "options": [
+        "a) Das Erwerbsalter und das Kompetenzniveau.",
+        "b) Die genetische Veranlagung und das Geschlecht.",
+        "c) Die Ähnlichkeit der beiden Sprachen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Entscheidend sind das Erwerbsalter und das Kompetenzniveau für die kortikale Repräsentation.",
+      "explanation_en": "The age of acquisition and the level of competence are decisive for cortical representation."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie wird die Hypothese eines bilingualen kognitiven Vorteils aktuell bewertet?",
+      "text_en": "How is the hypothesis of a bilingual cognitive advantage currently evaluated?",
+      "options": [
+        "a) Sie gilt als eindeutig widerlegt.",
+        "b) Sie wird zunehmend differenziert betrachtet.",
+        "c) Sie ist uneingeschränkt bestätigt worden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Hypothese eines bilingualen kognitiven Vorteils wird zunehmend differenziert betrachtet.",
+      "explanation_en": "The hypothesis of a bilingual cognitive advantage is increasingly viewed with differentiation."
+    }
+  ]
+}

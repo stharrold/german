@@ -1,0 +1,113 @@
+{
+  "id": "c2-hoeren-teil-2-003",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Wirtschaftsphilosophie und Marktethik",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zur Podiumsdiskussion „Markt und Moral“ am Institut für Wirtschaftsethik. Auf dem Podium sitzen Professor Dr. Jonas Hartmann, Wirtschaftsphilosoph, und Professorin Dr. Sabine Kessler, Ökonomin mit dem Schwerpunkt Verhaltensökonomik. Herr Professor Hartmann, Sie haben in Ihrem jüngsten Buch die These vertreten, dass der Markt keine moralfreie Zone sei. Was meinen Sie damit?",
+      "text_en": "Welcome to the panel discussion 'Market and Morality' at the Institute for Business Ethics. On the panel are Professor Dr. Jonas Hartmann, economic philosopher, and Professor Dr. Sabine Kessler, economist specializing in behavioral economics. Professor Hartmann, in your recent book you argued that the market is not a moral-free zone. What do you mean by that?"
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Die neoklassische Ökonomik geht von der Prämisse aus, dass der Markt ein wertneutraler Allokationsmechanismus sei, der über den Preismechanismus Angebot und Nachfrage effizient koordiniert. Diese Sichtweise blendet jedoch systematisch aus, dass jede Marktordnung auf normativen Voraussetzungen beruht, die sie selbst nicht erzeugen kann: Eigentumsrechte, Vertragsfreiheit, Wettbewerbsregeln — all dies sind institutionelle Rahmenbedingungen, die politisch gesetzt und moralisch begründet werden müssen. Der Markt schwebt nicht im normativen Vakuum; er ist immer schon in ein Geflecht moralischer und politischer Entscheidungen eingebettet.",
+      "text_en": "Neoclassical economics proceeds from the premise that the market is a value-neutral allocation mechanism that efficiently coordinates supply and demand through the price mechanism. This view, however, systematically ignores that every market order rests on normative presuppositions that it cannot generate itself: property rights, freedom of contract, competition rules — all these are institutional framework conditions that must be politically established and morally justified. The market does not float in a normative vacuum; it is always already embedded in a web of moral and political decisions."
+    },
+    {
+      "speaker": "Prof. Dr. Kessler",
+      "text_de": "Ich stimme Ihnen zu, dass die Annahme eines moralfreien Marktes naiv ist, möchte aber auf ein anderes Problem hinweisen. Die Verhaltensökonomik hat in den vergangenen Jahrzehnten gezeigt, dass die Grundannahme des homo oeconomicus — des rational eigeninteressierten Akteurs — empirisch nicht haltbar ist. Menschen handeln auf Märkten nicht nur nach Nutzenmaximierung, sondern auch nach Fairnessnormen, Reziprozitätserwartungen und sozialen Vergleichen. In unseren Experimenten zeigt sich regelmäßig, dass Versuchspersonen unfaire Angebote ablehnen, selbst wenn sie dadurch materiell schlechter gestellt werden. Der Markt ist also nicht nur normativ eingebettet, wie Sie sagen, sondern auch psychologisch von moralischen Intuitionen durchdrungen.",
+      "text_en": "I agree that the assumption of a moral-free market is naive, but I would like to point to a different problem. Behavioral economics has shown over recent decades that the basic assumption of homo oeconomicus — the rationally self-interested actor — is empirically untenable. People act on markets not only according to utility maximization but also according to fairness norms, reciprocity expectations, and social comparisons. In our experiments we regularly find that subjects reject unfair offers even when this leaves them materially worse off. The market is thus not only normatively embedded, as you say, but also psychologically permeated by moral intuitions."
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Das ist ein wichtiger Befund, der meine Position stützt, aber ich möchte eine entscheidende Unterscheidung hinzufügen. Es gibt einen Unterschied zwischen der deskriptiven Feststellung, dass Menschen auf Märkten moralisch handeln, und der normativen Frage, ob und wie Märkte moralisch gestaltet werden sollen. Die Verhaltensökonomik kann zeigen, dass Fairness eine Rolle spielt; sie kann aber nicht begründen, warum Fairness geboten ist. Dafür brauchen wir eine Wirtschaftsethik, die über die empirische Beschreibung hinausgeht und normative Maßstäbe entwickelt — etwa die Frage, welche Güter überhaupt marktförmig verteilt werden dürfen und welche dem Markt entzogen werden sollten.",
+      "text_en": "That is an important finding that supports my position, but I would like to add a crucial distinction. There is a difference between the descriptive observation that people act morally on markets and the normative question of whether and how markets should be morally designed. Behavioral economics can show that fairness plays a role; but it cannot justify why fairness is required. For that we need a business ethics that goes beyond empirical description and develops normative standards — such as the question of which goods may be distributed through market mechanisms at all and which should be withdrawn from the market."
+    },
+    {
+      "speaker": "Prof. Dr. Kessler",
+      "text_de": "Dieser Punkt ist berechtigt, aber ich sehe die Grenze zwischen Empirie und Normativität weniger scharf. Wenn wir empirisch feststellen, dass Menschen systematisch unter Bedingungen des Vertrauensbruchs weniger kooperieren und Märkte dadurch ineffizienter werden, dann liefert das durchaus ein Argument für institutionelle Vertrauenssicherung — nicht nur aus moralischen, sondern auch aus ökonomischen Gründen. Die Verhaltensökonomik zeigt, dass Moral und Effizienz nicht notwendig in Widerspruch stehen, sondern sich unter bestimmten Bedingungen wechselseitig verstärken können.",
+      "text_en": "This point is valid, but I see the boundary between empirics and normativity less sharply. When we empirically observe that people systematically cooperate less under conditions of broken trust and markets thereby become less efficient, this does provide an argument for institutional trust assurance — not only for moral but also for economic reasons. Behavioral economics shows that morality and efficiency do not necessarily stand in contradiction but can mutually reinforce each other under certain conditions."
+    },
+    {
+      "speaker": "Prof. Dr. Hartmann",
+      "text_de": "Dem stimme ich grundsätzlich zu, möchte aber vor einer Falle warnen: Wenn wir Moral nur dann befürworten, wenn sie sich ökonomisch auszahlt, reduzieren wir sie auf ein Instrument der Effizienzsteigerung und untergraben damit ihren eigentlichen Geltungsanspruch. Es gibt Güter — Gesundheit, Bildung, menschliche Würde —, die nicht deshalb dem Markt entzogen werden sollten, weil ihre Kommodifizierung ineffizient wäre, sondern weil sie einen intrinsischen Wert besitzen, der durch Marktlogik korrumpiert würde. Michael Sandels Argument, dass gewisse Dinge nicht käuflich sein sollten, behält hier seine volle Gültigkeit.",
+      "text_en": "I fundamentally agree but want to warn of a trap: if we only advocate morality when it pays off economically, we reduce it to an instrument of efficiency enhancement and thereby undermine its actual claim to validity. There are goods — health, education, human dignity — that should not be withdrawn from the market because their commodification would be inefficient but because they possess an intrinsic value that would be corrupted by market logic. Michael Sandel's argument that certain things should not be for sale retains its full validity here."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum ist der Markt laut Prof. Hartmann keine moralfreie Zone?",
+      "text_en": "Why is the market not a moral-free zone according to Prof. Hartmann?",
+      "options": [
+        "a) Weil alle Marktteilnehmer sich freiwillig an moralische Kodizes halten.",
+        "b) Weil jede Marktordnung auf normativen Voraussetzungen beruht, die politisch gesetzt und moralisch begründet werden müssen.",
+        "c) Weil staatliche Regulierung den Markt vollständig kontrolliert."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Hartmann argumentiert, dass Eigentumsrechte, Vertragsfreiheit und Wettbewerbsregeln normative Voraussetzungen sind, die der Markt selbst nicht erzeugen kann.",
+      "explanation_en": "Hartmann argues that property rights, freedom of contract, and competition rules are normative presuppositions that the market cannot generate itself."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was haben die Experimente der Verhaltensökonomik laut Prof. Kessler gezeigt?",
+      "text_en": "What have behavioral economics experiments shown according to Prof. Kessler?",
+      "options": [
+        "a) Dass Menschen ausschließlich nach rationaler Nutzenmaximierung handeln.",
+        "b) Dass Marktakteure grundsätzlich unfähig sind, rationale Entscheidungen zu treffen.",
+        "c) Dass Menschen unfaire Angebote ablehnen, selbst wenn sie materiell schlechter gestellt werden, da Fairnessnormen das Marktverhalten durchdringen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Kesslers Experimente zeigen, dass Versuchspersonen unfaire Angebote ablehnen, selbst bei materiellem Nachteil — der homo oeconomicus ist empirisch nicht haltbar.",
+      "explanation_en": "Kessler's experiments show that subjects reject unfair offers even at material disadvantage — homo oeconomicus is empirically untenable."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Unterscheidung hält Prof. Hartmann gegenüber der Verhaltensökonomik für entscheidend?",
+      "text_en": "What distinction does Prof. Hartmann consider decisive compared to behavioral economics?",
+      "options": [
+        "a) Den Unterschied zwischen der deskriptiven Feststellung moralischen Handelns und der normativen Frage, wie Märkte gestaltet werden sollen.",
+        "b) Den Unterschied zwischen Mikro- und Makroökonomie.",
+        "c) Den Unterschied zwischen theoretischer und experimenteller Physik."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Hartmann betont den Unterschied zwischen der Beschreibung (dass Menschen moralisch handeln) und der Begründung (warum Fairness geboten ist) — letztere erfordert Wirtschaftsethik.",
+      "explanation_en": "Hartmann emphasizes the difference between description (that people act morally) and justification (why fairness is required) — the latter requires business ethics."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie sieht Prof. Kessler das Verhältnis von Moral und Effizienz?",
+      "text_en": "How does Prof. Kessler view the relationship between morality and efficiency?",
+      "options": [
+        "a) Moral und Effizienz stehen immer in einem unauflöslichen Widerspruch.",
+        "b) Moral und Effizienz können sich unter bestimmten Bedingungen wechselseitig verstärken, wie das Beispiel der Vertrauenssicherung zeigt.",
+        "c) Effizienz ist moralisch irrelevant und sollte in der Wirtschaftsethik keine Rolle spielen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Kessler zeigt, dass Vertrauensbruch zu weniger Kooperation und Ineffizienz führt — Moral und Effizienz können sich wechselseitig verstärken.",
+      "explanation_en": "Kessler shows that broken trust leads to less cooperation and inefficiency — morality and efficiency can mutually reinforce each other."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wovor warnt Prof. Hartmann in Bezug auf die ökonomische Begründung von Moral?",
+      "text_en": "What does Prof. Hartmann warn about regarding the economic justification of morality?",
+      "options": [
+        "a) Dass ökonomische Begründungen grundsätzlich unverständlich für Nichtökonomen sind.",
+        "b) Dass moralische Argumente immer ökonomisch untermauert werden müssen, um Geltung zu erlangen.",
+        "c) Dass die Reduktion von Moral auf ein Effizienzinstrument ihren intrinsischen Geltungsanspruch untergräbt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Hartmann warnt, dass die bloß ökonomische Begründung von Moral diese auf ein Effizienzinstrument reduziert und den intrinsischen Wert bestimmter Güter verkennt.",
+      "explanation_en": "Hartmann warns that merely economic justification of morality reduces it to an efficiency instrument and fails to recognize the intrinsic value of certain goods."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-4-003",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Übersetzungstheorie und Unübersetzbarkeit",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die translationswissenschaftliche Debatte um die prinzipielle Übersetzbarkeit sprachlicher Äußerungen berührt fundamentale Fragen der Sprachphilosophie, da sie die Annahme einer sprachunabhängigen Bedeutung auf den Prüfstand stellt. Vertreter der Sapir-Whorf-Hypothese in ihrer starken Fassung postulieren, dass die grammatischen und lexikalischen Strukturen einer Sprache das Denken ihrer Sprecher in einer Weise determinieren, die eine vollständige Übertragung in ein anderes Sprachsystem unmöglich mache. Die konzeptuelle Inkommensurabilität, die sich etwa in der Existenz kulturspezifischer Bedeutungsnuancen ohne direkte Entsprechung in anderen Sprachen manifestiere, stelle die Übersetzung vor eine unüberbrückbare hermeneutische Kluft.\n\nBenjamins einflussreicher Essay über die Aufgabe des Übersetzers formuliert eine alternative Perspektive, wonach die Übersetzung nicht auf die Reproduktion eines vorgegebenen Sinns, sondern auf die Offenlegung einer zwischen den Sprachen aufscheinenden 'reinen Sprache' gerichtet sei. Die Übersetzung enthülle gerade in ihrem Scheitern an der Identität der Ausgangssprache das Ergänzungsverhältnis, in dem die Sprachen zueinander stehen — jede Sprache artikuliere einen Aspekt der Wirklichkeit, den keine andere in exakt derselben Weise zu fassen vermöge, wodurch die Gesamtheit der Sprachen auf eine nie erreichbare, aber regulativ wirksame Universalität verweise.\n\nDie gegenwärtige Übersetzungsforschung hat sich von der Dichotomie zwischen Übersetzbarkeit und Unübersetzbarkeit gelöst und untersucht stattdessen die kreativen Transformationsprozesse, die jede Übersetzung notwendig vollzieht. In dieser Perspektive ist Übersetzung weder treue Reproduktion noch defizitäre Approximation, sondern eine produktive Neuschöpfung, die den Ausgangstext in einen veränderten kulturellen und sprachlichen Kontext einschreibt und dabei sowohl Verluste als auch Zugewinne erzeugt.",
+    "text_en": "The translation-studies debate about the principled translatability of linguistic utterances touches on fundamental questions of the philosophy of language, as it puts the assumption of language-independent meaning to the test. Proponents of the Sapir-Whorf hypothesis in its strong version postulate that the grammatical and lexical structures of a language determine the thinking of its speakers in a way that makes complete transfer into another language system impossible. The conceptual incommensurability, manifested for instance in the existence of culture-specific meaning nuances without direct equivalents in other languages, confronts translation with an unbridgeable hermeneutic chasm.\n\nBenjamin's influential essay on the task of the translator formulates an alternative perspective, according to which translation is directed not toward the reproduction of a given meaning but toward the disclosure of a 'pure language' that appears between languages. Translation reveals precisely in its failure to achieve identity with the source language the complementary relationship in which languages stand to one another — each language articulates an aspect of reality that no other can grasp in exactly the same way, whereby the totality of languages points toward a never-attainable but regulatively effective universality.\n\nContemporary translation research has moved beyond the dichotomy between translatability and untranslatability and instead investigates the creative transformation processes that every translation necessarily performs. In this perspective, translation is neither faithful reproduction nor deficient approximation but a productive new creation that inscribes the source text into an altered cultural and linguistic context, generating both losses and gains in the process.",
+    "source": "Sprachwissenschaft",
+    "word_count": 230
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was postuliert die starke Fassung der Sapir-Whorf-Hypothese in Bezug auf Übersetzung?",
+      "text_en": "What does the strong version of the Sapir-Whorf hypothesis postulate regarding translation?",
+      "options": [
+        "a) Dass Übersetzung durch maschinelle Verfahren besser gelingt als durch menschliche Übersetzer.",
+        "b) Dass sprachliche Strukturen das Denken determinieren und vollständige Übertragung unmöglich machen.",
+        "c) Dass alle Sprachen im Kern dieselben Bedeutungen ausdrücken können."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die starke Fassung postuliert, dass grammatische und lexikalische Strukturen das Denken determinieren, was vollständige Übertragung unmöglich mache.",
+      "explanation_en": "The strong version postulates that grammatical and lexical structures determine thinking, making complete transfer impossible."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was ist laut Benjamin die Aufgabe des Übersetzers?",
+      "text_en": "According to Benjamin, what is the task of the translator?",
+      "options": [
+        "a) Die möglichst wortgetreue Reproduktion des Ausgangstextes.",
+        "b) Die Anpassung des Textes an die kulturellen Erwartungen des Zielpublikums.",
+        "c) Die Offenlegung einer zwischen den Sprachen aufscheinenden 'reinen Sprache'."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Benjamin sieht die Übersetzung auf die Offenlegung einer zwischen den Sprachen aufscheinenden 'reinen Sprache' gerichtet.",
+      "explanation_en": "Benjamin sees translation as directed toward the disclosure of a 'pure language' that appears between languages."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was enthüllt die Übersetzung laut Benjamin gerade in ihrem Scheitern?",
+      "text_en": "What does translation reveal according to Benjamin precisely in its failure?",
+      "options": [
+        "a) Das Ergänzungsverhältnis, in dem die Sprachen zueinander stehen.",
+        "b) Die Überlegenheit der Ausgangssprache gegenüber der Zielsprache.",
+        "c) Die Notwendigkeit einer universellen Plansprache."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Übersetzung enthüllt in ihrem Scheitern das Ergänzungsverhältnis, in dem die Sprachen zueinander stehen.",
+      "explanation_en": "Translation reveals in its failure the complementary relationship in which languages stand to one another."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie versteht die gegenwärtige Übersetzungsforschung den Übersetzungsprozess?",
+      "text_en": "How does contemporary translation research understand the translation process?",
+      "options": [
+        "a) Als defizitäre Approximation, die dem Original grundsätzlich unterlegen bleibt.",
+        "b) Als produktive Neuschöpfung, die den Ausgangstext in einen veränderten Kontext einschreibt.",
+        "c) Als rein mechanischen Vorgang der Wort-für-Wort-Ersetzung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Übersetzung wird als produktive Neuschöpfung verstanden, die den Ausgangstext in einen veränderten kulturellen und sprachlichen Kontext einschreibt.",
+      "explanation_en": "Translation is understood as a productive new creation that inscribes the source text into an altered cultural and linguistic context."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wovon hat sich die gegenwärtige Übersetzungsforschung laut dem Text gelöst?",
+      "text_en": "What has contemporary translation research moved beyond according to the text?",
+      "options": [
+        "a) Von der Analyse literarischer Texte zugunsten technischer Fachübersetzung.",
+        "b) Von der Berücksichtigung kultureller Kontexte in der Übersetzungsarbeit.",
+        "c) Von der Dichotomie zwischen Übersetzbarkeit und Unübersetzbarkeit."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die gegenwärtige Forschung hat sich von der Dichotomie zwischen Übersetzbarkeit und Unübersetzbarkeit gelöst.",
+      "explanation_en": "Contemporary research has moved beyond the dichotomy between translatability and untranslatability."
+    }
+  ]
+}

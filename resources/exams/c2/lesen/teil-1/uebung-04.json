@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-1-004",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Philosophie der Zeit und Temporalität",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die philosophische Reflexion über das Wesen der Zeit gehört zu den vertracktesten Problemen der abendländischen Geistesgeschichte. Bereits Augustinus formulierte das berühmte Paradox, wonach wir zwar intuitiv wissen, was Zeit ist, sie jedoch nicht zu definieren vermögen, sobald wir danach gefragt werden. Die in der neuzeitlichen Physik etablierte Auffassung der Zeit als einer homogenen, linear fortschreitenden und objektiv messbaren Größe hat dieses Unbehagen keineswegs beseitigt, sondern lediglich verdeckt.\n\nHeideggers in seinem epochalen Werk vorgenommene Analyse der Zeitlichkeit des Daseins markiert einen entscheidenden Wendepunkt in der philosophischen Auseinandersetzung mit der Temporalität. Die von ihm als „vulgär“ bezeichnete Zeitauffassung — die Zeit als eine Abfolge von Jetzt-Punkten — verfehle das eigentliche Phänomen, da sie die ekstatische Struktur der menschlichen Zeiterfahrung nivelliere. Das Dasein existiert nicht in der Zeit, sondern zeitigt sich selbst: Es ist wesentlich durch seinen Vorlauf zum Tod, durch die Übernahme seiner Geworfenheit und durch das entschlossene Ergreifen des Augenblicks bestimmt.\n\nDie von Ricœur weiterentwickelte narrativistische Zeittheorie verschiebt den Fokus von der ontologischen auf die hermeneutische Ebene. Menschliche Zeiterfahrung werde erst durch narrative Konfiguration verständlich, durch die Integration disparater Ereignisse in eine sinnhafte Erzählung. Die in jeder narrativen Gestaltung vollzogene Synthesis des Heterogenen vermittle zwischen der kosmologischen Zeit der Natur und der phänomenologischen Zeit des Bewusstseins — eine dritte, genuin narrative Zeitdimension, die weder auf die eine noch auf die andere reduzierbar sei.",
+    "text_en": "Philosophical reflection on the nature of time belongs to the most intractable problems of Western intellectual history. Already Augustine formulated the famous paradox according to which we intuitively know what time is but cannot define it as soon as we are asked. The conception of time established in modern physics as a homogeneous, linearly progressing, and objectively measurable quantity has by no means eliminated this unease but merely concealed it.\n\nHeidegger's analysis of the temporality of Dasein, undertaken in his epochal work, marks a decisive turning point in the philosophical engagement with temporality. The conception of time he termed 'vulgar' — time as a sequence of now-points — misses the actual phenomenon, since it levels the ecstatic structure of human time experience. Dasein does not exist in time but temporalizes itself: it is essentially determined by its anticipation of death, by the assumption of its thrownness, and by the resolute seizing of the moment.\n\nRicœur's further developed narrativist theory of time shifts the focus from the ontological to the hermeneutic level. Human time experience becomes comprehensible only through narrative configuration, through the integration of disparate events into a meaningful narrative. The synthesis of the heterogeneous accomplished in every narrative formation mediates between the cosmological time of nature and the phenomenological time of consciousness — a third, genuinely narrative time dimension that is reducible to neither one nor the other.",
+    "source": "Literaturkritik",
+    "word_count": 222
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was besagt das augustinische Paradox der Zeit?",
+      "text_en": "What does the Augustinian paradox of time state?",
+      "options": [
+        "a) Wir wissen intuitiv, was Zeit ist, können sie aber nicht definieren, sobald wir gefragt werden.",
+        "b) Die Zeit existiert nur in der menschlichen Einbildungskraft.",
+        "c) Vergangenheit und Zukunft sind gleichermaßen real wie die Gegenwart."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Augustinus formulierte, dass wir zwar intuitiv wissen, was Zeit ist, sie jedoch nicht zu definieren vermögen, sobald wir danach gefragt werden.",
+      "explanation_en": "Augustine formulated that we intuitively know what time is but cannot define it as soon as we are asked."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Heidegger an der „vulgären“ Zeitauffassung?",
+      "text_en": "What does Heidegger criticize about the 'vulgar' conception of time?",
+      "options": [
+        "a) Dass sie die Zeit als göttliche Schöpfung begreift.",
+        "b) Dass sie zu stark an subjektiven Empfindungen orientiert ist.",
+        "c) Dass sie die ekstatische Struktur der menschlichen Zeiterfahrung nivelliert."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die vulgäre Zeitauffassung verfehle das eigentliche Phänomen, da sie die ekstatische Struktur der menschlichen Zeiterfahrung nivelliere.",
+      "explanation_en": "The vulgar conception of time misses the actual phenomenon since it levels the ecstatic structure of human time experience."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wodurch wird menschliche Zeiterfahrung nach Ricœur verständlich?",
+      "text_en": "Through what does human time experience become comprehensible according to Ricœur?",
+      "options": [
+        "a) Durch physikalische Messungen und mathematische Formeln.",
+        "b) Durch narrative Konfiguration, die disparate Ereignisse in sinnhafte Erzählungen integriert.",
+        "c) Durch meditative Versenkung in den gegenwärtigen Augenblick."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Menschliche Zeiterfahrung werde erst durch narrative Konfiguration verständlich, durch die Integration disparater Ereignisse in eine sinnhafte Erzählung.",
+      "explanation_en": "Human time experience becomes comprehensible only through narrative configuration, through the integration of disparate events into a meaningful narrative."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wodurch ist das Dasein bei Heidegger wesentlich bestimmt?",
+      "text_en": "By what is Dasein essentially determined in Heidegger?",
+      "options": [
+        "a) Durch Vorlauf zum Tod, Übernahme der Geworfenheit und Ergreifen des Augenblicks.",
+        "b) Durch die objektive Messung der verstreichenden Zeit.",
+        "c) Durch die Erinnerung an vergangene Erlebnisse."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Dasein ist wesentlich durch seinen Vorlauf zum Tod, die Übernahme seiner Geworfenheit und das entschlossene Ergreifen des Augenblicks bestimmt.",
+      "explanation_en": "Dasein is essentially determined by its anticipation of death, the assumption of its thrownness, and the resolute seizing of the moment."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was vermittelt die narrative Zeitdimension nach Ricœur?",
+      "text_en": "What does the narrative time dimension mediate according to Ricœur?",
+      "options": [
+        "a) Zwischen individueller und kollektiver Zeiterfahrung.",
+        "b) Zwischen der Vergangenheit und der Zukunft des Subjekts.",
+        "c) Zwischen der kosmologischen Zeit der Natur und der phänomenologischen Zeit des Bewusstseins."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die narrative Zeitdimension vermittelt zwischen der kosmologischen Zeit der Natur und der phänomenologischen Zeit des Bewusstseins.",
+      "explanation_en": "The narrative time dimension mediates between the cosmological time of nature and the phenomenological time of consciousness."
+    }
+  ]
+}
