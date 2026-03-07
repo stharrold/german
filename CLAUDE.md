@@ -231,7 +231,7 @@ resources/exams/c2/              # C2 exam practice exercises (50, Goethe-Instit
 
 ## Version History
 
-- **v2.7.0** (2026-03-06): C2 exam practice content (50 exercises, GDS format), PDF generation and tests
+- **v2.7.0** (2026-03-07): C2 exam practice content (50 exercises, GDS format), PDF generation and tests
 - **v2.6.0** (2026-03-06): C1 exam practice content (65 exercises), PDF generation and tests
 - **v2.5.0** (2026-03-06): B2 exam practice content (65 exercises), subscript digit PDF support
 - **v2.4.0** (2026-03-06): A1 exam practice content (60 exercises), version bump alignment
