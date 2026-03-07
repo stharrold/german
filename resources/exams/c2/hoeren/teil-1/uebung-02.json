@@ -1,0 +1,118 @@
+{
+  "id": "c2-hoeren-teil-1-002",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Literarische Moderne und narrative Verfahren",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Herzlich willkommen zur heutigen Abendvorlesung der Germanistischen Fakultät. Unser Referent, Professor Dr. Heinrich Waldstein, hat sich über Jahrzehnte hinweg mit den Erzähltechniken der literarischen Moderne beschäftigt. Herr Professor Waldstein, wie lässt sich der Bruch der Moderne mit den tradierten Erzählkonventionen theoretisch fassen?",
+      "text_en": "A warm welcome to tonight's evening lecture of the German Studies Faculty. Our speaker, Professor Dr. Heinrich Waldstein, has devoted decades to the narrative techniques of literary modernism. Professor Waldstein, how can modernism's break with traditional narrative conventions be grasped theoretically?"
+    },
+    {
+      "speaker": "Prof. Dr. Waldstein",
+      "text_de": "Vielen Dank. Die entscheidende Zäsur der literarischen Moderne besteht, so meine These, nicht primär in der thematischen Hinwendung zum Fragmentarischen, sondern in der radikalen Infragestellung des Erzählers als verlässlicher Instanz. Was bei Kafka geschieht, ist im Grunde eine epistemologische Revolution in narrativer Form: Der Erzähler weiß nicht mehr als die Figur, und die Figur weiß nicht, ob das, was sie erlebt, überhaupt der Wirklichkeit angehört. Die erzählerische Perspektive wird so zum Prisma einer grundsätzlichen Weltunsicherheit.",
+      "text_en": "Thank you. The decisive caesura of literary modernism consists, I argue, not primarily in the thematic turn toward the fragmentary, but in the radical questioning of the narrator as a reliable authority. What happens in Kafka is fundamentally an epistemological revolution in narrative form: the narrator knows no more than the character, and the character does not know whether what it experiences even belongs to reality. The narrative perspective thus becomes a prism of fundamental uncertainty about the world."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Wie verhält sich diese Entwicklung zur Tradition des auktorialen Erzählers im neunzehnten Jahrhundert?",
+      "text_en": "How does this development relate to the tradition of the omniscient narrator in the nineteenth century?"
+    },
+    {
+      "speaker": "Prof. Dr. Waldstein",
+      "text_de": "Der auktoriale Erzähler des bürgerlichen Realismus — denken Sie an Fontane oder Keller — verkörpert eine Weltordnung, in der das Erzählen selbst als Sinnstiftung fungiert. Die Moderne zerschlägt gerade diese Prämisse. Bei Musil etwa wird das Erzählen zum Medium der Reflexion über die Unmöglichkeit des Erzählens. „Der Mann ohne Eigenschaften“ ist in diesem Sinne kein Roman, der eine Geschichte erzählt, sondern ein Roman, der die Bedingungen der Möglichkeit des Erzählens einer Geschichte zum Gegenstand hat. Das ist eine kopernikanische Wende in der Narratologie.",
+      "text_en": "The omniscient narrator of bourgeois realism — think of Fontane or Keller — embodies a world order in which narration itself functions as meaning-making. Modernism shatters precisely this premise. In Musil, for example, narration becomes a medium for reflecting on the impossibility of narration. 'The Man Without Qualities' is, in this sense, not a novel that tells a story but a novel that takes as its subject the conditions of the possibility of telling a story. This is a Copernican turn in narratology."
+    },
+    {
+      "speaker": "Prof. Dr. Waldstein",
+      "text_de": "Was dabei häufig übersehen wird, ist die paradoxe Produktivität dieses Scheiterns. Gerade weil die Moderne das souveräne Erzählen verabschiedet, eröffnet sie neue Darstellungsräume. Der Bewusstseinsstrom bei Schnitzler, die parabolische Verknappung bei Kafka, die essayistische Digression bei Musil — all dies sind formale Innovationen, die aus der Krise des Erzählens hervorgehen und zugleich neue Erkenntnismöglichkeiten generieren. Das Scheitern der Form wird so selbst zur Form.",
+      "text_en": "What is frequently overlooked is the paradoxical productivity of this failure. Precisely because modernism abandons sovereign narration, it opens new spaces of representation. The stream of consciousness in Schnitzler, parabolic compression in Kafka, essayistic digression in Musil — all these are formal innovations that emerge from the crisis of narration and simultaneously generate new possibilities of cognition. The failure of form thus itself becomes form."
+    },
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Lässt sich aus dieser Analyse auch ein Verständnis der postmodernen Literatur ableiten?",
+      "text_en": "Can an understanding of postmodern literature also be derived from this analysis?"
+    },
+    {
+      "speaker": "Prof. Dr. Waldstein",
+      "text_de": "Durchaus, wenngleich mit einer wesentlichen Einschränkung. Die Postmoderne radikalisiert zwar die Verfahren der Moderne — Intertextualität, Metafiktion, ironische Selbstbezüglichkeit —, aber sie verliert dabei häufig die existenzielle Dringlichkeit, die das Scheitern der Moderne auszeichnete. Wenn bei Kafka die Sprache an der Darstellung des Undenkbaren scheitert, so ist dieses Scheitern erschütternd; wenn in der Postmoderne das Scheitern zur ästhetischen Spielregel wird, droht es zur bloßen Pose zu erstarren. Die Frage ist also, ob die Postmoderne den kritischen Impuls der Moderne bewahrt oder ihn ironisch entschärft hat.",
+      "text_en": "Certainly, though with an essential qualification. Postmodernism does radicalize the procedures of modernism — intertextuality, metafiction, ironic self-referentiality — but in doing so it frequently loses the existential urgency that characterized modernism's failure. When language fails in Kafka at representing the unthinkable, this failure is shattering; when in postmodernism failure becomes an aesthetic rule of play, it risks solidifying into mere posture. The question, then, is whether postmodernism preserves the critical impulse of modernism or has ironically defused it."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht laut Prof. Waldstein die entscheidende Zäsur der literarischen Moderne?",
+      "text_en": "According to Prof. Waldstein, what constitutes the decisive caesura of literary modernism?",
+      "options": [
+        "a) In der Hinwendung zu exotischen Schauplätzen und neuartigen Themen.",
+        "b) In der Einführung technischer Neologismen in die Literatursprache.",
+        "c) In der radikalen Infragestellung des Erzählers als verlässlicher Instanz."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Waldstein betont, dass die Moderne den Erzähler als verlässliche Instanz radikal infrage stellt — eine epistemologische Revolution in narrativer Form.",
+      "explanation_en": "Waldstein emphasizes that modernism radically questions the narrator as a reliable authority — an epistemological revolution in narrative form."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie charakterisiert Waldstein Musils „Der Mann ohne Eigenschaften“?",
+      "text_en": "How does Waldstein characterize Musil's 'The Man Without Qualities'?",
+      "options": [
+        "a) Als einen Roman, der die Bedingungen der Möglichkeit des Erzählens zum Gegenstand hat.",
+        "b) Als eine getreue Fortführung der realistischen Erzähltradition Fontanes.",
+        "c) Als ein gescheitertes Experiment, das die Grenzen der Literatur offenlegt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Waldstein beschreibt den Roman als ein Werk, das nicht eine Geschichte erzählt, sondern die Bedingungen der Möglichkeit des Erzählens selbst zum Gegenstand macht.",
+      "explanation_en": "Waldstein describes the novel as a work that does not tell a story but takes the conditions of the possibility of narration itself as its subject."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was meint Waldstein mit der „paradoxen Produktivität des Scheiterns“?",
+      "text_en": "What does Waldstein mean by the 'paradoxical productivity of failure'?",
+      "options": [
+        "a) Dass gescheiterte Autoren oft posthum zu Ruhm gelangen.",
+        "b) Dass die Krise des Erzählens neue Darstellungsräume und Erkenntnismöglichkeiten eröffnet.",
+        "c) Dass wirtschaftlich erfolglose Romane häufig die innovativsten sind."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Scheitern des souveränen Erzählens eröffnet neue formale Innovationen — Bewusstseinsstrom, parabolische Verknappung, essayistische Digression — und damit neue Erkenntnismöglichkeiten.",
+      "explanation_en": "The failure of sovereign narration opens new formal innovations — stream of consciousness, parabolic compression, essayistic digression — and thus new possibilities of cognition."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Funktion hatte der auktoriale Erzähler im bürgerlichen Realismus laut Waldstein?",
+      "text_en": "What function did the omniscient narrator serve in bourgeois realism according to Waldstein?",
+      "options": [
+        "a) Er diente primär der ironischen Distanzierung vom Erzählten.",
+        "b) Er fungierte als Vermittler einer experimentellen Ästhetik.",
+        "c) Er verkörperte eine Weltordnung, in der Erzählen als Sinnstiftung fungiert."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der auktoriale Erzähler bei Fontane oder Keller verkörpert eine Weltordnung, in der das Erzählen selbst als Sinnstiftung fungiert — eine Prämisse, die die Moderne zerschlägt.",
+      "explanation_en": "The omniscient narrator in Fontane or Keller embodies a world order in which narration itself functions as meaning-making — a premise that modernism shatters."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welchen Vorbehalt äußert Waldstein gegenüber der postmodernen Literatur?",
+      "text_en": "What reservation does Waldstein express about postmodern literature?",
+      "options": [
+        "a) Sie verliert häufig die existenzielle Dringlichkeit und das Scheitern droht zur bloßen Pose zu erstarren.",
+        "b) Sie ist technisch den Verfahren der Moderne in jeder Hinsicht unterlegen.",
+        "c) Sie kehrt unkritisch zu den Konventionen des bürgerlichen Realismus zurück."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Waldstein warnt, dass die Postmoderne zwar die Verfahren der Moderne radikalisiert, aber die existenzielle Dringlichkeit verliert und das Scheitern zur bloßen ästhetischen Pose werden kann.",
+      "explanation_en": "Waldstein warns that postmodernism radicalizes modernist procedures but loses existential urgency, and failure risks becoming mere aesthetic posture."
+    }
+  ]
+}

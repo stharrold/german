@@ -1,0 +1,113 @@
+{
+  "id": "c2-hoeren-teil-2-005",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Architekturtheorie und Stadtphilosophie",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zur Podiumsdiskussion „Gebauter Raum und gelebte Stadt“ der Deutschen Akademie für Städtebau. Auf dem Podium sitzen Professor Dr. Alexander Roth, Architekturtheoretiker, und Professorin Dr. Elisabeth Schwan, Stadtsoziologin. Herr Professor Roth, Sie haben die These aufgestellt, dass die zeitgenössische Architektur an einem theoretischen Vakuum leide. Was meinen Sie damit?",
+      "text_en": "Welcome to the panel discussion 'Built Space and Lived City' of the German Academy for Urban Planning. On the panel are Professor Dr. Alexander Roth, architectural theorist, and Professor Dr. Elisabeth Schwan, urban sociologist. Professor Roth, you have proposed the thesis that contemporary architecture suffers from a theoretical vacuum. What do you mean by that?"
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Herzlichen Dank. Die Architektur befindet sich, so meine These, in einer paradoxen Situation: Einerseits verfügen wir über technische Möglichkeiten, die in der Geschichte des Bauens ohne Beispiel sind — parametrisches Design, computergestützte Formfindung, neue Materialien, die nahezu jede Form realisierbar machen. Andererseits fehlt ein verbindliches theoretisches Fundament, das über das bloß Machbare hinausgeht und die Frage beantworten könnte, wozu wir eigentlich bauen. Die Postmoderne hat die großen Erzählungen der Moderne verabschiedet — Le Corbusiers Vorstellung der „Maschine zum Wohnen“, Mies van der Rohes Doktrin des „Weniger ist mehr“ —, ohne ein vergleichbares Orientierungsangebot zu schaffen. Was bleibt, ist ein eklektischer Pluralismus, der formal alles erlaubt, aber inhaltlich orientierungslos ist.",
+      "text_en": "Thank you very much. Architecture finds itself, I argue, in a paradoxical situation: on the one hand, we possess technical capabilities unprecedented in the history of building — parametric design, computer-aided form-finding, new materials that make virtually any form realizable. On the other hand, a binding theoretical foundation is lacking that goes beyond the merely feasible and could answer the question of what we actually build for. Postmodernism has bid farewell to the grand narratives of modernism — Le Corbusier's notion of the 'machine for living,' Mies van der Rohe's doctrine of 'less is more' — without creating a comparable framework of orientation. What remains is an eclectic pluralism that formally permits everything but is substantively directionless."
+    },
+    {
+      "speaker": "Prof. Dr. Schwan",
+      "text_de": "Ich möchte hier aus soziologischer Perspektive ergänzen. Das Problem, das Sie beschreiben, hat eine gesellschaftliche Dimension, die über die architekturtheoretische Debatte hinausgeht. Die Stadt ist nicht nur ein gebauter Raum, sondern ein sozialer Organismus. Die Frage, wie wir bauen, ist untrennbar verbunden mit der Frage, wie wir zusammenleben wollen. Henri Lefebvres Konzept der „Produktion des Raumes“ hat gezeigt, dass Raum nicht einfach gegeben ist, sondern durch soziale Praktiken hervorgebracht wird. Architektur produziert nicht nur Gebäude, sondern Sozialverhältnisse — sie kann Begegnung ermöglichen oder verhindern, Zugehörigkeit stiften oder Ausgrenzung zementieren.",
+      "text_en": "I would like to add here from a sociological perspective. The problem you describe has a societal dimension that goes beyond the architectural-theoretical debate. The city is not only a built space but a social organism. The question of how we build is inseparably connected to the question of how we want to live together. Henri Lefebvre's concept of the 'production of space' showed that space is not simply given but produced through social practices. Architecture produces not only buildings but social relations — it can enable or prevent encounter, create belonging or cement exclusion."
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Dem stimme ich zu, und ich würde noch einen phänomenologischen Aspekt hinzufügen. Die Architekturtheorie hat in den vergangenen Jahrzehnten stark an visueller Ästhetik orientiert gearbeitet — Gebäude werden vorrangig als visuelle Objekte betrachtet, als Bilder, die in Zeitschriften reproduziert werden. Dabei wird vergessen, dass Architektur wesentlich eine leibliche Erfahrung ist. Wir bewohnen Räume nicht mit den Augen, sondern mit dem ganzen Körper — wir spüren Proportionen, Materialien, Licht und Akustik. Juhani Pallasmaas Konzept der „Augen der Haut“ hat diesen Punkt überzeugend gemacht: Eine Architekturtheorie, die die leibliche Dimension des Wohnens ausblendet, verfehlt ihren Gegenstand.",
+      "text_en": "I agree, and I would add a phenomenological aspect. Architectural theory in recent decades has been strongly oriented toward visual aesthetics — buildings are primarily viewed as visual objects, as images reproduced in magazines. This overlooks that architecture is essentially an embodied experience. We inhabit spaces not with our eyes but with our whole body — we sense proportions, materials, light, and acoustics. Juhani Pallasmaa's concept of the 'eyes of the skin' made this point convincingly: an architectural theory that ignores the embodied dimension of dwelling misses its own subject."
+    },
+    {
+      "speaker": "Prof. Dr. Schwan",
+      "text_de": "Einverstanden, aber die Gefahr einer rein phänomenologischen Architekturtheorie besteht darin, dass sie die politischen und ökonomischen Machtverhältnisse ausblendet, die darüber bestimmen, wer wo und wie wohnen kann. Die schönste phänomenologische Analyse des Wohnens hilft wenig, wenn die Mieten in den Innenstädten unbezahlbar werden und einkommensschwache Bevölkerungsgruppen an die Peripherie verdrängt werden. Architekturtheorie muss sich deshalb auch als politische Theorie verstehen — als eine Reflexion über die gerechte Verteilung des Raumes in der Stadt.",
+      "text_en": "Agreed, but the danger of a purely phenomenological architectural theory is that it ignores the political and economic power relations that determine who can live where and how. The finest phenomenological analysis of dwelling helps little when rents in city centers become unaffordable and low-income populations are pushed to the periphery. Architectural theory must therefore also understand itself as political theory — as a reflection on the just distribution of space in the city."
+    },
+    {
+      "speaker": "Prof. Dr. Roth",
+      "text_de": "Damit sind wir beim Kern der Sache. Eine zeitgemäße Architekturtheorie muss meines Erachtens drei Dimensionen integrieren: erstens die phänomenologische Dimension der leiblichen Raumerfahrung, zweitens die soziologische Dimension der sozialen Produktion des Raumes und drittens die ökologische Dimension der Verantwortung gegenüber den natürlichen Grundlagen unserer Existenz. Keine dieser Dimensionen kann auf die andere reduziert werden; sie bilden ein Spannungsfeld, in dem sich die Architektur als gestaltende Praxis zu bewähren hat. Das ist kein einfaches Programm, aber es wäre zumindest ein Anfang, um das theoretische Vakuum zu füllen, das ich eingangs beschrieben habe.",
+      "text_en": "With that we reach the heart of the matter. A contemporary architectural theory must, in my view, integrate three dimensions: first, the phenomenological dimension of embodied spatial experience; second, the sociological dimension of the social production of space; and third, the ecological dimension of responsibility toward the natural foundations of our existence. None of these dimensions can be reduced to any other; they form a field of tension in which architecture as a formative practice must prove itself. This is not a simple program, but it would at least be a beginning to fill the theoretical vacuum I described at the outset."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht laut Prof. Roth das Paradox der zeitgenössischen Architektur?",
+      "text_en": "What does the paradox of contemporary architecture consist of according to Prof. Roth?",
+      "options": [
+        "a) Dass zu wenige Architekten ausgebildet werden, obwohl der Bedarf steigt.",
+        "b) Dass historische Bautechniken verloren gegangen sind und nicht mehr rekonstruiert werden können.",
+        "c) Dass beispiellose technische Möglichkeiten einem Fehlen verbindlicher theoretischer Orientierung gegenüberstehen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Roth beschreibt das Paradox als Gegensatz zwischen beispiellosen technischen Möglichkeiten und dem Fehlen eines verbindlichen theoretischen Fundaments.",
+      "explanation_en": "Roth describes the paradox as the contrast between unprecedented technical capabilities and the lack of a binding theoretical foundation."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigt Lefebvres Konzept der „Produktion des Raumes“ laut Prof. Schwan?",
+      "text_en": "What does Lefebvre's concept of the 'production of space' show according to Prof. Schwan?",
+      "options": [
+        "a) Dass Raum nur durch mathematische Modelle adäquat beschrieben werden kann.",
+        "b) Dass Raum nicht einfach gegeben ist, sondern durch soziale Praktiken hervorgebracht wird und Architektur Sozialverhältnisse produziert.",
+        "c) Dass städtischer Raum ausschließlich von ökonomischen Faktoren bestimmt wird."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Schwan erläutert, dass Raum nach Lefebvre durch soziale Praktiken hervorgebracht wird und Architektur nicht nur Gebäude, sondern Sozialverhältnisse produziert.",
+      "explanation_en": "Schwan explains that according to Lefebvre, space is produced through social practices and architecture produces not only buildings but social relations."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Prof. Roth an der visuell orientierten Architekturtheorie?",
+      "text_en": "What does Prof. Roth criticize about visually oriented architectural theory?",
+      "options": [
+        "a) Sie verfehlt ihren Gegenstand, weil Architektur wesentlich eine leibliche Erfahrung ist, nicht nur ein visuelles Objekt.",
+        "b) Sie ist zu teuer in der praktischen Umsetzung.",
+        "c) Sie berücksichtigt zu viele Sinneseindrücke gleichzeitig."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Roth kritisiert, dass die visuelle Orientierung vergisst, dass Architektur leibliche Erfahrung ist — wir bewohnen Räume mit dem ganzen Körper, nicht nur mit den Augen.",
+      "explanation_en": "Roth criticizes that visual orientation forgets that architecture is embodied experience — we inhabit spaces with the whole body, not just the eyes."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche Gefahr sieht Prof. Schwan bei einer rein phänomenologischen Architekturtheorie?",
+      "text_en": "What danger does Prof. Schwan see in a purely phenomenological architectural theory?",
+      "options": [
+        "a) Dass sie zu abstrakt für die Architekturpraxis ist.",
+        "b) Dass sie zu viele technische Innovationen behindert.",
+        "c) Dass sie politische und ökonomische Machtverhältnisse ausblendet, die die Raumverteilung bestimmen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Schwan warnt, dass eine rein phänomenologische Theorie die Machtverhältnisse ausblendet, die bestimmen, wer wo wohnen kann — die Frage der gerechten Raumverteilung.",
+      "explanation_en": "Schwan warns that a purely phenomenological theory ignores the power relations determining who can live where — the question of just distribution of space."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche drei Dimensionen soll eine zeitgemäße Architekturtheorie laut Prof. Roth integrieren?",
+      "text_en": "What three dimensions should a contemporary architectural theory integrate according to Prof. Roth?",
+      "options": [
+        "a) Ökonomie, Marketing und Digitalisierung.",
+        "b) Phänomenologische Raumerfahrung, soziologische Raumproduktion und ökologische Verantwortung.",
+        "c) Statik, Ästhetik und Bautechnik."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Roth fordert die Integration der phänomenologischen (leibliche Raumerfahrung), soziologischen (soziale Raumproduktion) und ökologischen (natürliche Existenzgrundlagen) Dimension.",
+      "explanation_en": "Roth demands the integration of the phenomenological (embodied spatial experience), sociological (social production of space), and ecological (natural foundations of existence) dimensions."
+    }
+  ]
+}

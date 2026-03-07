@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-3-004",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Politische Philosophie und Demokratietheorie",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die gegenwärtige Krise liberaler Demokratien hat eine intensive Debatte über die normative Grundlegung demokratischer Ordnungen ausgelöst, in deren Zentrum die Frage steht, ob das auf rationaler Deliberation basierende Demokratieverständnis der Habermas'schen Diskursethik den Herausforderungen populistischer Mobilisierung gewachsen sei. Habermas' Modell des herrschaftsfreien Diskurses setzt voraus, dass politische Legitimität aus argumentativen Verfahren hervorgehe, in denen alle Betroffenen als gleichberechtigte Teilnehmer agieren und der zwanglose Zwang des besseren Arguments obsiege.\n\nAgonistische Demokratietheoretiker wie Chantal Mouffe wenden dagegen ein, dass dieses rationalistische Modell die konstitutive Rolle von Affekten, Leidenschaften und Identifikationsprozessen im Politischen systematisch ausblende. Politik sei ihrem Wesen nach nicht auf konsensuelle Verständigung, sondern auf die Austragung unversöhnlicher Konflikte zwischen antagonistischen Positionen gerichtet. Die Aufgabe demokratischer Institutionen bestehe folglich nicht in der Überwindung, sondern in der Hegung von Antagonismen — also in deren Transformation von einer feindseligen in eine gegnerschaftliche, nach vereinbarten Regeln ausgetragene Auseinandersetzung.\n\nDiese agonistische Perspektive vermag zu erklären, warum die Verdrängung politischer Leidenschaften aus dem institutionellen Diskurs nicht deren Verschwinden, sondern ihre Kanalisierung in außerinstitutionelle, häufig populistische Bewegungen zur Folge hat. Der technokratische Konsens, der seit den neunziger Jahren die politische Mitte in vielen westlichen Demokratien dominierte und grundlegende Richtungsentscheidungen dem demokratischen Streit entzog, habe demnach die Bedingungen für jene populistische Revolte geschaffen, die er zu verhindern beanspruchte — eine Dialektik der Entpolitisierung, deren destruktives Potenzial sich in der Erosion des Vertrauens in demokratische Institutionen manifestiere.",
+    "text_en": "The current crisis of liberal democracies has triggered an intense debate about the normative foundation of democratic orders, at whose center stands the question of whether the understanding of democracy based on rational deliberation in Habermas's discourse ethics is equal to the challenges of populist mobilization. Habermas's model of domination-free discourse presupposes that political legitimacy emerges from argumentative procedures in which all affected parties act as equal participants and the unforced force of the better argument prevails.\n\nAgonistic democracy theorists such as Chantal Mouffe object that this rationalist model systematically obscures the constitutive role of affects, passions, and identification processes in the political. Politics is by its nature directed not toward consensual understanding but toward the confrontation of irreconcilable conflicts between antagonistic positions. The task of democratic institutions therefore consists not in overcoming but in containing antagonisms — that is, in their transformation from a hostile into an adversarial confrontation conducted according to agreed-upon rules.\n\nThis agonistic perspective can explain why the displacement of political passions from institutional discourse results not in their disappearance but in their channeling into extra-institutional, frequently populist movements. The technocratic consensus that has dominated the political center in many Western democracies since the nineties and withdrew fundamental directional decisions from democratic contestation has accordingly created the conditions for the very populist revolt it claimed to prevent — a dialectic of depoliticization whose destructive potential manifests itself in the erosion of trust in democratic institutions.",
+    "source": "Kulturtheorie",
+    "word_count": 227
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was setzt das Habermas'sche Modell des herrschaftsfreien Diskurses voraus?",
+      "text_en": "What does the Habermasian model of domination-free discourse presuppose?",
+      "options": [
+        "a) Dass politische Legitimität aus argumentativen Verfahren hervorgehe, in denen der zwanglose Zwang des besseren Arguments obsiege.",
+        "b) Dass politische Entscheidungen von Experten getroffen werden sollten, die über überlegenes Fachwissen verfügen.",
+        "c) Dass demokratische Ordnungen auf der Austragung unversöhnlicher Konflikte beruhen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Habermas' Modell setzt voraus, dass politische Legitimität aus argumentativen Verfahren hervorgeht, in denen alle Betroffenen gleichberechtigt teilnehmen.",
+      "explanation_en": "Habermas's model presupposes that political legitimacy emerges from argumentative procedures in which all affected parties participate as equals."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Mouffe am rationalistischen Demokratiemodell?",
+      "text_en": "What does Mouffe criticize about the rationalist model of democracy?",
+      "options": [
+        "a) Dass es die demokratische Teilhabe auf intellektuelle Eliten beschränke.",
+        "b) Dass es zu viel Raum für emotionale Argumente in der Politik lasse.",
+        "c) Dass es die konstitutive Rolle von Affekten und Leidenschaften im Politischen systematisch ausblende."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Mouffe wendet ein, dass das rationalistische Modell die konstitutive Rolle von Affekten, Leidenschaften und Identifikationsprozessen systematisch ausblendet.",
+      "explanation_en": "Mouffe objects that the rationalist model systematically obscures the constitutive role of affects, passions, and identification processes."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Mouffe unter der Aufgabe demokratischer Institutionen?",
+      "text_en": "What does Mouffe understand as the task of democratic institutions?",
+      "options": [
+        "a) Die vollständige Überwindung gesellschaftlicher Konflikte durch rationale Verständigung.",
+        "b) Die Hegung von Antagonismen — ihre Transformation in gegnerschaftliche, regelgebundene Auseinandersetzungen.",
+        "c) Die Unterdrückung politischer Leidenschaften zugunsten sachbezogener Entscheidungsfindung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Demokratische Institutionen sollen Antagonismen hegen, also in eine gegnerschaftliche, nach vereinbarten Regeln ausgetragene Auseinandersetzung transformieren.",
+      "explanation_en": "Democratic institutions should contain antagonisms, transforming them into an adversarial confrontation conducted according to agreed-upon rules."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was bewirkt laut dem Text die Verdrängung politischer Leidenschaften aus dem institutionellen Diskurs?",
+      "text_en": "According to the text, what results from displacing political passions from institutional discourse?",
+      "options": [
+        "a) Ihre Kanalisierung in außerinstitutionelle, häufig populistische Bewegungen.",
+        "b) Eine nachhaltige Befriedung gesellschaftlicher Konflikte.",
+        "c) Die Stärkung demokratischer Institutionen durch sachbezogene Politik."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Verdrängung führt nicht zum Verschwinden, sondern zur Kanalisierung der Leidenschaften in außerinstitutionelle, häufig populistische Bewegungen.",
+      "explanation_en": "Displacement results not in disappearance but in channeling passions into extra-institutional, frequently populist movements."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was versteht der Text unter der 'Dialektik der Entpolitisierung'?",
+      "text_en": "What does the text understand by the 'dialectic of depoliticization'?",
+      "options": [
+        "a) Die zunehmende Politisierung aller Lebensbereiche durch soziale Medien.",
+        "b) Die Tatsache, dass Populismus sich langfristig selbst überwinde.",
+        "c) Dass der technokratische Konsens die Bedingungen für die populistische Revolte schuf, die er verhindern wollte."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der technokratische Konsens hat die Bedingungen für jene populistische Revolte geschaffen, die er zu verhindern beanspruchte.",
+      "explanation_en": "The technocratic consensus created the conditions for the very populist revolt it claimed to prevent."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "c2-hoeren-teil-2-002",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Rechtsphilosophie und Gerechtigkeitstheorie",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Herzlich willkommen zur Diskussionsrunde „Recht und Gerechtigkeit“ der Juristischen Gesellschaft. Auf dem Podium begrüße ich Professorin Dr. Claudia Berger, Rechtsphilosophin, und Professor Dr. Friedrich Neumann, Verfassungsrechtler. Wir diskutieren heute die Frage, ob und inwiefern das positive Recht einer moralischen Legitimation bedarf. Frau Professorin Berger, Sie vertreten die Position des Rechtspositivismus — können Sie Ihre These darlegen?",
+      "text_en": "A warm welcome to the discussion forum 'Law and Justice' of the Legal Society. On the panel I welcome Professor Dr. Claudia Berger, legal philosopher, and Professor Dr. Friedrich Neumann, constitutional law scholar. We are discussing today whether and to what extent positive law requires moral legitimation. Professor Berger, you advocate the position of legal positivism — could you present your thesis?"
+    },
+    {
+      "speaker": "Prof. Dr. Berger",
+      "text_de": "Gern. Der Rechtspositivismus behauptet, kurz gesagt, dass die Geltung einer Rechtsnorm nicht von ihrer moralischen Qualität abhängt, sondern von ihrer Setzung durch eine autorisierte Instanz gemäß den geltenden Verfahrensregeln. Das bedeutet nicht — und dieser Punkt wird häufig missverstanden —, dass der Rechtspositivismus Moral für irrelevant hält. Er besteht lediglich auf einer begrifflichen Trennung: Die Frage, ob ein Gesetz gilt, ist eine andere als die Frage, ob es gerecht ist. Diese Trennung hat einen emanzipatorischen Kern: Sie ermöglicht die Kritik bestehenden Rechts, indem sie zeigt, dass Legalität und Legitimität auseinanderfallen können.",
+      "text_en": "Gladly. Legal positivism claims, in short, that the validity of a legal norm does not depend on its moral quality but on its enactment by an authorized authority according to prevailing procedural rules. This does not mean — and this point is frequently misunderstood — that legal positivism considers morality irrelevant. It merely insists on a conceptual separation: the question of whether a law is valid is different from the question of whether it is just. This separation has an emancipatory core: it enables the critique of existing law by showing that legality and legitimacy can diverge."
+    },
+    {
+      "speaker": "Prof. Dr. Neumann",
+      "text_de": "Ich möchte dem in zweierlei Hinsicht widersprechen. Erstens ist die behauptete Trennung von Recht und Moral empirisch nicht durchzuhalten. Das Grundgesetz selbst — und ich spreche hier als Verfassungsrechtler — enthält in seiner Ewigkeitsklausel, im Grundrechtskatalog und im Verweis auf die Menschenwürde explizit moralische Gehalte, die nicht als bloße Setzungen verstanden werden können, sondern einen Anspruch auf überpositionale Geltung erheben. Zweitens hat die historische Erfahrung des Nationalsozialismus gezeigt, wohin ein rigider Rechtspositivismus führen kann, der die Frage nach der Gerechtigkeit systematisch ausblendet — nämlich zur rechtsförmigen Legitimation von Unrecht.",
+      "text_en": "I would like to object on two counts. First, the claimed separation of law and morality cannot be sustained empirically. The Basic Law itself — and I speak here as a constitutional law scholar — contains in its eternity clause, the catalog of fundamental rights, and the reference to human dignity explicitly moral contents that cannot be understood as mere enactments but raise a claim to supra-positive validity. Second, the historical experience of National Socialism has shown where a rigid legal positivism can lead when it systematically excludes the question of justice — namely to the legally formal legitimation of injustice."
+    },
+    {
+      "speaker": "Prof. Dr. Berger",
+      "text_de": "Der Verweis auf den Nationalsozialismus ist verständlich, aber philosophisch problematisch. Es war nicht der Rechtspositivismus, der die nationalsozialistischen Gesetze legitimiert hat, sondern im Gegenteil: Das NS-Regime hat sich gerade nicht auf positive Gesetze berufen, sondern auf vermeintliche Naturgesetze der Rasse, auf ein angeblich überpositives Recht des Volkes. Der radikale Dezisionismus Carl Schmitts, der die Weimarer Verfassung aushöhlte, war gerade kein Rechtspositivismus, sondern dessen Gegenteil — eine politische Theologie, die das Recht dem Willen des Souveräns unterwarf. Die Lehre aus der Geschichte spricht also nicht gegen, sondern für die positivistische Trennung.",
+      "text_en": "The reference to National Socialism is understandable but philosophically problematic. It was not legal positivism that legitimized National Socialist laws; on the contrary, the NS regime did not invoke positive laws but supposed natural laws of race, an allegedly supra-positive right of the people. Carl Schmitt's radical decisionism, which hollowed out the Weimar Constitution, was precisely not legal positivism but its opposite — a political theology that subjected law to the will of the sovereign. The lesson of history thus speaks not against but for the positivist separation."
+    },
+    {
+      "speaker": "Prof. Dr. Neumann",
+      "text_de": "Ein differenziertes Argument, das ich in Teilen akzeptiere. Dennoch bleibt die Frage, ob ein Recht, das sich jeder inhaltlichen Bindung an Gerechtigkeit verweigert, noch als Recht im emphatischen Sinne gelten kann. Gustav Radbruch hat nach dem Krieg bekanntlich die Formel geprägt, dass ein unerträglich ungerechtes Gesetz kein Recht sei — und diese Formel hat in der deutschen Rechtsgeschichte eine enorme Wirkung entfaltet. Sie bildet gewissermaßen das Korrektiv, das der reine Positivismus nicht bieten kann.",
+      "text_en": "A differentiated argument that I accept in part. Nevertheless, the question remains whether a law that refuses any substantive commitment to justice can still count as law in the emphatic sense. Gustav Radbruch famously coined the formula after the war that an intolerably unjust law is not law — and this formula has had an enormous impact on German legal history. It constitutes, as it were, the corrective that pure positivism cannot provide."
+    },
+    {
+      "speaker": "Prof. Dr. Berger",
+      "text_de": "Radbruchs Formel ist ein wichtiger Beitrag zur Rechtsphilosophie, keine Frage. Aber sie ist zugleich ein Beispiel für die Gefahren der Vermischung von Recht und Moral. Wer bestimmt, wann ein Gesetz „unerträglich ungerecht“ ist? Diese Frage lässt sich nicht philosophisch lösen, sie verweist letztlich auf politische Machtverhältnisse. Und genau das ist der Punkt: Der Positivismus benennt diese Kontingenz ehrlich, während das Naturrecht sie hinter einer Fassade ewiger Wahrheiten verbirgt. Ich plädiere daher nicht für einen Positivismus, der moralische Kritik ablehnt, sondern für einen, der die Grundlage für eine solche Kritik erst schafft, indem er die Differenz zwischen Sein und Sollen offenhält.",
+      "text_en": "Radbruch's formula is an important contribution to legal philosophy, no question. But it is simultaneously an example of the dangers of blending law and morality. Who determines when a law is 'intolerably unjust'? This question cannot be solved philosophically; it ultimately points to political power relations. And that is precisely the point: positivism honestly names this contingency, while natural law conceals it behind a facade of eternal truths. I therefore advocate not a positivism that rejects moral critique but one that first creates the foundation for such critique by keeping open the difference between is and ought."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht laut Prof. Berger der emanzipatorische Kern des Rechtspositivismus?",
+      "text_en": "What constitutes the emancipatory core of legal positivism according to Prof. Berger?",
+      "options": [
+        "a) In der Behauptung, dass Moral grundsätzlich irrelevant für das Zusammenleben sei.",
+        "b) In der Überzeugung, dass positive Gesetze immer gerecht sind.",
+        "c) In der begrifflichen Trennung von Legalität und Legitimität, die Kritik am bestehenden Recht ermöglicht."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Berger sieht den emanzipatorischen Kern darin, dass die Trennung von Legalität und Legitimität zeigt, dass geltendes Recht nicht automatisch gerecht ist, und so Kritik ermöglicht.",
+      "explanation_en": "Berger sees the emancipatory core in the separation of legality and legitimacy showing that valid law is not automatically just, thus enabling critique."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche beiden Einwände erhebt Prof. Neumann gegen den Rechtspositivismus?",
+      "text_en": "What two objections does Prof. Neumann raise against legal positivism?",
+      "options": [
+        "a) Das Grundgesetz enthält explizit moralische Gehalte mit überpositivem Geltungsanspruch, und die NS-Geschichte zeigt die Gefahren eines gerechtigkeitsblinden Positivismus.",
+        "b) Der Rechtspositivismus ist mathematisch inkonsistent und führt zu logischen Widersprüchen in der Normenhierarchie.",
+        "c) Rechtspositivismus macht Rechtsprechung überflüssig und kann nicht zwischen Strafrecht und Zivilrecht unterscheiden."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Neumann argumentiert erstens, dass das Grundgesetz moralische Gehalte mit überpositivem Anspruch enthält, und zweitens, dass die NS-Erfahrung die Gefahren eines gerechtigkeitsblinden Positivismus zeigt.",
+      "explanation_en": "Neumann argues first that the Basic Law contains moral contents with supra-positive claims, and second that the NS experience shows the dangers of a justice-blind positivism."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie entkräftet Prof. Berger den NS-Einwand gegen den Rechtspositivismus?",
+      "text_en": "How does Prof. Berger refute the National Socialism objection against legal positivism?",
+      "options": [
+        "a) Indem sie bestreitet, dass der Nationalsozialismus ein Unrechtsstaat war.",
+        "b) Indem sie zeigt, dass das NS-Regime sich auf überpositives Rassenrecht berief und Schmitts Dezisionismus gerade kein Positivismus war.",
+        "c) Indem sie nachweist, dass die NS-Gesetze formal korrekt erlassen wurden und daher gültig waren."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Berger argumentiert, dass das NS-Regime sich nicht auf positive Gesetze, sondern auf angebliche Naturgesetze der Rasse berief und Schmitts Dezisionismus das Gegenteil von Positivismus war.",
+      "explanation_en": "Berger argues that the NS regime invoked not positive laws but supposed natural laws of race, and Schmitt's decisionism was the opposite of positivism."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was besagt die Radbruchsche Formel, die Prof. Neumann anführt?",
+      "text_en": "What does the Radbruch formula cited by Prof. Neumann state?",
+      "options": [
+        "a) Dass Gesetze nur dann gelten, wenn sie von einer demokratisch legitimierten Instanz erlassen werden.",
+        "b) Dass alle Gesetze einer regelmäßigen moralischen Überprüfung durch Ethikkommissionen unterzogen werden müssen.",
+        "c) Dass ein unerträglich ungerechtes Gesetz kein Recht ist — ein Korrektiv, das der reine Positivismus nicht bieten kann."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Radbruchs Formel besagt, dass ein unerträglich ungerechtes Gesetz kein Recht sei, und bildet ein Korrektiv zum reinen Positivismus.",
+      "explanation_en": "Radbruch's formula states that an intolerably unjust law is not law, constituting a corrective to pure positivism."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Position vertritt Prof. Berger abschließend zum Verhältnis von Recht und Moral?",
+      "text_en": "What position does Prof. Berger ultimately advocate regarding the relationship between law and morality?",
+      "options": [
+        "a) Einen Positivismus, der die Differenz zwischen Sein und Sollen offenhält und damit die Grundlage für moralische Kritik erst schafft.",
+        "b) Eine vollständige Verschmelzung von Recht und Moral im Sinne des Naturrechts.",
+        "c) Eine pragmatische Gleichgültigkeit gegenüber der Frage nach der Gerechtigkeit."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Berger plädiert für einen Positivismus, der moralische Kritik nicht ablehnt, sondern deren Grundlage erst schafft, indem er die Differenz zwischen Sein und Sollen offenhält.",
+      "explanation_en": "Berger advocates a positivism that does not reject moral critique but first creates its foundation by keeping open the difference between is and ought."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-2-001",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Entwicklung eines Ethikrahmens für KI-Governance an einer Forschungseinrichtung",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine differenzierte Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte, wägen Sie Vor- und Nachteile sorgfältig ab und einigen Sie sich auf einen tragfähigen Vorschlag.",
+  "situation_de": "Sie arbeiten gemeinsam in der Leitungsebene einer renommierten Forschungseinrichtung, die sich intensiv mit Künstlicher Intelligenz befasst. In jüngster Zeit sind mehrere Fälle bekannt geworden, in denen KI-Anwendungen ethisch fragwürdige Ergebnisse hervorgebracht haben — von diskriminierenden Algorithmen bis hin zu Fragen der Datensouveränität. Der Vorstand hat Sie beauftragt, einen institutionellen Ethikrahmen zu entwickeln, der die Forschungsfreiheit wahrt und zugleich gesellschaftliche Verantwortung gewährleistet. Erarbeiten Sie gemeinsam einen konkreten Vorschlag.",
+  "situation_en": "You work together at the management level of a renowned research institution that deals intensively with artificial intelligence. Recently, several cases have become known in which AI applications have produced ethically questionable results — from discriminatory algorithms to questions of data sovereignty. The board of directors has tasked you with developing an institutional ethics framework that preserves academic freedom while ensuring social responsibility. Develop a concrete proposal together.",
+  "discussion_points": [
+    "Institutionelle Struktur: Wie sollte ein Ethikgremium zusammengesetzt sein, und welche Entscheidungsbefugnisse sollte es haben? (Institutional structure: How should an ethics committee be composed, and what decision-making authority should it have?)",
+    "Forschungsfreiheit vs. Regulierung: Wo liegt die Grenze zwischen notwendiger ethischer Kontrolle und einer Behinderung innovativer Forschung? (Academic freedom vs. regulation: Where does the boundary lie between necessary ethical oversight and an impediment to innovative research?)",
+    "Transparenz und Rechenschaftspflicht: Welche Mechanismen der Offenlegung und Überprüfung sollten etabliert werden? (Transparency and accountability: What mechanisms of disclosure and review should be established?)",
+    "Internationale Dimension: Wie geht man mit unterschiedlichen ethischen Standards in internationalen Kooperationen um? (International dimension: How does one deal with differing ethical standards in international collaborations?)",
+    "Folgenabschätzung und Vorsorge: Wie lassen sich mögliche gesellschaftliche Auswirkungen von KI-Forschung prospektiv bewerten? (Impact assessment and precaution: How can possible societal effects of AI research be assessed prospectively?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wir stehen vor einer Aufgabe, die höchste Sensibilität erfordert. Einerseits müssen wir die Forschungsfreiheit verteidigen, die das Fundament unserer Einrichtung bildet. Andererseits können wir uns nicht dem Vorwurf aussetzen, dass unter unserem Dach Technologien entwickelt werden, die gesellschaftlichen Schaden anrichten. Mein Vorschlag wäre, zunächst über die institutionelle Struktur eines Ethikgremiums zu sprechen. Ich hielte es für sinnvoll, ein interdisziplinär besetztes Gremium einzurichten, dem neben Informatikern auch Philosophen, Sozialwissenschaftler und Vertreter der Zivilgesellschaft angehören.",
+      "text_en": "We face a task that requires the utmost sensitivity. On one hand, we must defend the academic freedom that forms the foundation of our institution. On the other hand, we cannot expose ourselves to the accusation that technologies causing societal harm are being developed under our roof. My proposal would be to first discuss the institutional structure of an ethics committee. I would consider it sensible to establish an interdisciplinary committee that includes not only computer scientists but also philosophers, social scientists, and representatives of civil society."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Im Grundsatz stimme ich Ihnen zu, möchte aber einen kritischen Punkt aufwerfen: Wenn wir externen Mitgliedern ein Vetorecht einräumten, bestünde die Gefahr, dass bahnbrechende Forschungsprojekte aus Gründen blockiert werden, die eher auf einem mangelnden Verständnis der technischen Sachverhalte beruhen als auf genuinen ethischen Bedenken. Ließe sich das Gremium nicht eher beratend konzipieren, mit einer Eskalationsstufe für Fälle, in denen ein Konsens nicht erzielt werden kann?",
+      "text_en": "In principle I agree with you, but I would like to raise a critical point: If we granted external members a veto right, there would be a danger that groundbreaking research projects could be blocked for reasons based more on a lack of understanding of the technical matters than on genuine ethical concerns. Couldn't the committee be conceived in a more advisory capacity, with an escalation level for cases where consensus cannot be reached?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein berechtigter Einwand. Ein rein beratendes Gremium liefe allerdings Gefahr, zahnlos zu bleiben — es hätte dann lediglich eine Alibifunktion, ohne tatsächlichen Einfluss auf die Forschungspraxis nehmen zu können. Wie wäre es mit einem gestuften Modell? Für Projekte mit geringem ethischem Risikopotenzial könnte eine Selbstverpflichtung der Forschenden ausreichen, während Projekte mit hohem Risiko — etwa solche, die in sensiblen Bereichen wie Überwachung oder autonome Waffensysteme angesiedelt sind — einer verbindlichen Prüfung und Genehmigung durch das Gremium unterzogen werden müssten.",
+      "text_en": "That is a legitimate objection. A purely advisory committee, however, would risk remaining toothless — it would then merely have an alibi function without being able to actually influence research practice. How about a tiered model? For projects with low ethical risk potential, a self-commitment by the researchers could suffice, while projects with high risk — such as those situated in sensitive areas like surveillance or autonomous weapons systems — would need to undergo a binding review and approval by the committee."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein gestuftes Modell erscheint mir pragmatisch und durchsetzbar. Allerdings stellt sich die Frage, wer die Risikokategorisierung vornimmt. Wenn die Forschenden selbst das Risikopotenzial ihrer Projekte einschätzen, besteht ein offensichtlicher Interessenkonflikt. Ich schlüge vor, dass eine unabhängige Vorprüfungsstelle — vergleichbar den Ethikkommissionen in der medizinischen Forschung — eine Erstbewertung vornimmt und die Projekte der jeweiligen Stufe zuordnet.",
+      "text_en": "A tiered model seems pragmatic and enforceable to me. However, the question arises as to who performs the risk categorization. If the researchers themselves assess the risk potential of their projects, there is an obvious conflict of interest. I would suggest that an independent preliminary review office — comparable to ethics committees in medical research — perform an initial assessment and assign projects to the respective tier."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das halte ich für einen exzellenten Vorschlag. Eine solche Vorprüfungsstelle sollte mit Personen besetzt werden, die sowohl die technische Kompetenz als auch die ethische Urteilsfähigkeit mitbringen. Kommen wir zur Frage der Transparenz: Ich würde dafür plädieren, dass alle ethisch relevanten Forschungsergebnisse in einem öffentlich zugänglichen Register dokumentiert werden — selbstverständlich unter Wahrung des Patentschutzes und der Datenschutzbestimmungen. Die Öffentlichkeit hat ein Recht darauf zu erfahren, welche Forschung mit welchen potenziellen Auswirkungen an unserer Einrichtung betrieben wird.",
+      "text_en": "I consider that an excellent proposal. Such a preliminary review office should be staffed with people who bring both technical competence and ethical judgment. Let us turn to the question of transparency: I would advocate that all ethically relevant research results be documented in a publicly accessible register — naturally while respecting patent protection and data privacy regulations. The public has a right to know what research with what potential effects is being conducted at our institution."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Einverstanden. Und was die internationale Dimension betrifft: Wir kooperieren mit Einrichtungen in Ländern, deren ethische Standards sich erheblich von unseren unterscheiden. Es wäre meines Erachtens verfehlt, andere Kulturen belehren zu wollen, aber ebenso problematisch, unsere eigenen Standards aufzuweichen. Ich schlüge als Kompromiss vor, dass für alle gemeinsamen Projekte der jeweils strengere ethische Standard gelten sollte — nach dem Vorsorgeprinzip.",
+      "text_en": "Agreed. And regarding the international dimension: We cooperate with institutions in countries whose ethical standards differ significantly from ours. It would be misguided in my view to lecture other cultures, but equally problematic to soften our own standards. I would suggest as a compromise that for all joint projects, the stricter ethical standard should apply — according to the precautionary principle."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das Vorsorgeprinzip als Leitlinie für internationale Kooperationen halte ich für überzeugend. Es wahrt unsere Integrität, ohne in einen kulturellen Imperialismus zu verfallen. Lassen Sie mich unseren Vorschlag zusammenfassen: Erstens ein interdisziplinäres Ethikgremium mit gestuften Prüfungskompetenzen, zweitens eine unabhängige Vorprüfungsstelle für die Risikokategorisierung, drittens ein öffentliches Register für ethisch relevante Forschung und viertens die Anwendung des Vorsorgeprinzips bei internationalen Kooperationen. Ich denke, damit hätten wir einen Rahmen, der sowohl die Forschungsfreiheit respektiert als auch unserer gesellschaftlichen Verantwortung gerecht wird.",
+      "text_en": "I find the precautionary principle as a guideline for international collaborations convincing. It preserves our integrity without lapsing into cultural imperialism. Let me summarize our proposal: First, an interdisciplinary ethics committee with tiered review competencies; second, an independent preliminary review office for risk categorization; third, a public register for ethically relevant research; and fourth, the application of the precautionary principle in international collaborations. I think with this we would have a framework that both respects academic freedom and meets our societal responsibility."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Dem kann ich mich uneingeschränkt anschließen. Ich würde lediglich ergänzen, dass wir eine regelmäßige Evaluierung des Ethikrahmens selbst vorsehen sollten — etwa alle zwei bis drei Jahre —, um sicherzustellen, dass er mit der rasanten technologischen Entwicklung Schritt hält. Ethische Reflexion darf nicht statisch bleiben; sie muss sich ebenso weiterentwickeln wie die Technologien, die sie regulieren soll.",
+      "text_en": "I can endorse that without reservation. I would only add that we should provide for a regular evaluation of the ethics framework itself — approximately every two to three years — to ensure that it keeps pace with rapid technological development. Ethical reflection must not remain static; it must evolve just as the technologies it is meant to regulate do."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Die Gesprächspartner erarbeiten kooperativ einen differenzierten, umsetzbaren Lösungsvorschlag und gehen auf alle relevanten Aspekte der Problemstellung ein.",
+    "Argumentation und Überzeugungskraft: Beide Gesprächspartner formulieren vielschichtige Argumente, wägen Alternativen souverän ab und gelangen durch konstruktive Auseinandersetzung zu einem tragfähigen Kompromiss.",
+    "Interaktion und Gesprächsführung: Die Gesprächspartner interagieren auf muttersprachlichem Niveau, nehmen präzise Bezug aufeinander, entwickeln Gedanken gemeinsam weiter und steuern das Gespräch kooperativ.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung institutioneller Fachsprache, diplomatischer Redemittel und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

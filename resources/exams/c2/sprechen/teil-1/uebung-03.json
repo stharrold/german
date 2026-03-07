@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-1-003",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Sprache, Macht und Identität — Soziolinguistische Perspektiven",
+  "instructions": "Sie sollen zu einem komplexen Thema einen strukturierten Vortrag halten und anschließend mit dem Prüfer / der Prüferin diskutieren. Bereiten Sie sich vor, verschiedene Perspektiven differenziert zu beleuchten und Ihre eigene Position überzeugend zu begründen.",
+  "situation_de": "Sprache ist nicht nur ein Kommunikationsmittel, sondern auch ein Instrument der Macht und ein Träger von Identität. Wer die Sprache kontrolliert, kontrolliert in gewissem Maße auch das Denken — so lautet zumindest die These der Sapir-Whorf-Hypothese in ihrer starken Form. In der Gegenwart manifestiert sich das Spannungsfeld von Sprache, Macht und Identität in Debatten über gendergerechte Sprache, das Aussterben von Minderheitensprachen, die Dominanz des Englischen und die politische Instrumentalisierung sprachlicher Normen. Halten Sie einen strukturierten Vortrag, in dem Sie diese Zusammenhänge aus verschiedenen Perspektiven beleuchten und Ihre eigene Position differenziert begründen.",
+  "situation_en": "Language is not merely a means of communication but also an instrument of power and a carrier of identity. Whoever controls language controls, to a certain extent, thought as well — at least according to the strong form of the Sapir-Whorf hypothesis. In the present, the tension between language, power, and identity manifests itself in debates about gender-inclusive language, the extinction of minority languages, the dominance of English, and the political instrumentalization of linguistic norms. Give a structured presentation in which you examine these connections from various perspectives and justify your own position in a nuanced manner.",
+  "discussion_points": [
+    "Sprachliche Relativität: Inwieweit bestimmt die Struktur einer Sprache das Denken und die Weltwahrnehmung ihrer Sprecherinnen und Sprecher? (Linguistic relativity: To what extent does the structure of a language determine the thinking and perception of the world of its speakers?)",
+    "Sprache und Diskursmacht: Wie werden durch sprachliche Konventionen Machtverhältnisse reproduziert und legitimiert? (Language and discursive power: How are power relations reproduced and legitimized through linguistic conventions?)",
+    "Sprachpolitik und Identität: Welche Rolle spielt die Muttersprache für die kulturelle Identität, und welche Folgen hat der Verlust einer Sprache? (Language policy and identity: What role does the mother tongue play for cultural identity, and what consequences does the loss of a language have?)",
+    "Gendergerechte Sprache: Handelt es sich um einen berechtigten Ausdruck sprachlicher Gerechtigkeit oder um einen ideologischen Eingriff in die natürliche Sprachentwicklung? (Gender-inclusive language: Is this a legitimate expression of linguistic justice or an ideological intervention in natural language development?)",
+    "Lingua franca und sprachliche Diversität: Gefährdet die globale Dominanz des Englischen die sprachliche Vielfalt, oder ermöglicht sie interkulturelle Verständigung? (Lingua franca and linguistic diversity: Does the global dominance of English endanger linguistic diversity, or does it enable intercultural understanding?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das Verhältnis von Sprache, Macht und Identität gehört zu den vielschichtigsten Problemfeldern der Geistes- und Sozialwissenschaften. Ich möchte in meinem Vortrag die These vertreten, dass Sprache ein zutiefst politisches Phänomen ist — nicht weil sie von politischen Akteuren instrumentalisiert wird, was trivial wäre, sondern weil bereits die Struktur und der Gebrauch von Sprache Machtverhältnisse konstituieren, die sich der bewussten Wahrnehmung häufig entziehen.",
+      "text_en": "The relationship between language, power, and identity belongs to the most complex problem areas of the humanities and social sciences. In my presentation, I would like to defend the thesis that language is a profoundly political phenomenon — not because it is instrumentalized by political actors, which would be trivial, but because the very structure and use of language constitutes power relations that frequently elude conscious perception."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Bourdieu hat in seinen Arbeiten zur symbolischen Macht eindrücklich gezeigt, dass sprachliche Kompetenz nicht nur eine kommunikative, sondern auch eine soziale Ressource darstellt. Wer die als legitim geltende Sprachform beherrscht, verfügt über symbolisches Kapital; wer davon abweicht — sei es durch Dialekt, Akzent oder eine als defizitär wahrgenommene Ausdrucksweise —, sieht sich subtilen Formen der Exklusion ausgesetzt. Dieser Mechanismus operiert in allen Gesellschaften, wird jedoch selten als solcher benannt, weil er als natürlich empfunden wird. Darin liegt seine eigentliche Wirksamkeit: Die Macht der Sprache ist am stärksten, wo sie unsichtbar bleibt.",
+      "text_en": "Bourdieu impressively demonstrated in his works on symbolic power that linguistic competence represents not only a communicative but also a social resource. Whoever commands the language form considered legitimate possesses symbolic capital; whoever deviates from it — whether through dialect, accent, or a mode of expression perceived as deficient — is exposed to subtle forms of exclusion. This mechanism operates in all societies but is rarely named as such because it is perceived as natural. Therein lies its actual effectiveness: the power of language is strongest where it remains invisible."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Das ist eine scharfsinnige Analyse. Aber wie positionieren Sie sich in der Debatte um gendergerechte Sprache? Würden Sie sagen, dass die bewusste Veränderung sprachlicher Normen ein legitimes Mittel ist, um Machtverhältnisse zu verändern?",
+      "text_en": "That is an astute analysis. But how do you position yourself in the debate about gender-inclusive language? Would you say that the conscious modification of linguistic norms is a legitimate means of changing power relations?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich würde hier eine differenzierte Position einnehmen, die sich gegen beide Extreme wendet. Einerseits scheint mir die Grundannahme plausibel, dass sprachliche Formen das Denken beeinflussen — nicht deterministisch, wie die starke Sapir-Whorf-Hypothese suggeriert, sondern habituell, wie kognitionslinguistische Forschungen nahelegen. Insofern halte ich den Versuch, durch sprachliche Innovation gesellschaftliche Verhältnisse mitzugestalten, für grundsätzlich berechtigt. Andererseits birgt eine von oben verordnete Sprachreform die Gefahr, als paternalistisch empfunden zu werden und damit gerade diejenigen zu entfremden, die man zu erreichen sucht. Die Kunst bestünde darin, einen Wandel zu befördern, ohne ihn zu erzwingen — Sprache verändert sich nachhaltig nur dann, wenn die Sprechergemeinschaft den Wandel als ihren eigenen begreift.",
+      "text_en": "I would take a nuanced position here that opposes both extremes. On one hand, the basic assumption seems plausible to me that linguistic forms influence thinking — not deterministically, as the strong Sapir-Whorf hypothesis suggests, but habitually, as cognitive linguistic research indicates. In this respect, I consider the attempt to co-shape social conditions through linguistic innovation fundamentally legitimate. On the other hand, a language reform imposed from above carries the risk of being perceived as paternalistic and thereby alienating precisely those one seeks to reach. The art would consist in promoting change without forcing it — language changes sustainably only when the speech community understands the change as its own."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben die Unsichtbarkeit sprachlicher Macht betont. Gibt es Ihrer Meinung nach Situationen, in denen diese Macht sichtbar wird und bewusst hinterfragt werden kann?",
+      "text_en": "You emphasized the invisibility of linguistic power. In your opinion, are there situations in which this power becomes visible and can be consciously questioned?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Durchaus — und zwar typischerweise in Momenten der Grenzüberschreitung. Wenn etwa ein Dialektsprecher in einem akademischen Kontext belächelt wird, wenn ein Migrant aufgrund seines Akzents für weniger kompetent gehalten wird oder wenn eine Minderheitensprache aus dem öffentlichen Raum verdrängt wird, dann treten die sonst verborgenen Machtstrukturen zutage. Solche Momente der Sichtbarkeit können katalytisch wirken: Sie eröffnen die Möglichkeit einer kritischen Reflexion, die im alltäglichen, unreflektierten Sprachgebrauch nicht stattfindet. Die Aufgabe einer kritischen Soziolinguistik bestünde darin, diese Momente systematisch zu analysieren und damit zur Bewusstmachung sprachlicher Machtmechanismen beizutragen.",
+      "text_en": "Certainly — and typically in moments of boundary crossing. When a dialect speaker is ridiculed in an academic context, when a migrant is considered less competent because of their accent, or when a minority language is displaced from the public sphere, then the otherwise hidden power structures come to light. Such moments of visibility can have a catalytic effect: they open up the possibility of critical reflection that does not take place in everyday, unreflected language use. The task of a critical sociolinguistics would be to systematically analyze these moments and thereby contribute to raising awareness of linguistic power mechanisms."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Wie würden Sie abschließend das Verhältnis von sprachlicher Diversität und globaler Verständigung beurteilen?",
+      "text_en": "How would you assess, in conclusion, the relationship between linguistic diversity and global understanding?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich bin der Überzeugung, dass sprachliche Diversität und globale Verständigung einander nicht ausschließen müssen, sondern sich wechselseitig bereichern können. Mehrsprachigkeit — nicht als Ausnahme, sondern als Norm — wäre das Modell, das beiden Anliegen gerecht würde. Jede Sprache erschließt eine eigene Welt, eine eigene Weise, die Wirklichkeit zu gliedern und zu deuten. Der Verlust einer Sprache bedeutet somit nicht nur einen kulturellen, sondern auch einen kognitiven Verlust. Eine Welt, in der alle nur noch eine Sprache sprächen, wäre nicht reicher an Verständigung, sondern ärmer an Verständnis.",
+      "text_en": "I am convinced that linguistic diversity and global understanding need not exclude each other but can mutually enrich one another. Multilingualism — not as an exception but as a norm — would be the model that does justice to both concerns. Each language opens up its own world, its own way of structuring and interpreting reality. The loss of a language thus means not only a cultural but also a cognitive loss. A world in which everyone spoke only one language would not be richer in communication but poorer in understanding."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen umfassenden, klar gegliederten Vortrag auf muttersprachlichem Niveau und geht anschließend souverän auf alle Diskussionsimpulse ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat entfaltet eine vielschichtige Argumentation, bezieht differenziert Stellung und begegnet Gegenargumenten mit intellektueller Flexibilität und rhetorischer Präzision.",
+    "Interaktion und Gesprächsführung: Der Kandidat steuert das Gespräch auf muttersprachlichem Niveau, greift Impulse nahtlos auf, reformuliert und vertieft eigenständig.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung akademischer Redemittel, Metaphern und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-1-005",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Ästhetische Erfahrung und das Erhabene",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Der in der Ästhetikgeschichte seit Longinus verhandelte Begriff des Erhabenen hat in den vergangenen Jahrzehnten eine bemerkenswerte Renaissance erfahren. Die von Kant in seiner dritten Kritik vorgenommene Unterscheidung zwischen dem Schönen und dem Erhabenen bildet dabei nach wie vor den systematischen Ausgangspunkt: Während das Schöne durch die harmonische Übereinstimmung von Einbildungskraft und Verstand ein Gefühl der Lust erzeugt, resultiert das Erhabene aus dem Scheitern der Einbildungskraft an der Unfassbarkeit des Dargestellten — ein Scheitern, das paradoxerweise in ein Gefühl der Erhebung umschlägt, da es die Überlegenheit der Vernunft über die Sinnlichkeit offenbart.\n\nLyotards an Kant anknüpfende Neubestimmung des Erhabenen für die Ästhetik der Postmoderne radikalisiert diesen Gedanken. Das Erhabene wird zum ästhetischen Modus einer Kunst, die das Undarstellbare zu vergegenwärtigen sucht, ohne es in eine darstellbare Form zu überführen. Die in der avancierten Kunst vollzogene Absage an konventionelle Darstellungsweisen sei nicht als Nihilismus zu deuten, sondern als ein Zeugnis für die Uneinholbarkeit dessen, was sich der Repräsentation entzieht — sei es das Absolute, das Unendliche oder das traumatische Ereignis.\n\nKritische Stimmen haben darauf hingewiesen, dass die inflationäre Berufung auf das Erhabene in der zeitgenössischen Kunstkritik die Gefahr einer unkritischen Mystifizierung birgt. Wo jede Verweigerung von Verständlichkeit als Manifestation des Erhabenen geadelt werde, drohe der Begriff seine diagnostische Schärfe zu verlieren. Eine differenziertere Verwendung müsse zwischen einem philosophisch reflektierten Erhabenen und der bloßen Inszenierung von Unverständlichkeit unterscheiden.",
+    "text_en": "The concept of the sublime, discussed in the history of aesthetics since Longinus, has experienced a remarkable renaissance in recent decades. Kant's distinction between the beautiful and the sublime, undertaken in his third Critique, still forms the systematic starting point: while the beautiful produces a feeling of pleasure through the harmonious agreement of imagination and understanding, the sublime results from the imagination's failure in the face of the incomprehensibility of what is presented — a failure that paradoxically turns into a feeling of elevation, as it reveals the superiority of reason over sensibility.\n\nLyotard's redetermination of the sublime for the aesthetics of postmodernity, building on Kant, radicalizes this thought. The sublime becomes the aesthetic mode of an art that seeks to make present the unpresentable without converting it into a presentable form. The rejection of conventional modes of representation carried out in advanced art is not to be interpreted as nihilism but as testimony to the unreachability of that which eludes representation — be it the absolute, the infinite, or the traumatic event.\n\nCritical voices have pointed out that the inflationary invocation of the sublime in contemporary art criticism carries the danger of uncritical mystification. Where every refusal of comprehensibility is ennobled as a manifestation of the sublime, the concept threatens to lose its diagnostic precision. A more differentiated usage would need to distinguish between a philosophically reflected sublime and the mere staging of incomprehensibility.",
+    "source": "Literaturkritik",
+    "word_count": 226
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was erzeugt das Erhabene nach Kants Analyse?",
+      "text_en": "What does the sublime produce according to Kant's analysis?",
+      "options": [
+        "a) Ein harmonisches Zusammenspiel von Einbildungskraft und Verstand.",
+        "b) Eine rein negative Erfahrung des Scheiterns ohne jegliche Lust.",
+        "c) Ein Scheitern der Einbildungskraft, das paradoxerweise in ein Gefühl der Erhebung umschlägt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Erhabene resultiert aus dem Scheitern der Einbildungskraft, das paradoxerweise in ein Gefühl der Erhebung umschlägt.",
+      "explanation_en": "The sublime results from the imagination's failure that paradoxically turns into a feeling of elevation."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Lyotard unter dem Erhabenen in der postmodernen Ästhetik?",
+      "text_en": "What does Lyotard understand by the sublime in postmodern aesthetics?",
+      "options": [
+        "a) Eine nostalgische Rückkehr zu klassischen Schönheitsidealen.",
+        "b) Den ästhetischen Modus einer Kunst, die das Undarstellbare zu vergegenwärtigen sucht.",
+        "c) Die vollständige Aufgabe ästhetischer Maßstäbe."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Das Erhabene wird zum ästhetischen Modus einer Kunst, die das Undarstellbare zu vergegenwärtigen sucht, ohne es in eine darstellbare Form zu überführen.",
+      "explanation_en": "The sublime becomes the aesthetic mode of an art that seeks to make present the unpresentable without converting it into a presentable form."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie soll die Absage avancierter Kunst an konventionelle Darstellungsweisen laut Text gedeutet werden?",
+      "text_en": "How should advanced art's rejection of conventional modes of representation be interpreted according to the text?",
+      "options": [
+        "a) Als Zeugnis für die Uneinholbarkeit dessen, was sich der Repräsentation entzieht.",
+        "b) Als Ausdruck eines nihilistischen Weltbilds.",
+        "c) Als bewusste Provokation ohne tieferen Gehalt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Absage an konventionelle Darstellungsweisen sei nicht als Nihilismus zu deuten, sondern als Zeugnis für die Uneinholbarkeit dessen, was sich der Repräsentation entzieht.",
+      "explanation_en": "The rejection of conventional modes of representation is not to be interpreted as nihilism but as testimony to the unreachability of that which eludes representation."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht der Unterschied zwischen dem Schönen und dem Erhabenen bei Kant?",
+      "text_en": "What is the difference between the beautiful and the sublime in Kant?",
+      "options": [
+        "a) Das Schöne beruht auf Disharmonie, das Erhabene auf Harmonie.",
+        "b) Das Schöne ist objektiv, das Erhabene ist subjektiv.",
+        "c) Das Schöne entsteht durch harmonische Übereinstimmung, das Erhabene durch Scheitern der Einbildungskraft."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Schöne entsteht durch die harmonische Übereinstimmung von Einbildungskraft und Verstand, das Erhabene aus dem Scheitern der Einbildungskraft an der Unfassbarkeit des Dargestellten.",
+      "explanation_en": "The beautiful arises through the harmonious agreement of imagination and understanding, the sublime from the imagination's failure in the face of the incomprehensibility of what is presented."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was fordert der Text für eine differenziertere Verwendung des Erhabenheitsbegriffs?",
+      "text_en": "What does the text demand for a more differentiated use of the concept of the sublime?",
+      "options": [
+        "a) Die vollständige Aufgabe des Begriffs zugunsten neuer Terminologie.",
+        "b) Eine Unterscheidung zwischen philosophisch reflektiertem Erhabenen und bloßer Inszenierung von Unverständlichkeit.",
+        "c) Die Begrenzung des Begriffs auf die klassische Landschaftsmalerei."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Eine differenziertere Verwendung müsse zwischen einem philosophisch reflektierten Erhabenen und der bloßen Inszenierung von Unverständlichkeit unterscheiden.",
+      "explanation_en": "A more differentiated usage would need to distinguish between a philosophically reflected sublime and the mere staging of incomprehensibility."
+    }
+  ]
+}

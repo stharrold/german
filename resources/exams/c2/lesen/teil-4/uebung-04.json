@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-4-004",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Kognitive Linguistik und konzeptuelle Metapher",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die von Lakoff und Johnson begründete Theorie der konzeptuellen Metapher hat das traditionelle Verständnis der Metapher als rhetorisches Stilmittel grundlegend revidiert. Metaphern sind demnach keine bloßen sprachlichen Verzierungen, sondern kognitive Grundoperationen, durch die abstrakte Erfahrungsbereiche mittels konkreter, körperlich fundierter Quellbereiche strukturiert werden. Die allgegenwärtige Konzeptualisierung von Zeit als Raum — wir blicken der Zukunft entgegen, lassen die Vergangenheit hinter uns — stellt keine poetische Lizenz dar, sondern reflektiert eine tiefenstrukturelle kognitive Abbildung, ohne die das abstrakte Phänomen der Zeitlichkeit dem menschlichen Denken gar nicht zugänglich wäre.\n\nDie empirische Fundierung dieser Theorie durch psycholinguistische Experimente hat gezeigt, dass konzeptuelle Metaphern die Wahrnehmung und das Urteilsvermögen auf eine den Sprechern häufig unbewusste Weise beeinflussen. Die metaphorische Rahmung eines Sachverhalts — etwa die Darstellung von Kriminalität als Krankheit gegenüber ihrer Beschreibung als Bestie — führt nachweislich zu systematisch unterschiedlichen Politikpräferenzen bei den Rezipienten, obgleich die zugrunde liegenden Fakten identisch bleiben. Diese Befunde unterminieren die Vorstellung einer metaphernfreien, rein sachlichen Sprache und legen nahe, dass jede Darstellung eines komplexen Sachverhalts bereits eine perspektivische Vorstrukturierung enthält.\n\nDie kognitive Metapherntheorie hat weitreichende Implikationen für die politische Kommunikationsforschung, da sie aufzeigt, dass die Wahl der leitenden Metaphern — Staat als Familie, Wirtschaft als Organismus, Gesellschaft als Maschine — nicht lediglich illustrativ wirkt, sondern die konzeptuelle Rahmung bestimmt, innerhalb derer politische Probleme wahrgenommen und Lösungen formuliert werden. Die von Lakoff als 'Framing' bezeichnete strategische Nutzung konzeptueller Metaphern erweist sich damit als wirkungsmächtigstes Instrument politischer Überzeugungsarbeit.",
+    "text_en": "The theory of conceptual metaphor, founded by Lakoff and Johnson, has fundamentally revised the traditional understanding of metaphor as a rhetorical device. Metaphors are accordingly not mere linguistic embellishments but basic cognitive operations through which abstract experiential domains are structured by means of concrete, bodily grounded source domains. The ubiquitous conceptualization of time as space — we face the future, leave the past behind us — represents no poetic license but reflects a deep-structural cognitive mapping without which the abstract phenomenon of temporality would not be accessible to human thought at all.\n\nThe empirical grounding of this theory through psycholinguistic experiments has shown that conceptual metaphors influence perception and judgment in a manner frequently unconscious to speakers. The metaphorical framing of a matter — for instance the depiction of crime as disease versus its description as a beast — demonstrably leads to systematically different policy preferences among recipients, although the underlying facts remain identical. These findings undermine the notion of a metaphor-free, purely factual language and suggest that every representation of a complex matter already contains a perspectival pre-structuring.\n\nCognitive metaphor theory has far-reaching implications for political communication research, as it demonstrates that the choice of guiding metaphors — state as family, economy as organism, society as machine — does not merely have an illustrative effect but determines the conceptual framing within which political problems are perceived and solutions are formulated. The strategic use of conceptual metaphors, which Lakoff terms 'framing,' thus proves to be the most powerful instrument of political persuasion.",
+    "source": "Sprachwissenschaft",
+    "word_count": 237
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Theorie der konzeptuellen Metapher am traditionellen Metaphernverständnis revidiert?",
+      "text_en": "What has the theory of conceptual metaphor revised about the traditional understanding of metaphor?",
+      "options": [
+        "a) Metaphern sind keine bloßen sprachlichen Verzierungen, sondern kognitive Grundoperationen.",
+        "b) Metaphern kommen nur in literarischen Texten vor, nicht in der Alltagssprache.",
+        "c) Metaphern sind bewusst eingesetzte Stilmittel, die das Denken nicht beeinflussen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Theorie zeigt, dass Metaphern keine sprachlichen Verzierungen sind, sondern kognitive Grundoperationen, die abstrakte Bereiche durch konkrete strukturieren.",
+      "explanation_en": "The theory shows that metaphors are not linguistic embellishments but basic cognitive operations that structure abstract domains through concrete ones."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen psycholinguistische Experimente über die Wirkung metaphorischer Rahmungen?",
+      "text_en": "What do psycholinguistic experiments show about the effect of metaphorical framings?",
+      "options": [
+        "a) Dass Rezipienten metaphorische Sprache grundsätzlich als unsachlich zurückweisen.",
+        "b) Dass die Wirkung von Metaphern auf gebildete Bevölkerungsschichten beschränkt ist.",
+        "c) Dass unterschiedliche metaphorische Rahmungen bei identischen Fakten zu systematisch verschiedenen Politikpräferenzen führen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die metaphorische Rahmung eines Sachverhalts führt nachweislich zu systematisch unterschiedlichen Politikpräferenzen, obgleich die Fakten identisch bleiben.",
+      "explanation_en": "The metaphorical framing of a matter demonstrably leads to systematically different policy preferences, although the facts remain identical."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was unterminieren die Befunde der Metaphernforschung?",
+      "text_en": "What do the findings of metaphor research undermine?",
+      "options": [
+        "a) Die Bedeutung empirischer Methoden in der Sprachwissenschaft.",
+        "b) Die Vorstellung einer metaphernfreien, rein sachlichen Sprache.",
+        "c) Die Relevanz politischer Kommunikation für demokratische Prozesse."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Befunde unterminieren die Vorstellung einer metaphernfreien, rein sachlichen Sprache.",
+      "explanation_en": "The findings undermine the notion of a metaphor-free, purely factual language."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie wirken leitende Metaphern in der politischen Kommunikation laut dem Text?",
+      "text_en": "How do guiding metaphors work in political communication according to the text?",
+      "options": [
+        "a) Sie bestimmen die konzeptuelle Rahmung, innerhalb derer politische Probleme wahrgenommen werden.",
+        "b) Sie dienen lediglich der stilistischen Aufwertung politischer Reden.",
+        "c) Sie ersetzen rationale Argumente durch emotionale Appelle."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Wahl der leitenden Metaphern bestimmt die konzeptuelle Rahmung, innerhalb derer politische Probleme wahrgenommen und Lösungen formuliert werden.",
+      "explanation_en": "The choice of guiding metaphors determines the conceptual framing within which political problems are perceived and solutions are formulated."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was bezeichnet Lakoff als 'Framing'?",
+      "text_en": "What does Lakoff call 'framing'?",
+      "options": [
+        "a) Die grammatische Analyse metaphorischer Ausdrücke in politischen Texten.",
+        "b) Die Begrenzung des öffentlichen Diskurses auf sachliche Argumentation.",
+        "c) Die strategische Nutzung konzeptueller Metaphern als Instrument politischer Überzeugungsarbeit."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Framing bezeichnet die strategische Nutzung konzeptueller Metaphern als wirkungsmächtigstes Instrument politischer Überzeugungsarbeit.",
+      "explanation_en": "Framing denotes the strategic use of conceptual metaphors as the most powerful instrument of political persuasion."
+    }
+  ]
+}

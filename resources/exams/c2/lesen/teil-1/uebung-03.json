@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-1-003",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Hermeneutik und Textinterpretation",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die von Gadamer in seinem Hauptwerk entfaltete philosophische Hermeneutik begreift das Verstehen nicht als eine methodisch kontrollierbare Technik, sondern als einen ontologischen Grundmodus menschlichen Daseins. Jeder Akt des Verstehens vollzieht sich demnach vor dem Hintergrund eines geschichtlich gewachsenen Vorverständnisses, das Gadamer als den „Horizont“ des Interpreten bezeichnet. Die von der Aufklärung angestrebte vorurteilsfreie Erkenntnis erweist sich in dieser Perspektive als eine Illusion, da jedes Verstehen notwendig von den Vorurteilen geprägt ist, die der Interpret in den Deutungsprozess einbringt.\n\nDer von Gadamer beschriebene hermeneutische Zirkel — wonach das Verstehen eines Textganzen das Verständnis seiner Teile voraussetzt und umgekehrt — ist kein methodologisches Defizit, das es zu überwinden gälte, sondern die grundlegende Struktur jeder Interpretation. Im Prozess der „Horizontverschmelzung“ nähern sich der Horizont des Textes und der des Interpreten einander an, ohne jemals vollständig zu koinzidieren. Verstehen bedeutet daher niemals die Rekonstruktion einer vom Autor intendierten Bedeutung, sondern stets eine produktive Aneignung, die über das ursprünglich Gemeinte hinausgeht.\n\nDie von Habermas und anderen vorgetragene Kritik an Gadamers Universalitätsanspruch der Hermeneutik richtet sich vor allem gegen die vermeintliche Rehabilitation des Vorurteils. Wo Gadamer die Vorurteilsstruktur des Verstehens als unhintergehbar akzeptiert, fordert die kritische Theorie deren reflexive Aufklärung. Die in ideologischen Verzerrungen wurzelnden Vorverständnisse seien nicht einfach hinzunehmen, sondern durch Ideologiekritik zu entlarven — ein Einwand, der die Grenzen einer rein hermeneutischen Textauslegung markiert.",
+    "text_en": "The philosophical hermeneutics developed by Gadamer in his major work conceives understanding not as a methodically controllable technique but as an ontological fundamental mode of human existence. Every act of understanding accordingly takes place against the background of a historically grown pre-understanding, which Gadamer terms the 'horizon' of the interpreter. The prejudice-free knowledge sought by the Enlightenment proves in this perspective to be an illusion, since every understanding is necessarily shaped by the prejudices that the interpreter brings into the process of interpretation.\n\nThe hermeneutic circle described by Gadamer — according to which understanding a text as a whole presupposes understanding its parts and vice versa — is not a methodological deficiency to be overcome but the fundamental structure of every interpretation. In the process of 'fusion of horizons,' the horizon of the text and that of the interpreter approach each other without ever fully coinciding. Understanding therefore never means reconstructing a meaning intended by the author, but always a productive appropriation that goes beyond what was originally meant.\n\nThe critique of Gadamer's universality claim for hermeneutics, advanced by Habermas and others, is directed above all against the alleged rehabilitation of prejudice. Where Gadamer accepts the prejudice-structure of understanding as inescapable, critical theory demands its reflexive enlightenment. The pre-understandings rooted in ideological distortions are not simply to be accepted but to be unmasked through ideology critique — an objection that marks the limits of a purely hermeneutic textual interpretation.",
+    "source": "Literaturkritik",
+    "word_count": 220
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Gadamer laut dem Text unter dem „Horizont“ des Interpreten?",
+      "text_en": "What does Gadamer understand by the 'horizon' of the interpreter according to the text?",
+      "options": [
+        "a) Die methodische Kompetenz des Interpreten.",
+        "b) Das geschichtlich gewachsene Vorverständnis, das jede Interpretation prägt.",
+        "c) Die räumliche Distanz zwischen Interpret und Text."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Gadamer bezeichnet das geschichtlich gewachsene Vorverständnis als den „Horizont“ des Interpreten.",
+      "explanation_en": "Gadamer terms the historically grown pre-understanding the 'horizon' of the interpreter."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie bewertet Gadamer den hermeneutischen Zirkel?",
+      "text_en": "How does Gadamer evaluate the hermeneutic circle?",
+      "options": [
+        "a) Als ein unüberwindbares Hindernis für jede Interpretation.",
+        "b) Als ein methodologisches Defizit, das durch bessere Techniken zu beheben ist.",
+        "c) Als die grundlegende Struktur jeder Interpretation."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der hermeneutische Zirkel ist kein methodologisches Defizit, sondern die grundlegende Struktur jeder Interpretation.",
+      "explanation_en": "The hermeneutic circle is not a methodological deficiency but the fundamental structure of every interpretation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was bedeutet „Horizontverschmelzung“ bei Gadamer?",
+      "text_en": "What does 'fusion of horizons' mean in Gadamer?",
+      "options": [
+        "a) Die Annäherung des Text-Horizonts und des Interpreten-Horizonts, ohne vollständige Koinzidenz.",
+        "b) Die vollständige Übernahme des Autorenstandpunkts durch den Leser.",
+        "c) Die Aufgabe des eigenen Vorverständnisses zugunsten des Textes."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "In der Horizontverschmelzung nähern sich der Horizont des Textes und der des Interpreten einander an, ohne jemals vollständig zu koinzidieren.",
+      "explanation_en": "In the fusion of horizons, the horizon of the text and that of the interpreter approach each other without ever fully coinciding."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was fordert die kritische Theorie im Gegensatz zu Gadamer?",
+      "text_en": "What does critical theory demand in contrast to Gadamer?",
+      "options": [
+        "a) Die Akzeptanz aller Vorurteile als gleichwertig.",
+        "b) Die reflexive Aufklärung ideologisch verzerrter Vorverständnisse.",
+        "c) Die vollständige Abschaffung hermeneutischer Methoden."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die kritische Theorie fordert die reflexive Aufklärung der in ideologischen Verzerrungen wurzelnden Vorverständnisse.",
+      "explanation_en": "Critical theory demands the reflexive enlightenment of pre-understandings rooted in ideological distortions."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum erweist sich die aufklärerische Idee vorurteilsfreier Erkenntnis laut Gadamer als Illusion?",
+      "text_en": "Why does the Enlightenment idea of prejudice-free knowledge prove to be an illusion according to Gadamer?",
+      "options": [
+        "a) Weil die Aufklärung historisch gescheitert ist.",
+        "b) Weil wissenschaftliche Methoden grundsätzlich unzuverlässig sind.",
+        "c) Weil jedes Verstehen notwendig von den Vorurteilen des Interpreten geprägt ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Jedes Verstehen ist notwendig von den Vorurteilen geprägt, die der Interpret in den Deutungsprozess einbringt.",
+      "explanation_en": "Every understanding is necessarily shaped by the prejudices that the interpreter brings into the process of interpretation."
+    }
+  ]
+}
