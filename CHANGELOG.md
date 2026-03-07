@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 10 exercises (Teil 1–2, 5 each)
 - C2 exam PDFs (4 skill-specific PDFs in `resources/exams/c2/pdfs/`)
-- `tests/test_c2_exercises.py` — 29 parametrized tests for C2 content validation
+- `tests/test_c2_exercises.py` — 29 tests for C2 content validation
 - **Full CEFR A1–C2 exam coverage complete** (380 total exercises)
 
 ## [2.6.0] - 2026-03-06
