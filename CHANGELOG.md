@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.1] - 2026-03-07
+
+### Fixed
+- Added v2.4.0–v2.7.0 entries to Version History Summary table in CHANGELOG
+- Clarified test count wording in CHANGELOG (removed "parametrized" qualifier)
+
 ## [2.7.0] - 2026-03-07
 
 ### Added
@@ -28,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 10 exercises (Teil 1–2, 5 each)
 - C1 exam PDFs (4 skill-specific PDFs in `resources/exams/c1/pdfs/`)
-- `tests/test_c1_exercises.py` — 35 parametrized tests for C1 content validation
+- `tests/test_c1_exercises.py` — 35 tests for C1 content validation
 
 ## [2.5.0] - 2026-03-06
 
@@ -39,7 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 10 exercises (Teil 1–2, 5 each)
 - B2 exam PDFs (4 skill-specific PDFs in `resources/exams/b2/pdfs/`)
-- `tests/test_b2_exercises.py` — 35 parametrized tests for B2 content validation
+- `tests/test_b2_exercises.py` — 35 tests for B2 content validation
 - Subscript digit support (U+2080–U+2089) in `scripts/make_pdfs.py` for CO₂ notation
 
 ## [2.4.0] - 2026-03-06
@@ -51,7 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 15 exercises (Teil 1–3, 5 each)
 - A1 exam PDFs (4 skill-specific PDFs in `resources/exams/a1/pdfs/`)
-- `tests/test_a1_exercises.py` — parametrized tests for A1 content validation
+- `tests/test_a1_exercises.py` — tests for A1 content validation
 
 ## [2.3.0] - 2026-03-05
 
@@ -62,7 +68,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
   - Sprechen: 15 exercises (Teil 1–3, 5 each)
 - A2 exam PDFs (4 skill-specific PDFs in `resources/exams/a2/pdfs/`)
-- `tests/test_a2_exercises.py` — 33 parametrized tests for A2 content validation
+- `tests/test_a2_exercises.py` — 33 tests for A2 content validation
 
 ### Changed
 - `scripts/make_pdfs.py` refactored for multi-level PDF generation (`--level {a2,b1}`)
@@ -713,6 +719,11 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 2.7.1   | 2026-03-07 | PATCH | Fix CHANGELOG Version History Summary table and test count wording |
+| 2.7.0   | 2026-03-07 | MINOR | C2 exam practice content (50 exercises, GDS format) — full CEFR A1–C2 complete |
+| 2.6.0   | 2026-03-06 | MINOR | C1 exam practice content (65 exercises) |
+| 2.5.0   | 2026-03-06 | MINOR | B2 exam practice content (65 exercises) + subscript digit PDF support |
+| 2.4.0   | 2026-03-06 | MINOR | A1 exam practice content (60 exercises) |
 | 2.3.0   | 2026-03-05 | MINOR | A2 exam practice content (65 exercises) + multi-level PDF generation |
 | 2.2.0   | 2026-03-05 | MINOR | Vocabulary leveling + PDF generation script |
 | 2.1.0   | 2026-03-04 | MINOR | B1 exam practice content (75 exercises) + exam models/loader/query |
