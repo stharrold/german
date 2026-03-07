@@ -779,6 +779,444 @@
       "english": "to win",
       "part_of_speech": "verb",
       "level": "A2"
+    },
+    {
+      "german": "diskutieren",
+      "english": "to discuss",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "streiten",
+      "english": "to argue",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vereinbaren",
+      "english": "to arrange/agree upon",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "mitteilen",
+      "english": "to inform/communicate",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "überzeugen",
+      "english": "to convince",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "zustimmen",
+      "english": "to agree",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "ablehnen",
+      "english": "to reject/decline",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bewerben",
+      "english": "to apply (for a job)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "kündigen",
+      "english": "to quit/resign",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "einstellen",
+      "english": "to hire/employ",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "planen",
+      "english": "to plan",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "organisieren",
+      "english": "to organize",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "buchen",
+      "english": "to book/reserve",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "enttäuschen",
+      "english": "to disappoint",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vermissen",
+      "english": "to miss (someone/something)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beraten",
+      "english": "to advise/counsel",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vergleichen",
+      "english": "to compare",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "versprechen",
+      "english": "to promise",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "warnen",
+      "english": "to warn",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bitten",
+      "english": "to ask/request",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bewundern",
+      "english": "to admire",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vermuten",
+      "english": "to suspect/assume",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "vorziehen",
+      "english": "to prefer",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "veröffentlichen",
+      "english": "to publish",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "unterstützen",
+      "english": "to support",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beobachten",
+      "english": "to observe",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "stören",
+      "english": "to disturb",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "anerkennen",
+      "english": "to recognize/acknowledge",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "erledigen",
+      "english": "to take care of/complete (a task)",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "beeinflussen",
+      "english": "to influence",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "bedauern",
+      "english": "to regret",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "gratulieren",
+      "english": "to congratulate",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "benachrichtigen",
+      "english": "to notify",
+      "part_of_speech": "verb",
+      "level": "B1"
+    },
+    {
+      "german": "analysieren",
+      "english": "to analyze",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "argumentieren",
+      "english": "to argue/reason",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beurteilen",
+      "english": "to assess/judge",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "widersprechen",
+      "english": "to contradict",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erörtern",
+      "english": "to discuss/deliberate (formal)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "nachweisen",
+      "english": "to prove/demonstrate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "behaupten",
+      "english": "to claim/assert",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "widerlegen",
+      "english": "to refute",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "hervorheben",
+      "english": "to emphasize/highlight",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "zusammenfassen",
+      "english": "to summarize",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "auswerten",
+      "english": "to evaluate/analyze (data)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erforschen",
+      "english": "to research/explore",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "einschätzen",
+      "english": "to assess/estimate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "voraussetzen",
+      "english": "to presuppose/require",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "berücksichtigen",
+      "english": "to consider/take into account",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ableiten",
+      "english": "to derive/deduce",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "verknüpfen",
+      "english": "to link/connect",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "bewältigen",
+      "english": "to cope with/manage",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "gewährleisten",
+      "english": "to guarantee/ensure",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "durchführen",
+      "english": "to carry out/conduct",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beauftragen",
+      "english": "to commission/assign",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "betreuen",
+      "english": "to supervise/look after",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beantragen",
+      "english": "to apply for (formally)",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "begründen",
+      "english": "to justify/give reasons",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "anstreben",
+      "english": "to aspire to/strive for",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "verfügen",
+      "english": "to have at one's disposal",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beitragen",
+      "english": "to contribute",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "untersuchen",
+      "english": "to examine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ermitteln",
+      "english": "to determine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "beeinträchtigen",
+      "english": "to impair/affect negatively",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "vernachlässigen",
+      "english": "to neglect",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "darstellen",
+      "english": "to represent/depict",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "überprüfen",
+      "english": "to verify/review",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "fördern",
+      "english": "to promote/support",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "hinterfragen",
+      "english": "to question critically",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "anwenden",
+      "english": "to apply/use",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "erwägen",
+      "english": "to consider/contemplate",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "ergänzen",
+      "english": "to supplement/complement",
+      "part_of_speech": "verb",
+      "level": "B2"
+    },
+    {
+      "german": "veranschaulichen",
+      "english": "to illustrate/visualize",
+      "part_of_speech": "verb",
+      "level": "B2"
     }
   ]
 }

@@ -755,6 +755,456 @@
       "english": "happy/lucky",
       "part_of_speech": "adjective",
       "level": "A2"
+    },
+    {
+      "german": "gesellschaftlich",
+      "english": "social/societal",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "verantwortlich",
+      "english": "responsible",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "zuverlässig",
+      "english": "reliable",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "selbstständig",
+      "english": "independent/self-reliant",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "geduldig",
+      "english": "patient",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "ungeduldig",
+      "english": "impatient",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "großzügig",
+      "english": "generous",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "geizig",
+      "english": "stingy/miserly",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "eifersüchtig",
+      "english": "jealous",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "bescheiden",
+      "english": "modest/humble",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "selbstbewusst",
+      "english": "self-confident",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "schüchtern",
+      "english": "shy/timid",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "hartnäckig",
+      "english": "persistent/stubborn",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "entschlossen",
+      "english": "determined/resolute",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "vernünftig",
+      "english": "reasonable/sensible",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "gerecht",
+      "english": "fair/just",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "ungerecht",
+      "english": "unfair/unjust",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "öffentlich",
+      "english": "public",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "privat",
+      "english": "private",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "politisch",
+      "english": "political",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "wirtschaftlich",
+      "english": "economic",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "persönlich",
+      "english": "personal",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "beruflich",
+      "english": "professional/career-related",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "ausgezeichnet",
+      "english": "excellent/outstanding",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "angenehm",
+      "english": "pleasant/agreeable",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "unangenehm",
+      "english": "unpleasant/disagreeable",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "dankbar",
+      "english": "grateful/thankful",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "wertvoll",
+      "english": "valuable/precious",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "sinnvoll",
+      "english": "meaningful/sensible",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "dringend",
+      "english": "urgent/pressing",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "wesentlich",
+      "english": "essential/substantial",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "grundsätzlich",
+      "english": "fundamental/in principle",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "zahlreich",
+      "english": "numerous",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "endgültig",
+      "english": "final/definitive",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "offensichtlich",
+      "english": "obvious/evident",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "üblich",
+      "english": "usual/customary",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "angemessen",
+      "english": "appropriate/adequate",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "unabhängig",
+      "english": "independent",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "empfindlich",
+      "english": "sensitive/delicate",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "geeignet",
+      "english": "suitable/appropriate",
+      "part_of_speech": "adjective",
+      "level": "B1"
+    },
+    {
+      "german": "wissenschaftlich",
+      "english": "scientific/academic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "theoretisch",
+      "english": "theoretical",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "empirisch",
+      "english": "empirical",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "systematisch",
+      "english": "systematic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "analytisch",
+      "english": "analytical",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "komplex",
+      "english": "complex",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "abstrakt",
+      "english": "abstract",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "konkret",
+      "english": "concrete/specific",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "objektiv",
+      "english": "objective",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "subjektiv",
+      "english": "subjective",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "rational",
+      "english": "rational",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "präzise",
+      "english": "precise/exact",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "vage",
+      "english": "vague/unclear",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "relevant",
+      "english": "relevant",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "subtil",
+      "english": "subtle",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "ironisch",
+      "english": "ironic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "melancholisch",
+      "english": "melancholic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "nostalgisch",
+      "english": "nostalgic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "euphorisch",
+      "english": "euphoric",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "verzweifelt",
+      "english": "desperate/despairing",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "begeistert",
+      "english": "enthusiastic/thrilled",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "enttäuscht",
+      "english": "disappointed",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "überwältigt",
+      "english": "overwhelmed",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "gleichgültig",
+      "english": "indifferent/apathetic",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "sachlich",
+      "english": "factual/objective",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "förmlich",
+      "english": "formal/ceremonious",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "ausführlich",
+      "english": "detailed/thorough",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "oberflächlich",
+      "english": "superficial/shallow",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "nachhaltig",
+      "english": "sustainable/lasting",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "umfassend",
+      "english": "comprehensive/extensive",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "herausragend",
+      "english": "outstanding/exceptional",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "bemerkenswert",
+      "english": "remarkable/noteworthy",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "fragwürdig",
+      "english": "questionable/dubious",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "bahnbrechend",
+      "english": "groundbreaking/pioneering",
+      "part_of_speech": "adjective",
+      "level": "B2"
+    },
+    {
+      "german": "wohlwollend",
+      "english": "benevolent/well-meaning",
+      "part_of_speech": "adjective",
+      "level": "B2"
     }
   ]
 }
