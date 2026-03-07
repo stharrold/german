@@ -32,19 +32,19 @@ def test_no_duplicate_words():
 def test_noun_count_minimum():
     """Test minimum noun count across levels."""
     nouns = load_vocabulary(category="nouns")
-    assert len(nouns) >= 200, f"Expected >= 200 nouns, got {len(nouns)}"
+    assert len(nouns) >= 400, f"Expected >= 400 nouns, got {len(nouns)}"
 
 
 def test_verb_count_minimum():
     """Test minimum verb count across levels."""
     verbs = load_vocabulary(category="verbs")
-    assert len(verbs) >= 100, f"Expected >= 100 verbs, got {len(verbs)}"
+    assert len(verbs) >= 200, f"Expected >= 200 verbs, got {len(verbs)}"
 
 
 def test_adjective_count_minimum():
     """Test minimum adjective count across levels."""
     adjectives = load_vocabulary(category="adjectives")
-    assert len(adjectives) >= 80, f"Expected >= 80 adjectives, got {len(adjectives)}"
+    assert len(adjectives) >= 200, f"Expected >= 200 adjectives, got {len(adjectives)}"
 
 
 def test_level_distribution_nouns():

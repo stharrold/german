@@ -1754,10 +1754,10 @@
     },
     {
       "german": "Post",
-      "english": "post office",
+      "english": "mail/post office",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Posten",
+      "plural": null,
       "level": "A2"
     },
     {
@@ -2309,7 +2309,7 @@
       "english": "environment",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Umwelten",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2333,7 +2333,7 @@
       "english": "waste/garbage",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Mülle",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2341,7 +2341,7 @@
       "english": "climate",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Klimata",
+      "plural": "Klimas",
       "level": "B1"
     },
     {
@@ -2349,7 +2349,7 @@
       "english": "nature",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Naturen",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2357,7 +2357,7 @@
       "english": "protection",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Schutze",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2413,7 +2413,7 @@
       "english": "youth",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Jugenden",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2549,7 +2549,7 @@
       "english": "grief/sorrow",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Trauern",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2557,7 +2557,7 @@
       "english": "rage/anger",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Wüte",
+      "plural": null,
       "level": "B1"
     },
     {
@@ -2973,7 +2973,7 @@
       "english": "consciousness",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Bewusstseine",
+      "plural": null,
       "level": "B2"
     },
     {
@@ -3013,7 +3013,7 @@
       "english": "reason/rationality",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Vernünfte",
+      "plural": null,
       "level": "B2"
     },
     {
@@ -3533,7 +3533,7 @@
       "english": "leisure/contemplation",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Mußen",
+      "plural": null,
       "level": "C2"
     },
     {
@@ -3629,7 +3629,7 @@
       "english": "spirit of the age",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Zeitgeiste",
+      "plural": null,
       "level": "C2"
     },
     {
@@ -3645,7 +3645,7 @@
       "english": "wanderlust",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Wanderlüste",
+      "plural": null,
       "level": "C2"
     },
     {
