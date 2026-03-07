@@ -179,6 +179,606 @@
       "english": "to lead",
       "part_of_speech": "verb",
       "level": "A1"
+    },
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "spielen",
+      "english": "to play",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "lesen",
+      "english": "to read",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schreiben",
+      "english": "to write",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "hören",
+      "english": "to hear",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "essen",
+      "english": "to eat",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "trinken",
+      "english": "to drink",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "wohnen",
+      "english": "to live (reside)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fahren",
+      "english": "to drive / to travel",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "antworten",
+      "english": "to answer",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kennen",
+      "english": "to know (a person/place)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "leben",
+      "english": "to live (be alive)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bringen",
+      "english": "to bring",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "helfen",
+      "english": "to help",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "laufen",
+      "english": "to run / to walk",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kosten",
+      "english": "to cost",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "öffnen",
+      "english": "to open",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "schließen",
+      "english": "to close",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "beginnen",
+      "english": "to begin",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "warten",
+      "english": "to wait",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "suchen",
+      "english": "to search / to look for",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "sitzen",
+      "english": "to sit",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "rufen",
+      "english": "to call (shout)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "tragen",
+      "english": "to carry / to wear",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fallen",
+      "english": "to fall",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "ziehen",
+      "english": "to pull / to move",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "bekommen",
+      "english": "to receive / to get",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "versuchen",
+      "english": "to try",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "aufstehen",
+      "english": "to get up / to stand up",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "anfangen",
+      "english": "to start / to begin",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop / to go shopping",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "anrufen",
+      "english": "to call (phone)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "fernsehen",
+      "english": "to watch TV",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "gefallen",
+      "english": "to be pleasing / to like",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "gehören",
+      "english": "to belong to",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "stimmen",
+      "english": "to be correct / to be right",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "dauern",
+      "english": "to last / to take (time)",
+      "part_of_speech": "verb",
+      "level": "A1"
+    },
+    {
+      "german": "erklären",
+      "english": "to explain",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erzählen",
+      "english": "to tell / to narrate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vergessen",
+      "english": "to forget",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erinnern",
+      "english": "to remind",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "beschreiben",
+      "english": "to describe",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "entscheiden",
+      "english": "to decide",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "empfehlen",
+      "english": "to recommend",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "bestellen",
+      "english": "to order",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "besuchen",
+      "english": "to visit",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verbringen",
+      "english": "to spend (time)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "reisen",
+      "english": "to travel",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "fliegen",
+      "english": "to fly",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schwimmen",
+      "english": "to swim",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wandern",
+      "english": "to hike",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop / to cease",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "einladen",
+      "english": "to invite",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "ausgeben",
+      "english": "to spend (money)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "umziehen",
+      "english": "to move (residence)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vorbereiten",
+      "english": "to prepare",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to participate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "stattfinden",
+      "english": "to take place",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "vorschlagen",
+      "english": "to suggest / to propose",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "abholen",
+      "english": "to pick up / to collect",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "ankommen",
+      "english": "to arrive",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "abfahren",
+      "english": "to depart",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "umsteigen",
+      "english": "to transfer / to change (trains)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aussteigen",
+      "english": "to get off / to exit",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "einsteigen",
+      "english": "to get on / to board",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verdienen",
+      "english": "to earn",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "sparen",
+      "english": "to save (money)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "leihen",
+      "english": "to lend / to borrow",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wechseln",
+      "english": "to change / to exchange",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "reparieren",
+      "english": "to repair",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "putzen",
+      "english": "to clean",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "waschen",
+      "english": "to wash",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "aufräumen",
+      "english": "to tidy up / to clean up",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schmecken",
+      "english": "to taste",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "riechen",
+      "english": "to smell",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "backen",
+      "english": "to bake",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "schneiden",
+      "english": "to cut",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "hoffen",
+      "english": "to hope",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wünschen",
+      "english": "to wish",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "träumen",
+      "english": "to dream",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "lachen",
+      "english": "to laugh",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "weinen",
+      "english": "to cry",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "übersetzen",
+      "english": "to translate",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "üben",
+      "english": "to practice",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat / to review",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "prüfen",
+      "english": "to test / to check",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign (a document)",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "erreichen",
+      "english": "to reach / to achieve",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "verlieren",
+      "english": "to lose",
+      "part_of_speech": "verb",
+      "level": "A2"
+    },
+    {
+      "german": "gewinnen",
+      "english": "to win",
+      "part_of_speech": "verb",
+      "level": "A2"
     }
   ]
 }

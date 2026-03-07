@@ -159,6 +159,2014 @@
       "gender": "masculine",
       "plural": "Bäume",
       "level": "A1"
+    },
+    {
+      "german": "Mutter",
+      "english": "mother",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Mütter",
+      "level": "A1"
+    },
+    {
+      "german": "Vater",
+      "english": "father",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Väter",
+      "level": "A1"
+    },
+    {
+      "german": "Bruder",
+      "english": "brother",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Brüder",
+      "level": "A1"
+    },
+    {
+      "german": "Schwester",
+      "english": "sister",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Schwestern",
+      "level": "A1"
+    },
+    {
+      "german": "Sohn",
+      "english": "son",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Söhne",
+      "level": "A1"
+    },
+    {
+      "german": "Tochter",
+      "english": "daughter",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Töchter",
+      "level": "A1"
+    },
+    {
+      "german": "Familie",
+      "english": "family",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Familien",
+      "level": "A1"
+    },
+    {
+      "german": "Baby",
+      "english": "baby",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Babys",
+      "level": "A1"
+    },
+    {
+      "german": "Freund",
+      "english": "friend",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Freunde",
+      "level": "A1"
+    },
+    {
+      "german": "Freundin",
+      "english": "female friend",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Freundinnen",
+      "level": "A1"
+    },
+    {
+      "german": "Kopf",
+      "english": "head",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Köpfe",
+      "level": "A1"
+    },
+    {
+      "german": "Hand",
+      "english": "hand",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hände",
+      "level": "A1"
+    },
+    {
+      "german": "Auge",
+      "english": "eye",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Augen",
+      "level": "A1"
+    },
+    {
+      "german": "Nase",
+      "english": "nose",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nasen",
+      "level": "A1"
+    },
+    {
+      "german": "Mund",
+      "english": "mouth",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Münder",
+      "level": "A1"
+    },
+    {
+      "german": "Ohr",
+      "english": "ear",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Ohren",
+      "level": "A1"
+    },
+    {
+      "german": "Fuß",
+      "english": "foot",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Füße",
+      "level": "A1"
+    },
+    {
+      "german": "Arm",
+      "english": "arm",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Arme",
+      "level": "A1"
+    },
+    {
+      "german": "Bein",
+      "english": "leg",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Beine",
+      "level": "A1"
+    },
+    {
+      "german": "Haar",
+      "english": "hair",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Haare",
+      "level": "A1"
+    },
+    {
+      "german": "Milch",
+      "english": "milk",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Milch",
+      "level": "A1"
+    },
+    {
+      "german": "Kaffee",
+      "english": "coffee",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kaffees",
+      "level": "A1"
+    },
+    {
+      "german": "Tee",
+      "english": "tea",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Tees",
+      "level": "A1"
+    },
+    {
+      "german": "Ei",
+      "english": "egg",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Eier",
+      "level": "A1"
+    },
+    {
+      "german": "Fleisch",
+      "english": "meat",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Fleisch",
+      "level": "A1"
+    },
+    {
+      "german": "Fisch",
+      "english": "fish",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Fische",
+      "level": "A1"
+    },
+    {
+      "german": "Käse",
+      "english": "cheese",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Käse",
+      "level": "A1"
+    },
+    {
+      "german": "Butter",
+      "english": "butter",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Butter",
+      "level": "A1"
+    },
+    {
+      "german": "Reis",
+      "english": "rice",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Reis",
+      "level": "A1"
+    },
+    {
+      "german": "Kuchen",
+      "english": "cake",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kuchen",
+      "level": "A1"
+    },
+    {
+      "german": "Suppe",
+      "english": "soup",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Suppen",
+      "level": "A1"
+    },
+    {
+      "german": "Saft",
+      "english": "juice",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Säfte",
+      "level": "A1"
+    },
+    {
+      "german": "Obst",
+      "english": "fruit",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Obst",
+      "level": "A1"
+    },
+    {
+      "german": "Gemüse",
+      "english": "vegetables",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gemüse",
+      "level": "A1"
+    },
+    {
+      "german": "Küche",
+      "english": "kitchen",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Küchen",
+      "level": "A1"
+    },
+    {
+      "german": "Zimmer",
+      "english": "room",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Zimmer",
+      "level": "A1"
+    },
+    {
+      "german": "Bett",
+      "english": "bed",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Betten",
+      "level": "A1"
+    },
+    {
+      "german": "Bad",
+      "english": "bathroom",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Bäder",
+      "level": "A1"
+    },
+    {
+      "german": "Wohnung",
+      "english": "apartment",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Wohnungen",
+      "level": "A1"
+    },
+    {
+      "german": "Garten",
+      "english": "garden",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Gärten",
+      "level": "A1"
+    },
+    {
+      "german": "Lampe",
+      "english": "lamp",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Lampen",
+      "level": "A1"
+    },
+    {
+      "german": "Uhr",
+      "english": "clock",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Uhren",
+      "level": "A1"
+    },
+    {
+      "german": "Schlüssel",
+      "english": "key",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schlüssel",
+      "level": "A1"
+    },
+    {
+      "german": "Schuh",
+      "english": "shoe",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schuhe",
+      "level": "A1"
+    },
+    {
+      "german": "Hose",
+      "english": "trousers",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hosen",
+      "level": "A1"
+    },
+    {
+      "german": "Hemd",
+      "english": "shirt",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Hemden",
+      "level": "A1"
+    },
+    {
+      "german": "Kleid",
+      "english": "dress",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Kleider",
+      "level": "A1"
+    },
+    {
+      "german": "Jacke",
+      "english": "jacket",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Jacken",
+      "level": "A1"
+    },
+    {
+      "german": "Mantel",
+      "english": "coat",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Mäntel",
+      "level": "A1"
+    },
+    {
+      "german": "Hut",
+      "english": "hat",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Hüte",
+      "level": "A1"
+    },
+    {
+      "german": "Schule",
+      "english": "school",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Schulen",
+      "level": "A1"
+    },
+    {
+      "german": "Lehrer",
+      "english": "teacher",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Lehrer",
+      "level": "A1"
+    },
+    {
+      "german": "Lehrerin",
+      "english": "female teacher",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Lehrerinnen",
+      "level": "A1"
+    },
+    {
+      "german": "Stift",
+      "english": "pen",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Stifte",
+      "level": "A1"
+    },
+    {
+      "german": "Heft",
+      "english": "notebook",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Hefte",
+      "level": "A1"
+    },
+    {
+      "german": "Tasche",
+      "english": "bag",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Taschen",
+      "level": "A1"
+    },
+    {
+      "german": "Sprache",
+      "english": "language",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Sprachen",
+      "level": "A1"
+    },
+    {
+      "german": "Wort",
+      "english": "word",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Wörter",
+      "level": "A1"
+    },
+    {
+      "german": "Auto",
+      "english": "car",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Autos",
+      "level": "A1"
+    },
+    {
+      "german": "Bus",
+      "english": "bus",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Busse",
+      "level": "A1"
+    },
+    {
+      "german": "Zug",
+      "english": "train",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Züge",
+      "level": "A1"
+    },
+    {
+      "german": "Straße",
+      "english": "street",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Straßen",
+      "level": "A1"
+    },
+    {
+      "german": "Platz",
+      "english": "place/square",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Plätze",
+      "level": "A1"
+    },
+    {
+      "german": "Bahnhof",
+      "english": "train station",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Bahnhöfe",
+      "level": "A1"
+    },
+    {
+      "german": "Supermarkt",
+      "english": "supermarket",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Supermärkte",
+      "level": "A1"
+    },
+    {
+      "german": "Arzt",
+      "english": "doctor",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Ärzte",
+      "level": "A1"
+    },
+    {
+      "german": "Krankenhaus",
+      "english": "hospital",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Krankenhäuser",
+      "level": "A1"
+    },
+    {
+      "german": "Hund",
+      "english": "dog",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Hunde",
+      "level": "A1"
+    },
+    {
+      "german": "Katze",
+      "english": "cat",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Katzen",
+      "level": "A1"
+    },
+    {
+      "german": "Vogel",
+      "english": "bird",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Vögel",
+      "level": "A1"
+    },
+    {
+      "german": "Blume",
+      "english": "flower",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Blumen",
+      "level": "A1"
+    },
+    {
+      "german": "Sonne",
+      "english": "sun",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Sonnen",
+      "level": "A1"
+    },
+    {
+      "german": "Mond",
+      "english": "moon",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Monde",
+      "level": "A1"
+    },
+    {
+      "german": "Regen",
+      "english": "rain",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Regen",
+      "level": "A1"
+    },
+    {
+      "german": "Schnee",
+      "english": "snow",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schnee",
+      "level": "A1"
+    },
+    {
+      "german": "Berg",
+      "english": "mountain",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Berge",
+      "level": "A1"
+    },
+    {
+      "german": "Meer",
+      "english": "sea",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Meere",
+      "level": "A1"
+    },
+    {
+      "german": "Tier",
+      "english": "animal",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Tiere",
+      "level": "A1"
+    },
+    {
+      "german": "Woche",
+      "english": "week",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Wochen",
+      "level": "A1"
+    },
+    {
+      "german": "Monat",
+      "english": "month",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Monate",
+      "level": "A1"
+    },
+    {
+      "german": "Stunde",
+      "english": "hour",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Stunden",
+      "level": "A1"
+    },
+    {
+      "german": "Minute",
+      "english": "minute",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Minuten",
+      "level": "A1"
+    },
+    {
+      "german": "Morgen",
+      "english": "morning",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Morgen",
+      "level": "A1"
+    },
+    {
+      "german": "Abend",
+      "english": "evening",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Abende",
+      "level": "A1"
+    },
+    {
+      "german": "Telefon",
+      "english": "telephone",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Telefone",
+      "level": "A1"
+    },
+    {
+      "german": "Geld",
+      "english": "money",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gelder",
+      "level": "A1"
+    },
+    {
+      "german": "Name",
+      "english": "name",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Namen",
+      "level": "A1"
+    },
+    {
+      "german": "Nummer",
+      "english": "number",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nummern",
+      "level": "A1"
+    },
+    {
+      "german": "Bild",
+      "english": "picture",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Bilder",
+      "level": "A1"
+    },
+    {
+      "german": "Brief",
+      "english": "letter",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Briefe",
+      "level": "A1"
+    },
+    {
+      "german": "Zeitung",
+      "english": "newspaper",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Zeitungen",
+      "level": "A1"
+    },
+    {
+      "german": "Musik",
+      "english": "music",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Musik",
+      "level": "A1"
+    },
+    {
+      "german": "Farbe",
+      "english": "color",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Farben",
+      "level": "A1"
+    },
+    {
+      "german": "Frage",
+      "english": "question",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Fragen",
+      "level": "A1"
+    },
+    {
+      "german": "Antwort",
+      "english": "answer",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Antworten",
+      "level": "A1"
+    },
+    {
+      "german": "Arbeit",
+      "english": "work",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Arbeiten",
+      "level": "A1"
+    },
+    {
+      "german": "Spiel",
+      "english": "game",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Spiele",
+      "level": "A1"
+    },
+    {
+      "german": "Essen",
+      "english": "food/meal",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Essen",
+      "level": "A1"
+    },
+    {
+      "german": "Mädchen",
+      "english": "girl",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Mädchen",
+      "level": "A1"
+    },
+    {
+      "german": "Junge",
+      "english": "boy",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Jungen",
+      "level": "A1"
+    },
+    {
+      "german": "Fest",
+      "english": "party/celebration",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Feste",
+      "level": "A1"
+    },
+    {
+      "german": "Geburtstag",
+      "english": "birthday",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Geburtstage",
+      "level": "A1"
+    },
+    {
+      "german": "Problem",
+      "english": "problem",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Probleme",
+      "level": "A1"
+    },
+    {
+      "german": "Beispiel",
+      "english": "example",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Beispiele",
+      "level": "A1"
+    },
+    {
+      "german": "Großvater",
+      "english": "grandfather",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Großväter",
+      "level": "A2"
+    },
+    {
+      "german": "Großmutter",
+      "english": "grandmother",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Großmütter",
+      "level": "A2"
+    },
+    {
+      "german": "Onkel",
+      "english": "uncle",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Onkel",
+      "level": "A2"
+    },
+    {
+      "german": "Tante",
+      "english": "aunt",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Tanten",
+      "level": "A2"
+    },
+    {
+      "german": "Cousin",
+      "english": "male cousin",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Cousins",
+      "level": "A2"
+    },
+    {
+      "german": "Cousine",
+      "english": "female cousin",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Cousinen",
+      "level": "A2"
+    },
+    {
+      "german": "Nachbar",
+      "english": "neighbor",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Nachbarn",
+      "level": "A2"
+    },
+    {
+      "german": "Nachbarin",
+      "english": "female neighbor",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nachbarinnen",
+      "level": "A2"
+    },
+    {
+      "german": "Kollege",
+      "english": "colleague",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kollegen",
+      "level": "A2"
+    },
+    {
+      "german": "Kollegin",
+      "english": "female colleague",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kolleginnen",
+      "level": "A2"
+    },
+    {
+      "german": "Chef",
+      "english": "boss",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Chefs",
+      "level": "A2"
+    },
+    {
+      "german": "Gast",
+      "english": "guest",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Gäste",
+      "level": "A2"
+    },
+    {
+      "german": "Finger",
+      "english": "finger",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Finger",
+      "level": "A2"
+    },
+    {
+      "german": "Rücken",
+      "english": "back",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Rücken",
+      "level": "A2"
+    },
+    {
+      "german": "Bauch",
+      "english": "belly",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Bäuche",
+      "level": "A2"
+    },
+    {
+      "german": "Hals",
+      "english": "neck/throat",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Hälse",
+      "level": "A2"
+    },
+    {
+      "german": "Zahn",
+      "english": "tooth",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Zähne",
+      "level": "A2"
+    },
+    {
+      "german": "Herz",
+      "english": "heart",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Herzen",
+      "level": "A2"
+    },
+    {
+      "german": "Schulter",
+      "english": "shoulder",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Schultern",
+      "level": "A2"
+    },
+    {
+      "german": "Knie",
+      "english": "knee",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Knie",
+      "level": "A2"
+    },
+    {
+      "german": "Gesundheit",
+      "english": "health",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Gesundheit",
+      "level": "A2"
+    },
+    {
+      "german": "Krankheit",
+      "english": "illness",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Krankheiten",
+      "level": "A2"
+    },
+    {
+      "german": "Schmerz",
+      "english": "pain",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schmerzen",
+      "level": "A2"
+    },
+    {
+      "german": "Medikament",
+      "english": "medication",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Medikamente",
+      "level": "A2"
+    },
+    {
+      "german": "Apotheke",
+      "english": "pharmacy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Apotheken",
+      "level": "A2"
+    },
+    {
+      "german": "Kartoffel",
+      "english": "potato",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kartoffeln",
+      "level": "A2"
+    },
+    {
+      "german": "Tomate",
+      "english": "tomato",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Tomaten",
+      "level": "A2"
+    },
+    {
+      "german": "Salat",
+      "english": "salad/lettuce",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Salate",
+      "level": "A2"
+    },
+    {
+      "german": "Nudel",
+      "english": "noodle/pasta",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nudeln",
+      "level": "A2"
+    },
+    {
+      "german": "Hähnchen",
+      "english": "chicken",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Hähnchen",
+      "level": "A2"
+    },
+    {
+      "german": "Schokolade",
+      "english": "chocolate",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Schokoladen",
+      "level": "A2"
+    },
+    {
+      "german": "Zucker",
+      "english": "sugar",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Zucker",
+      "level": "A2"
+    },
+    {
+      "german": "Salz",
+      "english": "salt",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Salze",
+      "level": "A2"
+    },
+    {
+      "german": "Mehl",
+      "english": "flour",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Mehle",
+      "level": "A2"
+    },
+    {
+      "german": "Getränk",
+      "english": "beverage",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Getränke",
+      "level": "A2"
+    },
+    {
+      "german": "Wein",
+      "english": "wine",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Weine",
+      "level": "A2"
+    },
+    {
+      "german": "Bier",
+      "english": "beer",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Biere",
+      "level": "A2"
+    },
+    {
+      "german": "Gabel",
+      "english": "fork",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Gabeln",
+      "level": "A2"
+    },
+    {
+      "german": "Messer",
+      "english": "knife",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Messer",
+      "level": "A2"
+    },
+    {
+      "german": "Löffel",
+      "english": "spoon",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Löffel",
+      "level": "A2"
+    },
+    {
+      "german": "Teller",
+      "english": "plate",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Teller",
+      "level": "A2"
+    },
+    {
+      "german": "Tasse",
+      "english": "cup",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Tassen",
+      "level": "A2"
+    },
+    {
+      "german": "Glas",
+      "english": "glass",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gläser",
+      "level": "A2"
+    },
+    {
+      "german": "Flasche",
+      "english": "bottle",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Flaschen",
+      "level": "A2"
+    },
+    {
+      "german": "Rezept",
+      "english": "recipe/prescription",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Rezepte",
+      "level": "A2"
+    },
+    {
+      "german": "Sofa",
+      "english": "sofa",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Sofas",
+      "level": "A2"
+    },
+    {
+      "german": "Schrank",
+      "english": "cupboard/wardrobe",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schränke",
+      "level": "A2"
+    },
+    {
+      "german": "Regal",
+      "english": "shelf",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Regale",
+      "level": "A2"
+    },
+    {
+      "german": "Spiegel",
+      "english": "mirror",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Spiegel",
+      "level": "A2"
+    },
+    {
+      "german": "Teppich",
+      "english": "carpet",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Teppiche",
+      "level": "A2"
+    },
+    {
+      "german": "Treppe",
+      "english": "stairs",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Treppen",
+      "level": "A2"
+    },
+    {
+      "german": "Wand",
+      "english": "wall",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Wände",
+      "level": "A2"
+    },
+    {
+      "german": "Decke",
+      "english": "ceiling/blanket",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Decken",
+      "level": "A2"
+    },
+    {
+      "german": "Boden",
+      "english": "floor/ground",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Böden",
+      "level": "A2"
+    },
+    {
+      "german": "Herd",
+      "english": "stove",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Herde",
+      "level": "A2"
+    },
+    {
+      "german": "Kühlschrank",
+      "english": "refrigerator",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kühlschränke",
+      "level": "A2"
+    },
+    {
+      "german": "Waschmaschine",
+      "english": "washing machine",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Waschmaschinen",
+      "level": "A2"
+    },
+    {
+      "german": "Dusche",
+      "english": "shower",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Duschen",
+      "level": "A2"
+    },
+    {
+      "german": "Balkon",
+      "english": "balcony",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Balkone",
+      "level": "A2"
+    },
+    {
+      "german": "Miete",
+      "english": "rent",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Mieten",
+      "level": "A2"
+    },
+    {
+      "german": "Rock",
+      "english": "skirt",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Röcke",
+      "level": "A2"
+    },
+    {
+      "german": "Bluse",
+      "english": "blouse",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Blusen",
+      "level": "A2"
+    },
+    {
+      "german": "Anzug",
+      "english": "suit",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Anzüge",
+      "level": "A2"
+    },
+    {
+      "german": "Pullover",
+      "english": "sweater",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Pullover",
+      "level": "A2"
+    },
+    {
+      "german": "Handschuh",
+      "english": "glove",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Handschuhe",
+      "level": "A2"
+    },
+    {
+      "german": "Schal",
+      "english": "scarf",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schals",
+      "level": "A2"
+    },
+    {
+      "german": "Stiefel",
+      "english": "boot",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Stiefel",
+      "level": "A2"
+    },
+    {
+      "german": "Socke",
+      "english": "sock",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Socken",
+      "level": "A2"
+    },
+    {
+      "german": "Größe",
+      "english": "size",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Größen",
+      "level": "A2"
+    },
+    {
+      "german": "Büro",
+      "english": "office",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Büros",
+      "level": "A2"
+    },
+    {
+      "german": "Beruf",
+      "english": "profession",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Berufe",
+      "level": "A2"
+    },
+    {
+      "german": "Firma",
+      "english": "company",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Firmen",
+      "level": "A2"
+    },
+    {
+      "german": "Termin",
+      "english": "appointment",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Termine",
+      "level": "A2"
+    },
+    {
+      "german": "Kurs",
+      "english": "course",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kurse",
+      "level": "A2"
+    },
+    {
+      "german": "Prüfung",
+      "english": "exam",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Prüfungen",
+      "level": "A2"
+    },
+    {
+      "german": "Hausaufgabe",
+      "english": "homework",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hausaufgaben",
+      "level": "A2"
+    },
+    {
+      "german": "Übung",
+      "english": "exercise",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Übungen",
+      "level": "A2"
+    },
+    {
+      "german": "Universität",
+      "english": "university",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Universitäten",
+      "level": "A2"
+    },
+    {
+      "german": "Zeugnis",
+      "english": "certificate/report card",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Zeugnisse",
+      "level": "A2"
+    },
+    {
+      "german": "Computer",
+      "english": "computer",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Computer",
+      "level": "A2"
+    },
+    {
+      "german": "Fahrrad",
+      "english": "bicycle",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Fahrräder",
+      "level": "A2"
+    },
+    {
+      "german": "Flugzeug",
+      "english": "airplane",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Flugzeuge",
+      "level": "A2"
+    },
+    {
+      "german": "Flughafen",
+      "english": "airport",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Flughäfen",
+      "level": "A2"
+    },
+    {
+      "german": "Haltestelle",
+      "english": "bus/tram stop",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Haltestellen",
+      "level": "A2"
+    },
+    {
+      "german": "Fahrkarte",
+      "english": "ticket",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Fahrkarten",
+      "level": "A2"
+    },
+    {
+      "german": "Reise",
+      "english": "trip/journey",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Reisen",
+      "level": "A2"
+    },
+    {
+      "german": "Koffer",
+      "english": "suitcase",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Koffer",
+      "level": "A2"
+    },
+    {
+      "german": "Hotel",
+      "english": "hotel",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Hotels",
+      "level": "A2"
+    },
+    {
+      "german": "Gepäck",
+      "english": "luggage",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gepäck",
+      "level": "A2"
+    },
+    {
+      "german": "Brücke",
+      "english": "bridge",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Brücken",
+      "level": "A2"
+    },
+    {
+      "german": "Parkplatz",
+      "english": "parking space",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Parkplätze",
+      "level": "A2"
+    },
+    {
+      "german": "Kirche",
+      "english": "church",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kirchen",
+      "level": "A2"
+    },
+    {
+      "german": "Museum",
+      "english": "museum",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Museen",
+      "level": "A2"
+    },
+    {
+      "german": "Restaurant",
+      "english": "restaurant",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Restaurants",
+      "level": "A2"
+    },
+    {
+      "german": "Bank",
+      "english": "bank",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Banken",
+      "level": "A2"
+    },
+    {
+      "german": "Post",
+      "english": "post office",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Posten",
+      "level": "A2"
+    },
+    {
+      "german": "Bibliothek",
+      "english": "library",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Bibliotheken",
+      "level": "A2"
+    },
+    {
+      "german": "Markt",
+      "english": "market",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Märkte",
+      "level": "A2"
+    },
+    {
+      "german": "Geschäft",
+      "english": "shop/business",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Geschäfte",
+      "level": "A2"
+    },
+    {
+      "german": "Bäckerei",
+      "english": "bakery",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Bäckereien",
+      "level": "A2"
+    },
+    {
+      "german": "Polizei",
+      "english": "police",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Polizei",
+      "level": "A2"
+    },
+    {
+      "german": "Rathaus",
+      "english": "town hall",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Rathäuser",
+      "level": "A2"
+    },
+    {
+      "german": "Spielplatz",
+      "english": "playground",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Spielplätze",
+      "level": "A2"
+    },
+    {
+      "german": "Wald",
+      "english": "forest",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Wälder",
+      "level": "A2"
+    },
+    {
+      "german": "See",
+      "english": "lake",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Seen",
+      "level": "A2"
+    },
+    {
+      "german": "Fluss",
+      "english": "river",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Flüsse",
+      "level": "A2"
+    },
+    {
+      "german": "Strand",
+      "english": "beach",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Strände",
+      "level": "A2"
+    },
+    {
+      "german": "Insel",
+      "english": "island",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Inseln",
+      "level": "A2"
+    },
+    {
+      "german": "Wetter",
+      "english": "weather",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Wetter",
+      "level": "A2"
+    },
+    {
+      "german": "Wind",
+      "english": "wind",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Winde",
+      "level": "A2"
+    },
+    {
+      "german": "Wolke",
+      "english": "cloud",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Wolken",
+      "level": "A2"
+    },
+    {
+      "german": "Stern",
+      "english": "star",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Sterne",
+      "level": "A2"
+    },
+    {
+      "german": "Himmel",
+      "english": "sky/heaven",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Himmel",
+      "level": "A2"
+    },
+    {
+      "german": "Erde",
+      "english": "earth/ground",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Erden",
+      "level": "A2"
+    },
+    {
+      "german": "Luft",
+      "english": "air",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Lüfte",
+      "level": "A2"
+    },
+    {
+      "german": "Pferd",
+      "english": "horse",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Pferde",
+      "level": "A2"
+    },
+    {
+      "german": "Kuh",
+      "english": "cow",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kühe",
+      "level": "A2"
+    },
+    {
+      "german": "Schwein",
+      "english": "pig",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Schweine",
+      "level": "A2"
+    },
+    {
+      "german": "Maus",
+      "english": "mouse",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Mäuse",
+      "level": "A2"
+    },
+    {
+      "german": "Schmetterling",
+      "english": "butterfly",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Schmetterlinge",
+      "level": "A2"
+    },
+    {
+      "german": "Bär",
+      "english": "bear",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Bären",
+      "level": "A2"
+    },
+    {
+      "german": "Erfahrung",
+      "english": "experience",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Erfahrungen",
+      "level": "A2"
+    },
+    {
+      "german": "Meinung",
+      "english": "opinion",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Meinungen",
+      "level": "A2"
+    },
+    {
+      "german": "Nachricht",
+      "english": "message/news",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Nachrichten",
+      "level": "A2"
+    },
+    {
+      "german": "Entschuldigung",
+      "english": "apology/excuse",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Entschuldigungen",
+      "level": "A2"
+    },
+    {
+      "german": "Einladung",
+      "english": "invitation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Einladungen",
+      "level": "A2"
+    },
+    {
+      "german": "Geschenk",
+      "english": "gift",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Geschenke",
+      "level": "A2"
+    },
+    {
+      "german": "Glück",
+      "english": "luck/happiness",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Glück",
+      "level": "A2"
+    },
+    {
+      "german": "Angst",
+      "english": "fear",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ängste",
+      "level": "A2"
+    },
+    {
+      "german": "Freude",
+      "english": "joy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Freuden",
+      "level": "A2"
+    },
+    {
+      "german": "Urlaub",
+      "english": "vacation",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Urlaube",
+      "level": "A2"
+    },
+    {
+      "german": "Hobby",
+      "english": "hobby",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Hobbys",
+      "level": "A2"
+    },
+    {
+      "german": "Sport",
+      "english": "sport",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Sportarten",
+      "level": "A2"
+    },
+    {
+      "german": "Mannschaft",
+      "english": "team",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Mannschaften",
+      "level": "A2"
+    },
+    {
+      "german": "Regel",
+      "english": "rule",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Regeln",
+      "level": "A2"
+    },
+    {
+      "german": "Recht",
+      "english": "right/law",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Rechte",
+      "level": "A2"
+    },
+    {
+      "german": "Grund",
+      "english": "reason/ground",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Gründe",
+      "level": "A2"
+    },
+    {
+      "german": "Unterschied",
+      "english": "difference",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Unterschiede",
+      "level": "A2"
+    },
+    {
+      "german": "Anfang",
+      "english": "beginning",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Anfänge",
+      "level": "A2"
+    },
+    {
+      "german": "Ende",
+      "english": "end",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Enden",
+      "level": "A2"
+    },
+    {
+      "german": "Seite",
+      "english": "page/side",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Seiten",
+      "level": "A2"
+    },
+    {
+      "german": "Idee",
+      "english": "idea",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ideen",
+      "level": "A2"
+    },
+    {
+      "german": "Möglichkeit",
+      "english": "possibility",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Möglichkeiten",
+      "level": "A2"
+    },
+    {
+      "german": "Sicherheit",
+      "english": "safety/security",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Sicherheiten",
+      "level": "A2"
+    },
+    {
+      "german": "Hilfe",
+      "english": "help",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hilfen",
+      "level": "A2"
+    },
+    {
+      "german": "Fehler",
+      "english": "mistake",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Fehler",
+      "level": "A2"
+    },
+    {
+      "german": "Erfolg",
+      "english": "success",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Erfolge",
+      "level": "A2"
     }
   ]
 }
