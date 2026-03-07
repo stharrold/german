@@ -149,6 +149,7 @@ def main():
 # NOUNS
 # ---------------------------------------------------------------------------
 
+
 def _nouns_a1() -> list[dict]:
     return [
         {"german": "Haus", "english": "house", "part_of_speech": "noun", "gender": "neuter", "plural": "Häuser", "level": "A1"},
@@ -602,16 +603,97 @@ def _nouns_b2() -> list[dict]:
 
 
 def _nouns_c1() -> list[dict]:
-    return []
+    return [
+        # Academic / Research
+        {"german": "Abhandlung", "english": "treatise/essay", "part_of_speech": "noun", "gender": "feminine", "plural": "Abhandlungen", "level": "C1"},
+        {"german": "Gutachten", "english": "expert opinion/report", "part_of_speech": "noun", "gender": "neuter", "plural": "Gutachten", "level": "C1"},
+        {"german": "Lehrstuhl", "english": "professorial chair", "part_of_speech": "noun", "gender": "masculine", "plural": "Lehrstühle", "level": "C1"},
+        {"german": "Promotion", "english": "doctorate/PhD", "part_of_speech": "noun", "gender": "feminine", "plural": "Promotionen", "level": "C1"},
+        {"german": "Habilitation", "english": "habilitation", "part_of_speech": "noun", "gender": "feminine", "plural": "Habilitationen", "level": "C1"},
+        {"german": "Korrelation", "english": "correlation", "part_of_speech": "noun", "gender": "feminine", "plural": "Korrelationen", "level": "C1"},
+        {"german": "Paradigma", "english": "paradigm", "part_of_speech": "noun", "gender": "neuter", "plural": "Paradigmen", "level": "C1"},
+        {"german": "Implikation", "english": "implication", "part_of_speech": "noun", "gender": "feminine", "plural": "Implikationen", "level": "C1"},
+        {"german": "Kontext", "english": "context", "part_of_speech": "noun", "gender": "masculine", "plural": "Kontexte", "level": "C1"},
+        {"german": "Diskurs", "english": "discourse", "part_of_speech": "noun", "gender": "masculine", "plural": "Diskurse", "level": "C1"},
+        # Law / Governance
+        {"german": "Rechtsprechung", "english": "jurisdiction", "part_of_speech": "noun", "gender": "feminine", "plural": "Rechtsprechungen", "level": "C1"},
+        {"german": "Gesetzgebung", "english": "legislation", "part_of_speech": "noun", "gender": "feminine", "plural": "Gesetzgebungen", "level": "C1"},
+        {"german": "Instanz", "english": "instance/authority", "part_of_speech": "noun", "gender": "feminine", "plural": "Instanzen", "level": "C1"},
+        {"german": "Erlass", "english": "decree/edict", "part_of_speech": "noun", "gender": "masculine", "plural": "Erlasse", "level": "C1"},
+        {"german": "Satzung", "english": "statute/bylaws", "part_of_speech": "noun", "gender": "feminine", "plural": "Satzungen", "level": "C1"},
+        # Philosophy / Abstract
+        {"german": "Prämisse", "english": "premise", "part_of_speech": "noun", "gender": "feminine", "plural": "Prämissen", "level": "C1"},
+        {"german": "Analogie", "english": "analogy", "part_of_speech": "noun", "gender": "feminine", "plural": "Analogien", "level": "C1"},
+        {"german": "Ambiguität", "english": "ambiguity", "part_of_speech": "noun", "gender": "feminine", "plural": "Ambiguitäten", "level": "C1"},
+        {"german": "Dichotomie", "english": "dichotomy", "part_of_speech": "noun", "gender": "feminine", "plural": "Dichotomien", "level": "C1"},
+        {"german": "Abstraktion", "english": "abstraction", "part_of_speech": "noun", "gender": "feminine", "plural": "Abstraktionen", "level": "C1"},
+        # Technical / Professional
+        {"german": "Infrastruktur", "english": "infrastructure", "part_of_speech": "noun", "gender": "feminine", "plural": "Infrastrukturen", "level": "C1"},
+        {"german": "Konjunktur", "english": "economic cycle/boom", "part_of_speech": "noun", "gender": "feminine", "plural": "Konjunkturen", "level": "C1"},
+        {"german": "Subvention", "english": "subsidy", "part_of_speech": "noun", "gender": "feminine", "plural": "Subventionen", "level": "C1"},
+        {"german": "Rezession", "english": "recession", "part_of_speech": "noun", "gender": "feminine", "plural": "Rezessionen", "level": "C1"},
+        {"german": "Bürokratie", "english": "bureaucracy", "part_of_speech": "noun", "gender": "feminine", "plural": "Bürokratien", "level": "C1"},
+        # Culture / Society
+        {"german": "Rhetorik", "english": "rhetoric", "part_of_speech": "noun", "gender": "feminine", "plural": "Rhetoriken", "level": "C1"},
+        {"german": "Ästhetik", "english": "aesthetics", "part_of_speech": "noun", "gender": "feminine", "plural": "Ästhetiken", "level": "C1"},
+        {"german": "Autonomie", "english": "autonomy", "part_of_speech": "noun", "gender": "feminine", "plural": "Autonomien", "level": "C1"},
+        {"german": "Souveränität", "english": "sovereignty", "part_of_speech": "noun", "gender": "feminine", "plural": "Souveränitäten", "level": "C1"},
+        {"german": "Integrität", "english": "integrity", "part_of_speech": "noun", "gender": "feminine", "plural": "Integritäten", "level": "C1"},
+        {"german": "Emanzipation", "english": "emancipation", "part_of_speech": "noun", "gender": "feminine", "plural": "Emanzipationen", "level": "C1"},
+        {"german": "Konvention", "english": "convention", "part_of_speech": "noun", "gender": "feminine", "plural": "Konventionen", "level": "C1"},
+        {"german": "Instinkt", "english": "instinct", "part_of_speech": "noun", "gender": "masculine", "plural": "Instinkte", "level": "C1"},
+        {"german": "Kapazität", "english": "capacity", "part_of_speech": "noun", "gender": "feminine", "plural": "Kapazitäten", "level": "C1"},
+        {"german": "Dilemma", "english": "dilemma", "part_of_speech": "noun", "gender": "neuter", "plural": "Dilemmata", "level": "C1"},
+        {"german": "Disposition", "english": "disposition", "part_of_speech": "noun", "gender": "feminine", "plural": "Dispositionen", "level": "C1"},
+        {"german": "Hierarchie", "english": "hierarchy", "part_of_speech": "noun", "gender": "feminine", "plural": "Hierarchien", "level": "C1"},
+        {"german": "Kompetenz", "english": "competence", "part_of_speech": "noun", "gender": "feminine", "plural": "Kompetenzen", "level": "C1"},
+        {"german": "Komplexität", "english": "complexity", "part_of_speech": "noun", "gender": "feminine", "plural": "Komplexitäten", "level": "C1"},
+        {"german": "Transparenz", "english": "transparency", "part_of_speech": "noun", "gender": "feminine", "plural": "Transparenzen", "level": "C1"},
+    ]
 
 
 def _nouns_c2() -> list[dict]:
-    return []
+    return [
+        # Literary / Archaic
+        {"german": "Abgrund", "english": "abyss/chasm", "part_of_speech": "noun", "gender": "masculine", "plural": "Abgründe", "level": "C2"},
+        {"german": "Gleichnis", "english": "parable/allegory", "part_of_speech": "noun", "gender": "neuter", "plural": "Gleichnisse", "level": "C2"},
+        {"german": "Trübsal", "english": "tribulation/gloom", "part_of_speech": "noun", "gender": "feminine", "plural": "Trübsale", "level": "C2"},
+        {"german": "Tücke", "english": "malice/treachery", "part_of_speech": "noun", "gender": "feminine", "plural": "Tücken", "level": "C2"},
+        {"german": "Muße", "english": "leisure/contemplation", "part_of_speech": "noun", "gender": "feminine", "plural": "Mußen", "level": "C2"},
+        {"german": "Verlies", "english": "dungeon", "part_of_speech": "noun", "gender": "neuter", "plural": "Verliese", "level": "C2"},
+        {"german": "Antlitz", "english": "countenance/visage", "part_of_speech": "noun", "gender": "neuter", "plural": "Antlitze", "level": "C2"},
+        {"german": "Ödnis", "english": "wasteland/desolation", "part_of_speech": "noun", "gender": "feminine", "plural": "Ödnisse", "level": "C2"},
+        # Scholarly / Specialized
+        {"german": "Epistemologie", "english": "epistemology", "part_of_speech": "noun", "gender": "feminine", "plural": "Epistemologien", "level": "C2"},
+        {"german": "Ontologie", "english": "ontology", "part_of_speech": "noun", "gender": "feminine", "plural": "Ontologien", "level": "C2"},
+        {"german": "Hermeneutik", "english": "hermeneutics", "part_of_speech": "noun", "gender": "feminine", "plural": "Hermeneutiken", "level": "C2"},
+        {"german": "Dialektik", "english": "dialectics", "part_of_speech": "noun", "gender": "feminine", "plural": "Dialektiken", "level": "C2"},
+        {"german": "Pragmatik", "english": "pragmatics", "part_of_speech": "noun", "gender": "feminine", "plural": "Pragmatiken", "level": "C2"},
+        {"german": "Aphorismus", "english": "aphorism", "part_of_speech": "noun", "gender": "masculine", "plural": "Aphorismen", "level": "C2"},
+        {"german": "Allegorie", "english": "allegory", "part_of_speech": "noun", "gender": "feminine", "plural": "Allegorien", "level": "C2"},
+        {"german": "Metaphysik", "english": "metaphysics", "part_of_speech": "noun", "gender": "feminine", "plural": "Metaphysiken", "level": "C2"},
+        # Idiomatic / Cultural
+        {"german": "Zeitgeist", "english": "spirit of the age", "part_of_speech": "noun", "gender": "masculine", "plural": "Zeitgeiste", "level": "C2"},
+        {"german": "Weltanschauung", "english": "worldview/ideology", "part_of_speech": "noun", "gender": "feminine", "plural": "Weltanschauungen", "level": "C2"},
+        {"german": "Wanderlust", "english": "wanderlust", "part_of_speech": "noun", "gender": "feminine", "plural": "Wanderlüste", "level": "C2"},
+        {"german": "Sehnsucht", "english": "longing/yearning", "part_of_speech": "noun", "gender": "feminine", "plural": "Sehnsüchte", "level": "C2"},
+        {"german": "Schadenfreude", "english": "malicious joy", "part_of_speech": "noun", "gender": "feminine", "plural": "Schadenfreuden", "level": "C2"},
+        {"german": "Gemütlichkeit", "english": "coziness/conviviality", "part_of_speech": "noun", "gender": "feminine", "plural": "Gemütlichkeiten", "level": "C2"},
+        {"german": "Zerrissenheit", "english": "inner conflict/torn state", "part_of_speech": "noun", "gender": "feminine", "plural": "Zerrissenheiten", "level": "C2"},
+        {"german": "Vergänglichkeit", "english": "transience/impermanence", "part_of_speech": "noun", "gender": "feminine", "plural": "Vergänglichkeiten", "level": "C2"},
+        {"german": "Unbekümmertheit", "english": "carefreeness", "part_of_speech": "noun", "gender": "feminine", "plural": "Unbekümmertheiten", "level": "C2"},
+        {"german": "Geborgenheit", "english": "security/shelter", "part_of_speech": "noun", "gender": "feminine", "plural": "Geborgenheiten", "level": "C2"},
+        {"german": "Erhabenheit", "english": "sublimity/grandeur", "part_of_speech": "noun", "gender": "feminine", "plural": "Erhabenheiten", "level": "C2"},
+        {"german": "Zwiespalt", "english": "inner conflict/discord", "part_of_speech": "noun", "gender": "masculine", "plural": "Zwiespalte", "level": "C2"},
+        {"german": "Widersacher", "english": "adversary/antagonist", "part_of_speech": "noun", "gender": "masculine", "plural": "Widersacher", "level": "C2"},
+        {"german": "Fügung", "english": "providence/twist of fate", "part_of_speech": "noun", "gender": "feminine", "plural": "Fügungen", "level": "C2"},
+    ]
 
 
 # ---------------------------------------------------------------------------
 # VERBS
 # ---------------------------------------------------------------------------
+
 
 def _verbs_a1() -> list[dict]:
     return [
@@ -837,16 +919,68 @@ def _verbs_b2() -> list[dict]:
 
 
 def _verbs_c1() -> list[dict]:
-    return []
+    return [
+        # Academic / Formal discourse
+        {"german": "darlegen", "english": "to set forth/expound", "part_of_speech": "verb", "level": "C1"},
+        {"german": "erläutern", "english": "to elucidate/explain in detail", "part_of_speech": "verb", "level": "C1"},
+        {"german": "implizieren", "english": "to imply", "part_of_speech": "verb", "level": "C1"},
+        {"german": "konstatieren", "english": "to state/establish (a fact)", "part_of_speech": "verb", "level": "C1"},
+        {"german": "postulieren", "english": "to postulate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "deduzieren", "english": "to deduce", "part_of_speech": "verb", "level": "C1"},
+        {"german": "abstrahieren", "english": "to abstract", "part_of_speech": "verb", "level": "C1"},
+        {"german": "differenzieren", "english": "to differentiate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "konkretisieren", "english": "to make concrete/specify", "part_of_speech": "verb", "level": "C1"},
+        {"german": "relativieren", "english": "to put into perspective/relativize", "part_of_speech": "verb", "level": "C1"},
+        # Governance / Formal
+        {"german": "ratifizieren", "english": "to ratify", "part_of_speech": "verb", "level": "C1"},
+        {"german": "legitimieren", "english": "to legitimize", "part_of_speech": "verb", "level": "C1"},
+        {"german": "reglementieren", "english": "to regulate strictly", "part_of_speech": "verb", "level": "C1"},
+        {"german": "sanktionieren", "english": "to sanction", "part_of_speech": "verb", "level": "C1"},
+        {"german": "konsolidieren", "english": "to consolidate", "part_of_speech": "verb", "level": "C1"},
+        # Nuanced expression
+        {"german": "anvisieren", "english": "to target/aim at", "part_of_speech": "verb", "level": "C1"},
+        {"german": "gegenüberstellen", "english": "to juxtapose/compare", "part_of_speech": "verb", "level": "C1"},
+        {"german": "einräumen", "english": "to concede/admit", "part_of_speech": "verb", "level": "C1"},
+        {"german": "untermauern", "english": "to underpin/substantiate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "suggerieren", "english": "to suggest/insinuate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "antizipieren", "english": "to anticipate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "kompensieren", "english": "to compensate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "korrelieren", "english": "to correlate", "part_of_speech": "verb", "level": "C1"},
+        {"german": "manifestieren", "english": "to manifest", "part_of_speech": "verb", "level": "C1"},
+        {"german": "transformieren", "english": "to transform", "part_of_speech": "verb", "level": "C1"},
+    ]
 
 
 def _verbs_c2() -> list[dict]:
-    return []
+    return [
+        # Literary / Archaic
+        {"german": "frönen", "english": "to indulge in", "part_of_speech": "verb", "level": "C2"},
+        {"german": "huldigen", "english": "to pay homage", "part_of_speech": "verb", "level": "C2"},
+        {"german": "schmähen", "english": "to revile/vilify", "part_of_speech": "verb", "level": "C2"},
+        {"german": "ersinnen", "english": "to devise/contrive", "part_of_speech": "verb", "level": "C2"},
+        {"german": "erküren", "english": "to choose/elect (archaic)", "part_of_speech": "verb", "level": "C2"},
+        {"german": "entsagen", "english": "to renounce/forswear", "part_of_speech": "verb", "level": "C2"},
+        {"german": "obwalten", "english": "to prevail/obtain (formal)", "part_of_speech": "verb", "level": "C2"},
+        {"german": "verheißen", "english": "to promise/foretell (literary)", "part_of_speech": "verb", "level": "C2"},
+        {"german": "trachten", "english": "to strive/aspire (literary)", "part_of_speech": "verb", "level": "C2"},
+        # Highly specialized
+        {"german": "subsumieren", "english": "to subsume", "part_of_speech": "verb", "level": "C2"},
+        {"german": "extrapolieren", "english": "to extrapolate", "part_of_speech": "verb", "level": "C2"},
+        {"german": "dekonstruieren", "english": "to deconstruct", "part_of_speech": "verb", "level": "C2"},
+        {"german": "kontextualisieren", "english": "to contextualize", "part_of_speech": "verb", "level": "C2"},
+        {"german": "perpetuieren", "english": "to perpetuate", "part_of_speech": "verb", "level": "C2"},
+        {"german": "amalgamieren", "english": "to amalgamate", "part_of_speech": "verb", "level": "C2"},
+        {"german": "prädestinieren", "english": "to predestine", "part_of_speech": "verb", "level": "C2"},
+        {"german": "transzendieren", "english": "to transcend", "part_of_speech": "verb", "level": "C2"},
+        {"german": "oszillieren", "english": "to oscillate", "part_of_speech": "verb", "level": "C2"},
+        {"german": "evozieren", "english": "to evoke", "part_of_speech": "verb", "level": "C2"},
+    ]
 
 
 # ---------------------------------------------------------------------------
 # ADJECTIVES
 # ---------------------------------------------------------------------------
+
 
 def _adjectives_a1() -> list[dict]:
     return [
@@ -1082,11 +1216,63 @@ def _adjectives_b2() -> list[dict]:
 
 
 def _adjectives_c1() -> list[dict]:
-    return []
+    return [
+        # Academic / Formal
+        {"german": "paradigmatisch", "english": "paradigmatic", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "interdisziplinär", "english": "interdisciplinary", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "ambivalent", "english": "ambivalent", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "stringent", "english": "stringent/rigorous", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "signifikant", "english": "significant", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "konträr", "english": "contrary/opposing", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "exemplarisch", "english": "exemplary/illustrative", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "inhärent", "english": "inherent", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "implizit", "english": "implicit", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "explizit", "english": "explicit", "part_of_speech": "adjective", "level": "C1"},
+        # Nuanced evaluation
+        {"german": "maßgeblich", "english": "authoritative/decisive", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "unerlässlich", "english": "indispensable", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "hinreichend", "english": "sufficient/adequate", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "zweckmäßig", "english": "expedient/purposeful", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "vorherrschend", "english": "predominant/prevailing", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "ausschlaggebend", "english": "decisive/determining", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "wegweisend", "english": "pioneering/trailblazing", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "tiefgreifend", "english": "profound/far-reaching", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "facettenreich", "english": "multifaceted", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "vielschichtig", "english": "multilayered/complex", "part_of_speech": "adjective", "level": "C1"},
+        # Formal register
+        {"german": "einschlägig", "english": "relevant/pertinent (legal/formal)", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "geläufig", "english": "familiar/fluent", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "verbindlich", "english": "binding/obligatory", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "etwaig", "english": "possible/any (formal)", "part_of_speech": "adjective", "level": "C1"},
+        {"german": "hinfällig", "english": "invalid/obsolete", "part_of_speech": "adjective", "level": "C1"},
+    ]
 
 
 def _adjectives_c2() -> list[dict]:
-    return []
+    return [
+        # Literary / Archaic
+        {"german": "unergründlich", "english": "unfathomable/inscrutable", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "unnachahmlich", "english": "inimitable", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "unverbrüchlich", "english": "inviolable/unbreakable", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "unumstößlich", "english": "irrefutable/unshakeable", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "verwegen", "english": "audacious/daring", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "abgründig", "english": "abysmal/deeply dark", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "entrückt", "english": "enraptured/transported", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "unbändig", "english": "unruly/irrepressible", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "verzagt", "english": "despondent/fainthearted", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "ominös", "english": "ominous", "part_of_speech": "adjective", "level": "C2"},
+        # Scholarly
+        {"german": "axiomatisch", "english": "axiomatic", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "apodiktisch", "english": "apodictic/absolutely certain", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "immanent", "english": "immanent/inherent", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "transzendent", "english": "transcendent", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "ephemer", "english": "ephemeral/transient", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "idiosynkratisch", "english": "idiosyncratic", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "perniziös", "english": "pernicious", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "redundant", "english": "redundant/superfluous", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "obsolet", "english": "obsolete", "part_of_speech": "adjective", "level": "C2"},
+        {"german": "kongenial", "english": "congenial/kindred in spirit", "part_of_speech": "adjective", "level": "C2"},
+    ]
 
 
 if __name__ == "__main__":

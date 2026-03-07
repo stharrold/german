@@ -1205,6 +1205,276 @@
       "english": "benevolent/well-meaning",
       "part_of_speech": "adjective",
       "level": "B2"
+    },
+    {
+      "german": "paradigmatisch",
+      "english": "paradigmatic",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "interdisziplinär",
+      "english": "interdisciplinary",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "ambivalent",
+      "english": "ambivalent",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "stringent",
+      "english": "stringent/rigorous",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "signifikant",
+      "english": "significant",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "konträr",
+      "english": "contrary/opposing",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "exemplarisch",
+      "english": "exemplary/illustrative",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "inhärent",
+      "english": "inherent",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "implizit",
+      "english": "implicit",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "explizit",
+      "english": "explicit",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "maßgeblich",
+      "english": "authoritative/decisive",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "unerlässlich",
+      "english": "indispensable",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "hinreichend",
+      "english": "sufficient/adequate",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "zweckmäßig",
+      "english": "expedient/purposeful",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "vorherrschend",
+      "english": "predominant/prevailing",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "ausschlaggebend",
+      "english": "decisive/determining",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "wegweisend",
+      "english": "pioneering/trailblazing",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "tiefgreifend",
+      "english": "profound/far-reaching",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "facettenreich",
+      "english": "multifaceted",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "vielschichtig",
+      "english": "multilayered/complex",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "einschlägig",
+      "english": "relevant/pertinent (legal/formal)",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "geläufig",
+      "english": "familiar/fluent",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "verbindlich",
+      "english": "binding/obligatory",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "etwaig",
+      "english": "possible/any (formal)",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "hinfällig",
+      "english": "invalid/obsolete",
+      "part_of_speech": "adjective",
+      "level": "C1"
+    },
+    {
+      "german": "unergründlich",
+      "english": "unfathomable/inscrutable",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "unnachahmlich",
+      "english": "inimitable",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "unverbrüchlich",
+      "english": "inviolable/unbreakable",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "unumstößlich",
+      "english": "irrefutable/unshakeable",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "verwegen",
+      "english": "audacious/daring",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "abgründig",
+      "english": "abysmal/deeply dark",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "entrückt",
+      "english": "enraptured/transported",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "unbändig",
+      "english": "unruly/irrepressible",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "verzagt",
+      "english": "despondent/fainthearted",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "ominös",
+      "english": "ominous",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "axiomatisch",
+      "english": "axiomatic",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "apodiktisch",
+      "english": "apodictic/absolutely certain",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "immanent",
+      "english": "immanent/inherent",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "transzendent",
+      "english": "transcendent",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "ephemer",
+      "english": "ephemeral/transient",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "idiosynkratisch",
+      "english": "idiosyncratic",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "perniziös",
+      "english": "pernicious",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "redundant",
+      "english": "redundant/superfluous",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "obsolet",
+      "english": "obsolete",
+      "part_of_speech": "adjective",
+      "level": "C2"
+    },
+    {
+      "german": "kongenial",
+      "english": "congenial/kindred in spirit",
+      "part_of_speech": "adjective",
+      "level": "C2"
     }
   ]
 }

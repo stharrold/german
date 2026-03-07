@@ -1217,6 +1217,270 @@
       "english": "to illustrate/visualize",
       "part_of_speech": "verb",
       "level": "B2"
+    },
+    {
+      "german": "darlegen",
+      "english": "to set forth/expound",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "erläutern",
+      "english": "to elucidate/explain in detail",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "implizieren",
+      "english": "to imply",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konstatieren",
+      "english": "to state/establish (a fact)",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "postulieren",
+      "english": "to postulate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "deduzieren",
+      "english": "to deduce",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "abstrahieren",
+      "english": "to abstract",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "differenzieren",
+      "english": "to differentiate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konkretisieren",
+      "english": "to make concrete/specify",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "relativieren",
+      "english": "to put into perspective/relativize",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "ratifizieren",
+      "english": "to ratify",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "legitimieren",
+      "english": "to legitimize",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "reglementieren",
+      "english": "to regulate strictly",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "sanktionieren",
+      "english": "to sanction",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "konsolidieren",
+      "english": "to consolidate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "anvisieren",
+      "english": "to target/aim at",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "gegenüberstellen",
+      "english": "to juxtapose/compare",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "einräumen",
+      "english": "to concede/admit",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "untermauern",
+      "english": "to underpin/substantiate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "suggerieren",
+      "english": "to suggest/insinuate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "antizipieren",
+      "english": "to anticipate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "kompensieren",
+      "english": "to compensate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "korrelieren",
+      "english": "to correlate",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "manifestieren",
+      "english": "to manifest",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "transformieren",
+      "english": "to transform",
+      "part_of_speech": "verb",
+      "level": "C1"
+    },
+    {
+      "german": "frönen",
+      "english": "to indulge in",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "huldigen",
+      "english": "to pay homage",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "schmähen",
+      "english": "to revile/vilify",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "ersinnen",
+      "english": "to devise/contrive",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "erküren",
+      "english": "to choose/elect (archaic)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "entsagen",
+      "english": "to renounce/forswear",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "obwalten",
+      "english": "to prevail/obtain (formal)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "verheißen",
+      "english": "to promise/foretell (literary)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "trachten",
+      "english": "to strive/aspire (literary)",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "subsumieren",
+      "english": "to subsume",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "extrapolieren",
+      "english": "to extrapolate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "dekonstruieren",
+      "english": "to deconstruct",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "kontextualisieren",
+      "english": "to contextualize",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "perpetuieren",
+      "english": "to perpetuate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "amalgamieren",
+      "english": "to amalgamate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "prädestinieren",
+      "english": "to predestine",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "transzendieren",
+      "english": "to transcend",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "oszillieren",
+      "english": "to oscillate",
+      "part_of_speech": "verb",
+      "level": "C2"
+    },
+    {
+      "german": "evozieren",
+      "english": "to evoke",
+      "part_of_speech": "verb",
+      "level": "C2"
     }
   ]
 }

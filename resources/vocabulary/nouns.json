@@ -3175,6 +3175,566 @@
       "gender": "neuter",
       "plural": "Manuskripte",
       "level": "B2"
+    },
+    {
+      "german": "Abhandlung",
+      "english": "treatise/essay",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Abhandlungen",
+      "level": "C1"
+    },
+    {
+      "german": "Gutachten",
+      "english": "expert opinion/report",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gutachten",
+      "level": "C1"
+    },
+    {
+      "german": "Lehrstuhl",
+      "english": "professorial chair",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Lehrstühle",
+      "level": "C1"
+    },
+    {
+      "german": "Promotion",
+      "english": "doctorate/PhD",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Promotionen",
+      "level": "C1"
+    },
+    {
+      "german": "Habilitation",
+      "english": "habilitation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Habilitationen",
+      "level": "C1"
+    },
+    {
+      "german": "Korrelation",
+      "english": "correlation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Korrelationen",
+      "level": "C1"
+    },
+    {
+      "german": "Paradigma",
+      "english": "paradigm",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Paradigmen",
+      "level": "C1"
+    },
+    {
+      "german": "Implikation",
+      "english": "implication",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Implikationen",
+      "level": "C1"
+    },
+    {
+      "german": "Kontext",
+      "english": "context",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Kontexte",
+      "level": "C1"
+    },
+    {
+      "german": "Diskurs",
+      "english": "discourse",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Diskurse",
+      "level": "C1"
+    },
+    {
+      "german": "Rechtsprechung",
+      "english": "jurisdiction",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Rechtsprechungen",
+      "level": "C1"
+    },
+    {
+      "german": "Gesetzgebung",
+      "english": "legislation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Gesetzgebungen",
+      "level": "C1"
+    },
+    {
+      "german": "Instanz",
+      "english": "instance/authority",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Instanzen",
+      "level": "C1"
+    },
+    {
+      "german": "Erlass",
+      "english": "decree/edict",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Erlasse",
+      "level": "C1"
+    },
+    {
+      "german": "Satzung",
+      "english": "statute/bylaws",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Satzungen",
+      "level": "C1"
+    },
+    {
+      "german": "Prämisse",
+      "english": "premise",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Prämissen",
+      "level": "C1"
+    },
+    {
+      "german": "Analogie",
+      "english": "analogy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Analogien",
+      "level": "C1"
+    },
+    {
+      "german": "Ambiguität",
+      "english": "ambiguity",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ambiguitäten",
+      "level": "C1"
+    },
+    {
+      "german": "Dichotomie",
+      "english": "dichotomy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Dichotomien",
+      "level": "C1"
+    },
+    {
+      "german": "Abstraktion",
+      "english": "abstraction",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Abstraktionen",
+      "level": "C1"
+    },
+    {
+      "german": "Infrastruktur",
+      "english": "infrastructure",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Infrastrukturen",
+      "level": "C1"
+    },
+    {
+      "german": "Konjunktur",
+      "english": "economic cycle/boom",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Konjunkturen",
+      "level": "C1"
+    },
+    {
+      "german": "Subvention",
+      "english": "subsidy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Subventionen",
+      "level": "C1"
+    },
+    {
+      "german": "Rezession",
+      "english": "recession",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Rezessionen",
+      "level": "C1"
+    },
+    {
+      "german": "Bürokratie",
+      "english": "bureaucracy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Bürokratien",
+      "level": "C1"
+    },
+    {
+      "german": "Rhetorik",
+      "english": "rhetoric",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Rhetoriken",
+      "level": "C1"
+    },
+    {
+      "german": "Ästhetik",
+      "english": "aesthetics",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ästhetiken",
+      "level": "C1"
+    },
+    {
+      "german": "Autonomie",
+      "english": "autonomy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Autonomien",
+      "level": "C1"
+    },
+    {
+      "german": "Souveränität",
+      "english": "sovereignty",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Souveränitäten",
+      "level": "C1"
+    },
+    {
+      "german": "Integrität",
+      "english": "integrity",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Integritäten",
+      "level": "C1"
+    },
+    {
+      "german": "Emanzipation",
+      "english": "emancipation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Emanzipationen",
+      "level": "C1"
+    },
+    {
+      "german": "Konvention",
+      "english": "convention",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Konventionen",
+      "level": "C1"
+    },
+    {
+      "german": "Instinkt",
+      "english": "instinct",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Instinkte",
+      "level": "C1"
+    },
+    {
+      "german": "Kapazität",
+      "english": "capacity",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kapazitäten",
+      "level": "C1"
+    },
+    {
+      "german": "Dilemma",
+      "english": "dilemma",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Dilemmata",
+      "level": "C1"
+    },
+    {
+      "german": "Disposition",
+      "english": "disposition",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Dispositionen",
+      "level": "C1"
+    },
+    {
+      "german": "Hierarchie",
+      "english": "hierarchy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hierarchien",
+      "level": "C1"
+    },
+    {
+      "german": "Kompetenz",
+      "english": "competence",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Kompetenzen",
+      "level": "C1"
+    },
+    {
+      "german": "Komplexität",
+      "english": "complexity",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Komplexitäten",
+      "level": "C1"
+    },
+    {
+      "german": "Transparenz",
+      "english": "transparency",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Transparenzen",
+      "level": "C1"
+    },
+    {
+      "german": "Abgrund",
+      "english": "abyss/chasm",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Abgründe",
+      "level": "C2"
+    },
+    {
+      "german": "Gleichnis",
+      "english": "parable/allegory",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Gleichnisse",
+      "level": "C2"
+    },
+    {
+      "german": "Trübsal",
+      "english": "tribulation/gloom",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Trübsale",
+      "level": "C2"
+    },
+    {
+      "german": "Tücke",
+      "english": "malice/treachery",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Tücken",
+      "level": "C2"
+    },
+    {
+      "german": "Muße",
+      "english": "leisure/contemplation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Mußen",
+      "level": "C2"
+    },
+    {
+      "german": "Verlies",
+      "english": "dungeon",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Verliese",
+      "level": "C2"
+    },
+    {
+      "german": "Antlitz",
+      "english": "countenance/visage",
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "plural": "Antlitze",
+      "level": "C2"
+    },
+    {
+      "german": "Ödnis",
+      "english": "wasteland/desolation",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ödnisse",
+      "level": "C2"
+    },
+    {
+      "german": "Epistemologie",
+      "english": "epistemology",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Epistemologien",
+      "level": "C2"
+    },
+    {
+      "german": "Ontologie",
+      "english": "ontology",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Ontologien",
+      "level": "C2"
+    },
+    {
+      "german": "Hermeneutik",
+      "english": "hermeneutics",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Hermeneutiken",
+      "level": "C2"
+    },
+    {
+      "german": "Dialektik",
+      "english": "dialectics",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Dialektiken",
+      "level": "C2"
+    },
+    {
+      "german": "Pragmatik",
+      "english": "pragmatics",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Pragmatiken",
+      "level": "C2"
+    },
+    {
+      "german": "Aphorismus",
+      "english": "aphorism",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Aphorismen",
+      "level": "C2"
+    },
+    {
+      "german": "Allegorie",
+      "english": "allegory",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Allegorien",
+      "level": "C2"
+    },
+    {
+      "german": "Metaphysik",
+      "english": "metaphysics",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Metaphysiken",
+      "level": "C2"
+    },
+    {
+      "german": "Zeitgeist",
+      "english": "spirit of the age",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Zeitgeiste",
+      "level": "C2"
+    },
+    {
+      "german": "Weltanschauung",
+      "english": "worldview/ideology",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Weltanschauungen",
+      "level": "C2"
+    },
+    {
+      "german": "Wanderlust",
+      "english": "wanderlust",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Wanderlüste",
+      "level": "C2"
+    },
+    {
+      "german": "Sehnsucht",
+      "english": "longing/yearning",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Sehnsüchte",
+      "level": "C2"
+    },
+    {
+      "german": "Schadenfreude",
+      "english": "malicious joy",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Schadenfreuden",
+      "level": "C2"
+    },
+    {
+      "german": "Gemütlichkeit",
+      "english": "coziness/conviviality",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Gemütlichkeiten",
+      "level": "C2"
+    },
+    {
+      "german": "Zerrissenheit",
+      "english": "inner conflict/torn state",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Zerrissenheiten",
+      "level": "C2"
+    },
+    {
+      "german": "Vergänglichkeit",
+      "english": "transience/impermanence",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Vergänglichkeiten",
+      "level": "C2"
+    },
+    {
+      "german": "Unbekümmertheit",
+      "english": "carefreeness",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Unbekümmertheiten",
+      "level": "C2"
+    },
+    {
+      "german": "Geborgenheit",
+      "english": "security/shelter",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Geborgenheiten",
+      "level": "C2"
+    },
+    {
+      "german": "Erhabenheit",
+      "english": "sublimity/grandeur",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Erhabenheiten",
+      "level": "C2"
+    },
+    {
+      "german": "Zwiespalt",
+      "english": "inner conflict/discord",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Zwiespalte",
+      "level": "C2"
+    },
+    {
+      "german": "Widersacher",
+      "english": "adversary/antagonist",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "plural": "Widersacher",
+      "level": "C2"
+    },
+    {
+      "german": "Fügung",
+      "english": "providence/twist of fate",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "plural": "Fügungen",
+      "level": "C2"
     }
   ]
 }
