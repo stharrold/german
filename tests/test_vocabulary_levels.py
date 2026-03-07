@@ -1,6 +1,6 @@
 """Tests for CEFR level distribution in vocabulary data."""
 
-from german.models import CEFRLevel, PartOfSpeech
+from german.models import CEFRLevel
 from german.vocabulary import load_vocabulary
 
 
