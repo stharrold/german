@@ -1,0 +1,113 @@
+{
+  "id": "c2-hoeren-teil-2-001",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Wissenschaftliche Paradigmenwechsel",
+  "instructions": "Sie hören eine Diskussion. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderatorin",
+      "text_de": "Willkommen zur Podiumsdiskussion „Wissenschaft im Wandel“. Auf dem Podium sitzen Professor Dr. Stefan Lorenz, Wissenschaftsphilosoph, und Professorin Dr. Margarethe Voss, theoretische Physikerin. Wir diskutieren heute die Frage, ob Thomas Kuhns Theorie der Paradigmenwechsel noch zeitgemäß ist. Herr Professor Lorenz, Sie haben Kuhn kürzlich verteidigt — gegen eine Vielzahl von Kritikern.",
+      "text_en": "Welcome to the panel discussion 'Science in Transition.' On the panel are Professor Dr. Stefan Lorenz, philosopher of science, and Professor Dr. Margarethe Voss, theoretical physicist. We are discussing today whether Thomas Kuhn's theory of paradigm shifts is still relevant. Professor Lorenz, you recently defended Kuhn — against a multitude of critics."
+    },
+    {
+      "speaker": "Prof. Dr. Lorenz",
+      "text_de": "In der Tat. Kuhns zentraler Beitrag besteht meines Erachtens nicht in der These der Inkommensurabilität, die man mit guten Gründen bezweifeln kann, sondern in der Einsicht, dass Normalwissenschaft — also die alltägliche Forschungspraxis — wesentlich durch ein geteiltes Paradigma strukturiert wird, das nicht nur Theorien, sondern auch Methoden, Werte und sogar die Wahrnehmung der zu erklärenden Phänomene vorgibt. Diese soziologische Dimension der Wissenschaft war vor Kuhn systematisch ausgeblendet worden. Die Rationalisten — Popper, Lakatos — haben Wissenschaft als rein logisches Unternehmen modelliert und dabei übersehen, dass Forscher immer innerhalb eines historisch gewachsenen Rahmens arbeiten, der ihre Fragen ebenso bestimmt wie ihre Antworten.",
+      "text_en": "Indeed. Kuhn's central contribution lies, in my view, not in the thesis of incommensurability, which one can doubt for good reasons, but in the insight that normal science — the everyday research practice — is essentially structured by a shared paradigm that determines not only theories but also methods, values, and even the perception of the phenomena to be explained. This sociological dimension of science had been systematically ignored before Kuhn. The rationalists — Popper, Lakatos — modeled science as a purely logical enterprise and thereby overlooked that researchers always work within a historically grown framework that determines their questions just as much as their answers."
+    },
+    {
+      "speaker": "Prof. Dr. Voss",
+      "text_de": "Ich möchte hier differenzieren. Als praktizierende Physikerin kann ich bestätigen, dass Kuhns Beschreibung der Normalwissenschaft durchaus Züge der Forschungsrealität trifft — die Arbeit innerhalb eines Rahmens, das Lösen von Rätseln, die Resistenz gegenüber Anomalien. Allerdings halte ich den Begriff des Paradigmenwechsels in seiner radikalen Form für empirisch nicht haltbar. Die großen Umbrüche in der Physik — von der klassischen Mechanik zur Relativitätstheorie, von dort zur Quantenmechanik — waren keine plötzlichen Gestaltsprünge, sondern langwierige Prozesse der Akkumulation, in denen das alte Paradigma nicht verworfen, sondern als Grenzfall in das neue integriert wurde.",
+      "text_en": "I would like to differentiate here. As a practicing physicist, I can confirm that Kuhn's description of normal science does capture features of research reality — working within a framework, solving puzzles, resistance to anomalies. However, I consider the concept of paradigm shift in its radical form empirically untenable. The great upheavals in physics — from classical mechanics to relativity theory, from there to quantum mechanics — were not sudden gestalt switches but prolonged processes of accumulation in which the old paradigm was not discarded but integrated as a limiting case into the new one."
+    },
+    {
+      "speaker": "Prof. Dr. Lorenz",
+      "text_de": "Diesen Einwand nehme ich ernst, aber er betrifft eine bestimmte Lesart Kuhns, die ich nicht teile. In seinen späteren Schriften hat Kuhn selbst den Revolutionsbegriff nuanciert und von „Mikrorevolutionen“ innerhalb von Spezialgebieten gesprochen. Der entscheidende Punkt ist nicht die Plötzlichkeit des Wandels, sondern die Tatsache, dass es in der Wissenschaftsgeschichte Momente gibt, in denen sich die grundlegenden Begriffe und Denkweisen so tiefgreifend verschieben, dass Kommunikation zwischen Vertretern verschiedener Paradigmen erschwert wird — und sei es nur vorübergehend. Das hat nichts mit Irrationalismus zu tun, sondern mit der semantischen Struktur wissenschaftlicher Theorien.",
+      "text_en": "I take this objection seriously, but it concerns a particular reading of Kuhn that I do not share. In his later writings, Kuhn himself nuanced the concept of revolution and spoke of 'micro-revolutions' within specialized fields. The decisive point is not the suddenness of change but the fact that there are moments in the history of science when fundamental concepts and ways of thinking shift so profoundly that communication between representatives of different paradigms becomes difficult — even if only temporarily. This has nothing to do with irrationalism but with the semantic structure of scientific theories."
+    },
+    {
+      "speaker": "Prof. Dr. Voss",
+      "text_de": "Einverstanden, aber dann stellt sich die Frage, ob der Begriff „Paradigmenwechsel“ nicht so weit aufgeweicht wird, dass er seine analytische Schärfe verliert. Wenn jede bedeutsame begriffliche Verschiebung in einer Subdisziplin als Mikrorevolution gilt, dann beschreibt der Begriff letztlich nur den ganz normalen Erkenntnisfortschritt. Was Kuhns Theorie ursprünglich so wirkungsmächtig machte, war gerade die Dramatik des Bruchs — die Vorstellung, dass Wissenschaftler nach einem Paradigmenwechsel gleichsam in einer anderen Welt leben. Wenn wir diese Dramatik aufgeben, bleibt eine soziologische Beschreibung übrig, die zwar zutreffend, aber wenig spektakulär ist.",
+      "text_en": "Agreed, but then the question arises whether the concept of 'paradigm shift' is being diluted to the point of losing its analytical sharpness. If every significant conceptual shift in a subdiscipline counts as a micro-revolution, then the concept ultimately describes nothing more than the normal progress of knowledge. What originally made Kuhn's theory so powerful was precisely the drama of the break — the notion that after a paradigm shift scientists live, as it were, in a different world. If we abandon this drama, what remains is a sociological description that, while accurate, is not very spectacular."
+    },
+    {
+      "speaker": "Prof. Dr. Lorenz",
+      "text_de": "Ich würde dem entgegenhalten, dass gerade die Entdramatisierung ein Gewinn ist. Die Wissenschaftsphilosophie hat allzu lange in Extremen gedacht — entweder kumulative Rationalität à la Popper oder revolutionärer Bruch à la Kuhn. Die Wirklichkeit liegt, wie so oft, dazwischen. Und genau dort, in diesem Dazwischen, wird es philosophisch interessant: Wie gelingt es Forschungsgemeinschaften, trotz grundlegender begrifflicher Verschiebungen die Kontinuität ihres Projekts aufrechtzuerhalten? Diese Frage führt uns über Kuhn hinaus, aber sie wäre ohne ihn nie gestellt worden.",
+      "text_en": "I would counter that precisely this de-dramatization is a gain. Philosophy of science has for too long thought in extremes — either cumulative rationality à la Popper or revolutionary break à la Kuhn. Reality lies, as so often, in between. And precisely there, in this in-between, it becomes philosophically interesting: how do research communities manage to maintain the continuity of their project despite fundamental conceptual shifts? This question takes us beyond Kuhn, but it would never have been posed without him."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin sieht Prof. Lorenz Kuhns zentralen Beitrag zur Wissenschaftsphilosophie?",
+      "text_en": "What does Prof. Lorenz see as Kuhn's central contribution to philosophy of science?",
+      "options": [
+        "a) In der Einsicht, dass Normalwissenschaft durch ein geteiltes Paradigma strukturiert wird, das Theorien, Methoden und Wahrnehmung umfasst.",
+        "b) In der These der absoluten Inkommensurabilität zwischen wissenschaftlichen Theorien.",
+        "c) In der Widerlegung aller früheren wissenschaftstheoretischen Positionen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Lorenz betont, dass Kuhns zentraler Beitrag in der Einsicht liegt, dass Normalwissenschaft durch ein geteiltes Paradigma strukturiert wird, das Theorien, Methoden, Werte und Wahrnehmung vorgibt.",
+      "explanation_en": "Lorenz emphasizes that Kuhn's central contribution lies in the insight that normal science is structured by a shared paradigm determining theories, methods, values, and perception."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welchen Einwand erhebt Prof. Voss gegen Kuhns Revolutionsbegriff?",
+      "text_en": "What objection does Prof. Voss raise against Kuhn's concept of revolution?",
+      "options": [
+        "a) Dass Paradigmenwechsel in der Physik tatsächlich noch dramatischer verlaufen als Kuhn annahm.",
+        "b) Dass die großen Umbrüche keine plötzlichen Gestaltsprünge waren, sondern langwierige Integrationsprozesse.",
+        "c) Dass es in der Physik überhaupt keine bedeutsamen theoretischen Umbrüche gegeben hat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Voss argumentiert, dass die großen Umbrüche in der Physik langwierige Akkumulationsprozesse waren, in denen das alte Paradigma als Grenzfall integriert wurde.",
+      "explanation_en": "Voss argues that the great upheavals in physics were prolonged accumulation processes in which the old paradigm was integrated as a limiting case."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Prof. Lorenz unter den „Mikrorevolutionen“ in Kuhns späteren Schriften?",
+      "text_en": "What does Prof. Lorenz understand by 'micro-revolutions' in Kuhn's later writings?",
+      "options": [
+        "a) Völlig irrationale Brüche, die jede wissenschaftliche Kommunikation unmöglich machen.",
+        "b) Oberflächliche terminologische Änderungen ohne konzeptuelle Bedeutung.",
+        "c) Tiefgreifende begriffliche Verschiebungen innerhalb von Spezialgebieten, die Kommunikation vorübergehend erschweren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Lorenz erläutert Mikrorevolutionen als tiefgreifende begriffliche Verschiebungen in Spezialgebieten, die Kommunikation zwischen Paradigmen-Vertretern vorübergehend erschweren.",
+      "explanation_en": "Lorenz explains micro-revolutions as profound conceptual shifts within specialized fields that temporarily hinder communication between paradigm representatives."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was kritisiert Prof. Voss an einer zu weiten Fassung des Paradigmenbegriffs?",
+      "text_en": "What does Prof. Voss criticize about too broad a conception of the paradigm concept?",
+      "options": [
+        "a) Er verliert seine analytische Schärfe und beschreibt letztlich nur normalen Erkenntnisfortschritt.",
+        "b) Er wird nur auf Naturwissenschaften anwendbar und schließt Geisteswissenschaften aus.",
+        "c) Er widerspricht Kuhns eigenen Spätschriften und deren Nuancierungen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Voss warnt, dass bei zu weiter Aufweichung des Begriffs jede begriffliche Verschiebung als Mikrorevolution gilt und der Begriff nur normalen Erkenntnisfortschritt beschreibt.",
+      "explanation_en": "Voss warns that if the concept is diluted too far, every conceptual shift counts as a micro-revolution and the concept merely describes normal progress of knowledge."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welchen Gewinn sieht Prof. Lorenz in der „Entdramatisierung“ von Kuhns Theorie?",
+      "text_en": "What gain does Prof. Lorenz see in the 'de-dramatization' of Kuhn's theory?",
+      "options": [
+        "a) Sie ermöglicht eine rein mathematische Formalisierung der Wissenschaftsgeschichte.",
+        "b) Sie eröffnet die philosophisch interessante Frage, wie Forschungsgemeinschaften trotz begrifflicher Verschiebungen Kontinuität aufrechterhalten.",
+        "c) Sie beseitigt jede Form von Kontroverse in der Wissenschaftsphilosophie."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lorenz sieht den Gewinn darin, dass die Entdramatisierung zur Frage führt, wie Forschungsgemeinschaften trotz grundlegender begrifflicher Verschiebungen Kontinuität wahren.",
+      "explanation_en": "Lorenz sees the gain in that de-dramatization leads to the question of how research communities maintain continuity despite fundamental conceptual shifts."
+    }
+  ]
+}

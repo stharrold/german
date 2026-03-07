@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-1-001",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Das Paradoxon des Fortschritts — Philosophische Kritik der Moderne",
+  "instructions": "Sie sollen zu einem komplexen Thema einen strukturierten Vortrag halten und anschließend mit dem Prüfer / der Prüferin diskutieren. Bereiten Sie sich vor, verschiedene Perspektiven differenziert zu beleuchten und Ihre eigene Position überzeugend zu begründen.",
+  "situation_de": "Der Begriff des Fortschritts gilt als eine der zentralen Kategorien der Moderne. Seit der Aufklärung wird die Geschichte vielfach als linearer Prozess der Verbesserung gedeutet — technologisch, moralisch, gesellschaftlich. Doch zahlreiche Denker haben diese Annahme grundlegend infrage gestellt: von der Dialektik der Aufklärung über die ökologische Krise bis hin zur Frage, ob die Beschleunigung des Lebens tatsächlich zu einem guten Leben beiträgt. Halten Sie einen strukturierten Vortrag, in dem Sie das Paradoxon des Fortschritts aus verschiedenen philosophischen Perspektiven beleuchten und Ihre eigene Position differenziert begründen.",
+  "situation_en": "The concept of progress is considered one of the central categories of modernity. Since the Enlightenment, history has frequently been interpreted as a linear process of improvement — technologically, morally, socially. Yet numerous thinkers have fundamentally questioned this assumption: from the dialectic of enlightenment to the ecological crisis to the question of whether the acceleration of life actually contributes to a good life. Give a structured presentation in which you examine the paradox of progress from various philosophical perspectives and justify your own position in a nuanced manner.",
+  "discussion_points": [
+    "Fortschrittsoptimismus vs. Kulturpessimismus: Inwiefern lässt sich die Geschichte als Fortschrittserzählung rechtfertigen? (Progress optimism vs. cultural pessimism: To what extent can history be justified as a narrative of progress?)",
+    "Technologischer Fortschritt und moralische Entwicklung: Geht die technische Perfektionierung zwangsläufig mit ethischem Fortschritt einher? (Technological progress and moral development: Does technical perfection necessarily go hand in hand with ethical progress?)",
+    "Die ökologische Dimension: Hat der Fortschrittsglaube zur Naturzerstörung beigetragen, und welche Konsequenzen ergeben sich daraus? (The ecological dimension: Has the belief in progress contributed to the destruction of nature, and what consequences follow from this?)",
+    "Beschleunigung und Entfremdung: Führt die zunehmende Geschwindigkeit des modernen Lebens zu einem Verlust an Sinnhaftigkeit? (Acceleration and alienation: Does the increasing speed of modern life lead to a loss of meaningfulness?)",
+    "Alternative Fortschrittsmodelle: Lassen sich nichtlineare oder zirkuläre Geschichtsauffassungen als Korrektiv heranziehen? (Alternative models of progress: Can nonlinear or cyclical conceptions of history serve as a corrective?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte heute das Paradoxon des Fortschritts in den Blick nehmen — ein Thema, das mir deshalb so bedeutsam erscheint, weil wir in einer Epoche leben, in der die Errungenschaften der Moderne und ihre destruktiven Nebenwirkungen unauflöslich miteinander verflochten sind. Meine These lautet: Der Fortschrittsbegriff, wie er seit der Aufklärung konzipiert wurde, bedarf einer grundlegenden Revision, ohne dass damit einem regressiven Kulturpessimismus das Wort geredet werden sollte.",
+      "text_en": "Today I would like to examine the paradox of progress — a topic that seems so significant to me because we live in an era in which the achievements of modernity and their destructive side effects are inextricably intertwined. My thesis is: The concept of progress as conceived since the Enlightenment requires a fundamental revision, without thereby advocating for a regressive cultural pessimism."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Zunächst sei daran erinnert, dass Adorno und Horkheimer bereits in ihrer Dialektik der Aufklärung auf eine inhärente Ambivalenz des Fortschritts hingewiesen haben: Die Rationalität, die den Menschen aus seiner Unmündigkeit befreien sollte, habe sich in eine instrumentelle Vernunft verwandelt, die Natur und Menschen gleichermaßen zum bloßen Mittel degradiere. Man mag einwenden, diese Diagnose sei zu pauschal — und in der Tat wäre es verfehlt, die unbestreitbaren Verbesserungen in Medizin, Menschenrechten und materiellem Wohlstand schlichtweg zu leugnen. Gleichwohl lässt sich nicht übersehen, dass eben jene Rationalität, die diese Verbesserungen ermöglicht hat, auch die Klimakrise, die atomare Bedrohung und neue Formen sozialer Kontrolle hervorgebracht hat.",
+      "text_en": "First, it should be recalled that Adorno and Horkheimer already pointed to an inherent ambivalence of progress in their Dialectic of Enlightenment: the rationality that was supposed to liberate humans from their immaturity had transformed into an instrumental reason that degrades nature and humans alike to mere means. One might object that this diagnosis is too sweeping — and indeed it would be mistaken to simply deny the undeniable improvements in medicine, human rights, and material prosperity. Nevertheless, it cannot be overlooked that the very rationality that enabled these improvements has also produced the climate crisis, the nuclear threat, and new forms of social control."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie beziehen sich auf die Frankfurter Schule, die bekanntlich eine radikale Fortschrittskritik formuliert hat. Aber ließe sich nicht argumentieren, dass gerade die Fähigkeit zur Selbstkritik — also die Kritik des Fortschritts im Namen des Fortschritts — ein Zeichen dafür ist, dass das Projekt der Aufklärung nach wie vor lebendig und korrekturfähig ist?",
+      "text_en": "You refer to the Frankfurt School, which as is well known formulated a radical critique of progress. But couldn't one argue that precisely the capacity for self-criticism — that is, the critique of progress in the name of progress — is a sign that the project of Enlightenment is still alive and capable of self-correction?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist ein überaus treffender Einwand, und er berührt den Kern meiner Argumentation. In der Tat ließe sich mit Habermas argumentieren, dass das Projekt der Moderne nicht gescheitert, sondern unvollendet sei. Die Selbstkritik der Vernunft wäre demnach kein Beweis für deren Scheitern, sondern vielmehr ein Ausdruck ihrer reflexiven Potenz. Allerdings — und hier würde ich Habermas ein Stück weit widersprechen — setzt diese Selbstkorrektur voraus, dass die institutionellen Rahmenbedingungen für eine solche Kritik überhaupt gegeben sind. Angesichts der zunehmenden Ökonomisierung des öffentlichen Diskurses darf man sich fragen, ob diese Voraussetzung noch hinreichend erfüllt ist.",
+      "text_en": "That is an exceedingly apt objection, and it touches the core of my argumentation. Indeed, one could argue with Habermas that the project of modernity has not failed but remains incomplete. The self-criticism of reason would accordingly not be proof of its failure, but rather an expression of its reflexive potency. However — and here I would contradict Habermas to some extent — this self-correction presupposes that the institutional frameworks for such criticism are actually in place. Given the increasing economization of public discourse, one may ask whether this precondition is still sufficiently met."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben die ökologische Dimension angedeutet. Manche Philosophen plädieren für eine vollständige Abkehr vom Wachstumsparadigma. Halten Sie einen solchen radikalen Bruch für denkbar oder gar wünschenswert?",
+      "text_en": "You alluded to the ecological dimension. Some philosophers advocate for a complete departure from the growth paradigm. Do you consider such a radical break conceivable or even desirable?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Postwachstumsdebatte halte ich für eines der faszinierendsten intellektuellen Projekte der Gegenwart. Indes wäre es meines Erachtens naiv, einen abrupten Systemwechsel zu fordern, ohne die enormen sozialen Verwerfungen zu bedenken, die damit einhergingen. Was mir vorschwebt, ist eher eine qualitative Transformation des Fortschrittsbegriffs: weg von der rein quantitativen Steigerungslogik hin zu einem Verständnis von Fortschritt als Vertiefung menschlicher Lebensqualität, ökologischer Nachhaltigkeit und sozialer Gerechtigkeit. Dass ein solcher Wandel denkbar wäre, zeigen nicht zuletzt die Arbeiten von Hartmut Rosa zur Resonanztheorie, die eine Alternative zur Beschleunigungslogik zu formulieren versuchen.",
+      "text_en": "I consider the post-growth debate one of the most fascinating intellectual projects of the present. However, in my view it would be naive to demand an abrupt system change without considering the enormous social disruptions that would accompany it. What I envision is rather a qualitative transformation of the concept of progress: away from a purely quantitative logic of increase toward an understanding of progress as a deepening of human quality of life, ecological sustainability, and social justice. That such a change is conceivable is demonstrated not least by the works of Hartmut Rosa on resonance theory, which attempt to formulate an alternative to the logic of acceleration."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Abschließend: Wenn Sie das Paradoxon des Fortschritts auf eine einzige Formel bringen müssten — wie würde diese lauten?",
+      "text_en": "In conclusion: If you had to reduce the paradox of progress to a single formula — what would it be?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Wenn ich es auf eine Formel bringen dürfte, so würde ich sagen: Fortschritt ist die gleichzeitige Erweiterung und Einschränkung menschlicher Möglichkeiten. Jede neue Fähigkeit, die wir als Gattung erwerben, eröffnet Handlungsspielräume und verschließt andere. Die eigentliche Aufgabe bestünde darin, diese Dialektik nicht zu leugnen, sondern bewusst zu gestalten — und zwar im Rahmen eines öffentlichen Diskurses, der die Ambivalenz des Fortschritts als konstitutives Merkmal der menschlichen Existenz anerkennt, anstatt sie hinter dem Pathos der Machbarkeit zu verbergen.",
+      "text_en": "If I may reduce it to a formula, I would say: Progress is the simultaneous expansion and restriction of human possibilities. Every new capability we acquire as a species opens up spaces for action and closes others. The actual task would be not to deny this dialectic but to consciously shape it — within the framework of a public discourse that recognizes the ambivalence of progress as a constitutive feature of human existence, instead of concealing it behind the pathos of feasibility."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen umfassenden, klar gegliederten Vortrag auf muttersprachlichem Niveau und geht anschließend souverän auf alle Diskussionsimpulse ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat entfaltet eine vielschichtige Argumentation, bezieht differenziert Stellung und begegnet Gegenargumenten mit intellektueller Flexibilität und rhetorischer Präzision.",
+    "Interaktion und Gesprächsführung: Der Kandidat steuert das Gespräch auf muttersprachlichem Niveau, greift Impulse nahtlos auf, reformuliert und vertieft eigenständig.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung akademischer Redemittel, Metaphern und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

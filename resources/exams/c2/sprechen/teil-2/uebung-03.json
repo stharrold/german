@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-2-003",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Vermittlung eines Konflikts zwischen Wissenschaftsfreiheit und institutioneller Verantwortung",
+  "instructions": "Sie und Ihr Gesprächspartner / Ihre Gesprächspartnerin sollen gemeinsam eine differenzierte Lösung für ein komplexes Problem erarbeiten. Diskutieren Sie die verschiedenen Aspekte, wägen Sie Vor- und Nachteile sorgfältig ab und einigen Sie sich auf einen tragfähigen Vorschlag.",
+  "situation_de": "An einer großen Universität ist ein Konflikt eskaliert: Ein renommierter Professor hat Forschungsergebnisse veröffentlicht, die in der Öffentlichkeit kontrovers diskutiert werden. Die Universitätsleitung sieht sich einem erheblichen medialen und politischen Druck ausgesetzt, sich von den Ergebnissen zu distanzieren. Der Professor beruft sich auf die grundgesetzlich geschützte Wissenschaftsfreiheit, während Kritiker der Universität vorwerfen, ihre institutionelle Verantwortung zu vernachlässigen. Sie sind als Mediatoren eingesetzt worden und sollen einen Lösungsvorschlag erarbeiten, der beiden Seiten gerecht wird.",
+  "situation_en": "A conflict has escalated at a large university: A renowned professor has published research results that are controversially discussed in public. The university leadership faces considerable media and political pressure to distance itself from the results. The professor invokes the constitutionally protected freedom of science, while critics accuse the university of neglecting its institutional responsibility. You have been appointed as mediators and are to develop a solution proposal that does justice to both sides.",
+  "discussion_points": [
+    "Grundrechtliche Dimension: Wie weit reicht die Wissenschaftsfreiheit, und wo findet sie ihre Grenzen? (Constitutional dimension: How far does academic freedom extend, and where does it find its limits?)",
+    "Institutionelle Verantwortung: Inwieweit ist eine Universität für die Veröffentlichungen ihrer Mitglieder mitverantwortlich? (Institutional responsibility: To what extent is a university co-responsible for the publications of its members?)",
+    "Mediale Dynamik: Wie sollte die Universität mit medialem Druck umgehen, ohne in vorauseilenden Gehorsam zu verfallen? (Media dynamics: How should the university deal with media pressure without lapsing into anticipatory obedience?)",
+    "Wissenschaftliche Integrität: Welche internen Mechanismen der Qualitätssicherung hätten den Konflikt möglicherweise verhindern können? (Scientific integrity: What internal quality assurance mechanisms could potentially have prevented the conflict?)",
+    "Kommunikationsstrategie: Wie lässt sich die Komplexität wissenschaftlicher Befunde gegenüber einer breiten Öffentlichkeit angemessen vermitteln? (Communication strategy: How can the complexity of scientific findings be appropriately communicated to a broad public?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Bevor wir in die inhaltliche Diskussion einsteigen, möchte ich kurz den Rahmen unserer Mediation abstecken. Wir sind weder dazu berufen, die wissenschaftliche Qualität der fraglichen Forschungsergebnisse zu beurteilen, noch dazu, ein politisches Urteil zu fällen. Unsere Aufgabe besteht vielmehr darin, einen institutionellen Rahmen zu schaffen, der für vergleichbare Fälle in der Zukunft Orientierung bietet. Einverstanden?",
+      "text_en": "Before we enter the substantive discussion, I would like to briefly delineate the framework of our mediation. We are neither called upon to assess the scientific quality of the research results in question nor to render a political judgment. Our task is rather to create an institutional framework that provides orientation for comparable cases in the future. Agreed?"
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Vollkommen einverstanden. Ich möchte gleich zu Beginn einen Punkt betonen, der mir für die gesamte Diskussion leitend erscheint: Die Wissenschaftsfreiheit ist in einer demokratischen Gesellschaft ein hohes Gut, das nicht leichtfertig eingeschränkt werden darf. Gleichzeitig — und daran kann kein Zweifel bestehen — entbindet die Berufung auf die Wissenschaftsfreiheit nicht von der Pflicht zur wissenschaftlichen Integrität. Wenn die Forschungsergebnisse methodisch korrekt gewonnen wurden, steht der Universität keine inhaltliche Distanzierung zu; wenn hingegen methodische Mängel vorliegen, wäre eine Überprüfung nicht nur legitim, sondern geboten.",
+      "text_en": "Completely agreed. I would like to emphasize right at the beginning a point that seems guiding for the entire discussion: Academic freedom is a valuable good in a democratic society that must not be restricted lightly. At the same time — and there can be no doubt about this — invoking academic freedom does not release one from the obligation of scientific integrity. If the research results were obtained in a methodologically correct manner, the university is not entitled to a substantive distancing; if, however, methodological deficiencies exist, a review would be not only legitimate but imperative."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dem stimme ich zu. Daraus ergibt sich als erster konkreter Vorschlag: Die Universität sollte nicht die Ergebnisse selbst kommentieren, sondern den Prozess ihrer Gewinnung einer unabhängigen Überprüfung unterziehen. Man könnte ein externes Gutachtergremium einberufen, das die methodische Qualität der Forschung beurteilt — nicht als Zensurinstanz, sondern als Instrument der wissenschaftlichen Selbstkontrolle. Damit würde die Universität weder vorauseilend Partei ergreifen noch sich dem berechtigten Anspruch auf Transparenz entziehen.",
+      "text_en": "I agree. From this follows a first concrete proposal: The university should not comment on the results themselves but subject the process of their acquisition to an independent review. One could convene an external panel of reviewers that assesses the methodological quality of the research — not as a censorship body but as an instrument of scientific self-regulation. This way, the university would neither take sides prematurely nor evade the legitimate demand for transparency."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein sinnvoller Vorschlag. Allerdings sollte man bedenken, dass die Einberufung eines externen Gutachtergremiums vom betroffenen Professor als Misstrauensvotum interpretiert werden könnte. Um dem entgegenzuwirken, schlüge ich vor, den Professor von Anfang an in den Prozess einzubinden und ihm die Möglichkeit zu geben, seine Methodik vor dem Gremium zu erläutern. Es darf sich nicht um ein Tribunal handeln, sondern um ein kollegiales Verfahren der Qualitätssicherung.",
+      "text_en": "A sensible proposal. However, one should consider that the convening of an external review panel could be interpreted by the affected professor as a vote of no confidence. To counteract this, I would suggest involving the professor from the outset in the process and giving him the opportunity to explain his methodology before the panel. It must not be a tribunal but a collegial process of quality assurance."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ein wichtiger Punkt. Kommen wir zur Kommunikationsstrategie. Die Universität hat bislang den Fehler begangen, sich entweder gar nicht oder mit unglücklich formulierten Pressemitteilungen zu äußern, die den Eindruck erweckt haben, sie wolle die Angelegenheit aussitzen. Ich würde eine proaktive Kommunikationsstrategie empfehlen, die drei Elemente umfasst: Erstens eine klare Stellungnahme der Universitätsleitung, die das Prinzip der Wissenschaftsfreiheit bekräftigt und zugleich die Bereitschaft zur transparenten Überprüfung signalisiert. Zweitens eine öffentliche Veranstaltung, in der die Forschungsergebnisse in ihrem Kontext erläutert und diskutiert werden. Und drittens eine nachhaltige Medienstrategie, die darauf abzielt, die öffentliche Debatte zu versachlichen.",
+      "text_en": "An important point. Let us turn to the communication strategy. The university has so far made the mistake of either not commenting at all or issuing unfortunately worded press releases that created the impression it wanted to sit the matter out. I would recommend a proactive communication strategy comprising three elements: First, a clear statement from the university leadership affirming the principle of academic freedom while signaling willingness for transparent review. Second, a public event in which the research results are explained and discussed in their context. And third, a sustainable media strategy aimed at objectifying the public debate."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Das erscheint mir durchdacht. Ich würde darüber hinaus empfehlen, dass die Universität langfristig eine Ombudsstelle für Konflikte zwischen Wissenschaftsfreiheit und institutioneller Verantwortung einrichtet. Eine solche Stelle könnte als erste Anlaufstelle fungieren, bevor ein Konflikt eskaliert, und zwischen den Beteiligten vermitteln, bevor die Medien involviert werden.",
+      "text_en": "That seems well thought-out to me. I would additionally recommend that the university establish in the long term an ombudsman's office for conflicts between academic freedom and institutional responsibility. Such an office could serve as a first point of contact before a conflict escalates and mediate between the parties before the media become involved."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Eine Ombudsstelle wäre in der Tat eine strukturelle Innovation, die über den konkreten Fall hinauswirkt. Lassen Sie mich unseren Vorschlag zusammenfassen: Erstens die Einberufung eines externen Gutachtergremiums unter Einbindung des Professors zur methodischen Überprüfung. Zweitens eine dreiteilige Kommunikationsstrategie mit Stellungnahme, öffentlicher Diskussionsveranstaltung und nachhaltiger Medienarbeit. Drittens die Einrichtung einer dauerhaften Ombudsstelle. Und viertens die Formulierung eines Kodex, der die Rechte und Pflichten im Spannungsfeld von Wissenschaftsfreiheit und institutioneller Verantwortung verbindlich regelt.",
+      "text_en": "An ombudsman's office would indeed be a structural innovation that extends beyond the concrete case. Let me summarize our proposal: First, the convening of an external review panel with the involvement of the professor for methodological review. Second, a three-part communication strategy with a statement, public discussion event, and sustainable media work. Third, the establishment of a permanent ombudsman's office. And fourth, the formulation of a code that bindingly regulates the rights and obligations in the tension between academic freedom and institutional responsibility."
+    },
+    {
+      "speaker": "Partner",
+      "text_de": "Ein ausgewogener Vorschlag, der weder in blinden Schutz noch in vorschnelle Verurteilung verfällt. Entscheidend wird sein, dass die Universität aus diesem Konflikt nicht nur eine Krisenbewältigung, sondern eine nachhaltige institutionelle Lernchance macht. Wer die Wissenschaftsfreiheit schützen will, muss auch die Instrumente bereitstellen, um sie verantwortungsvoll auszuüben.",
+      "text_en": "A balanced proposal that lapses neither into blind protection nor into premature condemnation. The decisive factor will be that the university transforms this conflict not merely into crisis management but into a sustainable institutional learning opportunity. Whoever wants to protect academic freedom must also provide the instruments to exercise it responsibly."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Die Gesprächspartner erarbeiten kooperativ einen differenzierten, umsetzbaren Lösungsvorschlag und gehen auf alle relevanten Aspekte der Problemstellung ein.",
+    "Argumentation und Überzeugungskraft: Beide Gesprächspartner formulieren vielschichtige Argumente, wägen Alternativen souverän ab und gelangen durch konstruktive Auseinandersetzung zu einem tragfähigen Kompromiss.",
+    "Interaktion und Gesprächsführung: Die Gesprächspartner interagieren auf muttersprachlichem Niveau, nehmen präzise Bezug aufeinander, entwickeln Gedanken gemeinsam weiter und steuern das Gespräch kooperativ.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung institutioneller Fachsprache, diplomatischer Redemittel und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

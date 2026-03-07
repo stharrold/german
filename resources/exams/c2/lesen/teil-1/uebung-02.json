@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-1-002",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Die Krise der Repräsentation in der postmodernen Literatur",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die postmoderne Literaturtheorie hat den Repräsentationsbegriff einer radikalen Revision unterzogen, deren Auswirkungen bis in die gegenwärtigen Debatten um autofiktionales Schreiben hineinreichen. Wo die realistische Erzähltradition von einer grundsätzlichen Abbildbarkeit der Wirklichkeit durch sprachliche Mittel ausging, betonen poststrukturalistische Theoretiker die unüberbrückbare Kluft zwischen dem Signifikanten und dem Signifikat — eine Einsicht, die das Vertrauen in die mimetische Funktion der Literatur nachhaltig erschüttert hat.\n\nDie von Derrida formulierte Kritik an der „Metaphysik der Präsenz“ hat dabei die theoretische Grundlage für eine Literatur geschaffen, die ihre eigene Gemachtheit reflektiert, anstatt Transparenz gegenüber einer außertextlichen Realität vorzutäuschen. Der sich in zahllosen metafiktionalen Texten der vergangenen Jahrzehnte manifestierende Gestus der Selbstreflexivität verweist auf ein fundamentales Misstrauen gegenüber der Möglichkeit einer unvermittelten Darstellung von Erfahrung. Das Erzählen thematisiert sich selbst, die Sprache wird zum eigentlichen Gegenstand der Literatur.\n\nGleichzeitig mehren sich Stimmen, die eine Rückkehr zur Referenzialität fordern, ohne dabei hinter die postmoderne Einsicht in die Konstruiertheit jeder Darstellung zurückfallen zu wollen. Die unter dem Stichwort des „Neuen Realismus“ geführte Debatte zielt auf eine Literatur, die die Spannung zwischen der Anerkennung sprachlicher Vermitteltheit und dem Anspruch auf Welthaltigkeit produktiv aushält. Es gehe nicht darum, die postmoderne Skepsis zu widerrufen, sondern sie in eine erneuerte Form des Erzählens zu überführen, die sich ihrer epistemologischen Grenzen bewusst bleibt.",
+    "text_en": "Postmodern literary theory has subjected the concept of representation to a radical revision whose effects extend into current debates about autofictional writing. Where the realist narrative tradition assumed a fundamental representability of reality through linguistic means, post-structuralist theorists emphasize the unbridgeable gulf between the signifier and the signified — an insight that has sustainably shaken trust in the mimetic function of literature.\n\nDerrida's critique of the 'metaphysics of presence' created the theoretical foundation for a literature that reflects its own constructedness rather than feigning transparency toward an extratextual reality. The gesture of self-reflexivity manifesting in countless metafictional texts of recent decades points to a fundamental distrust of the possibility of unmediated representation of experience. Narration thematizes itself; language becomes the actual subject of literature.\n\nAt the same time, voices are growing that demand a return to referentiality without wanting to fall back behind the postmodern insight into the constructedness of every representation. The debate conducted under the keyword 'New Realism' aims at a literature that productively sustains the tension between acknowledging linguistic mediation and the claim to worldly substance. The point is not to revoke postmodern skepticism but to transfer it into a renewed form of narration that remains aware of its epistemological limits.",
+    "source": "Literaturkritik",
+    "word_count": 210
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wovon ging die realistische Erzähltradition aus?",
+      "text_en": "What did the realist narrative tradition assume?",
+      "options": [
+        "a) Dass Sprache die Wirklichkeit nicht abbilden kann.",
+        "b) Dass literarische Texte nur sich selbst referenzieren.",
+        "c) Dass die Wirklichkeit durch sprachliche Mittel grundsätzlich abbildbar ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die realistische Erzähltradition ging von einer grundsätzlichen Abbildbarkeit der Wirklichkeit durch sprachliche Mittel aus.",
+      "explanation_en": "The realist narrative tradition assumed a fundamental representability of reality through linguistic means."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was hat Derridas Kritik an der „Metaphysik der Präsenz“ theoretisch begründet?",
+      "text_en": "What did Derrida's critique of the 'metaphysics of presence' theoretically establish?",
+      "options": [
+        "a) Eine Literatur, die ihre eigene Gemachtheit reflektiert.",
+        "b) Die Überlegenheit mündlicher gegenüber schriftlicher Überlieferung.",
+        "c) Die Notwendigkeit einer Rückkehr zum mimetischen Erzählen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Derridas Kritik schuf die Grundlage für eine Literatur, die ihre eigene Gemachtheit reflektiert, anstatt Transparenz vorzutäuschen.",
+      "explanation_en": "Derrida's critique created the foundation for a literature that reflects its own constructedness rather than feigning transparency."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was kennzeichnet den metafiktionalen Gestus der postmodernen Literatur?",
+      "text_en": "What characterizes the metafictional gesture of postmodern literature?",
+      "options": [
+        "a) Eine bewusste Nachahmung klassischer Erzählformen.",
+        "b) Ein Misstrauen gegenüber der Möglichkeit unvermittelter Darstellung von Erfahrung.",
+        "c) Die Reduktion sprachlicher Mittel auf ein Minimum."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der metafiktionale Gestus verweist auf ein fundamentales Misstrauen gegenüber der Möglichkeit einer unvermittelten Darstellung von Erfahrung.",
+      "explanation_en": "The metafictional gesture points to a fundamental distrust of the possibility of unmediated representation of experience."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Worauf zielt die unter dem Stichwort „Neuer Realismus“ geführte Debatte?",
+      "text_en": "What does the debate conducted under the keyword 'New Realism' aim at?",
+      "options": [
+        "a) Auf die vollständige Abkehr von postmodernen Erkenntnissen.",
+        "b) Auf die Wiederherstellung eines naiven Realismus in der Literatur.",
+        "c) Auf eine Literatur, die sprachliche Vermitteltheit und Welthaltigkeit produktiv verbindet."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Debatte zielt auf eine Literatur, die die Spannung zwischen sprachlicher Vermitteltheit und dem Anspruch auf Welthaltigkeit produktiv aushält.",
+      "explanation_en": "The debate aims at a literature that productively sustains the tension between linguistic mediation and the claim to worldly substance."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was wird in der metafiktionalen Literatur zum eigentlichen Gegenstand?",
+      "text_en": "What becomes the actual subject in metafictional literature?",
+      "options": [
+        "a) Die Sprache selbst.",
+        "b) Die biografischen Erfahrungen des Autors.",
+        "c) Die außertextliche Realität."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Erzählen thematisiert sich selbst, die Sprache wird zum eigentlichen Gegenstand der Literatur.",
+      "explanation_en": "Narration thematizes itself; language becomes the actual subject of literature."
+    }
+  ]
+}

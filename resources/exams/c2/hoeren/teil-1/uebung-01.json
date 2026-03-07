@@ -1,0 +1,118 @@
+{
+  "id": "c2-hoeren-teil-1-001",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Sprachphilosophie und die Grenzen der Bedeutung",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Meine Damen und Herren, im Rahmen unserer Ringvorlesung „Sprache, Geist und Wirklichkeit“ begrüße ich heute Professorin Dr. Elisa Brandt, die an der Ludwig-Maximilians-Universität München den Lehrstuhl für Sprachphilosophie innehat. Frau Professorin Brandt, Sie haben kürzlich die These vertreten, dass die analytische Sprachphilosophie an ihre systematischen Grenzen gestoßen sei. Könnten Sie das näher erläutern?",
+      "text_en": "Ladies and gentlemen, as part of our lecture series 'Language, Mind, and Reality,' I welcome today Professor Dr. Elisa Brandt, who holds the chair for Philosophy of Language at Ludwig Maximilian University of Munich. Professor Brandt, you recently argued that analytical philosophy of language has reached its systematic limits. Could you elaborate on that?"
+    },
+    {
+      "speaker": "Prof. Dr. Brandt",
+      "text_de": "Herzlichen Dank. In der Tat vertrete ich die Auffassung, dass die Reduktion sprachlicher Bedeutung auf Wahrheitsbedingungen — wie sie seit Frege und dem frühen Wittgenstein die analytische Tradition dominiert hat — wesentliche Dimensionen des Sprachverstehens systematisch verfehlt. Wenn wir etwa die Metapher betrachten: Dass „Die Zeit ist ein Dieb“ wörtlich genommen falsch ist, sagt uns nichts über die kognitive und affektive Tiefe, die diese Äußerung transportiert. Die Wahrheitskonditionale Semantik steht hier vor einem grundsätzlichen Erklärungsdefizit.",
+      "text_en": "Thank you very much. Indeed, I hold the view that reducing linguistic meaning to truth conditions — as has dominated the analytical tradition since Frege and the early Wittgenstein — systematically misses essential dimensions of language comprehension. Consider the metaphor: that 'Time is a thief' is literally false tells us nothing about the cognitive and affective depth this utterance conveys. Truth-conditional semantics faces a fundamental explanatory deficit here."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Das erinnert an Wittgensteins späte Wendung zum Sprachspiel. Sehen Sie sich in dessen Tradition?",
+      "text_en": "That recalls Wittgenstein's later turn to the language game. Do you see yourself in his tradition?"
+    },
+    {
+      "speaker": "Prof. Dr. Brandt",
+      "text_de": "Teilweise, ja, aber ich würde einen entscheidenden Schritt weitergehen. Wittgensteins Sprachspielkonzept hat zwar die pragmatische Dimension rehabilitiert, bleibt aber letztlich dem Paradigma der Regelförmigkeit verhaftet. Was ich hingegen vorschlage, ließe sich als hermeneutische Phänomenologie der Bedeutung bezeichnen: Sprachliche Bedeutung entsteht nicht durch die Anwendung von Regeln, sondern durch ein vorreflexives Weltverhältnis, das sich in der leiblichen Erfahrung des Sprechens und Hörens manifestiert. Die Stimme, die Prosodie, das Schweigen zwischen den Worten — all dies konstituiert Bedeutung auf eine Weise, die sich dem propositionalen Zugriff entzieht.",
+      "text_en": "Partially, yes, but I would take a decisive step further. Wittgenstein's language-game concept did rehabilitate the pragmatic dimension, but it ultimately remains bound to the paradigm of rule-governance. What I propose instead might be termed a hermeneutic phenomenology of meaning: linguistic meaning does not arise through the application of rules but through a pre-reflective relation to the world that manifests in the embodied experience of speaking and hearing. The voice, prosody, silence between words — all this constitutes meaning in a way that eludes propositional grasp."
+    },
+    {
+      "speaker": "Prof. Dr. Brandt",
+      "text_de": "Nehmen wir ein konkretes Beispiel aus der dichterischen Sprache. Wenn Celan schreibt „Schwarze Milch der Frühe“, so scheitert jeder Versuch, diesen Ausdruck in eine logisch wohlgeformte Proposition zu übersetzen, nicht weil der Ausdruck defizitär wäre, sondern weil er eine Bedeutungsebene erschließt, die jenseits der Dichotomie von wahr und falsch liegt. Die Sprache der Dichtung offenbart gleichsam die ontologische Dimension des Sprechens, die von der analytischen Tradition systematisch ausgeblendet wurde.",
+      "text_en": "Let us take a concrete example from poetic language. When Celan writes 'Black milk of daybreak,' every attempt to translate this expression into a logically well-formed proposition fails — not because the expression is deficient, but because it opens up a dimension of meaning that lies beyond the dichotomy of true and false. The language of poetry reveals, as it were, the ontological dimension of speech that has been systematically excluded by the analytical tradition."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Aber riskiert man mit einem solchen Ansatz nicht, die intersubjektive Überprüfbarkeit philosophischer Aussagen aufzugeben — also genau das, was die analytische Philosophie als ihre zentrale Errungenschaft betrachtet?",
+      "text_en": "But with such an approach, does one not risk abandoning the intersubjective verifiability of philosophical claims — precisely what analytical philosophy considers its central achievement?"
+    },
+    {
+      "speaker": "Prof. Dr. Brandt",
+      "text_de": "Dieser Einwand ist berechtigt, greift meines Erachtens aber zu kurz. Intersubjektivität erschöpft sich nicht in der Formalisierbarkeit von Aussagen. Es gibt eine hermeneutische Intersubjektivität, die auf geteilter Lebenspraxis und gemeinsamem Weltverstehen beruht. Wenn wir Celans Vers verstehen, dann nicht, weil wir eine Regel anwenden, sondern weil wir an einer geschichtlich vermittelten Erfahrungsgemeinschaft teilhaben. Die Herausforderung besteht darin, diese Form der Intersubjektivität philosophisch zu artikulieren, ohne in bloßen Subjektivismus zu verfallen.",
+      "text_en": "This objection is legitimate but, in my view, falls short. Intersubjectivity is not exhausted by the formalizability of propositions. There is a hermeneutic intersubjectivity that rests on shared life practice and common understanding of the world. When we understand Celan's verse, it is not because we apply a rule but because we participate in a historically mediated community of experience. The challenge lies in philosophically articulating this form of intersubjectivity without lapsing into mere subjectivism."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin sieht Professorin Brandt das zentrale Defizit der analytischen Sprachphilosophie?",
+      "text_en": "What does Professor Brandt see as the central deficit of analytical philosophy of language?",
+      "options": [
+        "a) In der Reduktion sprachlicher Bedeutung auf Wahrheitsbedingungen, die wesentliche Dimensionen verfehlt.",
+        "b) In der Vernachlässigung formaler Logik zugunsten pragmatischer Überlegungen.",
+        "c) In der übermäßigen Berücksichtigung dichterischer Sprache bei der Theoriebildung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Brandt kritisiert, dass die wahrheitskonditionale Semantik wesentliche Dimensionen des Sprachverstehens — insbesondere kognitive und affektive Tiefe — systematisch verfehlt.",
+      "explanation_en": "Brandt criticizes that truth-conditional semantics systematically misses essential dimensions of language comprehension — particularly cognitive and affective depth."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie grenzt sich Brandts Ansatz von Wittgensteins Sprachspielkonzept ab?",
+      "text_en": "How does Brandt's approach differ from Wittgenstein's language-game concept?",
+      "options": [
+        "a) Sie lehnt die pragmatische Dimension vollständig ab und kehrt zur formalen Logik zurück.",
+        "b) Sie geht über das Paradigma der Regelförmigkeit hinaus und betont vorreflexives Weltverhältnis.",
+        "c) Sie übernimmt das Sprachspielkonzept unverändert und erweitert es lediglich um neue Beispiele."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Brandt würdigt Wittgensteins pragmatische Wende, geht aber weiter, indem sie Bedeutung nicht durch Regeln, sondern durch vorreflexives Weltverhältnis und leibliche Erfahrung erklärt.",
+      "explanation_en": "Brandt acknowledges Wittgenstein's pragmatic turn but goes further by explaining meaning not through rules but through pre-reflective relation to the world and embodied experience."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was illustriert das Celan-Beispiel „Schwarze Milch der Frühe“ in Brandts Argumentation?",
+      "text_en": "What does the Celan example 'Black milk of daybreak' illustrate in Brandt's argument?",
+      "options": [
+        "a) Dass dichterische Sprache grundsätzlich unverständlich und daher philosophisch irrelevant ist.",
+        "b) Dass die analytische Tradition die ontologische Dimension des Sprechens vollständig erfasst hat.",
+        "c) Dass poetische Sprache eine Bedeutungsebene jenseits der Dichotomie von wahr und falsch erschließt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Celan-Beispiel zeigt, dass dichterische Sprache Bedeutung transportiert, die sich nicht in Propositionen übersetzen lässt und jenseits von wahr/falsch liegt.",
+      "explanation_en": "The Celan example shows that poetic language conveys meaning that cannot be translated into propositions and lies beyond the true/false dichotomy."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Brandt unter „hermeneutischer Phänomenologie der Bedeutung“?",
+      "text_en": "What does Brandt mean by 'hermeneutic phenomenology of meaning'?",
+      "options": [
+        "a) Bedeutung entsteht durch vorreflexives Weltverhältnis und leibliche Erfahrung des Sprechens, nicht durch Regelanwendung.",
+        "b) Bedeutung ist ausschließlich durch die Analyse grammatischer Strukturen zugänglich.",
+        "c) Bedeutung kann nur durch experimentelle psychologische Methoden erfasst werden."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Brandts hermeneutische Phänomenologie betont, dass Bedeutung durch vorreflexives Weltverhältnis in der leiblichen Erfahrung des Sprechens und Hörens entsteht.",
+      "explanation_en": "Brandt's hermeneutic phenomenology emphasizes that meaning arises through pre-reflective relation to the world in the embodied experience of speaking and hearing."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wie begegnet Brandt dem Einwand, ihr Ansatz opfere die intersubjektive Überprüfbarkeit?",
+      "text_en": "How does Brandt respond to the objection that her approach sacrifices intersubjective verifiability?",
+      "options": [
+        "a) Sie räumt ein, dass Intersubjektivität nur durch Formalisierung erreichbar ist.",
+        "b) Sie verweist auf eine hermeneutische Intersubjektivität, die auf geteilter Lebenspraxis und geschichtlich vermittelter Erfahrung beruht.",
+        "c) Sie akzeptiert den Vorwurf des Subjektivismus und verteidigt ihn als notwendige Konsequenz."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Brandt argumentiert, dass es eine hermeneutische Intersubjektivität gibt, die auf geteilter Lebenspraxis und geschichtlich vermittelter Erfahrungsgemeinschaft beruht.",
+      "explanation_en": "Brandt argues that there is a hermeneutic intersubjectivity resting on shared life practice and historically mediated community of experience."
+    }
+  ]
+}
