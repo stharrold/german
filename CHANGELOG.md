@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0] - 2026-03-07
+
+### Added
+- **C2 exam practice content** — 50 exercises across all 4 skills (Goethe-Institut GDS format)
+  - Hören: 10 exercises (Teil 1–2, 5 each)
+  - Lesen: 20 exercises (Teil 1–4, 5 each)
+  - Schreiben: 10 exercises (Aufgabe 1–2, 5 each)
+  - Sprechen: 10 exercises (Teil 1–2, 5 each)
+- C2 exam PDFs (4 skill-specific PDFs in `resources/exams/c2/pdfs/`)
+- `tests/test_c2_exercises.py` — 29 tests for C2 content validation
+- **Full CEFR A1–C2 exam coverage complete** (380 total exercises)
+
 ## [2.6.0] - 2026-03-06
 
 ### Added
@@ -701,6 +713,10 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 2.7.0   | 2026-03-07 | MINOR | C2 exam practice content (50 exercises, GDS format) — full CEFR A1–C2 complete |
+| 2.6.0   | 2026-03-06 | MINOR | C1 exam practice content (65 exercises) |
+| 2.5.0   | 2026-03-06 | MINOR | B2 exam practice content (65 exercises) + subscript digit PDF support |
+| 2.4.0   | 2026-03-06 | MINOR | A1 exam practice content (60 exercises) |
 | 2.3.0   | 2026-03-05 | MINOR | A2 exam practice content (65 exercises) + multi-level PDF generation |
 | 2.2.0   | 2026-03-05 | MINOR | Vocabulary leveling + PDF generation script |
 | 2.1.0   | 2026-03-04 | MINOR | B1 exam practice content (75 exercises) + exam models/loader/query |
