@@ -1,7 +1,5 @@
 # Vocabulary Expansion with CEFR Tagging — Implementation Plan
 
-> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
-
 **Goal:** Expand vocabulary files from ~70 words to ~6,000+ words with CEFR level tagging (A1–C2).
 
 **Architecture:** A Python generation script (`scripts/generate_vocabulary.py`) contains all vocabulary data organized by CEFR level and POS. It validates every entry through the existing Pydantic `VocabularyWord` model before writing JSON files. A new test file validates CEFR distribution across the generated vocabulary.

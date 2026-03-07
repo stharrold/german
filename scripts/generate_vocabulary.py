@@ -67,7 +67,7 @@ def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False)
         dry_run: If True, validate only without writing.
 
     Returns:
-        True if validation passed, False otherwise.
+        Number of validated words, or -1 if validation failed.
     """
     errors = []
     seen = set()
@@ -76,10 +76,10 @@ def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False)
     for i, entry in enumerate(words):
         german = entry.get("german", f"entry-{i}")
 
-        # Check duplicates
-        key = entry.get("german", "").lower()
+        # Check duplicates (same word + same POS)
+        key = (entry.get("german", "").lower(), entry.get("part_of_speech", ""))
         if key in seen:
-            errors.append(f"  Duplicate: {german}")
+            errors.append(f"  Duplicate: {german} ({entry.get('part_of_speech', '?')})")
             continue
         seen.add(key)
 
@@ -94,7 +94,7 @@ def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False)
         print(f"\nErrors in {filepath.name}:")
         for err in errors:
             print(err)
-        return False
+        return -1
 
     # Print summary
     level_counts = Counter(w.get("level", "?") for w in validated)
@@ -109,7 +109,7 @@ def validate_and_write(words: list[dict], filepath: Path, dry_run: bool = False)
             fh.write("\n")
         print(f"  Written to {filepath}")
 
-    return True
+    return len(validated)
 
 
 def main():
@@ -129,10 +129,11 @@ def main():
     total = 0
     for filename, generator in generators.items():
         words = generator()
-        total += len(words)
-        ok = validate_and_write(words, resources_dir / filename, dry_run=args.dry_run)
-        if not ok:
+        count = validate_and_write(words, resources_dir / filename, dry_run=args.dry_run)
+        if count < 0:
             all_ok = False
+        else:
+            total += count
 
     print(f"\nTotal: {total} words")
 
