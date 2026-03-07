@@ -14,7 +14,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Nouns: 467 words (with gender and plural forms)
   - Verbs: 247 words
   - Adjectives: 246 words
-- `filter_by_level()` in `src/german/vocabulary/query.py` for CEFR-level filtering
 - `tests/test_vocabulary_levels.py` — CEFR level distribution tests
 - `scripts/generate_vocabulary.py` — vocabulary generation script
 
