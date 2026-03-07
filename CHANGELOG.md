@@ -713,6 +713,10 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 2.7.0   | 2026-03-07 | MINOR | C2 exam practice content (50 exercises, GDS format) — full CEFR A1–C2 complete |
+| 2.6.0   | 2026-03-06 | MINOR | C1 exam practice content (65 exercises) |
+| 2.5.0   | 2026-03-06 | MINOR | B2 exam practice content (65 exercises) + subscript digit PDF support |
+| 2.4.0   | 2026-03-06 | MINOR | A1 exam practice content (60 exercises) |
 | 2.3.0   | 2026-03-05 | MINOR | A2 exam practice content (65 exercises) + multi-level PDF generation |
 | 2.2.0   | 2026-03-05 | MINOR | Vocabulary leveling + PDF generation script |
 | 2.1.0   | 2026-03-04 | MINOR | B1 exam practice content (75 exercises) + exam models/loader/query |
