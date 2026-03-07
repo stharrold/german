@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.0] - 2026-03-07
+
+### Added
+- **Expanded vocabulary with CEFR tagging** — 960 words across all levels (A1–C2)
+  - Nouns: 467 words (with gender and plural forms)
+  - Verbs: 247 words
+  - Adjectives: 246 words
+- `tests/test_vocabulary_levels.py` — CEFR level distribution tests
+- `scripts/generate_vocabulary.py` — vocabulary generation script
+
 ## [2.7.1] - 2026-03-07
 
 ### Fixed
@@ -719,6 +729,7 @@ Earlier versions (< 5.0.0) used a different workflow architecture. See `ARCHIVED
 
 | Version | Date       | Type  | Description |
 |---------|------------|-------|-------------|
+| 2.8.0   | 2026-03-07 | MINOR | Expanded vocabulary with CEFR tagging (960 words, A1–C2) |
 | 2.7.1   | 2026-03-07 | PATCH | Fix CHANGELOG Version History Summary table and test count wording |
 | 2.7.0   | 2026-03-07 | MINOR | C2 exam practice content (50 exercises, GDS format) — full CEFR A1–C2 complete |
 | 2.6.0   | 2026-03-06 | MINOR | C1 exam practice content (65 exercises) |

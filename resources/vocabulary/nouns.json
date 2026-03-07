@@ -1157,7 +1157,7 @@
       "english": "health",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Gesundheit",
+      "plural": null,
       "level": "A2"
     },
     {
@@ -1701,7 +1701,7 @@
       "english": "luggage",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Gepäck",
+      "plural": null,
       "level": "A2"
     },
     {
@@ -1797,7 +1797,7 @@
       "english": "police",
       "part_of_speech": "noun",
       "gender": "feminine",
-      "plural": "Polizei",
+      "plural": null,
       "level": "A2"
     },
     {
@@ -2013,7 +2013,7 @@
       "english": "luck/happiness",
       "part_of_speech": "noun",
       "gender": "neuter",
-      "plural": "Glück",
+      "plural": null,
       "level": "A2"
     },
     {
@@ -2293,7 +2293,7 @@
       "english": "instruction/lesson",
       "part_of_speech": "noun",
       "gender": "masculine",
-      "plural": "Unterrichte",
+      "plural": null,
       "level": "B1"
     },
     {
