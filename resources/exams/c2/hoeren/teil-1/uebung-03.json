@@ -1,0 +1,118 @@
+{
+  "id": "c2-hoeren-teil-1-003",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Erkenntnistheorie und die Grenzen des Wissens",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Willkommen zum philosophischen Kolloquium der Berlin-Brandenburgischen Akademie der Wissenschaften. Heute spricht Professor Dr. Katharina Seidel über die erkenntnistheoretischen Herausforderungen, die sich aus der neueren Wissenschaftsphilosophie ergeben. Frau Professorin Seidel, Sie haben vor Kurzem die provokante These formuliert, dass wir den Begriff des Wissens grundlegend neu denken müssen. Was meinen Sie damit?",
+      "text_en": "Welcome to the philosophical colloquium of the Berlin-Brandenburg Academy of Sciences. Today Professor Dr. Katharina Seidel speaks about the epistemological challenges arising from recent philosophy of science. Professor Seidel, you recently formulated the provocative thesis that we must fundamentally rethink the concept of knowledge. What do you mean by that?"
+    },
+    {
+      "speaker": "Prof. Dr. Seidel",
+      "text_de": "Herzlichen Dank. Die klassische Definition des Wissens als gerechtfertigte wahre Überzeugung — also die sogenannte JTB-Analyse — wird seit dem Gettier-Problem als unzureichend betrachtet. Aber die Diskussion hat sich seither, so meine ich, in einer Sackgasse verfangen. Die zahllosen Versuche, die JTB-Analyse durch eine vierte Bedingung zu retten, scheitern allesamt an immer raffinierteren Gegenbeispielen. Was wir brauchen, ist nicht eine weitere Modifikation der bestehenden Analyse, sondern einen grundlegenden Paradigmenwechsel: weg vom propositionalen Wissensbegriff, hin zu einem handlungstheoretischen.",
+      "text_en": "Thank you very much. The classical definition of knowledge as justified true belief — the so-called JTB analysis — has been considered inadequate since the Gettier problem. But the discussion has since, in my view, reached an impasse. The countless attempts to save the JTB analysis by adding a fourth condition all fail against ever more sophisticated counterexamples. What we need is not another modification of the existing analysis but a fundamental paradigm shift: away from the propositional concept of knowledge, toward an action-theoretic one."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Können Sie diesen handlungstheoretischen Wissensbegriff näher erläutern?",
+      "text_en": "Can you explain this action-theoretic concept of knowledge in more detail?"
+    },
+    {
+      "speaker": "Prof. Dr. Seidel",
+      "text_de": "Gewiss. Die Grundidee besteht darin, Wissen nicht als einen mentalen Zustand zu konzeptualisieren, sondern als eine Fähigkeit — genauer gesagt, als die Fähigkeit, in einer bestimmten Domäne zuverlässig erfolgreich zu handeln. Ein Chirurg weiß, wie man operiert, nicht primär deshalb, weil er wahre Propositionen über die Anatomie glaubt, sondern weil er über ein verkörpertes Können verfügt, das sich in der Praxis bewährt. Dieses Können ist irreduzibel auf propositionales Wissen; es hat eine phänomenale und leibliche Dimension, die sich der Versprachlichung entzieht.",
+      "text_en": "Certainly. The basic idea is to conceptualize knowledge not as a mental state but as an ability — more precisely, as the ability to act reliably and successfully in a particular domain. A surgeon knows how to operate not primarily because they believe true propositions about anatomy, but because they possess an embodied competence that has proven itself in practice. This competence is irreducible to propositional knowledge; it has a phenomenal and embodied dimension that eludes verbalization."
+    },
+    {
+      "speaker": "Prof. Dr. Seidel",
+      "text_de": "Die philosophischen Konsequenzen dieses Ansatzes sind weitreichend. Erstens löst er das Gettier-Problem auf, denn die Frage, ob jemand zufällig eine wahre Überzeugung hat, stellt sich im Rahmen eines Fähigkeitenmodells gar nicht — entweder verfügt jemand über die Fähigkeit oder nicht. Zweitens eröffnet er eine Brücke zwischen analytischer Erkenntnistheorie und kontinentaler Phänomenologie, insbesondere Merleau-Pontys Konzept der leiblichen Intentionalität. Drittens hat er Implikationen für die Epistemologie der Künstlichen Intelligenz: Kann ein System, das zuverlässig korrekte Diagnosen stellt, als wissend bezeichnet werden, obwohl es keine bewusste Erfahrung hat?",
+      "text_en": "The philosophical consequences of this approach are far-reaching. First, it dissolves the Gettier problem, because the question of whether someone accidentally holds a true belief does not arise within a capability model — either someone possesses the ability or not. Second, it opens a bridge between analytical epistemology and continental phenomenology, particularly Merleau-Ponty's concept of bodily intentionality. Third, it has implications for the epistemology of artificial intelligence: can a system that reliably provides correct diagnoses be called knowing, even though it has no conscious experience?"
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Gerade dieser letzte Punkt dürfte kontrovers sein. Reduzieren Sie Wissen nicht auf bloße Zuverlässigkeit?",
+      "text_en": "This last point in particular is likely controversial. Are you not reducing knowledge to mere reliability?"
+    },
+    {
+      "speaker": "Prof. Dr. Seidel",
+      "text_de": "Dieser Einwand ist berechtigt, und ich möchte ihm mit einer Differenzierung begegnen. Ich unterscheide zwischen technischer Zuverlässigkeit und epistemischer Kompetenz. Ein Thermostat ist zuverlässig, aber nicht kompetent. Kompetenz erfordert die Fähigkeit zur kontextsensitiven Anpassung, zur Fehlerkorrektur und — dies ist der entscheidende Punkt — zur Begründungsfähigkeit. Ein kompetenter Akteur kann nicht nur richtig handeln, sondern sein Handeln auch in einen Begründungszusammenhang stellen. Ob Künstliche Intelligenz diese Schwelle je erreichen wird, bleibt eine offene Frage, die an den Kern der Philosophie des Geistes rührt.",
+      "text_en": "This objection is legitimate, and I would like to address it with a differentiation. I distinguish between technical reliability and epistemic competence. A thermostat is reliable but not competent. Competence requires the ability for context-sensitive adaptation, error correction, and — this is the decisive point — the capacity for justification. A competent agent can not only act correctly but can also place their actions within a justificatory framework. Whether artificial intelligence will ever reach this threshold remains an open question that touches the very core of philosophy of mind."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum hält Professorin Seidel die bisherige Debatte um den Wissensbegriff für verfehlt?",
+      "text_en": "Why does Professor Seidel consider the debate about the concept of knowledge misguided?",
+      "options": [
+        "a) Weil das Gettier-Problem längst gelöst wurde und die Diskussion überholt ist.",
+        "b) Weil die Versuche, die JTB-Analyse zu modifizieren, in einer Sackgasse enden und ein Paradigmenwechsel nötig ist.",
+        "c) Weil die analytische Philosophie grundsätzlich unfähig ist, erkenntnistheoretische Fragen zu beantworten."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Seidel argumentiert, dass alle Versuche, die JTB-Analyse durch eine vierte Bedingung zu retten, an Gegenbeispielen scheitern und ein grundlegender Paradigmenwechsel nötig ist.",
+      "explanation_en": "Seidel argues that all attempts to save the JTB analysis with a fourth condition fail against counterexamples and a fundamental paradigm shift is needed."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Seidel unter dem handlungstheoretischen Wissensbegriff?",
+      "text_en": "What does Seidel understand by the action-theoretic concept of knowledge?",
+      "options": [
+        "a) Wissen als rein theoretische Kontemplation ohne praktischen Bezug.",
+        "b) Wissen als statistische Korrelation zwischen Überzeugung und Wahrheit.",
+        "c) Wissen als Fähigkeit, in einer Domäne zuverlässig erfolgreich zu handeln, mit verkörpertem Können."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Seidel konzeptualisiert Wissen als Fähigkeit zum zuverlässig erfolgreichen Handeln, wobei verkörpertes Können eine irreduzible Rolle spielt.",
+      "explanation_en": "Seidel conceptualizes knowledge as the ability to act reliably and successfully, with embodied competence playing an irreducible role."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wie löst der Fähigkeitenansatz laut Seidel das Gettier-Problem?",
+      "text_en": "How does the capability approach solve the Gettier problem according to Seidel?",
+      "options": [
+        "a) Indem er die Frage nach zufällig wahren Überzeugungen obsolet macht, da Fähigkeiten entweder vorhanden sind oder nicht.",
+        "b) Indem er zeigt, dass Gettier-Fälle logisch unmöglich sind.",
+        "c) Indem er die Wahrheitsbedingung aus der Wissensdefinition streicht."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Im Fähigkeitenmodell stellt sich die Gettier-Frage gar nicht — es geht nicht um zufällig wahre Überzeugungen, sondern um das Vorhandensein oder Fehlen einer Fähigkeit.",
+      "explanation_en": "In the capability model the Gettier question does not arise — it is not about accidentally true beliefs but about the presence or absence of an ability."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie unterscheidet Seidel zwischen technischer Zuverlässigkeit und epistemischer Kompetenz?",
+      "text_en": "How does Seidel distinguish between technical reliability and epistemic competence?",
+      "options": [
+        "a) Zuverlässigkeit erfordert Bewusstsein, Kompetenz hingegen nicht.",
+        "b) Kompetenz erfordert kontextsensitive Anpassung, Fehlerkorrektur und Begründungsfähigkeit.",
+        "c) Zuverlässigkeit ist eine höhere Stufe der Kompetenz."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Seidel betont, dass Kompetenz über bloße Zuverlässigkeit hinausgeht und kontextsensitive Anpassung, Fehlerkorrektur sowie Begründungsfähigkeit erfordert.",
+      "explanation_en": "Seidel emphasizes that competence goes beyond mere reliability and requires context-sensitive adaptation, error correction, and the capacity for justification."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Brücke eröffnet Seidels Ansatz zwischen philosophischen Traditionen?",
+      "text_en": "What bridge does Seidel's approach open between philosophical traditions?",
+      "options": [
+        "a) Zwischen Existenzialismus und Strukturalismus.",
+        "b) Zwischen empirischer Psychologie und normativer Ethik.",
+        "c) Zwischen analytischer Erkenntnistheorie und kontinentaler Phänomenologie, insbesondere Merleau-Pontys leiblicher Intentionalität."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Seidels Fähigkeitenansatz verbindet analytische Erkenntnistheorie mit kontinentaler Phänomenologie, insbesondere Merleau-Pontys Konzept der leiblichen Intentionalität.",
+      "explanation_en": "Seidel's capability approach connects analytical epistemology with continental phenomenology, particularly Merleau-Ponty's concept of bodily intentionality."
+    }
+  ]
+}

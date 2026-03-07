@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-4-001",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Pragmatik und Sprechakttheorie",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die auf Austin und Searle zurückgehende Sprechakttheorie hat das Verständnis sprachlicher Kommunikation grundlegend verändert, indem sie aufzeigte, dass Sprechen nicht lediglich in der Übermittlung propositionaler Gehalte besteht, sondern stets zugleich den Vollzug einer Handlung darstellt. Die von Austin eingeführte Unterscheidung zwischen lokutionärem, illokutionärem und perlokutionärem Akt verdeutlicht, dass jede Äußerung neben ihrem semantischen Gehalt eine kommunikative Intention — etwa das Versprechen, die Warnung oder die Aufforderung — transportiert und darüber hinaus bestimmte Wirkungen beim Adressaten hervorzurufen beabsichtigt.\n\nSearles Weiterentwicklung dieses Ansatzes durch die Formulierung konstitutiver Regeln für verschiedene Illokutionstypen hat den institutionellen Charakter sprachlicher Kommunikation hervorgehoben. Dass ein Versprechen nur unter bestimmten Gelingensbedingungen — der aufrichtigen Absicht des Sprechers, der Zukunftsbezogenheit der versprochenen Handlung und der Annahme, dass die Handlung vom Adressaten erwünscht sei — als gültig anzuerkennen ist, zeigt, dass sprachliche Akte keine rein individuellen Vollzüge sind, sondern in einem Geflecht sozialer Normen und institutioneller Voraussetzungen eingebettet operieren.\n\nDie pragmatische Wende hat weitreichende Konsequenzen für die Sprachphilosophie, da sie die seit Frege dominante wahrheitsfunktionale Semantik als unzureichend für die Erfassung sprachlicher Bedeutung erweist. Bedeutung erschöpft sich nicht in den Wahrheitsbedingungen eines Satzes, sondern umfasst dessen gesamtes illokutionäres Potenzial — ein Befund, der die strikte Trennung von Semantik und Pragmatik infrage stellt und für eine integrative Theorie sprachlicher Bedeutung plädiert, die den Handlungscharakter der Sprache in ihre Grundbegriffe aufnimmt.",
+    "text_en": "Speech act theory, originating with Austin and Searle, has fundamentally changed the understanding of linguistic communication by demonstrating that speaking does not merely consist in transmitting propositional content but always simultaneously constitutes the performance of an action. The distinction introduced by Austin between locutionary, illocutionary, and perlocutionary act clarifies that every utterance, beyond its semantic content, conveys a communicative intention — such as promising, warning, or requesting — and furthermore intends to produce certain effects in the addressee.\n\nSearle's further development of this approach through the formulation of constitutive rules for various illocution types has highlighted the institutional character of linguistic communication. That a promise is to be recognized as valid only under certain felicity conditions — the sincere intention of the speaker, the future orientation of the promised action, and the assumption that the action is desired by the addressee — shows that linguistic acts are not purely individual performances but operate embedded in a network of social norms and institutional prerequisites.\n\nThe pragmatic turn has far-reaching consequences for the philosophy of language, as it reveals the truth-functional semantics dominant since Frege as insufficient for capturing linguistic meaning. Meaning is not exhausted in the truth conditions of a sentence but encompasses its entire illocutionary potential — a finding that questions the strict separation of semantics and pragmatics and advocates for an integrative theory of linguistic meaning that incorporates the action character of language into its basic concepts.",
+    "source": "Sprachwissenschaft",
+    "word_count": 219
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was hat die Sprechakttheorie am Verständnis sprachlicher Kommunikation verändert?",
+      "text_en": "What has speech act theory changed about the understanding of linguistic communication?",
+      "options": [
+        "a) Sie zeigte, dass Sprechen stets zugleich den Vollzug einer Handlung darstellt.",
+        "b) Sie bewies, dass sprachliche Bedeutung ausschließlich durch syntaktische Strukturen bestimmt wird.",
+        "c) Sie widerlegte die Existenz kommunikativer Intentionen in der Alltagssprache."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Sprechakttheorie zeigte, dass Sprechen nicht lediglich in der Übermittlung propositionaler Gehalte besteht, sondern stets zugleich den Vollzug einer Handlung darstellt.",
+      "explanation_en": "Speech act theory showed that speaking does not merely consist in transmitting propositional content but always simultaneously constitutes the performance of an action."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Welche drei Aspekte des Sprechakts unterschied Austin?",
+      "text_en": "What three aspects of the speech act did Austin distinguish?",
+      "options": [
+        "a) Syntaktischen, semantischen und phonologischen Akt.",
+        "b) Lokutionären, illokutionären und perlokutionären Akt.",
+        "c) Performativen, konstativen und expressiven Akt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Austin unterschied zwischen lokutionärem, illokutionärem und perlokutionärem Akt.",
+      "explanation_en": "Austin distinguished between locutionary, illocutionary, and perlocutionary act."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was zeigen Searles Gelingensbedingungen für Versprechen über die Natur sprachlicher Akte?",
+      "text_en": "What do Searle's felicity conditions for promises show about the nature of linguistic acts?",
+      "options": [
+        "a) Dass sprachliche Akte rein individuelle Vollzüge ohne soziale Voraussetzungen sind.",
+        "b) Dass Versprechen nur dann bindend sind, wenn sie schriftlich fixiert werden.",
+        "c) Dass sprachliche Akte in einem Geflecht sozialer Normen und institutioneller Voraussetzungen eingebettet operieren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Gelingensbedingungen zeigen, dass sprachliche Akte in einem Geflecht sozialer Normen und institutioneller Voraussetzungen eingebettet operieren.",
+      "explanation_en": "The felicity conditions show that linguistic acts operate embedded in a network of social norms and institutional prerequisites."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was erweist die pragmatische Wende als unzureichend?",
+      "text_en": "What does the pragmatic turn reveal as insufficient?",
+      "options": [
+        "a) Die wahrheitsfunktionale Semantik für die Erfassung sprachlicher Bedeutung.",
+        "b) Die Rolle des Kontextes in der mündlichen Kommunikation.",
+        "c) Die Relevanz grammatischer Regeln für die Verständigung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die pragmatische Wende erweist die seit Frege dominante wahrheitsfunktionale Semantik als unzureichend für die Erfassung sprachlicher Bedeutung.",
+      "explanation_en": "The pragmatic turn reveals the truth-functional semantics dominant since Frege as insufficient for capturing linguistic meaning."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Wofür plädiert der Text im Hinblick auf die Theorie sprachlicher Bedeutung?",
+      "text_en": "What does the text advocate regarding the theory of linguistic meaning?",
+      "options": [
+        "a) Für eine vollständige Abschaffung der wahrheitsfunktionalen Semantik.",
+        "b) Für eine integrative Theorie, die den Handlungscharakter der Sprache in ihre Grundbegriffe aufnimmt.",
+        "c) Für eine strikte Beibehaltung der Trennung von Semantik und Pragmatik."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Text plädiert für eine integrative Theorie sprachlicher Bedeutung, die den Handlungscharakter der Sprache in ihre Grundbegriffe aufnimmt.",
+      "explanation_en": "The text advocates for an integrative theory of linguistic meaning that incorporates the action character of language into its basic concepts."
+    }
+  ]
+}

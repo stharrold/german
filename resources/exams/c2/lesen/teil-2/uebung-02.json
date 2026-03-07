@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-2-002",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Quantenmechanik und philosophische Implikationen",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die philosophischen Implikationen der Quantenmechanik werden seit den Anfängen der Disziplin kontrovers diskutiert, wobei sich die Debatte in den vergangenen Jahrzehnten durch neue experimentelle Befunde erheblich verschärft hat. Das von der klassischen Physik vorausgesetzte deterministische Weltbild, wonach der Zustand eines Systems zu einem gegebenen Zeitpunkt dessen gesamte künftige Entwicklung eindeutig festlegt, wird durch die irreduzible Stochastizität quantenmechanischer Prozesse fundamental infrage gestellt. Die im Heisenbergschen Unbestimmtheitsprinzip formalisierte Unmöglichkeit, Ort und Impuls eines Teilchens gleichzeitig beliebig genau zu bestimmen, ist dabei nicht als bloße Messungenauigkeit zu interpretieren, sondern reflektiert eine ontologische Unbestimmtheit der Natur selbst.\n\nBesonders herausfordernd für das philosophische Verständnis erweist sich das Phänomen der Verschränkung. Die in zahlreichen Experimenten nachgewiesene instantane Korrelation verschränkter Teilchen über beliebige Distanzen hinweg scheint dem von der Relativitätstheorie postulierten Verbot einer Signalübertragung mit Überlichtgeschwindigkeit zu widersprechen. Die von Bell formulierten und experimentell bestätigten Ungleichungen schließen dabei lokale verborgene Variablen als Erklärung aus, sodass entweder die Lokalität oder der Realismus — oder beide — aufgegeben werden müssen.\n\nDie zwischen den verschiedenen Interpretationen der Quantenmechanik — der Kopenhagener Deutung, der Viele-Welten-Interpretation und der Bohmschen Mechanik — geführte Auseinandersetzung betrifft letztlich die Frage, welchen ontologischen Status dem quantenmechanischen Formalismus zuzuschreiben ist. Während instrumentalistische Positionen den Formalismus als bloßes Vorhersageinstrument ohne ontologische Aussagekraft betrachten, beharren realistische Interpretationen auf der Existenz einer quantenmechanischen Realität jenseits der Beobachtung.",
+    "text_en": "The philosophical implications of quantum mechanics have been controversially discussed since the discipline's beginnings, with the debate having intensified considerably in recent decades through new experimental findings. The deterministic worldview presupposed by classical physics, according to which the state of a system at a given time uniquely determines its entire future development, is fundamentally called into question by the irreducible stochasticity of quantum mechanical processes. The impossibility formalized in Heisenberg's uncertainty principle of simultaneously determining a particle's position and momentum with arbitrary precision is not to be interpreted as mere measurement inaccuracy but reflects an ontological indeterminacy of nature itself.\n\nParticularly challenging for philosophical understanding is the phenomenon of entanglement. The instantaneous correlation of entangled particles over arbitrary distances, demonstrated in numerous experiments, seems to contradict the prohibition of signal transmission at superluminal speed postulated by the theory of relativity. Bell's inequalities, formulated and experimentally confirmed, exclude local hidden variables as an explanation, so that either locality or realism — or both — must be abandoned.\n\nThe dispute conducted between the various interpretations of quantum mechanics — the Copenhagen interpretation, the many-worlds interpretation, and Bohmian mechanics — ultimately concerns the question of what ontological status is to be ascribed to the quantum mechanical formalism. While instrumentalist positions regard the formalism as a mere prediction tool without ontological import, realist interpretations insist on the existence of a quantum mechanical reality beyond observation.",
+    "source": "Wissenschaftsjournal",
+    "word_count": 217
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wie ist das Heisenbergsche Unbestimmtheitsprinzip laut dem Text zu interpretieren?",
+      "text_en": "How is Heisenberg's uncertainty principle to be interpreted according to the text?",
+      "options": [
+        "a) Als Ausdruck technologischer Beschränkungen heutiger Messgeräte.",
+        "b) Als mathematische Abstraktion ohne physikalische Relevanz.",
+        "c) Als Reflexion einer ontologischen Unbestimmtheit der Natur selbst."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Unbestimmtheit ist nicht als bloße Messungenauigkeit zu interpretieren, sondern reflektiert eine ontologische Unbestimmtheit der Natur selbst.",
+      "explanation_en": "The indeterminacy is not to be interpreted as mere measurement inaccuracy but reflects an ontological indeterminacy of nature itself."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was schließen die Bellschen Ungleichungen aus?",
+      "text_en": "What do Bell's inequalities exclude?",
+      "options": [
+        "a) Lokale verborgene Variablen als Erklärung für die Korrelation verschränkter Teilchen.",
+        "b) Die Möglichkeit einer Viele-Welten-Interpretation.",
+        "c) Jede Form deterministischer Physik."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Bellschen Ungleichungen schließen lokale verborgene Variablen als Erklärung aus.",
+      "explanation_en": "Bell's inequalities exclude local hidden variables as an explanation."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was stellt das Phänomen der Verschränkung laut dem Text infrage?",
+      "text_en": "What does the phenomenon of entanglement call into question according to the text?",
+      "options": [
+        "a) Die Existenz subatomarer Teilchen.",
+        "b) Das relativistische Verbot einer Signalübertragung mit Überlichtgeschwindigkeit.",
+        "c) Die Gültigkeit der Quantenmechanik insgesamt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die instantane Korrelation verschränkter Teilchen scheint dem von der Relativitätstheorie postulierten Verbot einer Signalübertragung mit Überlichtgeschwindigkeit zu widersprechen.",
+      "explanation_en": "The instantaneous correlation of entangled particles seems to contradict the prohibition of signal transmission at superluminal speed postulated by relativity."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie betrachten instrumentalistische Positionen den quantenmechanischen Formalismus?",
+      "text_en": "How do instrumentalist positions regard the quantum mechanical formalism?",
+      "options": [
+        "a) Als Beschreibung einer objektiven Realität jenseits der Beobachtung.",
+        "b) Als philosophisch bedeutungslos.",
+        "c) Als bloßes Vorhersageinstrument ohne ontologische Aussagekraft."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Instrumentalistische Positionen betrachten den Formalismus als bloßes Vorhersageinstrument ohne ontologische Aussagekraft.",
+      "explanation_en": "Instrumentalist positions regard the formalism as a mere prediction tool without ontological import."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was muss laut dem Text aufgrund der experimentellen Befunde aufgegeben werden?",
+      "text_en": "What must be abandoned according to the text due to experimental findings?",
+      "options": [
+        "a) Entweder die Lokalität oder der Realismus — oder beide.",
+        "b) Die gesamte klassische Physik einschließlich der Relativitätstheorie.",
+        "c) Jede Form wissenschaftlichen Realismus."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Entweder die Lokalität oder der Realismus — oder beide — müssen aufgegeben werden.",
+      "explanation_en": "Either locality or realism — or both — must be abandoned."
+    }
+  ]
+}

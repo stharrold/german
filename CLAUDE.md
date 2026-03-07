@@ -38,8 +38,10 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 - B2 exam practice content: complete (#335), v2.5.0
 - B2: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
-- C1 exam practice content: complete (#336)
+- C1 exam practice content: complete (#336), v2.6.0
 - C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
+- C2 exam practice content: complete (#337), v2.7.0
+- C2: 50 exercises — Hören (2×5), Lesen (4×5), Schreiben (2×5), Sprechen (2×5)
 
 ## Repository Purpose
 
@@ -53,6 +55,7 @@ Python-based German language learning resources and content:
 - A1 exam practice exercises (60 exercises, Goethe-Institut format — #334)
 - B2 exam practice exercises (65 exercises, Goethe-Institut format — #335)
 - C1 exam practice exercises (65 exercises, Goethe-Institut format — #336)
+- C2 exam practice exercises (50 exercises, Goethe-Institut GDS format — #337)
 
 ## Gotchas
 
@@ -92,6 +95,8 @@ Python-based German language learning resources and content:
 - Agent-generated JSON files may have CRLF line endings — check with `grep -rl $'\r'` and normalize before committing
 - AI-generated exam exercises bias correct_answer to one option — redistribute using deterministic hash: `md5(exercise_id + question_number) % num_options`
 - `release_workflow.py tag-release` creates git tags but NOT GitHub Releases — run `gh release create vX.Y.Z` separately after tagging
+- After hash-based answer redistribution, check for exercises with all-same answers — manually swap option content to fix outliers (hash over 5 questions × 3 options can produce all-same by chance)
+- AI-generated German content may have article/case errors (e.g., "einen Programm" for neuter *das Programm*) — review grammar in generated text, especially articles with borrowed/compound nouns
 
 ## Branch Structure
 
@@ -178,6 +183,11 @@ resources/exams/c1/              # C1 exam practice exercises (65, Goethe-Instit
 ├── lesen/teil-{1-5}/           # Reading (5 parts, 5 exercises each)
 ├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
 └── sprechen/teil-{1-2}/        # Speaking (2 parts, 5 exercises each)
+resources/exams/c2/              # C2 exam practice exercises (50, Goethe-Institut GDS format)
+├── hoeren/teil-{1-2}/          # Listening (2 parts, 5 exercises each)
+├── lesen/teil-{1-4}/           # Reading (4 parts, 5 exercises each)
+├── schreiben/aufgabe-{1-2}/    # Writing (2 tasks, 5 exercises each)
+└── sprechen/teil-{1-2}/        # Speaking (2 parts, 5 exercises each)
 ```
 
 **Exam exercise schema:** Structured JSON validated by Pydantic models in `src/german/exams/`. Key fields differ by skill:
@@ -188,7 +198,7 @@ resources/exams/c1/              # C1 exam practice exercises (65, Goethe-Instit
 
 **Exercise ID format:** `{level}-{skill}-{teil|aufgabe}-{N}-{NNN}` — hyphens must match directory names (e.g., `teil-1`, not `teil1`)
 
-`scripts/make_pdfs.py` supports `--level {a1,a2,b1,b2}` for multi-level PDF generation
+`scripts/make_pdfs.py` supports `--level {a1,a2,b1,b2,c1,c2}` for multi-level PDF generation
 
 **Design:** `docs/plans/2026-03-03-b1-exam-practice-content-design.md`
 
@@ -221,6 +231,7 @@ resources/exams/c1/              # C1 exam practice exercises (65, Goethe-Instit
 
 ## Version History
 
+- **v2.7.0** (2026-03-06): C2 exam practice content (50 exercises, GDS format), PDF generation and tests
 - **v2.6.0** (2026-03-06): C1 exam practice content (65 exercises), PDF generation and tests
 - **v2.5.0** (2026-03-06): B2 exam practice content (65 exercises), subscript digit PDF support
 - **v2.4.0** (2026-03-06): A1 exam practice content (60 exercises), version bump alignment

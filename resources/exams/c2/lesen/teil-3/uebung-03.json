@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-3-003",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Medienphilosophie und digitale Ontologie",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die medienphilosophische Frage, ob digitale Technologien lediglich als neutrale Werkzeuge zu betrachten seien oder ob sie die ontologische Verfasstheit menschlicher Erfahrung grundlegend transformieren, hat in den vergangenen Jahrzehnten eine erhebliche Zuspitzung erfahren. Im Anschluss an Heideggers technikphilosophische Überlegungen argumentieren Vertreter einer posthumanistischen Medienontologie, dass die Durchdringung sämtlicher Lebensbereiche durch digitale Infrastrukturen eine neuartige Form des In-der-Welt-Seins hervorbringe, die sich kategorial von der analogen Welterfahrung unterscheide.\n\nDie ontologische Differenz manifestiert sich insbesondere in der veränderten Zeitlichkeitsstruktur digitaler Erfahrung. Während die analoge Lebenswelt durch eine phänomenologisch erfahrbare Kontinuität des Zeitflusses charakterisiert sei, erzeuge die digitale Umgebung eine fragmentierte Temporalität, die durch permanente Unterbrechungen, simultane Aufmerksamkeitsanforderungen und die algorithmische Vorstrukturierung von Handlungsoptionen gekennzeichnet sei. Diese von einigen Theoretikern als chronotopische Disruption bezeichnete Transformation betreffe nicht bloß die Oberfläche alltäglicher Praktiken, sondern greife in die tiefenstrukturellen Bedingungen leiblicher Selbsterfahrung ein.\n\nDem steht eine instrumentalistische Gegenposition gegenüber, die auf der prinzipiellen Unterscheidbarkeit von Medium und Botschaft beharrt und die These einer ontologischen Transformation als metaphysische Überhöhung technischer Entwicklungen zurückweist. Die von Vertretern dieser Position ins Feld geführte historische Analogie — wonach auch frühere mediale Umbrüche wie der Buchdruck als epochale Zäsuren wahrgenommen worden seien, ohne die grundlegende Struktur menschlichen Weltverhältnisses zu verändern — verkennt jedoch den qualitativen Unterschied einer Technologie, die nicht nur Information vermittelt, sondern die Bedingungen ihrer Rezeption in Echtzeit modifiziert.",
+    "text_en": "The media-philosophical question of whether digital technologies are to be regarded merely as neutral tools or whether they fundamentally transform the ontological constitution of human experience has undergone considerable intensification in recent decades. Following Heidegger's philosophy-of-technology reflections, proponents of a posthumanist media ontology argue that the permeation of all areas of life by digital infrastructures produces a novel form of being-in-the-world that categorically differs from analog world experience.\n\nThe ontological difference manifests itself particularly in the altered temporality structure of digital experience. While the analog lifeworld is characterized by a phenomenologically experienceable continuity of temporal flow, the digital environment generates a fragmented temporality marked by permanent interruptions, simultaneous attention demands, and the algorithmic pre-structuring of action options. This transformation, termed chronotopic disruption by some theorists, affects not merely the surface of everyday practices but intervenes in the deep-structural conditions of embodied self-experience.\n\nOpposing this is an instrumentalist counter-position that insists on the principled distinguishability of medium and message and rejects the thesis of ontological transformation as a metaphysical overstatement of technical developments. The historical analogy cited by representatives of this position — according to which earlier media upheavals such as the printing press were also perceived as epochal caesuras without changing the fundamental structure of humanity's relationship to the world — fails to recognize, however, the qualitative difference of a technology that not only conveys information but modifies the conditions of its reception in real time.",
+    "source": "Kulturtheorie",
+    "word_count": 218
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was argumentieren Vertreter einer posthumanistischen Medienontologie?",
+      "text_en": "What do proponents of a posthumanist media ontology argue?",
+      "options": [
+        "a) Dass digitale Technologien lediglich effizientere Werkzeuge zur Informationsverarbeitung darstellen.",
+        "b) Dass die Durchdringung durch digitale Infrastrukturen eine neuartige Form des In-der-Welt-Seins hervorbringe.",
+        "c) Dass der Mensch durch Technologie seine biologischen Grenzen vollständig überwinden könne."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Vertreter der posthumanistischen Medienontologie argumentieren, dass digitale Infrastrukturen eine neuartige Form des In-der-Welt-Seins hervorbringen.",
+      "explanation_en": "Proponents of posthumanist media ontology argue that digital infrastructures produce a novel form of being-in-the-world."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Worin unterscheidet sich die Zeitlichkeit digitaler Erfahrung laut dem Text von der analogen?",
+      "text_en": "How does the temporality of digital experience differ from analog experience according to the text?",
+      "options": [
+        "a) Die digitale Erfahrung beschleunigt den Zeitfluss, ohne ihn strukturell zu verändern.",
+        "b) Die analoge Erfahrung ist durch Fragmentierung gekennzeichnet, die digitale durch Kontinuität.",
+        "c) Die digitale Umgebung erzeugt eine fragmentierte Temporalität durch permanente Unterbrechungen und algorithmische Vorstrukturierung."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die digitale Umgebung erzeugt eine fragmentierte Temporalität, gekennzeichnet durch permanente Unterbrechungen, simultane Aufmerksamkeitsanforderungen und algorithmische Vorstrukturierung.",
+      "explanation_en": "The digital environment generates a fragmented temporality marked by permanent interruptions, simultaneous attention demands, and algorithmic pre-structuring."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was betrifft die 'chronotopische Disruption' laut dem Text?",
+      "text_en": "What does 'chronotopic disruption' affect according to the text?",
+      "options": [
+        "a) Nicht bloß die Oberfläche alltäglicher Praktiken, sondern die tiefenstrukturellen Bedingungen leiblicher Selbsterfahrung.",
+        "b) Ausschließlich die berufliche Nutzung digitaler Medien in der Wissensarbeit.",
+        "c) Lediglich die Art und Weise der Informationsvermittlung in sozialen Netzwerken."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die chronotopische Disruption betrifft nicht bloß die Oberfläche alltäglicher Praktiken, sondern greift in die tiefenstrukturellen Bedingungen leiblicher Selbsterfahrung ein.",
+      "explanation_en": "Chronotopic disruption affects not merely the surface of everyday practices but intervenes in the deep-structural conditions of embodied self-experience."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welche historische Analogie führen Instrumentalisten gegen die These der ontologischen Transformation an?",
+      "text_en": "What historical analogy do instrumentalists cite against the thesis of ontological transformation?",
+      "options": [
+        "a) Dass die industrielle Revolution ähnlich dramatische soziale Umwälzungen ausgelöst habe.",
+        "b) Dass auch frühere Medienumbrüche wie der Buchdruck als epochale Zäsuren wahrgenommen worden seien.",
+        "c) Dass die Erfindung der Schrift die mündliche Überlieferung vollständig verdrängt habe."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Instrumentalisten verweisen darauf, dass auch frühere mediale Umbrüche wie der Buchdruck als epochale Zäsuren wahrgenommen worden seien.",
+      "explanation_en": "Instrumentalists point out that earlier media upheavals like the printing press were also perceived as epochal caesuras."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum hält der Autor die instrumentalistische Analogie für verfehlt?",
+      "text_en": "Why does the author consider the instrumentalist analogy misguided?",
+      "options": [
+        "a) Weil der Buchdruck eine weitaus tiefgreifendere Veränderung bewirkt habe als die Digitalisierung.",
+        "b) Weil die Instrumentalisten die philosophische Tradition nicht ausreichend berücksichtigen.",
+        "c) Weil digitale Technologie die Bedingungen der Rezeption in Echtzeit modifiziert, nicht nur Information vermittelt."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der qualitative Unterschied liegt darin, dass digitale Technologie nicht nur Information vermittelt, sondern die Bedingungen ihrer Rezeption in Echtzeit modifiziert.",
+      "explanation_en": "The qualitative difference is that digital technology not only conveys information but modifies the conditions of its reception in real time."
+    }
+  ]
+}

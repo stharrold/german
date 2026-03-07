@@ -48,6 +48,11 @@ resources/
 │   ├── lesen/teil-{1-5}/         # Reading (25 exercises)
 │   ├── schreiben/aufgabe-{1-2}/  # Writing (10 exercises)
 │   └── sprechen/teil-{1-2}/      # Speaking (10 exercises)
+├── exams/c2/                     # C2 exam practice exercises (50, Goethe-Institut GDS format)
+│   ├── hoeren/teil-{1-2}/        # Listening (10 exercises)
+│   ├── lesen/teil-{1-4}/         # Reading (20 exercises)
+│   ├── schreiben/aufgabe-{1-2}/  # Writing (10 exercises)
+│   └── sprechen/teil-{1-2}/      # Speaking (10 exercises)
 └── supplementary/                # Supplementary teaching resources
     └── b1-listening-topics/      # B1 listening topics (20 bilingual prose files)
 ```

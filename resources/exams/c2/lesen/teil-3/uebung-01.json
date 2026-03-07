@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-3-001",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "Kritische Theorie und Kulturindustrie",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die von Horkheimer und Adorno in der Mitte des vergangenen Jahrhunderts formulierte These einer das Bewusstsein kolonisierenden Kulturindustrie hat in der gegenwärtigen Debatte um algorithmische Kuratierung eine unerwartete Renaissance erfahren. Was die Frankfurter Denker als standardisierte Massenproduktion kultureller Güter beschrieben, die dem Individuum eine trügerische Wahlfreiheit vorgaukele, findet seine technologische Radikalisierung in personalisierten Empfehlungssystemen, deren auf Verhaltensvorhersage basierendes Geschäftsmodell die von der Kritischen Theorie diagnostizierte Heteronomie des Subjekts auf eine zuvor unvorstellbare Weise vertieft.\n\nDie strukturelle Parallele besteht darin, dass beide Konstellationen — die fordistische Kulturproduktion und die datengetriebene Plattformökonomie — eine Dialektik von scheinbarer Vielfalt und faktischer Homogenisierung erzeugen. Der durch Empfehlungsalgorithmen kuratierte Medienkonsum suggeriert zwar individuelle Souveränität, reproduziert jedoch systematisch bereits internalisierte Präferenzmuster, wodurch eine als Filterblaseneffekt bekannte epistemische Verengung entsteht. Die von Adorno als Pseudoindividualisierung bezeichnete Dynamik — die massenhafte Produktion marginal variierter Kulturprodukte, die Individualität simulieren, ohne sie einzulösen — erreicht damit eine kybernetische Vollendung.\n\nKritiker dieses neofrankfurterischen Ansatzes wenden ein, dass die Gleichsetzung algorithmischer Kuratierung mit industrieller Kulturproduktion die genuine Handlungsfähigkeit der Nutzer unterschätze, die sich durch bewusste Medienkompetenz den Mechanismen der Aufmerksamkeitsökonomie entziehen könnten. Diese Einwände verkennen jedoch, dass die infrastrukturelle Ebene — die Architektur der Plattformen selbst — dem individuellen Widerstand systematisch vorgeordnet ist und jede vermeintlich autonome Nutzungsentscheidung bereits innerhalb eines ökonomisch determinierten Möglichkeitsraums stattfindet.",
+    "text_en": "The thesis of a consciousness-colonizing culture industry, formulated by Horkheimer and Adorno in the middle of the last century, has experienced an unexpected renaissance in the current debate about algorithmic curation. What the Frankfurt thinkers described as standardized mass production of cultural goods, which feigns a deceptive freedom of choice for the individual, finds its technological radicalization in personalized recommendation systems, whose business model based on behavioral prediction deepens the heteronomy of the subject diagnosed by Critical Theory in a previously unimaginable way.\n\nThe structural parallel consists in the fact that both constellations — Fordist cultural production and the data-driven platform economy — generate a dialectic of apparent diversity and factual homogenization. Media consumption curated by recommendation algorithms suggests individual sovereignty, yet systematically reproduces already internalized preference patterns, thereby creating an epistemic narrowing known as the filter bubble effect. The dynamic that Adorno termed pseudo-individualization — the mass production of marginally varied cultural products that simulate individuality without fulfilling it — thereby reaches a cybernetic completion.\n\nCritics of this neo-Frankfurtian approach object that equating algorithmic curation with industrial cultural production underestimates the genuine agency of users, who could withdraw from the mechanisms of the attention economy through conscious media literacy. These objections fail to recognize, however, that the infrastructural level — the architecture of the platforms themselves — is systematically prior to individual resistance, and every supposedly autonomous usage decision already takes place within an economically determined space of possibilities.",
+    "source": "Kulturtheorie",
+    "word_count": 213
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Worin besteht laut dem Text die technologische Radikalisierung der Kulturindustriethese?",
+      "text_en": "According to the text, what constitutes the technological radicalization of the culture industry thesis?",
+      "options": [
+        "a) In personalisierten Empfehlungssystemen, die die Heteronomie des Subjekts vertiefen.",
+        "b) In der Massenproduktion kultureller Güter durch globale Medienkonzerne.",
+        "c) In der vollständigen Abschaffung individueller Wahlfreiheit durch staatliche Zensur."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Personalisierte Empfehlungssysteme radikalisieren die von der Kritischen Theorie diagnostizierte Heteronomie des Subjekts technologisch.",
+      "explanation_en": "Personalized recommendation systems technologically radicalize the heteronomy of the subject diagnosed by Critical Theory."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was versteht der Text unter der Dialektik von Vielfalt und Homogenisierung?",
+      "text_en": "What does the text understand by the dialectic of diversity and homogenization?",
+      "options": [
+        "a) Die gezielte Unterdrückung alternativer Kulturformen durch marktbeherrschende Plattformen.",
+        "b) Die Tatsache, dass algorithmisch kuratierter Konsum individuelle Souveränität suggeriert, aber internalisierte Präferenzmuster reproduziert.",
+        "c) Den Widerspruch zwischen künstlerischem Anspruch und kommerziellem Erfolg kultureller Produkte."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der kuratierte Medienkonsum suggeriert Souveränität, reproduziert aber systematisch bereits internalisierte Präferenzmuster.",
+      "explanation_en": "Curated media consumption suggests sovereignty but systematically reproduces already internalized preference patterns."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Was bedeutet der Begriff 'Pseudoindividualisierung' im Kontext des Textes?",
+      "text_en": "What does the term 'pseudo-individualization' mean in the context of the text?",
+      "options": [
+        "a) Die bewusste Nachahmung individueller Lebensstile durch Konsumenten.",
+        "b) Die Erzeugung von Kulturprodukten, die nur oberflächlich variieren und Individualität lediglich simulieren.",
+        "c) Die massenhafte Produktion identischer Waren ohne jede Variation."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Pseudoindividualisierung bezeichnet die massenhafte Produktion marginal variierter Kulturprodukte, die Individualität simulieren, ohne sie einzulösen.",
+      "explanation_en": "Pseudo-individualization denotes the mass production of marginally varied cultural products that simulate individuality without fulfilling it."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Welchen Einwand erheben Kritiker des neofrankfurterischen Ansatzes?",
+      "text_en": "What objection do critics of the neo-Frankfurtian approach raise?",
+      "options": [
+        "a) Die Gleichsetzung algorithmischer Kuratierung mit Kulturproduktion unterschätze die Handlungsfähigkeit der Nutzer.",
+        "b) Die Frankfurter Schule habe die technologische Entwicklung bereits vollständig vorweggenommen.",
+        "c) Algorithmische Systeme seien grundsätzlich neutral und könnten keine Heteronomie erzeugen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Kritiker wenden ein, dass die Gleichsetzung die genuine Handlungsfähigkeit der Nutzer unterschätze.",
+      "explanation_en": "Critics object that the equation underestimates the genuine agency of users."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Warum hält der Autor die Einwände der Kritiker für unzureichend?",
+      "text_en": "Why does the author consider the critics' objections insufficient?",
+      "options": [
+        "a) Weil die Kritiker die historische Bedeutung der Frankfurter Schule nicht anerkennen.",
+        "b) Weil die infrastrukturelle Ebene der Plattformen dem individuellen Widerstand systematisch vorgeordnet ist.",
+        "c) Weil die Nutzer keinerlei Medienkompetenz besitzen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Architektur der Plattformen ist dem individuellen Widerstand systematisch vorgeordnet; autonome Nutzungsentscheidungen finden innerhalb eines ökonomisch determinierten Möglichkeitsraums statt.",
+      "explanation_en": "The architecture of the platforms is systematically prior to individual resistance; autonomous usage decisions take place within an economically determined space of possibilities."
+    }
+  ]
+}

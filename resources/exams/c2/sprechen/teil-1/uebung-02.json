@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-1-002",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Kunst und Wahrheit — Die erkenntnistheoretische Funktion ästhetischer Erfahrung",
+  "instructions": "Sie sollen zu einem komplexen Thema einen strukturierten Vortrag halten und anschließend mit dem Prüfer / der Prüferin diskutieren. Bereiten Sie sich vor, verschiedene Perspektiven differenziert zu beleuchten und Ihre eigene Position überzeugend zu begründen.",
+  "situation_de": "Seit der Antike wird über das Verhältnis von Kunst und Wahrheit gestritten. Während Platon die Dichter aus seinem Idealstaat verbannte, weil sie lediglich Abbilder der Wirklichkeit hervorbrächten, sah Aristoteles in der Dichtung eine tiefere Wahrheit als in der Geschichtsschreibung. In der Moderne hat sich diese Debatte auf vielfältige Weise fortgesetzt: Kann Kunst Erkenntnisse vermitteln, die der Wissenschaft verschlossen bleiben? Oder handelt es sich um eine bloße Illusion, die keinen Wahrheitsanspruch erheben darf? Halten Sie einen strukturierten Vortrag, in dem Sie die erkenntnistheoretische Funktion ästhetischer Erfahrung aus verschiedenen Perspektiven beleuchten und Ihre eigene Position differenziert begründen.",
+  "situation_en": "Since antiquity, there has been dispute about the relationship between art and truth. While Plato banished poets from his ideal state because they merely produced copies of reality, Aristotle saw in poetry a deeper truth than in historiography. In modernity, this debate has continued in manifold ways: Can art convey insights that remain closed to science? Or is it merely an illusion that may not claim truth? Give a structured presentation in which you examine the epistemological function of aesthetic experience from various perspectives and justify your own position in a nuanced manner.",
+  "discussion_points": [
+    "Mimesis und Wahrheit: Bildet Kunst die Wirklichkeit ab, oder schafft sie eine eigenständige Realität? (Mimesis and truth: Does art represent reality, or does it create an autonomous reality?)",
+    "Ästhetische Erkenntnis vs. wissenschaftliche Erkenntnis: Gibt es Formen des Wissens, die nur durch Kunst zugänglich sind? (Aesthetic knowledge vs. scientific knowledge: Are there forms of knowledge accessible only through art?)",
+    "Die Autonomie des Kunstwerks: Darf Kunst um ihrer selbst willen existieren, oder muss sie gesellschaftlich relevant sein? (The autonomy of the artwork: May art exist for its own sake, or must it be socially relevant?)",
+    "Kunst als Ideologiekritik: Kann ästhetische Erfahrung gesellschaftliche Verhältnisse entlarven und transformieren? (Art as critique of ideology: Can aesthetic experience expose and transform social conditions?)",
+    "Die Krise der Repräsentation: Hat die zeitgenössische Kunst ihren Wahrheitsanspruch aufgegeben, und was wäre die Konsequenz? (The crisis of representation: Has contemporary art abandoned its claim to truth, and what would be the consequence?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte mich heute einem Thema widmen, das an der Schnittstelle von Philosophie und Ästhetik liegt: der Frage, ob und inwiefern Kunst einen genuinen Erkenntnisanspruch erheben kann. Meine zentrale These lautet, dass ästhetische Erfahrung eine sui generis Form der Erkenntnis darstellt, die sich nicht auf wissenschaftliche Rationalität reduzieren lässt, ohne dass damit ihre epistemische Dignität geschmälert würde.",
+      "text_en": "Today I would like to dedicate myself to a topic that lies at the intersection of philosophy and aesthetics: the question of whether and to what extent art can raise a genuine claim to knowledge. My central thesis is that aesthetic experience represents a sui generis form of knowledge that cannot be reduced to scientific rationality without diminishing its epistemic dignity."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Bekanntlich hat Platon die Künste als bloße Nachahmung der Nachahmung verworfen — die sinnliche Welt sei selbst schon ein Abbild der Ideen, und die Kunst bilde lediglich dieses Abbild ab, entferne sich mithin doppelt von der Wahrheit. Aristoteles hingegen hat in seiner Poetik eine entscheidende Wendung vollzogen, indem er der Dichtung zuerkannte, sie stelle dar, was geschehen könnte, nicht bloß, was geschehen sei. Damit rücke die Kunst paradoxerweise näher an das Allgemeine heran als die faktische Geschichtsschreibung. Dieser aristotelische Grundgedanke — dass Kunst eine Dimension des Möglichen erschließt, die dem bloß Faktischen verschlossen bleibt — scheint mir bis heute von ungebrochener Relevanz zu sein.",
+      "text_en": "As is well known, Plato rejected the arts as mere imitation of imitation — the sensory world is itself already a copy of the Ideas, and art merely copies this copy, thus removing itself doubly from the truth. Aristotle, however, accomplished a decisive turn in his Poetics by granting poetry the capacity to represent what could happen, not merely what has happened. Paradoxically, this brings art closer to the universal than factual historiography. This Aristotelian basic idea — that art opens up a dimension of the possible that remains closed to the merely factual — seems to me to be of undiminished relevance to this day."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Das ist ein beeindruckend weit gespannter Bogen von der Antike bis in die Gegenwart. Aber wie würden Sie auf den Einwand reagieren, dass ästhetische Erfahrung letztlich subjektiv und damit wissenschaftlich nicht belastbar sei?",
+      "text_en": "That is an impressively broad arc from antiquity to the present. But how would you respond to the objection that aesthetic experience is ultimately subjective and therefore not scientifically reliable?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dieser Einwand setzt voraus, dass Subjektivität und Erkenntnisanspruch einander ausschließen — eine Prämisse, die ich für fragwürdig halte. Gadamer hat in Wahrheit und Methode überzeugend dargelegt, dass das Verstehen eines Kunstwerks keine bloß subjektive Empfindung ist, sondern ein hermeneutischer Prozess, in dem sich Horizontverschmelzung ereignet. Das heißt: Das Subjekt tritt in einen Dialog mit dem Werk, und in diesem Dialog entsteht eine Erkenntnis, die weder rein subjektiv noch rein objektiv ist, sondern gewissermaßen intersubjektiv. Hinzu kommt, dass die Dichotomie von Subjektivität und Objektivität selbst eine Abstraktion ist, die der Komplexität menschlicher Erfahrung nicht gerecht wird.",
+      "text_en": "This objection presupposes that subjectivity and claims to knowledge are mutually exclusive — a premise that I consider questionable. Gadamer convincingly demonstrated in Truth and Method that understanding a work of art is not a merely subjective sensation but a hermeneutic process in which a fusion of horizons occurs. That is to say: the subject enters into a dialogue with the work, and in this dialogue an insight emerges that is neither purely subjective nor purely objective, but intersubjective, as it were. In addition, the dichotomy of subjectivity and objectivity is itself an abstraction that does not do justice to the complexity of human experience."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und wie verhalten Sie sich zu dem von Adorno formulierten Anspruch, Kunst solle als Statthalter einer besseren Welt fungieren? Ist das nicht eine Überforderung der Kunst?",
+      "text_en": "And what is your position on Adorno's claim that art should function as a placeholder for a better world? Isn't that an excessive demand on art?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Adornos Position ist zugegebenermaßen anspruchsvoll, ja elitär — aber sie enthält einen Kern, der mir nach wie vor plausibel erscheint. Wenn er sagt, dass authentische Kunst die Welt negativ spiegele, indem sie auf das verweise, was in der bestehenden Ordnung fehle, dann formuliert er im Grunde einen utopischen Erkenntnisanspruch: Kunst zeige nicht, wie die Welt ist, sondern wie sie sein könnte oder sollte. Ob man dies eine Überforderung nennen möchte, hängt davon ab, welchen Stellenwert man der Utopie als erkenntnisleitender Kategorie einräumt. Ich persönlich neige zu der Auffassung, dass eine Gesellschaft, die den utopischen Überschuss der Kunst liquidiert, sich eines ihrer wertvollsten Reflexionsmedien beraubt.",
+      "text_en": "Adorno's position is admittedly demanding, indeed elitist — but it contains a core that still seems plausible to me. When he says that authentic art mirrors the world negatively by pointing to what is missing in the existing order, he is essentially formulating a utopian claim to knowledge: art shows not how the world is, but how it could or should be. Whether one wishes to call this an excessive demand depends on what status one grants to utopia as a knowledge-guiding category. I personally tend toward the view that a society that liquidates the utopian surplus of art robs itself of one of its most valuable media of reflection."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Zum Abschluss: Wenn Sie das Verhältnis von Kunst und Wahrheit in einem einzigen Satz zusammenfassen müssten — wie würden Sie es formulieren?",
+      "text_en": "To conclude: If you had to summarize the relationship between art and truth in a single sentence — how would you formulate it?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Kunst ist die Vergegenwärtigung einer Wahrheit, die sich dem begrifflichen Zugriff entzieht und gerade deshalb unentbehrlich ist — sie zeigt uns nicht das, was wir bereits wissen, sondern das, was wir zu wissen noch nicht gelernt haben. Darin liegt ihre unersetzliche erkenntnistheoretische Funktion: Sie erweitert den Horizont des Denkbaren über das Beweisbare hinaus.",
+      "text_en": "Art is the making-present of a truth that eludes conceptual grasp and is indispensable precisely for this reason — it shows us not what we already know, but what we have not yet learned to know. Therein lies its irreplaceable epistemological function: it expands the horizon of the thinkable beyond the provable."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen umfassenden, klar gegliederten Vortrag auf muttersprachlichem Niveau und geht anschließend souverän auf alle Diskussionsimpulse ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat entfaltet eine vielschichtige Argumentation, bezieht differenziert Stellung und begegnet Gegenargumenten mit intellektueller Flexibilität und rhetorischer Präzision.",
+    "Interaktion und Gesprächsführung: Der Kandidat steuert das Gespräch auf muttersprachlichem Niveau, greift Impulse nahtlos auf, reformuliert und vertieft eigenständig.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung akademischer Redemittel, Metaphern und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

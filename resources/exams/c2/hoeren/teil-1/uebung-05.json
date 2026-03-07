@@ -1,0 +1,118 @@
+{
+  "id": "c2-hoeren-teil-1-005",
+  "level": "C2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Geschichtsschreibung und kollektives Gedächtnis",
+  "instructions": "Sie hören einen Vortrag. Sie hören den Text einmal. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Meine Damen und Herren, ich begrüße Sie zur Ringvorlesung „Geschichte und Erinnerung“ der Philosophischen Fakultät. Unser heutiger Referent, Professor Dr. Tobias Reinhardt, ist Inhaber des Lehrstuhls für Geschichtstheorie und hat sich intensiv mit der Frage beschäftigt, wie kollektives Gedächtnis und Geschichtsschreibung zusammenhängen. Herr Professor Reinhardt, können Historiker überhaupt objektiv sein?",
+      "text_en": "Ladies and gentlemen, I welcome you to the lecture series 'History and Memory' of the Faculty of Philosophy. Our speaker today, Professor Dr. Tobias Reinhardt, holds the chair for Theory of History and has intensively examined how collective memory and historiography are related. Professor Reinhardt, can historians be objective at all?"
+    },
+    {
+      "speaker": "Prof. Dr. Reinhardt",
+      "text_de": "Vielen Dank für diese grundsätzliche Frage. Die Vorstellung, der Historiker könne als unbeteiligter Beobachter die Vergangenheit „wie sie eigentlich gewesen“ rekonstruieren — um die berühmte Formulierung Leopold von Rankes aufzugreifen —, gilt in der modernen Geschichtstheorie als überholt. Aber die Alternative lautet keineswegs, dass alles bloße Interpretation sei und Geschichtsschreibung der Beliebigkeit anheimfalle. Was ich vertrete, ist eine Position des methodisch reflektierten Perspektivismus: Der Historiker kann und muss seinen Standort offenlegen, seine Vorannahmen explizieren und seine Quellenkritik transparent machen. Objektivität besteht dann nicht in Standortlosigkeit, sondern in der methodischen Kontrolle des eigenen Standorts.",
+      "text_en": "Thank you for this fundamental question. The notion that the historian could reconstruct the past 'as it actually was' — to take up Leopold von Ranke's famous formulation — as a detached observer is considered outdated in modern theory of history. But the alternative by no means implies that everything is mere interpretation and historiography falls prey to arbitrariness. What I advocate is a position of methodically reflected perspectivism: the historian can and must disclose their standpoint, make their assumptions explicit, and render their source criticism transparent. Objectivity then consists not in being without a standpoint but in the methodical control of one's own standpoint."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Wie verhält sich die Geschichtswissenschaft zum kollektiven Gedächtnis, etwa zu den Arbeiten von Maurice Halbwachs und Jan Assmann?",
+      "text_en": "How does historical scholarship relate to collective memory, for instance the work of Maurice Halbwachs and Jan Assmann?"
+    },
+    {
+      "speaker": "Prof. Dr. Reinhardt",
+      "text_de": "Das ist der Kernpunkt meiner Argumentation. Halbwachs hat gezeigt, dass Erinnerung kein rein individueller Akt ist, sondern immer sozial gerahmt wird — wir erinnern im Horizont unserer Gruppe, unserer Kultur, unserer Epoche. Jan Assmann hat dies weitergeführt mit der Unterscheidung zwischen kommunikativem Gedächtnis, das etwa drei Generationen umfasst, und kulturellem Gedächtnis, das durch Institutionen, Riten und Texte über Jahrhunderte tradiert wird. Für die Geschichtswissenschaft bedeutet dies, dass sie selbst Teil des kulturellen Gedächtnisses ist — sie produziert die Narrative, durch die eine Gesellschaft sich ihrer Vergangenheit vergewissert.",
+      "text_en": "This is the core point of my argument. Halbwachs showed that memory is not a purely individual act but is always socially framed — we remember within the horizon of our group, our culture, our epoch. Jan Assmann developed this further with the distinction between communicative memory, which spans roughly three generations, and cultural memory, which is transmitted over centuries through institutions, rituals, and texts. For historical scholarship this means that it is itself part of cultural memory — it produces the narratives through which a society assures itself of its past."
+    },
+    {
+      "speaker": "Prof. Dr. Reinhardt",
+      "text_de": "Die Spannung zwischen wissenschaftlichem Anspruch und gedächtnispolitischer Funktion der Geschichtsschreibung lässt sich nicht auflösen, aber sie lässt sich produktiv gestalten. Der entscheidende Beitrag der Geschichtswissenschaft besteht darin, das kollektive Gedächtnis durch methodische Kritik zu irritieren — vermeintliche Gewissheiten zu erschüttern, unterdrückte Stimmen hörbar zu machen, die Konstruiertheit nationaler Meistererzählungen offenzulegen. Geschichte ist in diesem Sinne nicht die Bestätigung dessen, was eine Gesellschaft über sich selbst glauben möchte, sondern die systematische Befragung dieser Selbstbilder.",
+      "text_en": "The tension between the scholarly claim and the memory-political function of historiography cannot be resolved, but it can be shaped productively. The decisive contribution of historical scholarship lies in unsettling collective memory through methodical critique — shaking supposed certainties, making suppressed voices audible, exposing the constructedness of national master narratives. History in this sense is not the confirmation of what a society wishes to believe about itself but the systematic questioning of these self-images."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Welche Rolle spielen dabei neue Medien und digitale Archive?",
+      "text_en": "What role do new media and digital archives play in this?"
+    },
+    {
+      "speaker": "Prof. Dr. Reinhardt",
+      "text_de": "Eine ambivalente. Einerseits demokratisieren digitale Archive den Zugang zu historischen Quellen in einem nie dagewesenen Ausmaß — Dokumente, die bisher nur wenigen Spezialisten zugänglich waren, können nun von jedermann eingesehen werden. Andererseits erzeugt die schiere Masse digitaler Daten das, was ich als „archivalischen Schwindel“ bezeichne: die Illusion, dass Vollständigkeit des Materials Vollständigkeit der Erkenntnis garantiere. Doch gerade das Gegenteil ist der Fall. Je mehr Quellen verfügbar sind, desto dringlicher wird die Fähigkeit zur kritischen Selektion, Kontextualisierung und Interpretation. Die hermeneutische Kompetenz des Historikers wird im digitalen Zeitalter nicht obsolet, sondern unverzichtbarer denn je.",
+      "text_en": "An ambivalent one. On the one hand, digital archives democratize access to historical sources to an unprecedented degree — documents previously accessible only to a few specialists can now be viewed by anyone. On the other hand, the sheer mass of digital data produces what I call 'archival vertigo': the illusion that completeness of material guarantees completeness of knowledge. But precisely the opposite is the case. The more sources available, the more urgent becomes the ability for critical selection, contextualization, and interpretation. The hermeneutic competence of the historian does not become obsolete in the digital age but more indispensable than ever."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Was versteht Professor Reinhardt unter „methodisch reflektiertem Perspektivismus“?",
+      "text_en": "What does Professor Reinhardt understand by 'methodically reflected perspectivism'?",
+      "options": [
+        "a) Die Überzeugung, dass Geschichte vollkommen beliebig interpretiert werden kann.",
+        "b) Die Forderung, dass Historiker ausschließlich quantitative Methoden verwenden.",
+        "c) Objektivität durch Offenlegung des eigenen Standorts und methodische Kontrolle der Vorannahmen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Reinhardt definiert methodisch reflektierten Perspektivismus als Objektivität nicht durch Standortlosigkeit, sondern durch Offenlegung und methodische Kontrolle des eigenen Standorts.",
+      "explanation_en": "Reinhardt defines methodically reflected perspectivism as objectivity not through being without a standpoint but through disclosure and methodical control of one's own standpoint."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Wie unterscheidet Jan Assmann kommunikatives und kulturelles Gedächtnis?",
+      "text_en": "How does Jan Assmann distinguish communicative and cultural memory?",
+      "options": [
+        "a) Kommunikatives Gedächtnis betrifft nur Individuen, kulturelles nur Staaten.",
+        "b) Kommunikatives Gedächtnis umfasst etwa drei Generationen, kulturelles wird über Jahrhunderte durch Institutionen tradiert.",
+        "c) Kommunikatives Gedächtnis ist schriftlich fixiert, kulturelles existiert nur mündlich."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Assmann unterscheidet zwischen kommunikativem Gedächtnis (etwa drei Generationen) und kulturellem Gedächtnis (über Jahrhunderte durch Institutionen, Riten und Texte tradiert).",
+      "explanation_en": "Assmann distinguishes between communicative memory (roughly three generations) and cultural memory (transmitted over centuries through institutions, rituals, and texts)."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Welche Aufgabe hat die Geschichtswissenschaft gegenüber dem kollektiven Gedächtnis laut Reinhardt?",
+      "text_en": "What task does historical scholarship have in relation to collective memory according to Reinhardt?",
+      "options": [
+        "a) Das kollektive Gedächtnis durch methodische Kritik zu irritieren und nationale Meistererzählungen zu hinterfragen.",
+        "b) Das kollektive Gedächtnis durch nationale Meistererzählungen zu bestätigen und zu festigen.",
+        "c) Das kollektive Gedächtnis durch populäre Darstellungen zu ersetzen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Reinhardt sieht den Beitrag der Geschichtswissenschaft darin, das kollektive Gedächtnis zu irritieren — Gewissheiten zu erschüttern und die Konstruiertheit von Meistererzählungen offenzulegen.",
+      "explanation_en": "Reinhardt sees the contribution of historical scholarship in unsettling collective memory — shaking certainties and exposing the constructedness of master narratives."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was bezeichnet Reinhardt als „archivalischen Schwindel“?",
+      "text_en": "What does Reinhardt call 'archival vertigo'?",
+      "options": [
+        "a) Die Fälschung historischer Dokumente in digitalen Archiven.",
+        "b) Die Unzugänglichkeit analoger Quellen für die breite Öffentlichkeit.",
+        "c) Die Illusion, dass Vollständigkeit des Materials Vollständigkeit der Erkenntnis garantiere."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der „archivalische Schwindel“ bezeichnet die Illusion, dass die schiere Masse digitaler Daten automatisch vollständige Erkenntnis garantiert.",
+      "explanation_en": "'Archival vertigo' refers to the illusion that the sheer mass of digital data automatically guarantees complete knowledge."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Welche Rolle spielt die hermeneutische Kompetenz des Historikers im digitalen Zeitalter?",
+      "text_en": "What role does the hermeneutic competence of the historian play in the digital age?",
+      "options": [
+        "a) Sie wird durch algorithmenbasierte Analyse vollständig ersetzt.",
+        "b) Sie wird unverzichtbarer denn je, da die Masse der Quellen kritische Selektion und Interpretation erfordert.",
+        "c) Sie bleibt relevant, verliert aber gegenüber quantitativen Methoden an Bedeutung."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Reinhardt betont, dass die hermeneutische Kompetenz im digitalen Zeitalter nicht obsolet wird, sondern unverzichtbarer denn je, da die Masse der Quellen kritische Selektion erfordert.",
+      "explanation_en": "Reinhardt emphasizes that hermeneutic competence does not become obsolete in the digital age but more indispensable than ever, as the mass of sources demands critical selection."
+    }
+  ]
+}

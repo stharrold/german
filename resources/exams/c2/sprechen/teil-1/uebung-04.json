@@ -1,0 +1,67 @@
+{
+  "id": "c2-sprechen-teil-1-004",
+  "level": "C2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Die Ethik des Erinnerns — Kollektives Gedächtnis und historische Verantwortung",
+  "instructions": "Sie sollen zu einem komplexen Thema einen strukturierten Vortrag halten und anschließend mit dem Prüfer / der Prüferin diskutieren. Bereiten Sie sich vor, verschiedene Perspektiven differenziert zu beleuchten und Ihre eigene Position überzeugend zu begründen.",
+  "situation_de": "Die Frage, wie Gesellschaften mit ihrer Vergangenheit umgehen, gehört zu den brisantesten Themen der politischen Philosophie und der Kulturwissenschaften. Erinnerung ist nicht bloß ein individueller Akt, sondern ein kollektiver Prozess, der durch Narrative, Institutionen und Rituale geformt wird. Dabei stehen sich konkurrierende Ansprüche gegenüber: der Wunsch nach Versöhnung und der Imperativ der Gerechtigkeit, das Bedürfnis nach Identität und die Pflicht zur kritischen Selbstreflexion. Halten Sie einen strukturierten Vortrag, in dem Sie die Ethik des Erinnerns aus verschiedenen Perspektiven beleuchten und Ihre eigene Position differenziert begründen.",
+  "situation_en": "The question of how societies deal with their past belongs to the most sensitive topics in political philosophy and cultural studies. Memory is not merely an individual act but a collective process shaped by narratives, institutions, and rituals. Competing claims confront one another: the desire for reconciliation and the imperative of justice, the need for identity and the obligation of critical self-reflection. Give a structured presentation in which you examine the ethics of remembrance from various perspectives and justify your own position in a nuanced manner.",
+  "discussion_points": [
+    "Kollektive Erinnerung und nationale Identität: Inwieweit ist ein geteiltes Geschichtsbild für den gesellschaftlichen Zusammenhalt notwendig? (Collective memory and national identity: To what extent is a shared view of history necessary for social cohesion?)",
+    "Erinnerungspolitik und Instrumentalisierung: Wo verläuft die Grenze zwischen legitimem Gedenken und politischer Instrumentalisierung der Vergangenheit? (Memory politics and instrumentalization: Where does the boundary lie between legitimate commemoration and political instrumentalization of the past?)",
+    "Das Recht auf Vergessen: Gibt es Situationen, in denen das Vergessen notwendig und ethisch vertretbar ist? (The right to forget: Are there situations in which forgetting is necessary and ethically justifiable?)",
+    "Transgenerationale Verantwortung: Können nachfolgende Generationen für historisches Unrecht verantwortlich gemacht werden, das sie nicht begangen haben? (Transgenerational responsibility: Can subsequent generations be held responsible for historical injustice they did not commit?)",
+    "Erinnerungskultur im digitalen Zeitalter: Wie verändert die Digitalisierung die Art und Weise, wie Gesellschaften erinnern und vergessen? (Memory culture in the digital age: How does digitalization change the way societies remember and forget?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat",
+      "text_de": "Ich möchte mich heute einem Thema zuwenden, das nicht nur von akademischem Interesse ist, sondern tief in das Selbstverständnis jeder Gesellschaft eingreift: der Ethik des Erinnerns. Meine Leitthese lautet, dass Erinnerung eine zutiefst normative Praxis ist — sie ist niemals neutral, sondern immer durchsetzt von Wertungen, Auslassungen und Perspektivierungen, und gerade deshalb bedarf sie einer ethischen Reflexion, die über das bloße Faktische hinausgeht.",
+      "text_en": "Today I would like to turn to a topic that is not only of academic interest but deeply intervenes in the self-understanding of every society: the ethics of remembrance. My guiding thesis is that memory is a profoundly normative practice — it is never neutral but always permeated by evaluations, omissions, and perspectivizations, and precisely for this reason it requires an ethical reflection that goes beyond the merely factual."
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Jan Assmann hat in seinen Arbeiten zum kulturellen Gedächtnis gezeigt, dass Gesellschaften über institutionalisierte Formen der Erinnerung — Museen, Denkmäler, Gedenktage, Geschichtslehrpläne — eine kollektive Identität konstruieren. Diese Konstruktion ist unvermeidlich selektiv: Was erinnert wird, definiert zugleich, was vergessen wird. Daraus ergibt sich ein fundamentales ethisches Dilemma. Einerseits ist eine gewisse Selektion unumgänglich, da eine Gesellschaft nicht alles gleichzeitig erinnern kann, ohne sich in der Unübersichtlichkeit der Vergangenheit zu verlieren. Andererseits birgt jede Selektion die Gefahr, dass die Erfahrungen von Opfergruppen, Minderheiten oder unterdrückten Stimmen systematisch marginalisiert werden.",
+      "text_en": "Jan Assmann has shown in his works on cultural memory that societies construct a collective identity through institutionalized forms of remembrance — museums, monuments, memorial days, history curricula. This construction is inevitably selective: what is remembered simultaneously defines what is forgotten. From this arises a fundamental ethical dilemma. On one hand, a certain degree of selection is unavoidable, since a society cannot remember everything simultaneously without losing itself in the unmanageability of the past. On the other hand, every selection carries the risk that the experiences of victim groups, minorities, or suppressed voices are systematically marginalized."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Sie haben das Spannungsfeld zwischen Erinnern und Vergessen sehr klar herausgearbeitet. Aber wie stehen Sie zur Frage der transgenerationalen Verantwortung? Kann man junge Menschen für etwas verantwortlich machen, das vor ihrer Geburt geschehen ist?",
+      "text_en": "You have very clearly elaborated the tension between remembering and forgetting. But what is your position on the question of transgenerational responsibility? Can young people be held responsible for something that happened before their birth?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Das ist eine der heikelsten Fragen der Erinnerungsethik, und ich möchte sie mit einer begrifflichen Differenzierung beantworten. Es gilt, zwischen Schuld und Verantwortung streng zu unterscheiden. Schuld im moralischen Sinne setzt eine persönliche Handlung voraus und lässt sich per definitionem nicht vererben. Verantwortung hingegen — verstanden als die Bereitschaft, sich zu den Folgen historischen Unrechts zu verhalten und für eine Kultur der Aufarbeitung einzustehen — kann sehr wohl transgenerational bestehen. Karl Jaspers hat dies in seiner Schrift über die Schuldfrage als politische Haftung bezeichnet: eine Verantwortung, die nicht aus persönlicher Täterschaft, sondern aus der Zugehörigkeit zu einer politischen Gemeinschaft erwächst.",
+      "text_en": "That is one of the most delicate questions of memory ethics, and I would like to answer it with a conceptual differentiation. It is essential to strictly distinguish between guilt and responsibility. Guilt in the moral sense presupposes a personal action and cannot by definition be inherited. Responsibility, however — understood as the willingness to relate to the consequences of historical injustice and to stand for a culture of critical examination — can very well exist transgenerationally. Karl Jaspers designated this in his writing on the question of guilt as political liability: a responsibility that arises not from personal perpetration but from belonging to a political community."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Manche Stimmen warnen davor, dass eine zu intensive Erinnerungskultur lähmend wirken und die Zukunftsfähigkeit einer Gesellschaft beeinträchtigen könne. Wie begegnen Sie diesem Argument?",
+      "text_en": "Some voices warn that too intensive a memory culture can have a paralyzing effect and impair a society's capacity for the future. How do you respond to this argument?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Dieses Argument hat eine gewisse oberflächliche Plausibilität, aber es beruht meines Erachtens auf einem Missverständnis dessen, was Erinnerung leisten soll. Kritische Erinnerungsarbeit zielt nicht darauf ab, eine Gesellschaft in ewiger Selbstanklage zu fixieren, sondern darauf, aus der Vergangenheit Orientierungswissen für die Gegenwart und Zukunft zu gewinnen. Nietzsche hat in seinen Unzeitgemäßen Betrachtungen zu Recht darauf hingewiesen, dass ein Übermaß an historischem Bewusstsein das Handeln lähmen kann. Aber die Lösung liegt nicht im Vergessen, sondern in einer reflektierten Erinnerung, die vergangenes Unrecht anerkennt, ohne sich davon überwältigen zu lassen. Es handelt sich, wenn man so will, um eine Erinnerung, die im Dienste des Lebens steht.",
+      "text_en": "This argument has a certain superficial plausibility, but in my view it rests on a misunderstanding of what memory is supposed to accomplish. Critical memory work does not aim to fix a society in eternal self-accusation but to gain orientational knowledge from the past for the present and future. Nietzsche rightly pointed out in his Untimely Meditations that an excess of historical consciousness can paralyze action. But the solution lies not in forgetting but in a reflected remembrance that acknowledges past injustice without being overwhelmed by it. It is, if you will, a remembrance that serves life."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Welchen Einfluss hat Ihrer Meinung nach die Digitalisierung auf die Erinnerungskultur?",
+      "text_en": "What influence does digitalization have on memory culture, in your opinion?"
+    },
+    {
+      "speaker": "Kandidat",
+      "text_de": "Die Digitalisierung schafft eine paradoxe Situation: Einerseits ermöglicht sie eine beispiellose Archivierung und Zugänglichmachung historischer Quellen — jeder Mensch mit Internetzugang kann auf Zeugnisse zugreifen, die früher nur Fachleuten vorbehalten waren. Andererseits begünstigt die digitale Informationsflut eine Fragmentierung und Dekon­textualisierung des Erinnerns. Historische Bilder werden zu Memes, komplexe Zusammenhänge werden auf Schlagwörter reduziert, und die algorithmische Kuratierung unserer Informationsumgebung schafft Erinnerungsblasen, in denen nur noch bestätigt wird, was man ohnehin zu wissen meint. Die zentrale Herausforderung bestünde darin, die demokratisierenden Potenziale der Digitalisierung zu nutzen, ohne der Verflachung und Trivialisierung historischer Erfahrung Vorschub zu leisten.",
+      "text_en": "Digitalization creates a paradoxical situation: On one hand, it enables an unprecedented archiving and accessibility of historical sources — anyone with internet access can access testimonies that were previously reserved only for specialists. On the other hand, the digital flood of information promotes a fragmentation and decontextualization of remembrance. Historical images become memes, complex connections are reduced to catchwords, and the algorithmic curation of our information environment creates memory bubbles in which only what one already believes one knows is confirmed. The central challenge would be to harness the democratizing potentials of digitalization without promoting the flattening and trivialization of historical experience."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Der Kandidat hält einen umfassenden, klar gegliederten Vortrag auf muttersprachlichem Niveau und geht anschließend souverän auf alle Diskussionsimpulse ein.",
+    "Argumentation und Überzeugungskraft: Der Kandidat entfaltet eine vielschichtige Argumentation, bezieht differenziert Stellung und begegnet Gegenargumenten mit intellektueller Flexibilität und rhetorischer Präzision.",
+    "Interaktion und Gesprächsführung: Der Kandidat steuert das Gespräch auf muttersprachlichem Niveau, greift Impulse nahtlos auf, reformuliert und vertieft eigenständig.",
+    "Wortschatz und Ausdruck: Durchgehend idiomatischer, stilistisch differenzierter Wortschatz mit souveräner Beherrschung akademischer Redemittel, Metaphern und konnotativer Nuancen.",
+    "Grammatische Korrektheit: Fehlerfreie Verwendung sämtlicher grammatischer Strukturen einschließlich Konjunktiv I/II, erweiterter Partizipialkonstruktionen, komplexer Nominalisierungen und hypotaktischer Satzgefüge.",
+    "Aussprache, Intonation und Flüssigkeit: Nahezu muttersprachliche Aussprache und Prosodie mit natürlicher Sprechmelodie und durchgehender Flüssigkeit ohne wahrnehmbare Stockungen."
+  ]
+}

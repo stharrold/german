@@ -1,0 +1,87 @@
+{
+  "id": "c2-lesen-teil-2-003",
+  "level": "C2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Klimamodellierung und epistemologische Unsicherheit",
+  "instructions": "Lesen Sie den folgenden Text und lösen Sie die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c.",
+  "time_minutes": 15,
+  "passage": {
+    "text_de": "Die epistemologische Reflexion über den Status klimawissenschaftlicher Modellierungen gehört zu den drängendsten Aufgaben der gegenwärtigen Wissenschaftsphilosophie. Die in globalen Klimamodellen simulierten Projektionen künftiger Temperaturentwicklungen beruhen auf einem hochkomplexen Geflecht von Parametrisierungen, Rückkopplungsschleifen und Näherungsverfahren, deren epistemischer Status grundlegend von demjenigen experimentell überprüfbarer Vorhersagen abweicht. Die für die Klimaforschung konstitutive Unmöglichkeit kontrollierter Experimente am Gesamtsystem Erde erzwingt methodische Strategien, die den traditionellen Rahmen hypothetisch-deduktiver Wissenschaftstheorie sprengen.\n\nDie in Klimamodellen unvermeidlich enthaltenen Unsicherheiten lassen sich in strukturelle und parametrische Unsicherheiten differenzieren. Während parametrische Unsicherheiten aus der unvollständigen Kenntnis physikalischer Größen resultieren und sich prinzipiell durch verbesserte Messungen reduzieren lassen, betreffen strukturelle Unsicherheiten die Adäquatheit der dem Modell zugrunde liegenden Annahmen selbst — etwa die Frage, ob bestimmte Rückkopplungsmechanismen in der Modellarchitektur überhaupt repräsentiert sind.\n\nDie von Klimaskeptikern vorgebrachte Kritik, wonach die verbleibenden Unsicherheiten klimawissenschaftliche Projektionen insgesamt entwertet, beruht auf einem grundlegenden Missverständnis des Verhältnisses von Unsicherheit und Wissen. Die in der Klimaforschung etablierte Praxis, Unsicherheiten systematisch zu quantifizieren und in Form von Konfidenzintervallen transparent zu kommunizieren, stellt gerade keine Schwäche, sondern eine epistemische Tugend dar. Die Anerkennung von Unsicherheit ist nicht gleichbedeutend mit Nichtwissen, sondern Ausdruck eines differenzierten Verständnisses der Grenzen wissenschaftlicher Erkenntnis.",
+    "text_en": "Epistemological reflection on the status of climate science modeling belongs to the most pressing tasks of current philosophy of science. The projections of future temperature developments simulated in global climate models are based on a highly complex web of parameterizations, feedback loops, and approximation procedures whose epistemic status fundamentally differs from that of experimentally verifiable predictions. The impossibility, constitutive for climate research, of controlled experiments on the Earth system as a whole necessitates methodical strategies that exceed the traditional framework of hypothetico-deductive philosophy of science.\n\nThe uncertainties inevitably contained in climate models can be differentiated into structural and parametric uncertainties. While parametric uncertainties result from incomplete knowledge of physical quantities and can in principle be reduced through improved measurements, structural uncertainties concern the adequacy of the assumptions underlying the model itself — for instance, the question of whether certain feedback mechanisms are represented in the model architecture at all.\n\nThe criticism advanced by climate skeptics, according to which the remaining uncertainties devalue climate science projections altogether, rests on a fundamental misunderstanding of the relationship between uncertainty and knowledge. The practice established in climate research of systematically quantifying uncertainties and communicating them transparently in the form of confidence intervals represents precisely not a weakness but an epistemic virtue. The acknowledgment of uncertainty is not synonymous with ignorance but an expression of a differentiated understanding of the limits of scientific knowledge.",
+    "source": "Wissenschaftsjournal",
+    "word_count": 191
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Warum sprengen klimawissenschaftliche Methoden den Rahmen hypothetisch-deduktiver Wissenschaftstheorie?",
+      "text_en": "Why do climate science methods exceed the framework of hypothetico-deductive philosophy of science?",
+      "options": [
+        "a) Weil Klimamodelle keine mathematischen Gleichungen verwenden.",
+        "b) Weil kontrollierte Experimente am Gesamtsystem Erde unmöglich sind.",
+        "c) Weil die Klimaforschung keine empirischen Daten erhebt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die für die Klimaforschung konstitutive Unmöglichkeit kontrollierter Experimente am Gesamtsystem Erde erzwingt Methoden jenseits des hypothetisch-deduktiven Rahmens.",
+      "explanation_en": "The impossibility of controlled experiments on the Earth system as a whole necessitates methods beyond the hypothetico-deductive framework."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was unterscheidet parametrische von strukturellen Unsicherheiten?",
+      "text_en": "What distinguishes parametric from structural uncertainties?",
+      "options": [
+        "a) Parametrische Unsicherheiten sind grundsätzlich nicht reduzierbar.",
+        "b) Strukturelle Unsicherheiten resultieren aus unvollständiger Kenntnis physikalischer Größen.",
+        "c) Strukturelle Unsicherheiten betreffen die Adäquatheit der dem Modell zugrunde liegenden Annahmen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Strukturelle Unsicherheiten betreffen die Adäquatheit der dem Modell zugrunde liegenden Annahmen selbst.",
+      "explanation_en": "Structural uncertainties concern the adequacy of the assumptions underlying the model itself."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Worauf beruht die Kritik der Klimaskeptiker laut dem Text?",
+      "text_en": "What does climate skeptics' criticism rest on according to the text?",
+      "options": [
+        "a) Auf einem grundlegenden Missverständnis des Verhältnisses von Unsicherheit und Wissen.",
+        "b) Auf einer überlegenen wissenschaftlichen Methodik.",
+        "c) Auf der Entdeckung bisher unbekannter Klimafaktoren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Kritik der Klimaskeptiker beruht auf einem grundlegenden Missverständnis des Verhältnisses von Unsicherheit und Wissen.",
+      "explanation_en": "Climate skeptics' criticism rests on a fundamental misunderstanding of the relationship between uncertainty and knowledge."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Was stellt die transparente Kommunikation von Unsicherheiten in der Klimaforschung dar?",
+      "text_en": "What does the transparent communication of uncertainties in climate research represent?",
+      "options": [
+        "a) Ein Eingeständnis der Nutzlosigkeit von Klimamodellen.",
+        "b) Eine epistemische Tugend und kein Zeichen von Schwäche.",
+        "c) Einen Kompromiss zwischen Wissenschaft und Politik."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Praxis, Unsicherheiten transparent zu kommunizieren, stellt keine Schwäche, sondern eine epistemische Tugend dar.",
+      "explanation_en": "The practice of transparently communicating uncertainties represents not a weakness but an epistemic virtue."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was ist die Anerkennung von Unsicherheit laut dem Text nicht?",
+      "text_en": "What is the acknowledgment of uncertainty not, according to the text?",
+      "options": [
+        "a) Ausdruck eines differenzierten Verständnisses wissenschaftlicher Grenzen.",
+        "b) Eine Methode zur Verbesserung von Klimamodellen.",
+        "c) Gleichbedeutend mit Nichtwissen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Anerkennung von Unsicherheit ist nicht gleichbedeutend mit Nichtwissen, sondern Ausdruck eines differenzierten Verständnisses der Grenzen wissenschaftlicher Erkenntnis.",
+      "explanation_en": "The acknowledgment of uncertainty is not synonymous with ignorance but an expression of a differentiated understanding of the limits of scientific knowledge."
+    }
+  ]
+}
