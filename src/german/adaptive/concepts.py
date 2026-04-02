@@ -24,15 +24,24 @@ _SKILL_TEIL_DESCRIPTIONS: dict[str, dict[str, dict[int, str]]] = {
         "hoeren": {1: "Radio/Anrufbeantworter", 2: "Zusammenhängendes Gespräch", 3: "Einzelgespräche", 4: "Radiointerview"},
     },
     "b1": {
-        "lesen": {1: "Blogtexte verstehen", 2: "Zeitungsmeldungen verstehen", 3: "Anzeigen/Anleitungen verstehen", 4: "Leserbriefe verstehen", 5: "Formelle Mitteilungen verstehen"},
+        "lesen": {
+            1: "Blogtexte verstehen", 2: "Zeitungsmeldungen verstehen", 3: "Anzeigen/Anleitungen verstehen",
+            4: "Leserbriefe verstehen", 5: "Formelle Mitteilungen verstehen",
+        },
         "hoeren": {1: "Durchsagen/Nachrichten verstehen", 2: "Vortrag verstehen", 3: "Alltagsgespräch verstehen", 4: "Diskussion verstehen"},
     },
     "b2": {
-        "lesen": {1: "Sachtext global verstehen", 2: "Sachtext detailliert verstehen", 3: "Kommentare/Meinungen verstehen", 4: "Informationen zuordnen", 5: "Formelle Korrespondenz verstehen"},
+        "lesen": {
+            1: "Sachtext global verstehen", 2: "Sachtext detailliert verstehen", 3: "Kommentare/Meinungen verstehen",
+            4: "Informationen zuordnen", 5: "Formelle Korrespondenz verstehen",
+        },
         "hoeren": {1: "Alltagsgespräch verstehen", 2: "Vortrag/Interview verstehen", 3: "Diskussion verstehen", 4: "Radiobeitrag verstehen"},
     },
     "c1": {
-        "lesen": {1: "Sachtext detailliert verstehen", 2: "Fachtext analysieren", 3: "Meinungen zuordnen", 4: "Sprachliche Mittel erkennen", 5: "Wissenschaftstext verstehen"},
+        "lesen": {
+            1: "Sachtext detailliert verstehen", 2: "Fachtext analysieren", 3: "Meinungen zuordnen",
+            4: "Sprachliche Mittel erkennen", 5: "Wissenschaftstext verstehen",
+        },
         "hoeren": {1: "Alltagsgespräch verstehen", 2: "Experteninterview verstehen", 3: "Diskussion analysieren", 4: "Radiosendung verstehen"},
     },
     "c2": {

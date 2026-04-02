@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 
 import pytest
 
-from german.adaptive.selector import AdaptiveSelector
 from german.adaptive.profiler import StudentProfile
+from german.adaptive.selector import AdaptiveSelector
 
 
 @pytest.fixture

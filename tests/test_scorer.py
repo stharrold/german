@@ -1,6 +1,6 @@
 """Tests for adaptive learning answer scorer."""
 
-from german.adaptive.scorer import ScoreResult, score_answer
+from german.adaptive.scorer import score_answer
 from german.exams.models import Question, QuestionType
 
 
