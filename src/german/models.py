@@ -34,6 +34,16 @@ class Gender(str, Enum):
     NEUTER = "neuter"  # das
 
 
+class VerbForms(BaseModel):
+    """Verb conjugation forms (e.g. from Goethe Wortliste)."""
+
+    present_3p: Optional[str] = Field(None, description="3rd person present, e.g. 'holt ab'")
+    past_participle: Optional[str] = Field(None, description="Past participle, e.g. 'abgeholt'")
+    auxiliary: Optional[str] = Field(None, description="Auxiliary verb: 'hat' or 'ist'")
+
+    model_config = ConfigDict(use_enum_values=True)
+
+
 class VocabularyWord(BaseModel):
     """A German vocabulary word with linguistic metadata."""
 
@@ -47,6 +57,14 @@ class VocabularyWord(BaseModel):
     # Noun-specific fields
     gender: Optional[Gender] = Field(None, description="Grammatical gender (nouns only)")
     plural: Optional[str] = Field(None, description="Plural form (nouns only)")
+
+    # Enrichment fields (all optional for backward compatibility)
+    source: Optional[str] = Field(None, description="Content provenance: ai-generated, goethe-wortliste, both")
+    examples_de: Optional[list[str]] = Field(None, description="German example sentences")
+    examples_en: Optional[list[str]] = Field(None, description="English translations of examples")
+    verb_forms: Optional[VerbForms] = Field(None, description="Verb conjugation forms")
+    thematic_group: Optional[str] = Field(None, description="Thematic group, e.g. Berufe, Familie")
+    separable_prefix: Optional[bool] = Field(None, description="True for separable prefix verbs")
 
     model_config = ConfigDict(use_enum_values=True)
 

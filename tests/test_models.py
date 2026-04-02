@@ -152,3 +152,97 @@ def test_cefr_level_from_string():
         level="B1",
     )
     assert word.level == CEFRLevel.B1
+
+
+from german.models import CEFRLevel, Gender, PartOfSpeech, VerbForms, VocabularyWord
+
+
+def test_verb_forms_model():
+    """Test VerbForms model for verb conjugation data."""
+    forms = VerbForms(
+        present_3p="holt ab",
+        past_participle="abgeholt",
+        auxiliary="hat",
+    )
+    assert forms.present_3p == "holt ab"
+    assert forms.past_participle == "abgeholt"
+    assert forms.auxiliary == "hat"
+
+
+def test_verb_forms_partial():
+    """Test VerbForms with only some fields."""
+    forms = VerbForms(past_participle="gegangen", auxiliary="ist")
+    assert forms.present_3p is None
+    assert forms.past_participle == "gegangen"
+    assert forms.auxiliary == "ist"
+
+
+def test_vocabulary_word_with_examples():
+    """Test VocabularyWord with example sentences."""
+    word = VocabularyWord(
+        german="kaufen",
+        english="to buy",
+        part_of_speech=PartOfSpeech.VERB,
+        examples_de=["Tim kauft sich ein neues Auto.", "Ich habe das Buch gekauft."],
+        examples_en=["Tim is buying a new car.", "I bought the book."],
+    )
+    assert len(word.examples_de) == 2
+    assert len(word.examples_en) == 2
+
+
+def test_vocabulary_word_with_verb_forms():
+    """Test VocabularyWord with verb conjugation forms."""
+    word = VocabularyWord(
+        german="abholen",
+        english="to pick up",
+        part_of_speech=PartOfSpeech.VERB,
+        verb_forms=VerbForms(
+            present_3p="holt ab",
+            past_participle="abgeholt",
+            auxiliary="hat",
+        ),
+        separable_prefix=True,
+    )
+    assert word.verb_forms.present_3p == "holt ab"
+    assert word.separable_prefix is True
+
+
+def test_vocabulary_word_with_source():
+    """Test VocabularyWord with source provenance."""
+    word = VocabularyWord(
+        german="Haus",
+        english="house",
+        part_of_speech=PartOfSpeech.NOUN,
+        gender=Gender.NEUTER,
+        source="goethe-wortliste",
+    )
+    assert word.source == "goethe-wortliste"
+
+
+def test_vocabulary_word_with_thematic_group():
+    """Test VocabularyWord with thematic group."""
+    word = VocabularyWord(
+        german="Arzt",
+        english="doctor",
+        part_of_speech=PartOfSpeech.NOUN,
+        gender=Gender.MASCULINE,
+        thematic_group="Berufe",
+    )
+    assert word.thematic_group == "Berufe"
+
+
+def test_vocabulary_word_backward_compatible():
+    """Test that existing words without new fields still load."""
+    word = VocabularyWord(
+        german="Haus",
+        english="house",
+        part_of_speech=PartOfSpeech.NOUN,
+        gender=Gender.NEUTER,
+        plural="Häuser",
+        level="A1",
+    )
+    assert word.source is None
+    assert word.examples_de is None
+    assert word.verb_forms is None
+    assert word.thematic_group is None
+    assert word.separable_prefix is None
