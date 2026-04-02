@@ -1,1486 +1,4125 @@
 {
   "words": [
     {
-      "german": "sein",
-      "english": "to be",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "haben",
-      "english": "to have",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "werden",
-      "english": "to become",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "können",
-      "english": "to be able to / can",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "müssen",
-      "english": "to have to / must",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "sagen",
-      "english": "to say",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "machen",
-      "english": "to make / to do",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "geben",
-      "english": "to give",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "kommen",
-      "english": "to come",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "sollen",
-      "english": "should / ought to",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "wollen",
-      "english": "to want",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "gehen",
-      "english": "to go",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "wissen",
-      "english": "to know (facts)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "sehen",
-      "english": "to see",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "lassen",
-      "english": "to let / to leave",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "stehen",
-      "english": "to stand",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "finden",
-      "english": "to find",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "bleiben",
-      "english": "to stay / to remain",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "liegen",
-      "english": "to lie / to be located",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "heißen",
-      "english": "to be called / to mean",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "denken",
-      "english": "to think",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "nehmen",
-      "english": "to take",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "tun",
-      "english": "to do",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "dürfen",
-      "english": "to be allowed to / may",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "glauben",
-      "english": "to believe",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "halten",
-      "english": "to hold / to stop",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "nennen",
-      "english": "to name / to call",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "mögen",
-      "english": "to like",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "zeigen",
-      "english": "to show",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "führen",
-      "english": "to lead",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "sprechen",
-      "english": "to speak",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "arbeiten",
-      "english": "to work",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "spielen",
-      "english": "to play",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "lernen",
-      "english": "to learn",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "lesen",
-      "english": "to read",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "schreiben",
-      "english": "to write",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "hören",
-      "english": "to hear",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "kaufen",
-      "english": "to buy",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "essen",
-      "english": "to eat",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "trinken",
-      "english": "to drink",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "schlafen",
-      "english": "to sleep",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "wohnen",
-      "english": "to live (reside)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "fahren",
-      "english": "to drive / to travel",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "fragen",
-      "english": "to ask",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "antworten",
-      "english": "to answer",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "verstehen",
-      "english": "to understand",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "brauchen",
-      "english": "to need",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "kennen",
-      "english": "to know (a person/place)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "leben",
-      "english": "to live (be alive)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "bringen",
-      "english": "to bring",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "helfen",
-      "english": "to help",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "laufen",
-      "english": "to run / to walk",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "kosten",
-      "english": "to cost",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "öffnen",
-      "english": "to open",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "schließen",
-      "english": "to close",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "beginnen",
-      "english": "to begin",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "kochen",
-      "english": "to cook",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "warten",
-      "english": "to wait",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "bezahlen",
-      "english": "to pay",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "suchen",
-      "english": "to search / to look for",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "sitzen",
-      "english": "to sit",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "rufen",
-      "english": "to call (shout)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "tragen",
-      "english": "to carry / to wear",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "fallen",
-      "english": "to fall",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "ziehen",
-      "english": "to pull / to move",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "bekommen",
-      "english": "to receive / to get",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "versuchen",
-      "english": "to try",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "aufstehen",
-      "english": "to get up / to stand up",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "anfangen",
-      "english": "to start / to begin",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "einkaufen",
-      "english": "to shop / to go shopping",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "anrufen",
-      "english": "to call (phone)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "mitkommen",
-      "english": "to come along",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "fernsehen",
-      "english": "to watch TV",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "gefallen",
-      "english": "to be pleasing / to like",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "gehören",
-      "english": "to belong to",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "stimmen",
-      "english": "to be correct / to be right",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "dauern",
-      "english": "to last / to take (time)",
-      "part_of_speech": "verb",
-      "level": "A1"
-    },
-    {
-      "german": "erklären",
-      "english": "to explain",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "erzählen",
-      "english": "to tell / to narrate",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "vergessen",
-      "english": "to forget",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "erinnern",
-      "english": "to remember / to remind",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "beschreiben",
-      "english": "to describe",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "entscheiden",
-      "english": "to decide",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "empfehlen",
-      "english": "to recommend",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "bestellen",
-      "english": "to order",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "besuchen",
-      "english": "to visit",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "verbringen",
-      "english": "to spend (time)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "reisen",
-      "english": "to travel",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "fliegen",
-      "english": "to fly",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "schwimmen",
-      "english": "to swim",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "wandern",
-      "english": "to hike",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "aufhören",
-      "english": "to stop / to cease",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "einladen",
-      "english": "to invite",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "ausgeben",
-      "english": "to spend (money)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "umziehen",
-      "english": "to move (residence)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "vorbereiten",
-      "english": "to prepare",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "teilnehmen",
-      "english": "to participate",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "stattfinden",
-      "english": "to take place",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "vorschlagen",
-      "english": "to suggest / to propose",
-      "part_of_speech": "verb",
-      "level": "A2"
+      "german": "abfahren",
+      "english": "to depart",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "abgeben",
+      "english": "to hand in / to drop off",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "gibt ab",
+        "past_participle": "abgegeben",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
     },
     {
       "german": "abholen",
       "english": "to pick up / to collect",
       "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "ankommen",
-      "english": "to arrive",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "abfahren",
-      "english": "to depart",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "umsteigen",
-      "english": "to transfer / to change (trains)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "aussteigen",
-      "english": "to get off / to exit",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "einsteigen",
-      "english": "to get on / to board",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "verdienen",
-      "english": "to earn",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "sparen",
-      "english": "to save (money)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "leihen",
-      "english": "to lend / to borrow",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "wechseln",
-      "english": "to change / to exchange",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "reparieren",
-      "english": "to repair",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "putzen",
-      "english": "to clean",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "waschen",
-      "english": "to wash",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "aufräumen",
-      "english": "to tidy up / to clean up",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "schmecken",
-      "english": "to taste",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "riechen",
-      "english": "to smell",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "backen",
-      "english": "to bake",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "schneiden",
-      "english": "to cut",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "hoffen",
-      "english": "to hope",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "wünschen",
-      "english": "to wish",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "träumen",
-      "english": "to dream",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "lachen",
-      "english": "to laugh",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "weinen",
-      "english": "to cry",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "übersetzen",
-      "english": "to translate",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "üben",
-      "english": "to practice",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "wiederholen",
-      "english": "to repeat / to review",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "prüfen",
-      "english": "to test / to check",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "unterschreiben",
-      "english": "to sign (a document)",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "erreichen",
-      "english": "to reach / to achieve",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "verlieren",
-      "english": "to lose",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "gewinnen",
-      "english": "to win",
-      "part_of_speech": "verb",
-      "level": "A2"
-    },
-    {
-      "german": "diskutieren",
-      "english": "to discuss",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "streiten",
-      "english": "to argue",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "vereinbaren",
-      "english": "to arrange/agree upon",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "mitteilen",
-      "english": "to inform/communicate",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "überzeugen",
-      "english": "to convince",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "zustimmen",
-      "english": "to agree",
-      "part_of_speech": "verb",
-      "level": "B1"
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "holt ab",
+        "past_participle": "abgeholt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
     },
     {
       "german": "ablehnen",
       "english": "to reject/decline",
       "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "bewerben",
-      "english": "to apply (for a job)",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "kündigen",
-      "english": "to quit/resign",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "einstellen",
-      "english": "to hire/employ",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "planen",
-      "english": "to plan",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "organisieren",
-      "english": "to organize",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "buchen",
-      "english": "to book/reserve",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "übernachten",
-      "english": "to stay overnight",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "enttäuschen",
-      "english": "to disappoint",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "vermissen",
-      "english": "to miss (someone/something)",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "beraten",
-      "english": "to advise/counsel",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "vergleichen",
-      "english": "to compare",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "versprechen",
-      "english": "to promise",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "warnen",
-      "english": "to warn",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "bitten",
-      "english": "to ask/request",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "bewundern",
-      "english": "to admire",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "vermuten",
-      "english": "to suspect/assume",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "vorziehen",
-      "english": "to prefer",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "veröffentlichen",
-      "english": "to publish",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "unterstützen",
-      "english": "to support",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "beobachten",
-      "english": "to observe",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "stören",
-      "english": "to disturb",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "anerkennen",
-      "english": "to recognize/acknowledge",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "erledigen",
-      "english": "to take care of/complete (a task)",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "beeinflussen",
-      "english": "to influence",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "bedauern",
-      "english": "to regret",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "gratulieren",
-      "english": "to congratulate",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "benachrichtigen",
-      "english": "to notify",
-      "part_of_speech": "verb",
-      "level": "B1"
-    },
-    {
-      "german": "analysieren",
-      "english": "to analyze",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "argumentieren",
-      "english": "to argue/reason",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "beurteilen",
-      "english": "to assess/judge",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "widersprechen",
-      "english": "to contradict",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "erörtern",
-      "english": "to discuss/deliberate (formal)",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "nachweisen",
-      "english": "to prove/demonstrate",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "behaupten",
-      "english": "to claim/assert",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "widerlegen",
-      "english": "to refute",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "hervorheben",
-      "english": "to emphasize/highlight",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "zusammenfassen",
-      "english": "to summarize",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "auswerten",
-      "english": "to evaluate/analyze (data)",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "erforschen",
-      "english": "to research/explore",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "einschätzen",
-      "english": "to assess/estimate",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "voraussetzen",
-      "english": "to presuppose/require",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "berücksichtigen",
-      "english": "to consider/take into account",
-      "part_of_speech": "verb",
-      "level": "B2"
+      "level": "B1",
+      "source": "ai-generated"
     },
     {
       "german": "ableiten",
       "english": "to derive/deduce",
       "part_of_speech": "verb",
-      "level": "B2"
+      "level": "B2",
+      "source": "ai-generated"
     },
     {
-      "german": "verknüpfen",
-      "english": "to link/connect",
+      "german": "abschließen",
+      "english": "to lock / to complete",
       "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "bewältigen",
-      "english": "to cope with/manage",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "gewährleisten",
-      "english": "to guarantee/ensure",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "durchführen",
-      "english": "to carry out/conduct",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "beauftragen",
-      "english": "to commission/assign",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "betreuen",
-      "english": "to supervise/look after",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "beantragen",
-      "english": "to apply for (formally)",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "begründen",
-      "english": "to justify/give reasons",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "anstreben",
-      "english": "to aspire to/strive for",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "verfügen",
-      "english": "to have at one's disposal",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "beitragen",
-      "english": "to contribute",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "untersuchen",
-      "english": "to examine/investigate",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "ermitteln",
-      "english": "to determine/investigate",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "beeinträchtigen",
-      "english": "to impair/affect negatively",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "vernachlässigen",
-      "english": "to neglect",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "darstellen",
-      "english": "to represent/depict",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "überprüfen",
-      "english": "to verify/review",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "fördern",
-      "english": "to promote/support",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "hinterfragen",
-      "english": "to question critically",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "anwenden",
-      "english": "to apply/use",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "erwägen",
-      "english": "to consider/contemplate",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "ergänzen",
-      "english": "to supplement/complement",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "veranschaulichen",
-      "english": "to illustrate/visualize",
-      "part_of_speech": "verb",
-      "level": "B2"
-    },
-    {
-      "german": "darlegen",
-      "english": "to set forth/expound",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "erläutern",
-      "english": "to elucidate/explain in detail",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "implizieren",
-      "english": "to imply",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "konstatieren",
-      "english": "to state/establish (a fact)",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "postulieren",
-      "english": "to postulate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "deduzieren",
-      "english": "to deduce",
-      "part_of_speech": "verb",
-      "level": "C1"
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schließt ab",
+        "past_participle": "abgeschlossen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
     },
     {
       "german": "abstrahieren",
       "english": "to abstract",
       "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "differenzieren",
-      "english": "to differentiate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "konkretisieren",
-      "english": "to make concrete/specify",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "relativieren",
-      "english": "to put into perspective/relativize",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "ratifizieren",
-      "english": "to ratify",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "legitimieren",
-      "english": "to legitimize",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "reglementieren",
-      "english": "to regulate strictly",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "sanktionieren",
-      "english": "to sanction",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "konsolidieren",
-      "english": "to consolidate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "anvisieren",
-      "english": "to target/aim at",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "gegenüberstellen",
-      "english": "to juxtapose/compare",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "einräumen",
-      "english": "to concede/admit",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "untermauern",
-      "english": "to underpin/substantiate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "suggerieren",
-      "english": "to suggest/insinuate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "antizipieren",
-      "english": "to anticipate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "kompensieren",
-      "english": "to compensate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "korrelieren",
-      "english": "to correlate",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "manifestieren",
-      "english": "to manifest",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "transformieren",
-      "english": "to transform",
-      "part_of_speech": "verb",
-      "level": "C1"
-    },
-    {
-      "german": "frönen",
-      "english": "to indulge in",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "huldigen",
-      "english": "to pay homage",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "schmähen",
-      "english": "to revile/vilify",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "ersinnen",
-      "english": "to devise/contrive",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "erküren",
-      "english": "to choose/elect (archaic)",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "entsagen",
-      "english": "to renounce/forswear",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "obwalten",
-      "english": "to prevail/obtain (formal)",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "verheißen",
-      "english": "to promise/foretell (literary)",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "trachten",
-      "english": "to strive/aspire (literary)",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "subsumieren",
-      "english": "to subsume",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "extrapolieren",
-      "english": "to extrapolate",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "dekonstruieren",
-      "english": "to deconstruct",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "kontextualisieren",
-      "english": "to contextualize",
-      "part_of_speech": "verb",
-      "level": "C2"
-    },
-    {
-      "german": "perpetuieren",
-      "english": "to perpetuate",
-      "part_of_speech": "verb",
-      "level": "C2"
+      "level": "C1",
+      "source": "ai-generated"
     },
     {
       "german": "amalgamieren",
       "english": "to amalgamate",
       "part_of_speech": "verb",
-      "level": "C2"
+      "level": "C2",
+      "source": "ai-generated"
     },
     {
-      "german": "prädestinieren",
-      "english": "to predestine",
+      "german": "analysieren",
+      "english": "to analyze",
       "part_of_speech": "verb",
-      "level": "C2"
+      "level": "B2",
+      "source": "ai-generated"
     },
     {
-      "german": "transzendieren",
-      "english": "to transcend",
+      "german": "anbieten",
+      "english": "to offer",
       "part_of_speech": "verb",
-      "level": "C2"
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "bietet an",
+        "past_participle": "angeboten",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
     },
     {
-      "german": "oszillieren",
-      "english": "to oscillate",
+      "german": "anerkennen",
+      "english": "to recognize/acknowledge",
       "part_of_speech": "verb",
-      "level": "C2"
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "anfangen",
+      "english": "to start / to begin",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "fängt an",
+        "past_participle": "angefangen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ankommen",
+      "english": "to arrive",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kommt an",
+        "past_participle": "angekommen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "anmachen",
+      "english": "to turn on / to switch on",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "macht an",
+        "past_participle": "angemacht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "anmelden",
+      "english": "to register / to sign up",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "meldet an",
+        "past_participle": "angemeldet",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "anrufen",
+      "english": "to call (phone)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "ruft an",
+        "past_participle": "angerufen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ansehen",
+      "english": "to look at / to watch",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "sieht an",
+        "past_participle": "angesehen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "anstreben",
+      "english": "to aspire to/strive for",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "antizipieren",
+      "english": "to anticipate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "antworten",
+      "english": "to answer",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "antwortet",
+        "past_participle": "geantwortet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "anvisieren",
+      "english": "to target/aim at",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "anwenden",
+      "english": "to apply/use",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "arbeiten",
+      "english": "to work",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "arbeitet",
+        "past_participle": "gearbeitet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "argumentieren",
+      "english": "to argue/reason",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop / to cease",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hört auf",
+        "past_participle": "aufgehört",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aufmachen",
+      "english": "to open",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "macht auf",
+        "past_participle": "aufgemacht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aufpassen",
+      "english": "to watch out / to pay attention",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "passt auf",
+        "past_participle": "aufgepasst",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aufräumen",
+      "english": "to tidy up / to clean up",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "räumt auf",
+        "past_participle": "aufgeräumt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aufstehen",
+      "english": "to get up / to stand up",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "steht auf",
+        "past_participle": "aufgestanden",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ausfüllen",
+      "english": "to fill out / to complete",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "füllt aus",
+        "past_participle": "ausgefüllt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ausgeben",
+      "english": "to spend (money)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gibt aus",
+        "past_participle": "ausgegeben",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ausgehen",
+      "english": "to go out",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "geht aus",
+        "past_participle": "ausgegangen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ausmachen",
+      "english": "to turn off / to switch off",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "macht aus",
+        "past_participle": "ausgemacht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "auspacken",
+      "english": "to unpack",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "packt aus",
+        "past_participle": "ausgepackt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "ausruhen",
+      "english": "to rest / to relax",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "ruht aus",
+        "past_participle": "ausgeruht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aussehen",
+      "english": "to look / to appear",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "sieht aus",
+        "past_participle": "ausgesehen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aussprechen",
+      "english": "to pronounce",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "spricht aus",
+        "past_participle": "ausgesprochen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "aussteigen",
+      "english": "to get off / to exit",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "steigt aus",
+        "past_participle": "ausgestiegen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "austragen",
+      "english": "to deliver / to carry out",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "trägt aus",
+        "past_participle": "ausgetragen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "auswerten",
+      "english": "to evaluate/analyze (data)",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "backen",
+      "english": "to bake",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bäckt",
+        "past_participle": "gebacken",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "baden",
+      "english": "to bathe / to swim",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "badet",
+        "past_participle": "gebadet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beantragen",
+      "english": "to apply for (formally)",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "beantragt",
+        "past_participle": "beantragt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beauftragen",
+      "english": "to commission/assign",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bedauern",
+      "english": "to regret",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bedeuten",
+      "english": "to mean",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "bedeutet",
+        "past_participle": "bedeutet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beeilen",
+      "english": "to hurry",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "beeilt",
+        "past_participle": "beeilt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beeinflussen",
+      "english": "to influence",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beeinträchtigen",
+      "english": "to impair/affect negatively",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beenden",
+      "english": "to end / to finish",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "beendet",
+        "past_participle": "beendet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beginnen",
+      "english": "to begin",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "beginnt",
+        "past_participle": "begonnen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "begründen",
+      "english": "to justify/give reasons",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "begründet",
+        "past_participle": "begründet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "behaupten",
+      "english": "to claim/assert",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beitragen",
+      "english": "to contribute",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bekommen",
+      "english": "to receive / to get",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bekommt",
+        "past_participle": "bekommen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "benachrichtigen",
+      "english": "to notify",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "benutzen",
+      "english": "to use",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "benutzt",
+        "past_participle": "benutzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "beobachten",
+      "english": "to observe",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beraten",
+      "english": "to advise/counsel",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "berät",
+        "past_participle": "beraten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "berichten",
+      "english": "to report",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "berichtet",
+        "past_participle": "berichtet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "berücksichtigen",
+      "english": "to consider/take into account",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beschreiben",
+      "english": "to describe",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "beschreibt",
+        "past_participle": "beschrieben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "besichtigen",
+      "english": "to visit / to tour",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "besichtigt",
+        "past_participle": "besichtigt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "bestehen",
+      "english": "to pass (exam) / to exist",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "besteht",
+        "past_participle": "bestanden",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "bestellen",
+      "english": "to order",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bestellt",
+        "past_participle": "bestellt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "besuchen",
+      "english": "to visit",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "besucht",
+        "past_participle": "besucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "betreuen",
+      "english": "to supervise/look after",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "beurteilen",
+      "english": "to assess/judge",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bewerben",
+      "english": "to apply (for a job)",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bewundern",
+      "english": "to admire",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bewältigen",
+      "english": "to cope with/manage",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bezahlt",
+        "past_participle": "bezahlt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "bitten",
+      "english": "to ask/request",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bittet",
+        "past_participle": "gebeten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "bleiben",
+      "english": "to stay / to remain",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bleibt",
+        "past_participle": "geblieben",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "braucht",
+        "past_participle": "gebraucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "brennen",
+      "english": "to burn",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "brennt",
+        "past_participle": "gebrannt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "bringen",
+      "english": "to bring",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bringt",
+        "past_participle": "gebracht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "buchen",
+      "english": "to book/reserve",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bucht",
+        "past_participle": "gebucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "danken",
+      "english": "to thank",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "dankt",
+        "past_participle": "gedankt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "darlegen",
+      "english": "to set forth/expound",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "darstellen",
+      "english": "to represent/depict",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "dauern",
+      "english": "to last / to take (time)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "dauert",
+        "past_participle": "gedauert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "deduzieren",
+      "english": "to deduce",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "dekonstruieren",
+      "english": "to deconstruct",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "denken",
+      "english": "to think",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "denkt",
+        "past_participle": "gedacht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "differenzieren",
+      "english": "to differentiate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "diskutieren",
+      "english": "to discuss",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "diskutiert",
+        "past_participle": "diskutiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "drucken",
+      "english": "to print",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "druckt",
+        "past_participle": "gedruckt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "drücken",
+      "english": "to press / to push",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "drückt",
+        "past_participle": "gedrückt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "durchführen",
+      "english": "to carry out/conduct",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "duschen",
+      "english": "to shower",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "duscht",
+        "past_participle": "geduscht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "dürfen",
+      "english": "to be allowed to / may",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "darf",
+        "past_participle": "gedurft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop / to go shopping",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kauft ein",
+        "past_participle": "eingekauft",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "einladen",
+      "english": "to invite",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "lädt ein",
+        "past_participle": "eingeladen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "einpacken",
+      "english": "to pack / to wrap",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "packt ein",
+        "past_participle": "eingepackt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "einräumen",
+      "english": "to concede/admit",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "einschalten",
+      "english": "to switch on",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schaltet ein",
+        "past_participle": "eingeschaltet",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "einschätzen",
+      "english": "to assess/estimate",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "einsteigen",
+      "english": "to get on / to board",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "steigt ein",
+        "past_participle": "eingestiegen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "einstellen",
+      "english": "to hire/employ",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "eintragen",
+      "english": "to enter / to register",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "trägt ein",
+        "past_participle": "eingetragen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "empfehlen",
+      "english": "to recommend",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "empfiehlt",
+        "past_participle": "empfohlen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "entsagen",
+      "english": "to renounce/forswear",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "entscheiden",
+      "english": "to decide",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "enttäuschen",
+      "english": "to disappoint",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erforschen",
+      "english": "to research/explore",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "ergänzen",
+      "english": "to supplement/complement",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erhalten",
+      "english": "to receive / to get",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "erhält",
+        "past_participle": "erhalten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erhöhen",
+      "english": "to increase / to raise",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "erhöht",
+        "past_participle": "erhöht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erinnern",
+      "english": "to remember / to remind",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "erinnert",
+        "past_participle": "erinnert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erkennen",
+      "english": "to recognize",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "erkennt",
+        "past_participle": "erkannt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erklären",
+      "english": "to explain",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "erklärt",
+        "past_participle": "erklärt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erküren",
+      "english": "to choose/elect (archaic)",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erlauben",
+      "english": "to allow / to permit",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "erlaubt",
+        "past_participle": "erlaubt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erledigen",
+      "english": "to take care of/complete (a task)",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erläutern",
+      "english": "to elucidate/explain in detail",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "ermitteln",
+      "english": "to determine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erreichen",
+      "english": "to reach / to achieve",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "erreicht",
+        "past_participle": "erreicht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erschrecken",
+      "english": "to be frightened / to scare",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "erschrickt",
+        "past_participle": "erschrocken",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "ersinnen",
+      "english": "to devise/contrive",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erwägen",
+      "english": "to consider/contemplate",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "erzählen",
+      "english": "to tell / to narrate",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "erzählt",
+        "past_participle": "erzählt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "erörtern",
+      "english": "to discuss/deliberate (formal)",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "essen",
+      "english": "to eat",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "isst",
+        "past_participle": "gegessen",
+        "auxiliary": "hat"
+      }
     },
     {
       "german": "evozieren",
       "english": "to evoke",
       "part_of_speech": "verb",
-      "level": "C2"
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "extrapolieren",
+      "english": "to extrapolate",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "fahren",
+      "english": "to drive / to travel",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "fährt",
+        "past_participle": "gefahren",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "fallen",
+      "english": "to fall",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "fällt",
+        "past_participle": "gefallen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "fangen",
+      "english": "to catch",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "fängt",
+        "past_participle": "gefangen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "fehlen",
+      "english": "to be missing / to lack",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "fehlt",
+        "past_participle": "gefehlt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "feiern",
+      "english": "to celebrate",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "feiert",
+        "past_participle": "gefeiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "fernsehen",
+      "english": "to watch TV",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "sieht fern",
+        "past_participle": "ferngesehen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "finden",
+      "english": "to find",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "findet",
+        "past_participle": "gefunden",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "fliegen",
+      "english": "to fly",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "fliegt",
+        "past_participle": "geflogen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "folgen",
+      "english": "to follow",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "folgt",
+        "past_participle": "gefolgt",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "fragt",
+        "past_participle": "gefragt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "freuen",
+      "english": "to be glad / to look forward to",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "freut",
+        "past_participle": "gefreut",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "frönen",
+      "english": "to indulge in",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "frühstücken",
+      "english": "to have breakfast",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "frühstückt",
+        "past_participle": "gefrühstückt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "fördern",
+      "english": "to promote/support",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "fühlen",
+      "english": "to feel",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "fühlt",
+        "past_participle": "gefühlt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "führen",
+      "english": "to lead",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "führt",
+        "past_participle": "geführt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "geben",
+      "english": "to give",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gibt",
+        "past_participle": "gegeben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gefallen",
+      "english": "to be pleasing / to like",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gefällt",
+        "past_participle": "gefallen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gegenüberstellen",
+      "english": "to juxtapose/compare",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "gehen",
+      "english": "to go",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "geht",
+        "past_participle": "gegangen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "gehören",
+      "english": "to belong to",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gehört",
+        "past_participle": "gehört",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gewinnen",
+      "english": "to win",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gewinnt",
+        "past_participle": "gewonnen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gewährleisten",
+      "english": "to guarantee/ensure",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "gewöhnen",
+      "english": "to get used to",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "gewöhnt",
+        "past_participle": "gewöhnt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "glauben",
+      "english": "to believe",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "glaubt",
+        "past_participle": "geglaubt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gratulieren",
+      "english": "to congratulate",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "gratuliert",
+        "past_participle": "gratuliert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "grillen",
+      "english": "to grill / to barbecue",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "grillt",
+        "past_participle": "gegrillt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "grüßen",
+      "english": "to greet",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "grüßt",
+        "past_participle": "gegrüßt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "gucken",
+      "english": "to look / to watch",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "guckt",
+        "past_participle": "geguckt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "haben",
+      "english": "to have",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hat",
+        "past_participle": "gehabt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "halten",
+      "english": "to hold / to stop",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hält",
+        "past_participle": "gehalten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "heben",
+      "english": "to lift / to raise",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "hebt",
+        "past_participle": "gehoben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "heiraten",
+      "english": "to marry",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "heiratet",
+        "past_participle": "geheiratet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "heißen",
+      "english": "to be called / to mean",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "heißt",
+        "past_participle": "geheißen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "helfen",
+      "english": "to help",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hilft",
+        "past_participle": "geholfen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "herstellen",
+      "english": "to produce / to manufacture",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "stellt her",
+        "past_participle": "hergestellt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "hervorheben",
+      "english": "to emphasize/highlight",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "hinterfragen",
+      "english": "to question critically",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "hoffen",
+      "english": "to hope",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hofft",
+        "past_participle": "gehofft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "holen",
+      "english": "to get / to fetch",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "holt",
+        "past_participle": "geholt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "huldigen",
+      "english": "to pay homage",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "husten",
+      "english": "to cough",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "hustet",
+        "past_participle": "gehustet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "hängen",
+      "english": "to hang",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "hängt",
+        "past_participle": "gehangen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "hören",
+      "english": "to hear",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "hört",
+        "past_participle": "gehört",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "implizieren",
+      "english": "to imply",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "informieren",
+      "english": "to inform",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "informiert",
+        "past_participle": "informiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "interessieren",
+      "english": "to interest / to be interested in",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "interessiert",
+        "past_participle": "interessiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kauft",
+        "past_participle": "gekauft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kennen",
+      "english": "to know (a person/place)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kennt",
+        "past_participle": "gekannt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kennenlernen",
+      "english": "to get to know / to meet",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "lernt kennen",
+        "past_participle": "kennengelernt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "klingeln",
+      "english": "to ring (doorbell/phone)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "klingelt",
+        "past_participle": "geklingelt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "klopfen",
+      "english": "to knock",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "klopft",
+        "past_participle": "geklopft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kocht",
+        "past_participle": "gekocht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kommen",
+      "english": "to come",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kommt",
+        "past_participle": "gekommen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "kompensieren",
+      "english": "to compensate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "konkretisieren",
+      "english": "to make concrete/specify",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "konsolidieren",
+      "english": "to consolidate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "konstatieren",
+      "english": "to state/establish (a fact)",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "kontextualisieren",
+      "english": "to contextualize",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "kontrollieren",
+      "english": "to check / to control",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "kontrolliert",
+        "past_participle": "kontrolliert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kopieren",
+      "english": "to copy",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "kopiert",
+        "past_participle": "kopiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "korrelieren",
+      "english": "to correlate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "korrigieren",
+      "english": "to correct",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "korrigiert",
+        "past_participle": "korrigiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kosten",
+      "english": "to cost",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kostet",
+        "past_participle": "gekostet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kriegen",
+      "english": "to get / to receive",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "kriegt",
+        "past_participle": "gekriegt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "können",
+      "english": "to be able to / can",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kann",
+        "past_participle": "gekonnt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "kündigen",
+      "english": "to quit/resign",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "lachen",
+      "english": "to laugh",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "lacht",
+        "past_participle": "gelacht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "landen",
+      "english": "to land",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "landet",
+        "past_participle": "gelandet",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "lassen",
+      "english": "to let / to leave",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "lässt",
+        "past_participle": "gelassen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "laufen",
+      "english": "to run / to walk",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "läuft",
+        "past_participle": "gelaufen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "leben",
+      "english": "to live (be alive)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "lebt",
+        "past_participle": "gelebt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "legen",
+      "english": "to lay / to put",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "legt",
+        "past_participle": "gelegt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "legitimieren",
+      "english": "to legitimize",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "leihen",
+      "english": "to lend / to borrow",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "leiht",
+        "past_participle": "geliehen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "lernt",
+        "past_participle": "gelernt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "lesen",
+      "english": "to read",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "liest",
+        "past_participle": "gelesen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "lieben",
+      "english": "to love",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "liebt",
+        "past_participle": "geliebt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "liefern",
+      "english": "to deliver",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "liefert",
+        "past_participle": "geliefert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "liegen",
+      "english": "to lie / to be located",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "liegt",
+        "past_participle": "gelegen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "lösen",
+      "english": "to solve / to buy (ticket)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "löst",
+        "past_participle": "gelöst",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "machen",
+      "english": "to make / to do",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "macht",
+        "past_participle": "gemacht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "malen",
+      "english": "to paint / to draw",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "malt",
+        "past_participle": "gemalt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "manifestieren",
+      "english": "to manifest",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "meinen",
+      "english": "to mean / to think",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "meint",
+        "past_participle": "gemeint",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "melden",
+      "english": "to report / to register",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "meldet",
+        "past_participle": "gemeldet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "merken",
+      "english": "to notice / to remember",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "merkt",
+        "past_participle": "gemerkt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "mieten",
+      "english": "to rent",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "mietet",
+        "past_participle": "gemietet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "mitbringen",
+      "english": "to bring along",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "bringt mit",
+        "past_participle": "mitgebracht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "kommt mit",
+        "past_participle": "mitgekommen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "mitmachen",
+      "english": "to participate / to join in",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "macht mit",
+        "past_participle": "mitgemacht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "mitnehmen",
+      "english": "to take along",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "nimmt mit",
+        "past_participle": "mitgenommen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "mitteilen",
+      "english": "to inform/communicate",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "teilt mit",
+        "past_participle": "mitgeteilt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "möchten",
+      "english": "would like",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "möchte",
+        "past_participle": "gemocht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "mögen",
+      "english": "to like",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "müssen",
+      "english": "to have to / must",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "muss",
+        "past_participle": "gemusst",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "nachweisen",
+      "english": "to prove/demonstrate",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "nehmen",
+      "english": "to take",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "nimmt",
+        "past_participle": "genommen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "nennen",
+      "english": "to name / to call",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "nennt",
+        "past_participle": "genannt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "nützen",
+      "english": "to be useful",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "nützt",
+        "past_participle": "genützt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "obwalten",
+      "english": "to prevail/obtain (formal)",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "organisieren",
+      "english": "to organize",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "organisiert",
+        "past_participle": "organisiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "oszillieren",
+      "english": "to oscillate",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "packen",
+      "english": "to pack",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "packt",
+        "past_participle": "gepackt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "parken",
+      "english": "to park",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "parkt",
+        "past_participle": "geparkt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "passen",
+      "english": "to fit / to suit",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "passt",
+        "past_participle": "gepasst",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "passieren",
+      "english": "to happen",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "passiert",
+        "past_participle": "passiert",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "perpetuieren",
+      "english": "to perpetuate",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "planen",
+      "english": "to plan",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "postulieren",
+      "english": "to postulate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "probieren",
+      "english": "to try / to taste",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "probiert",
+        "past_participle": "probiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "prädestinieren",
+      "english": "to predestine",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "prüfen",
+      "english": "to test / to check",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "putzen",
+      "english": "to clean",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "putzt",
+        "past_participle": "geputzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "ratifizieren",
+      "english": "to ratify",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "rauchen",
+      "english": "to smoke",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "raucht",
+        "past_participle": "geraucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "reden",
+      "english": "to talk / to speak",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "redet",
+        "past_participle": "geredet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "reglementieren",
+      "english": "to regulate strictly",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "regnen",
+      "english": "to rain",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "regnet",
+        "past_participle": "geregnet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "reisen",
+      "english": "to travel",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "reist",
+        "past_participle": "gereist",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "relativieren",
+      "english": "to put into perspective/relativize",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "rennen",
+      "english": "to run",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "rennt",
+        "past_participle": "gerannt",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "reparieren",
+      "english": "to repair",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "repariert",
+        "past_participle": "repariert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "reservieren",
+      "english": "to reserve",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "reserviert",
+        "past_participle": "reserviert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "riechen",
+      "english": "to smell",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "rufen",
+      "english": "to call (shout)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "ruft",
+        "past_participle": "gerufen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sagen",
+      "english": "to say",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "sagt",
+        "past_participle": "gesagt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sammeln",
+      "english": "to collect",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "sammelt",
+        "past_participle": "gesammelt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sanktionieren",
+      "english": "to sanction",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "schaffen",
+      "english": "to manage / to create",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schafft",
+        "past_participle": "geschafft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schalten",
+      "english": "to switch / to shift",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schaltet",
+        "past_participle": "geschaltet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schauen",
+      "english": "to look / to watch",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schaut",
+        "past_participle": "geschaut",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schenken",
+      "english": "to give (as a gift)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schenkt",
+        "past_participle": "geschenkt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schicken",
+      "english": "to send",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schickt",
+        "past_participle": "geschickt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schläft",
+        "past_participle": "geschlafen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schlagen",
+      "english": "to hit / to beat",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schlägt",
+        "past_participle": "geschlagen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schließen",
+      "english": "to close",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schließt",
+        "past_participle": "geschlossen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schmecken",
+      "english": "to taste",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schmeckt",
+        "past_participle": "geschmeckt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schmähen",
+      "english": "to revile/vilify",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "schneiden",
+      "english": "to cut",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schneidet",
+        "past_participle": "geschnitten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schreiben",
+      "english": "to write",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schreibt",
+        "past_participle": "geschrieben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "schwimmen",
+      "english": "to swim",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schwimmt",
+        "past_participle": "geschwommen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "schützen",
+      "english": "to protect",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "schützt",
+        "past_participle": "geschützt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sehen",
+      "english": "to see",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "sieht",
+        "past_participle": "gesehen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sein",
+      "english": "to be",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "setzen",
+      "english": "to sit down / to place",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "setzt",
+        "past_participle": "gesetzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sitzen",
+      "english": "to sit",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "sollen",
+      "english": "should / ought to",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "soll",
+        "past_participle": "gesollt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sorgen",
+      "english": "to take care of / to worry",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "sorgt",
+        "past_participle": "gesorgt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sparen",
+      "english": "to save (money)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "spart",
+        "past_participle": "gespart",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "spazieren",
+      "english": "to walk / to stroll",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "spaziert",
+        "past_participle": "spaziert",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "spielen",
+      "english": "to play",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "spielt",
+        "past_participle": "gespielt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "spricht",
+        "past_participle": "gesprochen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "stattfinden",
+      "english": "to take place",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "findet statt",
+        "past_participle": "stattgefunden",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "stehen",
+      "english": "to stand",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "steht",
+        "past_participle": "gestanden",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "steigen",
+      "english": "to climb / to rise",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "steigt",
+        "past_participle": "gestiegen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "stellen",
+      "english": "to put / to place",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "stellt",
+        "past_participle": "gestellt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "stimmen",
+      "english": "to be correct / to be right",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "stimmt",
+        "past_participle": "gestimmt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "streiten",
+      "english": "to argue",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "streitet",
+        "past_participle": "gestritten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "studieren",
+      "english": "to study (at university)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "studiert",
+        "past_participle": "studiert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "stören",
+      "english": "to disturb",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "stört",
+        "past_participle": "gestört",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "subsumieren",
+      "english": "to subsume",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "suchen",
+      "english": "to search / to look for",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "sucht",
+        "past_participle": "gesucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "suggerieren",
+      "english": "to suggest/insinuate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "tanzen",
+      "english": "to dance",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "tanzt",
+        "past_participle": "getanzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "tauschen",
+      "english": "to exchange / to swap",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "tauscht",
+        "past_participle": "getauscht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to participate",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "nimmt teil",
+        "past_participle": "teilgenommen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "telefonieren",
+      "english": "to telephone / to make a call",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "telefoniert",
+        "past_participle": "telefoniert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "trachten",
+      "english": "to strive/aspire (literary)",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "tragen",
+      "english": "to carry / to wear",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "trägt",
+        "past_participle": "getragen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "transformieren",
+      "english": "to transform",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "transzendieren",
+      "english": "to transcend",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "treffen",
+      "english": "to meet",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "trifft",
+        "past_participle": "getroffen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "treiben",
+      "english": "to do (sports) / to drive",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "treibt",
+        "past_participle": "getrieben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "trennen",
+      "english": "to separate",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "trennt",
+        "past_participle": "getrennt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "trinken",
+      "english": "to drink",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "trinkt",
+        "past_participle": "getrunken",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "träumen",
+      "english": "to dream",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "träumt",
+        "past_participle": "geträumt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "tun",
+      "english": "to do",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "tut",
+        "past_participle": "getan",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "umsteigen",
+      "english": "to transfer / to change (trains)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "steigt um",
+        "past_participle": "umgestiegen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "umtauschen",
+      "english": "to exchange",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "tauscht um",
+        "past_participle": "umgetauscht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "umziehen",
+      "english": "to move (residence)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "zieht um",
+        "past_participle": "umgezogen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "untermauern",
+      "english": "to underpin/substantiate",
+      "part_of_speech": "verb",
+      "level": "C1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "unterschreiben",
+      "english": "to sign (a document)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "unterschreibt",
+        "past_participle": "unterschrieben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "unterstützen",
+      "english": "to support",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "untersuchen",
+      "english": "to examine/investigate",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "untersucht",
+        "past_participle": "untersucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verabreden",
+      "english": "to arrange / to make an appointment",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verabredet",
+        "past_participle": "verabredet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "veranschaulichen",
+      "english": "to illustrate/visualize",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "verbessern",
+      "english": "to improve",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verbessert",
+        "past_participle": "verbessert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verbieten",
+      "english": "to forbid / to ban",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verbietet",
+        "past_participle": "verboten",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verbinden",
+      "english": "to connect",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verbindet",
+        "past_participle": "verbunden",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verbringen",
+      "english": "to spend (time)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "verbringt",
+        "past_participle": "verbracht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verdienen",
+      "english": "to earn",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "verdient",
+        "past_participle": "verdient",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "vereinbaren",
+      "english": "to arrange/agree upon",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "verfügen",
+      "english": "to have at one's disposal",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "vergessen",
+      "english": "to forget",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "vergisst",
+        "past_participle": "vergessen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "vergleichen",
+      "english": "to compare",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "vergleicht",
+        "past_participle": "verglichen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verheißen",
+      "english": "to promise/foretell (literary)",
+      "part_of_speech": "verb",
+      "level": "C2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "verkaufen",
+      "english": "to sell",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verkauft",
+        "past_participle": "verkauft",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verknüpfen",
+      "english": "to link/connect",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "verlassen",
+      "english": "to leave",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verlässt",
+        "past_participle": "verlassen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verletzen",
+      "english": "to injure",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verletzt",
+        "past_participle": "verletzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verlieren",
+      "english": "to lose",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "verliert",
+        "past_participle": "verloren",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "vermieten",
+      "english": "to rent out",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "vermietet",
+        "past_participle": "vermietet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "vermissen",
+      "english": "to miss (someone/something)",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "vermuten",
+      "english": "to suspect/assume",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "vernachlässigen",
+      "english": "to neglect",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "verpassen",
+      "english": "to miss (bus etc.)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verpasst",
+        "past_participle": "verpasst",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verschieben",
+      "english": "to postpone",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verschiebt",
+        "past_participle": "verschoben",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "versprechen",
+      "english": "to promise",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "verspricht",
+        "past_participle": "versprochen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "versteht",
+        "past_participle": "verstanden",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "versuchen",
+      "english": "to try",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "versucht",
+        "past_participle": "versucht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verwenden",
+      "english": "to use",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verwendet",
+        "past_participle": "verwendet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "verzeihen",
+      "english": "to forgive",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "verzeiht",
+        "past_participle": "verziehen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "veröffentlichen",
+      "english": "to publish",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "voraussetzen",
+      "english": "to presuppose/require",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "vorbereiten",
+      "english": "to prepare",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "bereitet vor",
+        "past_participle": "vorbereitet",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "vorkommen",
+      "english": "to occur / to happen",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "kommt vor",
+        "past_participle": "vorgekommen",
+        "auxiliary": "ist"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "vorschlagen",
+      "english": "to suggest / to propose",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "schlägt vor",
+        "past_participle": "vorgeschlagen",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "vorstellen",
+      "english": "to introduce / to imagine",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "stellt vor",
+        "past_participle": "vorgestellt",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "vorziehen",
+      "english": "to prefer",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "wachsen",
+      "english": "to grow",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "wächst",
+        "past_participle": "gewachsen",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "wandern",
+      "english": "to hike",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wandert",
+        "past_participle": "gewandert",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "warnen",
+      "english": "to warn",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "warten",
+      "english": "to wait",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wartet",
+        "past_participle": "gewartet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "waschen",
+      "english": "to wash",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wäscht",
+        "past_participle": "gewaschen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wechseln",
+      "english": "to change / to exchange",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wechselt",
+        "past_participle": "gewechselt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wehtun",
+      "english": "to hurt",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "tut weh",
+        "past_participle": "wehgetan",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "weinen",
+      "english": "to cry",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "weint",
+        "past_participle": "geweint",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "werden",
+      "english": "to become",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wird",
+        "past_participle": "geworden",
+        "auxiliary": "ist"
+      }
+    },
+    {
+      "german": "widerlegen",
+      "english": "to refute",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "widersprechen",
+      "english": "to contradict",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "wiederholen",
+      "english": "to repeat / to review",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "wiegen",
+      "english": "to weigh",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "wiegt",
+        "past_participle": "gewogen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wissen",
+      "english": "to know (facts)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "weiß",
+        "past_participle": "gewusst",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wohnen",
+      "english": "to live (reside)",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wohnt",
+        "past_participle": "gewohnt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wollen",
+      "english": "to want",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "will",
+        "past_participle": "gewollt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wählen",
+      "english": "to choose / to dial / to vote",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "wählt",
+        "past_participle": "gewählt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "wünschen",
+      "english": "to wish",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "wünscht",
+        "past_participle": "gewünscht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "zahlen",
+      "english": "to pay",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "zahlt",
+        "past_participle": "gezahlt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "zeichnen",
+      "english": "to draw",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "zeichnet",
+        "past_participle": "gezeichnet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "zeigen",
+      "english": "to show",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "zeigt",
+        "past_participle": "gezeigt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "ziehen",
+      "english": "to pull / to move",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "zieht",
+        "past_participle": "gezogen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "zuhören",
+      "english": "to listen",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "hört zu",
+        "past_participle": "zugehört",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "zumachen",
+      "english": "to close",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "macht zu",
+        "past_participle": "zugemacht",
+        "auxiliary": "hat"
+      },
+      "separable_prefix": true
+    },
+    {
+      "german": "zusammenfassen",
+      "english": "to summarize",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "zustimmen",
+      "english": "to agree",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
+    },
+    {
+      "german": "ändern",
+      "english": "to change / to alter",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "ändert",
+        "past_participle": "geändert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "ärgern",
+      "english": "to annoy / to be annoyed",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "ärgert",
+        "past_participle": "geärgert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "öffnen",
+      "english": "to open",
+      "part_of_speech": "verb",
+      "level": "A1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "öffnet",
+        "past_participle": "geöffnet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "üben",
+      "english": "to practice",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "übt",
+        "past_participle": "geübt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überholen",
+      "english": "to overtake",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "überholt",
+        "past_participle": "überholt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überlegen",
+      "english": "to think over / to consider",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "überlegt",
+        "past_participle": "überlegt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "übernachtet",
+        "past_participle": "übernachtet",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überprüfen",
+      "english": "to verify/review",
+      "part_of_speech": "verb",
+      "level": "B2",
+      "source": "ai-generated"
+    },
+    {
+      "german": "überqueren",
+      "english": "to cross",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "überquert",
+        "past_participle": "überquert",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überraschen",
+      "english": "to surprise",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "überrascht",
+        "past_participle": "überrascht",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "übersetzen",
+      "english": "to translate",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "both",
+      "verb_forms": {
+        "present_3p": "übersetzt",
+        "past_participle": "übersetzt",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überweisen",
+      "english": "to transfer (money)",
+      "part_of_speech": "verb",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "verb_forms": {
+        "present_3p": "überweist",
+        "past_participle": "überwiesen",
+        "auxiliary": "hat"
+      }
+    },
+    {
+      "german": "überzeugen",
+      "english": "to convince",
+      "part_of_speech": "verb",
+      "level": "B1",
+      "source": "ai-generated"
     }
   ]
 }
