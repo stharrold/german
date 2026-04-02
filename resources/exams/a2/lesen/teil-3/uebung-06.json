@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-3-006",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail von Gülcan aus Hamburg",
+  "instructions": "Lesen Sie die E-Mail und die Aufgaben 11 bis 15. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Sonja,\n\nich bin jetzt schon vier Wochen in Hamburg und bin noch dabei, mich hier einzuleben. An der Universität ist vieles ganz anders organisiert als zu Hause. Und auch im täglichen Leben musste ich erst einmal lernen, wie einige Dinge hier gemacht werden. Zum Beispiel, wie ich ein Zimmer finde und wo ich was einkaufen kann.\n\nIn der ersten Woche haben ein paar Studenten eine Willkommensführung für uns ausländische Studierende gemacht. Sie haben uns die Uni gezeigt: die Bibliothek, die Cafeteria und die Multimedia-Räume. Hamburg habe ich dann alleine mit dem Stadtplan kennengelernt.\n\nIch wohne mit drei anderen Studenten aus Italien, Japan und Mexiko zusammen. Immer freitags kocht einer von uns etwas aus seinem Land und wir essen zusammen, obwohl wir nur eine winzig kleine Küche haben! Ich finde das super, du weißt ja, wie gerne ich koche!\n\nWir sprechen in der Wohnung nicht nur Deutsch, sondern oft auch Englisch miteinander. Manchmal ist das einfacher, aber mich stört das ein bisschen. Ich möchte dieses Jahr möglichst viel Deutsch lernen. Und weißt du, was mir am meisten Spaß macht? Der Literaturkurs. Der Dozent, Herr Hahn, ist ein total witziger Typ. Den müsstest du mal erleben. :-)\n\nIch freue mich auf deinen Besuch im März. Dann zeige ich dir die Stadt und an einem Nachmittag fahren wir an die Ostsee. Da ist es total schön. Du kannst dann bei Mario schlafen. Das ist der Italiener, der neben mir wohnt. Er ist einverstanden, denn er fährt in den Ferien nach Hause, nach Genua.\n\nSchreib mir bald!\nBis dann\nGülcan",
+    "text_en": "Dear Sonja,\n\nI've been in Hamburg for four weeks now and I'm still settling in. At the university many things are organized quite differently from at home. And in daily life too, I first had to learn how some things are done here. For example, how to find a room and where to buy things.\n\nIn the first week, a few students organized a welcome tour for us international students. They showed us the university: the library, the cafeteria and the multimedia rooms. I then got to know Hamburg on my own with a city map.\n\nI live with three other students from Italy, Japan and Mexico. Every Friday one of us cooks something from their country and we eat together, even though we only have a tiny little kitchen! I think it's great, you know how much I like to cook!\n\nIn the apartment we don't only speak German, but often English too. Sometimes that's easier, but it bothers me a bit. I want to learn as much German as possible this year. And do you know what I enjoy most? The literature course. The lecturer, Herr Hahn, is a really funny guy. You should experience him. :-)\n\nI'm looking forward to your visit in March. I'll show you the city and one afternoon we'll go to the Baltic Sea. It's really beautiful there. You can sleep at Mario's then. He's the Italian who lives next to me. He agrees, because he's going home for the holidays, to Genoa.\n\nWrite to me soon!\nSee you then\nGülcan",
+    "source": "E-Mail",
+    "word_count": 230
+  },
+  "questions": [
+    {
+      "number": 11,
+      "type": "multiple_choice",
+      "text_de": "Gülcan sagt über ihr Leben in Hamburg, dass …",
+      "text_en": "Gülcan says about her life in Hamburg that ...",
+      "options": [
+        "a) das Studium wie in ihrem Heimatland ist.",
+        "b) im Alltag einiges wie zu Hause ist.",
+        "c) im Moment vieles neu für sie ist."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Gülcan schreibt, dass sie noch dabei ist, sich einzuleben, und vieles anders organisiert ist als zu Hause.",
+      "explanation_en": "Gülcan writes that she is still settling in and many things are organized differently from at home."
+    },
+    {
+      "number": 12,
+      "type": "multiple_choice",
+      "text_de": "Die Studentengruppe hat …",
+      "text_en": "The student group has ...",
+      "options": [
+        "a) den Neuen die Hochschule gezeigt.",
+        "b) für neue Studenten eine Stadtführung gemacht.",
+        "c) Gülcan anderen ausländischen Studenten vorgestellt."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Studenten haben eine Willkommensführung gemacht und die Uni gezeigt (Bibliothek, Cafeteria, Multimedia-Räume).",
+      "explanation_en": "The students organized a welcome tour and showed the university (library, cafeteria, multimedia rooms)."
+    },
+    {
+      "number": 13,
+      "type": "multiple_choice",
+      "text_de": "In der Wohnung …",
+      "text_en": "In the apartment ...",
+      "options": [
+        "a) kochen alle zusammen.",
+        "b) kocht Gülcan immer für alle.",
+        "c) kocht jeder einmal für die anderen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Immer freitags kocht einer von ihnen etwas aus seinem Land — jeder kommt einmal dran.",
+      "explanation_en": "Every Friday one of them cooks something from their country — everyone takes a turn."
+    },
+    {
+      "number": 14,
+      "type": "multiple_choice",
+      "text_de": "Gülcan ist es wichtig …",
+      "text_en": "It is important to Gülcan ...",
+      "options": [
+        "a) auch Englisch zu üben.",
+        "b) Deutsch zu sprechen.",
+        "c) Herrn Hahn kennenzulernen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Es stört sie, dass oft Englisch gesprochen wird. Sie möchte möglichst viel Deutsch lernen.",
+      "explanation_en": "It bothers her that English is often spoken. She wants to learn as much German as possible."
+    },
+    {
+      "number": 15,
+      "type": "multiple_choice",
+      "text_de": "Im März …",
+      "text_en": "In March ...",
+      "options": [
+        "a) besuchen sie Mario zu Hause.",
+        "b) machen Sonja und Gülcan Urlaub am Meer.",
+        "c) übernachtet Sonja in Marios Zimmer."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Sonja kann bei Mario schlafen, weil er in den Ferien nach Hause fährt.",
+      "explanation_en": "Sonja can sleep at Mario's because he's going home for the holidays."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

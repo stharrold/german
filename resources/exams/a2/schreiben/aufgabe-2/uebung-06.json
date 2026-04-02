@@ -1,0 +1,27 @@
+{
+  "id": "a2-schreiben-aufgabe-2-006",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "E-Mail an den Chef — Geburtstagseinladung",
+  "instructions": "Ihr Chef, Herr Lehmann, hat bald Geburtstag. Er hat Ihnen eine Einladung zu seiner Feier geschickt. Schreiben Sie Herrn Lehmann eine E-Mail. Schreiben Sie 30–40 Wörter. Schreiben Sie zu allen drei Punkten.",
+  "situation_de": "Ihr Chef, Herr Lehmann, hat bald Geburtstag. Er hat Ihnen eine Einladung zu seiner Feier geschickt. Schreiben Sie Herrn Lehmann eine E-Mail: Bedanken Sie sich und sagen Sie, dass Sie kommen. Informieren Sie, dass Sie jemanden mitbringen. Fragen Sie nach dem Weg.",
+  "situation_en": "Your boss, Mr. Lehmann, has a birthday soon. He has sent you an invitation to his celebration. Write Mr. Lehmann an email: Thank him and say that you will come. Inform him that you are bringing someone. Ask for directions.",
+  "target_word_count": 35,
+  "required_points": [
+    "Sich bedanken und zusagen (Thank him and confirm attendance)",
+    "Informieren, dass man jemanden mitbringt (Inform that you are bringing someone)",
+    "Nach dem Weg fragen (Ask for directions)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrter Herr Lehmann,\n\nvielen Dank für die Einladung zu Ihrer Geburtstagsfeier. Ich komme sehr gerne. Darf ich meine Frau mitbringen? Könnten Sie mir bitte den Weg zu Ihnen beschreiben?\n\nMit freundlichen Grüßen",
+    "text_en": "Dear Mr. Lehmann,\n\nThank you very much for the invitation to your birthday celebration. I would love to come. May I bring my wife? Could you please describe the way to your place?\n\nWith kind regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Register: Situations- und partneradäquat — formelle E-Mail an den Chef (Register: Appropriate to situation and partner — formal email to the boss)",
+    "Wortschatz und Strukturen: Einfacher, angemessener Wortschatz auf A2-Niveau mit höflichen Formen (Vocabulary and structures: Simple, appropriate vocabulary at A2 level with polite forms)",
+    "Textlänge: 30–40 Wörter (Text length: 30–40 words)"
+  ],
+  "source": "goethe-modellsatz"
+}

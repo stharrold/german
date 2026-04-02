@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-2-006",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Kaufhaus Alexa — Informationstafel",
+  "instructions": "Lesen Sie die Informationstafel in einem Kaufhaus. Lesen Sie die Aufgaben 6 bis 10 und den Text. In welchen Stock gehen Sie? Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Kaufhaus Alexa\n\n4. Stock: Bücher, Geschenke, Spielsachen, Freizeittaschen, Koffer, Brieftaschen und Geldbeutel, Café, Friseur- und Nagelstudio, Kunden-WC, Telefon\n\n3. Stock: Handys, Telefone, MP3-Player, CD-Player, DVD-Player, Radios, Fernseher, Computer, Notebooks, Tablets, Software, Drucker, CDs, DVDs, Videospiele, Sportkleidung, Arbeitskleidung\n\n2. Stock: Herrenmode, Nachtwäsche für ihn, Unterwäsche für ihn, Möbel für Wohnzimmer, Bad und Küche, Teppiche, Lampen, Gardinen, Kissen, Decken, Stoffe und Dekoartikel, Handtücher\n\n1. Stock: Damenmode, Nachtwäsche für sie, Unterwäsche für sie, Mode für Kinder und Jugendliche, Babybekleidung, Kinderwagen, Schuhe, Geschirr und Gläser, Besteck, Töpfe und Pfannen, Grills\n\nEG: Information, Uhren, Schmuck, Parfüm, Kosmetik, Schreibwaren, Glückwunschkarten, Kalender, Schultaschen, Reiseführer, Souvenirs, Schuhwerkstatt, Schlüsseldienst, Blumenladen\n\nUG: Bäcker, Supermarkt, Putz- und Waschmittel, Fotoservice, Tabak, Zeitschriften und Zeitungen, Theater- und Konzertkarten, Reisebüro, Geldautomat, Kunden-WC",
+    "text_en": "Kaufhaus Alexa\n\n4th Floor: Books, gifts, toys, leisure bags, suitcases, wallets and purses, café, hair and nail studio, customer WC, telephone\n\n3rd Floor: Mobile phones, telephones, MP3 players, CD players, DVD players, radios, TVs, computers, notebooks, tablets, software, printers, CDs, DVDs, video games, sportswear, workwear\n\n2nd Floor: Men's fashion, nightwear for him, underwear for him, living room/bathroom/kitchen furniture, carpets, lamps, curtains, cushions, blankets, fabrics and decorative items, towels\n\n1st Floor: Women's fashion, nightwear for her, underwear for her, children's and youth fashion, baby clothing, prams, shoes, dishes and glasses, cutlery, pots and pans, grills\n\nGround Floor: Information, watches, jewelry, perfume, cosmetics, stationery, greeting cards, calendars, school bags, travel guides, souvenirs, shoe repair, key service, flower shop\n\nBasement: Baker, supermarket, cleaning and washing products, photo service, tobacco, magazines and newspapers, theater and concert tickets, travel agency, ATM, customer WC",
+    "source": "Informationstafel",
+    "word_count": 155
+  },
+  "questions": [
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Sie möchten einer Freundin Rosen schenken.",
+      "text_en": "You would like to give your friend roses.",
+      "options": [
+        "a) 1. Stock",
+        "b) 4. Stock",
+        "c) anderer Stock"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Blumenladen ist im Erdgeschoss (EG), das nicht unter den Optionen a oder b ist.",
+      "explanation_en": "The flower shop is on the ground floor (EG), which is not among options a or b."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Sie möchten Ihre Urlaubsbilder drucken lassen.",
+      "text_en": "You would like to have your holiday photos printed.",
+      "options": [
+        "a) 3. Stock",
+        "b) UG",
+        "c) anderer Stock"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Fotoservice befindet sich im Untergeschoss (UG).",
+      "explanation_en": "The photo service is located in the basement (UG)."
+    },
+    {
+      "number": 8,
+      "type": "multiple_choice",
+      "text_de": "Sie möchten einen Tee trinken gehen.",
+      "text_en": "You would like to go for a cup of tea.",
+      "options": [
+        "a) 2. Stock",
+        "b) UG",
+        "c) anderer Stock"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Café befindet sich im 4. Stock, der nicht unter den Optionen a oder b ist.",
+      "explanation_en": "The café is on the 4th floor, which is not among options a or b."
+    },
+    {
+      "number": 9,
+      "type": "multiple_choice",
+      "text_de": "Sie wollen Ihre Schuhe reparieren lassen.",
+      "text_en": "You want to have your shoes repaired.",
+      "options": [
+        "a) 1. Stock",
+        "b) EG",
+        "c) anderer Stock"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die Schuhwerkstatt befindet sich im Erdgeschoss (EG).",
+      "explanation_en": "The shoe repair shop is on the ground floor (EG)."
+    },
+    {
+      "number": 10,
+      "type": "multiple_choice",
+      "text_de": "Sie suchen eine Laufhose für Ihren Bruder zum Geburtstag.",
+      "text_en": "You are looking for running trousers for your brother's birthday.",
+      "options": [
+        "a) 3. Stock",
+        "b) 2. Stock",
+        "c) anderer Stock"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Sportkleidung (wie eine Laufhose) gibt es im 3. Stock.",
+      "explanation_en": "Sportswear (like running trousers) is on the 3rd floor."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

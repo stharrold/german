@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-1-006",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Der TV-Koch Stefan Berger",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Der TV-Koch Stefan Berger\n\n»Ich versuche immer wieder etwas Neues.«\n\nBei Stefan Berger gibt es Gerichte, von denen man vorher noch nie gehört hat. Er hat dauernd neue Ideen. Den Gästen gefällt das. Man muss unbedingt vorher anrufen und einen der wenigen Tische bestellen, wenn man in seinem Restaurant „Bremer Lokal“ essen möchte. Er hat viele Gäste, will aber kein zweites Lokal aufmachen. „Klar, ich könnte vielleicht reich damit werden, aber ich habe mich bewusst dagegen entschieden. Ich mag es einfach, wie wir hier arbeiten.“\n\nStefan Berger wurde 1968 im Rheinland geboren, war auf der Realschule und lernte dann in einem großen Hotel kochen. Nach der Berufsausbildung brauchte er erstmal eine zweijährige Pause. Er fuhr durch die Welt, hatte verschiedene Jobs und lernte viel Neues kennen. Wegen einer Frau kam er dann nach Bremen. Das „Bremer Lokal“ in seiner Nachbarschaft suchte einen Koch, Berger nahm die Stelle an, und drei Jahre später kaufte er das Restaurant.\n\nDie meisten kennen ihn aber erst durch seine Fernsehshow „Berger kocht“. In der beliebten Sendung besuchen ihn Sänger und Schauspieler und kochen mit ihm ihre Lieblingsrezepte.",
+    "text_en": "TV Chef Stefan Berger\n\n'I always try something new.'\n\nAt Stefan Berger's you can find dishes you've never heard of before. He constantly has new ideas. The guests like that. You absolutely have to call in advance and book one of the few tables if you want to eat at his restaurant 'Bremer Lokal'. He has many guests but doesn't want to open a second restaurant. 'Sure, I could perhaps become rich with it, but I deliberately decided against it. I simply like how we work here.'\n\nStefan Berger was born in 1968 in the Rhineland, went to Realschule and then learned to cook in a large hotel. After his vocational training he first needed a two-year break. He traveled around the world, had various jobs and got to know many new things. He came to Bremen because of a woman. The 'Bremer Lokal' in his neighborhood was looking for a cook, Berger took the position, and three years later he bought the restaurant.\n\nMost people know him through his TV show 'Berger kocht'. In the popular show, singers and actors visit him and cook their favorite recipes with him.",
+    "source": "Zeitung",
+    "word_count": 185
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Die Gäste im „Bremer Lokal“ …",
+      "text_en": "The guests at 'Bremer Lokal' ...",
+      "options": [
+        "a) finden immer einen Tisch.",
+        "b) müssen anrufen und Essen bestellen.",
+        "c) sollen Plätze reservieren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Man muss unbedingt vorher anrufen und einen der wenigen Tische bestellen (= reservieren).",
+      "explanation_en": "You absolutely have to call in advance and book one of the few tables (= reserve)."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Stefan Berger möchte …",
+      "text_en": "Stefan Berger wants to ...",
+      "options": [
+        "a) ein neues Restaurant eröffnen.",
+        "b) mit seinem Restaurant mehr Geld verdienen.",
+        "c) nur ein Restaurant haben."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Er will kein zweites Lokal aufmachen. Er hat sich bewusst dagegen entschieden.",
+      "explanation_en": "He doesn't want to open a second restaurant. He deliberately decided against it."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Sofort nach der Ausbildung …",
+      "text_en": "Immediately after his training ...",
+      "options": [
+        "a) arbeitete er in einem großen Hotel.",
+        "b) kaufte er ein Restaurant.",
+        "c) machte er eine lange Reise."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Nach der Berufsausbildung brauchte er eine zweijährige Pause und fuhr durch die Welt.",
+      "explanation_en": "After his vocational training he needed a two-year break and traveled around the world."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Stefan Berger ist bekannt durch …",
+      "text_en": "Stefan Berger is known through ...",
+      "options": [
+        "a) eine Fernsehsendung.",
+        "b) Lieder und Filme.",
+        "c) sein Restaurant."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die meisten kennen ihn durch seine Fernsehshow „Berger kocht“.",
+      "explanation_en": "Most people know him through his TV show 'Berger kocht'."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Dieser Text informiert über …",
+      "text_en": "This text informs about ...",
+      "options": [
+        "a) den Berufsweg eines Kochs.",
+        "b) einen Koch in einem Hotel.",
+        "c) eine neue Berufsausbildung."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Text beschreibt Stefan Bergers Karriere als Koch — von der Ausbildung bis zur TV-Show.",
+      "explanation_en": "The text describes Stefan Berger's career as a chef — from training to TV show."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

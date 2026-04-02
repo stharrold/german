@@ -1,0 +1,129 @@
+{
+  "id": "a2-hoeren-teil-4-006",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Sarah und Fußball",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Wählen Sie für die Aufgaben 16 bis 20 Ja oder Nein.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Sarah, Sie kommen aus Ghana, in Afrika. Wann sind Sie nach Deutschland gekommen?",
+      "text_en": "Sarah, you come from Ghana, in Africa. When did you come to Germany?"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Das war kurz nach meinem fünften Geburtstag. Da sind wir dann mit der ganzen Familie umgezogen.",
+      "text_en": "That was shortly after my fifth birthday. That's when we moved with the whole family."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und wie fanden Sie das neue Leben in Deutschland?",
+      "text_en": "And how did you find the new life in Germany?"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Ja, es hat mir sofort gefallen, ich habe ganz schnell Freunde gefunden – beim Fußballspielen auf der Straße. Meine beiden großen Brüder haben mich immer mitgenommen. Zuerst haben sie mir Tipps gegeben, aber nach ein paar Monaten war ich besser als sie!",
+      "text_en": "Yes, I liked it immediately, I found friends very quickly — playing football on the street. My two older brothers always took me along. At first they gave me tips, but after a few months I was better than them!"
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und dann? Wie ging es dann weiter?",
+      "text_en": "And then? How did it continue?"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Als ich in der Schule war, hat mein Sportlehrer mir gesagt, bei welchem Fußballverein ich mich anmelden soll. Und dort spiele ich immer noch.",
+      "text_en": "When I was in school, my sports teacher told me which football club I should register with. And I still play there."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Jetzt schon seit 14 Jahren! Und seit zwei Wochen sind Sie sogar in der deutschen Frauennationalmannschaft. Glückwunsch!",
+      "text_en": "For 14 years now! And for two weeks you've even been on the German women's national team. Congratulations!"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Danke. Ja, und ich hoffe, dass ich bald auch einmal in einem internationalen Spiel mitspielen darf.",
+      "text_en": "Thank you. Yes, and I hope that I can soon play in an international match too."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Was machen Sie denn, wenn Sie nicht Fußball spielen?",
+      "text_en": "What do you do when you're not playing football?"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Im Moment habe ich keine Zeit für anderes. Aber später, wenn ich nicht mehr so gut bin, möchte ich studieren.",
+      "text_en": "At the moment I don't have time for anything else. But later, when I'm not as good anymore, I'd like to study."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Und sagen Sie uns auch welches Fach?",
+      "text_en": "And will you tell us which subject?"
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Natürlich Sport!",
+      "text_en": "Of course, sports!"
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Na dann, alles Gute für Sie und danke für das Gespräch.",
+      "text_en": "Well then, all the best for you and thank you for the conversation."
+    },
+    {
+      "speaker": "Sarah",
+      "text_de": "Gerne.",
+      "text_en": "My pleasure."
+    }
+  ],
+  "questions": [
+    {
+      "number": 16,
+      "type": "true_false",
+      "text_de": "Sarah hatte am Anfang in Deutschland Probleme.",
+      "text_en": "Sarah had problems at the beginning in Germany.",
+      "correct_answer": false,
+      "explanation_de": "Sarah sagt, dass es ihr sofort gefallen hat und sie schnell Freunde gefunden hat.",
+      "explanation_en": "Sarah says she liked it immediately and found friends very quickly."
+    },
+    {
+      "number": 17,
+      "type": "true_false",
+      "text_de": "Ihre Geschwister haben ihr das Fußballspielen gezeigt.",
+      "text_en": "Her siblings showed her how to play football.",
+      "correct_answer": true,
+      "explanation_de": "Ihre beiden großen Brüder haben sie immer mitgenommen und ihr Tipps gegeben.",
+      "explanation_en": "Her two older brothers always took her along and gave her tips."
+    },
+    {
+      "number": 18,
+      "type": "true_false",
+      "text_de": "Ihr Lehrer hat ihr einen Verein empfohlen.",
+      "text_en": "Her teacher recommended a club to her.",
+      "correct_answer": true,
+      "explanation_de": "Ihr Sportlehrer hat ihr gesagt, bei welchem Fußballverein sie sich anmelden soll.",
+      "explanation_en": "Her sports teacher told her which football club she should register with."
+    },
+    {
+      "number": 19,
+      "type": "true_false",
+      "text_de": "Sarah hat schon bei vielen internationalen Spielen mitgespielt.",
+      "text_en": "Sarah has already played in many international matches.",
+      "correct_answer": false,
+      "explanation_de": "Sarah hofft, dass sie bald einmal in einem internationalen Spiel mitspielen darf.",
+      "explanation_en": "Sarah hopes she can soon play in an international match."
+    },
+    {
+      "number": 20,
+      "type": "true_false",
+      "text_de": "Sie studiert jetzt Sport an der Universität.",
+      "text_en": "She is currently studying sports at university.",
+      "correct_answer": false,
+      "explanation_de": "Sie möchte später studieren, im Moment hat sie keine Zeit für anderes als Fußball.",
+      "explanation_en": "She wants to study later; at the moment she doesn't have time for anything other than football."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

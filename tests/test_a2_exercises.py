@@ -50,10 +50,10 @@ def test_a2_directory_structure():
 
 @pytest.mark.parametrize("teil", [1, 2, 3, 4])
 def test_a2_hoeren_exercises_exist(teil):
-    """Test that each Hören teil has 5 exercises."""
+    """Test that each Hören teil has 6 exercises."""
     teil_dir = A2_DIR / "hoeren" / f"teil-{teil}"
     exercises = sorted(teil_dir.glob("uebung-*.json"))
-    assert len(exercises) == 5, f"Expected 5 exercises in teil-{teil}, found {len(exercises)}"
+    assert len(exercises) == 6, f"Expected 6 exercises in teil-{teil}, found {len(exercises)}"
 
 
 @pytest.mark.parametrize("teil", [1, 2, 3, 4])
@@ -61,7 +61,7 @@ def test_a2_hoeren_exercises_valid(teil):
     """Test that all Hören exercises pass Pydantic validation."""
     teil_dir = A2_DIR / "hoeren" / f"teil-{teil}"
     exercises = load_exercises(teil_dir, ListeningExercise)
-    assert len(exercises) == 5
+    assert len(exercises) == 6
     for ex in exercises:
         assert ex.level == "A2"
         assert ex.skill == ExamSkill.HOEREN
@@ -76,10 +76,10 @@ def test_a2_hoeren_exercises_valid(teil):
 
 @pytest.mark.parametrize("teil", [1, 2, 3, 4])
 def test_a2_lesen_exercises_exist(teil):
-    """Test that each Lesen teil has 5 exercises."""
+    """Test that each Lesen teil has 6 exercises."""
     teil_dir = A2_DIR / "lesen" / f"teil-{teil}"
     exercises = sorted(teil_dir.glob("uebung-*.json"))
-    assert len(exercises) == 5, f"Expected 5 exercises in teil-{teil}, found {len(exercises)}"
+    assert len(exercises) == 6, f"Expected 6 exercises in teil-{teil}, found {len(exercises)}"
 
 
 @pytest.mark.parametrize("teil", [1, 2, 3, 4])
@@ -87,7 +87,7 @@ def test_a2_lesen_exercises_valid(teil):
     """Test that all Lesen exercises pass Pydantic validation."""
     teil_dir = A2_DIR / "lesen" / f"teil-{teil}"
     exercises = load_exercises(teil_dir, ReadingExercise)
-    assert len(exercises) == 5
+    assert len(exercises) == 6
     for ex in exercises:
         assert ex.level == "A2"
         assert ex.skill == ExamSkill.LESEN
@@ -102,10 +102,10 @@ def test_a2_lesen_exercises_valid(teil):
 
 @pytest.mark.parametrize("aufgabe", [1, 2])
 def test_a2_schreiben_exercises_exist(aufgabe):
-    """Test that each Schreiben aufgabe has 5 exercises."""
+    """Test that each Schreiben aufgabe has 6 exercises."""
     aufgabe_dir = A2_DIR / "schreiben" / f"aufgabe-{aufgabe}"
     exercises = sorted(aufgabe_dir.glob("uebung-*.json"))
-    assert len(exercises) == 5, f"Expected 5 exercises in aufgabe-{aufgabe}, found {len(exercises)}"
+    assert len(exercises) == 6, f"Expected 6 exercises in aufgabe-{aufgabe}, found {len(exercises)}"
 
 
 @pytest.mark.parametrize("aufgabe", [1, 2])
@@ -113,7 +113,7 @@ def test_a2_schreiben_exercises_valid(aufgabe):
     """Test that all Schreiben exercises pass Pydantic validation."""
     aufgabe_dir = A2_DIR / "schreiben" / f"aufgabe-{aufgabe}"
     exercises = load_exercises(aufgabe_dir, WritingExercise)
-    assert len(exercises) == 5
+    assert len(exercises) == 6
     for ex in exercises:
         assert ex.level == "A2"
         assert ex.skill == ExamSkill.SCHREIBEN
@@ -128,10 +128,10 @@ def test_a2_schreiben_exercises_valid(aufgabe):
 
 @pytest.mark.parametrize("teil", [1, 2, 3])
 def test_a2_sprechen_exercises_exist(teil):
-    """Test that each Sprechen teil has 5 exercises."""
+    """Test that each Sprechen teil has 6 exercises."""
     teil_dir = A2_DIR / "sprechen" / f"teil-{teil}"
     exercises = sorted(teil_dir.glob("uebung-*.json"))
-    assert len(exercises) == 5, f"Expected 5 exercises in teil-{teil}, found {len(exercises)}"
+    assert len(exercises) == 6, f"Expected 6 exercises in teil-{teil}, found {len(exercises)}"
 
 
 @pytest.mark.parametrize("teil", [1, 2, 3])
@@ -139,7 +139,7 @@ def test_a2_sprechen_exercises_valid(teil):
     """Test that all Sprechen exercises pass Pydantic validation."""
     teil_dir = A2_DIR / "sprechen" / f"teil-{teil}"
     exercises = load_exercises(teil_dir, SpeakingExercise)
-    assert len(exercises) == 5
+    assert len(exercises) == 6
     for ex in exercises:
         assert ex.level == "A2"
         assert ex.skill == ExamSkill.SPRECHEN
@@ -153,9 +153,9 @@ def test_a2_sprechen_exercises_valid(teil):
 
 
 def test_a2_total_exercise_count():
-    """Test that exactly 65 A2 exercises exist."""
+    """Test that exactly 78 A2 exercises exist."""
     count = len(list(A2_DIR.glob("**/uebung-*.json")))
-    assert count == 65, f"Expected 65 exercises, found {count}"
+    assert count == 78, f"Expected 78 exercises, found {count}"
 
 
 def test_a2_no_unicode_escapes():

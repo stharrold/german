@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-1-006",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Fragen zur Person: Geburtstag, Wohnort, Beruf, Hobby",
+  "instructions": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner / Ihre Partnerin antwortet. Dann stellt Ihr Partner / Ihre Partnerin vier Fragen und Sie antworten.",
+  "situation_de": "Sie bekommen vier Karten mit den Themen Geburtstag, Wohnort, Beruf und Hobby. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You receive four cards with the topics birthday, place of residence, profession and hobby. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Geburtstag? — Wann haben Sie Geburtstag? (Birthday? — When is your birthday?)",
+    "Wohnort? — Wo wohnen Sie? (Place of residence? — Where do you live?)",
+    "Beruf? — Was sind Sie von Beruf? (Profession? — What is your profession?)",
+    "Hobby? — Was ist Ihr Hobby? (Hobby? — What is your hobby?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre vier Karten. Bitte stellen Sie zu jedem Thema eine Frage. Wer möchte beginnen?",
+      "text_en": "Here are your four cards. Please ask a question about each topic. Who would like to start?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich beginne. Mein erstes Thema ist Geburtstag. Wann haben Sie Geburtstag?",
+      "text_en": "I'll start. My first topic is birthday. When is your birthday?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich habe am 15. März Geburtstag. Und wann haben Sie Geburtstag?",
+      "text_en": "My birthday is on March 15th. And when is your birthday?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich habe im Juli Geburtstag, am 22. Mein nächstes Thema ist Wohnort. Wo wohnen Sie?",
+      "text_en": "My birthday is in July, on the 22nd. My next topic is place of residence. Where do you live?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich wohne in Berlin, im Stadtteil Kreuzberg. Und Sie?",
+      "text_en": "I live in Berlin, in the Kreuzberg district. And you?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich wohne in Hamburg. Jetzt zu Beruf. Was sind Sie von Beruf?",
+      "text_en": "I live in Hamburg. Now for profession. What is your profession?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich bin Krankenschwester. Ich arbeite im Krankenhaus. Und was machen Sie beruflich?",
+      "text_en": "I am a nurse. I work in the hospital. And what do you do professionally?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich bin Lehrer an einer Grundschule. Und mein letztes Thema ist Hobby. Was ist Ihr Hobby?",
+      "text_en": "I am a teacher at an elementary school. And my last topic is hobby. What is your hobby?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich lese gern Bücher und gehe am Wochenende oft wandern. Was machen Sie gern in Ihrer Freizeit?",
+      "text_en": "I like reading books and often go hiking on weekends. What do you like to do in your free time?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich spiele gern Fußball und höre Musik. Das macht mir sehr viel Spaß.",
+      "text_en": "I like playing football and listening to music. I really enjoy that."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Die Kandidaten reagieren auf die Antworten des Partners und stellen Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ],
+  "source": "goethe-modellsatz"
+}

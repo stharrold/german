@@ -1,0 +1,72 @@
+{
+  "id": "a2-sprechen-teil-3-006",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Geschenk für Patrick kaufen — Termin finden",
+  "instructions": "Ihr Freund Patrick hat Geburtstag. Sie möchten ein Geschenk für ihn kaufen. Finden Sie einen Termin.",
+  "situation_de": "Ihr Freund Patrick hat Geburtstag. Sie möchten zusammen ein Geschenk für ihn kaufen. Schauen Sie auf Ihre Terminpläne für Samstag und finden Sie einen gemeinsamen Termin.",
+  "situation_en": "Your friend Patrick has a birthday. You would like to buy a gift for him together. Look at your schedules for Saturday and find a time that works for both of you.",
+  "discussion_points": [
+    "Wann haben Sie am Samstag Zeit? (When do you have time on Saturday?)",
+    "Was steht schon in Ihrem Kalender? (What is already in your calendar?)",
+    "Wann können wir zusammen einkaufen gehen? (When can we go shopping together?)",
+    "Wie lange brauchen wir zum Einkaufen? (How long do we need for shopping?)",
+    "Was kaufen wir als Geschenk? (What do we buy as a gift?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir müssen noch ein Geschenk für Patrick kaufen. Wann hast du am Samstag Zeit?",
+      "text_en": "We still need to buy a gift for Patrick. When do you have time on Saturday?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Am Vormittag muss ich zum Friseur und dann Großeinkauf machen. Und danach esse ich bei Stefan zu Mittag.",
+      "text_en": "In the morning I have to go to the hairdresser and then do a big shopping. And then I'm having lunch at Stefan's."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Hmm, am Vormittag bin ich auch beschäftigt. Ich gehe lange schlafen und dann habe ich um 11 Uhr Frühstück bei Mario.",
+      "text_en": "Hmm, I'm also busy in the morning. I'm sleeping in and then I have breakfast at Mario's at 11."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Und am Nachmittag? Ich gehe um 14 Uhr schwimmen. Aber ab 15 Uhr bin ich frei, bis 17 Uhr.",
+      "text_en": "And in the afternoon? I'm going swimming at 2 PM. But from 3 PM I'm free until 5 PM."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Um 14 Uhr muss ich mein Fahrrad abholen. Aber danach habe ich auch Zeit. Treffen wir uns um 15 Uhr?",
+      "text_en": "At 2 PM I have to pick up my bicycle. But after that I also have time. Shall we meet at 3 PM?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, das passt gut! Um 15 Uhr. Wo treffen wir uns?",
+      "text_en": "Yes, that works well! At 3 PM. Where shall we meet?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Wir können uns am Einkaufszentrum treffen. Was kaufen wir für Patrick? Ein Buch vielleicht?",
+      "text_en": "We can meet at the shopping center. What do we buy for Patrick? A book maybe?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Gute Idee! Oder eine CD. Patrick hört gern Musik. Wir schauen einfach, was es gibt.",
+      "text_en": "Good idea! Or a CD. Patrick likes listening to music. We'll just see what's available."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Okay, dann um 15 Uhr am Einkaufszentrum. Bis Samstag!",
+      "text_en": "Okay, then at 3 PM at the shopping center. See you Saturday!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Beide Kandidaten vergleichen ihre Terminpläne und finden einen gemeinsamen Termin.",
+    "Interaktion: Die Kandidaten machen Vorschläge, reagieren auf den Partner und einigen sich.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Termine, Zeit und Einkaufen auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Zeitangaben, Modalverben (können, müssen) und Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation bei Vorschlägen und Fragen."
+  ],
+  "source": "goethe-modellsatz"
+}

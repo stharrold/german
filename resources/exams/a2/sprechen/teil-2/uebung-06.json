@@ -1,0 +1,50 @@
+{
+  "id": "a2-sprechen-teil-2-006",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Von sich erzählen: Geld und Wochenende",
+  "instructions": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.",
+  "situation_de": "Der Prüfer / Die Prüferin gibt Ihnen eine Karte mit einem Thema. Erzählen Sie ausführlich über das Thema. Karte A: Was machen Sie mit Ihrem Geld? (Kleidung, Lebensmittel, Miete, Sparen, Reisen) Karte B: Was machen Sie oft am Wochenende? (Sport, jemanden besuchen, mit wem, wo)",
+  "situation_en": "The examiner gives you a card with a topic. Talk in detail about the topic. Card A: What do you do with your money? (Clothing, groceries, rent, savings, travel) Card B: What do you often do on the weekend? (Sports, visiting someone, with whom, where)",
+  "discussion_points": [
+    "Karte A: Was machen Sie mit Ihrem Geld? (Card A: What do you do with your money?)",
+    "Kleidung? Lebensmittel, Miete? (Clothing? Groceries, rent?)",
+    "Sparen? (Savings?)",
+    "Reisen? (Travel?)",
+    "Karte B: Was machen Sie oft am Wochenende? (Card B: What do you often do on the weekend?)",
+    "Sport, ...? (Sports, ...?)",
+    "Jemanden besuchen? (Visiting someone?)",
+    "Mit wem? Wo? (With whom? Where?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist: Was machen Sie mit Ihrem Geld? Erzählen Sie bitte.",
+      "text_en": "Our topic is: What do you do with your money? Please tell us."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Also, das meiste Geld gebe ich für meine Miete aus. Ich wohne in einer Zweizimmerwohnung und die kostet 500 Euro im Monat. Dann kaufe ich natürlich Lebensmittel, ich koche gern zu Hause. Für Kleidung gebe ich nicht so viel aus, vielleicht 50 Euro im Monat. Ich versuche auch jeden Monat etwas zu sparen, weil ich im Sommer gern reise. Letztes Jahr war ich in Spanien.",
+      "text_en": "Well, I spend most of my money on rent. I live in a two-room apartment and it costs 500 euros per month. Then of course I buy groceries, I like to cook at home. I don't spend much on clothing, maybe 50 euros a month. I also try to save something every month because I like to travel in summer. Last year I was in Spain."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und was machen Sie am liebsten am Wochenende?",
+      "text_en": "And what do you like to do most on the weekend?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Am Wochenende mache ich gern Sport, zum Beispiel gehe ich samstags schwimmen oder laufen. Am Sonntag besuche ich oft meine Eltern. Sie wohnen nicht weit von mir, nur 30 Minuten mit dem Bus. Wir essen dann zusammen Mittag. Manchmal treffe ich auch Freunde und wir gehen in ein Café oder in den Park.",
+      "text_en": "On the weekend I like to do sports, for example on Saturdays I go swimming or running. On Sundays I often visit my parents. They don't live far from me, only 30 minutes by bus. We then have lunch together. Sometimes I also meet friends and we go to a café or to the park."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Aspekte des Themas werden angesprochen.",
+    "Zusammenhang: Die Aussagen sind logisch aufgebaut und verständlich.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Alltag, Geld und Freizeit auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und Zeitformen (Präsens, Perfekt).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ],
+  "source": "goethe-modellsatz"
+}

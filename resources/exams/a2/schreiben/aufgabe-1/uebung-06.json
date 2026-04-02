@@ -1,0 +1,27 @@
+{
+  "id": "a2-schreiben-aufgabe-1-006",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "SMS an Freundin Ekaterini — Verspätung",
+  "instructions": "Sie sind unterwegs in der Stadt und schreiben eine SMS an Ihre Freundin Ekaterini. Schreiben Sie 20–30 Wörter. Schreiben Sie zu allen drei Punkten.",
+  "situation_de": "Sie sind unterwegs in der Stadt und schreiben eine SMS an Ihre Freundin Ekaterini. Entschuldigen Sie sich, dass Sie zu spät kommen. Schreiben Sie, warum. Nennen Sie einen neuen Ort und eine neue Uhrzeit für das Treffen.",
+  "situation_en": "You are out in the city and write an SMS to your friend Ekaterini. Apologize for being late. Write why. Name a new place and a new time for the meeting.",
+  "target_word_count": 25,
+  "required_points": [
+    "Sich entschuldigen, dass man zu spät kommt (Apologize for being late)",
+    "Schreiben, warum man zu spät kommt (Write why you are late)",
+    "Einen neuen Ort und eine neue Uhrzeit vorschlagen (Suggest a new place and time)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Ekaterini, tut mir leid! Ich bin im Stau und komme später. Können wir uns um 17 Uhr am Hauptbahnhof treffen? Bis gleich!",
+    "text_en": "Hello Ekaterini, I'm sorry! I'm stuck in traffic and will be late. Can we meet at 5 PM at the main station? See you soon!"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Register: Situations- und partneradäquat — informelle SMS an eine Freundin (Register: Appropriate to situation and partner — informal SMS to a friend)",
+    "Wortschatz und Strukturen: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary and structures: Simple, appropriate vocabulary at A2 level)",
+    "Textlänge: 20–30 Wörter (Text length: 20–30 words)"
+  ],
+  "source": "goethe-modellsatz"
+}

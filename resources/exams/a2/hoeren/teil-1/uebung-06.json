@@ -1,0 +1,109 @@
+{
+  "id": "a2-hoeren-teil-1-006",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Radiotexte und Durchsagen",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben 1 bis 5 die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Eine Information für die Besucher des Basketballspiels heute in der Olympia-Halle: Die Parkplätze in der Nähe sind schon besetzt. Im Parkhaus am Einkaufszentrum gibt es noch freie Plätze. Besucher von außerhalb sollten nicht mit dem Auto kommen. Nehmen Sie die Bahn! Vom Hauptbahnhof gibt es kostenlose Busse zur Olympia-Halle.",
+      "text_en": "Information for visitors of today's basketball game at the Olympia Hall: The nearby parking lots are already full. There are still free spaces in the parking garage at the shopping center. Visitors from out of town should not come by car. Take the train! From the main train station there are free buses to the Olympia Hall."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo Sabine. Denk bitte an meinen dunklen Anzug. Du wolltest ihn doch aus der Reinigung abholen. Sonst weiß ich nicht, was ich bei Helenas Hochzeit morgen anziehen soll. Das Geschenk hab' ich heute in der Mittagspause schon gekauft. Die Blumen holen wir ja erst morgen früh. Dank dir.",
+      "text_en": "Hello Sabine. Please remember my dark suit. You were going to pick it up from the dry cleaner's. Otherwise I don't know what I should wear to Helena's wedding tomorrow. I already bought the gift during my lunch break today. We'll pick up the flowers tomorrow morning. Thanks."
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Guten Tag Frau Meyer. Ingrid Sollms hier. Der Termin heute findet nicht in meinem Büro statt. Da ist ein Fehler in der Einladung. Ich habe im Hotel Leopold einen Raum reserviert. Sie wissen ja, am Bahnhofsplatz. Bitte kommen Sie um 10.00 Uhr direkt dorthin. Danke! Auf Wiederhören.",
+      "text_en": "Good day Mrs. Meyer. Ingrid Sollms here. Today's meeting will not take place in my office. There is an error in the invitation. I have reserved a room at Hotel Leopold. You know, at Bahnhofsplatz. Please come directly there at 10:00 AM. Thank you! Goodbye."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Nun zum Wetter. Am Wochenende ist es im Norden windig und bewölkt. Es regnet bei maximal 17 Grad. Im Süden am Samstag sonnig und warm bis 25 Grad. Am Sonntag kommt das kalte Regenwetter dann auch nach Süddeutschland. Die Temperaturen fallen auch hier auf unter 15 Grad.",
+      "text_en": "Now for the weather. On the weekend it will be windy and cloudy in the north. Rain with a maximum of 17 degrees. In the south on Saturday sunny and warm up to 25 degrees. On Sunday the cold rainy weather will also reach southern Germany. Temperatures will drop below 15 degrees there as well."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Und jetzt unser Frühstücksradio-Gewinnspiel. Für alle, die es noch nicht kennen: Genau um 7.00 Uhr spielen wir ein neues Lied. Wenn Sie wissen, wie der Sänger heißt, rufen Sie uns an. Es gibt tolle Preise zu gewinnen: T-Shirts, CDs oder eine Eintrittskarte für ein Konzert Ihrer Wahl.",
+      "text_en": "And now our breakfast radio competition. For all who don't know it yet: At exactly 7:00 AM we play a new song. If you know the singer's name, call us. There are great prizes to win: T-shirts, CDs or a ticket to a concert of your choice."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo kann man noch parken?",
+      "text_en": "Where can you still park?",
+      "options": [
+        "a) Am Bahnhof.",
+        "b) Am Einkaufszentrum.",
+        "c) Bei der Olympia-Halle."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Im Parkhaus am Einkaufszentrum gibt es noch freie Plätze.",
+      "explanation_en": "There are still free spaces in the parking garage at the shopping center."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was soll Sabine nicht vergessen?",
+      "text_en": "What should Sabine not forget?",
+      "options": [
+        "a) Das Geschenk.",
+        "b) Den Anzug.",
+        "c) Die Blumen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Sabine soll den dunklen Anzug aus der Reinigung abholen.",
+      "explanation_en": "Sabine should pick up the dark suit from the dry cleaner's."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Wo findet das Treffen statt?",
+      "text_en": "Where does the meeting take place?",
+      "options": [
+        "a) Am Bahnhof.",
+        "b) Im Büro.",
+        "c) Im Hotel Leopold."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Frau Sollms hat im Hotel Leopold einen Raum reserviert.",
+      "explanation_en": "Mrs. Sollms has reserved a room at Hotel Leopold."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie wird das Wetter am Sonntag?",
+      "text_en": "What will the weather be like on Sunday?",
+      "options": [
+        "a) Im Norden trocken.",
+        "b) Im Norden und Süden nass.",
+        "c) Im Süden trocken."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Sonntag kommt das Regenwetter auch nach Süddeutschland — es regnet überall.",
+      "explanation_en": "On Sunday the rainy weather also reaches southern Germany — it rains everywhere."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sollen die Hörerinnen und Hörer tun?",
+      "text_en": "What should the listeners do?",
+      "options": [
+        "a) Den Namen des Sängers sagen.",
+        "b) Eine Konzertkarte kaufen.",
+        "c) Ein neues Lied singen."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Die Hörer sollen anrufen und den Namen des Sängers sagen.",
+      "explanation_en": "The listeners should call and say the singer's name."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

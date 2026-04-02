@@ -1,0 +1,224 @@
+{
+  "id": "a2-hoeren-teil-3-006",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Alltag und Dienstleistungen",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben 11 bis 15 die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 11 — Junge",
+      "text_de": "Was hast du gestern Abend Tolles gegessen?",
+      "text_en": "What great food did you eat last night?"
+    },
+    {
+      "speaker": "Gespräch 11 — Mädchen",
+      "text_de": "Ich wollte nur einen Hamburger haben, aber Lena und Sarah wollten lieber Fisch essen gehen. Im Fischrestaurant gab es auch Hähnchen, also habe ich das genommen. Es war o.k.",
+      "text_en": "I just wanted a hamburger, but Lena and Sarah wanted to go eat fish instead. At the fish restaurant they also had chicken, so I had that. It was okay."
+    },
+    {
+      "speaker": "Gespräch 11 — Junge",
+      "text_de": "Ja, dann ist es ja gut.",
+      "text_en": "Well, that's good then."
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "Entschuldigung, die Jacke da gefällt mir. Die mit den weißen Buchstaben.",
+      "text_en": "Excuse me, I like that jacket over there. The one with the white letters."
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Welche Größe haben Sie denn?",
+      "text_en": "What size are you?"
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "L",
+      "text_en": "L"
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Ach, tut mir leid, aber diese haben wir nur noch in S. Aber vielleicht gefällt Ihnen die Jeansjacke hier oder der blaue Mantel?",
+      "text_en": "Oh, I'm sorry, but we only have this one in size S. But perhaps you'd like this denim jacket or the blue coat?"
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "Ne, die Jeansjacke gefällt mir nicht. Mhh, der Mantel ist hübsch, aber zu warm. Den brauch' ich nicht.",
+      "text_en": "No, I don't like the denim jacket. Hmm, the coat is pretty, but too warm. I don't need it."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Ja, bitte?",
+      "text_en": "Yes, please?"
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Guten Tag, Herr Thung. Hier ist Reimann vom Sportverein Ramersdorf. Ich rufe an wegen Ihrer Anmeldung.",
+      "text_en": "Good day, Mr. Thung. This is Reimann from Sports Club Ramersdorf. I'm calling about your registration."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Das ausgefüllte Formular habe ich Ihnen gestern in den Briefkasten gesteckt.",
+      "text_en": "I put the filled-out form in your mailbox yesterday."
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Ja, das habe ich hier, aber für den Ausweis brauchen wir noch ein Foto von Ihnen.",
+      "text_en": "Yes, I have that here, but for the ID card we still need a photo from you."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Kein Problem. Ich bring' Ihnen morgen eins.",
+      "text_en": "No problem. I'll bring you one tomorrow."
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Schön. Sonst haben wir alles, auch Ihre Unterschrift.",
+      "text_en": "Good. Otherwise we have everything, including your signature."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Gut. Dann bis morgen.",
+      "text_en": "Good. See you tomorrow then."
+    },
+    {
+      "speaker": "Gespräch 14 — Mann 1",
+      "text_de": "Hallo Herr Talas. Hier Miguel Alba aus Haus Nr. 9. Wir haben gestern schon wegen der Reparaturen telefoniert.",
+      "text_en": "Hello Mr. Talas. This is Miguel Alba from house no. 9. We already spoke yesterday about the repairs."
+    },
+    {
+      "speaker": "Gespräch 14 — Mann 2",
+      "text_de": "Ja. Der Mechaniker hat den Aufzug in Ihrem Haus gestern Abend noch repariert. Und die Lampe am Eingang geht auch wieder.",
+      "text_en": "Yes. The mechanic repaired the elevator in your building last night. And the lamp at the entrance is working again too."
+    },
+    {
+      "speaker": "Gespräch 14 — Mann 1",
+      "text_de": "Ja, ja. Aber jetzt wird die Heizung in meiner Wohnung nicht mehr warm. Können Sie vorbeikommen und sich das mal ansehen?",
+      "text_en": "Yes, yes. But now the heating in my apartment isn't getting warm anymore. Can you come by and take a look at it?"
+    },
+    {
+      "speaker": "Gespräch 15 — Frau",
+      "text_de": "Guten Tag, hier ist Messner von der Arztpraxis Vollmer.",
+      "text_en": "Good day, this is Messner from Dr. Vollmer's practice."
+    },
+    {
+      "speaker": "Gespräch 15 — Mann",
+      "text_de": "Ja? Guten Tag.",
+      "text_en": "Yes? Good day."
+    },
+    {
+      "speaker": "Gespräch 15 — Frau",
+      "text_de": "Ich rufe an wegen Ihrer Krankengymnastik. Sie können nächste Woche Montag und Donnerstag um 16 Uhr kommen.",
+      "text_en": "I'm calling about your physiotherapy. You can come next week Monday and Thursday at 4 PM."
+    },
+    {
+      "speaker": "Gespräch 15 — Mann",
+      "text_de": "Ja, das passt.",
+      "text_en": "Yes, that works."
+    },
+    {
+      "speaker": "Gespräch 15 — Frau",
+      "text_de": "Sie müssen nicht an der Information warten. Gehen Sie direkt in den Sportraum. Und bitte vergessen Sie das Rezept vom Arzt und Ihre Sportkleidung nicht.",
+      "text_en": "You don't need to wait at the information desk. Go directly to the sports room. And please don't forget the doctor's prescription and your sports clothes."
+    }
+  ],
+  "questions": [
+    {
+      "number": 11,
+      "type": "multiple_choice",
+      "text_de": "Was hat das Mädchen gestern Abend gegessen?",
+      "text_en": "What did the girl eat last night?",
+      "options": [
+        "a) Hähnchen",
+        "b) Hamburger",
+        "c) Fisch"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Hähnchen / Hühnchen auf einem Teller",
+        "b) Ein Hamburger",
+        "c) Ein Fischgericht"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Mädchen hat Hähnchen gegessen, obwohl sie eigentlich einen Hamburger wollte.",
+      "explanation_en": "The girl ate chicken, even though she actually wanted a hamburger."
+    },
+    {
+      "number": 12,
+      "type": "multiple_choice",
+      "text_de": "Für welches Kleidungsstück interessiert sich die Frau?",
+      "text_en": "Which piece of clothing is the woman interested in?",
+      "options": [
+        "a) Jeansjacke",
+        "b) Mantel",
+        "c) Jacke mit Buchstaben"
+      ],
+      "options_image_descriptions": [
+        "a) Eine Jeansjacke",
+        "b) Ein blauer Mantel",
+        "c) Eine Jacke mit weißen Buchstaben"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Frau interessiert sich für die Jacke mit den weißen Buchstaben.",
+      "explanation_en": "The woman is interested in the jacket with white letters."
+    },
+    {
+      "number": 13,
+      "type": "multiple_choice",
+      "text_de": "Was fehlt für die Anmeldung?",
+      "text_en": "What is missing for the registration?",
+      "options": [
+        "a) Formular",
+        "b) Foto",
+        "c) Unterschrift"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Anmeldeformular",
+        "b) Ein Passfoto",
+        "c) Eine Unterschrift"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Für den Ausweis brauchen sie noch ein Foto von Herrn Thung.",
+      "explanation_en": "For the ID card they still need a photo from Mr. Thung."
+    },
+    {
+      "number": 14,
+      "type": "multiple_choice",
+      "text_de": "Was ist kaputt?",
+      "text_en": "What is broken?",
+      "options": [
+        "a) Aufzug",
+        "b) Lampe",
+        "c) Heizung"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Aufzug / Fahrstuhl",
+        "b) Eine Lampe am Hauseingang",
+        "c) Ein Heizkörper / Heizung"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Heizung in der Wohnung wird nicht mehr warm. Aufzug und Lampe sind schon repariert.",
+      "explanation_en": "The heating in the apartment isn't getting warm anymore. The elevator and lamp have already been repaired."
+    },
+    {
+      "number": 15,
+      "type": "multiple_choice",
+      "text_de": "Wohin soll der Mann gehen?",
+      "text_en": "Where should the man go?",
+      "options": [
+        "a) Information",
+        "b) Wartezimmer",
+        "c) Sportraum"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Informationsschalter / Empfang",
+        "b) Ein Wartezimmer",
+        "c) Ein Sportraum / Gymnastikraum"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Mann soll direkt in den Sportraum gehen, nicht an der Information warten.",
+      "explanation_en": "The man should go directly to the sports room, not wait at the information desk."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

@@ -1,0 +1,239 @@
+{
+  "id": "a2-hoeren-teil-2-006",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Urlaubswoche zu Hause planen",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was machen der Mann und die Frau in der Woche? Wählen Sie für die Aufgaben 6 bis 10 ein passendes Bild aus a bis i. Wählen Sie jeden Buchstaben nur einmal.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Mann",
+      "text_de": "Sag mal, hast du schon Ideen für unsere Woche Urlaub? Wir wollen ja zu Hause bleiben, aber ich möchte schon jeden Tag etwas Besonderes machen. Vielleicht ein bisschen Sport? Oder Kultur?",
+      "text_en": "Say, do you have any ideas for our week of vacation? We want to stay home, but I'd like to do something special every day. Maybe a bit of sport? Or culture?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Mal sehen, wir könnten ins Kino gehen, am Montag kommt ein guter Film.",
+      "text_en": "Let's see, we could go to the cinema, a good film is coming on Monday."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Gute Idee! Montags gibt's dort Ermäßigung!",
+      "text_en": "Good idea! There's a discount on Mondays!"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Und am Dienstag müssen wir zu unserem Tanzkurs, oder?",
+      "text_en": "And on Tuesday we have to go to our dance class, right?"
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Diese Woche nicht, die Lehrerin ist auch im Urlaub. Wir könnten ins Theater gehen, ich hab gesehen, es gibt ein interessantes Stück.",
+      "text_en": "Not this week, the teacher is also on vacation. We could go to the theater, I saw there's an interesting play."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Mhhm, warum nicht. Dann müssen wir am Mittwoch aber Sport machen!",
+      "text_en": "Mhm, why not. But then we have to do sports on Wednesday!"
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Klar, wir können schwimmen gehen, im neuen Schwimmbad!",
+      "text_en": "Sure, we can go swimming, in the new swimming pool!"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Aber du weißt doch, dass ich das nicht gerne mache. Können wir nicht einen Ausflug mit dem Rad machen?",
+      "text_en": "But you know I don't like doing that. Can't we go on a bike trip instead?"
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Okay, das macht mir ja auch Spaß. Und was machen wir am Donnerstag und Freitag?",
+      "text_en": "Okay, I enjoy that too. And what do we do on Thursday and Friday?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Am Donnerstag können wir Eis essen gehen, bei Francesco!",
+      "text_en": "On Thursday we can go eat ice cream, at Francesco's!"
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Moment, Donnerstagabend sind wir bei Julia und Tim zum Kochen eingeladen. Da sollten wir vorher nicht so viel essen.",
+      "text_en": "Wait, Thursday evening we're invited to Julia and Tim's to cook together. We shouldn't eat too much beforehand."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Ja, da hast du recht. Und wegen Freitag, da gehen wir zum Konzert vorm Rathaus! Da spielen tolle Bands.",
+      "text_en": "Yes, you're right. And about Friday, let's go to the concert in front of the town hall! Great bands are playing there."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Okay, wie du möchtest. Aber am nächsten Tag, am Samstag, darfst du dann nicht so lange schlafen, da ist nämlich unsere Schifffahrt auf der Elbe.",
+      "text_en": "Okay, as you wish. But the next day, Saturday, you can't sleep in too long, because that's our boat trip on the Elbe."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Keine Sorge, ich werde früh wach sein und dir sogar das Frühstück ans Bett bringen!",
+      "text_en": "Don't worry, I'll be up early and even bring breakfast to bed for you!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 6,
+      "type": "matching",
+      "text_de": "Dienstag",
+      "text_en": "Tuesday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Fahrrad fahren / Radtour",
+        "b) Schwimmen / Schwimmbad",
+        "c) Theater / Theaterstück ansehen",
+        "d) Schifffahrt / Bootsfahrt",
+        "e) Eis essen",
+        "f) Kino / Film ansehen",
+        "g) Konzert / Live-Musik",
+        "h) Zusammen kochen / Abendessen bei Freunden",
+        "i) Tanzen / Tanzkurs"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Dienstag gehen sie ins Theater, weil der Tanzkurs ausfällt.",
+      "explanation_en": "On Tuesday they go to the theater because the dance class is cancelled."
+    },
+    {
+      "number": 7,
+      "type": "matching",
+      "text_de": "Mittwoch",
+      "text_en": "Wednesday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Fahrrad fahren / Radtour",
+        "b) Schwimmen / Schwimmbad",
+        "c) Theater / Theaterstück ansehen",
+        "d) Schifffahrt / Bootsfahrt",
+        "e) Eis essen",
+        "f) Kino / Film ansehen",
+        "g) Konzert / Live-Musik",
+        "h) Zusammen kochen / Abendessen bei Freunden",
+        "i) Tanzen / Tanzkurs"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Am Mittwoch machen sie einen Ausflug mit dem Rad, weil die Frau nicht schwimmen möchte.",
+      "explanation_en": "On Wednesday they go on a bike trip because the woman doesn't want to swim."
+    },
+    {
+      "number": 8,
+      "type": "matching",
+      "text_de": "Donnerstag",
+      "text_en": "Thursday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Fahrrad fahren / Radtour",
+        "b) Schwimmen / Schwimmbad",
+        "c) Theater / Theaterstück ansehen",
+        "d) Schifffahrt / Bootsfahrt",
+        "e) Eis essen",
+        "f) Kino / Film ansehen",
+        "g) Konzert / Live-Musik",
+        "h) Zusammen kochen / Abendessen bei Freunden",
+        "i) Tanzen / Tanzkurs"
+      ],
+      "correct_answer": "h",
+      "explanation_de": "Am Donnerstagabend sind sie bei Julia und Tim zum Kochen eingeladen.",
+      "explanation_en": "On Thursday evening they are invited to Julia and Tim's to cook together."
+    },
+    {
+      "number": 9,
+      "type": "matching",
+      "text_de": "Freitag",
+      "text_en": "Friday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Fahrrad fahren / Radtour",
+        "b) Schwimmen / Schwimmbad",
+        "c) Theater / Theaterstück ansehen",
+        "d) Schifffahrt / Bootsfahrt",
+        "e) Eis essen",
+        "f) Kino / Film ansehen",
+        "g) Konzert / Live-Musik",
+        "h) Zusammen kochen / Abendessen bei Freunden",
+        "i) Tanzen / Tanzkurs"
+      ],
+      "correct_answer": "g",
+      "explanation_de": "Am Freitag gehen sie zum Konzert vorm Rathaus.",
+      "explanation_en": "On Friday they go to the concert in front of the town hall."
+    },
+    {
+      "number": 10,
+      "type": "matching",
+      "text_de": "Samstag",
+      "text_en": "Saturday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Fahrrad fahren / Radtour",
+        "b) Schwimmen / Schwimmbad",
+        "c) Theater / Theaterstück ansehen",
+        "d) Schifffahrt / Bootsfahrt",
+        "e) Eis essen",
+        "f) Kino / Film ansehen",
+        "g) Konzert / Live-Musik",
+        "h) Zusammen kochen / Abendessen bei Freunden",
+        "i) Tanzen / Tanzkurs"
+      ],
+      "correct_answer": "d",
+      "explanation_de": "Am Samstag machen sie eine Schifffahrt auf der Elbe.",
+      "explanation_en": "On Saturday they take a boat trip on the Elbe."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}

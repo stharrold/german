@@ -1,0 +1,108 @@
+{
+  "id": "a2-lesen-teil-4-006",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Lokale und Restaurants im Internet",
+  "instructions": "Lesen Sie die Aufgaben 16 bis 20 und die Anzeigen a bis f. Welche Anzeige passt zu welcher Person? Für eine Aufgabe gibt es keine Lösung. Markieren Sie so: x.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "a) www.park-cafe.de — Selbstgemachte Torten, Kuchen und italienisches Eis. Große Sonnenterrasse mit Spielplatz. Alles auch zum Mitnehmen! Täglich außer montags von 14 bis 19 Uhr geöffnet. Bergstraße 7, 89312 Günzburg, Tel. 08221 36152\n\nb) www.feine-speisen.de — Egal, wo Sie feiern wollen, wir liefern für Ihre Hochzeit oder andere private Feiern bestes Essen. Z. B. Hochzeitsmenü ab 30 € p. P.; bayerisches Buffet 20,50 € p. P. Wir bieten außerdem Tische und Stühle, Dekoration, Servicepersonal und Kinderbetreuung an.\n\nc) www.weinhaus-walter.de — Internationale Spezialitäten. Beste Weine. Jetzt neu: Jeden Tag anderes 3-Gänge-Menü mit Getränk ab 20 € pro Person. Im Sommer auch in unserem ruhigen Garten. Sie finden uns direkt hinter dem Rathaus. Schöner Raum für kleine Feiern.\n\nd) www.cafe-sand.de — Urlaub in der Stadtmitte – direkt am Fluss, täglich ab 10.00 Uhr geöffnet. Jeden Samstag und Sonntag gibt es das stadtbekannte große Frühstück. Ab Mai jeden Sonnabend Party mit Live-Musik, ab 22 Uhr.\n\ne) www.towabu.de — Auf über 2500 qm auch bei schlechtem Wetter spielen und toben! Tolle Geburtstagspartys mit Super-Programm. Getränke inklusive. Täglich 10 bis 20 Uhr. Auch in den Sommerferien geöffnet.\n\nf) www.hansen-im-moor.de — Das Ausflugsrestaurant im Teufelsmoor. Mit dem Bus nur 20 Minuten vom Zentrum! Norddeutsche Küche. Mit Terrasse direkt am See. Sie suchen einen Ort für Ihr Familienfest, Ihre Hochzeit, Ihre Firmenfeier? Sprechen Sie uns an! Unsere Räume bieten Platz für 150 Personen.",
+    "text_en": "a) www.park-cafe.de — Homemade cakes, tortes and Italian ice cream. Large sun terrace with playground. Everything also to take away! Open daily except Mondays from 2 to 7 PM.\n\nb) www.feine-speisen.de — No matter where you want to celebrate, we deliver the best food for your wedding or other private parties. E.g. wedding menu from €30 p.p.; Bavarian buffet €20.50 p.p. We also offer tables and chairs, decoration, service staff and childcare.\n\nc) www.weinhaus-walter.de — International specialties. Best wines. New: Different 3-course menu with drink every day from €20 per person. In summer also in our quiet garden. Find us directly behind the town hall. Beautiful room for small celebrations.\n\nd) www.cafe-sand.de — Holiday in the city center – directly on the river, open daily from 10 AM. Every Saturday and Sunday the famous big breakfast. From May every Saturday party with live music, from 10 PM.\n\ne) www.towabu.de — Play and romp on over 2500 sqm even in bad weather! Great birthday parties with super program. Drinks included. Daily 10 to 8 PM. Also open during summer holidays.\n\nf) www.hansen-im-moor.de — The excursion restaurant in Teufelsmoor. Only 20 minutes from the center by bus! North German cuisine. With terrace directly on the lake. Looking for a place for your family celebration, your wedding, your company event? Talk to us! Our rooms offer space for 150 people.",
+    "source": "Anzeigen",
+    "word_count": 195
+  },
+  "questions": [
+    {
+      "number": 16,
+      "type": "matching",
+      "text_de": "Sarah heiratet bald und möchte mit vielen Gästen in einem Lokal feiern.",
+      "text_en": "Sarah is getting married soon and wants to celebrate with many guests in a restaurant.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "f",
+      "explanation_de": "Hansen im Moor (f) bietet Platz für 150 Personen und ist ein Restaurant für Hochzeiten.",
+      "explanation_en": "Hansen im Moor (f) offers space for 150 people and is a restaurant for weddings."
+    },
+    {
+      "number": 17,
+      "type": "matching",
+      "text_de": "Petra will mit Geschäftspartnern in der Stadt essen gehen und über die Arbeit sprechen.",
+      "text_en": "Petra wants to go out to eat with business partners in the city and talk about work.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Das Weinhaus Walter (c) liegt zentral hinter dem Rathaus, hat internationale Spezialitäten und einen ruhigen Garten.",
+      "explanation_en": "Weinhaus Walter (c) is centrally located behind the town hall, has international specialties and a quiet garden."
+    },
+    {
+      "number": 18,
+      "type": "matching",
+      "text_de": "Jens feiert seinen Geburtstag zu Hause und möchte guten Wein anbieten.",
+      "text_en": "Jens is celebrating his birthday at home and wants to offer good wine.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "x",
+      "explanation_de": "Keine der Anzeigen bietet Weinverkauf für zu Hause an.",
+      "explanation_en": "None of the ads offer wine sales for home."
+    },
+    {
+      "number": 19,
+      "type": "matching",
+      "text_de": "Karsten lädt am Abend Gäste zu sich nach Hause ein, möchte aber nicht kochen.",
+      "text_en": "Karsten is inviting guests to his home in the evening but doesn't want to cook.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Feine Speisen (b) liefert Essen für private Feiern, egal wo man feiern möchte.",
+      "explanation_en": "Feine Speisen (b) delivers food for private celebrations, no matter where you want to celebrate."
+    },
+    {
+      "number": 20,
+      "type": "matching",
+      "text_de": "Gabriele und ihre Tochter feiern Kindergeburtstag und möchten Kuchen essen gehen.",
+      "text_en": "Gabriele and her daughter are celebrating a children's birthday and want to go eat cake.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Das Park-Café (a) hat selbstgemachte Torten und Kuchen und einen Spielplatz.",
+      "explanation_en": "Park-Café (a) has homemade tortes and cakes and a playground."
+    }
+  ],
+  "source": "goethe-modellsatz"
+}
