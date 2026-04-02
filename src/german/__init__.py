@@ -4,7 +4,7 @@ from importlib.metadata import version
 
 __version__ = version("german")
 
-from .models import CEFRLevel, Gender, PartOfSpeech, VocabularyWord
+from .models import CEFRLevel, Gender, PartOfSpeech, VerbForms, VocabularyWord
 from .vocabulary import (
     VocabularyLoadError,
     filter_by_gender,
@@ -16,6 +16,7 @@ from .vocabulary import (
 
 __all__ = [
     "__version__",
+    "VerbForms",
     "VocabularyWord",
     "PartOfSpeech",
     "Gender",

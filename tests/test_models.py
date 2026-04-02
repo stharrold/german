@@ -3,7 +3,7 @@
 import pytest
 from pydantic import ValidationError
 
-from german.models import CEFRLevel, Gender, PartOfSpeech, VocabularyWord
+from german.models import CEFRLevel, Gender, PartOfSpeech, VerbForms, VocabularyWord
 
 
 def test_vocabulary_word_noun_with_gender():
@@ -153,8 +153,6 @@ def test_cefr_level_from_string():
     )
     assert word.level == CEFRLevel.B1
 
-
-from german.models import CEFRLevel, Gender, PartOfSpeech, VerbForms, VocabularyWord
 
 
 def test_verb_forms_model():
