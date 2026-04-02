@@ -32,8 +32,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - B1 Lesen complete: 25 exercises across teil-1 to teil-5 (#286-290)
 - B1 Schreiben complete: 15 exercises across aufgabe-1 to aufgabe-3 (#291-293)
 - B1 Sprechen complete: 15 exercises across teil-1 to teil-3 (#294-296)
-- A2 exam practice content: complete (#321), v2.3.0
-- A2: 65 exercises — Hören (4×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
+- A2 exam practice content: complete (#321), v2.3.0; Goethe materials merged v2.9.0
+- A2: 91 exercises — Hören (4×7), Lesen (4×7), Schreiben (2×7), Sprechen (3×7) — includes 26 official Goethe-Institut exercises
 - A1 exam practice content: complete (#334), v2.4.0
 - A1: 60 exercises — Hören (3×5), Lesen (4×5), Schreiben (2×5), Sprechen (3×5)
 - B2 exam practice content: complete (#335), v2.5.0
@@ -42,8 +42,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - C1: 65 exercises — Hören (4×5), Lesen (5×5), Schreiben (2×5), Sprechen (2×5)
 - C2 exam practice content: complete (#337), v2.7.0
 - C2: 50 exercises — Hören (2×5), Lesen (4×5), Schreiben (2×5), Sprechen (2×5)
-- Vocabulary expansion: complete (#338), v2.8.0
-- 960 CEFR-tagged words: 467 nouns, 247 verbs, 246 adjectives
+- Vocabulary expansion: complete (#338), v2.8.0; Goethe Wortliste merged v2.9.0
+- 1,675 vocabulary words: 952 nouns, 385 verbs, 338 adjectives (includes ~1,233 Goethe Wortliste entries)
 
 ## Repository Purpose
 
@@ -233,6 +233,7 @@ resources/exams/c2/              # C2 exam practice exercises (50, Goethe-Instit
 
 ## Version History
 
+- **v2.9.0** (2026-04-01): Goethe-Institut A2 materials merge (26 official exercises, 1,675 enriched vocabulary, PDF reference exports)
 - **v2.8.0** (2026-03-07): Expanded vocabulary with CEFR tagging (960 words, A1–C2)
 - **v2.7.1** (2026-03-07): Fix CHANGELOG Version History Summary table and test count wording
 - **v2.7.0** (2026-03-07): C2 exam practice content (50 exercises, GDS format), PDF generation and tests

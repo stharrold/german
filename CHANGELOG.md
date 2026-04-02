@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.0] - 2026-04-01
+
+### Added
+- **Official Goethe-Institut A2 materials integration** ([#363](https://github.com/stharrold/german/issues/363) groundwork)
+  - 26 new exercises from Modellsatz + Ubungssatz (A2 total: 65 -> 91)
+  - Markdown reference exports of all 3 Goethe PDFs under `resources/reference/goethe-a2/`
+  - Audio transcription of Horen practice files via faster-whisper (media-intelligence pipeline)
+- **Enriched vocabulary schema** with example sentences, verb forms, thematic groups
+  - `VerbForms` model for German verb conjugation patterns (present_3p, past_participle, auxiliary)
+  - Merged ~1,233 Goethe Wortliste entries with existing 960-word collection (total: 1,675 words)
+  - `source` provenance tracking on all vocabulary entries (ai-generated, goethe-wortliste, both)
+  - `thematic_group` field for vocabulary categorization (Berufe, Familie, etc.)
+  - `separable_prefix` flag for German separable prefix verbs
+- `source` field on all exam exercise models for content provenance
+- `options_image_descriptions` field for image-based answer options (Horen Teil 2/3)
+- `scripts/parse_wortliste.py` for Goethe Wortliste parsing and vocabulary merge
+
 ## [2.8.0] - 2026-03-07
 
 ### Added
