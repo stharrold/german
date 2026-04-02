@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.0] - 2026-04-02
+
+### Added
+- **Adaptive learning engine** ([#363](https://github.com/stharrold/german/issues/363))
+  - Proficiency tracking per exam concept with gain/decay formulas
+  - Priority-based exercise selection for Lesen and Hören
+  - Interactive CLI drill: `uv run python -m german.adaptive --level a2`
+  - Progress dashboard: `uv run python -m german.adaptive --stats`
+  - Student state persisted at `~/.german/profile.json`
+  - 48 auto-derived concepts across all CEFR levels (A1-C2)
+
 ## [2.9.0] - 2026-04-01
 
 ### Added

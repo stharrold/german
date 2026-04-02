@@ -44,6 +44,8 @@ Workflow v7x1 upgrade complete (v2.0.0).
 - C2: 50 exercises — Hören (2×5), Lesen (4×5), Schreiben (2×5), Sprechen (2×5)
 - Vocabulary expansion: complete (#338), v2.8.0; Goethe Wortliste merged v2.9.0
 - 1,675 vocabulary words: 952 nouns, 385 verbs, 338 adjectives (includes ~1,233 Goethe Wortliste entries)
+- Adaptive learning engine: complete (#363), v2.10.0
+- 48 exam concepts (Lesen + Hören), proficiency tracking, CLI drill
 
 ## Repository Purpose
 
@@ -233,6 +235,7 @@ resources/exams/c2/              # C2 exam practice exercises (50, Goethe-Instit
 
 ## Version History
 
+- **v2.10.0** (2026-04-02): Adaptive learning engine — CLI drill with proficiency tracking (#363)
 - **v2.9.0** (2026-04-01): Goethe-Institut A2 materials merge (26 official exercises, 1,675 enriched vocabulary, PDF reference exports)
 - **v2.8.0** (2026-03-07): Expanded vocabulary with CEFR tagging (960 words, A1–C2)
 - **v2.7.1** (2026-03-07): Fix CHANGELOG Version History Summary table and test count wording
