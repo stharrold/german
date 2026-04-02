@@ -7,7 +7,8 @@
       "gender": "masculine",
       "plural": "Abende",
       "level": "A1",
-      "source": "ai-generated"
+      "source": "both",
+      "thematic_group": "Tageszeiten"
     },
     {
       "german": "Abgrund",
@@ -33,7 +34,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Schule und Schulfächer"
     },
@@ -61,7 +62,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -70,7 +71,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Adressen"
     },
     {
@@ -79,7 +80,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ahnungen"
     },
     {
@@ -106,7 +107,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -124,7 +125,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ampeln"
     },
     {
@@ -160,7 +161,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Angebote"
     },
     {
@@ -169,7 +170,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Angestellte",
       "thematic_group": "Berufe"
     },
@@ -179,7 +180,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Angestellte",
       "thematic_group": "Berufe"
     },
@@ -198,7 +199,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ankünfte"
     },
     {
@@ -207,7 +208,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Anmeldungen"
     },
     {
@@ -216,7 +217,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Anrufe"
     },
     {
@@ -225,7 +226,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Anrufbeantworter"
     },
     {
@@ -234,7 +235,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Anschlüsse"
     },
     {
@@ -261,7 +262,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Antwortbogen",
       "thematic_group": "Anweisungssprache"
     },
@@ -289,7 +290,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Anzeigen"
     },
     {
@@ -334,7 +335,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Apparate"
     },
     {
@@ -393,6 +394,16 @@
       "source": "ai-generated"
     },
     {
+      "german": "Aufgabe",
+      "english": "task / assignment",
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "plural": "Aufgaben",
+      "thematic_group": "Anweisungssprache"
+    },
+    {
       "german": "Auge",
       "english": "eye",
       "part_of_speech": "noun",
@@ -416,7 +427,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ausflüge"
     },
     {
@@ -425,7 +436,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ausgänge"
     },
     {
@@ -434,7 +445,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Auskünfte"
     },
     {
@@ -443,7 +454,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -461,7 +472,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ausweise"
     },
     {
@@ -470,7 +481,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Auszubildende",
       "thematic_group": "Berufe"
     },
@@ -480,7 +491,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Auszubildende",
       "thematic_group": "Berufe"
     },
@@ -499,7 +510,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Autobahnen"
     },
     {
@@ -508,7 +519,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Automaten"
     },
     {
@@ -555,7 +566,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Babysitter",
       "thematic_group": "Berufe"
     },
@@ -574,7 +585,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bahnen"
     },
     {
@@ -592,7 +603,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bahnsteige"
     },
     {
@@ -610,7 +621,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bälle"
     },
     {
@@ -619,7 +630,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bananen"
     },
     {
@@ -628,7 +639,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bands"
     },
     {
@@ -646,7 +657,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bärte"
     },
     {
@@ -655,7 +666,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Batterien"
     },
     {
@@ -682,7 +693,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Becher"
     },
     {
@@ -691,7 +702,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bedeutungen"
     },
     {
@@ -700,7 +711,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bedienungen"
     },
     {
@@ -737,7 +748,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bekannte"
     },
     {
@@ -746,7 +757,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Beratungen"
     },
     {
@@ -782,7 +793,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bescheide"
     },
     {
@@ -791,7 +802,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Beschreibungen"
     },
     {
@@ -800,7 +811,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Besuche"
     },
     {
@@ -809,7 +820,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Besucher"
     },
     {
@@ -845,7 +856,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bewerbungen"
     },
     {
@@ -908,7 +919,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bitten"
     },
     {
@@ -917,7 +928,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Bleistifte"
     },
     {
@@ -926,7 +937,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Blicke"
     },
     {
@@ -935,7 +946,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Blogs"
     },
     {
@@ -962,7 +973,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -989,7 +1000,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Briefkästen"
     },
     {
@@ -998,7 +1009,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Briefmarken"
     },
     {
@@ -1007,7 +1018,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Brillen"
     },
     {
@@ -1035,7 +1046,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Brüste"
     },
     {
@@ -1062,7 +1073,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Buchstaben"
     },
     {
@@ -1154,7 +1165,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Cafés"
     },
     {
@@ -1163,7 +1174,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "CDs"
     },
     {
@@ -1172,7 +1183,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Chancen"
     },
     {
@@ -1190,7 +1201,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Clubs"
     },
     {
@@ -1208,7 +1219,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Couches"
     },
     {
@@ -1237,7 +1248,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Damen"
     },
     {
@@ -1246,7 +1257,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1309,7 +1320,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Dinge"
     },
     {
@@ -1318,7 +1329,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Direktoren",
       "thematic_group": "Schule und Schulfächer"
     },
@@ -1328,7 +1339,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Discos"
     },
     {
@@ -1374,7 +1385,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Doktorinnen",
       "thematic_group": "Berufe"
     },
@@ -1384,7 +1395,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Dokumente"
     },
     {
@@ -1402,7 +1413,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Dome"
     },
     {
@@ -1411,7 +1422,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Doppelzimmer"
     },
     {
@@ -1420,7 +1431,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Dörfer"
     },
     {
@@ -1438,7 +1449,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Durchsagen",
       "thematic_group": "Anweisungssprache"
     },
@@ -1448,7 +1459,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1466,7 +1477,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "E-Mails"
     },
     {
@@ -1475,7 +1486,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ecken"
     },
     {
@@ -1484,7 +1495,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ehefrauen"
     },
     {
@@ -1493,7 +1504,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ehemänner"
     },
     {
@@ -1502,7 +1513,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ehepaare"
     },
     {
@@ -1520,7 +1531,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Eingänge"
     },
     {
@@ -1529,7 +1540,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1547,7 +1558,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1556,7 +1567,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Einzelzimmer"
     },
     {
@@ -1565,7 +1576,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1574,7 +1585,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Familienmitglieder"
     },
@@ -1593,7 +1604,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Empfehlungen"
     },
     {
@@ -1630,7 +1641,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Enkelinnen",
       "thematic_group": "Familienmitglieder"
     },
@@ -1685,7 +1696,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erdgeschosse"
     },
     {
@@ -1730,7 +1741,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erinnerungen"
     },
     {
@@ -1748,7 +1759,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erklärungen"
     },
     {
@@ -1757,7 +1768,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erkältungen"
     },
     {
@@ -1775,7 +1786,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -1784,7 +1795,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ermäßigungen"
     },
     {
@@ -1802,7 +1813,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erwachsene"
     },
     {
@@ -1811,7 +1822,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Erzählungen"
     },
     {
@@ -1856,7 +1867,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fahrer",
       "thematic_group": "Berufe"
     },
@@ -1866,7 +1877,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fahrerinnen",
       "thematic_group": "Berufe"
     },
@@ -1885,7 +1896,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fahrpläne"
     },
     {
@@ -1903,7 +1914,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fahrten"
     },
     {
@@ -1912,7 +1923,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fahrzeuge"
     },
     {
@@ -1930,7 +1941,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fälle"
     },
     {
@@ -1957,7 +1968,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Faxe"
     },
     {
@@ -1975,7 +1986,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Feiern"
     },
     {
@@ -1984,7 +1995,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Feiertage"
     },
     {
@@ -2002,7 +2013,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2011,7 +2022,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2020,7 +2031,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fernseher"
     },
     {
@@ -2038,7 +2049,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Feuer"
     },
     {
@@ -2047,7 +2058,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Feuerwehren"
     },
     {
@@ -2065,7 +2076,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Filme"
     },
     {
@@ -2119,7 +2130,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Flüge"
     },
     {
@@ -2146,7 +2157,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Flure"
     },
     {
@@ -2164,7 +2175,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Formulare"
     },
     {
@@ -2182,7 +2193,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fotos"
     },
     {
@@ -2191,7 +2202,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Fotoapparate"
     },
     {
@@ -2227,7 +2238,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2263,7 +2274,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Freundschaften"
     },
     {
@@ -2272,7 +2283,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Friseure",
       "thematic_group": "Berufe"
     },
@@ -2282,7 +2293,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Friseurinnen",
       "thematic_group": "Berufe"
     },
@@ -2292,7 +2303,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2319,7 +2330,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Führerscheine"
     },
     {
@@ -2328,7 +2339,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Führungen"
     },
     {
@@ -2346,7 +2357,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gänge"
     },
     {
@@ -2355,7 +2366,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Garagen"
     },
     {
@@ -2364,7 +2375,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Garantien"
     },
     {
@@ -2400,7 +2411,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2409,7 +2420,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Geburten"
     },
     {
@@ -2427,7 +2438,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gefahren"
     },
     {
@@ -2436,7 +2447,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gegenden"
     },
     {
@@ -2445,7 +2456,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gegenteile"
     },
     {
@@ -2454,7 +2465,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gehälter"
     },
     {
@@ -2472,7 +2483,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Geldautomaten"
     },
     {
@@ -2553,7 +2564,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Geschichten"
     },
     {
@@ -2562,7 +2573,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Geschmäcker"
     },
     {
@@ -2571,7 +2582,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Geschwindigkeiten"
     },
     {
@@ -2580,7 +2591,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Familienmitglieder"
     },
@@ -2626,7 +2637,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gesichter"
     },
     {
@@ -2635,7 +2646,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gespräche"
     },
     {
@@ -2662,7 +2673,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gewichte"
     },
     {
@@ -2680,7 +2691,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gewitter"
     },
     {
@@ -2707,7 +2718,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gleise"
     },
     {
@@ -2725,7 +2736,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Grade"
     },
     {
@@ -2734,7 +2745,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2743,7 +2754,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Familienmitglieder"
     },
@@ -2782,7 +2793,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gruppen"
     },
     {
@@ -2791,7 +2802,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Grüße"
     },
     {
@@ -2818,7 +2829,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Gutscheine"
     },
     {
@@ -2845,7 +2856,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -2854,7 +2865,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hallen"
     },
     {
@@ -2918,7 +2929,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Handwerkerinnen",
       "thematic_group": "Berufe"
     },
@@ -2928,7 +2939,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Handys"
     },
     {
@@ -2937,7 +2948,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hauptstädte"
     },
     {
@@ -2994,7 +3005,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hausmeister"
     },
     {
@@ -3003,7 +3014,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Haustiere"
     },
     {
@@ -3012,7 +3023,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Häute"
     },
     {
@@ -3030,7 +3041,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3039,7 +3050,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Heizungen"
     },
     {
@@ -3075,7 +3086,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Herren"
     },
     {
@@ -3129,7 +3140,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hochzeiten"
     },
     {
@@ -3147,7 +3158,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hölzer"
     },
     {
@@ -3174,7 +3185,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Hühner"
     },
     {
@@ -3183,7 +3194,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3201,7 +3212,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3210,7 +3221,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3246,7 +3257,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Höhen"
     },
     {
@@ -3273,7 +3284,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Industrien"
     },
     {
@@ -3282,7 +3293,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Informationen"
     },
     {
@@ -3345,7 +3356,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Interessen"
     },
     {
@@ -3354,7 +3365,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3391,7 +3402,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Jahreszeiten"
     },
     {
@@ -3400,7 +3411,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Jeans"
     },
     {
@@ -3409,7 +3420,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Jobs"
     },
     {
@@ -3428,7 +3439,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Journalistinnen",
       "thematic_group": "Berufe"
     },
@@ -3447,7 +3458,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Jugendherbergen"
     },
     {
@@ -3456,7 +3467,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Jugendliche"
     },
     {
@@ -3483,7 +3494,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kalender"
     },
     {
@@ -3492,7 +3503,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kameras"
     },
     {
@@ -3501,7 +3512,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kantinen"
     },
     {
@@ -3528,7 +3539,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Karten"
     },
     {
@@ -3546,7 +3557,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kassen"
     },
     {
@@ -3555,7 +3566,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kästen"
     },
     {
@@ -3573,7 +3584,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kauffrauen",
       "thematic_group": "Berufe"
     },
@@ -3583,7 +3594,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kaufhäuser"
     },
     {
@@ -3602,7 +3613,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Keller"
     },
     {
@@ -3611,7 +3622,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kellner",
       "thematic_group": "Berufe"
     },
@@ -3631,7 +3642,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kenntnisse"
     },
     {
@@ -3650,7 +3661,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kindergärten"
     },
     {
@@ -3659,7 +3670,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kinos"
     },
     {
@@ -3668,7 +3679,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kioske"
     },
     {
@@ -3695,7 +3706,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Klassen",
       "thematic_group": "Schule und Schulfächer"
     },
@@ -3705,7 +3716,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Klassenfahrten",
       "thematic_group": "Schule und Schulfächer"
     },
@@ -3715,7 +3726,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Klaviere"
     },
     {
@@ -3733,7 +3744,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3751,7 +3762,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Klimaanlagen"
     },
     {
@@ -3760,7 +3771,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kliniken"
     },
     {
@@ -3851,7 +3862,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kontakte"
     },
     {
@@ -3869,7 +3880,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Konten"
     },
     {
@@ -3878,7 +3889,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kontrollen"
     },
     {
@@ -3914,7 +3925,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kopien"
     },
     {
@@ -3932,7 +3943,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -3950,7 +3961,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Krankenkassen"
     },
     {
@@ -3979,7 +3990,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Krankenwagen"
     },
     {
@@ -3997,7 +4008,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kreuzungen"
     },
     {
@@ -4006,7 +4017,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kriege"
     },
     {
@@ -4033,7 +4044,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kugelschreiber"
     },
     {
@@ -4060,7 +4071,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kunden"
     },
     {
@@ -4069,7 +4080,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Kundinnen"
     },
     {
@@ -4105,7 +4116,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Köchinnen",
       "thematic_group": "Berufe"
     },
@@ -4115,7 +4126,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Körper"
     },
     {
@@ -4152,7 +4163,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Künstlerinnen",
       "thematic_group": "Berufe"
     },
@@ -4171,7 +4182,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Läden"
     },
     {
@@ -4180,7 +4191,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lagen"
     },
     {
@@ -4207,7 +4218,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Landschaften"
     },
     {
@@ -4216,7 +4227,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Leben"
     },
     {
@@ -4225,7 +4236,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lebensmittel"
     },
     {
@@ -4234,7 +4245,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lehren"
     },
     {
@@ -4281,7 +4292,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Leistungen"
     },
     {
@@ -4290,7 +4301,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -4299,7 +4310,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lichter"
     },
     {
@@ -4308,7 +4319,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -4317,7 +4328,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lieblinge"
     },
     {
@@ -4326,7 +4337,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lieder"
     },
     {
@@ -4335,7 +4346,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lieferungen"
     },
     {
@@ -4344,7 +4355,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Linien"
     },
     {
@@ -4353,7 +4364,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Listen"
     },
     {
@@ -4371,7 +4382,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Löcher"
     },
     {
@@ -4389,7 +4400,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -4398,7 +4409,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -4416,7 +4427,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Lösungen",
       "thematic_group": "Anweisungssprache"
     },
@@ -4426,7 +4437,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mägen"
     },
     {
@@ -4435,7 +4446,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mahlzeiten"
     },
     {
@@ -4444,7 +4455,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Male"
     },
     {
@@ -4498,7 +4509,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Marktplätze"
     },
     {
@@ -4507,7 +4518,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Maschinen"
     },
     {
@@ -4516,7 +4527,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Materialien"
     },
     {
@@ -4544,7 +4555,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mechanikerinnen",
       "thematic_group": "Berufe"
     },
@@ -4590,7 +4601,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mengen"
     },
     {
@@ -4608,7 +4619,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Messen"
     },
     {
@@ -4635,7 +4646,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Meter"
     },
     {
@@ -4662,7 +4673,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mieter"
     },
     {
@@ -4680,7 +4691,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mineralwasser"
     },
     {
@@ -4699,7 +4710,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mitarbeiter"
     },
     {
@@ -4708,7 +4719,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mitglieder"
     },
     {
@@ -4717,7 +4728,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mittage",
       "thematic_group": "Tageszeiten"
     },
@@ -4727,7 +4738,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mittagessen"
     },
     {
@@ -4736,7 +4747,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mitten"
     },
     {
@@ -4745,7 +4756,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mitteilungen"
     },
     {
@@ -4754,7 +4765,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Mittel"
     },
     {
@@ -4763,7 +4774,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Moden"
     },
     {
@@ -4782,7 +4793,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Momente"
     },
     {
@@ -4819,7 +4830,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Motoren"
     },
     {
@@ -4828,7 +4839,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Motorräder"
     },
     {
@@ -4874,7 +4885,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Musikerinnen",
       "thematic_group": "Berufe"
     },
@@ -4912,7 +4923,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Möbel"
     },
     {
@@ -4957,7 +4968,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Nachmittage",
       "thematic_group": "Tageszeiten"
     },
@@ -4967,7 +4978,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Nachnamen"
     },
     {
@@ -4995,7 +5006,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Nachteile"
     },
     {
@@ -5040,7 +5051,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -5049,7 +5060,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Himmelsrichtungen"
     },
@@ -5059,7 +5070,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Noten"
     },
     {
@@ -5068,7 +5079,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Notizen"
     },
     {
@@ -5077,7 +5088,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Notrufe"
     },
     {
@@ -5104,7 +5115,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -5159,7 +5170,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ordnungen"
     },
     {
@@ -5168,7 +5179,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Orte"
     },
     {
@@ -5177,7 +5188,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Himmelsrichtungen"
     },
@@ -5187,7 +5198,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Paare"
     },
     {
@@ -5196,7 +5207,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pakete"
     },
     {
@@ -5205,7 +5216,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pannen"
     },
     {
@@ -5214,7 +5225,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Papiere"
     },
     {
@@ -5232,7 +5243,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Parks"
     },
     {
@@ -5241,7 +5252,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Parkhäuser"
     },
     {
@@ -5268,7 +5279,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Partner"
     },
     {
@@ -5277,7 +5288,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Partys"
     },
     {
@@ -5286,7 +5297,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pässe"
     },
     {
@@ -5295,7 +5306,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Passagiere"
     },
     {
@@ -5304,7 +5315,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Passwörter"
     },
     {
@@ -5313,7 +5324,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pausen"
     },
     {
@@ -5322,7 +5333,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Personen"
     },
     {
@@ -5340,7 +5351,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pflaster"
     },
     {
@@ -5367,7 +5378,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Pläne"
     },
     {
@@ -5403,7 +5414,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Polizisten",
       "thematic_group": "Berufe"
     },
@@ -5413,7 +5424,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Polizistinnen",
       "thematic_group": "Berufe"
     },
@@ -5432,7 +5443,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Postkarten"
     },
     {
@@ -5441,7 +5452,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Postleitzahlen"
     },
     {
@@ -5459,7 +5470,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Praktika"
     },
     {
@@ -5468,7 +5479,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Praxen"
     },
     {
@@ -5477,7 +5488,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Preise"
     },
     {
@@ -5504,7 +5515,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Produkte"
     },
     {
@@ -5531,7 +5542,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Prospekte"
     },
     {
@@ -5540,7 +5551,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Prozent"
     },
     {
@@ -5568,7 +5579,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Prüferinnen",
       "thematic_group": "Anweisungssprache"
     },
@@ -5597,7 +5608,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Punkte",
       "thematic_group": "Anweisungssprache"
     },
@@ -5607,7 +5618,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Päckchen"
     },
     {
@@ -5616,7 +5627,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Qualitäten"
     },
     {
@@ -5625,7 +5636,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Quittungen"
     },
     {
@@ -5634,7 +5645,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Räder"
     },
     {
@@ -5643,7 +5654,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Radios"
     },
     {
@@ -5661,7 +5672,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Räume"
     },
     {
@@ -5670,7 +5681,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Realschulen"
     },
     {
@@ -5679,7 +5690,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rechnungen"
     },
     {
@@ -5742,7 +5753,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reifen"
     },
     {
@@ -5751,7 +5762,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reihenfolgen"
     },
     {
@@ -5778,7 +5789,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reisebüros"
     },
     {
@@ -5787,7 +5798,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reiseführer"
     },
     {
@@ -5796,7 +5807,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reklamen"
     },
     {
@@ -5815,7 +5826,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rentnerinnen",
       "thematic_group": "Berufe"
     },
@@ -5825,7 +5836,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reparaturen"
     },
     {
@@ -5834,7 +5845,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Reservierungen"
     },
     {
@@ -5861,7 +5872,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rezeptionen"
     },
     {
@@ -5897,7 +5908,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Richtungen"
     },
     {
@@ -5924,7 +5935,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rollen"
     },
     {
@@ -5942,7 +5953,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rucksäcke"
     },
     {
@@ -5951,7 +5962,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -5960,7 +5971,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rundfahrten"
     },
     {
@@ -5978,7 +5989,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Rückfahrten"
     },
     {
@@ -5987,7 +5998,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sachen"
     },
     {
@@ -6005,7 +6016,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6032,7 +6043,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Samstage"
     },
     {
@@ -6041,7 +6052,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sätze"
     },
     {
@@ -6059,7 +6070,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schäden"
     },
     {
@@ -6086,7 +6097,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schalter"
     },
     {
@@ -6095,7 +6106,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schauspieler",
       "thematic_group": "Berufe"
     },
@@ -6105,7 +6116,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schauspielerinnen",
       "thematic_group": "Berufe"
     },
@@ -6115,7 +6126,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schecks"
     },
     {
@@ -6124,7 +6135,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schilder"
     },
     {
@@ -6133,7 +6144,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schinken"
     },
     {
@@ -6142,7 +6153,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schlafzimmer"
     },
     {
@@ -6151,7 +6162,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schlösser"
     },
     {
@@ -6160,7 +6171,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6196,7 +6207,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6232,7 +6243,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schreibtische"
     },
     {
@@ -6250,7 +6261,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6305,7 +6316,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schwierigkeiten"
     },
     {
@@ -6314,7 +6325,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schwimmbäder"
     },
     {
@@ -6323,7 +6334,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schüler"
     },
     {
@@ -6332,7 +6343,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Schülerinnen"
     },
     {
@@ -6350,7 +6361,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sehenswürdigkeiten"
     },
     {
@@ -6368,7 +6379,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Seifen"
     },
     {
@@ -6386,7 +6397,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sekretariate",
       "thematic_group": "Schule und Schulfächer"
     },
@@ -6396,7 +6407,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sekunden",
       "thematic_group": "Zeitangaben"
     },
@@ -6433,7 +6444,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Situationen"
     },
     {
@@ -6442,7 +6453,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Skier"
     },
     {
@@ -6488,7 +6499,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sommer"
     },
     {
@@ -6506,7 +6517,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sonntage"
     },
     {
@@ -6515,7 +6526,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sorgen"
     },
     {
@@ -6533,7 +6544,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Soßen"
     },
     {
@@ -6542,7 +6553,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sparkassen"
     },
     {
@@ -6551,7 +6562,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Spaziergänge"
     },
     {
@@ -6560,7 +6571,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Späße"
     },
     {
@@ -6569,7 +6580,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Speisekarten"
     },
     {
@@ -6614,7 +6625,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sportler"
     },
     {
@@ -6623,7 +6634,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sportplätze"
     },
     {
@@ -6641,7 +6652,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sprechstunden"
     },
     {
@@ -6668,7 +6679,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stadtpläne"
     },
     {
@@ -6677,7 +6688,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Staus"
     },
     {
@@ -6686,7 +6697,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6695,7 +6706,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stellen"
     },
     {
@@ -6704,7 +6715,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stellenangebote"
     },
     {
@@ -6749,7 +6760,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stimmen"
     },
     {
@@ -6776,7 +6787,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stockwerke"
     },
     {
@@ -6785,7 +6796,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stoffe"
     },
     {
@@ -6812,7 +6823,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Straßenbahnen"
     },
     {
@@ -6821,7 +6832,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -6830,7 +6841,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Studenten"
     },
     {
@@ -6857,7 +6868,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stufen"
     },
     {
@@ -6885,7 +6896,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stundenpläne",
       "thematic_group": "Schule und Schulfächer"
     },
@@ -6895,7 +6906,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Stücke"
     },
     {
@@ -6931,7 +6942,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Systeme"
     },
     {
@@ -6950,7 +6961,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Sängerinnen",
       "thematic_group": "Berufe"
     },
@@ -6960,7 +6971,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Himmelsrichtungen"
     },
@@ -6970,7 +6981,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tabellen"
     },
     {
@@ -6979,7 +6990,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tabletten"
     },
     {
@@ -6988,7 +6999,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tafeln"
     },
     {
@@ -7007,7 +7018,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tageszeitungen"
     },
     {
@@ -7016,7 +7027,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tankstellen"
     },
     {
@@ -7035,7 +7046,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tänze"
     },
     {
@@ -7062,7 +7073,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tasten"
     },
     {
@@ -7071,7 +7082,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Taxis"
     },
     {
@@ -7099,7 +7110,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Technikerinnen",
       "thematic_group": "Berufe"
     },
@@ -7118,7 +7129,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Teile",
       "thematic_group": "Anweisungssprache"
     },
@@ -7128,7 +7139,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Teilnehmer"
     },
     {
@@ -7155,7 +7166,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Temperaturen"
     },
     {
@@ -7182,7 +7193,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Terrassen"
     },
     {
@@ -7201,7 +7212,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Texte",
       "thematic_group": "Anweisungssprache"
     },
@@ -7220,7 +7231,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Themen"
     },
     {
@@ -7247,7 +7258,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tickets"
     },
     {
@@ -7265,7 +7276,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tipps"
     },
     {
@@ -7283,7 +7294,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Titel"
     },
     {
@@ -7302,7 +7313,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tode"
     },
     {
@@ -7320,7 +7331,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Töpfe"
     },
     {
@@ -7329,7 +7340,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tore"
     },
     {
@@ -7338,7 +7349,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Touren"
     },
     {
@@ -7347,7 +7358,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Touristen"
     },
     {
@@ -7365,7 +7376,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Trainings"
     },
     {
@@ -7392,7 +7403,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Träume"
     },
     {
@@ -7419,7 +7430,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tücher"
     },
     {
@@ -7428,7 +7439,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Türme"
     },
     {
@@ -7437,7 +7448,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Typen"
     },
     {
@@ -7464,7 +7475,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Tüten"
     },
     {
@@ -7473,7 +7484,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "U-Bahnen"
     },
     {
@@ -7482,7 +7493,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ufer"
     },
     {
@@ -7500,7 +7511,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Umgebungen"
     },
     {
@@ -7518,7 +7529,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -7536,7 +7547,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Umzüge"
     },
     {
@@ -7554,7 +7565,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Unfälle"
     },
     {
@@ -7572,7 +7583,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Unterkünfte"
     },
     {
@@ -7599,7 +7610,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Unterschriften"
     },
     {
@@ -7663,7 +7674,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verben"
     },
     {
@@ -7672,7 +7683,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verbindungen"
     },
     {
@@ -7708,7 +7719,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -7717,7 +7728,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vergleiche"
     },
     {
@@ -7726,7 +7737,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vergnügen"
     },
     {
@@ -7744,7 +7755,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -7753,7 +7764,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verkehrsmittel"
     },
     {
@@ -7762,7 +7773,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verkäufer",
       "thematic_group": "Berufe"
     },
@@ -7772,7 +7783,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verkäuferinnen",
       "thematic_group": "Berufe"
     },
@@ -7818,7 +7829,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vermieter"
     },
     {
@@ -7854,7 +7865,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verspätungen"
     },
     {
@@ -7872,7 +7883,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Verwandte",
       "thematic_group": "Familienmitglieder"
     },
@@ -7882,7 +7893,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -7900,7 +7911,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorbereitungen"
     },
     {
@@ -7913,12 +7924,22 @@
       "source": "ai-generated"
     },
     {
+      "german": "Vormittag",
+      "english": "morning (late)",
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "level": "A2",
+      "source": "goethe-wortliste",
+      "plural": "Vormittage",
+      "thematic_group": "Tageszeiten"
+    },
+    {
       "german": "Vorname",
       "english": "first name",
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vornamen"
     },
     {
@@ -7927,7 +7948,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorschläge"
     },
     {
@@ -7945,7 +7966,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorstellungen"
     },
     {
@@ -7954,7 +7975,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorteile"
     },
     {
@@ -7963,7 +7984,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorträge"
     },
     {
@@ -7972,7 +7993,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Vorwahlen"
     },
     {
@@ -7981,7 +8002,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wagen"
     },
     {
@@ -8035,7 +8056,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wanderungen"
     },
     {
@@ -8044,7 +8065,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Waren"
     },
     {
@@ -8053,7 +8074,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wartezeiten"
     },
     {
@@ -8080,7 +8101,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wege"
     },
     {
@@ -8098,7 +8119,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Welten"
     },
     {
@@ -8125,7 +8146,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Werkstätten"
     },
     {
@@ -8134,7 +8155,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Werkzeuge"
     },
     {
@@ -8143,7 +8164,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null,
       "thematic_group": "Himmelsrichtungen"
     },
@@ -8162,7 +8183,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wetterberichte"
     },
     {
@@ -8189,7 +8210,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -8198,7 +8219,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": null
     },
     {
@@ -8216,7 +8237,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Winter"
     },
     {
@@ -8252,7 +8273,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Witze"
     },
     {
@@ -8262,7 +8283,8 @@
       "gender": "feminine",
       "plural": "Wochen",
       "level": "A1",
-      "source": "ai-generated"
+      "source": "both",
+      "thematic_group": "Zeitangaben"
     },
     {
       "german": "Wohnung",
@@ -8279,7 +8301,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wohnzimmer"
     },
     {
@@ -8297,7 +8319,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Workshops"
     },
     {
@@ -8315,7 +8337,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wünsche"
     },
     {
@@ -8324,7 +8346,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Würste"
     },
     {
@@ -8342,7 +8364,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Wörterbücher",
       "thematic_group": "Anweisungssprache"
     },
@@ -8352,7 +8374,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zahlen"
     },
     {
@@ -8415,7 +8437,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zelte"
     },
     {
@@ -8424,7 +8446,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zentren"
     },
     {
@@ -8442,7 +8464,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zettel"
     },
     {
@@ -8460,7 +8482,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Ziele"
     },
     {
@@ -8478,7 +8500,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zirkusse"
     },
     {
@@ -8496,7 +8518,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zitronen"
     },
     {
@@ -8505,7 +8527,7 @@
       "part_of_speech": "noun",
       "gender": "masculine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Zoos"
     },
     {
@@ -8587,7 +8609,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Öffnungszeiten"
     },
     {
@@ -8596,7 +8618,7 @@
       "part_of_speech": "noun",
       "gender": "neuter",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Öle"
     },
     {
@@ -8605,7 +8627,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Übernachtungen"
     },
     {
@@ -8614,7 +8636,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Überraschungen"
     },
     {
@@ -8623,7 +8645,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Übersetzungen"
     },
     {
@@ -8632,7 +8654,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Überstunden"
     },
     {
@@ -8641,7 +8663,7 @@
       "part_of_speech": "noun",
       "gender": "feminine",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "plural": "Überweisungen"
     },
     {

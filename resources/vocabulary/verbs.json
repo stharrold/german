@@ -12,7 +12,7 @@
       "english": "to hand in / to drop off",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "gibt ab",
         "past_participle": "abgegeben",
@@ -52,7 +52,7 @@
       "english": "to lock / to complete",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schließt ab",
         "past_participle": "abgeschlossen",
@@ -86,7 +86,7 @@
       "english": "to offer",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "bietet an",
         "past_participle": "angeboten",
@@ -132,7 +132,7 @@
       "english": "to turn on / to switch on",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "macht an",
         "past_participle": "angemacht",
@@ -145,7 +145,7 @@
       "english": "to register / to sign up",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "meldet an",
         "past_participle": "angemeldet",
@@ -171,7 +171,7 @@
       "english": "to look at / to watch",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "sieht an",
         "past_participle": "angesehen",
@@ -256,7 +256,7 @@
       "english": "to open",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "macht auf",
         "past_participle": "aufgemacht",
@@ -269,7 +269,7 @@
       "english": "to watch out / to pay attention",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "passt auf",
         "past_participle": "aufgepasst",
@@ -308,7 +308,7 @@
       "english": "to fill out / to complete",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "füllt aus",
         "past_participle": "ausgefüllt",
@@ -334,7 +334,7 @@
       "english": "to go out",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "geht aus",
         "past_participle": "ausgegangen",
@@ -347,7 +347,7 @@
       "english": "to turn off / to switch off",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "macht aus",
         "past_participle": "ausgemacht",
@@ -360,7 +360,7 @@
       "english": "to unpack",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "packt aus",
         "past_participle": "ausgepackt",
@@ -373,7 +373,7 @@
       "english": "to rest / to relax",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "ruht aus",
         "past_participle": "ausgeruht",
@@ -386,7 +386,7 @@
       "english": "to look / to appear",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "sieht aus",
         "past_participle": "ausgesehen",
@@ -399,7 +399,7 @@
       "english": "to pronounce",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "spricht aus",
         "past_participle": "ausgesprochen",
@@ -425,7 +425,7 @@
       "english": "to deliver / to carry out",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "trägt aus",
         "past_participle": "ausgetragen",
@@ -457,7 +457,7 @@
       "english": "to bathe / to swim",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "badet",
         "past_participle": "gebadet",
@@ -495,7 +495,7 @@
       "english": "to mean",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "bedeutet",
         "past_participle": "bedeutet",
@@ -507,7 +507,7 @@
       "english": "to hurry",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "beeilt",
         "past_participle": "beeilt",
@@ -533,7 +533,7 @@
       "english": "to end / to finish",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "beendet",
         "past_participle": "beendet",
@@ -602,7 +602,7 @@
       "english": "to use",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "benutzt",
         "past_participle": "benutzt",
@@ -633,7 +633,7 @@
       "english": "to report",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "berichtet",
         "past_participle": "berichtet",
@@ -664,7 +664,7 @@
       "english": "to visit / to tour",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "besichtigt",
         "past_participle": "besichtigt",
@@ -676,7 +676,7 @@
       "english": "to pass (exam) / to exist",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "besteht",
         "past_participle": "bestanden",
@@ -795,7 +795,7 @@
       "english": "to burn",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "brennt",
         "past_participle": "gebrannt",
@@ -831,7 +831,7 @@
       "english": "to thank",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "dankt",
         "past_participle": "gedankt",
@@ -914,7 +914,7 @@
       "english": "to print",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "druckt",
         "past_participle": "gedruckt",
@@ -926,7 +926,7 @@
       "english": "to press / to push",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "drückt",
         "past_participle": "gedrückt",
@@ -945,7 +945,7 @@
       "english": "to shower",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "duscht",
         "past_participle": "geduscht",
@@ -995,7 +995,7 @@
       "english": "to pack / to wrap",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "packt ein",
         "past_participle": "eingepackt",
@@ -1015,7 +1015,7 @@
       "english": "to switch on",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schaltet ein",
         "past_participle": "eingeschaltet",
@@ -1055,7 +1055,7 @@
       "english": "to enter / to register",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "trägt ein",
         "past_participle": "eingetragen",
@@ -1115,7 +1115,7 @@
       "english": "to receive / to get",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "erhält",
         "past_participle": "erhalten",
@@ -1127,7 +1127,7 @@
       "english": "to increase / to raise",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "erhöht",
         "past_participle": "erhöht",
@@ -1151,7 +1151,7 @@
       "english": "to recognize",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "erkennt",
         "past_participle": "erkannt",
@@ -1182,7 +1182,7 @@
       "english": "to allow / to permit",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "erlaubt",
         "past_participle": "erlaubt",
@@ -1227,7 +1227,7 @@
       "english": "to be frightened / to scare",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "erschrickt",
         "past_participle": "erschrocken",
@@ -1322,7 +1322,7 @@
       "english": "to catch",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "fängt",
         "past_participle": "gefangen",
@@ -1334,7 +1334,7 @@
       "english": "to be missing / to lack",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "fehlt",
         "past_participle": "gefehlt",
@@ -1346,7 +1346,7 @@
       "english": "to celebrate",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "feiert",
         "past_participle": "gefeiert",
@@ -1395,7 +1395,7 @@
       "english": "to follow",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "folgt",
         "past_participle": "gefolgt",
@@ -1419,7 +1419,7 @@
       "english": "to be glad / to look forward to",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "freut",
         "past_participle": "gefreut",
@@ -1438,7 +1438,7 @@
       "english": "to have breakfast",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "frühstückt",
         "past_participle": "gefrühstückt",
@@ -1457,7 +1457,7 @@
       "english": "to feel",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "fühlt",
         "past_participle": "gefühlt",
@@ -1555,7 +1555,7 @@
       "english": "to get used to",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "gewöhnt",
         "past_participle": "gewöhnt",
@@ -1591,7 +1591,7 @@
       "english": "to grill / to barbecue",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "grillt",
         "past_participle": "gegrillt",
@@ -1603,7 +1603,7 @@
       "english": "to greet",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "grüßt",
         "past_participle": "gegrüßt",
@@ -1615,7 +1615,7 @@
       "english": "to look / to watch",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "guckt",
         "past_participle": "geguckt",
@@ -1651,7 +1651,7 @@
       "english": "to lift / to raise",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "hebt",
         "past_participle": "gehoben",
@@ -1663,7 +1663,7 @@
       "english": "to marry",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "heiratet",
         "past_participle": "geheiratet",
@@ -1699,7 +1699,7 @@
       "english": "to produce / to manufacture",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "stellt her",
         "past_participle": "hergestellt",
@@ -1738,7 +1738,7 @@
       "english": "to get / to fetch",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "holt",
         "past_participle": "geholt",
@@ -1757,7 +1757,7 @@
       "english": "to cough",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "hustet",
         "past_participle": "gehustet",
@@ -1769,7 +1769,7 @@
       "english": "to hang",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "hängt",
         "past_participle": "gehangen",
@@ -1800,7 +1800,7 @@
       "english": "to inform",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "informiert",
         "past_participle": "informiert",
@@ -1812,7 +1812,7 @@
       "english": "to interest / to be interested in",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "interessiert",
         "past_participle": "interessiert",
@@ -1848,7 +1848,7 @@
       "english": "to get to know / to meet",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "lernt kennen",
         "past_participle": "kennengelernt",
@@ -1861,7 +1861,7 @@
       "english": "to ring (doorbell/phone)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "klingelt",
         "past_participle": "geklingelt",
@@ -1873,7 +1873,7 @@
       "english": "to knock",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "klopft",
         "past_participle": "geklopft",
@@ -1944,7 +1944,7 @@
       "english": "to check / to control",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "kontrolliert",
         "past_participle": "kontrolliert",
@@ -1956,7 +1956,7 @@
       "english": "to copy",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "kopiert",
         "past_participle": "kopiert",
@@ -1975,7 +1975,7 @@
       "english": "to correct",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "korrigiert",
         "past_participle": "korrigiert",
@@ -1999,7 +1999,7 @@
       "english": "to get / to receive",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "kriegt",
         "past_participle": "gekriegt",
@@ -2042,7 +2042,7 @@
       "english": "to land",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "landet",
         "past_participle": "gelandet",
@@ -2090,7 +2090,7 @@
       "english": "to lay / to put",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "legt",
         "past_participle": "gelegt",
@@ -2145,7 +2145,7 @@
       "english": "to love",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "liebt",
         "past_participle": "geliebt",
@@ -2157,7 +2157,7 @@
       "english": "to deliver",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "liefert",
         "past_participle": "geliefert",
@@ -2181,7 +2181,7 @@
       "english": "to solve / to buy (ticket)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "löst",
         "past_participle": "gelöst",
@@ -2205,7 +2205,7 @@
       "english": "to paint / to draw",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "malt",
         "past_participle": "gemalt",
@@ -2224,7 +2224,7 @@
       "english": "to mean / to think",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "meint",
         "past_participle": "gemeint",
@@ -2236,7 +2236,7 @@
       "english": "to report / to register",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "meldet",
         "past_participle": "gemeldet",
@@ -2248,7 +2248,7 @@
       "english": "to notice / to remember",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "merkt",
         "past_participle": "gemerkt",
@@ -2260,7 +2260,7 @@
       "english": "to rent",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "mietet",
         "past_participle": "gemietet",
@@ -2272,7 +2272,7 @@
       "english": "to bring along",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "bringt mit",
         "past_participle": "mitgebracht",
@@ -2298,7 +2298,7 @@
       "english": "to participate / to join in",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "macht mit",
         "past_participle": "mitgemacht",
@@ -2311,7 +2311,7 @@
       "english": "to take along",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "nimmt mit",
         "past_participle": "mitgenommen",
@@ -2337,7 +2337,7 @@
       "english": "would like",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "möchte",
         "past_participle": "gemocht",
@@ -2399,7 +2399,7 @@
       "english": "to be useful",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "nützt",
         "past_participle": "genützt",
@@ -2437,7 +2437,7 @@
       "english": "to pack",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "packt",
         "past_participle": "gepackt",
@@ -2449,7 +2449,7 @@
       "english": "to park",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "parkt",
         "past_participle": "geparkt",
@@ -2461,7 +2461,7 @@
       "english": "to fit / to suit",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "passt",
         "past_participle": "gepasst",
@@ -2473,7 +2473,7 @@
       "english": "to happen",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "passiert",
         "past_participle": "passiert",
@@ -2506,7 +2506,7 @@
       "english": "to try / to taste",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "probiert",
         "past_participle": "probiert",
@@ -2551,7 +2551,7 @@
       "english": "to smoke",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "raucht",
         "past_participle": "geraucht",
@@ -2563,7 +2563,7 @@
       "english": "to talk / to speak",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "redet",
         "past_participle": "geredet",
@@ -2582,7 +2582,7 @@
       "english": "to rain",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "regnet",
         "past_participle": "geregnet",
@@ -2613,7 +2613,7 @@
       "english": "to run",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "rennt",
         "past_participle": "gerannt",
@@ -2637,7 +2637,7 @@
       "english": "to reserve",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "reserviert",
         "past_participle": "reserviert",
@@ -2680,7 +2680,7 @@
       "english": "to collect",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "sammelt",
         "past_participle": "gesammelt",
@@ -2699,7 +2699,7 @@
       "english": "to manage / to create",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schafft",
         "past_participle": "geschafft",
@@ -2711,7 +2711,7 @@
       "english": "to switch / to shift",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schaltet",
         "past_participle": "geschaltet",
@@ -2723,7 +2723,7 @@
       "english": "to look / to watch",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schaut",
         "past_participle": "geschaut",
@@ -2735,7 +2735,7 @@
       "english": "to give (as a gift)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schenkt",
         "past_participle": "geschenkt",
@@ -2747,7 +2747,7 @@
       "english": "to send",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schickt",
         "past_participle": "geschickt",
@@ -2771,7 +2771,7 @@
       "english": "to hit / to beat",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schlägt",
         "past_participle": "geschlagen",
@@ -2850,7 +2850,7 @@
       "english": "to protect",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "schützt",
         "past_participle": "geschützt",
@@ -2881,7 +2881,7 @@
       "english": "to sit down / to place",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "setzt",
         "past_participle": "gesetzt",
@@ -2912,7 +2912,7 @@
       "english": "to take care of / to worry",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "sorgt",
         "past_participle": "gesorgt",
@@ -2936,7 +2936,7 @@
       "english": "to walk / to stroll",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "spaziert",
         "past_participle": "spaziert",
@@ -2997,7 +2997,7 @@
       "english": "to climb / to rise",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "steigt",
         "past_participle": "gestiegen",
@@ -3009,7 +3009,7 @@
       "english": "to put / to place",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "stellt",
         "past_participle": "gestellt",
@@ -3045,7 +3045,7 @@
       "english": "to study (at university)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "studiert",
         "past_participle": "studiert",
@@ -3095,7 +3095,7 @@
       "english": "to dance",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "tanzt",
         "past_participle": "getanzt",
@@ -3107,7 +3107,7 @@
       "english": "to exchange / to swap",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "tauscht",
         "past_participle": "getauscht",
@@ -3132,7 +3132,7 @@
       "english": "to telephone / to make a call",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "telefoniert",
         "past_participle": "telefoniert",
@@ -3177,7 +3177,7 @@
       "english": "to meet",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "trifft",
         "past_participle": "getroffen",
@@ -3189,7 +3189,7 @@
       "english": "to do (sports) / to drive",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "treibt",
         "past_participle": "getrieben",
@@ -3201,7 +3201,7 @@
       "english": "to separate",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "trennt",
         "past_participle": "getrennt",
@@ -3262,7 +3262,7 @@
       "english": "to exchange",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "tauscht um",
         "past_participle": "umgetauscht",
@@ -3326,7 +3326,7 @@
       "english": "to arrange / to make an appointment",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verabredet",
         "past_participle": "verabredet",
@@ -3345,7 +3345,7 @@
       "english": "to improve",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verbessert",
         "past_participle": "verbessert",
@@ -3357,7 +3357,7 @@
       "english": "to forbid / to ban",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verbietet",
         "past_participle": "verboten",
@@ -3369,7 +3369,7 @@
       "english": "to connect",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verbindet",
         "past_participle": "verbunden",
@@ -3450,7 +3450,7 @@
       "english": "to sell",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verkauft",
         "past_participle": "verkauft",
@@ -3469,7 +3469,7 @@
       "english": "to leave",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verlässt",
         "past_participle": "verlassen",
@@ -3481,7 +3481,7 @@
       "english": "to injure",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verletzt",
         "past_participle": "verletzt",
@@ -3505,7 +3505,7 @@
       "english": "to rent out",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "vermietet",
         "past_participle": "vermietet",
@@ -3538,7 +3538,7 @@
       "english": "to miss (bus etc.)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verpasst",
         "past_participle": "verpasst",
@@ -3550,7 +3550,7 @@
       "english": "to postpone",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verschiebt",
         "past_participle": "verschoben",
@@ -3598,7 +3598,7 @@
       "english": "to use",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verwendet",
         "past_participle": "verwendet",
@@ -3610,7 +3610,7 @@
       "english": "to forgive",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "verzeiht",
         "past_participle": "verziehen",
@@ -3649,7 +3649,7 @@
       "english": "to occur / to happen",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "kommt vor",
         "past_participle": "vorgekommen",
@@ -3675,7 +3675,7 @@
       "english": "to introduce / to imagine",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "stellt vor",
         "past_participle": "vorgestellt",
@@ -3695,7 +3695,7 @@
       "english": "to grow",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "wächst",
         "past_participle": "gewachsen",
@@ -3762,7 +3762,7 @@
       "english": "to hurt",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "tut weh",
         "past_participle": "wehgetan",
@@ -3820,7 +3820,7 @@
       "english": "to weigh",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "wiegt",
         "past_participle": "gewogen",
@@ -3868,7 +3868,7 @@
       "english": "to choose / to dial / to vote",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "wählt",
         "past_participle": "gewählt",
@@ -3892,7 +3892,7 @@
       "english": "to pay",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "zahlt",
         "past_participle": "gezahlt",
@@ -3904,7 +3904,7 @@
       "english": "to draw",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "zeichnet",
         "past_participle": "gezeichnet",
@@ -3940,7 +3940,7 @@
       "english": "to listen",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "hört zu",
         "past_participle": "zugehört",
@@ -3953,7 +3953,7 @@
       "english": "to close",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "macht zu",
         "past_participle": "zugemacht",
@@ -3980,7 +3980,7 @@
       "english": "to change / to alter",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "ändert",
         "past_participle": "geändert",
@@ -3992,7 +3992,7 @@
       "english": "to annoy / to be annoyed",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "ärgert",
         "past_participle": "geärgert",
@@ -4028,7 +4028,7 @@
       "english": "to overtake",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "überholt",
         "past_participle": "überholt",
@@ -4040,7 +4040,7 @@
       "english": "to think over / to consider",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "überlegt",
         "past_participle": "überlegt",
@@ -4071,7 +4071,7 @@
       "english": "to cross",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "überquert",
         "past_participle": "überquert",
@@ -4083,7 +4083,7 @@
       "english": "to surprise",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "überrascht",
         "past_participle": "überrascht",
@@ -4107,7 +4107,7 @@
       "english": "to transfer (money)",
       "part_of_speech": "verb",
       "level": "A2",
-      "source": "goethe-wortliste",
+      "source": "both",
       "verb_forms": {
         "present_3p": "überweist",
         "past_participle": "überwiesen",
