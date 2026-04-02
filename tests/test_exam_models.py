@@ -526,3 +526,117 @@ def test_umlaut_preservation_in_models():
     assert "ö" in line.text_de
     assert "ß" in line.text_de
     assert "ä" in line.text_de
+
+
+def test_question_with_image_descriptions():
+    """Test Question with image-based answer options."""
+    q = Question(
+        number=11,
+        type=QuestionType.MULTIPLE_CHOICE,
+        text_de="Was hat das Mädchen gestern Abend gegessen?",
+        correct_answer="a",
+        options=["a", "b", "c"],
+        options_image_descriptions=["Fisch auf Teller", "Hamburger", "Hähnchen mit Beilage"],
+    )
+    assert len(q.options_image_descriptions) == 3
+
+
+def test_question_without_image_descriptions():
+    """Test that options_image_descriptions is optional."""
+    q = Question(
+        number=1,
+        type=QuestionType.MULTIPLE_CHOICE,
+        text_de="Test?",
+        correct_answer="a",
+        options=["a) Ja", "b) Nein", "c) Vielleicht"],
+    )
+    assert q.options_image_descriptions is None
+
+
+def test_listening_exercise_with_source():
+    """Test ListeningExercise with source provenance field."""
+    ex = ListeningExercise(
+        id="a2-hoeren-teil-1-006",
+        level="A2",
+        skill=ExamSkill.HOEREN,
+        part=1,
+        title="Test",
+        instructions="Test instructions",
+        time_minutes=8,
+        transcript=[TranscriptLine(speaker="Test", text_de="Hallo", text_en="Hello")],
+        questions=[Question(number=1, type=QuestionType.MULTIPLE_CHOICE, text_de="Test?", correct_answer="a", options=["a", "b", "c"])],
+        source="goethe-modellsatz",
+    )
+    assert ex.source == "goethe-modellsatz"
+
+
+def test_reading_exercise_with_source():
+    """Test ReadingExercise with source provenance field."""
+    ex = ReadingExercise(
+        id="a2-lesen-teil-1-006",
+        level="A2",
+        skill=ExamSkill.LESEN,
+        part=1,
+        title="Test",
+        instructions="Test instructions",
+        time_minutes=8,
+        passage=Passage(text_de="Text", text_en="Text", source="Zeitung", word_count=1),
+        questions=[Question(number=1, type=QuestionType.MULTIPLE_CHOICE, text_de="Test?", correct_answer="a", options=["a", "b", "c"])],
+        source="goethe-modellsatz",
+    )
+    assert ex.source == "goethe-modellsatz"
+
+
+def test_writing_exercise_with_source():
+    """Test WritingExercise with source provenance field."""
+    ex = WritingExercise(
+        id="a2-schreiben-aufgabe-1-006",
+        level="A2",
+        skill=ExamSkill.SCHREIBEN,
+        task=1,
+        title="Test",
+        instructions="Test instructions",
+        situation_de="Situation",
+        situation_en="Situation",
+        target_word_count=30,
+        required_points=["Point 1"],
+        model_answer=ModelAnswer(text_de="Antwort", text_en="Answer"),
+        scoring_criteria=["Criterion 1"],
+        source="goethe-modellsatz",
+    )
+    assert ex.source == "goethe-modellsatz"
+
+
+def test_speaking_exercise_with_source():
+    """Test SpeakingExercise with source provenance field."""
+    ex = SpeakingExercise(
+        id="a2-sprechen-teil-1-006",
+        level="A2",
+        skill=ExamSkill.SPRECHEN,
+        part=1,
+        title="Test",
+        instructions="Test instructions",
+        situation_de="Situation",
+        situation_en="Situation",
+        discussion_points=["Point 1"],
+        model_dialogue=[TranscriptLine(speaker="A", text_de="Hallo", text_en="Hello")],
+        evaluation_criteria=["Criterion 1"],
+        source="goethe-modellsatz",
+    )
+    assert ex.source == "goethe-modellsatz"
+
+
+def test_exercise_source_optional():
+    """Test that source field is optional (backward compatible)."""
+    ex = ListeningExercise(
+        id="a2-hoeren-teil-1-001",
+        level="A2",
+        skill=ExamSkill.HOEREN,
+        part=1,
+        title="Test",
+        instructions="Test",
+        time_minutes=8,
+        transcript=[TranscriptLine(speaker="Test", text_de="Hallo", text_en="Hello")],
+        questions=[Question(number=1, type=QuestionType.MULTIPLE_CHOICE, text_de="Test?", correct_answer="a", options=["a", "b", "c"])],
+    )
+    assert ex.source is None

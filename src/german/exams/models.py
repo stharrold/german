@@ -45,6 +45,7 @@ class Question(BaseModel):
     options: Optional[list[str]] = Field(None, description="Answer options for multiple choice")
     explanation_de: Optional[str] = Field(None, description="Explanation in German")
     explanation_en: Optional[str] = Field(None, description="Explanation in English")
+    options_image_descriptions: Optional[list[str]] = Field(None, description="Textual descriptions of image-based answer options")
 
     model_config = ConfigDict(use_enum_values=True)
 
@@ -91,6 +92,7 @@ class ListeningExercise(BaseModel):
     time_minutes: int = Field(..., description="Time allowed in minutes")
     transcript: list[TranscriptLine] = Field(..., min_length=1, description="Listening transcript lines")
     questions: list[Question] = Field(..., min_length=1, description="Exercise questions")
+    source: Optional[str] = Field(None, description="Content provenance: ai-generated, goethe-modellsatz, goethe-uebungssatz")
 
     model_config = ConfigDict(use_enum_values=True)
 
@@ -107,6 +109,7 @@ class ReadingExercise(BaseModel):
     time_minutes: int = Field(..., description="Time allowed in minutes")
     passage: Passage = Field(..., description="Reading passage")
     questions: list[Question] = Field(..., min_length=1, description="Exercise questions")
+    source: Optional[str] = Field(None, description="Content provenance: ai-generated, goethe-modellsatz, goethe-uebungssatz")
 
     model_config = ConfigDict(use_enum_values=True)
 
@@ -126,6 +129,7 @@ class WritingExercise(BaseModel):
     required_points: list[str] = Field(..., min_length=1, description="Required content points to address")
     model_answer: ModelAnswer = Field(..., description="Model answer")
     scoring_criteria: list[str] = Field(..., min_length=1, description="Scoring criteria")
+    source: Optional[str] = Field(None, description="Content provenance: ai-generated, goethe-modellsatz, goethe-uebungssatz")
 
     model_config = ConfigDict(use_enum_values=True)
 
@@ -144,5 +148,6 @@ class SpeakingExercise(BaseModel):
     discussion_points: list[str] = Field(..., min_length=1, description="Discussion points to cover")
     model_dialogue: list[TranscriptLine] = Field(..., description="Model dialogue lines")
     evaluation_criteria: list[str] = Field(..., min_length=1, description="Evaluation criteria")
+    source: Optional[str] = Field(None, description="Content provenance: ai-generated, goethe-modellsatz, goethe-uebungssatz")
 
     model_config = ConfigDict(use_enum_values=True)
