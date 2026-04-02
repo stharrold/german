@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-3-007",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 3,
+  "title": "E-Mail von Marta aus München",
+  "instructions": "Lesen Sie die E-Mail und die Aufgaben 11 bis 15. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Liebe Rosa,\n\nich habe dir ja erzählt, dass ich umziehe. Letzte Woche war der Termin. Zuerst habe ich gedacht, dass ich das falsche Auto gemietet habe und es für meine Sachen zu klein ist. Mein Tisch ist doch so groß! Aber am Umzugstag hat alles gut geklappt, denn viele meiner Freunde haben mitgeholfen. Zum Glück!\n\nVon hier aus bin ich viel schneller bei der Arbeit. Früher musste ich ja immer mit zwei verschiedenen Straßenbahnen fahren oder den Bus nehmen, der immer so langsam war. Mein neues Büro ist viel näher und ich bin mit meinem Fahrrad in zehn Minuten dort. Wie praktisch! Vor allem das viele Umsteigen vermisse ich gar nicht.\n\nNebenan gibt es eine Katze. Das ist toll. Ich habe ihr ein bisschen Wurst gegeben und jetzt kommt sie oft zu mir. Zum Glück sind die neuen Nachbarn nett und haben kein Problem damit. Ich wollte ja auch immer eine eigene Katze, aber in der alten Wohnung hat der Vermieter das leider nicht erlaubt.\n\nIch mache bald ein Fest in der neuen Wohnung. Vielleicht hast du auch Zeit zu kommen? Ich habe jetzt ein Gästezimmer. Dann musst du nicht mehr wie sonst im Hotel übernachten. Auch meine Eltern und Geschwister würden dich gern wiedersehen!\n\nWie geht es dir denn in Paris? Mein Bruder war letztes Jahr dort zum Französischlernen. Eine tolle Stadt, sagt er. Und ich finde auch, Französisch ist eine so schöne Sprache. :-) Du kannst mir dann ja alles zeigen, wenn ich dich dort besuche. Ich freue mich schon so!\n\nLiebe Grüße aus München\nMarta",
+    "text_en": "Dear Rosa,\n\nI told you that I'm moving. Last week was the day. At first I thought I had rented the wrong car and it was too small for my things. My table is so big! But on moving day everything went well because many of my friends helped. Fortunately!\n\nFrom here I get to work much faster. Before I always had to take two different trams or the bus, which was always so slow. My new office is much closer and I'm there in ten minutes by bicycle. How practical! Most of all, I don't miss all the changing at all.\n\nNext door there's a cat. That's great. I gave it a bit of sausage and now it often comes to me. Fortunately the new neighbors are nice and don't have a problem with it. I always wanted my own cat, but in the old apartment the landlord unfortunately didn't allow it.\n\nI'm having a party in the new apartment soon. Maybe you have time to come? I now have a guest room. Then you won't have to stay in a hotel like usual anymore. My parents and siblings would also love to see you again!\n\nHow are you doing in Paris? My brother was there last year to learn French. A great city, he says. And I also think French is such a beautiful language. :-) You can show me everything when I visit you there. I'm already looking forward to it!\n\nBest wishes from Munich\nMarta",
+    "source": "E-Mail",
+    "word_count": 240
+  },
+  "questions": [
+    {
+      "number": 11,
+      "type": "multiple_choice",
+      "text_de": "Marta hatte beim Umzug ...",
+      "text_en": "Marta had during the move ...",
+      "options": [
+        "a) das falsche Auto.",
+        "b) keine Probleme.",
+        "c) nicht genug Leute zum Helfen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Umzugstag hat alles gut geklappt, weil viele Freunde mitgeholfen haben.",
+      "explanation_en": "On moving day everything went well because many friends helped."
+    },
+    {
+      "number": 12,
+      "type": "multiple_choice",
+      "text_de": "Auf dem Weg zur Arbeit kann Marta jetzt ...",
+      "text_en": "On the way to work Marta can now ...",
+      "options": [
+        "a) den schnellen Bus nehmen.",
+        "b) mit verschiedenen Straßenbahnen fahren.",
+        "c) mehr Zeit sparen als früher."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Marta ist jetzt viel schneller bei der Arbeit — mit dem Fahrrad in zehn Minuten statt zwei Straßenbahnen oder dem langsamen Bus.",
+      "explanation_en": "Marta now gets to work much faster — ten minutes by bicycle instead of two trams or the slow bus."
+    },
+    {
+      "number": 13,
+      "type": "multiple_choice",
+      "text_de": "Marta hat in der neuen Wohnung ...",
+      "text_en": "Marta has in the new apartment ...",
+      "options": [
+        "a) eine eigene Katze.",
+        "b) freundliche Nachbarn.",
+        "c) Probleme mit dem Vermieter."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Die neuen Nachbarn sind nett. Die Katze gehört den Nachbarn, nicht Marta.",
+      "explanation_en": "The new neighbors are nice. The cat belongs to the neighbors, not Marta."
+    },
+    {
+      "number": 14,
+      "type": "multiple_choice",
+      "text_de": "Rosa kann während ihres Besuchs ...",
+      "text_en": "Rosa can during her visit ...",
+      "options": [
+        "a) bei Martas Familie wohnen.",
+        "b) in einem Hotel übernachten.",
+        "c) in Martas Wohnung schlafen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Marta hat jetzt ein Gästezimmer, sodass Rosa dort schlafen kann.",
+      "explanation_en": "Marta now has a guest room so Rosa can sleep there."
+    },
+    {
+      "number": 15,
+      "type": "multiple_choice",
+      "text_de": "Marta möchte bald ...",
+      "text_en": "Marta would like to soon ...",
+      "options": [
+        "a) ihren Bruder besuchen.",
+        "b) Französisch lernen.",
+        "c) Paris kennenlernen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Marta will Rosa in Paris besuchen: 'Du kannst mir dann ja alles zeigen, wenn ich dich dort besuche.'",
+      "explanation_en": "Marta wants to visit Rosa in Paris: 'You can show me everything when I visit you there.'"
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

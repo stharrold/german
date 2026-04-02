@@ -1,0 +1,52 @@
+{
+  "id": "a2-sprechen-teil-2-007",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 2,
+  "title": "Von sich erzählen: Familie und Ausgehen",
+  "instructions": "Sie bekommen eine Karte und erzählen etwas über Ihr Leben.",
+  "situation_de": "Der Prüfer / Die Prüferin gibt Ihnen eine Karte mit einem Thema. Erzählen Sie ausführlich über das Thema. Karte A: Was machen Sie mit Ihrer Familie? (fernsehen, essen, Feste, spazieren gehen) Karte B: Was machen Sie, wenn Sie am Abend ausgehen? (Club/Disko, essen, Theater, Konzert)",
+  "situation_en": "The examiner gives you a card with a topic. Talk in detail about the topic. Card A: What do you do with your family? (watch TV, eat, celebrations, go for walks) Card B: What do you do when you go out in the evening? (club/disco, eat out, theater, concert)",
+  "discussion_points": [
+    "Karte A: Was machen Sie mit Ihrer Familie? (Card A: What do you do with your family?)",
+    "fernsehen? (watch TV?)",
+    "essen? (eat?)",
+    "Feste? (celebrations?)",
+    "spazieren gehen? (go for walks?)",
+    "Karte B: Was machen Sie, wenn Sie am Abend ausgehen? (Card B: What do you do when you go out in the evening?)",
+    "Club/Disko? (Club/disco?)",
+    "essen? (eat out?)",
+    "Theater? (Theater?)",
+    "Konzert? (Concert?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Unser Thema ist: Was machen Sie mit Ihrer Familie? Erzählen Sie bitte.",
+      "text_en": "Our topic is: What do you do with your family? Please tell us."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Also, am Abend sehen wir oft zusammen fern. Wir mögen Filme und Serien. Am Wochenende kochen wir zusammen, das macht uns Spaß. Manchmal gehen wir im Park spazieren, besonders im Frühling. An Feiertagen, wie Weihnachten oder Geburtstagen, kommen alle zusammen und wir essen und feiern den ganzen Tag.",
+      "text_en": "Well, in the evening we often watch TV together. We like films and series. On the weekend we cook together, we enjoy that. Sometimes we go for walks in the park, especially in spring. On holidays like Christmas or birthdays, everyone comes together and we eat and celebrate all day."
+    },
+    {
+      "speaker": "Prüfer",
+      "text_de": "Und was machen Sie, wenn Sie am Abend ausgehen?",
+      "text_en": "And what do you do when you go out in the evening?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wenn ich am Abend ausgehe, gehe ich am liebsten mit Freunden essen. Wir gehen oft in ein italienisches Restaurant. Manchmal gehen wir auch in eine Disko und tanzen. Ins Theater gehe ich selten, aber Konzerte mag ich sehr. Letzten Monat war ich bei einem tollen Rockkonzert.",
+      "text_en": "When I go out in the evening, I most like to go out to eat with friends. We often go to an Italian restaurant. Sometimes we also go to a disco and dance. I rarely go to the theater, but I really like concerts. Last month I was at a great rock concert."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Alle Aspekte des Themas werden angesprochen.",
+    "Zusammenhang: Die Aussagen sind logisch aufgebaut und verständlich.",
+    "Wortschatz: Angemessener Wortschatz zum Thema Familie und Freizeit auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit korrekter Wortstellung und Zeitformen (Präsens, Perfekt).",
+    "Aussprache und Intonation: Verständliche Aussprache und natürliche Betonung."
+  ],
+  "source": "goethe-uebungssatz"
+}

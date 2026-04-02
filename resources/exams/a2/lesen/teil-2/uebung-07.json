@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-2-007",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 2,
+  "title": "Reisemesse 'Reisen international' — Hallenplan",
+  "instructions": "Sie sind auf einer Reisemesse. Lesen Sie die Aufgaben 6 bis 10 und den Text. Wohin gehen Sie? Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Informationen zur Messe 'Reisen international'\n\nHalle A: 10–12 Uhr: Informationsveranstaltung: Urlaub und Gesundheit – mit dem Arzt in die Ferien / 13–14 Uhr Gespräch: So ist Ihr Geld im Urlaub sicher – Tipps zum Geldholen und Bezahlen im Ausland / 15–16 Uhr: Buchvorstellung mit Autor Klaus Hinke: Mit Großvater unterwegs – Reisen mit dem Zug wie früher\n\nHalle B: 10–12 Uhr: Gespräch: Das sagt der Arzt – Medikamente im Urlaub / 13–15 Uhr: Informationsveranstaltung: Ferienjobs für Schüler ab 16 / 15–17 Uhr: Informationsveranstaltung: Urlaub mit der Großfamilie – mit den Kindern, Opa und Oma und dem Hund / Geldautomat\n\nHalle C: 10–12 Uhr: Informationsveranstaltung: Gruppenreisen – Angebote für Schulklassen (12–18 Jahre) / Fotoausstellung: Mit der Bahn weltweit unterwegs – die schönsten Züge der letzten 100 Jahre / Restaurant 'Heimat' – neue deutsche Küche / Apotheke und Arzt\n\nHalle D: 10–12 Uhr: Informationsveranstaltung: Buchen übers Internet – online Geld sparen / 15–17 Uhr: Informationsveranstaltung: deutsche Sprachschulen stellen sich vor / Anders reisen für die Umwelt – Wir lassen das Auto zu Hause – Urlaubsangebote mit Bus, Bahn oder Fähre\n\nHalle E: 10–12 Uhr: Informationsveranstaltung: Endlich alt genug? Los geht's! – Ferienreisen für Schüler – ganz ohne Eltern / aktuelle Angebote von Müller-Reisen: Busreisen in Europa für Menschen ab 50 / Fotoausstellung: Norddeutschland – Urlaub auf den Inseln / Toiletten",
+    "text_en": "Information about the 'International Travel' Fair\n\nHall A: 10-12: Information event: Vacation and health – to the holidays with the doctor / 1-2 PM: Discussion: Keep your money safe on vacation – tips for withdrawing and paying abroad / 3-4 PM: Book presentation with author Klaus Hinke: Traveling with Grandfather – train travel like in the old days\n\nHall B: 10-12: Discussion: What the doctor says – medication on vacation / 1-3 PM: Information event: Holiday jobs for students aged 16+ / 3-5 PM: Information event: Vacation with the extended family – with children, grandma, grandpa and the dog / ATM\n\nHall C: 10-12: Information event: Group travel – offers for school classes (ages 12-18) / Photo exhibition: Traveling by train worldwide – the most beautiful trains of the last 100 years / Restaurant 'Heimat' – new German cuisine / Pharmacy and doctor\n\nHall D: 10-12: Information event: Booking online – saving money / 3-5 PM: Information event: German language schools present themselves / Travel differently for the environment – leave the car at home – vacation offers by bus, train or ferry\n\nHall E: 10-12: Information event: Finally old enough? Let's go! – Holiday travel for students – without parents / current offers from Müller Travel: Bus tours in Europe for people over 50 / Photo exhibition: Northern Germany – vacation on the islands / Toilets",
+    "source": "Informationstafel",
+    "word_count": 215
+  },
+  "questions": [
+    {
+      "number": 6,
+      "type": "multiple_choice",
+      "text_de": "Sie wollen in Urlaub fahren und nicht viel Geld ausgeben.",
+      "text_en": "You want to go on vacation and not spend much money.",
+      "options": [
+        "a) Halle A",
+        "b) Halle D",
+        "c) andere Halle"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In Halle D gibt es eine Veranstaltung 'Buchen übers Internet – online Geld sparen'.",
+      "explanation_en": "Hall D has an event 'Booking online – saving money'."
+    },
+    {
+      "number": 7,
+      "type": "multiple_choice",
+      "text_de": "Sie möchten für Ihren Großvater eine Reise buchen.",
+      "text_en": "You would like to book a trip for your grandfather.",
+      "options": [
+        "a) Halle A",
+        "b) Halle E",
+        "c) andere Halle"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Halle E bietet Busreisen in Europa für Menschen ab 50 an (Müller-Reisen).",
+      "explanation_en": "Hall E offers bus tours in Europe for people over 50 (Müller Travel)."
+    },
+    {
+      "number": 8,
+      "type": "multiple_choice",
+      "text_de": "Sie suchen nach einem Reiseangebot für Ihr 16-jähriges Kind.",
+      "text_en": "You are looking for a travel offer for your 16-year-old child.",
+      "options": [
+        "a) Halle B",
+        "b) Halle E",
+        "c) andere Halle"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "In Halle E gibt es Ferienreisen für Schüler – ganz ohne Eltern.",
+      "explanation_en": "Hall E offers holiday travel for students – without parents."
+    },
+    {
+      "number": 9,
+      "type": "multiple_choice",
+      "text_de": "Sie haben sich wehgetan und suchen einen Arzt.",
+      "text_en": "You have hurt yourself and are looking for a doctor.",
+      "options": [
+        "a) Halle A",
+        "b) Halle B",
+        "c) andere Halle"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Apotheke und Arzt befinden sich in Halle C, die nicht unter den Optionen a oder b ist.",
+      "explanation_en": "Pharmacy and doctor are in Hall C, which is not among options a or b."
+    },
+    {
+      "number": 10,
+      "type": "multiple_choice",
+      "text_de": "Sie möchten mit dem Zug verreisen.",
+      "text_en": "You would like to travel by train.",
+      "options": [
+        "a) Halle C",
+        "b) Halle D",
+        "c) andere Halle"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Halle D bietet Urlaubsangebote mit Bus, Bahn oder Fähre an.",
+      "explanation_en": "Hall D offers vacation offers by bus, train or ferry."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

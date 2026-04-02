@@ -1,0 +1,119 @@
+{
+  "id": "a2-hoeren-teil-4-007",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 4,
+  "title": "Interview — Familienhotel Plessing",
+  "instructions": "Sie hören ein Interview. Sie hören den Text zweimal. Wählen Sie für die Aufgaben 16 bis 20 Ja oder Nein.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text_de": "Frau Plessing, Sie und Ihr Mann haben seit einem Jahr das erste Familienhotel in der Stadt. Wie kamen Sie auf diese Idee?",
+      "text_en": "Mrs. Plessing, you and your husband have had the first family hotel in the city for a year. How did you come up with this idea?"
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "Unsere vier Kinder sind alle erwachsen und leben nicht mehr bei uns zu Hause. Ja, leider. Unser Leben war dann plötzlich sehr ruhig.",
+      "text_en": "Our four children are all grown up and no longer live with us at home. Yes, unfortunately. Our life then suddenly became very quiet."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Ah, Sie wollten wieder Kontakt mit Kindern?",
+      "text_en": "Ah, you wanted contact with children again?"
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "Ja, auch, und wir kennen die Arbeit im Hotel: Mein Mann hat viele Jahre in einem Hotel an der Rezeption gearbeitet und ich habe im Hotelrestaurant gekocht. Wir dachten, mit unseren Erfahrungen können wir auch selbst ein kleines Hotel führen. Wir wollten es versuchen.",
+      "text_en": "Yes, that too, and we know the work in a hotel: My husband worked at the reception of a hotel for many years and I cooked in the hotel restaurant. We thought, with our experience we could also run a small hotel ourselves. We wanted to try."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Verstehe.",
+      "text_en": "I see."
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "Ja, und außerdem haben wir auf unseren Reisen gesehen, was in einem normalen Hotel nicht so gut ist, wenn man mit einer großen Familie unterwegs ist.",
+      "text_en": "Yes, and besides, on our travels we saw what's not so good in a normal hotel when you're traveling with a large family."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Aha. Und hatten Sie schon viele Gäste?",
+      "text_en": "I see. And have you had many guests?"
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "Hier im Haus gibt es drei Wohnungen mit Küche für Familien, die gern alles selbst machen. Die waren von Anfang an fast immer vermietet. Außerdem haben wir drei große Zimmer, die kann man mit Frühstück buchen oder auch mit Mittag- und Abendessen. So wie man es braucht.",
+      "text_en": "Here in the building there are three apartments with kitchen for families who like to do everything themselves. Those have been rented almost all the time from the beginning. We also have three large rooms that you can book with breakfast or with lunch and dinner. As you need it."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Ah, ja.",
+      "text_en": "Ah, yes."
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "In den Sommerferien war das Hotel voll. Jetzt gerade haben wir nicht viele Reservierungen.",
+      "text_en": "During the summer holidays the hotel was full. Right now we don't have many reservations."
+    },
+    {
+      "speaker": "Moderator",
+      "text_de": "Dann hoffen wir, dass viele Familien unser Gespräch gehört haben und Ihr Hotel kennenlernen möchten. Alles Gute für Sie!",
+      "text_en": "Then let's hope that many families have heard our conversation and want to get to know your hotel. All the best to you!"
+    },
+    {
+      "speaker": "Frau Plessing",
+      "text_de": "Vielen Dank!",
+      "text_en": "Thank you very much!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 16,
+      "type": "true_false",
+      "text_de": "Frau Plessing findet es schade, dass ihre Kinder nicht mehr zu Hause wohnen.",
+      "text_en": "Mrs. Plessing is sad that her children no longer live at home.",
+      "correct_answer": true,
+      "explanation_de": "Frau Plessing sagt 'Ja, leider' über die Tatsache, dass ihre Kinder nicht mehr zu Hause leben.",
+      "explanation_en": "Mrs. Plessing says 'Yes, unfortunately' about the fact that her children no longer live at home."
+    },
+    {
+      "number": 17,
+      "type": "true_false",
+      "text_de": "Herr Plessing hat früher als Koch gearbeitet.",
+      "text_en": "Mr. Plessing used to work as a cook.",
+      "correct_answer": false,
+      "explanation_de": "Herr Plessing hat an der Rezeption gearbeitet. Frau Plessing hat im Hotelrestaurant gekocht.",
+      "explanation_en": "Mr. Plessing worked at the reception. Mrs. Plessing cooked in the hotel restaurant."
+    },
+    {
+      "number": 18,
+      "type": "true_false",
+      "text_de": "Herr und Frau Plessing wissen, was Familien im Urlaub brauchen.",
+      "text_en": "Mr. and Mrs. Plessing know what families need on vacation.",
+      "correct_answer": true,
+      "explanation_de": "Sie haben auf ihren Reisen gesehen, was in normalen Hotels für große Familien nicht so gut ist.",
+      "explanation_en": "On their travels they saw what's not so good in normal hotels for large families."
+    },
+    {
+      "number": 19,
+      "type": "true_false",
+      "text_de": "Die Ferienwohnungen im Hotel sind besonders beliebt.",
+      "text_en": "The holiday apartments in the hotel are especially popular.",
+      "correct_answer": true,
+      "explanation_de": "Die Wohnungen waren von Anfang an fast immer vermietet.",
+      "explanation_en": "The apartments have been rented almost all the time from the beginning."
+    },
+    {
+      "number": 20,
+      "type": "true_false",
+      "text_de": "Im Hotel gibt es immer viele Gäste.",
+      "text_en": "The hotel always has many guests.",
+      "correct_answer": false,
+      "explanation_de": "In den Sommerferien war das Hotel voll, aber jetzt haben sie nicht viele Reservierungen.",
+      "explanation_en": "During the summer holidays the hotel was full, but right now they don't have many reservations."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

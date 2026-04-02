@@ -1,0 +1,76 @@
+{
+  "id": "a2-sprechen-teil-1-007",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 1,
+  "title": "Fragen zur Person: Ausbildung, Eltern, Musik, Familienname",
+  "instructions": "Sie bekommen vier Karten und stellen mit diesen Karten vier Fragen. Ihr Partner / Ihre Partnerin antwortet. Dann stellt Ihr Partner / Ihre Partnerin vier Fragen und Sie antworten.",
+  "situation_de": "Sie bekommen vier Karten mit den Themen Ausbildung/Studium, Eltern, Musik und Familienname. Stellen Sie zu jedem Thema eine Frage und beantworten Sie die Fragen Ihres Partners / Ihrer Partnerin.",
+  "situation_en": "You receive four cards with the topics education/studies, parents, music and family name. Ask a question about each topic and answer your partner's questions.",
+  "discussion_points": [
+    "Ausbildung/Studium? — Was machen Sie beruflich? Was haben Sie studiert? (Education/Studies? — What do you do professionally? What did you study?)",
+    "Eltern? — Was machen Ihre Eltern? Wo wohnen sie? (Parents? — What do your parents do? Where do they live?)",
+    "Musik? — Welche Musik hören Sie gern? Spielen Sie ein Instrument? (Music? — What music do you like to listen to? Do you play an instrument?)",
+    "Familienname? — Wie heißen Sie mit Familiennamen? Können Sie das buchstabieren? (Family name? — What is your family name? Can you spell that?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Prüfer",
+      "text_de": "Hier sind Ihre vier Karten. Bitte stellen Sie zu jedem Thema eine Frage. Wer möchte beginnen?",
+      "text_en": "Here are your four cards. Please ask a question about each topic. Who would like to start?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich fange an. Mein erstes Thema ist Ausbildung. Was haben Sie studiert oder gelernt?",
+      "text_en": "I'll start. My first topic is education. What did you study or learn?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich habe eine Ausbildung als Krankenpfleger gemacht. Und was machen Sie beruflich?",
+      "text_en": "I did training as a nurse. And what do you do professionally?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich studiere noch, ich bin im dritten Semester. Mein nächstes Thema ist Eltern. Was machen Ihre Eltern?",
+      "text_en": "I'm still studying, I'm in the third semester. My next topic is parents. What do your parents do?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Mein Vater ist Ingenieur und meine Mutter ist Lehrerin. Sie wohnen in Stuttgart. Und Ihre Eltern?",
+      "text_en": "My father is an engineer and my mother is a teacher. They live in Stuttgart. And your parents?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Meine Eltern wohnen in der Türkei. Mein Vater hat ein Geschäft. Jetzt zu Musik. Welche Musik hören Sie gern?",
+      "text_en": "My parents live in Turkey. My father has a shop. Now to music. What music do you like to listen to?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ich höre gern Pop und manchmal auch klassische Musik. Ich spiele Gitarre. Und Sie?",
+      "text_en": "I like listening to pop and sometimes classical music too. I play guitar. And you?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich höre am liebsten Hip-Hop. Und mein letztes Thema: Wie heißen Sie mit Familiennamen?",
+      "text_en": "I like listening to hip-hop the most. And my last topic: What is your family name?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Mein Familienname ist Müller, M-Ü-L-L-E-R. Und wie ist Ihr Familienname?",
+      "text_en": "My family name is Müller, M-Ü-L-L-E-R. And what is your family name?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Ich heiße Yilmaz. Das schreibt man Y-I-L-M-A-Z.",
+      "text_en": "My name is Yilmaz. You spell it Y-I-L-M-A-Z."
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Zu allen vier Themen wird eine Frage gestellt und beantwortet.",
+    "Interaktion: Die Kandidaten reagieren auf die Antworten des Partners und stellen Rückfragen.",
+    "Wortschatz: Einfacher, angemessener Wortschatz zu Alltagsthemen auf A2-Niveau.",
+    "Strukturen: Einfache Fragesätze und Aussagesätze sind korrekt gebildet.",
+    "Aussprache und Intonation: Verständliche Aussprache mit erkennbarer Fragenintonation."
+  ],
+  "source": "goethe-uebungssatz"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "a2-sprechen-teil-3-007",
+  "level": "A2",
+  "skill": "sprechen",
+  "part": 3,
+  "title": "Party planen — Deutschkurs ist zu Ende",
+  "instructions": "Ihr Deutschkurs ist zu Ende. Sie planen eine Party. Was wollen Sie organisieren?",
+  "situation_de": "Ihr Deutschkurs ist zu Ende. Sie planen zusammen mit Ihrem Partner / Ihrer Partnerin eine Party. Besprechen Sie: Wann soll die Party sein? Was gibt es zu essen und trinken? Soll es Musik geben? Was machen wir noch (Spiele, Quiz, tanzen)?",
+  "situation_en": "Your German course is over. You are planning a party together with your partner. Discuss: When should the party be? What food and drinks will there be? Should there be music? What else should we do (games, quiz, dancing)?",
+  "discussion_points": [
+    "Wann soll die Party sein? (When should the party be?)",
+    "Was gibt es zu essen? (What food will there be?)",
+    "Was gibt es zu trinken? (What drinks will there be?)",
+    "Soll es Musik geben? (Should there be music?)",
+    "Was machen wir noch? Quiz, Spiele, tanzen? (What else? Quiz, games, dancing?)",
+    "Wo soll die Party stattfinden? (Where should the party take place?)"
+  ],
+  "model_dialogue": [
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Unser Deutschkurs ist bald zu Ende. Wir sollten eine Party machen! Wann passt es dir?",
+      "text_en": "Our German course is ending soon. We should have a party! When suits you?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Am besten am letzten Kurstag, am Freitag. Dann können wir abends feiern.",
+      "text_en": "Best on the last course day, on Friday. Then we can celebrate in the evening."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Gute Idee! Und was gibt es zu essen? Sollen wir etwas kochen?",
+      "text_en": "Good idea! And what about food? Should we cook something?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Jeder kann etwas mitbringen. Ich mache einen Salat. Und zum Trinken kaufen wir Saft und Wasser.",
+      "text_en": "Everyone can bring something. I'll make a salad. And for drinks we'll buy juice and water."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Sollen wir auch Musik haben? Ich kann meine Musikbox mitbringen.",
+      "text_en": "Should we have music too? I can bring my speaker."
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Ja, super! Dann können wir auch tanzen. Und vielleicht machen wir ein Quiz über Deutschland?",
+      "text_en": "Yes, great! Then we can dance too. And maybe we'll do a quiz about Germany?"
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Das ist eine tolle Idee! Ich schreibe die Fragen. Und wo machen wir die Party? Im Klassenraum?",
+      "text_en": "That's a great idea! I'll write the questions. And where do we have the party? In the classroom?"
+    },
+    {
+      "speaker": "Kandidat B",
+      "text_de": "Wenn das Wetter schön ist, können wir auch draußen im Garten feiern. Ich frage die Lehrerin.",
+      "text_en": "If the weather is nice, we can also celebrate outside in the garden. I'll ask the teacher."
+    },
+    {
+      "speaker": "Kandidat A",
+      "text_de": "Okay, dann machen wir das so. Ich bringe die Musik und du fragst wegen dem Ort. Das wird toll!",
+      "text_en": "Okay, let's do that then. I'll bring the music and you ask about the location. It'll be great!"
+    }
+  ],
+  "evaluation_criteria": [
+    "Erfüllung der Aufgabenstellung: Beide Kandidaten planen gemeinsam eine Party und besprechen alle wichtigen Punkte.",
+    "Interaktion: Die Kandidaten machen Vorschläge, reagieren auf den Partner und einigen sich.",
+    "Wortschatz: Einfacher Wortschatz zum Thema Party, Essen, Musik und Planung auf A2-Niveau.",
+    "Strukturen: Einfache Sätze mit Modalverben (können, sollen, wollen) und Konnektoren.",
+    "Aussprache und Intonation: Verständliche Aussprache mit natürlicher Intonation bei Vorschlägen und Fragen."
+  ],
+  "source": "goethe-uebungssatz"
+}

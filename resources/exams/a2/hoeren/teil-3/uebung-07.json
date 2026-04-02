@@ -1,0 +1,279 @@
+{
+  "id": "a2-hoeren-teil-3-007",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 3,
+  "title": "Kurze Gespräche — Alltag und Einkaufen",
+  "instructions": "Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben 11 bis 15 die richtige Lösung a, b oder c.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Gespräch 11 — Frau",
+      "text_de": "Schlemmer, hallo?",
+      "text_en": "Schlemmer, hello?"
+    },
+    {
+      "speaker": "Gespräch 11 — Mann",
+      "text_de": "Hallo, Frau Schlemmer, hier Florian Mayer, Sie verkaufen alte Möbel.",
+      "text_en": "Hello, Mrs. Schlemmer, this is Florian Mayer, you sell old furniture."
+    },
+    {
+      "speaker": "Gespräch 11 — Frau",
+      "text_de": "Ja.",
+      "text_en": "Yes."
+    },
+    {
+      "speaker": "Gespräch 11 — Mann",
+      "text_de": "Heute Morgen hab' ich Ihnen geschrieben, dass ich das Sofa kaufen möchte.",
+      "text_en": "This morning I wrote to you that I'd like to buy the sofa."
+    },
+    {
+      "speaker": "Gespräch 11 — Frau",
+      "text_de": "Ja, ich erinnere mich.",
+      "text_en": "Yes, I remember."
+    },
+    {
+      "speaker": "Gespräch 11 — Mann",
+      "text_de": "Tut mir leid, aber es ist zu groß, das kann ich nicht mit meinem Auto abholen. Aber der Wohnzimmertisch interessiert mich.",
+      "text_en": "I'm sorry, but it's too big, I can't pick it up with my car. But I'm interested in the living room table."
+    },
+    {
+      "speaker": "Gespräch 11 — Frau",
+      "text_de": "Können Sie haben. Und die vier Stühle, nehmen Sie die auch?",
+      "text_en": "You can have it. And the four chairs, will you take those too?"
+    },
+    {
+      "speaker": "Gespräch 11 — Mann",
+      "text_de": "Da habe ich eigene.",
+      "text_en": "I have my own."
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Du, Sabine, ich sammle Ideen für unseren Firmenausflug.",
+      "text_en": "Hey, Sabine, I'm collecting ideas for our company outing."
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "Ah, ja! Was haben wir denn im letzten Jahr gemacht?",
+      "text_en": "Ah, yes! What did we do last year?"
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Eine interessante Stadtführung.",
+      "text_en": "An interesting city tour."
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "Richtig! Die war toll. Im Stadtmuseum gibt es eine gute neue Kunstausstellung.",
+      "text_en": "Right! That was great. There's a good new art exhibition at the city museum."
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Kunst, finde ich nicht so interessant.",
+      "text_en": "Art, I don't find that so interesting."
+    },
+    {
+      "speaker": "Gespräch 12 — Frau",
+      "text_de": "Okay, und wenn wir zum See fahren und dort eine Wanderung machen? Darauf hätt ich Lust.",
+      "text_en": "Okay, and what if we drive to the lake and go hiking there? I'd like that."
+    },
+    {
+      "speaker": "Gespräch 12 — Mann",
+      "text_de": "Ja, find ich gut.",
+      "text_en": "Yes, I like that."
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Och, Mann!",
+      "text_en": "Oh, man!"
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Guten Morgen, Frau Nachbarin! Was ist denn?",
+      "text_en": "Good morning, neighbor! What's wrong?"
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Morgen, Herr Köhler. Ich muss zur Arbeit und hab den Zug verpasst.",
+      "text_en": "Morning, Mr. Köhler. I have to get to work and missed the train."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Oh, wie ärgerlich. Warum nehmen Sie nicht Ihr Auto?",
+      "text_en": "Oh, how annoying. Why don't you take your car?"
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Das ist in der Werkstatt.",
+      "text_en": "It's at the repair shop."
+    },
+    {
+      "speaker": "Gespräch 13 — Mann",
+      "text_de": "Gut, dann fahren Sie bei mir mit. Ich muss jetzt auch mit dem Auto in die Stadt.",
+      "text_en": "Well, then ride with me. I also have to drive to the city now."
+    },
+    {
+      "speaker": "Gespräch 13 — Frau",
+      "text_de": "Das ist wirklich nett!",
+      "text_en": "That's really nice!"
+    },
+    {
+      "speaker": "Gespräch 14 — Frau",
+      "text_de": "Sanitär Reparaturen, guten Tag.",
+      "text_en": "Plumbing Repairs, good day."
+    },
+    {
+      "speaker": "Gespräch 14 — Mann",
+      "text_de": "Guten Tag. Mollack mein Name. Bei mir ist Wasser im Badezimmer. Ich brauche einen Handwerker.",
+      "text_en": "Good day. Mollack is my name. There's water in my bathroom. I need a plumber."
+    },
+    {
+      "speaker": "Gespräch 14 — Frau",
+      "text_de": "Ja, kein Problem. Kommt das Wasser aus der Dusche?",
+      "text_en": "Yes, no problem. Is the water coming from the shower?"
+    },
+    {
+      "speaker": "Gespräch 14 — Mann",
+      "text_de": "Die ist ganz trocken.",
+      "text_en": "That's completely dry."
+    },
+    {
+      "speaker": "Gespräch 14 — Frau",
+      "text_de": "Ah, gut, es kann natürlich auch die Waschmaschine sein.",
+      "text_en": "Ah, good, it could of course also be the washing machine."
+    },
+    {
+      "speaker": "Gespräch 14 — Mann",
+      "text_de": "Die steht bei mir im Keller. Unter der Toilette ist das meiste Wasser.",
+      "text_en": "That's in my basement. Most of the water is under the toilet."
+    },
+    {
+      "speaker": "Gespräch 14 — Frau",
+      "text_de": "Ah, ja, dann liegt da wohl das Problem.",
+      "text_en": "Ah, yes, then that's probably where the problem is."
+    },
+    {
+      "speaker": "Gespräch 15 — Mann",
+      "text_de": "Hallo, Frau Hansen! Hier Larsen. Ich kann heute leider nicht zur Arbeit kommen.",
+      "text_en": "Hello, Mrs. Hansen! This is Larsen. Unfortunately I can't come to work today."
+    },
+    {
+      "speaker": "Gespräch 15 — Frau",
+      "text_de": "Oh, sind Sie krank?",
+      "text_en": "Oh, are you sick?"
+    },
+    {
+      "speaker": "Gespräch 15 — Mann",
+      "text_de": "Meine Tochter hat eine Grippe und ich muss mit ihr zum Arzt gehen.",
+      "text_en": "My daughter has the flu and I have to take her to the doctor."
+    },
+    {
+      "speaker": "Gespräch 15 — Frau",
+      "text_de": "Wir haben doch heute den wichtigen Gesprächstermin! Kann das nicht Ihre Frau machen?",
+      "text_en": "But we have the important meeting today! Can't your wife do it?"
+    },
+    {
+      "speaker": "Gespräch 15 — Mann",
+      "text_de": "Meine Frau nimmt gleich das Taxi zum Flughafen. Sie muss beruflich für eine Woche nach London.",
+      "text_en": "My wife is taking a taxi to the airport right away. She has to go to London for a week for work."
+    }
+  ],
+  "questions": [
+    {
+      "number": 11,
+      "type": "multiple_choice",
+      "text_de": "Was kauft der Mann?",
+      "text_en": "What does the man buy?",
+      "options": [
+        "a) Ein Sofa",
+        "b) Einen Tisch",
+        "c) Vier Stühle"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Sofa / Couch",
+        "b) Ein Wohnzimmertisch",
+        "c) Vier Stühle"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Der Mann kauft den Wohnzimmertisch. Das Sofa ist zu groß und Stühle hat er eigene.",
+      "explanation_en": "The man buys the living room table. The sofa is too big and he has his own chairs."
+    },
+    {
+      "number": 12,
+      "type": "multiple_choice",
+      "text_de": "Welcher Vorschlag für den Firmenausflug in diesem Jahr gefällt beiden?",
+      "text_en": "Which suggestion for the company outing this year do both like?",
+      "options": [
+        "a) Stadtführung",
+        "b) Kunstausstellung",
+        "c) Wanderung am See"
+      ],
+      "options_image_descriptions": [
+        "a) Eine Stadtführung durch die Altstadt",
+        "b) Eine Kunstausstellung im Museum",
+        "c) Eine Wanderung am See"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Beide finden die Idee gut, zum See zu fahren und dort eine Wanderung zu machen.",
+      "explanation_en": "Both like the idea of driving to the lake and going hiking there."
+    },
+    {
+      "number": 13,
+      "type": "multiple_choice",
+      "text_de": "Wie fährt die Frau zur Arbeit?",
+      "text_en": "How does the woman get to work?",
+      "options": [
+        "a) Mit dem Zug",
+        "b) Mit dem eigenen Auto",
+        "c) Mit dem Auto des Nachbarn"
+      ],
+      "options_image_descriptions": [
+        "a) Ein Zug am Bahnhof",
+        "b) Eine Frau fährt Auto",
+        "c) Ein Auto mit Mitfahrgelegenheit"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Frau fährt mit dem Nachbarn im Auto mit, weil sie den Zug verpasst hat und ihr Auto in der Werkstatt ist.",
+      "explanation_en": "The woman rides with the neighbor in his car because she missed the train and her car is at the repair shop."
+    },
+    {
+      "number": 14,
+      "type": "multiple_choice",
+      "text_de": "Was ist kaputt?",
+      "text_en": "What is broken?",
+      "options": [
+        "a) Die Dusche",
+        "b) Die Waschmaschine",
+        "c) Die Toilette"
+      ],
+      "options_image_descriptions": [
+        "a) Eine Dusche",
+        "b) Eine Waschmaschine",
+        "c) Eine Toilette"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Unter der Toilette ist das meiste Wasser — da liegt das Problem.",
+      "explanation_en": "Most of the water is under the toilet — that's where the problem is."
+    },
+    {
+      "number": 15,
+      "type": "multiple_choice",
+      "text_de": "Warum kann der Mann nicht zur Arbeit kommen?",
+      "text_en": "Why can't the man come to work?",
+      "options": [
+        "a) Er ist krank.",
+        "b) Seine Frau fliegt weg.",
+        "c) Seine Tochter muss zum Arzt."
+      ],
+      "options_image_descriptions": [
+        "a) Ein Mann liegt krank im Bett",
+        "b) Eine Frau am Flughafen",
+        "c) Ein Kind beim Arzt"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Seine Tochter hat eine Grippe und er muss mit ihr zum Arzt gehen.",
+      "explanation_en": "His daughter has the flu and he has to take her to the doctor."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

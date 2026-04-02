@@ -1,0 +1,108 @@
+{
+  "id": "a2-lesen-teil-4-007",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 4,
+  "title": "Musik — Anzeigen im Internet",
+  "instructions": "Lesen Sie die Aufgaben 16 bis 20 und die Anzeigen a bis f. Welche Anzeige passt zu welcher Person? Für eine Aufgabe gibt es keine Lösung. Markieren Sie so: x.",
+  "time_minutes": 6,
+  "passage": {
+    "text_de": "a) www.anfaengerkurse-musik.de — Gitarrenkurs: Klassik, Pop und vieles mehr. Unterricht für Kinder ab 6 Jahre mit und ohne Erfahrung. Super Preise: Nur 25 € für 45 Minuten. Besondere Angebote für Gruppen. Information unter 089-45675621\n\nb) www.philharmonie.de — Programm: Samstag, 4. April, 19 Uhr: Peter Tschaikowskis 'Klavierkonzert', großer Saal. Freuen Sie sich auf die Musik des berühmten Künstlers im neuen Konzerthaus. Weitere Informationen über unsere Preise auf unserer Internetseite.\n\nc) www.instrumentendoktor.de — Du hast ein Problem mit deiner Gitarre? Du kannst nicht mehr spielen? Ich kümmere mich um deine alte Gitarre, dann ist sie bald wie neu. Rufinistraße 17, 45674 Halle. Öffnungszeiten Werkstatt: Dienstag–Freitag: 10–16 Uhr, Samstag: 10–12 Uhr\n\nd) www.cafe-sand.de — Urlaub in der Stadtmitte – direkt am Fluss, täglich ab 10.00 Uhr geöffnet. Jeden Samstag und Sonntag gibt es das stadtbekannte große Frühstück. Ab Mai jeden Sonnabend Party mit Live-Musik, ab 22 Uhr.\n\ne) www.musik_macht_spass.de — Sie möchten ein Musikinstrument spielen und haben nicht viel Zeit? Ich komme zu Ihnen – abends oder am Wochenende. Fragen Sie Ihre Freunde – für Gruppen gibt es Ermäßigung. Nur für Erwachsene! Anmeldung: lana@musik_macht_spass.de\n\nf) www.Musik-Flohmarkt.de — Kaufe und verkaufe: CDs mit Gitarrenkonzerten, Klaviermusik, kaputte Instrumente und vieles mehr. Habe auch Bücher und Filme über bekannte Musiker und berühmte Konzerte. Alles supergünstig! Ruft an und fragt nach Tom. 0156-5741239 Ich freue mich auf euch!",
+    "text_en": "a) www.anfaengerkurse-musik.de — Guitar course: Classical, pop and much more. Lessons for children from age 6 with and without experience. Great prices: Only €25 for 45 minutes. Special offers for groups.\n\nb) www.philharmonie.de — Program: Saturday, April 4, 7 PM: Peter Tchaikovsky's 'Piano Concerto', main hall. Enjoy the music of the famous artist in the new concert hall.\n\nc) www.instrumentendoktor.de — Do you have a problem with your guitar? Can't play anymore? I'll take care of your old guitar, then it'll be like new again.\n\nd) www.cafe-sand.de — Holiday in the city center – directly on the river, open daily from 10 AM. Every Saturday and Sunday the famous big breakfast. From May every Saturday party with live music from 10 PM.\n\ne) www.musik_macht_spass.de — Want to play a musical instrument and don't have much time? I come to you – evenings or weekends. Ask your friends – discounts for groups. Adults only!\n\nf) www.Musik-Flohmarkt.de — Buy and sell: CDs with guitar concerts, piano music, broken instruments and much more. Also have books and films about famous musicians and concerts. Everything super cheap!",
+    "source": "Anzeigen",
+    "word_count": 200
+  },
+  "questions": [
+    {
+      "number": 16,
+      "type": "matching",
+      "text_de": "Thomas interessiert sich für einen berühmten Klavierspieler und sucht Informationen über ihn.",
+      "text_en": "Thomas is interested in a famous piano player and is looking for information about him.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "f",
+      "explanation_de": "Der Musik-Flohmarkt (f) hat Bücher und Filme über bekannte Musiker und berühmte Konzerte.",
+      "explanation_en": "The Music Flea Market (f) has books and films about famous musicians and concerts."
+    },
+    {
+      "number": 17,
+      "type": "matching",
+      "text_de": "Sarahs Gitarre ist kaputt. Jemand soll die Gitarre reparieren.",
+      "text_en": "Sarah's guitar is broken. Someone should repair the guitar.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Der Instrumentendoktor (c) kümmert sich um kaputte Gitarren.",
+      "explanation_en": "The Instrument Doctor (c) takes care of broken guitars."
+    },
+    {
+      "number": 18,
+      "type": "matching",
+      "text_de": "Andreas hat ein Klavier gekauft und möchte zu Hause Unterricht haben.",
+      "text_en": "Andreas has bought a piano and wants to have lessons at home.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "e",
+      "explanation_de": "musik_macht_spass.de (e) bietet Instrumentenunterricht zu Hause an ('Ich komme zu Ihnen').",
+      "explanation_en": "musik_macht_spass.de (e) offers instrument lessons at home ('I come to you')."
+    },
+    {
+      "number": 19,
+      "type": "matching",
+      "text_de": "Christiane möchte eine neue Gitarre kaufen und wenig Geld ausgeben.",
+      "text_en": "Christiane wants to buy a new guitar and spend little money.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "x",
+      "explanation_de": "Keine Anzeige bietet günstige Gitarren zum Verkauf an. Der Musik-Flohmarkt verkauft kaputte Instrumente, keine neuen.",
+      "explanation_en": "No ad offers cheap guitars for sale. The Music Flea Market sells broken instruments, not new ones."
+    },
+    {
+      "number": 20,
+      "type": "matching",
+      "text_de": "Susanne möchte mit ihrer Freundin am Wochenende ausgehen und Musik hören.",
+      "text_en": "Susanne would like to go out with her friend on the weekend and listen to music.",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "x"
+      ],
+      "correct_answer": "d",
+      "explanation_de": "Café Sand (d) hat jeden Samstag Party mit Live-Musik ab 22 Uhr.",
+      "explanation_en": "Café Sand (d) has a party with live music every Saturday from 10 PM."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

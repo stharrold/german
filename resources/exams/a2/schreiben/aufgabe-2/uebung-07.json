@@ -1,0 +1,27 @@
+{
+  "id": "a2-schreiben-aufgabe-2-007",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 2,
+  "title": "E-Mail an Hotel — Buchung ändern",
+  "instructions": "Sie haben ein Hotelzimmer gebucht. Sie wollten eigentlich am Freitag kommen. Leider können Sie jetzt erst am Sonntag kommen. Schreiben Sie eine E-Mail an Frau Yilmaz vom Hotel. Schreiben Sie 30–40 Wörter. Schreiben Sie zu allen drei Punkten.",
+  "situation_de": "Sie haben ein Hotelzimmer gebucht. Sie wollten eigentlich am Freitag kommen. Leider können Sie jetzt erst am Sonntag kommen. Schreiben Sie eine E-Mail an Frau Yilmaz vom Hotel: Erklären Sie, warum Sie schreiben. Informieren Sie, wie lange Sie jetzt bleiben möchten. Fragen Sie nach einem neuen Preisangebot.",
+  "situation_en": "You have booked a hotel room. You actually wanted to come on Friday. Unfortunately you can now only come on Sunday. Write an email to Mrs. Yilmaz from the hotel: Explain why you are writing. Inform how long you would now like to stay. Ask for a new price offer.",
+  "target_word_count": 35,
+  "required_points": [
+    "Erklären, warum man schreibt (Explain why you are writing)",
+    "Informieren, wie lange man jetzt bleiben möchte (Inform how long you now want to stay)",
+    "Nach einem neuen Preisangebot fragen (Ask for a new price offer)"
+  ],
+  "model_answer": {
+    "text_de": "Sehr geehrte Frau Yilmaz,\n\nich habe ein Zimmer ab Freitag gebucht, aber ich kann leider erst am Sonntag kommen. Ich möchte bis Mittwoch bleiben. Können Sie mir bitte den neuen Preis mitteilen?\n\nMit freundlichen Grüßen",
+    "text_en": "Dear Mrs. Yilmaz,\n\nI booked a room from Friday, but unfortunately I can only come on Sunday. I would like to stay until Wednesday. Could you please tell me the new price?\n\nWith kind regards"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Register: Situations- und partneradäquat — formelle E-Mail an ein Hotel (Register: Appropriate to situation and partner — formal email to a hotel)",
+    "Wortschatz und Strukturen: Einfacher, angemessener Wortschatz auf A2-Niveau mit höflichen Formen (Vocabulary and structures: Simple, appropriate vocabulary at A2 level with polite forms)",
+    "Textlänge: 30–40 Wörter (Text length: 30–40 words)"
+  ],
+  "source": "goethe-uebungssatz"
+}

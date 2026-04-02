@@ -1,0 +1,249 @@
+{
+  "id": "a2-hoeren-teil-2-007",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 2,
+  "title": "Gespräch — Eine Woche in Köln",
+  "instructions": "Sie hören ein Gespräch. Sie hören den Text einmal. Was hat die Frau in Köln gemacht? Wählen Sie für die Aufgaben 6 bis 10 ein passendes Bild aus a bis i. Wählen Sie jeden Buchstaben nur einmal.",
+  "time_minutes": 6,
+  "transcript": [
+    {
+      "speaker": "Mann",
+      "text_de": "Sonja, was machst du denn hier? Ich denke, du bist in Köln.",
+      "text_en": "Sonja, what are you doing here? I thought you were in Cologne."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Letzte Woche war ich in Köln.",
+      "text_en": "Last week I was in Cologne."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Und wie war es?",
+      "text_en": "And how was it?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Ach, es war toll! Am Freitag bin ich hingefahren. Meine Freundin Julia hat mich vom Bahnhof abgeholt und dann sind wir in einem guten Restaurant essen gegangen.",
+      "text_en": "Oh, it was great! On Friday I went there. My friend Julia picked me up from the train station and then we went to eat at a good restaurant."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Schön! Was habt ihr denn noch gemacht? Du wolltest doch die neue Ausstellung sehen.",
+      "text_en": "Nice! What else did you do? You wanted to see the new exhibition."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Ja, eigentlich am Samstag. Aber das Museum war wegen einer Veranstaltung geschlossen. Also waren wir im Theater.",
+      "text_en": "Yes, actually on Saturday. But the museum was closed due to an event. So we went to the theater."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Du interessierst dich wohl sehr für Kultur?",
+      "text_en": "You seem to be very interested in culture?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Ja, deshalb waren wir auch noch in einem Klavierkonzert. Julia wollte eigentlich am Sonntag gehen, aber wir haben leider keine Karten mehr gekriegt. Also waren wir den ganzen Tag in der Stadt und haben uns Sehenswürdigkeiten angesehen.",
+      "text_en": "Yes, that's why we also went to a piano concert. Julia actually wanted to go on Sunday, but unfortunately we couldn't get tickets anymore. So we spent the whole day in the city looking at sights."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Das mach ich auch gern. Und wann wart ihr dann bei dem Klavierkonzert?",
+      "text_en": "I enjoy that too. And when did you go to the piano concert?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Am Montagabend. Montag gab es auch ein kostenloses Konzert von zwei Bands draußen vor der Universität. Das hätte mich auch interessiert.",
+      "text_en": "On Monday evening. On Monday there was also a free concert by two bands outside the university. That would have interested me too."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Man kann ja nicht alles haben. Und Dienstag?",
+      "text_en": "You can't have everything. And Tuesday?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Ich wollte eigentlich mit dem Schiff auf dem Rhein, dem Fluss, fahren. Aber Julia hatte eine andere tolle Idee: eine Radtour am Fluss. Am Abend war ich total müde.",
+      "text_en": "I actually wanted to go on a boat ride on the Rhine, the river. But Julia had another great idea: a bike tour along the river. In the evening I was totally tired."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "War das Wetter denn gut?",
+      "text_en": "Was the weather good?"
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Wir hatten Glück. Am Mittwoch hat es leider geregnet. Das war schade, weil wir auf ein Straßenfest gehen wollten. Das hat dann nicht geklappt. Wir waren dann in der Ausstellung, im Museum.",
+      "text_en": "We were lucky. On Wednesday it unfortunately rained. That was a shame because we wanted to go to a street festival. That didn't work out. We then went to the exhibition, at the museum."
+    },
+    {
+      "speaker": "Mann",
+      "text_de": "Darauf hattest du dich ja sehr gefreut.",
+      "text_en": "You had really been looking forward to that."
+    },
+    {
+      "speaker": "Frau",
+      "text_de": "Die war sehr schön. Kann ich empfehlen!",
+      "text_en": "It was very beautiful. I can recommend it!"
+    }
+  ],
+  "questions": [
+    {
+      "number": 6,
+      "type": "matching",
+      "text_de": "Samstag",
+      "text_en": "Saturday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Im Restaurant essen",
+        "b) Theater besuchen",
+        "c) Klavierkonzert hören",
+        "d) Sehenswürdigkeiten besichtigen",
+        "e) Radtour / Fahrrad fahren",
+        "f) Museum / Ausstellung besuchen",
+        "g) Schifffahrt auf dem Fluss",
+        "h) Straßenfest / Open-Air-Festival",
+        "i) Band-Konzert draußen"
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Samstag waren sie im Theater, weil das Museum geschlossen war.",
+      "explanation_en": "On Saturday they went to the theater because the museum was closed."
+    },
+    {
+      "number": 7,
+      "type": "matching",
+      "text_de": "Sonntag",
+      "text_en": "Sunday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Im Restaurant essen",
+        "b) Theater besuchen",
+        "c) Klavierkonzert hören",
+        "d) Sehenswürdigkeiten besichtigen",
+        "e) Radtour / Fahrrad fahren",
+        "f) Museum / Ausstellung besuchen",
+        "g) Schifffahrt auf dem Fluss",
+        "h) Straßenfest / Open-Air-Festival",
+        "i) Band-Konzert draußen"
+      ],
+      "correct_answer": "d",
+      "explanation_de": "Am Sonntag haben sie den ganzen Tag Sehenswürdigkeiten in der Stadt angesehen.",
+      "explanation_en": "On Sunday they spent the whole day looking at sights in the city."
+    },
+    {
+      "number": 8,
+      "type": "matching",
+      "text_de": "Montag",
+      "text_en": "Monday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Im Restaurant essen",
+        "b) Theater besuchen",
+        "c) Klavierkonzert hören",
+        "d) Sehenswürdigkeiten besichtigen",
+        "e) Radtour / Fahrrad fahren",
+        "f) Museum / Ausstellung besuchen",
+        "g) Schifffahrt auf dem Fluss",
+        "h) Straßenfest / Open-Air-Festival",
+        "i) Band-Konzert draußen"
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Am Montagabend waren sie beim Klavierkonzert.",
+      "explanation_en": "On Monday evening they went to the piano concert."
+    },
+    {
+      "number": 9,
+      "type": "matching",
+      "text_de": "Dienstag",
+      "text_en": "Tuesday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Im Restaurant essen",
+        "b) Theater besuchen",
+        "c) Klavierkonzert hören",
+        "d) Sehenswürdigkeiten besichtigen",
+        "e) Radtour / Fahrrad fahren",
+        "f) Museum / Ausstellung besuchen",
+        "g) Schifffahrt auf dem Fluss",
+        "h) Straßenfest / Open-Air-Festival",
+        "i) Band-Konzert draußen"
+      ],
+      "correct_answer": "e",
+      "explanation_de": "Am Dienstag haben sie eine Radtour am Fluss gemacht statt einer Schifffahrt.",
+      "explanation_en": "On Tuesday they went on a bike tour along the river instead of a boat ride."
+    },
+    {
+      "number": 10,
+      "type": "matching",
+      "text_de": "Mittwoch",
+      "text_en": "Wednesday",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "options_image_descriptions": [
+        "a) Im Restaurant essen",
+        "b) Theater besuchen",
+        "c) Klavierkonzert hören",
+        "d) Sehenswürdigkeiten besichtigen",
+        "e) Radtour / Fahrrad fahren",
+        "f) Museum / Ausstellung besuchen",
+        "g) Schifffahrt auf dem Fluss",
+        "h) Straßenfest / Open-Air-Festival",
+        "i) Band-Konzert draußen"
+      ],
+      "correct_answer": "f",
+      "explanation_de": "Am Mittwoch waren sie in der Ausstellung im Museum, weil es regnete und das Straßenfest nicht stattfand.",
+      "explanation_en": "On Wednesday they went to the exhibition at the museum because it was raining and the street festival didn't take place."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

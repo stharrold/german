@@ -1,0 +1,109 @@
+{
+  "id": "a2-hoeren-teil-1-007",
+  "level": "A2",
+  "skill": "hoeren",
+  "part": 1,
+  "title": "Kurze Radiotexte und Durchsagen",
+  "instructions": "Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben 1 bis 5 die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "transcript": [
+    {
+      "speaker": "Ansage 1",
+      "text_de": "Und jetzt noch eine wichtige Information für die Besucher des Musikfestes: Wegen des Regens kann das Konzert heute Abend nicht draußen auf dem Marktplatz stattfinden. Liebe Fans, keine Angst, es wird stattfinden – in der großen Halle am Bahnhof, Beginn 18:30 Uhr. Wer sein Ticket zurückgeben möchte, kann das bis 18 Uhr am Schalter vor dem Festzelt kostenlos tun.",
+      "text_en": "And now an important notice for visitors of the music festival: Due to rain, the concert this evening cannot take place outside on the market square. Dear fans, don't worry, it will take place – in the large hall at the train station, starting at 6:30 PM. If you would like to return your ticket, you can do so free of charge until 6 PM at the counter in front of the marquee."
+    },
+    {
+      "speaker": "Ansage 2",
+      "text_de": "Hallo, Frauke. Jana feiert doch am Freitag ihren Geburtstag im Büro. Ich backe morgen einen Kuchen. Wichtig ist noch das Geschenk. Paul hat gesagt, er kümmert sich darum. Er fährt heute nach der Arbeit in die Stadt und sucht ein spannendes Buch. Kannst du dich um Saft, Wasser und Kaffee kümmern? Rufst du mich zurück?",
+      "text_en": "Hello, Frauke. Jana is celebrating her birthday at the office on Friday. I'm baking a cake tomorrow. The gift is still important. Paul said he'll take care of it. He's going to the city after work today to find an exciting book. Can you take care of juice, water and coffee? Will you call me back?"
+    },
+    {
+      "speaker": "Ansage 3",
+      "text_de": "Hi, Paul, Clemens hier. Du, wir hatten ja gesagt, wir gehen diesen Samstag etwas trinken. Kannst du auch Sonntagabend? Am Samstagabend geht meine Frau mit Freunden aus und ich hab versprochen, dass ich zu Hause bleibe und auf die Kinder aufpasse. Sonntag kommen dann noch meine Eltern zu Besuch, aber ab 19 Uhr hab ich Zeit.",
+      "text_en": "Hi, Paul, Clemens here. You know, we said we'd go for drinks this Saturday. Can you also do Sunday evening? On Saturday evening my wife is going out with friends and I promised I'd stay home and look after the kids. On Sunday my parents are also coming to visit, but from 7 PM I have time."
+    },
+    {
+      "speaker": "Ansage 4",
+      "text_de": "Und nun zum Wetter: Der Sommer bleibt und es wird morgen nochmal sehr warm, im Süden bis 30 Grad. Am späten Nachmittag soll es dort etwas regnen. Vorsicht im Westen. Dort wird es bis zum frühen Nachmittag auch sehr warm, es soll am Nachmittag aber starke Gewitter geben. Im Norden und Osten wird es kühl mit Temperaturen bis 16 Grad. Aber es bleibt trocken.",
+      "text_en": "And now the weather: Summer stays and it will be very warm again tomorrow, up to 30 degrees in the south. In the late afternoon it should rain there a bit. Caution in the west. There it will also be very warm until the early afternoon, but strong thunderstorms are expected in the afternoon. In the north and east it will be cool with temperatures up to 16 degrees. But it stays dry."
+    },
+    {
+      "speaker": "Ansage 5",
+      "text_de": "Achtung, liebe Fahrgäste, dieser Zug kann wegen eines technischen Problems nicht weiterfahren. Bitte alle aussteigen. Fahrgäste nach Frankfurt fahren bitte mit dem ICE 562 um 14.15 Uhr von Gleis 1. Fahrgäste nach Stuttgart nehmen bitte die S-Bahn um 14.22 Uhr von Gleis 4.",
+      "text_en": "Attention, dear passengers, this train cannot continue due to a technical problem. Please all exit. Passengers going to Frankfurt, please take the ICE 562 at 2:15 PM from platform 1. Passengers going to Stuttgart, please take the S-Bahn at 2:22 PM from platform 4."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Wo findet das Konzert statt?",
+      "text_en": "Where does the concert take place?",
+      "options": [
+        "a) Auf dem Marktplatz.",
+        "b) In einer Halle.",
+        "c) Im Festzelt."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Wegen des Regens findet das Konzert in der großen Halle am Bahnhof statt.",
+      "explanation_en": "Due to rain, the concert takes place in the large hall at the train station."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "Was soll Frauke machen?",
+      "text_en": "What should Frauke do?",
+      "options": [
+        "a) Einen Kuchen backen.",
+        "b) Ein Geschenk kaufen.",
+        "c) Getränke organisieren."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Frauke soll sich um Saft, Wasser und Kaffee kümmern.",
+      "explanation_en": "Frauke should take care of juice, water and coffee."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "Warum möchte der Mann das Treffen am Samstag verschieben? Weil ...",
+      "text_en": "Why does the man want to postpone the meeting on Saturday? Because ...",
+      "options": [
+        "a) er mit Freunden ausgehen möchte.",
+        "b) seine Frau verabredet ist.",
+        "c) seine Eltern zu Besuch kommen."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Am Samstagabend geht seine Frau mit Freunden aus und er muss auf die Kinder aufpassen.",
+      "explanation_en": "On Saturday evening his wife is going out with friends and he has to look after the children."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Wie wird das Wetter im Süden? Es wird ...",
+      "text_en": "What will the weather be like in the south? It will be ...",
+      "options": [
+        "a) kühl und trocken.",
+        "b) warm und es gibt Gewitter.",
+        "c) warm und es regnet."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Im Süden wird es bis 30 Grad warm und am späten Nachmittag soll es dort etwas regnen.",
+      "explanation_en": "In the south it will be warm up to 30 degrees and in the late afternoon it should rain a bit there."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Was sollen Fahrgäste tun, wenn sie nach Frankfurt wollen?",
+      "text_en": "What should passengers do if they want to go to Frankfurt?",
+      "options": [
+        "a) Den ICE nehmen.",
+        "b) Im Zug warten.",
+        "c) Mit der S-Bahn fahren."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Fahrgäste nach Frankfurt sollen den ICE 562 um 14.15 Uhr von Gleis 1 nehmen.",
+      "explanation_en": "Passengers going to Frankfurt should take the ICE 562 at 2:15 PM from platform 1."
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

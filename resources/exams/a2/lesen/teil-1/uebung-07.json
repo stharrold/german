@@ -1,0 +1,88 @@
+{
+  "id": "a2-lesen-teil-1-007",
+  "level": "A2",
+  "skill": "lesen",
+  "part": 1,
+  "title": "Essen im Job — Gesundes Mittagessen bei der Arbeit",
+  "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie die richtige Lösung a, b oder c.",
+  "time_minutes": 8,
+  "passage": {
+    "text_de": "Essen im Job –\n\nMittagessen von zu Hause oder mit den Kollegen ins Restaurant? – Warum gutes Essen wichtig ist und was eine Firma für die Gesundheit ihrer Mitarbeiter tut\n\nViele Leute essen oft fettes und süßes Essen, weil es schnell geht, schmeckt und man es überall bekommt. Aber wenn man Probleme mit der Gesundheit bekommt, wird das auch für die Firmen schnell teuer: Die Mitarbeiter sind oft krank und fehlen.\n\nTheo kennt das: 'Früher war ich mit den Kollegen mittags im Restaurant. Aber im Moment habe ich dafür keine Zeit. Ich kaufe mir schnell am Kiosk eine Bratwurst. Auch wenn ich mich danach schlecht fühle. Aber gesunde Salate gibt es dort nicht.'\n\nDie Firma Gutbrecht hat jetzt für ihre Mitarbeiter eigene Küchen gebaut. Da kann jeder in der Pause für sich kochen. Das ist gesund und außerdem kostet es nicht so viel wie im Restaurant.\n\n'Jetzt koche ich nicht nur zu Hause mit frischem Gemüse und habe so schon zwei Kilo verloren', lacht Lena. 'Aber man muss nach dem Kochen die Küche putzen, das machen die Kollegen und ich nicht so gern.'\n\nDer Chef von Gutbrecht freut sich. 'Klar, die Küchen waren nicht billig. Aber jetzt gibt es mehr Kontakte. Die Arbeit in den Teams ist besser. Schwierig ist, dass die Mittagspause jetzt ziemlich lange dauert. Das muss sich wieder ändern.'",
+    "text_en": "Eating at Work –\n\nLunch from home or to the restaurant with colleagues? – Why good food is important and what a company does for its employees' health\n\nMany people often eat fatty and sweet food because it's quick, tastes good and you can get it everywhere. But when health problems arise, it quickly becomes expensive for companies too: employees are often sick and absent.\n\nTheo knows this: 'I used to go to the restaurant with colleagues at lunchtime. But at the moment I don't have time for that. I quickly buy a sausage at the kiosk. Even though I feel bad afterwards. But there are no healthy salads there.'\n\nThe company Gutbrecht has now built its own kitchens for its employees. Everyone can cook for themselves during the break. It's healthy and also doesn't cost as much as in a restaurant.\n\n'Now I don't just cook at home with fresh vegetables and have already lost two kilos,' laughs Lena. 'But you have to clean the kitchen after cooking, my colleagues and I don't like that so much.'\n\nThe boss of Gutbrecht is pleased. 'Sure, the kitchens weren't cheap. But now there are more contacts. The work in the teams is better. The difficulty is that the lunch break now lasts quite long. That has to change again.'",
+    "source": "Zeitung",
+    "word_count": 195
+  },
+  "questions": [
+    {
+      "number": 1,
+      "type": "multiple_choice",
+      "text_de": "Ungesundes Essen ...",
+      "text_en": "Unhealthy food ...",
+      "options": [
+        "a) ist besonders teuer.",
+        "b) kauft man oft unterwegs.",
+        "c) mögen viele nicht."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Viele Leute essen fettes und süßes Essen, weil es schnell geht und man es überall bekommt.",
+      "explanation_en": "Many people eat fatty and sweet food because it's quick and you can get it everywhere."
+    },
+    {
+      "number": 2,
+      "type": "multiple_choice",
+      "text_de": "In der Pause ...",
+      "text_en": "During the break ...",
+      "options": [
+        "a) geht Theo ins Restaurant.",
+        "b) hat Theo nur wenig Zeit zum Essen.",
+        "c) isst Theo einen Salat."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Theo sagt: 'Im Moment habe ich dafür keine Zeit.' Er kauft sich schnell am Kiosk eine Bratwurst.",
+      "explanation_en": "Theo says: 'At the moment I don't have time for that.' He quickly buys a sausage at the kiosk."
+    },
+    {
+      "number": 3,
+      "type": "multiple_choice",
+      "text_de": "In der Firma Gutbrecht ...",
+      "text_en": "At the company Gutbrecht ...",
+      "options": [
+        "a) bauen die Mitarbeiter Küchen.",
+        "b) ist das Essen kostenlos.",
+        "c) kann jeder selbst sein Mittagessen machen."
+      ],
+      "correct_answer": "c",
+      "explanation_de": "Die Firma hat eigene Küchen gebaut, da kann jeder in der Pause für sich kochen.",
+      "explanation_en": "The company built its own kitchens where everyone can cook for themselves during the break."
+    },
+    {
+      "number": 4,
+      "type": "multiple_choice",
+      "text_de": "Lena findet die Idee gut, weil ...",
+      "text_en": "Lena thinks the idea is good because ...",
+      "options": [
+        "a) die anderen die Küche putzen.",
+        "b) sie mehr gesundes Essen isst.",
+        "c) sie nicht mehr zu Hause kochen muss."
+      ],
+      "correct_answer": "b",
+      "explanation_de": "Lena kocht jetzt auch bei der Arbeit mit frischem Gemüse und hat schon zwei Kilo verloren.",
+      "explanation_en": "Lena now also cooks with fresh vegetables at work and has already lost two kilos."
+    },
+    {
+      "number": 5,
+      "type": "multiple_choice",
+      "text_de": "Der Chef der Firma ist zufrieden, weil ...",
+      "text_en": "The company boss is satisfied because ...",
+      "options": [
+        "a) die Mitarbeiter gut zusammenarbeiten.",
+        "b) die Mitarbeiter lange Pausen machen.",
+        "c) die Küchen nicht viel gekostet haben."
+      ],
+      "correct_answer": "a",
+      "explanation_de": "Der Chef sagt: 'Jetzt gibt es mehr Kontakte. Die Arbeit in den Teams ist besser.'",
+      "explanation_en": "The boss says: 'Now there are more contacts. The work in the teams is better.'"
+    }
+  ],
+  "source": "goethe-uebungssatz"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "a2-schreiben-aufgabe-1-007",
+  "level": "A2",
+  "skill": "schreiben",
+  "task": 1,
+  "title": "SMS an Freund Leonhard — Neue Wohnung",
+  "instructions": "Sie sind letzte Woche umgezogen und wohnen jetzt in einer neuen Wohnung. Schreiben Sie Ihrem Freund Leonhard eine SMS. Schreiben Sie 20–30 Wörter. Schreiben Sie zu allen drei Punkten.",
+  "situation_de": "Sie sind letzte Woche umgezogen und wohnen jetzt in einer neuen Wohnung. Schreiben Sie Ihrem Freund Leonhard eine SMS: Informieren Sie ihn, wo Sie jetzt wohnen. Schreiben Sie, was Ihnen dort gefällt. Laden Sie Ihren Freund in die neue Wohnung ein.",
+  "situation_en": "You moved last week and now live in a new apartment. Write your friend Leonhard an SMS: Inform him where you now live. Write what you like there. Invite your friend to the new apartment.",
+  "target_word_count": 25,
+  "required_points": [
+    "Informieren, wo man jetzt wohnt (Inform where you now live)",
+    "Schreiben, was dort gefällt (Write what you like there)",
+    "Den Freund in die neue Wohnung einladen (Invite the friend to the new apartment)"
+  ],
+  "model_answer": {
+    "text_de": "Hallo Leonhard, ich bin umgezogen! Ich wohne jetzt in der Mozartstraße, im Zentrum. Die Wohnung ist hell und hat einen Balkon. Komm mich bald besuchen! Liebe Grüße",
+    "text_en": "Hello Leonhard, I've moved! I now live on Mozartstraße, in the center. The apartment is bright and has a balcony. Come visit me soon! Best wishes"
+  },
+  "scoring_criteria": [
+    "Aufgabenerfüllung: Alle drei Inhaltspunkte sind behandelt (Task fulfillment: All three content points are addressed)",
+    "Register: Situations- und partneradäquat — informelle SMS an einen Freund (Register: Appropriate to situation and partner — informal SMS to a friend)",
+    "Wortschatz und Strukturen: Einfacher, angemessener Wortschatz auf A2-Niveau (Vocabulary and structures: Simple, appropriate vocabulary at A2 level)",
+    "Textlänge: 20–30 Wörter (Text length: 20–30 words)"
+  ],
+  "source": "goethe-uebungssatz"
+}
