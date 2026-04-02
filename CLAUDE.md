@@ -55,7 +55,9 @@ Python-based German language learning resources and content:
 - Certificate guides for CEFR levels (A1-C2)
 - Python tools for loading and querying vocabulary data
 - B1 exam practice exercises (75 exercises, Goethe-Institut format — see [#299](https://github.com/stharrold/german/issues/299))
-- A2 exam practice exercises (65 exercises, Goethe-Institut format — #321)
+- A2 exam practice exercises (91 exercises, incl. 26 official Goethe-Institut — #321)
+- Adaptive learning engine with CLI drill sessions (#363)
+- Goethe-Institut A2 reference materials (Modellsatz, Übungssatz, Wortliste markdown exports)
 - A1 exam practice exercises (60 exercises, Goethe-Institut format — #334)
 - B2 exam practice exercises (65 exercises, Goethe-Institut format — #335)
 - C1 exam practice exercises (65 exercises, Goethe-Institut format — #336)
@@ -101,6 +103,14 @@ Python-based German language learning resources and content:
 - `release_workflow.py tag-release` creates git tags but NOT GitHub Releases — run `gh release create vX.Y.Z` separately after tagging
 - After hash-based answer redistribution, check for exercises with all-same answers — manually swap option content to fix outliers (hash over 5 questions × 3 options can produce all-same by chance)
 - AI-generated German content may have article/case errors (e.g., "einen Programm" for neuter *das Programm*) — review grammar in generated text, especially articles with borrowed/compound nouns
+- pdfplumber linearizes two-column PDF layouts — entries from left and right columns interleave on single lines; parsers must split on patterns, not treat lines as entries
+- pdfplumber garbles PDF form fields (rotated/mirrored text in score sheets) — pages with `Bewertungsbogen` may contain reversed text
+- Goethe exam Hören Teil 2/3 use image-based answer options — use `options_image_descriptions` field for textual descriptions since `Question.options` is `list[str]`
+- Exercise models have optional `source` field for provenance tracking — use "ai-generated", "goethe-modellsatz", or "goethe-uebungssatz"
+- VocabularyWord enriched schema has optional fields: `source`, `examples_de`, `examples_en`, `verb_forms`, `thematic_group`, `separable_prefix` — all backward compatible
+- Adaptive concepts are auto-derived from `{level}-{skill}-teil-{part}` — no manual tagging needed
+- Student profile stored at `~/.german/profile.json` — not in the repo
+- Cross-repo tooling: use `../library/` for PDF sources, `../media-intelligence/` for audio transcription — outputs stay in those repos
 
 ## Branch Structure
 
@@ -127,6 +137,8 @@ uv run pytest                              # All tests
 uv run ruff check .                        # Lint
 uv run pre-commit run --all-files          # Pre-commit hooks
 uv run mypy src/                           # Type checking
+uv run python -m german.adaptive --level a2  # Adaptive drill session
+uv run python -m german.adaptive --stats      # Progress dashboard
 ```
 
 ## Code Architecture
@@ -134,14 +146,20 @@ uv run mypy src/                           # Type checking
 ```
 src/german/
 ├── __init__.py
-├── models.py             # Pydantic: VocabularyWord, Gender, PartOfSpeech
+├── models.py             # Pydantic: VocabularyWord, VerbForms, Gender, PartOfSpeech
 ├── vocabulary/
 │   ├── loader.py          # JSON → VocabularyWord objects (UTF-8)
 │   └── query.py           # Filter by POS, gender, lookup
-└── exams/
-    ├── models.py          # Pydantic: ListeningExercise, ReadingExercise, WritingExercise, SpeakingExercise
-    ├── loader.py          # JSON → Exercise objects (generic TypeVar loader)
-    └── query.py           # Filter by skill, part, question type
+├── exams/
+│   ├── models.py          # Pydantic: ListeningExercise, ReadingExercise, WritingExercise, SpeakingExercise
+│   ├── loader.py          # JSON → Exercise objects (generic TypeVar loader)
+│   └── query.py           # Filter by skill, part, question type
+└── adaptive/
+    ├── concepts.py        # 48 auto-derived exam concepts (A1-C2, Lesen+Hören)
+    ├── profiler.py        # StudentProfile — gain/decay proficiency tracking (~/.german/profile.json)
+    ├── scorer.py           # Score MC, true/false, matching answers
+    ├── selector.py         # Priority-based exercise selection
+    └── cli.py              # Interactive drill: `python -m german.adaptive`
 
 resources/vocabulary/
 ├── nouns.json             # German nouns with gender, plural
@@ -153,7 +171,7 @@ resources/vocabulary/
 
 **Vocabulary schema:**
 ```json
-{"words": [{"german": "...", "english": "...", "part_of_speech": "...", "gender": "..."}]}
+{"words": [{"german": "...", "english": "...", "part_of_speech": "...", "gender": "...", "level": "...", "source": "...", "verb_forms": {...}, "examples_de": [...]}]}
 ```
 
 ## Content Architecture
@@ -161,6 +179,7 @@ resources/vocabulary/
 ```
 input/                          # Certificate guides (A1-C2, resource links)
 resources/supplementary/         # B1 listening topics (20 topics, bilingual prose)
+resources/reference/goethe-a2/   # Markdown exports of official Goethe PDFs (Modellsatz, Übungssatz, Wortliste)
 resources/vocabulary/            # JSON word lists (nouns, verbs, adjectives)
 resources/exams/a1/              # A1 exam practice exercises (60, Goethe-Institut format)
 ├── hoeren/teil-{1-3}/          # Listening (3 parts, 5 exercises each)
